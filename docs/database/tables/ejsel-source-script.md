@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_source_script"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejsel\_source\_script Table (394)
+
+This table stores a selection script source
 
 ## Fields
 

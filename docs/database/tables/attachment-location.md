@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "attachment_location"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # attachment\_location Table (471)
+
+A location for storing attachments
 
 ## Fields
 
@@ -30,11 +32,21 @@ so.envir:
 
 ![attachment_location table relationship diagram](./media/attachment_location.png)
 
+[!include[details](./includes/attachment-location.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |attachment\_location\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+
 
 ## Replication Flags
 

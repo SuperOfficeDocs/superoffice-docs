@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TypicalSearch"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TypicalSearch Table (487)
+
+Owner of a set of predefined selection criteria
 
 ## Fields
 
@@ -36,12 +38,21 @@ so.envir:
 
 ![TypicalSearch table relationship diagram](./media/TypicalSearch.png)
 
+[!include[details](./includes/typicalsearch.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |typicalsearch\_id |PK |Clustered, Unique |
 |EntityName, Source |String(255), String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

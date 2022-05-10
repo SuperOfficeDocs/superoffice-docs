@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_attachment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_attachment Table (284)
+
+This table connects FAQ entries to attachments.
 
 ## Fields
 
@@ -35,6 +37,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |entry\_id |FK |Index |
 |attachment\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+
 
 ## Replication Flags
 

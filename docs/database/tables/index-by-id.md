@@ -5,7 +5,7 @@ description: Lists all tables in the database by table ID.
 so.generated: true
 keywords:
   - "database"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,7 +32,7 @@ so.envir:
 |10| [document](document.md) |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.  |
 |11| [project](project.md) |Projects|
 |12| [projectmember](projectmember.md) |Project members. Link-table between person and project|
-|13| [sale](sale.md) |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the previous version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  |
+|13| [sale](sale.md) |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  |
 |14| [contactinterest](contactinterest.md) |Link-table between contact and interests in ContInt|
 |15| [personinterest](personinterest.md) |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest.|
 |16| [ziptocity](ziptocity.md) |Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http://techdoc.superoffice.com |
@@ -176,7 +176,7 @@ so.envir:
 |154| [ReasonStalled](reasonstalled.md) |Why was the sale marked as stalled|
 |155| [ReasonStalledGroupLink](reasonstalledgrouplink.md) |Link table for ReasonStalled, for MDO item hiding|
 |156| [ReasonStalledHeadingLink](reasonstalledheadinglink.md) |Heading link table for ReasonStalled, for MDO headers|
-|157| [SaleHist](salehist.md) |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the previous record of the sale is moved here. |
+|157| [SaleHist](salehist.md) |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here. |
 |158| [udsalesmall](udsalesmall.md) |User-defined fields|
 |159| [udsalelarge](udsalelarge.md) |User-defined fields|
 |160| [SaleTypeStageLink](saletypestagelink.md) |Many-many link table between sale type and stage; and an anchor point for guide items|
@@ -511,7 +511,15 @@ so.envir:
 |490| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
 |491| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
 |492| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
-|493| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
-|494| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
-|495| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
+|493| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
+|494| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
+|495| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
+|496| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
+|497| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
+|498| [target\_revision](target-revision.md) |One batch of changes made to targets|
+|499| [target\_change](target-change.md) |A single field change.|
+|500| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
+|501| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
+|502| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
+|503| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
 

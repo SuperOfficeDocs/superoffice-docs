@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DocTmpl"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -66,6 +66,19 @@ DocTmpl list table. Describes templates available for writing new documents.
 |--------|-------|-------------|
 |DocTmpl\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ConsentSource](consentsource.md)  |Consent source for GDPR |
+|[DocTmplGroupLink](doctmplgrouplink.md)  |User group link table for DocTmpl, for MDO item hiding |
+|[DocTmplHeadingLink](doctmplheadinglink.md)  |Heading link table for DocTmpl, for MDO headers |
+|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
+|[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
+
 
 ## Replication Flags
 

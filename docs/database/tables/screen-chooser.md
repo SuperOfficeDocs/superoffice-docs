@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_chooser"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # screen\_chooser Table (375)
+
+Screen choosers
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |screen\_target |Int |Index |
 |unique\_identifier |String(64) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
+
 
 ## Replication Flags
 

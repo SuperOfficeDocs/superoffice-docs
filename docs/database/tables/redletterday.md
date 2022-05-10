@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "redletterday"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # redletterday Table (17)
+
+Red letter days for calendar (holidays, birthday of king etc)
 
 ## Fields
 
@@ -41,6 +43,13 @@ so.envir:
 |--------|-------|-------------|
 |redletterday\_id |PK |Unique |
 |country\_id, reddate |FK, DateTime |Clustered |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[country](country.md)  |Country information |
+
 
 ## Replication Flags
 

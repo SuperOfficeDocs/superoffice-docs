@@ -13,6 +13,8 @@ so.client: online
 
 The following table is meant to assist you in determining which OAuth/OpenID Connect flow is best suited for your application type.
 
+[!include[Deprecated OAuth flows](includes/implicit-hybrid-deprecated.md)]
+
 ## Authentication scenarios for various app types
 
 | App type | Native/mobile app | Single-page app (SPA) | Regular web app | non-interactive backend / API |

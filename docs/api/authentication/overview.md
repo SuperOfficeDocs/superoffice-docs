@@ -36,19 +36,14 @@ At NetServers' core are business entity and table row collections. They provide 
 
 The objective here is to introduce you to the APIs and help get you past the first hurdle, authentication. All of the following sections assume you have access to an onsite SuperOffice database or online tenant. Each section defines the dependencies required to successfully authenticate with the corresponding API.
 
-> [!NOTE]
-> The development environment used in these examples is Visual Studio and the language used is C#.
->
-> TO get started, **install or download** the relevant nuget packages to obtain the necessary DLLs and or COM interop libraries to complete the code examples.
-
 ## Options
 
 * [About SuperOffice Online Identity Provider][3]
   * [How to authenticate using OAuth 2.0 / OpenID Connect][16]
-* [COM][6]
-* [NetServer Core & Service proxy authentication using SoSession][7]
 * [SuperOffice REST / WebAPI web services][8]
 * [NetServer web service custom proxies][9]
+* [NetServer Core & Service proxy authentication using SoSession][7]
+* [COM][6]
 
 ## NetServer configuration
 
@@ -59,7 +54,7 @@ All integrations that use one of the following nuget packages require an [applic
 
 This is not the case for integrations that use the [SuperOffice.WebApi][8] nuget package, or generate their own web service proxies from [SOAP WSDL][13] or [REST Swagger][14] files.
 
-> [!WARN]
+> [!WARNING]
 > The database connection settings are defined in the [Data element][1] of the application configuration. This is often the cause of connectivity issue, so if necessary consult the [NetServer configuration docs][15] to better understand those settings.
 
 You might also be interested in:
@@ -75,7 +70,7 @@ You might also be interested in:
 [5]: onsite/config-external-user.md
 [6]: onsite/com/index.md
 [7]: onsite/sosession/index.md
-[8]: webapi/index.md
+[8]: ../web-services/webapi/index.md
 [9]: onsite/custom-proxies/index.md
 [10]: ../config/index.md
 [11]: ../../automation/overview.md

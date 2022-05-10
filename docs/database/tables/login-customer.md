@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "login_customer"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # login\_customer Table (298)
+
+This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins
 
 ## Fields
 
@@ -43,6 +45,13 @@ so.envir:
 |customer\_id |FK |Index |
 |session\_key |String(32) |Index |
 |origin |Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

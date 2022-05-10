@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ej_role"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ej\_role Table (323)
+
+Define access rights, memberships and other properties for role user members
 
 ## Fields
 
@@ -38,6 +40,17 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |user\_group |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[role\_category](role-category.md)  |Category membership associated with a role |
+|[role\_element](role-element.md)  |Profiles associated with a role |
+|[role\_member](role-member.md)  |Users linked to a role. Deprecated. |
+|[role\_workflow](role-workflow.md)  |Knowledge base workflow access rights associated with a role |
+
 
 ## Replication Flags
 

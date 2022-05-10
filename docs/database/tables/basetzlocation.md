@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "BaseTZLocation"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # BaseTZLocation Table (248)
+
+Time zone location for the database (how tz-related datetimes should be stored in the database)
 
 ## Fields
 
@@ -40,6 +42,14 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |BaseTZLocation\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[TZLocation](tzlocation.md)  |Time zone location |
+
 
 ## Replication Flags
 

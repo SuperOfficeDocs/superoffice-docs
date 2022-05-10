@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "History"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # History Table (53)
+
+History lists for lists and searchable controls. Maintains history for Navigator or other search (find dialogs). A single table may have more than one record here, as indicated by the extra_id field. The HistorySize (preference may be set in maintenance client) defines how many records you can have in a history list.
 
 ## Fields
 
@@ -39,6 +41,13 @@ so.envir:
 |history\_id |PK |Clustered, Unique |
 |rank |UShort |Index |
 |associate\_id, table\_id, extra\_id |FK, TableNumber, Id |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

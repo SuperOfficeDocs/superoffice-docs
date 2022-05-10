@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "projectmember"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # projectmember Table (12)
+
+Project members. Link-table between person and project
 
 ## Fields
 
@@ -45,6 +47,18 @@ so.envir:
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |project\_id, rank |FK, UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[PMembType](pmembtype.md)  |PMembType list table. List text of titles (member types) for project members. |
+|[project](project.md)  |Projects |
+|[text](text.md)  |Long text fields from all over the system |
+
 
 ## Replication Flags
 

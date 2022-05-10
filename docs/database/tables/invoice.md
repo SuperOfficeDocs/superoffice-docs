@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "invoice"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # invoice Table (265)
+
+This table contains invoice entries, normally created when an invoice is sent to a customer, and we want to update the balance.
 
 ## Fields
 
@@ -39,6 +41,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |customer\_id |FK |Index |
 |company\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

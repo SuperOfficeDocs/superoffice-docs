@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ContInt"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,17 @@ ContInt list table. List-text of all valid contact interest types.
 |--------|-------|-------------|
 |ContInt\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contactinterest](contactinterest.md)  |Link-table between contact and interests in ContInt |
+|[ContIntGroupLink](contintgrouplink.md)  |User group link table for ContInt, for MDO item hiding |
+|[ContIntHeadingLink](contintheadinglink.md)  |Heading link table for ContInt, for MDO headers |
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
+
 
 ## Replication Flags
 

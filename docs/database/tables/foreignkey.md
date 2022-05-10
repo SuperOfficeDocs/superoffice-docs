@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "foreignkey"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # foreignkey Table (183)
+
+Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables.
 
 ## Fields
 
@@ -47,6 +49,14 @@ so.envir:
 |seqno |Id |Index |
 |subkey |String(239) |Index |
 |subvalue |String(239) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[foreigndevice](foreigndevice.md)  |Middle level of Foreign Key system |
+
 
 ## Replication Flags
 

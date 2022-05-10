@@ -4,7 +4,7 @@ so.date: 10.20.2021
 so.version: 10
 ---
 
-# New and improved  Service
+# New and improved Service
 
 * [Forms – Publish options (10.0.1)][1]
 * [Languages – 5 new UI languages on all modules (10.0.6)][6]

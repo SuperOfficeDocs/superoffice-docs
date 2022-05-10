@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TabOrder"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TabOrder Table (152)
+
+Order of tabs within a tab control, if configured by a user
 
 ## Fields
 
@@ -40,6 +42,13 @@ so.envir:
 |--------|-------|-------------|
 |TabOrder\_id |PK |Clustered, Unique |
 |associateId, tabName |FK, String(239) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

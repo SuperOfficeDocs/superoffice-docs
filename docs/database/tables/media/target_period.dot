@@ -1,0 +1,13 @@
+digraph target_period  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+target_period[fillcolor = "cadetblue1"]
+target_group[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+target_assignment_value[fillcolor = "azure1"]
+target_period -> target_group [headlabel = "target_group_id"]
+target_period -> associate [headlabel = "registered_associate_id"]
+target_period -> associate [label = "updated_associate_id"]
+target_assignment_value -> target_period [label = "target_period_id"]
+}

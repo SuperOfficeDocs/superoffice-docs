@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteLineConfiguration"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # QuoteLineConfiguration Table (445)
+
+Configuration of quote lines - which fields are in use, rights, labels etc
 
 ## Fields
 
@@ -45,6 +47,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |quotelineconfiguration\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

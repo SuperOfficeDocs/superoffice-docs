@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OLEField"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # OLEField Table (165)
+
+Control data table for the OLE DB Provider
 
 ## Fields
 
@@ -47,6 +49,15 @@ so.envir:
 |OLEView\_id |FK |Index |
 |fieldId |FieldId |Index |
 |OLEView\_id, fieldId |FK, FieldId |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[OLEView](oleview.md)  |Control data table for the OLE DB Provider |
+|[ReporterListDef](reporterlistdef.md)  |Reporter definitions |
+
 
 ## Replication Flags
 

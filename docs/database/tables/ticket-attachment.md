@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_attachment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_attachment Table (256)
+
+This table connects an attachment to a message. It references the entry in the attachment table, and the message.
 
 ## Fields
 
@@ -37,6 +39,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
 |message\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+
 
 ## Replication Flags
 

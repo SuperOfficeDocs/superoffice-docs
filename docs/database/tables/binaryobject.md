@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "BinaryObject"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # BinaryObject Table (205)
+
+Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items
 
 ## Fields
 
@@ -48,6 +50,14 @@ so.envir:
 |conceptualType |String(254) |Index |
 |mimeType |String(254) |Index |
 |extraInfo |String(254) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[BinaryObjectLink](binaryobjectlink.md)  |Link table, connects a BinaryObject with one or more owners |
+
 
 ## Replication Flags
 

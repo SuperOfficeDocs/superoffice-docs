@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "session_object"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # session\_object Table (254)
+
+Generic session object, accessible from ejscript etc, typically xml or name=value syntax, may be stored over several rows if big
 
 ## Fields
 
@@ -38,6 +40,13 @@ so.envir:
 |id |PK |Clustered, Unique |
 |login\_id |FK |Index |
 |name |String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[login](login.md)  |This table contains entries for the user sessions.  |
+
 
 ## Replication Flags
 

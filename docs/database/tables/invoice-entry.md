@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "invoice_entry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # invoice\_entry Table (360)
+
+This table contain all invoices, connected to a message
 
 ## Fields
 
@@ -43,6 +45,14 @@ so.envir:
 |message\_id |FK |Index |
 |type |FK |Index |
 |date\_invoiced |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[invoice\_type](invoice-type.md)  |A invoiceable item category (a product or service) that provides default invoice line values |
+
 
 ## Replication Flags
 

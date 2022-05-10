@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ej_message"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ej\_message Table (258)
+
+This table contains the messages listed under tickets.
 
 ## Fields
 
@@ -64,6 +66,25 @@ so.envir:
 |html\_body\_attachment |FK |Index |
 |search\_title, body, html\_body |String(255), Clob, Clob |Full text |
 |created\_at |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[inbox](inbox.md)  |Info and status for safe email import |
+|[invoice\_entry](invoice-entry.md)  |This table contain all invoices, connected to a message |
+|[message\_customers](message-customers.md)  |This table contains all cutomers who are involved in a message |
+|[message\_header](message-header.md)  |This table contains small pieces of information which is listed over the body for each message. |
+|[outbox](outbox.md)  |Outgoing emails with sending status and other info |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_attachment](ticket-attachment.md)  |This table connects an attachment to a message. It references the entry in the attachment table, and the message. |
+|[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
+|[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
+
 
 ## Replication Flags
 

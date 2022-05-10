@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "foreigndevice"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # foreigndevice Table (182)
+
+Middle level of Foreign Key system
 
 ## Fields
 
@@ -46,6 +48,15 @@ so.envir:
 |device\_id |String(239) |Index |
 |foreignapp\_id |FK |Index |
 |owner\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[foreignapp](foreignapp.md)  |Top level of Foreign Key system |
+|[foreignkey](foreignkey.md)  |Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables. |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_entry_words"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_entry\_words Table (354)
+
+This table contains all the words and how many times the are refered                  to in the FAQ entires
 
 ## Fields
 
@@ -35,6 +37,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |word |String(63) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[word\_relations](word-relations.md)  |This table shows which word are used in which FAQ entry, and how many times            they are used in each |
+
 
 ## Replication Flags
 

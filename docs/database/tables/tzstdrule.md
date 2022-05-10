@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TZStdRule"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TZStdRule Table (246)
+
+Time zone rule for standard time
 
 ## Fields
 
@@ -42,6 +44,14 @@ so.envir:
 |--------|-------|-------------|
 |TZStdRule\_id |PK |Clustered, Unique |
 |TZLocationId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[TZLocation](tzlocation.md)  |Time zone location |
+
 
 ## Replication Flags
 

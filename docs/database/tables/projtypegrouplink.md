@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjTypeGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ProjTypeGroupLink Table (86)
+
+User group link table for ProjType, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |projtypegrouplink\_id |PK |Clustered, Unique |
 |projtype\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ProjType](projtype.md)  |ProjType list table. List of valid Project types. |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

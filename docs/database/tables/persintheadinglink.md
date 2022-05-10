@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PersIntHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PersIntHeadingLink Table (75)
+
+Heading link table for PersInt, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |persintheadinglink\_id |PK |Clustered, Unique |
 |persint\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[PersInt](persint.md)  |PersInt list table. List of Person interests. |
+
 
 ## Replication Flags
 

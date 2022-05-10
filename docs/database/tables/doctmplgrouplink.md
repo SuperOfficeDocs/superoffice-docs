@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DocTmplGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # DocTmplGroupLink Table (131)
+
+User group link table for DocTmpl, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |doctmplgrouplink\_id |PK |Clustered, Unique |
 |doctmpl\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[DocTmpl](doctmpl.md)  |DocTmpl list table. Describes templates available for writing new documents. |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

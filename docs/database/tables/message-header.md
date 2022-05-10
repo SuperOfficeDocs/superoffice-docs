@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "message_header"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # message\_header Table (259)
+
+This table contains small pieces of information which is listed over the body for each message.
 
 ## Fields
 
@@ -38,6 +40,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |message\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+
 
 ## Replication Flags
 

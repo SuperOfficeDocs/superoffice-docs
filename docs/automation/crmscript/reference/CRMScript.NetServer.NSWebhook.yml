@@ -24,7 +24,7 @@ items:
   - CRMScript.NetServer.NSWebhook.SetEvents(String[])
   - CRMScript.NetServer.NSWebhook.SetHeaders(Map)
   - CRMScript.NetServer.NSWebhook.SetName(String)
-  - CRMScript.NetServer.NSWebhook.SetProperties(Map)
+  - CRMScript.NetServer.NSWebhook.SetProperties(StringObjectDictionary)
   - CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
   - CRMScript.NetServer.NSWebhook.SetRegisteredAssociate(NSAssociate)
   - CRMScript.NetServer.NSWebhook.SetSecret(String)
@@ -122,7 +122,7 @@ items:
   commentId: M:CRMScript.NetServer.NSWebhook.GetProperties()
   id: 'GetProperties()'
   so.intellisense: NSWebhook.GetProperties
-  so.version: 8.2
+  so.version: 10.1.2
   langs:
   - crmscript
   name: 'GetProperties()'
@@ -132,13 +132,13 @@ items:
   summary: # TODO
   remarks: 
   syntax: 
-    content: Map GetProperties()
+    content: StringObjectDictionary GetProperties()
     parameters: []
     return:
-      type: CRMScript.Native.Map
+      type: CRMScript.Native.StringObjectDictionary
       description: "Custom values to inject into JSON body of webhook call."
   example: 
-  - "\n<pre><code>NSWebhook thing;\nMap properties = thing.GetProperties();</code></pre>\n"
+  - "\n<pre><code>NSWebhook thing;\nStringObjectDictionary properties = thing.GetProperties();</code></pre>\n"
 - uid: CRMScript.NetServer.NSWebhook.GetRegistered()
   commentId: M:CRMScript.NetServer.NSWebhook.GetRegistered()
   id: 'GetRegistered()'
@@ -396,28 +396,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSWebhook thing;\nString name;\nthing.SetName(name);</code></pre>\n"
-- uid: CRMScript.NetServer.NSWebhook.SetProperties(Map)
-  commentId: M:CRMScript.NetServer.NSWebhook.SetProperties(Map)
-  id: 'SetProperties(Map)'
+- uid: CRMScript.NetServer.NSWebhook.SetProperties(StringObjectDictionary)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetProperties(StringObjectDictionary)
+  id: 'SetProperties(StringObjectDictionary)'
   so.intellisense: NSWebhook.SetProperties
+  so.version: 10.1.2
   langs:
   - crmscript
-  name: 'SetProperties(Map)'
-  nameWithType: NSWebhook.SetProperties(Map)
-  fullName: CRMScript.NetServer.NSWebhook.SetProperties(Map)
+  name: 'SetProperties(StringObjectDictionary)'
+  nameWithType: NSWebhook.SetProperties(StringObjectDictionary)
+  fullName: CRMScript.NetServer.NSWebhook.SetProperties(StringObjectDictionary)
   type: Method
   summary: # TODO
   remarks: 
   syntax: 
-    content: Void SetProperties(Map properties)
+    content: Void SetProperties(StringObjectDictionary properties)
     parameters:
     - id: properties
-      type: CRMScript.Native.Map
+      type: CRMScript.Native.StringObjectDictionary
       description: "Custom values to inject into JSON body of webhook call."
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<pre><code>NSWebhook thing;\nMap properties;\nthing.SetProperties(properties);</code></pre>\n"
+  - "\n<pre><code>NSWebhook thing;\nStringObjectDictionary properties;\nproperties.insertInteger(&quot;foobar&quot;, 42);\nthing.SetProperties(properties);</code></pre>\n"
 - uid: CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
   commentId: M:CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
   id: 'SetRegistered(DateTime)'
@@ -657,6 +658,12 @@ references:
   name: Map
   nameWithType: Map
   fullName: CRMScript.Native.Map
+- uid: CRMScript.Native.StringObjectDictionary
+  commentId: T:CRMScript.Native.StringObjectDictionary
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: CRMScript.Native.StringObjectDictionary
 - uid: CRMScript.Global.DateTime
   commentId: T:CRMScript.Global.DateTime
   isExternal: true

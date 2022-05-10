@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ExternalEvent"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ExternalEvent Table (233)
+
+The definition of projects as events in Audience (or other Collaborative apps)
 
 ## Fields
 
@@ -58,6 +60,15 @@ so.envir:
 |eventDate |DateTime |Index |
 |parentTable |TableNumber |Index |
 |parentRecord |RecordId |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
+|[text](text.md)  |Long text fields from all over the system |
+
 
 ## Replication Flags
 

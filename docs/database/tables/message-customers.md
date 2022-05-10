@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "message_customers"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # message\_customers Table (260)
+
+This table contains all cutomers who are involved in a message
 
 ## Fields
 
@@ -36,6 +38,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |message\_id |FK |Index |
 |customer\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

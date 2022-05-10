@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleTypeHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SaleTypeHeadingLink Table (151)
+
+Heading link table for SaleType, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |saletypeheadinglink\_id |PK |Clustered, Unique |
 |saletype\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
+
 
 ## Replication Flags
 

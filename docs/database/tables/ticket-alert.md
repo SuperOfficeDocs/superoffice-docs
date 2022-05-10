@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_alert"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_alert Table (274)
+
+This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels.
 
 ## Fields
 
@@ -58,6 +60,17 @@ so.envir:
 |reply\_template\_id\_user\_sms |FK |Index |
 |reply\_template\_id\_catmast\_sms |FK |Index |
 |reply\_template\_id\_sms |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejscript](ejscript.md)  |ejscript |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
+|[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
+|[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+
 
 ## Replication Flags
 

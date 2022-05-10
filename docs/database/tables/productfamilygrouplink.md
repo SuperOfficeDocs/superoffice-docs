@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductFamilyGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ProductFamilyGroupLink Table (412)
+
+User group link table for ProductFamily, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |productfamilygrouplink\_id |PK |Clustered, Unique |
 |productfamily\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ProductFamily](productfamily.md)  |List for the ProductFamily field of the Product table (Quote Management) |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

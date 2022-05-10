@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_source_idlist"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejsel\_source\_idlist Table (393)
+
+This table stores id list source for selections
 
 ## Fields
 

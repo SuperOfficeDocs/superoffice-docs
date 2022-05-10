@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "category_membership"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # category\_membership Table (270)
+
+This table connects users to categories (many-to-many).
 
 ## Fields
 
@@ -36,6 +38,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |category\_id |FK |Index |
 |user\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

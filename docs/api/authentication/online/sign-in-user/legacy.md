@@ -14,7 +14,7 @@ so.client: online
 Before introducing OAuth 2.0, our web services used SuperOffice legacy federated authentication. This is no longer the preferred method.
 
 > [!CAUTION]
-> We recommend that you use the [standard OAuth 2.0 user authentication][1].
+> This form of authentication is deprecated. You must use [standard OAuth 2.0 user authentication][1].
 
 **Pre-requisites:**
 

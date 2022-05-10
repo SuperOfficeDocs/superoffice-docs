@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Tags"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,12 +36,25 @@ MDO List of tags for Service entities
 
 ![Tags table relationship diagram](./media/Tags.png)
 
+[!include[details](./includes/tags.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |tags\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
+|[TagsGroupLink](tagsgrouplink.md)  |User group link table for Tags, for MDO item hiding |
+|[TagsHeadingLink](tagsheadinglink.md)  |Heading link table for Source, for MDO headers |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+
 
 ## Replication Flags
 

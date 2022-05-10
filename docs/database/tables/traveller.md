@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "traveller"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # traveller Table (31)
+
+Associates traveling out from this database
 
 ## Fields
 
@@ -48,6 +50,15 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |traveller\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[activeuser](activeuser.md)  |Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use: for determining who is logged on, at what location, etc. |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[traveltransactionlog](traveltransactionlog.md)  |Log of all updates made to the database, that need to be replicated. |
+
 
 ## Replication Flags
 

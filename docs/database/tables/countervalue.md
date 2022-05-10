@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CounterValue"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # CounterValue Table (197)
+
+Visible for rights
 
 ## Fields
 
@@ -63,6 +65,18 @@ so.envir:
 |project\_id, sale\_status |FK, Enum |Index |
 |record\_type, direction, intent\_id |Enum, Enum, FK |Index |
 |sale\_status, amountClassId |Enum, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[project](project.md)  |Projects |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PriceUnit"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,15 @@ The list of price units, in the internal product register (meter, ton, bushel, m
 |--------|-------|-------------|
 |priceunit\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[PriceUnitGroupLink](priceunitgrouplink.md)  |User group link table for PriceUnit, for MDO item hiding |
+|[PriceUnitHeadingLink](priceunitheadinglink.md)  |Heading link table for PriceUnit, for MDO item headings |
+
 
 ## Replication Flags
 

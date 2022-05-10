@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ziptocity"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ziptocity Table (16)
+
+Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http;//techdoc.superoffice.com
 
 ## Fields
 
@@ -37,6 +39,13 @@ so.envir:
 |ziptocity\_id |PK |Clustered, Unique |
 |city |String(79) |Index |
 |country\_id, zipcode |FK, String(11) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[country](country.md)  |Country information |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UsageStats"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # UsageStats Table (190)
+
+Usage statistics
 
 ## Fields
 
@@ -41,6 +43,13 @@ so.envir:
 |--------|-------|-------------|
 |UsageStats\_id |PK |Clustered, Unique |
 |assoc\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

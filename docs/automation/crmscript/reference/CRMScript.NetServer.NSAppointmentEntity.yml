@@ -496,7 +496,7 @@ items:
       type: CRMScript.Native.Map
       description: "Map containing user defined and extra field values by field name."
   example: 
-  - "\n<pre><code>NSAppointmentEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+  - "\n<pre><code>NSAppointmentEntity thing;\nMap fields = thing.GetCustomFields();\nString oldValue = fields.get(&quot;SuperOffice:1&quot;);\nfields.insert(&quot;SuperOffice:1&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetDescription()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetDescription()
   id: 'GetDescription()'
@@ -559,7 +559,7 @@ items:
       type: CRMScript.Native.Map
       description: "Map containing extra field values by field name."
   example: 
-  - "\n<pre><code>NSAppointmentEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+  - "\n<pre><code>NSAppointmentEntity thing;\nMap fields = thing.GetExtraFields();\nString oldValue = fields.get(&quot;x_foobar&quot;);\nfields.insert(&quot;x_foobar&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetFreeBusy()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetFreeBusy()
   id: 'GetFreeBusy()'
@@ -1309,7 +1309,7 @@ items:
       type: CRMScript.Native.Map
       description: "Map containing user defined field values by field prog.id."
   example: 
-  - "\n<pre><code>NSAppointmentEntity thing;\nMap udefs = thing.GetUserDefinedFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+  - "\n<pre><code>NSAppointmentEntity thing;\nMap fields = thing.GetUserDefinedFields();\nString oldValue = fields.get(&quot;SuperOffice:1&quot;);\nfields.insert(&quot;SuperOffice:1&quot;, &quot;NewValue&quot;);\nfor (fields.first(); !fields.eof(); fields.next())\n  printLine(fields.getKey() + &quot;:  &quot; + fields.getVal());</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetVisibleFor()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetVisibleFor()
   id: 'GetVisibleFor()'

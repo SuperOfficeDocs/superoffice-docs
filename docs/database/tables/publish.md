@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Publish"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # Publish Table (200)
+
+Publishing system for external users
 
 ## Fields
 
@@ -45,6 +47,13 @@ so.envir:
 |Publish\_id |PK |Clustered, Unique |
 |publishType |Enum |Index |
 |tableNumber, recordId, publishType |TableNumber, RecordId, Enum |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

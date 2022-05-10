@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ReasonStalledGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ReasonStalledGroupLink Table (155)
+
+Link table for ReasonStalled, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |reasonstalledgrouplink\_id |PK |Clustered, Unique |
 |reasonstalled\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ReasonStalled](reasonstalled.md)  |Why was the sale marked as stalled |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

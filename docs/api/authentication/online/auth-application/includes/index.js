@@ -1,9 +1,14 @@
 const crypto = require('crypto');
 const moment = require('moment');
 const fs = require('fs');
-const request = require('request');
+const axios = require('axios');
 const jwt = require('jsonwebtoken');
-const xml2js = require('xml2js');
+
+// specify the environment
+// sod      => development
+// qastage  => stage
+// online   => production
+const env = 'sod';
 
 // Partner Application Token (AKA Client Secret)
 const appToken = 'YOUR_APPLICATION_TOKEN_GOES_HERE';
@@ -21,102 +26,81 @@ const privKeyFile = 'privatekey.pem';
 // SuperOffice public key (SOD) 
 // Open SuperOfficeFederatedLogin.crt in notepad,
 // save contents as SuperOfficeFederatedLogin.pem
-
 const publKeyFile = 'SuperOfficeFederatedLogin.pem';
 
-fs.readFile(privKeyFile, 'utf8', function (err, rsaPrivateKey) {
-
-  if (err) {
-      return console.log(err);
-  }
-  console.log(rsaPrivateKey);
-  const utcTimestamp = moment.utc().format('YYYYMMDDHHmm');
-  const data = `${systemToken}.${utcTimestamp}`;
-  console.log('');
-  console.log('Token.Time: ' + data);
-  let sign = crypto.createSign('SHA256');
-  sign.update(data);
-  sign.end();
-  sign = sign.sign(rsaPrivateKey, 'base64');
-  const signedToken = `${data}.${sign}`;
-  console.log('');
-  console.log('Signed Token: ' + signedToken);
-  var soapEnvelope = `<?xml version="1.0" encoding="UTF-8"?>
-  <SOAP-ENV:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/"
-                                      xmlns:ns1="http://www.superoffice.com/superid/partnersystemuser/0.1"
-                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                      xmlns:tns="http://www.superoffice.com/superid/partnersystemuser/0.1"
-                                      xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-    <SOAP-ENV:Header>
-      <tns:ApplicationToken>${appToken}</tns:ApplicationToken>
-      <tns:ContextIdentifier>${contextId}</tns:ContextIdentifier>
-    </SOAP-ENV:Header>
-    <ns0:Body>
-      <ns1:AuthenticationRequest>
-          <ns1:SignedSystemToken>${signedToken}</ns1:SignedSystemToken>
-          <ns1:ReturnTokenType>Jwt</ns1:ReturnTokenType>
-      </ns1:AuthenticationRequest>
-    </ns0:Body>
-  </SOAP-ENV:Envelope>`;
-  console.log('');
-  console.log('SOAP: ' + soapEnvelope);
-  // send the SOAP envelope to SuperOffice!
-  request.post({
-    url: 'https://sod.superoffice.com/login/services/PartnerSystemUserService.svc',
-    body: soapEnvelope,
-    headers: {
-      "Content-Type": "text/xml;charset=UTF-8",
-      "SOAPAction": "http://www.superoffice.com/superid/partnersystemuser/0.1/IPartnerSystemUserService/Authenticate"
-    }
-  }, function (error, response, body) {
-    if (!error) {
-      // convert the XML response to JSON!
-      console.log('');
-      console.log('Response: ' + body);
-      xml2js.parseString(body, { tagNameProcessors: [xml2js.processors.stripPrefix] }, function (err, result) {
-        console.log('');
-        if (err) {
-            console.log('Error converting XML to JSON!');
-        } else {
-          console.log('Converted to JSON: ' + JSON.stringify(result));
-          // drill into the JSON to determine if token was received.
-          var successful = result.Envelope.Body[0].AuthenticationResponse[0].IsSuccessful[0];
-          if (successful === 'true') {
-            // extract the token
-            var token = result.Envelope.Body[0].AuthenticationResponse[0].Token[0];
-            console.log('');
-            console.log('Token: ' + JSON.stringify(token));
-            var verifyOptions = {
-              ignoreExpiration: true,
-              algorithm: ["RS256"]
-            };
-            try {
-              var publicKEY = fs.readFileSync(publKeyFile, 'utf8');
-              // Verify the public SuperOffice certificate is loaded
-              // this is used to validate the JWT sent back from SuperOffice
-              if (publicKEY) {
-                  console.log("good to go!");
-              } else {
-                  console.log("NOT good to go!");
-                  return;
-              }
-              // validate the JWT and extract the claims
-              var decoded = jwt.verify(token, publicKEY, verifyOptions);
-              // write out the ticket to the console, DONE!
-              console.log('');
-              console.log('System User Ticket: ' + decoded["http://schemes.superoffice.net/identity/ticket"]);
-            } catch (err) {
-              console.log('');
-              console.log('Error: ' + err);
-              return false;
-            }
-          } else {
-              console.log('Authentication failed and no token was received!');
-          }
-        }
-      });
-      } else {
-          console.log('Error: ' + error);
+const getSystemUserTicket = async () => {
+  try {
+    const privateKeyFile = fs.readFileSync(privKeyFile,'utf8');
+    const publicKeyFile  = fs.readFileSync(publKeyFile, 'utf8');
+  
+    // prepare the datetime stamp
+    const utcTimestamp = moment.utc().format('YYYYMMDDHHmm');
+    const data = `${systemToken}.${utcTimestamp}`;
+    
+    log('Token.Time: ' + data);
+  
+    // sign the System User token
+    let sign = crypto.createSign('SHA256');
+    sign.update(data);
+    sign.end();
+    sign = sign.sign(privateKeyFile, 'base64');
+    const signedToken = `${data}.${sign}`;
+    
+    log('Signed Token: ' + signedToken);
+  
+    // send the request
+  
+    var postData = {
+        'SignedSystemToken': `${signedToken}`,
+        'ApplicationToken': `${appToken}`,
+        'ContextIdentifier': `${contextId}`,
+        'ReturnTokenType': 'JWT'
+    };
+    
+    let axiosConfig = {
+      headers: {
+          'Content-Type': 'application/json;charset=UTF-8',
+          "Accept": "application/json;charset=UTF-8"
       }
-  });
-});
+    };
+  
+    const jwtRes = await axios.post(`https://${env}.superoffice.com/Login/api/PartnerSystemUser/Authenticate`, postData, axiosConfig);
+  
+    if(jwtRes.data.IsSuccessful)
+    {
+      var token = jwtRes.data.Token;
+  
+      var verifyOptions = {
+        ignoreExpiration: true,
+        algorithm: ["RS256"]
+      };
+    
+      // validate the JWT and extract the claims
+      var decoded = jwt.verify(token, publicKeyFile, verifyOptions);
+      
+      // write out the ticket to the console, DONE!
+      const ticket = decoded["http://schemes.superoffice.net/identity/ticket"];
+      return ticket;
+    } else {
+      log('Getting the System User ticket was unsuccessful: ' + jwtRes.data.ErrorMessage);
+    } 
+  } catch (error) {
+    log("Error: " + error);
+  }  
+}
+
+function log(message) {
+  console.log('')
+  console.log(message)
+}
+
+// Finally, execute the function to get the system user ticket!
+
+(async () => {
+  try {
+    const result = await getSystemUserTicket();
+    log("System User Ticket: " + result);
+  } catch (error) {
+    log(error);
+  }
+})();

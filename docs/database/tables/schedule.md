@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "schedule"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # schedule Table (379)
+
+Generic scheduled tasked handling time scheduling, locking and error messages
 
 ## Fields
 
@@ -57,6 +59,15 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |after\_schedule\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent\_schedule](dbi-agent-schedule.md)  |DBI agent schedule settings |
+|[schedule](schedule.md)  |Generic scheduled tasked handling time scheduling, locking and error messages |
+|[scheduled\_task](scheduled-task.md)  |A scheduled entry executing a script at certain times |
+
 
 ## Replication Flags
 

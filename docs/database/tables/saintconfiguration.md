@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaintConfiguration"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SaintConfiguration Table (458)
+
+Configuration information for the Saint system
 
 ## Fields
 
@@ -37,11 +39,20 @@ so.envir:
 
 ![SaintConfiguration table relationship diagram](./media/SaintConfiguration.png)
 
+[!include[details](./includes/saintconfiguration.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |saintconfiguration\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

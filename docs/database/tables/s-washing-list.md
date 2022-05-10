@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_washing_list"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_washing\_list Table (343)
+
+Unused table that is ment to be used for active washing in spm v2
 
 ## Fields
 
@@ -34,6 +36,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |list\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[s\_list](s-list.md)  |A list, dynamic or static |
+
 
 ## Replication Flags
 

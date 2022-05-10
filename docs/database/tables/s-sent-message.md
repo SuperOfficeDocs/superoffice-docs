@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_sent_message"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_sent\_message Table (405)
+
+Emarketeer message control
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |shipment\_id |FK |Index |
 |message\_id |FK |Index |
 |customer\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+
 
 ## Replication Flags
 

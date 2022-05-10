@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SystemEvent"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SystemEvent Table (153)
+
+System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcasts to keep its siblings and clients updated.
 
 ## Fields
 
@@ -43,6 +45,13 @@ so.envir:
 |--------|-------|-------------|
 |SystemEvent\_id |PK |Clustered, Unique |
 |eventkey, scope, owner |String(254), Id, Id |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

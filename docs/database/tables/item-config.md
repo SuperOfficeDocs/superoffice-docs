@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "item_config"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # item\_config Table (368)
+
+This table is a generic table for storing item configuration. It is only used by the class ItemConfig.
 
 ## Fields
 

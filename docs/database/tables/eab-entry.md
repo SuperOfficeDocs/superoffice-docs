@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "eab_entry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # eab\_entry Table (315)
+
+This table contains eab (email address book) entries, i.e. an alias (&amp;apos;Ola Hansen&amp;apos;) and an address (&amp;apos;ola@hansen.as&amp;apos;).
 
 ## Fields
 
@@ -46,6 +48,14 @@ so.envir:
 |dbi\_key |String(255) |Index |
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[eab\_folder](eab-folder.md)  |This table contains eab (email address book) folders, used for containing email addresses. |
+
 
 ## Replication Flags
 

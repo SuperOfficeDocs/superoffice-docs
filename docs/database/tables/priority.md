@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Priority"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,16 @@ Priority list table. Used with appointments; low, high.
 |--------|-------|-------------|
 |Priority\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[PriorityGroupLink](prioritygrouplink.md)  |User group link table for Priority, for MDO item hiding |
+|[PriorityHeadingLink](priorityheadinglink.md)  |Heading link table for Priority, for MDO headers |
+
 
 ## Replication Flags
 

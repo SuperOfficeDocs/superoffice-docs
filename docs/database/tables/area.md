@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "area"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # area Table (38)
+
+Definition of an Area (database subset for satellite and travel)
 
 ## Fields
 
@@ -44,6 +46,17 @@ so.envir:
 |--------|-------|-------------|
 |area\_id |PK |Clustered, Unique |
 |parent\_area\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[area](area.md)  |Definition of an Area (database subset for satellite and travel) |
+|[areauserassignment](areauserassignment.md)  |Link table indicating which users actually reside in this area. |
+|[areauserinclusion](areauserinclusion.md)  |Link table incidated whose data should be included in this area. If Include all data in Area (no filtering) is ticket then there will be no rows for this area in this table. |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[satellite](satellite.md)  |Definition of Satellites |
+
 
 ## Replication Flags
 

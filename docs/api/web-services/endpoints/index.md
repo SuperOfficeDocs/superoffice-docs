@@ -26,7 +26,7 @@ An endpoint is the address, port, and protocol a web service is exposed at. In s
 
 ### Authorization (WebAPI)
 
-* [Authorization types and how to configure them][3]
+* [Authorization options and how to configure them][3]
 * [How to reuse sessions with XSRF-TOKEN][4]
 
 ### HTTP request headers
@@ -49,8 +49,8 @@ An endpoint is the address, port, and protocol a web service is exposed at. In s
 <!-- Referenced links -->
 [1]: rest-webapi/index.md
 [2]: agents-webapi/index.md
-[3]: ../../authentication/webapi/index.md#options
-[4]: ../../authentication/webapi/reuse-session.md
+[3]: ../webapi/index.md#authorization-header-options
+[4]: ../webapi/index.md#x-xsrf-token
 [5]: http-headers.md#accept-language
 [6]: http-headers.md#content-type
 [7]: http-headers.md#modified-unmodified

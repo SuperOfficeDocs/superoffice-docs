@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UDefField"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,6 +15,8 @@ so.envir:
 
 # UDefField Table (146)
 
+Definition table for user-defined fields; one row in this table corresponds to one generation of one field. The user defined fields that are in use, and earlier versions of user defined fields. ColumnId refers to the field type; see UDXXXSmall or UDXXXLarge for the referring ID.  Preferences prefsection=&apos;System&apos;, prefkey=&apos;CurrentUdefVersioncontact&apos;  (or CurrentUdefVersionperson, project, sale), gives you the current version of user defined fields.  prefkey=&apos;AdminUdefVersion&lt;...&gt;&apos; gives you the current version that&apos;s being edited. If Current version = admin version, no editing has been done since the last Publish of user defined field was performed.
+
 ## Fields
 
 | Name | Description | Type | Null |
@@ -22,7 +24,7 @@ so.envir:
 |UDefField\_Id|Primary key|PK| |
 |ownerTable\_id|ID of owning table (contact, person, project) - this is not the actual tableNumber, rather it&apos;s an enum|UShort| |
 |tabOrder|Tab order value, sets the field processing sequence|UShort| |
-|fieldType|Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Check box, 7 = Drop-down, 8 = Decimal|UShort| |
+|fieldType|Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox|UShort| |
 |listTableId|The table ID of the source table for lists: kTableAssoc, kTableContInt or whatever|TableNumber|&#x25CF;|
 |UDListDefinition\_id|List to use for populating dropdown or listbox|FK [UDListDefinition](udlistdefinition.md)| |
 |columnId|The ID of the database column this field corresponds to|FieldId| |
@@ -67,6 +69,17 @@ so.envir:
 |--------|-------|-------------|
 |UDefField\_Id |PK |Clustered, Unique |
 |ownerTable\_id |UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[text](text.md)  |Long text fields from all over the system |
+|[UDefField](udeffield.md)  |Definition table for user-defined fields; one row in this table corresponds to one generation of one field. The user defined fields that are in use, and earlier versions of user defined fields. ColumnId refers to the field type; see UDXXXSmall or UDXXXLarge for the referring ID.  Preferences prefsection=&apos;System&apos;, prefkey=&apos;CurrentUdefVersioncontact&apos;  (or CurrentUdefVersionperson, project, sale), gives you the current version of user defined fields.  prefkey=&apos;AdminUdefVersion&lt;...&gt;&apos; gives you the current version that&apos;s being edited. If Current version = admin version, no editing has been done since the last Publish of user defined field was performed. |
+|[UDefFieldGL](udeffieldgl.md)  |User group link table for UDefField, for MDO item hiding |
+|[UDListDefinition](udlistdefinition.md)  |List table that contains the list of user-defined lists, as well as system-defined lists. The list items are stored in the UDList table.  |
+
 
 ## Replication Flags
 

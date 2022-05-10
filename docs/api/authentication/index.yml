@@ -12,7 +12,29 @@ metadata:
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
-
+  # Card
+  - title: Online authentication
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: SuperOffice Online and SuperID
+          url: online/index.md
+      - linkListType: concept
+        links:
+          - text: OpenID Connect
+            url: online/api.md
+          - text: Authorization code flow
+            url: online/sign-in-user/auth-code-flow.md
+          - text: Hybrid Flow
+            url: online/sign-in-user/hybrid-flow.md
+          - text: Implicit Flow
+            url: online/sign-in-user/implicit-flow.md
+          - text: Native Apps
+            url: online/sign-in-user/native-apps.md
+      - linkListType: learn
+        links:
+          - text: System User (Backchannel)
+            url: online/auth-application/index.md
   # Card
   - title: Onsite authentication
     linkLists:
@@ -26,30 +48,5 @@ landingContent:
             url: onsite/sosession/index.md
           - text: NetServer Custom Proxies
             url: onsite/custom-proxies/index.md
-          - text: REST WebApi
-            url: webapi/index.md
           - text: COM API
             url: onsite/com/index.md
-  # Card
-  - title: Online authentication
-    linkLists:
-      - linkListType: learn
-        links:
-        - text: SuperOffice Online and SuperID
-          url: online/index.md
-      - linkListType: concept
-        links:
-          - text: OpenID Connect
-            url: online/index.md
-          - text: Authorization code flow
-            url: online/sign-in-user/auth-code-flow.md
-          - text: Hybrid Flow
-            url: online/sign-in-user/hybrid-flow.md
-          - text: Implicit Flow
-            url: online/sign-in-user/implicit-flow.md
-          - text: Native Apps
-            url: online/sign-in-user/native-apps.md
-      - linkListType: learn
-        links:
-          - text: System User (Backchannel)
-            url: online/auth-application/index.md

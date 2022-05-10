@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OnlineApp"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # OnlineApp Table (488)
+
+Echo and track information about Online Apps and their usage
 
 ## Fields
 
@@ -34,12 +36,21 @@ so.envir:
 
 ![OnlineApp table relationship diagram](./media/OnlineApp.png)
 
+[!include[details](./includes/onlineapp.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |onlineapp\_id |PK |Clustered, Unique |
 |clientId |String(255) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

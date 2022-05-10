@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpConnector"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpConnector Table (417)
+
+One ERP Connector, known by its URL
 
 ## Fields
 
@@ -40,6 +42,14 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |erpconnector\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
+
 
 ## Replication Flags
 

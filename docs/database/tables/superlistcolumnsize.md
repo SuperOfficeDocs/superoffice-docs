@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuperListColumnSize"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SuperListColumnSize Table (209)
+
+Stores the relative size (in percent) or in characters of a column in a SuperList
 
 ## Fields
 
@@ -49,6 +51,14 @@ so.envir:
 |--------|-------|-------------|
 |SuperListColumnSize\_id |PK |Clustered, Unique |
 |assoc\_id, listOwner |FK, String(254) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

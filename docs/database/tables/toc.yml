@@ -851,6 +851,20 @@ items:
   href: tagsgrouplink.md
 - name: TagsHeadingLink
   href: tagsheadinglink.md
+- name: target_assignment_info
+  href: target-assignment-info.md
+- name: target_assignment_value
+  href: target-assignment-value.md
+- name: target_change
+  href: target-change.md
+- name: target_group
+  href: target-group.md
+- name: target_period
+  href: target-period.md
+- name: target_revision
+  href: target-revision.md
+- name: target_revision_history
+  href: target-revision-history.md
 - name: Task
   href: task.md
 - name: TaskGroupLink
@@ -981,6 +995,8 @@ items:
   href: webappusage.md
 - name: Webhook
   href: webhook.md
+- name: Webhook_usage
+  href: webhook-usage.md
 - name: WinPosSize
   href: winpossize.md
 - name: word_relations
@@ -1047,6 +1063,8 @@ items:
     href: enums/dashtilemeasure.md
   - name: DashTileType
     href: enums/dashtiletype.md
+  - name: DashTileUsage
+    href: enums/dashtileusage.md
   - name: DeltaState
     href: enums/deltastate.md
   - name: DeltaType
@@ -1093,6 +1111,8 @@ items:
     href: enums/functionrighttype.md
   - name: LicenseType
     href: enums/licensetype.md
+  - name: LogEvent
+    href: enums/logevent.md
   - name: LoginFlags
     href: enums/loginflags.md
   - name: MailboxType
@@ -1165,6 +1185,10 @@ items:
     href: enums/showstate.md
   - name: ShowWindowState
     href: enums/showwindowstate.md
+  - name: TargetEntityType
+    href: enums/targetentitytype.md
+  - name: TargetPeriodType
+    href: enums/targetperiodtype.md
   - name: TaskDirection
     href: enums/taskdirection.md
   - name: TaskType
@@ -1175,8 +1199,6 @@ items:
     href: enums/texttype.md
   - name: TicketBaseStatus
     href: enums/ticketbasestatus.md
-  - name: TicketCategoryClosingStatus
-    href: enums/ticketcategoryclosingstatus.md
   - name: TicketCategoryDelegateMethod
     href: enums/ticketcategorydelegatemethod.md
   - name: TicketCategoryFlags

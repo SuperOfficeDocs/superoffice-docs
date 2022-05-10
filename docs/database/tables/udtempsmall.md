@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udtempSmall"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # udtempSmall Table (144)
+
+User-defined fields. During conversion of user defined fields the data is stored in this table.
 
 ## Fields
 

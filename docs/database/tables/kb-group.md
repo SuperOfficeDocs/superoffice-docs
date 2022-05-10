@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_group"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_group Table (286)
+
+This table contains FAQ groups. A group is a cluster of entries (potentially located anywhere in the FAQ hierarchy). A group is located in a certain category.
 
 ## Fields
 
@@ -44,6 +46,16 @@ so.envir:
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
 |parent\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
+|[kb\_group\_entry](kb-group-entry.md)  |This table contains group entries for FAQ groups. |
+
 
 ## Replication Flags
 

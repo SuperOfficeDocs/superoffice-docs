@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "doc_folder"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # doc\_folder Table (281)
+
+A document folder.
 
 ## Fields
 
@@ -42,6 +44,15 @@ so.envir:
 |folder\_id |FK |Index |
 |title |String(255) |Index |
 |created\_by |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[doc\_document](doc-document.md)  |This table contains documents. |
+|[doc\_folder](doc-folder.md)  |A document folder. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

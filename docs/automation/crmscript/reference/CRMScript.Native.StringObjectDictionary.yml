@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.StringObjectDictionary
+  commentId: T:CRMScript.Native.StringObjectDictionary
+  id: StringObjectDictionary
+  so.version: 10.1.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.StringObjectDictionary.#ctor
+  - CRMScript.Native.StringObjectDictionary.getInteger(String)
+  - CRMScript.Native.StringObjectDictionary.getFloat(String)
+  - CRMScript.Native.StringObjectDictionary.getString(String)
+  - CRMScript.Native.StringObjectDictionary.getBool(String)
+  - CRMScript.Native.StringObjectDictionary.getDateTime(String)
+  - CRMScript.Native.StringObjectDictionary.insertInteger(String,Integer)
+  - CRMScript.Native.StringObjectDictionary.insertFloat(String,Float)
+  - CRMScript.Native.StringObjectDictionary.insertString(String,String)
+  - CRMScript.Native.StringObjectDictionary.insertBool(String,Bool)
+  - CRMScript.Native.StringObjectDictionary.insertDateTime(String,DateTime)
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: CRMScript.Native.StringObjectDictionary
+  type: Class
+  summary: "\nA StringObjectDictionary is a collection of key-value pairs. The key is a string and the value can be an integer, float, string, boolean or datetime.<p></p>\n"
+  example:
+- uid: CRMScript.Native.StringObjectDictionary.#ctor
+  commentId: M:CRMScript.Native.StringObjectDictionary.#ctor
+  id: '#ctor'
+  so.intellisense: Void.StringObjectDictionary
+  langs:
+  - crmscript
+  name: StringObjectDictionary()
+  nameWithType: StringObjectDictionary.#ctor
+  fullName: CRMScript.Native.StringObjectDictionary.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the StringObjectDictionary class.\n"
+  remarks: 
+  syntax: 
+    content: StringObjectDictionary
+  example:
+- uid: CRMScript.Native.StringObjectDictionary.getInteger(String)
+  commentId: M:CRMScript.Native.StringObjectDictionary.getInteger(String)
+  id: 'getInteger(String)'
+  so.intellisense: StringObjectDictionary.getInteger(String)
+  langs:
+  - crmscript
+  name: 'getInteger(String)'
+  nameWithType: StringObjectDictionary.getInteger(String)
+  fullName: CRMScript.Native.StringObjectDictionary.getInteger(String)
+  type: Method
+  summary: "\nReturns Integer value for key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\nprintLine(dict.getInteger(&quot;foobar&quot;).toString());\n</code></pre>\n"
+  syntax:
+    content: Integer getInteger(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key to look up a value for"
+    return:
+      type: CRMScript.Global.Integer
+      description: "The value for the given key."
+- uid: CRMScript.Native.StringObjectDictionary.getFloat(String)
+  commentId: M:CRMScript.Native.StringObjectDictionary.getFloat(String)
+  id: 'getFloat(String)'
+  so.intellisense: StringObjectDictionary.getFloat(String)
+  langs:
+  - crmscript
+  name: 'getFloat(String)'
+  nameWithType: StringObjectDictionary.getFloat(String)
+  fullName: CRMScript.Native.StringObjectDictionary.getFloat(String)
+  type: Method
+  summary: "\nReturns Float value for key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\nprintLine(dict.getFloat(&quot;foobar&quot;).toString(2));\n</code></pre>\n"
+  syntax:
+    content: Float getFloat(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key to look up a value for"
+    return:
+      type: CRMScript.Global.Float
+      description: "The value for the given key."
+- uid: CRMScript.Native.StringObjectDictionary.getString(String)
+  commentId: M:CRMScript.Native.StringObjectDictionary.getString(String)
+  id: 'getString(String)'
+  so.intellisense: StringObjectDictionary.getString(String)
+  langs:
+  - crmscript
+  name: 'getString(String)'
+  nameWithType: StringObjectDictionary.getString(String)
+  fullName: CRMScript.Native.StringObjectDictionary.getString(String)
+  type: Method
+  summary: "\nReturns String value for key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\nprintLine(dict.getString(&quot;foobar&quot;));\n</code></pre>\n"
+  syntax:
+    content: String getFloat(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key to look up a value for"
+    return:
+      type: CRMScript.Global.String
+      description: "The value for the given key."
+- uid: CRMScript.Native.StringObjectDictionary.getBool(String)
+  commentId: M:CRMScript.Native.StringObjectDictionary.getBool(String)
+  id: 'getBool(String)'
+  so.intellisense: StringObjectDictionary.getBool(String)
+  langs:
+  - crmscript
+  name: 'getBool(String)'
+  nameWithType: StringObjectDictionary.getBool(String)
+  fullName: CRMScript.Native.StringObjectDictionary.getBool(String)
+  type: Method
+  summary: "\nReturns boolean value for key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\nprintLine(dict.getBool(&quot;foobar&quot;).toString());\n</code></pre>\n"
+  syntax:
+    content: Bool getBool(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key to look up a value for"
+    return:
+      type: CRMScript.Global.Bool
+      description: "The value for the given key."
+- uid: CRMScript.Native.StringObjectDictionary.getDateTime(String)
+  commentId: M:CRMScript.Native.StringObjectDictionary.getDateTime(String)
+  id: 'getDateTime(String)'
+  so.intellisense: StringObjectDictionary.getDateTime(String)
+  langs:
+  - crmscript
+  name: 'getDateTime(String)'
+  nameWithType: StringObjectDictionary.getDateTime(String)
+  fullName: CRMScript.Native.StringObjectDictionary.getDateTime(String)
+  type: Method
+  summary: "\nReturns value for key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\nprintLine(dict.getDateTime(&quot;foobar&quot;).toString());\n</code></pre>\n"
+  syntax:
+    content: DateTime getDateTime(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key to look up a value for"
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The value for the given key."
+- uid: CRMScript.Native.StringObjectDictionary.insertInteger(String,Integer)
+  commentId: M:CRMScript.Native.StringObjectDictionary.insertInteger(String,Integer)
+  id: 'insertInteger(String,Integer)'
+  so.intellisense: StringObjectDictionary.insertInteger(String,Integer)
+  langs:
+  - crmscript
+  name: 'insertInteger(String,Integer)'
+  nameWithType: StringObjectDictionary.insertInteger(String,Integer)
+  fullName: CRMScript.Native.StringObjectDictionary.insertInteger(String,Integer)
+  type: Method
+  summary: "\nInserts or updates value for given key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\ndict.insertInteger(&quot;foobar&quot;, 200);\n</code></pre>\n"
+  syntax:
+    content: Void insertInteger(String key,Integer value)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key."
+    - id: value
+      type: CRMScript.Global.Integer
+      description: "The value for the given key."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.StringObjectDictionary.insertString(String,String)
+  commentId: M:CRMScript.Native.StringObjectDictionary.insertString(String,String)
+  id: 'insertString(String,String)'
+  so.intellisense: StringObjectDictionary.insertString(String,String)
+  langs:
+  - crmscript
+  name: 'insertString(String,String)'
+  nameWithType: StringObjectDictionary.insertString(String,String)
+  fullName: CRMScript.Native.StringObjectDictionary.insertString(String,String)
+  type: Method
+  summary: "\nInserts or updates value for given key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\ndict.insertString(&quot;foo&quot;, &quot;bar&quot;);\n</code></pre>\n"
+  syntax:
+    content: Void insertString(String key,String value)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value for the given key."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.StringObjectDictionary.insertFloat(String,Float)
+  commentId: M:CRMScript.Native.StringObjectDictionary.insertFloat(String,Float)
+  id: 'insertFloat(String,Float)'
+  so.intellisense: StringObjectDictionary.insertFloat(String,Float)
+  langs:
+  - crmscript
+  name: 'insertFloat(String,Float)'
+  nameWithType: StringObjectDictionary.insertFloat(String,Float)
+  fullName: CRMScript.Native.StringObjectDictionary.insertFloat(String,Float)
+  type: Method
+  summary: "\nInserts or updates value for given key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\ndict.insertFloat(&quot;foo&quot;, 2.0);\n</code></pre>\n"
+  syntax:
+    content: Void insertFloat(String key,Float value)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key."
+    - id: value
+      type: CRMScript.Global.Float
+      description: "The value for the given key."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.StringObjectDictionary.insertBool(String,Bool)
+  commentId: M:CRMScript.Native.StringObjectDictionary.insertBool(String,Bool)
+  id: 'insertBool(String,Bool)'
+  so.intellisense: StringObjectDictionary.insertBool(String,Bool)
+  langs:
+  - crmscript
+  name: 'insertBool(String,Bool)'
+  nameWithType: StringObjectDictionary.insertBool(String,Bool)
+  fullName: CRMScript.Native.StringObjectDictionary.insertBool(String,Bool)
+  type: Method
+  summary: "\nInserts or updates value for given key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\ndict.insertBool(&quot;foo&quot;, false);\n</code></pre>\n"
+  syntax:
+    content: Void insertBool(String key,Bool value)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key."
+    - id: value
+      type: CRMScript.Global.Bool
+      description: "The value for the given key."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.StringObjectDictionary.insertDateTime(String,DateTime)
+  commentId: M:CRMScript.Native.StringObjectDictionary.insertDateTime(String,DateTime)
+  id: 'insertDateTime(String,DateTime)'
+  so.intellisense: StringObjectDictionary.insertDateTime(String,DateTime)
+  langs:
+  - crmscript
+  name: 'insertDateTime(String,DateTime)'
+  nameWithType: StringObjectDictionary.insertDateTime(String,DateTime)
+  fullName: CRMScript.Native.StringObjectDictionary.insertDateTime(String,DateTime)
+  type: Method
+  summary: "\nInserts or updates value for given key\n"
+  example:
+  - "\n<pre><code>StringObjectDictionary dict;\ndict.insertDateTime(&quot;foo&quot;, getCurrentDateTime());\n</code></pre>\n"
+  syntax:
+    content: Void insertDateTime(String key,DateTime value)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key."
+    - id: value
+      type: CRMScript.Global.DateTime
+      description: "The value for the given key."
+    return:
+      type: CRMScript.Global.Void
+references:
+- uid: CRMScript.Native.StringObjectDictionary
+  commentId: T:CRMScript.Native.StringObjectDictionary
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: CRMScript.Native.StringObjectDictionary
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

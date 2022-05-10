@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_dyn_criteria"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_dyn\_criteria Table (350)
+
+Contains criterias for a dynamic list.
 
 ## Fields
 
@@ -38,6 +40,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |list\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[s\_list](s-list.md)  |A list, dynamic or static |
+
 
 ## Replication Flags
 

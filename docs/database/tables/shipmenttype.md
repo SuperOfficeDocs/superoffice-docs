@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ShipmentType"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ShipmentType Table (490)
+
+Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 
 ## Fields
 
@@ -33,11 +35,22 @@ so.envir:
 
 ![ShipmentType table relationship diagram](./media/ShipmentType.png)
 
+[!include[details](./includes/shipmenttype.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |ShipmentType\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+|[ShipmentTypeReservation](shipmenttypereservation.md)  |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type |
+
 
 ## Replication Flags
 

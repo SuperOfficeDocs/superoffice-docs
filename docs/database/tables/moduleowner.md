@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ModuleOwner"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ModuleOwner Table (212)
+
+Unique owner of a set of licensed modules
 
 ## Fields
 
@@ -54,6 +56,14 @@ so.envir:
 |--------|-------|-------------|
 |ModuleOwner\_id |PK |Clustered, Unique |
 |ownerName |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "phone"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # phone Table (8)
+
+Contact and Person phonenumbers (+fax)
 
 ## Fields
 
@@ -47,6 +49,15 @@ so.envir:
 |rank |UShort |Index |
 |owner\_id, ptype\_idx |Id, Enum |Index |
 |searchPhoneNumber |String(239) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

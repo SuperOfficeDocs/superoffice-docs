@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "BinaryObjectLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # BinaryObjectLink Table (206)
+
+Link table, connects a BinaryObject with one or more owners
 
 ## Fields
 
@@ -43,6 +45,14 @@ so.envir:
 |--------|-------|-------------|
 |BinaryObjectLink\_id |PK |Clustered, Unique |
 |ownerTable, ownerRecord, linkType, rank |TableNumber, RecordId, Enum, UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[BinaryObject](binaryobject.md)  |Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items |
+
 
 ## Replication Flags
 

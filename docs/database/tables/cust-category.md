@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "cust_category"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # cust\_category Table (321)
+
+This table contains entries for categories exposed through a customer language.
 
 ## Fields
 
@@ -39,6 +41,15 @@ so.envir:
 |language\_id |FK |Index |
 |category\_id |FK |Index |
 |parent\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[cust\_category](cust-category.md)  |This table contains entries for categories exposed through a customer language. |
+|[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+
 
 ## Replication Flags
 

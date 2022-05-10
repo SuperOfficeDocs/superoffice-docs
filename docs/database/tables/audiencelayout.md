@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AudienceLayout"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # AudienceLayout Table (234)
+
+One layout (of webparts and other stuff) for an audience instance
 
 ## Fields
 
@@ -39,6 +41,15 @@ so.envir:
 |--------|-------|-------------|
 |AudienceLayout\_id |PK |Clustered, Unique |
 |instanceName |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[AudienceConfig](audienceconfig.md)  |Configuration data for Audience core and webparts |
+|[AudienceLayoutLink](audiencelayoutlink.md)  |Link between an audience layout and some target grouping table - might be Role or Category |
+
 
 ## Replication Flags
 

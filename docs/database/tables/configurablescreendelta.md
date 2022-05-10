@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ConfigurableScreenDelta"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ConfigurableScreenDelta Table (463)
+
+Parts of recipes in SCIL to insert or remove in given recipes
 
 ## Fields
 
@@ -36,12 +38,21 @@ so.envir:
 
 ![ConfigurableScreenDelta table relationship diagram](./media/ConfigurableScreenDelta.png)
 
+[!include[details](./includes/configurablescreendelta.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |configurablescreendelta\_id |PK |Clustered, Unique |
 |recipeId |String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

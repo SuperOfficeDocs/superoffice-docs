@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "reply_template_folder"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # reply\_template\_folder Table (276)
+
+This table contains entries for folders for reply templates.
 
 ## Fields
 
@@ -38,6 +40,15 @@ so.envir:
 |id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
 |name |String(64) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
+|[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
+|[reply\_template\_folder](reply-template-folder.md)  |This table contains entries for folders for reply templates. |
+
 
 ## Replication Flags
 

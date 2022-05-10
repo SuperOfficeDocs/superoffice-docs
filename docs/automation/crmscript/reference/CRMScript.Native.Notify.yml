@@ -8,6 +8,7 @@ items:
   children:
   - CRMScript.Native.Notify.#ctor
   - CRMScript.Native.Notify.sendCustomMessage(Integer,String)
+  - CRMScript.Native.Notify.sendCustomMessage(Integer,String,String)
   - CRMScript.Native.Notify.sendNewTicket(Integer)
   - CRMScript.Native.Notify.sendNewTicket(Integer,Bool)
   - CRMScript.Native.Notify.sendNewTicketMessage(Integer,Bool)
@@ -59,6 +60,35 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
+- uid: CRMScript.Native.Notify.sendCustomMessage(Integer,String,String)
+  commentId: M:CRMScript.Native.Notify.sendCustomMessage(Integer,String,String)
+  id: 'sendCustomMessage(Integer,String,String)'
+  so.intellisense: Notify.sendCustomMessage
+  so.version: 10.1.2
+  langs:
+  - crmscript
+  name: 'sendCustomMessage(Integer,String,String)'
+  nameWithType: Notify.sendCustomMessage(Integer,String,String)
+  fullName: CRMScript.Native.Notify.sendCustomMessage(Integer,String,String)
+  type: Method
+  summary: "\nSends a custom notification message to user with specified URL.\n"
+  remarks: "\nURLs with HTTP or HTTPS protocol will open in a new tab. URLs without will be treated as relative and open in the same window.\n"
+  syntax: 
+    content: Void sendCustomMessage(Integer recipientId, String message, String url)
+    parameters:
+    - id: recipientId
+      type: CRMScript.Global.Integer
+      description: "The ID of the user to notify."
+    - id: message
+      type: CRMScript.Global.String
+      description: "The notification message."
+    - id: url
+      type: CRMScript.Global.String
+      description: "The URL to navigate to by clicking the notification."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>Notify notify;\n// Send custom notification to user with ID 2, clicking notification should open URL.\nnotify.sendCustomMessage(2,&quot;Custom notification&quot;, &quot;http://www.google.com&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.Notify.sendNewTicket(Integer)
   commentId: M:CRMScript.Native.Notify.sendNewTicket(Integer)
   id: 'sendNewTicket(Integer)'

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "tree_explorer_entry"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # tree\_explorer\_entry Table (399)
+
+This table stores the entries in a tree-explorer
 
 ## Fields
 
@@ -49,6 +51,14 @@ so.envir:
 |session\_key |String(255) |Index |
 |expand\_order |Int |Index |
 |tree\_key |String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[tree\_explorer\_entry](tree-explorer-entry.md)  |This table stores the entries in a tree-explorer |
+|[tree\_explorer\_link](tree-explorer-link.md)  |This table stores the link of entries in a tree-explorer |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dbi_agent_field"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # dbi\_agent\_field Table (382)
+
+DBI agent fields
 
 ## Fields
 
@@ -34,6 +36,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |agent\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+
 
 ## Replication Flags
 

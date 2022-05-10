@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "help"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # help Table (302)
+
+This table contains the help pages.
 
 ## Fields
 
@@ -44,6 +46,13 @@ so.envir:
 |module\_id |Int |Index |
 |application\_area\_id |Int |Index |
 |screen\_id |Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[help](help.md)  |This table contains the help pages. |
+
 
 ## Replication Flags
 

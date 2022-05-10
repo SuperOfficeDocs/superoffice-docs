@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_tables"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # extra\_tables Table (305)
+
+This table contains entries for the extra tables in the system.
 
 ## Fields
 
@@ -54,6 +56,18 @@ so.envir:
 |screen\_chooser\_entry |FK |Index |
 |screen\_chooser\_all |FK |Index |
 |screen\_chooser\_edit |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[extra\_fields](extra-fields.md)  |This table contains entries for the extra fields in the system. |
+|[extra\_menus](extra-menus.md)  |This table contains entries for the extra menus in the system. |
+|[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
+|[extra\_tables\_result](extra-tables-result.md)  |Result set of executed search in ejournal extra tables |
+|[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[screen\_chooser](screen-chooser.md)  |Screen choosers |
+
 
 ## Replication Flags
 

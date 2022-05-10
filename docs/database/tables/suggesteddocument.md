@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuggestedDocument"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SuggestedDocument Table (126)
+
+Unique owner of a set of licensed modules
 
 ## Fields
 
@@ -48,6 +50,17 @@ so.envir:
 |name |String(239) |Index |
 |saleTypeStageLinkId |FK |Index |
 |projectTypeStatusLinkId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[DocTmpl](doctmpl.md)  |DocTmpl list table. Describes templates available for writing new documents. |
+|[ProjectTypeStatusLink](projecttypestatuslink.md)  |Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items |
+|[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
+
 
 ## Replication Flags
 

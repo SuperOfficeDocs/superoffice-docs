@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udpersonLarge"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # udpersonLarge Table (141)
+
+User-defined fields
 
 ## Fields
 
@@ -44,6 +46,13 @@ so.envir:
 |string42 |String(199) |Index |
 |string43 |String(199) |Index |
 |string44 |String(199) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

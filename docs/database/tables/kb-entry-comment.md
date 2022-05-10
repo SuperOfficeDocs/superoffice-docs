@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_entry_comment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_entry\_comment Table (289)
+
+Comments to entries in the knowledge base, typically made by customers
 
 ## Fields
 
@@ -47,6 +49,15 @@ so.envir:
 |dbi\_key |String(255) |Index |
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

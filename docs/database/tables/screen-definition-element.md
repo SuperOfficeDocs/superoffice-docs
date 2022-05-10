@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_element"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # screen\_definition\_element Table (372)
+
+An element in a configurable screen
 
 ## Fields
 
@@ -40,6 +42,14 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |screen\_definition |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[element\_profile](element-profile.md)  |The new (4.0) profile table. Contains profile for a single Html-element. Connected through element_profile_link |
+|[screen\_definition](screen-definition.md)  |A configurable screen |
+
 
 ## Replication Flags
 

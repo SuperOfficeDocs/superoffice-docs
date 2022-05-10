@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "MessageHandler"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # MessageHandler Table (241)
+
+Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |MessageHandler\_id |PK |Clustered, Unique |
 |uniqueIdentifier |String(39) |Unique |
 |machine |String(254) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
+
 
 ## Replication Flags
 

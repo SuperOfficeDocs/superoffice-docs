@@ -22,7 +22,7 @@ A quick-start guide for getting you up and running with a native console applica
 
     ![imaget19p.png][img1]
 
-  * redirect URI of `^http://127.0.0.1\:\d{4,10}/desktop-callback$`
+  * redirect URI of `^http://127.0.0.1\:\d{4,10}$`
 
 * you have received a unique application [client ID and secret][3]
 

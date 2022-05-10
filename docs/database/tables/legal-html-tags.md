@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "legal_html_tags"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # legal\_html\_tags Table (353)
+
+This table is used as a list of all legal HTML tags. HTML tags not in this list                  will be ignored when viewing html versions of messages
 
 ## Fields
 

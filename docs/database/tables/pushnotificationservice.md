@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PushNotificationService"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PushNotificationService Table (489)
+
+Used for storing handles to user devices that should receive push notifications
 
 ## Fields
 
@@ -49,6 +51,13 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |pushnotificationservice\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

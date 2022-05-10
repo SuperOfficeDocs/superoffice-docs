@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket Table (262)
+
+This table contains the tickets (requests) of the system. Its purpose should be evident.
 
 ## Fields
 
@@ -110,6 +112,36 @@ so.envir:
 |dbi\_last\_modified |DateTime |Index |
 |ticket\_type |FK |Index |
 |tags |FKArray |Full text |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[chat\_session](chat-session.md)  |This table contains chat sessions. |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[form\_submission](form-submission.md)  |A form submission |
+|[hotlist](hotlist.md)  |The table is used by the hotlist to store the relationship between tickets and users |
+|[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
+|[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
+|[outbox](outbox.md)  |Outgoing emails with sending status and other info |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
+|[Tags](tags.md)  |MDO List of tags for Service entities |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_customers](ticket-customers.md)  |This table allows several customers to be connected to several tickets (many-to-many) |
+|[ticket\_log](ticket-log.md)  |This table contains log entries for the tickets. |
+|[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
+|[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
+|[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+|[ticket\_relation](ticket-relation.md)  |Contains ticket relations, used to drive processing logic |
+|[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
+|[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
+|[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
+
 
 ## Replication Flags
 

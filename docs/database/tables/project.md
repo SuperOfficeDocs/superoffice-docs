@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "project"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # project Table (11)
+
+Projects
 
 ## Fields
 
@@ -61,6 +63,31 @@ so.envir:
 |source |UShort |Index |
 |userdef2\_id |FK |Index |
 |done |Bool |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[chat\_session](chat-session.md)  |This table contains chat sessions. |
+|[CounterValue](countervalue.md)  |Visible for rights |
+|[Email](email.md)  |Email addresses for contacts, projects and persons |
+|[projectmember](projectmember.md)  |Project members. Link-table between person and project |
+|[ProjStatus](projstatus.md)  |ProjStatus list table. Project status |
+|[ProjType](projtype.md)  |ProjType list table. List of valid Project types. |
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[StatusValue](statusvalue.md)  |Values for statuses |
+|[text](text.md)  |Long text fields from all over the system |
+|[TZLocation](tzlocation.md)  |Time zone location |
+|[udprojectLarge](udprojectlarge.md)  |User-defined fields. During conversion of user defined fields the data is stored in this table. |
+|[udprojectSmall](udprojectsmall.md)  |User-defined fields |
+|[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "inbox"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,6 +15,8 @@ so.envir:
 
 # inbox Table (352)
 
+Info and status for safe email import
+
 ## Fields
 
 | Name | Description | Type | Null |
@@ -22,7 +24,7 @@ so.envir:
 |id|Primary key|PK| |
 |mail\_in\_filter|A reference to the id of the mail box|FK [mail_in_filter](mail-in-filter.md)| |
 |locking\_id|A reference to the id of lock|FK [locking](locking.md)| |
-|uidl|The uidl of the message. stored before the retrieval starts to prevent double import For locking purposes|String(255)|&#x25CF;|
+|uidl|The uidl of the message. Stored before the retrieval starts to prevent double import. For locking purposes|String(2047)|&#x25CF;|
 |created|When the mail was created|DateTime|&#x25CF;|
 |imported|When the mail was imported|DateTime| |
 |status|Status enum|Int| |
@@ -45,6 +47,15 @@ so.envir:
 |locking\_id |FK |Index |
 |imported |DateTime |Index |
 |status |Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[locking](locking.md)  |Generic locking and error messages |
+|[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
+
 
 ## Replication Flags
 

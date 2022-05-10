@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_messageblock"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_messageblock Table (486)
+
+Contains a block of a mailing message, that can be reused in a mailing
 
 ## Fields
 
@@ -31,11 +33,20 @@ so.envir:
 
 ![s_messageblock table relationship diagram](./media/s_messageblock.png)
 
+[!include[details](./includes/s-messageblock.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |s\_messageblock\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+
 
 ## Replication Flags
 

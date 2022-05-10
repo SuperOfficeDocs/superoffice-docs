@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteAlternative"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # QuoteAlternative Table (47)
+
+Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.
 
 ## Fields
 
@@ -59,6 +61,16 @@ so.envir:
 |quotealternative\_id |PK |Clustered, Unique |
 |ERPQuoteAlternativeKey |String(254) |Index |
 |QuoteVersionId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
+|[QuoteLine](quoteline.md)  |One line in a QuoteAlternative. QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly. |
+|[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
+
 
 ## Replication Flags
 

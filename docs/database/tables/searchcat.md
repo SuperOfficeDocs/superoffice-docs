@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCat"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,16 @@ SearchCat list table
 |--------|-------|-------------|
 |SearchCat\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SearchCatGroupLink](searchcatgrouplink.md)  |User group link table for SearchCat, for MDO item hiding |
+|[SearchCatHeadingLink](searchcatheadinglink.md)  |Heading link table for SearchCat, for MDO headers |
+|[selection](selection.md)  |Selections |
+
 
 ## Replication Flags
 

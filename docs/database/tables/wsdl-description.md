@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "wsdl_description"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # wsdl\_description Table (357)
+
+Soap wsdl files
 
 ## Fields
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleTypeStageLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SaleTypeStageLink Table (160)
+
+Many-many link table between sale type and stage; and an anchor point for guide items
 
 ## Fields
 
@@ -41,6 +43,17 @@ so.envir:
 |--------|-------|-------------|
 |SaleTypeStageLink\_id |PK |Clustered, Unique |
 |saleType\_id, stageId |FK, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Prob](prob.md)  |Prob list table. Probability, used in  sales . |
+|[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
+|[SuggestedAppointment](suggestedappointment.md)  |Defines a suggested appointment for use in a Sale Guide or Project Guide |
+|[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
+
 
 ## Replication Flags
 

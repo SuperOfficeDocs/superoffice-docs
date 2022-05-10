@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UserGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # UserGroupLink Table (60)
+
+Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http;//techdoc.superoffice.com has more information about how roles are implemented.
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |UserGroupLink\_id |PK |Clustered, Unique |
 |assoc\_id |FK |Index |
 |UserGroup\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

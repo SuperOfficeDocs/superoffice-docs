@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_relation"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_relation Table (454)
+
+Contains ticket relations, used to drive processing logic
 
 ## Fields
 
@@ -41,6 +43,15 @@ so.envir:
 |id |PK |Clustered, Unique |
 |source |FK |Index |
 |target |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_relation\_type](ticket-relation-type.md)  |Contains ticket relation types, used to drive processing logic together with ticket relations |
+
 
 ## Replication Flags
 

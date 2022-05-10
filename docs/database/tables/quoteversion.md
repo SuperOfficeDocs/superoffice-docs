@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteVersion"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # QuoteVersion Table (39)
+
+There may be multiple Versions of a Quote, with one of them active
 
 ## Fields
 
@@ -69,6 +71,18 @@ so.envir:
 |quoteversion\_id |PK |Clustered, Unique |
 |ERPQuoteVersionKey |String(254) |Index |
 |QuoteId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[country](country.md)  |Country information |
+|[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
+|[QuoteAlternative](quotealternative.md)  |Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed. |
+|[QuoteVersionAttachment](quoteversionattachment.md)  |Actual attachments to a quote |
+
 
 ## Replication Flags
 

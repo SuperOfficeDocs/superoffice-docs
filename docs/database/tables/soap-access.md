@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "soap_access"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # soap\_access Table (362)
+
+Table that contains constraints on the access to the soap interface
 
 ## Fields
 

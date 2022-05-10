@@ -5,7 +5,7 @@ description: Lists the enum values for CrmActorType.
 so.generated: true
 keywords:
   - "database"
-so.date: 11.02.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"

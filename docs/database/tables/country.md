@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "country"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -65,6 +65,24 @@ Country information
 |country\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 |english\_name |String(39) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[CountryGroupLink](countrygrouplink.md)  |User group link table for Country, for MDO item hiding |
+|[CountryHeadingLink](countryheadinglink.md)  |Heading link table for Country, for MDO headers |
+|[Currency](currency.md)  |Currency list table |
+|[LanguageInfoCountry](languageinfocountry.md)  |Many-many link between countries and languages, to give intelligent choices for language |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[PhoneFormat](phoneformat.md)  |Formatting information for telephone numbers |
+|[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
+|[redletterday](redletterday.md)  |Red letter days for calendar (holidays, birthday of king etc) |
+|[TZLocation](tzlocation.md)  |Time zone location |
+|[ziptocity](ziptocity.md)  |Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http://techdoc.superoffice.com  |
+
 
 ## Replication Flags
 

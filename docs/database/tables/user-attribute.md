@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "user_attribute"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # user\_attribute Table (403)
+
+This table is used for storing various attributes for users.
 
 ## Fields
 
@@ -36,6 +38,13 @@ so.envir:
 |id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |att\_key |String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

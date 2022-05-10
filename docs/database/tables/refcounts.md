@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RefCounts"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # RefCounts Table (171)
+
+Number counter for all tables that generate numbers, e.g. templates, contacts...   This table is used for the number allocation system and should not be confused with sequence, used for allocating internal ID&apos;s. This table is replicated during generation of satellites and during local update for travellers, using special logic. By default it contains rows for the SuperOffice standard counters, including one row for each DocTemplate record.  It is permissible to add new rows to this table, and such records are maintainable through the Maintenance client.  Changing the contents of the standard records is not recommended.
 
 ## Fields
 
@@ -45,6 +47,14 @@ so.envir:
 |fieldId |FieldId |Index |
 |recordId |Id |Index |
 |fieldId, recordId |FieldId, Id |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[RefCountRange](refcountrange.md)  |Number allocation system, for keeping track of ranges of numbers loaned out to travel and satellite databases |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CreditedHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # CreditedHeadingLink Table (99)
+
+Heading link table for Credited, for MDO headers
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |creditedheadinglink\_id |PK |Clustered, Unique |
 |credited\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+
 
 ## Replication Flags
 

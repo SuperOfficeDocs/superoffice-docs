@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductFamily"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,15 @@ List for the ProductFamily field of the Product table (Quote Management)
 |--------|-------|-------------|
 |productfamily\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ProductFamilyGroupLink](productfamilygrouplink.md)  |User group link table for ProductFamily, for MDO item hiding |
+|[ProductFamilyHeadingLink](productfamilyheadinglink.md)  |Heading link table for ProductFamily, for MDO item headings |
+
 
 ## Replication Flags
 

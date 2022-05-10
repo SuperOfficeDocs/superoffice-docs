@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TZDstRule"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TZDstRule Table (247)
+
+Time zone rule for daylight saving time
 
 ## Fields
 
@@ -48,6 +50,14 @@ so.envir:
 |--------|-------|-------------|
 |TZDstRule\_id |PK |Clustered, Unique |
 |TZLocationId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[TZLocation](tzlocation.md)  |Time zone location |
+
 
 ## Replication Flags
 

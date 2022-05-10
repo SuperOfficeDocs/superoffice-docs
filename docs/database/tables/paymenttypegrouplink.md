@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PaymentTypeGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PaymentTypeGroupLink Table (431)
+
+User group link table for PaymentType, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |paymenttypegrouplink\_id |PK |Clustered, Unique |
 |paymenttype\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[PaymentType](paymenttype.md)  |The list of payment types, in the internal product register |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

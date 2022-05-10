@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TemporaryKey"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TemporaryKey Table (492)
+
+Temporary keys for lightweight authentications such as changing ones subscriptions
 
 ## Fields
 
@@ -34,11 +36,21 @@ so.envir:
 
 ![TemporaryKey table relationship diagram](./media/TemporaryKey.png)
 
+[!include[details](./includes/temporarykey.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |temporarykey\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+
 
 ## Replication Flags
 

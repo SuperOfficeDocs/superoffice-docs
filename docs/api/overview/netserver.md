@@ -14,13 +14,15 @@ so.client: win, web
 
 NetServer is a **multi-tiered database access layer** that bridges communications between client applications and the database. NetServer contains both low-level classes for managing data access in onsite domain environments as well as high-level web services for access from anywhere in the world.
 
+![NetServer architecture][img3]
+
 NetServer has several extensibility points. Some extensibility points show up in clients, such as the [Document Plug-in][14], while others like the [Sentry Plug-in][18] do not.
 
 SuperOffice Sales, SuperOffice Service and SuperOffice Mobile are examples of clients that use NetServer. All applications listed in the [SuperOffice Online AppStore][19] do too.
 
-At its core, NetServer contains database-independent abstractions, and has database-specific implementations that API consumers never have to think about. The only indication is during [configuration][12] when the target database server is set.
+![NetServer Functions][nsfunc]
 
-![NetServer architecture][img3]
+At its core, NetServer contains database-independent abstractions, and has database-specific implementations that API consumers never have to think about. The only indication is during [configuration][12] when the target database server is set.
 
 NetServer enables developers to perform lookups, create, read, update and delete (CRUD) operations towards SuperOffice. Whether deploying a solution in an onsite domain environment or accessing SuperOffice via web services, NetServer exposes an array of application programming interfaces (APIs) that enable virtually unlimited access to the data in SuperOffice.
 
@@ -158,3 +160,4 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [img1]: media/netserverhilevelview.png
 [img3]: media/netserver-components-overview.png
 [img4]: media/superoffice-api-architecture.png
+[nsfunc]: media/netserver-main-components.png

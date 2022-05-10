@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCriteria"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SearchCriteria Table (201)
+
+Criteria storage for Selection and other Find mechanisms
 
 ## Fields
 
@@ -46,6 +48,15 @@ so.envir:
 |SearchCriteria\_id |PK |Clustered, Unique |
 |ownerId, ownerName, ownerGuiName |RecordId, String(254), String(254) |Index |
 |ownerId, ownerTable, ownerType, ownerGuiName |RecordId, TableNumber, Enum, String(254) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SearchCriteriaGroup](searchcriteriagroup.md)  |Criteria storage for Selection and other Find mechanisms |
+|[text](text.md)  |Long text fields from all over the system |
+
 
 ## Replication Flags
 

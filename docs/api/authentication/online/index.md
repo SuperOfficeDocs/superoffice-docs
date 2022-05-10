@@ -12,18 +12,20 @@ so.client: online
 
 # SuperOffice Online and SuperID
 
-SuperOffice Online supports the OAuth 2.0 and OpenID Connect identity protocols. Back-channel communications use the proprietary [System User flow][2].
+For front-channel API access, when users are present and interactive, SuperOffice Online supports OAuth 2.0 and OpenID Connect identity protocols.
+
+For back-channel communications SuperOffice provides the proprietary [System User flow][2].
 
 ## Prerequisites
 
-Access to tenant web service endpoints required a registered application.
+Access to tenant web services requires a registered application. If your not already registered as an app developer with us, please [submit this developer registration form][3] to create your developer account.
 
-You need to [fill out a form][1] to register your application, which includes an official callback URL.
+If you already have a developer account, and just want to create a new application, [fill out the new application form][1] to register your application.
 
-Once registered, you will receive 2 tokens:
+Once registered, you will receive 2 application identifiers:
 
-* Application ID - a public ID you can embed in web pages: `4e5e6f90f529fede129bd25ad`
-* Application token - a secret ID you should not embed in web pages. `74252df1e0119f1913f64c6d8d`
+* Application ID - this is the OAuth client_id: `4e5e6f90f529fede129bd25ad`
+* Application token - this is the OAuth client_secret, do not share this. `74252df1e0119f1913f64c6d8d`
 
 ## <a name="oauth"></a>Introduction to OAuth 2.0
 
@@ -44,6 +46,8 @@ This server has a dual role:
 * Prompts the user to grant the client access to user-tenant resources
 * grants access tokens to the client after authorization has been granted
 
+SuperOffice has two, `superid` and `central-superid`. Each interacts with the roles above, respectively.
+
 ### Access token
 
 The OAuth access token is **proof of authorization**:
@@ -54,11 +58,11 @@ The OAuth access token is **proof of authorization**:
 
 ### Authorization Code
 
-The OAuth Authorization Code is an **intermediate token** that is used in server-to-server communication. The client uses this code to obtain access tokens.
+The OAuth Authorization Code is an **intermediate token** issued to the Client during [Authorization Code flow][9]. The client uses this code to obtain an access token.
 
 ## Limitations in OAuth 2.0
 
-With OAuth, the authenticated user proved they were present to the Authorization Server. However, the sole purpose of this was to create and grant an access token to the client application.
+With an OAuth access_token, the user proved they were presented to the Authorization Server. However, the sole purpose of this was to create and grant an access token to the client application.
 
 The user does not authenticate directly with an online application itself. OAuth is limited in that it provides a type of pseudo authentication:
 
@@ -68,12 +72,12 @@ The user does not authenticate directly with an online application itself. OAuth
 
 ## <a name="oidc"></a>OpenID Connect
 
-To understand how OpenID Connect (OIDC) works, we’ll review basic concepts such as participants, identity tokens, claims and scopes, and endpoints.
+To understand how OpenID Connect (OIDC) works, we’ll review basic concepts such as participants, ID tokens, claims and scopes, and endpoints.
 
 **Open ID Connect** is a thin layer that sits on top of the OAuth 2.0 protocol. It extends OAuth so that online applications can get identity information and retrieve details about the authentication event.
 
 * OIDC enables clients to verify the identity of a (human) user based on the authentication done by an Authorization Server
-* **OIDC allows federated single sign-on to the application**, [with an exception][6]
+* **OIDC allows federated single sign-on to the application**, [with one possible exception][6]
 * OIDC is required because OAuth provides authorization only, not authentication
 
 ![OpenID Connect][img3]
@@ -101,13 +105,13 @@ This is the OAuth 2.0 **Authorization Server**:
 * provides claims about the user and the authentication event to the Relying Party
 * has multiple [endpoints][7]
 
-### Identity token
+### ID token
 
-Identity tokens are [JSON web tokens (JWTs)][8] used in token-based authentication to cache user-profile information of an application user who has signed in.
+So how does the OpenID Connect identity provider give the Relying Party information about the identity of the end-user? The answer is through an ID token.
 
-So how does the OpenID Connect identity provider provide the Relying Party information about the identity of the end-user? The answer is through an identity token.
+ID tokens are encoded [JSON web tokens (JWTs)][8] used in token-based authentication to cache user-profile information for the signed in user. Each JWT consists of 3 elements separated by a period: `HEADER.PAYLOAD.SIGNATURE`
 
-The **identity token** is similar to an ID card or a passport. It contains multiple required attributes or claims about that user, including how the user was authenticated:
+The **ID token** is similar to an ID card or a passport. It contains multiple claims about the user, including which identity provider authenticated the user. The following claims are required:
 
 * **Subject:** a unique identifier assigned to a user by the identity provider, for example, a username
 * **Issuing authority:** the identity provider that issued the token
@@ -120,21 +124,19 @@ There are also optional claims that help the Relying Party validate the ID token
 * Authentication time, which shows the time the user was authenticated
 * Nonce values, which mitigate replay attacks
 
-The ID token is encoded as a JWT. It consists of 3 elements separated by a period: `HEADER.PAYLOAD.SIGNATURE`
-
 #### How is the ID token used?
 
 The ID token is primarily a means to access information about the currently signed-in application user. It:
 
 * is typically used for UI display
 * can be used to personalize and enhance the user experience
-* is time-limited and needs to be refreshed periodically
+* is time-limited and needs to be verified upon receipt
 
 #### Where does the ID token come from?
 
-You will receive the ID token in the authorization response.
+You will receive the ID token in the final response of the [Authorization Code flow][9].
 
-The contents should not be trusted until the token has been validated.
+The contents should not be trusted until the [token has been validated][8].
 
 It is up to the application to securely store the ID token.
 
@@ -144,7 +146,7 @@ OpenID Connect uses claims and scopes to define user information. **Claims** gen
 
 The OpenID Connect specification contains about 20 standard claims and 4 standard scopes. These are used to supply the client application with consented user details.
 
-**OpenID Connect standard claims:**
+**OpenID Connect standard ID token claims:**
 
 | Claim name | Federated ID | OpenID Connect | Description |
 |---|:-:|:-:|---|
@@ -157,7 +159,7 @@ The OpenID Connect specification contains about 20 standard claims and 4 standar
 | `nonce` | | X | A string used to associate a client session with an ID token and to mitigate replay attacks. |
 | `sub` | X | X | Subject Identifier.<br>Always the same as the claim: `http://schemes.superoffice.net/identity/upn` |
 
-SuperOffice Online supports 1 scope only: **openid**. However, this [scope includes additional claims][7] normally obtained at the userInfo endpoint, such as first name, last name, and email address.
+SuperOffice Online supports 1 scope only: **openid**. The access granted by this one scope include access to all APIs, and all [claims][7] normally obtained at the userInfo endpoint - which isn't supported. Profile claims are in the ID token, and listed in the [JWT validation][8] documentation.
 
 ### OpenID Connect flows
 
@@ -171,7 +173,7 @@ OpenID Connect defines 3 authentication flows:
 
 3. [Hybrid flow][11]
 
-The **Authorization Code** and **Implicit** OpenID Connect flows are based on the OAuth flow with the same name. The main difference between the OpenID Connect and OAuth counterparts is that an [ID token][5] is issued in the OIDC flows. If the implicit OAuth flow is best suited for your application, you can assume that the Implicit OIDC flow is also the best choice. Similarly for the Authorization Code flows.
+The **Authorization Code** and **Implicit** OpenID Connect flows are based on the OAuth flow with the same name. The main difference between the OpenID Connect and OAuth counterparts is the [ID token][5]. If the implicit OAuth flow is best suited for your application, you can assume that the Implicit OIDC flow is also the best choice. Similarly for the Authorization Code flows.
 
 ![Implicit and Authentication Code flow][img4]
 
@@ -179,14 +181,17 @@ In this illustration, *application I* users the Implicit flow while *application
 
 The **Hybrid** flow is a combination of the Authorization Code and Implicit flow. In this flow, the client can request ID tokens, [access tokens][7], or both from the [authorization endpoint][4], along with an Authorization Code.
 
-* The code can be exchanged at the token endpoint for the remaining tokens. This is useful in situations such as single sign-on, where the partner application needs to immediately use an identity token to access the user’s identity.
+* The code can be exchanged at the token endpoint for the remaining tokens. This is useful in situations such as single sign-on, where the partner application needs to immediately use an ID token to access the user’s identity.
 * The code is used to request access and the [refresh token][7] to get long-lived access to resources.
 
 The Hybrid flow offers more flexibility with this token flow, but it’s **less secure than the Authorization Code flow** because some tokens are exposed directly to the user agent.
 
+[!include[Deprecated OAuth flows](includes/implicit-hybrid-deprecated.md)]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/application-registration
 [2]: ./auth-application/index.md
+[3]: https://community.superoffice.com/register-as-developer
 [4]: https://jwt.io/
 [5]: ../../../apps/provisioning/get-consent.md
 [6]: troubleshooting/iframe-idp-auth.md

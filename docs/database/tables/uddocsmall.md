@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "uddocsmall"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # uddocsmall Table (230)
+
+User-defined fields
 
 ## Fields
 
@@ -153,6 +155,13 @@ so.envir:
 |double02 |Double |Index |
 |double03 |Double |Index |
 |double04 |Double |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
+
 
 ## Replication Flags
 

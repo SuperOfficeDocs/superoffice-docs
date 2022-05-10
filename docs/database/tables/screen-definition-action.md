@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_action"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # screen\_definition\_action Table (371)
+
+An action to perform for a certain button in an screen
 
 ## Fields
 
@@ -38,6 +40,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |screen\_definition |FK |Index |
 |ejscript |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejscript](ejscript.md)  |ejscript |
+|[screen\_definition](screen-definition.md)  |A configurable screen |
+
 
 ## Replication Flags
 

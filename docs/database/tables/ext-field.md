@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ext_field"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ext\_field Table (319)
+
+This table contains entries mapping an external field to an internal field. Used for database integration.
 
 ## Fields
 
@@ -38,6 +40,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |ext\_table |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ext\_table](ext-table.md)  |This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration. |
+
 
 ## Replication Flags
 

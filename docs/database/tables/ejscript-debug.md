@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejscript_debug"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejscript\_debug Table (387)
+
+This table contains information when debugging an ejscript
 
 ## Fields
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_list"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_list Table (344)
+
+A list, dynamic or static
 
 ## Fields
 
@@ -46,6 +48,18 @@ so.envir:
 |dbi\_key |String(255) |Index |
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[s\_dyn\_criteria](s-dyn-criteria.md)  |Contains criterias for a dynamic list. |
+|[s\_list\_customer](s-list-customer.md)  |Elements in a customer list. |
+|[s\_list\_element](s-list-element.md)  |Elements in a static list. |
+|[s\_list\_shipment](s-list-shipment.md)  |A connector between shipment and list so that one shipment can have many lists, and one list can have many shipments |
+|[s\_washing\_list](s-washing-list.md)  |Unused table that is ment to be used for active washing in spm v2 |
+
 
 ## Replication Flags
 

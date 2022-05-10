@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuggestedAppointment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SuggestedAppointment Table (125)
+
+Defines a suggested appointment for use in a Sale Guide or Project Guide
 
 ## Fields
 
@@ -52,6 +54,17 @@ so.envir:
 |name |String(239) |Index |
 |saleTypeStageLinkId |FK |Index |
 |projectTypeStatusLinkId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ProjectTypeStatusLink](projecttypestatuslink.md)  |Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items |
+|[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
+|[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
+
 
 ## Replication Flags
 

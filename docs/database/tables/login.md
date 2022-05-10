@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "login"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # login Table (297)
+
+This table contains entries for the user sessions.
 
 ## Fields
 
@@ -48,6 +50,16 @@ so.envir:
 |session\_key |String(32) |Index |
 |status |Int |Index |
 |origin |Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[extra\_tables\_result](extra-tables-result.md)  |Result set of executed search in ejournal extra tables |
+|[invoice\_sum](invoice-sum.md)  |This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies. |
+|[session\_object](session-object.md)  |Generic session object, accessible from ejscript etc, typically xml or name=value syntax, may be stored over several rows if big |
+
 
 ## Replication Flags
 

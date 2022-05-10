@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RejectReason"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,15 @@ Rejection reason (suggested) for bookings
 |--------|-------|-------------|
 |RejectReason\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[RejectReasonGroupLink](rejectreasongrouplink.md)  |User group link table for Comptr, for MDO item hiding |
+|[RejectReasonHeadingLink](rejectreasonheadinglink.md)  |Heading link table for RejectReason, for MDO headers |
+
 
 ## Replication Flags
 

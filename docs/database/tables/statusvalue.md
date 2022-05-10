@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StatusValue"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # StatusValue Table (199)
+
+Values for statuses
 
 ## Fields
 
@@ -56,6 +58,17 @@ so.envir:
 |project\_id, isSignalled, StatusDef\_id |FK, Bool, FK |Index |
 |extra1\_id, isSignalled, StatusDef\_id |Id, Bool, FK |Index |
 |extra2\_id, isSignalled, StatusDef\_id |Id, Bool, FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[project](project.md)  |Projects |
+|[StatusDef](statusdef.md)  |Status definitions. Name and description are in LocaleText for internationalization |
+
 
 ## Replication Flags
 

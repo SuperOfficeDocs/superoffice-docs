@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORSection"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SORSection Table (177)
+
+SuperOffice reporter data
 
 ## Fields
 
@@ -41,6 +43,16 @@ so.envir:
 |--------|-------|-------------|
 |SORSection\_id |PK |Clustered, Unique |
 |SORTemplate\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SORFCT](sorfct.md)  |SuperOffice reporter data |
+|[SORField](sorfield.md)  |SuperOffice reporter data |
+|[SORTemplate](sortemplate.md)  |SuperOffice reporter data |
+
 
 ## Replication Flags
 

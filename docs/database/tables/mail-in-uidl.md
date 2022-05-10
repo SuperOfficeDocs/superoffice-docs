@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "mail_in_uidl"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # mail\_in\_uidl Table (272)
+
+This table is used to avoid spamming the system by importing the same message several times (normally a result of a crash somewhere). When a mailbox is openede, then unique id for each message is stored in this table, and then removed only when the message has been correctly imported and deleted from mailbox.
 
 ## Fields
 
@@ -37,6 +39,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |filter\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
+
 
 ## Replication Flags
 

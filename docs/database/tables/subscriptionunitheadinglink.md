@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SubscriptionUnitHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SubscriptionUnitHeadingLink Table (444)
+
+Heading link table for SubscriptionUnit, for MDO item headings
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |subscriptionunitheadinglink\_id |PK |Clustered, Unique |
 |subscriptionunit\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[SubscriptionUnit](subscriptionunit.md)  |The list of Subscription units, in the internal product register (year/quarter/month etc., or perhaps amounts if volume-based subscription) |
+
 
 ## Replication Flags
 

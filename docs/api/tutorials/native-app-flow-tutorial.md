@@ -2,7 +2,7 @@
 title: How to build your OAuth native app flow
 uid: native_app_flow_tutorial
 description: How to build your OAuth native app flow
-author: {github-id}
+author: AnthonyYates
 keywords: oidc, authentication
 so.topic: tutorial
 so.envir: cloud
@@ -22,7 +22,7 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
 **Pre-requisites:**
 
 * you have a tenant with a user for testing sign-on
-* you have to have registered your application with a redirect URI of `http://127.0.0.1\:\d{4,10}/desktop-callback`
+* you have to have registered your application with a redirect URI of `http://127.0.0.1\:\d{4,10}`
 * you have received a unique application [client ID and secret][4]
 
 ## Set up your tools
@@ -35,10 +35,10 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
 
 ## Get started
 
-1. Create a redirect URI using an available port on the loopback address `"^http://127.0.0.1\\:\\d{4,10}/desktop-callback$"`. You are free to use any path text instead of *desktop-callback*.
+1. Create a redirect URI using an available port on the loopback address `"^http://127.0.0.1\\:\\d{4,10}$"`. You are free to use any path text instead of *desktop-callback*.
 
     ```csharp
-    string redirectUri = string.Format("http://127.0.0.1:7890/desktop-callback/");
+    string redirectUri = string.Format("http://127.0.0.1:7890");
     ```
 
 2. Create an **HttpListener** to listen for requests at that redirect URI:
@@ -59,7 +59,7 @@ There are a couple of extra lines of code to be aware of for SuperOffice SuperID
       ClientId = "YOUR\_APPLICATION\_ID",
       ClientSecret = "YOUR\_APPLICATION\_TOKEN",
       Scope = "openid profile api",
-      RedirectUri = "http://127.0.0.1:7890/desktop-callback",
+      RedirectUri = "http://127.0.0.1:7890",
       ResponseMode = OidcClientOptions.AuthorizeResponseMode.FormPost,
       Flow = OidcClientOptions.AuthenticationFlow.Hybrid,
     };

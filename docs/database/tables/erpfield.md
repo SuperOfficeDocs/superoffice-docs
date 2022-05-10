@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpField"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpField Table (425)
+
+Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector
 
 ## Fields
 
@@ -58,6 +60,15 @@ so.envir:
 |--------|-------|-------------|
 |erpfield\_id |PK |Clustered, Unique |
 |ErpConnectionActorTypeId, ErpFieldKey |FK, String(254) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpConnectionActorType](erpconnectionactortype.md)  |Data about the configuration of one Erp Actor on one ErpConnection |
+|[ErpListItemMapping](erplistitemmapping.md)  |Defines a mapping of ERP to CRM fields, per connection and actor type |
+
 
 ## Replication Flags
 

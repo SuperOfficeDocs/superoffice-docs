@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "MrMrsGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # MrMrsGroupLink Table (95)
+
+User group link table for MrMrs, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |mrmrsgrouplink\_id |PK |Clustered, Unique |
 |mrmrs\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[MrMrs](mrmrs.md)  |MrMrs list table. List of salutations. |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Email"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # Email Table (55)
+
+Email addresses for contacts, projects and persons
 
 ## Fields
 
@@ -35,7 +37,7 @@ so.envir:
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-|bounceCount|Number of bounces detected|When bounceCount > 4, email address shows up under 'Blocked e-mail addresses'|UShort|&#x25CF;|
+|bounceCount|Number of bounces detected|UShort|&#x25CF;|
 |lastBounce|When did last bounce happen|DateTime|&#x25CF;|
 |lastSent|Last transmission (regardless of success/bounce)|DateTime|&#x25CF;|
 |dbi\_agent\_id|Integration agent (eJournal)|FK [dbi_agent](dbi-agent.md)|&#x25CF;|
@@ -63,6 +65,18 @@ so.envir:
 |rank |UShort |Index |
 |dbi\_agent\_id |FK |Index |
 |appointment\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[project](project.md)  |Projects |
+
 
 ## Replication Flags
 

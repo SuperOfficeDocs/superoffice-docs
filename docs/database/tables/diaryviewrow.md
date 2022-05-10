@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DiaryViewRow"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # DiaryViewRow Table (215)
+
+Configuration of a multi-user diary view
 
 ## Fields
 
@@ -40,6 +42,14 @@ so.envir:
 |--------|-------|-------------|
 |DiaryViewRow\_id |PK |Clustered, Unique |
 |diaryViewId |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[DiaryView](diaryview.md)  |Configuration of a multi-user diary view |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udsalelarge"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # udsalelarge Table (159)
+
+User-defined fields
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |string42 |String(199) |Index |
 |string43 |String(199) |Index |
 |string44 |String(199) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+
 
 ## Replication Flags
 

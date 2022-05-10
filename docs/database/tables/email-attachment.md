@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "email_attachment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # email\_attachment Table (484)
+
+Attachment info related to an email_item
 
 ## Fields
 
@@ -40,6 +42,13 @@ so.envir:
 |--------|-------|-------------|
 |email\_attachment\_id |PK |Clustered, Unique |
 |email\_item\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[email\_item](email-item.md)  |Email data |
+
 
 ## Replication Flags
 

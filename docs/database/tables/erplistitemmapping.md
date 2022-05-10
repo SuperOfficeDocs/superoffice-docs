@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpListItemMapping"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpListItemMapping Table (424)
+
+Defines a mapping of ERP to CRM fields, per connection and actor type
 
 ## Fields
 
@@ -40,6 +42,14 @@ so.envir:
 |--------|-------|-------------|
 |erplistitemmapping\_id |PK |Clustered, Unique |
 |ErpFieldId, ErpItemKey |FK, String(254) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpField](erpfield.md)  |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector |
+
 
 ## Replication Flags
 

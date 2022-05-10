@@ -11,9 +11,9 @@ so.client: online
 
 # Validating security tokens
 
-There are a few of scenarios when applications must perform token validation.
+There are a few of scenarios when applications must perform JSON Web Token (JWT) validation.
 
-1. The first covers both when an application "installed" (approved) by a tenant administrator and when a normal user signs into the application. Validation is performed after the interactive user signs into SuperOffice and approves the application. A redirect POST request sends the user to the applications redirect URI, along with an ID token, access token, and refresh token.
+1. When the [Authorization Code flow][5] is complete.
 
 2. When an application obtains a system user ticket from the partner system user service endpoint.
 
@@ -24,6 +24,90 @@ Token validation establishes **trust** by the authentication mechanism. It ensur
 - The token was issued by SuperOffice
 - The token was issued to this user
 - The user has granted the application access to the listed operation
+
+## What is a JWT anyway?
+
+JWT is short for JSON web token:
+
+> A string representing a set of claims as a JSON object that is encoded in a JWS or JWE, enabling the claims to be digitally signed or MACed and/or encrypted. ([RFC7519][2]
+
+A JWT has 3 parts: header, payload, signature.
+
+![ID Token][img1]
+
+### JWT header
+
+The header will show that the token type is JWT and which algorithm that has been used to **sign** it.
+
+```javascript
+{
+"typ":"JWT",
+"alg":"HS256"
+}
+```
+
+### JWT payload
+
+The payload is the actual data of the JWT. It consists of a list of claims - each claim is a **name-value pair**.
+
+A claim can be either [standard OpenID Connect][14] or [custom][8] (with its own namespace).
+
+```javascript
+{
+  "sub": "tony@superoffice.com",
+  "http://schemes.superoffice.net/identity/associateid": "5",
+  "http://schemes.superoffice.net/identity/identityprovider": "central-superid",
+  "http://schemes.superoffice.net/identity/email": "tony@superoffice.com",
+  "http://schemes.superoffice.net/identity/upn": "tony@superoffice.com",
+  "http://schemes.superoffice.net/identity/is_administrator": "False",
+  "http://schemes.superoffice.net/identity/ctx": "Cust26759",
+  "http://schemes.superoffice.net/identity/company_name": "Tonys Developer Network",
+  "http://schemes.superoffice.net/identity/serial": "1801550193",
+  "http://schemes.superoffice.net/identity/netserver_url": "https://sod.superoffice.com/Cust26759/Remote/Services86/",
+  "http://schemes.superoffice.net/identity/webapi_url": "https://sod.superoffice.com/Cust26759/api/",
+  "http://schemes.superoffice.net/identity/system_token": "SuperOffice DevNet Node OIDC-8k8Q7DmBgo",
+  "iat": "1581665207",
+  "http://schemes.superoffice.net/identity/initials": "TY",
+  "http://schemes.superoffice.net/identity/so_primary_email_address": "tony@superoffice.com",
+  "nonce": "637172620046685267.NmU2ZmRjNTctYjU0ZS00ZDRlLThkNjgtOTBlZmY2N2QyYjc3MzYzZWE1YjctYTUxYS00NDM1LWE1YTEtNDEzYTMxNTgxMzA0",
+  "nbf": 1581665147,
+  "exp": 1581665507,
+  "iss": "https://sod.superoffice.com",
+  "aud": "6cf25376616343b38d14ddcd804f2891"
+}
+```
+
+### SuperOffice-specific claims
+
+SuperOffice offers the following in addition to the standard OAuth claims. The Federated ID column represents the [legacy federated flow][11], which no one should be using any more.
+
+> [!NOTE]
+> The claims in the following table are all prefixed with `http://schemes.superoffice.net/identity/`
+
+| Claim name | Federated ID | OpenID Connect | Description |
+|---|:-:|:-:|---|
+| `associateid` | X | X | The current user's associate ID. |
+| `company_name` | X | X | The current user's company name. |
+| `ctx` | X | X | The tenant identifier. |
+| `email` | X | X | The current user's email address. |
+| `firstname` | X | | The current user's first name. |
+| `identityprovider` | X | X | The identity provider responsible for authentication. Options:<br>SuperOffice AS (federated ID)<br>`https://sod.superoffice.com` (OpenID Connect) |
+| `initials` | X | X | The current user's full name initials. (added June 2019) |
+| `is_administrator` | X | X | Determine whether the current user is an administrator. |
+| `lastname` | X | | The current user's last name. |
+| `netserver_url` | X | X | The URL to a tenant SOAP web service.<br>Often used in conjunction with SuperOffice [.NET NuGet proxies][7].<br>New applications should always use the latest. |
+| `remember_me_expires` | X | X | Unused. |
+| `serial` | X | X | The tenant database serial number. |
+| `so_primary_email_address` | X | X | The current user's primary email address. (added June 2019) |
+| `system_token` | X | X | A unique identifier used to exchange for a system ticket.<br>Used for background processing, back-channel communications. |
+| `ticket` | X | | A current user's unique identifier, used for authentication. |
+| `upn` | X | X | Specifies a user principal name (UPN). |
+| `webapi_url` | X | X | The URL to a tenant REST web services. |
+
+
+### JWT signature
+
+**Signatures** verify that the information was sent from the sender and that the information **has not been altered**.
 
 ## What does it mean to validate tokens?
 
@@ -305,7 +389,7 @@ The `SuperIdToken` class is a container for security claims. It is returned afte
 `SuperIdToken` contains:
 
 - individual properties for common claims
-- a complete list of [claims][9] returned by SuperOffice CRM Online
+- a complete list of claims returned by SuperOffice CRM Online
 
 ```csharp
 public class SuperIdToken
@@ -344,63 +428,7 @@ SuperOffice provides the [SuperOffice.Crm.Online.Core][6] NuGet for processing
 
 We also provide [.NET helper libraries][7], which you can download.
 
-## What is JWT anyway?
 
-Completely new to token-based access control? We've got you covered!
-
-JWT is short for JSON web token:
-
-> A string representing a set of claims as a JSON object that is encoded in a JWS or JWE, enabling the claims to be digitally signed or MACed and/or encrypted. ([RFC7519][2]
-
-A JWT has 3 parts: header, payload, signature.
-
-![ID Token][img1]
-
-### JWT header
-
-The header will show that the token type is JWT and which algorithm that has been used to **sign** it.
-
-```javascript
-{
-"typ":"JWT",
-"alg":"HS256"
-}
-```
-
-### JWT payload
-
-The payload is the actual data of the JWT. It consists of a list of claims - each claim is a **name-value pair**.
-
-A claim can be either [standard OpenID Connect][14] or [custom][8] (with its own namespace).
-
-```javascript
-{
-  "sub": "tony@superoffice.com",
-  "http://schemes.superoffice.net/identity/associateid": "5",
-  "http://schemes.superoffice.net/identity/identityprovider": "central-superid",
-  "http://schemes.superoffice.net/identity/email": "tony@superoffice.com",
-  "http://schemes.superoffice.net/identity/upn": "tony@superoffice.com",
-  "http://schemes.superoffice.net/identity/is_administrator": "False",
-  "http://schemes.superoffice.net/identity/ctx": "Cust26759",
-  "http://schemes.superoffice.net/identity/company_name": "Tonys Developer Network",
-  "http://schemes.superoffice.net/identity/serial": "1801550193",
-  "http://schemes.superoffice.net/identity/netserver_url": "https://sod.superoffice.com/Cust26759/Remote/Services86/",
-  "http://schemes.superoffice.net/identity/webapi_url": "https://sod.superoffice.com/Cust26759/api/",
-  "http://schemes.superoffice.net/identity/system_token": "SuperOffice DevNet Node OIDC-8k8Q7DmBgo",
-  "iat": "1581665207",
-  "http://schemes.superoffice.net/identity/initials": "TY",
-  "http://schemes.superoffice.net/identity/so_primary_email_address": "tony@superoffice.com",
-  "nonce": "637172620046685267.NmU2ZmRjNTctYjU0ZS00ZDRlLThkNjgtOTBlZmY2N2QyYjc3MzYzZWE1YjctYTUxYS00NDM1LWE1YTEtNDEzYTMxNTgxMzA0",
-  "nbf": 1581665147,
-  "exp": 1581665507,
-  "iss": "https://sod.superoffice.com",
-  "aud": "6cf25376616343b38d14ddcd804f2891"
-}
-```
-
-### JWT signature
-
-**Signatures** verify that the information was sent from the sender and that the information **has not been altered**.
 
 <!-- Referenced links -->
 
@@ -408,6 +436,7 @@ A claim can be either [standard OpenID Connect][14] or [custom][8] (with its own
 [2]: https://tools.ietf.org/html/rfc7519
 [3]: certificates/override-resolver.md
 [4]: certificates/index.md
+[5]: ../online/sign-in-user/auth-code-flow.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
 [7]: ../../../assets/downloads/api/index.md
 [8]: api.md
@@ -415,6 +444,7 @@ A claim can be either [standard OpenID Connect][14] or [custom][8] (with its own
 [11]: sign-in-user/legacy.md
 [12]: sign-in-user/index.md
 [14]: index.md
+
 
 <!-- Referenced images -->
 

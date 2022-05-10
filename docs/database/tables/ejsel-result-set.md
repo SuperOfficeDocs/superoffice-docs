@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_result_set"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejsel\_result\_set Table (398)
+
+This table stores result set reference data, result sets for selections
 
 ## Fields
 
@@ -35,6 +37,13 @@ so.envir:
 |id |PK |Clustered, Unique |
 |meta\_result |FK |Index |
 |ref\_id |Int |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ejsel\_meta\_result](ejsel-meta-result.md)  |This table stores result meta data |
+
 
 ## Replication Flags
 

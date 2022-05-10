@@ -3,9 +3,12 @@ node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12"
 edge [fontname = "Helvetica" fontsize = "9"]
 
 ticket_status[fillcolor = "cadetblue1"]
+ej_category[fillcolor = "azure1"]
 ticket_status_history[fillcolor = "azure1"]
 ticket[fillcolor = "azure1"]
 ejuser[fillcolor = "azure1"]
+ej_category -> ticket_status [label = "closing_status"]
+ej_category -> ticket_status [label = "msg_closing_status"]
 ticket_status_history -> ticket_status [label = "ticket_status"]
 ticket -> ticket_status [label = "ticket_status"]
 ejuser -> ticket_status [label = "default_status_new_ticket"]

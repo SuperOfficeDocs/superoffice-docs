@@ -8,29 +8,12 @@ items:
   items:
   - name: Overview
     href: authentication/overview.md
-  - name: Terminology
-    href: authentication/terminology.md
-  - name: Users and associates
-    href: authentication/users-and-associates.md
-  - name: WebAPI
-    href: authentication/webapi/index.md 
-    items:
-    - name: IAuthorization
-      href: authentication/webapi/iauthorization.md
-    - name: SystemUserClient
-      href: authentication/webapi/systemuserclient.md
-    - name: Enable Basic authentication (username + password)
-      href: authentication/webapi/enable-basic-auth.md
-    - name: Enable IIS Identity (AD)
-      href: authentication/webapi/enable-iis-identity.md
-    - name: Reuse session with X-XSRF-TOKEN
-      href: authentication/webapi/reuse-session.md
   - name: Online authentication
     href: authentication/online/index.md
     items:
     - name: Which flow should I use?
       href: authentication/online/which-flow-to-use.md
-    - name: SuperOffice API
+    - name: OpenID Connect
       href: authentication/online/api.md
     - name: Sign in user (interactive)
       href: authentication/online/sign-in-user/index.md
@@ -71,8 +54,10 @@ items:
   - name: Onsite authentication
     href: authentication/onsite/index.md
     items:
-    - name: Pipeline and plug-ins
-      href: authentication/onsite/pipeline.md
+    - name: Users and associates
+      href: authentication/onsite/users-and-associates.md
+    - name: Terminology
+      href: authentication/onsite/terminology.md
     - name: SoSession
       href: authentication/onsite/sosession/index.md
       items:
@@ -80,7 +65,7 @@ items:
         href: authentication/onsite/sosession/switch.md
       - name: SOAP web services
         href: authentication/onsite/sosession/using-soap.md
-    - name: NetServer web service custom proxies
+    - name: Web service authentication
       href: authentication/onsite/custom-proxies/index.md
     - name: Configuration
       items:
@@ -88,6 +73,8 @@ items:
         href: authentication/onsite/config-anonymous-user.md
       - name: Enable external user
         href: authentication/onsite/config-external-user.md
+    - name: Authentication plug-ins
+      href: authentication/onsite/pipeline.md
     - name: Legacy
       items:
       - name: COM API
@@ -267,21 +254,23 @@ items:
   - name: Proxies
     href: web-services/proxies/index.md
     items:
-    - name: Call using WebAPI client
-      href: web-services/proxies/webapi-client.md
-    - name: Call using NetServer Services proxies
+    - name: Using WebAPI client
+      href: web-services/proxies/index.md
+    - name: Using NetServer Services proxies
       href: web-services/proxies/built-in.md
-    - name: Call using custom proxies
+    - name: Using custom proxies
       href: web-services/proxies/custom.md
   - name: Timezones
     href: web-services/so-timezone.md
-  - name: How to set up REST
-    href: web-services/setup-rest.md
+  - name: How to set up REST onsite
+    href: ../onsite/install/netserver/setup-rest.md
 - name: Entities
   href: entities/index.md
   items:
   - name: Entity collections
     href: entities/collections.md
+  - name: Set Defaults
+    href: entities/setdefaults.md
   - name: Entity events
     href: entities/events.md
   - name: Entity activity links
@@ -368,6 +357,8 @@ items:
       href: osql/count.md
     - name: Upper
       href: osql/upper.md
+    - name: SoundEx
+      href: osql/soundx.md
 - name: Bulk Operation
   href: bulk-operations/index.md
   items:

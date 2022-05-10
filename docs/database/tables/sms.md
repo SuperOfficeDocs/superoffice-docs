@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sms"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # sms Table (388)
+
+This table will hold outgoing sms messages when transmitted with WebServices
 
 ## Fields
 
@@ -51,6 +53,17 @@ so.envir:
 |customer\_id |FK |Index |
 |message\_id |FK |Index |
 |outgoing\_message\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[outbox](outbox.md)  |Outgoing emails with sending status and other info |
+|[outgoing\_message](outgoing-message.md)  |Delivery of outgoing messages to messageplugins, updated with status asynchroneously |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+
 
 ## Replication Flags
 

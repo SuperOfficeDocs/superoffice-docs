@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dbi_agent_schedule"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # dbi\_agent\_schedule Table (383)
+
+DBI agent schedule settings
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |agent\_id |FK |Index |
 |script\_id |FK |Index |
 |schedule\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[ejscript](ejscript.md)  |ejscript |
+|[schedule](schedule.md)  |Generic scheduled tasked handling time scheduling, locking and error messages |
+
 
 ## Replication Flags
 

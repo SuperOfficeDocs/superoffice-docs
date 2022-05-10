@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ms_trashbin"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ms\_trashbin Table (312)
+
+This table contains entries for emails which have been trashed by a filter, waiting for confirmation of deletion or import.
 
 ## Fields
 
@@ -37,6 +39,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |mail\_sorter\_id |FK |Index |
 |mail\_in\_filter\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
+|[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
+
 
 ## Replication Flags
 

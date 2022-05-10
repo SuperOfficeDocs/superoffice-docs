@@ -11,70 +11,53 @@ so.client: online
 
 # System user flow
 
-The system user flow is used to authenticate applications in **non-interactive server-to-server** communications.
+The system user flow is how to obtain a Ticket credential to perform **non-interactive server-to-server** communications.
 
-![System user flow][img1]
+> [!NOTE]
+> In the future, system user functionality will be replaced with OAuth 2.0 Client Credentials flow.
 
 ## Overview
 
-A **system user token** is a String formatted as `NAME_OF_APP-<some_random_characters>` and represents a contract between an application and a [tenant][6]
+There are two prerequisites before one can begin using the System User flow:
 
-It is generated when an administrator signs in to SuperID with the application and is returned in the `id_token` JWT.
+1. The application has the System User option enabled.
+
+   It is enabled by selecting the option during application registration.
+
+   ![imagecxe1.png][img3]
+
+2. The application has been issued a **system user token**.
+
+A **system user token** is only available after someone with administrator rights uses the application to signs in to their tenant using [OAuth 2.0/OpenID Connect][10]. When the individual gives consent to the application, by clicking the **I Approve** button after authentication, the system user token is generated and issued as a claim in the `id_token`.
 
 The system user token is:
 
-* is unique for each combination of tenant and application
+* formatted as: `Application Name-<random-number-of-characters>`
+* is unique for each tenant and application combination
 * will exist for the lifetime of the application
-* is included in the `id_token` JWT claim collection
+* is included in the `id_token` claim collection
 
-A system user token remains the same and will not change for the lifetime of the application, unless the application vendor requests it be revoked.
+A system user token remains the same and will not change for the lifetime of the application, unless the customer or application vendor revokes it.
 
-### How is the system user token used?
+### How to use the system user token to obtain a Ticket
 
-The system user token is a secret string used by background processing applications to [obtain a valid system user ticket][8] credential.
+The following procedure outline the steps necessary to use the system user **token** to obtain a **Ticket** credential.
 
-The system user **token** is **not** used for direct access to any customer tenant web services. For that, you need the system user **ticket**. Therefore, you must use the token to obtain a valid ticket credential.
+1. Generate a [signed System User token][11] signature.
+1. [Send the signed system user token][8] to the SuperOffice PartnerSystemUser endpoint.
+1. In the response, [validate the JSON Web Token (JWT)][3].
+1. Extract the Ticket claim from the JWT.
 
-In the future, system user functionality will be replaced with OAuth 2.0 Client Credentials flow.
+## How to use the system user ticket credentials
 
-![Non-interactive token flow][img2]
+An application can use the system user ticket credential in:
 
-### Where does the system user token come from?
-
-1. A customer tenant administrator must [approve your application][1]. This is a one-time interactive login.
-
-    * Behind the scenes, a system user token is generated and appended to an application authorization record in the Operation Center, and the application authorization record binds the application to the tenant.
-
-2. The successful interactive login is then redirected via a POST request to the application [redirect URL][2]. The POST request body contains, in addition to other things, the `id_token` JWT.
-
-    * Therefore, all applications must have a redirect URL.
-    * Smaller organizations or consultants without the facilities to host a website can use our helper [DevNet-Tokens](https://devnet-tokens.azurewebsites.net) website to help perform the administrative login and displays the system user token.
-
-3. [Validate the token][3].
-
-    * The redirect URL destination is expected to receive the JWT from the request body, validate the [id_token][4], and then reliably access the identity [claims][5].
-    * Extract the claims including **system user token** from [SuperIdToken][3] and store this information in your application in a multi-tenant fashion.
-      * The system user claim key is: http://schemes.superoffice.net/identity/system_token
-    * It's up to the application to securely store the system user token for future use.
-
-4. [Exchange system user token for system user ticket][8] for each request session with the tenant web services. The ticket is a short-lived credential, only valid for 6 hours. It is a sliding-expiration credential, so as long as the ticket is used before it is expired, the 6 hour expiration is reset and good for another 6 hours. As discussed in [app best practices][9], do cache the Ticket and **do not** obtain a new system user ticket more often than necessary.
-
-5. Send requests to SuperOffice web services using the ticket as credentials.
-
-The system user token is only generated and included in the `id_token` if system user token functionality is requested during application registration.
-
-![imagecxe1.png][img3]
-
-## System user ticket
-
-The system user ticket is used for access to the customer tenant. It is used as an **authentication token** when the application submits web service requests to the tenant APIs.
-
-## How is the system user ticket used?
-
-An application can use the ticket string to set the credential:
-
-* as an **SOTicket** header in the REST API, which must also include the SO-AppToken header, or
-* as an **SoCredential** ticket property in SOAP API
+* an Authorization header in HTTP requests 
+  * Instead of `Authorization Bearer <access_token>`, use
+    `Authorization SOTicket <ticket>`
+  * The **SO-AppToken** header _must_ be included in the headers with the request.
+    * The SO-AppToken value is the OAuth 2.0 client_secret.
+* an **SoCredential** ticket property in SOAP API
 
 # [REST](#tab/rest)
 
@@ -89,7 +72,7 @@ Accept: application/json
 
 # [SOAP](#tab/soap)
 
-See the `<NS:Credentials>` element:
+See the `<User:Credentials>` and `<User:ApplicationToken>` elements:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -115,7 +98,7 @@ See the `<NS:Credentials>` element:
 
 ***
 
-With a valid credential set, the application can connect to and process data with the customer tenant.
+With a valid credential set, the application can send authenticated requests to the customer tenant.
 
 <!-- Referenced links -->
 [1]: ../../../../apps/provisioning/consent.md
@@ -126,7 +109,8 @@ With a valid credential set, the application can connect to and process data wit
 [6]: ../../../../apps/tenant-status/index.md
 [8]: get-system-user-ticket.md
 [9]: ../../../../apps/best-practices.md#credential-management
-
+[10]: ../sign-in-user/index.md
+[11]: sign-system-user-token.md
 <!-- Referenced images -->
 [img1]: media/system-user-flow.jpg
 [img2]: media/non-interactive-token-flow.jpg

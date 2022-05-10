@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Source"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,17 @@ Source list table. Source for sale (list)
 |--------|-------|-------------|
 |Source\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
+|[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
+|[SourceGroupLink](sourcegrouplink.md)  |User group link table for Source, for MDO item hiding |
+|[SourceHeadingLink](sourceheadinglink.md)  |Heading link table for Source, for MDO headers |
+
 
 ## Replication Flags
 

@@ -5,7 +5,7 @@ description: Lists the enum values for ShipmentMessageType.
 so.generated: true
 keywords:
   - "database"
-so.date: 11.02.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -18,11 +18,11 @@ Identifies if HTML or plain message is included in message.
 
 | Name | Value | Description |
 |------|-------|-------------|
-|Plain|0|Contains a plain part|
-|Html|1|Contains a HTML part|
-|SourceView|2|Obsolete|
-|Sms|4|Contains a SMS|
-|Document|8|Contains a document. The document_message field contains the id of the actual document|
+|Plain|1|Contains a plain part|
+|Html|2|Contains a HTML part|
+|SourceView|4|Obsolete|
+|Sms|8|Contains a SMS|
+|Document|16|Contains a document. The document_message field contains the id of the actual document|
 
 ## Usage
 

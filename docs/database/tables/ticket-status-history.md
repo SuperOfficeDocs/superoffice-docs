@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_status_history"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_status\_history Table (261)
+
+This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved
 
 ## Fields
 
@@ -39,6 +41,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |ticket\_status |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
+
 
 ## Replication Flags
 

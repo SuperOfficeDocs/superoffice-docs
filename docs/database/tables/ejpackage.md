@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejpackage"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ejpackage Table (384)
+
+This table stores packages on the system.
 
 ## Fields
 
@@ -42,6 +44,15 @@ so.envir:
 |id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
 |uploaded\_by |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[ejpackage\_item](ejpackage-item.md)  |This table stores info on installed packages in the system |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORLabelLayout"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SORLabelLayout Table (180)
+
+SuperOffice reporter data
 
 ## Fields
 
@@ -50,6 +52,14 @@ so.envir:
 |--------|-------|-------------|
 |SORLabelLayout\_id |PK |Clustered, Unique |
 |name |String(239) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SORPublish](sorpublish.md)  |SuperOffice reporter data |
+
 
 ## Replication Flags
 

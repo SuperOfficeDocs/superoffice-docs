@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "mail_alias"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # mail\_alias Table (273)
+
+This table contains the alias&amp;apos;es for each mailbox, one-to-many-relation. It is in so we can substract the alias&amp;apos;es when when listing the recipients of a message.
 
 ## Fields
 
@@ -34,6 +36,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |filter\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
+
 
 ## Replication Flags
 

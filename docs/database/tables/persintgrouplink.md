@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PersIntGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # PersIntGroupLink Table (74)
+
+User group link table for PersInt, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |persintgrouplink\_id |PK |Clustered, Unique |
 |persint\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[PersInt](persint.md)  |PersInt list table. List of Person interests. |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

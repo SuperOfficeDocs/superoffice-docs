@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_picture_folder"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_picture\_folder Table (339)
+
+This table contains all picture folders
 
 ## Fields
 
@@ -42,6 +44,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |folder\_type |Short |Index |
 |parent\_id, folder\_type |Int, Short |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
+
 
 ## Replication Flags
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LicenseAssocLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # LicenseAssocLink Table (238)
+
+Link between ModuleLicense and Associate, for per-assoc licenses; this is how licenses are assigned/consumed
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 |--------|-------|-------------|
 |LicenseAssocLink\_id |PK |Clustered, Unique |
 |moduleLicenseId, assocId |FK, FK |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
+
 
 ## Replication Flags
 

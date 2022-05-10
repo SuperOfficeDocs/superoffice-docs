@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORCriteria"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SORCriteria Table (175)
+
+SuperOffice reporter data
 
 ## Fields
 
@@ -48,6 +50,15 @@ so.envir:
 |SOROperators\_id |FK |Index |
 |useIt |UShort |Index |
 |whereOrder |UShort |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SOROperators](soroperators.md)  |SuperOffice reporter data |
+|[SORPublish](sorpublish.md)  |SuperOffice reporter data |
+
 
 ## Replication Flags
 

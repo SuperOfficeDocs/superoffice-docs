@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "service_auth"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # service\_auth Table (482)
+
+Authentication for a service (imap, smtp...)
 
 ## Fields
 
@@ -44,6 +46,14 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |service\_auth\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[email\_account](email-account.md)  |Email account information |
+
 
 ## Replication Flags
 

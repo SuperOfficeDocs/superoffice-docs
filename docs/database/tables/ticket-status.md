@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_status"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_status Table (263)
+
+This table user defined ticket status values.
 
 ## Fields
 
@@ -38,6 +40,16 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |status |Enum |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
+
 
 ## Replication Flags
 

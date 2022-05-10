@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_log_change"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ticket\_log\_change Table (268)
+
+This table contains log entries for the tickets.
 
 ## Fields
 
@@ -42,6 +44,16 @@ so.envir:
 |message\_id |FK |Index |
 |action\_id |FK |Index |
 |extra\_field\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
+|[extra\_fields](extra-fields.md)  |This table contains entries for the extra fields in the system. |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
+
 
 ## Replication Flags
 

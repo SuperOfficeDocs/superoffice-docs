@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductCategory"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,15 @@ List for the ProductCategory field of the Product table (Quote Management)
 |--------|-------|-------------|
 |productcategory\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ProductCategoryGroupLink](productcategorygrouplink.md)  |User group link table for ProductCategory, for MDO item hiding |
+|[ProductCategoryHeadingLink](productcategoryheadinglink.md)  |Heading link table for ProductCategory, for MDO item headings |
+
 
 ## Replication Flags
 

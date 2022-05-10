@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LicenseSatlLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # LicenseSatlLink Table (239)
+
+Link between License and Satellite, for per-database licenses
 
 ## Fields
 
@@ -44,6 +46,15 @@ so.envir:
 |--------|-------|-------------|
 |LicenseSatlLink\_id |PK |Clustered, Unique |
 |moduleLicenseId, satelliteId |FK, FK |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
+|[satellite](satellite.md)  |Definition of Satellites |
+
 
 ## Replication Flags
 

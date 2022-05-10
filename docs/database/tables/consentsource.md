@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ConsentSource"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ConsentSource Table (466)
+
+Consent source for GDPR
 
 ## Fields
 
@@ -35,12 +37,23 @@ so.envir:
 
 ![ConsentSource table relationship diagram](./media/ConsentSource.png)
 
+[!include[details](./includes/consentsource.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
 |consentsource\_id |PK |Clustered, Unique |
 |key |String(255) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
+|[DocTmpl](doctmpl.md)  |DocTmpl list table. Describes templates available for writing new documents. |
+
 
 ## Replication Flags
 

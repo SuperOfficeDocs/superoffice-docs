@@ -25,16 +25,55 @@ print("Params: " + param1 + " " + param2);
 print("Name = " + param3 );
 ```
 
-Save the script with a unique ID `ScriptHook1`.
+Save the script with a unique include name, `ScriptHook1`.
+
+![include-name][include-img]
 
 We then need to create a hook that will call this script:
+
+# [CRMScript API](#tab/Webhook-CRMScript)
+
+## Create a webhook using CRMScript
+
+This CRMScript will create a webhook that when triggered, calls a CRMScript with Include name `ScriptHook1`.
+
+```crmscript
+#setLanguageLevel 3;
+
+/*
+ * Create a new webhook to subscribe to person events.
+ */
+
+String targetCrmScript = "ScriptHook1";
+String[] events = String("contact.created,contact.changed").split(",");
+
+NSWebhookAgent webhookAgent;
+NSWebhook webhook = webhookAgent.CreateDefaultWebhook();
+webhook.SetEvents(events);
+webhook.SetName("CRMScript webhook handler");
+webhook.SetType("crmscript");
+webhook.SetTargetUrl(targetCrmScript);
+webhook.SetState(1)                      // Set it as active!
+
+webhook = webhookAgent.SaveWebhook(webhook);
+
+printLine("Webhook succeeded with ID: " + webhook.GetWebhookId().toString());
+```
+# [REST API](#tab/Webhook-REST)
+
+## Create a webhook using the REST API
+
+This CRMScript will create a webhook that when triggered, calls a CRMScript with Include name `ScriptHook1`.
+
+This example uses an online OAuth Bearer token for authorization. See the [API Authentication][1] section for alternative options.
 
 ``` json
 POST /api/v1/Webhook
 Content-Type: application/json
+Authorization: Bearer {{token}}
 
 {
-  "Name": "CrmScript Handler",
+  "Name": "CRMScript webhook handler",
   "Events": [
         "contact.created",
         "contact.changed"
@@ -45,10 +84,13 @@ Content-Type: application/json
 }
 ```
 
-This adds a hook that will call our script whenever a new contact is created or changed. The script is identified using the unique id as the `TargetUrl` value.
-We must set the type to `crmscript` and the rest is as for a webhook - we need to give it a name and a list of events to listen for.
+***
 
-Unlike webhooks, a script hook gets the values of the changed fields, not just the names of the changed fields as parameters.
+The webhook must have a name, a list of events to subscribe to and must be set to `crmscript`.
+
+This example above adds a webhook that will call the `ScriptHook1` script whenever a new contact is created or changed. The script is identified using the unique _include name_ as the `TargetUrl` value.
+
+Unlike webhooks of type _webhook_, a _crmscript_ webhook gets the values of the changed fields, not just the names of the changed fields as parameters.
 
 Parameters passed to the CRMScript:
 
@@ -99,29 +141,10 @@ for(Integer i = 0; i < webhooks.length(); i++) {
 }
 ```
 
-## Create a webhook from CRMScript
+<!-- referenced links -->
 
-This will create a CrmScript hook from CRMScript.
+[1]: ../../api/authentication/overview.md
 
-```crmscript
-#setLanguageLevel 3;
+<!-- referenced images -->
 
-/*
- * Create a new webhook to subscribe to person events.
- */
-
-String targetUrl = "YOUR_CRMSCRIPT_INCLUDE_NAME";
-
-NSWebhookAgent webhookAgent;
-NSWebhook webhook = webhookAgent.CreateDefaultWebhook();
-
-String[] events = String("person.created,person.changed,person.deleted").split(",");
-webhook.SetEvents(events);
-webhook.SetName("Person Webhook from CRMScript");
-webhook.SetType("crmscript");
-webhook.SetTargetUrl(targetUrl);
-
-webhook = webhookAgent.SaveWebhook(webhook);
-
-printLine("Webhook succeeded with ID: " + webhook.GetWebhookId().toString());
-```
+[include-img]: media/webhook-include-name.png

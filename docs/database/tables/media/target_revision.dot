@@ -1,0 +1,15 @@
+digraph target_revision  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+target_revision[fillcolor = "cadetblue1"]
+target_revision_history[fillcolor = "azure1"]
+target_assignment_info[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+target_change[fillcolor = "azure1"]
+target_revision -> target_revision_history [headlabel = "target_revision_history_id"]
+target_revision -> target_assignment_info [headlabel = "assignment_info_id"]
+target_revision -> associate [headlabel = "registered_associate_id"]
+target_revision -> associate [label = "updated_associate_id"]
+target_change -> target_revision [label = "target_revision_id"]
+}

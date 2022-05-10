@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_entry_keyword"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_entry\_keyword Table (288)
+
+This table contains all keywords for the faq entries
 
 ## Fields
 
@@ -35,6 +37,13 @@ so.envir:
 |id |PK |Clustered, Unique |
 |kb\_entry\_id |FK |Index |
 |keyword |String(255) |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+
 
 ## Replication Flags
 

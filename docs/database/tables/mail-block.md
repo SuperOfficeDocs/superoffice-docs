@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "mail_block"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # mail\_block Table (316)
+
+This table controls the spam-protection system, ensuring that a single email recipient does not recieve too many emails during a certain period of time.
 
 ## Fields
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductFamilyHeadingLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ProductFamilyHeadingLink Table (413)
+
+Heading link table for ProductFamily, for MDO item headings
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |productfamilyheadinglink\_id |PK |Clustered, Unique |
 |productfamily\_id |FK |Index |
 |heading\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
+|[ProductFamily](productfamily.md)  |List for the ProductFamily field of the Product table (Quote Management) |
+
 
 ## Replication Flags
 

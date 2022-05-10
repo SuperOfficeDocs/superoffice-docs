@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpConnectionAccess"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # ErpConnectionAccess Table (420)
+
+Access control for Erp Connections
 
 ## Fields
 
@@ -41,6 +43,15 @@ so.envir:
 | Fields | Types | Description |
 |--------|-------|-------------|
 |erpconnectionaccess\_id |PK |Clustered, Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

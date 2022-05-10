@@ -1,12 +1,12 @@
 ---
 uid: table-document
 title: document table
-description: There is always a corresponding appointment record. The relation between appointment and document is navigable in both directions.
+description: Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.  
 so.generated: true
 keywords:
   - "database"
   - "document"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # document Table (10)
 
-A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.
+Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.
 
 ## Fields
 
@@ -60,6 +60,24 @@ A document-type appointment record always has a corresponding document record an
 |extref |String(511) |Index |
 |userdef\_id |FK |Index |
 |userdef2\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[email\_item](email-item.md)  |Email data |
+|[ExtApp](extapp.md)  |ExtApp list table. Applications startable from SuperOffice |
+|[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
+|[QuoteVersionAttachment](quoteversionattachment.md)  |Actual attachments to a quote |
+|[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+|[SaleTypeQuoteAttachment](saletypequoteattachment.md)  |Default attachments to quotes linked to sales of this type |
+|[text](text.md)  |Long text fields from all over the system |
+|[uddoclarge](uddoclarge.md)  |User-defined fields |
+|[uddocsmall](uddocsmall.md)  |User-defined fields |
+
 
 ## Replication Flags
 

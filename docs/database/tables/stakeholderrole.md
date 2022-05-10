@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StakeholderRole"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,16 @@ Role a stakeholder has in a sale
 |--------|-------|-------------|
 |StakeholderRole\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[SaleStakeholder](salestakeholder.md)  |Stakeholders in the sale, very similar to project members |
+|[StakeholderRoleGroupLink](stakeholderrolegrouplink.md)  |User group link table for StakeholderRole, for MDO item hiding |
+|[StakeholderRoleHeadingLink](stakeholderroleheadinglink.md)  |Heading link table for StakeholderRole, for MDO headers |
+
 
 ## Replication Flags
 

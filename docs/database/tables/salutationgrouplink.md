@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SalutationGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # SalutationGroupLink Table (220)
+
+User group link table for Salutation, for MDO item hiding
 
 ## Fields
 
@@ -40,6 +42,15 @@ so.envir:
 |salutationgrouplink\_id |PK |Clustered, Unique |
 |salutation\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Salutation](salutation.md)  |Academic title for Person |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 

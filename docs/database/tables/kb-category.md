@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_category"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # kb\_category Table (283)
+
+Knowledge base folder hierarchy
 
 ## Fields
 
@@ -51,6 +53,21 @@ so.envir:
 |dbi\_key |String(255) |Index |
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[chat\_topic](chat-topic.md)  |This table contains chat topics. |
+|[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
+|[dbi\_agent](dbi-agent.md)  |DBI agent settings |
+|[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
+|[kb\_category\_log](kb-category-log.md)  |Who and when, if somebody edits a knowledge base folder |
+|[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
+|[kb\_group](kb-group.md)  |This table contains FAQ groups. A group is a cluster of entries (potentially located anywhere in the FAQ hierarchy). A group is located in a certain category. |
+|[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
+
 
 ## Replication Flags
 

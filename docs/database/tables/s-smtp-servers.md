@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_smtp_servers"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_smtp\_servers Table (390)
+
+Contains the smtp server for a shipment
 
 ## Fields
 
@@ -35,6 +37,13 @@ so.envir:
 |--------|-------|-------------|
 |id |PK |Clustered, Unique |
 |shipment\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
+
 
 ## Replication Flags
 

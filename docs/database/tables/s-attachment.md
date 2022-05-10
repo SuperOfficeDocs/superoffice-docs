@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_attachment"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # s\_attachment Table (349)
+
+A connector between a message and attachments. One message can contain many attachments.
 
 ## Fields
 
@@ -35,6 +37,14 @@ so.envir:
 |id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
 |message\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
+|[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
+
 
 ## Replication Flags
 

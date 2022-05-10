@@ -1,0 +1,20 @@
+digraph target_revision_history  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+target_revision_history[fillcolor = "cadetblue1"]
+target_group[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+UserGroup[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+target_assignment_info[fillcolor = "azure1"]
+target_revision[fillcolor = "azure1"]
+target_revision_history -> target_group [headlabel = "target_group_id"]
+target_revision_history -> associate [headlabel = "associate_id"]
+target_revision_history -> UserGroup [headlabel = "usergroup_id"]
+target_revision_history -> contact [headlabel = "contact_id"]
+target_revision_history -> associate [label = "registered_associate_id"]
+target_revision_history -> associate [label = "updated_associate_id"]
+target_revision_history -> target_assignment_info [headlabel = "target_assignment_info_id"]
+target_revision -> target_revision_history [label = "target_revision_history_id"]
+}

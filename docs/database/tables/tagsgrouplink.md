@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TagsGroupLink"
-so.date: 11.04.2021
+so.date: 04.12.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,6 +14,8 @@ so.envir:
 ---
 
 # TagsGroupLink Table (460)
+
+User group link table for Tags, for MDO item hiding
 
 ## Fields
 
@@ -31,6 +33,8 @@ so.envir:
 
 ![TagsGroupLink table relationship diagram](./media/TagsGroupLink.png)
 
+[!include[details](./includes/tagsgrouplink.md)]
+
 ## Indexes
 
 | Fields | Types | Description |
@@ -38,6 +42,15 @@ so.envir:
 |tagsgrouplink\_id |PK |Clustered, Unique |
 |tags\_id |FK |Index |
 |group\_id |FK |Index |
+
+## Relationships
+
+| Table|  Description |
+|------|-------------|
+|[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Tags](tags.md)  |MDO List of tags for Service entities |
+|[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 
