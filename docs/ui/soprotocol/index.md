@@ -25,7 +25,7 @@ For example, to go to the contact with contact_id=2:
 ![08][img4]
 
 > [!TIP]
-> You can get a URL that reflects the current state of the application by selecting **Copy shortcut** either from the hamburger menu, the **Task** menu in dialogs for follow-ups and documents, or by right-clicking an item in a section tab, can get from address bar, and from Development Tools: (SuperOffice.Environment.SoProtocol)
+> You can get a URL that reflects the current state of the application by selecting **Copy shortcut** either from the hamburger menu, the **Task** menu in dialogs for follow-ups and documents, or by right-clicking an item in a section tab, can get from address bar, and from developer tools: (SuperOffice.Environment.SoProtocol)
 
 For example:
 
