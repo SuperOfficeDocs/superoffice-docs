@@ -24,7 +24,7 @@ All applications begin in our [sandbox environment][4]. Custom applications must
 
 ## Your options with custom applications
 
-Custom applications require a subscription to [Developer Tools][7] (formerly Expander Services) to get access to the necessary tools and APIs. With this toolbox, you can:
+Custom applications require a subscription to [Development Tools][7] (formerly Expander Services) to get access to the necessary tools and APIs. With this toolbox, you can:
 
 * Add extra tables to customize Service
 * Create custom screens to fit your specific processes

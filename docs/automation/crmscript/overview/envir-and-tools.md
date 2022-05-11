@@ -9,7 +9,7 @@ so.topic: howto
 
 # How do I create and run CRMScripts?
 
-To use CRMScripts in your SuperOffice environment, you need a subscription to Developer Tools (previously Expander Services).
+To use CRMScripts in your SuperOffice environment, you need a subscription to Development Tools (previously Expander Services).
 
 ## Creating CRMScripts
 
@@ -27,7 +27,7 @@ However, we recommend using the built-in editor in the SuperOffice admin client.
 **Pre-requisites:**
 
 * An administrator account for the tenant or installation
-* A Developer Tools (previously Expander Services) license
+* A Development Tools (previously Expander Services) license
 
 ### Where does CRMScript run?
 
@@ -64,11 +64,11 @@ You need to [!include[register as a developer](includes/link-register-dev.md)] a
 
 This signs you up for a developer user account and creates a test tenant in the SuperOffice Online Development (SOD) environment.
 
-## Developer Tools
+## Development Tools
 
 **Expander Services** is our name for a set of development tools and development products that allow you to customize your CRM solution and to integrate other applications with SuperOffice. These tools extend beyond the standard configuration options offered to you out-of-the-box in the **Settings and maintenance** module.
 
-Developer Tools is a **subscription-based** license part of Expander Services and is available to all customers. It doesn’t matter if you run SuperOffice CRM in the cloud or have it installed on your premises.
+Development Tools is a **subscription-based** license part of Expander Services and is available to all customers. It doesn’t matter if you run SuperOffice CRM in the cloud or have it installed on your premises.
 
 [Read more][1]
 
