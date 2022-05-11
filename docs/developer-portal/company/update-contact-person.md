@@ -15,6 +15,9 @@ so.client: online
 
 ![Partner settings -screenshot][img1]
 
+> [!NOTE]
+> These steps apply to the *partner settings*. To update the technical contact for a specific application, do steps 1-3 of [Update app-specific page][1].
+
 1. In the Developer Portal, go to your partner page.
 
 2. Select **Settings** from the left menu or click the **Edit** button.
@@ -31,6 +34,7 @@ so.client: online
 > [!include[Link to company settings](../includes/see-company-settings.md)]
 
 <!-- Referenced links -->
+[1]: ../app-store/update-app-page.md
 
 <!-- Referenced images -->
 [img1]: media/partner-settings.png

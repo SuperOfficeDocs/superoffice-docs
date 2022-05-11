@@ -23,7 +23,7 @@ As a partner that offers one or more applications through the [SuperOffice App S
 * [Add or update partner settings][2]
 * [Change contact persons][3]
 * Manage permissions within the organization
-* Add users
+* Add a user
 * [Register new app][4]
 
 <!-- Referenced links -->
