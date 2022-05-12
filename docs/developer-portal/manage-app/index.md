@@ -18,13 +18,17 @@ so.client:
 * [Application environments][3]
 * [Provisioning][5]
 * [Redirects][6]
+* [Tenant status][4]
 
 ## What would you like to do?
 
 * [Find out who your customers are][1]
+* [Manage notifications][2]
 
 <!-- Referenced links -->
 [1]: customers.md
+[2]: notifications.md
+[4]: ../../apps/tenant-status/index.md
 [3]: ../../apps/getting-started/app-envir.md
 [5]: ../../apps/provisioning/index.md
 [6]: ../../apps/redirects/index.md

@@ -29,6 +29,8 @@ items:
     items:
     - name: View customers
       href: manage-app/customers.md
+    - name: Manage notifications
+      href: manage-app/notifications.md
   - name: App Store information
     href: app-store/index.md
     items:
