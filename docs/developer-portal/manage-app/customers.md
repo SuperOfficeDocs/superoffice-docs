@@ -20,12 +20,7 @@ You can check which customers that have authorized a specific app and get a list
 
 ## Who has authorized this app?
 
-1. In the Developer Portal, go to your app page.
-
-    To see the list of all apps:
-
-    * Select **Apps** from the top menu, or
-    * Go to your partner overview page.
+[!include[Go to the app page](../includes/go-to-app-page.md)]
 
 2. Select **Overview** and locate the **Customers** section.
 

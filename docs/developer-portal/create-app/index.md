@@ -34,6 +34,8 @@ so.client:
 ## What would you like to do?
 
 * [Get access to SOD][2]
+* [Check what your client ID is][7]
+* [Create a new client secret][8]
 
 <!-- Referenced links -->
 [1]: ../../apps/getting-started/index.md
@@ -42,6 +44,8 @@ so.client:
 [4]: ../../apps/getting-started/user-contexts.md
 [5]: ../../apps/provisioning/index.md
 [6]: ../../apps/redirects/index.md
+[7]: find-clientid.md
+[8]: get-client-secret.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-overview.png

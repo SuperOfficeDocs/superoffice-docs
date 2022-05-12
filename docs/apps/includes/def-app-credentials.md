@@ -1,0 +1,1 @@
+Applications have 2 unique identifiers: `ApplicationIdentifier` (client ID) and `ApplicationToken` (client secret). The latter is considered a password and must be stored as such.

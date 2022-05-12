@@ -24,6 +24,11 @@ items:
       href: company/manage-permissions.md
   - name: Create a new app (registration)
     href: create-app/index.md
+    items:
+    - name: What is my client ID?
+      href: create-app/find-clientid.md
+    - name: Create new client secret
+      href: create-app/get-client-secret.md
   - name: Manage apps
     href: manage-app/index.md
     items:

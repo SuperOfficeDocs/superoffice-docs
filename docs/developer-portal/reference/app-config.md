@@ -18,7 +18,7 @@ so.client:
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Is native or mobile app | Type if application. | | |
-| Client ID | Uniquely identifies the application. | | [Terminology][8] |
+| Client ID | Uniquely identifies the application. | [Find client ID][16] | [Terminology][8] |
 | Allowed redirect URLs | Context-specific URLs that will be called by the browser after successful sign-in or when a user clicks one of the available buttons on your application entry. | | [About redirects and CORS][7] |
 | Allowed postlogout redirect URLs | | | |
 | CORS URLs | | | |
@@ -31,7 +31,7 @@ so.client:
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Client secret | The application token (password). Must be supplied when invoking any of the SuperOffice CRM Online web services. | | [Terminology][8] |
+| Client secret | The application token (password). Must be supplied when invoking any of the SuperOffice CRM Online web services. | [Create new client secret][17] | [Terminology][8] |
 | Certificates | | | [About SuperID certificates][9] |
 
 ## Endpoints
@@ -48,7 +48,6 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 |---|---|---|---|
 | Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status | [Manage notifications][14] | [About tenant status][11] |
 | Has integration | | | |
-| Send error emails to app manager | If checked, the app manager will receive error emails. | [Get error emails][15] | |
 | Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][15] | |
 
 ## Integrations
@@ -147,5 +146,7 @@ Standard ERP Sync applications may be granted Integration Server so the ERP Sync
 [13]: ../../admin/license/index.md
 [14]: ../manage-app/notifications.md
 [15]: ../manage-app/get-error-emails.md
+[16]: ../create-app/find-clientid.md
+[17]: ../create-app/get-client-secret.md
 
 <!-- Referenced images -->
