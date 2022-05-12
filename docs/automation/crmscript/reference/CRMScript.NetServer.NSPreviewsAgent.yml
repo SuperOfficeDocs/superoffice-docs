@@ -44,7 +44,7 @@ items:
   fullName: CRMScript.NetServer.NSPreviewsAgent.GetPreview(String)
   type: Method
   summary: "\nParses a Preview hint and return a Preview.The returned Preview string may contain resource string identifiers (in square brackets), to be processed by the resource manager.<p></p>\nThe Preview hint is either a literal text, representing itself or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.\n"
-  remarks: "\nA typical Preview hint could be<code>{contact_id=123}</code>or<code>{appointment_id=222&amp;mode=simple}</code>\n"
+  remarks: "\nA typical Preview hint could be <code>{contact_id=123}</code> or <code>{appointment_id=222&amp;mode=simple}</code>\n"
   syntax: 
     content: String GetPreview(String previewHint)
     parameters:

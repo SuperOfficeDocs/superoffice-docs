@@ -989,7 +989,7 @@ items:
   nameWithType: Trigger.ServiceScreenEditCompanyLoad
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCompanyLoad
   type: Method
-  summary: "\n(508) Runs for<code>HtmlPage.lang_ticket_newCompany</code>screen. Called when screen is constructed, useful for setting default values into HTML elements\n"
+  summary: "\n(508) Runs for <code>HtmlPage.lang_ticket_newCompany</code> screen. Called when screen is constructed, useful for setting default values into HTML elements\n"
   remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
@@ -1037,7 +1037,7 @@ items:
   nameWithType: Trigger.ServiceScreenEditCustomerLoad
   fullName: CRMScript.Event.Trigger.ServiceScreenEditCustomerLoad
   type: Method
-  summary: "\n(506) Runs for<code>HtmlPage.lang_ticket_editCustomer</code><p></p>\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
+  summary: "\n(506) Runs for <code>HtmlPage.lang_ticket_editCustomer</code><p></p>\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
   remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
@@ -1181,7 +1181,7 @@ items:
   nameWithType: Trigger.ServiceScreenForwardLoad
   fullName: CRMScript.Event.Trigger.ServiceScreenForwardLoad
   type: Method
-  summary: "\n(509) Runs for<code>HtmlPage.forward</code>event. Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  summary: "\n(509) Runs for <code>HtmlPage.forward</code> event. Called when screen is constructed, useful for setting default values into HTML elements.\n"
   remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>button</td><td>HtmlSubmitButton element value</td></tr><tr><td>x.value</td><td>element x value</td></tr><tr><td>x.displayValue</td><td>element x display value</td></tr></tbody></table><p></p>\nAll HTML elements in the screen are added to the input values.\n"
   syntax: 
   example: 
@@ -1613,7 +1613,7 @@ items:
   nameWithType: Trigger.TicketMessageAdded
   fullName: CRMScript.Event.Trigger.TicketMessageAdded
   type: Method
-  summary: "\n(150) Called for all messages added to a ticket, followed by call to either<code>TicketInternalMessageAdded</code>or<code>TicketExternalMessageAdded</code>trigger.\n"
+  summary: "\n(150) Called for all messages added to a ticket, followed by call to either <code>TicketInternalMessageAdded</code> or <code>TicketExternalMessageAdded</code> trigger.\n"
   remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>entryId</td><td>the ticket ID</td></tr><tr><td>ticketId</td><td>the ticket ID</td></tr><tr><td>messageId</td><td>the ticket message ID</td></tr></tbody></table>  \n"
   syntax: 
   example: 
