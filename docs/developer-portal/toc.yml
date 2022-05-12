@@ -18,6 +18,10 @@ items:
       href: company/update-contact-person.md
     - name: Add user
       href: company/add-user.md
+    - name: Update user
+      href: company/edit-user.md
+    - name: Manage permissions
+      href: company/manage-permissions.md
   - name: Create a new app (registration)
     href: create-app/index.md
   - name: Manage apps

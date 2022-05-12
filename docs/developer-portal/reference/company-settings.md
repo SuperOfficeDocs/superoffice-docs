@@ -22,7 +22,7 @@ so.client:
 | Administrative contact | The main contact person for this company.| [Update contact person][3] | |
 | Technical contact | The IT contact person for this company. | [Update contact person][3] | |
 | Logo | Company logo, circular | [Update settings][9] | [Marketing requirements][5] |
-| Description | The company blurb. | | |
+| Description | The company blurb. | [Update company profile][6]| |
 | Meta description | Description for search engines. | [Improve SEO][10] | |
 | Comment | | | |
 | Home page URL | The website of the company. | | |
@@ -39,6 +39,7 @@ so.client:
 [3]: ../company/update-contact-person.md
 [4]: user-settings.md
 [5]: ../../apps/requirements/marketing.md
+[6]: ../app-store/update-company-profile.md
 [9]: ../app-store/update-app-page.md
 [10]: ../app-store/seo.md
 

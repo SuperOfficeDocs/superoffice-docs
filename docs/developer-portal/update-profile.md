@@ -15,8 +15,7 @@ so.client:
 
 You can update your profile via the top menu.
 
-> [!NOTE]
-> You can't update information stored in SuperID from the Developer Portal.
+[!include[Note about limitations](includes/note-cannot-update-superid.md.md)]
 
 1. Click your display name in the upper.right corner and select **Profile**.
 

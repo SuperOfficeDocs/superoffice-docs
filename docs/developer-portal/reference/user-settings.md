@@ -19,12 +19,12 @@ so.client:
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Avatar | Small circular image. | | |
-| Display name | First and last name of the person. | | |
-| Email | The email address of the person, if set. | | |
-| Phone | The phone number of the person, if set.| | |
-| SuperID user name | The user name linked in SuperID | | |
+| Display name | First and last name of the person. | [Update user profile][5] | |
+| Email | The email address of the person, if set. | [Update user profile][5] | |
+| Phone | The phone number of the person, if set.| [Update user profile][5] | |
+| SuperID user name | The user name linked in SuperID | | [About SuperID][4] |
 | SuperID key | | | |
-| Is log-in allowed | Whether this person can sign in to the developer portal. | | |
+| Is log-in allowed | Whether this person can sign in to the developer portal. | [Manage permissions][6] | |
 
 ## Permissions
 
@@ -46,5 +46,8 @@ so.client:
 [1]: app-settings.md
 [2]: app-config.md
 [3]: company-settings.md
+[4]: ../../identity-management/superid/overview.md
+[5]: ../company/edit-user.md
+[6]: ../company/manage-permissions.md
 
 <!-- Referenced images -->

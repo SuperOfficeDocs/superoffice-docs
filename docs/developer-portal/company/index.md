@@ -22,8 +22,10 @@ As a partner that offers one or more applications through the [SuperOffice App S
 
 * [Add or update partner settings][2]
 * [Change contact persons][3]
-* Manage permissions within the organization
+* [Manage permissions within the organization][6]
 * [Add a user][5]
+* [Update a user profile][7]
+* [Update your own user profile][8]
 * [Register new app][4]
 
 <!-- Referenced links -->
@@ -32,5 +34,8 @@ As a partner that offers one or more applications through the [SuperOffice App S
 [3]: update-contact-person.md
 [4]: ../create-app/index.md
 [5]: add-user.md
+[6]: manage-permissions.md
+[7]: edit-user.md
+[8]: ../update-profile.md
 
 <!-- Referenced images -->
