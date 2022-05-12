@@ -48,8 +48,8 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 |---|---|---|---|
 | Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status | [Manage notifications][14] | [About tenant status][11] |
 | Has integration | | | |
-| Send error emails to app manager | If checked, the app manager will receive error emails. | | |
-| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | | |
+| Send error emails to app manager | If checked, the app manager will receive error emails. | [Get error emails][15] | |
+| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][15] | |
 
 ## Integrations
 
@@ -146,5 +146,6 @@ Standard ERP Sync applications may be granted Integration Server so the ERP Sync
 [12]: ../../mirroring/index.yml
 [13]: ../../admin/license/index.md
 [14]: ../manage-app/notifications.md
+[15]: ../manage-app/get-error-emails.md
 
 <!-- Referenced images -->

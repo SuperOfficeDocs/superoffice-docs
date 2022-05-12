@@ -31,6 +31,8 @@ items:
       href: manage-app/customers.md
     - name: Manage notifications
       href: manage-app/notifications.md
+    - name: Get error emails
+      href: manage-app/get-error-emails.md
   - name: App Store information
     href: app-store/index.md
     items:

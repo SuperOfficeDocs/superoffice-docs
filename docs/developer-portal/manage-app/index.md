@@ -24,10 +24,12 @@ so.client:
 
 * [Find out who your customers are][1]
 * [Manage notifications][2]
+* [Get error emails][3]
 
 <!-- Referenced links -->
 [1]: customers.md
 [2]: notifications.md
+[3]: get-error-emails.md
 [4]: ../../apps/tenant-status/index.md
 [3]: ../../apps/getting-started/app-envir.md
 [5]: ../../apps/provisioning/index.md
