@@ -159,7 +159,7 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<code>Header1: Value1\nHeader2: Value2</code>\n"
+  - "\n<pre><code>Header1: Value1\nHeader2: Value2</code></pre>\n"
 - uid: CRMScript.Native.SpmMessage.setSubject(String)
   commentId: M:CRMScript.Native.SpmMessage.setSubject(String)
   id: 'setSubject(String)'

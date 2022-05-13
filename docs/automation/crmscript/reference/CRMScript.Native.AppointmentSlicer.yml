@@ -166,7 +166,7 @@ items:
   nameWithType: AppointmentSlicer.next()
   fullName: CRMScript.Native.AppointmentSlicer.next()
   type: Method
-  summary: "\nMoves the internal iterator to next appointment in the same day.<p></p>\nReturns false if<code>eof()</code>; otherwise, true.\n"
+  summary: "\nMoves the internal iterator to next appointment in the same day.<p></p>\nReturns false if <code>eof()</code>; otherwise, true.\n"
   remarks: 
   syntax: 
     content: next()

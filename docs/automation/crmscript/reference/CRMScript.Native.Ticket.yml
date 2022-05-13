@@ -123,7 +123,7 @@ items:
   nameWithType: Ticket.delegate()
   fullName: CRMScript.Native.Ticket.delegate()
   type: Method
-  summary: "\nDelegates a ticket to a user according to the rules on the category.<p></p>\nFor this function to take effect, you have to call<code>Ticket.save()</code>.\n"
+  summary: "\nDelegates a ticket to a user according to the rules on the category.<p></p>\nFor this function to take effect, you have to call <code>Ticket.save()</code>.\n"
   remarks: 
   syntax: 
     content: delegate()
@@ -141,7 +141,7 @@ items:
   nameWithType: Ticket.delegate(Integer)
   fullName: CRMScript.Native.Ticket.delegate(Integer)
   type: Method
-  summary: "\nDelegates a ticket to a user according to the rules on the category. You can optionally specify a user ID not to delegate to.<p></p>\nFor this function to take effect, you have to call<code>Ticket.save()</code>.\n"
+  summary: "\nDelegates a ticket to a user according to the rules on the category. You can optionally specify a user ID not to delegate to.<p></p>\nFor this function to take effect, you have to call <code>Ticket.save()</code>.\n"
   remarks: 
   syntax: 
     content: delegate(Integer notUser)

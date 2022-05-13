@@ -120,7 +120,6 @@ items:
   summary: "\nOverwrites the current time and sets hours to the given number [0-23].\n"
   example:
   - "\n<pre><code>Time t;\nt.setHour(14);</code></pre>\n"
-  - "\n10:15:30:\n<pre><code>Time t;\nt.setHour(10);\nt.setMin(15);\nt.setSec(30);</code></pre>\n"
   syntax:
     content: Void setHour(Integer hour)
     parameters:
@@ -142,7 +141,6 @@ items:
   summary: "\nOverwrites the current time and sets minutes to the given number [0-59].\n"
   example:
   - "\n<pre><code>Time t;\nt.setMin(37);</code></pre>\n"
-  - "\n10:15:30:\n<pre><code>Time t;\nt.setHour(10);\nt.setMin(15);\nt.setSec(30);</code></pre>\n"
   syntax:
     content: Void setMin(Integer min)
     parameters:
@@ -164,7 +162,6 @@ items:
   summary: "\nOverwrites the current time and sets seconds to the given number [0-59].\n"
   example:
   - "\n<pre><code>Time t;\nt.setSec(0);</code></pre>\n"
-  - "\n10:15:30:\n<pre><code>Time t;\nt.setHour(10);\nt.setMin(15);\nt.setSec(30);</code></pre>\n"
   syntax:
     content: Void setSec(Integer sec)
     parameters:

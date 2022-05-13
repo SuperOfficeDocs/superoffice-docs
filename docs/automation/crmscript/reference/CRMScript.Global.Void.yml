@@ -3443,7 +3443,7 @@ items:
   fullName: CRMScript.Global.Void.parseJSON(String)
   type: Method
   summary: "\nParses a JSON document and generate a tree of XMLNode's.\n"
-  remarks: "\nThis function has a bug. Empty arrays will still return one child. We recommend using<code>parseJSON2()</code>instead where this bug has been fixed. Except for the fix, the function is identical. It is available from 8.4R03.\n"
+  remarks: "\nThis function has a bug. Empty arrays will still return one child. We recommend using <code>parseJSON2()</code> instead where this bug has been fixed. Except for the fix, the function is identical. It is available from 8.4R03.\n"
   syntax: 
     content: XMLNode parseJSON(String jsonDocument)
     parameters:

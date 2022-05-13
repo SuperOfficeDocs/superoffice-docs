@@ -44,7 +44,7 @@ items:
   fullName: CRMScript.NetServer.NSTooltipsAgent.GetTooltip(String)
   type: Method
   summary: "\nParses a tooltip hint and return a tooltip.\n"
-  remarks: "\nEach key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.<p></p>\nA typical tooltip hint could be<code>{contact_id=123}</code>or {<code>appointment_id=222 &amp; mode=simple</code>}\n"
+  remarks: "\nEach key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.<p></p>\nA typical tooltip hint could be <code>{contact_id=123}</code> or <code>{appointment_id=222 &amp; mode=simple}</code>\n"
   syntax: 
     content: String GetTooltip(String tooltipHint)
     parameters:
