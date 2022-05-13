@@ -47,7 +47,7 @@ so.client:
 [2]: app-config.md
 [3]: company-settings.md
 [4]: ../../identity-management/superid/overview.md
-[5]: ../company/edit-user.md
-[6]: ../company/manage-permissions.md
+[5]: ../security/edit-user.md
+[6]: ../security/manage-permissions.md
 
 <!-- Referenced images -->

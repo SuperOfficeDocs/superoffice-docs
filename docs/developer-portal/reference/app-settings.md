@@ -19,7 +19,7 @@ so.client:
 |---|---|---|---|
 | Application name | The human-readable name of the application. | [Update app info][9] | [Naming requirements][8] |
 | SEO-friendly name | For search engines. | [Improve SEO][10] | |
-| Technical contact | The contact person for this app. | | |
+| Technical contact | The contact person for this app. | [Update contact person][1] | |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization. | | [About custom apps][6] |
 | Is beta | Whether the app is in beta in the App Store. | | [About the beta period][7] |
@@ -32,6 +32,7 @@ so.client:
 * [User settings][4]
 
 <!-- Referenced links -->
+[1]: ../company/update-contact-person.md
 [2]: app-config.md
 [3]: company-settings.md
 [4]: user-settings.md

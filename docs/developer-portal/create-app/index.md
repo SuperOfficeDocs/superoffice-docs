@@ -3,7 +3,7 @@ title: Register an app
 uid: dp-register-app
 description: Registering a new app in the SuperOffice developer portal.
 author: Bergfrid Dias
-so.date: 06.05.2022
+so.date: 05.06.2022
 keywords: devportal, app
 so.topic: howto
 so.version:
@@ -52,10 +52,10 @@ If you have registered the application but lost the keys, you need to [look up y
 [4]: ../../apps/getting-started/user-contexts.md
 [5]: ../../apps/provisioning/index.md
 [6]: ../../apps/redirects/index.md
-[7]: find-clientid.md
-[8]: get-client-secret.md
-[9]: cors-and-redirection-urls.md
-[10]: new-certificate.md
+[7]: ../security/find-clientid.md
+[8]: ../security/get-client-secret.md
+[9]: ../security/cors-and-redirection-urls.md
+[10]: ../security/new-certificate.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-overview.png

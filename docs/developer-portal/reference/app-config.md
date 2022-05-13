@@ -19,10 +19,10 @@ so.client:
 |---|---|---|---|
 | Is native or mobile app | Type if application. | | |
 | Client ID | Uniquely identifies the application. | [Find client ID][16] | [Terminology][8] |
-| Allowed redirect URLs | Context-specific URLs that will be called by the browser after successful sign-in or when a user clicks one of the available buttons on your application entry. | | [About redirects and CORS][7] |
-| Allowed postlogout redirect URLs | | | |
-| CORS URLs | | | |
-| Default redirect URL | | | |
+| Allowed redirect URLs | Context-specific URLs that will be called by the browser after successful sign-in or when a user clicks one of the available buttons on your application entry. | [Add or update][18] | [About redirects and CORS][7] |
+| Allowed postlogout redirect URLs | | [Add or update][18] | |
+| CORS URLs | | [Add or update][18] | |
+| Default redirect URL | | [Add or update][18] | |
 
 > [!NOTE]
 > Redirection and CORS URLs must be listed one per line.
@@ -32,7 +32,7 @@ so.client:
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Client secret | The application token (password). Must be supplied when invoking any of the SuperOffice CRM Online web services. | [Create new client secret][17] | [Terminology][8] |
-| Certificates | | | [About SuperID certificates][9] |
+| Certificates | | [Create new certificate][19] | [About SuperID certificates][9] |
 
 ## Endpoints
 
@@ -46,9 +46,8 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status | [Manage notifications][14] | [About tenant status][11] |
-| Has integration | | | |
-| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][15] | |
+| Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (on/off) | [Manage notifications][14] | [About tenant status][11] |
+| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. Enabled by default. | [Get error emails][15] | |
 
 ## Integrations
 
@@ -60,9 +59,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 
 For each of the above:
 
-* Endpoint
-* Has integration
-* Send error emails to app manager
+* Endpoint URL, on/off
 * Send error emails to technical contact
 
 ## License
@@ -146,7 +143,9 @@ Standard ERP Sync applications may be granted Integration Server so the ERP Sync
 [13]: ../../admin/license/index.md
 [14]: ../manage-app/notifications.md
 [15]: ../manage-app/get-error-emails.md
-[16]: ../create-app/find-clientid.md
-[17]: ../create-app/get-client-secret.md
+[16]: ../security/find-clientid.md
+[17]: ../security/get-client-secret.md
+[18]: ../security/cors-and-redirection-urls.md
+[19]: ../security/new-certificate.md
 
 <!-- Referenced images -->

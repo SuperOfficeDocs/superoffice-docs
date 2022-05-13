@@ -16,23 +16,25 @@ items:
       href: company/update-partner-settings.md
     - name: Update contact person
       href: company/update-contact-person.md
-    - name: Add user
-      href: company/add-user.md
-    - name: Update user
-      href: company/edit-user.md
-    - name: Manage permissions
-      href: company/manage-permissions.md
   - name: Create a new app (registration)
     href: create-app/index.md
+  - name: Security
+    href: security/index.md
     items:
     - name: What is my client ID?
-      href: create-app/find-clientid.md
+      href: security/find-clientid.md
     - name: Create new client secret
-      href: create-app/get-client-secret.md
+      href: security/get-client-secret.md
     - name: Add and update redirect URLs
-      href: create-app/cors-and-redirection-urls.md
+      href: security/cors-and-redirection-urls.md
     - name: Create new certificate
-      href: create-app/new-certificate.md
+      href: security/new-certificate.md
+    - name: Add user
+      href: security/add-user.md
+    - name: Update user
+      href: security/edit-user.md
+    - name: Manage permissions
+      href: security/manage-permissions.md
   - name: Manage apps
     href: manage-app/index.md
     items:

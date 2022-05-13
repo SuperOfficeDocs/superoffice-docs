@@ -1,10 +1,10 @@
 ---
 title: New certificate
-uid: dp-get-clientid
-description: How to find the client ID for an app in the SuperOffice developer portal.
+uid: dp-new-certificate
+description: How to create a new certificate for an app in the SuperOffice developer portal.
 author: Bergfrid Dias
-so.date: 06.05.2022
-keywords: devportal, app, client ID
+so.date: 05.12.2022
+keywords: devportal, app, certificate
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -30,6 +30,7 @@ so.client:
     ![Certificates -screenshot][img3]
 
 6. Click **Save Settings**.
+
 7. Request to publish the new configuration.
 
 ## Read more

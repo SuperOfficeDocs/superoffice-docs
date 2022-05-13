@@ -33,9 +33,9 @@ As a partner that offers one or more applications through the [SuperOffice App S
 [2]: update-partner-settings.md
 [3]: update-contact-person.md
 [4]: ../create-app/index.md
-[5]: add-user.md
-[6]: manage-permissions.md
-[7]: edit-user.md
+[5]: ../security/add-user.md
+[6]: ../security/manage-permissions.md
+[7]: ../security/edit-user.md
 [8]: ../update-profile.md
 
 <!-- Referenced images -->

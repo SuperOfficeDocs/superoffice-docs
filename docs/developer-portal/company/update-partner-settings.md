@@ -31,4 +31,3 @@ so.client: online
 
 <!-- Referenced images -->
 [img1]: media/partner-settings.png
-[img2]: media/request-to-publish-partner-info.png
