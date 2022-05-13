@@ -1102,7 +1102,7 @@ items:
   nameWithType: SearchEngine.setGroup(Bool)
   fullName: CRMScript.Native.SearchEngine.setGroup(Bool)
   type: Method
-  summary: "\nSets or removes a group-clause to all of the fields in the query (added by the <code>addField()</code>-function).\n"
+  summary: "\nSets or removes a group-clause to all of the fields in the query (added by the <code>addField()</code> function).\n"
   remarks: 
   syntax: 
     content: Void setGroup(Bool set)
@@ -1144,7 +1144,7 @@ items:
   nameWithType: SearchEngine.update()
   fullName: CRMScript.Native.SearchEngine.update()
   type: Method
-  summary: "\nUse this function after <code>addData()</code> which sets the values that will be modified, and <code>addCriteria()</code> which do a restriction on the items to modify.\n"
+  summary: "\nUse this function after <code>addData()</code>, which sets the values that will be modified, and <code>addCriteria()</code>, which do a restriction on the items to modify.\n"
   remarks: 
   syntax: 
     content: Void update()
