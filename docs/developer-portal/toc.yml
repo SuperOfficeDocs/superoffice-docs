@@ -29,6 +29,10 @@ items:
       href: create-app/find-clientid.md
     - name: Create new client secret
       href: create-app/get-client-secret.md
+    - name: Add and update redirect URLs
+      href: create-app/cors-and-redirection-urls.md
+    - name: Create new certificate
+      href: create-app/new-certificate.md
   - name: Manage apps
     href: manage-app/index.md
     items:

@@ -87,8 +87,6 @@ items:
     items:
     - name: Endpoint types
       href: redirects/endpoint-types.md
-    - name: Add and update
-      href: redirects/add-update.md
   - name: Revoke
     href: revoke/index.md
   - name: Activate

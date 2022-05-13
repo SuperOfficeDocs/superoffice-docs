@@ -23,6 +23,12 @@ so.client:
 
 ## Types of apps
 
+## Get keys
+
+After [signing up for a developer account][1], you need to register your application idea to get your unique client ID and client secret so you can start coding.
+
+If you have registered the application but lost the keys, you need to [look up your ID][7] and [create a new secret][8].
+
 ## Read more
 
 * [Getting started][1]
@@ -36,6 +42,8 @@ so.client:
 * [Get access to SOD][2]
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
+* [View or change CORS and redirection URLs][9]
+* [Add a certificate][10]
 
 <!-- Referenced links -->
 [1]: ../../apps/getting-started/index.md
@@ -46,6 +54,8 @@ so.client:
 [6]: ../../apps/redirects/index.md
 [7]: find-clientid.md
 [8]: get-client-secret.md
+[9]: cors-and-redirection-urls.md
+[10]: new-certificate.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-overview.png

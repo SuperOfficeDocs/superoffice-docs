@@ -33,12 +33,11 @@ After signing up for a developer account, you need to register your application 
 
 ## Process
 
-1. [Submit your application idea][1] (form).
+1. [Register your application idea in the Developer Portal][1].
     * You will get a confirmation that we have received your request.
 2. We register your application in [SOD][2] and you will receive an email with instructions to get your application keys.
     * This is normally handled within the next business day.
-    * We use SendSafely, an end-to-end encryption platform, to send you the client ID, the client secret, and any private encryption keys.
-3. Save the application keys in a secure location. The SendSafely-message will expire!
+3. Save the application keys in a secure location.
 
 **Next step:** Create an MVC application at your redirection endpoint and implement your chosen authorization flow.
 
