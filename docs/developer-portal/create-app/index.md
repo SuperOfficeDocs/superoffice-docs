@@ -3,7 +3,7 @@ title: Register an app
 uid: dp-register-app
 description: Registering a new app in the SuperOffice developer portal.
 author: Bergfrid Dias
-so.date: 05.06.2022
+so.date: 05.18.2022
 keywords: devportal, app
 so.topic: howto
 so.version:
@@ -18,10 +18,44 @@ so.client:
 ## Overview
 
 1. In the Developer Portal, go to your partner page.
+
 2. In the **Applications** section, click **Create App**.
-3. TODO
+
+3. Choose a template and whether this is a custom or standard app. Click **Next**.
+
+    ![Create application wizard -screenshot][img2]
+
+4. Enter the name of your application. Click **Next**.
+
+    ![Enter application name -screenshot][img3]
+
+5. Enter one or more redirect URLs - one per line. Click **Next**.
+
+    ![Enter redirect URL -screenshot][img4]
+
+6. Specify integration points  if applicable.
+
+7. Set the technical contact for your app.
+
+    ![-screenshot][img5]
+
+8. Click **Create Application**.
+
+You can now request to publish the configuration.
+
+![App registration complete -screenshot][img6]
+
+For standard apps, you can [start working on the App Store information][11].
 
 ## Types of apps
+
+When registering an application, you can choose from five predefined templates that will prompt you for the required settings. Alternatively, you can choose to start with an empty set and fill in what you need.
+
+* [Web application][12]
+* [Native application][13]
+* [Server-to-server application][14]
+* [Custom database mirroring application][15]
+* [Standard ERP sync and quote application][16]
 
 ## Get keys
 
@@ -56,6 +90,17 @@ If you have registered the application but lost the keys, you need to [look up y
 [8]: ../security/get-client-secret.md
 [9]: ../security/cors-and-redirection-urls.md
 [10]: ../security/new-certificate.md
+[11]: ../app-store/update-app-page.md
+[12]: web-app.md
+[13]: native-app.md
+[14]: server-to-server-app.md
+[15]: mirror-app.md
+[16]: sync-app.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-overview.png
+[img2]: media/create-app-wizard.png
+[img3]: media/enter-app-name.png
+[img4]: media/enter-redirect-urls.png
+[img5]: media/select-technical-contact.png
+[img6]: media/request-publish-stage.png

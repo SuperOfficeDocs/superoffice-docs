@@ -18,6 +18,17 @@ items:
       href: company/update-contact-person.md
   - name: Create a new app (registration)
     href: create-app/index.md
+    items:
+    - name: Web app
+      href: create-app/web-app.md
+    - name: Native app
+      href: create-app/native-app.md
+    - name: Server-to-server app
+      href: create-app/server-to-server-app.md
+    - name: Mirroring app
+      href: create-app/mirror-app.md
+    - name: ERP sync and quote app
+      href: create-app/sync-app.md
   - name: Security
     href: security/index.md
     items:
