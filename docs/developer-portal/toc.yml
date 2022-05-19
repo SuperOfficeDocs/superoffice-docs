@@ -9,6 +9,8 @@ items:
     href: update-profile.md
   - name: How to format text
     href: format-text.md
+  - name: Versioning
+    href: versioning.md
   - name: Partner (company)
     href: company/index.md
     items:

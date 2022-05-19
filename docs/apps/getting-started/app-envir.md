@@ -3,7 +3,8 @@ title: Application environment
 uid: app_envir
 description: About application environments
 author: {github-id}
-keywords: sod,stage
+so.date: 05.19.2022
+keywords: sod, stage, environment, maintenance window
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -11,11 +12,7 @@ so.client: online
 
 # Application environments
 
-SuperOffice CRM Online is a cloud platform serving thousands of customers. Like any serious distributed and federated platform service, it requires several phases for development, testing, and production.
-
-SuperOffice provides 3 environments: development, stage, and production.
-
-![x -screenshot][img1]
+[!include[Introduction to application environments, SOD, stage, production](../includes/app-envir-intro.md)]
 
 All [standard applications][1] must be prepared to operate in at least 2 environments before being listed in the public App Store.
 
@@ -117,5 +114,4 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [13]: ../tenant-status/index.md
 
 <!-- Referenced images -->
-[img1]: media/online-environments-sidebyside-650.png
 [img2]: media/online-environments-settings-sidebyside2-650.png
