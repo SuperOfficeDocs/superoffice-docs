@@ -23,4 +23,4 @@ Ready to get access?
 
 You can get started using the SuperOffice Online API by [signing up for a developer account][1].
 
-[1]: https://community.superoffice.com/register-as-developer
+[1]: ../apps/getting-started/developer-registration-form.md
