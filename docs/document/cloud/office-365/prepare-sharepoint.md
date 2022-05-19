@@ -31,8 +31,8 @@ You see the UPN username in the Microsoft 365 admin -> users section: [https://
 
 If you are using multiple domain names for your users, all domain names must be registered:
 
-* if it is a custom domain name, inform support to add those to your registered domain name
-* if it is separate main domain names, use the registration link above to register each of them
+* If it is a custom domain name, inform support to add those to your registered domain name.
+* If it is separate main domain names, use the registration link above to register each of them.
 
 ## Make sure your new Microsoft 365 authentication works by logging in to CRM Online with Microsoft 365
 

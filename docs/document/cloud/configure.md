@@ -17,7 +17,7 @@ Simply sign in to SuperOffice using your Microsoft 365 or Google login details a
 
 To start using the Integration, setup consists of 2 steps:
 
-1) How to set up [Microsoft 365][3] or [Google Workspace][2] to integrate to CRM Online
+1) How to set up [Microsoft 365][3] or [Google Workspace][2] to integrate to CRM Online.
 
 2) How to configure the document templates for use, is documented in this article.
 
@@ -38,7 +38,7 @@ Templates are displayed as items in the **Document - Template** list and you l
 
 ![imageh3map.png -screenshot -screenshot][img1]
 
-1. Open SuperOffice Admin, go to Lists, choose **Document - Template**
+1. Open SuperOffice Admin, go to Lists, choose **Document - Template**.
 
 2. Click **Add**.
 
@@ -55,7 +55,7 @@ Templates are displayed as items in the **Document - Template** list and you l
 
 5. Enter the required information in the **Details** and **Languages** tabs:
 
-    * Select **Direction** (outgoing or incoming)
+    * Select **Direction** (outgoing or incoming).
     * Choose where to store document created by this template: set **Document stored in** to either  "Google" or "Office365".
     * Enter a value in the **Our reference (default)** field using [template variables][1]. For example `auth` for the sender’s first and last names.
     * Optionally, enter a description.
@@ -74,19 +74,19 @@ To be able to edit the **template** in Google Drive or Word Online, it must be l
 
 If you want to change where the original templates store new documents created - you can do this by changing the original template property "Document stored in:". This will not move the template itself.
 
-If you want to move the template from CRM Online storage (SO Archive) to Google / Microsoft 365, click **Add** in Document Template list -> Choose "Copy an existing document template file"
+If you want to move the template from CRM Online storage (SO Archive) to Google / Microsoft 365, click **Add** in Document Template list -> Choose "Copy an existing document template file".
 
 Use a descriptive title for the template, and use "Header" to group templates. This makes it easier for the end-user to understand which files save and opens the files in Drive / Word Online.
 
 **NOTE:**
 
-* All documents written in SuperOffice will be stored in the SharePoint / Google cloud if the template is set up for it, and available to open and edit in SuperOffice CRM Online
+* All documents written in SuperOffice will be stored in the SharePoint / Google cloud if the template is set up for it, and available to open and edit in SuperOffice CRM Online.
 
-* If you want to use your Microsoft 365 / Google Workspace account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your SharePoint  / Google Workspace account
+* If you want to use your Microsoft 365 / Google Workspace account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your SharePoint  / Google Workspace account.
 
-* Old documents will not automatically be moved from SuperOffice to your SharePoint  / Google Workspace
+* Old documents will not automatically be moved from SuperOffice to your SharePoint  / Google Workspace.
 
-* Moving existing documents or templates to or from SuperOffice and your SharePoint  / Google Workspace is offered as a paid service
+* Moving existing documents or templates to or from SuperOffice and your SharePoint  / Google Workspace is offered as a paid service.
 
 ### Moving existing SuperOffice documents and templates between SuperOffice Online and cloud document provider
 
@@ -94,21 +94,21 @@ All documents written in SuperOffice will be stored in the provider's cloud if t
 
 **Google Workspace:**
 
-* If you want to use your Google Workspace account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your Google Workspace account
+* If you want to use your Google Workspace account to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to your Google Workspace account.
 
-* Old documents will not automatically be moved from SuperOffice to Google Workspace
+* Old documents will not automatically be moved from SuperOffice to Google Workspace.
 
 * Moving existing documents or templates to or from SuperOffice and the is not offered as a service. A SuperOffice consultant might be able to assist you in a manual transition.
 
 **Microsoft 365:**
 
-* If you want to use Microsoft 365 to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to Microsoft 365 SharePoint
+* If you want to use Microsoft 365 to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to Microsoft 365 SharePoint.
 
-* Existing documents will not automatically be moved from SuperOffice to Microsoft 365 SharePoint
+* Existing documents will not automatically be moved from SuperOffice to Microsoft 365 SharePoint.
 
-* Moving existing documents to or from SuperOffice and Microsoft 365 SharePoint is not supported
+* Moving existing documents to or from SuperOffice and Microsoft 365 SharePoint is not supported.
 
-* Moving existing templates to or from SuperOffice and Microsoft 365 SharePoint can be performed in the Admin client
+* Moving existing templates to or from SuperOffice and Microsoft 365 SharePoint can be performed in the Admin client.
 
 <!-- Referenced links -->
 [1]: ../templates/index.md

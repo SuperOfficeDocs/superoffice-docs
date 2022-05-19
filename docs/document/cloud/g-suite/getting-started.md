@@ -19,7 +19,7 @@ This guide explains in short terms how you can get Google Workspace document int
 
 2. **Is IDP for your domain registered?**
 
-    * If yes, go to step 3. Otherwise, [register IDP for your domain][2] (See [how-to][3])
+    * If yes, go to step 3. Otherwise, [register IDP for your domain][2] (See [how-to][3]).
 
 3. **Are users that belong to this tenant successfully using IDP to authenticate?**
 
@@ -38,14 +38,14 @@ This guide explains in short terms how you can get Google Workspace document int
 
 5. **Create a Google Workspace with a "Google Service Account"**
 
-    1. Log in to Google Workspace admin panel
+    1. Log in to Google Workspace admin panel.
     2. Create a normal Google user, ie. "SuperOffice archive user".
 
 6. **Connect Google Workspace and SuperOffice:**
 
-    1. Go to [this URL][4]
-    2. Supply a Google Workspace account to be set as "Google integration username". (Use the "Google Service Account" from steps 5 and 6)
-    3. Make changes to the settings if you want to
+    1. Go to [this URL][4].
+    2. Supply a Google Workspace account to be set as "Google integration username". (Use the "Google Service Account" from steps 5 and 6).
+    3. Make changes to the settings if you want to.
     4. Click the connect button.
 
 **Setup of document integration done!**
