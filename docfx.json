@@ -11,7 +11,10 @@
           "**/includes/**",
           "**/util/**",
           "***/contributing.md",
-          "**/tmp/**"
+          "**/tmp/**",
+          "**/build/**",
+          "**/filters/**",
+          "**/api/**"
         ]
       }
     ],
