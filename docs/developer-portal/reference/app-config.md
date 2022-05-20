@@ -141,8 +141,8 @@ Standard ERP Sync applications may be granted Integration Server so the ERP Sync
 [11]: ../../apps/tenant-status/index.md
 [12]: ../../mirroring/index.yml
 [13]: ../../admin/license/index.md
-[14]: ../manage-app/notifications.md
-[15]: ../manage-app/get-error-emails.md
+[14]: ../howto/notifications.md
+[15]: ../howto/get-error-emails.md
 [16]: ../security/find-clientid.md
 [17]: ../security/get-client-secret.md
 [18]: ../security/cors-and-redirection-urls.md

@@ -36,7 +36,7 @@ so.client:
 <!-- Referenced links -->
 [1]: app-settings.md
 [2]: app-config.md
-[3]: ../company/update-contact-person.md
+[3]: ../howto/update-contact-person.md
 [4]: user-settings.md
 [5]: ../../apps/requirements/marketing.md
 [6]: ../app-store/update-company-profile.md

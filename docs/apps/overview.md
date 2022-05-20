@@ -18,7 +18,7 @@ While a great standalone CRM solution, SuperOffice becomes better with complimen
 
 ## What are applications?
 
-An application for SuperOffice CRM Online expands the CRM solution to resolve relevant business needs and lets you extend the capabilities of SuperOffice.
+[!include[Application defined](includes/def-app.md)]
 
 The key to any integration is that the application is relevant and adds value to customers in their sales, marketing, customer service, and/or business processes.
 

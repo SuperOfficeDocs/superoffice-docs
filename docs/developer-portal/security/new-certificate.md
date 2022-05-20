@@ -15,23 +15,23 @@ so.client:
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 
-2. Select **Configuration**.
+1. Select **Configuration**.
 
-3. Toggle **Advanced** and select **Secrets and Certificates**.
+1. Toggle **Advanced** and select **Secrets and Certificates**.
 
     ![Secrets and Certificates -screenshot][img1]
 
-4. Click **New Certificate**.
+1. Click **New Certificate**.
 
     ![New Certificate dialog -screenshot][img2]
 
-5. Enter a description and expiration, and then click **Add**.
+1. Enter a description and expiration, and then click **Add**.
 
     ![Certificates -screenshot][img3]
 
-6. Click **Save Settings**.
+1. Click **Save Settings**.
 
-7. Request to publish the new configuration.
+1. Request to publish the new configuration.
 
 ## Read more
 

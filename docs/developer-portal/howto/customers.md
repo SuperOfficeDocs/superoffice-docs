@@ -22,15 +22,16 @@ You can check which customers that have authorized a specific app and get a list
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 
-2. Select **Overview** and locate the **Customers** section.
+1. Select **Overview** and locate the **Customers** section.
 
     ![List of customers -screenshot][img1]
 
-3. Click through the environment specific tabs.
+1. Click through the environment specific tabs.
 
 ## Who are my customers?
 
 1. In the Developer Portal, go to your partner page.
+
 2. Select **Overview** and locate the **Customers** section.
 
     ![List of customers -screenshot][img1]

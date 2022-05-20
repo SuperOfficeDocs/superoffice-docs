@@ -4,17 +4,17 @@ title: Developer Portal
 summary: Presents the Developer Portal and describes how to use it to manage online integrations and application.
 
 metadata:
-  title: Developer Poral
+  title: Developer Portal
   description: Presents the Developer Portal and describes how to use it to manage online integrations and application.
   so.topic: landing-page
-  so.date: 03/26/2022
+  so.date: 05.20.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
 
   # Card
-  - title: Learn about Developer Portal
+  - title: Learn about the Developer Portal
     linkLists:
       - linkListType: overview
         links:
@@ -22,129 +22,114 @@ landingContent:
           url: "overview.md"
       - linkListType: concept
         links:
-          - text: Application management
-            url: "#"
-          - text: Organization management
-            url: "#"
-          - text: User management
-            url: "#"
-
-  # Card
-  - title: Application management
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Applications settings
-            url: "#"
+          - text: Versions and states
+            url: "versioning.md"
+          - text: App Store information
+            url: "app-store/index.md"
       - linkListType: how-to-guide
         links:
-          - text: Change App settings 
-            url: "#"
-          - text: Change technical contact
-            url: "#"
+          - text: Update profile
+            url: "howto/update-profile.md"
+          - text: Format text
+            url: "howto/format-text.md"
 
-  # Card
-  - title: Configuration management
+# Card
+  - title: Getting started
     linkLists:
-      - linkListType: concept
-        links:
-          - text: Configuration settings
-            url: "#"
-      - linkListType: how-to-guide
-        links:
-          - text: Authentication settings
-            url: "#"
-          - text: Secrets and certificates
-            url: "#"
-          - text: Endpoint permissions
-            url: "#"
-          - text: Notifications
-            url: "#"
-          - text: Integration services
-            url: "#"
-          - text: Database mirroring
-            url: "#"
-      - linkListType: video
-        links:
-          - text: Authentication and secrets
-            url: "#"
-          - text: Determining required endpoints
-            url: "#"
-
-  # Card
-  - title: App Store Information
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: App Store settings
-            url: "#"
-      - linkListType: how-to-guide
-        links:
-          - text: Versioning
-            url: "#"
-          - text: App description
-            url: "#"
-          - text: Price and terms
-            url: "#"
-          - text: Installation
-            url: "#"
-          - text: Reference links
-            url: "#"
-          - text: Uploading media
-            url: "#"
-      - linkListType: video
-        links:
-          - text: Managing App Store listing
-            url: "#"
-          - text: Requesting listing changes
-            url: "#"
-
-  # Card
-  - title: Organization management
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Organization overview
-            url: "#"
-      - linkListType: tutorial
-        links:
-          - text: Create a new application
-            url: "#"
-          - text: Manage user access
-            url: "#"
       - linkListType: get-started
         links:
-          - text: Contact information (Admin/Tech)
-            url: "#"
-          - text: Application listing
-            url: "#"
-          - text: User listing
-            url: "#"
+        - text: Register as a developer
+          url: "../apps/getting-started/developer-registration-form.md"
+        - text: Register an app
+          url: "create-app/index.md"
+
+  # Card
+  - title: Applications
+    linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Register an app
+            url: "create-app/index.md"
+          - text: Update app
+            url: "howto/update-app.md"
           - text: Change contact persons
-            url: "#"
-          - text: Update Organization information
-            url: "#"
-          - text: Publish/Promote applications
-            url: "#"
+            url: "howto/update-contact-person.md"
+      - linkListType: reference
+        links:
+          - text: Application settings
+            url: "reference/app-settings.md"
+          - text: Application configuration
+            url: "reference/app-config.md"
 
-   # Card
-  - title: Profile details
+  # Card
+  - title: Partners
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Update partner settings
+            url: "howto/update-partner-settings.md"
+          - text: Change technical contact
+            url: "howto/update-contact-person.md"
+          - text: Customers
+            url: "howto/customers.md"
+      - linkListType: reference
+        links:
+          - text: Partner settings
+            url: "reference/company-settings.md"
+          - text: User settings
+            url: "reference/user-settings.md"
+
+  # Card
+  - title: Configuration
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Notifications
+            url: "howto/notifications.md"
+          - text: Error emails
+            url: "howto/get-error-emails.md"
+          - text: CORS and redirection URLs
+            url: "security/cors-and-redirection-urls.md"
+          - text: Find client ID
+            url: "security/find-clientid.md"
+          - text: New client secret
+            url: "security/get-client-secret.md"
+          - text: New certificate
+            url: "security/new-certificate.md"
+
+
+  # Card
+  - title: App Store information
     linkLists:
       - linkListType: overview
         links:
-        - text: Profile overview
-          url: "#"
-      - linkListType: concept
-        links:
-          - text: Organization membership
-            url: "#"
+          - text: Overview
+            url: "app-store/index.md"
       - linkListType: how-to-guide
         links:
-          - text: Managing organization permissions
-            url: "#"
-      - linkListType: video
+          - text: Update app page
+            url: "app-store/update-app-page.md"
+          - text: Update company profile
+            url: "app-store/update-company-profile.md"
+          - text: Images and videos
+            url: "app-store/images-and-videos.md"
+          - text: SEO
+            url: "app-store/seo.md"
+
+  # Card
+  - title: User management
+    linkLists:
+      - linkListType: how-to-guide
         links:
-          - text: How to manage permissions
-            url: "#"
+          - text: Add user
+            url: "security/add-user.md"
+          - text: Edit user
+            url: "security/edit-user.md"
+          - text: Update profile
+            url: "howto/update-profile.md"
+          - text: Manage permissions
+            url: "security/manage-permissions.md"
+      - linkListType: reference
+        links:
+          - text: User settings
+            url: "reference/user-settings.md"

@@ -22,7 +22,7 @@ As a partner that offers one or more applications through the [SuperOffice App S
 
 ## Requirements
 
-Before a new application gets listed in the App Store
+Before a new application gets listed in the App Store:
 
 * Your standard application has [passed certification][5], including Watchcom's security evaluation.
 * You have appointed a designated commercial contact to help us get your application ready for production.
@@ -45,7 +45,7 @@ Before a new application gets listed in the App Store
 
 * [Update the public company profile][2]
 * [Update the product page of an application][3]
-* View when a version was published in each environment
+* [View when a version was published in each environment][10]
 * [List a new application in the App Store][7]
 * [Publish a new version of an existing application][8]
 * [Add or update images and videos][9]
@@ -56,10 +56,11 @@ Before a new application gets listed in the App Store
 [5]: ../../apps/certification/certify-app.md
 [6]: ../../apps/requirements/marketing.md
 [7]: ../../apps/publish/index.md
-[8]: update-app.md
+[8]: ../howto/update-app.md
 [9]: images-and-videos.md
 [2]: update-company-profile.md
 [3]: update-app-page.md
 [4]: seo.md
+[10]: ../versioning.md
 
 <!-- Referenced images -->

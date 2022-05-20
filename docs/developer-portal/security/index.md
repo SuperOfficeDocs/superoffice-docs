@@ -17,18 +17,20 @@ so.client:
 
 If you have registered the application but lost the keys, you need to [look up your ID][7] and [create a new secret][8].
 
-## Read more
-
-* [Application environments][3]
-* [User contexts][4]
-* [Redirects][6]
-
-## What would you like to do?
+## Authentication
 
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
-* [View or change CORS and redirection URLs][9]
 * [Add a certificate][10]
+* [About user contexts][4]
+
+## URLs
+
+* [View or change CORS and redirection URLs][9]
+* [About redirects][6]
+
+## User management
+
 * [Manage permissions within the organization][11]
 * [Add a user][1]
 * [Update a user profile][2]
@@ -37,7 +39,6 @@ If you have registered the application but lost the keys, you need to [look up y
 <!-- Referenced links -->
 [1]: add-user.md
 [2]: edit-user.md
-[3]: ../../apps/getting-started/app-envir.md
 [4]: ../../apps/getting-started/user-contexts.md
 [5]: ../update-profile.md
 [6]: ../../apps/redirects/index.md

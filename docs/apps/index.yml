@@ -210,8 +210,6 @@ additionalContent:
       # Card
       - title: How to...
         links:
-        - text: Update an application
-          url: manage/update-app.md
         - text: Revoke an application
           url: manage/revoke-app.md
         - text: Get access to SOD

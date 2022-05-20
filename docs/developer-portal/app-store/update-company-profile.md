@@ -27,7 +27,7 @@ The information shown on your company profile page in the App Store comes from:
 3. Update names and contact persons.
 4. Click **Save Settings**.
 5. Select **App Store information** from the left menu.
-6. Update logo, description, meta description and home page URL.
+6. Update logo, description, meta description, and home page URL.
 7. Click **Save Settings**.
 
 > [!TIP]

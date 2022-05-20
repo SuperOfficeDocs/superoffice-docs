@@ -1,6 +1,6 @@
 ---
 title: Improve SEO
-uid: dp-update-app-info
+uid: dp-seo
 description: How to improve your App Store SEO in the SuperOffice developer portal.
 author: Bergfrid Dias
 so.date: 04.28.2022

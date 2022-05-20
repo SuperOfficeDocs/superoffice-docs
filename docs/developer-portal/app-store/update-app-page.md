@@ -34,11 +34,11 @@ The information shown on your app-specific product pages in the App Store comes 
 6. Go through each sub-section and fill in the information.
 
     * App Store listing
-    * SEO
+    * [SEO][1]
     * Price and terms
     * How to install
     * Links and references
-    * Image and videos
+    * [Image and videos][2]
 
 7. Click **Save Settings**.
 
@@ -52,11 +52,6 @@ The information shown on your app-specific product pages in the App Store comes 
 
 ## Request to publish
 
-> [!NOTE]
-> The App Store information is only the commercial side of releasing an application.
->
-> When you list an application for the first time, you must also prepare and request to publish the configuration.
-
 When you are happy with how it looks, return to your partner page in the Developer Portal:
 
 1. Select **Overview** from the left menu.
@@ -64,7 +59,14 @@ When you are happy with how it looks, return to your partner page in the Develop
 
     ![Request to publish App Store app information -screenshot][img2]
 
+> [!NOTE]
+> The App Store information is only the commercial side of releasing an application.
+>
+> When you list an application for the first time, you must also prepare and request to publish the configuration.
+
 <!-- Referenced links -->
+[1]: seo.md
+[2]: images-and-videos.md
 
 <!-- Referenced images -->
 [img1]: media/app-store-listing.png

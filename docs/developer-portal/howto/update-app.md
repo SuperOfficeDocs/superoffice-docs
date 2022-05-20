@@ -31,11 +31,12 @@ When you release a new version of your application, your App Store listing can i
 
 **To change the technical specification:**
 
-1. [Submit a change request][2] (form).
+1. Update the app configuration.
+2. Request to publish the configuration.
 
 > [!CAUTION]
 > If you add database mirroring or webhooks, the tenant administrator must renew the consent to your application. **Users will be locked out from when the change happens until the consent has been given.**
 
 <!-- Referenced links -->
-[1]: update-app-page.md
+[1]: ../app-store/update-app-page.md
 [2]: ../../apps/publish/update-app-form.md

@@ -17,17 +17,17 @@ so.client:
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 
-2. Select **Configuration**.
+1. Select **Configuration**.
 
     ![Application secret -screenshot][img1]
 
-3. Click **New Client Secret**.
+1. Click **New Client Secret**.
 
-4. Store the secret somewhere safe!
+1. Store the secret somewhere safe!
 
-5. Click **Save Settings**.
+1. Click **Save Settings**.
 
-6. Request to publish the new configuration.
+1. Request to publish the new configuration.
 
 ## Read more
 

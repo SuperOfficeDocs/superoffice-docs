@@ -15,7 +15,7 @@ so.client:
 
 You can update your profile via the top menu.
 
-[!include[Note about limitations](includes/note-cannot-update-superid.md)]
+[!include[Note about limitations](../includes/note-cannot-update-superid.md)]
 
 1. Click your display name in the upper.right corner and select **Profile**.
 
@@ -23,7 +23,7 @@ You can update your profile via the top menu.
 
 2. Click the **Edit Profile** button.
 
-3. Update the information. [!include[See user settings reference.](includes/see-user-settings.md)]
+3. Update the information. [!include[See user settings reference.](../includes/see-user-settings.md)]
 
 4. Click **Save**.
 

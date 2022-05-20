@@ -5,19 +5,8 @@ items:
   items:
   - name: Overview
     href: overview.md
-  - name: How to update profile
-    href: update-profile.md
-  - name: How to format text
-    href: format-text.md
   - name: Versioning
     href: versioning.md
-  - name: Partner (company)
-    href: company/index.md
-    items:
-    - name: Update partner settings
-      href: company/update-partner-settings.md
-    - name: Update contact person
-      href: company/update-contact-person.md
   - name: Create a new app (registration)
     href: create-app/index.md
     items:
@@ -31,6 +20,17 @@ items:
       href: create-app/mirror-app.md
     - name: ERP sync and quote app
       href: create-app/sync-app.md
+  - name: App Store information
+    href: app-store/index.md
+    items:
+    - name: Update company profile
+      href: app-store/update-company-profile.md
+    - name: Update app-specific page
+      href: app-store/update-app-page.md
+    - name: Images and videos
+      href: app-store/images-and-videos.md
+    - name: Search engine optimization
+      href: app-store/seo.md
   - name: Security
     href: security/index.md
     items:
@@ -48,28 +48,25 @@ items:
       href: security/edit-user.md
     - name: Manage permissions
       href: security/manage-permissions.md
-  - name: Manage apps
-    href: manage-app/index.md
+  - name: How to...
+    href: howto/index.md
     items:
-    - name: View customers
-      href: manage-app/customers.md
-    - name: Manage notifications
-      href: manage-app/notifications.md
-    - name: Get error emails
-      href: manage-app/get-error-emails.md
-  - name: App Store information
-    href: app-store/index.md
-    items:
-    - name: Update company profile
-      href: app-store/update-company-profile.md
-    - name: Update app-specific page
-      href: app-store/update-app-page.md
+    - name: Update partner settings
+      href: howto/update-partner-settings.md
+    - name: Update contact person
+      href: howto/update-contact-person.md
     - name: Update your application
-      href: app-store/update-app.md
-    - name: Images and videos
-      href: app-store/images-and-videos.md
-    - name: Search engine optimization
-      href: app-store/seo.md
+      href: howto/update-app.md
+    - name: View customers
+      href: howto/customers.md
+    - name: Manage notifications
+      href: howto/notifications.md
+    - name: Get error emails
+      href: howto/get-error-emails.md
+    - name: Update profile
+      href: howto/update-profile.md
+    - name: Format text
+      href: howto/format-text.md
   - name: Reference
     href: reference/index.md
     items:

@@ -43,7 +43,7 @@ so.client:
 * Request to publish the configuration
 
 <!-- Referenced links -->
-[2]: ../manage-app/notifications.md
+[2]: ../howto/notifications.md
 [3]: ../manage-app/get-error-emails.md
 [7]: ../security/find-clientid.md
 [8]: ../security/get-client-secret.md

@@ -17,7 +17,7 @@ so.client:
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 
-2. Select **Configuration**.
+1. Select **Configuration**.
 
     ![App client ID per environment -screenshot][img1]
 

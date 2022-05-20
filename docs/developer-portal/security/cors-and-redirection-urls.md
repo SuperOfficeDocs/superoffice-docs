@@ -29,7 +29,7 @@ Types of URLs:
 >
 > Consider if whitelisting is sufficient or do you need a CORS redirect?
 
-## Pre-requisite
+## Pre-requisites
 
 * You have registered your application idea
 * You are (or will be) handling web service requests at the new endpoints
@@ -38,11 +38,11 @@ Types of URLs:
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 
-2. Select **Configuration**.
+1. Select **Configuration**.
 
     ![Allowed redirects -screenshot][img1]
 
-3. If not shown on the **Configuration** start page, toggle **Advanced** and select **Authentication**.
+1. If not shown on the **Configuration** start page, toggle **Advanced** and select **Authentication**.
 
     ![Application configuration: authentication URLs -screenshot][img2]
 

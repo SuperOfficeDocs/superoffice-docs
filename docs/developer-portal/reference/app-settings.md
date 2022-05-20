@@ -32,7 +32,7 @@ so.client:
 * [User settings][4]
 
 <!-- Referenced links -->
-[1]: ../company/update-contact-person.md
+[1]: ../howto/update-contact-person.md
 [2]: app-config.md
 [3]: company-settings.md
 [4]: user-settings.md
@@ -44,4 +44,4 @@ so.client:
 [10]: ../app-store/seo.md
 
 <!-- Referenced images -->
-[img1]: ../media/app-settings.png
+[img1]: ../media/app-overview.png
