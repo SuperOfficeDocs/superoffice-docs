@@ -11,7 +11,6 @@ _site/
 /**/bin/
 /**/obj/
 /templates/
-docfx*
 
 # User-specific files
 *.rsuser
