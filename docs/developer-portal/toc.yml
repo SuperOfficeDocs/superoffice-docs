@@ -20,6 +20,25 @@ items:
       href: create-app/mirror-app.md
     - name: ERP sync and quote app
       href: create-app/sync-app.md
+  - name: How to...
+    href: howto/index.md
+    items:
+    - name: Update profile
+      href: howto/update-profile.md
+    - name: Update contact person
+      href: howto/update-contact-person.md
+    - name: Update your application
+      href: howto/update-app.md
+    - name: Update partner settings
+      href: howto/update-partner-settings.md
+    - name: View customers
+      href: howto/customers.md
+    - name: Manage notifications
+      href: howto/notifications.md
+    - name: Get error emails
+      href: howto/get-error-emails.md
+    - name: Format text
+      href: howto/format-text.md
   - name: App Store information
     href: app-store/index.md
     items:
@@ -48,25 +67,6 @@ items:
       href: security/edit-user.md
     - name: Manage permissions
       href: security/manage-permissions.md
-  - name: How to...
-    href: howto/index.md
-    items:
-    - name: Update partner settings
-      href: howto/update-partner-settings.md
-    - name: Update contact person
-      href: howto/update-contact-person.md
-    - name: Update your application
-      href: howto/update-app.md
-    - name: View customers
-      href: howto/customers.md
-    - name: Manage notifications
-      href: howto/notifications.md
-    - name: Get error emails
-      href: howto/get-error-emails.md
-    - name: Update profile
-      href: howto/update-profile.md
-    - name: Format text
-      href: howto/format-text.md
   - name: Reference
     href: reference/index.md
     items:
@@ -74,7 +74,7 @@ items:
       href: reference/app-settings.md
     - name: Application configuration
       href: reference/app-config.md
-    - name: Company settings
+    - name: Partner settings
       href: reference/company-settings.md
     - name: User settings
       href: reference/user-settings.md
