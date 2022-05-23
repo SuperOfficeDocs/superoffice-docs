@@ -30,23 +30,23 @@ There is no support for configuring the Microsoft 365 integration to use a sub-s
 
 * The address of the **SharePoint domain name URL** will most likely be `https://[your domain-name].sharepoint.com`
 
-A virtual site or a sub-site will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**
+A virtual site or a sub-site will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice` **(not supported)**.
 
 * The SuperOffice Archive needs to be a **Document library**, and located on the root area:
   * At the root of your SharePoint site, click **New** and choose **Document library**.
 
-The address of "Archive Path URL" will most likely be: `https://[your domain-name].sharepoint.com/SuperOffice_Archive/` (we will use the relative path to root `/SuperOffice_Archive/` for our setup)
+The address of "Archive Path URL" will most likely be: `https://[your domain-name].sharepoint.com/SuperOffice_Archive/` (we will use the relative path to root `/SuperOffice_Archive/` for our setup).
 
-A virtual site or subsite for the archive folder will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/` **(not supported)**
+A virtual site or subsite for the archive folder will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/` **(not supported)**.
 
 * The *Template* folder is a **folder within** the SuperOffice Archive Document library. The address of Template Path URL will most likely be `https://[your domain-name].sharepoint.com/SuperOffice_Archive/Template/`
 or
 `https://[your domain-name].sharepoint.com/SuperOffice_Archive/Forms/AllItems.aspx?id=%2FSuperOffice_Archive%2FTemplate`
-(we will use the relative path to Root or the SuperOffice Archive  `/SuperOffice_Archive/Template/` for our setup)
+(we will use the relative path to Root or the SuperOffice Archive  `/SuperOffice_Archive/Template/` for our setup).
 
 A virtual site or sub-site for the template folder will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/` **(not supported)**
 or
-URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/Forms/AllItems.aspx?id=%2Fsites%2Fsuperoffice%2FSuperOffice_Archive%2FTemplate/` **(not supported)**
+URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/Forms/AllItems.aspx?id=%2Fsites%2Fsuperoffice%2FSuperOffice_Archive%2FTemplate/` **(not supported).**
 
 ### Document Center
 
@@ -60,7 +60,7 @@ There is no support in the SuperOffice Microsoft 365 SharePoint integration for 
 
 ![x -screenshot][img2]
 
-This is due to users does not have sufficient read access to the SharePoint Group area where the Integration App is, and/or users do not have sufficient read access to the SharePoint root area
+This is due to users does not have sufficient read access to the SharePoint Group area where the Integration App is, and/or users do not have sufficient read access to the SharePoint root area.
 
 ### During the upload of new templates or creating new documents in SharePoint
 
@@ -84,7 +84,7 @@ This is due to users does not have sufficient read access to the SharePoint Gro
 
     **Create a new Group:**
 
-    Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > Site settings > Users and Permissions > Site Permissions  > Create Group > add users to this group
+    Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > Site settings > Users and Permissions > Site Permissions  > Create Group > add users to this group.
 
     ![x -screenshot][img6]
 
@@ -136,7 +136,7 @@ This is due to users do not have sufficient read access to the SharePoint Root
 
 Either update access rights for the Root or the document library, or create a new Group with a minimum of **Edit**, and add the users to this Group:
 
-Admin > Admin centers > SharePoint > site collections > Web Site Address (...sharepoint.com) > Settings for website > Area access rights > Permissions > add group
+Admin > Admin centers > SharePoint > site collections > Web Site Address (...sharepoint.com) > Settings for website > Area access rights > Permissions > add group.
 
 You need **Edit** for documents (in the document library), and **read** (in the area of the App) for using the App for logging in.
 

@@ -35,7 +35,7 @@ When users have successfully logged in using Azure to authenticate to CRM Online
 
 * A Microsoft 365 Admin account in the domain with Admin rights. This includes admin access to the SharePoint admin center, to configure and authorize SuperOffice to access data stored in your Microsoft 365 cloud during the set-up.
 
-* In Microsoft 365: Activate **allow user to run custom scripts**  < 24 h. before setup
+* In Microsoft 365: Activate **allow user to run custom scripts**  < 24 h. before setup.
 
 ## Limitations
 

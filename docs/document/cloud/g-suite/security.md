@@ -67,7 +67,7 @@ If your company and business structure use/cross multiple Google Workspace domai
 
 5. Sign in as SO Google service-account.
 
-6. Edit Share settings for the folder in [Drive][2] to include this group (from step 3)
+6. Edit Share settings for the folder in [Drive][2] to include this group (from step 3).
 
 ![x -screenshot][img4]
 

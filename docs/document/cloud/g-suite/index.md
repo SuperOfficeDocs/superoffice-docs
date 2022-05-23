@@ -13,8 +13,6 @@ The Google Workspace Integration app integrates the Google Workspace’s documen
 
 Simply sign in to SuperOffice using your Google Workspace login details and then open, edit, and store documents in Google Workspace directly from SuperOffice.
 
-![x][1]
-
 [View in App Store][2]
 
 ## Overview
@@ -88,7 +86,6 @@ You may also check the domain name via Google Workspace Toolbox Dig (Google MX 
 The **Forgot password** feature is now handled by Google - since Google is activated as the authentication method for this site.
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/AppStore/Image?imageId=16&applicationId=15
 [2]: https://online.superoffice.com/AppStore/superoffice-as/g-suite-integration
 [3]: https://www.google.com/accounts/UpdateAccountRecoveryOptions
 [4]: http://www.google.com/accounts/UpdateAccountRecoveryOptions
