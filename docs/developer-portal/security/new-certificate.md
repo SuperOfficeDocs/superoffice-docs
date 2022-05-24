@@ -1,10 +1,10 @@
 ---
 title: New certificate
 uid: dp-new-certificate
-description: How to create a new certificate for an app in the SuperOffice developer portal.
+description: How to create a new certificate for an app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 05.12.2022
-keywords: devportal, app, certificate
+keywords: Developer Portal, app, certificate
 so.topic: howto
 so.version:
 so.envir: cloud

@@ -1,10 +1,10 @@
 ---
 title: Settings and configuration
 uid: dp-reference
-description: Reference of settings and configuration in the SuperOffice developer portal.
+description: Reference of settings and configuration in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.25.2022
-keywords: apps, devportal
+keywords: apps, Developer Portal, settings
 so.topic: reference
 so.version:
 so.envir: cloud

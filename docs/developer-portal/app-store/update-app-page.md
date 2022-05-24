@@ -1,10 +1,10 @@
 ---
 title: Update app-specific page
 uid: dp-update-app-info
-description: How to update your app-specific page in the SuperOffice developer portal.
+description: How to update your app-specific page in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.27.2022
-keywords: devportal, app store listing
+keywords: Developer Portal, app store listing
 so.topic: howto
 so.version:
 so.envir: cloud

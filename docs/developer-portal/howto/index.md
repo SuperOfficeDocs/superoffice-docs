@@ -1,10 +1,10 @@
 ---
 title: Manage your apps and partner info
 uid: dp-howto
-description: Managing your applications and partner info in the SuperOffice developer portal.
+description: Managing your applications and partner info in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 06.20.2022
-keywords: devportal, app
+keywords: Developer Portal, app
 so.topic: howto
 so.version:
 so.envir: cloud

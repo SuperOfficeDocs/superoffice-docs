@@ -1,10 +1,10 @@
 ---
 title: Get error emails
 uid: dp-error-emails
-description: Manage reception of error emails in the SuperOffice developer portal.
+description: Manage reception of error emails in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 05.12.2022
-keywords: devportal, app, notification, error email
+keywords: Developer Portal, app, notification, error email
 so.topic: howto
 so.version:
 so.envir: cloud

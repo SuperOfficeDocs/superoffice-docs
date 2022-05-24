@@ -1,10 +1,10 @@
 ---
 title: Notifications
 uid: dp-notifications
-description: Manage app notifications in the SuperOffice developer portal.
+description: Manage app notifications in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 05.12.2022
-keywords: devportal, app, notification
+keywords: Developer Portal, app, notification
 so.topic: howto
 so.version:
 so.envir: cloud

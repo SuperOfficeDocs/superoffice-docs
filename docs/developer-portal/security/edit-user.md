@@ -1,10 +1,10 @@
 ---
 title: Edit a user
 uid: dp-edit-user
-description: How to change information about a user in the SuperOffice developer portal.
+description: How to change information about a user in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 05.12.2022
-keywords: devportal, user, access
+keywords: Developer Portal, user, access
 so.topic: howto
 so.version:
 so.envir: cloud

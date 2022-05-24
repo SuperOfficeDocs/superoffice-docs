@@ -4,7 +4,7 @@ uid: developer-portal-overview
 description: Introduction to the SuperOffice Online Developer Portal.
 author: AnthonyYates, Bergfrid Dias
 so.date: 05.20.2022
-keywords: developer, developer portal, apps, app-store, navigation
+keywords: developer, Developer Portal, apps, app-store, navigation
 so.topic: overview
 ---
 
@@ -19,7 +19,7 @@ In the portal, you have the opportunity to:
 * Register and manage your SuperOffice Apps, and the authentication keys and tokens that they use.
 * Manage your endpoint access requirements and integrations integration services endpoints.
 * Learn more about different endpoints and features available.
-* With elevated privileges within your organization, you can manage users and their developer portal access.
+* With elevated privileges within your organization, you can manage users and their Developer Portal access.
 
 > [!NOTE]
 > The Developer Portal handles the application workflows. However, communication between you and SuperOffice goes through Service.

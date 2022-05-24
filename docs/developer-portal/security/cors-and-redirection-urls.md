@@ -1,10 +1,10 @@
 ---
 title: CORS and redirection URLs
 uid: dp-add-update-redirect
-description: CORS and redirection URLs in the SuperOffice developer portal.
+description: CORS and redirection URLs in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 05.13.2022
-keywords: devportal, app, client ID
+keywords: Developer Portal, app, client ID
 so.topic: howto
 so.version:
 so.envir: cloud

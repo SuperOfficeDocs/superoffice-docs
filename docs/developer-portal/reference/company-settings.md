@@ -1,10 +1,10 @@
 ---
 title: Company settings
 uid: dp-company-settings
-description: Reference of company settings in the SuperOffice developer portal.
+description: Reference of company settings in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.25.2022
-keywords: apps, devportal, partner
+keywords: apps, Developer Portal, partner
 so.topic: reference
 so.version:
 so.envir: cloud
@@ -13,7 +13,7 @@ so.client:
 
 # Company settings
 
-![Company settings in the SuperOffice developer portal -screenshot][img1]
+![Company settings in the SuperOffice Developer Portal -screenshot][img1]
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|

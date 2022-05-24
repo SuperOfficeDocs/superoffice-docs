@@ -1,10 +1,10 @@
 ---
 title: Update contact persons
 uid: dp-update-contact-persons
-description: How to update contact persons for a company in the SuperOffice developer portal.
+description: How to update contact persons for a company in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 06.05.2022
-keywords: devportal, profile, partner, contact person
+keywords: Developer Portal, profile, partner, contact person
 so.topic: howto
 so.version:
 so.envir: cloud

@@ -1,10 +1,10 @@
 ---
 title: Format text
 uid: dp-format-text
-description: How to format text in input fields in the SuperOffice developer portal.
+description: How to format text in input fields in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.26.2022
-keywords: devportal
+keywords: Developer Portal
 so.topic: howto
 so.version:
 so.envir: cloud

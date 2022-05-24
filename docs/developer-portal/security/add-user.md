@@ -1,10 +1,10 @@
 ---
 title: Add a user
 uid: dp-add-user
-description: How to add a user in the SuperOffice developer portal.
+description: How to add a user in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 05.12.2022
-keywords: devportal, user, access
+so.date: 05.23.2022
+keywords: Developer Portal, user, access
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -20,7 +20,7 @@ so.client: online
 3. Click **Create User**.
 4. Enter a valid email address and click **Find user by email**.
 
-    ![Find user by email -screenshot][img2]
+    ![Find user by email in the SuperOffice Developer Portal -screenshot][img2]
 
 5. Either assign a known user or create a new one.
 
@@ -32,20 +32,21 @@ so.client: online
 
     1. Click **Create User**.
 
-        ![Create user button -screenshot][img3]
+        ![Create user button in the SuperOffice Developer Portal -screenshot][img3]
 
     2. Fill in the form.
 
-        ![Create user form -screenshot][img4]
+        ![Create user form in the SuperOffice Developer Portal -screenshot][img4]
 
     3. Click **Create**.
 
-6. You can now assign permissions.
+6. You can now [assign permissions][1].
 
 > [!TIP]
 > [!include[Link to user settings](../includes/see-user-settings.md)]
 
 <!-- Referenced links -->
+[1]: manage-permissions.md
 
 <!-- Referenced images -->
 [img1]: ../media/users.png

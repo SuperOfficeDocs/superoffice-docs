@@ -1,10 +1,10 @@
 ---
 title: Update company profile
 uid: dp-update-company-profile
-description: How to update your company profile in the SuperOffice developer portal.
+description: How to update your company profile in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.27.2022
-keywords: devportal, profile
+keywords: Developer Portal, profile
 so.topic: howto
 so.version:
 so.envir: cloud

@@ -1,10 +1,10 @@
 ---
 title: Application configuration
 uid: dp-app-config
-description: Reference of application configuration in the SuperOffice developer portal.
+description: Reference of application configuration in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.25.2022
-keywords: apps, devportal, authentication
+keywords: apps, Developer Portal, authentication
 so.topic: reference
 so.version:
 so.envir: cloud

@@ -1,10 +1,10 @@
 ---
 title: Improve SEO
 uid: dp-seo
-description: How to improve your App Store SEO in the SuperOffice developer portal.
+description: How to improve your App Store SEO in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.28.2022
-keywords: devportal, app store, SEO
+keywords: Developer Portal, app store, SEO
 so.topic: howto
 so.version:
 so.envir: cloud
