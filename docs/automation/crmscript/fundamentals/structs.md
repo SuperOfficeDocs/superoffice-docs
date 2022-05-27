@@ -137,6 +137,7 @@ h.print();
 ### String toJsonString()
 This function will return a JSON formatted string of the struct's contents. Same functionality as toJson(JSONBuilder), but it will return a string directly without having to instantiate a JSONbuilder.
 
+Introduced or updated in version: 10.1.4
 ```crmscript!
 struct Person {
   String firstname;
