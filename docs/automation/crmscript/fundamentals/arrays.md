@@ -45,6 +45,8 @@ If you don't initialize the array, you won't be able to use the indexes when add
 ### Void fromJsonString(String json)
 This function will append to the array the contents of the supplied JSON formatted string. Same functionality as fromXMLNode(XMLNode n), but it will parse the provided string directly without having to use parseJSON() yourself. Please note, this function will not clear the array, but rather append to it.
 
+Introduced or updated in version: 10.1.4
+
 ```crmscript!
 String[] strings;
 strings.fromJsonString('["Alpha", "Beta", "Charlie"]');
