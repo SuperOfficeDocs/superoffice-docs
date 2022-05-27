@@ -142,6 +142,7 @@ for(Integer i = 0; i < userPlans.length(); i++) {
 ### Void sort()
 This function will sort the array. It will only work on one-dimensional arrays. Arrays of basic types (Integer, String, Date, etc) will be sorted according to standard behavior. Arrays of complex types (SearchEngine, HTTP, etc) will not be sorted. Arrays of structs will be sorted if the struct has a function with the following signature: "Boolean compare(sameStruct other)".
 
+Introduced or updated in version: 10.1.4
 ```crmscript!
 Integer[] ints;
 ints.pushBack(8);
