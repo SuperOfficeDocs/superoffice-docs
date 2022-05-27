@@ -197,6 +197,8 @@ print(jsBuilder.getString());
 ### Void fromJsonString(String json)
 This function will set the struct to the contents of the supplied JSON formatted string. Same functionality as fromXMLNode(XMLNode n), but it will parse the provided string directly without having to use parseJSON() yourself. 
 
+Introduced or updated in version: 10.1.4
+
 ```crmscript!
 struct Person {
   String firstname;
