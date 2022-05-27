@@ -214,6 +214,8 @@ printLine(p.toJsonString());
 ### String toString() 
 If a struct has a function with this exact signature, then the result of this function is what will be used when an instance of this struct is serialized to a string. Specifically, this applies to the array buildString(String separator) method, as well as what is shown as the variable for script debugging and tracing.
 
+Introduced or updated in version: 10.1.4
+
 ```crmscript!
 struct Person {
   String firstname;
