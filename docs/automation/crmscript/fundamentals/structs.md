@@ -246,14 +246,14 @@ Person Person(String firstname, String lastname) {
   return p;
 }
 
-Person[] persons
-p.pushBack(Person("John", "Doe"));
-p.pushBack(Person("Mark", "Wahlberg"));
-p.pushBack(Person("Anthony", "Hopkins"));
+Person[] persons;
+persons.pushBack(Person("John", "Doe"));
+persons.pushBack(Person("Mark", "Wahlberg"));
+persons.pushBack(Person("Anthony", "Hopkins"));
 
-printLine("Before sort: " + p.buildString("|"));
-p.sort();
-printLine("After sort: " + p.buildString("|"));
+printLine("Before sort: " + persons.buildString("|"));
+persons.sort();
+printLine("After sort: " + persons.buildString("|"));
 ```
 
 Common Patterns:
