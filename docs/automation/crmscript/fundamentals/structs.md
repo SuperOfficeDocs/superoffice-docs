@@ -230,6 +230,8 @@ struct Person {
 ### Bool compare(\<SameStruct\> s)
 If a struct  has a function with this exact signature, then this method will be used to compare two instances of the struct when sorting an array of struct instances.
 
+Introduced or updated in version: 10.1.4
+
 ```crmscript!
 struct Person {
   String firstname;
