@@ -29,6 +29,8 @@ so.client:
 
     ![Enter application name -screenshot][img3]
 
+    [!include[Requirements for app name](includes/note-app-name.md)]
+
 5. Enter one or more redirect URLs - one per line. Click **Next**.
 
     ![Enter redirect URL -screenshot][img4]

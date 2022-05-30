@@ -21,6 +21,8 @@ so.client:
 
 4. Enter the name of your application. Click **Next**.
 
+    [!include[Requirements for app name](includes/note-app-name.md)]
+
 5. Enter the URL of the integration endpoint.
 
     ![Mirroring service URL -screenshot][img1]
