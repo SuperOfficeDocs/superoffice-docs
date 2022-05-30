@@ -14,16 +14,16 @@ so.client:
 # Manage app notifications
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Select **Configuration**.
 
-1. Select **Configuration**.
+3. Turn on **Advanced**.
 
-1. Turn on **Advanced**.
-
-1. Select **Notifications**.
+4. Select **Notifications**.
 
     ![Configure notifications -screenshot][img1]
 
-1. Enter the URL of your endpoint SuperOffice should push notifications to when a tenant change status.
+5. Enter the URL of your endpoint SuperOffice should push notifications to when a tenant change status.
 
     `https://www.awesomeapp.com/NotifyCustomerStateChange`
 
@@ -31,9 +31,9 @@ so.client:
 
     ![Configure notifications per environment -screenshot][img2]
 
-1. Click **Save Settings** or **OK**.
+6. Click **Save Settings** or **OK**.
 
-1. Request to publish the new configuration.
+7. Request to publish the new configuration.
 
 ## Read more
 

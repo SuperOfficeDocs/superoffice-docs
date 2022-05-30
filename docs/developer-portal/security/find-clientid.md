@@ -16,12 +16,12 @@ so.client:
 [!include[Define app credentials](../../apps/includes/def-app-credentials.md)]
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
-
-1. Select **Configuration**.
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Select **Configuration**.
 
     ![App client ID per environment -screenshot][img1]
 
-2. Alternatively, turn on **Advanced** and check the **Authentication** section.
+3. Alternatively, turn on **Advanced** and check the **Authentication** section.
 
     ![App client ID in Authentication section -screenshot][img2]
 

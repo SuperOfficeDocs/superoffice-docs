@@ -37,12 +37,12 @@ Types of URLs:
 ## To view redirection endpoints
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
-
-1. Select **Configuration**.
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Select **Configuration**.
 
     ![Allowed redirects -screenshot][img1]
 
-1. If not shown on the **Configuration** start page, toggle **Advanced** and select **Authentication**.
+3. If not shown on the **Configuration** start page, toggle **Advanced** and select **Authentication**.
 
     ![Application configuration: authentication URLs -screenshot][img2]
 

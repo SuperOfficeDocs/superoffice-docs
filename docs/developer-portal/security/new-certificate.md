@@ -14,24 +14,24 @@ so.client:
 # New certificate
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Select **Configuration**.
 
-1. Select **Configuration**.
-
-1. Toggle **Advanced** and select **Secrets and Certificates**.
+3. Toggle **Advanced** and select **Secrets and Certificates**.
 
     ![Secrets and Certificates -screenshot][img1]
 
-1. Click **New Certificate**.
+4. Click **New Certificate**.
 
     ![New Certificate dialog -screenshot][img2]
 
-1. Enter a description and expiration, and then click **Add**.
+5. Enter a description and expiration, and then click **Add**.
 
     ![Certificates -screenshot][img3]
 
-1. Click **Save Settings**.
+6. Click **Save Settings**.
 
-1. Request to publish the new configuration.
+7. Request to publish the new configuration.
 
 ## Read more
 

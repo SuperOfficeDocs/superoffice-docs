@@ -16,18 +16,18 @@ so.client:
 [!include[Define app credentials](../../apps/includes/def-app-credentials.md)] That also means that you can't copy it from the Developer Portal. If it's lost, you need to create a new one.
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
-
-1. Select **Configuration**.
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Select **Configuration**.
 
     ![Application secret -screenshot][img1]
 
-1. Click **New Client Secret**.
+3. Click **New Client Secret**.
 
-1. Store the secret somewhere safe!
+4. Store the secret somewhere safe!
 
-1. Click **Save Settings**.
+5. Click **Save Settings**.
 
-1. Request to publish the new configuration.
+6. Request to publish the new configuration.
 
 ## Read more
 

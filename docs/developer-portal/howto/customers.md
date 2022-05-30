@@ -21,12 +21,12 @@ You can check which customers that have authorized a specific app and get a list
 ## Who has authorized this app?
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
-
-1. Select **Overview** and locate the **Customers** section.
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Select **Overview** and locate the **Customers** section.
 
     ![List of customers -screenshot][img1]
 
-1. Click through the environment specific tabs.
+3. Click through the environment specific tabs.
 
 ## Who are my customers?
 

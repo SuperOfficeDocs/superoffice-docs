@@ -14,22 +14,22 @@ so.client:
 # Get error emails
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Select **Configuration**.
 
-1. Select **Configuration**.
+3. Turn on **Advanced**.
 
-1. Turn on **Advanced**.
+4. Select **Notifications**.
 
-1. Select **Notifications**.
-
-1. Turn on/off sending error emails to the technical contact.
+5. Turn on/off sending error emails to the technical contact.
 
     ![Configure error emails -screenshot][img1]
 
     Optionally, turn on **Configure per Environment** to set different values for SOD, Stage, and Production.
 
-1. Click **Save Settings** or **OK**.
+6. Click **Save Settings** or **OK**.
 
-1. Request to publish the new configuration.
+7. Request to publish the new configuration.
 
 ## Read more
 
