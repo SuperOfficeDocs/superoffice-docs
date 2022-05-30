@@ -79,7 +79,7 @@ To enable toggled features - you need to add two sections manually in your NetSe
 | Email Template           | EmailTemplate       |        | 9.x | |
 | User Management          | UserManagement      |        | 9.x | |
 | OAuth 2.0 Service        | NewAuth             | 10.0.x | 9.2 R10 ONSITE | |
-| Configurable Archives    | UserManagement      | 10.1.3 |  | |
+| Configurable Archives    | SCILHostedArchives,ConfigurableArchives | 10.1.3 |  | |
 
 ## Look up enabled features
 
