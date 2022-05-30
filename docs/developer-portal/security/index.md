@@ -24,6 +24,9 @@ If you have registered the application but lost the keys, you need to [look up y
 * [Add a certificate][10]
 * [About user contexts][4]
 
+> [!CAUTION]
+> SuperOffice doesn't store the **client secret and certificate private key** in the database. When you create a new secret or certificate, copy and store this information. You can't go back and look it up in the Developer Portal later.
+
 ## URLs
 
 * [View or change CORS and redirection URLs][9]

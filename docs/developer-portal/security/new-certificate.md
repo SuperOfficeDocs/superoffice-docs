@@ -13,6 +13,8 @@ so.client:
 
 # New certificate
 
+[!include[Howto replace value](includes/note-clear-to-replace.md)]
+
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
@@ -29,9 +31,11 @@ so.client:
 
     ![Certificates -screenshot][img3]
 
-6. Click **Save Settings**.
+6. Store the **private key** somewhere safe! You can't look it up in the Developer Portal later.
 
-7. Request to publish the new configuration.
+7. Click **Save Settings**.
+
+8. Request to publish the new configuration.
 
 ## Read more
 
