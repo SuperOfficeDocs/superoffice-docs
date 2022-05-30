@@ -3,7 +3,7 @@ title: What is my client ID?
 uid: dp-get-clientid
 description: How to find the client ID for an app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.05.2022
+so.date: 05.30.2022
 keywords: Developer Portal, app, client ID
 so.topic: howto
 so.version:
@@ -21,6 +21,10 @@ so.client:
 
     ![App client ID per environment -screenshot][img1]
 
+2. Alternatively, turn on **Advanced** and check the **Authentication** section.
+
+    ![App client ID in Authentication section -screenshot][img2]
+
 ## Read more
 
 * [Application environments][3]
@@ -30,3 +34,4 @@ so.client:
 
 <!-- Referenced images -->
 [img1]: media/clientid-per-envir.png
+[img2]: media/app-authentication.png
