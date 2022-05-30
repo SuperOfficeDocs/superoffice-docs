@@ -42,6 +42,17 @@ String[5] s2;
 
 If you don't initialize the array, you won't be able to use the indexes when adding elements.
 
+### Void fromJsonString(String json)
+This function will append to the array the contents of the supplied JSON formatted string. Same functionality as fromXMLNode(XMLNode n), but it will parse the provided string directly without having to use parseJSON() yourself. Please note, this function will not clear the array, but rather append to it.
+
+Introduced or updated in version: 10.1.4
+
+```crmscript!
+String[] strings;
+strings.fromJsonString('["Alpha", "Beta", "Charlie"]');
+printLine(strings.toJsonString());
+```
+
 ## Accessing indexed elements
 
 Any element can be accessed by the variableName\[pos\]. Remember that the index starts at 0. The first element is at \[0\], the second at \[1\], and so on.
@@ -126,6 +137,49 @@ userPlans[4] = "Complete";
 for(Integer i = 0; i < userPlans.length(); i++) {
   printLine(userPlans[i]);
 }
+```
+
+### Void sort()
+This function will sort the array. It will only work on one-dimensional arrays. Arrays of basic types (Integer, String, Date, etc) will be sorted according to standard behavior. Arrays of complex types (SearchEngine, HTTP, etc) will not be sorted. Arrays of structs will be sorted if the struct has a function with the following signature: "Boolean compare(sameStruct other)".
+
+Introduced or updated in version: 10.1.4
+```crmscript!
+Integer[] ints;
+ints.pushBack(8);
+ints.pushBack(2);
+ints.pushBack(4);
+ints.sort();
+printLine(ints.buildString(","));
+
+Example struct:
+struct Person {
+  String firstname;
+  String lastname;
+  
+  String toString() {
+    return this.firstname + " " + this.lastname;
+  }
+  
+  Bool compare(Person p) {
+    return this.toString() > p.toString();
+  }
+};
+
+Person Person(String firstname, String lastname) {
+  Person p;
+  p.firstname = firstname;
+  p.lastname = lastname;
+  return p;
+}
+
+Person[] persons
+p.pushBack(Person("John", "Doe"));
+p.pushBack(Person("Mark", "Wahlberg"));
+p.pushBack(Person("Anthony", "Hopkins"));
+
+printLine("Before sort: " + p.buildString("|"));
+p.sort();
+printLine("After sort: " + p.buildString("|"));
 ```
 
 ## Multi-dimensional collections
@@ -257,6 +311,28 @@ printLine("Current length: " + userPlans.length().toString());
 If you want to do something with these elements before deletion, you should loop through and pop them instead.
 
 To repopulate, you must use push since it is now uninitialized.
+
+### String toJsonString()
+This function will return a JSON formatted string of the array's contents. Same functionality as toJson(JSONBuilder), but it will return a string directly without having to instantiate a JSONbuilder.
+
+```crmscript!
+String[] strings;
+strings.pushBack("Alpha");
+strings.pushBack("Beta");
+strings.pushBack("Charlie");
+printLine(strings.toJsonString());
+```
+
+### String buildString(String delimiter)
+This function will return a string containing the contents of the array, separated by the delimiter string.
+
+```crmscript!
+String[] strings;
+strings.pushBack("Alpha");
+strings.pushBack("Beta");
+strings.pushBack("Charlie");
+printLine(strings.buildString(","));
+```
 
 <!-- Referenced links -->
 [1]: for-loops.md

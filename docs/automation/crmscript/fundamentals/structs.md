@@ -106,9 +106,12 @@ Only supports the following element datatypes:
 * String
 * struct
 
-Date and DateTime is not supported. JSON does not support these either.
-
-Example:
+> [!NOTE]
+> For the types not supported natively by JSON, we will require/produce the following formats:
+> * Date: converted to/from string with format "YYYY-MM-DD"
+> * DateTime: converted to/from string with format "YYYY-MM-DDTHH:MI:SS"
+> * Time: converted to/from string with format "HH:MI:SS"
+> * Byte: converted to/from number.
 
 ```crmscript!
 struct Hello {
@@ -131,30 +134,23 @@ h.print();
 
 ```
 
-Common Patterns:
+### String toJsonString()
+This function will return a JSON formatted string of the struct's contents. Same functionality as toJson(JSONBuilder), but it will return a string directly without having to instantiate a JSONbuilder.
 
-As JSON has become the preferred transfer representation, it's common for structs to implement ways to be populated by a JSON string, and to write itself out as a JSON string.
-
-Below are a couple common methods structs implement to facilitate reading and writing a struct using JSON.
-
-```crmscript
-struct Hello {
-  String who;
-  Void setWho(String who) {
-    this.who = who;
-  }
-  Void print() {
-    printLine("Hello " + this.who);
-  }
-  Void fromJson(String json) {
-    this.fromXMLNode(parseJSON(json));
-  }
-  String toJson() {
-    JSONBuilder jb;
-    this.toJson(jb);
-    return jb.getString();
-  }
+Introduced or updated in version: 10.1.4
+```crmscript!
+struct Person {
+  String firstname;
+  String lastname;
+  Date dob;
 };
+
+Person p;
+p.firstname = "John";
+p.lastname = "Doe";
+p.dob = Date("1975-11-28");
+
+printLine(p.toJsonString());
 ```
 
 ### toJson
@@ -169,9 +165,12 @@ Only supports the following item datatypes:
 * String
 * struct
 
-Date and DateTime is not supported. JSON does not support these either.
-
-Example:
+> [!NOTE]
+> For the types not supported natively by JSON, we will require/produce the following formats:
+> * Date: converted to/from string with format "YYYY-MM-DD"
+> * DateTime: converted to/from string with format "YYYY-MM-DDTHH:MI:SS"
+> * Time: converted to/from string with format "HH:MI:SS"
+> * Byte: converted to/from number.
 
 ```crmscript!
 struct Hello {
@@ -193,6 +192,75 @@ h.toJson(jsBuilder);
 print(jsBuilder.getString());
 
 //prints {"who": "World"}
+```
+
+### Void fromJsonString(String json)
+This function will set the struct to the contents of the supplied JSON formatted string. Same functionality as fromXMLNode(XMLNode n), but it will parse the provided string directly without having to use parseJSON() yourself. 
+
+Introduced or updated in version: 10.1.4
+
+```crmscript!
+struct Person {
+  String firstname;
+  String lastname;
+  Date dob;
+};
+
+Person p;
+p.fromJsonString('{"firstname": "Jon", "lastname": "Doe", "dob": "1984-10-26"}');
+printLine(p.toJsonString());
+```
+
+### String toString() 
+If a struct has a function with this exact signature, then the result of this function is what will be used when an instance of this struct is serialized to a string. Specifically, this applies to the array buildString(String separator) method, as well as what is shown as the variable for script debugging and tracing.
+
+Introduced or updated in version: 10.1.4
+
+```crmscript!
+struct Person {
+  String firstname;
+  String lastname;
+  
+  String toString() {
+    return this.firstname + " " + this.lastname;
+  }
+};
+```
+
+### Bool compare(\<SameStruct\> s)
+If a struct  has a function with this exact signature, then this method will be used to compare two instances of the struct when sorting an array of struct instances.
+
+Introduced or updated in version: 10.1.4
+
+```crmscript!
+struct Person {
+  String firstname;
+  String lastname;
+  
+  String toString() {
+    return this.firstname + " " + this.lastname;
+  }
+  
+  Bool compare(Person p) {
+    return this.toString() > p.toString();
+  }
+};
+
+Person Person(String firstname, String lastname) {
+  Person p;
+  p.firstname = firstname;
+  p.lastname = lastname;
+  return p;
+}
+
+Person[] persons;
+persons.pushBack(Person("John", "Doe"));
+persons.pushBack(Person("Mark", "Wahlberg"));
+persons.pushBack(Person("Anthony", "Hopkins"));
+
+printLine("Before sort: " + persons.buildString("|"));
+persons.sort();
+printLine("After sort: " + persons.buildString("|"));
 ```
 
 Common Patterns:
