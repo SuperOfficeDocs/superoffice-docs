@@ -64,8 +64,7 @@ For each of the above:
 
 ## License
 
-> [!NOTE]
-> These may only be changed by SuperOffice employees. For custom applications, we require that the customer has an active subscription to Development Tools.
+[!include[Can be changed by SO only](../includes/note-changing-licenses.md)]
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
