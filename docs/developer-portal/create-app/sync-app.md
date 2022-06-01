@@ -12,6 +12,12 @@ so.client:
 ---
 
 # Register an ERP and quote sync app
+This template creates an standard app configuration that ask for the Erp and Quote endpoint.
+
+* enables the WebApi and Services88 API endpoint.
+* enable access to the SystemToken claim and add access to the Webhooks agent.
+* ask for the ERP Sync and Quote URL in the wizard.
+* grant Integration server under licenses so the Sync / Quote panel is active in customers admin client.
 
 1. In the Developer Portal, go to your partner page.
 

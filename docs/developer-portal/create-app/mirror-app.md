@@ -12,6 +12,13 @@ so.client:
 ---
 
 # Register a mirroring app
+This template creates a custom database mirroring app configuration, it will ask for the public endpoint of your mirroring service URL. 
+Required information to put into web.config of your mirroring service:
+
+* SoAppId = Client ID
+* PrivateKey.txt = Certificate - Paste in the Private key
+
+Required license: It may only be used by a customer tenant who have the Database mirroring subscription.
 
 1. In the Developer Portal, go to your partner page.
 

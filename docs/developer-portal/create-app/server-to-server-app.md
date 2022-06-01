@@ -12,6 +12,10 @@ so.client:
 ---
 
 # Register a server-to-server app
+This template creates an app configuration that use system user flow.
+
+* enables the WebApi and Services88 API endpoint.
+* enable access to the SystemToken claim and add access to the Webhooks agent.
 
 1. In the Developer Portal, go to your partner page.
 
