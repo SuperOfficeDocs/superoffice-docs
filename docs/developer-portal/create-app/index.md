@@ -3,7 +3,7 @@ title: Register an app
 uid: dp-register-app
 description: Registering a new app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 05.18.2022
+so.date: 06.01.2022
 keywords: Developer Portal, app
 so.topic: howto
 so.version:
@@ -25,17 +25,19 @@ so.client:
 
     ![Create application wizard -screenshot][img2]
 
+    The template sets some default values and determines what you have to specify in the next steps.
+
 4. Enter the name of your application. Click **Next**.
 
     ![Enter application name -screenshot][img3]
 
     [!include[Requirements for app name](includes/note-app-name.md)]
 
-5. Enter one or more redirect URLs - one per line. Click **Next**.
+5. Enter one or more [redirect URLs][6] - one per line. Click **Next**.
 
     ![Enter redirect URL -screenshot][img4]
 
-6. Specify integration points  if applicable.
+6. Specify [integration points][17] if applicable.
 
 7. Set the technical contact for your app.
 
@@ -69,6 +71,7 @@ If you have registered the application but lost the keys, you need to [look up y
 
 * [Getting started][1]
 * [Application environments][3]
+* [Integration points][17]
 * [User contexts][4]
 * [Provisioning][5]
 * [Redirects][6]
@@ -98,6 +101,7 @@ If you have registered the application but lost the keys, you need to [look up y
 [14]: server-to-server-app.md
 [15]: mirror-app.md
 [16]: sync-app.md
+[17]: ../../api/overview/index.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-overview.png
