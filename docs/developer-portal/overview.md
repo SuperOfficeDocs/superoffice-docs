@@ -97,6 +97,12 @@ A partner can have users with different roles:
 > [!NOTE]
 > SuperOffice employees also have different roles, such as the App Manager and Online Operations.
 
+### User
+
+[!include[ALT](includes/def-dp-user.md)]
+
+The first person (user) assigned to a partner is commonly the administrator of that partner inside the portal. The administrator can add additional users.
+
 ### Settings
 
 Both partners and applications have settings. These are essential information such as name and contact persons.
