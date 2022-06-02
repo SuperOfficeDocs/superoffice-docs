@@ -12,10 +12,19 @@ so.client:
 ---
 
 # Register a server-to-server app
+
+## About this template
+
 This template creates an app configuration that use system user flow.
 
 * enables the WebApi and Services88 API endpoint.
 * enable access to the SystemToken claim and add access to the Webhooks agent.
+
+## Custom app required license
+
+It may only be used by a customer tenant who have the Development tools subscription.
+
+## Create app
 
 1. In the Developer Portal, go to your partner page.
 
@@ -31,7 +40,7 @@ This template creates an app configuration that use system user flow.
 
     ![Enter redirect URL -screenshot][img4]
 
-6. Set the technical contact for your app.
+6. You will be set the technical contact for your app. Click *Clear* to choose another technical contact by email address.
 
     ![-screenshot][img5]
 

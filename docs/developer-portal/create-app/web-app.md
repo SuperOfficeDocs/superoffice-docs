@@ -13,6 +13,19 @@ so.client:
 
 # Register a web app
 
+## About this template
+
+This template creates an standard web app configuration that use user  interactive OIDC authentication.
+
+* enables the *WebApi* API endpoint
+* enables access to the *Webhooks* agent.
+
+## Custom app required license
+
+It may only be used by a customer tenant who have the Development tools subscription.
+
+## Create app
+
 1. In the Developer Portal, go to your partner page.
 
 2. In the **Applications** section, click **Create App**.
@@ -27,7 +40,7 @@ so.client:
 
     ![Enter redirect URL -screenshot][img4]
 
-6. Set the technical contact for your app.
+6. You will be set the technical contact for your app. Click *Clear* to choose another technical contact by email address.
 
     ![-screenshot][img5]
 

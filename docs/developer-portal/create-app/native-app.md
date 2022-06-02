@@ -10,15 +10,19 @@ so.version:
 so.envir: cloud
 so.client:
 ---
-
 # Register a native app
+
+## About this template
 This template creates an app configuration that use OAuth2 Native app flow which depends on Proof Key for Code Exchange (PKCE). 
- 
 * default adds in **^http://127.0.0.1\:\d{4,10}$** as allowed redirect URL. You may add more.
 * enables the **WebApi** API endpoint and add access to the Webhooks agent.
 * checks **Is native or mobile** application on the authentication pane.
 
+## Custom app required license
 
+It may only be used by a customer tenant who have the Development tools subscription.
+
+## Create app
 
 1. In the Developer Portal, go to your partner page.
 
@@ -34,7 +38,7 @@ This template creates an app configuration that use OAuth2 Native app flow which
 
     ![Enter redirect URL -screenshot][img4]
 
-6. Set the technical contact for your app.
+6. You will be set the technical contact for your app. Click *Clear* to choose another technical contact by email address.
 
     ![-screenshot][img5]
 
@@ -45,7 +49,6 @@ This template creates an app configuration that use OAuth2 Native app flow which
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
-* [Add a certificate][10]
 * [Manage notifications][2]
 * [Get error emails][3]
 * [Start working on the App Store information][11]
@@ -57,7 +60,6 @@ This template creates an app configuration that use OAuth2 Native app flow which
 [7]: ../security/find-clientid.md
 [8]: ../security/get-client-secret.md
 [9]: ../security/cors-and-redirection-urls.md
-[10]: ../security/new-certificate.md
 [11]: ../app-store/update-app-page.md
 
 <!-- Referenced images -->

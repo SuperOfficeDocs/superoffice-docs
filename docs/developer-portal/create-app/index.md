@@ -58,6 +58,7 @@ When registering an application, you can choose from five predefined templates t
 * [Server-to-server application][14]
 * [Custom database mirroring application][15]
 * [Standard ERP sync and quote application][16]
+* [Empty application configuration][17]
 
 ## Get keys
 
