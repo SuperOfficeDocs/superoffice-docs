@@ -16,6 +16,8 @@ items:
       href: create-app/native-app.md
     - name: Server-to-server app
       href: create-app/server-to-server-app.md
+    - name: Empty app
+      href: create-app/empty-app.md      
     - name: Mirroring app
       href: create-app/mirror-app.md
     - name: ERP sync and quote app
