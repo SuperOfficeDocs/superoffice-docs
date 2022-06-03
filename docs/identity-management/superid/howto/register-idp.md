@@ -48,7 +48,9 @@ Before using a federated sign-in service, you must register the domain with us. 
 
     ![Microsoft 365 sign-in -screenshot][img2]
 
-    ![Google sign-in -screenshot][img3]
+    ![Microsoft 365 sign-in -screenshot][img3]
+
+    ![Microsoft 365 sign-in -screenshot][img12]
 
 3. Confirm that all users of this domain should use the identity provider.
 
@@ -127,3 +129,4 @@ You can find additional domains in your Azure Active Directory under **Custom d
 [img9]: media/register-subdomains.png
 [img10]: media/image3awzj.png
 [img11]: media/imagesw25.png
+[img12]: media/o365permissions.png
