@@ -256,6 +256,13 @@ items:
     items:
     - name: Using WebAPI client
       href: web-services/proxies/index.md
+      items:
+      - name: Getting started
+        href: web-services/proxies/superoffice-webapi/index.md
+      - name: Authorizations
+        href: web-services/proxies/superoffice-webapi/iauthorization.md
+      - name: System User
+        href: web-services/proxies/superoffice-webapi/systemuserclient.md
     - name: Using NetServer Services proxies
       href: web-services/proxies/built-in.md
     - name: Using custom proxies
