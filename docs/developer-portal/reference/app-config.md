@@ -32,7 +32,7 @@ so.client:
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Client secret | The application token (password). Must be supplied when invoking any of the SuperOffice CRM Online web services. | [Create new client secret][17] | [Terminology][8] |
-| Certificates | | [Create new certificate][19] | [About SuperID certificates][9] |
+| Certificates | RSA encryption keys | [Create new certificate][19]<br/>[Sign system user token][9] | |
 
 ## Endpoints
 
@@ -135,7 +135,7 @@ Standard ERP Sync applications may be granted Integration Server so the ERP Sync
 [6]: ../../apps/certification/initial-watchcom-eval.md
 [7]: ../../apps/redirects/index.md
 [8]: ../../apps/terminology.md
-[9]: ../../api/authentication/online/certificates/index.md
+[9]: ../../api//authentication/online/auth-application/sign-system-user-token.md
 [10]: ../../apps/getting-started/what-api-to-use.md
 [11]: ../../apps/tenant-status/index.md
 [12]: ../../mirroring/index.yml

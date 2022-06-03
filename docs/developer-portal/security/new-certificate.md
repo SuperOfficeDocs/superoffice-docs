@@ -13,7 +13,13 @@ so.client:
 
 # New certificate
 
+The certificates in your application configuration are **RSA encryption keys**. You need the private key to [sign system user tokens][2] in server-to-server applications and database mirroring.
+
+The Developer Portal stores your public key. However, you must store the private key.
+
 [!include[Howto replace value](includes/note-clear-to-replace.md)]
+
+## How to
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
@@ -45,6 +51,7 @@ so.client:
 <!-- Referenced links -->
 [3]: ../../apps/getting-started/app-envir.md
 [1]: ../../api/authentication/online/certificates/index.md
+[2]: ../../api//authentication/online/auth-application/sign-system-user-token.md
 
 <!-- Referenced images -->
 [img1]: media/secrets-and-certificates.png
