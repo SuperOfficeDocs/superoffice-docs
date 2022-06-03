@@ -13,6 +13,8 @@ so.client:
 
 # Application settings
 
+These settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
+
 ![Application settings in the SuperOffice Developer Portal -screenshot][img1]
 
 | Setting | Description | How-tos | Read more |
@@ -21,8 +23,8 @@ so.client:
 | SEO-friendly name | For search engines. | [Improve SEO][10] | |
 | Technical contact | The contact person for this app. | [Update contact person][1] | |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
-| Is custom app | Whether this is a one-off customization. | | [About custom apps][6] |
-| Is beta | Whether the app is in beta in the App Store. | | [About the beta period][7] |
+| Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | | [About custom apps][6] |
+| Is beta | Whether the app is currently in beta in the App Store. | | [About the beta period][7] |
 | Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | | [About consent][5] |
 
 ## See also

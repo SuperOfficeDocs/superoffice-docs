@@ -15,7 +15,7 @@ so.client:
 
 ## About this template
 
-This template creates an app configuration without asking for .
+This template creates an app configuration where you just need to add in the application name and technical contact. For the advanced user who know what they want to configure and where our other templates do not really fit the need.
 
 * enables the *WebApi* and *Services88 API endpoint*
 * enables access to the *Webhooks* agent.
@@ -24,13 +24,16 @@ This template creates an app configuration without asking for .
 
 It may only be used by a customer tenant who have the Development tools subscription.
 
+If the app also take advantage of the database mirroring capability, then the database mirroring subscription is required as well.
+
+
 ## Create app
 
 1. In the Developer Portal, go to your partner page.
 
 2. In the **Applications** section, click **Create App**.
 
-3. Choose the **Empty** template. Then select whether this is a custom or standard app. Click **Next**.
+3. Choose the DIY / **Empty** template. Then select whether this is a custom or standard app. Click **Next**.
 
 4. Enter the name of your application. Click **Next**.
 
@@ -42,21 +45,12 @@ It may only be used by a customer tenant who have the Development tools subscrip
 
 6. Click **Create Application**.
 
-7. Change to **Advanced** (we will make this the default mode for this template type in next release)
+7. Change to **Advanced** mode if not automatically redirected to this.
 
-    * Versioning: Overview of version name and history of when this config version was saved.
-    * Authentication: This is where you may enable OpenID Connect native, find Client ID and set redirect URLs
-    * Secrets & Certificates: Add or create new secret and certificate (used by system user flow and ErpSync/Mirroring)
-    * API endpoints: read-only for partners
-    * Notifications: Enable and change your customer state notification URL
-    * ERP: Enable and change your Quote and ERP Sync endpoints
-    * Mirroring: Enable and change your database mirroring endpoint
-    * License: read-only for partners
-    * Advanced: read-only for partners
-    * Verification: read-only for partners
-
+    
 ## What would you like to do next?
 
+* [Get overview of all config sections][12]
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
@@ -67,6 +61,7 @@ It may only be used by a customer tenant who have the Development tools subscrip
 * Request to publish the configuration
 
 <!-- Referenced links -->
+[1]: ../reference/app-config.md
 [2]: ../howto/notifications.md
 [3]: ../manage-app/get-error-emails.md
 [7]: ../security/find-clientid.md

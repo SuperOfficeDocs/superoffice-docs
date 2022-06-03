@@ -13,7 +13,9 @@ so.client:
 # Register a native app
 
 ## About this template
-This template creates an app configuration that use OAuth2 Native app flow which depends on Proof Key for Code Exchange (PKCE). 
+
+This template creates an app configuration that use OAuth2 Native app flow which depends on Proof Key for Code Exchange (PKCE).
+
 * default adds in **^http://127.0.0.1\:\d{4,10}$** as allowed redirect URL. You may add more.
 * enables the **WebApi** API endpoint and add access to the Webhooks agent.
 * checks **Is native or mobile** application on the authentication pane.

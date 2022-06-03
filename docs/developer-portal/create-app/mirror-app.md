@@ -15,7 +15,7 @@ so.client:
 
 ## About this template
 
-This template creates a custom database mirroring app configuration, it will ask for the public endpoint of your mirroring service URL.
+This template creates a database mirroring app configuration for one specific customer, it will ask for the public endpoint of your mirroring service URL.
 
 Required information to put into web.config of your mirroring service:
 

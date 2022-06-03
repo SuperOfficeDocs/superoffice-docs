@@ -47,7 +47,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (on/off) | [Manage notifications][14] | [About tenant status][11] |
-| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. Enabled by default. | [Get error emails][15] | |
+| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][15] | |
 
 ## Integrations
 
@@ -80,15 +80,17 @@ Standard ERP Sync applications may be granted Integration Server so the ERP Sync
 
 ## Advanced
 
+These settings are read only for all except SuperOffice AS app managers.
+
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Supports multi-tenant identity | | | |
-| Allow redirection to partner application for suspended customers | | | |
-| Access to (claims) | | | |
-| Access to (agents) | | | |
+| Supports multi-tenant identity | Only internal | | |
+| Allow redirection to partner application for suspended customers | Only internal | | |
+| Access to (claims) | Returned in the JWT as claims - for server-to-server apps we tick SystemToken | | |
+| Access to (agents) | These agents are restricted in our Online environment. A custom app may get access to CRMScript agent. | |  |
 | Custom error URL | | | |
 | Custom claims | | | |
-| Exclude from invoice | | | |
+| Exclude from invoice | Only internal | | |
 
 **Claims:**
 
@@ -117,7 +119,7 @@ Standard ERP Sync applications may be granted Integration Server so the ERP Sync
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Authorization level | | | |
+| Authorization level | All apps will get **Administrator** by default in SOD. Custom applications will be changed to **Explicit** when published to production. | | |
 | Security audit | Workflow status. | | [About Watchcom initial security evaluation][6] |
 | Certified | Workflow status. | | [About certification][5] |
 

@@ -13,6 +13,8 @@ so.client:
 
 # Company settings
 
+These settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
+
 ![Company settings in the SuperOffice Developer Portal -screenshot][img1]
 
 | Setting | Description | How-tos | Read more |
