@@ -21,8 +21,8 @@ One of the major new features released in SuperOffice 8.5 has been the ability t
 
 Several of the main screens in Pocket CRM has been redesigned to offer an easier way to take action, whether that is to call, send a text, an e-mail, update a sale or make an appointment. The information presented has also been made more flexible with options for choosing what works for an individual user.
 
-> [NOTE]
-> **Google is launching a new version of their Chrome web browser**. This new browser contains new and improved security measures that could affect the use of SuperOffice in combination with Iframes, cookies for the chat widget, and web forms you use on your websites. Make sure to upgrade to SuperOffice CRM R11 to make sure this new browser is supported by SuperOffice.
+> [!NOTE]
+> **Google has launched a new version of their Chrome web browser**. This new browser contains new and improved security measures that could affect the use of SuperOffice in combination with Iframes, cookies for the chat widget, and web forms you use on your websites. Make sure to upgrade to SuperOffice CRM 8.5 R11 to make sure this new browser is supported by SuperOffice.
 
 ## Details of the new features
 
@@ -43,8 +43,3 @@ Several of the main screens in Pocket CRM has been redesigned to offer an easier
 * 8.5 R15
 * 8.5 R15 Hotfix: For versions of Chromium 86 and Edge 86
 * 8.5 R16 Windows features, Chat security settings, security bugs on Web and Service
-
-You can check all product releases for SuperOffice 8.4 [here][1].
-
-<!-- Referenced links-->
-[1]: https://community.superoffice.com/documentation/training/EN/CRM/8.4/8.4%20-%20Whats%20New%20in%20SuperOffice.pdf

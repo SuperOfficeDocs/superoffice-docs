@@ -11,15 +11,15 @@ so.envir: onsite
 
 # Database
 
-The new design is one of the major changes for SuperOffice 8.1
+The new design is one of the major changes for SuperOffice 8.1.
 
 ## Dictionary changes
 
-In SuperOffice 8.0, the dictionary has been changed. The new [CDD (Continuous Database Development)][1] dictionary allows partners and SuperOffice to add and modify tables without rebuilding the entire product.
+In SuperOffice 8.1, the dictionary has been changed. The new [CDD (Continuous Database Development)][1] dictionary allows partners and SuperOffice to add and modify tables without rebuilding the entire product.
 
 ## New tables
 
-There are several changes in the 8.0 database.  Five new tables are added during the upgrade.
+There are several changes in the 8.1 database.  Five new tables are added during the upgrade.
 
 * There is a new table that will support a generic "favorite" (yellow star) functionality across clients.
 
@@ -28,6 +28,7 @@ There are several changes in the 8.0 database.  Five new tables are added duri
   * `Ticket_Relation_Type`
   * `Ticket_Relation_Action`
   * `Ticket_Relation`
+
   These tables support new functionality in Service, where you can define request types, relations between requests of certain types, and actions to be taken.
 
 ## New and changed fields on existing tables
