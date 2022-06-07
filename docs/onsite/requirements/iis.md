@@ -15,8 +15,8 @@ This server is used for SuperOffice S&M Web client, SuperOffice Service, SuperOf
 
 ## Processor
 
-* Intel ® 3.0Ghz Dual or Quad Core (x86) or (x64)
-* AMD™3.0Ghz Dual or Quad Core (x86) or (x64)
+* Intel 3.0 GHz Dual or Quad Core (x86) or (x64)
+* AMD 3.0 GHz Dual or Quad Core (x86) or (x64)
 
 ## Memory
 
