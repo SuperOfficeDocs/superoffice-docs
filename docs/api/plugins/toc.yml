@@ -28,7 +28,7 @@ items:
         href: erp-connectors/architecture/wcf-host.md
       - name: Multi-hosting
         href: erp-connectors/architecture/wcf-host.md#multi-hosting
-    - name: Working with ERP Sync
+    - name: Working with ERP Sync onsite
       href: erp-connectors/getting-started.md
       items:
       - name: Configure ERP Sync connection
@@ -45,7 +45,14 @@ items:
         href: erp-connectors/import.md
       - name: Company walk-through
         href: erp-connectors/tutorial.md
-    - name: API
+    - name: Working with ERP Sync Online
+      href: erp-connectors/online/index.md
+      items:
+      - name: Security
+        href: secure-in-online.md
+      - name: Example
+        href: example-api.md
+    - name: API reference
       href: erp-connectors/api/index.md
       items:
       - name: IErpConnector

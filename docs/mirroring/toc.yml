@@ -5,6 +5,8 @@ items:
   href: scenarios.md
 - name: Requirements
   href: requirements.md
+- name: Order Database Mirroring
+  href: order-database-mirroring.md
 - name: Deep-dive and implementation overview
   href: conceptual-overview-2016.md
 - name: Mirroring task

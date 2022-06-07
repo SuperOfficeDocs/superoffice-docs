@@ -73,9 +73,9 @@ If you believe you have a great case for an application, navigate to the [applic
 [2]: ../../api/authentication/online/certificates/index.md
 [3]: ../../api/authentication/online/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
-[6]: https://community.superoffice.com/register-as-developer
-[7]: https://community.superoffice.com/activate-database-mirror/
-[8]: https://community.superoffice.com/change-application/
-[9]: https://community.superoffice.com/application-registration/
+[6]: ../../apps/getting-started/developer-registration-form.md
+[7]: ../order-database-mirroring.md
+[8]: ../../apps/manage/update-app-form.md
+[9]: ../../apps/getting-started/application-registration-form.md
 [10]: ../../api/authentication/online/certificates/override-resolver.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring
