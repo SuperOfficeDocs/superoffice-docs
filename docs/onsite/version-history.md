@@ -107,6 +107,7 @@ It does not contain Red Alerts or [CRM Online release versions][1].
 | 8.5 R15 | | 03.06.2020 | 2020.06.02-01 |
 | 8.5 R15 Hotfix | Web hotfix only | 12.10.2020 | |
 | 8.5 R16 | | 16.12.2020 | 2020.12.15-02 |
+| 8.5 R17 | | 01.06.2022 | 2022.05.31-03 |
 | 9.1 R01 | (Onsite skipped) | | |
 | 9.1 R02 | | 27.08.2020 | 2020.08.26-03 |
 | 9.1 R03 | | 08.10.2020 | 2020.10.06-03 |
@@ -131,6 +132,7 @@ It does not contain Red Alerts or [CRM Online release versions][1].
 | 10.0.7 | (Onsite skipped) | | |
 | 10.1.1 | (Onsite skipped) | | |
 | 10.1.2 | | 24.05.2022 | 2022.05.16-01 |
+| 10.1.3 | (Onsite skipped) | | |
 
 <!-- Referenced links -->
 [1]: ../online/version-history.md

@@ -17,8 +17,8 @@ These apply to computers running the Sales, Marketing, and Service clients.
 
 ## Processor
 
-* Intel ® 1.8Ghz (x86) or (x64)
-* AMD™ 1.8 Ghz (x86) or (x64)
+* Intel 1.8 GHz (x86) or (x64)
+* AMD 1.8 GHz (x86) or (x64)
 
 ## Memory
 
