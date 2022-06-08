@@ -33,8 +33,6 @@ items:
         href: cloud/office-365/set-up.md
       - name: Troubleshooting
         href: cloud/office-365/troubleshooting.md
-  - name: ODF
-    href: odf.md
   - name: Ribbons
     href: ribbons/index.md
     items:
@@ -98,6 +96,8 @@ items:
         href: templates/quote/mergefields.md
     - name: Troubleshooting
       href: templates/troubleshooting.md
+  - name: Open Document Format
+    href: odf.md
   - name: API options
     items:
     - name: CRMScript
