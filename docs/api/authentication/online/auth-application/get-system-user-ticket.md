@@ -61,6 +61,8 @@ SuperOffice CRM Online exposes one WCF SOAP endpoint for conducting the exchange
 
 `https://onlineenv.superoffice.com/login/services/PartnerSystemUserService.svc`
 
+[Download the PartnerSystemUserService WSDL][2]
+
 The **SOAP envelope** should contain 2 header elements and the `AuthenticationRequest` element in the SOAP body.
 
 ```xml
@@ -149,6 +151,7 @@ The following example code has an extensive amount of logging to the console. Th
 
 <!-- Referenced links -->
 [1]: index.md
+[2]: ~/assets/downloads/api/partnersystemuserservice.zip
 [3]: ../validate-security-tokens.md
 [5]: ../../../../apps/terminology.md
 [6]: ../../../../apps/provisioning/get-consent.md

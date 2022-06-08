@@ -20,9 +20,9 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
     # Card
-    - title: "Web application reference"
+    - title: "Web application API"
       itemType: reference
-      url: web-app/overview.md
+      url: web-app/index.yml
     # Card
     - title: "Custom screens"
       itemType: overview

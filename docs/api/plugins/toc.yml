@@ -49,9 +49,9 @@ items:
       href: erp-connectors/online/index.md
       items:
       - name: Security
-        href: secure-in-online.md
+        href: erp-connectors/online/secure-in-online.md
       - name: Example
-        href: example-api.md
+        href: erp-connectors/online/example-api.md
     - name: API reference
       href: erp-connectors/api/index.md
       items:

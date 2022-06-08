@@ -158,8 +158,10 @@ additionalContent:
       # Card
       - title: Changes
         links:
-        - text: What's new in 9.8.7717.1401
-          url: ../../release-notes/database/Whats New in 9.8.7717.1401.md
+        - text: What's new in 10.1.2
+          url: ../../release-notes/database/changes-10.1.2.md
+        - text: What's new in 9.2
+          url: ../../release-notes/database/changes-9.2.md
         - text: What's new in 8.1
           url: ../../release-notes/database/changes-81.md
         - text: What's new from 7.5 to 8.1
