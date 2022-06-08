@@ -8,7 +8,7 @@ so.envir:  onsite
 # so.client :
 ---
 
-# Table changes from SuperOffice 6 to 7
+# Table changes from SuperOffice 6.3 to 7.0
 
 ## Renamed tables
 

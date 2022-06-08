@@ -8,7 +8,7 @@ so.topic: concept
 
 # ODF Support
 
-Support of Open Document Format in SuperOffice
+Support of Open Document Format in SuperOffice.
 
 The *Open Document Format* (ODF) is an XML-based open-source file format for saving and exchanging text, spreadsheets, charts, and presentations. Files saved under ODF, termed *OpenDocuments*, have easily recognizable extensions, similar to Microsoft's proprietary .doc or .xls. It is the default format for OpenOffice.org and LibreOffice.
 

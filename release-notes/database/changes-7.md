@@ -12,7 +12,7 @@ SuperOffice 7 introduced a lot of changes to the database as we merged CS and SM
 
 ## Longer fields
 
-* Contact name & department are extended to 220
+* Contact name & department are extended to 220 characters
 * Project.name, selection.name, document.header
 * Address fields  \[80\]
 * Phone number - The search algorithm has been changed to handle arbitrarily long numbers, with more-or-less the same results. There is no practical limit to the phone number length anymore.
@@ -24,14 +24,12 @@ We now use nvarchar(max) instead of text as our large-string datatype. This is m
 
 This will not make the database bigger unless the new space is actually used. SQL Server has a mechanism to put long strings into out-of-record pages so the max record limit is waived.
 
-**We have extended just about all fields that needed or looked like they might need it. Further extensions are still possible between alpha and beta; after that – finito.**
+SQL Server has a little-publicized limitation: Index nodes cannot be more than 900 bytes (even in 2008).
+A unicode string consumes 2 bytes/char.
 
-SQL Server has a little-publicized limitation: Index nodes cannot be more than 900 bytes (even in 2008)
-A unicode string consumes 2 bytes/char
+A multi-field index creates nodes from the sum of all fields.
 
-A multi-field index creates nodes from the sum of all fields
-
-And – so – if name + department (which have a combined index) become more than 900 bytes of actual content, save fails
+And – so – if name + department (which have a combined index) become more than 900 bytes of actual content, save fails.
 For the most popular field combinations, we have limited the size; and it does not happen on Oracle.
 If you introduce new combined indexes as part of some optimization, bear this in mind. The 900-byte limit is there.
 
@@ -40,7 +38,7 @@ If you introduce new combined indexes as part of some optimization, bear this in
 We had multiple obsolete tables that have either become obsolete or that were designed but never taken into use.
 There were also some obsolete fields, which have been removed. This changes the field IDs (we had to change reporter priming data) but has no other ill consequences.
 
-The obsolete tables have been replaced by new tables, as far as possible (there were more obsolete tables than new tables in SuperOffice 7). The remainders are single-field tables in the dictionary, but they are not physically created in the database. This keeps the table numbers unchanged
+The obsolete tables have been replaced by new tables, as far as possible (there were more obsolete tables than new tables in SuperOffice 7). The remainders are single-field tables in the dictionary, but they are not physically created in the database. This keeps the table numbers unchanged.
 
 Keeping the table numbers unchanged is important to avoid breaking or remapping relations.
 
@@ -50,7 +48,7 @@ From 7.5 on, we won’t add tables or fields until we know for sure that we need
 
 Database change:
 
-## several new lists
+## Several new lists
 
 (MDO lists with grouplink and headinglink tables)
 
@@ -102,11 +100,11 @@ Database changes:
 
 ## Customer Service
 
-Service (formerly known as Customer Service or eJournal) was merged into the database with SuperOffice version 7.0
-DB integration is gone; you can edit contact and person records in each system and directly see the changes in the other
-eJournal can insert person records with `contact_id` = 0; these are invisible in CRM
+Service (formerly known as Customer Service or eJournal) was merged into the database with SuperOffice version 7.0.
+DB integration is gone; you can edit contact and person records in each system and directly see the changes in the other.
+eJournal can insert person records with `contact_id` = 0; these are invisible in CRM.
 
-A Customer Service user is an associate but has an extra record in the table ejuser`.
+A Customer Service user is an associate but has an extra record in the table `ejuser`.
 
 <!-- Referenced links -->
 [1]: ../../docs/database/tables/saletypecat.md

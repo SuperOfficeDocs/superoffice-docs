@@ -16,17 +16,17 @@ items:
     href: database/changes-10.1.2.md
   - name: Whats new in 9.2
     href: database/changes-9.2.md
-  - name: Changes 81
+  - name: Changes 8.1
     href: database/changes-81.md
-  - name: Changes 75-80
+  - name: Changes 7.5-8.0
     href: database/changes-75-80.md
-  - name: Changes 71-75
+  - name: Changes 7.1-7.5
     href: database/changes-71-75.md
-  - name: Changes 70-71
+  - name: Changes 7.0-7.1
     href: database/changes-70-71.md
-  - name: Changes 7
+  - name: Changes 7.0
     href: database/changes-7.md
-  - name: Changes 6-7
+  - name: Changes 6.3-7.0
     href: database/changes-6-7.md
 - name: Older
   items:
