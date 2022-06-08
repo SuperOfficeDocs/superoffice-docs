@@ -24,7 +24,7 @@ We offer this as a self-service task in the [SuperOffice Operation Center][1] (O
 
 ## Replace a sandbox environment
 
-In the following example, cust34506 is the sandbox environment cust21513 is the production environment.
+In the following example, cust34506 is the sandbox environment, cust21513 is the production environment.
 
 1. Choose the tenant you want to replace in the drop-down. You can access all tenants you have access to.
 

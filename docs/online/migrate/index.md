@@ -44,7 +44,7 @@ Before migrating you will need to go through the following steps in the administ
 * Make sure there are no users currently on Travel
 * Make sure that you do not use SuperOffice Satellite and have active satellites
 
-## Start OMT
+## Start Online Migration Tool
 
 The SuperOffice CRM Online Migration Tool (OMT) is responsible for transferring a local onsite database and document archive to CRM Online. It also makes sure that a set of initial configuration steps are carried out.
 
