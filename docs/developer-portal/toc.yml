@@ -16,31 +16,12 @@ items:
       href: create-app/native-app.md
     - name: Server-to-server app
       href: create-app/server-to-server-app.md
-    - name: Empty app
-      href: create-app/empty-app.md      
     - name: Mirroring app
       href: create-app/mirror-app.md
     - name: ERP sync and quote app
       href: create-app/sync-app.md
-  - name: How to...
-    href: howto/index.md
-    items:
-    - name: Update profile
-      href: howto/update-profile.md
-    - name: Update contact person
-      href: howto/update-contact-person.md
-    - name: Update your application
-      href: howto/update-app.md
-    - name: Update partner settings
-      href: howto/update-partner-settings.md
-    - name: View customers
-      href: howto/customers.md
-    - name: Manage notifications
-      href: howto/notifications.md
-    - name: Get error emails
-      href: howto/get-error-emails.md
-    - name: Format text
-      href: howto/format-text.md
+    - name: Blank config, DIY
+      href: create-app/empty-app.md
   - name: App Store information
     href: app-store/index.md
     items:
@@ -69,6 +50,25 @@ items:
       href: security/edit-user.md
     - name: Manage permissions
       href: security/manage-permissions.md
+  - name: How to...
+    href: howto/index.md
+    items:
+    - name: Update profile
+      href: howto/update-profile.md
+    - name: Update contact person
+      href: howto/update-contact-person.md
+    - name: Update your application
+      href: howto/update-app.md
+    - name: Update partner settings
+      href: howto/update-partner-settings.md
+    - name: View customers
+      href: howto/customers.md
+    - name: Manage notifications
+      href: howto/notifications.md
+    - name: Get error emails
+      href: howto/get-error-emails.md
+    - name: Format text
+      href: howto/format-text.md
   - name: Reference
     href: reference/index.md
     items:

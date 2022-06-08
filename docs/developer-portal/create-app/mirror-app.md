@@ -15,16 +15,9 @@ so.client:
 
 ## About this template
 
-This template creates a database mirroring app configuration for one specific customer, it will ask for the public endpoint of your mirroring service URL.
+This template creates a [database mirroring][1] app configuration for one specific customer. It will ask for the public endpoint of your mirroring service URL.
 
-Required information to put into web.config of your mirroring service:
-
-* SoAppId = Client ID
-* PrivateKey.txt = Certificate - Paste in the Private key
-
-## Custom app required license
-
-It may only be used by a customer tenant who have the Database mirroring subscription.
+[!include[Required license](includes/cust-app-req-license.md)]
 
 ## Create app
 
@@ -42,11 +35,18 @@ It may only be used by a customer tenant who have the Database mirroring subscri
 
     ![Mirroring service URL -screenshot][img1]
 
-6. You will be set the technical contact for your app. Click *Clear* to choose another technical contact by email address.
+6. [!include[ALT](includes/set-technical-contact.md)]
 
-    ![-screenshot][img5]
+    ![Developer Portal set technical contact when creating app -screenshot][img5]
 
 7. Click **Create Application**.
+
+## Update web.config
+
+Required information to put into *web.config* of your mirroring service:
+
+* SoAppId = Client ID
+* PrivateKey.txt = Certificate - Paste in the Private key
 
 ## What would you like to do next?
 
@@ -58,12 +58,12 @@ It may only be used by a customer tenant who have the Database mirroring subscri
 * Request to publish the configuration
 
 <!-- Referenced links -->
+[1]: ../../mirroring/overview.md
 [2]: ../howto/notifications.md
 [3]: ../howto/get-error-emails.md
 [7]: ../security/find-clientid.md
 [10]: ../security/new-certificate.md
 [11]: ../../mirroring/getting-started/create-wfc.md
-
 
 <!-- Referenced images -->
 [img1]: media/mirror-service-url.png

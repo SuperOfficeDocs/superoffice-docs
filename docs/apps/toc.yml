@@ -81,14 +81,14 @@ items:
       href: provisioning/consent.md
     - name: Get consent
       href: provisioning/get-consent.md
+    - name: Revoke application
+      href: provisioning/revoke.md
   - name: Redirects
     href: redirects/index.md
     expanded: true
     items:
     - name: Endpoint types
       href: redirects/endpoint-types.md
-  - name: Revoke
-    href: revoke/index.md
   - name: Activate
     href: activate/index.md
     expanded: true

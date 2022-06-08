@@ -3,7 +3,7 @@ title: Register an app
 uid: dp-register-app
 description: Registering a new app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.01.2022
+so.date: 06.08.2022
 keywords: Developer Portal, app
 so.topic: howto
 so.version:
@@ -11,7 +11,7 @@ so.envir: cloud
 so.client:
 ---
 
-# Register an app
+# Register an application
 
 ![Partner overview -screenshot][img1]
 
@@ -25,7 +25,7 @@ so.client:
 
     ![Create application wizard -screenshot][img2]
 
-    The template sets some default values and determines what you have to specify in the next steps.
+    The template sets some [default values](#default-config) and determines what you have to specify in the next steps.
 
 4. Enter the name of your application. Click **Next**.
 
@@ -41,7 +41,7 @@ so.client:
 
 7. Set the technical contact for your app.
 
-    ![-screenshot][img5]
+    ![Developer Portal set technical contact when creating app-screenshot][img5]
 
 8. Click **Create Application**.
 
@@ -60,7 +60,19 @@ When registering an application, you can choose from five predefined templates t
 * [Server-to-server application][14]
 * [Custom database mirroring application][15]
 * [Standard ERP sync and quote application][16]
-* [Empty application configuration][17]
+* [Empty application configuration (DIY)][17]
+
+### Default config
+
+| | Web app | Native app | Server-to-server | Mirroring | ERP sync, quote | Empty (DIY) |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|
+| WebAPI | x | x | x | | x | x |
+| Services88 | | | x | | x | x |
+| Webhook agent | x | x | x | | x | x |
+| SystemToken claim | | | x | | x | |
+| ERPSync agent | | | | | x | |
+| Redirect URL (`^http://127.0.0.1\:\d{4,10}$`) | | x | | | | |
+| Is native or mobile | | x | | | | |
 
 ## Get keys
 

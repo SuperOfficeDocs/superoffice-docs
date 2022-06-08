@@ -68,6 +68,10 @@ landingContent:
             url: "reference/app-settings.md"
           - text: Application configuration
             url: "reference/app-config.md"
+          - text: Requirements
+            url: ../apps/requirements/index.md
+          - text: Best practices
+            url: ../apps/best-practices.md
 
   # Card
   - title: Partners
@@ -159,12 +163,6 @@ landingContent:
             url: ../apps/redirects/index.md
           - text: Certification
             url: ../apps/certification/index.md
-      - linkListType: reference
-        links:
-          - text: App requirements
-            url: ../apps/requirements/index.md
-          - text: Best practices
-            url: ../apps/best-practices.md
 
 # Card
   - title: APIs

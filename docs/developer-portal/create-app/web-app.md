@@ -1,9 +1,9 @@
 ---
 title: Register a web app
 uid: dp-register-web-app
-description: Registering a new web app in the SuperOffice Developer Portal.
+description: Describes how to register a new web application in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 05.18.2022
+so.date: 06.08.2022
 keywords: Developer Portal, app
 so.topic: howto
 so.version:
@@ -15,14 +15,12 @@ so.client:
 
 ## About this template
 
-This template creates an standard web app configuration that use user  interactive OIDC authentication.
+This template creates a web app configuration that uses [interactive OIDC authentication][5].
 
-* enables the *WebApi* API endpoint
-* enables access to the *Webhooks* agent.
+* Enables the [WebApi API endpoint][1]
+* Enables access to the [Webhook agent][4]
 
-## Custom app required license
-
-It may only be used by a customer tenant who have the Development tools subscription.
+[!include[Required license](includes/cust-app-req-license.md)]
 
 ## Create app
 
@@ -30,7 +28,7 @@ It may only be used by a customer tenant who have the Development tools subscrip
 
 2. In the **Applications** section, click **Create App**.
 
-3. Choose the **Web app** template. Then select whether this is a custom or standard app. Click **Next**.
+3. Choose the **Web app** template. Then select whether this is a custom or standard application. Click **Next**.
 
 4. Enter the name of your application. Click **Next**.
 
@@ -40,9 +38,9 @@ It may only be used by a customer tenant who have the Development tools subscrip
 
     ![Enter redirect URL -screenshot][img4]
 
-6. You will be set the technical contact for your app. Click *Clear* to choose another technical contact by email address.
+6. [!include[ALT](includes/set-technical-contact.md)]
 
-    ![-screenshot][img5]
+    ![Developer Portal set technical contact when creating app -screenshot][img5]
 
 7. Click **Create Application**.
 
@@ -58,8 +56,11 @@ It may only be used by a customer tenant who have the Development tools subscrip
 * Request to publish the configuration
 
 <!-- Referenced links -->
+[1]: ../../api/reference/restful/index.md
 [2]: ../howto/notifications.md
 [3]: ../manage-app/get-error-emails.md
+[4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
+[5]: ../../api/authentication/online/index.md#oidc
 [7]: ../security/find-clientid.md
 [8]: ../security/get-client-secret.md
 [9]: ../security/cors-and-redirection-urls.md

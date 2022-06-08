@@ -3,7 +3,7 @@ title: Register a empty app config
 uid: dp-register-empty-app-config
 description: Registering a new web app in the SuperOffice Developer Portal.
 author: Margrethe Romnes
-so.date: 06.02.2022
+so.date: 06.08.2022
 keywords: Developer Portal, app
 so.topic: howto
 so.version:
@@ -11,21 +11,19 @@ so.envir: cloud
 so.client:
 ---
 
-# Register a empty app config
+# Register a blank app config
 
 ## About this template
 
 This template creates an app configuration where you just need to add in the application name and technical contact. For the advanced user who know what they want to configure and where our other templates do not really fit the need.
 
-* enables the *WebApi* and *Services88 API endpoint*
-* enables access to the *Webhooks* agent.
+* Enables the [WebApi][1] and [Services88][6] API endpoints
+* Enables access to the [Webhooks agent][5]
 
-## Custom app required license
+[!include[Required license](includes/cust-app-req-license.md)]
 
-It may only be used by a customer tenant who have the Development tools subscription.
-
-If the app also take advantage of the database mirroring capability, then the database mirroring subscription is required as well.
-
+> [!NOTE]
+> If the app also take advantage of the database mirroring capability, then the database mirroring subscription is required as well.
 
 ## Create app
 
@@ -39,15 +37,14 @@ If the app also take advantage of the database mirroring capability, then the da
 
     [!include[Requirements for app name](includes/note-app-name.md)]
 
-5. You will be set the technical contact for your app. Click *Clear* to choose another technical contact.
+5. [!include[ALT](includes/set-technical-contact.md)]
 
-    ![-screenshot][img5]
+    ![Developer Portal set technical contact when creating app -screenshot][img5]
 
 6. Click **Create Application**.
 
 7. Change to **Advanced** mode if not automatically redirected to this.
 
-    
 ## What would you like to do next?
 
 * [Get overview of all config sections][12]
@@ -64,6 +61,9 @@ If the app also take advantage of the database mirroring capability, then the da
 [1]: ../reference/app-config.md
 [2]: ../howto/notifications.md
 [3]: ../manage-app/get-error-emails.md
+[4]: ../../api/reference/restful/index.md
+[5]: ../../api/reference/restful/agent/Webhook_Agent/index.md
+[6]: ../../api/reference/soap/Services88/index.md
 [7]: ../security/find-clientid.md
 [8]: ../security/get-client-secret.md
 [9]: ../security/cors-and-redirection-urls.md

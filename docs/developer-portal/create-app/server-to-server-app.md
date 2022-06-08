@@ -3,8 +3,8 @@ title: Register a server-to-server app
 uid: dp-register-server-to-server-app
 description: Registering a new server-to-server app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 05.18.2022
-keywords: Developer Portal, app
+so.date: 06.08.2022
+keywords: Developer Portal, app, server-to-server, system user
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -15,14 +15,13 @@ so.client:
 
 ## About this template
 
-This template creates an app configuration that use system user flow.
+This template creates an app configuration that uses the [system user flow][12].
 
-* enables the WebApi and Services88 API endpoint.
-* enable access to the SystemToken claim and add access to the Webhooks agent.
+* Enables the [WebApi][1] and [Services88][6] API endpoints
+* Enables access to the [SystemToken claim][5]
+* Enables access to the [Webhook agent][4]
 
-## Custom app required license
-
-It may only be used by a customer tenant who have the Development tools subscription.
+[!include[Required license](includes/cust-app-req-license.md)]
 
 ## Create app
 
@@ -40,9 +39,9 @@ It may only be used by a customer tenant who have the Development tools subscrip
 
     ![Enter redirect URL -screenshot][img4]
 
-6. You will be set the technical contact for your app. Click *Clear* to choose another technical contact by email address.
+6. [!include[ALT](includes/set-technical-contact.md)]
 
-    ![-screenshot][img5]
+    ![Developer Portal set technical contact when creating app -screenshot][img5]
 
 7. Click **Create Application**.
 
@@ -58,13 +57,18 @@ It may only be used by a customer tenant who have the Development tools subscrip
 * Request to publish the configuration
 
 <!-- Referenced links -->
+[1]: ../../api/reference/restful/index.md
 [2]: ../howto/notifications.md
 [3]: ../howto/get-error-emails.md
+[4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
+[5]: ../../api/authentication/online/index.md#claims-and-scope
+[6]: ../../api/reference/soap/Services88/index.md
 [7]: ../security/find-clientid.md
 [8]: ../security/get-client-secret.md
 [9]: ../security/cors-and-redirection-urls.md
 [10]: ../security/new-certificate.md
 [11]: ../app-store/update-app-page.md
+[12]: ../../api/authentication/online/auth-application/index.md
 
 <!-- Referenced images -->
 [img4]: media/enter-redirect-urls.png

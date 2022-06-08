@@ -3,8 +3,8 @@ title: Register a native app
 uid: dp-register-native-app
 description: Registering a new native app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 05.18.2022
-keywords: Developer Portal, app
+so.date: 06.08.2022
+keywords: Developer Portal, app, OAuth2 Native app flow, PKCE
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -14,15 +14,13 @@ so.client:
 
 ## About this template
 
-This template creates an app configuration that use OAuth2 Native app flow which depends on Proof Key for Code Exchange (PKCE).
+This template creates an application configuration that uses [OAuth2 Native app flow][5], which depends on Proof Key for Code Exchange (PKCE).
 
-* default adds in **^http://127.0.0.1\:\d{4,10}$** as allowed redirect URL. You may add more.
-* enables the **WebApi** API endpoint and add access to the Webhooks agent.
-* checks **Is native or mobile** application on the authentication pane.
+* Adds `^http://127.0.0.1\:\d{4,10}$` as an allowed redirect URL. You may add more.
+* Enables the [WebApi][1] API endpoint and add access to the [Webhook agent][4].
+* Sets **Is native or mobile** in the advanced authentication configuration.
 
-## Custom app required license
-
-It may only be used by a customer tenant who have the Development tools subscription.
+[!include[Required license](includes/cust-app-req-license.md)]
 
 ## Create app
 
@@ -40,9 +38,9 @@ It may only be used by a customer tenant who have the Development tools subscrip
 
     ![Enter redirect URL -screenshot][img4]
 
-6. You will be set the technical contact for your app. Click *Clear* to choose another technical contact by email address.
+6. [!include[ALT](includes/set-technical-contact.md)]
 
-    ![-screenshot][img5]
+    ![Developer Portal set technical contact when creating app -screenshot][img5]
 
 7. Click **Create Application**.
 
@@ -57,8 +55,11 @@ It may only be used by a customer tenant who have the Development tools subscrip
 * Request to publish the configuration
 
 <!-- Referenced links -->
+[1]: ../../api/reference/restful/index.md
 [2]: ../howto/notifications.md
 [3]: ../howto/get-error-emails.md
+[4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
+[5]: ../../api/authentication/online/sign-in-user/auth-code-flow.md
 [7]: ../security/find-clientid.md
 [8]: ../security/get-client-secret.md
 [9]: ../security/cors-and-redirection-urls.md

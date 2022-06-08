@@ -60,6 +60,6 @@ so.client: online
 * Where we send [notifications when a tenant changes status][2]. Mandatory for standard applications.
 
 <!-- Referenced links -->
-[1]: ../revoke/index.md
+[1]: ../provisioning/revoke.md
 [2]: ../tenant-status/status-page.md
 [3]: ../../mirroring/mirroring-task.md
