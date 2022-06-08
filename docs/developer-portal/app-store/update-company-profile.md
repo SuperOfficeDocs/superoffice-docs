@@ -1,7 +1,7 @@
 ---
-title: Update company profile
-uid: dp-update-company-profile
-description: How to update your company profile in the SuperOffice Developer Portal.
+title: Update partner profile
+uid: dp-update-partner-profile
+description: How to update your partner profile in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.27.2022
 keywords: Developer Portal, profile
@@ -11,14 +11,14 @@ so.envir: cloud
 so.client: online
 ---
 
-# Update company profile
+# Update partner profile
 
-The information shown on your company profile page in the App Store comes from:
+The information shown on your partner profile page in the App Store comes from:
 
 * Partner settings
 * App Store information
 
-![App Store information for a company -screenshot][img1]
+![App Store information for a partner -screenshot][img1]
 
 ## Update information
 
@@ -31,7 +31,7 @@ The information shown on your company profile page in the App Store comes from:
 7. Click **Save Settings**.
 
 > [!TIP]
-> [!include[Link to company settings](../includes/see-company-settings.md)]
+> [!include[Link to partner settings](../includes/see-partner-settings.md)]
 
 ## Verify your changes
 
@@ -50,5 +50,5 @@ When you are happy with how it looks, return to your partner page in the Develop
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/company-app-store-info.png
+[img1]: media/partner-app-store-info.png
 [img2]: media/request-to-publish-partner-info.png

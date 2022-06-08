@@ -24,7 +24,7 @@ so.client: online
 4. Click **Save Settings**.
 
 > [!TIP]
-> [!include[Link to company settings](../includes/see-company-settings.md)]
+> [!include[Link to partner settings](../includes/see-partner-settings.md)]
 
 <!-- Referenced links -->
 [1]: update-contact-person.md

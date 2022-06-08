@@ -30,13 +30,13 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 ## See also
 
 * [Application configuration][2]
-* [Company settings][3]
+* [Partner settings][3]
 * [User settings][4]
 
 <!-- Referenced links -->
 [1]: ../howto/update-contact-person.md
 [2]: app-config.md
-[3]: company-settings.md
+[3]: partner-settings.md
 [4]: user-settings.md
 [5]: ../../apps/provisioning/get-consent.md
 [6]: ../../apps/custom.md

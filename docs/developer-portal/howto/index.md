@@ -33,7 +33,7 @@ so.client:
 
 As a partner that offers one or more applications through the [SuperOffice App Store][1], you need to create and maintain two sets of public information:
 
-* Your company profile page
+* Your company's profile page
 * One or more app-specific product pages
 
 What would you like to do?

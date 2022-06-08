@@ -17,7 +17,7 @@ so.client:
 
 As a partner that offers one or more applications through the [SuperOffice App Store][1], you need to create and maintain two sets of public information:
 
-* Your company profile page
+* Your company's profile page
 * One or more app-specific product pages
 
 ## Requirements
@@ -43,7 +43,7 @@ Before a new application gets listed in the App Store:
 
 ## What would you like to do?
 
-* [Update the public company profile][2]
+* [Update the public partner profile][2]
 * [Update the product page of an application][3]
 * [View when a version was published in each environment][10]
 * [List a new application in the App Store][7]
@@ -58,7 +58,7 @@ Before a new application gets listed in the App Store:
 [7]: ../../apps/publish/index.md
 [8]: ../howto/update-app.md
 [9]: images-and-videos.md
-[2]: update-company-profile.md
+[2]: update-partner-profile.md
 [3]: update-app-page.md
 [4]: seo.md
 [10]: ../versioning.md

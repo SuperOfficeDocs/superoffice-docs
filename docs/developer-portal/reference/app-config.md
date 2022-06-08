@@ -126,12 +126,12 @@ These settings are read only for all except SuperOffice AS app managers.
 ## See also
 
 * [Application settings][1]
-* [Company settings][3]
+* [Partner settings][3]
 * [User settings][4]
 
 <!-- Referenced links -->
 [1]: app-settings.md
-[3]: company-settings.md
+[3]: partner-settings.md
 [4]: user-settings.md
 [5]: ../../apps/certification/certify-app.md
 [6]: ../../apps/certification/initial-watchcom-eval.md

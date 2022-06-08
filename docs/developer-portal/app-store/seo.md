@@ -21,7 +21,7 @@ You can add or change the following in the Developer Portal:
 |---|---|
 | Search-engine-friendly name (company) | Partner > Settings |
 | Search-engine-friendly name (app) | App page > Settings |
-| Meta description (partner) | Partner > App Store information |
+| Meta description (company) | Partner > App Store information |
 | Meta description (app) | App page > App Store information > SEO |
 | Meta keywords (app) | App page > App Store information > SEO |
 
@@ -49,7 +49,7 @@ It should:
 
 ## How to update SEO settings
 
-* [Update the public company profile][2]
+* [Update the public partner profile][2]
 * [Update the product page of an application][3]
 
 > [!NOTE]
@@ -61,7 +61,7 @@ It should:
 
 <!-- Referenced links -->
 [1]: ../../apps/publish/get-noticed.md
-[2]: update-company-profile.md
+[2]: update-partner-profile.md
 [3]: update-app-page.md
 
 <!-- Referenced images -->

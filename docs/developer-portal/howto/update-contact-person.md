@@ -31,7 +31,7 @@ so.client: online
 5. Click **Save Settings**.
 
 > [!TIP]
-> [!include[Link to company settings](../includes/see-company-settings.md)]
+> [!include[Link to partner settings](../includes/see-partner-settings.md)]
 
 <!-- Referenced links -->
 [1]: ../app-store/update-app-page.md

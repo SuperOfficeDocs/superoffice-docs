@@ -44,8 +44,8 @@ items:
   - name: App Store information
     href: app-store/index.md
     items:
-    - name: Update company profile
-      href: app-store/update-company-profile.md
+    - name: Update partner profile
+      href: app-store/update-partner-profile.md
     - name: Update app-specific page
       href: app-store/update-app-page.md
     - name: Images and videos
@@ -77,6 +77,6 @@ items:
     - name: Application configuration
       href: reference/app-config.md
     - name: Partner settings
-      href: reference/company-settings.md
+      href: reference/partner-settings.md
     - name: User settings
       href: reference/user-settings.md

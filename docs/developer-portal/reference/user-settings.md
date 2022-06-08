@@ -39,13 +39,13 @@ so.client:
 
 * [Application settings][1]
 * [Application configuration][2]
-* [Company settings][3]
+* [Partner settings][3]
 * [How to update your own profile][7]
 
 <!-- Referenced links -->
 [1]: app-settings.md
 [2]: app-config.md
-[3]: company-settings.md
+[3]: partner-settings.md
 [4]: ../../identity-management/superid/overview.md
 [5]: ../security/edit-user.md
 [6]: ../security/manage-permissions.md

@@ -113,7 +113,7 @@ Each application has a configuration, including client ID and secret, certificat
 
 ### App Store information
 
-Both partners and standard applications have App Store information. This is your company profile page
+Both partners and standard applications have App Store information. This is your partner profile page
 and one or more app-specific product pages shown in the SuperOffice App Store.
 
 If your company develops custom applications only, you can ignore the **App Store information** section. Likewise, this section is hidden on the app page of all custom apps.

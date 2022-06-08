@@ -1,7 +1,7 @@
 ---
-title: Company settings
-uid: dp-company-settings
-description: Reference of company settings in the SuperOffice Developer Portal.
+title: Partner settings
+uid: dp-partner-settings
+description: Reference of partner settings in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.25.2022
 keywords: apps, Developer Portal, partner
@@ -11,11 +11,11 @@ so.envir: cloud
 so.client:
 ---
 
-# Company settings
+# Partner settings
 
 These settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
 
-![Company settings in the SuperOffice Developer Portal -screenshot][img1]
+![Partner settings in the SuperOffice Developer Portal -screenshot][img1]
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
@@ -24,7 +24,7 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 | Administrative contact | The main contact person for this company.| [Update contact person][3] | |
 | Technical contact | The IT contact person for this company. | [Update contact person][3] | |
 | Logo | Company logo, circular | [Update settings][9] | [Marketing requirements][5] |
-| Description | The company blurb. | [Update company profile][6]| |
+| Description | The company blurb. | [Update partner profile][6]| |
 | Meta description | Description for search engines. | [Improve SEO][10] | |
 | Comment | | | |
 | Home page URL | The website of the company. | | |
@@ -41,9 +41,9 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 [3]: ../howto/update-contact-person.md
 [4]: user-settings.md
 [5]: ../../apps/requirements/marketing.md
-[6]: ../app-store/update-company-profile.md
+[6]: ../app-store/update-partner-profile.md
 [9]: ../app-store/update-app-page.md
 [10]: ../app-store/seo.md
 
 <!-- Referenced images -->
-[img1]: ../media/company-settings.png
+[img1]: ../media/partner-settings.png

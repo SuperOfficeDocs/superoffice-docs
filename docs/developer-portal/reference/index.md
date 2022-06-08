@@ -15,13 +15,13 @@ so.client:
 
 * [Application settings][1]
 * [Application configuration][2]
-* [Company settings][3]
+* [Partner settings][3]
 * [User settings][4]
 
 <!-- Referenced links -->
 [1]: app-settings.md
 [2]: app-config.md
-[3]: company-settings.md
+[3]: partner-settings.md
 [4]: user-settings.md
 
 <!-- Referenced images -->
