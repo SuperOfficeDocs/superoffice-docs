@@ -79,8 +79,10 @@ items:
         - name: Install on Citrix or Terminal server
           href: install/server/install-on-citrix.md
           items:
-          - name: Considerations for WebTools and Ribbons
-            href: install/server/deploy-on-citrix.md
+          - name: WebTools deployment
+            href: install/server/ml-on-citrix.md
+          - name: Ribbons deployment
+            href: install/server/ribbons-on-citrix.md
     - name: Install Win client
       href: install/win-client/index.md
       items:
