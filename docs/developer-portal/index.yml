@@ -84,6 +84,8 @@ landingContent:
             url: "howto/update-contact-person.md"
           - text: Customers
             url: "howto/customers.md"
+          - text: Request to publish
+            url: "howto/request-to-publish.md
       - linkListType: reference
         links:
           - text: Partner settings
@@ -108,7 +110,8 @@ landingContent:
             url: "security/get-client-secret.md"
           - text: New certificate
             url: "security/new-certificate.md"
-
+          - text: Request to publish
+            url: "howto/request-to-publish.md
 
   # Card
   - title: App Store information

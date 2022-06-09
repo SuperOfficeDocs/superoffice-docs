@@ -56,7 +56,7 @@ This template creates an app configuration for a standard app and asks for the E
 * [Manage notifications][2]
 * [Get error emails][3]
 * [Start working on the App Store information][11]
-* Request to publish the configuration
+* [Request to publish the configuration][18]
 
 <!-- Referenced links -->
 [1]: ../../api/reference/restful/index.md
@@ -71,6 +71,7 @@ This template creates an app configuration for a standard app and asks for the E
 [10]: ../security/new-certificate.md
 [11]: ../app-store/update-app-page.md
 [12]: ../../api/authentication/online/index.md#claims-and-scope
+[18]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/erp-integration-points.png

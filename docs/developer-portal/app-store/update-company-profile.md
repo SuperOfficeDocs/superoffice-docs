@@ -47,8 +47,15 @@ When you are happy with how it looks, return to your partner page in the Develop
 
     ![Request to publish App Store partner information -screenshot][img2]
 
+## Read more
+
+* [About versioning][1]
+* [Publishing workflow][2]
+
 <!-- Referenced links -->
+[1]: ../versioning.md
+[2]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/partner-app-store-info.png
-[img2]: media/request-to-publish-partner-info.png
+[img2]: ../media/request-to-publish.png

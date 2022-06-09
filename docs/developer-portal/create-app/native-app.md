@@ -52,7 +52,7 @@ This template creates an application configuration that uses [OAuth2 Native app 
 * [Manage notifications][2]
 * [Get error emails][3]
 * [Start working on the App Store information][11]
-* Request to publish the configuration
+* [Request to publish the configuration][18]
 
 <!-- Referenced links -->
 [1]: ../../api/reference/restful/index.md
@@ -64,6 +64,7 @@ This template creates an application configuration that uses [OAuth2 Native app 
 [8]: ../security/get-client-secret.md
 [9]: ../security/cors-and-redirection-urls.md
 [11]: ../app-store/update-app-page.md
+[18]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
 [img4]: media/enter-redirect-urls.png

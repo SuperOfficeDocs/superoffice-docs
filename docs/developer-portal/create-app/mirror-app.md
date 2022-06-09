@@ -59,7 +59,7 @@ Required information to put into *web.config* of your mirroring service:
 * [Manage notifications][2]
 * [Get error emails][3]
 * [Getting started with database mirroring][11]
-* Request to publish the configuration
+* [Request to publish the configuration][18]
 
 <!-- Referenced links -->
 [1]: ../../mirroring/overview.md
@@ -70,6 +70,7 @@ Required information to put into *web.config* of your mirroring service:
 [7]: ../security/find-clientid.md
 [10]: ../security/new-certificate.md
 [11]: ../../mirroring/getting-started/create-wfc.md
+[18]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/mirror-service-url.png

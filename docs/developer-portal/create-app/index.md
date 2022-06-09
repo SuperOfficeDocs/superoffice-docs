@@ -45,7 +45,7 @@ so.client:
 
 8. Click **Create Application**.
 
-You can now request to publish the configuration.
+You can now [request to publish the configuration][18].
 
 ![App registration complete -screenshot][img6]
 
@@ -96,6 +96,7 @@ If you have registered the application but lost the keys, you need to [look up y
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
 * [Add a certificate][10]
+* [Request to publish][18]
 
 <!-- Referenced links -->
 [1]: ../../apps/getting-started/index.md
@@ -115,6 +116,7 @@ If you have registered the application but lost the keys, you need to [look up y
 [15]: mirror-app.md
 [16]: sync-app.md
 [17]: ../../api/overview/index.md
+[18]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-overview.png

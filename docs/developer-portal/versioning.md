@@ -3,7 +3,7 @@ title: Versioning
 uid: dp-versioning
 description: Introduction to versioned information and configuration in the SuperOffice Online Developer Portal and how it relates to our different environments (SOD, Stage, Production).
 author: Bergfrid Dias
-so.date: 05.19.2022
+so.date: 06.09.2022
 keywords: developer, Developer Portal, apps, app-store
 so.topic: concept
 so.version:
@@ -13,7 +13,7 @@ so.client:
 
 # Versioning
 
-All applications start in SuperOffice Online Development (SOD) and might eventually go live (via our stage environment). The application configuration has to be approved to move to the next environment. For standard apps entering the App Store, the App Store information must also be approved.
+All applications start in SuperOffice Online Development (SOD) and might eventually go live (via our stage environment). [!include[What needs approval for Stage and Production?](includes/what-to-publish.md)]
 
 To keep track of what currently is (or is desired to be) active in each environment we use **versions**.
 
@@ -30,7 +30,7 @@ The initial version is automatically published to SOD. You can then:
 * Publish the new version to SOD yourself
 * Request to publish a version to stage
 
-In SOD, a version is a **draft** and can be edited until you request to publish it to stage. Then it is locked and you have to create a new version to make changes.
+In SOD, a version is a **draft** and can be edited until you request to publish it to stage. Then it is locked. If we reject it, the version is unlocked and you can update it to fix any issues.
 
 ### States
 
@@ -53,7 +53,8 @@ To see all versions of a section, select that section and click **More versions*
 
 All changes happen in SOD!
 
-* Pending and rejected versions can't be changed.
+* Pending versions can't be changed.
+* Rejected versions can be edited and saved in SOD.
 * Versions published to stage and/or production can't be changed.
 
 To make changes:
@@ -87,10 +88,10 @@ You can change the label of a version to make it more descriptive.
 
 ## Request to publish
 
-When you think it is ready in SOD, you can request to publish to Stage. The SuperOffice app manager or App Store manager will reject or approve.
+[!include[When to publish](includes/ready-to-publish.md)]
 
 * If your version was **approved** for Stage, you can test it there before requesting to publish to Production.
-* If your version was **rejected** for Stage, you need to create a new version to fix the problems in SOD and then request to publish the new version.
+* If your version was **rejected** for Stage, you need to fix the problems in SOD and then request to publish again.
 
 <!-- Referenced links -->
 [1]: ../apps/getting-started/app-envir.md

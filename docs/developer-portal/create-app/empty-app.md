@@ -55,7 +55,7 @@ This template creates an app configuration where you just need to add in the app
 * [Manage notifications][2]
 * [Get error emails][3]
 * [Start working on the App Store information][11]
-* Request to publish the configuration
+* [Request to publish the configuration][18]
 
 <!-- Referenced links -->
 [1]: ../reference/app-config.md
@@ -69,6 +69,7 @@ This template creates an app configuration where you just need to add in the app
 [9]: ../security/cors-and-redirection-urls.md
 [10]: ../security/new-certificate.md
 [11]: ../app-store/update-app-page.md
+[18]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
 [img4]: media/enter-redirect-urls.png

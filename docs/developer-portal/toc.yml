@@ -61,6 +61,8 @@ items:
       href: howto/update-app.md
     - name: Update partner settings
       href: howto/update-partner-settings.md
+    - name: Request to publish
+      href: howto/request-to-publish.md
     - name: View customers
       href: howto/customers.md
     - name: Manage notifications

@@ -64,10 +64,17 @@ When you are happy with how it looks, return to your partner page in the Develop
 >
 > When you list an application for the first time, you must also prepare and request to publish the configuration.
 
+## Read more
+
+* [About versioning][3]
+* [Publishing workflow][4]
+
 <!-- Referenced links -->
 [1]: seo.md
 [2]: images-and-videos.md
+[3]: ../versioning.md
+[4]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/app-store-listing.png
-[img2]: media/request-to-publish-app-info.png
+[img2]: ../media/request-to-publish.png
