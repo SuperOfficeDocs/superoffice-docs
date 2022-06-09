@@ -15,7 +15,7 @@ so.client: online
 During the [provisioning][5] of your application, the customer's administrator **must** authorize the application. This is done to secure each customer tenant in the online environment and **it is a requirement**, not optional.
 
 > [!NOTE]
-> Only a tenant user with administrator rights is allowed to approve online applications, both for standard and custom application types.
+> Only a tenant user with administrator rights is allowed to approve online applications, both for standard and custom application types. Specifically, an administrator is someone with **General Administrator** or **User Administrator** function right.
 
 The tenant administrative user must sign in to SuperID and approve the application to establish an **authorization record** between the application and the tenant. If this option is unavailable to you, a strict hand-shake flow must be implemented.
 
