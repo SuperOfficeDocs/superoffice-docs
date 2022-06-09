@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-# Deploy WebTools in a Citrix or Terminal Server environment
+# Deployment of WebTools in a Citrix or Terminal Server environment
 
 When installing SuperOffice in a Citrix environment, consider this to avoid problems when the customer starts to use our software.
 
@@ -40,7 +40,7 @@ Use the following Registry script to deploy MailLink to those users/groups that 
 **Remember to substitute the paths with correct filenames for your installation!**
 
 
-### The following file is to get MailLink deployed on SuperOffice 8.0 and newer
+The following file is to get MailLink deployed on SuperOffice 8.0 and newer:
 
 ```text
 [HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins\SuperOfficeRibbon-Outlook]

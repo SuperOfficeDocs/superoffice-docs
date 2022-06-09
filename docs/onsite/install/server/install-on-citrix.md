@@ -12,7 +12,7 @@ so.envir: onsite
 # Install on a Citrix or Terminal server
 
 > [!NOTE]
-> Our WebTools up to version 7.5 SR2 and 8.0 SR1 will store the user information in Isolated Storage and not the roaming profile, this means users who log on and off where this location is wiped will have to log in again.
+> Our WebTools up to version 7.5 SR2 and 8.0 SR1 will store the user information in Isolated Storage and not in the roaming profile, this means users who log on and off where this location is wiped will have to log in again.
 
 When you install something on a Citrix/Terminal server, you must do this as an administrator (or someone with administrative privileges). Otherwise, you won’t be allowed to install.
 
@@ -56,28 +56,16 @@ The Ribbon components on the other hand are more complicated since they need to 
 HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeOfficeRibbons
 HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeRibbons
 ```
+These keys are for Office 2016, for other Office versions change the path accordingly.
 
 > [!NOTE]
-> There is a [bug][1] with Office 2016
+> There is a [bug][1] with Office 2016.
 
-**Office 2013:**
-
-```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeOfficeRibbons
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeRibbons
-```
-
-**Office 2010:**
-
-```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeOfficeRibbons
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeRibbons
-```
 
 If you don’t want to have Ribbons installed for all users, you can delete these registry keys and enter their values into a login script that adds this for only those of your users that should have MailLink available.
 
 > [!NOTE]
-> If you are deploying MailLink/Ribbons in a Citrix or Terminal Server to some but not all users, [read this][2].
+> Read about how to deploy [WebTools][2] or [Ribbons][3] in a Citrix or Terminal Server.
 
 ## Web Extensions issue on Citrix/Terminal server
 
@@ -107,7 +95,8 @@ To stop this from happening you have to activate a registry key named **UseBorde
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=11900&azure=1
 <!-- workitem=11900 -->
-[2]: deploy-on-citrix.md
+[2]: ml-on-citrix.md
+[3]: ribbons-on-citrix.md
 [11]: ../../../service/install/prepare.md
 [12]: ../../../service/install/index.md
 [13]: ../guide.md
