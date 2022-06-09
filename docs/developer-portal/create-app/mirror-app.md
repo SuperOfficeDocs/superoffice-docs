@@ -17,7 +17,11 @@ so.client:
 
 This template creates a [database mirroring][1] app configuration for one specific customer. It will ask for the public endpoint of your mirroring service URL.
 
-[!include[Required license](includes/cust-app-req-license.md)]
+## Required licenses
+
+All custom apps using database mirroring must have a subscription to the **Database Mirroring Service** [Development product][5].
+
+Custom apps may only be used by a customer tenant who have the [Developer Tools license][4].
 
 ## Create app
 
@@ -61,6 +65,8 @@ Required information to put into *web.config* of your mirroring service:
 [1]: ../../mirroring/overview.md
 [2]: ../howto/notifications.md
 [3]: ../howto/get-error-emails.md
+[4]: ../../admin/license/expander-services/tool-box.md
+[5]: ../../admin/license/expander-services/index.md#development-products
 [7]: ../security/find-clientid.md
 [10]: ../security/new-certificate.md
 [11]: ../../mirroring/getting-started/create-wfc.md
