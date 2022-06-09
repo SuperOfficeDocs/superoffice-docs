@@ -24,7 +24,8 @@
         "webapi",
         "webpage",
         "webshop",
-        "website"
+        "website",
+        "Romnes"
     ],
     "markdownlint.config": {
         "MD028": false,
