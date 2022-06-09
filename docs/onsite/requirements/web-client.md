@@ -100,7 +100,7 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 
 [!include[.NET Requirements](../includes/dotnet-requirements.md)]
 
-* VSTO 2010 runtime (32bit or 64bit) for Ribbons on MS Office 2010 / 2013 / 2016 / 2019
+* VSTO 2010 runtime (32bit or 64bit) for Ribbons on Microsoft Office 2010 / 2013 / 2016 / 2019
 * Visual C++ 2017 runtime for x86 (version 14.14.26429.4)
 * Reporter runtime (version 9.0.30729.17)
 

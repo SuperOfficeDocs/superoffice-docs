@@ -15,11 +15,11 @@ The published compatibility test reports. A **Test Passed** status is a 90% assu
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
-## MS Office 2021
+## Microsoft Office 2021
 
 ![office2021.png][img17]
 
-We have tested MS Office 2021 with SuperOffice 10. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on February 24th 2022.
+We have tested Microsoft Office 2021 with SuperOffice 10. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on February 24th 2022.
 
 <a href="../../assets/downloads/compatibility/msoffice-2021.xlsx" download>Click to download report</a>
 ## MacOS Monterey
@@ -87,11 +87,11 @@ We have tested SuperOffice 8.4 R03 Web and Service in Chrome and Safari with Mac
 
 <a href="../../assets/downloads/compatibility/browser-mojave.xlsx" download>Click to download report</a>
 
-## MS Office 2019
+## Microsoft Office 2019
 
 ![office2019.png][img6]
 
-We have tested MS Office 2019 with SuperOffice 8.4. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on October 18th 2018.
+We have tested Microsoft Office 2019 with SuperOffice 8.4. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on October 18th 2018.
 
 <a href="../../assets/downloads/compatibility/office-2019.xlsx" download>Click to download report</a>
 
