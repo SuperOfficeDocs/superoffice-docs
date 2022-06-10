@@ -13,7 +13,7 @@ so.client: win
 
 ## Activate VSTO error messages
 
-SuperOffice Ribbons is build upon Microsoft Office VSTO, and you can turn on troubleshooting on the VSTO. You will then get an error message in the MS Office application that tries to load the add-in:
+SuperOffice Ribbons is build upon Microsoft Office VSTO, and you can turn on troubleshooting on the VSTO. You will then get an error message in the Microsoft Office application that tries to load the add-in:
 
 1. Add a new environment variable: Control Panel > System and Security > System > Advanced System Settings, under System Variables. `VSTO_SUPPRESSDISPLAYALERTS = 0`
 
