@@ -85,7 +85,7 @@ landingContent:
           - text: Customers
             url: "howto/customers.md"
           - text: Request to publish
-            url: "howto/request-to-publish.md
+            url: "howto/request-to-publish.md"
       - linkListType: reference
         links:
           - text: Partner settings
@@ -98,6 +98,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Endpoints
+            url: "howto/update-endpoints.md"
           - text: Notifications
             url: "howto/notifications.md"
           - text: Error emails
@@ -111,7 +113,7 @@ landingContent:
           - text: New certificate
             url: "security/new-certificate.md"
           - text: Request to publish
-            url: "howto/request-to-publish.md
+            url: "howto/request-to-publish.md"
 
   # Card
   - title: App Store information

@@ -17,7 +17,7 @@ The certificates in your application configuration are **RSA encryption keys**. 
 
 The Developer Portal stores your public key. However, you must store the private key.
 
-[!include[Howto replace value](includes/note-clear-to-replace.md)]
+[!include[How to replace value](includes/note-clear-to-replace.md)]
 
 ## How to
 

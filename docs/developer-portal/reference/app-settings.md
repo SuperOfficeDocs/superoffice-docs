@@ -3,7 +3,7 @@ title: Application settings
 uid: dp-app-settings
 description: Reference of application settings in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.25.2022
+so.date: 06.08.2022
 keywords: apps, Developer Portal
 so.topic: reference
 so.version:
@@ -21,11 +21,12 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 |---|---|---|---|
 | Application name | The human-readable name of the application. | [Update app info][9] | [Naming requirements][8] |
 | SEO-friendly name | For search engines. | [Improve SEO][10] | |
+| Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | | [About consent][5] |
 | Technical contact | The contact person for this app. | [Update contact person][1] | |
+| Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. | [Get error emails][11] | |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | | [About custom apps][6] |
 | Is beta | Whether the app is currently in beta in the App Store. | | [About the beta period][7] |
-| Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | | [About consent][5] |
 
 ## See also
 
@@ -44,6 +45,7 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 [8]: ../../apps/requirements/marketing.md#application-name
 [9]: ../app-store/update-app-page.md
 [10]: ../app-store/seo.md
+[11]: ../howto/get-error-emails.md
 
 <!-- Referenced images -->
 [img1]: ../media/app-overview.png
