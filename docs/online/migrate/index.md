@@ -32,7 +32,7 @@ You need to be on at least SuperOffice 7.1 to migrate to CRM Online. If you run 
 
 ### SuperOffice Admin check
 
-The migrator needs access to the SuperOffice admin client with a user with SuperOffice administrative rights.
+The migrator needs access to the SuperOffice Admin client with a user with SuperOffice administrative rights.
 
 **Before migrating you will need to go through the following steps in the administration client:**
 
@@ -45,7 +45,7 @@ The migrator needs access to the SuperOffice admin client with a user with Super
 
 ## Start Online Migration Tool
 
-The SuperOffice CRM Online Migration Tool (OMT) is responsible for transferring a local onsite database and document archive to CRM Online. It also makes sure that a set of initial configuration steps are carried out.
+The SuperOffice CRM Online Migration Tool (OMT) is responsible for transferring a local onsite database and document archive to CRM Online. It also makes sure that a set of initial configuration steps is carried out.
 
 > [!CAUTION]
 >
@@ -67,9 +67,11 @@ Contact details of the person performing the migration must be provided. Thes
 
 All users that shall log in to the migrated customer tenant in SuperOffice CRM Online must have a valid user license. They must also have a valid email address for logging in. This email address must be unique. No other user can have the same email address as such conflict will prevent successful logins to the system.
 
-Both user plans and email address user names must be validated by the migrator before the customer can be migrated to online.
+Both user plans and user names must be validated by the migrator before the customer can be migrated to online.
 
-When the **Test Migration** checkbox is ticked, it is allowed to run the test migration several times.
+#### Test Migration
+
+Ticking the **Test Migration** checkbox in the OMT does not create a [test environment][2], this checkbox will just leave the live tenant in offline maintenance and allow you to re-run the migration!
 
  ![4-checklist-start.png -screenshot][img9]
 
@@ -81,7 +83,7 @@ Each column represents a user plan. The first column represents no user plan a
 
 Drag the user to the correct column to choose a user plan. Write a filter-criteria to easier find a particular user or group of users. All fields shown on the card are used in the free-text filter. Filtering on the name of user-group or position can be an efficient way of working with many users.
 
-Click **OK** when licenses are assigned. It is possible to come back to re-assign licenses after the other configuration steps are performed as well.
+Click OK when licenses are assigned. It is possible to come back to re-assign licenses after the other configuration steps are performed as well.
 
 A valid email address must be selected as a user name. All users must have a unique email address. Select one of the users existing email addresses or write a new address as appropriate.
 
@@ -89,7 +91,7 @@ A valid email address must be selected as a user name. All users must have a un
 
 If another user has a username email address populated on their person card at the time of migration, it will be removed. Filtering works the same way as on the user plan assignment page.
 
-Click **OK** when all users are assigned a valid user name email address.
+Click OK when all users are assigned a valid user name email address.
 
 The last step of the checklist is to choose if users should get a welcome email and if you want to receive user summary.
 
@@ -123,6 +125,7 @@ You can choose from 2 options:
 
 <!-- Referenced links -->
 [1]: http://online.superoffice.com/appstore
+[2]: ../sandbox/index.md
 [3]: ../../service/mailboxes/migrate.md
 
 <!-- Referenced images -->
