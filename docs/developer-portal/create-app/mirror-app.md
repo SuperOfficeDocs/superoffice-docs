@@ -31,11 +31,16 @@ Custom apps may only be used by a customer tenant who have the [Developer Tools 
 
 3. Choose the **Custom database mirror app** template. Click **Next**.
 
-4. Enter the name of your application. Click **Next**.
+4. Enter the name of your application. Use **Data mirroring for _Company name_** as the application name. Click **Next**.
 
     [!include[Requirements for app name](includes/note-app-name.md)]
 
 5. Enter the URL of the integration endpoint.
+
+    Select Has integration to activate the endpoint.
+
+    > [!NOTE]
+    > If the endpoint is not yet ready, you may change configuration later.
 
     ![Mirroring service URL -screenshot][img1]
 
