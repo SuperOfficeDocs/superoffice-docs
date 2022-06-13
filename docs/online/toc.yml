@@ -21,6 +21,8 @@ items:
     href: sandbox/index.md
     expanded: true
     items:
+    - name: Sandbox registration form
+      href: sandbox/order-sandbox.md
     - name: Replace production sandbox
       href: sandbox/replace.md
     - name: Clone to production sandbox
