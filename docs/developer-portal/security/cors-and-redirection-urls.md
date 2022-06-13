@@ -13,7 +13,12 @@ so.client:
 
 # CORS and redirection URLs
 
-The redirection endpoints are specified and whitelisted when you register the application idea. All changes to whitelisted URLs have be approved SuperOffice.
+The redirection endpoints are specified and whitelisted when you register the application idea. When the app configuration is published to Stage or Production you may no longer make changes to them.
+
+> [!NOTE]
+> To add new CORS or redirect URLs in Stage or Production, create a [new version][5].
+
+All changes to whitelisted URLs on a standard app have be approved SuperOffice.
 
 Types of URLs:
 
@@ -65,6 +70,7 @@ Types of URLs:
 [1]: ../../apps/redirects/index.md
 [2]: ../../apps/redirects/endpoint-types.md
 [4]: ../../apps/provisioning/get-consent.md
+[5]: ../versioning.md
 
 <!-- Referenced images -->
 [img1]: media/allowed-redirects.png

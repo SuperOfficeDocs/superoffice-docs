@@ -45,7 +45,7 @@ so.client:
 
 8. Click **Create Application**.
 
-You can now [request to publish the configuration][18].
+All app configurations are automatically published to SOD. You can now [request to publish the configuration][18].
 
 ![App registration complete -screenshot][img6]
 

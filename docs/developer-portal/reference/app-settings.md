@@ -23,7 +23,7 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 | SEO-friendly name | For search engines. | [Improve SEO][10] | |
 | Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | | [About consent][5] |
 | Technical contact | The contact person for this app. | [Update contact person][1] | |
-| Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. | [Get error emails][11] | |
+| Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. If empty, technical contact will get these. | [Get error emails][11] | |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | | [About custom apps][6] |
 | Is beta | Whether the app is currently in beta in the App Store. | | [About the beta period][7] |

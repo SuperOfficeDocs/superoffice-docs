@@ -17,12 +17,12 @@ so.client:
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Is native or mobile app | Type if application. | | |
+| Is native or mobile app | Type if application. OAuth2 Native App flow if checked. | | |
 | Client ID | Uniquely identifies the application. | [Find client ID][16] | [Terminology][8] |
 | Allowed redirect URLs | Context-specific URLs that will be called by the browser after successful sign-in or when a user clicks one of the available buttons on your application entry. | [Add or update][18] | [About redirects and CORS][7] |
-| Allowed postlogout redirect URLs | | [Add or update][18] | |
+| Allowed postlogout redirect URLs | Context-specific URLs that will be called by the browser after successful sign-out a user.| [Add or update][18] | |
 | CORS URLs | | [Add or update][18] | |
-| Default redirect URL | | [Add or update][18] | |
+| Default redirect URL | Used by legacy authentication - add all needed redirect URLs to your apps allowed list. | [Add or update][18] | |
 
 > [!NOTE]
 > Redirection and CORS URLs must be listed one per line.
