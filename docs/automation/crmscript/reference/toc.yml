@@ -21,6 +21,16 @@ items:
     href: CRMScript.Global.String.yml
   - name: Time
     href: CRMScript.Global.Time.yml
+- name: Data Structures
+  items:
+  - name: Array
+    href: CRMScript.DataStructure.Array.yml
+  - name: Map
+    href: CRMScript.Native.Map.yml
+  - name: Struct
+    href: CRMScript.DataStructure.Struct.yml
+  - name: Vector
+    href: CRMScript.Native.Vector.yml
 - name: Classes
   href: CRMScript.Native.yml
   items:
