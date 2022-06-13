@@ -26,7 +26,7 @@ so.client:
 * [Register new app][4]
 * [Update your own user profile][8]
 * [Manage notifications][10]
-* [Get error emails][11]
+* [Get error emails][10]
 * [Configure authentication][17]
 
 ## Marketing
@@ -60,7 +60,6 @@ What would you like to do?
 [8]: ../update-profile.md
 [9]: customers.md
 [10]: notifications.md
-[11]: get-error-emails.md
 [12]: ../../apps/tenant-status/index.md
 [13]: ../../apps/getting-started/app-envir.md
 [14]: ../../apps/provisioning/index.md

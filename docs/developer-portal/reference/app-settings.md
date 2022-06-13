@@ -45,7 +45,7 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 [8]: ../../apps/requirements/marketing.md#application-name
 [9]: ../app-store/update-app-page.md
 [10]: ../app-store/seo.md
-[11]: ../howto/get-error-emails.md
+[11]: ../howto/notifications.md
 
 <!-- Referenced images -->
 [img1]: ../media/app-overview.png

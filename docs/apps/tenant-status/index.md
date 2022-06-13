@@ -11,7 +11,7 @@ so.client: online
 
 # Tenant status
 
-Applications should ensure they don't attempt to connect to a particular tenant when the tenant is unavailable. SuperOffice offers both a pull and a push approach to get tenant status.
+[!include[Intro to tenant status](includes/tenant-status-intro.md)]
 
 When a tenant installation experience state changes, the application should pause and resume according to the tenant's availability.
 

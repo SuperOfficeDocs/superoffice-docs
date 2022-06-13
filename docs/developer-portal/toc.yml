@@ -69,8 +69,6 @@ items:
       href: howto/customers.md
     - name: Manage notifications
       href: howto/notifications.md
-    - name: Get error emails
-      href: howto/get-error-emails.md
     - name: Format text
       href: howto/format-text.md
   - name: Reference

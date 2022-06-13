@@ -102,8 +102,6 @@ landingContent:
             url: "howto/update-endpoints.md"
           - text: Notifications
             url: "howto/notifications.md"
-          - text: Error emails
-            url: "howto/get-error-emails.md"
           - text: CORS and redirection URLs
             url: "security/cors-and-redirection-urls.md"
           - text: Find client ID
