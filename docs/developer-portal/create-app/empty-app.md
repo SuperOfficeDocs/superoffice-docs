@@ -47,7 +47,7 @@ This template creates an app configuration where you just need to add in the app
 
 ## What would you like to do next?
 
-* [Get overview of all config sections][12]
+* [Get overview of all config sections][1]
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
