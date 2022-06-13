@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.02.2022
+  so.date: 06.13.2022
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -31,10 +31,27 @@ highlightedContent:
     - title: "Online tenant status"
       itemType: reference
       url: tenant-status/index.md
-   # Card
+    # Card
     - title: "What API to use?"
       itemType: reference
       url: getting-started/what-api-to-use.md
+    # Card
+    - title: "Developer Portal"
+      itemType: overview
+      url: ../developer-portal/index.yml
+    # Card
+    - title: "Get access to SOD"
+      itemType: how-to-guide
+      url: getting-started/get-access-to-sod.md
+    # Card
+    - title: "Get application keys"
+      itemType: how-to-guide
+      url: getting-started/get-app-keys.md
+    # Card
+    - title: "Authentication"
+      itemType: overview
+      url: ../api/authentication/overview.md
+
 # conceptualContent section (optional)
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -92,6 +109,9 @@ conceptualContent:
         - text: Get consent
           itemType: how-to-guide
           url: provisioning/get-consent.md
+        - text: Revoke consent
+          itemType: how-to-guide
+          url: provisioning/revoke.md
         - text: Approval sequence
           itemType: reference
           url: provisioning/consent.md
@@ -147,10 +167,10 @@ conceptualContent:
           url: certification/secure-app.md
         - text: Get listed
           itemType: how-to-guide
-          url: publish/get-listed.md
+          url: ../developer-portal/app-store/index.md
         - text: Publish your standard application
           itemType: how-to-guide
-          url: publish/index.md
+          url: ../developer-portal/howto/request-to-publish.md
         - text: Beta period
           itemType: concept
           url: publish/beta-period.md
@@ -205,17 +225,38 @@ additionalContent:
           url: redirects/index.md
         - text: Endpoint types
           url: redirects/endpoint-types.md
+        - text: Update endpoints for app
+          url: ../developer-portal/howto/update-endpoints.md
         - text: Add and update redirects
-          url: redirects/add-update.md
+          url: ../developer-portal/security/cors-and-redirection-urls.md
+
       # Card
-      - title: How to...
+      - title: API intro
         links:
-        - text: Revoke an application
-          url: manage/revoke-app.md
-        - text: Get access to SOD
-          url: getting-started/get-access-to-sod.md
-        - text: Get application keys
-          url: getting-started/get-app-keys.md
+          - text: Introduction to SuperOffice APIs
+            url: ../api/overview/index.md
+          - text: Authentication
+            url: ../api/authentication/overview.md
+          - text: Learn NetServer
+            url: ../api/overview/netserver.md
+          - text: Learn web services
+            url: ../api/web-services/index.md
+
+      # Card
+      - title: API reference
+        links:
+          - text: NetServer API reference
+            url: ../api/reference/netserver/index.md
+          - text: RESTful API reference
+            url: ../api/reference/restful/index.md
+          - text: Web Application API
+            url: ../api/reference/web/index.md
+          - text: NetServer REST proxy client
+            url: ../api/reference/webapi/index.md
+          - text: CRMScript
+            url: ../automation/crmscript/reference/index.md
+          - text: Database reference
+            url: ../database/tables/index.md
 
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
