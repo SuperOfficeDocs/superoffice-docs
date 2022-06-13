@@ -57,5 +57,5 @@ When you are happy with how it looks, return to your partner page in the Develop
 [2]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
-[img1]: media/partner-app-store-info.png
+[img1]: media/company-app-store-info.png
 [img2]: ../media/request-to-publish.png
