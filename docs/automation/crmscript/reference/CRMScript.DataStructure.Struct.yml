@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.DataStructure.Struct
+  commentId: T:CRMScript.DataStructure.Struct
+  id: struct
+  langs:
+  - crmscript
+  children:
+    - CRMScript.DataStructure.Struct.compare(Struct)
+    - CRMScript.DataStructure.Struct.fromJsonString(String)
+    - CRMScript.DataStructure.Struct.fromXMLNode(XMLNode)
+    - CRMScript.DataStructure.Struct.toJson(JSONBuilder)
+    - CRMScript.DataStructure.Struct.toJsonString()
+    - CRMScript.DataStructure.Struct.toString()
+  name: Struct
+  nameWithType: struct
+  fullName: CRMScript.DataStructure.Struct
+  type: Class
+  summary: "A struct defines the kinds of data and the functionality their objects will have. This data structure enables you to create your own custom types by grouping together variables of other types and methods."
+- uid: CRMScript.DataStructure.Struct.compare(Struct)
+  commentId: M:CRMScript.DataStructure.Struct.compare(Struct)
+  id: 'compare(Struct)'
+  so.intellisense: Struct.compare
+  langs:
+  - crmscript
+  parent: CRMScript.DataStructure.Struct
+  name: compare
+  nameWithType: Struct.compare(Struct)
+  fullName: CRMScript.DataStructure.Struct.compare(Struct)
+  type: Method
+  summary: "If a struct has a function with this exact signature, then this method will be used to compare two instances of the struct when sorting an array of struct instances."
+  syntax:
+    content: Bool {type}.compare({type} s)
+  example:
+  - "<pre><code>struct Person {\n  String firstname;\n  String lastname;\n  Bool compare(Person p) {\n    return this.toString() > p.toString();\n  }\n};\n\nPerson Person(String firstname, String lastname) {\n  Person p;\n  p.firstname = firstname;\n  p.lastname = lastname;\n  return p;\n}\n\nPerson[] persons;\npersons.pushBack(Person(\"Jack\", \"Black\"));\npersons.pushBack(Person(\"Mark\", \"Wahlberg\"));\npersons.pushBack(Person(\"Anthony\", \"Hopkins\"));\n\nprintLine(\"Before sort: \" + persons.buildString(\"|\"));\npersons.sort();\nprintLine(\"After sort: \" + persons.buildString(\"|\"));</code></pre>"
+- uid: CRMScript.DataStructure.Struct.fromJsonString(String)
+  commentId: M:CRMScript.DataStructure.Struct.fromJsonString(String)
+  id: 'fromJsonString(String)'
+  so.intellisense: Struct.fromJsonString
+  langs:
+  - crmscript
+  parent: CRMScript.DataStructure.Struct
+  name: fromJsonString
+  nameWithType: Struct.fromJsonString(String)
+  fullName: CRMScript.DataStructure.Struct.fromJsonString(String)
+  type: Method
+  summary: "\nPass a boolean value to copy into a new object.\n"
+  syntax:
+    content: Void {type}.fromJsonString(String json)
+  example:
+  - "<pre><code>struct Person {\n  String firstname;\n  String lastname;\n  Date dob;\n};\n\nPerson p;\np.fromJsonString('{\"firstname\": \"Jon\", \"lastname\": \"Doe\", \"dob\": \"1984-10-26\"}');\nprintLine(p.toJsonString());</code></pre>"
+- uid: CRMScript.DataStructure.Struct.fromXMLNode(XMLNode)
+  commentId: M:CRMScript.DataStructure.Struct.fromXMLNode(XMLNode)
+  id: 'fromXMLNode(XMLNode)'
+  so.intellisense: Struct.fromXMLNode
+  langs:
+  - crmscript
+  parent: CRMScript.DataStructure.Struct
+  name: fromXMLNode
+  nameWithType: Struct.fromXMLNode(XMLNode)
+  fullName: CRMScript.DataStructure.Struct.fromXMLNode(XMLNode)
+  type: Method
+  summary: "Populates a struct from an XMLNode."
+  syntax:
+    content: Void {type}.fromXMLNode(XMLNode node)
+  example:
+  - "<pre><code>struct Hello {\n  String who;\n  Void print() {\n    printLine(\"Hello \" + this.who);\n  }\n};\n\nXMLNode xml = parseXML(\"<root><who>World</who></root>\");\n\nHello h;\nh.fromXMLNode(xml);\nh.print();\n\n//prints Hello World</code></pre>"
+- uid: CRMScript.DataStructure.Struct.toJson(JSONBuilder)
+  commentId: M:CRMScript.DataStructure.Struct.toJson(JSONBuilder)
+  id: 'toJson(JSONBuilder)'
+  so.intellisense: Struct.toJson
+  langs:
+  - crmscript
+  parent: CRMScript.DataStructure.Struct
+  name: toJson
+  nameWithType: Struct.toJson(JSONBuilder)
+  fullName: CRMScript.DataStructure.Struct.toJson(JSONBuilder)
+  type: Method
+  summary: "Populates a JSONBuilder from a struct."
+  syntax:
+    content: Void {type}.toJson(JSONBuilder builder)
+  example:
+  - "<pre><code>struct Hello {\n  String who;\n  Void setWho(String who) {\n    this.who = who;\n  }\n\n  Void print() {\n    printLine(\"Hello \" + this.who);\n  }\n};\n\nJSONBuilder jsBuilder;\nHello h;\nh.setWho(\"World\");\nh.toJson(jsBuilder);\n\nprint(jsBuilder.getString());\n\n//prints {\"who\": \"World\"}</code></pre>"
+- uid: CRMScript.DataStructure.Struct.toJsonString()
+  commentId: M:CRMScript.DataStructure.Struct.toJsonString()
+  id: 'toJsonString()'
+  so.intellisense: Struct.toJsonString
+  langs:
+  - crmscript
+  parent: CRMScript.DataStructure.Struct
+  name: toJsonString
+  nameWithType: Struct.toJsonString()
+  fullName: CRMScript.DataStructure.Struct.toJsonString()
+  type: Method
+  summary: "This function will return a JSON formatted string of the struct's contents. Same functionality as toJson(JSONBuilder), but it will return a string directly without having to instantiate a JSONbuilder."
+  syntax:
+    content: String {type}.toJsonString()
+  example:
+  - "<pre><code>struct Person {\n  String firstname;\n  String lastname;\n    Date dob;\n};\n\nPerson p;\np.firstname = \"Jack\";\np.lastname = \"Black\";\np.dob = Date(\"1975-11-28\");\n\nprintLine(p.toJsonString());\n\n//prints {\"firstname\": \"Jack\",\"lastname\": \"Black\",\"dob\": \"1975-11-28\"}</code></pre>"
+- uid: CRMScript.DataStructure.Struct.toString()
+  commentId: M:CRMScript.DataStructure.Struct.toString()
+  id: 'toString()'
+  so.intellisense: Struct.toString
+  langs:
+  - crmscript
+  parent: CRMScript.DataStructure.Struct
+  name: toString
+  nameWithType: Struct.toString()
+  fullName: CRMScript.DataStructure.Struct.toString()
+  type: Method
+  summary: "This function will return a JSON formatted string of the struct's contents. Same functionality as toJson(JSONBuilder), but it will return a string directly without having to instantiate a JSONbuilder."
+  syntax:
+    content: String {type}.toString()
+  example:
+  - "<pre><code>struct Person {\n  String firstname;\n  String lastname;\n\n  String toString() {\n    return this.firstname + \" \" + this.lastname;\n  }\n};\n\nPerson p;\np.firstname = \"Jack\";\np.lastname = \"Black\";\nprintLine(p.toString());\n\n//prints Jack Black</code></pre>"
+references:
+- uid: CRMScript.DataStructure.Struct
+  commentId: T:CRMScript.DataStructure.Struct
+  isExternal: true
+  name: Struct
+  nameWithType: Struct
+  fullName: CRMScript.DataStructure.Struct
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Native.JSONBuilder
+  commentId: T:CRMScript.Native.JSONBuilder
+  isExternal: true
+  name: JSONBuilder
+  nameWithType: JSONBuilder
+  fullName: CRMScript.Native.JSONBuilder
+- uid: CRMScript.Native.XMLNode
+  commentId: T:CRMScript.Native.XMLNode
+  isExternal: true
+  name: XMLNode
+  nameWithType: XMLNode
+  fullName: CRMScript.Native.XMLNode
+- uid: CRMScript.Native.JSONBuilder
+  commentId: T:CRMScript.Native.JSONBuilder
+  isExternal: true
+  name: JSONBuilder
+  nameWithType: JSONBuilder
+  fullName: CRMScript.Native.JSONBuilder
