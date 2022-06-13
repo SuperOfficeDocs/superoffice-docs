@@ -29,9 +29,9 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 ## Start IDP registration
 
-1. Go to [https://id.superoffice.com/identityprovider/register][2]
+1. Go to [https://id.superoffice.com/identityprovider/register][2].
 
-2. Select your organization's identity provider (Google or Microsoft)
+2. Select your organization's identity provider (Google or Microsoft).
 
     ![select identity provider -screenshot][img1]
 
