@@ -44,6 +44,8 @@ items:
       href: superid/howto/map-idp-usernames.md
     - name: Complete user transition
       href: superid/howto/complete-user-transition.md
+    - name: Custom domains registration form
+      href: superid/howto/custom-domains-registration-form.md
 - name: User
   href: user/add-user-in-admin-client.md
   expanded: true

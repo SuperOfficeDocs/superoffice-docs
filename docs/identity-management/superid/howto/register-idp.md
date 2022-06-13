@@ -15,19 +15,19 @@ so.client: online
 Before using a federated sign-in service, you must register the domain with us. This enables SuperID to recognize the domain of the user's email address and redirect to the correct identity provider for authentication.
 
 >[!NOTE]
->Any user that can authenticate with the customer's domain can register **Google** as an identity provider.<br>To register **Microsoft** as an IdP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
+>Any user that can authenticate with the customer's domain can register **Google** as an identity provider.<br>To register **Microsoft** as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
 
 ## Pre-requisites
 
-* You have [mapped the usernames][1] to your IdP.
+* You have [mapped the usernames][1] to your IDP.
 
 * You are able to authenticate with the customer's domain. For Azure AD, Global Admin or Application Administrator is required.
 
 >[!NOTE]
->**How does IdP registration impact existing users?**<br> A 'user-transition' (SuperOffice password -> Google/Microsoft authentication) for all existing users, on first log in after IdP registration is completed: users has to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
+>**How does DP registration impact existing users?**<br> A 'user-transition' (SuperOffice password -> Google/Microsoft authentication) for all existing users, on first log in after IDP registration is completed: users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
 <br>No use of "SO password" any longer, but user is sent to Google/Microsoft for authentication on login to CRM Online.
 
-## Start IdP registration
+## Start IDP registration
 
 1. Go to [https://id.superoffice.com/identityprovider/register][2]
 
@@ -35,7 +35,7 @@ Before using a federated sign-in service, you must register the domain with us. 
 
     ![select identity provider -screenshot][img1]
 
-## Initialize and accept setup with your IdP
+## Initialize and accept setup with your IDP
 
 > [!NOTE]
 > You are sent to the provider's sign-in page after starting registration.
@@ -52,9 +52,22 @@ Before using a federated sign-in service, you must register the domain with us. 
 
     ![Microsoft 365 sign-in -screenshot][img12]
 
+#### Explanation about requested permissions
+
+  SuperOffice application (Application Id d0c02962-eedd-4d1e-8a70-a315f1aa5072) is required for logging in and to support basic functionality for the user (delegated permission). The permission does not require Admin consent.  The reason for asking administrator to approve these permissions is to prevent that the individual user must consent to these permissions.
+
+The delegated permissions required for the SuperOffice application are:
+
+| Function | Permissions needed |
+| ------ | -----------|
+| Logging in | *User.Read*, *email*, *openid* and *profile*. Get basic information about the signed in user. |
+| Email | The built-in e-mail client in the SuperOffice CRM product requires *IMAP.AccessAsUser.All* for receiving and *SMTP.Send* for sending e-mails on behalf of the user. *Offline_access* is needed for refreshing the mailboxes in background. |
+| Video Meeting & Microsoft Teams | *OnlineMeetings* permissions is required to set up video meetings directly from the diary of the SuperOffice CRM product. |
+| SharePoint document archive | The *Sites.Manage.All* and *Sites.ReadWrite.All* is required to create, read and write documents to SharePoint. |
+
 3. Confirm that all users of this domain should use the identity provider.
 
-    ![image95szq.png -screenshot][img4]
+    ![confirm-all-users-o365.png -screenshot][img4]
 
 ### For Google
 
@@ -66,21 +79,21 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 3. Confirm that all users of this domain should use the identity provider.
 
-    ![image1x2xg.png -screenshot][img6]
+    ![confirm-all-users-google.png -screenshot][img6]
 
 ## Confirm registration
 
-![imageniwh.png -screenshot][img7]
+![confirmation.png -screenshot][img7]
 
 Your organization's domain name is now registered in the SuperOffice environment.
 
-When the user signs in, the domain of the username (the part after the @ sign) will be recognized and the user will be forwarded to the correct IdP to authenticate.
+When the user signs in, the domain of the username (the part after the @ sign) will be recognized and the user will be forwarded to the correct IDP to authenticate.
 
-![image62fbl.png -screenshot][img8]
+![signin-domain.png -screenshot][img8]
 
 Primary domain registration is complete!
 
-After registering the IdP, existing password users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
+After registering the IDP, existing password users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
 
 ## Register additional domains
 
@@ -92,9 +105,9 @@ You may want to set a new primary domain name for your Azure AD organization. Wh
 
 You can find additional domains in your Azure Active Directory under **Custom domain names**.
 
-![10 -screenshot][img10]
+![Custom domains -screenshot][img10]
 
-![11 -screenshot][img11]
+![Custom domains -screenshot][img11]
 
 **To register another top-level domain name:**
 
@@ -102,20 +115,20 @@ You can find additional domains in your Azure Active Directory under **Custom d
 
 **To register a sub-domain name or custom domain name:**
 
-1. [Register identity provider][1]
+1. [Register identity provider][1].
 2. Your primary domain will be registered in SuperID.
 3. Fill out the [form for sub-domains and custom domain names][5].
 4. We will manually add those subdomains and custom domain names.
 5. Repeat the process for other top-level domains.
 
-![image9lq1a.png -screenshot][img9]
+![register-subdomains.png -screenshot][img9]
 
 <!-- Referenced links -->
 [1]: map-idp-usernames.md
 [2]: https://id.superoffice.com/identityprovider/register
 [3]: complete-user-transition.md
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/domains-manage/
-[5]: https://community.superoffice.com/register-sub-idp
+[5]: custom-domains-registration-form.md
 
 <!-- Referenced images -->
 [img1]: media/choose-idp.png
@@ -127,6 +140,6 @@ You can find additional domains in your Azure Active Directory under **Custom d
 [img7]: media/confirmation.png
 [img8]: media/signin-domain.png
 [img9]: media/register-subdomains.png
-[img10]: media/image3awzj.png
-[img11]: media/imagesw25.png
+[img10]: media/ms365customdomains1.png
+[img11]: media/ms365customdomains2.png
 [img12]: media/o365permissions.png
