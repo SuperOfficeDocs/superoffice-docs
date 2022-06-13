@@ -157,7 +157,7 @@ landingContent:
           - text: Database mirroring
             url: ../mirroring/index.yml
           - text: Online tenant status
-            url: tenant-status/index.md
+            url: ../apps/tenant-status/index.md
           - text: User contexts
             url: ../apps/getting-started/user-contexts.md
           - text: What is provisioning?

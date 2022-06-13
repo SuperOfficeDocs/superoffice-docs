@@ -71,6 +71,9 @@ conceptualContent:
         - url: ../service/mailboxes/migrate.md
           itemType: concept
           text: "Migrating Service mailboxes"
+        - url: sandbox/index.md
+          itemType: concept
+          text: Production sandbox
     # Card
     - title: Identity management
       summary: ""
@@ -91,8 +94,8 @@ conceptualContent:
           itemType: how-to-guide
           url: ../identity-management/user/reset-password.md
     # Card
-    - title: Develop NetServer apps
-      summary: Start developing integrations with NetServer
+    - title: Develop online apps
+      summary: Start developing online integrations
       links:
         - text: Overview
           itemType: overview
@@ -100,6 +103,9 @@ conceptualContent:
         - text: Getting started
           itemType: get-started
           url: ../apps/getting-started/index.md
+        - text: Developer portal
+          itemType: deploy
+          url: ../developer-portal/index.yml
         - text: Get access to SOD
           itemType: how-to-guide
           url: ../apps/getting-started/get-access-to-sod.md
@@ -112,9 +118,6 @@ conceptualContent:
         - text: Best practices
           itemType: reference
           url: ../apps/best-practices.md
-        - text: Integration points
-          itemType: concept
-          url: ../api/overview/index.md
         - text: What API to use?
           itemType: reference
           url: ../apps/getting-started/what-api-to-use.md
@@ -125,9 +128,9 @@ conceptualContent:
     - title: CRM Online integrations
       summary: ""
       links:
-        - text: Production sandbox
+        - text: Integration points
           itemType: concept
-          url: sandbox/index.md
+          url: ../api/overview/index.md
         - text: App store
           itemType: overview
           url: https://online.superoffice.com/appstore
