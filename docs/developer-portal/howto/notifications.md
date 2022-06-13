@@ -58,7 +58,7 @@ To turn on/off error emails to the technical contact for an endpoint, update the
 * [Quote connector][6]
 * [Database mirror][4]
 
-To receive error emails at additional email addresses), update the application settings:
+To receive error emails at different or more than one email addresses, update the application settings:
 
 1. On the app page, select **Settings** from the left menu or click the **Edit** button.
 
@@ -71,11 +71,11 @@ To receive error emails at additional email addresses), update the application s
 3. Click **Save Settings**.
 
 > [!NOTE]
-> You can update the email addresses in the application settings at any time. But to turn reception on/off in Stage and Production, you must request to publish a new version of the application configuration.
+> You can update the email addresses in the application settings at any time. Technical contact will receive any notification mail if this field is blank.
 
 ## Other errors
 
-For other errors, such as when a customer reports a problem from the App Store, the technical contact will be notified in addition to any error reporting emails you have provided.
+For other errors, such as when a customer reports a problem from the App Store, the technical contact will be notified if error reporting emails field is empty.
 
 ## Read more
 
