@@ -39,9 +39,11 @@ The **State change URL** is set in the advanced application configuration of eac
 
     ![Configure notifications per environment -screenshot][img2]
 
-6. Click **Save Settings** or **OK**.
+6. [!include[Has integration?](includes/has-integration.md)]
 
-7. [Request to publish the new configuration.][3]
+7. Click **Save Settings** or **OK**.
+
+8. [Request to publish the new configuration.][3]
 
 > [!NOTE]
 > You must set up a web service listening at the given URL and be prepared to [parse notifications][2].
