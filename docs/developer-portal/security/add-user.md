@@ -13,7 +13,7 @@ so.client: online
 
 # Add a user
 
-[!include[Definition of user](../includes/def-dp-user.md)
+[!include[Definition of user](../includes/def-dp-user.md)]
 
 You can view the users already added on your partner page.
 
