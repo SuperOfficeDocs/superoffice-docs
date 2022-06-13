@@ -26,7 +26,7 @@ items:
     href: app-store/index.md
     items:
     - name: Update partner profile
-      href: app-store/update-partner-profile.md
+      href: app-store/update-company-profile.md
     - name: Update app-specific page
       href: app-store/update-app-page.md
     - name: Images and videos

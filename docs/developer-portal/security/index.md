@@ -44,7 +44,7 @@ If you have registered the application but lost the keys, you need to [look up y
 [2]: edit-user.md
 [3]: manage-permissions.md
 [4]: ../../apps/getting-started/user-contexts.md
-[5]: ../update-profile.md
+[5]: ../howto/update-profile.md
 [6]: ../../apps/redirects/index.md
 [7]: find-clientid.md
 [8]: get-client-secret.md

@@ -79,6 +79,12 @@ These integration types are referred to as Integration Services.
 
 Applications are either [built to fit many][4] and available in the SuperOffice App Store or [one-off customization][5] for your company or a customer's company only.
 
+## Developer Portal
+
+We're proud to release a new self-service portal for developers and application partners this year. It will replace the manual forms and let you handle more of the configuration yourself.
+
+While you wait, check out our brand new [Developer Portal documentation][9].
+
 <!-- Referenced links -->
 [1]: terminology.md
 [2]: getting-started/hosting.md
@@ -88,3 +94,4 @@ Applications are either [built to fit many][4] and available in the SuperOffice 
 [6]: ../mirroring/overview.md
 [7]: ../api/plugins/erp-connectors/index.md
 [8]: ../api/plugins/quote-connectors/index.md
+[9]: ../developer-portal/index.yml

@@ -57,7 +57,7 @@ What would you like to do?
 [5]: ../security/add-user.md
 [6]: ../security/manage-permissions.md
 [7]: ../security/edit-user.md
-[8]: ../update-profile.md
+[8]: update-profile.md
 [9]: customers.md
 [10]: notifications.md
 [12]: ../../apps/tenant-status/index.md

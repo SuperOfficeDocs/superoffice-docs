@@ -41,7 +41,7 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 [3]: ../howto/update-contact-person.md
 [4]: user-settings.md
 [5]: ../../apps/requirements/marketing.md
-[6]: ../app-store/update-partner-profile.md
+[6]: ../app-store/update-company-profile.md
 [9]: ../app-store/update-app-page.md
 [10]: ../app-store/seo.md
 

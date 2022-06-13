@@ -61,7 +61,7 @@ It should:
 
 <!-- Referenced links -->
 [1]: ../../apps/publish/get-noticed.md
-[2]: update-partner-profile.md
+[2]: update-company-profile.md
 [3]: update-app-page.md
 
 <!-- Referenced images -->

@@ -42,5 +42,5 @@ After signing up for a developer account, you need to register your application 
 **Next step:** Create an MVC application at your redirection endpoint and implement your chosen authorization flow.
 
 <!-- Referenced links -->
-[1]: application-registration-form.md
+[1]: ../../developer-portal/create-app/index.md
 [2]: app-envir.md
