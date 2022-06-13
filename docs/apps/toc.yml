@@ -81,23 +81,14 @@ items:
       href: provisioning/consent.md
     - name: Get consent
       href: provisioning/get-consent.md
+    - name: Revoke application
+      href: provisioning/revoke.md
   - name: Redirects
     href: redirects/index.md
     expanded: true
     items:
     - name: Endpoint types
       href: redirects/endpoint-types.md
-    - name: Add and update
-      href: redirects/add-update.md
-  - name: Manage
-    expanded: true
-    items:
-    - name: Update app
-      href: manage/update-app.md
-    - name: Update app form
-      href: manage/update-app-form.md
-    - name: Revoke app
-      href: manage/revoke-app.md
   - name: Activate
     href: activate/index.md
     expanded: true
@@ -135,13 +126,12 @@ items:
       - name: Watchcom testimonials
         href: certification/watchcom-testimonials.md
   - name: Publish
+    href: publish/index.md
     expanded: true
     items:
-    - name: Get listed
-      href: publish/get-listed.md
-    - name: Publish standard app
-      href: publish/index.md
     - name: Beta period
       href: publish/beta-period.md
     - name: How to get noticed
       href: publish/get-noticed.md
+    - name: Update app form
+      href: publish/update-app-form.md

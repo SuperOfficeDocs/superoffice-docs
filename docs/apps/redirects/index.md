@@ -20,9 +20,9 @@ The application residing at the redirect URL is expected to receive the security
 
 ## Where do I set my redirects?
 
-The redirection endpoints are specified when you register the application idea. If you need to make changes later, email `appdev@superoffice.com`.
+The redirection endpoints are specified when you register the application idea. If you need to make changes later, [update the application configuration][4] in the Developer Portal.
 
-You can register (whitelist) additional URLs. If you plan to use multiple endpoints, consider submitting a URL that incorporates a regular expression.
+[!include[TIP](../includes/tip-regex-urls.md)]
 
 To override the default redirect URL, specify the `redirect_url` query string parameter with one of your whitelisted URLs.
 
@@ -30,3 +30,4 @@ To override the default redirect URL, specify the `redirect_url` query string pa
 [1]: https://tools.ietf.org/html/rfc6749#section-3.1.2
 [2]: ../../api/authentication/online/validate-security-tokens.md
 [3]: ../../api/authentication/online/index.md
+[4]: ../../developer-portal/security/cors-and-redirection-urls.md

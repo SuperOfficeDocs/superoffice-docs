@@ -1,0 +1,196 @@
+### YamlMime:SubCategory
+
+title: Developer Portal
+summary: Presents the Developer Portal and describes how to use it to manage online integrations and application.
+
+metadata:
+  title: Developer Portal
+  description: Presents the Developer Portal and describes how to use it to manage online integrations and application.
+  so.topic: landing-page
+  so.date: 05.20.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about the Developer Portal
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Introduction to Developer Portal
+          url: "overview.md"
+        - text: Terminology
+          url: "overview.md#key-areas-and-concepts"
+      - linkListType: concept
+        links:
+          - text: What is an application?
+            url: ../apps/overview.md
+          - text: Versions and states
+            url: "versioning.md"
+          - text: App Store information
+            url: "app-store/index.md"
+      - linkListType: how-to-guide
+        links:
+          - text: Update profile
+            url: "howto/update-profile.md"
+          - text: Format text
+            url: "howto/format-text.md"
+
+# Card
+  - title: Getting started
+    linkLists:
+      - linkListType: get-started
+        links:
+        - text: Register as a developer
+          url: "../apps/getting-started/developer-registration-form.md"
+        - text: Register an app
+          url: "create-app/index.md"
+        - text: Integration points
+          url: ../api/overview/index.md 
+        - text: What API to use?
+          url: ../apps/getting-started/what-api-to-use.md
+
+  # Card
+  - title: Applications
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Register an app
+            url: "create-app/index.md"
+          - text: Update app
+            url: "howto/update-app.md"
+          - text: Change contact persons
+            url: "howto/update-contact-person.md"
+      - linkListType: reference
+        links:
+          - text: Application settings
+            url: "reference/app-settings.md"
+          - text: Application configuration
+            url: "reference/app-config.md"
+          - text: Requirements
+            url: ../apps/requirements/index.md
+          - text: Best practices
+            url: ../apps/best-practices.md
+
+  # Card
+  - title: Partners
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Update partner settings
+            url: "howto/update-partner-settings.md"
+          - text: Change technical contact
+            url: "howto/update-contact-person.md"
+          - text: Customers
+            url: "howto/customers.md"
+          - text: Request to publish
+            url: "howto/request-to-publish.md"
+      - linkListType: reference
+        links:
+          - text: Partner settings
+            url: "reference/partner-settings.md"
+          - text: User settings
+            url: "reference/user-settings.md"
+
+  # Card
+  - title: Configuration
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Endpoints
+            url: "howto/update-endpoints.md"
+          - text: Notifications
+            url: "howto/notifications.md"
+          - text: CORS and redirection URLs
+            url: "security/cors-and-redirection-urls.md"
+          - text: Find client ID
+            url: "security/find-clientid.md"
+          - text: New client secret
+            url: "security/get-client-secret.md"
+          - text: New certificate
+            url: "security/new-certificate.md"
+          - text: Request to publish
+            url: "howto/request-to-publish.md"
+
+  # Card
+  - title: App Store information
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview
+            url: "app-store/index.md"
+      - linkListType: how-to-guide
+        links:
+          - text: Update app page
+            url: "app-store/update-app-page.md"
+          - text: Update partner profile
+            url: "app-store/update-company-profile.md"
+          - text: Images and videos
+            url: "app-store/images-and-videos.md"
+          - text: SEO
+            url: "app-store/seo.md"
+
+  # Card
+  - title: User management
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Add user
+            url: "security/add-user.md"
+          - text: Edit user
+            url: "security/edit-user.md"
+          - text: Update profile
+            url: "howto/update-profile.md"
+          - text: Manage permissions
+            url: "security/manage-permissions.md"
+      - linkListType: reference
+        links:
+          - text: User settings
+            url: "reference/user-settings.md"
+
+# Card
+  - title: Related content
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Database mirroring
+            url: ../mirroring/index.yml
+          - text: Online tenant status
+            url: tenant-status/index.md
+          - text: User contexts
+            url: ../apps/getting-started/user-contexts.md
+          - text: What is provisioning?
+            url: ../apps/provisioning/index.md
+          - text: What is a redirect?
+            url: ../apps/redirects/index.md
+          - text: Certification
+            url: ../apps/certification/index.md
+
+# Card
+  - title: APIs
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Introduction to SuperOffice APIs
+            url: ../api/overview/index.md
+          - text: Authentication
+            url: ../api/authentication/overview.md
+          - text: Learn NetServer
+            url: ../api/overview/netserver.md
+          - text: Learn web services
+            url: ../api/web-services/index.md
+      - linkListType: reference
+        links:
+          - text: NetServer API reference
+            url: ../api/reference/netserver/index.md
+          - text: RESTful API reference
+            url: ../api/reference/restful/index.md
+          - text: Web Application API
+            url: ../api/reference/web/index.md
+          - text: NetServer REST proxy client
+            url: ../api/reference/webapi/index.md
+          - text: CRMScript
+            url: ../automation/crmscript/reference/index.md
+          - text: Database reference
+            url: ../database/tables/index.md

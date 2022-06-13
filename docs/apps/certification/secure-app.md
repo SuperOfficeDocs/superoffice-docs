@@ -51,5 +51,5 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 [2]: ../terminology.md
 [3]: ../getting-started/app-envir.md
 [4]: initial-watchcom-eval.md
-[5]: ../publish/get-listed.md
+[5]: ../../developer-portal/app-store/update-app-page.md
 [6]: ../publish/index.md

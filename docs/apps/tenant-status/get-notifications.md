@@ -21,6 +21,8 @@ When a tenant installation changes, SuperOffice sends a [change notification][2]
 
 2. Notify SuperOffice about your **State Change URL**, which specifies where SuperOffice sends notifications.
 
+    Soon, you can do this yourself in the Developer Portal.
+
 You are now set to [parse notifications][1] when you get them.
 
 <!-- Referenced links -->

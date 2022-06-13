@@ -27,7 +27,7 @@ items:
     > [!NOTE]
     > If you have **already registered your application**, replace the default URLs in the project property page (seen below) with your registered redirect URLs.
     >
-    > Alternatively, send instructions to SuperOffice by [filling in the update form](../manage/update-app.md) to add these URLs to your application definition.
+    > Alternatively, [go to the Developer Portal](../../developer-portal/howto/update-app.md) to add these URLs to your application configuration.
 
     * Visual Studio (community, professional, or enterprise edition)
 
@@ -59,7 +59,7 @@ items:
 
         ![imagetudj9.png -screenshot](../media/imagetudj9.png)
 
-    * The default RedirectURL for this website is defined in the application property page. When you are ready to deploy this application to another website, or URL, make sure to update your application redirectURL by filling in the [update application form](../manage/update-app.md). These can be changed in two places. The first is in the applications **property pages**:
+    * The default RedirectURL for this website is defined in the application property page. When you are ready to deploy this application to another website, or URL, make sure to [update your application redirect URL in the Developer Portal](../../developer-portal/howto/update-app.md). These can be changed in two places. The first is in the applications **property pages**:
 
         ![image8m8u.png -screenshot](../media/image8m8u.png)
 

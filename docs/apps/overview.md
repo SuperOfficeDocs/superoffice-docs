@@ -18,7 +18,7 @@ While a great standalone CRM solution, SuperOffice becomes better with complimen
 
 ## What are applications?
 
-An application for SuperOffice CRM Online expands the CRM solution to resolve relevant business needs and lets you extend the capabilities of SuperOffice.
+[!include[Application defined](includes/def-app.md)]
 
 The key to any integration is that the application is relevant and adds value to customers in their sales, marketing, customer service, and/or business processes.
 
@@ -79,6 +79,12 @@ These integration types are referred to as Integration Services.
 
 Applications are either [built to fit many][4] and available in the SuperOffice App Store or [one-off customization][5] for your company or a customer's company only.
 
+## Developer Portal
+
+We're proud to release a new self-service portal for developers and application partners this year. It will replace the manual forms and let you handle more of the configuration yourself.
+
+While you wait, check out our brand new [Developer Portal documentation][9].
+
 <!-- Referenced links -->
 [1]: terminology.md
 [2]: getting-started/hosting.md
@@ -88,3 +94,4 @@ Applications are either [built to fit many][4] and available in the SuperOffice 
 [6]: ../mirroring/overview.md
 [7]: ../api/plugins/erp-connectors/index.md
 [8]: ../api/plugins/quote-connectors/index.md
+[9]: ../developer-portal/index.yml

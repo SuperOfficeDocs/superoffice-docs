@@ -11,7 +11,7 @@ so.client: online
 
 # Standard apps for SuperOffice Online
 
-Standard applications are built to fit many and available in the SuperOffice App Store. In contrast, custom applications are one-off customizations for your company or a customer's company only.
+[!include[Standard vs. custom apps](includes/std-vs-custom-app.md)]
 
 Standard [applications][1] are owned by, operated by, and the responsibility of SuperOffice partners. You become a cloud partner when you sign our sub-DPA, which you need to publish your standard application to the App Store.
 

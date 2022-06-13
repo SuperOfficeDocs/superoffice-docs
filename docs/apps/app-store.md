@@ -2,7 +2,8 @@
 title: App Store
 uid: app_store
 description: The SuperOffice App Store marketplace
-author: {github-id}
+author: Bergfrid Dias
+so.date: 04.27.2022
 keywords: buy
 so.topic: concept
 so.envir: cloud
@@ -11,7 +12,7 @@ so.client: online
 
 # The App Store marketplace
 
-The SuperOffice App Store is where SuperOffice customers find and buy applications that expand their CRM solutions to solve relevant business needs.
+[!include[ALT](../includes/def-app-store.md)]
 
 Customers can browse the store to find a range of applications made available from both SuperOffice and our partners.
 

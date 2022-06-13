@@ -15,7 +15,7 @@ The client ID and client secret are your application's credentials.
 
 ## Partner identifiers
 
-Partner applications have 2 unique identifiers: `ApplicationIdentifier` (client ID) and `ApplicationToken` (client secret). The latter is considered a password and must be stored as such.
+[!include[Define app credentials](includes/def-app-credentials.md)]
 
 ### Client ID - ApplicationIdentifier
 
