@@ -39,7 +39,7 @@ Need to update something?
 * [Certificate (RSA private key)][5]
 * [CORS and redirection URLs][6]
 * [Notifications][7]
-* Mirroring, ERP sync, or quote endpoints
+* [Mirroring, ERP sync, or quote endpoints][8]
 * For any other values, contact the App Manager via our chat.
 
 ## Application - App Store information
@@ -68,6 +68,7 @@ Need to update something? [Follow these steps][2].
 [5]: ../security/new-certificate.md
 [6]: ../security/cors-and-redirection-urls.md
 [7]: ../howto/notifications.md
+[8]: update-endpoints.md
 
 <!-- Referenced images -->
 [img1]: ../media/request-to-publish.png
