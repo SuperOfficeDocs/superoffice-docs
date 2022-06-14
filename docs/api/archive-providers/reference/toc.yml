@@ -179,8 +179,6 @@ items:
   href: externalpersons.md
 - name: ExternalUsers
   href: externalusers.md
-- name: Favourites
-  href: favourites.md
 - name: FindAppointment
   href: findappointment.md
 - name: FindChatSession
