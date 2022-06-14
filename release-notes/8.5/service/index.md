@@ -23,6 +23,7 @@ so.date: 12.18.2020
 * [Service – Ukrainian language added to improved customer experience (8.5 R10)][10]
 * [Service – Standard reports to monitor Chat conversations (8.5 R11)][11]
 * [Chat – Widget can open in new window (8.5 R16)][16]
+* [New login solution for Inbox and Service mail boxes][17]
 
 <!-- Referenced links-->
 [1]: 8.5-R01-update.md
@@ -36,3 +37,4 @@ so.date: 12.18.2020
 [10]: 8.5-R10-update.md
 [11]: 8.5-R11-update.md
 [16]: 8.5-R16-update.md
+[167]: 8.5-R17-update.md

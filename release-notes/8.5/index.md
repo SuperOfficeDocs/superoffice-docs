@@ -7,7 +7,7 @@ so.date: 12.18.2020
 
 ## Summary of highlights
 
-SuperOffice 8.5 – is the current major upgrade of the SuperOffice CRM platform.
+SuperOffice 8.5 – is the last version of the SuperOffice CRM platform where the Windows client is supported.
 
 Tags is a new main feature and is a powerful tool to search and group requests in SuperOffice Service.
 
@@ -43,3 +43,4 @@ Several of the main screens in Pocket CRM has been redesigned to offer an easier
 * 8.5 R15
 * 8.5 R15 Hotfix: For versions of Chromium 86 and Edge 86
 * 8.5 R16 Windows features, Chat security settings, security bugs on Web and Service
+* 8.5 R17 OAuth – Open Authorization for Inbox / Open Authorization for Mail boxes

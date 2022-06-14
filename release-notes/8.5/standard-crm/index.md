@@ -20,6 +20,7 @@ so.date: 12.18.2020
 * [Appointment & Document – Link for Add project (8.5 R16)][16]
 * [Inbox – Possible to set other default folders (8.5 R16)][16]
 * [Inbox – Automatic refresh of the inbox folders (8.5 R16)][16]
+* [OAuth – Open Authorization for Inbox / Open Authorization for Mail boxes (8.5 R17)][17]
 
 <!-- Referenced links-->
 [1]: 8.5-R01-update.md
@@ -31,3 +32,4 @@ so.date: 12.18.2020
 [11]: 8.5-R11-update.md
 [14]: 8.5-R14-update.md
 [16]: 8.5-R16-update.md
+[17]: 8.5-R17-update.md
