@@ -3,8 +3,8 @@ title: Register identity provider (domain name)
 uid: register_idp
 description: Register identity provider (domain name)
 author: {github-id}
-so.date:
-keywords:
+so.date: 14.06.2022
+keywords: register idp provider identity
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -15,7 +15,9 @@ so.client: online
 Before using a federated sign-in service, you must register the domain with us. This enables SuperID to recognize the domain of the user's email address and redirect to the correct identity provider for authentication.
 
 >[!NOTE]
->Any user that can authenticate with the customer's domain can register **Google** as an identity provider.<br>To register **Microsoft** as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
+>Any user that can authenticate with the customer's domain can register **Google** as an identity provider.
+>
+> To register **Microsoft** as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
 
 ## Pre-requisites
 
@@ -23,9 +25,11 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 * You are able to authenticate with the customer's domain. For Azure AD, Global Admin or Application Administrator is required.
 
->[!NOTE]
->**How does DP registration impact existing users?**<br> A 'user-transition' (SuperOffice password -> Google/Microsoft authentication) for all existing users, on first log in after IDP registration is completed: users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
-<br>No use of "SO password" any longer, but user is sent to Google/Microsoft for authentication on login to CRM Online.
+## How does DP registration impact existing users?
+
+A 'user-transition' (SuperOffice password -> Google/Microsoft authentication) for all existing users, on first log in after IDP registration is completed: users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
+
+No use of "SO password" any longer, but user is sent to Google/Microsoft for authentication on login to CRM Online.
 
 ## Start IDP registration
 
@@ -52,9 +56,13 @@ Before using a federated sign-in service, you must register the domain with us. 
 
     ![Microsoft 365 sign-in -screenshot][img12]
 
+3. Confirm that all users of this domain should use the identity provider.
+
+    ![confirm-all-users-o365.png -screenshot][img4]
+
 #### Explanation about requested permissions
 
-  SuperOffice application (Application Id d0c02962-eedd-4d1e-8a70-a315f1aa5072) is required for logging in and to support basic functionality for the user (delegated permission). The permission does not require Admin consent.  The reason for asking administrator to approve these permissions is to prevent that the individual user must consent to these permissions.
+SuperOffice application (Application Id d0c02962-eedd-4d1e-8a70-a315f1aa5072) is required for logging in and to support basic functionality for the user (delegated permission). The permission does not require Admin consent.  The reason for asking administrator to approve these permissions is to prevent that the individual user must consent to these permissions.
 
 The delegated permissions required for the SuperOffice application are:
 
@@ -64,10 +72,6 @@ The delegated permissions required for the SuperOffice application are:
 | Email | The built-in e-mail client in the SuperOffice CRM product requires *IMAP.AccessAsUser.All* for receiving and *SMTP.Send* for sending e-mails on behalf of the user. *Offline_access* is needed for refreshing the mailboxes in background. |
 | Video Meeting & Microsoft Teams | *OnlineMeetings* permissions is required to set up video meetings directly from the diary of the SuperOffice CRM product. |
 | SharePoint document archive | The *Sites.Manage.All* and *Sites.ReadWrite.All* is required to create, read and write documents to SharePoint. |
-
-3. Confirm that all users of this domain should use the identity provider.
-
-    ![confirm-all-users-o365.png -screenshot][img4]
 
 ### For Google
 
