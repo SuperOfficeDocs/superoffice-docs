@@ -21,8 +21,16 @@ There will always be some differences between the Windows client and Web client.
 * [Appointment – Participants archive with configurable columns (8.5 R16)][16]
 * [Mini card Appointment – Configurable fields (8.5 R16)][16]
 * [Activities – Archive filters with buttons (8.5 R16)][16]
+* [Appointment – Configure the Participant section of Description tab (8.5 R17)][17]
+* [Appointment – Shows linked project guide (8.5 R17)][17]
+* [Mini panel/Side panel – Preview of Appointment shows the Next milestone date with link (8.5 R17)][17]
+* [Time zone – Guide for Sales and Project and preview on side panel show your own time zone (8.5 R17)][17]
+* [Time zone – Configure the Activities archive to show time zone as a column (8.5 R17)][17]
+* [Preferences dialog – with Apply now button (8.5 R17)][17]
+* [Add to… dialog – A find button when adding members to Project and Sale (8.5 R17)][17]
 
 <!-- Referenced links-->
 [1]: 8.5-R01-update.md
 [11]: 8.5-R11-update.md
 [16]: 8.5-R16-update.md
+[17]: 8.5-R17-update.md
