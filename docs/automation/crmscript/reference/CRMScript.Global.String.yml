@@ -298,14 +298,14 @@ items:
   nameWithType: String.isLower()
   fullName: CRMScript.Global.String.isLower()
   type: Method
-  summary: "\nDetermines if the string contains lower-case characters only. Will return true if no upper-case characters are found, otherwise false.\n"
-  remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
+  summary: "\nDetermines if the string only contains lower case letters. Will return true if no upper case letters are found, otherwise false.\n"
+  remarks: "\nIf any none letters (whitespace, punctuation marks etc ) are present in the string, the method will return false!\n"
   syntax:
     content: Bool isLower()
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description: "True if the string only contains lowercase characters."
+      description: "True if the string only contains lower case letters."
 - uid: CRMScript.Global.String.isUpper()
   commentId: M:CRMScript.Global.String.isUpper()
   id: isUpper()
@@ -318,14 +318,14 @@ items:
   nameWithType: String.isUpper()
   fullName: CRMScript.Global.String.isUpper()
   type: Method
-  summary: "\nDetermines if the string contains upper-case characters only. Will return true if no lower-case characters are found, otherwise false.\n"
-  remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
+  summary: "\nDetermines if the string only contains upper case letters. Will return true if no lower case letters are found, otherwise false.\n"
+  remarks: "\nIf any none letters (whitespace, punctuation marks etc ) are present in the string, the method will return false!\n"
   syntax:
     content: Bool isUpper()
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description: "True if the string only contains uppercase characters."
+      description: "True if the string only contains upper case letters."
 - uid: CRMScript.Global.String.equals(String)
   commentId: M:CRMScript.Global.String.equals(String)
   id: equals(String)
