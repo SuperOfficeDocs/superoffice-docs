@@ -75,6 +75,7 @@ Both user plans and user names must be validated by the migrator before the cus
 Ticking the **Test Migration** checkbox will have the following consequences:
 
 * It does not create a [test environment][2].
+* Onsite installation will not be touched (stopped for logging) and its license will not be changed. Users will be able to log in to Onsite while performing a Test migration.
 * Tenant will be left in *offlinemaintenance* mode. It can be used to create a production sandbox.
 * Users cannot log into it.
 * It will leave the tenant in a state that allows you to perform a test migration several times without involvement of Online Operations. With the sandbox you can verify that changes made Onsite are correctly transferred to Online.
