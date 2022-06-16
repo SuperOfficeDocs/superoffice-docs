@@ -3,7 +3,7 @@ title: Deploy Ribbons
 uid: deploy_ribbons_on_citrix
 description: Deploy Ribbons in a Citrix or Terminal Server environment
 author: {github-id}
-keywords:
+keywords: ribbons deploy citrix terminal
 so.topic: howto
 so.envir: onsite
 # so.client:
@@ -63,4 +63,10 @@ Windows Registry Editor Version 5.00
 "Description"="SuperOffice Ribbon for Microsoft Word 2007"
 "CommandLineSafe"=dword:00000001
 ```
-[!include[Ribbons language](includes/ribbons-language.md)]
+
+## Ribbons language
+
+How to change default Ribbons language is described in this [article][2].
+
+<!-- Referenced links -->
+[2]: addins-language.md

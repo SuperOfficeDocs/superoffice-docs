@@ -3,7 +3,7 @@ title: Deploy WebTools
 uid: deploy_maillink_webextensions_on_citrix
 description: Deploy WebTools in a Citrix or Terminal Server environment
 author: {github-id}
-keywords:
+keywords: maillink deploy citrix terminal webtools
 so.topic: howto
 so.envir: onsite
 # so.client:
@@ -39,7 +39,6 @@ The correct way to support a scenario where some users/groups should get the Mai
 Use the following Registry script to deploy MailLink to those users/groups that should receive these components.
 **Remember to substitute the paths with correct filenames for your installation!**
 
-
 The following file is to get MailLink deployed on SuperOffice 8.0 and newer:
 
 ```text
@@ -54,7 +53,7 @@ The following file is to get MailLink deployed on SuperOffice 8.0 and newer:
 
 ## Web Extensions deployment
 
-#### Installation on Citrix-server
+### Installation on Citrix-server
 
 1. Install **SuperOffice.Web.Tools.exe** in 'Install mode'
 
@@ -62,13 +61,14 @@ The following file is to get MailLink deployed on SuperOffice 8.0 and newer:
 
 3. Make sure users **who should run Web Extensions** get the Web Extensions shortcut in: `C:\Users\"username"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 
-#### Upgrade of Web Extensions on Citrix-server
+### Upgrade of Web Extensions on Citrix-server
 
 After the upgrade of WebTools on the server remember to remove Web Extensions startup from  `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` again.
 
-[!include[Ribbons language](includes/ribbons-language.md)]
+## MailLink language
 
-Another way how to change the language of the Mail Link is described in this [FAQ][3].
+How to change default MailLink language is described in this [article][2]. Another way is described in this [FAQ][3].
 
 <!-- Referenced links -->
+[2]: addins-language.md
 [3]: https://crm.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=111721

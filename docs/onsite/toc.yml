@@ -83,6 +83,9 @@ items:
             href: install/server/ml-on-citrix.md
           - name: Ribbons deployment
             href: install/server/ribbons-on-citrix.md
+          - name: WebTools and MailLink language
+            href: install/server/addins-language.md
+            
     - name: Install Win client
       href: install/win-client/index.md
       items:
