@@ -257,7 +257,7 @@ items:
   nameWithType: String.toLower()
   fullName: CRMScript.Global.String.toLower()
   type: Method
-  summary: "\nConverts the string to its lower-case representation (all lower-case).\n"
+  summary: "\nConverts the string to its lowercase representation (all lowercase).\n"
   example:
   - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nString sLow = s.toLower();</code></pre>\n"
   syntax:
@@ -265,7 +265,7 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.String
-      description: "The lower case representation of the String."
+      description: "The lowercase representation of the String."
 - uid: CRMScript.Global.String.toUpper()
   commentId: M:CRMScript.Global.String.toUpper()
   id: toUpper()
@@ -277,7 +277,7 @@ items:
   nameWithType: String.toUpper()
   fullName: CRMScript.Global.String.toUpper()
   type: Method
-  summary: "\nConverts the string to its upper-case representation (all upper-case).\n"
+  summary: "\nConverts the string to its uppercase representation (all uppercase).\n"
   example:
   - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nString sUp = s.toUpper();</code></pre>\n"
   syntax:
@@ -285,7 +285,7 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.String
-      description: "The string in upper-case characters."
+      description: "The string in uppercase characters."
 - uid: CRMScript.Global.String.isLower()
   commentId: M:CRMScript.Global.String.isLower()
   id: isLower()
@@ -298,14 +298,14 @@ items:
   nameWithType: String.isLower()
   fullName: CRMScript.Global.String.isLower()
   type: Method
-  summary: "\nDetermines if the string contains lower-case characters only. Will return true if no upper-case characters are found, otherwise false.\n"
-  remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
+  summary: "\nDetermines if the string contains only lowercase letters. Will return true if no uppercase letters are found, otherwise false.\n"
+  remarks: "\nIf any nonletters (whitespace, punctuation marks etc ) are present in the string, the method will return false!\n"
   syntax:
     content: Bool isLower()
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description: "True if the string only contains lowercase characters."
+      description: "True if the string contains only lowercase letters."
 - uid: CRMScript.Global.String.isUpper()
   commentId: M:CRMScript.Global.String.isUpper()
   id: isUpper()
@@ -318,14 +318,14 @@ items:
   nameWithType: String.isUpper()
   fullName: CRMScript.Global.String.isUpper()
   type: Method
-  summary: "\nDetermines if the string contains upper-case characters only. Will return true if no lower-case characters are found, otherwise false.\n"
-  remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
+  summary: "\nDetermines if the string contains only uppercase letters. Will return true if no lowercase letters are found, otherwise false.\n"
+  remarks: "\nIf any nonletters (whitespace, punctuation marks etc ) are present in the string, the method will return false!\n"
   syntax:
     content: Bool isUpper()
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description: "True if the string only contains uppercase characters."
+      description: "True if the string contains only uppercase letters."
 - uid: CRMScript.Global.String.equals(String)
   commentId: M:CRMScript.Global.String.equals(String)
   id: equals(String)
@@ -830,7 +830,7 @@ items:
   nameWithType: String.isAlpha()
   fullName: CRMScript.Global.String.isAlpha()
   type: Method
-  summary: "\nDetermines if the string exclusively contains upper-case and lower-case letters. Will return true if the restriction applies, otherwise false.\n"
+  summary: "\nDetermines if the string exclusively contains uppercase and lowercase letters. Will return true if the restriction applies, otherwise false.\n"
   remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
   example:
   - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nprint(s.isAlpha().toString())</code></pre>\n"
@@ -839,7 +839,7 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description: "True if the string only contains alphabetic characters."
+      description: "True if the string contains only alphabetic characters."
 - uid: CRMScript.Global.String.isDigit()
   commentId: M:CRMScript.Global.String.isDigit()
   id: isDigit()
@@ -858,7 +858,7 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description: "True if the string only contains numeric characters [0-9]."
+      description: "True if the string contains only numeric characters [0-9]."
 - uid: CRMScript.Global.String.isAlphanumeric()
   commentId: M:CRMScript.Global.String.isAlphanumeric()
   id: isAlphanumeric()
@@ -871,13 +871,13 @@ items:
   nameWithType: String.isAlphanumeric()
   fullName: CRMScript.Global.String.isAlphanumeric()
   type: Method
-  summary: "\nCombines the criteria of isAlpha() and isDigit(), and will return true if the string is restricted to any combination of lower-case and upper-case letters and digits [0-9].\n"
+  summary: "\nCombines the criteria of isAlpha() and isDigit(), and will return true if the string is restricted to any combination of lowercase and uppercase letters and digits [0-9].\n"
   syntax:
     content: Bool isAlphanumeric()
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description: "True if the string only contains alphabetic characters or digits."
+      description: "True if the string contains only alphabetic characters or digits."
 - uid: CRMScript.Global.String.isNull()
   commentId: M:CRMScript.Global.String.isNull()
   id: isNull()
