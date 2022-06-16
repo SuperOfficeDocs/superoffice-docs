@@ -3,7 +3,7 @@ title: Install on Citrix/Terminal server
 uid: install_on_citrix
 description: Install on Citrix/Terminal server
 author: {github-id}
-keywords:
+keywords: install citrix terminal deploy
 so.topic: howto
 so.envir: onsite
 # so.client:
@@ -12,7 +12,7 @@ so.envir: onsite
 # Install on a Citrix or Terminal server
 
 > [!NOTE]
-> Our WebTools up to version 7.5 SR2 and 8.0 SR1 will store the user information in Isolated Storage and not the roaming profile, this means users who log on and off where this location is wiped will have to log in again.
+> Our WebTools up to version 7.5 SR2 and 8.0 SR1 will store the user information in Isolated Storage and not in the roaming profile, this means users who log on and off where this location is wiped will have to log in again.
 
 When you install something on a Citrix/Terminal server, you must do this as an administrator (or someone with administrative privileges). Otherwise, you won’t be allowed to install.
 
@@ -34,7 +34,7 @@ When it comes to the MailLink and Ribbons components, things start to get more c
 
 The installer writes a COM GUID that points to a COM-registration that resolves to the MailLink components and will make these usable at runtime. This is the first place you might encounter problems.
 
-Since the SuperOffice 7 installer writes everything to the `HKEY_LOCAL_MACHINE`  registry key, we might come into a situation where the search order in SuperOffice will give us problems. SuperOffice can look for settings both in a user context (using the `HKEY_CURRENT_USER`) and in the machine context (`HKEY_LOCAL_MACHINE`).
+Since the SuperOffice 7 installer writes everything to the `HKEY_LOCAL_MACHINE` registry key, we might come into a situation where the search order in SuperOffice will give us problems. SuperOffice can look for settings both in a user context (using the `HKEY_CURRENT_USER`) and in the machine context (`HKEY_LOCAL_MACHINE`).
 
 **SuperOffice will ALWAYS look in the user context before checking the machine context.**
 
@@ -46,9 +46,9 @@ If you have previous registrations, you need to write a simple login script that
 
 The next step to start troubleshooting is the way the Ribbons and MailLink add-ins are registered with Microsoft Office. This is also a place where a few things can go very wrong.
 
-First of all, the Outlook Addin itself is only an Addin, not a Ribbon. An Addin can be registered in a machine context and is therefore written to the `HKEY_LOCAL_MACHINE`  registry hive (`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`). This will mostly work without too many problems, but be aware of the same issues with previous user-context registrations (`HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`) overwriting the one written by the installer.
+First of all, the Outlook Add-in itself is only an add-in, not a Ribbon. An add-in can be registered in a machine context and is therefore written to the `HKEY_LOCAL_MACHINE` registry hive (`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`). This will mostly work without too many problems, but be aware of the same issues with previous user-context registrations (`HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`) overwriting the one written by the installer.
 
-The Ribbon components on the other hand are more complicated since they need to be registered in a user context. For Office 2010 and newer `HKEY_LOCAL_MACHINE`  can be used, but this will not work with Office 2007 without a patch. To make sure that every user gets these Ribbons, Microsoft Office has a system where you can tell Office to create some registry settings in the user context when you are about to start any Office application. This is the mechanism we’ve used to make sure every user gets the correct Ribbons when they log on. The registry propagation system uses a set of registry keys describing what to create that can be found here (for a 64-bit machine):
+The Ribbon components on the other hand are more complicated since they need to be registered in a user context. For Office 2010 and newer `HKEY_LOCAL_MACHINE` can be used, but this will not work with Office 2007 without a patch. To make sure that every user gets these Ribbons, Microsoft Office has a system where you can tell Office to create some registry settings in the user context when you are about to start any Office application. This is the mechanism we’ve used to make sure every user gets the correct Ribbons when they log on. The registry propagation system uses a set of registry keys describing what to create that can be found here (for a 64-bit machine):
 
 **Office 2016:**
 
@@ -57,27 +57,15 @@ HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\Supe
 HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeRibbons
 ```
 
+These keys are for Office 2016, for other Office versions change the path accordingly.
+
 > [!NOTE]
-> There is a [bug][1] with Office 2016
-
-**Office 2013:**
-
-```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeOfficeRibbons
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeRibbons
-```
-
-**Office 2010:**
-
-```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeOfficeRibbons
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeRibbons
-```
+> There is a [bug][1] with Office 2016.
 
 If you don’t want to have Ribbons installed for all users, you can delete these registry keys and enter their values into a login script that adds this for only those of your users that should have MailLink available.
 
 > [!NOTE]
-> If you are deploying MailLink/Ribbons in a Citrix or Terminal Server to some but not all users, [read this][2].
+> Read about how to deploy [WebTools][2] or [Ribbons][3] in a Citrix or Terminal Server.
 
 ## Web Extensions issue on Citrix/Terminal server
 
@@ -106,8 +94,8 @@ To stop this from happening you have to activate a registry key named **UseBorde
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=11900&azure=1
-<!-- workitem=11900 -->
-[2]: deploy-on-citrix.md
+[2]: ml-on-citrix.md
+[3]: ribbons-on-citrix.md
 [11]: ../../../service/install/prepare.md
 [12]: ../../../service/install/index.md
 [13]: ../guide.md
