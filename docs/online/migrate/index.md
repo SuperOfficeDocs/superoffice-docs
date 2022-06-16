@@ -37,6 +37,7 @@ The migrator needs access to the SuperOffice Admin client with a user with Super
 **Before migrating you will need to go through the following steps in the administration client:**
 
 * Make sure no users have duplicate email addresses:
+
 ![duplicate -screenshot][img2]
 
 * Make sure all the users who should have access to SuperOffice Online have a license and a valid email address
@@ -71,7 +72,14 @@ Both user plans and user names must be validated by the migrator before the cus
 
 #### Test Migration
 
-Ticking the **Test Migration** checkbox in the OMT does not create a [test environment][2], this checkbox will just leave the live tenant in offline maintenance and allow you to re-run the migration!
+Ticking the **Test Migration** checkbox will have the following consequences:
+
+* It does not create a [test environment][2].
+* Tenant will be left in *offlinemaintenance* mode. It can be used to create a production sandbox.
+* Users cannot log into it.
+* It will leave the tenant in a state that allows you to perform a test migration several times without involvement of Online Operations. With the sandbox you can verify that changes made Onsite are correctly transferred to Online.
+* It will still completely delete the database, users and app authorizations on the tenant, which is why will do not want users to log in to this tenant before it is actually a live migration.
+* Once you run OMT with the Test Migration checkbox unticked, the tenant will be set to a *running* mode after a migration is completed and accepted.
 
  ![4-checklist-start.png -screenshot][img9]
 
