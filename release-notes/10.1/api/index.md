@@ -22,6 +22,7 @@ so.topic: reference
 * [API - NULL handling for extra fields (10.1.2)][2]
 * [API - Fixed bug ID 27795][2]
 * [API – Breaking changes on Web.Api (10.1.3)][3]
+* [API – CRMScript array and struct intellisense (10.1.4)][4]
 
 <!-- Referenced links-->
 [1]: 10.1.1-update.md
