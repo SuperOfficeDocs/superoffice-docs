@@ -10,9 +10,9 @@ so.envir: cloud
 so.client: online
 ---
 
-# Production sandbox (test environment)
+# CRM Online production sandbox (test environment)
 
-Customers and partners can buy their own **test tenant in production based on a copy** of their production data.
+Customers and partners can buy their own **CRM Online sandbox (test) tenant in production based on a copy** of their production data.
 
 ## What is a production sandbox?
 
@@ -21,11 +21,11 @@ This **sandbox** provides you with a copy of your company’s database, includin
 The production sandbox is a **dead end**. No round-tripping. We will not make it possible to migrate data back into the production environment from the sandbox.
 
 > [!CAUTION]
-> **The production sandbox is not a backup!** We will clean up the copied production database and also remove all mailboxes used by Service there.
+> **The production sandbox is not a backup!** We will clean up the copied production database and also remove all mailboxes used by Service there. [See all steps][5].
 
 ## How do I get one?
 
-To buy your own production sandbox, please contact your local sales representative or fill in [this form][4]. The initial setup is handled by SuperOffice AS/Online Operation.
+To buy your own CRM Online production sandbox, please contact your local sales representative or fill in [this form][4]. The initial setup is handled by SuperOffice AS/Online Operation.
 
 > [!TIP]
 > You don't need the same amount of [user plans][3] in the sandbox. It is entirely up to you how many and the type of plans you add. We assume most will have just a few test users or developers with access to it.
@@ -51,9 +51,11 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
   * cscu - URL to *customer.fcgi*
   * csbl - URL to *blogic.fcgi*
 
-* All scheduled tasks have been marked as disabled unless you chose to enable them in the wizard
+* All scheduled tasks have been marked as disabled unless you chose to enable them in the wizard.
 
 * Any SuperOffice App Store app that was authorized on your production database will not work in the sandbox and you will have to sign up again if you want to use it here. The authorization/approval for the app to access a specific installation is a one-to-one link.
+
+* [See all steps][5]
 
 ## Best practices
 
@@ -70,12 +72,12 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 
 * If you plan to test a partner app, ask them ahead of time if the app supports authenticating against multiple tenants.
 
-## Community users and your test database (onsite installation only)
+## Community users and your test database (Onsite installation only)
 
 > [!NOTE]
-> This section only applies to onsite installations.
+> This section only applies to Onsite installations.
 
-We are aware that some onsite installations use their SuperOffice production serial number on more than one database, and if you are one of those please read on.
+We are aware that some Onsite installations use their SuperOffice production serial number on more than one database, and if you are one of those please read on.
 
 Each SuperOffice database sends information to us, that is both Onsite from version 8.0 and CRM Online, as part of our Terms of Service. This is both statistical and user information, and by clicking **Accept** on this dialog, we regularly receive information from your database regarding users and use.
 
@@ -96,7 +98,8 @@ To turn off these settings, set both preferences to **No**.
 [1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FWebpanel.htm
 [2]: replace.md
 [3]: ../../admin/license/user-plans.md
-[4]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?action=formFrame&formId=F-M6gYjVxc
+[4]: order-sandbox.md
+[5]: clone-to.md
 
 <!-- Referenced images -->
 [img1]: media/13062-28350.jpg

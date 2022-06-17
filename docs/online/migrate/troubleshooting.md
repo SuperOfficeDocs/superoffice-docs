@@ -111,7 +111,7 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 
     ![MissingTableExample][img4]
 
-    Next time you run this, these will be gone 
+    Next time you run this, these will be gone.
 
     ![MissingTable][img5]
 
