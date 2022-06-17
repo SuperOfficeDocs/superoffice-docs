@@ -12,7 +12,7 @@ so.client: online
 
 # CRM Online production sandbox (test environment)
 
-Customers and partners can buy their own **CRM Online test tenant in production based on a copy** of their production data.
+Customers and partners can buy their own **CRM Online sandbox (test) tenant in production based on a copy** of their production data.
 
 ## What is a production sandbox?
 
@@ -21,7 +21,7 @@ This **sandbox** provides you with a copy of your company’s database, includin
 The production sandbox is a **dead end**. No round-tripping. We will not make it possible to migrate data back into the production environment from the sandbox.
 
 > [!CAUTION]
-> **The production sandbox is not a backup!** We will clean up the copied production database and also remove all mailboxes used by Service there.
+> **The production sandbox is not a backup!** We will clean up the copied production database and also remove all mailboxes used by Service there. [See all steps][5].
 
 ## How do I get one?
 
@@ -54,6 +54,8 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 * All scheduled tasks have been marked as disabled unless you chose to enable them in the wizard.
 
 * Any SuperOffice App Store app that was authorized on your production database will not work in the sandbox and you will have to sign up again if you want to use it here. The authorization/approval for the app to access a specific installation is a one-to-one link.
+
+* [See all steps][5]
 
 ## Best practices
 
@@ -97,6 +99,7 @@ To turn off these settings, set both preferences to **No**.
 [2]: replace.md
 [3]: ../../admin/license/user-plans.md
 [4]: order-sandbox.md
+[5]: clone-to.md
 
 <!-- Referenced images -->
 [img1]: media/13062-28350.jpg
