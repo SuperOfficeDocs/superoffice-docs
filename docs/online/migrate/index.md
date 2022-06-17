@@ -26,6 +26,9 @@ You will have some downtime during the migration, the time depends on how large 
 
 ## Before you migrate
 
+> [!TIP]
+> Worried something might go wrong? We know that migrating to CRM Online for our more advanced customers may be a longer journey. We strongly recommend you contact your SuperOffice sales person and consider our **extended migration services**.
+
 ### Your onsite SuperOffice version
 
 You need to be on at least SuperOffice 7.1 to migrate to CRM Online. If you run an older version of SuperOffice than 7.1, then an upgrade must be performed first.
@@ -40,7 +43,7 @@ The migrator needs access to the SuperOffice Admin client with a user with Super
 
 ![duplicate -screenshot][img2]
 
-* Make sure all the users who should have access to SuperOffice Online have a license and a valid email address
+* Make sure all the users who should have access to SuperOffice CRM Online have a license and a valid email address
 * Make sure there are no users currently on Travel
 * Make sure that you do not use SuperOffice Satellite and have active satellites
 
@@ -74,13 +77,17 @@ Both user plans and user names must be validated by the migrator before the cus
 
 Ticking the **Test Migration** checkbox will have the following consequences:
 
-* It does not create a [test environment][2].
-* Onsite installation will not be touched (stopped for logging) and its license will not be changed. Users will be able to log in to Onsite while performing a Test migration.
-* Tenant will be left in *offlinemaintenance* mode. It can be used to create a production sandbox.
-* Users cannot log into it.
-* It will leave the tenant in a state that allows you to perform a test migration several times without involvement of Online Operations. With the sandbox you can verify that changes made Onsite are correctly transferred to Online.
-* It will still completely delete the database, users and app authorizations on the tenant, which is why will do not want users to log in to this tenant before it is actually a live migration.
-* Once you run OMT with the Test Migration checkbox unticked, the tenant will be set to a *running* mode after a migration is completed and accepted.
+* Your onsite installation will not be touched (stopped for logging) and its license will not be changed. Users will be able to log in to Onsite while performing test migrations.
+* It does not create a [production sandbox environment][2], this has to be ordered separately.
+* Tenant will be left in *offlinemaintenance* mode. It can be cloned in to a production sandbox for log in and testing.
+* Users cannot log in to it.
+* It will leave the tenant in a state that allows you to perform the test migration several times without involvement from Online Operations. With the sandbox you can verify that changes made Onsite are correctly transferred to Online.
+* Each test migration will completely delete the current migrated database, all SuperId users and any app authorizations on the tenant. This is why we do not allow users to log in to this tenant before it is actually a live migration.
+
+> [!WARNING]
+> Once you run OMT with the **Test Migration** checkbox unticked (live migration), the tenant will be set to a *running* mode after a migration is completed and accepted.
+>
+> After live migration where users have been allowed to log in and the migration is marked as complete, you **cannot** run the OMT again on this tenant.
 
  ![4-checklist-start.png -screenshot][img9]
 
@@ -126,7 +133,7 @@ It is quite common that some documents are missing during the time of migration.
 
 You can choose from 2 options:
 
-* **Upload missing files** - this option will upload missing or changed documents only. The Online database will be intact.
+* **Upload missing files** - this option will upload missing or changed documents only. The CRM Online database will be intact.
 
 * **Overwrite existing test migration** - if you ticked the **Test Migration** checkbox on the **Confirm** page, this option will upload a fresh copy of the database and new or updated documents. Existing unchanged documents will not be overwritten saving the migration time.
 
