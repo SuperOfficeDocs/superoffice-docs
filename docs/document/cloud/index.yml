@@ -7,7 +7,7 @@ metadata:
   title: Cloud document integrations
   description: ""
   ms.topic: landing-page
-  ms.date: 04.26.2021
+  ms.date: 06.20.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
@@ -20,10 +20,6 @@ landingContent:
         links:
           - text: Introduction
             url: overview.md
-      - linkListType: how-to-guide
-        links:
-          - text: Set up cloud document integration
-            url: set-up.md
 
   # Card
   - title: Google Workspace document integration

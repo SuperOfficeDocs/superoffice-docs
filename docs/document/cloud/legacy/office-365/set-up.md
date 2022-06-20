@@ -1,18 +1,20 @@
 ---
 title: Set up
-uid: office_365_set_up
-description: Setup - Microsoft 365 Cloud Office document Integration
+uid: office-365-set-up
+description: How to set up Microsoft 365 Cloud Office document integration
 author: {github-id}
-so.date:
-keywords:
+so.date: 06.20.2022
+keywords: Microsoft 365, document
 so.topic: howto
 so.envir: cloud
 so.client: online
 ---
 
-# Set up Microsoft 365 Cloud Office document Integration
+# Set up Microsoft 365 Cloud Office document integration
 
 This article will help you set up the Microsoft 365 part of the integration between Microsoft 365 and SuperOffice CRM Online.
+
+[!include[Microsoft 365 app is deprecated](includes/deprecated.md)]
 
 Setting up Microsoft 365 SharePoint Integration has 2 parts:
 
@@ -20,9 +22,7 @@ Setting up Microsoft 365 SharePoint Integration has 2 parts:
   * Check if your SuperOffice CRM Online tenant is ready (pre-requisite step).
   * Configure the integration in your Microsoft 365 SharePoint (steps 1 - 3).
   * Enable the integration for your CRM Online site (step 4).
-* Configure your templates in SuperOffice Admin (in [this article][1]).
-
-If you would like to get assistance configuring the integration, sign up for [Microsoft 365 Integration in the SuperOffice App Store][2].
+* Configure your templates in SuperOffice Admin (step 5).
 
 ## Before you begin
 
@@ -253,9 +253,45 @@ You will get a notification from SuperOffice R&D Services when the Microsoft 365
 
 When it is ready to use, you may [continue to set up the templates][1], to make use of the Microsoft 365 SharePoint integration.
 
+## Step 5 - Configure your templates in SuperOffice Admin
+
+This will store the template in the Microsoft 365 cloud. When the user uses this template, the document created will also be saved in the Microsoft 365 cloud and opened with Word Online.
+
+1. Open SuperOffice Admin, go to Lists, choose **Document - Template**.
+
+2. Click **Add**.
+
+3. Add template file:
+
+    * Enter a name.
+    * Set **Store template in** to "Office365".
+    * Choose the source of the new template (create, upload, or copy).
+    * Click **Save**.
+
+4. Optionally edit the template name, if required, and click **Edit** to edit the template file itself.
+
+5. Enter the required information in the **Details** and **Languages** tabs:
+
+    * Select **Direction** (outgoing or incoming).
+    * Choose where to store document created by this template: set **Document stored in** to "Office365".
+    * Enter a value in the **Our reference (default)** field using [template variables][1]. For example `auth` for the sender’s first and last names.
+    * Optionally, enter a description.
+
+6. Click **Save**. The Document template is now available in the CRM client
+
+> [!NOTE]
+> All documents written in SuperOffice will be stored in the SharePoint cloud if the template is set up for it, and available to open and edit in SuperOffice CRM Online.
+
+* If you want to use Microsoft 365 to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to Microsoft 365 SharePoint.
+
+* Existing documents will not automatically be moved from SuperOffice to Microsoft 365 SharePoint.
+
+* Moving existing **documents** to or from SuperOffice and Microsoft 365 SharePoint is not supported.
+
+* Moving existing **templates** to or from SuperOffice and Microsoft 365 SharePoint can be performed in the Admin client.
+
 <!-- Referenced links -->
 [1]: ../../g-suite/configure.md
-[2]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
 [3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script
 [5]: https://social.technet.microsoft.com/wikicontents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx
