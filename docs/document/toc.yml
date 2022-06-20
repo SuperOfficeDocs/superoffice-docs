@@ -3,8 +3,21 @@ items:
   expanded: true
   items:
   - name: Cloud document integrations
-    href: cloud/overview.md
+    href: cloud/index.yml
     items:
+    - name: Overview
+      href: cloud/overview.md
+    - name: SharePoint Documents
+      href: cloud/sharepoint-documents/index.md
+      items:
+      - name: Requirements
+        href: cloud/sharepoint-documents/requirements.md
+      - name: Set up
+        href: cloud/sharepoint-documents/set-up.md
+      - name: Configure
+        href: cloud/sharepoint-documents/configure-templates.md
+      - name: Troubleshooting
+        href: cloud/sharepoint-documents/troubleshooting.md
     - name: Google Workspace document integration
       href: cloud/g-suite/index.md
       items:
