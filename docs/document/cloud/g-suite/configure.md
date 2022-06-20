@@ -111,7 +111,9 @@ All documents written in SuperOffice will be stored in the provider's cloud if t
 * Moving existing templates to or from SuperOffice and Microsoft 365 SharePoint can be performed in the Admin client.
 
 <!-- Referenced links -->
-[1]: ../templates/index.md
+[1]: ../../templates/index.md
+[2]: set-up.md
+[3]: ../legacy/office-365/set-up.md
 
 <!-- Referenced images -->
 [img1]: media/imageh3map.png
@@ -119,6 +121,3 @@ All documents written in SuperOffice will be stored in the provider's cloud if t
 [img3]: media/template3b.png
 [img4]: media/imagedmnmi.png
 [img5]: media/image6r9sc.png
-
-[3]: legacy/office-365/set-up.md
-[2]: g-suite/set-up.md

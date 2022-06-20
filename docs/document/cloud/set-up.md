@@ -30,5 +30,5 @@ Read the [technical description][6].
 [2]: g-suite/index.md
 [3]: legacy/office-365/set-up.md
 [4]: g-suite/set-up.md
-[5]: configure.md
+[5]: g-suite/configure.md
 [6]: overview.md

@@ -254,7 +254,7 @@ You will get a notification from SuperOffice R&D Services when the Microsoft 365
 When it is ready to use, you may [continue to set up the templates][1], to make use of the Microsoft 365 SharePoint integration.
 
 <!-- Referenced links -->
-[1]: ../../configure.md
+[1]: ../../g-suite/configure.md
 [2]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
 [3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script

@@ -24,8 +24,6 @@ landingContent:
         links:
           - text: Set up cloud document integration
             url: set-up.md
-          - text: Configure cloud document handling
-            url: configure.md
 
   # Card
   - title: Google Workspace document integration
@@ -46,6 +44,8 @@ landingContent:
             url: g-suite/getting-started.md
           - text: Set up
             url: g-suite/set-up.md
+          - text: Configure
+            url: g-suite/configure.md
 
 # Card
   - title: Microsoft 365 document integration

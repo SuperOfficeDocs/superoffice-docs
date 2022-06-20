@@ -58,4 +58,4 @@ Now, you need to [configure templates][6] in SuperOffice Admin to start using th
 [3]: ../../../identity-management/superid/howto/register-idp.md
 [4]: https://cloudintegration.superoffice.com/app
 [5]: set-up.md
-[6]: ../configure.md
+[6]: configure.md

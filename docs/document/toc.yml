@@ -5,8 +5,6 @@ items:
   - name: Cloud document integrations
     href: cloud/overview.md
     items:
-    - name: Configure cloud document handling
-      href: cloud/configure.md
     - name: Set up cloud document integration
       href: cloud/set-up.md
     - name: Google Workspace document integration
@@ -20,6 +18,8 @@ items:
         href: cloud/g-suite/getting-started.md
       - name: Set up
         href: cloud/g-suite/set-up.md
+      - name: Configure
+        href: cloud/g-suite/configure.md
     - name: Microsoft 365 document integration
       href: cloud/legacy/office-365/index.md
       items:
