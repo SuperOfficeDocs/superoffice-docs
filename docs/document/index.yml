@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: "Microsoft 365"
       itemType: concept
-      url: cloud/office-365/index.md
+      url: cloud/legacy/office-365/index.md
     # Card
     - title: "Google Workspace"
       itemType: concept

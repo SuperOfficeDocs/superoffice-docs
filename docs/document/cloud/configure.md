@@ -120,5 +120,5 @@ All documents written in SuperOffice will be stored in the provider's cloud if t
 [img4]: media/imagedmnmi.png
 [img5]: media/image6r9sc.png
 
-[3]: office-365/set-up.md
+[3]: legacy/office-365/set-up.md
 [2]: g-suite/set-up.md

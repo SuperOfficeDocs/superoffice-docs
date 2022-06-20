@@ -65,8 +65,8 @@ The authorization process will grant rights to an app registered with Microsoft 
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
-[2]: ../../../identity-management/overview.md
-[3]: ../overview.md
+[2]: ../../../../identity-management/overview.md
+[3]: ../../overview.md
 
 <!-- Referenced images -->
 [img1]: media/sign-in.png

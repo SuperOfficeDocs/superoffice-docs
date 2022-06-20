@@ -53,18 +53,18 @@ landingContent:
       - linkListType: concept
         links:
           - text: Introduction
-            url: office-365/index.md
+            url: legacy/office-365/index.md
           - text: Security
-            url: office-365/security.md
+            url: legacy/office-365/security.md
       - linkListType: reference
         links:
           - text: Requirements
-            url: office-365/requirements.md
+            url: legacy/office-365/requirements.md
       - linkListType: how-to-guide
         links:
           - text: Prepare SharePoint for set-up
-            url: office-365/prepare-sharepoint.md
+            url: legacy/office-365/prepare-sharepoint.md
           - text: Set up
-            url: office-365/set-up.md
+            url: legacy/office-365/set-up.md
           - text: Troubleshooting
-            url: office-365/troubleshooting.md
+            url: legacy/office-365/troubleshooting.md

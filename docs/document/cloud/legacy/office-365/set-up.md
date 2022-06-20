@@ -141,14 +141,14 @@ This selection will fail if SuperOffice 'content types' are not set up in ShareP
 
     ![x -screenshot][img17]
 
-9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either <a href="../../../assets/downloads/cloud-office/blank.docx" download> download a pre-created blank document</a> or create a blank document from Office and stored locally).
+9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either <a href="../../../../assets/downloads/cloud-office/blank.docx" download> download a pre-created blank document</a> or create a blank document from Office and stored locally).
 
 10. Click **OK**.
 
 11. Repeat step 6 - 13 for:
 
-* SuperOffice Blank Spreadsheet (<a href="../../../assets/downloads/cloud-office/blank.xlsx" download>download .xlsx</a>)
-* SuperOffice Blank Presentation (<a href="../../../assets/downloads/cloud-office/blank.pptx" download>download .pptx</a>)
+* SuperOffice Blank Spreadsheet (<a href="../../../../assets/downloads/cloud-office/blank.xlsx" download>download .xlsx</a>)
+* SuperOffice Blank Presentation (<a href="../../../../assets/downloads/cloud-office/blank.pptx" download>download .pptx</a>)
 
 ### If you get an access error
 
@@ -193,7 +193,7 @@ Since we’re not in Office Store, we have to do this manually:
 
     The App Catalog is now being created – and available to be used within about 5 minutes.
 
-3. Download the SuperOffice SharePoint App <a href="../../../assets/downloads/cloud-office/cloud-office-superoffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
+3. Download the SuperOffice SharePoint App <a href="../../../../assets/downloads/cloud-office/cloud-office-superoffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
 
 4. Choose "Apps for SharePoint" in the menu. ![imagekoepi.png -screenshot][img30]
 
@@ -254,7 +254,7 @@ You will get a notification from SuperOffice R&D Services when the Microsoft 365
 When it is ready to use, you may [continue to set up the templates][1], to make use of the Microsoft 365 SharePoint integration.
 
 <!-- Referenced links -->
-[1]: ../configure.md
+[1]: ../../configure.md
 [2]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
 [3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script
