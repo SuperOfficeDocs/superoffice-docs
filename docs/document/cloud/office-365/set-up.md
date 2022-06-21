@@ -22,7 +22,7 @@ Setting up Microsoft 365 SharePoint Integration has 2 parts:
   * Enable the integration for your CRM Online site (step 4).
 * Configure your templates in SuperOffice Admin (in [this article][1]).
 
-If you would like to get assistance configuring the integration, sign up for [Microsoft 365 Integration in the SuperOffice App Store][2].
+If you would like to get assistance configuring the integration, sign up for Microsoft 365 Integration in the SuperOffice App Store (unpublished).
 
 ## Before you begin
 
