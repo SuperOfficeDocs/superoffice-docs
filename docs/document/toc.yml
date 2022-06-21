@@ -16,6 +16,8 @@ items:
         href: cloud/sharepoint-documents/set-up.md
       - name: Configure
         href: cloud/sharepoint-documents/configure-templates.md
+      - name: Permissions
+        href: cloud/sharepoint-documents/permissions-in-sharepoint.md
       - name: Troubleshooting
         href: cloud/sharepoint-documents/troubleshooting.md
     - name: Google Workspace document integration
