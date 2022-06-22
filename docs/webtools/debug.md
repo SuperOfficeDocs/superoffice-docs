@@ -3,7 +3,7 @@ title: Debug
 uid: webtools_debug
 description: How to debug Web Tools
 author: {github-id}
-keywords: debug
+keywords: debug webtools
 so.topic: howto
 so.envir: onsite
 so.client:
@@ -17,7 +17,7 @@ The Tray App Web Extension depends on a constant connection to the CRM Server to
 
 This is available on the same URL as your CRM web client, typically `http://socrm.myorganization.com/SuperOffice/WebToolsDiagnostics.aspx`.
 
-From 8.0 SR1 and CRM Online R14, we check the last active computer and open the document there.
+From 8.0 SR1 and CRM Online 8.0 R14, we check the last active computer and open the document there.
 
 > [!NOTE]
 > If you are using SuperOffice onsite and have **not yet upgraded to SuperOffice 8.0 SR1 or higher**: If the same user is connected more than once, via different computers, then we don't know which one to open the document on. This means that if you have been working from your home computer, but you are now connected from your office computer, the document you just asked to open may have been opened at home instead.
@@ -35,7 +35,7 @@ You may enable 2 different log files.
 2. Add a new String value under *HKCU\Software\SuperOffice\DocLink*:
 
     * Value name = **LogFile**
-    * Value data = the full path to a log file where it should write diagnostics.
+    * Value data = The full path to a log file where it should write diagnostics. User running WebTools needs to have write permission to this file and folder.
 
 ![x -screenshot][img1]
 
@@ -67,12 +67,11 @@ Do the same as for LogFile, but now set name to **ProtocolLogFile**.
 
 The timeout value is from when a message is sent and until we expect a response. By default this is set to 1000 milliseconds, meaning 1 second. If however, you have a slow connection, this may not be enough and you may experience that Web tools lose connection. You may change the default timeout period by adding a DWORD (32bit) value with a different value. Note that the value here is in milliseconds, so adding 5000 will change the default timeout value from 1 second to 5 seconds.
 
-![imgx][3]
+![x -screenshot][img2]
 
 <!-- Referenced images -->
 [img1]: media/webtoolslog.png
 [img2]: media/registrywebtoolsnetwork.png
-[img3]: media/registrywebtoolsnetwork.png
 [img4]: media/imagewukx.png
 [img5]: media/imagew1mo6.png
 [img6]: media/imagelzq97.png
