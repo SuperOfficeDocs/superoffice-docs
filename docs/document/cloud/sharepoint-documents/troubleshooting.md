@@ -44,7 +44,6 @@ Storing email in SharePoint when creating email in SuperOffice or archiving emai
 > This functionality will only work with CRM Online 10.1.2 or later
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/

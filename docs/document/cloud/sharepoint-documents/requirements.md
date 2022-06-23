@@ -12,15 +12,16 @@ so.client: online
 
 # Requirements
 
-You can also check out our [webinar about the SharePoint integration][1]
-
 ## To set it up
 
 * SuperOffice Online tenant
-  * AAD Authentication of SO Admin (see [IDP authentication on SuperOffice Docs][2] for more info)
+  * AAD Authentication of SO Admin (see [IDP authentication][2] for more info)
+
 * Microsoft 365 for business subscription
-  * If you do not have a Microsoft 365 subscription, you have to sign up for one at Microsoft
+  * If you don't have a Microsoft 365 subscription, you have to sign up for one at Microsoft
+
 * A SharePoint document library (for storing documents)
+
 * If you want to enable group access on SharePoint documents based on "Visible for" settings in SuperOffice
   * Need access to 'Global Admin' rights in O365 (to be able to authenticate SuperOffice as a trusted app in your MS 365 solution)
     * Either during setup
@@ -28,8 +29,8 @@ You can also check out our [webinar about the SharePoint integration][1]
 
 ## To use it
 
-* All users must use 'Sign in with Microsoft' in SuperOffice Online (AAD)
-  * AAD Authentication of users (see [IDP authentication on SuperOffice Docs][2] for more info)
+* All users must use **Sign in with Microsoft** in SuperOffice Online (AAD)
+  * AAD Authentication of users (see [IDP authentication][2] for more info)
 
 > [!NOTE]
 > Support Word, Excel, PowerPoint documents, PDF and some image-formats.
@@ -43,7 +44,6 @@ You can also check out our [webinar about the SharePoint integration][1]
 > No support for moving a documents to other SharePoint "sites", only within the same site.
 
 <!-- Referenced links -->
-[1]: https://youtu.be/8mIo3Yac2QI?t=589
 [2]: ../legacy/office-365/prepare-sharepoint.md
 
 <!-- Referenced images -->

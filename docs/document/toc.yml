@@ -12,12 +12,14 @@ items:
       items:
       - name: Requirements
         href: cloud/sharepoint-documents/requirements.md
+      - name: About permissions
+        href: cloud/sharepoint-documents/permissions-in-sharepoint.md
       - name: Set up
         href: cloud/sharepoint-documents/set-up.md
-      - name: Configure
+      - name: How to configure templates
         href: cloud/sharepoint-documents/configure-templates.md
-      - name: Permissions
-        href: cloud/sharepoint-documents/permissions-in-sharepoint.md
+      - name: How to configure permissions
+        href: cloud/sharepoint-documents/configure-permissions-with-aad-groups.md
       - name: Troubleshooting
         href: cloud/sharepoint-documents/troubleshooting.md
     - name: Google Workspace document integration

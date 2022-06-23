@@ -83,7 +83,9 @@ We recommend that you select all here. These fields will appear as columns in yo
 ### Enable group access on SharePoint documents based on Visible for settings in SuperOffice ticked on​
 
 * To to set permissions on documents in SharePoint, we need to have Read Write permission to selected site. Only Microsoft 365 Global Administrator can authorize this permissions. This is a one-time authorization and will only include the site you have selected for your SuperOffice documents.
-* If you are a Microsoft 365 Global Administrator, you can authorize now – if not, you must Copy the URL and send it to someone with that role of Microsoft 365 Global administrator in your organization.​
+
+* If you are a Microsoft 365 Global Administrator, you can authorize now – if not, you must copy the URL and send it to someone with that role of Microsoft 365 Global administrator in your organization.​
+
 * That user also needs to be in the owner group of the site (needs owner permission to the site in order to set Read Write permission)​.
 
     If you wait for an authorization, you can press **Save and Close** and return to your settings later.
