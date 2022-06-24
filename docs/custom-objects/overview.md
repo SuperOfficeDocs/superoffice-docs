@@ -95,13 +95,23 @@ Using custom fields in [search queries][5] are prefixed by their entity and type
 
 **Extra fields** are not currently included in the archive provider documentation. They are declared and accessed by the enity and type prefix, followed by a forward slash and the field name.
 
-|prefix/x_fieldName       |datatype  |description                               |
-|-------------------------|----------|------------------------------------------|
-|contactExtra/x_fieldName |[various] |Used in Service screens and CRM customizable screens. |
-|personExtra/x_fieldName  |[various] |Used in Service screens and CRM customizable screens. |
+|prefix/x_fieldName          |datatype  |description                               |
+|----------------------------|----------|------------------------------------------|
+|contactExtra/x_fieldName    |[various] |Used to select contact extra fields. |
+|personExtra/x_fieldName     |[various] |Used to select person extra fields. |
+|ejCategoryExtra/x_fieldName |[various] |Used to select ejCategory extra fields. |
+|ejUserExtra/x_fieldName     |[various] |Used to select ejUser extra fields. |
+|extra/x_fieldName           |[various] |Used to select ticket extra fields. |
+
+
 
 > [!NOTE]
-> Extra field support is only available for contact and person queries.
+> Extra field archive query support is only available for:
+> * contact
+> * person
+> * ejCategory
+> * ejUser
+> * ticket
 
 ## Requirements
 
