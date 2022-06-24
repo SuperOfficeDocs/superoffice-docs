@@ -17,7 +17,7 @@ so.client:
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Avatar | Small circular image. | | |
+| Avatar | Small circular image. Will show picture from [Gravatar.com][8]| | |
 | Display name | First and last name of the person. | [Update user profile][5] | |
 | Email | The email address of the person, if set. | [Update user profile][5] | |
 | Is log-in allowed | Whether this person can sign in to the Developer Portal. | [Manage permissions][6] | |
@@ -50,5 +50,6 @@ so.client:
 [5]: ../security/edit-user.md
 [6]: ../security/manage-permissions.md
 [7]: ../howto/update-profile.md
+[8]: https://nb.gravatar.com/
 
 <!-- Referenced images -->
