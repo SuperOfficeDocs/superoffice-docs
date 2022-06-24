@@ -103,10 +103,9 @@ Using custom fields in [search queries][5] are prefixed by their entity and type
 |ejUserExtra/x_fieldName     |[various] |Used to select ejUser extra fields. |
 |extra/x_fieldName           |[various] |Used to select ticket extra fields. |
 
-
-
 > [!NOTE]
 > Extra field archive query support is only available for:
+>
 > * contact
 > * person
 > * ejCategory
