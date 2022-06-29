@@ -1,0 +1,30 @@
+---
+uid: help-en-rms-login
+title: rms login
+description: rms login
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Service
+so.topic: help
+language: en
+---
+
+# Log in to Service
+
+SuperOffice Service is a web-based system. This means you need to be connected to the Internet before you log in. Proceed as follows:
+
+1. Open a browser, such as Internet Explorer.
+2. Enter the URL address for SuperOffice CRM.
+3. Enter your user name and password.
+4. Click ![icon](../media/nav_service.png)**Service** in the navigator on the left-hand side of the screen.
+5. Click **Log in**. This takes you to the dashboard in SuperOffice Service. You can read more about this under [Requests](ticket.md).
+
+**Tip:** To log out of SuperOffice Service, click the ![icon](../media/globalmenu_PersonalSettings_small.png)**Personal settings** button at the top of the screen, and select **Log out**.
+
+## Multiple sessions
+
+In SuperOffice Service you can also log in as the same user in several browsers / multiple sessions.
+
+## What would you like to do now?
+
+[Navigate in SuperOffice Service](rms.navigate.md)

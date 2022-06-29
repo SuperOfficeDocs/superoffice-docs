@@ -1,0 +1,21 @@
+---
+uid: help-en-delete-other-users
+title: Delete other users
+description: Delete other users
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Settings and maintenance
+so.topic: help
+language: en
+---
+
+# Delete other users
+
+Anonymous users and system users require the **SuperOffice Expander Services** system licence. See [Licences](../chap03/Licences_screen.md).
+
+To delete anonymous users or system users:
+
+1. Click the **Users** button in the Navigator (![icon](../media/Knapp_Brukere_liten.bmp)).
+2. Select the **Other users** tab. The list displays existing anonymous users and system users.
+3. Select the user you want to delete.
+4. Click the **Delete** button. The user will be removed from the list.

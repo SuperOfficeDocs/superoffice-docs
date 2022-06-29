@@ -1,0 +1,111 @@
+---
+uid: help-en-ticket-newticket
+title: ticket newTicket
+description: ticket newTicket
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Service
+so.topic: help
+language: en
+---
+
+# Create requests
+
+**Tip:** If you are very busy and just need to register a request fast, see [New quick request](ticket.newQuickTicket.md).
+
+A request can arrive in the system via an e-mail from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone. To do this:
+
+1. Select **Requests** &gt; **New request**.
+
+2. When you create a new request, the **To** field has the following purposes:
+
+    * By default, the contact(s) entered here will also be the contact(s) for the new request. See [Automatically add message recipients as request contacts](ticket.newTicket.md#Automatically_add_message_recipients_as_request_contacts).
+    * Contact(s) entered here will receive the message (in the **Message** tab) by e-mail (even if the access level of the message is set to **Internal**).
+    * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
+
+    In the **To** field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**. <!-- Fix reuse ID=a1 -->
+
+    You can register new contacts by clicking ![icon](../media/btn_add.png) in the **Contacts** field in the **Properties** tab.
+
+    Optionally, you can enter an e-mail address if you want to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
+
+    > [!NOTE]
+    > You can leave this field empty if you do not want to send the message to anyone, but then you must enter the contact in the **Contacts** field in the **Properties** tab.
+
+3. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blindcopy.
+
+4. Go to the **Properties** tab and enter request information like title, category, priority and status. See [Properties](ticket.newTicket.md#Properties).
+
+5. Go to the **Message** tab and enter the actual message you want to add to the request. See [Message](ticket.newTicket.md#Message).
+
+6. Go to the **Invoice information** tab and enter any invoice lines. See [Invoice information](ticket.newTicket.md#InvoiceInformation).
+
+7. Go to the **Extra fields** tab and enter information in any available extra fields. See [Extra fields](ticket.newTicket.md#ExtraFields).
+
+8. Click **OK** to save the request. See also [Autosave](ticket.autosave.md).
+
+## Properties
+
+Here you enter information to correctly assign and prioritize the request.
+
+* In the **Title** field, enter a descriptive name for the request.
+* In the **Category** field, and select the category you want from the list that appears.
+* In the **Owner** field, select one of the following options:
+    * If you want to assign the request to a specific person, select the name you require.
+    * **(Active user)**: Select this option to assign the request to yourself.
+    * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
+    * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
+* In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](admin.listPriorities.editAlert.md) set for different contacts and companies.
+* In the **Access level for request** list box, select one of the following options:
+    * **External**: Select this option if the contact is to have access to the request viaSuperOffice Customer Centre.
+    * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
+* In the **Status** list box, choose one of the following:
+    * **Open**: Select this option if the request is in progress.
+    * **Closed**: Select this option if the request has been completed.
+    * **Postponed**: If there is a need to postpone handling of this request, select this option and specify a date and time in the **Activate** field. On this date and time, the request is set back to **Open**.
+* In the **Tags** list box, select relevant tags for this request. See [Using tags in requests](ticket.tags.md).
+* The **Contacts** field: By default, the person you entered in the **To** field is also added as a contact for the request (after you click **OK**).
+    * You can add additional contacts if you like.
+    * Contacts added here will be linked to the request and are able to view information about the request in SuperOffice Customer Centre.
+    * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
+    * Click ![icon](../media/btn_add.png) to create a new contact. See [Create contacts](customers.newCustomer.md).
+* ****Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.
+
+## Message
+
+> [!NOTE]
+> If you want to send the message to someone, you need to add recipients in the **To** field above the tabs. To make the message available for the contact via SuperOffice Customer Centre, you must set the access level (for the message) to **External**.
+
+Here you type in the message you want to add to the request. This works in the same way as when entering text into a word processor. You can also add attachments to the message.
+
+The section at the bottom contains the following options:
+
+* ![icon](../media/msg_toolbar.png) – Click here to show or hide the toolbar in the message editor
+* ![icon](../media/msg_attachment.png) – Click here to show the attachments options. Here you can add relevant documents as attachments to the request. To do this:
+    * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
+    * Drag and drop a file from Windows Explorer to the attachments field.
+    * Click **Choose a CRM document** to select a document in SuperOffice CRM.
+* **Insert**: Click the list button ( ![icon](../media/btn_dropdown.png) ), and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also add reply templates in other languages. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template](document.replyTemplates.newlangversion.md).
+* **Internal/External**: Here you can select **External** if the contact is to have access to the message via SuperOffice Customer Centre, or **Internal** if the contact is not to have access to the message.
+* **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ( ![icon](../media/Stop.png) ), and also re-start the clock by clicking the start button ( ![icon](../media/Play.png) ). Click ![icon](../media/btn_calendar.jpg) (**Select time span**) button to register time spent.
+
+Note: The default request signature will be added to the message. You can edit the signature directly or
+
+## Invoice information
+
+**Note:** The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](admin.listInvoiceTypes.md).
+
+Here you can add invoice lines as internal information for the request. To do this:
+
+1. In the list box at the top left, select the type of invoice. The price is updated in accordance with the invoice you select.
+2. In the **Description** field, enter a more detailed description of what the invoice line relates to.
+3. In the next fields, enter the unit price, quantity, any discount (percent or amount) and the date.
+4. Click ![icon](../media/btn_add.png) to add the invoice line.
+
+## Extra fields
+
+This tab contains any extra fields defined for requests. These will vary from company to company.
+
+## What would you like to do now?
+
+[Process requests](ticket.showListTickets.md)

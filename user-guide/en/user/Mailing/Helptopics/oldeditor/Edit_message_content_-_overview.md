@@ -1,0 +1,82 @@
+---
+uid: help-en-edit-message-content---overview
+title: Edit message content - overview
+description: Edit message content - overview
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Marketing
+so.topic: help
+language: en
+---
+
+# Edit message content - overview
+
+In the **Content** step you can edit the appearance and content of the message.
+
+A message is made up of columns and paragraphs. You insert text and images in the individual paragraphs and you can define format/layout (such as font type and size, colours and margins) at global level (the whole template) or by column or paragraph.
+
+SuperOffice Marketing is supplied with many ready-made message template layouts, and you can easily move columns and paragraphs around to get the appearance you want. You can also delete unwanted columns and paragraphs or add new ones.
+
+> [!TIP]
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon](../../media/btn_editor_mobile.png) ). See also [Customise the message for display on mobile devices](Customise_the_message_for_display_on_mobile_devices.md).
+
+Below you can see how a typical template is made up and how menus are displayed.
+
+For a complete list of these menus and buttons, see [Menu overview](Menu_overview.md).
+
+![icon](../../media/TemplateEditOverview_old.png)
+
+Here are some of the main functions of the **Content** step:
+
+## Edit columns and paragraphs
+
+<table class="SimpleGridBlack" style="width:100%;" data-cellspacing="0px">
+
+<tbody>
+<tr>
+<td>![icon](../../media/editor_menu_para.jpg)</td>
+<td><p>When you hover the mouse pointer over columns and paragraphs, a toolbar with editing options appears.</p></td>
+</tr>
+<tr>
+<td>![icon](../../media/editor_menu_border.jpg)</td>
+<td><p>If you hover the mouse pointer over a button in the menu, a red frame is shown around the element in question, so that you always know which part of the template you are editing.</p></td>
+</tr>
+<tr>
+<td>![icon](../../media/editor_menu_global.jpg)</td>
+<td><p>The global menu is always displayed at the top right in the content area.</p></td>
+</tr>
+</tbody>
+</table>
+
+See [Edit a paragraph](Edit_a_paragraph.md).
+
+## Edit text and images
+
+[Edit text](Edit_a_paragraph.md) and [insert images](Insert_images_in_the_message.md) by clicking the **Edit paragraph** ( ![icon](../../media/btn_editor_edit.png) ) button in a paragraph.
+
+## Insert new paragraphs and columns
+
+In the paragraph menu, you can click ![icon](../../media/btn_editor_newpara.jpg) or ![icon](../../media/btn_editor_addcolumn.jpg) to insert a paragraph or a column with paragraphs.
+
+## Move, copy and delete paragraphs and columns
+
+In the column and paragraph menus, you can move ( ![icon](../../media/btn_editor_move.jpg) ) and delete ( ![icon](../../media/btn_Cancel.png) ) columns and paragraphs. In the paragraph menu, you can also copy ( ) a paragraph.
+
+## Edit format and layout
+
+The appearance and properties of the template (such as font type and size, colours and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon](../../media/btn_editor_edit.png) ) in the global menu or in a column or paragraph.
+
+> [!TIP]
+> Use standard fonts for the best legibility with any e-mail client or web browser.
+
+## What would you like to do now?
+
+[See the menu overview](Menu_overview.md)
+
+[Edit a paragraph](Edit_a_paragraph.md)
+
+[Include links you want to track](includeLinksToTrack.md)
+
+[Use template variables in messages](Use_template_variables_in_messages.md)
+
+[Insert images in the message](Insert_images_in_the_message.md)

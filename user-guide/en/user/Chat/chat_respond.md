@@ -1,0 +1,69 @@
+---
+uid: help-en-chat-respond
+title: chat respond
+description: chat respond
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: ![icon](../StandardCRM/media/hugo.png) CRM/Service
+so.topic: help
+language: en
+---
+
+# Respond to a chat
+
+Incoming chats are announced in the following ways:
+
+* ![icon](media/loc/chat_tab_dashbiard.png) A number icon on the **Dashboard** tab. The number indicates how many incoming chats have not been answered by an agent.
+* In the **Incoming chat** list in the **Dashboard** tab. You can double-click a row to respond to a chat.
+* In the **Chats** tab, the **In queue** field will show how many unanswered chats are in queue.
+* A warning popup if a chat has not been answered within a specified amount of time. You will only see the warning if your status is **Present**.
+
+## Setting your status (Present/Away)
+
+In the top-right corner of the **Chat** screen, you can set your presence:
+
+![icon](media/loc/chat_status_present.png) You will be listed as a present agent and will receive warnings of unanswered chats.
+
+![icon](media/loc/chat_status_away.png) You will not be listed as a present agent and will not receive warnings of unanswered chats. However, you can still respond to incoming chats.
+
+**Note**: If all agents have status **Away**, the customer will only see the offline form when they start the chat.
+
+## Respond to next chat in queue
+
+1. Click **Chat** in the Navigator.
+
+2. In the top-right corner, make sure your status is set to **Present**.
+
+3. Click **Get next in queue** to respond to the next chat.
+
+    **Note**: If you want to respond to a specific chat (for instance from a returning customer, you can do this by double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
+
+4. Try to locate the customer in SuperOffice, so you can see relevant information about the him/her in the side panel, to help you respond to their inquiry. See [Link chat to SuperOffice contact](chat_link_to_person.md).
+
+5. To chat, enter text in the lower part of the screen, and press **ENTER** or click **Send**.
+
+6. To use emojis/stickers, click ![icon](media/chat_btn_emoji.png) next to the text field.
+
+7. If you are unable to help the customer with their question, you can
+    * [transfer](chat_transfer_to_another_agent.md) the chat to another agent
+    * [create a request](chat_create_request.md) from the chat
+
+8. If you want to send the customer additional information, you can
+    * [send an FAQ, a reply template or quick reply](chat_Send_FAQ_or_reply_template.md)
+    * [send a file](chat_send_files.md)
+
+9. When the conversation is over, you can click ![icon](../media/btn_Menu.png) and select **End chat** (unless the customer closes the chat window first). The chat is moved to **Recent chat sessions**. You can also find a record of the chat in the **Activities** section tab in SuperOffice CRM.
+
+**Note**: If the post-chat form has been activated for this chat channel, the customer will have the option to return to the chat. The chat will be reactivated.
+
+## Related topics
+
+[Create request in chat](chat_create_request.md)
+
+[Transfer a chat to another agent](chat_transfer_to_another_agent.md)
+
+[Send FAQs, reply templates and quick replies in a chat](chat_Send_FAQ_or_reply_template.md)
+
+[Using the chat function from the customer's perspective](chat_function_from_the_customers_perspective.md)
+
+[Send files in chat](chat_send_files.md)

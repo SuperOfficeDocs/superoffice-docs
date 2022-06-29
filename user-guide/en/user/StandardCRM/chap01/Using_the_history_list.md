@@ -1,0 +1,36 @@
+---
+uid: help-en-using-the-history-list
+title: Using the history list
+description: Using the history list
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: CRM
+so.topic: help
+language: en
+---
+
+# The History list
+
+In several places in SuperOffice CRM, the history list makes it easy to access the last items you looked at. The history list contains companies, contacts, sales, selections or projects you have previously worked with. The number of records displayed in the history list is defined under **Preferences**. (See [Preferences](Preferences.md)).
+
+You can use the history list in different ways:
+
+* Directly from the Navigator ( ![icon](../media/navigator_history_small.png) ) to go to the required company, contact, sale, project or selection.
+* From dialogs containing the fields for companies, contacts, sales and projects, for example, the **Appointment** and **Document** dialogs, to link to the appointment or document.
+
+## Using the history list in the Navigator
+
+1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ( ![icon](../media/navigator_history_small.png) ) is displayed underneath this.
+2. Click the company, contact, sale, project or selection you want to view.
+
+> [!TIP]
+> If you hold the mouse pointer over a record in the history list, a preview of the record is displayed.
+
+## Using the history list in dialogs
+
+1. Open the relevant dialog.
+2. Click the arrow ( ![icon](../media/Dialogboksknapper_pil_ned.bmp) ) next to the company, contact, sale, selection or project field. This brings up the history list.
+3. Click the required company, contact, sale, selection or project to link to the record.
+
+> [!NOTE]
+> You can increase or limit the number of lines in the history list by going to ![icon](../media/globalmenu_personalsettings_small.png)**Personal settings &gt; Preferences &gt; Visual effects &gt; Size of history list** and entering the number you require.

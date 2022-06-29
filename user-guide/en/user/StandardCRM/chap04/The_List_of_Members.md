@@ -1,0 +1,50 @@
+---
+uid: help-en-the-list-of-members
+title: The List of Members
+description: The List of Members
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: CRM
+so.topic: help
+language: en
+---
+
+# The list of members
+
+The first tab in a selection contains a list of members (records, data)in the active selection. Selection members can be companies or contacts, projects, sales, documents, follow-ups, form submissions, chat conversations, mailings or products. The appearance of the list of members varies slightly depending on what the selection contains. All selection types except **Company/contact** will have two tabs containing selection data. See also [Company/contact](selection_tab_Company_contact.md).
+
+> [!TIP]
+> If you double-click a record in the list of members, the record in question is displayed.
+
+## Filtering the list of members
+
+> [!NOTE]
+> Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimise performance when working with large selections, only the first 100 records are usually loaded in the list of members.
+
+To activate the column filter, click ![icon](../../media/btn_columnheaderoptions.png) on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon](../../media/btn_columnheaderfilter.png)) is now displayed on column which can be filtered. See [Use column filters in the section tabs](../chap01/Use_column_filters_in_the_section_tabs.md).
+
+## The Task button
+
+![icon](../media/task.png)
+
+Use the **Task** button to perform different tasks for the members or some of the members of the selection. Examples: sending e-mails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field).
+
+## Other buttons
+
+* **Remove members**. This option is only available for static selections. See [Remove members from static selections](Removing_members_from_static_selections.md). To remove specific members of the selection, select the relevant members, right-click and select **Remove**.
+
+* **Count: number**, The number of members in the active selection.
+
+* **Show all**. Click here to display all selection members. <!-- Fix reuse ID=a1 -->
+
+    By default the list only displays the 100 first records in the selection. To change this value, go to ![icon](../media/globalmenu_personalsettings_small.png)**Personal settings &gt; Preferences &gt; Functions &gt; Archive page size**.
+
+<!-- -->
+
+* ![icon](../media/refresh.png): Click here to refresh the data in the list.
+
+## Related topics
+
+[Use filters in the section tabs](../chap01/Use_filters_in_the_section_tabs.md)
+
+[Create selections](Create_selections.md)

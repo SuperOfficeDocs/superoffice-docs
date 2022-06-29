@@ -1,0 +1,32 @@
+---
+uid: help-en-forms-differences-between-the-drag-drop-editor-and-the-editor
+title: forms Differences between the Drag Drop Editor and the Editor
+description: forms Differences between the Drag Drop Editor and the Editor
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Forms
+so.topic: help
+language: en
+---
+
+# Differences between the Drag & drop editor and the Editor
+
+In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") to replace the old one (the "Editor"). The message editor is used when creating e-mail mailings and form responses. The old message editor will still be available to edit messages and templates created in the old version. All new mailings and templates will be using the new message editor.
+
+## Are you using the new Drag &drop editor or the previous version of the editor?
+
+<table style="border: none;" data-cellspacing="0">
+<tbody>
+<tr>
+<td>Drag &amp; drop editor (new)</p>
+<p>Go to this topic: [Step 3: Content - Form response (Drag &amp; drop editor)](form_create_step3_content.md)</p></td>
+<td><p>Editor (old)</p>
+<p>Go to this topic: [Step 3: Content - Form response (the old Editor)](oldeditor/Step_3__Content_-_Form_response.md)</p></td>
+</tr>
+<tr>
+<td>![icon](../media/TemplateEditOverview.png)<br />
+![icon](../media/editor_sidepanel.png)</td>
+<td>![icon](../media/TemplateEditOverview_old.png)</td>
+</tr>
+</tbody>
+</table>

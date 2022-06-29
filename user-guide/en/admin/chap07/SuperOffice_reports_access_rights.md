@@ -1,0 +1,14 @@
+---
+uid: help-en-superoffice-reports-access-rights
+title: SuperOffice reports access rights
+description: SuperOffice reports access rights
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Settings and maintenance
+so.topic: help
+language: en
+---
+
+# Access rights to reports
+
+All SuperOffice CRM users have access to the **Reports** screen in SuperOffice CRM, but the individual reports you can access depend on the rights you have in respect of follow-ups, documents, sales and the activities list (see [Role](../Rolle/Role.md)). In practice, this means that you cannot generate reports for content you do not have permission to view in SuperOffice CRM.
