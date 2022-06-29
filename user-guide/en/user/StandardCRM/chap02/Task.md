@@ -13,15 +13,9 @@ language: en
 
 Tasks are follow-ups which do not usually have a defined time or duration. They always have a date deadline – for example, they may be things you have to remember to do by a certain time.
 
-<table>
+![icon](../media/Knapperad-Oppgave.bmp)
 
-<tbody>
-<tr>
-<td><p>![icon](../media/Knapperad-Oppgave.bmp)</p></td>
-<td><p>No matter where you are in SuperOffice CRM, you can create a new task by clicking **New** &gt; **Task** on the top bar.</p></td>
-</tr>
-</tbody>
-</table>
+No matter where you are in SuperOffice CRM, you can create a new task by clicking **New** &gt; **Task** on the top bar.
 
 Tasks can be displayed in the following places in SuperOffice CRM:
 

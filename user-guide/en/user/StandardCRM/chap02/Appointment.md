@@ -16,15 +16,9 @@ Appointments are activities with a defined start and end time, such as meetings.
 > [!TIP]
 > This is done in the **Preferences** dialog, which you open by choosing **Preferences** on the **Personal settings** menu. Select **Default values**, and enter the required value under **Duration for new appointment** as described under [Preferences](../chap01/Preferences.md).
 
-<table>
+![icon](../media/Knapperad_Avtale.bmp)
 
-<tbody>
-<tr>
-<td><p>![icon](../media/Knapperad-Avtale.bmp)</p></td>
-<td><p>No matter where you are in SuperOffice CRM, you can create a new appointment by clicking the **New** button in the Top bar.</p></td>
-</tr>
-</tbody>
-</table>
+No matter where you are in SuperOffice CRM, you can create a new appointment by clicking the **New** button in the Top bar.
 
 Appointments can be displayed in the following places in SuperOffice CRM:
 

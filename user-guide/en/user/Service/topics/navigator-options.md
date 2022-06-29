@@ -17,37 +17,20 @@ language: en
 When you click a navigator button, one or more of the buttons below are displayed.
 
 > [!TIP]
-> If you hold the mouse pointer over a record in any of the lists below, a tooltip is displayed containing additional data about the record. <!-- Fix reuse ID=a1 -->
+> If you hold the mouse pointer over a record in any of the lists below, a tooltip is displayed containing additional data about the record.
 
-![icon](../media/loc/Navigator-preview.png)
+<details><summary>Click here to see a screenshot</summary><!-- Fix reuse ID=a1 -->
 
-<table>
+![icon](../media/loc/Navigator_preview.png)
 
-<thead>
-<tr>
-<th style="border: Solid 1px #000000; padding-top: 4px; padding-bottom: 4px"><p>Button</p></th>
-<th style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-left: 4px"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><p>![icon](../media/navigator-list.png)</p></td>
-<td><p>**Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/navigator-history.png)</p></td>
-<td><p>**History**: Click this button to show recently opened records, for instance request, contacts or selections.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/navigator-favourites.png)</p></td>
-<td><p>**Favourites**: Click this button to view the records you have set as favourites. See [Favourites](rms.navigate.favourites.md).</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/navigator-search.png)</p></td>
-<td><p>**Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic, so you only need to start typing your search phrase to initiate the search.</p></td>
-</tr>
-</tbody>
-</table>
+</details>
+
+| Button | Description |
+|:-:|---|
+| ![icon](../media/navigator_list.png)       | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
+| ![icon](../media/navigator_history.png)    | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
+| ![icon](../media/navigator_favourites.png) | **Favourites**: Click this button to view the records you have set as favourites. See [Favourites](rms.navigate.favourites.md). |
+| ![icon](../media/navigator_search.png)     | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic, so you only need to start typing your search phrase to initiate the search. |
 
 > [!NOTE]
 > Clicking the **Dashboard** button only opens the dashboard.

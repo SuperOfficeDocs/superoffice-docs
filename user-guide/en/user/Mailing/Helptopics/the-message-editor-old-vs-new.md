@@ -15,18 +15,15 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 
 ## Are you using the new Drag &drop editor or the previous version of the editor?
 
-<table style="border: none;" data-cellspacing="0">
-<tbody>
-<tr>
-<td><p>Drag &amp; drop editor (new)</p>
-<p>Go to this topic: [Step 3: Content - E-mail (Drag &amp; drop editor)](Step-3-Content-Formatted-e-mail.md)</p></td>
-<td><p>Editor (old)</p>
-<p>Go to this topic: [Step 3: Content - E-mail (the old Editor](oldeditor/Step-3-Content-Formatted-e-mail.md))</p></td>
-</tr>
-<tr>
-<td>![icon](../media/TemplateEditOverview.png)<br />
-![icon](../media/editor-sidepanel.png)</td>
-<td>![icon](../media/TemplateEditOverview-old.png)</td>
-</tr>
-</tbody>
-</table>
+### Drag &amp; drop editor (new)
+
+![icon](../media/TemplateEditOverview.png)
+![icon](../media/editor-sidepanel.png)
+
+Go to this topic: [Step 3: Content - E-mail (Drag &amp; drop editor)](Step-3-Content-Formatted-e-mail.md)
+
+### Editor (old)
+
+Go to this topic: [Step 3: Content - E-mail (the old Editor](oldeditor/Step-3-Content-Formatted-e-mail.md)
+
+ ![icon](../media/TemplateEditOverview-old.png)

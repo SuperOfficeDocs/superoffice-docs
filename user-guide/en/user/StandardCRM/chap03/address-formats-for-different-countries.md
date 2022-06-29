@@ -22,270 +22,106 @@ When you create a company (see [Create new companies](Create-new-companies.md)) 
 
 This address format is the standard format for all countries that are not covered by the areas mentioned below, for example, countries in the Middle East, Latin America and Africa.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Address 1</p></td>
-<td><p>First address line</p></td>
-</tr>
-<tr>
-<td><p>Address 2</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>Address 3</p></td>
-<td><p>Third address line</p></td>
-</tr>
-<tr>
-<td><p>Postcode/City</p></td>
-<td><p>Postcode and postal town</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| Address 3 | Third address line |
+| Postcode/City | Postcode and postal town |
+| Country | Country |
 
 ## Germany
 
 This address format is used for Germany. Germany always has a different postal code/town for an office address and postal address.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Visiting</p></td>
-<td><p>Office address</p></td>
-</tr>
-<tr>
-<td><p>Postcode/City</p></td>
-<td><p>Postcode and postal town for office address.</p></td>
-</tr>
-<tr>
-<td><p>PO Box</p></td>
-<td><p>Postal Address</p></td>
-</tr>
-<tr>
-<td><p>Postcode/City</p></td>
-<td><p>Postcode and postal town for postal address.</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Visiting | Office address |
+| Postcode/City | Postcode and postal town for office address. |
+| PO Box | Postal Address |
+| Postcode/City | Postcode and postal town for postal address. |
+| Country | Country |
 
 ## Spain
 
 This address format is used for Spain.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Address 1</p></td>
-<td><p>First address line</p></td>
-</tr>
-<tr>
-<td><p>Address 2</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>Address 3</p></td>
-<td><p>Third address line</p></td>
-</tr>
-<tr>
-<td><p>Postcode/City</p></td>
-<td><p>Postcode and postal town for postal address.</p></td>
-</tr>
-<tr>
-<td><p>County</p></td>
-<td><p>County</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| Address 3 | Third address line |
+| Postcode/City | Postcode and postal town for postal address. |
+| County | County |
+| Country | Country |
 
 ## Rest of Europe
 
 This is the address format used when you create a company in Norway, for example. This format will be used for most European countries, except the UK, Germany and Spain, which have their own address formats.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Visiting</p></td>
-<td><p>Office address</p></td>
-</tr>
-<tr>
-<td><p>Postal</p></td>
-<td><p>Postal Address</p></td>
-</tr>
-<tr>
-<td><p>Postcode/City</p></td>
-<td><p>Postcode and city</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Visiting | Office address |
+| Postal | Postal Address |
+| Postcode/City | Postcode and city |
+| Country | Country |
 
 ## Canada
 
 This address format is used for Canada.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Address 1</p></td>
-<td><p>First address line</p></td>
-</tr>
-<tr>
-<td><p>Address 2</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>City</p></td>
-<td><p>Name of postal town</p></td>
-</tr>
-<tr>
-<td><p>Province/ postcode</p></td>
-<td><p>Province and postcode</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
-
-## 
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| City | Name of postal town |
+| Province/ postcode | Province and postcode |
+| Country | Country |
 
 ## Australia
 
 This address format is used for Australia.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Address 1</p></td>
-<td><p>First address line</p></td>
-</tr>
-<tr>
-<td><p>Address 2</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>City</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>Province/ postcode</p></td>
-<td><p>Province and postcode</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| City | Second address line |
+| Province/ postcode | Province and postcode |
+| Country | Country |
 
 ## USA
 
 This address format is used for the USA. It resembles the format for Australia/Canada, but the fields have different names.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Address 1</p></td>
-<td><p>First address line</p></td>
-</tr>
-<tr>
-<td><p>Address 2</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>City</p></td>
-<td><p>Name of postal town</p></td>
-</tr>
-<tr>
-<td><p>State/zipcode</p></td>
-<td><p>State code, e.g. CA, and postal code (zip code)</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| City | Name of postal town |
+| State/zipcode | State code, e.g. CA, and postal code (zip code) |
+| Country | Country |
 
 ## UK
 
 This address format is used for the UK.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Address 1</p></td>
-<td><p>First address line</p></td>
-</tr>
-<tr>
-<td><p>Address 2</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>Address 3</p></td>
-<td><p>Third address line</p></td>
-</tr>
-<tr>
-<td><p>City</p></td>
-<td><p>Postal town</p></td>
-</tr>
-<tr>
-<td><p>County/postcode</p></td>
-<td><p>County and postcode, e.g. Somerset TA1 2WB</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| Address 3 | Third address line |
+| City | Postal town |
+| County/postcode | County and postcode, e.g. Somerset TA1 2WB |
+| Country | Country |
 
 ## Japan
 
 This address format is used for Japan.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Address 1</p></td>
-<td><p>First address line</p></td>
-</tr>
-<tr>
-<td><p>Address 2</p></td>
-<td><p>Second address line</p></td>
-</tr>
-<tr>
-<td><p>City/postcode</p></td>
-<td><p>Postal town and postcode</p></td>
-</tr>
-<tr>
-<td><p>Country</p></td>
-<td><p>Country</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| City/postcode | Postal town and postcode |
+| Country | Country |

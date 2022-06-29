@@ -13,16 +13,9 @@ language: en
 
 In the **Content** step you can edit the layout and content of the form response, and add links and images. This is done in the Drag & drop editor, where you can drag and drop various elements and blocks to create a stylish mailing.
 
-<table>
+![icon](../media/TemplateEditOverview-sidepanel-THUMB.png) (click to see a screenshot of the Drag &amp; drop editor)
 
-<tbody>
-<tr>
-<td>![icon](../media/TemplateEditOverview-sidepanel-THUMB.png)</a><br />
-(click to see a screenshot of the Drag &amp; drop editor)</td>
-<td>new version of the editor (the Drag &amp; drop editor). To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md).</td>
-</tr>
-</tbody>
-</table>
+To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
 
 Below are the relevant topics for this step in the mailings wizard:
 

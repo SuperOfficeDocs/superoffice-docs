@@ -34,77 +34,61 @@ The text you enter will look like this:
 
 This is an example of a signature that can be used by anyone in your company.
 
-<table style=" vertical-align:top; margin-top:5px; width:100%; max-width:79.843%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>Best Regards,</p>
-<p>{auth}</p>
-<p>{atit}</p>
-<p>{onam}</p>
-<p>Address: {opad}, {ozip} {ocit}</p>
-<p>Phone: {audp}</p>
-<p>Mobile phone: {aupc}</p>
-<p>{auem}</p>
-<p>{owww}</p></td>
-<td><p>Best Regards,</p>
-<p>John Jones</p>
-<p>Sales Manager</p>
-<p>SuperShop</p>
-<p>Address: High Street 12, 223-344, Springfield</p>
-<p>Phone: 22334455</p>
-<p>Mobile phone: 99887766</p>
-<p>jj@supershop.com</p>
-<p>supershop.com</p></td>
-</tr>
-</tbody>
-</table>
+```text
+Best Regards,
+{auth}
+{atit}
+{onam}
+Address: {opad}, {ozip} {ocit}
+Phone: {audp}
+Mobile phone: {aupc}
+{auem}
+{owww} | Best Regards,
+John Jones
+Sales Manager
+SuperShop
+Address: High Street 12, 223-344, Springfield
+Phone: 22334455
+Mobile phone: 99887766
+jj@supershop.com
+supershop.com
+```
 
 ## Meeting minutes (header)
 
 This is an example of a header in a meeting minutes (document or e-mail).
 
-<table>
-
-<tbody>
-<tr>
-<td><p>{head}</p>
-<p>Date / Location: {sdat}, {city}</p>
-<p>Present: {attn} ({name}), {auth} ({onam})</p>
-<p>Not attending:</p>
-<p>Meeting secretary: {auth} ({auem})</p></td>
-<td><p>Summer sales campaign - planning</p>
-<p>Date / Location: 15.12.2019, London</p>
-<p>Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)</p>
-<p>Not attending:</p>
-<p>Meeting secretary: John Jones (jj@supershop.com)</p></td>
-</tr>
-</tbody>
-</table>
+```text
+{head}
+Date / Location: {sdat}, {city}
+Present: {attn} ({name}), {auth} ({onam})
+Not attending:
+Meeting secretary: {auth} ({auem})
+Summer sales campaign - planning
+Date / Location: 15.12.2019, London
+Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
+Not attending:
+Meeting secretary: John Jones (jj@supershop.com)
+```
 
 ## Order Confirmation (header)
 
 Template variables for quotes and order confirmations can be used within the context of a quote.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Order date: {sdat}</p>
-<p>Order number: {qnum}</p>
-<p>Delivery terms: {qdev}</p>
-<p>Payment terms: {qpev}</p>
-<p>Your PO number: {qpon}</p>
-<p>Our contact: {cont}</p></td>
-<td><p>Order date: 15.12.2019</p>
-<p>Order number: 550012</p>
-<p>Delivery terms: Delivery included</p>
-<p>Payment terms: 15 days</p>
-<p>Your PO number: 70000882</p>
-<p>Our contact: John Jones</p></td>
-</tr>
-</tbody>
-</table>
+```text
+Order date: {sdat}
+Order number: {qnum}
+Delivery terms: {qdev}
+Payment terms: {qpev}
+Your PO number: {qpon}
+Our contact: {cont}
+Order date: 15.12.2019
+Order number: 550012
+Delivery terms: Delivery included
+Payment terms: 15 days
+Your PO number: 70000882
+Our contact: John Jones
+```
 
 ## Related topics
 

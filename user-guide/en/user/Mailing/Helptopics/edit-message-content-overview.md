@@ -34,21 +34,13 @@ Here are some of the main functions of the **Content** step:
 
 ## Edit columns and blocks/sections
 
-<table style="width:100%;" data-cellspacing="0">
+When you click a section (column, content box, row etc.), buttons with editing options appears. The side-panel displays editing options for the selected section.
 
-<tbody>
-<tr>
-<td></td>
-<td>When you click a section (column, content box, row etc.), buttons with editing options appears. The side-panel displays editing options for the selected section.</p>
-<p>A blue frame is shown around the selected element, so that you always know which part of the message you are editing.</p>
-<p>If you click text content, a text editing toolbar is displayed</p></td>
-</tr>
-<tr>
-<td></td>
-<td>The global menu is always displayed at the bottom left of the content area.</p></td>
-</tr>
-</tbody>
-</table>
+A blue frame is shown around the selected element, so that you always know which part of the message you are editing.
+
+If you click text content, a text editing toolbar is displayed.
+
+The global menu is always displayed at the bottom left of the content area.
 
 See [Edit content](Edit-a-paragraph.md).
 

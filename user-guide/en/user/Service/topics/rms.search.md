@@ -13,7 +13,7 @@ language: en
 
 Searching in SuperOffice Service is performed from the same screen, no matter whether you are searching for requests, contacts, companies or other records in the system. In this topic, you can find out more about how searching in SuperOffice Service works.
 
-<!-- Fix reuse ID=a12 -->
+<details><summary>Try the shortcut search</summary><!-- Fix reuse ID=a12 -->
 
 ## Shortcut search
 
@@ -23,9 +23,13 @@ To quickly access a specific record (such as a request or contact), function or 
 2. Enter a search term, such as a function name, request ID, contact name or menu item. The result updates dynamically as you type.
 3. Select the result you want to open.
 
-**Tip**: You can also use the [keywords used in the quick search](rms.search.useQuickSearch.md#SearchForOtherRecords) to search for specific items like contacts or companies.
+> [!TIP]
+> You can also use the [keywords used in the quick search](rms.search.useQuickSearch.md#SearchForOtherRecords) to search for specific items like contacts or companies.
 
-**Tip:** There is also a quick search option. For more information about this, see [Use quick search](rms.search.useQuickSearch.md). In addition, clicking the various navigator buttons gives you access to more search options (see [Navigator options](Navigator-options.md)).
+</details>
+
+> [!TIP]
+> There is also a quick search option. For more information about this, see [Use quick search](rms.search.useQuickSearch.md). In addition, clicking the various navigator buttons gives you access to more search options (see [Navigator options](Navigator_options.md)).
 
 Click the appropriate link below, depending on what you want to find out about:
 
@@ -57,33 +61,12 @@ When you click **Search**, a new screen opens with a list of the records which m
 
 The list below explains how to use the different types of field that can be displayed under **Criteria**:
 
-<table data-cellspacing="0" style="width:100%; max-width:77.683%">
-
-<thead>
-<tr>
-<th style="border: Solid 1px #000000">Field</th>
-<th style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000">How is it used?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><p>![icon](../media/inputText.png)</p></td>
-<td>In an ordinary text field, you simply enter what you are searching for.</td>
-</tr>
-<tr>
-<td><p>![icon](../media/btn-dropdown.png)</p></td>
-<td>If there is a list button next to the field, click the button and select an option from the list that appears. You can also start by typing text into the field and selecting from the list that appears.</td>
-</tr>
-<tr>
-<td><p>![icon](../media/btn-add.png)</p></td>
-<td>If there is a **Add** button next to a field, this means that you can have more possible values for a field. For example, you can specify that you want to search for requests owned by request handler A or requests owned by request handler B.</td>
-</tr>
-<tr>
-<td><p>![icon](../media/btn-delete.png)</p></td>
-<td>You delete search criteria by clicking the delete icon to the right of the criterion in question. Click **Advanced view** to show this button.</td>
-</tr>
-</tbody>
-</table>
+| Field | How is it used? |
+|:-----:|-----------------|
+| ![icon](../media/inputText.png) | In an ordinary text field, you simply enter what you are searching for. |
+| ![icon](../media/btn_dropdown.png) | If there is a list button next to the field, click the button and select an option from the list that appears. You can also start by typing text into the field and selecting from the list that appears. |
+| ![icon](../media/btn_add.png) | If there is a **Add** button next to a field, this means that you can have more possible values for a field. For example, you can specify that you want to search for requests owned by request handler A or requests owned by request handler B. |
+| ![icon](../media/btn_delete.png) | You delete search criteria by clicking the delete icon to the right of the criterion in question. Click **Advanced view** to show this button. |
 
 At the bottom of the **Criteria** screen, you have the following options:
 
@@ -101,13 +84,18 @@ The search screen always shows the most relevant criteria for what you are searc
 3. In the **Choose field** list, select which field in the database the values are to be obtained from.
 4. Click **OK**. The new criterion is added below the others.
 
-**Tip:** You can return to the original search criteria by clicking ![icon](../media/btn-Menu.png) and selecting **Restore default**.
+> [!TIP]
+> You can return to the original search criteria by clicking ![icon](../media/btn_Menu.png) and selecting **Restore default**.
 
 ## The search results
 
-When you have specified search criteria under **Criteria** and clicked **Search**, all the records that match the search criteria are displayed in a list. The first record in the list is selected by default and displayed in the preview section. Click a record in the list to show a preview. <!-- Fix reuse ID=a1 -->
+When you have specified search criteria under **Criteria** and clicked **Search**, all the records that match the search criteria are displayed in a list. The first record in the list is selected by default and displayed in the preview section. Click a record in the list to show a preview.
 
-If the preview section is not visible, click the ![icon](../../media/btn-Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+<details><summary>Where is the preview?</summary><!-- Fix reuse ID=a1 -->
+
+If the preview section is not visible, click the ![icon](../../media/btn_Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+
+</details>
 
 You can also open a record by double-clicking the relevant row.
 
@@ -121,23 +109,27 @@ If you click one of the column headings below **Result**, you get the following 
 At the top right corner of the search results list are the following buttons:
 
 * **Update content** ( ![icon](../media/refresh.png) ): Clicking this button updates the search result with any new records that also match the criteria.
-* Click the ![icon](../media/btn-Menu.png) menu button in the top right corner to access the change the view options.
-* **Edit element profile** ( ![icon](../media/btn-editelementprofile.png) ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results](rms.search.searchResult.md).
+* Click the ![icon](../media/btn_Menu.png) menu button in the top right corner to access the change the view options.
+* **Edit element profile** ( ![icon](../media/btn_editelementprofile.png) ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results](rms.search.searchResult.md).
 
-Under the list, you can click ![icon](../media/btn-Menu.png) to access the following options:
+Under the list, you can click ![icon](../media/btn_Menu.png) to access the following options:
 
 * **Export**: Click here to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
 * **Batch management**: If you select one or more records in the list, you can click this button and select an action to perform on all the selected records simultaneously.
 
-## The preview section
+## The preview section</span>
 
 This section of the screen displays the contents of the record selected in the list. <!-- Fix reuse ID=a11 -->
 
-If the preview section is not visible, click the ![icon](../../media/btn-Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+<details><summary>Where is the preview?</summary><!-- Fix reuse ID=a1 -->
 
-## Use advanced view
+If the preview section is not visible, click the ![icon](../../media/btn_Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
 
-If you click the ![icon](../media/btn-Menu.png) menu button in the **Criteria** screen and select **Advanced view**, you gain access to more advanced search options. These are normally only relevant for experienced users. Here you can specify, for example, that you want to search for all requests that do not have a specific owner, or all requests where one field is empty, instead of having a set value. The options displayed here will depend on the context of your search. For instance, different fields are shown when searching for requests compared with searching for contacts. Some of the available options are outlined below:
+</details>
+
+## Use advanced view</span>
+
+If you click the ![icon](../media/btn_Menu.png) menu button in the **Criteria** screen and select **Advanced view**, you gain access to more advanced search options. These are normally only relevant for experienced users. Here you can specify, for example, that you want to search for all requests that do not have a specific owner, or all requests where one field is empty, instead of having a set value. The options displayed here will depend on the context of your search. For instance, different fields are shown when searching for requests compared with searching for contacts. Some of the available options are outlined below:
 
 * At the top are checkboxes you can use to turn on or off the display of different items.
 * For each individual search criterion, you can define operators. You do this by selecting the option you want in the list box to the right of the criterion. The operators available will depend on the type of criterion in question. For the **Category** criterion, you can choose between, for example, **Is one of** and **Is not one of**. For the **Request registered** criterion, you can select a time interval.

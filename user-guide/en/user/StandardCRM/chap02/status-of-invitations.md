@@ -13,27 +13,12 @@ language: en
 
 The users you have chosen to link to a follow-up will be notified of this on their screens. If you open the follow-up's **Participants** tab, you will see a list of participants and resources you have linked to the follow-up. You can also see who has accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
 
-<table>
-
-<tbody>
-<tr>
-<td><p>![icon](../media/invitation-accepted.bmp)</p></td>
-<td><p>Invitation has been accepted.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/invitasjon-avslått.bmp)</p></td>
-<td><p>Invitation has been declined.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/eye-icon.bmp)</p></td>
-<td><p>Invitation has been seen but not answered.</p></td>
-</tr>
-<tr>
-<td><p>unmarked</p></td>
-<td><p>Invitation has not been seen.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Description |
+|---|---|
+|![icon](../media/invitation_accepted.bmp) | Invitation has been accepted. |
+| ![icon](../media/invitasjon_avslått.bmp) | Invitation has been declined. |
+| ![icon](../media/eye-icon.bmp) | Invitation has been seen but not answered. |
+| unmarked | Invitation has not been seen. |
 
 See also [Receive invitations](Receiving-invitations.md).
 

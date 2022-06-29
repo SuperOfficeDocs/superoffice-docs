@@ -24,86 +24,28 @@ To create a new customer language:
 3. In the **Name** field, enter the name of the language. This is the name that appears in list boxes where you can select a language.
 
 4. In the **Language code** field, enter a short code for the relevant language (or equivalent). The international, two-letter abbreviations are normally used (for example DE, DK, EN, NL, NO and SE). <!-- Fix reuse ID=a1 -->
-    <table class="SimpleGridBlack" data-cellspacing="0px">
-    <tbody>
-    <tr>
-    <td><p>Chinese (simplified)</p></td>
-    <td><p>CN</p></td>
-    </tr>
-    <tr>
-    <td><p>Czech</p></td>
-    <td><p>CZ</p></td>
-    </tr>
-    <tr>
-    <td><p>Danish</p></td>
-    <td><p>DA (not DK)</p></td>
-    </tr>
-    <tr>
-    <td><p>Dutch</p></td>
-    <td><p>NL</p></td>
-    </tr>
-    <tr>
-    <td><p>English</p></td>
-    <td><p>EN</p></td>
-    </tr>
-    <tr>
-    <td><p>Finnish</p></td>
-    <td><p>FI</p></td>
-    </tr>
-    <tr>
-    <td><p>French</p></td>
-    <td><p>FR</p></td>
-    </tr>
-    <tr>
-    <td><p>German</p></td>
-    <td><p>DE</p></td>
-    </tr>
-    <tr>
-    <td><p>German (Switzerland)</p></td>
-    <td><p>CH</p></td>
-    </tr>
-    <tr>
-    <td><p>Italian</p></td>
-    <td><p>IT</p></td>
-    </tr>
-    <tr>
-    <td><p>Korean</p></td>
-    <td><p>KO</p></td>
-    </tr>
-    <tr>
-    <td><p>Norwegian</p></td>
-    <td><p>NO</p></td>
-    </tr>
-    <tr>
-    <td><p>Polish</p></td>
-    <td><p>PL</p></td>
-    </tr>
-    <tr>
-    <td><p>Portuguese (Brazil)</p></td>
-    <td><p>BR</p></td>
-    </tr>
-    <tr>
-    <td><p>Russian</p></td>
-    <td><p>RU</p></td>
-    </tr>
-    <tr>
-    <td><p>Spanish</p></td>
-    <td><p>ES</p></td>
-    </tr>
-    <tr>
-    <td><p>Swedish</p></td>
-    <td><p>SE (not SV)</p></td>
-    </tr>
-    <tr>
-    <td><p>Ukrainian</p></td>
-    <td><p>UK</p></td>
-    </tr>
-    <tr>
-    <td><p>Vietnamese</p></td>
-    <td><p>VI</p></td>
-    </tr>
-    </tbody>
-    </table>
+
+    | Language | Code |
+    |---|:-:|
+    | Chinese (simplified) | CN |
+    | Czech | CZ |
+    | Danish | DA (not DK) |
+    | Dutch | NL |
+    | English | EN |
+    | Finnish | FI |
+    | French | FR |
+    | German | DE |
+    | German (Switzerland) | CH |
+    | Italian | IT |
+    | Korean | KO |
+    | Norwegian | NO |
+    | Polish | PL |
+    | Portuguese (Brazil) | BR |
+    | Russian | RU |
+    | Spanish | ES |
+    | Swedish | SE (not SV) |
+    | Ukrainian | UK |
+    | Vietnamese | VI |
 
 5. In the **Virtual domain** field, enter the domain address that provides access to SuperOffice Customer Centre for the language in question, for example germany.liberty.com. Such domains must be set up in advance.
 

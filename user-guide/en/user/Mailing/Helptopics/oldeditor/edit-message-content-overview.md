@@ -30,23 +30,11 @@ Here are some of the main functions of the **Content** step:
 
 ## Edit columns and paragraphs
 
-<table class="SimpleGridBlack" style="width:100%;" data-cellspacing="0px">
-
-<tbody>
-<tr>
-<td>![icon](../../media/editor-menu-para.jpg)</td>
-<td><p>When you hover the mouse pointer over columns and paragraphs, a toolbar with editing options appears.</p></td>
-</tr>
-<tr>
-<td>![icon](../../media/editor-menu-border.jpg)</td>
-<td><p>If you hover the mouse pointer over a button in the menu, a red frame is shown around the element in question, so that you always know which part of the template you are editing.</p></td>
-</tr>
-<tr>
-<td>![icon](../../media/editor-menu-global.jpg)</td>
-<td><p>The global menu is always displayed at the top right in the content area.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Description |
+|:-:|---|
+| ![icon](../../media/editor-menu-para.jpg) | When you hover the mouse pointer over columns and paragraphs, a toolbar with editing options appears. |
+| ![icon](../../media/editor-menu-border.jpg) | |
+| ![icon](../../media/editor-menu-global.jpg) | The global menu is always displayed at the top right in the content area.
 
 See [Edit a paragraph](Edit-a-paragraph.md).
 

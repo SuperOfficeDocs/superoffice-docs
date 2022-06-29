@@ -17,50 +17,15 @@ When you hover the mouse pointer over columns and paragraphs, menus are displaye
 
 From the global menu, you can edit the properties of the whole template, as well as undo or repeat actions and display or hide borders. This menu is always displayed at the top right in the content area (see [Edit message content – overview](Edit-message-content-overview.md)).
 
-<table>
-<tbody>
-<tr>
-<td><p>**Icon**</p></td>
-<td><p>**Name**</p></td>
-<td><p>**Function**</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-edit.png)</p></td>
-<td><p>Edit top-level column</p></td>
-<td><p>Click here to edit the format and appearance of the whole template (all columns and paragraphs).</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-undo.jpg)</p></td>
-<td><p>Undo</p></td>
-<td><p>Click here to undo the last action.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-redo.jpg)</p></td>
-<td><p>Redo</p></td>
-<td><p>Click here to repeat the last action.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-border.jpg)</p></td>
-<td><p>Toggle showing border</p></td>
-<td><p>Click here to show/hide borders around columns and paragraphs.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-mobile.png)</p></td>
-<td><p>Toggle showing for mobile devices</p></td>
-<td><p>Click here to see what the appearance is like on a smart phone.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-copy.jpg)</p></td>
-<td><p>Copy HTML code</p></td>
-<td><p>Click here to open a window with the HTML code of the message. If you wish, you can copy this code to show the message in other applications.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-fullscreen.jpg)</p></td>
-<td><p>Toggle full screen view</p></td>
-<td><p>Click here to change between normal and full-screen views.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Name | Function |
+|:-:|---|---|
+| ![icon](../../media/btn_editor_edit.png | Edit top-level column | Click here to edit the format and appearance of the whole template (all columns and paragraphs). |
+| ![icon](../../media/btn-editor-undo.jpg) | Undo | Click here to undo the last action. |
+| ![icon](../../media/btn_editor_redo.jpg | Redo | Click here to repeat the last action. |
+| ![icon](../../media/btn-editor-border.jpg) | Toggle showing border. | Click here to show/hide borders around columns and paragraphs. |
+| ![icon](../../media/btn_editor_mobile.png | Toggle showing for mobile devices | Click here to see what the appearance is like on a smart phone. |
+| ![icon](../../media/btn-editor-copy.jpg) | Copy HTML code | Click here to open a window with the HTML code of the message. If you wish, you can copy this code to show the message in other applications. |
+| ![icon](../../media/btn-editor-fullscreen.jpg) | Toggle full screen view | Click here to change between normal and full-screen views. |
 
 > [!NOTE]
 > If you have defined specific properties for individual columns and paragraphs, these are not overridden by global properties.
@@ -72,31 +37,11 @@ In the column menu, you can edit the properties of the column. This menu is show
 > [!NOTE]
 > A paragraph menu is normally shown at top right of the column, since columns usually contain paragraphs.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>**Icon**</p></td>
-<td><p>**Name**</p></td>
-<td><p>**Function**</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-edit.png)</p></td>
-<td><p>Edit column</p></td>
-<td><p>Click here to edit the format and layout of the selected column and the paragraphs in the column.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-move.jpg)</p></td>
-<td><p>Move column</p></td>
-<td><p>Click here to move the column.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-Cancel.png)</p></td>
-<td><p>Delete column</p></td>
-<td><p>Click here to delete the column and the paragraphs in the column.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Name | Function |
+|:-:|---|---|
+| ![icon](../../media/btn_editor_edit.png | Edit column | Click here to edit the format and layout of the selected column and the paragraphs in the column. |
+| ![icon](../../media/btn-editor-move.jpg)  | Move column | Click here to move the column. |
+| ![icon](../../media/btn-Cancel.png) | Delete column | Click here to delete the column and the paragraphs in the column. |
 
 > [!NOTE]
 > The top-level column cannot be moved or deleted, only edited.
@@ -105,42 +50,11 @@ In the column menu, you can edit the properties of the column. This menu is show
 
 In the paragraph menu, you can edit the properties of this paragraph. This menu is shown at top right when you hover the mouse pointer over a paragraph (see [Edit message content – overview](Edit-message-content-overview.md)).
 
-<table>
-<tbody>
-<tr>
-<td><p>**Icon**</p></td>
-<td><p>**Name**</p></td>
-<td><p>**Function**</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-newpara.jpg)</p></td>
-<td><p>Add paragraph</p></td>
-<td><p>Click here to add a new paragraph. The paragraph is added below the active paragraph and has the same properties.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-edit.png)</p></td>
-<td><p>Edit paragraph</p></td>
-<td><p>Click here to open the editing view where you can edit the header and body text of the paragraph. You can also add images and edit the paragraph layout.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-copy.jpg)</p></td>
-<td><p>Copy paragraph</p></td>
-<td><p>Click here to copy the paragraph. The copy is placed below the paragraph you have copied.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-move.jpg)</p></td>
-<td><p>Move paragraph</p></td>
-<td><p>Click here to move the paragraph.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-Cancel.png)</p></td>
-<td><p>Delete paragraph</p></td>
-<td><p>Click here to delete the paragraph.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-editor-addcolumn.jpg)</p></td>
-<td><p>Add column of paragraphs</p></td>
-<td><p>Click here to add a column containing three paragraphs.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Name | Function |
+|:-:|---|---|
+| ![icon](../../media/btn_editor_newpara.jpg | Add paragraph  | Click here to add a new paragraph. The paragraph is added below the active paragraph and has the same properties. |
+| ![icon](../../media/btn-editor-edit.png)  | Edit paragraph | Click here to open the editing view where you can edit the header and body text of the paragraph. You can also add images and edit the paragraph layout. |
+| ![icon](../../media/ | Copy paragraph | Click here to copy the paragraph. The copy is placed below the paragraph you have copied. |
+| ![icon](../../media/btn-editor-move.jpg) | Move paragraph  | Click here to move the paragraph. |
+| ![icon](../../media/btn-Cancel.png) | Delete paragraph | Click here to delete the paragraph. |
+| ![icon](../../media/btn-editor-addcolumn.jpg) | Add column of paragraphs | Click here to add a column containing three paragraphs. |

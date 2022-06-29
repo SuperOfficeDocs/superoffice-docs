@@ -4,7 +4,7 @@ title: chat tab Chats
 description: chat tab Chats
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: ![icon](../StandardCRM/media/hugo.png) CRM/Service
+keywords:  CRM/Service
 so.topic: help
 language: en
 ---
@@ -32,27 +32,11 @@ The number of chats in queue is also listed here, and you can click **Get next i
 
 The following icons are used for the active chat sessions in the list:
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Icon</p></td>
-<td><p>Description</p></td>
-</tr>
-<tr>
-<td>![icon](media/chat-last-customer.png)</td>
-<td>The last message in the conversation from the customer and agent.</td>
-</tr>
-<tr>
-<td>![icon](media/chat-last-customer-unanswered.png)</td>
-<td>Number of unread messages from the customer.</td>
-</tr>
-<tr>
-<td>![icon](media/chat-transfered.png)</td>
-<td>Transferred chat to you or from you. Waiting to be accepted.</td>
-</tr>
-</tbody>
-</table>
+| Icon | Description |
+|---|---|
+| ![icon](media/chat_last_customer.png) | The last message in the conversation from the customer and agent. |
+| ![icon](media/chat_last_customer_unanswered.png) | Number of unread messages from the customer. |
+| ![icon](media/chat_transfered.png) | Transferred chat to you or from you. Waiting to be accepted. |
 
 ## Chat conversation
 

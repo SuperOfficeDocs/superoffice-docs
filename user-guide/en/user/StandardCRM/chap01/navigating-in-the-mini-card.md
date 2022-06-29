@@ -50,33 +50,19 @@ You can choose from the following views. Click the views for more information.
 
     If you hold the mouse pointer over these days, a tooltip containing a list of the relevant follow-ups appears.
 
-    <table>
-    
-    <tbody>
-    <tr>
-    <td><p>![icon](../media/minicard-level.png)</p></td>
-    <td>The "bar" below the date indicates the level of activities that day, making it easier to schedule meetings.</td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/minicard-today.png)</p></td>
-    <td>Today.</td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/minicard-selected.png)</p></td>
-    <td>The selected date in the Diary.</td>
-    </tr>
-    </tbody>
-    </table>
+    | ![icon](../media/minicard_level.png) | The "bar" below the date indicates the level of activities that day, making it easier to schedule meetings. |
+    | ![icon](../media/minicard_today.png) | Today. |
+    | ![icon](../media/minicard_selected.png) | The selected date in the Diary. |
 
     You can move from month to month by clicking the arrow keys ( ![icon](../../media/arrow-left.png)![icon](../../media/arrow-right.png) ) at the bottom of the side panel.
 * <!-- Fix reuse ID=a1 -->
     Shows all your favourites.
 
-    * To view only favourites for the current screen, click the checkbox at the bottom of the side panel. Example: If the **Sale** screen is open, click **Sales only** to show only sales.
-    * To remove favourites, select one or more favourites in the list and click **Remove**.
-    * Click **Refresh** to update the list of favourites with any new favourites you have added.
-    * Right-click a favourite to open the context menu.
-    * See also [Favourites](Favourites.md).
+  * To view only favourites for the current screen, click the checkbox at the bottom of the side panel. Example: If the **Sale** screen is open, click **Sales only** to show only sales.
+  * To remove favourites, select one or more favourites in the list and click **Remove**.
+  * Click **Refresh** to update the list of favourites with any new favourites you have added.
+  * Right-click a favourite to open the context menu.
+  * See also [Favourites](Favourites.md).
 * <!-- Fix reuse ID=a4 -->
     Show a daily agenda for the next day. This works in the same way as the **Day** view.
 * <!-- Fix reuse ID=a7 -->

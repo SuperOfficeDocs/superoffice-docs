@@ -27,86 +27,34 @@ It may happen that you want to create a series of appointments to occur at regul
 
 5. Under **Frequency** you specify whether the follow-up is to be repeated daily, weekly, monthly, yearly or at a user-defined interval. Then select further details for frequency in the field in the middle of the dialog. The options available here depend on what you select under **Frequency**:
     * If you select **Daily**, you can specify that the follow-up should repeat every working day, every day of the week, or at a user-defined interval, e.g. every other day. <!-- Fix reuse ID=a4 -->
-        <table>
-        
-        <tbody>
-        <tr>
-        <td><p>Every workday (Mon-Fri)</p></td>
-        <td><p>Specifies that the follow-up will be repeated at the same time on each working day.</p></td>
-        </tr>
-        <tr>
-        <td><p>or</p></td>
-        <td></td>
-        </tr>
-        <tr>
-        <td><p>Every weekday (Mon-Sun)</p></td>
-        <td><p>Specifies that the follow-up will be repeated at the same time on each day of the week, including the weekend.</p></td>
-        </tr>
-        <tr>
-        <td><p>or</p></td>
-        <td></td>
-        </tr>
-        <tr>
-        <td><p>Every &lt;number&gt; day(s)</p></td>
-        <td><p>Here you enter a number to specify how many days should pass between each meeting, e.g. Every 6 days.</p></td>
-        </tr>
-        </tbody>
-        </table>
+        | Option | Description |
+        |---|---|
+        | Every workday (Mon-Fri) | Specifies that the follow-up will be repeated at the same time on each working day. |
+        | Every weekday (Mon-Sun) | Specifies that the follow-up will be repeated at the same time on each day of the week, including the weekend. |
+        | Every &lt;number&gt; day(s) | Here you enter a number to specify how many days should pass between each meeting, e.g. Every 6 days. |
+
     * If you select **Weekly**, you can specify that the follow-up should repeat at a user-defined weekly interval, e.g. every three weeks, and on which day of the week it should take place. <!-- Fix reuse ID=a5 -->
-        <table style=" vertical-align:top; width:100%; max-width:78.064%;" data-cellspacing="0">
-        
-        <tbody>
-        <tr>
-        <td><p>Every &lt;number&gt; week(s)</p></td>
-        <td><p>Here you enter a number to specify how many weeks should pass between each meeting, e.g. Every 3 weeks.</p></td>
-        </tr>
-        <tr>
-        <td><p>&lt;weekday&gt;</p></td>
-        <td><p>Here you indicate on which weekday(s) the meeting should take place.</p></td>
-        </tr>
-        </tbody>
-        </table>
+
+        | Option | Description |
+        |---|---|
+        | Every &lt;number&gt; week(s)| Here you enter a number to specify how many weeks should pass between each meeting, e.g. Every 3 weeks. |
+        | &lt;weekday&gt;| Here you indicate on which weekday(s) the meeting should take place. |
+
     * If you select **Monthly**, you can specify on which day of the month the follow-up should repeat, e.g. on the 5th of the month, and a user-defined monthly interval, e.g. every 4th month. You can also specify that the follow-up should repeat, for example, on the fourth Wednesday of the month. <!-- Fix reuse ID=a6 -->
-        <table>
-        
-        <tbody>
-        <tr>
-        <td><p>Day &lt;number&gt; **of every &lt;number&gt; month(s)**</p></td>
-        <td><p>Use this if you want the follow-up to take place on the same date each time.</p>
-        <p>For example: Day 20 of every 3 months.</p></td>
-        </tr>
-        <tr>
-        <td><p>or</p></td>
-        <td></td>
-        </tr>
-        <tr>
-        <td><p>&lt;ordinal number&gt; &lt;weekday&gt; of every &lt;number&gt; month(s)</p></td>
-        <td><p>Use this if you want the follow-up to take place on the same weekday each time.</p>
-        <p>For example: The fourth Thursday of every 2 months.</p></td>
-        </tr>
-        </tbody>
-        </table>
+
+        | Option | Description |
+        |---|---|
+        | Day &lt;number&gt; **of every &lt;number&gt; month(s)** | Use this if you want the follow-up to take place on the same date each time. <br />For example: Day 20 of every 3 months. |
+        | &lt;ordinal number&gt; &lt;weekday&gt; of every &lt;number&gt; month(s)| Use this if you want the follow-up to take place on the same weekday each time. <br />For example: The fourth Thursday of every 2 months. |
+
     * If you select **Yearly**, you can specify on which day and month the follow-up should repeat each year, e.g. every 23rd of September. <!-- Fix reuse ID=a2 -->
-        <table>
-        
-        <tbody>
-        <tr>
-        <td><p>Day &lt;number&gt; **of &lt;month&gt;**</p></td>
-        <td><p>Use this if you want the follow-up to take place on the same date each time.</p>
-        <p>For example: Day 13 of April.</p></td>
-        </tr>
-        <tr>
-        <td><p>or</p></td>
-        <td></td>
-        </tr>
-        <tr>
-        <td><p>&lt;ordinal number&gt; **&lt;weekday&gt; of &lt;month&gt;**</p></td>
-        <td><p>Use this if you want the follow-up to take place on the same weekday each time.</p>
-        <p>For example: The fourth Thursday of August.</p></td>
-        </tr>
-        </tbody>
-        </table>
-    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon](../media/Pil-hoeyre.bmp)) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
+
+        | Option | Description |
+        |---|---|
+        | Day &lt;number&gt; **of &lt;month&gt;**| Use this if you want the follow-up to take place on the same date each time.<br />For example: Day 13 of April. |
+        | &lt;ordinal number&gt; **&lt;weekday&gt; of &lt;month&gt;**| Use this if you want the follow-up to take place on the same weekday each time.<br/>For example: The fourth Thursday of August. |
+
+    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon](../media/Pil_hoeyre.bmp)) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
 
 6. In the **Repeating follow-ups ends** field, choose whether the follow-up should stop after a specific number of times or after a specific date.
 

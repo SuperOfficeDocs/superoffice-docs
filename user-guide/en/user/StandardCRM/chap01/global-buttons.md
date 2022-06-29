@@ -13,31 +13,12 @@ language: en
 
 The global buttons appear throughout SuperOffice CRM. Some of them are in the main screen, while others are in the various dialogs.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Button</p></td>
-<td><p>Function</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/globalmenu-search.png)</p></td>
-<td><p>Click here to open the search window.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Dialogboksknapper-Telefon.bmp)</p></td>
-<td><p>Click here to choose a telephone number to dial.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Dialogboksknapper-pil-ned.bmp)</p></td>
-<td><p>Click an arrow button to open and close a list box.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../../media/btn-Menu.png)</p></td>
-<td><p>Click here to open a menu containing tasks relevant to the dialog or screen.</p></td>
-</tr>
-</tbody>
-</table>
+| Button | Function |
+|---|---|
+| ![icon](../../media/globalmenu_search.png) | Click here to open the search window. |
+| ![icon](../media/Dialogboksknapper_Telefon.bmp) | Click here to choose a telephone number to dial. |
+| ![icon](../media/Dialogboksknapper_pil_ned.bmp) | Click an arrow button to open and close a list box. |
+| ![icon](../../media/btn_Menu.png) | Click here to open a menu containing tasks relevant to the dialog or screen. |
 
 ## Related topics
 

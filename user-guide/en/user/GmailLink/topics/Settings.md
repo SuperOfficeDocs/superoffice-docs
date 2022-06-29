@@ -13,15 +13,7 @@ language: en
 
 In the dialog **SuperOffice Gmail Link - Settings** you can set archive, general and account options and show version information about SuperOffice Mail Link.
 
-<table style=" left:0px; top:62px; width:100%; max-width:658px;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td></td>
-<td>Open the <strong>SuperOffice Gmail Link - Settings</strong> dialog by clicking the SuperOffice icon ( ![icon](../media/icon.png) ) in the top-right corner of your browser.</p></td>
-</tr>
-</tbody>
-</table>
+Open the **SuperOffice Gmail Link - Settings** dialog by clicking the SuperOffice icon ( ![icon](../media/icon.png) ) in the top-right corner of your browser.
 
 ## Always show the archive dialog
 

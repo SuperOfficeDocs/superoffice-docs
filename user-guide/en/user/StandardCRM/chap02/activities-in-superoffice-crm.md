@@ -29,37 +29,7 @@ There are two types of activities – documents and follow-ups. Follow-ups is a 
 
 The table below illustrates the different kinds of activities:
 
-<table>
-<tbody>
-<tr>
-<td><p><strong>Activities</strong></p></td>
-</tr>
-<tr>
-<td><p><strong>Follow-ups</strong></p></td>
-<td><p><strong>Documents</strong></p></td>
-<td><p>Mailings / Form submissions</p></td>
-<td><p>Chat sessions</p></td>
-</tr>
-<tr>
-<td><p>Appointment</p></td>
-<td><p>Task</p></td>
-<td><p>Phone Call</p></td>
-<td><p>Document</p></td>
-<td><p>E-mail</p></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Knapperad-Avtale.bmp)</p></td>
-<td><p>![icon](../media/Knapperad-Oppgave.bmp)</p></td>
-<td><p>![icon](../media/Knapperad-Samtale.bmp)</p></td>
-<td><p>![icon](../media/Knapperad-Skriv.bmp)</p></td>
-<td><p>![icon](../media/Knapperad-E-post.bmp)</p></td>
-<td><p>![icon](../media/Knapperad-Mailings.bmp) ![icon](../media/Knapperad-Forms.bmp)</p></td>
-<td><p>![icon](../media/Knapperad-Chat.bmp)</p></td>
-</tr>
-</tbody>
-</table>
+[!include[ALT](../includes/activity-types.md)]
 
 The activities list columns contain the following information:
 

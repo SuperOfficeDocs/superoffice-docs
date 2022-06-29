@@ -13,7 +13,7 @@ language: en
 
 You can specify a number of settings for different parts of SuperOffice CRM, for example, the number of items to display in the history list and the default currency for sales. All preference settings are defined in SuperOffice Settings and maintenance, but users can modify some of them individually in SuperOffice CRM.
 
-## To change a preference:
+## To change a preference
 
 1. Choose ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**. The **Preferences** dialog opens.
 2. Select the required preference from the list on the left.
@@ -22,65 +22,16 @@ You can specify a number of settings for different parts of SuperOffice CRM, for
 
 <!-- Fix reuse ID=a1 -->
 
-<table>
-
-<tbody>
-<tr>
-<td><p>![icon](../media/Preferences-DefValues.bmp)</p></td>
-<td><p>**Default values**</p></td>
-<td><p>Here you specify the default values in SuperOffice CRM, i.e. the values that are displayed by default in various dialogs and fields. You can select, for example, the default business for new companies, the default duration of follow-ups, the default template for outbound documents and many other settings.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Diary.bmp)</p></td>
-<td><p>Diary</p></td>
-<td><p>Here you enter default settings for the diary and appointments, such as the default start time for the working day and the duration of alarms.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Functions.bmp)</p></td>
-<td><p>Functions</p></td>
-<td><p>Here you enter various general settings and functions, including whether to display a Tip of the Day when you start SuperOffice CRM (**Show Tips on Startup**).</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Email.bmp)</p></td>
-<td><p>E-mail</p></td>
-<td><p>Here you specify settings relating to e-mail and fax functionality in SuperOffice CRM, e.g. the e-mail client you have installed.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Notifications.bmp)</p></td>
-<td><p>Notifications via popup</p>
-<p>Notifications via e-mail</p>
-<p>Notifications via SMS</p></td>
-<td><p>Here you specify settings for request notifications.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Contact.bmp)</p></td>
-<td><p>Contact</p></td>
-<td><p>Here you specify settings for contacts.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Request.bmp)</p></td>
-<td><p>Request</p></td>
-<td><p>Here you specify settings for requests. For notification settings, see "Notifications via..." above.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Sale.bmp)</p></td>
-<td><p>Sale</p></td>
-<td><p>Here you specify settings for the sales function in SuperOffice CRM.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-Sorting.bmp)</p></td>
-<td><p>Sorting</p></td>
-<td><p>Here you specify how associates, lists and contacts should be sorted, for example, whether to sort your associates by their last name.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-System.bmp)</p></td>
-<td><p>System</p></td>
-<td><p>Here you specify system settings such as your home country, currency and default document archive.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Preferences-VisualEff.bmp)</p></td>
-<td><p>Visual effects</p></td>
-<td><p>Here you specify settings for visual effects, for example, the number of items in the history list (**Size of history list**) or if you want Sunday to be the first day of the week.</p></td>
-</tr>
-</tbody>
-</table>
+| Button | Option | Description |
+|---|---|---|
+| ![icon](../media/Preferences_DefValues.bmp) | **Default values** | Here you specify the default values in SuperOffice CRM, i.e. the values that are displayed by default in various dialogs and fields. You can select, for example, the default business for new companies, the default duration of follow-ups, the default template for outbound documents and many other settings. |
+| ![icon](../media/Preferences_Diary.bmp) | Diary | Here you enter default settings for the diary and appointments, such as the default start time for the working day and the duration of alarms. |
+| ![icon](../media/Preferences_Functions.bmp) | Functions | Here you enter various general settings and functions, including whether to display a Tip of the Day when you start SuperOffice CRM (**Show Tips on Startup**). |
+| ![icon](../media/Preferences_Email.bmp) | E-mail | Here you specify settings relating to e-mail and fax functionality in SuperOffice CRM, e.g. the e-mail client you have installed. |
+| ![icon](../media/Preferences_Notifications.bmp) | Notifications via popup; Notifications via e-mail, Notifications via SMS | Here you specify settings for request notifications. |
+| ![icon](../media/Preferences_Contact.bmp) | Contact | Here you specify settings for contacts. |
+| ![icon](../media/Preferences_Request.bmp) | Request | Here you specify settings for requests. For notification settings, see "Notifications via..." above. |
+| ![icon](../media/Preferences_Sale.bmp) | Sale | Here you specify settings for the sales function in SuperOffice CRM. |
+| ![icon](../media/Preferences_Sorting.bmp) | Sorting | Here you specify how associates, lists and contacts should be sorted, for example, whether to sort your associates by their last name. |
+| ![icon](../media/Preferences_System.bmp) | System | Here you specify system settings such as your home country, currency and default document archive. |
+| ![icon](../media/Preferences_VisualEff.bmp) | Visual effects | Here you specify settings for visual effects, for example, the number of items in the history list (**Size of history list**) or if you want Sunday to be the first day of the week. |

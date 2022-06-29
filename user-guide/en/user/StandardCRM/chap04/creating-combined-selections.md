@@ -30,35 +30,13 @@ To create a new combined selection:
 
 7. Under **Compare**, select which entries from the two selections to include in the combined selection.  
     <!-- Fix reuse ID=a2 -->
-    <table>
-    <tbody>
-    <tr>
-    <td>![icon](../media/selection-comb-onlyin1.png)</p></td>
-    <td>Only in Selection 1</p></td>
-    <td>Shows entries that are in selection 1, and excludes entries that are in both selection 1 and selection 2.</p></td>
-    </tr>
-    <tr>
-    <td>![icon](../media/selection-comb-onlyin2.png)</p></td>
-    <td>Only in Selection 2</p></td>
-    <td>Shows entries that are in selection 2, and excludes entries that are in both selection 1 and selection 2.</p></td>
-    </tr>
-    <tr>
-    <td>![icon](../media/selection-comb-common.png)</p></td>
-    <td>Common</p></td>
-    <td>Shows only entries that are in both selection 1 and selection 2.</p></td>
-    </tr>
-    <tr>
-    <td>![icon](../media/selection-comb-diff.png)</p></td>
-    <td>Difference</p></td>
-    <td>Shows only entries that are either in selection 1 or in selection 2.</p></td>
-    </tr>
-    <tr>
-    <td>![icon](../media/selection-comb-all.png)</p></td>
-    <td>All</p></td>
-    <td>Shows only entries in selection 1 and selection 2.</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Icon | Option | Description |
+    |:-:|---|---|
+    | ![icon](../media/selection_comb_onlyin1.png) | Only in Selection 1 | Shows entries that are in selection 1, and excludes entries that are in both selection 1 and selection 2. |
+    | ![icon](../media/selection_comb_onlyin2.png) | Only in Selection 2 | Shows entries that are in selection 2, and excludes entries that are in both selection 1 and selection 2. |
+    | ![icon](../media/selection_comb_common.png) | Common | Shows only entries that are in both selection 1 and selection 2. |
+    | ![icon](../media/selection_comb_diff.png) | Difference | Shows only entries that are either in selection 1 or in selection 2. |
+    | ![icon](../media/selection_comb_all.png) | All | Shows only entries in selection 1 and selection 2. |
 
 8. The **Owner** field automatically displays the user currently logged in. After you have saved a new selection, you can change the owner by [editing the selection](Editing-Selections.md). In practice, this means that you transfer it from yourself to someone else. In order to edit a selection, you must either be the owner or have administrator access, or you must have been given editing access via the **Functions** preference in SuperOffice Settings and maintenance.
 

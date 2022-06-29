@@ -13,16 +13,10 @@ language: en
 
 In the **Content** step you can edit the layout and content of the form response, and add links and images.
 
-<table>
+![icon](../../media/TemplateEditOverview-old-THUMB.png)
+(click to see a screenshot of the old version)
 
-<tbody>
-<tr>
-<td>![icon](../../media/TemplateEditOverview-old-THUMB.png)</a><br />
-(click to see a screenshot of the old version)</td>
-<td>old version of the editor. To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop Editor and the Editor](../forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md).</td>
-</tr>
-</tbody>
-</table>
+To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop Editor and the Editor](../forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md).
 
 Below are the relevant topics for this step in the mailings wizard:
 

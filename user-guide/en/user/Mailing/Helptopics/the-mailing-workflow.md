@@ -20,18 +20,8 @@ Using SuperOffice Marketing you can create the following:
 
 To open SuperOffice Marketing:
 
-<table>
-
-<tbody>
-<tr>
-<td><p>![icon](../../StandardCRM/media/Navigator-Mailing.bmp)</p></td>
-<td><ul>
-<li>In SuperOffice CRM: click the **Marketing** icon in the Navigator.</li>
-<li>In SuperOffice Service: click the **Marketing** icon in the Navigator, and then select one of the options in the list.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+* In SuperOffice CRM: click the **Marketing** icon ![icon](../../StandardCRM/media/Navigator-Mailing.bmp) in the Navigator.
+* In SuperOffice Service: click the **Marketing** icon ![icon](../../StandardCRM/media/Navigator-Mailing.bmp)in the Navigator, and then select one of the options in the list.
 
 > [!NOTE]
 > If you can also initiate the mailing as a mail merge from the selection screen in SuperOffice CRM.

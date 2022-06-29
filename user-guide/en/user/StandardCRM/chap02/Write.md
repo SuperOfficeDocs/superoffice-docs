@@ -11,15 +11,9 @@ language: en
 
 # Work with documents
 
-<table>
+![icon](../media/Knapperad-Skriv.bmp)
 
-<tbody>
-<tr>
-<td><p>![icon](../media/Knapperad-Skriv.bmp)</p></td>
-<td><p>No matter where you are in SuperOffice CRM, you can create or upload a new document by clicking **New** on the top bar and selecting **Document**. You can also create and upload new documents from the **New** button in the Top bar.</p></td>
-</tr>
-</tbody>
-</table>
+No matter where you are in SuperOffice CRM, you can create or upload a new document by clicking **New** on the top bar and selecting **Document**. You can also create and upload new documents from the **New** button in the Top bar.
 
 Documents can be letters, quotations or memos, and they can be displayed in several places in SuperOffice CRM.
 

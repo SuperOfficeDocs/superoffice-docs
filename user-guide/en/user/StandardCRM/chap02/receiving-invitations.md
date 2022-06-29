@@ -11,15 +11,9 @@ language: en
 
 # Receive invitations
 
-<table style=" vertical-align:top; width:100%; max-width:90.796%;" data-cellspacing="0">
+![icon](../../media/globalmenu-notice-new.png)
 
-<tbody>
-<tr>
-<td><p>![icon](../../media/globalmenu-notice-new.png)</p></td>
-<td><p>Participants who are invited to a follow-up will receive a notification on the Top bar. Click the **Notifications** icon to view the invitations(s).</p></td>
-</tr>
-</tbody>
-</table>
+Participants who are invited to a follow-up will receive a notification on the Top bar. Click the **Notifications** icon to view the invitations(s).
 
 <!-- Fix reuse ID=a1 -->
 
@@ -34,23 +28,11 @@ The dialog is divided into two:
 
 The icons in the list of invitations show information about the follow-up you are invited to:
 
-<table style=" vertical-align:top; width:100%; max-width:90.796%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>![icon](../media/invitation-accepted.bmp)</p></td>
-<td><p>Icon for follow-ups you have accepted an invitation to.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/invitasjon-avslått.bmp)</p></td>
-<td><p>Icon for follow-ups you have declined. These follow-ups stay in the **Invitations** dialog until the day after the follow-up takes place, so that you retain the option of changing your mind.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Recurring-booking-assignment.bmp)</p></td>
-<td><p>Repeating follow-up.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Description |
+|---|---|
+| ![icon](../media/invitation_accepted.bmp) | Icon for follow-ups you have accepted an invitation to. |
+| ![icon](../media/invitasjon_avslått.bmp) | Icon for follow-ups you have declined. These follow-ups stay in the **Invitations** dialog until the day after the follow-up takes place, so that you retain the option of changing your mind. |
+| ![icon](../media/Recurring_booking_assignment.bmp) | Repeating follow-up. |
 
 ## Filter the display
 
@@ -71,19 +53,10 @@ If you do not check any of these options, all that is displayed are follow-ups y
 
 When you select one of the invitations in the top part of the dialog, its details are displayed underneath. The active follow-up is emboldened. Accept or decline the invitation by clicking **Accept** or **Decline**:
 
-<table>
-
-<tbody>
-<tr>
-<td>Accept</p></td>
-<td>Says yes to the invitation. A green tick is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is moved from the **Invitations** dialog to your diary.</p></td>
-</tr>
-<tr>
-<td>Decline</p></td>
-<td>Says no to the selected invitation. A red cross is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is removed from the **Invitations** dialog. The **Reason for declining** dialog opens, where you can enter the reason you are declining the invitation.</p></td>
-</tr>
-</tbody>
-</table>
+| Action | Description |
+|---|---|
+| Accept | Says yes to the invitation. A green tick is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is moved from the **Invitations** dialog to your diary. |
+| Decline | Says no to the selected invitation. A red cross is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is removed from the **Invitations** dialog. The **Reason for declining** dialog opens, where you can enter the reason you are declining the invitation. |
 
 > [!TIP]
 > When you select an invitation in the **Invitations** dialog, the day in question is shown in the **Diary** screen in the background, so that you can check whether you have other appointments or not.  

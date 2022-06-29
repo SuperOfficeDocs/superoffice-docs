@@ -4,7 +4,7 @@ title: chat transfer to another agent
 description: chat transfer to another agent
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: ![icon](../StandardCRM/media/hugo.png) CRM/Service
+keywords:  CRM/Service
 so.topic: help
 language: en
 ---

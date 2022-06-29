@@ -11,15 +11,9 @@ language: en
 
 # Filter activities and sales
 
-<table>
+![icon](../media/Filter.bmp)
 
-<tbody>
-<tr>
-<td><p>![icon](../media/Filter.bmp)</p></td>
-<td><p>At the bottom of the **Activities** and **Sales** section tabs in the **Company**, **Contact**, **Sale** and **Project** screens is the **Filter** button.</p></td>
-</tr>
-</tbody>
-</table>
+At the bottom of the **Activities** and **Sales** section tabs in the **Company**, **Contact**, **Sale** and **Project** screens is the **Filter** button.
 
 You use the filter function to specify which records will be displayed on the **Activities** and **Sales** section tabs. You do this by specifying a date range for the records you want to see. The default in the **Filter** dialog is to display the previous year’s and the next six months’ activities or sales of the user currently logged in, but you can change these values as described below.
 
