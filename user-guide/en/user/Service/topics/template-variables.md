@@ -6,9 +6,9 @@ In the e-mail message, you can use template variables to insert customer-specifi
 
 In the tables below you can find all template variables for SuperOffice Service and SuperOffice Marketing.
 
-([Click here to see template variables for SuperOffice CRM](Template_variables.md).)
+([Click here to see template variables for SuperOffice CRM](Template-variables.md).)
 
-[Attachments](Template_variables.md#Attachments) | [Licence info](Template_variables.md#Licence_info) | [Links](Template_variables.md#Links) | [Maintenance](Template_variables.md#Maintenance) | [Selected contact](Template_variables.md#Variables_for_a_selected_contact) | [Requests](Template_variables.md#Variables_for_requests) | [Selected company](Template_variables.md#Variables_for_selected_company) | [Reply templates (user)](Template_variables.md#Variables_for_replytemplates) | [Conditional values](Template_variables.md#Conditional_values)
+[Attachments](Template-variables.md#Attachments) | [Licence info](Template-variables.md#Licence-info) | [Links](Template-variables.md#Links) | [Maintenance](Template-variables.md#Maintenance) | [Selected contact](Template-variables.md#Variables-for-a-selected-contact) | [Requests](Template-variables.md#Variables-for-requests) | [Selected company](Template-variables.md#Variables-for-selected-company) | [Reply templates (user)](Template-variables.md#Variables-for-replytemplates) | [Conditional values](Template-variables.md#Conditional-values)
 
 <!-- Fix reuse ID=a1 -->
 
@@ -706,8 +706,8 @@ Decrement variable:
 
 Format date:
 
-\[\[FORMAT\_DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
+\[\[FORMAT\-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
 
 Format time:
 
-\[\[SEC\_TO\_TIME:"seconds","h:m:s"\]\]
+\[\[SEC\-TO\-TIME:"seconds","h:m:s"\]\]

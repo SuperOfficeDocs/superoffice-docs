@@ -29,7 +29,7 @@ In addition to defining a time period, you can also choose whether you want to s
 
 To filter the information displayed in the **Activities** and **Sales** section tabs:
 
-1. Go to the **Company**, **Contact**, **Sale** or **Project** screen. (See [Use the Find screen](../chap01/Find_dialog.md).)
+1. Go to the **Company**, **Contact**, **Sale** or **Project** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
 
 2. Select the **Activities** or **Sales** section tab.
 
@@ -53,12 +53,12 @@ To filter the information displayed in the **Activities** and **Sales** section 
 Hold the mouse pointer over the **Filter** button ( ![icon](../media/Filter.bmp) ) to display the active filter settings.
 
 > [!NOTE]
-> In the **Activities** tab, you can also use pre-defined filters for documents, follow-ups, chats/forms (other) and mailings. See [Use filters in the section tabs](../chap01/Use_filters_in_the_section_tabs.md).
+> In the **Activities** tab, you can also use pre-defined filters for documents, follow-ups, chats/forms (other) and mailings. See [Use filters in the section tabs](../chap01/Use-filters-in-the-section-tabs.md).
 
 Click **Show count** at the bottom right of the section tab, to see how many records are displayed. The number changes according to active filter(s).
 
 ## Related topics
 
-[Use filters in the section tabs](../chap01/Use_filters_in_the_section_tabs.md)
+[Use filters in the section tabs](../chap01/Use-filters-in-the-section-tabs.md)
 
-[Grouping lists](../chap01/Sections_tabs_Grouping_lists.md)
+[Grouping lists](../chap01/Sections-tabs-Grouping-lists.md)

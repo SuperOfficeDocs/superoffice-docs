@@ -21,7 +21,7 @@ To create a new form:
 
     1. Select one of the main tabs in SuperOffice Marketing.
     2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn_addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
     4. Enter a descriptive name for the folder in the **Name** field.
     5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 3. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
@@ -34,10 +34,10 @@ To create a new form:
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.
-3. Click the ![icon](../media/btn_Menu.png) menu button next to the template you want to use.
+3. Click the ![icon](../media/btn-Menu.png) menu button next to the template you want to use.
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog.
 
-To activate and publish the form, see [Publish forms](form_publish.md).
+To activate and publish the form, see [Publish forms](form-publish.md).
 
 Click the headings to learn how to fill in the fields in the various categories:
 
@@ -53,7 +53,7 @@ To create a new folder:
 
 1. Select one of the main tabs in SuperOffice Marketing.
 2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-3. Click the ![icon](../media/btn_addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
 4. Enter a descriptive name for the folder in the **Name** field.
 5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 
@@ -77,23 +77,23 @@ In the **Fields** category you add the fields that should be included in the for
 To add fields to the form:
 
 1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button have been added to the new form.
-2. Click the **Add** button (![icon](../media/btn_Field_Add.png)). The **Add element** window opens.
+2. Click the **Add** button (![icon](../media/btn-Field-Add.png)). The **Add element** window opens.
 3. Select one of the following field categories:
     * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, e-mail address etc. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
-    * **View elements**: Sections, texts and images. Use sections to create multi-page forms. See [Create multi-page forms](form_create_multi-page.md).
+    * **View elements**: Sections, texts and images. Use sections to create multi-page forms. See [Create multi-page forms](form-create-multi-page.md).
 4. Select a field in the list.
 5. Click **Add**. The window closes and the field is added to the form and the form preview.
-6. Click ![icon](../media/btn_Field_Move.png) at the top of the field and drag it to the desired position in the form.
+6. Click ![icon](../media/btn-Field-Move.png) at the top of the field and drag it to the desired position in the form.
 7. Select the field and edit the field name if relevant. The original field name will always be displayed in the top right corner of the field.
 8. You can also edit these settings (optional):
     * In the **Placeholder** field, enter a short hint on what to enter in the field.
     * Select the **Mandatory** check box if this field must be filled in. The form cannot be submitted if mandatory fields are not filled in.
-    * Click **Advanced options** (![icon](../media/btn_Field_AdvancedOptions.png)) to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
+    * Click **Advanced options** (![icon](../media/btn-Field-AdvancedOptions.png)) to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
     * Click the check box **Full width** if you want the selected field to be the same width as the form.
-9. Edit any other options in the field as relevant. These options are described in more detail [here](form_field_options.md).
+9. Edit any other options in the field as relevant. These options are described in more detail [here](form-field-options.md).
 10. Click **Apply now** when you are done.
-11. Repeat steps 2-12 to add another field. You can also click **Duplicate field** (![icon](../media/btn_Field_duplicate.png)) to create a copy of a field.
+11. Repeat steps 2-12 to add another field. You can also click **Duplicate field** (![icon](../media/btn-Field-duplicate.png)) to create a copy of a field.
 
 ## <!-- Fix reuse ID=a5 -->
 
@@ -101,7 +101,7 @@ In the **Style** category you can define the look and feel of the form. You can 
 
 The preview on the right is updated automatically when you change any settings. If you do not specify the height and width of the form, the form will automatically adapt to the screen size (desktop, tablet or mobile).
 
-**Tip**: You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar colour**, and select a colour. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](form_create_multi-page.md).
+**Tip**: You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar colour**, and select a colour. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](form-create-multi-page.md).
 
 ## <!-- Fix reuse ID=a6 -->
 
@@ -113,15 +113,15 @@ This option adds an extra layer of security to the form. If you activate this op
 To activate double opt-in:
 
 1. Click **Enable double opt-in**.
-2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** (![icon](../media/btn_editor_toolbar_showhide.png)) to display formatting options for the text.
+2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** (![icon](../media/btn-editor-toolbar-showhide.png)) to display formatting options for the text.
 3. In the **E-mail** tab, create the confirmation e-mail sent to the persons submitting the form. In order to do so:
     1. **Subject**: Enter the subject of the confirmation e-mail.
     2. **Sender address**: Enter the e-mail address to display in the **From** field in the confirmation mail.
-    3. **Confirmation text**: Enter the body text of the e-mail. Click **Show/hide toolbar** (![icon](../media/btn_editor_toolbar_showhide.png)) to display formatting options for the text. Click **Open text editor in dialog** (![icon](../media/btn_editor_open.png)) to edit the text in a larger editor.
-    4. Click **Show/hide toolbar** (![icon](../media/btn_editor_toolbar_showhide.png)) and then click **Insert confirm link** (![icon](../media/btn_ConfirmLink.png)). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** (![icon](../media/btn_EditLink.png)).
+    3. **Confirmation text**: Enter the body text of the e-mail. Click **Show/hide toolbar** (![icon](../media/btn-editor-toolbar-showhide.png)) to display formatting options for the text. Click **Open text editor in dialog** (![icon](../media/btn-editor-open.png)) to edit the text in a larger editor.
+    4. Click **Show/hide toolbar** (![icon](../media/btn-editor-toolbar-showhide.png)) and then click **Insert confirm link** (![icon](../media/btn-ConfirmLink.png)). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** (![icon](../media/btn-EditLink.png)).
 4. Click **Apply now** when you are done.
 
-If double opt-in has been activated for a form, all submissions for this form will have status **Awaiting confirmation** until the e-mail address has been confirmed. See [Form submissions](form_submissions.md).
+If double opt-in has been activated for a form, all submissions for this form will have status **Awaiting confirmation** until the e-mail address has been confirmed. See [Form submissions](form-submissions.md).
 
 **Note**: Remember to add the **Contact - e-mail** field in the **Fields** category.
 
@@ -130,14 +130,14 @@ If double opt-in has been activated for a form, all submissions for this form wi
 When a person has completed and submitted a form, you should thank them and let them know what will happen next. You can do this by either redirecting them to another web page with more information or displaying a message.
 
 * **Redirect to external website**: Enter the link to the web page.
-* **Show this message**: Enter the text to display. Click **Show/hide toolbar** (![icon](../media/btn_editor_toolbar_showhide.png)) to display formatting options for the text. Click **Open text editor in dialog** (![icon](../media/btn_editor_open.png)) to edit the text in a larger editor.
+* **Show this message**: Enter the text to display. Click **Show/hide toolbar** (![icon](../media/btn-editor-toolbar-showhide.png)) to display formatting options for the text. Click **Open text editor in dialog** (![icon](../media/btn-editor-open.png)) to edit the text in a larger editor.
 
 ## <!-- Fix reuse ID=a8 -->
 
 If a person opens a form that is inactive, you can either redirect them to another web page or display a message.
 
 * **Redirect to external website**: Enter the link to the web page.
-* **Show this message**: Enter the text to display. Click **Show/hide toolbar** (![icon](../media/btn_editor_toolbar_showhide.png)) to display formatting options for the text. Click **Open text editor in dialog** (![icon](../media/btn_editor_open.png)) to edit the text in a larger editor.
+* **Show this message**: Enter the text to display. Click **Show/hide toolbar** (![icon](../media/btn-editor-toolbar-showhide.png)) to display formatting options for the text. Click **Open text editor in dialog** (![icon](../media/btn-editor-open.png)) to edit the text in a larger editor.
 
 ## <!-- Fix reuse ID=a9 -->
 
@@ -148,22 +148,22 @@ Here you can define how a submitted form should be processed. Fill in the follow
 **How should a form submission be processed?** Here you can define if the submitted forms should be processed automatically or not.
 
 * **Automatically process all submissions. Create new contact if no match found**: All form submissions are processed automatically. There will no notifications of submitted forms.
-* **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon](../media/btn_form_notification.png)).See [Process form submissions](form_submissions_process.md).
-* **Manually for all submissions**: You will receive a notification (![icon](../media/btn_form_notification.png)) for each submitted form. To process form submissions manually, see [Process form submissions](form_submissions_process.md).
+* **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon](../media/btn-form-notification.png)).See [Process form submissions](form-submissions-process.md).
+* **Manually for all submissions**: You will receive a notification (![icon](../media/btn-form-notification.png)) for each submitted form. To process form submissions manually, see [Process form submissions](form-submissions-process.md).
 
 **What should happen when the form is processed?** Here you can select actions to perform when a form is processed (automatically or manually):
 
 * **Add contact to selection**: If you have selected automatic processing above, you should add a selection here to keep track of contacts added via this form. This will also make it easier to remove any irrelevant contacts (and companies).
 * **Add contact to project**: Select a project. Contacts who submit this form will be added to this project.
 * **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
-* **E-mail response**: Select a form response to send to contacts when their form is processed. To create a form response, see [Form response: Step 1: Setup](form_create_step1_setup.md).
+* **E-mail response**: Select a form response to send to contacts when their form is processed. To create a form response, see [Form response: Step 1: Setup](form-create-step1-setup.md).
 * **Create request**: If you have added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
-* **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript](../../Service/topics_script/CRMScript.md).
+* **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript](../../Service/topics-script/CRMScript.md).
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/campanies to one specific category and/or business.  
     For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.
 
 ## What would you like to do now?
 
-[Publish forms](form_publish.md)
+[Publish forms](form-publish.md)
 
-[Create multi-page forms](form_create_multi-page.md)
+[Create multi-page forms](form-create-multi-page.md)

@@ -19,10 +19,10 @@ In the **Import** screen, you can import companies, contacts and products into S
 
 The Import function supports imports from the following sources:
 
-* [Excel](Import_from_Excel.md). Using the Excel format, you can import companies, contacts and [products](Import_products_from_Excel.md) from other applications and formats.
-* [Outlook](Import_from_Outlook.md). Imports companies and contacts from Microsoft Outlook.
-* [Gmail](Import_from_Gmail.md). Imports companies and contacts from Google Gmail.
-* [ERP](import_from_ERP.md). Imports actors (customers, suppliers and individuals) from an ERP system.
+* [Excel](Import-from-Excel.md). Using the Excel format, you can import companies, contacts and [products](Import-products-from-Excel.md) from other applications and formats.
+* [Outlook](Import-from-Outlook.md). Imports companies and contacts from Microsoft Outlook.
+* [Gmail](Import-from-Gmail.md). Imports companies and contacts from Google Gmail.
+* [ERP](import-from-ERP.md). Imports actors (customers, suppliers and individuals) from an ERP system.
 
 > [!NOTE]
 > To import other data like projects, sales, currencies, post codes and red-letter days, you must use the [Import](../chap04/Import.md) feature in Windows Client settings.
@@ -33,9 +33,9 @@ Here are some examples of various types of import:
 
 If you want to import your companies and/or contacts into an empty SuperOffice database, you can for example do the following:
 
-* Import all company and contact data. Make sure you link all columns in the import to the correct SuperOffice fields and specify the correct [Import settings](Import_settings_web.md) in order to include all the necessary data from the import source.
-* Import companies only: If you only want to import companies without contacts, go to[Import settings](Import_settings_web.md) and select the **None - do not import contact** option in the **Duplicate match** list box under **Contact**.
-* Import contacts only: If you only want to import contacts without companies, go to [Import settings](Import_settings_web.md) and select the **Import contacts without company** option in the **If no company name** list box under **Contact**.
+* Import all company and contact data. Make sure you link all columns in the import to the correct SuperOffice fields and specify the correct [Import settings](Import-settings-web.md) in order to include all the necessary data from the import source.
+* Import companies only: If you only want to import companies without contacts, go to[Import settings](Import-settings-web.md) and select the **None - do not import contact** option in the **Duplicate match** list box under **Contact**.
+* Import contacts only: If you only want to import contacts without companies, go to [Import settings](Import-settings-web.md) and select the **Import contacts without company** option in the **If no company name** list box under **Contact**.
 
 ## Update old data in SuperOffice
 

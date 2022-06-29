@@ -1,1 +1,1 @@
-![icon](../media/screendesigner_field_place.png)
+![icon](../media/screendesigner-field-place.png)

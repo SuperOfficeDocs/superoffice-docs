@@ -17,8 +17,8 @@ In the **Settings** tab in the **Quote/Sync** screen, you can adjust the setting
 
 * **Use discount on Total Value**: Check here if you want the option of adding a total discount (percent or amount) for the whole of the selected quote/alternative in SuperOffice CRM. Two discount fields are then shown at the bottom of the **Products** tab in the **Edit quote** dialog.
 * **Default text for follow-up**: Here you can enter the text to be displayed for any follow-up that may be created for this quote. Users have the option of creating a follow-up when they send a quote.
-* <a href="../chap08/Sale_-_Sales_type_(for_stages).md" style="font-weight: bold;">Open Sale Types</a>: Click this link to go to the **Sale - Type, Stages, Quote** list. Every sale in SuperOffice CRM must have a sale type, and many of the default properties of a quote are obtained from the sale type of the associated sale. This applies to, for instance, the use of alternatives, the quote template, validity of the quote and requirement for approval.
+* <a href="../chap08/Sale-Sales-type-(for-stages).md" style="font-weight: bold;">Open Sale Types</a>: Click this link to go to the **Sale - Type, Stages, Quote** list. Every sale in SuperOffice CRM must have a sale type, and many of the default properties of a quote are obtained from the sale type of the associated sale. This applies to, for instance, the use of alternatives, the quote template, validity of the quote and requirement for approval.
 
 ## Product dialog settings
 
-Shows the fields used in each quote line in the quote. Click the field name links or the **Configure product** button to edit these fields. See [Configure products](settings_configure_product.md).
+Shows the fields used in each quote line in the quote. Click the field name links or the **Configure product** button to edit these fields. See [Configure products](settings-configure-product.md).

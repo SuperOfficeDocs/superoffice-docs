@@ -13,7 +13,7 @@ language: en
 
 To create a new category:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)&gt; **Categories**. The **Categories** screen appears.  
+1. Select ![icon](../media/globalmenu-settings-small.png)&gt; **Categories**. The **Categories** screen appears.  
     You can also go to the **Requests** screen in SuperOffice Settings and maintenance and select the **Categories** tab.
 
 2. Click the **New category** button. This takes you to the **Category properties** screen.
@@ -32,7 +32,7 @@ To create a new category:
     * **Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences](admin.editUser.helpSettings.md), unless you select **User-defined**.
     * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences](admin.editUser.helpSettings.md), unless you select **User-defined**.
 
-4. In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click ![icon](../media/btn_add.png).
+4. In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click ![icon](../media/btn-add.png).
 
     > [!TIP]
     > If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](admin.listUsers.listUsergroups.md).
@@ -66,7 +66,7 @@ To create a new category:
     * -   **Even assignment**: Assigns requests evenly among the members of the category.
         * **Weighted assignment**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
         * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
-        * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](Get_next_request_in_the_queue.md)).
+        * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](Get-next-request-in-the-queue.md)).
 
     * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
 

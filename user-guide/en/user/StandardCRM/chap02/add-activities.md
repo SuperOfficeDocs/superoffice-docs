@@ -14,12 +14,12 @@ language: en
 To create follow-ups in SuperOffice CRM, you can click the **New** button on the top bar.
 
 > [!TIP]
-> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. You can specify which dialog should open under **Preferences** (![icon](../media/globalmenu_personalsettings_small.png)**Personal settings &gt; Preferences &gt; Functions &gt; Type from Activities section tab**).
+> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. You can specify which dialog should open under **Preferences** (![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Functions &gt; Type from Activities section tab**).
 
 ## What would you like to do now?
 
-[Create appointments](Creating_appointments.md)
+[Create appointments](Creating-appointments.md)
 
-[Create tasks](Creating_tasks.md)
+[Create tasks](Creating-tasks.md)
 
-[Enter phone calls](Entering_phone_calls.md)
+[Enter phone calls](Entering-phone-calls.md)

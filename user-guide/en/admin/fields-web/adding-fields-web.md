@@ -56,21 +56,21 @@ To add a new user-defined field:
 13. When you have specified the required settings, click **Save**. The dialog box will close and the new field will be displayed in the **Fields** list and in the grid.
 
 > [!TIP]
-> In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code. This is the "ID" of the field you are creating and can be used to reuse the information you enter in this field, e.g. in documents and e-mails. For more information, see [Template variables](../Template_variables.md).
+> In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code. This is the "ID" of the field you are creating and can be used to reuse the information you enter in this field, e.g. in documents and e-mails. For more information, see [Template variables](../Template-variables.md).
 
-1. Adjust the position of the field as described in [Place fields](Moving_fields_web.md).
-2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon](../media/fields_unpubl_new.png) ) and fields with unpublished changes ( ![icon](../media/fields_unpubl_changed.png) ) are displayed in bold text in the **Fields** list.
+1. Adjust the position of the field as described in [Place fields](Moving-fields-web.md).
+2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon](../media/fields-unpubl-new.png) ) and fields with unpublished changes ( ![icon](../media/fields-unpubl-changed.png) ) are displayed in bold text in the **Fields** list.
 
 <!-- Fix reuse ID=a3 -->
 
-If you find you are not allowed to create a new field, this may be because you have already reached the maximum number of permitted fields of this type (see [Maximum number of fields](../chap09/Maximum_number_of_fields.md)). You must then delete an existing field before you can insert a new one. Note also that four of each type of field (**Short text**, **Long text**, **Number** and **Decimal**) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six **Decimal** fields.
+If you find you are not allowed to create a new field, this may be because you have already reached the maximum number of permitted fields of this type (see [Maximum number of fields](../chap09/Maximum-number-of-fields.md)). You must then delete an existing field before you can insert a new one. Note also that four of each type of field (**Short text**, **Long text**, **Number** and **Decimal**) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six **Decimal** fields.
 
 ## Related topics
 
-[Place fields](Moving_fields_web.md)
+[Place fields](Moving-fields-web.md)
 
-[Edit fields](Editing_fields_web.md)
+[Edit fields](Editing-fields-web.md)
 
-[Edit the TAB order of fields](Editing_the_TAB_order_of_fields_web.md)
+[Edit the TAB order of fields](Editing-the-TAB-order-of-fields-web.md)
 
-[Maximum number of fields](../chap09/Maximum_number_of_fields.md)
+[Maximum number of fields](../chap09/Maximum-number-of-fields.md)

@@ -24,8 +24,8 @@ language: en
 
 This dialog allows you to set archive, general and account options and show version information about SuperOffice Mail Link. These options are explained in the following topics:
 
-* [Archive options](Default_options.md)
-* [General settings](Other_options.md)
+* [Archive options](Default-options.md)
+* [General settings](Other-options.md)
 * [Invitations](Invitations.md)
-* [SuperOffice account](SuperOffice_Account.md)
+* [SuperOffice account](SuperOffice-Account.md)
 * [About](About.md)

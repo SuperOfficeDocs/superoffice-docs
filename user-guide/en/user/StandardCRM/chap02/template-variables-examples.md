@@ -108,4 +108,4 @@ Template variables for quotes and order confirmations can be used within the con
 
 ## Related topics
 
-[Template variables](Template_variables.md)
+[Template variables](Template-variables.md)

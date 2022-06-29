@@ -17,7 +17,7 @@ If you receive an e-mail requesting you to do something, you can convert the e-m
 
 2. Click the **Archive e-mail** button on the toolbar, and select **Create activity** from the dropdown. The **Create activity** dialog appears.
 
-3. If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the **Create activity** dialog: **This sender's e-mail address is not recognised. Click here to update SuperOffice with this e-mail address**. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling_e-mails_from_senders_not_listed_in_SuperOffice_Sales_Marketing.md) for information on how to handle unlisted senders.
+3. If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the **Create activity** dialog: **This sender's e-mail address is not recognised. Click here to update SuperOffice with this e-mail address**. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling-e-mails-from-senders-not-listed-in-SuperOffice-Sales-Marketing.md) for information on how to handle unlisted senders.
 
 4. In the **Company** field, you may search for a company by starting to type the company name and then select from the matches that appear.
 
@@ -48,8 +48,8 @@ If you receive an e-mail requesting you to do something, you can convert the e-m
 
 ## What would you like to do now?
 
-[Archive e-mails on companies/contacts](Archiving_e-mails_on_companies_contacts_in_SuperOffice_Sales_Marketing.md)
+[Archive e-mails on companies/contacts](Archiving-e-mails-on-companies-contacts-in-SuperOffice-Sales-Marketing.md)
 
-[Archive attachments](Archiving_attachment_s_to_SuperOffice_Sales_Marketing.md)
+[Archive attachments](Archiving-attachment-s-to-SuperOffice-Sales-Marketing.md)
 
-[Archive e-mails as requests](Archiving_e-mails_as_requests.md)
+[Archive e-mails as requests](Archiving-e-mails-as-requests.md)

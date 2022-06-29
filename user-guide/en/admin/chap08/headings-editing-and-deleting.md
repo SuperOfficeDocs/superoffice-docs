@@ -13,11 +13,11 @@ language: en
 
 ## Edit headings
 
-You edit headings by double-clicking the relevant heading in the **Headings** list. Make the change as described in [Add headings](Adding_headings_web.md).
+You edit headings by double-clicking the relevant heading in the **Headings** list. Make the change as described in [Add headings](Adding-headings-web.md).
 
 ## Delete headings
 
 You delete headings by checking the relevant heading in the **Headings** list and clicking **Delete**.
 
 > [!NOTE]
-> The deletion is not permanent. This is explained under [Deleted items and headings](Deleted_items_and_headings.md).
+> The deletion is not permanent. This is explained under [Deleted items and headings](Deleted-items-and-headings.md).

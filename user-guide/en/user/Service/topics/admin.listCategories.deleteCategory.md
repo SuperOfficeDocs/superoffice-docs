@@ -13,7 +13,7 @@ language: en
 
 To delete a category:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Categories**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Categories**.
 
 2. Click the category name. This takes you to the **Category properties** screen.
 

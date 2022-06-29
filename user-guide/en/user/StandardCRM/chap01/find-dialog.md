@@ -16,31 +16,31 @@ To search for records and data in SuperOffice CRM, you use the **Find** screen.
 > [!NOTE]
 > If you have a licence for SuperOffice Integration Server, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
 
-* To find out how the search features works: Click [Search for information in SuperOffice CRM](#Searching_for_information_in_SuperOffice_CRM).
+* To find out how the search features works: Click [Search for information in SuperOffice CRM](#Searching-for-information-in-SuperOffice-CRM).
 
-* To find out what you can do with the search results: Click [Work with search results](#Working_with_search_results).
+* To find out what you can do with the search results: Click [Work with search results](#Working-with-search-results).
 
-* To see specific examples of how to use the search features: Click [The search facility in SuperOffice CRM](#Search_examples)
+* To see specific examples of how to use the search features: Click [The search facility in SuperOffice CRM](#Search-examples)
 
 ## Search for information in SuperOffice CRM
 
 To use the search function in SuperOffice CRM:
 
-1. Click the **Find** button on the [top bar](Buttons_in_the_menu_bar.md). ![icon](../media/GlobalMenu_Find.png)
+1. Click the **Find** button on the [top bar](Buttons-in-the-menu-bar.md). ![icon](../media/GlobalMenu-Find.png)
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
-3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Click ![icon](../media/criteria_remove.png) to remove any criteria you do not want to use.  
+3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Click ![icon](../media/criteria-remove.png) to remove any criteria you do not want to use.  
     *or*  
     If you want to add new search criteria, click the **Add** button. A new line is added to the criteria list.
-4. In the first list box on the line, select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher](Using_FastSearcher.md)).  
-    Here you could, for example, select **Contact** and **Last name** if you wanted to search for contacts, or **Project** and **Event date** if you wanted to search for projects. There are different types of fields. These are described under [Use search criteria](Using_search_criteria.md).
+4. In the first list box on the line, select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher](Using-FastSearcher.md)).  
+    Here you could, for example, select **Contact** and **Last name** if you wanted to search for contacts, or **Project** and **Event date** if you wanted to search for projects. There are different types of fields. These are described under [Use search criteria](Using-search-criteria.md).
 5. Select values for the search criteria in the next fields on the line.
 6. You can click **Add** below the criteria list again to specify more search criteria. A new line is added to the criteria list and you can repeat steps 4 and 5.
-7. To move criteria, click and drag ![icon](../media/criteria_move.png).
+7. To move criteria, click and drag ![icon](../media/criteria-move.png).
 8. Click **Or** to add a another set of criteria.
 9. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the search results which match the search criteria you have specified.
 
 > [!TIP]
-> If, for example, you want to search for all companies, you can use the percent sign (%) when entering search criteria for **Company**. For more information about how to use search criteria, see [Use search criteria](Using_search_criteria.md).
+> If, for example, you want to search for all companies, you can use the percent sign (%) when entering search criteria for **Company**. For more information about how to use search criteria, see [Use search criteria](Using-search-criteria.md).
 
 ## Work with search results
 
@@ -54,33 +54,33 @@ Display a record in the side panel
 
 Use the side panel to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
 
-See [The side panel](Navigating_in_the_mini_card.md).
+See [The side panel](Navigating-in-the-mini-card.md).
 
 Perform tasks on the search results
 
 The **Task** button contains tasks such as sending e-mails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed.
 
-See [Perform tasks using selections](../chap04/Performing_tasks_using_selections.md).
+See [Perform tasks using selections](../chap04/Performing-tasks-using-selections.md).
 
 Add records to a selection
 
-Click the **Save as selection** button. See [Create selections](../chap04/Create_selections.md).
+Click the **Save as selection** button. See [Create selections](../chap04/Create-selections.md).
 
-Select records, right-click, and select **Add to selection**. See [Add members to static selections](../chap04/Adding_members_to_static_selections.md).
+Select records, right-click, and select **Add to selection**. See [Add members to static selections](../chap04/Adding-members-to-static-selections.md).
 
 ## The search facility in SuperOffice CRM
 
 There are effectively no limits on what you can search for in SuperOffice CRM. The following specific examples of the search options in action are intended to provide you with tips on searching. In each case, we firstly describe a specific search requirement and then explain in detail how to perform the search. You can use these examples as inspiration for creating your own searches:
 
-[Example 1: search for profitable customers](#Search_example_1)
+[Example 1: search for profitable customers](#Search-example-1)
 
-[Example 2: search for customers in Denmark who you are responsible for](#Search_example_2)
+[Example 2: search for customers in Denmark who you are responsible for](#Search-example-2)
 
-[Example 3: search for sold sales](#Search_example_3)
+[Example 3: search for sold sales](#Search-example-3)
 
-[Example 4: search for projects you have participated in during the last year](#Search_example_4)
+[Example 4: search for projects you have participated in during the last year](#Search-example-4)
 
-[Example 5: search for marketing initiatives undertaken](#Search_example_5)
+[Example 5: search for marketing initiatives undertaken](#Search-example-5)
 
 ## Example 1: search for profitable customers
 
@@ -90,13 +90,13 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 2. Click **Find company**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria_remove.png) to delete them or **Clear all** to clear the criteria data.
+3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria-remove.png) to delete them or **Clear all** to clear the criteria data.
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon](../media/criteratype_sale.png)), and then **Amount**.
+5. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon](../media/criteratype-sale.png)), and then **Amount**.
 
-6. In the list box to the right of **Amount**, click the arrow (![icon](../media/Dialogboksknapper_pil_ned.bmp)) and select **&gt;** (greater than).
+6. In the list box to the right of **Amount**, click the arrow (![icon](../media/Dialogboksknapper-pil-ned.bmp)) and select **&gt;** (greater than).
 
 7. In the last field on the line, enter the minimum amount, e.g. "100 000".
 
@@ -104,9 +104,9 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon](../media/criteratype_sale.png)), and then **Registered date**.
+10. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon](../media/criteratype-sale.png)), and then **Registered date**.
 
-11. In the second list box, click the arrow (![icon](../media/Dialogboksknapper_pil_ned.bmp)) and select **Between**.
+11. In the second list box, click the arrow (![icon](../media/Dialogboksknapper-pil-ned.bmp)) and select **Between**.
 
 12. In the third list box, specify the start date of the period you want, and in the fourth list box, the end date.
 
@@ -116,7 +116,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 15. In the list that appears, enter "Status" in order to FastSearch in the field.
 
-16. From the list that is displayed, select **Sale** -** Status** (with the sale icon ![icon](../media/criteratype_sale.png) in front of it).
+16. From the list that is displayed, select **Sale** -** Status** (with the sale icon ![icon](../media/criteratype-sale.png) in front of it).
 
 17. In the second list box, select **Is one of**.
 
@@ -135,9 +135,9 @@ Imagine that you are a sales department manager and you want to make a presentat
 
     * To open one of the records, double-click it. It is then displayed in the **Company** screen.
 
-    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating_in_the_mini_card.md).
+    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
 
-    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create_selections.md).
+    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create-selections.md).
 
 ## Example 2: search for customers in Denmark who you are responsible for
 
@@ -147,11 +147,11 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 2. Click **Find company**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria_remove.png) to delete them or **Clear all** to clear the criteria data.
+3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria-remove.png) to delete them or **Clear all** to clear the criteria data.
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Company** ( ![icon](../media/criteratype_company.png) ), and then **Country**.
+5. In the list that appears, select the field you want to search for information in: First click **Company** ( ![icon](../media/criteratype-company.png) ), and then **Country**.
 
 6. In the second list box, select **Is one of**.
 
@@ -161,7 +161,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in: First click **Company** ( ![icon](../media/criteratype_company.png) ), and then **Our contact**.
+10. In the list that appears, select the field you want to search for information in: First click **Company** ( ![icon](../media/criteratype-company.png) ), and then **Our contact**.
 
 11. In the second list box, select **Current user**. Your name is displayed in the last field on the line.
 
@@ -178,9 +178,9 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
     * To open one of the records, double-click it. It is then displayed in the **Company** screen.
 
-    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating_in_the_mini_card.md).
+    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
 
-    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create_selections.md).
+    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create-selections.md).
 
 ## Example 3: search for sold sales
 
@@ -190,11 +190,11 @@ Let's assume you are the manager of a company and want to find out what types of
 
 2. Click **Find sale**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria_remove.png) to delete them or **Clear all** to clear the criteria data.
+3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria-remove.png) to delete them or **Clear all** to clear the criteria data.
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Sale** ( ![icon](../media/criteratype_sale.png) ), and then **Status**.
+5. In the list that appears, select the field you want to search for information in: First click **Sale** ( ![icon](../media/criteratype-sale.png) ), and then **Status**.
 
 6. In the second list box, select **Is one of**.
 
@@ -207,9 +207,9 @@ Let's assume you are the manager of a company and want to find out what types of
 10. You then decide what you want to use the search results for. Here are some suggestions:
     * To open one of the records, double-click it. It is then displayed in the **Sale** screen.
 
-    * Preview each sale in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them. See [The side panel](Navigating_in_the_mini_card.md).
+    * Preview each sale in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
 
-    * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create_selections.md).
+    * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create-selections.md).
 
 ## Example 4: search for projects you have participated in during the last year
 
@@ -219,11 +219,11 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 2. Click **Find sale**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria_remove.png) to delete them or **Clear all** to clear the criteria data.
+3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria-remove.png) to delete them or **Clear all** to clear the criteria data.
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Contact** ( ![icon](../media/criteratype_contact.png) ), and then **Last name**.
+5. In the list that appears, select the field you want to search for information in: First click **Contact** ( ![icon](../media/criteratype-contact.png) ), and then **Last name**.
 
 6. In the second list box, select **Equals**.
 
@@ -233,7 +233,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in: First click **Project** (![icon](../media/criteratype_project.png)), and then **From date**.
+10. In the list that appears, select the field you want to search for information in: First click **Project** (![icon](../media/criteratype-project.png)), and then **From date**.
 
 11. In the second list box, select **After**.
 
@@ -252,9 +252,9 @@ Imagine that the time for your pay review is approaching and you think you deser
 
     * To open one of the records, double-click it. It is then displayed in the **Project** screen.
 
-    * Preview each project in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them. See [The side panel](Navigating_in_the_mini_card.md).
+    * Preview each project in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
 
-    * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create_selections.md).
+    * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create-selections.md).
 
 ## Example 5: search for marketing initiatives undertaken
 
@@ -264,11 +264,11 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 2. Click **Find sale**.
 
-3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria_remove.png) to delete them or **Clear all** to clear the criteria data.
+3. If the **Criteria** tab contains any criteria, click ![icon](../media/criteria-remove.png) to delete them or **Clear all** to clear the criteria data.
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Follow-up** (![icon](../media/criteratype_followup.png)), and then **Intention**.
+5. In the list that appears, select the field you want to search for information in: First click **Follow-up** (![icon](../media/criteratype-followup.png)), and then **Intention**.
 
 6. In the second list box, select **Is one of**.
 
@@ -278,7 +278,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in. First click **Follow-up** (![icon](../media/criteratype_followup.png)), and then **End date**.
+10. In the list that appears, select the field you want to search for information in. First click **Follow-up** (![icon](../media/criteratype-followup.png)), and then **End date**.
 
 11. In the second list box, select **Previous**.
 
@@ -290,7 +290,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 15. Click **Add**.
 
-16. In the list that appears, select the field you want to search for information in. First click **Follow-up** ( ![icon](../media/criteratype_followup.png) ), and then **Completed**.
+16. In the list that appears, select the field you want to search for information in. First click **Follow-up** ( ![icon](../media/criteratype-followup.png) ), and then **Completed**.
 
 17. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
 
@@ -305,18 +305,18 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
     * To open one of the records, double-click it. It is then displayed on the **Activities** section tab in the **Company** screen.
 
-    * Preview each follow-up in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them. See [The side panel](Navigating_in_the_mini_card.md).
+    * Preview each follow-up in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
 
-    * You can create a selection containing these follow-ups, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create_selections.md).
+    * You can create a selection containing these follow-ups, by clicking **Save as selection** and following the procedure under [Create selections](../chap04/Create-selections.md).
 
 ## What would you like to do now?
 
-[Perform tasks](../chap04/Performing_tasks_using_selections.md)
+[Perform tasks](../chap04/Performing-tasks-using-selections.md)
 
-[Use freetext search](Freetext_search.md)
+[Use freetext search](Freetext-search.md)
 
-[Use FastSearcher](Using_FastSearcher.md)
+[Use FastSearcher](Using-FastSearcher.md)
 
-[Use the history list](Using_the_history_list.md)
+[Use the history list](Using-the-history-list.md)
 
-[Use search criteria](Using_search_criteria.md)
+[Use search criteria](Using-search-criteria.md)

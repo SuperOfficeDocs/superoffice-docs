@@ -18,14 +18,14 @@ At some stage, you may want to copy an existing company to a new company. For ex
 
 To copy the company:
 
-1. Go to the required company. (See [Use the Find screen](../chap01/Find_dialog.md).)
+1. Go to the required company. (See [Use the Find screen](../chap01/Find-dialog.md).)
 
-2. Select **Manage companies** from the ![icon](../../media/btn_Menu.png)**Task** button, and click **Copy company**.  
+2. Select **Manage companies** from the ![icon](../../media/btn-Menu.png)**Task** button, and click **Copy company**.  
     The **Copy company** dialog opens. The source company is specified under **From**.
 
     <!-- Fix reuse ID=a1 -->
 
-    ![icon](../media/Chap03_contacts/20_chap3_copy-company.bmp)
+    ![icon](../media/Chap03-contacts/20-chap3-copy-company.bmp)
 
 3. Enter the name of the new company and, where appropriate, a department under **To**.
 
@@ -35,9 +35,9 @@ To copy the company:
     * **Copy**. If you select this option, the company details and the contacts are copied.
 
     > [!NOTE]
-    > If you want to see the results before you copy the company, click **Show results**: ![icon](../media/Vis_resultat.bmp)
+    > If you want to see the results before you copy the company, click **Show results**: ![icon](../media/Vis-resultat.bmp)
 
-5. Click **Copy**. The new company is created with the specified information, and is given its own number and code. You can then edit the company information if required (see [Edit companies](Editing_companies.md)).
+5. Click **Copy**. The new company is created with the specified information, and is given its own number and code. You can then edit the company information if required (see [Edit companies](Editing-companies.md)).
 
 > [!NOTE]
 > Activities, sales, interests, project membership and selection membership are not copied.

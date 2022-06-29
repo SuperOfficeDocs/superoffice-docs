@@ -26,7 +26,7 @@ In order to do this:
 
     1. Select one of the main tabs in SuperOffice Marketing.
     2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn_addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
     4. Enter a descriptive name for the folder in the **Name** field.
     5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. <!-- Fix reuse ID=a1 -->  
@@ -48,5 +48,5 @@ In order to do this:
     * **Medium**: This field is set to **Email** by default. You cannot edit this field.
     * **Source**: Enter the source of the mailing, such as "superoffice-mailings".4" etc.
     * **Campaign**: Enter the type of mailing, such as "newsletter" or "lead-nurturing", or enter a specific campaign name such as "spring-sale-june-21" or "upgrade-campaign-v9"..  
-        <a href="javascript:BSSCPopup(&#39;Google_Analytics.md&#39;);" id="a4" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Read more about Google Analytics</a>.
-9. Click **Next** to go to the next step: [Step 2: Template](form_create_step2_template.md).
+        <a href="javascript:BSSCPopup(&#39;Google-Analytics.md&#39;);" id="a4" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Read more about Google Analytics</a>.
+9. Click **Next** to go to the next step: [Step 2: Template](form-create-step2-template.md).

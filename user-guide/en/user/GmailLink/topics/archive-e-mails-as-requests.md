@@ -19,7 +19,7 @@ You can create a request in SuperOffice Service based on an e-mail in your Gmail
 Follow these steps:
 
 1. In the Gmail inbox, open an e-mail.
-2. Click the **More** button ( ![icon](../media/btn_Archive_More.png) ) in the e-mail toolbar.
+2. Click the **More** button ( ![icon](../media/btn-Archive-More.png) ) in the e-mail toolbar.
 3. Select **Create request**. The dialog **Create request in SuperOffice based on e-mail** opens.
 4. Click the request queue in which you want to place the request. Each queue has a specific category and priority assigned to it.
 5. Click **Save** to save the request in SuperOffice Service. A message appears to confirm that the request has been created.
@@ -29,10 +29,10 @@ Follow these steps:
 
 ## What would you like to do now?
 
-[Archive incoming e-mail](e-mail_archive_incoming.md)
+[Archive incoming e-mail](e-mail-archive-incoming.md)
 
-[Archive outgoing e-mail](e-mail_archive_outgoing_.md)
+[Archive outgoing e-mail](e-mail-archive-outgoing-.md)
 
-[Create activity](Archive_e-mails_as_activities.md)
+[Create activity](Archive-e-mails-as-activities.md)
 
-[Archive attachments](Archive_attachments.md)
+[Archive attachments](Archive-attachments.md)

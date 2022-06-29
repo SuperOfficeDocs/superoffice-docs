@@ -11,7 +11,7 @@ language: en
 
 # Edit repeating follow-ups
 
-You can make changes to all repeating follow-ups of which you are the owner (for more details, see [The Details tab](Details_tab_follow-ups.md)). Changes work in the same way as described under [Edit follow-ups](Editing_follow-ups.md), but when you make a change, the **Repeating follow-ups** dialog appears, giving a brief description of the follow-up.
+You can make changes to all repeating follow-ups of which you are the owner (for more details, see [The Details tab](Details-tab-follow-ups.md)). Changes work in the same way as described under [Edit follow-ups](Editing-follow-ups.md), but when you make a change, the **Repeating follow-ups** dialog appears, giving a brief description of the follow-up.
 
 In the **Repeating follow-ups** dialog, you have two options:
 
@@ -20,8 +20,8 @@ In the **Repeating follow-ups** dialog, you have two options:
 
 ## What would you like to do now?
 
-[Create repeating follow-ups](Creating_recurring_follow-ups.md)
+[Create repeating follow-ups](Creating-recurring-follow-ups.md)
 
-[Receive invitations](Receiving_invitations.md)
+[Receive invitations](Receiving-invitations.md)
 
-[Stop repeating follow-ups](Stopping_recurring_follow-ups.md)
+[Stop repeating follow-ups](Stopping-recurring-follow-ups.md)

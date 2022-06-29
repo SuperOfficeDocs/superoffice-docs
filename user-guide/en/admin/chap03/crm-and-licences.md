@@ -28,7 +28,7 @@ A "system" licence specifies which systems you have access to.
 * **SuperOffice Server**: This licence is required in order to use SuperOffice CRM, SuperOffice Service and the other SuperOffice modules.
 * **Online WebServices**: This licence is required in order to access SuperOffice CRM, SuperOffice Service and the other SuperOffice modules from a web client.
 * **Area Management**: allows the definition of areas in Settings and maintenance (see Area Management).
-* **Sales Intelligence**: allows SAINT status monitors (see [Status monitors](../chap06/Status_monitor.md)).
+* **Sales Intelligence**: allows SAINT status monitors (see [Status monitors](../chap06/Status-monitor.md)).
 * **Exchange Synchronizer**: allows use of SuperOffice Synchronizer.
 * **SuperOffice Expander Services**: allows functionality for anonymous and external users via SuperOffice Audience or third-party applications, among other things.
 * **Customer Centre**: allows use of the customer centre module in SuperOffice Service.
@@ -63,4 +63,4 @@ Finally, there are user licences for SuperOffice CRM for Windows, which are purc
 
 ## Related topics
 
-[Edit licence information](Editing_licence_information_web.md)
+[Edit licence information](Editing-licence-information-web.md)

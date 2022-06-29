@@ -22,7 +22,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 1. Open a request. See [Process requests](ticket.listTicket.md).
 
-2. Click the ![icon](../media/btn_Menu.png)**Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
+2. Click the ![icon](../media/btn-Menu.png)**Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
 3. Edit the request name in the **Name** field if necessary.
 
@@ -54,7 +54,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
     1. Click **Choose file** next to **Attachment**.
     2. Browse to the document you require in the dialog box that appears.
-    3. Click ![icon](../media/btn_add.png) to add the attachment.
+    3. Click ![icon](../media/btn-add.png) to add the attachment.
     4. Repeat this procedure to add more attachments.
 
 11. In the **Link** field, you can add one or more addresses of relevant websites. <!-- Fix reuse ID=a2 -->
@@ -62,7 +62,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
     1. In the field to the left, enter the name to be displayed for the link.
     2. In the field on the right, enter the actual web address after **http://**
-    3. Click ![icon](../media/btn_add.png)**Add** to add the link.
+    3. Click ![icon](../media/btn-add.png)**Add** to add the link.
     4. Repeat this procedure to add more links.
 
 12. Go to the **Question** tab.
@@ -70,7 +70,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 13. Enter the question that you want the FAQ entry to contain. By default, the first message in the request is pasted into the **Question** tab.
 
     > [!TIP]
-    > Click ![icon](../media/btn_spellcheck.png) and select a language to spell check the message in that language.
+    > Click ![icon](../media/btn-spellcheck.png) and select a language to spell check the message in that language.
 
 14. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
 

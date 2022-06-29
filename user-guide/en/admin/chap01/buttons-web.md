@@ -17,4 +17,4 @@ The buttons in Settings and maintenance activate their associated functions with
 
 [The Navigator](navigator.md)
 
-[The Top bar](top_bar.md)
+[The Top bar](top-bar.md)

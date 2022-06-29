@@ -19,14 +19,14 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 <tbody>
 <tr>
 <td>Drag &amp; drop editor (new)</p>
-<p>Go to this topic: [Step 3: Content - Form response (Drag &amp; drop editor)](form_create_step3_content.md)</p></td>
+<p>Go to this topic: [Step 3: Content - Form response (Drag &amp; drop editor)](form-create-step3-content.md)</p></td>
 <td><p>Editor (old)</p>
-<p>Go to this topic: [Step 3: Content - Form response (the old Editor)](oldeditor/Step_3__Content_-_Form_response.md)</p></td>
+<p>Go to this topic: [Step 3: Content - Form response (the old Editor)](oldeditor/Step-3-Content-Form-response.md)</p></td>
 </tr>
 <tr>
 <td>![icon](../media/TemplateEditOverview.png)<br />
-![icon](../media/editor_sidepanel.png)</td>
-<td>![icon](../media/TemplateEditOverview_old.png)</td>
+![icon](../media/editor-sidepanel.png)</td>
+<td>![icon](../media/TemplateEditOverview-old.png)</td>
 </tr>
 </tbody>
 </table>

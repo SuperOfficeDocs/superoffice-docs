@@ -17,4 +17,4 @@ Example: A person sends you a request via web form and clicks a "Subscribe to ne
 
 ## What would you like to do now?
 
-[Add items to the Privacy - Legal basis list](Privacy_Legal_base_add.md)
+[Add items to the Privacy - Legal basis list](Privacy-Legal-base-add.md)

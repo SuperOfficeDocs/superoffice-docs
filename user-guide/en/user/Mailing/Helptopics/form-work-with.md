@@ -21,8 +21,8 @@ Examples of forms: start free trial, contact us, update data, consent management
 
 Creating a form follows roughly this workflow:
 
-1. [Create a new form](form_create.md)
-2. [Form response - Step 1: Setup](form_create_step1_setup.md) - an e-mail can be automatically sent to a submitter when their form is processed.
-3. [Publish forms](form_publish.md) - use a link or JavaScript to publish the form in a newsletter or on a website or Customer Centre.
-4. [Track form submissions and view statistics](form_submission_track.md) - view the response rate in real-time.
-5. [Process form submissions](form_submissions_process.md) - update SuperOffice with the submitted data, either manually or automatically. SuperOffice can identify existing contacts based on e-mail addresses or create new contacts and companies.
+1. [Create a new form](form-create.md)
+2. [Form response - Step 1: Setup](form-create-step1-setup.md) - an e-mail can be automatically sent to a submitter when their form is processed.
+3. [Publish forms](form-publish.md) - use a link or JavaScript to publish the form in a newsletter or on a website or Customer Centre.
+4. [Track form submissions and view statistics](form-submission-track.md) - view the response rate in real-time.
+5. [Process form submissions](form-submissions-process.md) - update SuperOffice with the submitted data, either manually or automatically. SuperOffice can identify existing contacts based on e-mail addresses or create new contacts and companies.

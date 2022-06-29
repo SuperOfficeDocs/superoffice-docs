@@ -32,8 +32,8 @@ To access these, do as follows:
 
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The_message_editor_-_old_vs_new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms_Differences_between_the_Drag_Drop_Editor_and_the_Editor.md)
+(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
+(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
 
 In addition to the templates created by your and your colleagues, you have access to a set of ready-to-use message templates from SuperOffice.
 
@@ -45,9 +45,9 @@ To access these, do as follows:
 
 3. If required, use the search field to find a specific template.
 
-4. Click the ![icon](../media/btn_Menu.png) menu button next to the template you want to use.
+4. Click the ![icon](../media/btn-Menu.png) menu button next to the template you want to use.
 
-5. Select **Create mailing**. The template opens in the mailings wizard. See [Step 1: Setup - E-mail](step_1_setup_email.md).
+5. Select **Create mailing**. The template opens in the mailings wizard. See [Step 1: Setup - E-mail](step-1-setup-email.md).
 
 <!-- Fix reuse ID=a1 -->
 
@@ -57,7 +57,7 @@ To create a new folder:
 
 1. Select one of the main tabs in SuperOffice Marketing.
 2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-3. Click the ![icon](../media/btn_addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
 4. Enter a descriptive name for the folder in the **Name** field.
 5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 
@@ -72,7 +72,7 @@ To create a new e-mail template from scratch:
 5. Click the blue box (column) in the message, and edit the layout in the side-panel.
 6. Click **Add Content** in a column. The side-panel displays various content types (such as images and text) that can be added to the column.
 7. Click and drag a content type from the side-panel to a column in the message.
-8. Click the content in the message to edit it. See [Edit content](Edit_a_paragraph.md).
+8. Click the content in the message to edit it. See [Edit content](Edit-a-paragraph.md).
 9. Click outside the column when you are done.
 10. Click and drag columns from the side-panel to add more content to your message.
 11. Click **OK** when you are done. The new template displays in the templates list.
@@ -83,11 +83,11 @@ To create a new SMS template from scratch:
 
 1. Go to the **Message templates** tab.
 
-2. Click ![icon](../media/btn_Add.png)**Add SMS**. The **Edit template** screen displays.
+2. Click ![icon](../media/btn-Add.png)**Add SMS**. The **Edit template** screen displays.
 
 3. Enter a descriptive name for the template in the **Name** field.
 
-4. In the **SMS** text field, enter the mailing text. You can use template variables for contacts here. This works the same way as for e-mail mailings. See [Use template variables in messages](Use_template_variables_in_messages.md).
+4. In the **SMS** text field, enter the mailing text. You can use template variables for contacts here. This works the same way as for e-mail mailings. See [Use template variables in messages](Use-template-variables-in-messages.md).
 
 5. Click **OK** when you are done. The new template displays in the templates list.
 
@@ -95,11 +95,11 @@ To create a new SMS template from scratch:
 
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The_message_editor_-_old_vs_new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms_Differences_between_the_Drag_Drop_Editor_and_the_Editor.md)
+(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
+(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
 
 1. Go to the **Mailings** tab.
-2. Click the ![icon](../media/btn_Menu.png) menu button next to the mailing you want to use as a basis for the template.
+2. Click the ![icon](../media/btn-Menu.png) menu button next to the mailing you want to use as a basis for the template.
 3. Select **Copy to template**. The **Edit template** screen opens.
 4. Enter a descriptive name for the template in the **Name** field.
 5. If required, click **Folder** to select a folder for the template.
@@ -109,11 +109,11 @@ To create a new SMS template from scratch:
 
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The_message_editor_-_old_vs_new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms_Differences_between_the_Drag_Drop_Editor_and_the_Editor.md)
+(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
+(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
 
 1. Go to the **Message templates** tab.
-2. Click the ![icon](../media/btn_Menu.png) menu button next to the template you want to use.
+2. Click the ![icon](../media/btn-Menu.png) menu button next to the template you want to use.
 3. Select **Make copy**. The **Edit template** screen opens.
 4. Enter a descriptive name for the template in the **Name** field.
 5. Make any necessary changes (as described above), and click **OK**.
@@ -123,6 +123,6 @@ To create a new SMS template from scratch:
 To import a JSON file:
 
 1. Go to the **Message templates** tab.
-2. Click **Import** (![icon](../media/btn_import.png)). The **Import** dialog displays.
+2. Click **Import** (![icon](../media/btn-import.png)). The **Import** dialog displays.
 3. Select the file you want to import.
 4. Click **OK**. The message template is added.

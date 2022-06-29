@@ -11,7 +11,7 @@ language: en
 
 # Select an image for a status
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences_screen.md).
+Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
 
 You can select an image to be displayed in SuperOffice CRM on a company card, contact card or project card that fulfils the criteria set for a specific status. The images are displayed as watermarks, so as not to hide the contents of the card.
 
@@ -43,10 +43,10 @@ To select an image for the status:
 
 ## What would you like to do now?
 
-[Select a default follow-up type for a status](Select_default_follow-up_type_for_status.md)
+[Select a default follow-up type for a status](Select-default-follow-up-type-for-status.md)
 
-[Specify status criteria](Select_status_criteria.md)
+[Specify status criteria](Select-status-criteria.md)
 
-[Specify a period length](Select_period_length.md)
+[Specify a period length](Select-period-length.md)
 
-[Manage status monitors](Manage_status_monitors.md)
+[Manage status monitors](Manage-status-monitors.md)

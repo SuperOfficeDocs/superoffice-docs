@@ -13,7 +13,7 @@ language: en
 
 To create a new purpose:
 
-Click the **Privacy** button in the Navigator (![icon](../media/Knapp_Privacy_small.png)).
+Click the **Privacy** button in the Navigator (![icon](../media/Knapp-Privacy-small.png)).
 
 Click **Add** below the list of purposes. The **Add purpose** dialog opens.
 
@@ -40,12 +40,12 @@ Edit the following fields:
 * confirmation the data will not be shared with other parties and is stored securely
 * information about how they can change or withdraw consent at any time
 
-Click ![icon](../media/translate.png) next to a field to add new or edit existing translations of the field texts. See [Translation](../Translate_fields.md).
+Click ![icon](../media/translate.png) next to a field to add new or edit existing translations of the field texts. See [Translation](../Translate-fields.md).
 
 Click **Save** when you are done.
 
 ## See also
 
-[Privacy - Legal basis](../chap08/Privacy_Legal_base.md)
+[Privacy - Legal basis](../chap08/Privacy-Legal-base.md)
 
-[Privacy - Source](../chap08/Privacy_Source.md)
+[Privacy - Source](../chap08/Privacy-Source.md)

@@ -18,8 +18,8 @@ The following features are available for charts:
 * Click on a chart to drill down on the chart data.
 * Place the mouse-pointer over chart sectors to view detailed source data.
 * Click the data labels (legend) next to or under the chart to hide/show specific data in the charts. This can be useful for printing or saving the charts from the preview window.
-* ![icon](../media/selection_preview.png): Click here to preview a chart. Here you can also see the data source table for the chart.
-* ![icon](../media/selection_refresh.png): Click here to refresh the chart with updated data.
+* ![icon](../media/selection-preview.png): Click here to preview a chart. Here you can also see the data source table for the chart.
+* ![icon](../media/selection-refresh.png): Click here to refresh the chart with updated data.
 
 <!-- Fix reuse ID=a1 -->
 

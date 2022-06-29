@@ -17,7 +17,7 @@ To edit the name and/or description of a user-defined list:
 > To quickly go to a list, click **Lists** in the navigator and start typing in the search field ( ![icon](../media/Soek.bmp) ). The search results are updated while you type.
 
 1. Open the **Lists** screen.
-2. Click the arrow (![icon](../media/pil_ned.bmp)) and select the required list.
+2. Click the arrow (![icon](../media/pil-ned.bmp)) and select the required list.
 3. Click the **Edit list** button.
 4. Type a new name for the list in the **Name** field.
 5. Edit the description of the list, as required, in the **Description** field.

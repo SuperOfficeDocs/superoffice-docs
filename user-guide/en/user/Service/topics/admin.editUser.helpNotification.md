@@ -13,7 +13,7 @@ language: en
 
 In SuperOffice Service, request handlers can choose to receive notifications of various events. In the **Notification** tab in the **Edit users** screen, you can check how you want to receive such notifications:
 
-* **Pop-up**: The notification button ( ![icon](../../media/globalmenu_notice_new.png) ) in the top bar will indicate that you have new notifications. See [Buttons in the Top bar](rms.navigate.buttons.topbar.md).
+* **Pop-up**: The notification button ( ![icon](../../media/globalmenu-notice-new.png) ) in the top bar will indicate that you have new notifications. See [Buttons in the Top bar](rms.navigate.buttons.topbar.md).
 * **E-mail**: You will receive an e-mail message when an event occurs.
 * **SMS** (if the SMS module is installed): You will receive a text message when an event occurs.
 
@@ -22,7 +22,7 @@ You can receive notifications of the following events in SuperOffice Service.
 * **Open requests, not read in the last \[number\] days**: Check here to be notified of open requests that have not been edited for the specified number of days and where you are the owner.
 
     > [!NOTE]
-    > This option is activated from ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **System** &gt; **Settings** &gt; **Send e-mail notification of open requests**.
+    > This option is activated from ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System** &gt; **Settings** &gt; **Send e-mail notification of open requests**.
 
 * **New request**: Check here to be notified each time you are assigned a new request.
 

@@ -50,7 +50,7 @@ In the **Properties** tab, enter the following information:
 In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click **Add**.
 
 > [!TIP]
-> If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](../chap07/User_groups.md).
+> If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](../chap07/User-groups.md).
 
 In the **Assignment method** tab, enter the following information:
 
@@ -59,7 +59,7 @@ In the **Assignment method** tab, enter the following information:
 * -   **Even**: Assigns requests evenly among the members of the category.
     * **Weighted**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
     * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
-    * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/Get_next_request_in_the_queue.md)).
+    * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/Get-next-request-in-the-queue.md)).
 
 * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
 

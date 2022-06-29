@@ -22,8 +22,8 @@ The **Chat** screen consists of the following tabs:
 
 ## What would you like to find out more about?
 
-[Respond to a chat](chat_respond.md)
+[Respond to a chat](chat-respond.md)
 
-[View chat statistics](chat_statistics.md)
+[View chat statistics](chat-statistics.md)
 
-[Using the chat function from the customer's perspective](chat_function_from_the_customers_perspective.md)
+[Using the chat function from the customer's perspective](chat-function-from-the-customers-perspective.md)

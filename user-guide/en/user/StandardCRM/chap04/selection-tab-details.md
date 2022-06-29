@@ -11,7 +11,7 @@ language: en
 
 # Details (Selection screen)
 
-In the **Details** tab you can click **Edit** to edit general information for the selection. The fields in this tab are described in [Create selections](Create_selections.md).
+In the **Details** tab you can click **Edit** to edit general information for the selection. The fields in this tab are described in [Create selections](Create-selections.md).
 
 Please note the following:
 

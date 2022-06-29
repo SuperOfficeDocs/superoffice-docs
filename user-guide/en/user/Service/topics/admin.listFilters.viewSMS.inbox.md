@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > If this tab is not visible, this means that you do not have the SMS module installed or that SMS has not been enabled for the licence you are using. Contact your system administrator for more information.
 
-In the **SMS inbox** tab is a list of the SMS messages in the queue to be read in. The following options are also available from the ![icon](../media/btn_Menu.png) menu button:
+In the **SMS inbox** tab is a list of the SMS messages in the queue to be read in. The following options are also available from the ![icon](../media/btn-Menu.png) menu button:
 
 * **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 

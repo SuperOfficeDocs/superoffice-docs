@@ -20,7 +20,7 @@ You can specify preference settings for four different levels:
 <td><p>System</p></td>
 <td><p>Global preferences that apply to all users in the system, including all satellites, groups and individual users.</p>
 <p>> [!NOTE]
-> Preferences that can only be set on a global (system) level, can be found in the <a href="Global_preferences.md" style="font-weight: bold;">Global preferences</a> tab.</p></td>
+> Preferences that can only be set on a global (system) level, can be found in the <a href="Global-preferences.md" style="font-weight: bold;">Global preferences</a> tab.</p></td>
 </tr>
 <tr>
 <td><p>Database</p></td>
@@ -44,4 +44,4 @@ You can specify different values for different levels so that, for example, you 
 
 ## What would you like to do now?
 
-[Display different levels](Displaying_different_levels.md)
+[Display different levels](Displaying-different-levels.md)

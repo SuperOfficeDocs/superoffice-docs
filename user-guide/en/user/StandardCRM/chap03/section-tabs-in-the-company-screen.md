@@ -17,7 +17,7 @@ The **Company** screen contains the following section tabs:
 
 [Relations](Relations.md): The **Relations** section tab displays any connections existing between companies and/or contacts.
 
-[Activities](Activities_Contact.md): The **Activities** section tab contains all the activities linked to the active company.
+[Activities](Activities-Contact.md): The **Activities** section tab contains all the activities linked to the active company.
 
 [Projects](Projects.md): The **Projects** section tab shows all the projects for the active company.
 
@@ -25,6 +25,6 @@ The **Company** screen contains the following section tabs:
 
 [Requests](requests.md): The **Requests** section tab shows SuperOffice Service requests for the active company.
 
-[ERP](../ERP/ERP_main.md): Here you can link a SuperOffice company to a customer/supplier in the ERP system.
+[ERP](../ERP/ERP-main.md): Here you can link a SuperOffice company to a customer/supplier in the ERP system.
 
 Additionally, you can define in SuperOffice Settings and maintenance (**Lists &gt; GUI - Web panel)** that more section tabs will be added in the form of URL addresses which SuperOffice CRM links to. You then open the URL address by clicking the tab itself. Here you can click **Open in separate window** to view the web page in a separate browser window.

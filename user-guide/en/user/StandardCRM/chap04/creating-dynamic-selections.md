@@ -11,8 +11,8 @@ language: en
 
 # Create dynamic selections
 
-See [Create selections](Create_selections.md).
+See [Create selections](Create-selections.md).
 
 ## Related topics
 
-[Create combined selections](Creating_combined_selections.md)
+[Create combined selections](Creating-combined-selections.md)

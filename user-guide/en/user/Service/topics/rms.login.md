@@ -16,10 +16,10 @@ SuperOffice Service is a web-based system. This means you need to be connected t
 1. Open a browser, such as Internet Explorer.
 2. Enter the URL address for SuperOffice CRM.
 3. Enter your user name and password.
-4. Click ![icon](../media/nav_service.png)**Service** in the navigator on the left-hand side of the screen.
+4. Click ![icon](../media/nav-service.png)**Service** in the navigator on the left-hand side of the screen.
 5. Click **Log in**. This takes you to the dashboard in SuperOffice Service. You can read more about this under [Requests](ticket.md).
 
-**Tip:** To log out of SuperOffice Service, click the ![icon](../media/globalmenu_PersonalSettings_small.png)**Personal settings** button at the top of the screen, and select **Log out**.
+**Tip:** To log out of SuperOffice Service, click the ![icon](../media/globalmenu-PersonalSettings-small.png)**Personal settings** button at the top of the screen, and select **Log out**.
 
 ## Multiple sessions
 

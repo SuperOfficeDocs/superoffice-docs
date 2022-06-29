@@ -25,11 +25,11 @@ Contains a list of requests that match the criteria specified above. Here you ca
 * Sort the requests by clicking the appropriate column heading.
 * Select a row to display the content of that request in the preview section.
 * Open a request by double-clicking the relevant row. See [List requests](ticket.listTicket.md).
-* Click the ![icon](../media/btn_Menu.png) menu button in the top right corner to access the change the view options.
+* Click the ![icon](../media/btn-Menu.png) menu button in the top right corner to access the change the view options.
 
-**Tip:** Requests with a red envelope icon ( ![icon](../media/mail_red.png) ) in the **Status** column are unread, while those with a blue icon ( ![icon](../media/mail_green.png) ) have been read. A yellow envelope icon ( ![icon](../media/mail_yellow.png) ) means read by the owner, but subsequently amended.
+**Tip:** Requests with a red envelope icon ( ![icon](../media/mail-red.png) ) in the **Status** column are unread, while those with a blue icon ( ![icon](../media/mail-green.png) ) have been read. A yellow envelope icon ( ![icon](../media/mail-yellow.png) ) means read by the owner, but subsequently amended.
 
-Under the list, you can click the ![icon](../media/btn_Menu.png) menu button to access the following options:
+Under the list, you can click the ![icon](../media/btn-Menu.png) menu button to access the following options:
 
 * **Export**: Click here to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
 * **Batch management**: If you select one or more requests in the list, you can click this button and select an action to perform on all the selected requests simultaneously. For example, you can choose to [add the same message to multiple requests](ticket.showListTickets.addMassMessage.md), [forward multiple requests](ticket.showListTickets.massForward.md) or delete several requests in a single operation.
@@ -38,7 +38,7 @@ Under the list, you can click the ![icon](../media/btn_Menu.png) menu button to 
 
 This section of the screen displays the contents of the request selected under **Result**. Here you have the same options as described under [Process requests](ticket.listTicket.md). <!-- Fix reuse ID=a1 -->
 
-If the preview section is not visible, click the ![icon](../../media/btn_Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+If the preview section is not visible, click the ![icon](../../media/btn-Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
 
 ## What would you like to do now?
 

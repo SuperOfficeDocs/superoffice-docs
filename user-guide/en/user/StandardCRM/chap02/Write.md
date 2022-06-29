@@ -15,7 +15,7 @@ language: en
 
 <tbody>
 <tr>
-<td><p>![icon](../media/Knapperad_Skriv.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Skriv.bmp)</p></td>
 <td><p>No matter where you are in SuperOffice CRM, you can create or upload a new document by clicking **New** on the top bar and selecting **Document**. You can also create and upload new documents from the **New** button in the Top bar.</p></td>
 </tr>
 </tbody>
@@ -35,18 +35,18 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 
 ## Related topics
 
-[Open documents](Opening_documents.md)
+[Open documents](Opening-documents.md)
 
-[Upload documents](Upload_documents.md)
+[Upload documents](Upload-documents.md)
 
-[Create new documents](Creating_new_documents.md)
+[Create new documents](Creating-new-documents.md)
 
-[Edit documents](Editing_documents.md)
+[Edit documents](Editing-documents.md)
 
-[Send documents](Sending_documents_from_the_Activities_section_tab.md)
+[Send documents](Sending-documents-from-the-Activities-section-tab.md)
 
-[Delete documents](Deleting_documents.md)
+[Delete documents](Deleting-documents.md)
 
-[Check in/out documents](doc_checkoutin.md)
+[Check in/out documents](doc-checkoutin.md)
 
-[Language support for documents](doc_Language_support.md)
+[Language support for documents](doc-Language-support.md)

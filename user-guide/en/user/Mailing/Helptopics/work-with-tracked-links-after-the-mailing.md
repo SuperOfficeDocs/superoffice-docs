@@ -27,27 +27,27 @@ To view the links for a mailing, open the relevant mailing, click the **Tracked 
 To view the links for all mailings, click the **Tracked links** tab in the main SuperOffice Marketing screen. If you cannot find the link you want to work with, click **All links**. Click the link you want to work with.
 
 > [!NOTE]
-> Only registered links (see [Create tracked links](Create_links.md)) are displayed here. If you have added "regular" links in the mailing, you need to select the **Track all links** option in [Step 1: Setup](step_1_setup_email.md).
+> Only registered links (see [Create tracked links](Create-links.md)) are displayed here. If you have added "regular" links in the mailing, you need to select the **Track all links** option in [Step 1: Setup](step-1-setup-email.md).
 
 In order to do this:
 
 1. In the active mailing, select the **Tracked links** tab.
 2. Click the relevant link from the link list. The **View link** screen displays.  
-    Here you can see the number of clicks for the link and any actions that have been specified for the link. See [Define link actions](Define_link_actions.md). In the **Clickers** list you can see who has clicked the link and in which mailing they clicked the link.
+    Here you can see the number of clicks for the link and any actions that have been specified for the link. See [Define link actions](Define-link-actions.md). In the **Clickers** list you can see who has clicked the link and in which mailing they clicked the link.
 3. Use the checkboxes in the left column to select all or specific contacts in the list.
-4. Click the ![icon](../media/btn_Menu.png) menu button. Here you can add the selected contacts to a new or existing selection or project. See [Add recipients to selections or projects](Add_recipients_to_selections_or_projects.md).
+4. Click the ![icon](../media/btn-Menu.png) menu button. Here you can add the selected contacts to a new or existing selection or project. See [Add recipients to selections or projects](Add-recipients-to-selections-or-projects.md).
 5. Click **OK** to close the **View link** screen.
 
-To edit the link, click the **Edit** button. See [Create tracked links](Create_links.md).
+To edit the link, click the **Edit** button. See [Create tracked links](Create-links.md).
 
 Reset counters for links
 
-Sometimes you need to reset the number of clicks back to zero. This would be the case, for example, after you have sent out a test message (see [Test the mailing](test_mailing.md)), so that your own and others' clicking of links during testing are not included in your results. To do this:
+Sometimes you need to reset the number of clicks back to zero. This would be the case, for example, after you have sent out a test message (see [Test the mailing](test-mailing.md)), so that your own and others' clicking of links during testing are not included in your results. To do this:
 
 1. Select the **Tracked links** tab.
 2. Click **All links** if your link is not displayed in the list. If you have organised the links in folders, first go to the folder the link is in.
-3. Click the menu button ( ![icon](../media/btn_Menu.png) ) next to the link and select **Reset**. The counter in the **Clicks** column changes to 0. Data about which customers have clicked the link are also removed.
+3. Click the menu button ( ![icon](../media/btn-Menu.png) ) next to the link and select **Reset**. The counter in the **Clicks** column changes to 0. Data about which customers have clicked the link are also removed.
 
 ## Related topics
 
-[Work with the recipient list after the mailing](Work_with_the_recipient_list_after_the_mailing.md)
+[Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md)

@@ -11,4 +11,4 @@ language: en
 
 # Criteria (Selection screen)
 
-Click **Edit** to edit the criteria for a dynamic selection. See [Use search criteria](../chap01/Using_search_criteria.md).
+Click **Edit** to edit the criteria for a dynamic selection. See [Use search criteria](../chap01/Using-search-criteria.md).

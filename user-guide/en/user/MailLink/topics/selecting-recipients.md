@@ -11,9 +11,9 @@ language: en
 
 # Selecting recipients
 
-When creating an e-mail (see [Creating e-mails from Microsoft Outlook](Creating_e-mails_from_Microsoft_Outlook.md)or [Creating e-mails from Lotus Notes](Creating_e-mails_from_Lotus_Notes.md)), you can add recipients using the **Select recipients** dialog. Follow these steps:
+When creating an e-mail (see [Creating e-mails from Microsoft Outlook](Creating-e-mails-from-Microsoft-Outlook.md)or [Creating e-mails from Lotus Notes](Creating-e-mails-from-Lotus-Notes.md)), you can add recipients using the **Select recipients** dialog. Follow these steps:
 
-1. In the new e-mail window, click the **Add recipient** button (![icon](../media/Add_recipient.png)). The **Select recipients** dialog opens.
+1. In the new e-mail window, click the **Add recipient** button (![icon](../media/Add-recipient.png)). The **Select recipients** dialog opens.
 
 2. Under **Select from**, select one of the five radio buttons: **Company**, **Project**, **Sale**, **Selection** or **User group**. The rest of the dialog changes accordingly.
 

@@ -11,4 +11,4 @@ language: en
 
 # Export
 
-Exporting of data from the SuperOffice database is done using the **Selection** or **Reports** screens in SuperOffice CRM. If you want to export a file in order to import it via the **Import** screen in Windows Client settings, you need to export it as an **ANSI** file (see [ANSI files](ANSI-files.md)). The import procedure is the same as described under [Import files](Importing_files.md).
+Exporting of data from the SuperOffice database is done using the **Selection** or **Reports** screens in SuperOffice CRM. If you want to export a file in order to import it via the **Import** screen in Windows Client settings, you need to export it as an **ANSI** file (see [ANSI files](ANSI-files.md)). The import procedure is the same as described under [Import files](Importing-files.md).

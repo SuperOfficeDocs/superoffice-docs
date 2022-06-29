@@ -27,6 +27,6 @@ To back up the data file only:
 * If you are using an SQL database, follow the instructions for backing up contained in the documentation of the SQL database concerned. This generates a database that can only be used in conjunction with the database it was generated from. This is the fastest means of making a backup.
 * Open the **dbsetup.exe** file in the SuperOffice Server installation folder, and select the **Export a database to file** option. This generates a database that can be installed on all types of servers supported by SuperOffice CRM.
 
-If, in addition, you want to back up all documents and templates, you must create a backup of the whole **SO\_ARC** folder and associated sub-folders.
+If, in addition, you want to back up all documents and templates, you must create a backup of the whole **SO\-ARC** folder and associated sub-folders.
 
 ![icon](../CRMOnline.png) Online customers must contact SuperOffice Support to create a backup.

@@ -19,7 +19,7 @@ language: en
 
 3. If you select one or more interests in the **Interests** tab, a dot is displayed next to the tab’s name.
 
-    ![icon](../media/Chap03_contacts/19_chap3_interests.bmp)
+    ![icon](../media/Chap03-contacts/19-chap3-interests.bmp)
 
 4. When you have entered the required information in all three tabs in the **Company** screen, click **Save**. This will create a company card for the new company.
 

@@ -18,7 +18,7 @@ The text field at the top right in SuperOffice CRM is used for freetext searches
 
 This lets you search for any text in SuperOffice CRM which users have entered in the database, such as company name, department, information about contacts and follow-ups. You can search for text from the **Document** dialog, but you cannot search the actual contents of documents.
 
-![icon](../media/Chap02_GettingStarted/15_chap2_freetext.bmp)
+![icon](../media/Chap02-GettingStarted/15-chap2-freetext.bmp)
 
 > [!NOTE]
 > Certain words are ignored in a freetext search. These are defined in SuperOffice Settings and maintenance.
@@ -33,7 +33,7 @@ This lets you search for any text in SuperOffice CRM which users have entered in
 
 To go to a record shown in the hit list, double-click it.
 
-You can preview records in the [side panel](Navigating_in_the_mini_card.md). Click the list at the top of the side panel and select **Preview**. Click a record in the search results to preview it.
+You can preview records in the [side panel](Navigating-in-the-mini-card.md). Click the list at the top of the side panel and select **Preview**. Click a record in the search results to preview it.
 
 <!-- Fix reuse ID=a1 -->
 
@@ -41,12 +41,12 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 
 ## Related topics
 
-[Use the Find screen](Find_dialog.md)
+[Use the Find screen](Find-dialog.md)
 
-[FastSearcher](Using_FastSearcher.md)
+[FastSearcher](Using-FastSearcher.md)
 
-[The History list](Using_the_history_list.md)
+[The History list](Using-the-history-list.md)
 
-[Export section tabs](Export_archives.md)
+[Export section tabs](Export-archives.md)
 
-[Add project members](../chap05/Creating_project_members.md)
+[Add project members](../chap05/Creating-project-members.md)

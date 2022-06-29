@@ -14,22 +14,22 @@ language: en
 The central feature of the document function is the **Document** dialog, which you can open in different ways:
 
 * By selecting **New** &gt; **Document**.
-* By opening an existing document (see [Edit documents](Editing_documents.md)).
+* By opening an existing document (see [Edit documents](Editing-documents.md)).
 
 The dialog consists of a main section with general information about the document, and the following tabs with additional information.
 
-* [Details](Details_tab_Document.md)
-* [Links](Links_tab_(Document).md)
-* [More](More_tab_Document.md)
+* [Details](Details-tab-Document.md)
+* [Links](Links-tab-(Document).md)
+* [More](More-tab-Document.md)
 
 The main section contains the following essential information about the document:
 
 **\[Document template\]**
 
-Click the arrow ( ![icon](../media/Dialogboksknapper_pil_ned.bmp) ) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher](../chap01/Using_FastSearcher.md).
+Click the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher](../chap01/Using-FastSearcher.md).
 
 > [!NOTE]
-> The templates may have been created in various programs, for example, Word or Excel, so when you create a document (see [Create new documents](Creating_new_documents.md)), the template is opened in the program it was created in. This means, for example, that DOCX files will open in Word.
+> The templates may have been created in various programs, for example, Word or Excel, so when you create a document (see [Create new documents](Creating-new-documents.md)), the template is opened in the program it was created in. This means, for example, that DOCX files will open in Word.
 
 \[Company\]
 
@@ -81,22 +81,22 @@ Checked out for editing
 
 If the document has been checked out for editing, one of the following icons are displayed:
 
-![icon](../media/documentlock_editing.png) The document is currently checked out for editing by you.
+![icon](../media/documentlock-editing.png) The document is currently checked out for editing by you.
 
-![icon](../media/documentlock_locked.png) The document is currently checked out for editing by another user.
+![icon](../media/documentlock-locked.png) The document is currently checked out for editing by another user.
 
 **Tip**: Hold the mouse pointer over an icon to show information about the user who has checked out the document.
 
 **Completed**
 
-By default, the document is marked as completed ( ![icon](../media/followup_completed_SMALL.png) ), but you can remove this check mark if you wish ( ![icon](../media/followup_notcompleted_SMALL.png) ). The document will then be displayed on the **Activities** section tab in the **Diary** screen until it is marked as completed.
+By default, the document is marked as completed ( ![icon](../media/followup-completed-SMALL.png) ), but you can remove this check mark if you wish ( ![icon](../media/followup-notcompleted-SMALL.png) ). The document will then be displayed on the **Activities** section tab in the **Diary** screen until it is marked as completed.
 
 > [!NOTE]
-> You cannot edit a completed document until you have undone its **Completed** status. See [Change Completed status of an activity](Marking_activities_as_completed_not_completed.md).
+> You cannot edit a completed document until you have undone its **Completed** status. See [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md).
 
 \[User-defined fields\]
 
-Here, three of the fields from the **More** tab may be displayed (see [The More tab](More_tab_Document.md)), as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+Here, three of the fields from the **More** tab may be displayed (see [The More tab](More-tab-Document.md)), as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
 > [!NOTE]
 > User group membership is defined in the **Users** screen in SuperOffice Settings and maintenance.
@@ -107,7 +107,7 @@ When you click this button, the following options are displayed:
 
 * **Delete**: Deletes the current entry.
 * **Help**: Opens the help for the active dialog.
-* **Copy shortcut**: Copies a shortcut to the active entry. See [Create shortcuts to entries in SuperOffice CRM](../chap03/Creating_shortcuts_to_entries_in_CRM.md).
-* **Revert to saved version**: Select this option to cancel a check-out. This may be relevant if you have checked out the document by mistake and are unable to check it in again. See [Check in/out documents](doc_checkoutin.md).
+* **Copy shortcut**: Copies a shortcut to the active entry. See [Create shortcuts to entries in SuperOffice CRM](../chap03/Creating-shortcuts-to-entries-in-CRM.md).
+* **Revert to saved version**: Select this option to cancel a check-out. This may be relevant if you have checked out the document by mistake and are unable to check it in again. See [Check in/out documents](doc-checkoutin.md).
 
 Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.

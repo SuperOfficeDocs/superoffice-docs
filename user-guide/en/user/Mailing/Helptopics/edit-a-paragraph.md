@@ -11,10 +11,10 @@ language: en
 
 # Edit content
 
-![icon](../media/Loc/neweditor_section_edit.png)
+![icon](../media/Loc/neweditor-section-edit.png)
 
-**Tip 1:** To edit global properties and layout for the message, select **Body** (![icon](../media/editor_sidepanel_btn_body_small.png)) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.  
-**Tip 2:** Use the **Desktop** (![icon](../media/btn_editor_desktop.png)) and **Mobile** (![icon](../media/btn_editor_mobile.png)) at the top of the side-panel to edit properties for desktop versions and mobile versions of the message. See [Customise the message for display on mobile devices](Customise_the_message_for_display_on_mobile_devices.md).
+**Tip 1:** To edit global properties and layout for the message, select **Body** (![icon](../media/editor-sidepanel-btn-body-small.png)) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.  
+**Tip 2:** Use the **Desktop** (![icon](../media/btn-editor-desktop.png)) and **Mobile** (![icon](../media/btn-editor-mobile.png)) at the top of the side-panel to edit properties for desktop versions and mobile versions of the message. See [Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md).
 
 ## Edit text content
 
@@ -23,15 +23,15 @@ To edit text content (text blocks) in a message, do as follows:
 1. Go to the **Content** step in the mailing, or open a template for editing.
 
 2. Click the text you wish to edit, so that the text editing toolbar is shown.  
-    ![icon](../media/Loc/NEWcontent_edit_toolbar_tempvar.png)
+    ![icon](../media/Loc/NEWcontent-edit-toolbar-tempvar.png)
 
 3. Edit the text using the buttons in the toolbar.
 
-4. Click **Merge tags** (same as template variables) to insert merge tags in the message. In order to give the message a more personal touch, you can use merge tags to insert customer-specific information. See [Use merge tags in messages](Use_template_variables_in_messages.md).
+4. Click **Merge tags** (same as template variables) to insert merge tags in the message. In order to give the message a more personal touch, you can use merge tags to insert customer-specific information. See [Use merge tags in messages](Use-template-variables-in-messages.md).
 
 5. Add tracked links to the message. For example, you can add a link to an information page for a product. You can create a new link or add an existing link. See [Include links you want to track](includeLinksToTrack.md).
 
-    To add a regular link (untracked): Select a text and click ![icon](../media/newbtn_link.png) in the toolbar. Enter the link in the **URL** field.
+    To add a regular link (untracked): Select a text and click ![icon](../media/newbtn-link.png) in the toolbar. Enter the link in the **URL** field.
 
 6. Edit the formatting of the text using the fields in the side-panel.
 
@@ -56,7 +56,7 @@ You can edit the following sections:
 
 **Column properties**: Here you can edit the properties for each column in the row.
 
-**Row properties**: Here you can edit the properties of the row, such as background colour and [background image](Insert_images_in_the_message.md).
+**Row properties**: Here you can edit the properties of the row, such as background colour and [background image](Insert-images-in-the-message.md).
 
 **Responsive design**: Use this option to hide specific rows in the desktop or mobile version of the message.
 
@@ -67,12 +67,12 @@ Click **Next** if you are done editing.
 
 ## What would you like to do now?
 
-[Add content](Add_content.md)
+[Add content](Add-content.md)
 
-[Use merge tags in messages](Use_template_variables_in_messages.md)
+[Use merge tags in messages](Use-template-variables-in-messages.md)
 
 [Include links you want to track](includeLinksToTrack.md)
 
-[Add subscription links](Add_an_unsubscribe_link.md)
+[Add subscription links](Add-an-unsubscribe-link.md)
 
-[Add a link to display the message in a browser](Add_a_link_to_display_the_message_in_a_browser.md)
+[Add a link to display the message in a browser](Add-a-link-to-display-the-message-in-a-browser.md)

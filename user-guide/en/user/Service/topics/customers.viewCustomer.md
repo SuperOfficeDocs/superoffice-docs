@@ -19,17 +19,17 @@ You can get to the **Contact** screen as follows:
 This screen comprises the following sections:
 
 * At the top of the screen, the contact header contains basic information about the contact. See [Contact header](customers.viewCustomer.md#ContactHeader).
-* The ![icon](../media/btn_Menu.png)**Actions** button gives access to tasks associated with contacts. See [Task buttons for contacts](customers.viewCustomer.md#TaskButtonsForContacts).
+* The ![icon](../media/btn-Menu.png)**Actions** button gives access to tasks associated with contacts. See [Task buttons for contacts](customers.viewCustomer.md#TaskButtonsForContacts).
 * The **Requests** tab contains the requests associated with the contact in question.
 * The **Info** tab contains an overview of the data registered for the contact in question. The contents of the fields are described in detail under [Create contacts](customers.newCustomer.md).
 
 ## Contact header
 
-The header of the **Contact** screen contains basic information about the contact: contact name, company and priority. In addition, you can click ![icon](../media/favourite_inactive.png) to set the contact as a favourite ( ![icon](../media/favourite_active.png) ). The contact will then be accessible via the favourites list ( ![icon](../media/navigator_favourites_small.png) ) under **Customers** in the Navigator.
+The header of the **Contact** screen contains basic information about the contact: contact name, company and priority. In addition, you can click ![icon](../media/favourite-inactive.png) to set the contact as a favourite ( ![icon](../media/favourite-active.png) ). The contact will then be accessible via the favourites list ( ![icon](../media/navigator-favourites-small.png) ) under **Customers** in the Navigator.
 
 ## Task buttons for contacts
 
-Click the ![icon](../media/btn_Menu.png)**Actions** button to access the following options:
+Click the ![icon](../media/btn-Menu.png)**Actions** button to access the following options:
 
 * **Edit contact**: Click here to change the details registered for the contact. See [Edit contacts](customers.viewCustomer.editCustomer.md).
 * **New request**: Click here to create a new request linked to the contact in question. See [Create requests](ticket.newTicket.md).

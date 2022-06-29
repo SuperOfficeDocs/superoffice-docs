@@ -13,12 +13,12 @@ language: en
 
 In the **Project guide** tab in the **Workflow** screen in Settings and maintenance, you can design project guides that act as guidelines throughout the projects. A project guide consists of statuses containing follow-ups and documents to guide you through the entire project. Each project guide is linked to a project type, and the project guide is enabled in the **Project** screen in SuperOffice CRM when the user creates a new project or changes the project type of an existing project, and selects a project type that has a project guide linked to it.
 
-**For example:** The "Conference" project type might consist of three statuses: "Planned", "In progress" and "Closing". The "Planned" status might, for example, include the "Planning meeting" follow-up (an appointment) and the "Conference programme" document (a note). For more details, see [Create a new project guide](Create_new_project_guide.md).
+**For example:** The "Conference" project type might consist of three statuses: "Planned", "In progress" and "Closing". The "Planned" status might, for example, include the "Planning meeting" follow-up (an appointment) and the "Conference programme" document (a note). For more details, see [Create a new project guide](Create-new-project-guide.md).
 
 ## What would you like to do now?
 
-[Create a new project guide](Create_new_project_guide.md)
+[Create a new project guide](Create-new-project-guide.md)
 
-[Edit a project guide](Edit_projectguide.md)
+[Edit a project guide](Edit-projectguide.md)
 
-[Deactivate a project guide](Deactivate_project_guide.md)
+[Deactivate a project guide](Deactivate-project-guide.md)

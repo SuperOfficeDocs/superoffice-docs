@@ -13,11 +13,11 @@ language: en
 
 The object of deleting stopwords is to include them in freetext searches after having excluded them. To delete a stopword from the list:
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp_Systemvalg_liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
 
 2. Select the **Free text search** tab.
 
-3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search](Enabling_freetext_search.md)).
+3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search](Enabling-freetext-search.md)).
 
 4. Select the required stopword.
 

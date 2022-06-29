@@ -13,7 +13,7 @@ language: en
 
 Follow these steps:
 
-1. Open the **Save e-mail address** dialog. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling_e-mails_from_senders_not_listed_in_SuperOffice_Sales_Marketing.md) or [Searching for the sender of an e-mail](Searching_for_the_sender_of_an_e-mail.md).
+1. Open the **Save e-mail address** dialog. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling-e-mails-from-senders-not-listed-in-SuperOffice-Sales-Marketing.md) or [Searching for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md).
 2. Select the **Add e-mail address to existing contact** option.
 3. In the **Company** field, select the company you want to register the e-mail address under. You may search for a company by starting to type the company name and then select from the matches that appear.
 4. In the **Contact** field, choose from the contacts recorded for the active company.
@@ -22,4 +22,4 @@ Follow these steps:
 
 ## What would you like to do now?
 
-[Adding an e-mail address to a new contact](Adding_an_e-mail_address_to_a_new_contact.md)
+[Adding an e-mail address to a new contact](Adding-an-e-mail-address-to-a-new-contact.md)

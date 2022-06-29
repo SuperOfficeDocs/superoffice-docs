@@ -20,7 +20,7 @@ In order to do this:
 
 1. Select a template in one of the following ways:
     * Select one of the available tabs (**Online template library**, **Recent templates**, **All templates**, etc) to view available mailings or templates on which to base your new mailing.
-    * Enter a search phrase in **Search templates** and press **ENTER** or click the search icon ( ![icon](../media/btn_Search.png) ).
+    * Enter a search phrase in **Search templates** and press **ENTER** or click the search icon ( ![icon](../media/btn-Search.png) ).
 
 2. In the list below, click a template to select it.
 
@@ -29,7 +29,7 @@ In order to do this:
 
 3. Click **Next** to go to the next step.
 
-[Step 3: Content](form_create_step3_content.md)
+[Step 3: Content](form-create-step3-content.md)
 
 > [!TIP]
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.

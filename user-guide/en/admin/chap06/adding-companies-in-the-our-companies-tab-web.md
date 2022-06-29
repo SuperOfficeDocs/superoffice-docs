@@ -64,7 +64,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
         </tr>
         <tr>
         <td>Match also</p></td>
-        <td>Here you can specify further search criteria. See [Use search criteria](using_search_criteria.md) for more information.</p></td>
+        <td>Here you can specify further search criteria. See [Use search criteria](using-search-criteria.md) for more information.</p></td>
         </tr>
         </tbody>
         </table>
@@ -82,4 +82,4 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
 ## What would you like to do now?
 
-[Delete companies in the Our companies tab](Deleting_companies_in_the_Our_companies_tab_web.md)
+[Delete companies in the Our companies tab](Deleting-companies-in-the-Our-companies-tab-web.md)

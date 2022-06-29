@@ -17,9 +17,9 @@ Follow these steps:
 
 1. In the Gmail inbox, select the e-mail you would like to archive.
 
-2. Click ![icon](../media/btn_Archive.png) in the e-mail toolbar.
+2. Click ![icon](../media/btn-Archive.png) in the e-mail toolbar.
 
-    If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling_e-mails_from_senders_not_listed_in_SuperOffice.md). A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling_e-mails_from_senders_with_several_listings.md).
+    If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-e-mails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-e-mails-from-senders-with-several-listings.md).
 
 3. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
     * **Subject**: The subject is automatically inserted in this field. However, you can edit the text.
@@ -37,12 +37,12 @@ Follow these steps:
 Click the link in the pop-up message to open the document in SuperOffice.
 
 > [!NOTE]
-> You can also archive attachments as documents. See [Archive attachments](Archive_attachments.md).
+> You can also archive attachments as documents. See [Archive attachments](Archive-attachments.md).
 
 ## What would you like to do now?
 
-[Archive attachments](Archive_attachments.md)
+[Archive attachments](Archive-attachments.md)
 
-[Create activity](Archive_e-mails_as_activities.md)
+[Create activity](Archive-e-mails-as-activities.md)
 
-[Create request](Archive_e-mails_as_requests.md)
+[Create request](Archive-e-mails-as-requests.md)

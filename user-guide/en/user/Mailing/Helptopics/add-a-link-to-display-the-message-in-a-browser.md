@@ -19,7 +19,7 @@ In order to do this:
 
 2. Type and select the text which the recipient has to click, for example "Click here to view this message in a browser".
 
-3. Click the **Insert/edit link** button (![icon](../media/newbtn_link.png))in the toolbar..
+3. Click the **Insert/edit link** button (![icon](../media/newbtn-link.png))in the toolbar..
 
 4. Click **Special links** and select **Link for viewing message online**.
 

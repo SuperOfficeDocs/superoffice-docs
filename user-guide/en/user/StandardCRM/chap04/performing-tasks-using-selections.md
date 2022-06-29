@@ -22,7 +22,7 @@ The **Task** button contains tasks such as sending e-mails, mass-editing and exp
 
 From the **Task** button in the **Selection** screen or the **Find** screen, you perform tasks as follows:
 
-1. Go to the required selection. You can, for example, search for a selection from the **Selection** button in the navigator or search as described under [Use the Find screen](../chap01/Find_dialog.md).
+1. Go to the required selection. You can, for example, search for a selection from the **Selection** button in the navigator or search as described under [Use the Find screen](../chap01/Find-dialog.md).
 
 2. Select the tab containing the records you want to work with.
 
@@ -39,34 +39,34 @@ The following tasks are available under these categories:
 
 ### Mailing/Activities
 
-[Create mailings](Create_mailings.md)
+[Create mailings](Create-mailings.md)
 
-[Send e-mail to several recipients simultaneously](Sending_e-mail_to_several_recipients_simultaneously.md)
+[Send e-mail to several recipients simultaneously](Sending-e-mail-to-several-recipients-simultaneously.md)
 
-[Generate follow-ups](Generating_follow-ups.md)
+[Generate follow-ups](Generating-follow-ups.md)
 
 ### Manage
 
-[Bulk update](../chap01/Bulk_update.md)
+[Bulk update](../chap01/Bulk-update.md)
 
-[Copy selections](Copying_selections.md)
+[Copy selections](Copying-selections.md)
 
-[Copy into selections](Copying_into_selections.md)
+[Copy into selections](Copying-into-selections.md)
 
-[Combine selection with](Creating_combined_selections.md)
+[Combine selection with](Creating-combined-selections.md)
 
 ### Print/Export
 
-[Print labels](Printing_labels_Selection.md)
+[Print labels](Printing-labels-Selection.md)
 
-[Print company reports](Printing_company_reports.md)
+[Print company reports](Printing-company-reports.md)
 
-[Export to Excel](Export_to_Excel.md)
+[Export to Excel](Export-to-Excel.md)
 
-[Export to file](Exporting_to_file.md)
+[Export to file](Exporting-to-file.md)
 
 ### Delete
 
-[Delete records permanently](Deleting_companies_permanently.md)
+[Delete records permanently](Deleting-companies-permanently.md)
 
-[Delete selections](Deleting_selections.md)
+[Delete selections](Deleting-selections.md)

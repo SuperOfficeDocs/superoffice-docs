@@ -20,9 +20,9 @@ You must have the consent (permission) of a person to (among other things)
 
 These are two different purposes for obtaining a person's consent. In SuperOffice, these purposes are called **Sales and service** and **E-marketing**. There may also be other purposes relevant for you business.
 
-In the **Consent** tab in the **Privacy** screen (![icon](../media/Knapp_Privacy_small.png)) you can create and edit purposes. See [Add purpose](Add_consent_purpose.md).
+In the **Consent** tab in the **Privacy** screen (![icon](../media/Knapp-Privacy-small.png)) you can create and edit purposes. See [Add purpose](Add-consent-purpose.md).
 
-For each purpose, a legal basis and source of consent must be documented (this is done during import or in SuperOffice CRM for individual or multiple users). See [Privacy - Legal basis](../chap08/Privacy_Legal_base.md) and [Privacy - Source](../chap08/Privacy_Source.md).
+For each purpose, a legal basis and source of consent must be documented (this is done during import or in SuperOffice CRM for individual or multiple users). See [Privacy - Legal basis](../chap08/Privacy-Legal-base.md) and [Privacy - Source](../chap08/Privacy-Source.md).
 
 <a href="https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/" target="_blank">Click here to learn more about GDPR, privacy and consent management in SuperOffice</a>
 
@@ -36,7 +36,7 @@ In the **Active** column you can activate or deactivate a purpose. It is recomme
 
 ## Add a new purpose
 
-Click **Add** below the list of purposes. See [Add purpose](Add_consent_purpose.md).
+Click **Add** below the list of purposes. See [Add purpose](Add-consent-purpose.md).
 
 ## Set default legal basis
 
@@ -44,7 +44,7 @@ When a person is created in SuperOffice CRM, the legal basis for the purpose **S
 
 Select the option **Set default legal basis**, and select a legal basis in the list. All new persons will have this legal basis for the purpose **Sales and service**.
 
-[Add items to the Privacy - Legal basis list](../chap08/Privacy_Legal_base_add.md)
+[Add items to the Privacy - Legal basis list](../chap08/Privacy-Legal-base-add.md)
 
 ## Filter recipients based on e-marketing consent and active subscriptions
 
@@ -54,4 +54,4 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 
 ## What do you want to do now?
 
-[Add purpose](Add_consent_purpose.md)
+[Add purpose](Add-consent-purpose.md)

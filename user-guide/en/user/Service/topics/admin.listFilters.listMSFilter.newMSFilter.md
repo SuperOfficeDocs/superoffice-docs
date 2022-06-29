@@ -13,13 +13,13 @@ language: en
 
 To create a new e-mail filter:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **E-mail**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **E-mail**.
 2. Select the **E-mail filters** tab.
 3. Click **New e-mail filter**. The **Properties for e-mail filter** screen appears.
 4. In the **Filter** tab, you can specify which e-mails are to be filtered, by entering the following information:
     * **Description**: Enter a brief description of the e-mail filter.
     * **Priority**: In this list box, you select the filter's priority. A value of 10 is the highest priority and 1 the lowest.
-    * **Script**: Here you can select a script or macro to be run by this filter. See [Macros and scripts](../topics_script/blogic.listScripts.md).
+    * **Script**: Here you can select a script or macro to be run by this filter. See [Macros and scripts](../topics-script/blogic.listScripts.md).
 5. Select whether to apply this filter for all incoming e-mail or only e-mails matching specific criteria:
     * **All incoming e-mail**: If you select this option, the e-mail filter is used for all incoming e-mails.
     * **E-mail which contains**: If you select this option, e-mails containing the fixed expression (regexp) specified in the fields to the right will trigger the e-mail filter. In the list box on the far right, you can choose between the e-mail header and/or e-mail body.
@@ -39,7 +39,7 @@ To create a new e-mail filter:
     4. Click **Add** to add the value.
 
         > [!TIP]
-        > You can delete a value again by selecting it and clicking the delete icon ( ![icon](../media/btn_delete.png) ).
+        > You can delete a value again by selecting it and clicking the delete icon ( ![icon](../media/btn-delete.png) ).
 9. In the **Set properties** tab, you can set specific properties for requests that are generated from e-mails that match the current filter:
     * **Set owner**: If you check here, you can select which user will be assigned e-mails processed by this filter.
 

@@ -13,6 +13,6 @@ language: en
 
 The **Requests** section tab shows SuperOffice Service requests for the active company.
 
-![icon](../media/Chap03_contacts/chap3_requests-detail.bmp)
+![icon](../media/Chap03-contacts/chap3-requests-detail.bmp)
 
 You can double-click a request to open it in a separate window. Click the **Edit** button to work on the request in SuperOffice Service.

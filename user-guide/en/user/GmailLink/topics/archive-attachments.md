@@ -16,11 +16,11 @@ If the attachment is the only part of the e-mail you would like to keep for futu
 1. In the Gmail inbox, open an e-mail containing one or more attachments.
 
 2. Hold the mouse-pointer over the attachment you want to archive.  
-    ![icon](../media/attachment_save.png)
+    ![icon](../media/attachment-save.png)
 
-3. Click the SuperOffice icon (![icon](../media/btn_ArchiveAttachment.png)). The dialog **Archive attachment as a SuperOffice document** opens.
+3. Click the SuperOffice icon (![icon](../media/btn-ArchiveAttachment.png)). The dialog **Archive attachment as a SuperOffice document** opens.
 
-    If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling_e-mails_from_senders_not_listed_in_SuperOffice.md). A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling_e-mails_from_senders_with_several_listings.md).
+    If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-e-mails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-e-mails-from-senders-with-several-listings.md).
 
 4. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
     * **Subject**: The subject is automatically inserted in this field. However, you can edit the text.
@@ -37,12 +37,12 @@ If the attachment is the only part of the e-mail you would like to keep for futu
 
 ## What would you like to do now?
 
-[Archive incoming e-mail](e-mail_archive_incoming.md)
+[Archive incoming e-mail](e-mail-archive-incoming.md)
 
-[Archive outgoing e-mail](e-mail_archive_outgoing_.md)
+[Archive outgoing e-mail](e-mail-archive-outgoing-.md)
 
-[Create activity](Archive_e-mails_as_activities.md)
+[Create activity](Archive-e-mails-as-activities.md)
 
-[Create request](Archive_e-mails_as_requests.md)
+[Create request](Archive-e-mails-as-requests.md)
 
-[Look up sender in SuperOffice](Add_sender_to_SuperOffice.md)
+[Look up sender in SuperOffice](Add-sender-to-SuperOffice.md)

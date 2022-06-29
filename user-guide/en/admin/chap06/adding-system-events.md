@@ -11,7 +11,7 @@ language: en
 
 # Add system events ![icon](../OnPremises.png)
 
-You can initiate some system events from **System notifications** list in the **Status** tab (see [System events](System_events.md)). You do this as follows:
+You can initiate some system events from **System notifications** list in the **Status** tab (see [System events](System-events.md)). You do this as follows:
 
 1. Open the **Licences** screen.
 
@@ -19,7 +19,7 @@ You can initiate some system events from **System notifications** list in the **
 
 3. Click the **Add** button below **System notifications**. The **Add event** dialog opens.
 
-4. In the **Event type** list box, choose from the predefined options. See [System event types](System_events.md#systemeventtypes).
+4. In the **Event type** list box, choose from the predefined options. See [System event types](System-events.md#systemeventtypes).
 
 5. Specify the date and time when you expect the event to finish in the **Finished** fields.
 

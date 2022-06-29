@@ -46,4 +46,4 @@ Click **OK** when you have finished.
 
 ## What would you like to do now?
 
-[Add products to a price list](SO_add_product_to_pricelist.md)
+[Add products to a price list](SO-add-product-to-pricelist.md)

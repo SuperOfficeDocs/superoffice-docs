@@ -15,14 +15,14 @@ In the **Company** screen you can enter information about companies on several l
 
 ## Add record as a favourite
 
-To add a record to favourites, click the star icon ![icon](../../Service/media/favourite_inactive.png) in the corner of the relevant card, tab or dialog. The star turns yellow ![icon](../../Service/media/favourite_active.png), and the record is instantly added to favourites. You do not have to click **Save**.
+To add a record to favourites, click the star icon ![icon](../../Service/media/favourite-inactive.png) in the corner of the relevant card, tab or dialog. The star turns yellow ![icon](../../Service/media/favourite-active.png), and the record is instantly added to favourites. You do not have to click **Save**.
 
-Now you can quickly access the record by clicking ![icon](../../media/navmenu_favourites.png) from the Navigator menu. The favourites are also available in the side panel.
+Now you can quickly access the record by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu. The favourites are also available in the side panel.
 
 ## Related topics
 
-[The Company tab](Create_companies_in_companies_tab.md)
+[The Company tab](Create-companies-in-companies-tab.md)
 
-[The More tab](Create_company_More_tab.md)
+[The More tab](Create-company-More-tab.md)
 
-[The Interests tab](Create_company_Interest_tab.md)
+[The Interests tab](Create-company-Interest-tab.md)

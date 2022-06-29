@@ -19,7 +19,7 @@ Follow these steps:
 
 2. Click the **Archive e-mail** button on the toolbar, and **Archive e-mail** from the dropdown. If you have selected more than one e-mail, the procedure below is repeated for each e-mail.
 
-3. If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving e-mail: **This sender's e-mail address is not recognised. Click here to update SuperOffice with this e-mail address**. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling_e-mails_from_senders_not_listed_in_SuperOffice_Sales_Marketing.md) for information on how to handle unlisted senders.
+3. If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving e-mail: **This sender's e-mail address is not recognised. Click here to update SuperOffice with this e-mail address**. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling-e-mails-from-senders-not-listed-in-SuperOffice-Sales-Marketing.md) for information on how to handle unlisted senders.
 
 4. In the **Subject** field, the subject from the e-mail is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
 
@@ -46,8 +46,8 @@ Follow these steps:
 
 ## What would you like to do now?
 
-[Archive e-mails as activities](Archiving_e-mails_as_tasks_in_SuperOffice_Sales_Marketing.md)
+[Archive e-mails as activities](Archiving-e-mails-as-tasks-in-SuperOffice-Sales-Marketing.md)
 
-[Archive attachments](Archiving_attachment_s_to_SuperOffice_Sales_Marketing.md)
+[Archive attachments](Archiving-attachment-s-to-SuperOffice-Sales-Marketing.md)
 
-[Archive e-mails as requests](Archiving_e-mails_as_requests.md)
+[Archive e-mails as requests](Archiving-e-mails-as-requests.md)

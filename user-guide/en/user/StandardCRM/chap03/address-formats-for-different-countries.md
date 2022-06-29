@@ -13,7 +13,7 @@ language: en
 
 In SuperOffice CRM you can create companies with addresses in many different countries. To facilitate the posting of letters to companies abroad, SuperOffice CRM includes eight different address formats: European, Australian/Canadian, American, German, British, Spanish, Japanese and a general address format.
 
-When you create a company (see [Create new companies](Create_new_companies.md)) and choose which country the company belongs to, the address fields in the **Company** tab change according to your choice. The address fields which change are described below.
+When you create a company (see [Create new companies](Create-new-companies.md)) and choose which country the company belongs to, the address fields in the **Company** tab change according to your choice. The address fields which change are described below.
 
 > [!TIP]
 > You can change the default address format for a country in SuperOffice Settings and maintenance. This is described in detail in the SuperOffice Settings and maintenance help.

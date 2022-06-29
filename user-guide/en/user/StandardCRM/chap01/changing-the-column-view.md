@@ -20,7 +20,7 @@ To change the order of the columns in a section tab, click and drag a column hea
 ## Adding or removing columns
 
 1. Go to the section tab you want to edit.
-2. Click ![icon](../../media/btn_columnheaderoptions.png) on the far right of the column headers in a section tab. A dialog is displayed.
+2. Click ![icon](../../media/btn-columnheaderoptions.png) on the far right of the column headers in a section tab. A dialog is displayed.
 3. Select or deselect the relevant columns. Use the **Filter columns** fields to filter the columns that are displayed.
 4. Click **OK**.
 
@@ -28,10 +28,10 @@ If you want to reset the columns to the default view, click **Reset**.
 
 ## Related topics
 
-[Sort lists](Sorting_lists.md)
+[Sort lists](Sorting-lists.md)
 
-[Adjust column widths](Adjusting_column_widths.md)
+[Adjust column widths](Adjusting-column-widths.md)
 
-[Change the rank of contacts](../chap03/Changing_the_rank_of_contacts.md)
+[Change the rank of contacts](../chap03/Changing-the-rank-of-contacts.md)
 
-[Grouping lists](Sections_tabs_Grouping_lists.md)
+[Grouping lists](Sections-tabs-Grouping-lists.md)

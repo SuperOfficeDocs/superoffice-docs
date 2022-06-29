@@ -15,7 +15,7 @@ A contact who is going to have access to a customer centre needs a user name and
 
 1. Open the **Contact** screen as described under [View contacts](customers.viewCustomer.md).
 
-2. Click the ![icon](../media/btn_Menu.png)**Actions** button and select **Send password**. The **Send password to contact** screen appears.
+2. Click the ![icon](../media/btn-Menu.png)**Actions** button and select **Send password**. The **Send password to contact** screen appears.
 
 3. Verify that the contents of the **To** (recipient address), **From** (sender address) and **Subject** fields are correct. If required, you can adjust the data that has been inserted automatically.
 

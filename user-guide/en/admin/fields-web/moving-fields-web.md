@@ -11,7 +11,7 @@ language: en
 
 # Place fields
 
-**Note**: SuperOffice v10 (released October 2021) introduced [Screen designer](../Screen_designer/Screen_designer.md), which introduced customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
+**Note**: SuperOffice v10 (released October 2021) introduced [Screen designer](../Screen-designer/Screen-designer.md), which introduced customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
 
 When you add new fields, they will be placed beneath each other by default. Each field consists of a label with a data field on the right. You can decide where in the grid these fields are to be placed.
 
@@ -19,7 +19,7 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 * Click and drag using the mouse. The field(s) will automatically be adjusted to fit the grid.
 * Click a field and use the arrow keys on the keyboard.
-* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon](../media/Pil_venstre.bmp) ![icon](../media/Pil_hoeyre.bmp) ![icon](../media/pil_flyttned.bmp) ![icon](../media/pil_flyttopp.bmp) ).
+* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon](../media/Pil-venstre.bmp) ![icon](../media/Pil-hoeyre.bmp) ![icon](../media/pil-flyttned.bmp) ![icon](../media/pil-flyttopp.bmp) ).
 * Double-click a field and specify position values **X** and **Y** in the **Fields** dialog. <!-- Fix reuse ID=a1 -->
     1. Specify the following in the fields to the right of **Label**:
 
@@ -41,7 +41,7 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 ## How do I right-/left-align fields?
 
-Select the fields you want to adjust and click left-align ( ![icon](../media/align_left.bmp) ) or right-align ( ![icon](../media/align_right.bmp) ) below the grid.
+Select the fields you want to adjust and click left-align ( ![icon](../media/align-left.bmp) ) or right-align ( ![icon](../media/align-right.bmp) ) below the grid.
 
 ## How do I change the width of a field?
 

@@ -20,7 +20,7 @@ To specify advanced import settings:
 
 1. Open the **Import** screen.  
     <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
+    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
 
 2. Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens.
 
@@ -47,14 +47,14 @@ To specify advanced import settings:
 10. In the **Associate format** list box, choose from the predefined formats specifying how names in the import file are to be interpreted, e.g. whether first names come before last names.
 
     > [!NOTE]
-    > **Native ID** means the associate's **associate\_id**, as recorded in the database. If no such ID is found, the contents of the **Default associate** field are used.
+    > **Native ID** means the associate's **associate\-id**, as recorded in the database. If no such ID is found, the contents of the **Default associate** field are used.
 
 11. In the **Default associate** list box, choose which name will be entered by default if the SuperOffice database is unable to interpret the associate format in the import file.
 
 12. In the **Country format** list box, choose from the predefined formats specifying how countries will be interpreted, e.g. whether the country name is local or English.
 
     > [!NOTE]
-    > **Native ID** means **country\_id**, as recorded in the database.
+    > **Native ID** means **country\-id**, as recorded in the database.
 
 13. In the **Default country name** list box, choose which country will be entered if the SuperOffice database is unable to interpret the country format in the import file.
 
@@ -63,11 +63,11 @@ To specify advanced import settings:
 15. Check **Update freetext index** if you want to update the freetext index continuously during the import, so that it is completely updated when the import is finished.
 
     > [!NOTE]
-    > The import speed decreases if you check **Update freetext index**. If you want to import large quantities of data, an alternative is to run the import without checking this option and generate a new freetext index later from the **Options** screen. For more details, see [Regenerate a freetext index](../chap06/Regenerating_a_freetext_index.md).
+    > The import speed decreases if you check **Update freetext index**. If you want to import large quantities of data, an alternative is to run the import without checking this option and generate a new freetext index later from the **Options** screen. For more details, see [Regenerate a freetext index](../chap06/Regenerating-a-freetext-index.md).
 
 16. When you have specified the required settings, click **OK**.
 
 > [!NOTE]
 > If you have specified an import description file in the **Import description file** field, information will already be entered in the **Advanced Options** dialog. However, you can change this information as described above. Remember that the import description file must be saved before it is updated with any new options.
 
-The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions](Import_descriptions.md).
+The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions](Import-descriptions.md).

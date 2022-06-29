@@ -11,11 +11,11 @@ language: en
 
 # Move users
 
-You can move a user from one company to another, if your organization consists of multiple companies registered in the [Our companies](../chap06/Our_companies_web.md) tab.If a user has been set up under the wrong company, or if they have changed positions/jobs within your organization, they can be moved, including their activities and sales.
+You can move a user from one company to another, if your organization consists of multiple companies registered in the [Our companies](../chap06/Our-companies-web.md) tab.If a user has been set up under the wrong company, or if they have changed positions/jobs within your organization, they can be moved, including their activities and sales.
 
 To move a user:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp_Brukere_liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
 
 2. Select the **Associates** tab.
 
@@ -31,6 +31,6 @@ To move a user:
     * **Move all to...**: Select this option if you want to transfer all the activities and sales to the new company.
     * **Move all activities starting from**: Select this option if you want to transfer activities and sales starting after a specific date.
 
-    **Note**:If you want to see the results before you move the contact, click**Show results**![icon](../media/show_results.png):
+    **Note**:If you want to see the results before you move the contact, click**Show results**![icon](../media/show-results.png):
 
 7. Click **Move**. The user is moved to the specified company.

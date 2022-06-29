@@ -11,7 +11,7 @@ language: en
 
 # General settings
 
-These options appear in the **General settings** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](E-mail_options_dialog.md)).
+These options appear in the **General settings** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)).
 
 **Actions when archiving an e-mail:**
 
@@ -47,4 +47,4 @@ If you check this box, you will receive a warning whenever you try to archive an
 
 Check for duplicates when an e-mail is opened
 
-If you check this box and open an e-mail that has already been archived, the **Archive e-mail** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the e-mail was archived. (See [E-mails that have already been archived in SuperOffice CRM](E-mails_that_have_already_been_archived_in_SuperOffice_Sales_Marketing.md).)
+If you check this box and open an e-mail that has already been archived, the **Archive e-mail** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the e-mail was archived. (See [E-mails that have already been archived in SuperOffice CRM](E-mails-that-have-already-been-archived-in-SuperOffice-Sales-Marketing.md).)

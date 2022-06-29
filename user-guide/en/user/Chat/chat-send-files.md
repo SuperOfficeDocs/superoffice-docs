@@ -15,7 +15,7 @@ You can send SuperOffice documents and other files to the customer.
 
 In order to do so:
 
-1. Click ![icon](media/chat_btn_attachment.png) in the lower part of the chat panel.
+1. Click ![icon](media/chat-btn-attachment.png) in the lower part of the chat panel.
 2. To send a file, do one of the following:
     * Click **Select a CRM document**, and search for and select the SuperOffice document you want to send.
     * Click **Upload files (or drag and drop here)**, select the file and click **Open**.

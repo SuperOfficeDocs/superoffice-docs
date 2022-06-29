@@ -2,47 +2,47 @@
 
 # Template variables (CRM)
 
-**Tip**: Here you can find some examples of how template variables can enrich your mailings and documents: [Template variables - examples](Template_variables_examples.md)
+**Tip**: Here you can find some examples of how template variables can enrich your mailings and documents: [Template variables - examples](Template-variables-examples.md)
 
 The topics below give an overview of different template variables in SuperOffice CRM, which you can use when you create template documents.
 
-[How to use template variables](#Using_template_variables)
+[How to use template variables](#Using-template-variables)
 
-[Fill characters](#Fill_characters)
+[Fill characters](#Fill-characters)
 
-[Variables from the company card](#Variables_from_the_Company_card)
+[Variables from the company card](#Variables-from-the-Company-card)
 
-[Variables for a selected contact](#Variables_for_selected_contact)
+[Variables for a selected contact](#Variables-for-selected-contact)
 
-[Variables for international addresses](#Variables_for_international_addresses)
+[Variables for international addresses](#Variables-for-international-addresses)
 
-[Variables from the Document dialog or from the system](#Variables_from_the_Document_dialog_or_from_the_system)
+[Variables from the Document dialog or from the system](#Variables-from-the-Document-dialog-or-from-the-system)
 
-[Variables from the project card](#Variables_from_the_Project_card)
+[Variables from the project card](#Variables-from-the-Project-card)
 
-[Variables for the sender (contact card)](#Variables_relating_to_the_sender__Contact_dialog_)
+[Variables for the sender (contact card)](#Variables-relating-to-the-sender-Contact-dialog-)
 
-[Variables from the sender’s own company card](#Variables_from_the_sender_s_own_company_card)
+[Variables from the sender’s own company card](#Variables-from-the-sender-s-own-company-card)
 
-[Variables for sales](#Variables_for_sales)
+[Variables for sales](#Variables-for-sales)
 
-[Variables for selections](#Variables_for_selection)
+[Variables for selections](#Variables-for-selection)
 
-[Variables for appointments](#Variables_for_appointment)
+[Variables for appointments](#Variables-for-appointment)
 
-[Variables for appointments corresponding to the iCal standard](#Variabler_for_avtaler_iCal)
+[Variables for appointments corresponding to the iCal standard](#Variabler-for-avtaler-iCal)
 
-[Variables for integration with web applications](#Variables_for_web_application_integration)
+[Variables for integration with web applications](#Variables-for-web-application-integration)
 
-[Variables for Quote alternative](Template_variables.md#Variables_for_Quote_alternative)
+[Variables for Quote alternative](Template-variables.md#Variables-for-Quote-alternative)
 
-[Variables for Quote info](Template_variables.md#Variables_for_Quote_info)
+[Variables for Quote info](Template-variables.md#Variables-for-Quote-info)
 
-[Variables for Quote line](Template_variables.md#Variables_for_Quote_line)
+[Variables for Quote line](Template-variables.md#Variables-for-Quote-line)
 
-[Quote line subscription variables](Template_variables.md#Quote_line_subscription_variables)
+[Quote line subscription variables](Template-variables.md#Quote-line-subscription-variables)
 
-[Variables for SuperOffice Service](Template_variables.md#Variables_for_SuperOffice_Service)
+[Variables for SuperOffice Service](Template-variables.md#Variables-for-SuperOffice-Service)
 
 ## How to use template variables
 
@@ -56,7 +56,7 @@ Here is a brief overview of how to use the variables in the templates:
 
 * The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
 * You can mix normal text and variables in the template document: For example, you can enter template variables which retrieve a company’s name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
-* You can also use fill characters in the template document (see [Fill characters](#Fill_characters)).
+* You can also use fill characters in the template document (see [Fill characters](#Fill-characters)).
 * The date and time in template variables are controlled by the PC's system clock.
 
 > [!TIP]
@@ -461,7 +461,7 @@ When you use address variables from the company card, the system will select add
 </tr>
 <tr>
 <td><p>atid</p></td>
-<td><p>Selected contact's unique ID (person_id).</p></td>
+<td><p>Selected contact's unique ID (person-id).</p></td>
 </tr>
 <tr>
 <td><p>atin</p></td>
@@ -960,7 +960,7 @@ When you use address variables from the company card, the system will select add
 </tr>
 <tr>
 <td><p>auid</p></td>
-<td><p>Sender’s unique ID (person_id of the selected diary owner).</p></td>
+<td><p>Sender’s unique ID (person-id of the selected diary owner).</p></td>
 </tr>
 <tr>
 <td><p>aumr</p></td>
@@ -1060,7 +1060,7 @@ When you use address variables from the company card, the system will select add
 </tr>
 <tr>
 <td><p>usid</p></td>
-<td><p>Current user's unique ID (associate_id of the logged in user).</p></td>
+<td><p>Current user's unique ID (associate-id of the logged in user).</p></td>
 </tr>
 </tbody>
 </table>
@@ -1638,7 +1638,7 @@ When you use address variables from the company card, the system will select add
 </tr>
 <tr>
 <td><p>usid</p></td>
-<td><p>Current user's unique ID (associate_id of the logged in user).</p></td>
+<td><p>Current user's unique ID (associate-id of the logged in user).</p></td>
 </tr>
 <tr>
 <td><p>usln</p></td>
@@ -2041,7 +2041,7 @@ When you use address variables from the company card, the system will select add
 
 ## Variables for SuperOffice Service
 
-These are variables for SuperOffice Service data used in SuperOffice CRM. [Click here to see template variables for SuperOffice Service and SuperOffice Marketing](../../Service/topics/Template_variables.md).
+These are variables for SuperOffice Service data used in SuperOffice CRM. [Click here to see template variables for SuperOffice Service and SuperOffice Marketing](../../Service/topics/Template-variables.md).
 
 <table class="SimpleBorder" data-cellspacing="0" data-bgcolor="#FFFFFF" style="width:100%; max-width:683px">
 <tbody>

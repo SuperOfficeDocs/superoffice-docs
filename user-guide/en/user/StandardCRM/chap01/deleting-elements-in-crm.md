@@ -12,12 +12,12 @@ language: en
 # Delete items in SuperOffice CRM
 
 > [!NOTE]
-> To delete companies or contacts, see [Delete companies](../chap03/Deleting_companies.md) and [Delete contacts](../person/contact_delete.md). See also [Restore deleted companies and contacts](Restore_deleted_companies_and_contacts.md).
+> To delete companies or contacts, see [Delete companies](../chap03/Deleting-companies.md) and [Delete contacts](../person/contact-delete.md). See also [Restore deleted companies and contacts](Restore-deleted-companies-and-contacts.md).
 
 When you choose to delete something in SuperOffice CRM, the dialog displays **Delete Appointment**, **Delete Sale**, **Delete Selection** and so on, depending on what you have chosen to delete. The name of the item is displayed in the dialog, so that you can check that you have made the right choice.
 
 > [!TIP]
-> To delete a repeating follow-up, see [Stop repeating follow-ups](../chap02/Stopping_recurring_follow-ups.md).
+> To delete a repeating follow-up, see [Stop repeating follow-ups](../chap02/Stopping-recurring-follow-ups.md).
 
 <!-- Fix reuse ID=a1 -->
 
@@ -40,11 +40,11 @@ Below you will find a description of the buttons in the dialog and what effect t
 
 To suppress this dialog: Check **Do not show this dialog again** at the bottom of the delete dialog.
 
-To reactivate this dialog: Go to ![icon](../media/globalmenu_personalsettings_small.png)**Personal settings &gt; Preferences &gt; Functions** and set the **Show confirmation dialog** option to **No**.
+To reactivate this dialog: Go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Functions** and set the **Show confirmation dialog** option to **No**.
 
 > [!NOTE]
 > When you delete a company, a selection or a project, you are always asked to confirm the deletion, and the **Do not show this dialog again** option is not available.
 
 ## Related topics
 
-[Restore deleted companies and contacts](Restore_deleted_companies_and_contacts.md)
+[Restore deleted companies and contacts](Restore-deleted-companies-and-contacts.md)

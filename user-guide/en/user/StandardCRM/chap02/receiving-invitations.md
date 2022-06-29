@@ -15,7 +15,7 @@ language: en
 
 <tbody>
 <tr>
-<td><p>![icon](../../media/globalmenu_notice_new.png)</p></td>
+<td><p>![icon](../../media/globalmenu-notice-new.png)</p></td>
 <td><p>Participants who are invited to a follow-up will receive a notification on the Top bar. Click the **Notifications** icon to view the invitations(s).</p></td>
 </tr>
 </tbody>
@@ -23,12 +23,12 @@ language: en
 
 <!-- Fix reuse ID=a1 -->
 
-![icon](../media/Chap05_diary/48_chap5_invitation.bmp)
+![icon](../media/Chap05-diary/48-chap5-invitation.bmp)
 
 The dialog is divided into two:
 
 * At the top is a list of your invitations, with status and icons.
-* Below is more detailed information about the invitations you have selected in the top section. This includes a full description of the invitation, the date and other complementary details. The fields in this section are described in detail under [The Dialog for follow-ups](Dialog_for_followups.md) and [The Details tab (follow-ups)](Details_tab_follow-ups.md).
+* Below is more detailed information about the invitations you have selected in the top section. This includes a full description of the invitation, the date and other complementary details. The fields in this section are described in detail under [The Dialog for follow-ups](Dialog-for-followups.md) and [The Details tab (follow-ups)](Details-tab-follow-ups.md).
 
 ## Icons for follow-ups
 
@@ -38,15 +38,15 @@ The icons in the list of invitations show information about the follow-up you ar
 
 <tbody>
 <tr>
-<td><p>![icon](../media/invitation_accepted.bmp)</p></td>
+<td><p>![icon](../media/invitation-accepted.bmp)</p></td>
 <td><p>Icon for follow-ups you have accepted an invitation to.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/invitasjon_avslått.bmp)</p></td>
+<td><p>![icon](../media/invitasjon-avslått.bmp)</p></td>
 <td><p>Icon for follow-ups you have declined. These follow-ups stay in the **Invitations** dialog until the day after the follow-up takes place, so that you retain the option of changing your mind.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/Recurring_booking_assignment.bmp)</p></td>
+<td><p>![icon](../media/Recurring-booking-assignment.bmp)</p></td>
 <td><p>Repeating follow-up.</p></td>
 </tr>
 </tbody>
@@ -87,7 +87,7 @@ When you select one of the invitations in the top part of the dialog, its detail
 
 > [!TIP]
 > When you select an invitation in the **Invitations** dialog, the day in question is shown in the **Diary** screen in the background, so that you can check whether you have other appointments or not.  
-If you have other overlapping appointments, a **Conflict** icon (![icon](../media/invitation_dialog_exclamation_mark.bmp)) is also displayed in the preview in the **Invitations** dialog.
+If you have other overlapping appointments, a **Conflict** icon (![icon](../media/invitation-dialog-exclamation-mark.bmp)) is also displayed in the preview in the **Invitations** dialog.
 
 ## Receive invitations to repeating follow-ups
 
@@ -95,16 +95,16 @@ If you select **Show repetitions** below the list of invitations, all instances 
 
 There are two ways to see if a follow-up is a repeating one:
 
-* The status icon ( ![icon](../media/Recurring_booking_assignment.bmp) ) is shown in the list of invitations.
-* You will see a 'repeat' icon at the top left of the bottom section of the dialog. See [Create repeating follow-ups](Creating_recurring_follow-ups.md) for more information about repeating follow-ups.
+* The status icon ( ![icon](../media/Recurring-booking-assignment.bmp) ) is shown in the list of invitations.
+* You will see a 'repeat' icon at the top left of the bottom section of the dialog. See [Create repeating follow-ups](Creating-recurring-follow-ups.md) for more information about repeating follow-ups.
 
 Click **Close** to close the dialog.
 
 Note:
 
-* If you first accept an invitation and then delete the follow-up from the diary, it is counted as though you declined it. The follow-up disappears from the Diary and your name is marked with a red cross ( ![icon](../media/invitasjon_avslått.bmp) ) in the **Appointment**, **Task** or **Phone Call** dialog of the person who sent the invitation (see [The Dialog for follow-ups](Dialog_for_followups.md)).
+* If you first accept an invitation and then delete the follow-up from the diary, it is counted as though you declined it. The follow-up disappears from the Diary and your name is marked with a red cross ( ![icon](../media/invitasjon-avslått.bmp) ) in the **Appointment**, **Task** or **Phone Call** dialog of the person who sent the invitation (see [The Dialog for follow-ups](Dialog-for-followups.md)).
 * If you accept an invitation and subsequently open the dialog for follow-ups, you are not able to edit any information about the follow-up except for the **Priority**, **Completed** and **Alarm** fields. Other changes can only be made by the person who sent the invitation.
-* If you assign a follow-up to another user (i.e. the follow-up changes owner), and the recipient declines it, this works as described under [Receive responses to invitations](Receive_response.md).
+* If you assign a follow-up to another user (i.e. the follow-up changes owner), and the recipient declines it, this works as described under [Receive responses to invitations](Receive-response.md).
 * If you close the **Invitations** dialog without accepting or declining the invitation, the follow-up remains there and an eye icon ( ![icon](../media/eye-icon.bmp) ) is displayed next to your name in the **Appointment**, **Task** or **Phone Call** dialog to show that you have seen it, but not made a decision.
 * Invitations are saved up until the day after the follow-up is marked as completed so that the participants can be informed of changes.
-* If you receive an invitation for a time when you are already occupied, an exclamation mark ( ![icon](../media/invitation_dialog_exclamation_mark.bmp) ) is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the fact that the invitation causes a conflict.
+* If you receive an invitation for a time when you are already occupied, an exclamation mark ( ![icon](../media/invitation-dialog-exclamation-mark.bmp) ) is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the fact that the invitation causes a conflict.

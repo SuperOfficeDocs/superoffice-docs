@@ -15,6 +15,6 @@ If you perform the same type of import at regular intervals, it may be useful to
 
 ## What would you like to do now?
 
-[Create import descriptions](Creating_import_descriptions.md)
+[Create import descriptions](Creating-import-descriptions.md)
 
-[Edit import descriptions](Editing_import_descriptions.md)
+[Edit import descriptions](Editing-import-descriptions.md)

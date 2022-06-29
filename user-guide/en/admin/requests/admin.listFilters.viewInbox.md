@@ -11,7 +11,7 @@ language: en
 
 # Inbox for e-mail
 
-In the **Inbox for e-mail** tab is a list of the e-mails in the queue to be read in. The following options are also available from the **Actions** button (![icon](../media/btn_Menu.png)):
+In the **Inbox for e-mail** tab is a list of the e-mails in the queue to be read in. The following options are also available from the **Actions** button (![icon](../media/btn-Menu.png)):
 
 * **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 

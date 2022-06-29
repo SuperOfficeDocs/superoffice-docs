@@ -28,10 +28,10 @@ To display a user-defined field on the first page:
 1. Open the **Fields** screen.
 2. Click one of the **Company**, **Contact**, **Project** or **Sale** tabs.
 3. Check **Allow different page 1 fields for different user groups** at the bottom of the tab if you want to specify different page 1 fields for different user groups. If this is left unchecked, the fields you specify will be used for all user groups.
-4. In the user group list above, select the required user group (if you have checked **Allow different page 1 fields for different user groups** in the previous step). For more details on user groups, see [User groups and page 1 fields](../chap09/User_groups.md).
+4. In the user group list above, select the required user group (if you have checked **Allow different page 1 fields for different user groups** in the previous step). For more details on user groups, see [User groups and page 1 fields](../chap09/User-groups.md).
 5. In the **Field 1** list box, choose the field to display at the top. Choose the fields to display in the next positions in the **Field 2** and **Field 3** list boxes.
 6. Click **Save** to save your changes only in Settings and maintenance or click **Publish** to make the changes available to SuperOffice CRM users.
 
 ## What would you like to do now?
 
-[See user groups](../chap09/User_groups.md)
+[See user groups](../chap09/User-groups.md)

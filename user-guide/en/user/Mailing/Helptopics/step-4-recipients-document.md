@@ -22,7 +22,7 @@ To do this:
 1. Under **Add recipients**, click **Selection** or **Project**.
 2. Click in the field below and start typing the name of the selection or project you want to add. As you type, a dynamic list displays the matches.
 3. Click a selection or a project in the list.
-4. Click ![icon](../media/btn_Add.png). The selection or project is added to the **Recipient sources** list, and the **Recipients** list is updated.
+4. Click ![icon](../media/btn-Add.png). The selection or project is added to the **Recipient sources** list, and the **Recipients** list is updated.
 5. Repeat steps 1 through 4 to add more selections or projects.
 
 > [!NOTE]
@@ -35,7 +35,7 @@ You can add individual contacts from SuperOffice. To do this:
 1. Under **Add recipients**, click **Contact**.
 2. Click in the field below and start typing the name of the contact you want to add, in the field below. You can also enter a company name to display all contacts for a company.
 3. Select the contact you want from the list that appears.
-4. Click ![icon](../media/btn_Add.png). The contact is added to the **Recipient sources** list, and the **Recipients** list is updated.
+4. Click ![icon](../media/btn-Add.png). The contact is added to the **Recipient sources** list, and the **Recipients** list is updated.
 5. Repeat steps 2-5 to add more contacts. Additional contacts will be added to the same row in the **Recipient sources** list, and the number of contacts will display in the **Name** column.
 
 ## Recipient options
@@ -58,7 +58,7 @@ In addition, you can click the **Update list** button below the **Recipients** l
 > [!NOTE]
 > The list only displays the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
 
-Click **Next** to go to [Step 5: Confirm](Step_5__Confirm_-_Document.md). You can still revisit the **Recipients** step to edit the recipients list.
+Click **Next** to go to [Step 5: Confirm](Step-5-Confirm-Document.md). You can still revisit the **Recipients** step to edit the recipients list.
 
 > [!TIP]
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.

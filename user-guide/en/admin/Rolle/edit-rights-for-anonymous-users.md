@@ -11,15 +11,15 @@ language: en
 
 # Edit rights for anonymous users ![icon](../OnPremises.png)
 
-Some functions in this topic require a separate licence (anonymous users). See [Licences](../chap03/Licences_screen.md).
+Some functions in this topic require a separate licence (anonymous users). See [Licences](../chap03/Licences-screen.md).
 
 There is only one role for anonymous users and only the data rights for this role can be edited.
 
 To do this:
 
-1. Click the **Roles** button in the Navigator (![icon](../media/Knapp_rolle_liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon](../media/Knapp-rolle-liten.bmp)).
 2. Select the **Anonymous** tab.
-3. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set_data_rights_for_role.md).  
+3. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
     You can choose from these rights:
 

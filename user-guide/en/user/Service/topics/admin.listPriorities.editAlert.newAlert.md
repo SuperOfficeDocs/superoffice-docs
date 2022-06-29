@@ -13,7 +13,7 @@ language: en
 
 To create a new escalation level:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)&gt; **Priorities**. The **Priorities** screen appears.
+1. Select ![icon](../media/globalmenu-settings-small.png)&gt; **Priorities**. The **Priorities** screen appears.
 
 2. Click the **New escalation level** button. This takes you to the **Escalation level properties** screen.
 

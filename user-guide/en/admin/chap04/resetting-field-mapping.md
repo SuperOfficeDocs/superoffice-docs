@@ -15,7 +15,7 @@ To delete all defined field mapping:
 
 1. Open the **Import** screen.  
     <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
+    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
 
 2. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and browse to an import description file in the dialog which opens.
 

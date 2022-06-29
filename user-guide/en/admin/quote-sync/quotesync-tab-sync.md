@@ -24,16 +24,16 @@ To set up an ERP connection for the online version of SuperOffice:
 
 ## What would you like to do now?
 
-[Add a Sync Connector](sync_connector_add.md)
+[Add a Sync Connector](sync-connector-add.md)
 
-[Add an ERP connection](sync_add_erp_connection.md)
+[Add an ERP connection](sync-add-erp-connection.md)
 
-[Set Sync Priority](sync_set_sync_priority.md)
+[Set Sync Priority](sync-set-sync-priority.md)
 
-[Configure field allocation](sync_configure_field_allocation.md) (Here you specify synchronisation settings and which fields are displayed in the search window and in the **ERP** tab.)
+[Configure field allocation](sync-configure-field-allocation.md) (Here you specify synchronisation settings and which fields are displayed in the search window and in the **ERP** tab.)
 
-[Configure default values for synchronisation](sync_configure_default_values.md)
+[Configure default values for synchronisation](sync-configure-default-values.md)
 
-[Rank fields shown in the ERP tab](sync_rank_fields_shown_in_the_ERP_tab.md)
+[Rank fields shown in the ERP tab](sync-rank-fields-shown-in-the-ERP-tab.md)
 
-[Edit an ERP connection](sync_edit_ERP_connection.md)
+[Edit an ERP connection](sync-edit-ERP-connection.md)

@@ -24,7 +24,7 @@ By default statistics are shown for all available channels, but you can select a
 
 ## Respond to an incoming chat
 
-Double-click a row in the Incoming chat list to respond to that chat. The chat opens in the **Chats** tab. See [Respond to a chat](chat_respond.md).
+Double-click a row in the Incoming chat list to respond to that chat. The chat opens in the **Chats** tab. See [Respond to a chat](chat-respond.md).
 
 ## Listen to an ongoing chat
 

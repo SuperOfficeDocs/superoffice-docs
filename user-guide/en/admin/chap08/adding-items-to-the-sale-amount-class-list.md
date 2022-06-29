@@ -11,9 +11,9 @@ language: en
 
 # Add items to the Sale - Amount class list
 
-The **Sale - Amount class** list is part of the status monitor (SAINT) function, which requires a separate licence. See [Licences](../chap03/Licences_screen.md).
+The **Sale - Amount class** list is part of the status monitor (SAINT) function, which requires a separate licence. See [Licences](../chap03/Licences-screen.md).
 
-When you add an item to the **Sale - Amount class** list, the **Edit List Item** dialog is not the same as described under [Add items](Adding_items.md).
+When you add an item to the **Sale - Amount class** list, the **Edit List Item** dialog is not the same as described under [Add items](Adding-items.md).
 
 To complete the fields in the **Edit list item** dialog when the list items are amount classes:
 

@@ -66,7 +66,7 @@ The following types of events are started from the various screens in Settings a
 
 <!-- -->
 
-* **ROURebuild**: counters or status monitors are being regenerated. Status images, the **Statistics** tab and counters are unavailable while the event is underway. (Status monitors require a separate licence. See [Licences](../chap03/Licences_screen.md).)
+* **ROURebuild**: counters or status monitors are being regenerated. Status images, the **Statistics** tab and counters are unavailable while the event is underway. (Status monitors require a separate licence. See [Licences](../chap03/Licences-screen.md).)
 
 You can start the following types of event from the **Status** tab:
 
@@ -77,4 +77,4 @@ You can start the following types of event from the **Status** tab:
 
 ## What would you like to do now?
 
-[Add system events](Adding_system_events.md)
+[Add system events](Adding-system-events.md)

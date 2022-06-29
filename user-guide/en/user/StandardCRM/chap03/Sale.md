@@ -11,7 +11,7 @@ language: en
 
 # Sales
 
-![icon](../media/Chap03_contacts/29_chap3_sale-detail.bmp)
+![icon](../media/Chap03-contacts/29-chap3-sale-detail.bmp)
 
 The **Sales** section tab shows sales connected to the company.
 
@@ -29,12 +29,12 @@ The following information is displayed in the columns on the **Sales** section t
 * the user ID of the person who recorded the sale
 * ERP discount (if SuperOffice is linked to an ERP system)
 
-**Tip:** You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing_the_column_view.md). .
+**Tip:** You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md). .
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
 
 Click **Add** to create a new sale. For more details on how to manage sales, see [Sale](../sale/sale.md).
 
-Click the **Filter** button ( ![icon](../media/Filter.bmp) ) to filter the list by date, users or groups. See [Filter sales](Using_the_Filter_function_Contact.md).
+Click the **Filter** button ( ![icon](../media/Filter.bmp) ) to filter the list by date, users or groups. See [Filter sales](Using-the-Filter-function-Contact.md).
 
 If you check **Include stakeholders** at the bottom of the section tab, sales where the company is involved as a stakeholder are also displayed. See [Stakeholders](../sale/StakeHolders.md).

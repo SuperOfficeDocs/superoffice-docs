@@ -43,13 +43,13 @@ To update multiple records:
     > [!NOTE]
     > If the selection contains both companies and contacts, there will be two tabs: **Company** and **Contact**.
 
-3. Select a field to update in the **Field** column. You can also type the name in the field (see [FastSearcher](Using_FastSearcher.md)). As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.
+3. Select a field to update in the **Field** column. You can also type the name in the field (see [FastSearcher](Using-FastSearcher.md)). As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.
 
 4. Select an action in the **Action** column. The available actions will depend on the type of field you have selected in the previous step. Here are some examples of available actions:
     * **Check**: Check or uncheck a checkbox.
     * **Toggle**: Uncheck a checked checkbox and vice versa.
-    * **Search and replace**: Find a text and replace it. See [Search and replace](Bulk_update.md#Search_and_replace).
-    * **Regex**: Update a field using regular expressions. See [Regex](Bulk_update.md#Regex).
+    * **Search and replace**: Find a text and replace it. See [Search and replace](Bulk-update.md#Search-and-replace).
+    * **Regex**: Update a field using regular expressions. See [Regex](Bulk-update.md#Regex).
     * **Set**: Apply a new value to the field.
     * **Clear**: Clear any value from the field.
     * List actions: Select or clear single or multiple values for list fields.
@@ -57,7 +57,7 @@ To update multiple records:
 
 5. To add more fields to be updated, click **Add** and repeat steps 3 and 4.
 
-6. Make sure you select (![icon](../../media/btn_selected.png)) the fields you want to update and unselect (![icon](../../media/btn_unselected.png)) the fields you DO NOT want to update.
+6. Make sure you select (![icon](../../media/btn-selected.png)) the fields you want to update and unselect (![icon](../../media/btn-unselected.png)) the fields you DO NOT want to update.
 
 7. Click **Update**. The **Confirm** dialog opens, showing a summary of the updates.
 

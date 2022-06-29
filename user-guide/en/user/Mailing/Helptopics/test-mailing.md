@@ -27,7 +27,7 @@ In order to do this:
 3. Enter an e-mail address. You can add multiple e-mail addresses by using ; as separator.
 4. Click **OK**. The e-mail is sent to the specified address(es).
 
-See [What should I test?](test_mailing.md#What_should_I_test_) below for a list of what you should check in the mailing.
+See [What should I test?](test-mailing.md#What-should-I-test-) below for a list of what you should check in the mailing.
 
 ## Preview the mailing
 
@@ -40,8 +40,8 @@ In order to do this:
 
 1. Click a recipient in the **Recipients** list.
 2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables have been replaced by actual contact data (name, company etc.).
-3. Click links to check that they work, but remember to reset them if they are tracked. See [Reset counters after testing](Reset_counters_after_testing.md).
-4. Click ![icon](../media/btn_Cancel.png) to close the **Preview** window.
+3. Click links to check that they work, but remember to reset them if they are tracked. See [Reset counters after testing](Reset-counters-after-testing.md).
+4. Click ![icon](../media/btn-Cancel.png) to close the **Preview** window.
 
 ## What should I test?
 
@@ -54,10 +54,10 @@ When you are testing a mailing, it is important to check the following:
 * That images are correctly displayed.
 * That the layout of messages looks good.
 * That the messages are up-to-date (dates/years, names, version numbers, etc.) and do not contain spelling mistakes/typos.
-* That the mailing is legible on a smart phone or tablet. See [Customise the message for display on mobile devices](Customise_the_message_for_display_on_mobile_devices.md).
+* That the mailing is legible on a smart phone or tablet. See [Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md).
 
 > [!NOTE]
-> You need to remember to reset the counters after you have clicked links. See [Reset counters for links](Work_with_tracked_links_after_the_mailing.md#ResetCountersForLinks).
+> You need to remember to reset the counters after you have clicked links. See [Reset counters for links](Work-with-tracked-links-after-the-mailing.md#ResetCountersForLinks).
 
 Click **Next** to go to **Step 4: Recipients**. You can still go back to the **Content** step to make additional changes to the message. This step is not relevant for form responses.
 

@@ -26,6 +26,6 @@ When you stop the repeating follow-up, all instances of the follow-up *after* th
 
 ## What would you like to do now?
 
-[Create repeating follow-ups](Creating_recurring_follow-ups.md)
+[Create repeating follow-ups](Creating-recurring-follow-ups.md)
 
-[Edit repeating follow-ups](Editing_recurring_follow-ups.md)
+[Edit repeating follow-ups](Editing-recurring-follow-ups.md)

@@ -11,10 +11,10 @@ language: en
 
 # Create static selections
 
-See [Create selections](Create_selections.md).
+See [Create selections](Create-selections.md).
 
 ## What would you like to do now?
 
-[Add members to static selections](Adding_members_to_static_selections.md)
+[Add members to static selections](Adding-members-to-static-selections.md)
 
-[Create combined selections](Creating_combined_selections.md)
+[Create combined selections](Creating-combined-selections.md)

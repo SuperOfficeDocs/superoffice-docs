@@ -13,8 +13,8 @@ language: en
 
 In SuperOffice CRM, you can bring up a useful little notepad, regardless of where you are in the program. At any time, you can show or hide the Notepad by:
 
-* Clicking ![icon](../media/globalmenu_mainmenu_small.png)**Main menu** &gt; **Show Notepad**. A tick in front of the menu option means that the option is enabled.
-* Selecting **Notepad** on the [side panel](Navigating_in_the_mini_card.md) list of views will display the notepad in the side panel.
+* Clicking ![icon](../media/globalmenu-mainmenu-small.png)**Main menu** &gt; **Show Notepad**. A tick in front of the menu option means that the option is enabled.
+* Selecting **Notepad** on the [side panel](Navigating-in-the-mini-card.md) list of views will display the notepad in the side panel.
 
 When you display the Notepad on the screen, you can grab the top part of the notepad window and drag it wherever you want.
 

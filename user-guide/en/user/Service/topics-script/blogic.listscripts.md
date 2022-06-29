@@ -11,7 +11,7 @@ language: en
 
 # Macros and scripts
 
-In the **Macros and scripts** tab you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it (see [View a script/macro](View_script_macro.md)).
+In the **Macros and scripts** tab you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it (see [View a script/macro](View-script-macro.md)).
 
 About macros
 
@@ -34,7 +34,7 @@ In the **Macros and scripts** tab you have the following options:
 
 ## What would you like to do now?
 
-[View a script/macro](View_script_macro.md)
+[View a script/macro](View-script-macro.md)
 
 [Create a script](blogic.listScripts.editScript.md)
 

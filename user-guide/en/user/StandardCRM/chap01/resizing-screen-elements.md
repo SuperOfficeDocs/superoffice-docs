@@ -18,7 +18,7 @@ You can change the size of the main card, the side panel and the section tabs. I
 To resize the cards:
 
 1. Position the mouse pointer between the screen elements you want to resize.
-2. Click ![icon](../media/icon_center_resize.png) or ![icon](../media/icon_center_resize_vertical.png) and drag to the required size.
+2. Click ![icon](../media/icon-center-resize.png) or ![icon](../media/icon-center-resize-vertical.png) and drag to the required size.
 3. When the elements are the size you want them to be, release the mouse button.
 
 > [!NOTE]

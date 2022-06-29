@@ -17,34 +17,34 @@ SuperOffice CRM consists of the following main sections which you will quickly b
 
 [Company](../chap03/Companies.md)
 
-[Contact](../person/Contact_main.md)
+[Contact](../person/Contact-main.md)
 
 [Diary](../chap06/Diary.md)
 
 [Sale](../sale/sale.md)
 
-* [Quote](../quote/quote_main.md)
+* [Quote](../quote/quote-main.md)
 
 [Project](../chap05/Project.md)
 
 [Selection](../chap04/Selection.md)
 
-[Inbox](../Inbox_TOP.md)
+[Inbox](../Inbox-TOP.md)
 
 [Chat](../../Chat/Chat.md)
 
 [Reports](../chap09/Reports.md)
 
-[Marketing](../../Mailing/Helptopics/SO_Mailing.md)
+[Marketing](../../Mailing/Helptopics/SO-Mailing.md)
 
 You can easily switch between these screens by clicking the buttons in the Navigator (see [The Navigator](Navigator.md)).
 
-Access to other useful functions is also just a click away thanks to the **New** button (see [The Top bar](Buttons_in_the_menu_bar.md)) and the global buttons (see [Global buttons](Global_Buttons.md)) in SuperOffice CRM.
+Access to other useful functions is also just a click away thanks to the **New** button (see [The Top bar](Buttons-in-the-menu-bar.md)) and the global buttons (see [Global buttons](Global-Buttons.md)) in SuperOffice CRM.
 
 ## Related topics
 
-[Log in](Logging_in.md)
+[Log in](Logging-in.md)
 
-[The Main screen](Main_screen.md)
+[The Main screen](Main-screen.md)
 
-[Search options in SuperOffice CRM](Search_options_in_CRM.md)
+[Search options in SuperOffice CRM](Search-options-in-CRM.md)

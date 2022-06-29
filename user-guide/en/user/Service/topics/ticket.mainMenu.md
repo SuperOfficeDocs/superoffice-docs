@@ -14,7 +14,7 @@ language: en
 A dashboard can contain up to four tiles (panels) that provide an instant overview of requests and request statistics in SuperOffice Service. The content of the tiles can be individually customised, for different roles or globally.
 
 > [!NOTE]
-> By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards](ticket.mainMenu.dashboard_create.md) with the tiles/charts of your choice.
+> By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards](ticket.mainMenu.dashboard-create.md) with the tiles/charts of your choice.
 
 ## Choose the content of the tiles
 
@@ -54,7 +54,7 @@ If specified under **Settings** &gt; **Categories**, the **Status** tile on the 
 
 A user with category administration rights can do the following:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings &gt; Categories**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Categories**.
 2. Select the required category.
 3. Select the **Properties tab**.
 4. Check **Show category in status view**.
@@ -78,7 +78,7 @@ Lists requests that no-one has been assigned responsibility for. If you want to 
 
 ## **What would you like to do now?**
 
-[Create a dashboard](ticket.mainMenu.dashboard_create.md)
+[Create a dashboard](ticket.mainMenu.dashboard-create.md)
 
 [Receive requests](ticket.receiveTickets.md)
 

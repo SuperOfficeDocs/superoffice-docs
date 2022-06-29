@@ -23,8 +23,8 @@ The way a counter works is to increase the value of the field by 1 each time a n
 
 ## What would you like to do now?
 
-[View number allocation](Viewing_number_allocation.md)
+[View number allocation](Viewing-number-allocation.md)
 
-[Specify number allocation](Specifying_number_allocation.md)
+[Specify number allocation](Specifying-number-allocation.md)
 
-[Specify default values for new document templates](Default_values_for_new_document_templates_web.md)
+[Specify default values for new document templates](Default-values-for-new-document-templates-web.md)

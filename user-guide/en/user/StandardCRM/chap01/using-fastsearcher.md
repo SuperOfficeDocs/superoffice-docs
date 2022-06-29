@@ -21,11 +21,11 @@ You can use FastSearcher in various ways:
 
 <!-- Fix reuse ID=a1 -->
 
-To search for a first AND middle name or for a contact with two last names, enter an underscore between the names. Example: "Carl\_Martin" or "Jennings\_Fletcher". The underscore functions as a wild card.
+To search for a first AND middle name or for a contact with two last names, enter an underscore between the names. Example: "Carl\-Martin" or "Jennings\-Fletcher". The underscore functions as a wild card.
 
-1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top. Below this is a list of records you have previously worked with (see [The History list](Using_the_history_list.md)).
+1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top. Below this is a list of records you have previously worked with (see [The History list](Using-the-history-list.md)).
 
-    ![icon](../media/Chap02_GettingStarted/11_chap2_quicksearch-company.bmp)
+    ![icon](../media/Chap02-GettingStarted/11-chap2-quicksearch-company.bmp)
 
 2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matching records.
 
@@ -33,7 +33,7 @@ To search for a first AND middle name or for a contact with two last names, ente
 
     * You can search for a sale by entering the name of the sale or the name of a company linked to the sale, in the FastSearcher field for **Sales** in the Navigator.
 
-        ![icon](../media/Chap02_GettingStarted/12_chap2_quicksearch-sale.bmp)
+        ![icon](../media/Chap02-GettingStarted/12-chap2-quicksearch-sale.bmp)
 
     * You can search for a contact in the FastSearcher field for **Companies** in the Navigator.
 
@@ -45,7 +45,7 @@ To search for a first AND middle name or for a contact with two last names, ente
 
 2. In the relevant field, type the name of the record to search for. As you type in each letter, the list underneath displays all matches.
 
-    ![icon](../media/Chap02_GettingStarted/14_chap2_quicksearch-dialog.bmp)
+    ![icon](../media/Chap02-GettingStarted/14-chap2-quicksearch-dialog.bmp)
 
 3. Click the required company, contact, sale, project or selection to link to the record.
 

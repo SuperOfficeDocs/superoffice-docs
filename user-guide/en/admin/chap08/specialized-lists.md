@@ -13,11 +13,11 @@ language: en
 
 It is generally very easy to add, edit and delete lists and items. Some lists, however, are more specialised and contain more options and greater functionality than ordinary lists. For more information, see:
 
-[Document - Template](Document_template.md)
+[Document - Template](Document-template.md)
 
-[E-mail - Template](Email_Template.md)
+[E-mail - Template](Email-Template.md)
 
-[Follow-up - Type](Follow-up_-_Type.md)
+[Follow-up - Type](Follow-up-Type.md)
 
 [General - Country](Country.md)
 
@@ -31,18 +31,18 @@ It is generally very easy to add, edit and delete lists and items. Some lists, h
 
 [GUI - Web panel](Webpanel.md)
 
-[Privacy - Legal basis](Privacy_Legal_base.md)
+[Privacy - Legal basis](Privacy-Legal-base.md)
 
-[Privacy - Source](Privacy_Source.md)
+[Privacy - Source](Privacy-Source.md)
 
-[Project - Status](Project_-_Status.md)
+[Project - Status](Project-Status.md)
 
-[Project - Type, status](Project_-_Type.md)
+[Project - Type, status](Project-Type.md)
 
-[Sale - Amount class](Sale_-_Amount_class.md)
+[Sale - Amount class](Sale-Amount-class.md)
 
-[Sale - Stage](Sale_-_Stage.md)
+[Sale - Stage](Sale-Stage.md)
 
-[Sale - Stakeholder Role](Sale_-_Sales_role_(Stakeholders).md)
+[Sale - Stakeholder Role](Sale-Sales-role-(Stakeholders).md)
 
-[Sale - Type, Stages, Quote](Sale_-_Sales_type_(for_stages).md)
+[Sale - Type, Stages, Quote](Sale-Sales-type-(for-stages).md)

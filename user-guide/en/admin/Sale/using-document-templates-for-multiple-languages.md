@@ -15,9 +15,9 @@ If your company has divisions in several countries, it may be useful to have the
 
 ## Add document templates for languages
 
-1. Open Windows Explorer and go to the **\\SuperOffice\\SO\_Arc\\Template** folder.
+1. Open Windows Explorer and go to the **\\SuperOffice\\SO\-Arc\\Template** folder.
 
-2. Create a folder for each of the languages you want document templates for (e.g. **\\SuperOffice\\SO\_Arc\\Template\\GE**). <!-- Fix reuse ID=a1 -->.
+2. Create a folder for each of the languages you want document templates for (e.g. **\\SuperOffice\\SO\-Arc\\Template\\GE**). <!-- Fix reuse ID=a1 -->.
 
     <table data-cellspacing="0" style="width:100%; max-width:30.126%">
     

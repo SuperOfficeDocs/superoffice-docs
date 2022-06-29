@@ -17,20 +17,20 @@ A dynamic selection can be compared to a saved search that is executed each time
 
 Open the search screen. <!-- Fix reuse ID=a2 -->
 
-* You can select **Requests** &gt; **Find requests** to search for requests. See <a href="../../topics/ticket.listTickets.findTickets" target="_top">Search for requests</a>.
-* You can use predefined lists to search for requests. See <a href="../../topics/ticket.listTickets.useLists" target="_top">Use lists</a>.
+* You can select **Requests** &gt; **Find requests** to search for requests. See <a href="../../topics/ticket.listTickets.findTickets" target="-top">Search for requests</a>.
+* You can use predefined lists to search for requests. See <a href="../../topics/ticket.listTickets.useLists" target="-top">Use lists</a>.
 * You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
 * In the knowledge base, you can click the **Search** icon ( ![icon](../media/search.png) ) to the right of a folder name to search for different types of content.
 
 Enter or adjust the criteria as described under [Search in SuperOffice Service](rms.search.md).
 
-Click ![icon](../media/btn_Menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
+Click ![icon](../media/btn-Menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
 
 In the **General info** tab, enter the following:
 
 * **Name**: Enter a descriptive name for the selection.
 * **ID string**: Here you can enter a unique identifier. In a web-based customer centre, you can refer to this ID string to make the selection available to customers.
-* **Folder**: If you have organised the selections into a folder structure (see [Administrate folders of selections](selections.editSelectionFolder.md)), click ![icon](../../media/btn_dropdown.png) and select a folder.
+* **Folder**: If you have organised the selections into a folder structure (see [Administrate folders of selections](selections.editSelectionFolder.md)), click ![icon](../../media/btn-dropdown.png) and select a folder.
 * **Access**: In this list box, you select who is to have access to read and edit the selection.
 * **Show in left menu**: Check here if you want the name of the selection to appear under **Selections** in the Navigator.
 * **Field for parameter constraint**: This field can be used to enter a key or a filter in order to display a selection as a web panel.

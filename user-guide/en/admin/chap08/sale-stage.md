@@ -15,4 +15,4 @@ The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Stage*
 
 ## What would you like to do now?
 
-[Add items to the Sale - Stage list](Adding_items_to_the_Sale_-_Stage_list.md)
+[Add items to the Sale - Stage list](Adding-items-to-the-Sale-Stage-list.md)

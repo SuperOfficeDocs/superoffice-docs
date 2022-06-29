@@ -15,14 +15,14 @@ This procedure shows you how to create a sales guide from scratch.
 
 Before you can create the sales guide itself, you need to define
 
-* [stages](Create_new_sales_guide.md#Create_stages_for_sales_guide) to include in the sales guide
-* [the sales type](Create_new_sales_guide.md#Create_sales_type) (with associated stages) that the sales guide will be linked to
+* [stages](Create-new-sales-guide.md#Create-stages-for-sales-guide) to include in the sales guide
+* [the sales type](Create-new-sales-guide.md#Create-sales-type) (with associated stages) that the sales guide will be linked to
 
-Once you have done that, you can start designing the [sales guide](Create_new_sales_guide.md#Create_sales_guide) itself.
+Once you have done that, you can start designing the [sales guide](Create-new-sales-guide.md#Create-sales-guide) itself.
 
 #### A. Create stages for the sales guide
 
-A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../chap08/Adding_items_to_the_Sale_-_Stage_list.md).
+A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../chap08/Adding-items-to-the-Sale-Stage-list.md).
 
 A sales guide for sales to new customers might include, for example, the stages "First meeting", "Quotation" and "Signing of contract".
 
@@ -30,7 +30,7 @@ Go to the next procedure to link the stages to a sale type.
 
 #### B. Create a sale type for the sales guide
 
-A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../chap08/Adding_items_to_the_Sale_-_Sales_type_(for_stages)_list.md).
+A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../chap08/Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md).
 
 Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cross-sale to existing customer".
 
@@ -45,7 +45,7 @@ Once you have created stages and specified a sale type for the sales guide, you 
 
 Do as follows:
 
-1. Click the **Workflow** button in the Navigator (![icon](../media/knapp_arbeidsflyt_liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon](../media/knapp-arbeidsflyt-liten.bmp)).
 
 2. Select the **Sales guide** tab.
 
@@ -55,12 +55,12 @@ Do as follows:
 
 4. Select the required stage in the list. The stage's details are shown at the bottom of the screen.
 
-5. Add one or more follow-ups for the selected stage, as described under [Add a follow-up for a stage](Create_new_sales_guide.md#Add_activity_for_stage) below.
+5. Add one or more follow-ups for the selected stage, as described under [Add a follow-up for a stage](Create-new-sales-guide.md#Add-activity-for-stage) below.
 
     > [!NOTE]
     > You do not need to add a document for each stage, but you should add at least one follow-up for each stage.
 
-6. Add one or more documents for the selected stage, as described under [Add a document for a stage](Create_new_sales_guide.md#Add_document_for_stage) below.
+6. Add one or more documents for the selected stage, as described under [Add a document for a stage](Create-new-sales-guide.md#Add-document-for-stage) below.
 
 7. Repeat steps 4-6 for each stage you want to add follow-ups and documents for.
 
@@ -147,8 +147,8 @@ To add documents to a stage:
 2. Click **Add** under **Suggested documents in stage**. The **Suggested document** dialog opens.
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Sales guide** section tab in SuperOffice CRM.
-5. Select the required template in the **Template** field (see also [Document - Template](../chap08/Document_template.md)).
+5. Select the required template in the **Template** field (see also [Document - Template](../chap08/Document-template.md)).
 6. Enter the subject to be used in the document in the **Default subject** field.
-7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable](../Template_variables.md#Variables_for_sales) for sales number, sales title or another field relating to the sale.
+7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable](../Template-variables.md#Variables-for-sales) for sales number, sales title or another field relating to the sale.
 8. Click **Save** to save your changes in Settings and maintenance.
 9. Repeat this procedure to add more documents in this or other stages.

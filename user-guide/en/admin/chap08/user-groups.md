@@ -17,9 +17,9 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 ## Specify user groups for an item
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp_Lister_liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
 
-2. Click the arrow ( ![icon](../media/pil_ned.bmp) ) and select the required list.
+2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
@@ -35,15 +35,15 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 > [!NOTE]
 > When you add an item to the **Items** list, it will automatically be visible to all the user groups listed under **Visible for user groups**. You can, if required, remove the checks for the user groups you do not want the items to be visible to.
 
-You can select several user groups for one item. Click **Select all** (![icon](../media/velg_alle.bmp)) to select all the groups, or **Unselect all** (![icon](../media/fjern_alle.bmp)) to remove all selections.
+You can select several user groups for one item. Click **Select all** (![icon](../media/velg-alle.bmp)) to select all the groups, or **Unselect all** (![icon](../media/fjern-alle.bmp)) to remove all selections.
 
 ## Specify items for a user group
 
 You can also specify available items for a user group:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp_Lister_liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
 
-2. Click the arrow ( ![icon](../media/pil_ned.bmp) ) and select the required list.
+2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
@@ -60,4 +60,4 @@ You can also specify available items for a user group:
 
 ## Related topics
 
-[Headings](Headings_web.md)
+[Headings](Headings-web.md)

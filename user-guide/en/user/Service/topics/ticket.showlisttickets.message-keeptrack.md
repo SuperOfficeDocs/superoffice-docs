@@ -19,7 +19,7 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 
 1. Open the request. (See [Process requests](ticket.listTicket.md).)
 2. Click the **Messages** tab.
-3. Click the grey flag button (![icon](../media/message_flag_off.png)) to mark a message. The flag turns red (![icon](../media/message_flag_on.png)). The message is now "flagged".
+3. Click the grey flag button (![icon](../media/message-flag-off.png)) to mark a message. The flag turns red (![icon](../media/message-flag-on.png)). The message is now "flagged".
 
 ## Filtering messages
 

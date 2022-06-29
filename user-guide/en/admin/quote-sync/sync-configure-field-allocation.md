@@ -42,23 +42,23 @@ To do this:
         <td>**Explanation**</p></td>
         </tr>
         <tr>
-        <td>![icon](../media/sync_direction_none.bmp)</p></td>
+        <td>![icon](../media/sync-direction-none.bmp)</p></td>
         <td>No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction.</p></td>
         </tr>
         <tr>
-        <td>![icon](../media/sync_direction_2way.bmp)</p></td>
+        <td>![icon](../media/sync-direction-2way.bmp)</p></td>
         <td>Sync both ways.</p></td>
         </tr>
         <tr>
-        <td>![icon](../media/sync_direction_toERP.bmp)</p></td>
+        <td>![icon](../media/sync-direction-toERP.bmp)</p></td>
         <td>Sync from SuperOffice to the ERP system.</p></td>
         </tr>
         <tr>
-        <td>![icon](../media/sync_direction_toSO.bmp)</p></td>
+        <td>![icon](../media/sync-direction-toSO.bmp)</p></td>
         <td>Sync from the ERP system to SuperOffice.</p></td>
         </tr>
         <tr>
-        <td>![icon](../media/sync_direction_deactivated.bmp)</p></td>
+        <td>![icon](../media/sync-direction-deactivated.bmp)</p></td>
         <td>No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details.</p></td>
         </tr>
         </tbody>
@@ -85,4 +85,4 @@ To do this:
 
 ## How to map/allocate list items
 
-If you have mapped any lists (for example category), you must also map the individual items on each list. See [Configure list mapping](sync_configure_list_mapping.md).
+If you have mapped any lists (for example category), you must also map the individual items on each list. See [Configure list mapping](sync-configure-list-mapping.md).

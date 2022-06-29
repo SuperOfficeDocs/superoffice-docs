@@ -42,11 +42,11 @@ To create a new mailbox:
 15. In the **E-mail fields** field, you can enter a comma-separated list of e-mail fields (headers) to be displayed in the request message, for example, To and Cc.
 16. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer.
 17. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template. You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
-18. ![icon](../OnPremises.png) Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon](../media/btn_add.png).
+18. ![icon](../OnPremises.png) Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon](../media/btn-add.png).
 19. **Import auto-replies and system messages**: By default, e-mails that contain out of office messages, system messages and other irrelevant messages are not imported. If you do want to import such e-mails, you can check this option.
-20. ![icon](../CRMOnline.png) **AI services**: Here you can select the following options for categorization and text analysis using AI (see [AI services](../AIservices/AI_services.md)):
+20. ![icon](../CRMOnline.png) **AI services**: Here you can select the following options for categorization and text analysis using AI (see [AI services](../AIservices/AI-services.md)):
     * **Use AI to suggest categories**: Select this option to let the AI suggest a category for requests based on the content of e-mail messages. See [Categorization](../AIservices/Categorization.md).
-    * **Use text analysis**: Select this option to let the AI analyse the text in e-mail messages to detect language (for translation) and perform sentiment analysis. See [Text analysis](../AIservices/Text_analysis.md).
+    * **Use text analysis**: Select this option to let the AI analyse the text in e-mail messages to detect language (for translation) and perform sentiment analysis. See [Text analysis](../AIservices/Text-analysis.md).
 21. Click **OK**. The mailbox is created.
 
 ## What would you like to do now?

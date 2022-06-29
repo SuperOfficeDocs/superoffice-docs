@@ -15,7 +15,7 @@ In the **Outbox for e-mail** tab is a list of the e-mails in the queue to be sen
 
 Select **Show sent e-mails** in the lower right corner to display also the last request e-mails.
 
-The following options are also available from the **Actions** button (![icon](../media/btn_Menu.png)):
+The following options are also available from the **Actions** button (![icon](../media/btn-Menu.png)):
 
 * **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 

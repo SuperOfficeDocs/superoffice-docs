@@ -15,12 +15,12 @@ In several places in SuperOffice CRM, the history list makes it easy to access t
 
 You can use the history list in different ways:
 
-* Directly from the Navigator ( ![icon](../media/navigator_history_small.png) ) to go to the required company, contact, sale, project or selection.
+* Directly from the Navigator ( ![icon](../media/navigator-history-small.png) ) to go to the required company, contact, sale, project or selection.
 * From dialogs containing the fields for companies, contacts, sales and projects, for example, the **Appointment** and **Document** dialogs, to link to the appointment or document.
 
 ## Using the history list in the Navigator
 
-1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ( ![icon](../media/navigator_history_small.png) ) is displayed underneath this.
+1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ( ![icon](../media/navigator-history-small.png) ) is displayed underneath this.
 2. Click the company, contact, sale, project or selection you want to view.
 
 > [!TIP]
@@ -29,8 +29,8 @@ You can use the history list in different ways:
 ## Using the history list in dialogs
 
 1. Open the relevant dialog.
-2. Click the arrow ( ![icon](../media/Dialogboksknapper_pil_ned.bmp) ) next to the company, contact, sale, selection or project field. This brings up the history list.
+2. Click the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the company, contact, sale, selection or project field. This brings up the history list.
 3. Click the required company, contact, sale, selection or project to link to the record.
 
 > [!NOTE]
-> You can increase or limit the number of lines in the history list by going to ![icon](../media/globalmenu_personalsettings_small.png)**Personal settings &gt; Preferences &gt; Visual effects &gt; Size of history list** and entering the number you require.
+> You can increase or limit the number of lines in the history list by going to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Visual effects &gt; Size of history list** and entering the number you require.

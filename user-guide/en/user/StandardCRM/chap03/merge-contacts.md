@@ -21,13 +21,13 @@ Project membership and activities will be moved to the target contact, and the s
 Proceed as follows:
 
 1. In the **Company** screen: Go to the **Contacts** section tab, select and right-click one or two contacts you want to merge, select **Manage contacts** and **Merge contacts**.  
-    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon](../../media/btn_Menu.png) ) in the contact card, and select **Manage contacts** and **Merge contacts**.  
+    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon](../../media/btn-Menu.png) ) in the contact card, and select **Manage contacts** and **Merge contacts**.  
     The **Merge contacts** dialog opens.
 
 2. If you have only selected one contact, you need to select a contact under **To** (to search for a contact, start typing). The two contacts you want to merge are now displayed under **From** and **To**.
 
     > [!TIP]
-    > If you want to switch the **From** and **To** contacts, click the ![icon](../media/Slå_sammen_Bytte.bmp) button.
+    > If you want to switch the **From** and **To** contacts, click the ![icon](../media/Slå-sammen-Bytte.bmp) button.
 
 3. Select one of the following under **Action on \[contact/company\] after merge**:
     * **Delete...**: If you select this option, the source contact is deleted after the merge. This may be appropriate if you have registered the same contact twice under the same company.
@@ -40,7 +40,7 @@ Proceed as follows:
     * **Move all activities starting after**. Select this option if you want to transfer activities and sales starting after a specific date.
 
     > [!NOTE]
-    > If you want to see the results before you merge the contacts, click **Show results**: ![icon](../media/Vis_resultat.bmp).
+    > If you want to see the results before you merge the contacts, click **Show results**: ![icon](../media/Vis-resultat.bmp).
 
 5. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
 
@@ -49,4 +49,4 @@ Proceed as follows:
 
 ## Related topics
 
-[Merge companies](Merge_companies.md)
+[Merge companies](Merge-companies.md)

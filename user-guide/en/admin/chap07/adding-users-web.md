@@ -11,7 +11,7 @@ language: en
 
 # Add users
 
-This procedure describes how to add one user at a time. To add multiple users, see [Import users](Import_users_web.md).
+This procedure describes how to add one user at a time. To add multiple users, see [Import users](Import-users-web.md).
 
 To add a new SuperOffice CRM user:
 
@@ -44,7 +44,7 @@ In the **Details** tab, you have the following options:
 
 * **Former employee**: If a user should no longer have access to SuperOffice, select this option to remove the user plan and login rights of the user.
 
-* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role](../Rolle/Role.md) the user belongs to. <a href="javascript:BSSCPopup(&#39;Example_Grouping.md&#39;);" id="a2" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here for an example</a>. See also [Visibility](Visibility.md) for more information on sharing data with your primary group.
+* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role](../Rolle/Role.md) the user belongs to. <a href="javascript:BSSCPopup(&#39;Example-Grouping.md&#39;);" id="a2" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here for an example</a>. See also [Visibility](Visibility.md) for more information on sharing data with your primary group.
 
 * **Other groups**: Click in the **Other groups** field and select which other groups the user should belong to. If the list contains many groups, start typing a group name in the search field to filter the list.
 

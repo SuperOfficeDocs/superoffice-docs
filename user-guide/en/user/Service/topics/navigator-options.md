@@ -12,14 +12,14 @@ language: en
 # Navigator options
 
 > [!TIP]
-> You can change the width of the navigator by clicking these buttons above the navigator: ![icon](../../media/panel_left_hide.png) ![icon](../../media/panel_left_show.png)
+> You can change the width of the navigator by clicking these buttons above the navigator: ![icon](../../media/panel-left-hide.png) ![icon](../../media/panel-left-show.png)
 
 When you click a navigator button, one or more of the buttons below are displayed.
 
 > [!TIP]
 > If you hold the mouse pointer over a record in any of the lists below, a tooltip is displayed containing additional data about the record. <!-- Fix reuse ID=a1 -->
 
-![icon](../media/loc/Navigator_preview.png)
+![icon](../media/loc/Navigator-preview.png)
 
 <table>
 
@@ -31,19 +31,19 @@ When you click a navigator button, one or more of the buttons below are displaye
 </thead>
 <tbody>
 <tr>
-<td><p>![icon](../media/navigator_list.png)</p></td>
+<td><p>![icon](../media/navigator-list.png)</p></td>
 <td><p>**Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/navigator_history.png)</p></td>
+<td><p>![icon](../media/navigator-history.png)</p></td>
 <td><p>**History**: Click this button to show recently opened records, for instance request, contacts or selections.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/navigator_favourites.png)</p></td>
+<td><p>![icon](../media/navigator-favourites.png)</p></td>
 <td><p>**Favourites**: Click this button to view the records you have set as favourites. See [Favourites](rms.navigate.favourites.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/navigator_search.png)</p></td>
+<td><p>![icon](../media/navigator-search.png)</p></td>
 <td><p>**Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic, so you only need to start typing your search phrase to initiate the search.</p></td>
 </tr>
 </tbody>
@@ -56,7 +56,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 
 1. Click **Requests**, **Customers**, **Selections**, **Knowledge Base** or **Marketing** in the Navigator on the left of the window. An empty field is displayed at the top. Below is a list of actions/functions and navigation options for the selected navigator button.
 
-    ![icon](../media/loc/navigator_list.png)
+    ![icon](../media/loc/navigator-list.png)
 
 2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matches.
 
@@ -68,7 +68,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 
         <!-- Fix reuse ID=a11 -->
 
-        To search for a first AND middle name or for a contact with two last names, enter an underscore between the names. Example: "Carl\_Martin" or "Jennings\_Fletcher". The underscore functions as a wild card.
+        To search for a first AND middle name or for a contact with two last names, enter an underscore between the names. Example: "Carl\-Martin" or "Jennings\-Fletcher". The underscore functions as a wild card.
 
     * **Selections**: Enter the first part of the selection title.
 
@@ -81,4 +81,4 @@ When you click a navigator button, one or more of the buttons below are displaye
 > [!TIP]
 > If you hold the mouse pointer over a record in the list of search results, a <!-- Fix reuse ID=a12 --> containing additional data about the record.
 
-![icon](../media/loc/Navigator_preview.png)
+![icon](../media/loc/Navigator-preview.png)

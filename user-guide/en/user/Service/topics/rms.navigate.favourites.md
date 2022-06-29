@@ -15,9 +15,9 @@ The Favourites function gives you easy to access to your favourite records, such
 
 ## Add record as a favourite
 
-To add a record to your favourites, open it and click the star icon ![icon](../media/favourite_inactive.png) in the top-right corner. The star turns yellow ![icon](../media/favourite_active.png), and the record is instantly added to your favourites. You do not have to click **Save**.
+To add a record to your favourites, open it and click the star icon ![icon](../media/favourite-inactive.png) in the top-right corner. The star turns yellow ![icon](../media/favourite-active.png), and the record is instantly added to your favourites. You do not have to click **Save**.
 
-Now you can quickly access the record by clicking ![icon](../../media/navmenu_favourites.png) in the Navigator menu.
+Now you can quickly access the record by clicking ![icon](../../media/navmenu-favourites.png) in the Navigator menu.
 
 > [!TIP]
 > If you hold the mouse pointer over a record in the favourites list, a tooltip is displayed containing additional data about the record.
@@ -25,7 +25,7 @@ Now you can quickly access the record by clicking ![icon](../../media/navmenu_fa
 ## Remove record from the favourites list
 
 1. Open the record.
-2. Click the favourites icon ( ![icon](../media/favourite_active.png) ) in the header. The icon changes to ![icon](../media/favourite_inactive.png).
+2. Click the favourites icon ( ![icon](../media/favourite-active.png) ) in the header. The icon changes to ![icon](../media/favourite-inactive.png).
 
 ## Related topics
 

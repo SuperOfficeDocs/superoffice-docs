@@ -13,14 +13,14 @@ language: en
 
 You can create chat channels for specific purposes, such as technical support, product inquiries and sales support, and assign the relevant agents to each channel.
 
-1. SuperOffice CRM: Click the **Chat** button in the Navigator (![icon](../media/Knapp_chat_liten.png)).  
-    SuperOffice Service: Select ![icon](../media/globalmenu_settings_small.png)**System settings &gt; Chat**.
+1. SuperOffice CRM: Click the **Chat** button in the Navigator (![icon](../media/Knapp-chat-liten.png)).  
+    SuperOffice Service: Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Chat**.
 2. Click **Add** at the bottom of the list of chat channels. The **Add chat channel** dialog displays.
 3. Enter the name of the chat channel. This should be a unique name used to identify the topic and language (for example *Tech Support Norway*). The name will only be used internally.
 4. Complete the fields in the tabs as described below. Your changes are automatically saved when you go to another tab.
 5. Click **Save** when you are done.
 
-**Note**: Fields with red frames are mandatory. Tabs with the icon ![icon](../media/chat_mandatorytab.png) contain empty mandatory fields.
+**Note**: Fields with red frames are mandatory. Tabs with the icon ![icon](../media/chat-mandatorytab.png) contain empty mandatory fields.
 
 <!-- Fix reuse ID=a2 -->
 
@@ -31,7 +31,7 @@ Yes, but make sure that the chat channel is not being used on a website. Otherwi
 The following fields are available in the **Properties** tab:
 
 * **Language**: Select the language of the chat window.
-* **Badge header**: Enter a short text to display on the chat icon on your website. <!-- Fix reuse ID=a1 --><span id="POPUP441602431" class="expandtext" style="display: none;">![icon](../media/chat_badge_example.png)
+* **Badge header**: Enter a short text to display on the chat icon on your website. <!-- Fix reuse ID=a1 --><span id="POPUP441602431" class="expandtext" style="display: none;">![icon](../media/chat-badge-example.png)
 * **Description**: Enter a description of the purpose of this chat channel. This text will only be displayed internally.
 * **Warning on new chat**: If no agents respond to a new chat within the specified amount of time, a notification is sent to agents with status **Present**. Agents must also have the permission **Notifications** in the **Agents** tab.
 * **Manager warning on new chat**: If no agents respond to a new chat within the specified amount of time, a notification is sent to the manager(s). This warning is only sent if there are agents with status **Present**.

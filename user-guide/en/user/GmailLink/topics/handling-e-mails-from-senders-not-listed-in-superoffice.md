@@ -19,11 +19,11 @@ When you archive an e-mail or an attachment, or create an activity or request ba
 Follow these steps:
 
 1. Process the e-mail or attachment as described in one of these topics:
-    * [Archive incoming e-mail](e-mail_archive_incoming.md)
-    * [Archive outgoing e-mail](e-mail_archive_outgoing_.md)
-    * [Archive attachments](Archive_attachments.md)
-    * [Create activity](Archive_e-mails_as_activities.md)
-    * [Create request](Archive_e-mails_as_requests.md)
+    * [Archive incoming e-mail](e-mail-archive-incoming.md)
+    * [Archive outgoing e-mail](e-mail-archive-outgoing-.md)
+    * [Archive attachments](Archive-attachments.md)
+    * [Create activity](Archive-e-mails-as-activities.md)
+    * [Create request](Archive-e-mails-as-requests.md)
 2. If the sender of the e-mail or attachment is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving e-mail. Click the warning. The dialog **Add e-mail address to SuperOffice** opens.
 3. Here you have the following options:
     * **Could it be one of these?** SuperOffice will try to match the sender with existing contacts in the database. Click one of the suggested contacts if it matches the sender.

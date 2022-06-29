@@ -15,10 +15,10 @@ As a request handler, you, even aided by your colleagues, are not always able to
 
 1. Open the request. (See [Process requests](ticket.listTicket.md).)
 2. Click the **Messages** tab.
-3. Click ![icon](../media/btn_Menu.png) on the message you want to forward, and select **Forward**. A new message opens in edit mode.
+3. Click ![icon](../media/btn-Menu.png) on the message you want to forward, and select **Forward**. A new message opens in edit mode.
 4. Add a recipient in the **To** field. Click the **Cc/Bcc** button (on the right-hand side of the message) to add recipients on copy or blind copy.
 5. Edit the message. See [Message](ticket.newTicket.md#Message).
-6. Click ![icon](../media/msg_attachment.png) in the toolbar and add any relevant documents as attachments to the request.
+6. Click ![icon](../media/msg-attachment.png) in the toolbar and add any relevant documents as attachments to the request.
 7. Click **Send**. The message is sent.
 
 ## Related topics

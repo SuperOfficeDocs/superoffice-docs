@@ -13,6 +13,6 @@ language: en
 
 To print information about a company:
 
-1. Go to the required company. (See [Use the Find screen](../chap01/Find_dialog.md).)
+1. Go to the required company. (See [Use the Find screen](../chap01/Find-dialog.md).)
 2. Click the **Task** button and select **Print**.
 3. In the window which displays the contents to be printed, click **Print**.

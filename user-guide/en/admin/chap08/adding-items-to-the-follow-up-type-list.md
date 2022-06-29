@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Follow-up - Type list
 
-When you add an item to the **Follow-up - Type** list in Settings and maintenance, the **Edit List item** dialog is not the same as described under [Add items](Adding_items.md).
+When you add an item to the **Follow-up - Type** list in Settings and maintenance, the **Edit List item** dialog is not the same as described under [Add items](Adding-items.md).
 
 To complete the fields in the **Edit list item** dialog when the items are follow-up types:
 
@@ -20,15 +20,15 @@ To complete the fields in the **Edit list item** dialog when the items are follo
     > [!NOTE]
     > This is a mandatory field and must therefore be filled in.
 
-2. Click the arrow ( ![icon](../media/pil_ned.bmp) ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
+2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
 
-3. In the **Direction** field, specify whether the follow-up will be outgoing or incoming, by clicking the arrow ( ![icon](../media/pil_ned.bmp) ) and choosing from the list box.
+3. In the **Direction** field, specify whether the follow-up will be outgoing or incoming, by clicking the arrow ( ![icon](../media/pil-ned.bmp) ) and choosing from the list box.
 
 4. In the **Colour** field, choose which background colour this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organisation.
 
-5. In the **Intention** field, click the arrow (![icon](../media/pil_ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT](../chap06/Status_monitor.md)).
+5. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT](../chap06/Status-monitor.md)).
 
-**Tip**: You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance. Follow the procedure under [Add items](Adding_items.md).
+**Tip**: You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance. Follow the procedure under [Add items](Adding-items.md).
 
 1. Check the **All day** option if you want it to be possible to select a duration of a whole day for the follow-up type in the follow-ups dialog in SuperOffice CRM.
 2. Check the **Free** option if you want it to be possible to specify free and busy times for the follow-up type in the follow-ups dialog in SuperOffice CRM.

@@ -17,8 +17,8 @@ To import your Gmail companies into the SuperOffice database:
 
 ## A. Import companies/contacts from Gmail
 
-1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
-2. Click the Gmail icon ( ![icon](../media/import_gmail_small.bmp) ) under **Select an import source**. What you need to do in the next step depends on whether you are already logged in to Gmail.
+1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+2. Click the Gmail icon ( ![icon](../media/import-gmail-small.bmp) ) under **Select an import source**. What you need to do in the next step depends on whether you are already logged in to Gmail.
 3. One of the following dialogs will be displayed:
     * **Request for permission**: If this dialog appears, you are already logged in to Gmail. Click **Give access**.
     * **Google accounts**: If this dialog appears, you are not logged in to Gmail. Type in the user name and password, and log in to Gmail. Click **Give access**.  
@@ -36,10 +36,10 @@ By default, all the columns with companies/contacts from the e-mail application 
 * click a column heading and edit the SuperOffice field into which the data in the column is to be imported
 * click a column heading and select **(None selected)** if you do not wish to import the data in the column
 
-1. Click **Configure import settings** and adjust the import settings as described in [Configure import settings](Import_settings_web.md).
-2. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent. The legal basis and consent source can be defined in **Import settings** (see [Configure import settings](Import_settings_web.md#setprivacy)). See also [Privacy](../privacy/privacy.md).
+1. Click **Configure import settings** and adjust the import settings as described in [Configure import settings](Import-settings-web.md).
+2. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent. The legal basis and consent source can be defined in **Import settings** (see [Configure import settings](Import-settings-web.md#setprivacy)). See also [Privacy](../privacy/privacy.md).
 3. Click **Next** when you have finished. The **Preview** window opens.  
-    <a href="javascript:BSSCPopup(&#39;import_preview_icons.md&#39;);" id="a1" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">What do the different icons in the table mean?</a>
+    <a href="javascript:BSSCPopup(&#39;import-preview-icons.md&#39;);" id="a1" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">What do the different icons in the table mean?</a>
 4. In **Preview** you can browse through the import data before the import begins.  
     <!-- Fix reuse ID=a2 -->
     Rows without an icon will not be imported. If you can see that many contacts will not be imported, this may be because they have not been linked to a company. Here, you can do one of the following:
@@ -50,7 +50,7 @@ By default, all the columns with companies/contacts from the e-mail application 
     2. Click the **If company name is empty** list below **Contact**.
     3. Select **Create company using contact**.
     4. Click **Save**.
-    5. Click **Next**, and check that the ![icon](../media/import_preview_icon_Company_New.bmp) icon is displayed next to the contact. The person will be registered as a company in SuperOffice CRM with himself or herself as the only contact.
+    5. Click **Next**, and check that the ![icon](../media/import-preview-icon-Company-New.bmp) icon is displayed next to the contact. The person will be registered as a company in SuperOffice CRM with himself or herself as the only contact.
 5. Remove the check marks for the rows you do NOT want to import.
 6. When you have verified that this actually is the data you want to import, click **Import**.
 

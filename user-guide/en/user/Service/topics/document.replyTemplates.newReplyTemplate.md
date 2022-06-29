@@ -47,7 +47,7 @@ To create a new reply template:
 5. Select the **(Unspecified language)** tab.
 
 6. In the **Properties** tab, enter the following:
-    * **Language**: In this list, select which language the reply template is in. The list box contains the languages registered under ![icon](../media/globalmenu_settings_small.png)&gt; **Customer languages**.
+    * **Language**: In this list, select which language the reply template is in. The list box contains the languages registered under ![icon](../media/globalmenu-settings-small.png)&gt; **Customer languages**.
     * **Default**: Check here if you want this to be the default language for this reply template.
     * **Subject**: Enter the title of the reply template. This is normally inserted into the **Subject** field when the reply template is used for an e-mail.
     * **Message headers**: Here you can add predefined content to be displayed in the message header, for example, the **To** and **Subject** fields, in an e-mail. This function is only used in special cases.
@@ -77,7 +77,7 @@ To create a new reply template:
     3. Click **Add** to add the attachment.
     4. Repeat this procedure to add more attachments.
 
-    **Tip:** You can delete an attachment by clicking **Delete** ( ![icon](../../media/btn_delete.png) ) to the right of the row.
+    **Tip:** You can delete an attachment by clicking **Delete** ( ![icon](../../media/btn-delete.png) ) to the right of the row.
 
 11. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in responding to customer enquiries. See [Reply to customer](ticket.showListTickets.addMessage.md).
 

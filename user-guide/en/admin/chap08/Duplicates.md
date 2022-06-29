@@ -13,4 +13,4 @@ language: en
 
 You cannot create two items with the same name in one list. The same applies to headings. If you try to create an element with the same name as an existing item or heading, a message advises you that this is not allowed. This restriction applies irrespective of whether the name is in uppercase or lowercase.
 
-**Note**: You cannot add a new item or heading that has the same name as a deleted item or heading. See [Deleted items and headings](Deleted_items_and_headings.md).
+**Note**: You cannot add a new item or heading that has the same name as a deleted item or heading. See [Deleted items and headings](Deleted-items-and-headings.md).

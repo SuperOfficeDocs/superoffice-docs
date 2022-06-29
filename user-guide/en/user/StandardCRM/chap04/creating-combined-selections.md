@@ -33,34 +33,34 @@ To create a new combined selection:
     <table>
     <tbody>
     <tr>
-    <td>![icon](../media/selection_comb_onlyin1.png)</p></td>
+    <td>![icon](../media/selection-comb-onlyin1.png)</p></td>
     <td>Only in Selection 1</p></td>
     <td>Shows entries that are in selection 1, and excludes entries that are in both selection 1 and selection 2.</p></td>
     </tr>
     <tr>
-    <td>![icon](../media/selection_comb_onlyin2.png)</p></td>
+    <td>![icon](../media/selection-comb-onlyin2.png)</p></td>
     <td>Only in Selection 2</p></td>
     <td>Shows entries that are in selection 2, and excludes entries that are in both selection 1 and selection 2.</p></td>
     </tr>
     <tr>
-    <td>![icon](../media/selection_comb_common.png)</p></td>
+    <td>![icon](../media/selection-comb-common.png)</p></td>
     <td>Common</p></td>
     <td>Shows only entries that are in both selection 1 and selection 2.</p></td>
     </tr>
     <tr>
-    <td>![icon](../media/selection_comb_diff.png)</p></td>
+    <td>![icon](../media/selection-comb-diff.png)</p></td>
     <td>Difference</p></td>
     <td>Shows only entries that are either in selection 1 or in selection 2.</p></td>
     </tr>
     <tr>
-    <td>![icon](../media/selection_comb_all.png)</p></td>
+    <td>![icon](../media/selection-comb-all.png)</p></td>
     <td>All</p></td>
     <td>Shows only entries in selection 1 and selection 2.</p></td>
     </tr>
     </tbody>
     </table>
 
-8. The **Owner** field automatically displays the user currently logged in. After you have saved a new selection, you can change the owner by [editing the selection](Editing_Selections.md). In practice, this means that you transfer it from yourself to someone else. In order to edit a selection, you must either be the owner or have administrator access, or you must have been given editing access via the **Functions** preference in SuperOffice Settings and maintenance.
+8. The **Owner** field automatically displays the user currently logged in. After you have saved a new selection, you can change the owner by [editing the selection](Editing-Selections.md). In practice, this means that you transfer it from yourself to someone else. In order to edit a selection, you must either be the owner or have administrator access, or you must have been given editing access via the **Functions** preference in SuperOffice Settings and maintenance.
 
 9. In the **Category** field, choose the type of selection you require. These options are defined in SuperOffice Settings and maintenance.
 
@@ -70,13 +70,13 @@ To create a new combined selection:
 
 12. Check **Completed** if you want to specify that the selection is inactive. If you want the selection to be active, leave this box unchecked.
 
-13. To add the selection to favourites, click the star icon ![icon](../../Service/media/favourite_inactive.png). The star turns yellow ![icon](../../Service/media/favourite_active.png), and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon](../../media/navmenu_favourites.png) from the Navigator menu.
+13. To add the selection to favourites, click the star icon ![icon](../../Service/media/favourite-inactive.png). The star turns yellow ![icon](../../Service/media/favourite-active.png), and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu.
 
 14. Click **Save** to save the selection in the database.  
-    Once the selection has been saved, you can [edit it](Editing_Selections.md) to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.
+    Once the selection has been saved, you can [edit it](Editing-Selections.md) to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.
 
 ## Related topics
 
-[Create selections](Create_selections.md)
+[Create selections](Create-selections.md)
 
-[Perform tasks using selections](Performing_tasks_using_selections.md)
+[Perform tasks using selections](Performing-tasks-using-selections.md)

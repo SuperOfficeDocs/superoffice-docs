@@ -17,7 +17,7 @@ In this topic, you can find out how to create and edit customer languages.
 
 To create a new customer language:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Customer languages**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Customer languages**.
 
 2. Click the **New customer language** button. This takes you to the **Customer language properties** screen.
 

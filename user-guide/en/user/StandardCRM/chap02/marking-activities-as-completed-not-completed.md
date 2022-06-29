@@ -19,14 +19,14 @@ To change the **Completed** status of an activity:
 
 * Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
 
-    ![icon](../media/Chap04_activities/38_chap4_completed-activity.bmp)
+    ![icon](../media/Chap04-activities/38-chap4-completed-activity.bmp)
 
 > [!TIP]
-> For more information about how to open activities, see the [Open follow-ups](Opening_Follow-ups.md) and [Open documents](Opening_documents.md) topics.
+> For more information about how to open activities, see the [Open follow-ups](Opening-Follow-ups.md) and [Open documents](Opening-documents.md) topics.
 
-* Hold the mouse pointer over the box in the **Completed** column (![icon](../media/Salg_solgt_detaljkort.bmp)) in the **Activities** section tab. Then click the checkbox ( ![icon](../media/Utfoert.bmp) ).
+* Hold the mouse pointer over the box in the **Completed** column (![icon](../media/Salg-solgt-detaljkort.bmp)) in the **Activities** section tab. Then click the checkbox ( ![icon](../media/Utfoert.bmp) ).
 
-    ![icon](../media/39_chap4_completed-activity_2.bmp)
+    ![icon](../media/39-chap4-completed-activity-2.bmp)
 
 * Right-click the activity and choose **Completed**.
 

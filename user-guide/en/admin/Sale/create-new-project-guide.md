@@ -46,14 +46,14 @@ This procedure shows you how to create a project guide from scratch.
 
 Before you can create the project guide itself, you need to define
 
-* [statuses](Create_new_project_guide.md#Create_stages_for_project_guide) to include in the project guide
-* [the project type](Create_new_project_guide.md#Create_project_type) (with associated statuses) that the project guide will be linked to
+* [statuses](Create-new-project-guide.md#Create-stages-for-project-guide) to include in the project guide
+* [the project type](Create-new-project-guide.md#Create-project-type) (with associated statuses) that the project guide will be linked to
 
-Once you have done that, you can start designing the [project guide](Create_new_project_guide.md#Create_project_guide) itself.
+Once you have done that, you can start designing the [project guide](Create-new-project-guide.md#Create-project-guide) itself.
 
 #### A. Create statuses for the project guide
 
-A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding_items_to_the_Project_-_Status_list.md).
+A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding-items-to-the-Project-Status-list.md).
 
 A project guide for a project of the Conference type might, for example, comprise the "Planned", "In progress" and "Closing" statuses.
 
@@ -61,7 +61,7 @@ Go to the next procedure to link the statuses to a project type.
 
 #### B. Create a project type for the project guide
 
-A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../chap08/Adding_items_to_the_Project_-_Type_list.md).
+A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../chap08/Adding-items-to-the-Project-Type-list.md).
 
 Examples of project types: "Conference", "Campaign", "Internal".
 
@@ -76,7 +76,7 @@ Once you have created statuses and specified a project type for the project guid
 
 Do as follows:
 
-1. Click the **Workflow** button in the Navigator (![icon](../media/knapp_arbeidsflyt_liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon](../media/knapp-arbeidsflyt-liten.bmp)).
 
 2. Select the **Project guide** tab.
 
@@ -86,12 +86,12 @@ Do as follows:
 
 4. Select the required status in the list. The status's details are shown at the bottom of the screen.
 
-5. Add one or more follow-ups for the selected status, as described under [Add a follow-up for a status](Create_new_project_guide.md#Add_followup_for_status) below.
+5. Add one or more follow-ups for the selected status, as described under [Add a follow-up for a status](Create-new-project-guide.md#Add-followup-for-status) below.
 
     > [!NOTE]
     > You do not need to add a document for each status, but you should add at least one follow-up for each status.
 
-6. Add one or more documents for the selected status, as described under [Add a document for a status](Create_new_project_guide.md#Add_document_for_status) below.
+6. Add one or more documents for the selected status, as described under [Add a document for a status](Create-new-project-guide.md#Add-document-for-status) below.
 
 7. Repeat steps 4-6 for each status you want to add follow-ups and documents for.
 
@@ -179,8 +179,8 @@ To add documents to a status:
 2. Click **Add** under **Suggested documents in status**. The **Suggested document** dialog opens.
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Project guide** section tab in SuperOffice CRM.
-5. Select the required template in the **Template** field (see also [Document - Template](../chap08/Document_template.md)).
+5. Select the required template in the **Template** field (see also [Document - Template](../chap08/Document-template.md)).
 6. Enter the subject to be used in the document in the **Default subject** field.
-7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable](../Template_variables.md#Variables_from_the_Project_card) for a project number, project title or another field relating to the project.
+7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable](../Template-variables.md#Variables-from-the-Project-card) for a project number, project title or another field relating to the project.
 8. Click **Save** to save your changes in Settings and maintenance.
 9. Repeat this procedure to add more documents in this or other statuses.

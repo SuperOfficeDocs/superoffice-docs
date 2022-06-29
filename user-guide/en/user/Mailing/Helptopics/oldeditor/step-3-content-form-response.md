@@ -17,9 +17,9 @@ In the **Content** step you can edit the layout and content of the form response
 
 <tbody>
 <tr>
-<td>![icon](../../media/TemplateEditOverview_old_THUMB.png)</a><br />
+<td>![icon](../../media/TemplateEditOverview-old-THUMB.png)</a><br />
 (click to see a screenshot of the old version)</td>
-<td>old version of the editor. To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop Editor and the Editor](../forms_Differences_between_the_Drag_Drop_Editor_and_the_Editor.md).</td>
+<td>old version of the editor. To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop Editor and the Editor](../forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md).</td>
 </tr>
 </tbody>
 </table>
@@ -28,31 +28,31 @@ Below are the relevant topics for this step in the mailings wizard:
 
 ## Edit content and layout
 
-[Edit message content – overview](Edit_message_content_-_overview.md): An introduction to the editing options in the content editor.
+[Edit message content – overview](Edit-message-content-overview.md): An introduction to the editing options in the content editor.
 
-[Menu overview](Menu_overview.md): A complete overview of the menus/buttons in the content editor.
+[Menu overview](Menu-overview.md): A complete overview of the menus/buttons in the content editor.
 
-[Edit a paragraph](Edit_a_paragraph.md)
+[Edit a paragraph](Edit-a-paragraph.md)
 
-[Use template variables in messages](Use_template_variables_in_messages.md)
+[Use template variables in messages](Use-template-variables-in-messages.md)
 
-[Customise the message for display on mobile devices](Customise_the_message_for_display_on_mobile_devices.md)
+[Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md)
 
 ## Add links
 
 [Include links you want to track](includeLinksToTrack.md)
 
-[Add subscription links](Add_an_unsubscribe_link.md)
+[Add subscription links](Add-an-unsubscribe-link.md)
 
-[Add a link to display the message in a browser](Add_a_link_to_display_the_message_in_a_browser.md)
+[Add a link to display the message in a browser](Add-a-link-to-display-the-message-in-a-browser.md)
 
 ## Add images
 
-[Insert images in the message](../Insert_images_in_the_message.md)
+[Insert images in the message](../Insert-images-in-the-message.md)
 
 ## Test the mailing
 
-[Test mailing](../test_mailing.md): How to test the mailing before sending.
+[Test mailing](../test-mailing.md): How to test the mailing before sending.
 
 > [!TIP]
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.

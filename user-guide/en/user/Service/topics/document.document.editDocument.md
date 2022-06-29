@@ -24,7 +24,7 @@ Proceed as follows:
 
 1. Select **Knowledge Base** &gt; **Documents**.
 2. Go to the folder where the document is located.
-3. Click ![icon](../media/btn_Download.png)**Download** to download a document.
+3. Click ![icon](../media/btn-Download.png)**Download** to download a document.
 4. Edit and save the document using the application the document was originally created in.
 5. Click the document name to go to the **Document properties** screen.
 6. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you have edited.

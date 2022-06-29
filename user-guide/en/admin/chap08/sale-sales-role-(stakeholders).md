@@ -16,7 +16,7 @@ A sale has a main contact, but partners and subcontractors may also be involved 
 For each stakeholder, their role in the sale is shown. These sales roles are defined in the **Lists** screen in Settings and maintenance.
 
 > [!NOTE]
-> In order for the **Stakeholders** section tab to be displayed in the **Sale** screen in SuperOffice CRM, **This sale type has stakeholders** must be checked in the **Edit list item** dialog for the **Sale - Sale type (for stages)** list. See [Add items to the Sale - Sale type (for stages) list](Adding_items_to_the_Sale_-_Sales_type_(for_stages)_list.md).  
-You also need to set the **Enable Stakeholders** preference in the **Sale** preference group. See [Add preference settings](../chap05/Adding_preference_settings.md).
+> In order for the **Stakeholders** section tab to be displayed in the **Sale** screen in SuperOffice CRM, **This sale type has stakeholders** must be checked in the **Edit list item** dialog for the **Sale - Sale type (for stages)** list. See [Add items to the Sale - Sale type (for stages) list](Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md).  
+You also need to set the **Enable Stakeholders** preference in the **Sale** preference group. See [Add preference settings](../chap05/Adding-preference-settings.md).
 
 You add, edit and delete items in the **Sale - Stakeholder Role** list as described under [Items](Items.md).

@@ -17,7 +17,7 @@ Tasks are follow-ups which do not usually have a defined time or duration. They 
 
 <tbody>
 <tr>
-<td><p>![icon](../media/Knapperad_Oppgave.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Oppgave.bmp)</p></td>
 <td><p>No matter where you are in SuperOffice CRM, you can create a new task by clicking **New** &gt; **Task** on the top bar.</p></td>
 </tr>
 </tbody>
@@ -34,4 +34,4 @@ Tasks can be displayed in the following places in SuperOffice CRM:
 > [!NOTE]
 > If you specify a start and end time for a task, it will be entered in the diary at the correct day and time.
 
-The [Create tasks](Creating_tasks.md) topic describes how to create a task. Other aspects of tasks are explained in general under [Activities in SuperOffice CRM](Activities_in_SuperOffice_CRM.md) and [Work with follow-ups](Follow-ups_in_SuperOffice_CRM.md).
+The [Create tasks](Creating-tasks.md) topic describes how to create a task. Other aspects of tasks are explained in general under [Activities in SuperOffice CRM](Activities-in-SuperOffice-CRM.md) and [Work with follow-ups](Follow-ups-in-SuperOffice-CRM.md).

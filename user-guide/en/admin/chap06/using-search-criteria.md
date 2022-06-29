@@ -89,7 +89,7 @@ In the list box, select the field you want to search for information in. The fie
 
     * This year
 
-    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon](../media/Dialogboksknapper_pil_ned.bmp) ) to the right of the date field.
+    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) to the right of the date field.
 
 * <!-- Fix reuse ID=a4 -->
 
@@ -151,21 +151,21 @@ In the list box, select the field you want to search for information in. The fie
 
     To add a value:
 
-    Select the required value(s) in the pane on the left, and click the right arrow ( ![icon](../media/Pil_hoeyre.bmp) ). The selected value(s) are displayed under **Selected values** in the pane on the right.
+    Select the required value(s) in the pane on the left, and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ). The selected value(s) are displayed under **Selected values** in the pane on the right.
 
     To remove a value:
 
-    Select the required value(s) in the pane on the right, and click the left arrow ( ![icon](../media/Pil_venstre.bmp) ).
+    Select the required value(s) in the pane on the right, and click the left arrow ( ![icon](../media/Pil-venstre.bmp) ).
 
     To add all values:
 
-    Click **Select all** ( ![icon](../media/velg_alle.bmp) ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon](../media/Pil_hoeyre.bmp) ). The values are displayed under **Selected values** in the pane on the right.
+    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ). The values are displayed under **Selected values** in the pane on the right.
 
     To remove all selected values:
 
-    Click **Select all** ( ![icon](../media/velg_alle.bmp) ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon](../media/Pil_venstre.bmp) ). All the selected values are removed.
+    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon](../media/Pil-venstre.bmp) ). All the selected values are removed.
 
-* <!-- Fix reuse ID=a7 --> ( ![icon](../media/Status_aktiv.bmp) )
+* <!-- Fix reuse ID=a7 --> ( ![icon](../media/Status-aktiv.bmp) )
 
     > [!NOTE]
     > This option does not apply to status monitors.
@@ -174,15 +174,15 @@ In the list box, select the field you want to search for information in. The fie
 
     A status field may be displayed with two different icons:
 
-    ![icon](../media/Status_aktiv.bmp) (updated) – the status is updated.
+    ![icon](../media/Status-aktiv.bmp) (updated) – the status is updated.
 
-    ![icon](../media/Status_inaktiv.bmp) (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
+    ![icon](../media/Status-inaktiv.bmp) (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
 
     * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
-* <!-- Fix reuse ID=a1 --> ( ![icon](../media/Saint_Counter_Company.bmp) ![icon](../media/Saint_Counter_Project.bmp) )
+* <!-- Fix reuse ID=a1 --> ( ![icon](../media/Saint-Counter-Company.bmp) ![icon](../media/Saint-Counter-Project.bmp) )
 
-    Counters can be, for example, the number of sales in a period or the date of the last completed sale. <a href="javascript:BSSCPopup(&#39;Example_-_status_monitors.md&#39;);" id="a8" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here to see examples of the use of counters in a search</a>.
+    Counters can be, for example, the number of sales in a period or the date of the last completed sale. <a href="javascript:BSSCPopup(&#39;Example-status-monitors.md&#39;);" id="a8" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here to see examples of the use of counters in a search</a>.
 
     Each counter field may be shown with two different icons, depending on whether or not the counter values are updated.
 
@@ -197,13 +197,13 @@ In the list box, select the field you want to search for information in. The fie
     </tr>
     <tr>
     <td><p>Company</p></td>
-    <td><p>![icon](../media/Saint_Counter_Company.bmp)</p></td>
-    <td><p>![icon](../media/Saint_Counter_Company_dis.bmp)</p></td>
+    <td><p>![icon](../media/Saint-Counter-Company.bmp)</p></td>
+    <td><p>![icon](../media/Saint-Counter-Company-dis.bmp)</p></td>
     </tr>
     <tr>
     <td><p>Project</p></td>
-    <td><p>![icon](../media/Saint_Counter_Project.bmp)</p></td>
-    <td><p>![icon](../media/Saint_Counter_Project_dis.bmp)</p></td>
+    <td><p>![icon](../media/Saint-Counter-Project.bmp)</p></td>
+    <td><p>![icon](../media/Saint-Counter-Project-dis.bmp)</p></td>
     </tr>
     </tbody>
     </table>
@@ -222,7 +222,7 @@ In the list box, select the field you want to search for information in. The fie
 
     **Direction**: Here you can choose whether the activity is incoming or outgoing.
 
-    **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class](../chap08/Sale_-_Amount_class.md).
+    **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class](../chap08/Sale-Amount-class.md).
 
     **Intention**: Here you choose the intention of the activity.
 

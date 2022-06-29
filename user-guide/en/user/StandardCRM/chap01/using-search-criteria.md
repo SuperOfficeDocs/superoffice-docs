@@ -15,19 +15,19 @@ You use search criteria to define what you are looking for, e.g. "companies with
 
 Everywhere you are able to enter search criteria, you will find a criteria list containing the selected search criteria. Click these links to find out more about search criteria:
 
-[Add search criteria](Using_search_criteria.md#AddSearchCriteria)
+[Add search criteria](Using-search-criteria.md#AddSearchCriteria)
 
-[Change search criteria](Using_search_criteria.md#EditSearchCriteria)
+[Change search criteria](Using-search-criteria.md#EditSearchCriteria)
 
-[Move search criteria](Using_search_criteria.md#Move_search_criteria)
+[Move search criteria](Using-search-criteria.md#Move-search-criteria)
 
-[Delete search criteria](Using_search_criteria.md#DeleteSearchCriteria)
+[Delete search criteria](Using-search-criteria.md#DeleteSearchCriteria)
 
-[Activate or deactivate search criteria](#Activating_or_deactivating_search_criteria)
+[Activate or deactivate search criteria](#Activating-or-deactivating-search-criteria)
 
-[Move search criteria up or down (change order)](Using_search_criteria.md#Criteria_change-order)
+[Move search criteria up or down (change order)](Using-search-criteria.md#Criteria-change-order)
 
-[Reset to default search criteria](Using_search_criteria.md#Default_driteria)
+[Reset to default search criteria](Using-search-criteria.md#Default-driteria)
 
 ## Add search criteria
 
@@ -38,10 +38,10 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
     * Dynamic selection:  
         Go to the required selection and select the **Criteria** tab.
     * The **Find** screen:  
-        Click **Find** in the top bar (see [Use the Find screen](Find_dialog.md)). The criteria list is in the **Criteria** tab.
+        Click **Find** in the top bar (see [Use the Find screen](Find-dialog.md)). The criteria list is in the **Criteria** tab.
 2. Click the **Add** button.  
     A new line is added to the criteria list and a list of fields to choose from is displayed.
-3. Select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher](Using_FastSearcher.md)). There are different types of fields. Click the field description for more information about the field type:
+3. Select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher](Using-FastSearcher.md)). There are different types of fields. Click the field description for more information about the field type:
     * <!-- Fix reuse ID=a7 -->
         If the field you are searching in is a text field (e.g. a name field), the search is made on text or numbers you enter. A list with the following options is displayed:
 
@@ -75,7 +75,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
         * Previous...
         * This, previous and next...
 
-        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ( ![icon](../media/Dialogboksknapper_pil_ned.bmp) ).
+        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ).
     * <!-- Fix reuse ID=a4 -->
         If the field you are searching in contains a numerical value, e.g. the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
 
@@ -213,7 +213,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
         Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 4. Select values for the search criteria in the various fields on the line.
-5. Click **Add** to add a new line, or click **Or** to add a new set of criteria. (See [Use the Find screen](Find_dialog.md).)
+5. Click **Add** to add a new line, or click **Or** to add a new set of criteria. (See [Use the Find screen](Find-dialog.md).)
 
 ## Change search criteria
 
@@ -221,23 +221,23 @@ If you want to change a search criterion, click it and select a different one fr
 
 ## Move search criteria
 
-To move criteria (a line), click and drag ![icon](../media/criteria_move.png).
+To move criteria (a line), click and drag ![icon](../media/criteria-move.png).
 
 ## Delete search criteria
 
-To delete a search criterion, click ![icon](../media/criteria_remove.png).
+To delete a search criterion, click ![icon](../media/criteria-remove.png).
 
 ## Activate or deactivate search criteria
 
 When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. If you want to use different search criteria than those shown, you have the following options:
 
-* you can delete them by clicking ![icon](../media/criteria_remove.png)
+* you can delete them by clicking ![icon](../media/criteria-remove.png)
 * you can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be simply reactivated when needed.
 * you can deactivate all the search criteria by clicking **Clear all**.
 
 ## Move search criteria up or down
 
-To move criteria, click and drag ![icon](../media/criteria_move.png). This has no practical effect on the search, but allows you to arrange the criteria in your preferred order. If some of the criteria are not being used, but you still want to keep them, you can move inactive criteria to the bottom if the list.
+To move criteria, click and drag ![icon](../media/criteria-move.png). This has no practical effect on the search, but allows you to arrange the criteria in your preferred order. If some of the criteria are not being used, but you still want to keep them, you can move inactive criteria to the bottom if the list.
 
 ## Reset to default search criteria
 
@@ -245,4 +245,4 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 
 ## What would you like to do now?
 
-[Use the Find screen](Find_dialog.md)
+[Use the Find screen](Find-dialog.md)

@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > "Associates" are SuperOffice users in your company (or a related company such as a subsidiary).
 
-In the **Associates** tab in the **Users** screen, you can add users of the type **Associate**, and assign them roles, groups and licences, edit existing users and [delete](Deleting_users.md) users as described below.
+In the **Associates** tab in the **Users** screen, you can add users of the type **Associate**, and assign them roles, groups and licences, edit existing users and [delete](Deleting-users.md) users as described below.
 
 > [!NOTE]
 > In the **Users** screen you specify which licences you want different users to have. If you want to add new system licences or increase/reduce the number of licences for one or more modules, you need to contact SuperOffice to update the licence information.
@@ -38,7 +38,7 @@ By default, the list in the **Associates** tab consists of the following columns
 
 If the list of associates contains many users, you can filter and group the list to make it more manageable.
 
-See [Filter and group users](users_associates_filter_group.md).
+See [Filter and group users](users-associates-filter-group.md).
 
 ## User information
 
@@ -46,17 +46,17 @@ On the right-hand side of the window, there is detailed information about the us
 
 The full name, e-mail address and owning company is displayed at the top. At the bottom of this section, you can activate/deactivate the user in SuperOffice using the **Can log in** button. Click the **Task** button to access functions such as **Move user** and for sending welcome e-mails and e-mails for resetting passwords.
 
-* In the **Detail** tab you can edit user information such as user name, role, user plan and groups. See [Add users](Adding_users_web.md)
+* In the **Detail** tab you can edit user information such as user name, role, user plan and groups. See [Add users](Adding-users-web.md)
 * In the **Licences** tab, you can select licences in addition to those defined by the selected user plan.
 
 ## What would you like to do now?
 
-[Add users](Adding_users_web.md)
+[Add users](Adding-users-web.md)
 
-[Move users](Move_users.md)
+[Move users](Move-users.md)
 
-[Delete users](Deleting_users.md)
+[Delete users](Deleting-users.md)
 
-[Import users](Import_users_web.md)
+[Import users](Import-users-web.md)
 
-[Log users off](Logging_users_off.md)
+[Log users off](Logging-users-off.md)

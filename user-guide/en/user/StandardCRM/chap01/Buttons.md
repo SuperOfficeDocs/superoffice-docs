@@ -15,8 +15,8 @@ The buttons in SuperOffice CRM activate a function with a single click, which me
 
 ## Related topics
 
-[The SuperOffice logo](SuperOffice_logo.md)
+[The SuperOffice logo](SuperOffice-logo.md)
 
 [The Navigator](Navigator.md)
 
-[Global buttons](Global_Buttons.md)
+[Global buttons](Global-Buttons.md)

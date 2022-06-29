@@ -23,22 +23,22 @@ Wherever you are in the system, these options will appear in the Top bar at the 
 </thead>
 <tbody>
 <tr>
-<td><p>![icon](../../media/loc/globalmenu_new.png)</p></td>
+<td><p>![icon](../../media/loc/globalmenu-new.png)</p></td>
 <td>**New**: Click this button to quickly create new requests, contacts, companies, selections, FAQ entries and mailings.</td>
 </tr>
 <tr>
-<td><p>![icon](../../media/globalmenu_notice.png)![icon](../../media/globalmenu_notice_new.png)</p></td>
+<td><p>![icon](../../media/globalmenu-notice.png)![icon](../../media/globalmenu-notice-new.png)</p></td>
 <td>**Notification**: Click here to open a list of new notifications in SuperOffice Service. Click an item in the list to open the relevant record.</td>
 </tr>
 <tr>
-<td><p>![icon](../media/globalmenu_PersonalSettings.png)</p></td>
+<td><p>![icon](../media/globalmenu-PersonalSettings.png)</p></td>
 <td>**Personal settings**: Click here to edit your personal settings. If you added an image in your own person card, this image will appear on the **Personal settings** button. See [Personal settings](admin.editUser.md).<br />
 **Language**: Click here to switch language.<br />
 **Customer centre**: Click here to access the customer centre.<br />
 **Log out**: Click here to log out of SuperOffice Service.</td>
 </tr>
 <tr>
-<td><p>![icon](../media/globalmenu_settings.png)</p></td>
+<td><p>![icon](../media/globalmenu-settings.png)</p></td>
 <td>**System settings** (maintenance): Click here to access the system settings. This menu requires administration rights. See [Settings](admin.md).</td>
 </tr>
 <tr>
@@ -48,7 +48,7 @@ The help system contains comprehensive and easily accessible information on how 
 You can also press **F1** to open the help topic for the current screen.</td>
 </tr>
 <tr>
-<td><p>![icon](../../media/globalmenu_search.png)</p></td>
+<td><p>![icon](../../media/globalmenu-search.png)</p></td>
 <td>**Search**: At the top right is the quick search field. You can use this field to quickly find data in the system. See [Use quick search](rms.search.useQuickSearch.md).</td>
 </tr>
 </tbody>

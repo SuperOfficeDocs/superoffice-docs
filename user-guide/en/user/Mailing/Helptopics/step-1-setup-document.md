@@ -12,7 +12,7 @@ language: en
 # Step 1: Setup - Document
 
 > [!TIP]
-> To view and print an existing document mailing, close the **Setup** step (click **Cancel** or **Save + Close**). Select the **Mailings** tab, locate the document, click ![icon](../media/btn_Menu.png) and select **View**. Click the button under **Download generated document**. The document is downloaded to your browser. Open and print the document.
+> To view and print an existing document mailing, close the **Setup** step (click **Cancel** or **Save + Close**). Select the **Mailings** tab, locate the document, click ![icon](../media/btn-Menu.png) and select **View**. Click the button under **Download generated document**. The document is downloaded to your browser. Open and print the document.
 
 Using the document mailing workflow you can generate a PDF document to print and send to your customers. The first step in creating a document mailing, is called **Setup**. Here you can set the name of the mailing, the heading and attention text in the document, and set archive options for the mailing.
 
@@ -32,7 +32,7 @@ In order to do this:
 5. Optional: Start writing in the **Sale** field to search for a SuperOffice CRM sale. <!-- Fix reuse ID=a3 -->
     You can connect the document mailing to a specific sale. This can be relevant if you are creating mailings where the recipients are sale stakeholders from a SuperOffice CRM sale. By using template variables in the template, you can add sales data to your mailing.
 
-6. In the **Our ref** field, enter the name that should appear as our reference in the document. You can use SuperOffice CRM [template variables](../../StandardCRM/chap02/Template_variables.md) in this field. Some examples have been provided below this field.
+6. In the **Our ref** field, enter the name that should appear as our reference in the document. You can use SuperOffice CRM [template variables](../../StandardCRM/chap02/Template-variables.md) in this field. Some examples have been provided below this field.
 
     > [!NOTE]
     > For variables such as sale ID or project ID to work, you must link the document mailing to a sale or project.
@@ -44,7 +44,7 @@ In order to do this:
 
     1. Select one of the main tabs in SuperOffice Marketing.
     2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn_addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
     4. Enter a descriptive name for the folder in the **Name** field.
     5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 
@@ -58,7 +58,7 @@ In order to do this:
     > [!NOTE]
     > If you add a selection or a project, any contacts in the selection or project will be added as recipients in the mailing. If you add both a selection and a project, only contacts from the selection will be added as recipients.
 
-9. Click **Next** to go to the next step: [Step 2: Template](Step_2__Layout_-_Document.md).
+9. Click **Next** to go to the next step: [Step 2: Template](Step-2-Layout-Document.md).
 
 > [!TIP]
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.

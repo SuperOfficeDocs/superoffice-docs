@@ -13,7 +13,7 @@ language: en
 
 To change information entered for existing companies:
 
-1. Go to the required company. (See [Use the Find screen](../chap01/Find_dialog.md).)
+1. Go to the required company. (See [Use the Find screen](../chap01/Find-dialog.md).)
 2. Click **Edit**.
 3. When you have made the necessary changes, click **Save** to close and save. Click **Cancel** if you want to reject your changes.
 

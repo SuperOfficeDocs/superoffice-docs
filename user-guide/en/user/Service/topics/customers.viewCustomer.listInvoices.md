@@ -18,7 +18,7 @@ When processing requests, you have the option of registering invoice data as you
 To view invoice information that has been registered for a specific contact , do as follows:
 
 1. Open the **Contact** screen as described under [View contacts](customers.viewCustomer.md).
-2. Click the ![icon](../media/btn_Menu.png)**Actions** button and select **Invoices**. The **Invoices for ...** screen appears. This contains both requests that include messages with invoiceable hours, and registered invoice items, in chronological order. Note in particular these columns:
+2. Click the ![icon](../media/btn-Menu.png)**Actions** button and select **Invoices**. The **Invoices for ...** screen appears. This contains both requests that include messages with invoiceable hours, and registered invoice items, in chronological order. Note in particular these columns:
     * **Credit**: Shows the total amount for invoicing.
     * **Debit** Shows the total amount invoiced.
     * **Balance**: Shows the running balance, i.e. the difference between **Credit** and **Debit**.

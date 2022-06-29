@@ -13,13 +13,13 @@ language: en
 
 In the **Quote/Sync** screen you can administrate connections and settings for ERP systems that are linked to SuperOffice CRM. Here you can also work on the price lists and products in the SuperOffice database.
 
-[ERP connections](quotesync_tab_ERP_connections.md) – Here you can configure and add Quote Connectors and ERP connections.
+[ERP connections](quotesync-tab-ERP-connections.md) – Here you can configure and add Quote Connectors and ERP connections.
 
-[SuperOffice products](quotesync_tabs_SO_products.md) – Here you can work on the price lists and products stored in SuperOffice.
+[SuperOffice products](quotesync-tabs-SO-products.md) – Here you can work on the price lists and products stored in SuperOffice.
 
-[Settings](settings_configure_product.md) – Here you can adjust the settings for quotes and configure the fields that are displayed for products.
+[Settings](settings-configure-product.md) – Here you can adjust the settings for quotes and configure the fields that are displayed for products.
 
-[Sync](quotesync_tab_sync.md) – Here you can configure and add Sync Connectors and associated ERP connections.
+[Sync](quotesync-tab-sync.md) – Here you can configure and add Sync Connectors and associated ERP connections.
 
 ## What are Quote/Sync Connectors and ERP connections?
 

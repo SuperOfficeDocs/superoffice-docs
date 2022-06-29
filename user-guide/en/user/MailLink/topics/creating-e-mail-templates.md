@@ -17,7 +17,7 @@ You can create your own templates to use when creating e-mails from SuperOffice 
 
 2. Save the file in .oft format, but set the extension to be .somail (e.g. mymail.somail).
 
-3. Move the file to the **\\so\_arc\\template\\** folder.
+3. Move the file to the **\\so\-arc\\template\\** folder.
 
 4. Open SuperOffice Settings and maintenance.
 
@@ -25,21 +25,21 @@ You can create your own templates to use when creating e-mails from SuperOffice 
 
 6. Choose the **Items** tab.
 
-7. Click the arrow (![icon](../media/SO_Admin_down_arrow.png)) and select **Document template** from the **List** dropdown.
+7. Click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and select **Document template** from the **List** dropdown.
 
-8. Click the **Add** button (![icon](../media/SO_Admin_Add_button.png)) below the **Items** list. The **Edit list item** dialog opens.
+8. Click the **Add** button (![icon](../media/SO-Admin-Add-button.png)) below the **Items** list. The **Edit list item** dialog opens.
 
 9. Enter the required name of the template in the mandatory **Name** field.
 
-10. In the **File name** field, click the arrow (![icon](../media/SO_Admin_down_arrow.png)) and select the .somail file you just created.
+10. In the **File name** field, click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and select the .somail file you just created.
 
-11. In the **Direction** field, click the arrow (![icon](../media/SO_Admin_down_arrow.png)) and choose **Outgoing** from the dropdown.
+11. In the **Direction** field, click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and choose **Outgoing** from the dropdown.
 
-12. In the **Record type** field, click the arrow (![icon](../media/SO_Admin_down_arrow.png)) and choose **E-mail**.
+12. In the **Record type** field, click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and choose **E-mail**.
 
-13. In the **Document plugin** field, select the program to be used to display the document by clicking the arrow ( ![icon](../media/SO_Admin_down_arrow.png) ) and selecting from the dropdown.
+13. In the **Document plugin** field, select the program to be used to display the document by clicking the arrow ( ![icon](../media/SO-Admin-down-arrow.png) ) and selecting from the dropdown.
 
-14. In the **Intention** field, click the arrow ( ![icon](../media/SO_Admin_down_arrow.png) ) and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
+14. In the **Intention** field, click the arrow ( ![icon](../media/SO-Admin-down-arrow.png) ) and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
 
 15. Check the **Publish** box if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
 

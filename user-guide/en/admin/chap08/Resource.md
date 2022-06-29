@@ -15,4 +15,4 @@ Resources are displayed in the dialog for follow-ups in SuperOffice CRM, and it 
 
 ## What would you like to do now?
 
-[Add items to the General - Resource list](Adding_items_to_the_Resource_list.md)
+[Add items to the General - Resource list](Adding-items-to-the-Resource-list.md)

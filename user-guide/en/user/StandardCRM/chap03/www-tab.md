@@ -20,4 +20,4 @@ Here you can click **Open in separate window** to view the web page in a separat
 
 ## Related topics
 
-[The browser in SuperOffice CRM](The_browser_in_SuperOffice_CRM.md)
+[The browser in SuperOffice CRM](The-browser-in-SuperOffice-CRM.md)

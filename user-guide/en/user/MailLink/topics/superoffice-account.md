@@ -11,11 +11,11 @@ language: en
 
 # SuperOffice account
 
-These options appear in the **SuperOffice account** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](E-mail_options_dialog.md)).
+These options appear in the **SuperOffice account** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)).
 
 Preferred SuperOffice client
 
-Here you can select which SuperOffice client to use when you search for senders (see [Searching for the sender of an e-mail](Searching_for_the_sender_of_an_e-mail.md)): **SuperOffice CRM**** (Windows client)**, **SuperOffice CRM ****(Web client)** or **Service**.
+Here you can select which SuperOffice client to use when you search for senders (see [Searching for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)): **SuperOffice CRM**** (Windows client)**, **SuperOffice CRM ****(Web client)** or **Service**.
 
 User name
 

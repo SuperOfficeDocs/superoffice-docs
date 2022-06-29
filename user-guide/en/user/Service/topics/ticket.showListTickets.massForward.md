@@ -14,7 +14,7 @@ language: en
 In the request lists, you can forward multiple requests at the same time. To do this:
 
 1. Select the requests you want to forward in the request list.
-2. Click the ![icon](../media/btn_Menu.png) menu button in the lower left corner of the request list.
+2. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner of the request list.
 3. Select **Batch management** and **Batch forward**.
 4. Under **Choose recipient**, you will find the following:
     * At the top is the e-mail address of the owner of the request and other request handlers who are or have been linked to the request.
@@ -22,7 +22,7 @@ In the request lists, you can forward multiple requests at the same time. To do 
 5. Check the recipient(s) you want, and click **To**, **Cc** or **Bcc**, depending on which recipient field you want to put them in. The recipients are displayed in the list which appears underneath.
 6. If you check **Close request**, the requests are closed once they are forwarded.
 7. Under **Comment**, you can enter a comment, which will then be added both to the e-mail message and to the request as an internal message.
-8. Click ![icon](../media/msg_attachment.png) in the toolbar and add any relevant documents as attachments to the request. See [Message](ticket.newTicket.md#Message).
+8. Click ![icon](../media/msg-attachment.png) in the toolbar and add any relevant documents as attachments to the request. See [Message](ticket.newTicket.md#Message).
 9. Click **OK**. The requests are sent.
 
 ## Related topics

@@ -11,12 +11,12 @@ language: en
 
 # Edit other users
 
-Anonymous users and system users require the **SuperOffice Expander Services** system licence. See [Licences](../chap03/Licences_screen.md).
+Anonymous users and system users require the **SuperOffice Expander Services** system licence. See [Licences](../chap03/Licences-screen.md).
 
 To edit existing users in the **Other users** tab:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp_Brukere_liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
 2. Select the **Other users** tab. The list displays existing anonymous users and system users.
 3. In the list, double-click the user you want to edit.
-4. Make the required changes in the dialog that appears (see [Add other users](Add_other_users.md) for information on completing the fields).
+4. Make the required changes in the dialog that appears (see [Add other users](Add-other-users.md) for information on completing the fields).
 5. To end, click **Save**.

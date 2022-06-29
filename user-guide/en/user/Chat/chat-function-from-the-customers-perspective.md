@@ -28,7 +28,7 @@ From the customer's point of view, the chat function works as follows:
 
 5. The customer chats with the agent.
 
-6. When the conversation is finished, the customer can end the chat by closing the chat window. Alternatively, the agent can end the chat by selecting ![icon](../media/btn_Menu.png) &gt; **End chat**.
+6. When the conversation is finished, the customer can end the chat by closing the chat window. Alternatively, the agent can end the chat by selecting ![icon](../media/btn-Menu.png) &gt; **End chat**.
     * If the post-chat form has been activated for this chat channel, the customer will have the option to return to the chat.
     * If the **Enable transcript** function has been activated for this chat channel, the customer can choose to receive a log of your conversation via e-mail. The e-mail uses a reply template in SuperOffice Service.
 

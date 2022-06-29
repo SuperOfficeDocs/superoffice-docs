@@ -19,7 +19,7 @@ Example: The internal category "Support" can then have an external category for 
 
 To create a new external category:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Customer languages**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Customer languages**.
 2. Click the required language. The **Customer language** screen opens, containing information about that language.
 3. Click the **New external category** button. The **Edit external category** screen appears.
 4. Click the **Category** field, and select the internal category name, i.e. the name which is visible to SuperOffice Service users.
@@ -28,13 +28,13 @@ To create a new external category:
 7. Click **OK**. The external category is created, and displayed under **External categories** in the **Customer language** screen.
 
 > [!NOTE]
-> The external categories are only displayed in the **Customer language** screen. They are not shown under ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Categories**.
+> The external categories are only displayed in the **Customer language** screen. They are not shown under ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Categories**.
 
 ## Delete external categories
 
 To delete an external category from SuperOffice Service, do as follows:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Customer languages**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Customer languages**.
 2. Click the required language. The **Customer language** screen opens, containing information about that language.
 3. Click the required category name under **External categories**. The **Edit external category** screen appears.
 4. Click the **Delete** button at the bottom of the screen. The link to the external category from this customer language is deleted, but not the category itself.

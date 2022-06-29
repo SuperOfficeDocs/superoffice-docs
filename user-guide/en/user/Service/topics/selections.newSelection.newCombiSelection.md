@@ -27,26 +27,26 @@ A combined selection is a combination of two or more existing selections. Here y
 5. In the **General info** tab, enter the following:
     * **Name**: Enter a descriptive name for the selection.
     * **ID string**: Here you can enter a unique identifier. In a web-based customer centre, you can refer to this ID string to make the selection available to customers.
-    * **Folder**: If you have organised the selections into a folder structure (see [Administrate folders of selections](selections.editSelectionFolder.md)), click ![icon](../../media/btn_dropdown.png) and select a folder.
+    * **Folder**: If you have organised the selections into a folder structure (see [Administrate folders of selections](selections.editSelectionFolder.md)), click ![icon](../../media/btn-dropdown.png) and select a folder.
     * **Access**: In this list box, you select who is to have access to read and edit the selection.
     * **Show in left menu**: Check here if you want the name of the selection to appear under **Selections** in the Navigator.
     * **Field for parameter constraint**: This field can be used to enter a key or a filter in order to display a selection as a web panel.
 
 6. Go to the **Selection** tab. Here you're going to choose which selections you want to combine.
 
-7. Click the list button ( ![icon](../media/btn_dropdown.png) ) next to **Add selection** at the bottom left, and select the option you want to use for combining the selections. The choice you make here is irrelevant for the first selection you add, so you can leave it at **All**.
+7. Click the list button ( ![icon](../media/btn-dropdown.png) ) next to **Add selection** at the bottom left, and select the option you want to use for combining the selections. The choice you make here is irrelevant for the first selection you add, so you can leave it at **All**.
 
-8. Click the next list button ( ![icon](../media/btn_dropdown.png) ), and pick a selection.
+8. Click the next list button ( ![icon](../media/btn-dropdown.png) ), and pick a selection.
 
 9. Click the **Add selection** button. The selection is added to the list above.
 
-10. You are now going to add selection number 2. Click the list button ( ![icon](../media/btn_dropdown.png) ) next to **Add selection** at the bottom left, and select the option you want to use for combining selection number 1 and selection number 2.
+10. You are now going to add selection number 2. Click the list button ( ![icon](../media/btn-dropdown.png) ) next to **Add selection** at the bottom left, and select the option you want to use for combining selection number 1 and selection number 2.
     * **All**: Displays all records from both selections 1 and 2.
     * **Only in Selection 1**: Displays records in selection 1, excluding those which are in both selection 1 and selection 2.
     * **Difference**: Displays only records which are either in selection 1 and or in selection 2 (but not in both).
     * **Common**: Displays only records which are in both selection 1 and selection 2.
 
-11. Click the next list button ( ![icon](../media/btn_dropdown.png) ), and pick a selection.
+11. Click the next list button ( ![icon](../media/btn-dropdown.png) ), and pick a selection.
 
 12. Click the **Add selection** button. The selection is added to the list above.
 
@@ -57,7 +57,7 @@ A combined selection is a combination of two or more existing selections. Here y
     * And so forth.
 
     > [!TIP]
-    > You can remove a selection from the combined selection by clicking **Delete** ( ![icon](../media/btn_delete.png) ) on the right of the row.
+    > You can remove a selection from the combined selection by clicking **Delete** ( ![icon](../media/btn-delete.png) ) on the right of the row.
 
 14. In the **Profile** tab, specify how the selection is to be presented:
     * **Entries per page**: In this list box, you specify how many records are to be displayed per page.

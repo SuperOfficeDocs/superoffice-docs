@@ -15,8 +15,8 @@ In contrast to lists themselves, the items contained in both predefined and user
 
 ## What would you like to do now?
 
-[Add items](Adding_items.md)
+[Add items](Adding-items.md)
 
-[Edit items](Editing_items.md)
+[Edit items](Editing-items.md)
 
-[Delete items](Deleting_items.md)
+[Delete items](Deleting-items.md)

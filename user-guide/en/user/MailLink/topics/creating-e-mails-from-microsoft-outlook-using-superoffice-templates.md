@@ -38,14 +38,14 @@ When creating an e-mail from Microsoft Outlook, it is also possible to use Super
 
 10. Click **OK** in the **New SuperOffice e-mail** dialog. A new e-mail window opens.
 
-11. In the **To** field, enter the e-mail address of any other recipients you would like to add. You can also use the **Select recipients** dialog (see [Selecting recipients](Selecting_recipients.md)).
+11. In the **To** field, enter the e-mail address of any other recipients you would like to add. You can also use the **Select recipients** dialog (see [Selecting recipients](Selecting-recipients.md)).
 
 12. Write the message.
 
-13. Add any attachments you would like to include. You can also add documents from SuperOffice CRM (see [Adding documents from SuperOffice CRM as attachments](Adding_documents_from_SuperOffice_Sales_Marketing_as_attachments.md)).
+13. Add any attachments you would like to include. You can also add documents from SuperOffice CRM (see [Adding documents from SuperOffice CRM as attachments](Adding-documents-from-SuperOffice-Sales-Marketing-as-attachments.md)).
 
 14. Click **Send** to send the message to the specified recipient(s).
 
 ## What would you like to do now?
 
-[Create e-mail templates](Creating_e-mail_templates.md)
+[Create e-mail templates](Creating-e-mail-templates.md)

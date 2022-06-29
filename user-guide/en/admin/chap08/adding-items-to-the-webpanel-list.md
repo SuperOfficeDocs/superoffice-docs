@@ -19,7 +19,7 @@ You can open the URL in safe mode in your browser, but the site will then no lon
 
 If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
-When you add an item to the **GUI - Web panel** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items](Adding_items.md).
+When you add an item to the **GUI - Web panel** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items](Adding-items.md).
 
 This is how to fill out the fields in the **Edit list items** dialog when the items are URL addresses, i.e. pages on the Internet or saved HTML files:
 
@@ -52,7 +52,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
     * **Task**: select this option to make the URL address accessible from the **Task** button in the **Contact** screen.
 
     * **Menu**: select an option in this list box to make the URL accessible on one of the menus in SuperOffice CRM. <!-- Fix reuse ID=a5 -->
-        * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ( ![icon](../media/knapp_verktoey_liten.bmp) ) in the Navigator or selects **Other Applications** in SuperOffice CRM.
+        * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ( ![icon](../media/knapp-verktoey-liten.bmp) ) in the Navigator or selects **Other Applications** in SuperOffice CRM.
         * **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.
 
 <!-- -->

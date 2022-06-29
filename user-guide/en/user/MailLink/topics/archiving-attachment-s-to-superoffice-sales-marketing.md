@@ -22,7 +22,7 @@ If the attachment is the only part of the e-mail you would like to keep for futu
     * If there is only one attachment, the **Archive attachment** dialog opens immediately.
     * If there is more than one attachment, a dialog appears listing the attachments. Select the required attachment and click **OK** to archive it. The **Archive attachment** dialog then opens, and the procedure below is repeated for each attachment.
 
-4. If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the **Archive attachment** dialog: **This sender's e-mail address is not recognised. Click here to update SuperOffice with this e-mail address**. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling_e-mails_from_senders_not_listed_in_SuperOffice_Sales_Marketing.md) for information on how to handle unlisted senders.
+4. If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the **Archive attachment** dialog: **This sender's e-mail address is not recognised. Click here to update SuperOffice with this e-mail address**. See [Handling e-mails from senders not listed in SuperOffice CRM](Handling-e-mails-from-senders-not-listed-in-SuperOffice-Sales-Marketing.md) for information on how to handle unlisted senders.
 
 5. In the **Subject** field, the file name of the attachment is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
 
@@ -45,8 +45,8 @@ If the attachment is the only part of the e-mail you would like to keep for futu
 
 ## What would you like to do now?
 
-[Archive e-mails on companies/contacts](Archiving_e-mails_on_companies_contacts_in_SuperOffice_Sales_Marketing.md)
+[Archive e-mails on companies/contacts](Archiving-e-mails-on-companies-contacts-in-SuperOffice-Sales-Marketing.md)
 
-[Archive e-mails as activities](Archiving_e-mails_as_tasks_in_SuperOffice_Sales_Marketing.md)
+[Archive e-mails as activities](Archiving-e-mails-as-tasks-in-SuperOffice-Sales-Marketing.md)
 
-[Archive e-mails as requests](Archiving_e-mails_as_requests.md)
+[Archive e-mails as requests](Archiving-e-mails-as-requests.md)

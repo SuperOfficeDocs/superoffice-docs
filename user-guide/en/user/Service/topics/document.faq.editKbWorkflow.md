@@ -31,7 +31,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
     * **Can move**: The user is permitted to change the workflow stage for entries, i.e. publish or cancel publishing.
     * **Can edit**: The user is permitted to edit FAQ entries.
     * **Full access**: The user has all rights in relation to the workflow..
-9. Click the ![icon](../media/btn_add.png)**Add** button to add the user to the list under **User access**.
+9. Click the ![icon](../media/btn-add.png)**Add** button to add the user to the list under **User access**.
 10. Repeat steps 7-9 to add more users.
 11. Click **OK**. The stage is created and now available when you publish FAQ entries.
 
@@ -44,7 +44,7 @@ You can both change the name of a stage and alter which users are to have access
 3. Edit the name as required.
 4. Change which users are to have access to the stage:
     * To add users, follow the procedure above.
-    * To remove users, select the user(s) in question, click the ![icon](../media/btn_Menu.png) menu button, and select **Remove access for selected users**.
+    * To remove users, select the user(s) in question, click the ![icon](../media/btn-Menu.png) menu button, and select **Remove access for selected users**.
 5. Click **OK**. The changes are saved.
 
 ## Delete stage
@@ -52,7 +52,7 @@ You can both change the name of a stage and alter which users are to have access
 > [!NOTE]
 > You cannot delete the default **Unpublished** and **Published** stages.
 
-1. Select **Knowledge Base** &gt; **FAQ** and click the ![icon](../media/btn_workflow.png)**Workflow** button.
+1. Select **Knowledge Base** &gt; **FAQ** and click the ![icon](../media/btn-workflow.png)**Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
 3. Click **Delete**. If the stage is not associated with any FAQ entries, it is deleted immediately.
 4. If it is linked to FAQ entries, you need to select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.

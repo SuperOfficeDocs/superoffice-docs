@@ -15,7 +15,7 @@ It is possible to edit the properties of a message in a request, but only admini
 
 1. Open the request. (See [Process requests](ticket.listTicket.md).)
 2. Click the **Messages** tab.
-3. Click ![icon](../media/btn_Menu.png) and select **Change**. The **Edit message** screen displays.
+3. Click ![icon](../media/btn-Menu.png) and select **Change**. The **Edit message** screen displays.
 4. Here you have the following options:
     * **Time spent**: Shows the amount of time spent on this message.
     * **Access level**: The access level for this message. You can choose between **External** and **Internal**.

@@ -12,17 +12,17 @@ language: en
 # Create a role
 
 > [!NOTE]
-> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences_screen.md).
+> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences-screen.md).
 
 To create a role for associates in the company or for external users:
 
-1. Click the **Roles** button in the Navigator (![icon](../media/Knapp_rolle_liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon](../media/Knapp-rolle-liten.bmp)).
 
 2. Select one of the following tabs:
     * **Associates**: Here you can add roles for employees in your company.
     * ![icon](../OnPremises.png)**External**: Here you can add roles for external users.
     * ![icon](../media/question.bmp) <!-- Fix reuse ID=a3 -->
-        ![icon](../OnPremises.png) There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users](Edit_rights_for_anonymous_users.md).
+        ![icon](../OnPremises.png) There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
 
 3. Click **Add** under the list. The **Create New Role** dialog opens.
 
@@ -31,15 +31,15 @@ To create a role for associates in the company or for external users:
 5. Enter a description of the role in the **Description** field.
 
 6. Select one of the following options:
-    * Click the arrow (![icon](../media/pil_ned.bmp) ) next to the **Copy rights from**, and select the role you want to base the new role on.
+    * Click the arrow (![icon](../media/pil-ned.bmp) ) next to the **Copy rights from**, and select the role you want to base the new role on.
     * Or
-    * Click the arrow (![icon](../media/pil_ned.bmp) ) and select **Start with blank rights** to create the role from scratch.
+    * Click the arrow (![icon](../media/pil-ned.bmp) ) and select **Start with blank rights** to create the role from scratch.
 
 7. Click **Save**. The new role is displayed in the **Roles** list.
 
 8. Click the role name in the list to display the rights for the role in the **Data rights** tab.
 
-9. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set_data_rights_for_role.md).  
+9. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
     You can choose from these rights:
 
@@ -86,12 +86,12 @@ To create a role for associates in the company or for external users:
     > [!TIP]
     > Hold the mouse pointer over a right to display more information about it.
 
-11. To add a right: Select one or more rights in the **This role CANNOT** field, and click the right arrow ( ![icon](../media/Pil_hoeyre.bmp) ).
+11. To add a right: Select one or more rights in the **This role CANNOT** field, and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ).
 
-12. To remove a right: Select one or more rights in the **This role can** field, and click the left arrow ( ![icon](../media/Pil_venstre.bmp) ).
+12. To remove a right: Select one or more rights in the **This role can** field, and click the left arrow ( ![icon](../media/Pil-venstre.bmp) ).
 
 The changes are saved automatically.
 
 ## What would you like to do now?
 
-[Add users](../chap07/Adding_users_web.md)
+[Add users](../chap07/Adding-users-web.md)

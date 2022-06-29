@@ -19,7 +19,7 @@ language: en
 
 To delete a user-defined list:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp_Lister_liten.bmp)).
-2. Click the arrow (![icon](../media/pil_ned.bmp)) and select the required list from the list box at the top.
+1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
+2. Click the arrow (![icon](../media/pil-ned.bmp)) and select the required list from the list box at the top.
 3. Click the **Delete list** button.
 4. In the dialog which opens, click **Yes** to confirm that you want to delete this list. The list will be deleted.

@@ -25,7 +25,7 @@ We will now create a series of actions based on the example above.
 
 Do as follows:
 
-1. In SuperOffice Service: Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Triggers** tab.  
+1. In SuperOffice Service: Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Triggers** tab.  
     In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Triggers** tab.
 2. Click the **New trigger (macro)** button. The **Choose trigger** screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select **Request closed**, so that the macro is run when a request is closed in SuperOffice Service.
 3. Type "request" in the search field and select the trigger called **Request closed**.
@@ -41,7 +41,7 @@ Do as follows:
 12. Click **Apply**.
 13. Click **New action**, and select **Send an e-mail or SMS**. We will now adapt the e-mail that will be sent to the customer.
 14. Check **Subject**.
-15. Click the parameter icon ( ![icon](../media/btn_workflow.png) ) to the right, and then click the **Choose parameter** field.
+15. Click the parameter icon ( ![icon](../media/btn-workflow.png) ) to the right, and then click the **Choose parameter** field.
 16. Select **Change a request** &gt; **Title**. This will put the request title in the subject of the e-mail.
 17. Check **From** and select **Change a request** &gt; **Owner**.
 18. Check **To** and select **Change a request** &gt; **Contact: E-mail address**.

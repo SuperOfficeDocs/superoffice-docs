@@ -26,6 +26,6 @@ The company list consists of the following columns:
 
 ## What would you like to do now?
 
-[Add companies in the Our companies tab](Adding_companies_in_the_Our_companies_tab_web.md)
+[Add companies in the Our companies tab](Adding-companies-in-the-Our-companies-tab-web.md)
 
-[Delete companies in the Our companies tab](Deleting_companies_in_the_Our_companies_tab_web.md)
+[Delete companies in the Our companies tab](Deleting-companies-in-the-Our-companies-tab-web.md)

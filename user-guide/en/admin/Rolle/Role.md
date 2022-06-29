@@ -12,7 +12,7 @@ language: en
 # Roles
 
 > [!NOTE]
-> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences_screen.md).
+> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences-screen.md).
 
 Using role-based security in SuperOffice CRM, you can customise roles for different access levels in the company.
 
@@ -85,12 +85,12 @@ A number of predefined roles are included with SuperOffice CRM. The **User level
 
 ## What would you like to do now?
 
-[Create a role](Create_role.md)
+[Create a role](Create-role.md)
 
-[Edit a role](Editing_a_role.md)
+[Edit a role](Editing-a-role.md)
 
-[Set data rights for a role](Set_data_rights_for_role.md)
+[Set data rights for a role](Set-data-rights-for-role.md)
 
-[Edit rights for anonymous users](Edit_rights_for_anonymous_users.md)
+[Edit rights for anonymous users](Edit-rights-for-anonymous-users.md)
 
-[Delete a role](Deleting_a_role.md)
+[Delete a role](Deleting-a-role.md)

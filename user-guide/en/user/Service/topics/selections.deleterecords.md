@@ -19,7 +19,7 @@ If you want to delete the actual records in a selection, do as follows:
 1. Select **Selections** &gt; **List selections**. This takes you to the **List selections** screen.
 2. Click the required selection. The selection is opened so that you can see which records it contains.
 3. Select all the entries, or as many as you want.
-4. Click the ![icon](../media/btn_Menu.png) menu button in the lower left corner and select **Batch management**.
+4. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner and select **Batch management**.
 5. Select **Delete** from the list of displayed options.
 6. Click **OK** in the screen which appears, to confirm that you want to delete that number of entries.
 7. If you also want to delete the selection itself, see [Delete a selection](selections.deleteSelection.md).

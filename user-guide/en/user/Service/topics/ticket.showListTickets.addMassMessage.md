@@ -16,7 +16,7 @@ You can add a message to several requests in a single operation. For example, th
 In the request list, do as follows:
 
 1. Select the relevant requests.
-2. Click the ![icon](../media/btn_Menu.png) menu button in the lower left corner of the request list.
+2. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner of the request list.
 3. Select **Batch management** and **Reply to customers**.
 4. In the next screen, you have the following options:
     * **Send copy to customer (only external requests)**: If you enable this option, then the message will also be sent by e-mail to the contacts linked to the selected external requests.

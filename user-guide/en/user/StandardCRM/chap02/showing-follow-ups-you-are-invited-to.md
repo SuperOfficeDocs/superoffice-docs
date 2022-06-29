@@ -11,13 +11,13 @@ language: en
 
 # Show follow-ups you are invited to
 
-When you view a follow-up you are not the owner of, the usual **Appointment**, **Task** or **Phone Call** dialog is displayed. (See [The Dialog for follow-ups](Dialog_for_followups.md)). However, you cannot make changes to other people's invitations, nor add participants, so the **Add** button in the **Participants** tab is disabled.
+When you view a follow-up you are not the owner of, the usual **Appointment**, **Task** or **Phone Call** dialog is displayed. (See [The Dialog for follow-ups](Dialog-for-followups.md)). However, you cannot make changes to other people's invitations, nor add participants, so the **Add** button in the **Participants** tab is disabled.
 
 Note:
 
-* Until you accept or decline the invitation, two extra buttons will be displayed in the dialog: **Accept** and **Decline**. Once you accept, the button is disabled. If you decline the invitation, it works as described under [Accept or decline invitations](Receiving_invitations.md#Accepting_invitations).
+* Until you accept or decline the invitation, two extra buttons will be displayed in the dialog: **Accept** and **Decline**. Once you accept, the button is disabled. If you decline the invitation, it works as described under [Accept or decline invitations](Receiving-invitations.md#Accepting-invitations).
 * Since you will not have created the appointment, task or phone call yourself, you will not be allowed to make changes other than to the **Priority**, **Alarm** and **Completed** fields. All other options will be disabled.
 
 ## What would you like to do now?
 
-[Receive invitations](Receiving_invitations.md)
+[Receive invitations](Receiving-invitations.md)

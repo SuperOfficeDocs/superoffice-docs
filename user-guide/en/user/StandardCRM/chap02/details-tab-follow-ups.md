@@ -15,7 +15,7 @@ The **Details** tab contains detailed information about the follow-up.
 
 **Recurrence**
 
-In this field, you indicate whether the follow-up is a repeating one. Click the word **Never** to the right of the **Recurrence** field if you want the appointment to be repeated at regular intervals. See [Create repeating follow-ups](Creating_recurring_follow-ups.md) for more information. If a follow-up has been specified as repeating, an icon ( ![icon](../media/Recurring_booking_assignment.bmp) ) at the upper left of the main part of the dialog.
+In this field, you indicate whether the follow-up is a repeating one. Click the word **Never** to the right of the **Recurrence** field if you want the appointment to be repeated at regular intervals. See [Create repeating follow-ups](Creating-recurring-follow-ups.md) for more information. If a follow-up has been specified as repeating, an icon ( ![icon](../media/Recurring-booking-assignment.bmp) ) at the upper left of the main part of the dialog.
 
 **Priority**
 
@@ -23,7 +23,7 @@ Specify here the priority of the follow-up. Click the arrow to display a list wi
 
 **Alarm**
 
-For notification of the follow-up, check **Alarm**.For more information about this, see [Set alarms for follow-ups](Setting_an_alarm_for_follow-ups.md). If an alarm has been specified for a follow-up, an icon ( ![icon](../media/followup_details_alarm.bmp) ) is displayed at the upper left of the main part of the dialog.
+For notification of the follow-up, check **Alarm**.For more information about this, see [Set alarms for follow-ups](Setting-an-alarm-for-follow-ups.md). If an alarm has been specified for a follow-up, an icon ( ![icon](../media/followup-details-alarm.bmp) ) is displayed at the upper left of the main part of the dialog.
 
 Owner
 

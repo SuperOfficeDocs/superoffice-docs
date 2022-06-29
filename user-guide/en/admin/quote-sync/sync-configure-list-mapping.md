@@ -22,7 +22,7 @@ To do this:
 
 2. Uncheck the **Active** box for the ERP connection you want to edit.
 
-3. Select the ERP connection, and click the **List mapping** button at the bottom. The **List mapping** dialog displays the lists that are available for mapping. If no lists are displayed, you have not mapped any lists in [Configure field mapping](sync_configure_field_allocation.md).
+3. Select the ERP connection, and click the **List mapping** button at the bottom. The **List mapping** dialog displays the lists that are available for mapping. If no lists are displayed, you have not mapped any lists in [Configure field mapping](sync-configure-field-allocation.md).
 
 4. Select a list on the left-hand side of the dialog. The available field items are displayed on the right-hand side of the dialog.
 
@@ -36,4 +36,4 @@ To do this:
 
 ## Related topics
 
-[Configure field mapping](sync_configure_field_allocation.md)
+[Configure field mapping](sync-configure-field-allocation.md)

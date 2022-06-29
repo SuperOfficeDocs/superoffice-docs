@@ -19,7 +19,7 @@ A paperclip icon ( ![icon](../media/Binders.bmp) ) in this column means that inf
 
 **\[Interests\]** ![icon](../media/Knappenaal.bmp)
 
-A pin icon ( ![icon](../media/Knappenaal.bmp) ) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab. See [Create new contacts](../person/contact_create_contacts.md).
+A pin icon ( ![icon](../media/Knappenaal.bmp) ) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab. See [Create new contacts](../person/contact-create-contacts.md).
 
 Mr/Ms
 
@@ -34,7 +34,7 @@ Displays the contact's name, title and mobile phone number.
 
 E-mail
 
-Displays the contact's e-mail address. Click on the e-mail address to send a message to this person. This opens the message in the e-mail program you have specified. See [Send e-mail to contacts](Sending_e-mail_to_contacts.md).
+Displays the contact's e-mail address. Click on the e-mail address to send a message to this person. This opens the message in the e-mail program you have specified. See [Send e-mail to contacts](Sending-e-mail-to-contacts.md).
 
 Former employees
 
@@ -44,4 +44,4 @@ They will then be shown in a different colour. They are also shown in this way o
 
 ## What would you like to do now?
 
-[Configure columns](../chap01/Changing_the_column_view.md)
+[Configure columns](../chap01/Changing-the-column-view.md)

@@ -12,13 +12,13 @@ language: en
 # Delete a role
 
 > [!NOTE]
-> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences_screen.md).
+> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences-screen.md).
 
 When you delete a role, you need to move the users with this role to another role. You should therefore ensure that the users have the correct access in the role you move them to.
 
 To delete a role:
 
-1. Click the **Roles** button in the Navigator (![icon](../media/Knapp_rolle_liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon](../media/Knapp-rolle-liten.bmp)).
 2. Choose the **Associates** or **External** tab.  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a3 -->
     You cannot delete the role for anonymous users.
@@ -26,5 +26,5 @@ To delete a role:
 4. Click **Delete**. The **Delete Role** dialog opens.  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
     It is not possible to delete the role you yourself belong to or the system user role (**User level 0**). If there is only a single role, you will not be able to delete it.
-5. Click the arrow (![icon](../media/pil_ned.bmp) ) next to the **Assign all users with this role to** field, and select another role for the users of the role you want to delete.
+5. Click the arrow (![icon](../media/pil-ned.bmp) ) next to the **Assign all users with this role to** field, and select another role for the users of the role you want to delete.
 6. Click **Delete**. The role is removed from the list. You cannot undo deletion of a role.

@@ -15,10 +15,10 @@ Using the freetext search function in SuperOffice CRM, users can search for text
 
 ## What would you like to do now?
 
-[Enable freetext search](Enabling_freetext_search.md)
+[Enable freetext search](Enabling-freetext-search.md)
 
-[Specify search criteria](Specifying_search_criteria.md)
+[Specify search criteria](Specifying-search-criteria.md)
 
-[Add stopwords](Adding_stopwords.md)
+[Add stopwords](Adding-stopwords.md)
 
-[Regenerate a freetext index](Regenerating_a_freetext_index.md)
+[Regenerate a freetext index](Regenerating-a-freetext-index.md)

@@ -37,7 +37,7 @@ Select the **Scope** you require:
 * **All**: Select this option if all the users are to have access to and be allowed to use this ERP connection. This means that they can use the price lists accessible via this connection.
 * **Specific users + groups**: Click **Select users and groups** to choose which user groups and/or users should have access to this ERP connection.
 
-Select the ERP connection to handle the synchronisation ([Sync Connector](quotesync_tab_sync.md)) in the **ERP connection** field.
+Select the ERP connection to handle the synchronisation ([Sync Connector](quotesync-tab-sync.md)) in the **ERP connection** field.
 
 At the bottom of the dialog, configure the required settings. The contents of this list vary depending on the type of Quote Connector you have chosen.
 

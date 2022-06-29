@@ -17,5 +17,5 @@ You have the following options:
 
 * Click ![icon](../media/edit.png) to change the chart type and how the data are presented and grouped.
 * Click **Show criteria** to adjust the parameters of the report. See [Search in SuperOffice Service](rms.search.md).
-* Click ![icon](../media/btn_Menu.png) to select other viewing options.
-* Click ![icon](../media/btn_statistics_group.png) to group the by one of the criteria.
+* Click ![icon](../media/btn-Menu.png) to select other viewing options.
+* Click ![icon](../media/btn-statistics-group.png) to group the by one of the criteria.

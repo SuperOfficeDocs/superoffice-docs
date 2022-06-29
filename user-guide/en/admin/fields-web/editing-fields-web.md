@@ -19,7 +19,7 @@ To edit a field from one of the **More** tabs in SuperOffice CRM:
 
 3. Double-click the required field in the **Fields** list.
 
-4. Make the necessary changes in the various fields (under [Add fields](Adding_fields_web.md) you will find an overview of what to specify here).
+4. Make the necessary changes in the various fields (under [Add fields](Adding-fields-web.md) you will find an overview of what to specify here).
 
     > [!NOTE]
     > The **Type** list box only contains the options you can change, i.e. where existing data can be converted so that it fits the new field type.
@@ -29,4 +29,4 @@ To edit a field from one of the **More** tabs in SuperOffice CRM:
 6. Click **Publish** if you want the changes to be available to SuperOffice CRM users.
 
 > [!NOTE]
-> If you are defining page 1 fields (see [Page 1 fields](page_1_fields_web.md)), you must first publish the changes for user-defined fields. Then you need to define page 1 fields for the various user groups and save (not publish).
+> If you are defining page 1 fields (see [Page 1 fields](page-1-fields-web.md)), you must first publish the changes for user-defined fields. Then you need to define page 1 fields for the various user groups and save (not publish).

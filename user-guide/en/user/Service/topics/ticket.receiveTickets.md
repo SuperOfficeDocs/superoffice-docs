@@ -15,7 +15,7 @@ In order for a request to be your responsibility, your name must appear in the r
 
 A request handler with category administration rights can specify the assignment method for categories:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings &gt; Categories**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Categories**.
 2. Select the required category.
 3. Select the **Assignment method** tab.
 4. Select the appropriate options.
@@ -28,7 +28,7 @@ There are various assignment methods available:
 * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
 * **Do not assign**: Does not assign requests to specific request handlers, but puts all requests in a queue as **Unassigned**.
 
-**Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue](Get_next_request_in_the_queue.md).
+**Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue](Get-next-request-in-the-queue.md).
 
 ## Example
 
@@ -40,4 +40,4 @@ An example will clarify this feature. Imagine that your company has created a ca
 
 [Create requests](ticket.newTicket.md)
 
-[Efficient handling of requests using AI](AI_requests.md)
+[Efficient handling of requests using AI](AI-requests.md)

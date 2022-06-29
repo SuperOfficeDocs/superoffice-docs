@@ -11,7 +11,7 @@ language: en
 
 # Specify a period length
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences_screen.md).
+Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
 
 You can specify the period (duration in days) for the following <!-- Fix reuse ID=a1 -->:
 
@@ -23,7 +23,7 @@ You can specify the period (duration in days) for the following <!-- Fix reuse I
 
 You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you will for example be able to choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
 
-For more about counters, see **Counter fields** under [Use search criteria](using_search_criteria.md).
+For more about counters, see **Counter fields** under [Use search criteria](using-search-criteria.md).
 
 To do this:
 
@@ -34,8 +34,8 @@ To do this:
 The changes are automatically saved.
 
 > [!NOTE]
-> If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore regenerate the counters frequently (preferably each night), so that the counters are as up-to-date as possible. See [Manage status monitors](Manage_status_monitors.md).
+> If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore regenerate the counters frequently (preferably each night), so that the counters are as up-to-date as possible. See [Manage status monitors](Manage-status-monitors.md).
 
 ## What would you like to do now?
 
-[Manage status monitors](Manage_status_monitors.md)
+[Manage status monitors](Manage-status-monitors.md)

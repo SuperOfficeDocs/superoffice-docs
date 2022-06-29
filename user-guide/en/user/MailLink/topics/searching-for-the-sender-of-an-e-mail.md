@@ -11,7 +11,7 @@ language: en
 
 # Searching for the sender of an e-mail
 
-You can use the ****Search for sender**** button to search for a sender in SuperOffice CRM or SuperOffice Service. This option searches your preferred SuperOffice client for the precise e-mail address of the sender. (See [SuperOffice account](SuperOffice_Account.md) for information about how to select your preferred SuperOffice client.)
+You can use the ****Search for sender**** button to search for a sender in SuperOffice CRM or SuperOffice Service. This option searches your preferred SuperOffice client for the precise e-mail address of the sender. (See [SuperOffice account](SuperOffice-Account.md) for information about how to select your preferred SuperOffice client.)
 
 Follow these steps:
 

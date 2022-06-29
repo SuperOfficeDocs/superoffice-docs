@@ -17,11 +17,11 @@ The users you have chosen to link to a follow-up will be notified of this on the
 
 <tbody>
 <tr>
-<td><p>![icon](../media/invitation_accepted.bmp)</p></td>
+<td><p>![icon](../media/invitation-accepted.bmp)</p></td>
 <td><p>Invitation has been accepted.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/invitasjon_avslått.bmp)</p></td>
+<td><p>![icon](../media/invitasjon-avslått.bmp)</p></td>
 <td><p>Invitation has been declined.</p></td>
 </tr>
 <tr>
@@ -35,7 +35,7 @@ The users you have chosen to link to a follow-up will be notified of this on the
 </tbody>
 </table>
 
-See also [Receive invitations](Receiving_invitations.md).
+See also [Receive invitations](Receiving-invitations.md).
 
 Resources
 

@@ -18,13 +18,13 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 * **Top menu**
 
 * -   The **Status** tile on the dashboard
-    * Actions buttons and menu buttons ( ![icon](../media/btn_Menu.png) ) in the main screens
+    * Actions buttons and menu buttons ( ![icon](../media/btn-Menu.png) ) in the main screens
     * Menu buttons in the extra table view
 
 * **Navigator**
 
 * -   Additional options on the navigator buttons
-    * Additional options under ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **System design**
+    * Additional options under ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design**
     * Additional options on the **New** button in the top bar.
 
 ## What can I add as extra menus?
@@ -38,8 +38,8 @@ See also [Menu properties](blogic.listExtraMenus.editExtraMenu.md).
 
 ## What would you like to do now?
 
-[Add function to menu button (Actions)](blogic.listExtraMenus.editExtraMenu_menubutton.md)
+[Add function to menu button (Actions)](blogic.listExtraMenus.editExtraMenu-menubutton.md)
 
 [Add an extra browser tab (web panel)](blogic.listsWebpanels.md)
 
-[Add navigator group and extra menu](blogic.listExtraMenus.editExtraMenu_navigator.md)
+[Add navigator group and extra menu](blogic.listExtraMenus.editExtraMenu-navigator.md)

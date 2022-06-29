@@ -4,7 +4,7 @@ title: admin listCustCenter config
 description: admin listCustCenter config
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: ![icon](../media/nav_service.png) Service
+keywords: ![icon](../media/nav-service.png) Service
 so.topic: help
 language: en
 ---
@@ -23,7 +23,7 @@ If you have configured multiple languages for your customer centre, you can set 
 
 Do as follows:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Customer centre config**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Customer centre config**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
 
     > [!TIP]
     > You can also access the **Customer centre** screen from SuperOffice Settings and maintenance. Click **Customer centre** in the navigator and select the **Configure** tab.

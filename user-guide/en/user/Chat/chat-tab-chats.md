@@ -13,7 +13,7 @@ language: en
 
 Use the **Chats** tab to respond to incoming chats from customers.
 
-![icon](media/loc/chat_tab_chats.png) The number in the **Chats** tab indicates the number of chats you are currently handling.
+![icon](media/loc/chat-tab-chats.png) The number in the **Chats** tab indicates the number of chats you are currently handling.
 
 The **Chats** tab has three main areas:
 
@@ -40,15 +40,15 @@ The following icons are used for the active chat sessions in the list:
 <td><p>Description</p></td>
 </tr>
 <tr>
-<td>![icon](media/chat_last_customer.png)</td>
+<td>![icon](media/chat-last-customer.png)</td>
 <td>The last message in the conversation from the customer and agent.</td>
 </tr>
 <tr>
-<td>![icon](media/chat_last_customer_unanswered.png)</td>
+<td>![icon](media/chat-last-customer-unanswered.png)</td>
 <td>Number of unread messages from the customer.</td>
 </tr>
 <tr>
-<td>![icon](media/chat_transfered.png)</td>
+<td>![icon](media/chat-transfered.png)</td>
 <td>Transferred chat to you or from you. Waiting to be accepted.</td>
 </tr>
 </tbody>
@@ -56,8 +56,8 @@ The following icons are used for the active chat sessions in the list:
 
 ## Chat conversation
 
-Here you can chat with the customer. See [Respond to a chat](chat_respond.md).
+Here you can chat with the customer. See [Respond to a chat](chat-respond.md).
 
 ## Contact side panel (right side)
 
-When a customer contacts you in the chat and is already registered in SuperOffice, you can display relevant information about them in the side panel on the right side of the **Chat** screen. You can also add new customers as new contacts (and new companies). See [The contact side panel](chat_Person_side_panel.md).
+When a customer contacts you in the chat and is already registered in SuperOffice, you can display relevant information about them in the side panel on the right side of the **Chat** screen. You can also add new customers as new contacts (and new companies). See [The contact side panel](chat-Person-side-panel.md).

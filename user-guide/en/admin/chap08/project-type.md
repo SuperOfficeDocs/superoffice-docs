@@ -13,8 +13,8 @@ language: en
 
 The **Project** tab in the **Project** screen in SuperOffice CRM contains the **Type** field. This field has a predefined list of options which are set up in the **Lists** screen in Settings and maintenance.
 
-Each project in SuperOffice CRM must have a project type, and each project type can contain several statuses (see [Project - Status](Project_-_Status.md)). You can also specify that specific project types are to have a [project guide](../Sale/Project.md), to guide you through the different statuses of a project, with associated follow-ups and documents.
+Each project in SuperOffice CRM must have a project type, and each project type can contain several statuses (see [Project - Status](Project-Status.md)). You can also specify that specific project types are to have a [project guide](../Sale/Project.md), to guide you through the different statuses of a project, with associated follow-ups and documents.
 
 ## What would you like to do now?
 
-[Add items to the Project - Type, status list](Adding_items_to_the_Project_-_Type_list.md)
+[Add items to the Project - Type, status list](Adding-items-to-the-Project-Type-list.md)

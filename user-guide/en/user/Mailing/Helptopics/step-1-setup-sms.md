@@ -24,7 +24,7 @@ In order to do this:
 
     1. Select one of the main tabs in SuperOffice Marketing.
     2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn_addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
     4. Enter a descriptive name for the folder in the **Name** field.
     5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 4. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. Start typing in the **Selection** or **Project** fields to search for a selection or project respectively. <!-- Fix reuse ID=a2 -->
@@ -36,7 +36,7 @@ In order to do this:
 
     > [!NOTE]
     > If you add a selection or a project, any contacts in the selection or project will be added as recipients in the mailing. If you add both a selection and a project, only contacts from the selection will be added as recipients.
-5. Click **Next** to go to the next step: [Step 2: Template](Step_2__Template_-_SMS.md).
+5. Click **Next** to go to the next step: [Step 2: Template](Step-2-Template-SMS.md).
 
 > [!TIP]
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.

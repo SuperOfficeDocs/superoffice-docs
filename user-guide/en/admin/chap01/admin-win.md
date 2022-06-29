@@ -13,4 +13,4 @@ language: en
 
 Windows Client settings is the Windows-based administration client for SuperOffice CRM.
 
-The majority of the administration features are available in [Settings and maintenance](admin_web.md).
+The majority of the administration features are available in [Settings and maintenance](admin-web.md).

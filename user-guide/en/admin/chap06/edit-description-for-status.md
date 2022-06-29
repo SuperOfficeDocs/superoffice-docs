@@ -11,9 +11,9 @@ language: en
 
 # Edit a status description
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences_screen.md).
+Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
 
-The **Description** tab shows the description you entered when you created the status (see [Creating a new status](Create_new_status_web.md)).
+The **Description** tab shows the description you entered when you created the status (see [Creating a new status](Create-new-status-web.md)).
 
 To change the description of an existing status:
 

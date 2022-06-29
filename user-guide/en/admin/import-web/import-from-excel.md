@@ -30,8 +30,8 @@ To import an Excel spreadsheet into the SuperOffice database:
 * The Excel spreadsheet should as a minimum contain columns with company names and contact names (first name and last name).
 * You should check that the data is up-to-date (e.g. that postal addresses, telephone numbers and sector are correct).
 
-1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
-2. Make sure that **Contacts** is selected under **Select an import source** and then click the Excel icon ( ![icon](../media/import_excel_small.bmp) ). The **Upload file** dialog opens.
+1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+2. Make sure that **Contacts** is selected under **Select an import source** and then click the Excel icon ( ![icon](../media/import-excel-small.bmp) ). The **Upload file** dialog opens.
 3. Click **Upload file** to select the Excel spreadsheet you want to import.
 4. Browse to the required Excel spreadsheet and click **Open**. The data from the spreadsheet will be displayed in the table.
 
@@ -50,8 +50,8 @@ To do this:
 1. Find the column containing the name of the companies, click the **(No Selection)** column title and select **Company: Name**.
 2. Find the column containing the first and last names of the contacts, click the **(No Selection)** column title and select **Contact: First name** and **Contact: Last name**. If there is a single column containing both first and last names, select **Contact: Full name**.
 3. Select the SuperOffice fields for the rest of the columns in the table. You do not need to do this for the columns you do not want to import.
-4. Click **Configure import settings** and adjust the import settings as described in [Configure import settings](Import_settings_web.md).
-5. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent. The legal basis and consent source can be defined in **Import settings** (see [Configure import settings](Import_settings_web.md#setprivacy)). See also [Privacy](../privacy/privacy.md).
+4. Click **Configure import settings** and adjust the import settings as described in [Configure import settings](Import-settings-web.md).
+5. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent. The legal basis and consent source can be defined in **Import settings** (see [Configure import settings](Import-settings-web.md#setprivacy)). See also [Privacy](../privacy/privacy.md).
 6. Click **Next**. The **Preview import** window will appear.  
     <!-- Fix reuse ID=a4 -->
     You must link all the required SuperOffice fields to their respective columns in order to continue. The required fields will be displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.
@@ -66,7 +66,7 @@ To do this:
     2. Click the **If no company name** list under **Contact**.
     3. Select **Create company using contact name**.
     4. Click **Save**.
-    5. Click **Next**, and check that the ![icon](../media/import_preview_icon_Company_New.bmp) icon is displayed next to the contact. The person will be registered as a company in SuperOffice CRM with himself or herself as the only contact.
+    5. Click **Next**, and check that the ![icon](../media/import-preview-icon-Company-New.bmp) icon is displayed next to the contact. The person will be registered as a company in SuperOffice CRM with himself or herself as the only contact.
 
     <table style=" vertical-align:top; margin-top:5px; width:100%; max-width:83.758%;" data-cellspacing="0">
     
@@ -76,19 +76,19 @@ To do this:
     <td>Description</td>
     </tr>
     <tr>
-    <td>![icon](../media/import_preview_icon_Company_New.bmp)</td>
+    <td>![icon](../media/import-preview-icon-Company-New.bmp)</td>
     <td>The company does not exist and will be added.</td>
     </tr>
     <tr>
-    <td>![icon](../media/import_preview_icon_Company_Changed.bmp)</td>
+    <td>![icon](../media/import-preview-icon-Company-Changed.bmp)</td>
     <td>The company already exists and will be updated.</td>
     </tr>
     <tr>
-    <td>![icon](../media/import_preview_icon_Person_New.bmp)</td>
+    <td>![icon](../media/import-preview-icon-Person-New.bmp)</td>
     <td>The contact does not exist and will be added.</td>
     </tr>
     <tr>
-    <td>![icon](../media/import_preview_icon_Person_Changed.bmp)</td>
+    <td>![icon](../media/import-preview-icon-Person-Changed.bmp)</td>
     <td>The contact already exists and will be updated.</td>
     </tr>
     <tr>

@@ -23,8 +23,8 @@ The **Headings** list (in the bottom right of the **Lists** screen) shows which 
 
 ## What would you like to do now?
 
-[Group items under headings](Grouping_items_under_headings.md)
+[Group items under headings](Grouping-items-under-headings.md)
 
-[Add headings](Adding_headings_web.md)
+[Add headings](Adding-headings-web.md)
 
-[Change and delete headings](Headings_editing_and_deleting.md)
+[Change and delete headings](Headings-editing-and-deleting.md)

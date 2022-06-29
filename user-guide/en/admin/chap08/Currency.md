@@ -18,4 +18,4 @@ In the **Sale** screen tabs in SuperOffice CRM, you specify sale amount, costs a
 
 ## What would you like to do now?
 
-[Add items to the General - Currency list](Adding_items_to_the_Currency_list.md)
+[Add items to the General - Currency list](Adding-items-to-the-Currency-list.md)

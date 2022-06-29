@@ -24,13 +24,13 @@ This applies to the following, among other things:
 
 Click here to go to the relevant topic:
 
-[Manage duplicates (company/contact)](Import_settings_web.md#SetDuplicates)
+[Manage duplicates (company/contact)](Import-settings-web.md#SetDuplicates)
 
-[Manage contacts that do not belong to a company](Import_settings_web.md#NoContact)
+[Manage contacts that do not belong to a company](Import-settings-web.md#NoContact)
 
-[Manage list values that do not exist in SuperOffice](Import_settings_web.md#NewCategoryBusinessPosition)
+[Manage list values that do not exist in SuperOffice](Import-settings-web.md#NewCategoryBusinessPosition)
 
-[Manage new phone numbers, links and e-mail addresses](Import_settings_web.md#NewPhoneLinkMail)
+[Manage new phone numbers, links and e-mail addresses](Import-settings-web.md#NewPhoneLinkMail)
 
 ## Manage duplicates (company/contact)
 

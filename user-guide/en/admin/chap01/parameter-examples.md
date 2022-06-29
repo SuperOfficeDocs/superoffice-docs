@@ -24,7 +24,7 @@ The following gives you examples of how to use the parameters.
 <tr>
 <td>SuperOffice.ini</td>
 <td><p>[SuperOffice]</p>
-<p>Archivepath=\\Server\SuperOffice\SO_ARC</p>
+<p>Archivepath=\\Server\SuperOffice\SO-ARC</p>
 <p>Datapath=ODBC:SuperOffice</p></td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ The following gives you examples of how to use the parameters.
 <tr>
 <td>SuperOffice.ini</td>
 <td><p>[SuperOffice]</p>
-<p>Archivepath=\\Server2\SuperOffice\SO_ARC</p>
+<p>Archivepath=\\Server2\SuperOffice\SO-ARC</p>
 <p>Datapath=ODBC:Saleserver</p>
 <p>Templatepath=\\Server3\COMMON\TEMPLATE</p></td>
 </tr>
@@ -49,8 +49,8 @@ The following gives you examples of how to use the parameters.
 <td>SOUSER.INI</td>
 <td><p>[SuperOffice]</p>
 <p>Travel=TRUE</p>
-<p>Local_archivepath=C:\"username"\AppData\Local\SuperOffice\So_Local</p>
-<p>Local_datapath=ODBC:SuperOfficeLocal</p></td>
+<p>Local-archivepath=C:\"username"\AppData\Local\SuperOffice\So-Local</p>
+<p>Local-datapath=ODBC:SuperOfficeLocal</p></td>
 </tr>
 </tbody>
 </table>

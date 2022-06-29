@@ -13,7 +13,7 @@ language: en
 
 To add a relation:
 
-1. Go to the required company in the **Company** screen. (See [Use the Find screen](../chap01/Find_dialog.md).)
+1. Go to the required company in the **Company** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
 
 2. Select the **Relations** section tab.
 
@@ -24,7 +24,7 @@ To add a relation:
 
     <!-- Fix reuse ID=a1 -->
 
-    ![icon](../media/Chap03_contacts/27_chap3_relation.bmp)
+    ![icon](../media/Chap03-contacts/27-chap3-relation.bmp)
 
 4. You must specify the required company in the **Company** list box under **Active part**. This is mandatory. Specify it either by clicking the arrow and selecting the required company in the displayed list box, by typing in the whole or the beginning of the company name.
 

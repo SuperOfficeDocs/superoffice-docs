@@ -33,16 +33,16 @@ But you first need to register a company. To do this:
 7. In the **Our contact** list box, select the request handler who will be responsible for this company.
 
     > [!TIP]
-    > If you want to specify you yourself as the request handler responsible, simply click the person icon next to the **Our contact** list box ( ![icon](../media/btn_active_user.png) ).
+    > If you want to specify you yourself as the request handler responsible, simply click the person icon next to the **Our contact** list box ( ![icon](../media/btn-active-user.png) ).
 
 8. Click the **Category** list box, select the applicable category for the company. This list is maintained in SuperOffice Settings and maintenance.
 
 9. Click the **Business** list box, select the applicable business for the company. This list is maintained in SuperOffice Settings and maintenance.
 
-10. In the **Add domain** field, enter the company's Internet domain, for example, "company.com". You can add multiple domains by clicking the ![icon](../media/btn_add.png) add button for each domain you want to add. These domains are used in particular to link contacts to companies automatically.
+10. In the **Add domain** field, enter the company's Internet domain, for example, "company.com". You can add multiple domains by clicking the ![icon](../media/btn-add.png) add button for each domain you want to add. These domains are used in particular to link contacts to companies automatically.
 
     > [!TIP]
-    > You can delete a domain by clicking **Delete** ( ![icon](../media/btn_delete.png) ) to the right of the row.
+    > You can delete a domain by clicking **Delete** ( ![icon](../media/btn-delete.png) ) to the right of the row.
 
 11. Check **Link existing customers based on e-mail address** if you want to check existing contacts against the domains you have entered. If there are any contacts with e-mail addresses containing this domain name, and which are not already linked to another company, they will be automatically linked to the company.
 

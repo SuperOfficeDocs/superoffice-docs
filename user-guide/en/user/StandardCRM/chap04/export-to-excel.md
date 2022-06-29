@@ -11,6 +11,6 @@ language: en
 
 # Export to Excel
 
-1. Follow the procedure described under [Perform tasks using selections](Performing_tasks_using_selections.md).
+1. Follow the procedure described under [Perform tasks using selections](Performing-tasks-using-selections.md).
 2. Click the **Task** button and select **Export to Excel**.
 3. Click the exported file to open it in Excel.

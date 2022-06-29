@@ -34,23 +34,23 @@ In some cases the dialog **Archive e-mail in SuperOffice** will always be displa
 
 ## Include non e-mail templates in template list
 
-Checked (![icon](../media/checkbox_selected.png)): All document templates will be displayed in the **Type** list in the dialog **Archive e-mail in SuperOffice**.
+Checked (![icon](../media/checkbox-selected.png)): All document templates will be displayed in the **Type** list in the dialog **Archive e-mail in SuperOffice**.
 
-Unchecked (![icon](../media/checkbox_unselected.png)): Only document templates of the type **E-mail** will be displayed.
+Unchecked (![icon](../media/checkbox-unselected.png)): Only document templates of the type **E-mail** will be displayed.
 
 ## Default outgoing e-mail template
 
-Select the default document template to be used when archiving outgoing e-mail messages. See [Archive outgoing e-mail](e-mail_archive_outgoing_.md).
+Select the default document template to be used when archiving outgoing e-mail messages. See [Archive outgoing e-mail](e-mail-archive-outgoing-.md).
 
 **Tip**: Start typing in the list to search for a document template.
 
 ## Default incoming e-mail template
 
-Select the default document template to be used when archiving incoming e-mail messages. See [Archive incoming e-mail](e-mail_archive_incoming.md).
+Select the default document template to be used when archiving incoming e-mail messages. See [Archive incoming e-mail](e-mail-archive-incoming.md).
 
 ## Default activity type
 
-Select the default activity type to be used when creating an activity from an incoming e-mail message. See [Create activity](Archive_e-mails_as_activities.md).
+Select the default activity type to be used when creating an activity from an incoming e-mail message. See [Create activity](Archive-e-mails-as-activities.md).
 
 ## SuperOffice account information
 

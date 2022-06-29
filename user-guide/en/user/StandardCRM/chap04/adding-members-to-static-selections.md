@@ -11,17 +11,17 @@ language: en
 
 # Add members to static selections
 
-When you have created a static selection (see [Creating static selections](Creating_static_selections.md)), you can always add additional members to that selection. This can be done from any list containing the relevant records, such as search results and section tabs.
+When you have created a static selection (see [Creating static selections](Creating-static-selections.md)), you can always add additional members to that selection. This can be done from any list containing the relevant records, such as search results and section tabs.
 
 <!-- Fix reuse ID=a1 -->
 
 You can add new members to an open static selection as follows:
 
 1. Click the **Add members** button below the list of members. The dialog **Add all members matching** opens.
-2. Edit the criteria as described in [Use the Find screen](../chap01/Find_dialog.md).
+2. Edit the criteria as described in [Use the Find screen](../chap01/Find-dialog.md).
 3. Click **OK**. Matching members are added to the selection.
 
-**Tip**: To copy members from another selection, see [Copy into selections](Copying_into_selections.md).
+**Tip**: To copy members from another selection, see [Copy into selections](Copying-into-selections.md).
 
 There are simple rules for members of selections.
 
@@ -59,6 +59,6 @@ There are simple rules for members of selections.
 
 ## What would you like to do now?
 
-[Copy into selections](Copying_into_selections.md)
+[Copy into selections](Copying-into-selections.md)
 
-[Perform tasks using selections](Performing_tasks_using_selections.md)
+[Perform tasks using selections](Performing-tasks-using-selections.md)

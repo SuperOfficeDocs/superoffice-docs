@@ -18,8 +18,8 @@ Field mapping describes the relationship between the fields in the import file a
 
 ## What would you like to do now?
 
-[Specify field mapping](Specifying_field_mapping.md)
+[Specify field mapping](Specifying-field-mapping.md)
 
-[Delete field mapping](Deleting_field_mapping.md)
+[Delete field mapping](Deleting-field-mapping.md)
 
-[Reset field mapping](Resetting_field_mapping.md)
+[Reset field mapping](Resetting-field-mapping.md)

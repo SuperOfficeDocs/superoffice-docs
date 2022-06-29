@@ -15,10 +15,10 @@ To reset one or all of the defined rules for duplicate handling:
 
 1. Open the **Import** screen.  
     <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
+    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
 2. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.  
     Or:  
-    Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field_mapping.md)). The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
+    Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field-mapping.md)). The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 3. <!-- Fix reuse ID=a2 -->
     1. Select the required row under **Handling of duplicates**.
     2. Click the **Reset** button. The selected row will then have nothing in the **Key** column, and the **Action** column will be changed to **Skip record**.
@@ -32,4 +32,4 @@ To reset one or all of the defined rules for duplicate handling:
 
 ## What would you like to do now?
 
-[Update rules for duplicate handling](Updating_rules_for_duplicate_handling.md)
+[Update rules for duplicate handling](Updating-rules-for-duplicate-handling.md)

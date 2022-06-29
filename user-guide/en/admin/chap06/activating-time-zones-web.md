@@ -25,4 +25,4 @@ To enable use of time zones in SuperOffice CRM, do as follows:
 
 ## What would you like to do now?
 
-[Edit time zones](Available_time_zones_web.md)
+[Edit time zones](Available-time-zones-web.md)

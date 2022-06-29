@@ -38,8 +38,8 @@ Click **OK** when you have finished. The **OK** button is disabled until the ERP
 
 You must check the **Active** column to activate the connection, so that the **ERP** tab is displayed in SuperOffice CRM. But before you activate the ERP connection, you must make sure it is configured correctly:
 
-* Specify synchronisation settings, and choose which fields should be shown in the search window and in the **ERP** tab. See [Configure field mapping](sync_configure_field_allocation.md) and [Configure list mapping](sync_configure_list_mapping.md).
-* Define the required default values for fields which normally only have one relevant value, to save the user having to enter values in these fields. See [Configure default values for synchronisation](sync_configure_default_values.md).
-* Select the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. See [Rank fields shown in the ERP tab](sync_rank_fields_shown_in_the_ERP_tab.md).
-* If you use several ERP connections, you can choose which connections should be prioritised when synchronising. See [Set synchronisation priority](sync_set_sync_priority.md).
-* [Import data from the ERP system](../import_web/import_from_ERP.md)
+* Specify synchronisation settings, and choose which fields should be shown in the search window and in the **ERP** tab. See [Configure field mapping](sync-configure-field-allocation.md) and [Configure list mapping](sync-configure-list-mapping.md).
+* Define the required default values for fields which normally only have one relevant value, to save the user having to enter values in these fields. See [Configure default values for synchronisation](sync-configure-default-values.md).
+* Select the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. See [Rank fields shown in the ERP tab](sync-rank-fields-shown-in-the-ERP-tab.md).
+* If you use several ERP connections, you can choose which connections should be prioritised when synchronising. See [Set synchronisation priority](sync-set-sync-priority.md).
+* [Import data from the ERP system](../import-web/import-from-ERP.md)

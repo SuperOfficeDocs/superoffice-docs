@@ -11,7 +11,7 @@ language: en
 
 # Restore a deleted status
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences_screen.md).
+Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
 
 To restore a deleted status:
 
@@ -24,6 +24,6 @@ To restore a deleted status:
 
 ## What would you like to do now?
 
-[Edit a status description](Edit_description_for_status.md)
+[Edit a status description](Edit-description-for-status.md)
 
-[Manage status monitors](Manage_status_monitors.md)
+[Manage status monitors](Manage-status-monitors.md)

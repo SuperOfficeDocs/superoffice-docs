@@ -11,17 +11,17 @@ language: en
 
 # Add function to menu button (Actions)
 
-**Note**: You can also add a macro to the **Actions** button when you create or edit a macro. See [Create a macro](../topics_script/blogic.listScripts.editMacro.md).
+**Note**: You can also add a macro to the **Actions** button when you create or edit a macro. See [Create a macro](../topics-script/blogic.listScripts.editMacro.md).
 
 The procedure below describes how to add a macro to the **Actions** button in the **Company** screen, **Contact** screen or **Request** screen, or **Message** tab. To learn more about other available options in this screen, see [Menu properties](blogic.listExtraMenus.editExtraMenu.md).
 
 Do as follows:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System design** &gt; **Extra menus**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System design** &gt; **Extra menus**.
 2. Click **Top menu** to display the sub-folders.
-3. Hold the mouse pointer over one of these folders: **View request**, **View contact**, **View company** or **Message menu**. Then click ![icon](../media/btn_add.png). The **Menu properties** screen appears.
+3. Hold the mouse pointer over one of these folders: **View request**, **View contact**, **View company** or **Message menu**. Then click ![icon](../media/btn-add.png). The **Menu properties** screen appears.
 4. Enter the name of the button in the **Label** field. The name should be quite short, because it will be displayed on the button.
 5. Select **Use script**, and select a macro.
 6. Select the desired position in the **Position** list (0 = top).
 7. Click **OK**.
-8. Open a request, contact, company or message, click the ![icon](../media/btn_Menu.png)**Actions** button and check that the button is displayed and functions as desired.
+8. Open a request, contact, company or message, click the ![icon](../media/btn-Menu.png)**Actions** button and check that the button is displayed and functions as desired.

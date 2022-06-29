@@ -11,19 +11,19 @@ language: en
 
 # Define extra tables
 
-You can create extra tables in SuperOffice Service in order to register different types of data. Once the extra table has been defined and you have created extra fields in it (see [Define extra fields](blogic.listExtraTables.listFields.editField.md)), you can open the table to add content to it by going to ![icon](../media/nav_request_small.png)**Requests** &gt; **Tables**, point at the table and click ![icon](../media/btn_add.png).
+You can create extra tables in SuperOffice Service in order to register different types of data. Once the extra table has been defined and you have created extra fields in it (see [Define extra fields](blogic.listExtraTables.listFields.editField.md)), you can open the table to add content to it by going to ![icon](../media/nav-request-small.png)**Requests** &gt; **Tables**, point at the table and click ![icon](../media/btn-add.png).
 
 > [!NOTE]
 > In SuperOffice CRM you can create web panels that can contain table information. To set the relevant access rights, the user must belong to a role that has the functional rights **List tables** and **Edit tables**.
 
 To create an extra table:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **System design** &gt; **Tables**.
-2. Click ![icon](../media/btn_newtable.png)**New table**. The **Table properties** screen appears.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Tables**.
+2. Click ![icon](../media/btn-newtable.png)**New table**. The **Table properties** screen appears.
 3. In the **Table properties** screen, enter data about the new table:
     * **Folder**: If you want to place the table in an existing folder, select a folder from the list.
     * **Name**: The name of the table.
-    * **Database table**: In this field, enter the name of the table in the database. You can only specify this name when the table is created; it cannot be changed later on. The table name may only contain underscores, the letters a to z or numbers, and the name must start with "y\_". A logical name is best, since it makes it easier to see what the database contains.
+    * **Database table**: In this field, enter the name of the table in the database. You can only specify this name when the table is created; it cannot be changed later on. The table name may only contain underscores, the letters a to z or numbers, and the name must start with "y\-". A logical name is best, since it makes it easier to see what the database contains.
     * **Search header**: This is the header that is used in the search screen for this table.
     * **Header for viewing entry**: This is the header that is used when you display an entry in this table.
     * **Header for new entry**: This is the header that is used when you create a new entry in this table.
@@ -33,7 +33,7 @@ To create an extra table:
     * **Parent field**: This field is used in connection with hierarchical tables.
     * **Full name**: If this is a hierarchical table, this field can specify a field that is automatically updated with the entry's full name based on the name field for this entry, and all parent entries.
     * **Hide ID field**: If this option is enabled, then the ID field will not be shown when listing entries in the table.
-    * **Hide the table**: If you check this option, the table will not be visible from ![icon](../media/nav_request_small.png) **Requests** &gt; **Tables**.
+    * **Hide the table**: If you check this option, the table will not be visible from ![icon](../media/nav-request-small.png) **Requests** &gt; **Tables**.
 4. Click **OK** to save the new table.
 
 ## What would you like to do now?

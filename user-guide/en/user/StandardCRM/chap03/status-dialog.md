@@ -29,14 +29,14 @@ A link to any other statuses relating to the current company, contact or project
 
 Create follow-up
 
-Click here if you want to create a new follow-up for the company, contact or project. The type of follow-up created by default is defined in SuperOffice Settings and maintenance. See [The Dialog for follow-ups](../chap02/Dialog_for_followups.md).
+Click here if you want to create a new follow-up for the company, contact or project. The type of follow-up created by default is defined in SuperOffice Settings and maintenance. See [The Dialog for follow-ups](../chap02/Dialog-for-followups.md).
 
 Add to selection
 
 When you click this button, the **Add to selection** dialog opens and here you can add the current company or contact to a static selection of your choice.
 
 > [!NOTE]
-> This function can only be used for static selections. For more information about how to use statuses in dynamic selections, see [Use status monitors in dynamic selections](Using_status_monitors_in_dynamic_selections.md)
+> This function can only be used for static selections. For more information about how to use statuses in dynamic selections, see [Use status monitors in dynamic selections](Using-status-monitors-in-dynamic-selections.md)
 
 Close
 
@@ -44,4 +44,4 @@ Click here to close the status dialog.
 
 ## Related topics
 
-[Status monitors](Status_monitor.md)
+[Status monitors](Status-monitor.md)

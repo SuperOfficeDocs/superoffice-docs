@@ -21,4 +21,4 @@ To add a Sync Connector:
 
 ## What would you like to do now?
 
-[Add an ERP connection](sync_add_erp_connection.md)
+[Add an ERP connection](sync-add-erp-connection.md)

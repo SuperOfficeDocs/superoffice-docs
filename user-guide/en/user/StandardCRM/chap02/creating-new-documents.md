@@ -11,15 +11,15 @@ language: en
 
 # Create new documents
 
-**Tip**: If you just want to upload a document, see [Upload documents](Upload_documents.md).
+**Tip**: If you just want to upload a document, see [Upload documents](Upload-documents.md).
 
 Click the required link, depending on how documents are managed in your SuperOffice installation:
 
-[Create a new document with SharePoint Documents](Creating_new_documents.md#Create_a_new_document_with_SharePoint_Documents)
+[Create a new document with SharePoint Documents](Creating-new-documents.md#Create-a-new-document-with-SharePoint-Documents)
 
-[Create a new document without SuperOffice Web Tools](#Creating_a_new_document_without_plug_in_Web)
+[Create a new document without SuperOffice Web Tools](#Creating-a-new-document-without-plug-in-Web)
 
-[Create a new document using SuperOffice Web Tools](#Creating_a_new_document_with_plug_in_Web)
+[Create a new document using SuperOffice Web Tools](#Creating-a-new-document-with-plug-in-Web)
 
 > [!NOTE]
 > <!-- Fix reuse ID=a1 -->
@@ -30,7 +30,7 @@ SharePoint: Create a new document. If it opens in Microsoft Office Online, you a
 
 SuperOffice Web Tools: Open the system tray in the lower right corner of your desktop and look for the SuperOffice icon .
 
-![icon](../media/WebTools_systray.png)
+![icon](../media/WebTools-systray.png)
 
 ## Create a new document with SharePoint Documents
 
@@ -38,7 +38,7 @@ Do as follows:
 
 1. Click **New** &gt; **Document** on the top bar.
 
-2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog](Document_dialog.md) for an explanation of what to enter here.
+2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog](Document-dialog.md) for an explanation of what to enter here.
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created in SharePoint and opened in a new tab with the online text-editing application (Office Online).
 
@@ -60,7 +60,7 @@ Do as follows:
 
 1. Click **New** &gt; **Document** on the top bar.
 
-2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog](Document_dialog.md) for an explanation of what to enter here.
+2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog](Document-dialog.md) for an explanation of what to enter here.
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created on the server.
 
@@ -75,13 +75,13 @@ Do as follows:
 6. Go to the **Document** dialog.
 
     > [!NOTE]
-    > If **Completed** is checked ( ![icon](../media/followup_completed_SMALL.png) ) in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
+    > If **Completed** is checked ( ![icon](../media/followup-completed-SMALL.png) ) in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
 
 7. Click the link to upload the document.  
     or  
     <!-- Fix reuse ID=a3 --> the document from Windows Explorer to the **Document** dialog.
 
-    ![icon](../media/Chap04_activities/DocFileUploadDragDrop.png)
+    ![icon](../media/Chap04-activities/DocFileUploadDragDrop.png)
 
 8. Close the **Document** dialog by clicking **Save**.
 
@@ -93,7 +93,7 @@ To do this:
 
 1. Click **New** &gt; **Document** on the top bar.
 
-2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog](Document_dialog.md) for an explanation of what to enter here.
+2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog](Document-dialog.md) for an explanation of what to enter here.
 
 3. Click the **Create** button to create a new document based on the selected document template. The **Document** dialog is closed automatically, and the document opens in your default text-editing application.
 
@@ -103,4 +103,4 @@ To do this:
 
 ## Related topics
 
-[Web Tools](../chap01/Web_Tools.md)
+[Web Tools](../chap01/Web-Tools.md)

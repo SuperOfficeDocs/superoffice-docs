@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# ![icon](../media/nav_request.png)Autosave
+# ![icon](../media/nav-request.png)Autosave
 
 Whenever you are working on a request and suddenly receive a more urgent request, you’ll have to leave the request you are working on to solve the prioritized request.
 

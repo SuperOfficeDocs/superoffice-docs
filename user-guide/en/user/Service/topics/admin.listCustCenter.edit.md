@@ -18,7 +18,7 @@ In the **Customer centre source files** screen, you can edit the default pages i
 
 Do as follows:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Customer centre source files**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Customer centre source files**.
 
 2. Click a web page in the list.
 

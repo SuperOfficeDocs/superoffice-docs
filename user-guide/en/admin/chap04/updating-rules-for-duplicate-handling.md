@@ -15,11 +15,11 @@ You always need to specify rules for handling duplicates during importing. You d
 
 1. Open the **Import** screen.  
     <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
+    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
 
 2. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.  
     Or:  
-    Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field_mapping.md)).
+    Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field-mapping.md)).
 
 3. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 
@@ -45,8 +45,8 @@ You always need to specify rules for handling duplicates during importing. You d
 
 8. Click **OK**.
 
-The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions](Import_descriptions.md).
+The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions](Import-descriptions.md).
 
 ## What would you like to do now?
 
-[Reset rules for duplicate handling](Resetting_rules_for_duplicate_handling.md)
+[Reset rules for duplicate handling](Resetting-rules-for-duplicate-handling.md)

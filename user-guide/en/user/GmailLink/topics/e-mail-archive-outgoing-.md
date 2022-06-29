@@ -23,7 +23,7 @@ Follow these steps:
 
 3. Click **Send and archive**. The e-mail is sent and the dialog **Archive e-mail in SuperOffice** opens.
 
-    If the recipient of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling_e-mails_from_senders_not_listed_in_SuperOffice.md). A warning also appears if the recipient is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling_e-mails_from_senders_with_several_listings.md).
+    If the recipient of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-e-mails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the recipient is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-e-mails-from-senders-with-several-listings.md).
 
 4. In the dialog **Archive e-mail in SuperOffice**, the **Company** and **Contact** fields have been filled in if the recipient's e-mail address is registered in SuperOffice. Fill in relevant information in the following fields:
     * **Subject**: The subject is automatically inserted in this field. However, you can edit the text.
@@ -40,14 +40,14 @@ Follow these steps:
 
 Click the link in the pop-up message to open the document in SuperOffice.
 
-**Tip**: If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming e-mail](e-mail_archive_incoming.md).
+**Tip**: If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming e-mail](e-mail-archive-incoming.md).
 
 ## What would you like to do now?
 
-[Archive incoming e-mail](e-mail_archive_incoming.md)
+[Archive incoming e-mail](e-mail-archive-incoming.md)
 
-[Archive attachments](Archive_attachments.md)
+[Archive attachments](Archive-attachments.md)
 
-[Create activity](Archive_e-mails_as_activities.md)
+[Create activity](Archive-e-mails-as-activities.md)
 
-[Create request](Archive_e-mails_as_requests.md)
+[Create request](Archive-e-mails-as-requests.md)

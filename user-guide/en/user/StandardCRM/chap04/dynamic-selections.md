@@ -11,7 +11,7 @@ language: en
 
 # Dynamic selections
 
-A dynamic selection can be compared to a saved search that is executed each time you view the selection. Each time you add records to SuperOffice CRM containing data that fulfil the search criteria in a dynamic selection, the selection will be updated with the new member, unlike a [static selection](Static_selections.md). Use a dynamic selection if you want an updated list of companies, contacts, sales, projects, documents, follow-ups, requests or products that meet a specific set of criteria.
+A dynamic selection can be compared to a saved search that is executed each time you view the selection. Each time you add records to SuperOffice CRM containing data that fulfil the search criteria in a dynamic selection, the selection will be updated with the new member, unlike a [static selection](Static-selections.md). Use a dynamic selection if you want an updated list of companies, contacts, sales, projects, documents, follow-ups, requests or products that meet a specific set of criteria.
 
 <!-- Fix reuse ID=a1 -->
 
@@ -51,6 +51,6 @@ You can create a selection containing all open request that have not been update
 
 ## What would you like to do now?
 
-[Create selections](Create_selections.md)
+[Create selections](Create-selections.md)
 
-[Use status monitors in a dynamic selection](../chap03/Using_status_monitors_in_dynamic_selections.md)
+[Use status monitors in a dynamic selection](../chap03/Using-status-monitors-in-dynamic-selections.md)

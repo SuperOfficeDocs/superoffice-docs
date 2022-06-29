@@ -15,7 +15,7 @@ In order to give the message a more personal touch, you can use template variabl
 
 <!-- Fix reuse ID=a2 -->
 
-Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the template variables **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty variables in your mailings, make sure to [preview the mailing](../test_mailing.md) first.
+Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the template variables **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty variables in your mailings, make sure to [preview the mailing](../test-mailing.md) first.
 
 There are several types of template variables:
 
@@ -38,17 +38,17 @@ The text you enter will look like this:
 
 **To enter template variables into your message:**
 
-1. **Click the **Edit paragraph** ( ![icon](../../media/btn_editor_edit.png) ) button in the paragraph you wish to edit.**
+1. **Click the **Edit paragraph** ( ![icon](../../media/btn-editor-edit.png) ) button in the paragraph you wish to edit.**
 
 2. **Select the **Heading** tab.**
 
 3. **Type, for example "Dear ".**
 
-4. **Position the mouse pointer after the text and click ![icon](../../media/btn_Variable.png)**Template variables**.**
+4. **Position the mouse pointer after the text and click ![icon](../../media/btn-Variable.png)**Template variables**.**
 
 5. **In the dialog that appears, select **First name** in the **Add template variable** list.**
 
-    **![icon](../../media/Loc/editor_templatevar.jpg)**
+    **![icon](../../media/Loc/editor-templatevar.jpg)**
 
 6. **Click **OK**. The **\[\[customer.firstname\]\]** template variable is inserted with a yellow background.**
 
@@ -57,8 +57,8 @@ The text you enter will look like this:
 8. **Continue entering text and inserting the template variables you require.**
 
 **> [!TIP]
-> Before you send out a mailing, you should test that the customer data is correctly inserted in the message. See [Test mailing](../test_mailing.md).**
+> Before you send out a mailing, you should test that the customer data is correctly inserted in the message. See [Test mailing](../test-mailing.md).**
 
 ## What would you like to find out more about?
 
-[Template variables](../../../Service/topics/Template_variables.md)
+[Template variables](../../../Service/topics/Template-variables.md)

@@ -16,10 +16,10 @@ If you edit or delete an invitation that you have created and sent, the invitees
 If one of the recipients of an invitation chooses to delete the record from their own diary, it will be deleted from their diary only. The record will then appear in the **Invitations** dialog, so that it can be found and accepted later on.
 
 > [!TIP]
-> To open the **Invitations** dialog, click the **Notifications** button ( ![icon](../../media/globalmenu_notice_small.png) ) on the Top bar.
+> To open the **Invitations** dialog, click the **Notifications** button ( ![icon](../../media/globalmenu-notice-small.png) ) on the Top bar.
 
 ## What would you like to do now?
 
-[Edit repeating follow-ups](Editing_recurring_follow-ups.md)
+[Edit repeating follow-ups](Editing-recurring-follow-ups.md)
 
-[Stop repeating follow-ups](Stopping_recurring_follow-ups.md)
+[Stop repeating follow-ups](Stopping-recurring-follow-ups.md)

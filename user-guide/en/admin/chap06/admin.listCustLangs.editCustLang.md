@@ -17,7 +17,7 @@ In this topic, you can find out how to create and edit customer languages.
 
 To create a new customer language:
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp_Systemvalg_liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
 
 2. Select the **Customer languages** tab.
 

@@ -19,7 +19,7 @@ To complete the fields in the **Edit list item** dialog when the items are e-mai
 
 1. Enter the required name of the item in the **Template name** field.
 
-2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template](Adding_items_to_the_Sale_-_Sales_type_(for_stages)_list.md), or a [privacy confirmation template](Privacy_Source_add.md).
+2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template](Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md), or a [privacy confirmation template](Privacy-Source-add.md).
 
 3. If you wish, you can choose where to store the document template, in the **Store template in** list.
 
@@ -47,9 +47,9 @@ To complete the fields in the **Edit list item** dialog when the items are e-mai
 
 Enter the following information in the **Details** tab:
 
-1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate_fields.md)).
+1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
 
-2. Enter the title of the e-mail in the **Subject** field. You can also add the subject in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate_fields.md)).
+2. Enter the title of the e-mail in the **Subject** field. You can also add the subject in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
 
 3. Select **Use signature in new e-mail** to add your signature to new e-mails. If you do not have a personal signature, the system signature will be used.
 
@@ -57,15 +57,15 @@ Enter the following information in the **Details** tab:
 
 5. Optionally, type in a description of the template in the **Description** field.
 
-6. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon](../media/pil_ned.bmp) ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
+6. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon](../media/pil-ned.bmp) ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
-7. In the **Intention** field, click the arrow (![icon](../media/pil_ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../chap06/Status_monitor.md)).
+7. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../chap06/Status-monitor.md)).
 
     **Tip**: You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
 8. In the **Document stored in **field, you can choose to save the document somewhere other than the default option.
 
-9. Specify the default setting for the **Our reference** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables](../Template_variables.md)).
+9. Specify the default setting for the **Our reference** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables](../Template-variables.md)).
 
 > [!NOTE]
 > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog. Only htm/html files can be edited directly in this editor. The file type is displayed in the **File name** field in the **Details** tab. Click the **Download** button to download other file types and edit them in the relevant application.
@@ -81,4 +81,4 @@ Here you can add translated versions of the document template. To do this:
 5. Repeat the steps above to add additional languages.
 
 > [!NOTE]
-> As described above, you can add translations of the template name and e-mail subject by clicking ![icon](../media/translate.png) next to the relevant field. See [Translation](../Translate_fields.md).
+> As described above, you can add translations of the template name and e-mail subject by clicking ![icon](../media/translate.png) next to the relevant field. See [Translation](../Translate-fields.md).

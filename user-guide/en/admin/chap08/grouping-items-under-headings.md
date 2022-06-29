@@ -20,10 +20,10 @@ If you want a list with two levels, you need to select headings for each individ
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon](../media/pil_ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
-    > If this field is empty, you need to add headings first. This is described under [Add headings](Adding_headings_web.md).
+    > If this field is empty, you need to add headings first. This is described under [Add headings](Adding-headings-web.md).
 
 3. Select the required item in the **Items** list.
 
@@ -40,10 +40,10 @@ The changes are saved automatically.
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon](../media/pil_ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
-    > If this field is empty, you need to add headings first. This is described under [Add headings](Adding_headings_web.md).
+    > If this field is empty, you need to add headings first. This is described under [Add headings](Adding-headings-web.md).
 
 3. Check **Use grouping and user group filtering for this list** in the top right.
 
@@ -59,4 +59,4 @@ The changes are saved automatically.
 
 ## See also
 
-[Organizing lists](Grouping_and_filtering.md).
+[Organizing lists](Grouping-and-filtering.md).

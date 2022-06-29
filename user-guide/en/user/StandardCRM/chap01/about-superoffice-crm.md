@@ -13,13 +13,13 @@ language: en
 
 In this help topic, you can find out about:
 
-[SuperOffice CRM](#SuperOffice_CRM)
+[SuperOffice CRM](#SuperOffice-CRM)
 
-[The Idea behind SuperOffice CRM](About_SuperOffice_CRM.md#The_Idea_behind_SuperOffice_CRM)
+[The Idea behind SuperOffice CRM](About-SuperOffice-CRM.md#The-Idea-behind-SuperOffice-CRM)
 
-[The same starting point for many tasks](#The_same_starting_point_for_many_tasks)
+[The same starting point for many tasks](#The-same-starting-point-for-many-tasks)
 
-[Common profile](#Common_profile)
+[Common profile](#Common-profile)
 
 ## SuperOffice CRM
 

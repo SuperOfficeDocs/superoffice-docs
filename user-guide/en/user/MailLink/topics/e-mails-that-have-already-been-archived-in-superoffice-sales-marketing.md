@@ -17,8 +17,8 @@ When an e-mail is archived by a user, it is tagged with a unique ID within Super
 
 <tbody>
 <tr>
-<td>![icon](../media/Already_archived.png)</td>
-<td>If you open an e-mail that has already been archived, the **Archive e-mail** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the e-mail was archived. This presupposes that you have selected the <strong>Check for duplicates when an e-mail is opened</strong> option in the <strong>SuperOffice CRM options</strong> dialog (see [General settings](Other_options.md)).</p></td>
+<td>![icon](../media/Already-archived.png)</td>
+<td>If you open an e-mail that has already been archived, the **Archive e-mail** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the e-mail was archived. This presupposes that you have selected the <strong>Check for duplicates when an e-mail is opened</strong> option in the <strong>SuperOffice CRM options</strong> dialog (see [General settings](Other-options.md)).</p></td>
 </tr>
 </tbody>
 </table>

@@ -11,7 +11,7 @@ language: en
 
 # Blocked e-mail addresses
 
-In the **Blocked e-mail addresses** tab, you can handle bounced e-mails and [spam complaints](Blocked_e-mail_addresses.md#Spam_complaints).
+In the **Blocked e-mail addresses** tab, you can handle bounced e-mails and [spam complaints](Blocked-e-mail-addresses.md#Spam-complaints).
 
 ## Blocked e-mail addresses
 
@@ -27,9 +27,9 @@ The **Blocked e-mail addresses** tab provides an excellent overview of e-mail ad
 > [!TIP]
 > Click a column to access sorting and grouping functions.
 
-To fix a single e-mail address, select it in the list and click **Open** in the side-panel to edit the contact. Go to the **Details** tab. A warning icon (![icon](../media/warning_asterisk_red.png))next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
+To fix a single e-mail address, select it in the list and click **Open** in the side-panel to edit the contact. Go to the **Details** tab. A warning icon (![icon](../media/warning-asterisk-red.png))next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
 
-**Tip**: You can also work with blocked e-mails and bounces for individual mailings. See [Manage bounces](Manage_bounces.md).
+**Tip**: You can also work with blocked e-mails and bounces for individual mailings. See [Manage bounces](Manage-bounces.md).
 
 ## Working with blocked e-mail addresses (bounces)
 

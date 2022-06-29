@@ -21,19 +21,19 @@ The global buttons appear throughout SuperOffice CRM. Some of them are in the ma
 <td><p>Function</p></td>
 </tr>
 <tr>
-<td><p>![icon](../../media/globalmenu_search.png)</p></td>
+<td><p>![icon](../../media/globalmenu-search.png)</p></td>
 <td><p>Click here to open the search window.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/Dialogboksknapper_Telefon.bmp)</p></td>
+<td><p>![icon](../media/Dialogboksknapper-Telefon.bmp)</p></td>
 <td><p>Click here to choose a telephone number to dial.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/Dialogboksknapper_pil_ned.bmp)</p></td>
+<td><p>![icon](../media/Dialogboksknapper-pil-ned.bmp)</p></td>
 <td><p>Click an arrow button to open and close a list box.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../../media/btn_Menu.png)</p></td>
+<td><p>![icon](../../media/btn-Menu.png)</p></td>
 <td><p>Click here to open a menu containing tasks relevant to the dialog or screen.</p></td>
 </tr>
 </tbody>
@@ -41,4 +41,4 @@ The global buttons appear throughout SuperOffice CRM. Some of them are in the ma
 
 ## Related topics
 
-[The Top bar](Buttons_in_the_menu_bar.md)
+[The Top bar](Buttons-in-the-menu-bar.md)

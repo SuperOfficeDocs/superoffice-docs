@@ -13,7 +13,7 @@ language: en
 
 Selecting the **Copy the selection** task provides a quick and easy way of making an exact copy of a selection. When you click this button, a copy of the selection is created, with the text (copy) next to the selection name. In other words, if you copy the selection named *My static selection*, the copy will be named *My static selection (copy)*.
 
-1. Follow the procedure described under [Perform tasks using selections](Performing_tasks_using_selections.md).
+1. Follow the procedure described under [Perform tasks using selections](Performing-tasks-using-selections.md).
 
 2. Select the **Copy the selection** task. This creates a copy of the selection.
 

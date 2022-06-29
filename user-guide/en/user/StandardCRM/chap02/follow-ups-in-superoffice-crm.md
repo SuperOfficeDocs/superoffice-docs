@@ -17,7 +17,7 @@ Each follow-up type will be dealt with separately, as follows:
 
 * [Appointment](Appointment.md)
 * [Task](Task.md)
-* [Phone Call](Phone_call.md)
+* [Phone Call](Phone-call.md)
 
 Features which are common to all follow-ups are described below.
 
@@ -26,20 +26,20 @@ Features which are common to all follow-ups are described below.
 
 ## What would you like to do now?
 
-[Open follow-ups](Opening_Follow-ups.md)
+[Open follow-ups](Opening-Follow-ups.md)
 
-[Print follow-ups](Printing_follow-ups.md)
+[Print follow-ups](Printing-follow-ups.md)
 
-[Edit follow-ups](Editing_follow-ups.md)
+[Edit follow-ups](Editing-follow-ups.md)
 
-[Set alarms for follow-ups](Setting_an_alarm_for_follow-ups.md)
+[Set alarms for follow-ups](Setting-an-alarm-for-follow-ups.md)
 
-[Send follow-ups](Sending_follow-ups.md)
+[Send follow-ups](Sending-follow-ups.md)
 
-[Create overlapping follow-ups](Creating_overlapping_follow-ups.md)
+[Create overlapping follow-ups](Creating-overlapping-follow-ups.md)
 
-[Create repeating follow-ups](Creating_recurring_follow-ups.md)
+[Create repeating follow-ups](Creating-recurring-follow-ups.md)
 
-[Invite your associates to a follow-up](Creating_follow-ups_with_your_associates.md)
+[Invite your associates to a follow-up](Creating-follow-ups-with-your-associates.md)
 
-[Link activities to other activities](Linking_documents_to_follow-ups.md)
+[Link activities to other activities](Linking-documents-to-follow-ups.md)

@@ -18,5 +18,5 @@ To do this:
 1. Go to the **Sync** tab in the **Quote/Sync** screen.
 2. Click **Set Sync Priority** at the bottom of the **ERP connections** list. The **Set Sync Priority** dialog opens.
 3. Select an ERP connection that you want to set the sync priority for.
-4. Click the ![icon](../media/pil_flyttned.bmp)![icon](../media/pil_flyttopp.bmp) arrows at the bottom to set the priority.
+4. Click the ![icon](../media/pil-flyttned.bmp)![icon](../media/pil-flyttopp.bmp) arrows at the bottom to set the priority.
 5. Click the **Done** button when you have set the priority for the ERP connections.

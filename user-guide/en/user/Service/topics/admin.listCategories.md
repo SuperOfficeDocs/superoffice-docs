@@ -22,7 +22,7 @@ All requests belong to a category, and each category has its own rules that defi
 
 Users can be added as members in the categories individually or via the user group(s) they belong to (see [User groups](admin.listUsers.listUsergroups.md)).
 
-Selecting ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Categories** takes you to a list of all the categories defined in the system. The categories are arranged in a tree structure.
+Selecting ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Categories** takes you to a list of all the categories defined in the system. The categories are arranged in a tree structure.
 
 <!-- Fix reuse ID=a2 -->
 
@@ -51,4 +51,4 @@ See also <a href="https://community.superoffice.com/en/Technical/Blog/reply-temp
 
 [Search for requests in categories](admin.listCategories.searchTickets.md)
 
-[How to set up Get next request in queue](Get_next_request_in_the_queue.md)
+[How to set up Get next request in queue](Get-next-request-in-the-queue.md)

@@ -19,10 +19,10 @@ You can move a contact from one company to another. If a contact has been set up
 Proceed as follows to move a contact to another company:
 
 1. In the **Company** screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.  
-    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon](../../media/btn_Menu.png) ) in the contact card, and select **Manage contacts** and **Move contact**.  
+    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon](../../media/btn-Menu.png) ) in the contact card, and select **Manage contacts** and **Move contact**.  
     This opens the **Move contact** dialog.
 2. Under **Action on contact**, select one of the following options:
-    * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher](../chap01/Using_FastSearcher.md), [The History list](../chap01/Using_the_history_list.md) or [Find](../chap01/Find_dialog.md) ( ![icon](../../media/globalmenu_search.png) ).
+    * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher](../chap01/Using-FastSearcher.md), [The History list](../chap01/Using-the-history-list.md) or [Find](../chap01/Find-dialog.md) ( ![icon](../../media/globalmenu-search.png) ).
     * Select **Disconnect from &lt;company&gt;**.
 3. Select one of the following under **Action on all existing activities and sales**:
     * **Leave all on &lt;company&gt;**. Select this option if you do not want to transfer the activities and sales along with the contact, but keep them on the current company.
@@ -34,7 +34,7 @@ Proceed as follows to move a contact to another company:
     * **Move all activities starting after**. Select this option if you want to transfer activities and sales starting after a specific date.
 
 > [!NOTE]
-> If you want to see the results before you move the contact, click **Show results** ![icon](../media/Vis_resultat.bmp):
+> If you want to see the results before you move the contact, click **Show results** ![icon](../media/Vis-resultat.bmp):
 
 1. Click **Move**. The contact is moved to (or disconnected from) the specified company.
 

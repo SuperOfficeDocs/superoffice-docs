@@ -28,12 +28,12 @@ To create a link:
 
     1. Select one of the main tabs in SuperOffice Marketing.
     2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn_addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
     4. Enter a descriptive name for the folder in the **Name** field.
     5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
-3. Click the ![icon](../media/btn_Add.png)**Add** button. This takes you to the **Link properties** screen.
+3. Click the ![icon](../media/btn-Add.png)**Add** button. This takes you to the **Link properties** screen.
 4. Enter a descriptive name for the link in the **Name** field.
-5. Under **Link actions** at the bottom of the screen, you can choose what should happen when the recipient clicks the link in the message. See [Define link actions](Define_link_actions.md).
+5. Under **Link actions** at the bottom of the screen, you can choose what should happen when the recipient clicks the link in the message. See [Define link actions](Define-link-actions.md).
 6. Click **OK** when you are done.
 
 A small dot on the link action tabs indicate which link actions are active. Multiple link actions can be active for a link.

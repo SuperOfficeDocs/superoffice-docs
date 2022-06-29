@@ -35,7 +35,7 @@ To specify that new document templates will have their own counter:
 8. Check **Allocate** if you want to use the automatic counter function, so that the system enters values in the **Our Ref.** field for you.
 
     > [!NOTE]
-    > You will find the results of different combinations of these values in [Results of number allocations](Results_of_number_allocation.md).
+    > You will find the results of different combinations of these values in [Results of number allocations](Results-of-number-allocation.md).
 
 9. Enter the value you want the counter to start at in the **Next number** field.
 
@@ -43,4 +43,4 @@ To specify that new document templates will have their own counter:
 
 ## Related topics
 
-[Results of number allocations](Results_of_number_allocation.md)
+[Results of number allocations](Results-of-number-allocation.md)

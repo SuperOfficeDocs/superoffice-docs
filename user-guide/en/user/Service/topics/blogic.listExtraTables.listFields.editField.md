@@ -18,8 +18,8 @@ Once you have created an extra table, you need to set up fields in the table, to
 
 To create extra fields in tables:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **System design** &gt; **Tables**.
-2. Browse to the table you want, point at the table name and click ![icon](../media/btn_newfield.png). The **New extra field** screen opens.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Tables**.
+2. Browse to the table you want, point at the table name and click ![icon](../media/btn-newfield.png). The **New extra field** screen opens.
 3. Select a field type in the **Type** list box.
 4. Click **OK**. The **Field properties** screen appears.
 5. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
@@ -27,7 +27,7 @@ To create extra fields in tables:
     * **Choose from list box**: If the field is connected to an extra table, select this option to display a list of table values.
     * **Choose values from list**: If this option is checked, the field becomes a list box. The options in the list will be the text strings entered in the text box. There is one line per option.
     * **Create index**: Specify whether the field is to be indexed or not. It is quicker to search for data in indexed fields.
-    * **Database field**: The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z or numbers, and must begin with "x\_". You can only specify this name when the field is created; it cannot be changed later on.
+    * **Database field**: The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z or numbers, and must begin with "x\-". You can only specify this name when the field is created; it cannot be changed later on.
     * **Decimal places**: The number of decimal places that are allowed in a number.
     * **Default value**: The default value will be used for this field.
     * **Description**: The default description.
@@ -55,4 +55,4 @@ To create extra fields in tables:
     * **Use days** / **Use hours** / **Use minutes**: Select the time units you want to use in the time span field.
     * **Use default value**: If this option is checked, the field is assigned a default value unless otherwise specified.
     * **View in relational choosers**: If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You have created an extra table called "Products" with an extra table relation to the **Requests** table. In this way you can search for and add products in the **Extra fields** tab when creating new requests. By selecting **View in relational choosers** for specific fields in the "Products" table, these fields will be available as search fields in the **Extra fields** tab.
-6. Click **OK** to save, and then ![icon](../media/btn_restartNetserver.png)**Restart Netserver**.
+6. Click **OK** to save, and then ![icon](../media/btn-restartNetserver.png)**Restart Netserver**.

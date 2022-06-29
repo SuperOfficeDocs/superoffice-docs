@@ -14,7 +14,7 @@ language: en
 All companies and organisations have their own requirements with regard to the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customise the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
 
 > [!NOTE]
-> You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. See [Select page 1 fields](page_1_fields_web.md).
+> You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. See [Select page 1 fields](page-1-fields-web.md).
 
 <!-- Fix reuse ID=a2 -->
 
@@ -67,7 +67,7 @@ You can then add these fields to the **Company** screen:
 <tr>
 <td><p>Maintenance agreement</p></td>
 <td><p>List</p></td>
-<td><p>A list of the various types of maintenance agreement you offer. The list must [be created in the Lists screen](../chap08/Adding_user-defined_lists_web.md).</p></td>
+<td><p>A list of the various types of maintenance agreement you offer. The list must [be created in the Lists screen](../chap08/Adding-user-defined-lists-web.md).</p></td>
 </tr>
 <tr>
 <td><p>The contract expires</p></td>
@@ -85,7 +85,7 @@ You can then add these fields to the **Company** screen:
 </table>
 
 > [!NOTE]
-> The fields you add will be displayed in the **More** tab in the **Company** screen. If you want to display them on the company card itself, [you specify them as *page 1 fields*](page_1_fields_web.md).
+> The fields you add will be displayed in the **More** tab in the **Company** screen. If you want to display them on the company card itself, [you specify them as *page 1 fields*](page-1-fields-web.md).
 
 ## For example: User-defined fields for sales
 
@@ -136,7 +136,7 @@ You can then add these fields to the **Project** screen:
 <td><p>Budget</p></td>
 <td><p>Decimal</p></td>
 <td><p>A number field in which you can enter a sum.</p></td>
-<td><p>Choose for the field to be displayed on page 1 as described in [Select page 1 fields](page_1_fields_web.md).</p></td>
+<td><p>Choose for the field to be displayed on page 1 as described in [Select page 1 fields](page-1-fields-web.md).</p></td>
 </tr>
 </tbody>
 </table>

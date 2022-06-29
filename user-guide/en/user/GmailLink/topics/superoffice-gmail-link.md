@@ -22,16 +22,16 @@ To install SuperOffice Gmail Link, go to the <a href="http://online.superoffice.
 
 ## What would you like to do now?
 
-[Archive incoming e-mail](e-mail_archive_incoming.md)
+[Archive incoming e-mail](e-mail-archive-incoming.md)
 
-[Archive attachments](Archive_attachments.md)
+[Archive attachments](Archive-attachments.md)
 
-[Create activity](Archive_e-mails_as_activities.md)
+[Create activity](Archive-e-mails-as-activities.md)
 
-[Create request](Archive_e-mails_as_requests.md)
+[Create request](Archive-e-mails-as-requests.md)
 
-[Look up sender in SuperOffice](Add_sender_to_SuperOffice.md)
+[Look up sender in SuperOffice](Add-sender-to-SuperOffice.md)
 
-[Archive outgoing e-mail](e-mail_archive_outgoing_.md)
+[Archive outgoing e-mail](e-mail-archive-outgoing-.md)
 
 [Edit Gmail Link settings](Settings.md)

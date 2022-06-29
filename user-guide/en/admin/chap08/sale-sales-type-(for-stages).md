@@ -15,9 +15,9 @@ The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Sale t
 
 ## Stages
 
-Each sale in SuperOffice CRM must have a sale type, and each sale type can contain several sale stages (see [Sale - Stage](Sale_-_Stage.md)). You can also specify that specific sale types are to have a [sales guide](../Sale/Sale.md), to guide sales staff through the different stages of a sale, with associated follow-ups and documents.
+Each sale in SuperOffice CRM must have a sale type, and each sale type can contain several sale stages (see [Sale - Stage](Sale-Stage.md)). You can also specify that specific sale types are to have a [sales guide](../Sale/Sale.md), to guide sales staff through the different stages of a sale, with associated follow-ups and documents.
 
-For each sale type, you can also specify that the sale type has stakeholders. See [Sale - Stakeholder Role](Sale_-_Sales_role_(Stakeholders).md).
+For each sale type, you can also specify that the sale type has stakeholders. See [Sale - Stakeholder Role](Sale-Sales-role-(Stakeholders).md).
 
 ## Quote attachments, defaults and approval
 
@@ -25,4 +25,4 @@ If Quote functionality is active, you can also set various options for quotes cr
 
 ## What would you like to do now?
 
-[Add items to the Sale - Type, Stages, Quote list](Adding_items_to_the_Sale_-_Sales_type_(for_stages)_list.md)
+[Add items to the Sale - Type, Stages, Quote list](Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md)

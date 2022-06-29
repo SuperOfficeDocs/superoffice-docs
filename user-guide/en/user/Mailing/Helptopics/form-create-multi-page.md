@@ -15,12 +15,12 @@ If you are creating a form with many fields, it might be useful to split the for
 
 In order to do so:
 
-1. Create a form as described in [Create a new form](form_create.md).
+1. Create a form as described in [Create a new form](form-create.md).
 2. Go to the **Fields** category.
-3. Click the **Add** button (![icon](../media/btn_Field_Add.png)). The **Add element** window opens.
+3. Click the **Add** button (![icon](../media/btn-Field-Add.png)). The **Add element** window opens.
 4. Select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
-6. Click ![icon](../media/btn_Field_Move.png) at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
+6. Click ![icon](../media/btn-Field-Move.png) at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
 7. Click **Apply now** when you are done.
 8. Repeat steps 2-7 to add another section.
 

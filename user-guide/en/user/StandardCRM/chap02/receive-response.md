@@ -17,7 +17,7 @@ When you send an invitation, the recipient can either accept or decline it. If t
 
 An assigned follow-up is one you have delegated to someone else. This works as follows:
 
-1. Delegate a follow-up to someone else by using the **Owner** field in the **Details** tab in the dialog for follow-ups (see [The Details tab](Details_tab_follow-ups.md)), or by clicking the **Task** button and select **Assign to**.
+1. Delegate a follow-up to someone else by using the **Owner** field in the **Details** tab in the dialog for follow-ups (see [The Details tab](Details-tab-follow-ups.md)), or by clicking the **Task** button and select **Assign to**.
 2. When you have saved the follow-up, it appears in the **Invitations** dialog in SuperOffice CRM for the other person.
 3. If the other person declines the invitation, it appears as declined in your own **Invitations** dialog.
 
@@ -30,7 +30,7 @@ An assigned follow-up is one you have delegated to someone else. This works as f
 
 ## Other follow-ups
 
-1. Link participants to follow-ups in the usual way (see [Add participants to follow-ups](Linking_participants_to_follow-ups.md)).
+1. Link participants to follow-ups in the usual way (see [Add participants to follow-ups](Linking-participants-to-follow-ups.md)).
 2. When you have saved the follow-up, it appears in the **Invitations** dialog in SuperOffice CRM for the other person.
 3. If the other person declines the invitation, it appears as declined in your own **Invitations** dialog.
 

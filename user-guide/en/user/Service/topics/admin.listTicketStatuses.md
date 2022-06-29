@@ -22,9 +22,9 @@ The **Request status** screen displays all existing statuses in the system. The 
 * **Name**: The name of the request status. By default each internal status has a request status with the same name.
 * **Internal status**: The system's internal statuses. Each internal status must be linked to at least one request status. The system statuses **Linked** and **Deleted** are only used for merged requests and deleted requests respectively, and are not visible to the users.
 * **Track time as**: This is used to report time usage in various phases of request management. See [Create request status](admin.listTicketStatuses.newTicketStatus.md).
-* **Queue status**: Indicates if requests with this status should be placed in the queue. This is relevant if you use the **Get next request in queue** function. See [How to set up Get next request in queue](Get_next_request_in_the_queue.md).
+* **Queue status**: Indicates if requests with this status should be placed in the queue. This is relevant if you use the **Get next request in queue** function. See [How to set up Get next request in queue](Get-next-request-in-the-queue.md).
 * **Default**: Indicates if this is a default status for the internal status.
-* **Rank**: The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the **Request** screen. You use the arrow buttons ( ![icon](../media/btn_RankUp.png) and ![icon](../media/btn_RankDown.png) ) to change the order.
+* **Rank**: The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the **Request** screen. You use the arrow buttons ( ![icon](../media/btn-RankUp.png) and ![icon](../media/btn-RankDown.png) ) to change the order.
 
 ## What would you like to do now?
 

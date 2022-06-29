@@ -15,7 +15,7 @@ To specify field mapping:
 
 1. Open the **Import** screen.  
     <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
+    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
 
 2. Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a file in the dialog which opens.
 
@@ -35,6 +35,6 @@ To specify field mapping:
 8. Repeat the procedure to map additional fields. You can import several different data types. Remember that fields not mapped with a record in the SuperOffice database will not be imported at all.
 
 > [!NOTE]
-> If you have specified an import description file in the **Import description file** field, there may already be information in the **Field in SuperOffice CRM** column under **Field mapping**. If required, you can change this field mapping by deleting it (see [Delete field mapping](Deleting_field_mapping.md)) and then entering a new field mapping as described above.
+> If you have specified an import description file in the **Import description file** field, there may already be information in the **Field in SuperOffice CRM** column under **Field mapping**. If required, you can change this field mapping by deleting it (see [Delete field mapping](Deleting-field-mapping.md)) and then entering a new field mapping as described above.
 
-The field mapping selections you make can be saved, so that the same configuration can be reused in future. This is what constitutes [Import descriptions](Import_descriptions.md).
+The field mapping selections you make can be saved, so that the same configuration can be reused in future. This is what constitutes [Import descriptions](Import-descriptions.md).

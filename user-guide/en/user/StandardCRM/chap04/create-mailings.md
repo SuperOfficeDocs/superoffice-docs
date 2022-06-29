@@ -19,11 +19,11 @@ You can send a mailing to all contacts in a selection. The mailing can be an e-m
 
 3. Click one of the following options:
 
-    * **Create e-mail mailing**: Select this options to send e-mails to all or parts of your customer base. See [Step 1: Setup - E-mail](../../Mailing/Helptopics/step_1_setup_email.md).
+    * **Create e-mail mailing**: Select this options to send e-mails to all or parts of your customer base. See [Step 1: Setup - E-mail](../../Mailing/Helptopics/step-1-setup-email.md).
 
-    * **Create SMS mailing**: Select this option to send SMS messages to all or parts of your customer base by mobile phone. See [Step 1: Setup - SMS](../../Mailing/Helptopics/Step_1__Setup_-_SMS.md).
+    * **Create SMS mailing**: Select this option to send SMS messages to all or parts of your customer base by mobile phone. See [Step 1: Setup - SMS](../../Mailing/Helptopics/Step-1-Setup-SMS.md).
 
-    * **Create document mailing**: Select this options to create merged documents (PDFs) to print and send by regular mail to all or parts of your customer base. See [Step 1: Setup - Document](../../Mailing/Helptopics/Step_1_Setup_-_Document.md).
+    * **Create document mailing**: Select this options to create merged documents (PDFs) to print and send by regular mail to all or parts of your customer base. See [Step 1: Setup - Document](../../Mailing/Helptopics/Step-1-Setup-Document.md).
 
     > [!TIP]
     > These options are also available from the **Marketing** button in the navigator.

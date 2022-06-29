@@ -13,13 +13,13 @@ language: en
 
 To create a new appointment from anywhere in SuperOffice CRM:
 
-* Choose **New** &gt; **Appointment** on the [top bar](../chap01/Buttons_in_the_menu_bar.md).
-* Click the **Task** button ( ![icon](../../media/btn_Menu.png) ) in the contact card, and select **Request a meeting**.
+* Choose **New** &gt; **Appointment** on the [top bar](../chap01/Buttons-in-the-menu-bar.md).
+* Click the **Task** button ( ![icon](../../media/btn-Menu.png) ) in the contact card, and select **Request a meeting**.
 * Click the **Add** button in the **Activities** section tab.
 
 From the **Diary** screen, create a new appointment as follows:
 
 * Click the **Add** button on the section tabs.
-* Drag and drop using the mouse (see [Create follow-ups from the Diary](../chap06/Creating_appointments_using_the_Diary.md)).
+* Drag and drop using the mouse (see [Create follow-ups from the Diary](../chap06/Creating-appointments-using-the-Diary.md)).
 
-Regardless of which method you use, the **Appointment** dialog opens and this is where you specify the appointment details as described under [The Dialog for follow-ups](Dialog_for_followups.md).
+Regardless of which method you use, the **Appointment** dialog opens and this is where you specify the appointment details as described under [The Dialog for follow-ups](Dialog-for-followups.md).

@@ -18,7 +18,7 @@ In the **Blocked e-mail** tab is a list of inbound e-mails blocked by an e-mail 
 * **E-mail filter**: Specifies which e-mail filter blocked the e-mail.
 * **E-mail subject**: Shows the subject of the message.
 
-The following options are also available from the **Actions** button (![icon](../media/btn_Menu.png)):
+The following options are also available from the **Actions** button (![icon](../media/btn-Menu.png)):
 
 * **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 * **Import**: Click here to import the selected e-mails. The e-mail filter which blocked the e-mail will then be ignored, but other e-mail filters may be enabled.

@@ -11,28 +11,28 @@ language: en
 
 # The Dialog for follow-ups
 
-Regardless of the type of follow-up you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – **Appointment** (see [Appointment](Appointment.md)), **Task** (see [Task](Task.md)) or **Phone Call** (see [Phone Call](Phone_call.md)) – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
+Regardless of the type of follow-up you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – **Appointment** (see [Appointment](Appointment.md)), **Task** (see [Task](Task.md)) or **Phone Call** (see [Phone Call](Phone-call.md)) – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
 
 The dialog consists of a main section with general information about the follow-up, and five tabs with additional information.
 
-* [Description](Description_tab_follow-ups.md)
-* [Details](Details_tab_follow-ups.md)
-* [Participants](Participants_category.md)
-* [Links](Links_tab_follow-ups.md)
-* [More](More_tab_follow-ups.md)
+* [Description](Description-tab-follow-ups.md)
+* [Details](Details-tab-follow-ups.md)
+* [Participants](Participants-category.md)
+* [Links](Links-tab-follow-ups.md)
+* [More](More-tab-follow-ups.md)
 
 The main section contains the following essential information about the follow-up:
 
 **\[Type\]**
 
-Click the arrow next to this field ( ![icon](../media/Dialogboksknapper_pil_ned.bmp) ) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher](../chap01/Using_FastSearcher.md).
+Click the arrow next to this field ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher](../chap01/Using-FastSearcher.md).
 
 > [!NOTE]
 > It is the **\[Type\]** field which determines the type of follow-up in question, i.e. an appointment, task or phone call.
 
 \[Video meeting\]
 
-Click ![icon](../media/videomeeting_inactive.png) to set up a video meeting. The icon changes to ![icon](../media/videomeeting_active.png). See [Set up video meetings](video_meetings.md).
+Click ![icon](../media/videomeeting-inactive.png) to set up a video meeting. The icon changes to ![icon](../media/videomeeting-active.png). See [Set up video meetings](video-meetings.md).
 
 \[Company\]
 
@@ -55,7 +55,7 @@ Here you enter the name of the sale, if any, that the follow-up is linked to. If
 
 \[Time zone selector\]
 
-If time zones have been activated in SuperOffice Settings and maintenance, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field (see [Time zones](../chap06/Time_zones.md)).
+If time zones have been activated in SuperOffice Settings and maintenance, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field (see [Time zones](../chap06/Time-zones.md)).
 
 Start / End/Due / Duration
 
@@ -73,16 +73,16 @@ If you check **All day**, the time of the appointment is set to the period speci
 
 Location
 
-Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ( ![icon](../media/Dialogboksknapper_pil_ned.bmp) ) next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up. If you have specified a resource of type **Location** as a participant in the **Participants** tab, e.g. a meeting room, the resource is also displayed in this list box.
+Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up. If you have specified a resource of type **Location** as a participant in the **Participants** tab, e.g. a meeting room, the resource is also displayed in this list box.
 
 > [!TIP]
 > You can also simply enter an address for the location.
 
-Completed ![icon](../media/followup_notcompleted.png) ![icon](../media/followup_completed.png)
+Completed ![icon](../media/followup-notcompleted.png) ![icon](../media/followup-completed.png)
 
-Check here when the follow-up is completed. For more information, see [Mark activities as completed/not completed](Marking_activities_as_completed_not_completed.md).
+Check here when the follow-up is completed. For more information, see [Mark activities as completed/not completed](Marking-activities-as-completed-not-completed.md).
 
-Task ![icon](../../media/btn_Menu.png)
+Task ![icon](../../media/btn-Menu.png)
 
 Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as e-mail, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.
 
@@ -95,12 +95,12 @@ These fields show the date when the follow-up was first created and when it was 
 
 ## Related topics
 
-[The Description tab](Description_tab_follow-ups.md)
+[The Description tab](Description-tab-follow-ups.md)
 
-[The Details tab](Details_tab_follow-ups.md)
+[The Details tab](Details-tab-follow-ups.md)
 
-[The Participants tab](Participants_category.md)
+[The Participants tab](Participants-category.md)
 
-[The Links tab](Links_tab_follow-ups.md)
+[The Links tab](Links-tab-follow-ups.md)
 
-[The More tab](More_tab_follow-ups.md)
+[The More tab](More-tab-follow-ups.md)

@@ -6,19 +6,19 @@
 <td>Description</td>
 </tr>
 <tr>
-<td>![icon](../media/import_preview_icon_Company_New.bmp)</td>
+<td>![icon](../media/import-preview-icon-Company-New.bmp)</td>
 <td>The company does not already exist and will be added.</td>
 </tr>
 <tr>
-<td>![icon](../media/import_preview_icon_Company_Changed.bmp)</td>
+<td>![icon](../media/import-preview-icon-Company-Changed.bmp)</td>
 <td>The company already exists and will be updated.</td>
 </tr>
 <tr>
-<td>![icon](../media/import_preview_icon_Person_New.bmp)</td>
+<td>![icon](../media/import-preview-icon-Person-New.bmp)</td>
 <td>The contact does not already exist and will be added.</td>
 </tr>
 <tr>
-<td>![icon](../media/import_preview_icon_Person_Changed.bmp)</td>
+<td>![icon](../media/import-preview-icon-Person-Changed.bmp)</td>
 <td>The contact already exists and will be updated.</td>
 </tr>
 <tr>

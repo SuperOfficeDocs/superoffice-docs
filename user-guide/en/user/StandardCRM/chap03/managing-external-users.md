@@ -20,19 +20,19 @@ If you have been assigned the **Allow administration of external users** right i
     There are several ways to open the **Company** screen:
 
     * By clicking the **Company** button in the Navigator.
-    * By using the history list (see <a href="../chap01/Using_the_history_list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see [FastSearcher](../chap01/Using_FastSearcher.md)).
+    * By using the history list (see <a href="../chap01/Using-the-history-list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see [FastSearcher](../chap01/Using-FastSearcher.md)).
     * By double-clicking on a company in a search result or in a selection.
-2. Click ![icon](../../media/btn_Menu.png)**Task** &gt; **External users**. The **External users** dialog appears.
+2. Click ![icon](../../media/btn-Menu.png)**Task** &gt; **External users**. The **External users** dialog appears.
 
 Follow one of the procedures below:
 
-[Add an external user](#Legge_til_en_ekstern_bruker)
+[Add an external user](#Legge-til-en-ekstern-bruker)
 
-[Remove an external user](#Fjerne_en_ekstern_bruker)
+[Remove an external user](#Fjerne-en-ekstern-bruker)
 
-[Remove login for an external user](#Fjerne_p_logging_for_en_ekstern_bruker)
+[Remove login for an external user](#Fjerne-p-logging-for-en-ekstern-bruker)
 
-[Filter the list](#Filtrere_listen)
+[Filter the list](#Filtrere-listen)
 
 ## Add an external user
 

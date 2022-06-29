@@ -25,7 +25,7 @@ To quickly access a specific record (such as a request or contact), function or 
 
 **Tip**: You can also use the [keywords used in the quick search](rms.search.useQuickSearch.md#SearchForOtherRecords) to search for specific items like contacts or companies.
 
-When you click one of these buttons, you get access to various options, such as shortcuts, actions, history, favourites and search. See [Navigator options](Navigator_options.md).
+When you click one of these buttons, you get access to various options, such as shortcuts, actions, history, favourites and search. See [Navigator options](Navigator-options.md).
 
 <table style="margin-left: 4px;" data-cellspacing="0">
 
@@ -37,35 +37,35 @@ When you click one of these buttons, you get access to various options, such as 
 </thead>
 <tbody>
 <tr>
-<td><p>![icon](../../StandardCRM/media/Navigator_Dashboard.bmp)</p></td>
+<td><p>![icon](../../StandardCRM/media/Navigator-Dashboard.bmp)</p></td>
 <td><p>**Dashboard**: The dashboard provides you with an overview that can be tailored to your needs. See [Dashboard](ticket.mainMenu.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/nav_request.png)</p></td>
+<td><p>![icon](../media/nav-request.png)</p></td>
 <td><p>**Requests**: This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. See [Requests](ticket.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/nav_company.png)</p></td>
+<td><p>![icon](../media/nav-company.png)</p></td>
 <td><p>**Customers**: Here you can search for and create companies and contacts. See [Customers](customers.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/nav_selection.png)</p></td>
+<td><p>![icon](../media/nav-selection.png)</p></td>
 <td><p>**Selections**: You use selections to save a set of records, such as a set of requests or contacts that you want to work with later on and elsewhere in the system. See [Selections](selections.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/nav_kb.png)</p></td>
+<td><p>![icon](../media/nav-kb.png)</p></td>
 <td><p>**Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organise information for the customer. Among other things, it contains FAQs and reply templates. See [Knowledge Base](document.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/nav_statistics.png)</p></td>
+<td><p>![icon](../media/nav-statistics.png)</p></td>
 <td><p>**Statistics**: Here you can run standard reports and create new reports. See [Statistics](stat.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/nav_mailing.png)</p></td>
-<td><p>**Marketing**: From here you can create and send mailings (e-mails, SMS and documents) and create and publish forms. See [Getting started](../../Mailing/Helptopics/The_mailing_workflow.md).</p></td>
+<td><p>![icon](../media/nav-mailing.png)</p></td>
+<td><p>**Marketing**: From here you can create and send mailings (e-mails, SMS and documents) and create and publish forms. See [Getting started](../../Mailing/Helptopics/The-mailing-workflow.md).</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/nav_chat.png)</p></td>
+<td><p>![icon](../media/nav-chat.png)</p></td>
 <td><p>**Chat**: Opens the **Chat** screen, where you can respond to inquiries sent via the chat function on you company's web page. See [Chat](../../Chat/Chat.md).</p></td>
 </tr>
 </tbody>
@@ -73,7 +73,7 @@ When you click one of these buttons, you get access to various options, such as 
 
 ## See also
 
-[Navigator options](Navigator_options.md)
+[Navigator options](Navigator-options.md)
 
 [Buttons in the Top bar](rms.navigate.buttons.topbar.md)
 

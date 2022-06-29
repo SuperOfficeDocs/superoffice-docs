@@ -1,1 +1,1 @@
-![icon](../../media/TemplateEditOverview_old.png)
+![icon](../../media/TemplateEditOverview-old.png)

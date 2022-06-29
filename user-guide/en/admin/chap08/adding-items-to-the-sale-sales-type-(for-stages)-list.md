@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Sale – Type, Stages, Quote list
 
-When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit list item** dialog is not the same as described under [Add items](Adding_items.md).
+When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit list item** dialog is not the same as described under [Add items](Adding-items.md).
 
 > [!NOTE]
 > A quote belongs to a sale, and all sales have a sale type. In each sale type, you can define many of the properties of a quote, such as attachments, settings for approval, use of alternatives and templates.
@@ -26,7 +26,7 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 2. Select the required category for the sale type in the **Sale type category** list box.
 
     > [!TIP]
-    > You can create new options in addition to the predefined ones by adding items to the **Sale - Category (for sale type)** list in Settings and maintenance. Follow the procedure under [Add items](Adding_items.md).
+    > You can create new options in addition to the predefined ones by adding items to the **Sale - Category (for sale type)** list in Settings and maintenance. Follow the procedure under [Add items](Adding-items.md).
 
 3. In the **Estimated time for this sale process**, enter a duration for the sale type (number of weeks, days or months). When you create a new sale of this sale type, the sale date will be set relative to the time you enter here (today's date + estimated time).
 
@@ -43,10 +43,10 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 
 In the **Stages** tab, you do the following:
 
-1. In the **Stages used for this sale type** list, check off the stages you want to include for the sale type. This step is optional, but if you want to link the sale type to a sales guide, you should check at least two stages. For more details on how to create stages, see [Sale - Stage](Sale_-_Stage.md).
+1. In the **Stages used for this sale type** list, check off the stages you want to include for the sale type. This step is optional, but if you want to link the sale type to a sales guide, you should check at least two stages. For more details on how to create stages, see [Sale - Stage](Sale-Stage.md).
 2. Check **This sale type is linked to a guide** if you want all sales of this sale type to follow a [sales guide](../Sale/Sale.md).
 3. If you wish, select **Suggest moving the sale into next stage automatically**. When all follow-ups and documents for a stage have been completed, you will be asked if you want to move to the next stage.
-4. Check **This sale type has stakeholders** if you want to allow linking of stakeholders to sales of this sale type. See [Sale - Stakeholder Role](Sale_-_Sales_role_(Stakeholders).md).
+4. Check **This sale type has stakeholders** if you want to allow linking of stakeholders to sales of this sale type. See [Sale - Stakeholder Role](Sale-Sales-role-(Stakeholders).md).
 
 Quote attachments tab
 
@@ -58,7 +58,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 To add quote attachments:
 
 1. Click **Add**. The **Find** dialog opens.
-2. Search for the document(s) you want to add. See [Use search criteria](../chap06/using_search_criteria.md).
+2. Search for the document(s) you want to add. See [Use search criteria](../chap06/using-search-criteria.md).
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 
@@ -73,7 +73,7 @@ Here you specify the following settings for quotes with this sale type:
 * **Quote format template**: Check the template you want to use for the quote.
 
 > [!NOTE]
-> To learn about **quote templates**, <a href="../Quote_templates.pdf" target="_blank">click here</a>.
+> To learn about **quote templates**, <a href="../Quote-templates.pdf" target="_blank">click here</a>.
 
 * **Order confirmation template**: Check the template you want to use for the confirmation.
 

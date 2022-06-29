@@ -23,9 +23,9 @@ Click the link to upload the document.
 or  
 <!-- Fix reuse ID=a3 --> the document from Windows Explorer to the **Document** dialog.
 
-![icon](../media/Chap04_activities/DocFileUploadDragDrop.png)
+![icon](../media/Chap04-activities/DocFileUploadDragDrop.png)
 
-For more details, see [Create new documents](Creating_new_documents.md) and [Edit documents](Editing_documents.md).
+For more details, see [Create new documents](Creating-new-documents.md) and [Edit documents](Editing-documents.md).
 
 Publish
 

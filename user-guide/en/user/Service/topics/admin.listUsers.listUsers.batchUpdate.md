@@ -15,11 +15,11 @@ In this screen you can update several users at the same time.
 
 To do this:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings &gt; Users**.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Users**.
 2. Select the **Users** tab.
 3. Click the **Filter** list to apply a filter to the list.
 4. Check the users you want to update.
-5. Click the ![icon](../media/btn_Menu.png) menu button in the lower left corner, and select **Batch update** and **Change**.
+5. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner, and select **Batch update** and **Change**.
 6. In the **Batch update users** screen, check the box(es) for the property or properties you want to change, and then select the value you want in the associated field. The following options are available:
     * **Role**: Select a role you want to assign to the selected users. For more details about roles, see [Roles](admin.listRoles.md).
 

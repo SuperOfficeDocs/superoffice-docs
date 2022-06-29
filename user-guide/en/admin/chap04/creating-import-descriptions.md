@@ -18,10 +18,10 @@ To create an import description:
 
 1. Open the **Import** screen.  
     <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp_Import_liten.bmp) ).
+    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
 2. Click the **New** button at the top right of the screen. The **Import** screen is cleared.
 3. Specify a data file in the **Import file** field.
-4. Under **Field mapping**, specify which fields in the import file will be mapped to which fields in the SuperOffice database. (See [Field mapping](Field_mapping.md).)
+4. Under **Field mapping**, specify which fields in the import file will be mapped to which fields in the SuperOffice database. (See [Field mapping](Field-mapping.md).)
 5. Under **Import settings**, the following options are available:
 
 <!-- -->
@@ -35,9 +35,9 @@ To create an import description:
 
 <!-- -->
 
-1. To specify more advanced settings for the import, click the **Advanced** button. For more details, see [Specify advanced import settings](Specifying_advanced_import_settings.md).
+1. To specify more advanced settings for the import, click the **Advanced** button. For more details, see [Specify advanced import settings](Specifying-advanced-import-settings.md).
 
-2. Under **Handling of duplicates** you specify rules to cater for the existence of duplicates, i.e. if the same record exists in both the file you are importing and the database you are importing into. For more details, see [Duplicates](Duplicates_import.md).
+2. Under **Handling of duplicates** you specify rules to cater for the existence of duplicates, i.e. if the same record exists in both the file you are importing and the database you are importing into. For more details, see [Duplicates](Duplicates-import.md).
 
 3. When you have specified the required options, click the **Save** button.
 
@@ -47,4 +47,4 @@ To create an import description:
 4. Type the name for the new file in the dialog which opens, choose the folder you want to save it in and click **Save**.
 
 > [!NOTE]
-> You can also create a new import description by changing an existing description (see [Edit import descriptions](Editing_import_descriptions.md)) and saving it with a new name.
+> You can also create a new import description by changing an existing description (see [Edit import descriptions](Editing-import-descriptions.md)) and saving it with a new name.

@@ -25,7 +25,7 @@ To do this:
 1. Under **Add recipients**, click **Selection** or **Project**.
 2. Click in the field below and start typing the name of the selection or project you want to add. As you type, a dynamic list displays the matches.
 3. Click a selection or a project in the list.
-4. Click ![icon](../media/btn_Add.png). The selection or project is added to the **Recipient sources** list, and the **Recipients** list is updated.
+4. Click ![icon](../media/btn-Add.png). The selection or project is added to the **Recipient sources** list, and the **Recipients** list is updated.
 5. Repeat steps 1 through 4 to add more selections or projects.
 
 > [!NOTE]
@@ -38,12 +38,12 @@ You can add individual contacts from SuperOffice. To do this:
 1. Under **Add recipients**, click **Contact**.
 2. Click in the field below and start typing the name of the contact you want to add, in the field below. You can also enter a company name to display all contacts for a company.
 3. Select the contact you want from the list that appears.
-4. Click ![icon](../media/btn_Add.png). The contact is added to the **Recipient sources** list, and the **Recipients** list is updated.
+4. Click ![icon](../media/btn-Add.png). The contact is added to the **Recipient sources** list, and the **Recipients** list is updated.
 5. Repeat steps 2-5 to add more contacts. Additional contacts will be added to the same row in the **Recipient sources** list, and the number of contacts will display in the **Name** column.
 
 ## Import a list of recipients (contacts) from an external file
 
-You can import recipients from an [external comma-separated file](Create_address_list.md) (.txt, .csv or similar).
+You can import recipients from an [external comma-separated file](Create-address-list.md) (.txt, .csv or similar).
 
 > [!NOTE]
 > When you import a list of names and e-mail addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies will be listed in the **Company** column in the **Recipients** list. Any names/e-mail addresses that are **not** found in SuperOfffice, will be filtered out and not included in the mailing. This is due to GDPR regulations.
@@ -52,12 +52,12 @@ To do this:
 
 1. Click **Select file**.
 2. Locate the relevant file (.txt, .csv or similar text format).
-3. Click ![icon](../media/btn_Add.png). The list is added to the **Recipient sources** list, and the **Recipients** list is updated.
+3. Click ![icon](../media/btn-Add.png). The list is added to the **Recipient sources** list, and the **Recipients** list is updated.
 4. Repeat steps 2-4 to add more recipients. Additional recipients will be added to the same row in the **Recipient sources** list. The total number of recipients will display in the **Name** column.
 
 <!-- Fix reuse ID=a1 -->
 
-Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the template variables **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty variables in your mailings, make sure to [preview the mailing](test_mailing.md) first.
+Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the template variables **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty variables in your mailings, make sure to [preview the mailing](test-mailing.md) first.
 
 ## Recipient options
 
@@ -89,8 +89,8 @@ In order to do this:
 
 1. Click a recipient in the **Recipients** list.
 2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables have been replaced by actual contact data (name, company etc.).
-3. Click links to check that they work, but remember to reset them if they are tracked. See [Reset counters after testing](Reset_counters_after_testing.md).
-4. Click ![icon](../media/btn_Cancel.png) to close the **Preview** window.
+3. Click links to check that they work, but remember to reset them if they are tracked. See [Reset counters after testing](Reset-counters-after-testing.md).
+4. Click ![icon](../media/btn-Cancel.png) to close the **Preview** window.
 
 ## Review and update the Recipients list
 
@@ -101,7 +101,7 @@ In addition, you can click the **Update list** button below the **Recipients** l
 > [!NOTE]
 > The list only displays the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
 
-Click **Next** to go to [Step 5: Confirm](Step_5__Confirm_email.md). You can still revisit the **Recipients** step to edit the recipients list.
+Click **Next** to go to [Step 5: Confirm](Step-5-Confirm-email.md). You can still revisit the **Recipients** step to edit the recipients list.
 
 > [!TIP]
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.

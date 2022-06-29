@@ -15,7 +15,7 @@ Before linking a heading to an item, you need to add the headings you require:
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon](../media/pil_ned.bmp) ) and select the required list.
+2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list.
 
 3. Check **Use grouping and filtering by user group for this list** (top right).
 
@@ -34,4 +34,4 @@ Before linking a heading to an item, you need to add the headings you require:
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
 
-When you have added the required headings, choose which headings each item will be displayed under. This is described under [Group items under headings](Grouping_items_under_headings.md).
+When you have added the required headings, choose which headings each item will be displayed under. This is described under [Group items under headings](Grouping-items-under-headings.md).

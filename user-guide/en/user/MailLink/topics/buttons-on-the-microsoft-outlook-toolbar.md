@@ -21,16 +21,16 @@ These buttons appear on the Microsoft Outlook or Lotus Notes toolbar:
 <td><strong>Function</strong></p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/Archive_to_SuperOffice_CRM.png)</p></td>
-<td>**Archive e-mail**: see <a href="Archiving_e-mails_to_SuperOffice_Sales_Marketing.md" style="font-size: 12pt;">Archiving e-mails to SuperOffice CRM</a>.</p></td>
+<td><p>![icon](../media/Archive-to-SuperOffice-CRM.png)</p></td>
+<td>**Archive e-mail**: see <a href="Archiving-e-mails-to-SuperOffice-Sales-Marketing.md" style="font-size: 12pt;">Archiving e-mails to SuperOffice CRM</a>.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/Search_for_sender_in_SuperOffice_CRM.png)</p></td>
-<td><strong>**Search for sender**</strong>: see <a href="Searching_for_the_sender_of_an_e-mail.md" style="font-size: 12pt;">Searching for the sender of an e-mail</a>.</p></td>
+<td><p>![icon](../media/Search-for-sender-in-SuperOffice-CRM.png)</p></td>
+<td><strong>**Search for sender**</strong>: see <a href="Searching-for-the-sender-of-an-e-mail.md" style="font-size: 12pt;">Searching for the sender of an e-mail</a>.</p></td>
 </tr>
 <tr>
-<td><p>![icon](../media/SuperOffice_button.png)</p></td>
-<td>Click the small arrow to the right of the **SuperOffice** button to open the <strong>SuperOffice CRM options</strong> dialog. See <a href="E-mail_options_dialog.md" style="font-size: 12pt;">SuperOffice CRM options dialog</a>.</p></td>
+<td><p>![icon](../media/SuperOffice-button.png)</p></td>
+<td>Click the small arrow to the right of the **SuperOffice** button to open the <strong>SuperOffice CRM options</strong> dialog. See <a href="E-mail-options-dialog.md" style="font-size: 12pt;">SuperOffice CRM options dialog</a>.</p></td>
 </tr>
 </tbody>
 </table>

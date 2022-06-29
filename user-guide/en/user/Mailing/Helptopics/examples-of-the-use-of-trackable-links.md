@@ -24,7 +24,7 @@ Trackable links can be used in a variety of interesting ways:
 * **Unsubscribe**: In the content editor, you can insert a link for unsubscribing from a specific mailing type. This means that the customer no longer receives this mailing type from SuperOffice Marketing, regardless of which recipient list is used for the mailing.  
     An alternative to this unsubscribe link is to let the customer unsubscribe from individual recipient lists, such as the "Product A newsletter" list, so that they will still receive mailings from other recipient lists.  
     You do this by adding a link (for example "Click here if you no longer wish to receive our newsletters"), which the customer can click in order to remove himself/herself from the recipient list. The customer is then removed from the selection you used as a basis for the mailing.  
-    If a newsletter is sent only to contacts with the "Newsletter" interest, you can define that this interest should be removed for recipients who click the link. See [Define link actions](Define_link_actions.md).
+    If a newsletter is sent only to contacts with the "Newsletter" interest, you can define that this interest should be removed for recipients who click the link. See [Define link actions](Define-link-actions.md).
 
 > [!TIP]
 > In order to monitor who cancels their subscription, you can also ensure that those who click the link are also added to a separate selection named, for example, "Newsletter 2014 – cancelled subscriptions". It is possible to add multiple actions to the same link.

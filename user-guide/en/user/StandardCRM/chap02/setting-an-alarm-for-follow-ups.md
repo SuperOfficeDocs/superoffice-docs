@@ -11,10 +11,10 @@ language: en
 
 # Set alarms for follow-ups
 
-To be notified of a follow-up in advance, check the **Alarm** checkbox in the **Details** tab in the **Appointment**, **Task** or **Phone Call** dialog (see [The Dialog for follow-ups](Dialog_for_followups.md)). The field next to the checkbox specifies the number of hours and minutes before the follow-up is due. The default is 10 minutes, but you can change it.
+To be notified of a follow-up in advance, check the **Alarm** checkbox in the **Details** tab in the **Appointment**, **Task** or **Phone Call** dialog (see [The Dialog for follow-ups](Dialog-for-followups.md)). The field next to the checkbox specifies the number of hours and minutes before the follow-up is due. The default is 10 minutes, but you can change it.
 
 > [!NOTE]
-> If you edit a repeating follow-up, you are asked if you want to change only this instance, or this and all future instances. See [Edit repeating follow-ups](Editing_recurring_follow-ups.md).
+> If you edit a repeating follow-up, you are asked if you want to change only this instance, or this and all future instances. See [Edit repeating follow-ups](Editing-recurring-follow-ups.md).
 
 When the notification time arrives, the **Alarm** dialog opens, containing information about the company, date, time, type, priority and location. This dialog contains the following options:
 
@@ -23,4 +23,4 @@ When the notification time arrives, the **Alarm** dialog opens, containing infor
 * Check **Remind me in 5 minutes** and click **OK** to repeat the alarm.
 
 > [!NOTE]
-> To avoid the sound of the alarm disturbing your colleagues, you can set it to switch off after a certain time. To do this, go to ![icon](../media/globalmenu_personalsettings_small.png)**Personal settings &gt; Preferences &gt; Diary** and edit the **Silent after** option.
+> To avoid the sound of the alarm disturbing your colleagues, you can set it to switch off after a certain time. To do this, go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Diary** and edit the **Silent after** option.

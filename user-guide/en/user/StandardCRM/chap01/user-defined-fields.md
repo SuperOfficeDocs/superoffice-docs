@@ -15,12 +15,12 @@ Several sections of SuperOffice CRM, for example, the **Company** screen, contai
 
 ## Related topics
 
-[The More tab (Company)](../chap03/Create_company_More_tab.md)
+[The More tab (Company)](../chap03/Create-company-More-tab.md)
 
-[The More tab (Contact)](../person/contactcard_tab_more.md)
+[The More tab (Contact)](../person/contactcard-tab-more.md)
 
-[The More tab (Project)](../chap05/More_tab_Project.md)
+[The More tab (Project)](../chap05/More-tab-Project.md)
 
-[The More tab (follow-ups)](../chap02/More_tab_follow-ups.md)
+[The More tab (follow-ups)](../chap02/More-tab-follow-ups.md)
 
-[The More tab (Document)](../chap02/More_tab_Document.md)
+[The More tab (Document)](../chap02/More-tab-Document.md)

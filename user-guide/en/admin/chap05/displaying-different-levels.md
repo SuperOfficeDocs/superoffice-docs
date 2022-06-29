@@ -20,4 +20,4 @@ You can choose which settings will be displayed in the list, based on the level 
 > [!NOTE]
 > Settings for the system level are always displayed.
 
-You can use these checkboxes to show one, two or all levels. For more information about the different fields, see [Levels for preference settings](Levels_for_preference_settings.md).
+You can use these checkboxes to show one, two or all levels. For more information about the different fields, see [Levels for preference settings](Levels-for-preference-settings.md).

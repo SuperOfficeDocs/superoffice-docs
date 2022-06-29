@@ -30,7 +30,7 @@ To view existing selections, do as follows:
 ## Perform batch tasks on records in a selection
 
 1. In the list, select as many records as you want.
-2. Click the ![icon](../media/btn_Menu.png) menu button in the lower left corner, and select **Batch management**.
+2. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner, and select **Batch management**.
 3. Choose an action that you want to perform for all the records at once. Depending on the type of selection, you can, for example, add the same message to multiple requests, delete the selected records or merge records.
 
 ## What would you like to do now?

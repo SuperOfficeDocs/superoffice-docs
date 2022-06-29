@@ -21,13 +21,13 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 ## Other buttons
 
-* **Remove members**. This option is only available for static selections. See [Remove members from static selections](Removing_members_from_static_selections.md). To remove specific members of the selection, select the relevant members, right-click and select **Remove**.
+* **Remove members**. This option is only available for static selections. See [Remove members from static selections](Removing-members-from-static-selections.md). To remove specific members of the selection, select the relevant members, right-click and select **Remove**.
 
 * **Count: number**, The number of members in the active selection.
 
 * **Show all**. Click here to display all selection members. <!-- Fix reuse ID=a1 -->
 
-    By default the list only displays the 100 first records in the selection. To change this value, go to ![icon](../media/globalmenu_personalsettings_small.png)**Personal settings &gt; Preferences &gt; Functions &gt; Archive page size**.
+    By default the list only displays the 100 first records in the selection. To change this value, go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Functions &gt; Archive page size**.
 
 <!-- -->
 
@@ -35,8 +35,8 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 ## Related topics
 
-[Perform tasks using selections](Performing_tasks_using_selections.md)
+[Perform tasks using selections](Performing-tasks-using-selections.md)
 
-[Use filters in the section tabs](../chap01/Use_filters_in_the_section_tabs.md)
+[Use filters in the section tabs](../chap01/Use-filters-in-the-section-tabs.md)
 
-[Create selections](Create_selections.md)
+[Create selections](Create-selections.md)

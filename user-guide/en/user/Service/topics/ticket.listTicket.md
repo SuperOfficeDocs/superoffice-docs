@@ -20,7 +20,7 @@ When you double-click a row in the search results screen (see [View search resul
 
 ## Request header
 
-The header of the request contains the properties defined when the request was created (see [Create requests](ticket.newTicket.md)). The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon](../media/favourite_inactive.png) to set the request as a favourite ( ![icon](../media/favourite_active.png) ). The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
+The header of the request contains the properties defined when the request was created (see [Create requests](ticket.newTicket.md)). The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon](../media/favourite-inactive.png) to set the request as a favourite ( ![icon](../media/favourite-active.png) ). The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
 
 ## Task buttons for requests
 
@@ -37,7 +37,7 @@ The toolbar contains the following options:
 
 * Tags:
 
-* **Actions** ( ![icon](../media/btn_Menu.png) ): Click this button to access the following options:
+* **Actions** ( ![icon](../media/btn-Menu.png) ): Click this button to access the following options:
 
 * -   **Reply** / **Reply to all**: Click here to respond to the customer and/or other people linked to the request. See [Reply to customer](ticket.showListTickets.addMessage.md). This function is also available at the bottom of the **Messages** tab.
     * **Edit request**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to ask a colleague for advice. See [Ask another request handler for help](ticket.showListTickets.askForHelp.md).
@@ -52,9 +52,9 @@ The toolbar contains the following options:
 
 The **Messages** tab displays the messages related to the request.
 
-You can change how many messages are displayed, in ![icon](../media/globalmenu_PersonalSettings_small.png) **Personal settings**. <!-- Fix reuse ID=a2 -->
+You can change how many messages are displayed, in ![icon](../media/globalmenu-PersonalSettings-small.png) **Personal settings**. <!-- Fix reuse ID=a2 -->
 
-1. Select ![icon](../media/globalmenu_PersonalSettings_small.png)**Personal settings &gt; Settings**.
+1. Select ![icon](../media/globalmenu-PersonalSettings-small.png)**Personal settings &gt; Settings**.
 2. Select the **Interface** tab.
 3. Specify the number of messages in the **No. of expanded messages** field.
 4. Click **OK**.
@@ -66,9 +66,9 @@ There are basically three types of messages:
 * internal notes about the request, such as questions to a colleague
 
 > [!TIP]
-> Internal messages are marked with ![icon](../media/message_internal.png).
+> Internal messages are marked with ![icon](../media/message-internal.png).
 
-Click ![icon](../media/btn_Menu.png) on a message to access additional options for the message:
+Click ![icon](../media/btn-Menu.png) on a message to access additional options for the message:
 
 * **Change**: Click here to edit or delete the message. See [Edit message](ticket.showListTickets.editMessage.md).
 * **Forward**: Click here to forward the message. See [Forward messages to external parties](ticket.showListTickets.forward.md).
@@ -79,7 +79,7 @@ Click ![icon](../media/btn_Menu.png) on a message to access additional options f
 
 At the bottom of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.
 
-**Tip**: Go to [Efficient handling of requests using AI](AI_requests.md) to read more about language detection, translation, sentiment analysis and automatic categorization.
+**Tip**: Go to [Efficient handling of requests using AI](AI-requests.md) to read more about language detection, translation, sentiment analysis and automatic categorization.
 
 ## Details tab
 
@@ -87,6 +87,6 @@ The **Details** tab contains an overview of the request.
 
 ## Related topics
 
-[Efficient handling of requests using AI](AI_requests.md)
+[Efficient handling of requests using AI](AI-requests.md)
 
 [Autosave](ticket.autosave.md)

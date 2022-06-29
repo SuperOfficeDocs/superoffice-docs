@@ -11,19 +11,19 @@ language: en
 
 # Activities in SuperOffice CRM
 
-![icon](../media/Chap04_activities/30_chap4_activities-detail.bmp)
+![icon](../media/Chap04-activities/30-chap4-activities-detail.bmp)
 
-The **Activities** section tab is available in the **Company** screen, the **Contact** screen, the **Project** screen, the **Diary** screen and the **Sale** screen. You create activities using the ![icon](../media/globalmenu_new.png)**New** menu in the top bar, or by double-clicking in the section tab.
+The **Activities** section tab is available in the **Company** screen, the **Contact** screen, the **Project** screen, the **Diary** screen and the **Sale** screen. You create activities using the ![icon](../media/globalmenu-new.png)**New** menu in the top bar, or by double-clicking in the section tab.
 
-* The **Activities** section tab in the **Company** screen displays activities linked to the company in question. See [Activities (Company)](../chap03/Activities_Contact.md).
+* The **Activities** section tab in the **Company** screen displays activities linked to the company in question. See [Activities (Company)](../chap03/Activities-Contact.md).
 
-* The **Activities** section tab in the **Contact** screen displays activities linked to the contact in question. See [Activities (Contact)](../person/contact_secttab_activities.md).
+* The **Activities** section tab in the **Contact** screen displays activities linked to the contact in question. See [Activities (Contact)](../person/contact-secttab-activities.md).
 
-* The **Activities** section tab in the **Project** and **Sale** screens displays activities linked to the project or sale in question. See [Activities (Project)](../chap05/Activities_Project.md) and [Activities section tab (Sale)](../sale/activities_sale.md).
+* The **Activities** section tab in the **Project** and **Sale** screens displays activities linked to the project or sale in question. See [Activities (Project)](../chap05/Activities-Project.md) and [Activities section tab (Sale)](../sale/activities-sale.md).
 
-* The **Activities** section tab in the **Diary** screen displays all your uncompleted activities. See [Activities section tab (Diary)](../chap06/activities_list.md).
+* The **Activities** section tab in the **Diary** screen displays all your uncompleted activities. See [Activities section tab (Diary)](../chap06/activities-list.md).
 
-* Activities are also displayed in the different views in the **Diary** screen. See [Tabs in the Diary screen](../chap06/Tabs_in_the_Diary_screen.md).
+* Activities are also displayed in the different views in the **Diary** screen. See [Tabs in the Diary screen](../chap06/Tabs-in-the-Diary-screen.md).
 
 There are two types of activities – documents and follow-ups. Follow-ups is a collective term for appointments, phone calls and tasks. In addition, mailings, form submissions and chat records are displayed in the **Activities** section tab.
 
@@ -50,13 +50,13 @@ The table below illustrates the different kinds of activities:
 <td></td>
 </tr>
 <tr>
-<td><p>![icon](../media/Knapperad_Avtale.bmp)</p></td>
-<td><p>![icon](../media/Knapperad_Oppgave.bmp)</p></td>
-<td><p>![icon](../media/Knapperad_Samtale.bmp)</p></td>
-<td><p>![icon](../media/Knapperad_Skriv.bmp)</p></td>
-<td><p>![icon](../media/Knapperad_E-post.bmp)</p></td>
-<td><p>![icon](../media/Knapperad_Mailings.bmp) ![icon](../media/Knapperad_Forms.bmp)</p></td>
-<td><p>![icon](../media/Knapperad_Chat.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Avtale.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Oppgave.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Samtale.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Skriv.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-E-post.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Mailings.bmp) ![icon](../media/Knapperad-Forms.bmp)</p></td>
+<td><p>![icon](../media/Knapperad-Chat.bmp)</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,23 +80,23 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 
 * [Appointment](Appointment.md)
 * [Task](Task.md)
-* [Phone Call](Phone_call.md)
+* [Phone Call](Phone-call.md)
 * [Work with documents](Write.md)
-* [Compose an e-mail](Compose_an_e-mail_(Web).md)
+* [Compose an e-mail](Compose-an-e-mail-(Web).md)
 * [Chat](../../Chat/Chat.md)
 
 ## What would you like to do now?
 
-[Use filters in the section tabs](../chap01/Use_filters_in_the_section_tabs.md)
+[Use filters in the section tabs](../chap01/Use-filters-in-the-section-tabs.md)
 
-[Delete activities](Deleting_activities.md)
+[Delete activities](Deleting-activities.md)
 
-[Dial contacts](Dialling_Contacts.md)
+[Dial contacts](Dialling-Contacts.md)
 
-[Change Completed status of an activity](Marking_activities_as_completed_not_completed.md)
+[Change Completed status of an activity](Marking-activities-as-completed-not-completed.md)
 
-[Add follow-ups (appointments, tasks and phone calls)](Add_activities.md)
+[Add follow-ups (appointments, tasks and phone calls)](Add-activities.md)
 
 [Work with documents](Write.md)
 
-[Compose an e-mail](Compose_an_e-mail_(Web).md)
+[Compose an e-mail](Compose-an-e-mail-(Web).md)

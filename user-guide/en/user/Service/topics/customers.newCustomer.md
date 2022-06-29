@@ -19,10 +19,10 @@ Normally, contacts are registered by the system when they send in mails, but the
 
 3. In the **New e-mail address** field, enter the address itself to the left and a name to identify the e-mail address (for instance "work", "private" etc) in the field on the right.
 
-4. Click ![icon](../media/btn_add.png) to add the e-mail address. You can add multiple addresses.
+4. Click ![icon](../media/btn-add.png) to add the e-mail address. You can add multiple addresses.
 
     > [!TIP]
-    > You can delete an e-mail address by clicking **Delete** ( ![icon](../media/btn_delete.png) ) on the right of the row.
+    > You can delete an e-mail address by clicking **Delete** ( ![icon](../media/btn-delete.png) ) on the right of the row.
 
 5. Enter the phone number and/or mobile number.
 
@@ -44,7 +44,7 @@ Normally, contacts are registered by the system when they send in mails, but the
     * In the **Business**field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 
 13. In the **Company** field, you can specify which company the contact is linked to. To search for a company, start typing its name, and select the company from the list of results.  
-    Click ![icon](../media/btn_add_company.png) to create a new company. See [Create companies](customers.newCompany.md).
+    Click ![icon](../media/btn-add-company.png) to create a new company. See [Create companies](customers.newCompany.md).
 
     > [!TIP]
     > You can also click **Automatic** to select a company automatically based on the domain in the e-mail address, i.e. what appears after "@". The domain must be registered on a company (see [Create companies](customers.newCompany.md)).

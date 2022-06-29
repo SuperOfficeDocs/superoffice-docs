@@ -13,7 +13,7 @@ language: en
 
 To create a new priority:
 
-1. Select ![icon](../media/globalmenu_settings_small.png)**System settings** &gt; **Priorities**. The **Priorities** screen appears.
+1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Priorities**. The **Priorities** screen appears.
 2. Click the **New priority** button. This takes you to the **Priority properties** screen.
 3. In the **Properties** tab, enter the following information:
     * **Name**: Enter a descriptive name for the priority.
@@ -41,5 +41,5 @@ To create a new priority:
 
     * **New request**: If you check here, the escalation chain is controlled as specified in the list box on the right when a new request with this priority arrive in the system.
 
-    * **Deadline**: Click ![icon](../media/calendar.png), and specify the deadline that requests with this priority should have. This value is calculated on the basis of the time frame for the priority and saved for each request. The result specifies when the request's time frame expires. For example, if the time frame is from Monday to Friday, 09.00 to 17.00 and the request has a deadline of 2 hours, a request registered at 16.00 on Friday will have a deadline of 10.00 on the following Monday. You can choose to display the resulting value by configuring your profile, by clicking ![icon](../media/btn_editelementprofile.png) in the **Request** screen or in the search results screen and adding the **Deadline** field. See [Personal profiles](admin.listProfiles.personalProfile.md).
+    * **Deadline**: Click ![icon](../media/calendar.png), and specify the deadline that requests with this priority should have. This value is calculated on the basis of the time frame for the priority and saved for each request. The result specifies when the request's time frame expires. For example, if the time frame is from Monday to Friday, 09.00 to 17.00 and the request has a deadline of 2 hours, a request registered at 16.00 on Friday will have a deadline of 10.00 on the following Monday. You can choose to display the resulting value by configuring your profile, by clicking ![icon](../media/btn-editelementprofile.png) in the **Request** screen or in the search results screen and adding the **Deadline** field. See [Personal profiles](admin.listProfiles.personalProfile.md).
 6. Click **OK**. The priority is created. Now you can, for example, link escalation levels to this priority. See [Work with escalation levels](admin.listPriorities.editAlert.md).

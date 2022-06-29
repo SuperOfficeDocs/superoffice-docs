@@ -11,7 +11,7 @@ language: en
 
 # Requests
 
-**Requests** is the main feature of SuperOffice Service. This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. When you open SuperOffice Service or click ![icon](../../StandardCRM/media/Navigator_Dashboard_small.bmp)**Dashboard** in the Navigator, you arrive at the [Dashboard](ticket.mainMenu.md), which provides an overview of request handling. Click ![icon](../media/nav_request_small.png)**Requests** to show relevant options for requests.
+**Requests** is the main feature of SuperOffice Service. This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. When you open SuperOffice Service or click ![icon](../../StandardCRM/media/Navigator-Dashboard-small.bmp)**Dashboard** in the Navigator, you arrive at the [Dashboard](ticket.mainMenu.md), which provides an overview of request handling. Click ![icon](../media/nav-request-small.png)**Requests** to show relevant options for requests.
 
 ## What do you want to do now?
 
@@ -27,4 +27,4 @@ language: en
 
 [Process requests](ticket.showListTickets.md)
 
-[Efficient handling of requests using AI](AI_requests.md)
+[Efficient handling of requests using AI](AI-requests.md)

@@ -14,7 +14,7 @@ language: en
 1. Click **New** on the top bar and select **Company**.  
     An empty company card opens. <!-- Fix reuse ID=a3 -->
 
-    ![icon](../media/Chap03_contacts/18_chap3_NewCompany.bmp)
+    ![icon](../media/Chap03-contacts/18-chap3-NewCompany.bmp)
 
     Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. For more details, see [Duplicates](../chap01/Duplicates.md).
 
