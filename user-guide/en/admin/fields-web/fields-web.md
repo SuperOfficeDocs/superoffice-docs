@@ -46,43 +46,13 @@ Your company sells software and user support services. The user support departme
 
 You can then add these fields to the **Company** screen:
 
-<table style=" vertical-align:top; margin-top:5px; width:100%; max-width:79.348%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>Field name</p></td>
-<td><p>Type</p></td>
-<td><p>**Description**</p></td>
-</tr>
-<tr>
-<td><p>Number of PCs</p></td>
-<td><p>Number</p></td>
-<td><p>A number field in which you can register the number of PCs.</p></td>
-</tr>
-<tr>
-<td><p>Number of employees</p></td>
-<td><p>Number</p></td>
-<td><p>A number field in which you can register the number of employees.</p></td>
-</tr>
-<tr>
-<td><p>Maintenance agreement</p></td>
-<td><p>List</p></td>
-<td><p>A list of the various types of maintenance agreement you offer. The list must [be created in the Lists screen](../chap08/Adding-user-defined-lists-web.md).</p></td>
-</tr>
-<tr>
-<td><p>The contract expires</p></td>
-<td><p>Date</p></td>
-<td><p>A date field in which you can register the expiry date for the contract.</p></td>
-</tr>
-<tr>
-<td><p>Application A</p>
-<p>Application B</p>
-<p>Application C</p></td>
-<td><p>Checkbox</p></td>
-<td><p>Three checkboxes where you can check the applications that the customer has purchased.</p></td>
-</tr>
-</tbody>
-</table>
+| Field name | Type | Description |
+|---|---|---|
+| Number of PCs | Number | A number field in which you can register the number of PCs. |
+| Number of employees | Number | A number field in which you can register the number of employees. |
+| Maintenance agreement | List | A list of the various types of maintenance agreement you offer. The list must [be created in the Lists screen](../chap08/Adding-user-defined-lists-web.md). |
+| The contract expires | Date | A date field in which you can register the expiry date for the contract. |
+| Application A; Application B; Application C | Checkbox | Three checkboxes where you can check the applications that the customer has purchased. |
 
 > [!NOTE]
 > The fields you add will be displayed in the **More** tab in the **Company** screen. If you want to display them on the company card itself, [you specify them as *page 1 fields*](page-1-fields-web.md).
@@ -93,29 +63,13 @@ When you create a sale, it may be practical to enter the products you have sold 
 
 You can then add these fields to the **Sale** screen:
 
-<table style=" vertical-align:top; margin-top:5px; width:100%; max-width:73.345%;" data-cellspacing="0">
+| Field name | Type | Description |
+|---|---|---|
+| Product | Long text | A text field in which you can type in the name of the product that was sold. |
+| Quantity | Number | A number field in which you can register the number of units sold. |
 
-<tbody>
-<tr>
-<td><p>Field name</p></td>
-<td><p>Type</p></td>
-<td><p>**Description**</p></td>
-</tr>
-<tr>
-<td><p>Product</p></td>
-<td><p>Long text</p></td>
-<td><p>A text field in which you can type in the name of the product that was sold. > [!TIP]
-> Here, you can also use a list field if you have created a list of the products that you sell.</p></td>
-</tr>
-<tr>
-<td><p>Quantity</p></td>
-<td><p>Number</p></td>
-<td><p>A number field in which you can register the number of units sold.</p></td>
-</tr>
-</tbody>
-</table>
-
-## 
+> [!TIP]
+> Here, you can also use a list field if you have created a list of the products that you sell.
 
 ## For example: User-defined fields for projects
 
@@ -123,20 +77,5 @@ You want the budget for a project to be easily visible to the project members.
 
 You can then add these fields to the **Project** screen:
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Field name</p></td>
-<td><p>Type</p></td>
-<td><p>**Description**</p></td>
-<td><p>**Remarks**</p></td>
-</tr>
-<tr>
-<td><p>Budget</p></td>
-<td><p>Decimal</p></td>
-<td><p>A number field in which you can enter a sum.</p></td>
-<td><p>Choose for the field to be displayed on page 1 as described in [Select page 1 fields](page-1-fields-web.md).</p></td>
-</tr>
-</tbody>
-</table>
+| Field name | Type | Description | Remarks |
+| Budget | Decimal | A number field in which you can enter a sum. | Choose for the field to be displayed on page 1 as described in [Select page 1 fields](page-1-fields-web.md). |

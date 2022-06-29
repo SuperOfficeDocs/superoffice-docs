@@ -13,47 +13,35 @@ language: en
 
 The following gives you examples of how to use the parameters.
 
-## Example with a central ODBC database with Data Source Name SuperOffice, not Travel:
+## Example with a central ODBC database with Data Source Name SuperOffice, not Travel
 
-<table>
-<tbody>
-<tr>
-<td><p>INI file</p></td>
-<td><p>Parameters</p></td>
-</tr>
-<tr>
-<td>SuperOffice.ini</td>
-<td><p>[SuperOffice]</p>
-<p>Archivepath=\\Server\SuperOffice\SO-ARC</p>
-<p>Datapath=ODBC:SuperOffice</p></td>
-</tr>
-</tbody>
-</table>
+**SuperOffice.ini:**
 
-## Example with a central ODBC database, Data Source Name Saleserver, document archive and templates in different locations and Travel installed with a local ODBC database (MSDE or Sybase):
+```txt
+[SuperOffice]
+Archivepath=\\Server\SuperOffice\SO-ARC
+Datapath=ODBC:SuperOffice
+```
 
-<table>
-<tbody>
-<tr>
-<td><p>INI file</p></td>
-<td><p>Parameters</p></td>
-</tr>
-<tr>
-<td>SuperOffice.ini</td>
-<td><p>[SuperOffice]</p>
-<p>Archivepath=\\Server2\SuperOffice\SO-ARC</p>
-<p>Datapath=ODBC:Saleserver</p>
-<p>Templatepath=\\Server3\COMMON\TEMPLATE</p></td>
-</tr>
-<tr>
-<td>SOUSER.INI</td>
-<td><p>[SuperOffice]</p>
-<p>Travel=TRUE</p>
-<p>Local-archivepath=C:\"username"\AppData\Local\SuperOffice\So-Local</p>
-<p>Local-datapath=ODBC:SuperOfficeLocal</p></td>
-</tr>
-</tbody>
-</table>
+## Example with a central ODBC database, Data Source Name Saleserver, document archive and templates in different locations and Travel installed with a local ODBC database (MSDE or Sybase)
+
+**SuperOffice.ini:**
+
+```txt
+[SuperOffice]
+Archivepath=\\Server2\SuperOffice\SO-ARC
+Datapath=ODBC:Saleserver
+Templatepath=\\Server3\COMMON\TEMPLATE 
+```
+
+**SOUSER.INI:**
+
+```txt
+[SuperOffice]
+Travel=TRUE
+Local-archivepath=C:\"username"\AppData\Local\SuperOffice\So-Local
+Local-datapath=ODBC:SuperOfficeLocal
+```
 
 > [!TIP]
-> You can find the latest information about, among other things, settings in **SuperOffice.ini** and **SOUSER.INI** at <a href="https://docs.superoffice.com/onsite/travel/index.md" target="_blank">https://docs.superoffice.com/onsite/travel/index.md</a>.
+> You can find the latest information about, among other things, settings in **SuperOffice.ini** and **SOUSER.INI** [in the onsite section](../../../../docs//onsite/travel/index.md).

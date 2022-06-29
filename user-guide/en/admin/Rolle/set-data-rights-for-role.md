@@ -26,47 +26,9 @@ To set data rights for a role:
 4. Click the arrow (![icon](../media/pil-ned.bmp) ) next to the right you want to change, and select the required right.  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a3 -->  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a4 -->
-    <table data-cellspacing="0">
-    
-    <tbody>
-    <tr>
-    <td>Data owned by</td>
-    <td>Explanation</td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    <tr>
-    <td>
-    <td>
-    </tr>
-    </tbody>
-    </table>
+
+    Data owned by
+    Explanation
 
     \* Associates
 
@@ -74,41 +36,13 @@ To set data rights for a role:
 
     You can choose from these rights:
 
-    <table data-cellspacing="0" style="width:100%; max-width:36.468%">
-    
-    <tbody>
-    <tr>
-    <td><p>Name</p></td>
-    <td><p>Rights</p></td>
-    <td><p>Tooltips</p></td>
-    </tr>
-    <tr>
-    <td><p>None</p></td>
-    <td><p>No rights</p></td>
-    <td><p> </p></td>
-    </tr>
-    <tr>
-    <td><p>Read</p></td>
-    <td><p>Read rights</p></td>
-    <td><p>R</p></td>
-    </tr>
-    <tr>
-    <td><p>Create</p></td>
-    <td><p>Read and create rights</p></td>
-    <td><p>CR</p></td>
-    </tr>
-    <tr>
-    <td><p>Update</p></td>
-    <td><p>Read, create and update rights</p></td>
-    <td><p>CRU</p></td>
-    </tr>
-    <tr>
-    <td><p>Delete</p></td>
-    <td><p>Read, create, update and delete rights</p></td>
-    <td><p>CRUD</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Name | Rights | Tooltips |
+    |---|---|---|
+    | None | No rights | |
+    | Read | Read rights | R |
+    | Create | Read and create rights | CR |
+    | Update | Read, create and update rights | CRU |
+    | Delete | Read, create, update and delete rights | CRUD |
 
     **C** = Create, **R** = Read, **U** = Update, **D** = Delete
 

@@ -25,63 +25,20 @@ A number of predefined roles are included with SuperOffice CRM. The **User level
 
 <!-- Fix reuse ID=a1 -->
 
-<table style=" margin-top:5px; margin-bottom:5px; margin-left:5px; width:100%; max-width:79.498%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>Role</p></td>
-<td><p>Explanation</p></td>
-</tr>
-<tr>
-<td><p>User level 0</p></td>
-<td><p>Administrator: Has full access to all data. Can maintain all parts of the system.</p></td>
-</tr>
-<tr>
-<td><p>User level 1</p></td>
-<td><p>Superuser: Has full access to data, but cannot maintain the system.</p></td>
-</tr>
-<tr>
-<td><p>User level 2</p></td>
-<td><p>Has full access within own user group, but limited access beyond that.</p></td>
-</tr>
-<tr>
-<td><p>User level 3</p></td>
-<td><p>Has full access to own data and can read data within own user group, but limited access beyond that.</p></td>
-</tr>
-<tr>
-<td><p>User level 4</p></td>
-<td><p>Has full access to own data, but limited access within own user group and beyond that.</p></td>
-</tr>
-<tr>
-<td><p>User level 5</p></td>
-<td><p>Has read access to most data, but limited access to others' data. Can create activities.</p></td>
-</tr>
-<tr>
-<td><p>List administrator</p></td>
-<td><p>Has full access to data in the SuperOffice CRM client. Can use Settings and maintenance to edit lists in the system (e.g. of document templates and categories).</p></td>
-</tr>
-<tr>
-<td><p>User administrator</p></td>
-<td><p>Has full access to data. Can use Settings and maintenance to create and edit users in the system.</p></td>
-</tr>
-<tr>
-<td><p>Local user</p></td>
-<td><p>Has full access to own data, but no access to data belonging to users linked to other companies.</p></td>
-</tr>
-<tr>
-<td><p>External user</p></td>
-<td><p>Consultant or partner with limited access to company and project data. Only has access to data which has been published.</p></td>
-</tr>
-<tr>
-<td><p>Anonymous user</p></td>
-<td><p>Anonymous user</p></td>
-</tr>
-<tr>
-<td><p>System user</p></td>
-<td><p>System integration user. Overrides all security controls. This role is not visible and cannot be edited.</p></td>
-</tr>
-</tbody>
-</table>
+| Role | Explanation |
+|---|---|
+| User level 0 | Administrator: Has full access to all data. Can maintain all parts of the system. |
+| User level 1 | Superuser: Has full access to data, but cannot maintain the system. |
+| User level 2 | Has full access within own user group, but limited access beyond that. |
+| User level 3 | Has full access to own data and can read data within own user group, but limited access beyond that. |
+| User level 4 | Has full access to own data, but limited access within own user group and beyond that. |
+| User level 5 | Has read access to most data, but limited access to others' data. Can create activities. |
+| List administrator | Has full access to data in the SuperOffice CRM client. Can use Settings and maintenance to edit lists in the system (e.g. of document templates and categories). |
+| User administrator | Has full access to data. Can use Settings and maintenance to create and edit users in the system. |
+| Local user | Has full access to own data, but no access to data belonging to users linked to other companies. |
+| External user | Consultant or partner with limited access to company and project data. Only has access to data which has been published. |
+| Anonymous user | Anonymous user |
+| System user | System integration user. Overrides all security controls. This role is not visible and cannot be edited. |
 
 ## What would you like to do now?
 

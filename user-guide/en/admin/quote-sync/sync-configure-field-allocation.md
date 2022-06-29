@@ -34,35 +34,14 @@ To do this:
     * **Show in Search**: Check here if this field is to be displayed in search results.
     * **ERP Field**: Shows the name of the field in the ERP system.
     * **Direction**: Here you select the <!-- Fix reuse ID=a1 -->
-        <table data-cellspacing="0" style="width:100%; max-width:86.739%">
-        
-        <tbody>
-        <tr>
-        <td>**Icon**</p></td>
-        <td>**Explanation**</p></td>
-        </tr>
-        <tr>
-        <td>![icon](../media/sync-direction-none.bmp)</p></td>
-        <td>No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction.</p></td>
-        </tr>
-        <tr>
-        <td>![icon](../media/sync-direction-2way.bmp)</p></td>
-        <td>Sync both ways.</p></td>
-        </tr>
-        <tr>
-        <td>![icon](../media/sync-direction-toERP.bmp)</p></td>
-        <td>Sync from SuperOffice to the ERP system.</p></td>
-        </tr>
-        <tr>
-        <td>![icon](../media/sync-direction-toSO.bmp)</p></td>
-        <td>Sync from the ERP system to SuperOffice.</p></td>
-        </tr>
-        <tr>
-        <td>![icon](../media/sync-direction-deactivated.bmp)</p></td>
-        <td>No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details.</p></td>
-        </tr>
-        </tbody>
-        </table>
+
+        | Icon | Explanation |
+        |---|---|
+        | ![icon](../media/sync-direction-none.bmp) | No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction. |
+        | ![icon](../media/sync-direction-2way.bmp) | Sync both ways. |
+        | ![icon](../media/sync-direction-toERP.bmp) | Sync from SuperOffice to the ERP system. |
+        | ![icon](../media/sync-direction-toSO.bmp) | Sync from the ERP system to SuperOffice. |
+        | ![icon](../media/sync-direction-deactivated.bmp) | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details. |
 
     > [!NOTE]
     > The arrows are disabled until you have selected a SuperOffice field.

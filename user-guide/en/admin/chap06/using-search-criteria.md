@@ -13,9 +13,7 @@ language: en
 
 You can add or edit search criteria in, for example, the **Find** dialog, the **Add/edit search criteria** dialog, and the criteria list in the **SAINT** screen.
 
- 
-
-Add search criteria
+## Add search criteria
 
 In the list box, select the field you want to search for information in. The fields displayed depend on what the criteria list is to be used for. There are different types of fields. Click the field description for more information about the field type:
 
@@ -95,39 +93,15 @@ In the list box, select the field you want to search for information in. The fie
 
     If the field you are searching in contains numerical values, a list box with the following options is displayed:
 
-    <table style=" margin-top:5px; width:100%; max-width:89.811%;" data-cellspacing="0">
-    
-    <tbody>
-    <tr>
-    <td><p>&lt;</p></td>
-    <td><p>Less than</p></td>
-    </tr>
-    <tr>
-    <td><p>&gt;</p></td>
-    <td><p>More than</p></td>
-    </tr>
-    <tr>
-    <td><p>=</p></td>
-    <td><p>Equals</p></td>
-    </tr>
-    <tr>
-    <td><p>&lt;&gt;</p></td>
-    <td><p>Does not equal</p></td>
-    </tr>
-    <tr>
-    <td><p>&gt;=</p></td>
-    <td><p>Greater than or equals</p></td>
-    </tr>
-    <tr>
-    <td><p>&lt;=</p></td>
-    <td><p>Less than or equals</p></td>
-    </tr>
-    <tr>
-    <td><p>Between</p></td>
-    <td><p>The value lies between specified figures</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Symbol | Description |
+    |---|---|
+    | &lt; | Less than |
+    | &gt; | More than |
+    | = | Equals |
+    | &lt;&gt; | Does not equal |
+    | &gt;= | Greater than or equals |
+    | &lt;= | Less than or equals |
+    | Between | The value lies between specified figures |
 
     Select the required option and enter the required numerical value in the text field.
 
@@ -186,33 +160,13 @@ In the list box, select the field you want to search for information in. The fie
 
     Each counter field may be shown with two different icons, depending on whether or not the counter values are updated.
 
-     
-
-    <table data-cellspacing="0">
-    <tbody>
-    <tr>
-    <td><p> </p></td>
-    <td><p>Updated</p></td>
-    <td><p>Not updated*</p></td>
-    </tr>
-    <tr>
-    <td><p>Company</p></td>
-    <td><p>![icon](../media/Saint-Counter-Company.bmp)</p></td>
-    <td><p>![icon](../media/Saint-Counter-Company-dis.bmp)</p></td>
-    </tr>
-    <tr>
-    <td><p>Project</p></td>
-    <td><p>![icon](../media/Saint-Counter-Project.bmp)</p></td>
-    <td><p>![icon](../media/Saint-Counter-Project-dis.bmp)</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Entity | Updated | Not updated* |
+    | Company | ![icon](../media/Saint-Counter-Company.bmp) | ![icon](../media/Saint-Counter-Company-dis.bmp) |
+    | Project | ![icon](../media/Saint-Counter-Project.bmp) | ![icon](../media/Saint-Counter-Project-dis.bmp) |
 
     \*the counter values are not updated, but can still be used in the search. A search on counter values that are not updated will however return data that are not updated. The counter values should be regenerated in Settings and maintenance before they are used in a search.
 
     * Counter values are only relevant if you have purchased a licence for and have enabled status monitors.
-
-     
 
     Under **Field** you will find one or more of these options, depending on whether you choose a counter field for sales or activities:
 
@@ -228,8 +182,6 @@ In the list box, select the field you want to search for information in. The fie
 
     Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 
- 
-
-**Change search criteria**
+**Change search criteria:**
 
 If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears, as described above.

@@ -27,47 +27,15 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
         The fields below correspond to the fields on the company card. These are described in detail in the SuperOffice CRM help.
 
-        <table data-cellspacing="0">
-        
-        <tbody>
-        <tr>
-        <td>Name</p></td>
-        <td>Enter the whole or start of the company name.</p></td>
-        </tr>
-        <tr>
-        <td>Number</p></td>
-        <td>Enter the whole or start of the company name.</p></td>
-        </tr>
-        <tr>
-        <td>Code</p></td>
-        <td>Enter the whole or start of the code.</p></td>
-        </tr>
-        <tr>
-        <td>VAT No.</p></td>
-        <td>Enter the whole or start of the VAT no.</p></td>
-        </tr>
-        <tr>
-        <td>First Name</p></td>
-        <td>Enter the whole or part of the first name of a contact at the company.</p></td>
-        </tr>
-        <tr>
-        <td>Last Name</p></td>
-        <td>Enter the whole or part of the last name of a contact at the company.</p></td>
-        </tr>
-        <tr>
-        <td>Telephone</p></td>
-        <td>Enter the whole or part of a phone number for the company.</p></td>
-        </tr>
-        <tr>
-        <td>E-mail</p></td>
-        <td>Enter the whole or part of an e-mail address for the company.</p></td>
-        </tr>
-        <tr>
-        <td>Match also</p></td>
-        <td>Here you can specify further search criteria. See [Use search criteria](using-search-criteria.md) for more information.</p></td>
-        </tr>
-        </tbody>
-        </table>
+        * Name: Enter the whole or start of the company name.
+        * Number: Enter the whole or start of the company name.
+        * Code: Enter the whole or start of the code.
+        * VAT No.: Enter the whole or start of the VAT no.
+        * First Name: Enter the whole or part of the first name of a contact at the company.
+        * Last Name: Enter the whole or part of the last name of a contact at the company.
+        * Telephone: Enter the whole or part of a phone number for the company.
+        * E-mail: Enter the whole or part of an e-mail address for the company.
+        * Match also :Here you can specify further search criteria. See [Use search criteria](using-search-criteria.md) for more information.
 
     3. When you have specified the required criteria, click the **Find** button.
 

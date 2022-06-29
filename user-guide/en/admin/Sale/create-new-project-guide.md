@@ -15,32 +15,11 @@ In Settings and maintenance, you define which project types are to be assigned a
 
 For example, you might have a project type named **Conference**. This project type may be linked to a project guide containing the following statuses, follow-ups and documents:
 
-<table class="SimpleGridBlack" data-cellspacing="0px">
-
-<tbody>
-<tr>
-<td>Statuses</p></td>
-<td>Follow-ups</p></td>
-<td>Documents</p></td>
-</tr>
-<tr>
-<td>Planned</p></td>
-<td>Planning meeting (Meeting (Internal))</p></td>
-<td>Conference programme (Note)</p></td>
-</tr>
-<tr>
-<td>In progress</p></td>
-<td>Create list of project members (Task)</p>
-<p>Conference (Meeting (External))</p></td>
-<td>Conference invitation (Letter)</p></td>
-</tr>
-<tr>
-<td>Closing</p></td>
-<td>Evaluation meeting (Meeting (Internal))</p></td>
-<td>Evaluation report (Note)</p></td>
-</tr>
-</tbody>
-</table>
+| Statuses | Follow-ups | Documents |
+|---|---|---|
+| Planned | Planning meeting (Meeting (Internal)) | Conference programme (Note) |
+| In progress | Create list of project members (Task); Conference (Meeting (External)) | Conference invitation (Letter) |
+| Closing | Evaluation meeting (Meeting (Internal)) | Evaluation report (Note) |
 
 This procedure shows you how to create a project guide from scratch.
 
@@ -51,7 +30,7 @@ Before you can create the project guide itself, you need to define
 
 Once you have done that, you can start designing the [project guide](Create-new-project-guide.md#Create-project-guide) itself.
 
-#### A. Create statuses for the project guide
+## A. Create statuses for the project guide
 
 A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding-items-to-the-Project-Status-list.md).
 
@@ -59,7 +38,7 @@ A project guide for a project of the Conference type might, for example, compris
 
 Go to the next procedure to link the statuses to a project type.
 
-#### B. Create a project type for the project guide
+## B. Create a project type for the project guide
 
 A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../chap08/Adding-items-to-the-Project-Type-list.md).
 
@@ -70,7 +49,7 @@ Examples of project types: "Conference", "Campaign", "Internal".
 
 Go to the next procedure to create the project guide.
 
-#### C. Create a project guide
+## C. Create a project guide
 
 Once you have created statuses and specified a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 

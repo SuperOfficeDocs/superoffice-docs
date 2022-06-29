@@ -68,35 +68,14 @@ To do this:
     4. Click **Save**.
     5. Click **Next**, and check that the ![icon](../media/import-preview-icon-Company-New.bmp) icon is displayed next to the contact. The person will be registered as a company in SuperOffice CRM with himself or herself as the only contact.
 
-    <table style=" vertical-align:top; margin-top:5px; width:100%; max-width:83.758%;" data-cellspacing="0">
-    
-    <tbody>
-    <tr>
-    <td>Icon</td>
-    <td>Description</td>
-    </tr>
-    <tr>
-    <td>![icon](../media/import-preview-icon-Company-New.bmp)</td>
-    <td>The company does not exist and will be added.</td>
-    </tr>
-    <tr>
-    <td>![icon](../media/import-preview-icon-Company-Changed.bmp)</td>
-    <td>The company already exists and will be updated.</td>
-    </tr>
-    <tr>
-    <td>![icon](../media/import-preview-icon-Person-New.bmp)</td>
-    <td>The contact does not exist and will be added.</td>
-    </tr>
-    <tr>
-    <td>![icon](../media/import-preview-icon-Person-Changed.bmp)</td>
-    <td>The contact already exists and will be updated.</td>
-    </tr>
-    <tr>
-    <td>empty</td>
-    <td>No updating.</td>
-    </tr>
-    </tbody>
-    </table>
+    | Icon | Description |
+    |---|---|
+    | ![icon](../media/import-preview-icon-Company-New.bmp) | The company does not exist and will be added. |
+    | ![icon](../media/import-preview-icon-Company-Changed.bmp) | The company already exists and will be updated. |
+    | ![icon](../media/import-preview-icon-Person-New.bmp) | The contact does not exist and will be added. |
+    | ![icon](../media/import-preview-icon-Person-Changed.bmp) | The contact already exists and will be updated. |
+    | empty | No updating. |
+
 8. Remove the checks for the rows you do NOT want to import. If the Excel spreadsheet contained a heading row, you can remove it here.
 9. When you have checked that this actually is the data you want to import, click **Import**.
 

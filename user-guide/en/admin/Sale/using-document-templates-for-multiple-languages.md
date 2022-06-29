@@ -19,75 +19,23 @@ If your company has divisions in several countries, it may be useful to have the
 
 2. Create a folder for each of the languages you want document templates for (e.g. **\\SuperOffice\\SO\-Arc\\Template\\GE**). <!-- Fix reuse ID=a1 -->.
 
-    <table data-cellspacing="0" style="width:100%; max-width:30.126%">
-    
-    <tbody>
-    <tr>
-    <td><p>Folder name</p></td>
-    <td><p>Language</p></td>
-    </tr>
-    <tr>
-    <td><p>NO</p></td>
-    <td><p>Norwegian</p></td>
-    </tr>
-    <tr>
-    <td><p>SP</p></td>
-    <td><p>Spanish</p></td>
-    </tr>
-    <tr>
-    <td><p>US</p></td>
-    <td><p>English</p></td>
-    </tr>
-    <tr>
-    <td><p>CZ</p></td>
-    <td><p>Czech</p></td>
-    </tr>
-    <tr>
-    <td><p>SW</p></td>
-    <td><p>Swedish</p></td>
-    </tr>
-    <tr>
-    <td><p>CN</p></td>
-    <td><p>Chinese</p></td>
-    </tr>
-    <tr>
-    <td><p>DA</p></td>
-    <td><p>Danish</p></td>
-    </tr>
-    <tr>
-    <td><p>JP</p></td>
-    <td><p>Japanese</p></td>
-    </tr>
-    <tr>
-    <td><p>GE</p></td>
-    <td><p>German</p></td>
-    </tr>
-    <tr>
-    <td><p>FI</p></td>
-    <td><p>Finnish</p></td>
-    </tr>
-    <tr>
-    <td><p>NL</p></td>
-    <td><p>Dutch</p></td>
-    </tr>
-    <tr>
-    <td><p>RU</p></td>
-    <td><p>Russian</p></td>
-    </tr>
-    <tr>
-    <td><p>FR</p></td>
-    <td><p>French</p></td>
-    </tr>
-    <tr>
-    <td><p>PL</p></td>
-    <td><p>Polish</p></td>
-    </tr>
-    <tr>
-    <td><p>IT</p></td>
-    <td><p>Italian</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Folder name | Language |
+    |---|---|
+    | NO | Norwegian |
+    | SP | Spanish |
+    | US | English |
+    | CZ | Czech |
+    | SW | Swedish |
+    | CN | Chinese |
+    | DA | Danish |
+    | JP | Japanese |
+    | GE | German |
+    | FI | Finnish |
+    | NL | Dutch |
+    | RU | Russian |
+    | FR | French |
+    | PL | Polish |
+    | IT | Italian |
 
 3. Place document templates for the different languages in the appropriate language folders. Each document template must have exactly the same file name and file type as the main template. The main template is the document template in the main language you use in SuperOffice. You will find it in the **Document template** list in the **Lists** screen (double-click a document template in the list to see the file name/type). See Add items to the Document - Template list
 

@@ -50,61 +50,17 @@ A duplicate occurs if you have the same record in the import file and in the dat
 * I want to import all companies and contacts into SuperOffice and manage any duplicates myself.  
     Select the **Always add** option.
 
-## Existing data:
+## Existing data
 
-<table style="vertical-align: top; margin-top: 5px;" data-cellspacing="0">
-<tbody>
-<tr>
-<td></td>
-<td><p>**Company**</p></td>
-<td><p>**Address**</p></td>
-<td><p>**VAT No.**</p></td>
-<td><p>**Code**</p></td>
-</tr>
-<tr>
-<td><p>**Import (Excel/Outlook/Gmail**</p></td>
-<td><p>ACME Inc.</p></td>
-<td><p>Broadway 123</p></td>
-<td><p>11223344</p></td>
-<td><p>-</p></td>
-</tr>
-<tr>
-<td><p>**SuperOffice**</p></td>
-<td><p>ACME Inc.</p></td>
-<td><p>Main street 456</p></td>
-<td><p>-</p></td>
-<td><p>ACME1</p></td>
-</tr>
-</tbody>
-</table>
+| **Company** | **Address** | **VAT No.** | **Code** |
+| **Import (Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
+| **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
-## Action:
+## Action
 
-<table style="vertical-align: top; margin-top: 5px;" data-cellspacing="0">
-<tbody>
-<tr>
-<td><p>**Merge**</p></td>
-<td><p>ACME Inc.</p></td>
-<td><p>Broadway 123</p></td>
-<td><p>11223344</p></td>
-<td><p>ACME1</p></td>
-</tr>
-<tr>
-<td><p>**Replace**</p></td>
-<td><p>ACME Inc.</p></td>
-<td><p>Main street 456</p></td>
-<td><p>11223344</p></td>
-<td><p>-</p></td>
-</tr>
-<tr>
-<td><p>**Skip record**</p></td>
-<td><p>ACME Inc.</p></td>
-<td><p>Broadway 123</p></td>
-<td><p>-</p></td>
-<td><p>ACME1</p></td>
-</tr>
-</tbody>
-</table>
+| **Merge** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
+| **Replace** | ACME Inc. | Main street 456 | 11223344 | - |
+| **Skip record** | ACME Inc. | Broadway 123 | - | ACME1 |
 
 Under **Company** and **Contact** in the **Import settings** dialog, specify how duplicate companies and contacts are to be managed.
 

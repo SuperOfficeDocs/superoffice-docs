@@ -17,20 +17,7 @@ The buttons in Windows Client settings activate their associated functions with 
 
 The Navigator on the far left of the main screen contains the following buttons:
 
-<table>
-
-<tbody>
-<tr>
-<td><p>Button</p></td>
-<td><p>Function</p></td>
-</tr>
-<tr>
-<td>[![icon](../media/Knapp-Status.bmp)](Status-screen.md)</p></td>
-<td><p>**Status**: opens the **Status** screen, which displays updated information about the system.</p></td>
-</tr>
-<tr>
-<td>[![icon](../media/Knapp-Import.bmp)](../chap04/Import.md)</p></td>
-<td><p>**Import**: opens the **Import** screen, where you can import data into the SuperOffice database.</p></td>
-</tr>
-</tbody>
-</table>
+| Button | Function |
+|:-:|---|
+| [![icon](../media/Knapp-Status.bmp)](Status-screen.md) | **Status**: opens the **Status** screen, which displays updated information about the system. |
+| [![icon](../media/Knapp-Import.bmp)](../chap04/Import.md) | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. |

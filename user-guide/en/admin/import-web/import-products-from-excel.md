@@ -51,31 +51,13 @@ To do this:
 5. Click **Next**. The **Preview import** screen will appear.
 6. Browse through the import data to fix any issues before the import begins.  
     <!-- Fix reuse ID=a3 -->
-    <table style=" vertical-align:top; margin-top:5px; width:100%; max-width:83.758%;" data-cellspacing="0">
-    
-    <tbody>
-    <tr>
-    <td>Icon</td>
-    <td>Description</td>
-    </tr>
-    <tr>
-    <td>![icon](../media/import-warning.png)</td>
-    <td>There is a problem with the data on this row. See the explanation text in the table header.</td>
-    </tr>
-    <tr>
-    <td>![icon](../media/import-preview-icon-Product-New.bmp)</td>
-    <td>The product does not already exist and will be added.</td>
-    </tr>
-    <tr>
-    <td>![icon](../media/import-preview-icon-Product-Changed.bmp)</td>
-    <td>The product already exists and will be updated.</td>
-    </tr>
-    <tr>
-    <td>empty</td>
-    <td>No updating.</td>
-    </tr>
-    </tbody>
-    </table>
+    | Icon | Description |
+    |---|---|
+    | ![icon](../media/import-warning.png) | There is a problem with the data on this row. See the explanation text in the table header. |
+    | ![icon](../media/import-preview-icon-Product-New.bmp) | The product does not already exist and will be added. |
+    | ![icon](../media/import-preview-icon-Product-Changed.bmp) | The product already exists and will be updated. |
+    | empty | No updating. |
+
 7. Remove the checks for the rows you do NOT want to import. If the Excel spreadsheet contained a heading row, you can remove it here.
 8. When you have checked that this actually is the data you want to import, click **Import**.
 
