@@ -1,3 +1,7 @@
 items:
-- name: Introduction
-  href: index.md
+- name: English
+  items:
+  - name: User
+    href: user/index.md
+  - name: Admin
+    href: admin/index.md
