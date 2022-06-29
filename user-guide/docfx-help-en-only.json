@@ -1,0 +1,51 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "toc.yml",
+          "*.md"
+        ]
+      },
+      {
+        "src":"docs/en",
+        "dest": "en",
+        "files": [
+          "**/**.{md,yml}",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": ["**/**.{png,svg,jpg,gif,bmp,zip}"]
+      },
+      {
+        "files": [ "assets/**" ]
+      }
+    ],
+    "xref": [
+      "No"
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "./templates/superoffice"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": true,
+    "disableGitFeatures": false,
+    "globalMetadata": {
+      "_appTitle": "SuperOffice Help Files",
+      "_appFooter": "© SuperOffice. All rights reserved.",
+      "_appLogoPath": "assets/images/logo.svg",
+      "_appFaviconPath": "assets/images/favicon.ico",
+      "_enableSearch": false
+    }
+  }
+}
