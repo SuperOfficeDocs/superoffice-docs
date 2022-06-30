@@ -13,7 +13,7 @@ language: en
 
 This function is used to fix problems, specifically if you know that the data in SuperOffice CRM is of better quality than the ERP data. It works like a normal sync, but timestamps are ignored and sync is in one direction only (CRM to ERP).
 
-![icon](../media/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data.
+[!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
 To do this:
 

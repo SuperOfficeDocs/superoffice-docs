@@ -11,7 +11,7 @@ language: en
 
 # Import from ERP
 
-![icon](../media/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data.
+[!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
 This is how to proceed when importing actors (customers, suppliers and individuals) from an ERP system into the SuperOffice database:
 
@@ -42,15 +42,7 @@ This is how to proceed when importing actors (customers, suppliers and individua
     <!-- Fix reuse -->What do the various icons in the table mean?
 2. In **Preview** you can browse through the import data before the import begins.
     <!-- Fix reuse ID=a2 -->
-    Rows without icons are not imported. If you see that many contacts are not being imported, this may be because they are not linked to a company. In that case, you can do one of the following:
-
-    If the contact is actually linked to a company, you need to return to the import source (Gmail, Outlook or Excel) and specify a company for the contact. Then start the import afresh.
-    If the contact is not linked to a company, but should be registered under his or her own name in SuperOffice, you need to set up the person as a company, as follows:
-    1. Click **Previous** and **Configure import settings**.
-    2. Click the **If no company name** list under **Contact**.
-    3. Select **Create company using contact name**.
-    4. Click **Save**.
-    5. Click **Next**, and check that the ![icon](../media/import-preview-icon-Company-New.bmp) icon is displayed next to the contact. The person will be registered as a company in SuperOffice CRM with himself or herself as the only contact.
+    [!include[Many contacts not imported?](../includes/troubleshoot-import.md)]
 3. Remove the checks on the rows you do NOT want to import.
 4. Once you have verified that these are really the data you want to import, click **Import**
 

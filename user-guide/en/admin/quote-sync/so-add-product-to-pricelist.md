@@ -48,7 +48,6 @@ In the list on the right you can add product information. This can include:
 * Lists with search options ( ![icon](../media/Soek.bmp) ): Here you can choose from list of recent records, enter text to start a search, or click the search button ![icon](../media/Soek.bmp) to initiate an advanced search.
 
 <!-- Fix reuse ID=a2 -->
-
-Since some of these fields are not to be filled in by users, it is not necessary to display them in the **Product** dialog in SuperOffice CRM. It is nonetheless important to complete these fields when you create new products in the **Add/edit product** dialog. This might apply to, for example, product category/group, supplier code or specific extra fields.
+[!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
 If you want to know which fields are displayed or not displayed, go to the **Settings** tab and click **Configure product** (see [Configure products](settings-configure-product.md)).

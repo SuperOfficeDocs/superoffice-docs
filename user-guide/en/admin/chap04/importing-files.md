@@ -18,9 +18,9 @@ When you have performed a backup of the database file, found the right data file
 
 To import a data file into the SuperOffice database:
 
-1. Open the **Import** screen.  
-    <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+1. Open the **Import** screen.
+
+    [!include[How to open import](../includes/open-import.md)]
 
 2. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and select an import description file (file type: **DSC**) in the dialog which opens. For more details, see [Import descriptions](Import-descriptions.md).
 

@@ -11,7 +11,7 @@ language: en
 
 # Select a default follow-up type for a status
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-saint-req.md)]
 
 You can specify a default follow-up type and descriptive text to be displayed in SuperOffice CRM when the user clicks **Create follow-up** in the status dialog.
 

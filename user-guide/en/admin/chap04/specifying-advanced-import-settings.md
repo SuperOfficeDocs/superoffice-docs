@@ -18,9 +18,9 @@ Advanced import settings include date format settings and delimiter characters. 
 
 To specify advanced import settings:
 
-1. Open the **Import** screen.  
-    <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+1. Open the **Import** screen.
+
+    [!include[How to open import](../includes/open-import.md)]
 
 2. Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens.
 

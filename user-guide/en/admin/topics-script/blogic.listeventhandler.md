@@ -15,7 +15,7 @@ Triggers are scripts that are executed for specific events in the system, such a
 
 CRMScript can make your working day more efficient by automating various tasks. You can define that a certain event in the system will set in motion (trigger) one or more predefined actions. No knowledge of scripting is required to get this to work.
 
-**Example from SuperOffice Service**: When a request is closed, the customer must be notified of this by e-mail. We can create a macro that contains a series of actionsto create and send this e-mail notification. This macro is run automatically when a request is closed. The actions in the macro will load the relevant request, fetch the right reply template and send an e-mail to the customer that the request is closed.
+**Example from SuperOffice Service**: When a request is closed, the customer must be notified of this by e-mail. We can create a macro that contains a series of actions to create and send this e-mail notification. This macro is run automatically when a request is closed. The actions in the macro will load the relevant request, fetch the right reply template and send an e-mail to the customer that the request is closed.
 
 > [!TIP]
 > This is an example of a very simple trigger. You can for instance add conditions to the actions in a trigger, by changing the default **Always** setting.

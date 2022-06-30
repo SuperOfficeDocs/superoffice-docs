@@ -17,6 +17,5 @@ For example, you can create a new status called "Waiting for reply" as a more de
 
 ## What do you want to do now?
 
-[Create request status](admin.listTicketStatuses.newTicketStatus.md)
-
-[Delete request status](admin.listTicketStatuses.deleteTicketStatus.md)
+* [Create request status](admin.listTicketStatuses.newTicketStatus.md)
+* [Delete request status](admin.listTicketStatuses.deleteTicketStatus.md)

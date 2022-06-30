@@ -22,15 +22,8 @@ To add a new user-defined field:
 4. Type the required name into the **Name** field.
 
 5. In the **Type** list box, select the type of field you wish to add (e.g. number, text or date).
-    <!-- Fix reuse ID=a2 -->
-    * **Number**: whole number, unlimited number of digits.
-    * **Short text**: text with a maximum of 39 characters. Specify in the **Text length** field, which is enabled when you choose this option, the maximum number of characters users can type into this field.
-    * **Long text**: text with a maximum of 199 characters. Specify in the **Text length** field, which is enabled when you choose this option, the maximum number of characters users can type into this field.
-    * **Date**: date between 01.01.1970 and 19.01.2038.
-    * **Unlimited date**: any date.
-    * **Checkbox**: a checkbox.
-    * **List**: a list box. Select a list from the system in the field below.
-    * **Decimal**: a number with decimals.
+
+    [!include[List of field types](../includes/field-types.md)]
 
 6. In the **Default value** field, enter the value to be inserted by default in this field.
 
@@ -61,9 +54,7 @@ To add a new user-defined field:
 1. Adjust the position of the field as described in [Place fields](Moving-fields-web.md).
 2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon](../media/fields-unpubl-new.png) ) and fields with unpublished changes ( ![icon](../media/fields-unpubl-changed.png) ) are displayed in bold text in the **Fields** list.
 
-<!-- Fix reuse ID=a3 -->
-
-If you find you are not allowed to create a new field, this may be because you have already reached the maximum number of permitted fields of this type (see [Maximum number of fields](../chap09/Maximum-number-of-fields.md)). You must then delete an existing field before you can insert a new one. Note also that four of each type of field (**Short text**, **Long text**, **Number** and **Decimal**) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six **Decimal** fields.
+If you find you are not allowed to create a new field, this may be because you have already reached the maximum number of permitted fields of this type (see [Maximum number of fields][1]). You must then delete an existing field before you can insert a new one. Note also that four of each type of field (Short text, Long text, Number, Decimal) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six Decimal fields.
 
 ## Related topics
 
@@ -74,3 +65,6 @@ If you find you are not allowed to create a new field, this may be because you h
 [Edit the TAB order of fields](Editing-the-TAB-order-of-fields-web.md)
 
 [Maximum number of fields](../chap09/Maximum-number-of-fields.md)
+
+<!-- Referenced links -->
+[1]: ../chap09/Maximum_number_of_fields.md

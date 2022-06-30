@@ -11,8 +11,7 @@ language: en
 
 # Create a script
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../includes/req-expander-services.md)]
 
 In the **Edit script** screen you can edit or create a script. See the [CRMScript documentation][1] for examples and reference.
 

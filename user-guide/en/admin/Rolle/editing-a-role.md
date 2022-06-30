@@ -11,8 +11,7 @@ language: en
 
 # Edit a role
 
-> [!NOTE]
-> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-anon-req.md)]
 
 To edit a role:
 

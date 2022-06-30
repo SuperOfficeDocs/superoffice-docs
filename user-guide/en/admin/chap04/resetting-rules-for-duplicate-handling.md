@@ -14,8 +14,9 @@ language: en
 To reset one or all of the defined rules for duplicate handling:
 
 1. Open the **Import** screen.  
-    <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+
+    [!include[How to open import](../includes/open-import.md)]
+
 2. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.  
     Or:  
     Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field-mapping.md)). The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.

@@ -11,7 +11,7 @@ language: en
 
 # Specify status criteria
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-saint-req.md)]
 
 A status is only active for companies, contacts or projects that fulfil all the criteria you have specified for the status. You need to specify one or more criteria for each status you create.
 

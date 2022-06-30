@@ -11,7 +11,7 @@ language: en
 
 # Other users ![icon](../OnPremises.png)
 
-Anonymous users and system users require the **SuperOffice Expander Services** system licence. See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-users-that-req-es.md)]
 
 On the **Other users** tab in the **Users** screen, you can edit login rights for and add the following user types:
 

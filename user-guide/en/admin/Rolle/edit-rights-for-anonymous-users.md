@@ -7,11 +7,12 @@ so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
-# Edit rights for anonymous users ![icon](../OnPremises.png)
+# Edit rights for anonymous users
 
-Some functions in this topic require a separate licence (anonymous users). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-anon-req.md)]
 
 There is only one role for anonymous users and only the data rights for this role can be edited.
 
@@ -19,18 +20,12 @@ To do this:
 
 1. Click the **Roles** button in the Navigator (![icon](../media/Knapp-rolle-liten.bmp)).
 2. Select the **Anonymous** tab.
-3. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).  
-    ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
-    You can choose from these rights:
-
-    | Name | Rights | Tooltips |
-    |---|---|---|
-    | None | No rights | |
-    | Read | Read rights | R |
-    | Create | Read and create rights | CR |
-    | Update | Read, create and update rights | CRU |
-    | Delete | Read, create, update and delete rights | CRUD |
-
-    **C** = Create, **R** = Read, **U** = Update, **D** = Delete
+3. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).
+    <!-- Fix reuse ID=a2 -->
+    [!include[Table showing rights per role](../includes/table-role-rights.md)]
 
 The changes are saved automatically.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->

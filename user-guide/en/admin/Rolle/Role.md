@@ -11,8 +11,7 @@ language: en
 
 # Roles
 
-> [!NOTE]
-> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-anon-req.md)]
 
 Using role-based security in SuperOffice CRM, you can customise roles for different access levels in the company.
 

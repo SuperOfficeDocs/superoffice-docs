@@ -13,14 +13,7 @@ language: en
 
 Each Quote Connector must have an ERP connection with configuration data for linking the Quote Connector with SuperOffice.
 
-<!-- Fix reuse ID=a1 --> ![icon](../CRMOnline.png)
-
-To set up an ERP connection for the online version of SuperOffice:
-
-1. Go to [https://online.superoffice.com/appstore][1].
-2. Locate the correct "sync" app for your ERP system. [Click here to search][2].
-3. Locate the correct "quote" app for your ERP system. [Click here to search][3].
-4. To complete the setup, contact the app provider.
+[!include[How to set up ERP](../includes/set-up-erp-web.md)]
 
 To add an ERP connection:
 
@@ -50,8 +43,5 @@ Click **OK** when you have finished.
 At the bottom of the **ERP connections** list, you can delete ERP connections that are no longer in use, for example. If you want to restore a deleted ERP connection, you can check **Deleted**, select the deleted connection in the list, and then click **Restore**.
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/appstore
-[2]: https://online.superoffice.com/appstore/app/search?phrase=sync
-[3]: https://online.superoffice.com/appstore/app/search?phrase=quote
 
 <!-- Referenced images -->

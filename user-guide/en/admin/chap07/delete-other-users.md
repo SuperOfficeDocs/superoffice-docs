@@ -11,7 +11,7 @@ language: en
 
 # Delete other users
 
-Anonymous users and system users require the **SuperOffice Expander Services** system licence. See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-users-that-req-es.md)]
 
 To delete anonymous users or system users:
 

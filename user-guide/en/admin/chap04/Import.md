@@ -11,7 +11,7 @@ language: en
 
 # Import
 
-![icon](../media/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data.
+[!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
 The **Import** screen is where you incorporate important external data into the SuperOffice database from. For example, you could import a customer index so you can use it in SuperOffice CRM. More specifically, in the standard version of Windows Client settings, you can import the following data into the SuperOffice database:
 

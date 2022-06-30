@@ -11,8 +11,7 @@ language: en
 
 # Create a role
 
-> [!NOTE]
-> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-anon-req.md)]
 
 To create a role for associates in the company or for external users:
 
@@ -39,19 +38,9 @@ To create a role for associates in the company or for external users:
 
 8. Click the role name in the list to display the rights for the role in the **Data rights** tab.
 
-9. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).  
-    ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
-    You can choose from these rights:
-
-    | Name | Rights | Tooltips |
-    |---|---|---|
-    | None | No rights | |
-    | Read | Read rights | R |
-    | Create | Read and create rights | CR |
-    | Update | Read, create and update rights | CRU |
-    | Delete | Read, create, update and delete rights | CRUD |
-
-    **C** = Create, **R** = Read, **U** = Update, **D** = Delete
+9. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).
+    <!-- Fix reuse ID=a2 -->
+    [!include[Table showing rights per role](../includes/table-role-rights.md)]
 
 10. If you are creating roles for associates: Click the **Functional rights** tab. In this tab you can determine which functions will be available for the role, e.g. mail merge, publishing, exporting selections and administrator access in Settings and maintenance.
 

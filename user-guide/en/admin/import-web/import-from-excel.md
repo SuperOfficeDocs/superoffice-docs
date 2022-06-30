@@ -11,7 +11,7 @@ language: en
 
 # Import from Excel
 
-![icon](../media/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data.
+[!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
 If you have an Excel spreadsheet with a list of your companies/contacts and associated data, you can easily import them into SuperOffice. The spreadsheet may for example contain:
 
@@ -55,38 +55,16 @@ To do this:
 6. Click **Next**. The **Preview import** window will appear.  
     <!-- Fix reuse ID=a4 -->
     You must link all the required SuperOffice fields to their respective columns in order to continue. The required fields will be displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.
-7. In **Preview import** you can browse through the import data before the import begins.  
+7. In **Preview import** you can browse through the import data before the import begins.
     <!-- Fix reuse ID=a3 -->  
     <!-- Fix reuse ID=a2 -->
-    Rows without icons are not imported. If you see that many contacts are not being imported, this may be because they are not linked to a company. In that case, you can do one of the following:
+    [!include[Many contacts not imported?](../includes/troubleshoot-import.md)]
 
-    If the contact is actually linked to a company, you need to return to the import source (Gmail, Outlook or Excel) and specify a company for the contact. Then start the import afresh.
-    If the contact is not linked to a company, but should be registered under his or her own name in SuperOffice, you need to set up the person as a company, as follows:
-    1. Click **Previous** and **Configure import settings**.
-    2. Click the **If no company name** list under **Contact**.
-    3. Select **Create company using contact name**.
-    4. Click **Save**.
-    5. Click **Next**, and check that the ![icon](../media/import-preview-icon-Company-New.bmp) icon is displayed next to the contact. The person will be registered as a company in SuperOffice CRM with himself or herself as the only contact.
-
-    | Icon | Description |
-    |---|---|
-    | ![icon](../media/import-preview-icon-Company-New.bmp) | The company does not exist and will be added. |
-    | ![icon](../media/import-preview-icon-Company-Changed.bmp) | The company already exists and will be updated. |
-    | ![icon](../media/import-preview-icon-Person-New.bmp) | The contact does not exist and will be added. |
-    | ![icon](../media/import-preview-icon-Person-Changed.bmp) | The contact already exists and will be updated. |
-    | empty | No updating. |
+    [!include[Table describing icons](../includes/table-import-preview.md)]
 
 8. Remove the checks for the rows you do NOT want to import. If the Excel spreadsheet contained a heading row, you can remove it here.
 9. When you have checked that this actually is the data you want to import, click **Import**.
 
 ## C. Complete the import
 
-When the import is complete, two lists will be displayed:
-
-* New companies/contacts which have been imported.
-* Existing companies/contacts which have been changed as a result of the import.
-
-Above each list is a link to the selection with the new/changed companies/contacts.
-
-> [!TIP]
-> If you have imported new companies/contacts and there are problems with the imported data, you can open this selection in SuperOffice CRM and delete the new companies/contacts.
+[!include[Step: complete the import](../includes/import-complete.md)]

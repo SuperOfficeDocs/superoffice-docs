@@ -11,8 +11,7 @@ language: en
 
 # Delete a role
 
-> [!NOTE]
-> Some functions in this topic require a separate licence (external users and anonymous users). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-anon-req.md)]
 
 When you delete a role, you need to move the users with this role to another role. You should therefore ensure that the users have the correct access in the role you move them to.
 

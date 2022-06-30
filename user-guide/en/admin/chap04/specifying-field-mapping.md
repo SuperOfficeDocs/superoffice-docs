@@ -14,8 +14,8 @@ language: en
 To specify field mapping:
 
 1. Open the **Import** screen.  
-    <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+
+    [!include[How to open import](../includes/open-import.md)]
 
 2. Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a file in the dialog which opens.
 

@@ -41,6 +41,5 @@ An example of this is user-support and SLA agreements which specify that the sup
 
 ## What do you want to do now?
 
-[Create priorities](admin.listPriorities.listPriorities.editPriority.md)
-
-[Create escalation levels](admin.listPriorities.editAlert.newAlert.md)
+* [Create priorities](admin.listPriorities.listPriorities.editPriority.md)
+* [Create escalation levels](admin.listPriorities.editAlert.newAlert.md)

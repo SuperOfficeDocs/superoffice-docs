@@ -17,8 +17,9 @@ language: en
 To create an import description:
 
 1. Open the **Import** screen.  
-    <!-- Fix reuse ID=a1 -->
-    Click the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+
+    [!include[How to open import](../includes/open-import.md)]
+
 2. Click the **New** button at the top right of the screen. The **Import** screen is cleared.
 3. Specify a data file in the **Import file** field.
 4. Under **Field mapping**, specify which fields in the import file will be mapped to which fields in the SuperOffice database. (See [Field mapping](Field-mapping.md).)

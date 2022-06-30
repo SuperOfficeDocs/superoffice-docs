@@ -11,15 +11,15 @@ language: en
 
 # Specify a period length
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-saint-req.md)]
 
-You can specify the period (duration in days) for the following <!-- Fix reuse ID=a1 -->:
-
-(a counter might be the number of sales in a period or the date of the last completed sale, and can be used in search criteria to search for companies, contacts or projects, for example)
+You can specify the period (duration in days) for the following 
 
 * Number of completed/non-completed activities in period
 * Number of completed/non-completed sales in period
 * Number of completed/non-completed requests during period (if you are using SuperOffice Service)
+
+[!include[Define counter](../includes/def-counter.md)]
 
 You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you will for example be able to choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
 

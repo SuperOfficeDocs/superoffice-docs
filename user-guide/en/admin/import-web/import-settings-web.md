@@ -11,7 +11,7 @@ language: en
 
 # Configure import settings
 
-![icon](../media/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data.
+[!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
 In the **Import settings** dialog, you can customise the import to include precisely the companies and contacts you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
 

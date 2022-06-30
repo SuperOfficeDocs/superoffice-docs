@@ -25,9 +25,7 @@ When the user opens the status dialog in SuperOffice CRM, he or she is also invi
 
 ## Searches and selections
 
-Statuses and <!-- Fix reuse ID=a1 --> can be used in searches and to create dynamic selections. For example, you can search for companies, contacts or projects that fulfil a status or a counter.
-
-(a counter might be the number of sales in a period or the date of the last completed sale, and can be used in search criteria to search for companies, contacts or projects, for example)
+Statuses and counters can be used in searches and to create dynamic selections. For example, you can search for companies, contacts or projects that fulfil a status or a counter. [!include[Define counter](../includes/def-counter.md)]
 
 ## Periods
 

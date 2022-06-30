@@ -72,8 +72,7 @@ Here you specify the following settings for quotes with this sale type:
 * **Default days a quote is valid**: Enter the number of days a quote will remain valid for. This value can be changed when the quote is sent.
 * **Quote format template**: Check the template you want to use for the quote.
 
-> [!NOTE]
-> To learn about **quote templates**, [click here][1].
+[!include[Link to quote template docs](../includes/learn-quote-templates.md)]
 
 * **Order confirmation template**: Check the template you want to use for the confirmation.
 

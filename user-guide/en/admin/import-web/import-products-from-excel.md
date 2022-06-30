@@ -11,7 +11,7 @@ language: en
 
 # Import products from Excel
 
-![icon](../media/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data.
+[!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
 If you have an Excel spreadsheet with a list of products, you can easily import them into SuperOffice.
 

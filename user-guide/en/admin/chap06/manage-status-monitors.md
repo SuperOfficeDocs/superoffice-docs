@@ -11,11 +11,9 @@ language: en
 
 # Manage status monitors
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
+[!include[Requirement](../includes/note-saint-req.md)]
 
-The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and <!-- Fix reuse ID=a4 --> (see also **Counter fields** in [Use search criteria](using-search-criteria.md)).
-
-(a counter might be the number of sales in a period or the date of the last completed sale, and can be used in search criteria to search for companies, contacts or projects, for example)
+The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../includes/def-counter.md)] See also **Counter fields** in [Use search criteria](using-search-criteria.md)).
 
 ## General information about updating and regenerating statuses and counters
 

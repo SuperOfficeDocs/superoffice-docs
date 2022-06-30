@@ -59,8 +59,7 @@ Enter the following information in the **Details** tab:
 
 7. Check the **Quote document type** option if the document is to be available as a quote template or order confirmation template. You select the quote document type in the list below.
 
-    > [!NOTE]
-    > To learn about **quote templates**, [click here][1].
+    [!include[Link to quote template docs](../includes/learn-quote-templates.md)]
 
 8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables](../Template-variables.md)).
 
