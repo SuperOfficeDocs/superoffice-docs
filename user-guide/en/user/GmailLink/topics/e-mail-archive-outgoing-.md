@@ -19,7 +19,8 @@ Follow these steps:
 
 2. Write the e-mail message.
 
-    **Note**: If you send the e-mail to multiple recipients, the e-mail is only archived on the first recipient.
+    > [!NOTE]
+    > If you send the e-mail to multiple recipients, the e-mail is only archived on the first recipient.
 
 3. Click **Send and archive**. The e-mail is sent and the dialog **Archive e-mail in SuperOffice** opens.
 
@@ -40,7 +41,8 @@ Follow these steps:
 
 Click the link in the pop-up message to open the document in SuperOffice.
 
-**Tip**: If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming e-mail](e-mail-archive-incoming.md).
+> [!TIP]
+> If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming e-mail](e-mail-archive-incoming.md).
 
 ## What would you like to do now?
 

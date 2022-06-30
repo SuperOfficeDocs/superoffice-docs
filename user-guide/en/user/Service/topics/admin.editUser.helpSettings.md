@@ -35,9 +35,9 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
 
 * **Default owner**: In this list box you select who will be the default owner of requests you create. You have three options:
 
-    * **Automatically assigned**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
-    * **Unassigned**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request. Such requests end up in the **Unassigned requests** lists under **Requests** (see [Use lists](ticket.listTickets.useLists.md)).
-    * **Yourself**: Selecting this option makes you the default owner of all requests you create.
+  * **Automatically assigned**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
+  * **Unassigned**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request. Such requests end up in the **Unassigned requests** lists under **Requests** (see [Use lists](ticket.listTickets.useLists.md)).
+  * **Yourself**: Selecting this option makes you the default owner of all requests you create.
 
     > [!TIP]
     > You can override this choice in the **Request** screen.

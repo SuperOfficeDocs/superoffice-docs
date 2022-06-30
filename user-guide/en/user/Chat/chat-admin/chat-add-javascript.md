@@ -22,4 +22,5 @@ In order to do so:
 4. Select and copy the script.
 5. Add the script to the relevant pages on your website.
 
-**Note**: The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page has finished loading.
+> [!NOTE]
+> The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page has finished loading.

@@ -20,7 +20,8 @@ You can create chat channels for specific purposes, such as technical support, p
 4. Complete the fields in the tabs as described below. Your changes are automatically saved when you go to another tab.
 5. Click **Save** when you are done.
 
-**Note**: Fields with red frames are mandatory. Tabs with the icon ![icon](../media/chat-mandatorytab.png) contain empty mandatory fields.
+> [!NOTE]
+> Fields with red frames are mandatory. Tabs with the icon ![icon](../media/chat-mandatorytab.png) contain empty mandatory fields.
 
 <!-- Fix reuse ID=a2 -->
 

@@ -29,7 +29,8 @@ The following information is displayed in the columns on the **Sales** section t
 * the user ID of the person who recorded the sale
 * ERP discount (if SuperOffice is linked to an ERP system)
 
-**Tip:** You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md). .
+> [!TIP]
+> You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md). .
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
 

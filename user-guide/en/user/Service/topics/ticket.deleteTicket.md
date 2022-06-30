@@ -11,7 +11,8 @@ language: en
 
 # Delete requests
 
-**Note:** To access this function, your user must belong to a role with the functional right **Service**** administration**.
+> [!NOTE]
+> To access this function, your user must belong to a role with the functional right **Service**** administration**.
 
 In general, it is not recommended to delete a request. In some cases, however, you may have to delete a request to comply with your company's privacy policy. All messages and attachments/files linked to the request are also deleted.
 

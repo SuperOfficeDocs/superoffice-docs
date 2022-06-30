@@ -29,7 +29,8 @@ The **Blocked e-mail addresses** tab provides an excellent overview of e-mail ad
 
 To fix a single e-mail address, select it in the list and click **Open** in the side-panel to edit the contact. Go to the **Details** tab. A warning icon (![icon](../media/warning-asterisk-red.png))next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
 
-**Tip**: You can also work with blocked e-mails and bounces for individual mailings. See [Manage bounces](Manage-bounces.md).
+> [!TIP]
+> You can also work with blocked e-mails and bounces for individual mailings. See [Manage bounces](Manage-bounces.md).
 
 ## Working with blocked e-mail addresses (bounces)
 

@@ -50,8 +50,7 @@ To search for a first AND middle name or for a contact with two last names, ente
 3. Click the required company, contact, sale, project or selection to link to the record.
 
 > [!TIP]
->  
-If you type a percent sign (%) in front of the search text, all records which *contain* the search text are displayed. For example, if you type %joh, both "Johnson Plumbing" and "Peter Johnson" are shown.
+> If you type a percent sign (%) in front of the search text, all records which *contain* the search text are displayed. For example, if you type %joh, both "Johnson Plumbing" and "Peter Johnson" are shown.
 
 ## Using FastSearcher in the time zone selector
 

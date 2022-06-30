@@ -11,7 +11,8 @@ language: en
 
 # Examples of the use of trackable links
 
-**Note!** This feature requires the Marketing User licence.
+> [!NOTE]
+> This feature requires the Marketing User licence.
 
 Trackable links can be used in a variety of interesting ways:
 

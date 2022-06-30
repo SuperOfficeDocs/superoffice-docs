@@ -11,7 +11,8 @@ language: en
 
 # System design
 
-**Note:** If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+> [!NOTE]
+> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
 
 Here you can find the advanced options in SuperOffice Service. To go here select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design**.
 

@@ -18,7 +18,7 @@ The note function attaches a note to the current company, contact, sale, project
 > [!NOTE]
 > To create a note without fastening it to any specific item in SuperOffice CRM, use the Notepad function instead (see [Notepad](../chap01/Notepad.md)).
 
-## Create a note <span style="font-weight: bold; font-style: italic; font-size: 12pt;">Web
+## Create a note Web
 
 1. Go to the required company, contact, sale, selection or project.
 2. Select the **Note** tab and click **Edit**.

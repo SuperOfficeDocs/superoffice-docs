@@ -31,7 +31,7 @@ To process a submission:
 5. In the **Submitter** side panel, you must link the submitter to an existing or new contact in SuperOffice. See the next topic on how to do this.
 6. Click **Process**.
 
-### Linking the submitter to a SuperOffice contact and company
+## Linking the submitter to a SuperOffice contact and company
 
 When a form is submitted, SuperOffice will try to match the e-mail address in the form with existing e-mail addresses in SuperOffice to link the form submission to an existing contact. If the submitter is found in SuperOffice, you can show contact information, requests, sales, follow-ups and previous chat sessions that have been registered for this contact in SuperOffice.
 

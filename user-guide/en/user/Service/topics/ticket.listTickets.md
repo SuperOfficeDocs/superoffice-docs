@@ -17,4 +17,5 @@ If you want to find a specific request in SuperOffice Service, do one of the fol
 * Use the search screen for requests. See [Search for requests](ticket.listTickets.findTickets.md).
 * Use the quick search in the top right corner. See [Use quick search](rms.search.useQuickSearch.md).
 
-**Tip:** There is more general information about searching in the [Search in SuperOffice Service](rms.search.md) topic.
+> [!TIP]
+> There is more general information about searching in the [Search in SuperOffice Service](rms.search.md) topic.

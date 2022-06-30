@@ -17,11 +17,12 @@ The import file must have the following format:
 
 * Each recipient must be on its own line (row).
 
-* Each recipient (row) consist of the full name and e-mail address.  
+* Each recipient (row) consist of the full name and e-mail address.
+
     Example: "John Smith, john@company.com")
 
-* > [!NOTE]
-> You can also specify just the e-mail address. The name will then not be available as a template variable.
+    > [!NOTE]
+    > You can also specify just the e-mail address. The name will then not be available as a template variable.
 
 * ![icon](../../media/OnPremises.png) (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the e-mail address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
 

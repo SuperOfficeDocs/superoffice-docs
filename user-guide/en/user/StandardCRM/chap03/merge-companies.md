@@ -34,8 +34,8 @@ To merge companies:
 
 4. Under **Contacts and company details**, you can choose from:
 
-    * > [!NOTE]
-> The names must be EXACTLY the same, i.e. first name, middle name and last name, in order to be merged.)
+    > [!NOTE]
+    > The names must be EXACTLY the same, i.e. first name, middle name and last name, in order to be merged.)
     * **Replace empty fields in \[target company\] with values from \[source company\]**. If you select this option, empty data fields in the **To** company will be updated with data from the **From** company.
 
     > [!NOTE]
@@ -43,7 +43,7 @@ To merge companies:
 
 5. Click **Merge**. The following then happens:
 
-6. -   The companies are merged.
+    * The companies are merged.
     * Contacts are moved or merged.
     * All activities are moved.
     * Project memberships and memberships of static selections follow the company.

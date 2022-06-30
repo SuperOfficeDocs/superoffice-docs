@@ -30,5 +30,5 @@ Here you can view the details of the selected screen.
 
 * **Design mode**: Click here to show the screen in design mode (see [Design screen](blogic.listScreenDefinitions.viewScreenDefinitionDesign.md)). The following tabs are displayed:
 
-* -   **Elements**: The elements in the screen.
-    * **Buttons**: Lists the buttons which are connected to actions in the screen.
+  * **Elements**: The elements in the screen.
+  * **Buttons**: Lists the buttons which are connected to actions in the screen.

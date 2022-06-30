@@ -19,4 +19,5 @@ To quickly access a specific record (such as a request or contact), function or 
 2. Enter a search term, such as a function name, request ID, contact name or menu item. The result updates dynamically as you type.
 3. Select the result you want to open.
 
-**Tip**: You can also use the [keywords used in the quick search](rms.search.useQuickSearch.md#SearchForOtherRecords) to search for specific items like contacts or companies.
+> [!TIP]
+> You can also use the [keywords used in the quick search](rms.search.useQuickSearch.md#SearchForOtherRecords) to search for specific items like contacts or companies.

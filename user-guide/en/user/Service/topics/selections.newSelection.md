@@ -15,7 +15,8 @@ In SuperOffice Service you can create different types of selections. Click the a
 
 * [Create a dynamic selection](selections.newSelection.newDynamicSelection.md)
 
-    **Tip:** A simple way of creating a dynamic selection is to base it on search criteria. See [Create a selection based on search criteria](selections.newSelection.newSelection.md).
+    > [!TIP]
+    > A simple way of creating a dynamic selection is to base it on search criteria. See [Create a selection based on search criteria](selections.newSelection.newSelection.md).
 
 * [Create a script-based selection](selections.newSelection.newScriptSelection.md)
 

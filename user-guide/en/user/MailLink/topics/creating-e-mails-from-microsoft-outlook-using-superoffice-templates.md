@@ -17,7 +17,8 @@ When creating an e-mail from Microsoft Outlook, it is also possible to use Super
 
 2. Click **SuperOffice message** and select one of the templates on this submenu. The **New SuperOffice e-mail** dialog opens.
 
-    **Note:** This presupposes that you are logged on to SuperOffice CRM. If not, the menu will only contain one item: **Populate**. If you click **Populate**, you will be asked if you want to start SuperOffice CRM. If you accept, the submenu will be populated.
+    > [!NOTE]
+    > This presupposes that you are logged on to SuperOffice CRM. If not, the menu will only contain one item: **Populate**. If you click **Populate**, you will be asked if you want to start SuperOffice CRM. If you accept, the submenu will be populated.
 
 3. In the **Subject** field, enter the text that you would like to be the subject of the e-mail. This will also be shown in the Activities section tab of SuperOffice CRM.
 

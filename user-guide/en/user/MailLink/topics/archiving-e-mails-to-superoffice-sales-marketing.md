@@ -18,6 +18,7 @@ When you click the **Archive e-mail** button on the mail client toolbar, a menu 
 * [Archiving attachments](Archiving-attachment-s-to-SuperOffice-Sales-Marketing.md)
 * [Archiving e-mails as requests](Archiving-e-mails-as-requests.md)
 
-**Note:** This button also appears in the e-mail window when you open an e-mail you have received.
+> [!NOTE]
+> This button also appears in the e-mail window when you open an e-mail you have received.
 
 For all the different archiving options, you may select the **Warn me when an e-mail is larger than (in KB)** option in the **General settings** pane of the **SuperOffice CRM options** dialog (see [General settings](Other-options.md)). Thus, when you try to archive an e-mail containing an attachment that is over the specified limit, a dialog will inform you of this and ask you if you would like to archive it anyway.

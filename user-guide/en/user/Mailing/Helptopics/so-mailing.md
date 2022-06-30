@@ -31,8 +31,7 @@ To get started, go to [Getting started](The-mailing-workflow.md).
 
 > [!NOTE]
 > Tracked links and reporting features require the Marketing User licence. You also need functional rights to edit and send mailings.
-
-> [!NOTE]
+>
 > SMS mailing is not available if you are using CRM Online.
 
 ## What would you like to do now?

@@ -101,7 +101,8 @@ In the **Style** category you can define the look and feel of the form. You can 
 
 The preview on the right is updated automatically when you change any settings. If you do not specify the height and width of the form, the form will automatically adapt to the screen size (desktop, tablet or mobile).
 
-**Tip**: You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar colour**, and select a colour. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](form-create-multi-page.md).
+> [!TIP]
+> You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar colour**, and select a colour. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](form-create-multi-page.md).
 
 ## <!-- Fix reuse ID=a6 -->
 
@@ -123,7 +124,8 @@ To activate double opt-in:
 
 If double opt-in has been activated for a form, all submissions for this form will have status **Awaiting confirmation** until the e-mail address has been confirmed. See [Form submissions](form-submissions.md).
 
-**Note**: Remember to add the **Contact - e-mail** field in the **Fields** category.
+> [!NOTE]
+> Remember to add the **Contact - e-mail** field in the **Fields** category.
 
 ## <!-- Fix reuse ID=a7 -->
 

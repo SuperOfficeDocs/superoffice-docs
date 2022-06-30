@@ -21,7 +21,7 @@ When you display the Notepad on the screen, you can grab the top part of the not
 > [!TIP]
 > To attach a note to something specific in SuperOffice CRM, for example to a company or a project, use the Note function instead. (See [The Note function in SuperOffice CRM](../chap02/Note.md)).
 
-## To use the Notepad:
+## To use the Notepad
 
 1. Position the mouse pointer in the Notepad.
 2. Type in your text as required.

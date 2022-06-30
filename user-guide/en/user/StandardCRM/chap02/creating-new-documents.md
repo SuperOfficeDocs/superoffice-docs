@@ -11,7 +11,8 @@ language: en
 
 # Create new documents
 
-**Tip**: If you just want to upload a document, see [Upload documents](Upload-documents.md).
+> [!TIP]
+> If you just want to upload a document, see [Upload documents](Upload-documents.md).
 
 Click the required link, depending on how documents are managed in your SuperOffice installation:
 

@@ -20,7 +20,8 @@ language: en
 
 2. Enter the required information in the other fields.  
     <!-- Fix reuse ID=a2 -->
-    **Note:** Default field values and list values are specified in the **Preferences** dialog. See [Preferences](../chap01/Preferences.md).
+    > [!NOTE]
+    > Default field values and list values are specified in the **Preferences** dialog. See [Preferences](../chap01/Preferences.md).
 
     1. If, for example, the company is an organisation with several departments, you can specify a department in the **Department** field.
     2. The address fields available will depend on which country is selected. The default is the country that your organisation belongs to. Having selected the country, the correct address format for the remaining address fields will be inserted automatically in the **Company** tab.

@@ -23,7 +23,8 @@ To quickly access a specific record (such as a request or contact), function or 
 2. Enter a search term, such as a function name, request ID, contact name or menu item. The result updates dynamically as you type.
 3. Select the result you want to open.
 
-**Tip**: You can also use the [keywords used in the quick search](rms.search.useQuickSearch.md#SearchForOtherRecords) to search for specific items like contacts or companies.
+> [!TIP]
+> You can also use the [keywords used in the quick search](rms.search.useQuickSearch.md#SearchForOtherRecords) to search for specific items like contacts or companies.
 
 ## Search for requests
 
@@ -55,7 +56,8 @@ To search for things other than requests, you need to start the search criteria 
 * e = owner
 * p = phone
 
-**Tip:** Information on the use of keywords is displayed if you click the magnifying glass next to the quick search field ( ![icon](../media/search.png) ).
+> [!TIP]
+> Information on the use of keywords is displayed if you click the magnifying glass next to the quick search field ( ![icon](../media/search.png) ).
 
 How this works in practice:
 
@@ -65,4 +67,5 @@ How this works in practice:
     * If there is just one record that matches the search criterion, that record is opened.
     * If several records match the search criterion, a list of search results is displayed. From this list, you can open the record you want.
 
-**Tip:** If you enter a search criterion containing the @ sign, the system assumes you have entered an e-mail address and searches for people with this address. You can also search using a wildcard: enter "%%" for an unknown character.
+> [!TIP]
+> If you enter a search criterion containing the @ sign, the system assumes you have entered an e-mail address and searches for people with this address. You can also search using a wildcard: enter "%%" for an unknown character.

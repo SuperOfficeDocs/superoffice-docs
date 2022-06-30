@@ -11,7 +11,8 @@ language: en
 
 # Include links you want to track
 
-**Note!** This feature requires the Marketing User licence.
+> [!NOTE]
+> This feature requires the Marketing User licence.
 
 You can include links (URLs) in a message and track them. In other words, you can see how many recipients have clicked the links and who has clicked them. Read more about tracking in [Examples of the use of trackable links](Examples-of-the-use-of-trackable-links.md).
 
@@ -22,8 +23,8 @@ Go to the contents of the message and edit a section (see [Edit content](Edit-a-
 Select the text or image which the recipient has to click.
 
 * To add an existing tracked link:
-    * Text: Click ![icon](../media/newbtn-link.png) in the toolbar, select **Special links** &gt; **Tracked links**, and select a link.
-    * Image: In the side-panel (under **Action**), select **Special links** &gt; **Tracked links**, and select a link.
+  * Text: Click ![icon](../media/newbtn-link.png) in the toolbar, select **Special links** &gt; **Tracked links**, and select a link.
+  * Image: In the side-panel (under **Action**), select **Special links** &gt; **Tracked links**, and select a link.
 * To create a new tracked link, click **Create new tracked link** at the bottom of the screen. The **Link properties** dialog opens. Follow the procedure in [Create tracked links](Create-links.md).
 
 To view all the links in a mailing, open the mailing in view mode and select the **Tracked links** tab. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).

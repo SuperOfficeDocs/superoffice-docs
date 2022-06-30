@@ -24,11 +24,13 @@ To create a new mailbox:
 
 3. ![icon](../../media/OnPremises.png) In the **Address** field, enter the e-mail address you want to use for the mailbox.
 
-    **Note 1:** Set up forwarding to this mailbox address if you are going to use your company's e-mail address (for example info@company.com). Use **Forwarding address** in the **Mailboxes** screen.
+    > [!NOTE]
+    > Set up forwarding to this mailbox address if you are going to use your company's e-mail address (for example info@company.com). Use **Forwarding address** in the **Mailboxes** screen.
 
 4. ![icon](../../media/CRMOnline.png) In the **Address** field, enter the name without @domain.xx, and press **TAB** to add the CRM Online settings to the e-mail address.
 
-    **Note 2:** Friendly e-mail address can be added to the address by adding ("friendly name") at the end of the e-mail address.Example: info@company.com (Customer Ltd.).
+    > [!NOTE]
+    > Friendly e-mail address can be added to the address by adding ("friendly name") at the end of the e-mail address.Example: info@company.com (Customer Ltd.).
 
 5. ![icon](../../media/OnPremises.png) In the **Protocol** list box, select which protocol to use to communicate with the mail server. Some of the protocols may require further configuration.
 

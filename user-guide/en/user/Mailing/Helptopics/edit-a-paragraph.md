@@ -13,8 +13,10 @@ language: en
 
 ![icon](../media/Loc/neweditor-section-edit.png)
 
-**Tip 1:** To edit global properties and layout for the message, select **Body** (![icon](../media/editor-sidepanel-btn-body-small.png)) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.  
-**Tip 2:** Use the **Desktop** (![icon](../media/btn-editor-desktop.png)) and **Mobile** (![icon](../media/btn-editor-mobile.png)) at the top of the side-panel to edit properties for desktop versions and mobile versions of the message. See [Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md).
+> [!TIP]
+> To edit global properties and layout for the message, select **Body** (![icon](../media/editor-sidepanel-btn-body-small.png)) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.  
+>
+> Use the **Desktop** (![icon](../media/btn-editor-desktop.png)) and **Mobile** (![icon](../media/btn-editor-mobile.png)) at the top of the side-panel to edit properties for desktop versions and mobile versions of the message. See [Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md).
 
 ## Edit text content
 

@@ -13,7 +13,8 @@ language: en
 
 In the final step, **Confirm**, you can view a summary of the mailing and verify that these are correct. Any error messages displayed in this screen need to be solved before the mailing can be sent.
 
-**Note**: The send options are disabled if there are incomplete steps or missing information in your mailing. These are indicated in red.
+> [!NOTE]
+> The send options are disabled if there are incomplete steps or missing information in your mailing. These are indicated in red.
 
 ## Send the mailing now ![icon](../media/Loc/btn-sendnow.png)
 

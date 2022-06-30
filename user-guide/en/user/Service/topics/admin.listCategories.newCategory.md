@@ -54,19 +54,17 @@ To create a new category:
 
     \[\[ENDIF\]\]
 
-      
     See also <a href="https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/" target="_blank">Reply templates on Categories in Service... what is that?</a>
 
     > [!TIP]
     > Check **Apply to subcategories** if you want the selected reply template to also be used for any subcategories. This assumes however that the template is not overridden by settings made in the subcategories.
 
-6. In the **Assignment method** tab, enter the following information:
-    * Select an assignment type:
+6. In the **Assignment method** tab, enter the following information: Select an assignment type:
 
-    * -   **Even assignment**: Assigns requests evenly among the members of the category.
-        * **Weighted assignment**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
-        * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
-        * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](Get-next-request-in-the-queue.md)).
+    * **Even assignment**: Assigns requests evenly among the members of the category.
+    * **Weighted assignment**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
+    * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
+    * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](Get-next-request-in-the-queue.md)).
 
     * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
 

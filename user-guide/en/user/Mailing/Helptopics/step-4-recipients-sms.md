@@ -69,8 +69,6 @@ Under **Options** in the lower part of the **Recipients** screen, you can select
 
 * **Update recipient list when sending**: Select this option to automatically update the recipients list before sending the mailing. See **Update recipients list** below.
 
-
-
 ## Preview the mailing
 
 When you have added recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients.

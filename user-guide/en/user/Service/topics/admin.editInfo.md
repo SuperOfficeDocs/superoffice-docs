@@ -11,7 +11,8 @@ language: en
 
 # System
 
-**Note:** If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+> [!NOTE]
+> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
 
 The **System** screen is used to configure some of the key characteristics of SuperOffice Service.
 

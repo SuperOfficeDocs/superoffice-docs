@@ -51,7 +51,8 @@ You can create your own templates to use when creating e-mails from SuperOffice 
 
 19. Optionally, type in a description of the e-mail template in the **Description** field.
 
-    **Note:** Please refer to the SuperOffice Settings and maintenance Guide for more information on this dialog.
+    > [!NOTE]
+    > Please refer to the SuperOffice Settings and maintenance Guide for more information on this dialog.
 
 20. Click **OK**. The template is added as a separate item in the **Items** list.
 

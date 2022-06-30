@@ -79,7 +79,8 @@ Click ![icon](../media/btn-Menu.png) on a message to access additional options f
 
 At the bottom of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.
 
-**Tip**: Go to [Efficient handling of requests using AI](AI-requests.md) to read more about language detection, translation, sentiment analysis and automatic categorization.
+> [!TIP]
+> Go to [Efficient handling of requests using AI](AI-requests.md) to read more about language detection, translation, sentiment analysis and automatic categorization.
 
 ## Details tab
 

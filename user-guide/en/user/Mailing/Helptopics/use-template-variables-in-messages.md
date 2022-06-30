@@ -38,19 +38,19 @@ The text you enter will look like this:
 
 **To enter merge tags into your message:**
 
-1. **Select a text in the message.**
+1. Select a text in the message.
 
-2. **Type, for example "Dear ".**
+2. Type, for example "Dear ".
 
-3. **Position the mouse pointer after the text and click **Merge tags** in the toolbar.**
+3. Position the mouse pointer after the text and click **Merge tags** in the toolbar.
 
-4. **In the list that appears, select** **Contact** and **First name****.**
+4. In the list that appears, select **Contact** and **First name**.
 
-    **![icon](../media/Loc/neweditor-templatevar.png)**
+    ![icon](../media/Loc/neweditor-templatevar.png)
 
-5. **Continue entering text and inserting the merge tags you require.**
+5. Continue entering text and inserting the merge tags you require.
 
-**> [!TIP]
+> [!TIP]
 > Before you send out a mailing, you should test that the customer data is correctly inserted in the message.**
 
 ## What would you like to find out more about?

@@ -19,7 +19,8 @@ When creating an e-mail from SuperOffice CRM, it is also possible to use predefi
 
 3. In the **To** field, enter the e-mail address(es) of the recipient(s). You can also use the **Select recipients** dialog (see [Selecting recipients](Selecting-recipients.md)).
 
-    **Tip:** If you select several contacts in a list in SuperOffice CRM, and then right-click and select **Send e-mail**, all the contacts are set as recipients of the e-mail.
+    > [!TIP]
+    > If you select several contacts in a list in SuperOffice CRM, and then right-click and select **Send e-mail**, all the contacts are set as recipients of the e-mail.
 
 4. Write the message.
 

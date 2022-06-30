@@ -24,7 +24,7 @@ The following options are also available from the ![icon](../media/btn-Menu.png)
 
 * **Delete**: Click here to delete the selected messages.
 
-* > [!NOTE]
-> You cannot undo this operation.
+    > [!NOTE]
+    > You cannot undo this operation.
 
 If you click one of the messages in this tab, the **Outbound SMS** screen appears. This contains information about the selected message, such as its size and who created it. Any error messages are also shown.

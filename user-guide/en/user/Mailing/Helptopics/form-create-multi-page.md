@@ -24,4 +24,5 @@ In order to do so:
 7. Click **Apply now** when you are done.
 8. Repeat steps 2-7 to add another section.
 
-**Tip**: You can add a progress bar to the form, so the user can see how much is left to fill in. Go to the **Style** category, click the check box next to **Progress bar colour**, and select a colour.
+> [!TIP]
+> You can add a progress bar to the form, so the user can see how much is left to fill in. Go to the **Style** category, click the check box next to **Progress bar colour**, and select a colour.

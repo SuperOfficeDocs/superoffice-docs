@@ -11,7 +11,8 @@ language: en
 
 # Create tracked links
 
-**Note!** This feature requires the Marketing User licence.
+> [!NOTE]
+> This feature requires the Marketing User licence.
 
 As mentioned under [Include links you want to track](includeLinksToTrack.md), you can track URLs inserted in e-mails. The **Tracked links** tab is used to administrate these trackable links. The links created here will be available when you and other users when you edit the contents of your mailings.
 

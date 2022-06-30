@@ -4,7 +4,7 @@ title: admin listCustCenter config
 description: admin listCustCenter config
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: ![icon](../media/nav-service.png) Service
+keywords: Service
 so.topic: help
 language: en
 ---

@@ -26,7 +26,8 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 
 ![icon](media/loc/chat-status-away.png) You will not be listed as a present agent and will not receive warnings of unanswered chats. However, you can still respond to incoming chats.
 
-**Note**: If all agents have status **Away**, the customer will only see the offline form when they start the chat.
+> [!NOTE]
+> If all agents have status **Away**, the customer will only see the offline form when they start the chat.
 
 ## Respond to next chat in queue
 
@@ -36,7 +37,8 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 
 3. Click **Get next in queue** to respond to the next chat.
 
-    **Note**: If you want to respond to a specific chat (for instance from a returning customer, you can do this by double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
+    > [!NOTE]
+    > If you want to respond to a specific chat (for instance from a returning customer, you can do this by double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
 
 4. Try to locate the customer in SuperOffice, so you can see relevant information about the him/her in the side panel, to help you respond to their inquiry. See [Link chat to SuperOffice contact](chat-link-to-person.md).
 
@@ -54,7 +56,8 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 
 9. When the conversation is over, you can click ![icon](../media/btn-Menu.png) and select **End chat** (unless the customer closes the chat window first). The chat is moved to **Recent chat sessions**. You can also find a record of the chat in the **Activities** section tab in SuperOffice CRM.
 
-**Note**: If the post-chat form has been activated for this chat channel, the customer will have the option to return to the chat. The chat will be reactivated.
+> [!NOTE]
+> If the post-chat form has been activated for this chat channel, the customer will have the option to return to the chat. The chat will be reactivated.
 
 ## Related topics
 

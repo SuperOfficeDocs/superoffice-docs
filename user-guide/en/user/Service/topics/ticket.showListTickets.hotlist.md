@@ -13,7 +13,8 @@ language: en
 
 In SuperOffice Service there is a favourites list, to which you can add requests you want to remind yourself to follow up.
 
-**Tip:** You can also add contacts, companies, selections and mailings to your favourites. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon](../../media/navmenu-favourites.png). See [Favourites](rms.navigate.favourites.md).
+> [!TIP]
+> You can also add contacts, companies, selections and mailings to your favourites. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon](../../media/navmenu-favourites.png). See [Favourites](rms.navigate.favourites.md).
 
 ## Add requests to the favourites list
 
@@ -27,7 +28,8 @@ In SuperOffice Service there is a favourites list, to which you can add requests
 1. Open the request. (See [Process requests](ticket.listTicket.md).)
 2. Click the favourites icon ( ![icon](../media/favourite-inactive.png) ) in the request header. The star turns yellow ![icon](../media/favourite-active.png), and the request is instantly added to favourites. You do not have to click **Save**.
 
-**Tip:** Before transferring responsibility for the request to someone else (see [Ask another request handler for help](ticket.showListTickets.askForHelp.md)), it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
+> [!TIP]
+> Before transferring responsibility for the request to someone else (see [Ask another request handler for help](ticket.showListTickets.askForHelp.md)), it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
 
 ## View the favourites list
 

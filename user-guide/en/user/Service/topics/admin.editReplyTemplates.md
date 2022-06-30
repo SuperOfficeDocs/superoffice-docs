@@ -11,7 +11,8 @@ language: en
 
 # System templates
 
-**Note:** If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+> [!NOTE]
+> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
 
 In the **System templates** screen, you can specify which reply templates the system should use. For more information about reply templates, see [Work with reply templates](document.replyTemplates.md). Information about the different options in the **System templates** screen can be found later in this topic:
 

@@ -16,9 +16,11 @@ In the **Content** step you can edit the layout and content of the e-mail, and a
 <!-- Fix reuse ID=a1 -->
 
 > [!NOTE]
-> If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
+> If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:
+>
+> (for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
+>
+> (for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
 
 See below to determine whether you are using the Drag & drop editor (new) or the Editor (old)
 

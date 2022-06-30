@@ -19,7 +19,8 @@ As a request handler, you are not always able to answer the request on your own.
 
 3. Select the person you want to help in the **Owner** list box. This means that you are transferring responsibility for the request to that person.
 
-    **Note:** If you do not know who should have responsibility for the request, you can select **(Automatically assigned)** in the **Owner** field and select the relevant category in the **Category** field. If, for example, the request relates to a payment question, you can change the category to "Invoicing". The request will then be automatically assigned to a request handler in the invoicing department in accordance with the applicable assignment rules.
+    > [!NOTE]
+    > If you do not know who should have responsibility for the request, you can select **(Automatically assigned)** in the **Owner** field and select the relevant category in the **Category** field. If, for example, the request relates to a payment question, you can change the category to "Invoicing". The request will then be automatically assigned to a request handler in the invoicing department in accordance with the applicable assignment rules.
 
 4. Select the **Message** tab.
 
@@ -29,7 +30,8 @@ As a request handler, you are not always able to answer the request on your own.
 
 7. Click **OK**. The request is transferred to the other person.
 
-**Tip:** Before transferring responsibility for the request to someone else, it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field. See [Add requests to the favourites list](ticket.showListTickets.hotlist.md).
+> [!TIP]
+> Before transferring responsibility for the request to someone else, it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field. See [Add requests to the favourites list](ticket.showListTickets.hotlist.md).
 
 ## What would you like to do now?
 

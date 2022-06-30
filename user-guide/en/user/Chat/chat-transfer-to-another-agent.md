@@ -13,7 +13,8 @@ language: en
 
 You can transfer chats to other agents and receive transferred chats from other agents.
 
-**Note**: A manager can also take over the chat or transfer the chat to another agent. This allows someone with administrator rights to make sure the customer gets an agent that is available and can help the customer correctly.
+> [!NOTE]
+> A manager can also take over the chat or transfer the chat to another agent. This allows someone with administrator rights to make sure the customer gets an agent that is available and can help the customer correctly.
 
 ## Transfer a chat to another agent
 
@@ -24,7 +25,8 @@ You can transfer chats to other agents and receive transferred chats from other 
     * If the receiving agent rejects the transferred chat, it will no longer show as highlighted in the sessions list. You can continue the chat or [create a request](chat-create-request.md) to be handled by someone else.
     * If the receiving agent does not respond, click **Cancel transfer**. You can continue the chat or [create a request](chat-create-request.md) to be handled by someone else.
 
-**Tip**: If you have the permission **Can listen in**, you can go to the **Dashboard** tab and double-click a chat session to view it.
+> [!TIP]
+> If you have the permission **Can listen in**, you can go to the **Dashboard** tab and double-click a chat session to view it.
 
 ## Accept a chat transferred from another agent
 

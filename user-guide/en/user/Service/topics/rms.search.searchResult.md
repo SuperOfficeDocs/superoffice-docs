@@ -35,7 +35,8 @@ Clicking the element profile button ( ![icon](../media/btn-editelementprofile.pn
 
 8. Click **Add column**. The new column is added at the bottom of the column list.
 
-    **Tip:** It is also displayed under **Sample table** below.
+    > [!TIP]
+    > It is also displayed under **Sample table** below.
 
 9. If you want to move the column farther to the left of the table view, click the up arrow ( ![icon](../media/up.png) ) to the right of the relevant entry under **Columns**, until it is correctly positioned.
 
@@ -56,7 +57,8 @@ You can also add functions, for example, a summary column in the search results 
 9. If you want to move the column farther to the left of the table view, click the up arrow ( ![icon](../media/btn-RankUp.png) ) to the right of the relevant entry under **Columns**, until it is correctly positioned.
 10. Click **OK**. The column containing the function is added.
 
-**Tip:** You can use this example as a basis for adding columns containing other functions.
+> [!TIP]
+> You can use this example as a basis for adding columns containing other functions.
 
 ## Change the order of columns
 

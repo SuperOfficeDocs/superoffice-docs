@@ -22,8 +22,8 @@ To edit a paragraph in a message, do as follows:
 
     * The **Body** tab: Here you can edit the content of the paragraph. The tab has the same functions as the **Heading** tab.
 
-    * > [!TIP]
-> If the toolbar is not visible, click ![icon](../../media/btn-editor-toolbar-showhide.png) to show it. The toolbar buttons are described here:  
+        > [!TIP]
+        > If the toolbar is not visible, click ![icon](../../media/btn-editor-toolbar-showhide.png) to show it. The toolbar buttons are described here:  
         <a href="http://docs.cksource.com/CKEditor-3.x/Users-Guide/Quick-Reference" target="_blank">http://docs.cksource.com/CKEditor-3.x/Users-Guide/Quick-Reference</a>
 
     * The **Image** tab: Here you can add an [image to the paragraph](Insert-images-in-the-message.md).

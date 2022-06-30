@@ -27,4 +27,5 @@ The **Document** dialog will not open automatically if you:
 
 * When you create an e-mail using the **E-mail** button in SuperOffice CRM, it is possible to use a predefined e-mail body template by default if the **Use SuperOffice e-mail body** option in the **SuperOffice CRM options** dialog is selected (see [General settings](Other-options.md)). You can read more about this in [Creating e-mails using predefined e-mail body templates](Creating-e-mails-using-predefined-e-mail-body-templates.md).
 
-**Note:** This also applies if you click an e-mail address in SuperOffice CRM, send an e-mail from the **Contacts** section tab, or reply to/forward an e-mail from the **Activities** section tab.
+> [!NOTE]
+> This also applies if you click an e-mail address in SuperOffice CRM, send an e-mail from the **Contacts** section tab, or reply to/forward an e-mail from the **Activities** section tab.

@@ -54,7 +54,8 @@ When you use {padd0} you can write all the template variables without blank char
 
 ## Variables from the company card
 
-**Note**: Address variables from the company card are so called "smart" template variables. This means that the system selects address data in a specific order. The variables in **bold text** below (such as **addr** and **city**) are smart template variables.
+> [!NOTE]
+> Address variables from the company card are so called "smart" template variables. This means that the system selects address data in a specific order. The variables in **bold text** below (such as **addr** and **city**) are smart template variables.
 
 <!-- Fix reuse ID=a1 -->
 

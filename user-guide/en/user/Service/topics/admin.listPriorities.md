@@ -11,7 +11,8 @@ language: en
 
 # Priorities
 
-**Note:** If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+> [!NOTE]
+> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
 
 All requests registered in SuperOffice Service are assigned a priority that reflects the importance of the enquiry. The priority assigned to a case can be determined by, for example:
 

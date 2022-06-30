@@ -27,7 +27,8 @@ Contains a list of requests that match the criteria specified above. Here you ca
 * Open a request by double-clicking the relevant row. See [List requests](ticket.listTicket.md).
 * Click the ![icon](../media/btn-Menu.png) menu button in the top right corner to access the change the view options.
 
-**Tip:** Requests with a red envelope icon ( ![icon](../media/mail-red.png) ) in the **Status** column are unread, while those with a blue icon ( ![icon](../media/mail-green.png) ) have been read. A yellow envelope icon ( ![icon](../media/mail-yellow.png) ) means read by the owner, but subsequently amended.
+> [!TIP]
+> Requests with a red envelope icon ( ![icon](../media/mail-red.png) ) in the **Status** column are unread, while those with a blue icon ( ![icon](../media/mail-green.png) ) have been read. A yellow envelope icon ( ![icon](../media/mail-yellow.png) ) means read by the owner, but subsequently amended.
 
 Under the list, you can click the ![icon](../media/btn-Menu.png) menu button to access the following options:
 

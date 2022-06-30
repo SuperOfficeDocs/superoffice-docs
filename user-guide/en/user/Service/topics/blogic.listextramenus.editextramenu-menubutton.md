@@ -11,7 +11,8 @@ language: en
 
 # Add function to menu button (Actions)
 
-**Note**: You can also add a macro to the **Actions** button when you create or edit a macro. See [Create a macro](../topics-script/blogic.listScripts.editMacro.md).
+> [!NOTE]
+> You can also add a macro to the **Actions** button when you create or edit a macro. See [Create a macro](../topics-script/blogic.listScripts.editMacro.md).
 
 The procedure below describes how to add a macro to the **Actions** button in the **Company** screen, **Contact** screen or **Request** screen, or **Message** tab. To learn more about other available options in this screen, see [Menu properties](blogic.listExtraMenus.editExtraMenu.md).
 

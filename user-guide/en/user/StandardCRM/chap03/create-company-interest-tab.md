@@ -15,7 +15,8 @@ language: en
 
 2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests will be displayed.
 
-    **Note:** When the tab is in view mode, only the selected interests are displayed. When you are in edit mode, there may well be further interests options available.
+    > [!NOTE]
+    > When the tab is in view mode, only the selected interests are displayed. When you are in edit mode, there may well be further interests options available.
 
 3. If you select one or more interests in the **Interests** tab, a dot is displayed next to the tab’s name.
 
@@ -23,4 +24,5 @@ language: en
 
 4. When you have entered the required information in all three tabs in the **Company** screen, click **Save**. This will create a company card for the new company.
 
-**Tip:** Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
+> [!TIP]
+> Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.

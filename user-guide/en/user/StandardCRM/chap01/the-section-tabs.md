@@ -27,7 +27,8 @@ To change the default number of records, do as follows:
 3. Click the **Page size** list and select a value.
 4. Click **OK**.
 
-**Note**: You can also adjust settings for the section tabs in [Preferences](Preferences.md).
+> [!NOTE]
+> You can also adjust settings for the section tabs in [Preferences](Preferences.md).
 
 ## Related topics
 

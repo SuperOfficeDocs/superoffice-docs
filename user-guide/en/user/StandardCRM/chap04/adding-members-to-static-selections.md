@@ -21,7 +21,8 @@ You can add new members to an open static selection as follows:
 2. Edit the criteria as described in [Use the Find screen](../chap01/Find-dialog.md).
 3. Click **OK**. Matching members are added to the selection.
 
-**Tip**: To copy members from another selection, see [Copy into selections](Copying-into-selections.md).
+> [!TIP]
+> To copy members from another selection, see [Copy into selections](Copying-into-selections.md).
 
 There are simple rules for members of selections.
 

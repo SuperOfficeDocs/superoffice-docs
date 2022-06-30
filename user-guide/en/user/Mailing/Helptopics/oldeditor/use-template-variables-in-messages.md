@@ -38,25 +38,25 @@ The text you enter will look like this:
 
 **To enter template variables into your message:**
 
-1. **Click the **Edit paragraph** ( ![icon](../../media/btn-editor-edit.png) ) button in the paragraph you wish to edit.**
+1. Click the **Edit paragraph** ( ![icon](../../media/btn-editor-edit.png) ) button in the paragraph you wish to edit.
 
-2. **Select the **Heading** tab.**
+2. Select the **Heading** tab.
 
-3. **Type, for example "Dear ".**
+3. Type, for example "Dear ".
 
-4. **Position the mouse pointer after the text and click ![icon](../../media/btn-Variable.png)**Template variables**.**
+4. Position the mouse pointer after the text and click ![icon](../../media/btn-Variable.png)**Template variables**.
 
-5. **In the dialog that appears, select **First name** in the **Add template variable** list.**
+5. In the dialog that appears, select **First name** in the **Add template variable** list.
 
-    **![icon](../../media/Loc/editor-templatevar.jpg)**
+    ![icon](../../media/Loc/editor-templatevar.jpg)
 
-6. **Click **OK**. The **\[\[customer.firstname\]\]** template variable is inserted with a yellow background.**
+6. Click **OK**. The **\[\[customer.firstname\]\]** template variable is inserted with a yellow background.
 
-7. **Select the **Body** tab.**
+7. Select the **Body** tab.
 
 8. **Continue entering text and inserting the template variables you require.**
 
-**> [!TIP]
+> [!TIP]
 > Before you send out a mailing, you should test that the customer data is correctly inserted in the message. See [Test mailing](../test-mailing.md).**
 
 ## What would you like to find out more about?

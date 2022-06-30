@@ -85,7 +85,8 @@ If the document has been checked out for editing, one of the following icons are
 
 ![icon](../media/documentlock-locked.png) The document is currently checked out for editing by another user.
 
-**Tip**: Hold the mouse pointer over an icon to show information about the user who has checked out the document.
+> [!TIP]
+> Hold the mouse pointer over an icon to show information about the user who has checked out the document.
 
 **Completed**
 

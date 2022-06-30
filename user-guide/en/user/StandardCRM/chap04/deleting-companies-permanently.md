@@ -29,4 +29,5 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
 5. When you are asked whether you want to delete the records, click **Yes**.
 6. When you are asked whether you really want to delete the records from the database, click **Yes**.
 
-**Note**: You can restore companies and contacts that have been deleted by mistake, either by yourself or another user. Deleted companies and contacts are by default kept in the recycle bin for 14 days. After this time, they are permanently deleted. See [Restore deleted companies and contacts](../chap01/Restore-deleted-companies-and-contacts.md).
+> [!NOTE]
+> You can restore companies and contacts that have been deleted by mistake, either by yourself or another user. Deleted companies and contacts are by default kept in the recycle bin for 14 days. After this time, they are permanently deleted. See [Restore deleted companies and contacts](../chap01/Restore-deleted-companies-and-contacts.md).

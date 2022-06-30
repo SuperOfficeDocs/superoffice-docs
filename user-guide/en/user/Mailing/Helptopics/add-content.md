@@ -24,8 +24,7 @@ language: en
 
 > [!NOTE]
 > If you have defined specific properties for individual sections, these are not overridden by global properties.
-
-> [!NOTE]
+>
 > If the **Images** (![icon](../media/editor_sidepanel_btn_images_small.png)) section is not visible, this preference may have been disabled due to organisational privacy rules.
 
 ## Adding columns, text blocks, images etc

@@ -11,7 +11,8 @@ language: en
 
 # Tracked links
 
-**Note!** This feature requires the Marketing User licence.
+> [!NOTE]
+> This feature requires the Marketing User licence.
 
 You can include links (URLs) in a message and track them. In other words, you can see how many recipients have clicked them. For this to be possible, the URLs must be unique for each recipient, so that you can be sure it was different recipients who clicked the links and not the same one who clicked several times. In addition, the URLs must point at the SuperOffice server, so that they can be counted before they are redirected to the destination URL. The program arranges all this automatically when you select which URLs in the message you want to track.
 
@@ -34,11 +35,11 @@ In the **Tracked links** tab you have the following options:
 
 * Click the ![icon](../media/btn-Menu.png) menu button next to a link to access the following options:
 
-* -   **View**. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).
-    * **Edit**. See [Create tracked links](Create-links.md).
-    * **Reset**. See [Reset counters for links](Work-with-tracked-links-after-the-mailing.md#ResetCountersForLinks).
-    * **Move to folder**. Click here to move the link to another folder.
-    * **Delete**. Click here to delete the link.
+  * **View**. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).
+  * **Edit**. See [Create tracked links](Create-links.md).
+  * **Reset**. See [Reset counters for links](Work-with-tracked-links-after-the-mailing.md#ResetCountersForLinks).
+  * **Move to folder**. Click here to move the link to another folder.
+  * **Delete**. Click here to delete the link.
 
 ## See also
 

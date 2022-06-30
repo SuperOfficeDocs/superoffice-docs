@@ -34,7 +34,8 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 2. Adjust the criteria as described under [Search in SuperOffice Service](rms.search.md).
 3. Click **Search** to begin the search using the new search criteria.
 
-**Tip:** To restore the default settings, click the ![icon](../media/btn-Menu.png) menu button and select **Restore default**.
+> [!TIP]
+> To restore the default settings, click the ![icon](../media/btn-Menu.png) menu button and select **Restore default**.
 
 ## What would you like to do now?
 

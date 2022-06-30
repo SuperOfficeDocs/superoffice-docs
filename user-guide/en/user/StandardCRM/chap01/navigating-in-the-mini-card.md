@@ -20,7 +20,8 @@ It works as a window to relevant information in SuperOffice CRM. You can choose 
 
 The side panel is useful for showing information complementary to the screen you are in. For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the **Diary** screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the **Project** screen.
 
-**Tip**: You can also add custom views to the side panel, from SuperOffice Settings and Maintenance.
+> [!TIP]
+> You can also add custom views to the side panel, from SuperOffice Settings and Maintenance.
 
 The default setting is for the side panel to show a preview of the selected record. Once you have selected a view in a tab in a screen, SuperOffice CRM remembers this the next time the same tab is displayed.
 

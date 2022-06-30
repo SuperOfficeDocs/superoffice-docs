@@ -13,7 +13,8 @@ language: en
 
 When processing requests, you have the option of registering invoice data as you proceed (see [Invoice information](ticket.newTicket.md#InvoiceInformation)). When the request is closed, the customer can be invoiced for the work performed.
 
-**Note:** The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](admin.listInvoiceTypes.md).
+> [!NOTE]
+> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](admin.listInvoiceTypes.md).
 
 To view invoice information that has been registered for a specific contact , do as follows:
 

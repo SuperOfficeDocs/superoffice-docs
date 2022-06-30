@@ -25,7 +25,8 @@ Follow these steps:
     * **Add e-mail address to existing contact**: Click this option if you want to add the e-mail address to an existing contact. See [Adding an e-mail address to an existing contact](Adding-an-e-mail-address-to-an-existing-contact.md).
 4. Click **OK**. The contact and their e-mail address will be displayed on the **Contacts** section tab of the specified company card.
 
-**Note:** If you attempt to archive more than one e-mail at a time, you will be prompted for each sender not listed in SuperOffice CRM.
+> [!NOTE]
+> If you attempt to archive more than one e-mail at a time, you will be prompted for each sender not listed in SuperOffice CRM.
 
 ## What would you like to do now?
 

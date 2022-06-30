@@ -18,7 +18,8 @@ All requests belong to a category, and each category has its own rules that defi
 
 **Disambiguation:** The term "category" is also used for company categories, which are created and maintained in SuperOffice Settings and maintenance.
 
-**Note:** If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+> [!NOTE]
+> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
 
 Users can be added as members in the categories individually or via the user group(s) they belong to (see [User groups](admin.listUsers.listUsergroups.md)).
 
@@ -40,7 +41,6 @@ Apart from the layout/formatting of the reply template, it must contain the foll
 
 \[\[ENDIF\]\]
 
-  
 See also <a href="https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/" target="_blank">Reply templates on Categories in Service... what is that?</a>
 
 ## What would you like to do now?

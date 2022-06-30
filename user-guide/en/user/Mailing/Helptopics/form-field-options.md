@@ -29,7 +29,8 @@ This is an overview of special options in some of the available fields.
 * If this option is ON: If a person submits a form where the company name matches a company in SuperOffice, the person is automatically added to the company as a new contact.
 * If this option is OFF: Both the person and company are added to SuperOffice.
 
-**Note**: Normally this setting is OFF to avoid "random" people being added to companies they do not belong to.
+> [!NOTE]
+> Normally this setting is OFF to avoid "random" people being added to companies they do not belong to.
 
 ## Form elements
 
