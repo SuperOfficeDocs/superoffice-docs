@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > This feature requires the SuperOffice Expander Services licence.
 
-In the **Edit script** screen you can edit or create a script. Documentation and examples of the use of CRMScript (EJScript) can be downloaded from the SuperOffice <a href="https://docs.superoffice.com/automation/crmscript/" target="_blank">technical support site</a>.
+In the **Edit script** screen you can edit or create a script. See the [CRMScript documentation][1] for examples and reference.
 
 To create or edit a script:
 
@@ -34,3 +34,8 @@ To create or edit a script:
 5. (optional) Click **Stage** to stage script. This allows you to test the changes by yourself.
 6. (optional) Click **Execute script** to run the script. The result displays in the **Result** tab.
 7. Click **OK**.
+
+<!-- Referenced links -->
+[1]: ../../../../docs/automation/crmscript/index.yml
+
+<!-- Referenced images -->

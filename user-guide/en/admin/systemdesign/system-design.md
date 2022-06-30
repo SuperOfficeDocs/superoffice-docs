@@ -13,18 +13,23 @@ language: en
 
 In this screen you can find various functions related to system design in SuperOffice Service. See the following topics:
 
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/admin.listProfiles.md" target="_blank">Profile</a>
+* [Profile][1]
+* [Tables][2]
+* [Extra menus][3]
+* [Web panels][4]
+* [Screens][5]
+* [ScreenChooser][6]
+* [Packages][7]
+* [Debug log][8]
 
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fblogic.listExtraTables.md" target="_blank">Tables</a>
+<!-- Referenced links -->
+[1]: ../../user/service/topics/admin.listprofiles.md
+[2]: ../../user/service/topics/blogic.listextratables.md
+[3]: ../../user/service/topics/blogic.listextramenus.md
+[4]: ../../user/service/topics/blogic.listswebpanels.md
+[5]: ../../user/service/topics/blogic.listscreendefinitions.viewscreendefinition.md
+[6]: ../../user/service/topics/blogic.listscreenchoosers.md
+[7]: ../../user/service/topics/blogic.listpackages.md
+[8]: ../../user/service/topics/blogic.listdebuglog.md
 
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fblogic.listExtraMenus.md" target="_blank">Extra menus</a>
-
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fblogic.listsWebpanels.md" target="_blank">Web panels</a>
-
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fblogic.listScreenDefinitions.viewScreenDefinition.md" target="_blank">Screens</a>
-
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fblogic.listScreenChoosers.md" target="_blank">ScreenChooser</a>
-
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fblogic.listPackages.md" target="_blank">Packages</a>
-
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fblogic.listDebugLog.md" target="_blank">Debug log</a>
+<!-- Referenced images -->

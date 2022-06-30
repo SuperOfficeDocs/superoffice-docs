@@ -20,4 +20,9 @@ It is possible to phone, send faxes and send e-mails direct from SuperOffice CRM
 
 ## System requirements
 
-SuperOffice CRM is compatible with all the latest operating systems and browsers. For a complete overview, go to the <a href="https://community.superoffice.com/en/Technical/documentation/prepare/system-requirement/" target="_blank">SuperOffice Community technical support pages</a>.
+SuperOffice CRM is compatible with all the latest operating systems and browsers. For a complete overview, go [here][1].
+
+<!-- Referenced links -->
+[1]: ../../../../../docs/onsite/requirements/index.md
+
+<!-- Referenced images -->

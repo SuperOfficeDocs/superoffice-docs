@@ -27,8 +27,8 @@ Apart from the layout/formatting of the reply template, it must contain the foll
 
 \[\[ENDIF\]\]
 
-  
-See also <a href="https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/" target="_blank">Reply templates on Categories in Service... what is that?</a>
+
+See also [Reply templates on Categories in Service... what is that?][1]
 
 To create a new reply template:
 
@@ -89,3 +89,8 @@ To create a new reply template:
 [Edit reply templates](document.replyTemplates.editReplyTemplateCustomerLang.md)
 
 [Copy reply templates](document.replyTemplates.viewReplyTemplate.md#CopyReplyTemplate)
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/
+
+<!-- Referenced images -->

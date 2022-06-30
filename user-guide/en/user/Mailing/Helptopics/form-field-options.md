@@ -64,7 +64,7 @@ This is an overview of special options in some of the available fields.
 
 **Rating**: A field where customers can rate for instance the service they received, using various rating types (stars, dice, 1-10 scale etc.).
 
-**Google reCAPTCHA**: The reCAPTCHA feature ("I’m not a robot" check-box) is a free Google service that will ensure that only real users can send in web forms. This prevents spam and automated bots from sabotaging your data collection. See <a href="https://community.superoffice.com/en/technical/documentation/administration/google-recaptcha/" target="_blank">this article</a> on SuperOffice Community for more information.
+**Google reCAPTCHA**: The [reCAPTCHA feature][1] ("I’m not a robot" check-box) is a free Google service that will ensure that only real users can send in web forms. This prevents spam and automated bots from sabotaging your data collection.
 
 ## View elements
 
@@ -73,3 +73,8 @@ This is an overview of special options in some of the available fields.
 **Image**: Add an image to the form. Click the link to select an image or drag and drop an image to the **Image** field. Use the **Position** radio buttons to place the image on the form.
 
 **Section**: Add a section between the fields to create a multi-page form. This is very useful if your form contains many fields and you want to avoid scrolling. See [Create multi-page forms](form-create-multi-page.md).
+
+<!-- Referenced links -->
+[1]: ../../../../../docs/marketing/forms/recaptcha.md
+
+<!-- Referenced images -->

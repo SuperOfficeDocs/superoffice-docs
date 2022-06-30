@@ -47,6 +47,6 @@ In order to do this:
     **Use Google Analytics**: Select this option to track the mailing and connect it to Google Analytics (if that is set up for your web site). In the fields below, enter the data that should be added as parameters in the tracked URLs.
     * **Medium**: This field is set to **Email** by default. You cannot edit this field.
     * **Source**: Enter the source of the mailing, such as "superoffice-mailings".4" etc.
-    * **Campaign**: Enter the type of mailing, such as "newsletter" or "lead-nurturing", or enter a specific campaign name such as "spring-sale-june-21" or "upgrade-campaign-v9"..  
-        <a href="javascript:BSSCPopup(&#39;Google-Analytics.md&#39;);" id="a4" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Read more about Google Analytics</a>.
+    * **Campaign**: Enter the type of mailing, such as "newsletter" or "lead-nurturing", or enter a specific campaign name such as "spring-sale-june-21" or "upgrade-campaign-v9".
+       <!-- Reuse-->Read more about Google Analytics.
 9. Click **Next** to go to the next step: [Step 2: Template](form-create-step2-template.md).

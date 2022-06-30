@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > This feature requires the SuperOffice Expander Services licence.
 
-In a script-based selection, you define a data selection using a CRMScript, which offers almost unlimited possibilities for advanced calculations and criteria for defining the selection. You can order a script tailored to your company's needs from SuperOffice or a SuperOffice partner. You can also create a CRMScript yourself. CRMScript documentation is available at <a href="https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/html/CRMScript-CRMScript.md" target="_blank">SuperOffice Community</a>.
+In a script-based selection, you define a data selection using a CRMScript, which offers almost unlimited possibilities for advanced calculations and criteria for defining the selection. You can order a script tailored to your company's needs from SuperOffice or a SuperOffice partner. You can also create a CRMScript yourself. See the [CRMScript documentation][1].
 
 Assuming you already have a script to use as a basis, a script-based selection is created as follows:
 
@@ -44,3 +44,8 @@ Assuming you already have a script to use as a basis, a script-based selection i
 [View selections](selections.listSelections.md)
 
 [Edit a selection](selections.editSelection2.md)
+
+<!-- Referenced links -->
+[1]: ../../../../../docs/automation/crmscript/index.yml
+
+<!-- Referenced images -->

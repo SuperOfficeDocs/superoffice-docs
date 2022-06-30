@@ -19,7 +19,7 @@ You must have the permission (consent) of a person to store and process their da
 > [!TIP]
 > To edit these settings for multiple contacts, use [Bulk update](../chap01/Bulk-update.md).
 
-<a href="https://community.superoffice.com/en/customer/inspiration?category=GDPR" target="_blank">Click here to learn more about GDPR, privacy and consent management in SuperOffice</a>
+[Click here to learn more about GDPR, privacy and consent management in SuperOffice][1]
 
 ## Definitions
 
@@ -45,3 +45,8 @@ To edit the privacy settings for a contact, do as follows:
 7. Click **Save**.
 8. Repeat steps 3-7 to edit another purpose.
 9. Click **Close** when you are done.
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/customer/inspiration?category=GDPR
+
+<!-- Referenced images -->

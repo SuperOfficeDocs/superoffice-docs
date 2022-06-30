@@ -38,9 +38,9 @@ This is how to proceed when importing actors (customers, suppliers and individua
 
 <!-- -->
 
-1. Click **Next** when you have finished. The **Preview** window opens.  
-    <a href="javascript:BSSCPopup(&#39;import-preview-icons.md&#39;);" id="a1" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">What do the various icons in the table mean?</a>
-2. In **Preview** you can browse through the import data before the import begins.  
+1. Click **Next** when you have finished. The **Preview** window opens.
+    <!-- Fix reuse -->What do the various icons in the table mean?
+2. In **Preview** you can browse through the import data before the import begins.
     <!-- Fix reuse ID=a2 -->
     Rows without icons are not imported. If you see that many contacts are not being imported, this may be because they are not linked to a company. In that case, you can do one of the following:
 

@@ -18,7 +18,7 @@ To remove members from a static selection using search criteria:
     There are several ways to open the **Selection** screen:
 
     * By clicking the **Selection** button in the Navigator.
-    * By using the history list (see <a href="../chap01/Using-the-history-list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see <a href="../chap01/Using-FastSearcher.md" style="background-color: Transparent;">FastSearcher</a>).
+    * By using the[history list][1] or [FastSearcher][2].
     * By double-clicking on a selection in a search result.
 2. Go to the required static selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. Click the **Remove members** button in the tab.
@@ -35,7 +35,7 @@ If you only want to remove a specific members, do as follows:
     There are several ways to open the **Selection** screen:
 
     * By clicking the **Selection** button in the Navigator.
-    * By using the history list (see <a href="../chap01/Using-the-history-list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see <a href="../chap01/Using-FastSearcher.md" style="background-color: Transparent;">FastSearcher</a>).
+    * By using the [history list][1] or [FastSearcher][2].
     * By double-clicking on a selection in a search result.
 2. Go to the required static selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. Select one or more entries in the list of members.
@@ -44,3 +44,9 @@ If you only want to remove a specific members, do as follows:
 ## What would you like to do now?
 
 [Add members to static selections](Adding-members-to-static-selections.md)
+
+<!-- Referenced links -->
+[1]: ../chap01/using-the-history-list.md
+[2]: ../chap01/using-fastsearcher.md
+
+<!-- Referenced images -->

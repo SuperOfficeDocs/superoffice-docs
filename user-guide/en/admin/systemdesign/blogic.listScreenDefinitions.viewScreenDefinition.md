@@ -13,4 +13,9 @@ language: en
 
 Please click this link to view this help topic:
 
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/blogic.listScreenDefinitions.viewScreenDefinition.md" target="_blank">Screens</a>
+[Screens][1]
+
+<!-- Referenced links -->
+[1]: ../../user/Service/topics/blogic.listScreenDefinitions.viewScreenDefinition.md
+
+<!-- Referenced images -->

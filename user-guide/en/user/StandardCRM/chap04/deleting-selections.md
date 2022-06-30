@@ -18,9 +18,15 @@ To delete an existing selection:
     There are several ways to open the **Selection** screen:
 
     * By clicking the **Selection** button in the Navigator.
-    * By using the history list (see <a href="../chap01/Using-the-history-list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see <a href="../chap01/Using-FastSearcher.md" style="background-color: Transparent;">FastSearcher</a>).
+    * By using the [history list][1] or [FastSearcher][2].
     * By double-clicking on a selection in a search result.
 2. Go to the required selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. Click the **Task** button.
 4. Select **Delete this selection**.
 5. When you are asked if you really want to delete the selection, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM](../chap01/Deleting-elements-in-CRM.md).)
+
+<!-- Referenced links -->
+[1]: ../chap01/using-the-history-list.md
+[2]: ../chap01/using-fastsearcher.md
+
+<!-- Referenced images -->

@@ -18,7 +18,7 @@ SuperOffice Web Tools maintains the integration with your documents and e-mail. 
 
 You will automatically be asked to upgrade or install SuperOffice Web Tools when you log in to SuperOffice CRM through your browser for the first time on your PC. If this welcome screen does not appear or in case you need to download it again, you can start the SuperOffice Web Tools download wizard manually ( ![icon](../media/globalmenu-mainmenu-small.png) **Main menu &gt; Download &gt; SuperOffice Web Tools**).
 
-To upgrade or install SuperOffice Web Tools, go to the following SuperOffice support page: <a href="http://cs.superoffice.com/scripts/customer.fcgi?-sf=0&amp;custSessionKey=&amp;customerLang=en&amp;noCookies=true&amp;action=viewKbEntry&amp;id=112782" target="_blank">How to download and install Web Tools?</a>
+To upgrade or install SuperOffice Web Tools, go to the following SuperOffice support page: [How to download and install Web Tools?][1]
 
 ## How to connect your Microsoft documents with SuperOffice CRM
 
@@ -35,3 +35,8 @@ To upgrade or install SuperOffice Web Tools, go to the following SuperOffice sup
 11. Finally, log out of SuperOffice CRM, close the web browser window, and reopen your browser window to log in again.
 
 With web tools installed, you can start creating documents from inside SuperOffice
+
+<!-- Referenced links -->
+[1]: http://cs.superoffice.com/scripts/customer.fcgi?-sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112782
+
+<!-- Referenced images -->

@@ -21,7 +21,7 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
     There are several ways to open the **Selection** screen:
 
     * By clicking the **Selection** button in the Navigator.
-    * By using the history list (see <a href="../chap01/Using-the-history-list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see <a href="../chap01/Using-FastSearcher.md" style="background-color: Transparent;">FastSearcher</a>).
+    * By using the [history list][1] or [FastSearcher][2].
     * By double-clicking on a selection in a search result.
 2. Go to a selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. If you want to delete just some of the selection members, select them in the list of members.
@@ -31,3 +31,9 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
 
 > [!NOTE]
 > You can restore companies and contacts that have been deleted by mistake, either by yourself or another user. Deleted companies and contacts are by default kept in the recycle bin for 14 days. After this time, they are permanently deleted. See [Restore deleted companies and contacts](../chap01/Restore-deleted-companies-and-contacts.md).
+
+<!-- Referenced links -->
+[1]: ../chap01/using-the-history-list.md
+[2]: ../chap01/using-fastsearcher.md
+
+<!-- Referenced images -->

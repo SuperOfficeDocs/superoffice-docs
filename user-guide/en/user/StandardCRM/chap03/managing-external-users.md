@@ -13,14 +13,14 @@ language: en
 
 If you have been assigned the **Allow administration of external users** right in SuperOffice Settings and maintenance, you can add and remove external users in SuperOffice CRM in connection with Audience or third-party applications. External users can also be administrated in SuperOffice Settings and maintenance. For more information about this, see the SuperOffice Settings and maintenance help.
 
-## To open the External users dialog:
+## To open the External users dialog
 
 1. Go to the company card for the company you want to manage external users for.  
     <!-- Fix reuse ID=a2 -->
     There are several ways to open the **Company** screen:
 
     * By clicking the **Company** button in the Navigator.
-    * By using the history list (see <a href="../chap01/Using-the-history-list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see [FastSearcher](../chap01/Using-FastSearcher.md)).
+    * By using the [history list][1] or [FastSearcher][2].
     * By double-clicking on a company in a search result or in a selection.
 2. Click ![icon](../../media/btn-Menu.png)**Task** &gt; **External users**. The **External users** dialog appears.
 
@@ -50,8 +50,12 @@ Select in the list the contact you want to remove and click **Remove as external
 
 Select the contact you want to remove the login for and click **Remove login**. The person will then remain as an external user, but the login will be disabled and he/she will not be able to log in to the system.
 
-## 
-
 ## Filter the list
 
 Using the **Show** list box at the bottom right of the dialog, you can filter the list of contacts according to user status.
+
+<!-- Referenced links -->
+[1]: ../chap01/using-the-history-list.md
+[2]: ../chap01/using-fastsearcher.md
+
+<!-- Referenced images -->

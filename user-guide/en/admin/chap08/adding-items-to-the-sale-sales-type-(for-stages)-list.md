@@ -73,7 +73,7 @@ Here you specify the following settings for quotes with this sale type:
 * **Quote format template**: Check the template you want to use for the quote.
 
 > [!NOTE]
-> To learn about **quote templates**, <a href="../Quote-templates.pdf" target="_blank">click here</a>.
+> To learn about **quote templates**, [click here][1].
 
 * **Order confirmation template**: Check the template you want to use for the confirmation.
 
@@ -84,3 +84,8 @@ Here you can choose whether the quote must be approved if the total discount is 
 * No approval required. No limits. The quote will not require approval.
 * **Total discount is over limit**. Enter a percentage value.
 * **Total earning is below limit**. Enter a percentage value.
+
+<!-- Referenced links -->
+[1]: ../Quote-templates.pdf
+
+<!-- Referenced images -->

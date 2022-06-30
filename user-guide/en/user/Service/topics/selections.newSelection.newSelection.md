@@ -17,8 +17,8 @@ A dynamic selection can be compared to a saved search that is executed each time
 
 Open the search screen. <!-- Fix reuse ID=a2 -->
 
-* You can select **Requests** &gt; **Find requests** to search for requests. See <a href="../../topics/ticket.listTickets.findTickets" target="-top">Search for requests</a>.
-* You can use predefined lists to search for requests. See <a href="../../topics/ticket.listTickets.useLists" target="-top">Use lists</a>.
+* You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests][1].
+* You can use predefined lists to search for requests. See [Use lists][2].
 * You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
 * In the knowledge base, you can click the **Search** icon ( ![icon](../media/search.png) ) to the right of a folder name to search for different types of content.
 
@@ -52,3 +52,9 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 [View selections](selections.listSelections.md)
 
 [Edit a selection](selections.editSelection2.md)
+
+<!-- Referenced links -->
+[1]: ../../topics/ticket.listtickets.findtickets.md
+[2]: ../../topics/ticket.listtickets.uselists.md
+
+<!-- Referenced images -->

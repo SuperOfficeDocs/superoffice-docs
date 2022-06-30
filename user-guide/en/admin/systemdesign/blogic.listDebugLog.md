@@ -13,4 +13,9 @@ language: en
 
 Please click this link to view this help topic:
 
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/blogic.listDebugLog.md" target="_blank">Debug log</a>
+[Debug log][1]
+
+<!-- Referenced links -->
+[1]: ../../user/service/topics/blogic.listdebuglog.md
+
+<!-- Referenced images -->

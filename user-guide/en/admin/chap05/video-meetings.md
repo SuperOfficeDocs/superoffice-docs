@@ -20,4 +20,9 @@ See the following topics:
 
 ## Related topics
 
-<a href="https://docs.superoffice.com/diary/video-meeting/howto/connect-provider.md" target="_blank">TechDoc: Video Meetings for SuperOffice</a>
+* [Video Meetings for SuperOffice][1]
+
+<!-- Referenced links -->
+[1]: ../../../../docs/video-meeting/index.md
+
+<!-- Referenced images -->

@@ -17,9 +17,9 @@ The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associat
 
 To set up an ERP connection for the online version of SuperOffice:
 
-1. Go to <a href="https://online.superoffice.com/appstore" target="_blank">https://online.superoffice.com/appstore</a>.
-2. Locate the correct "sync" app for your ERP system. <a href="https://online.superoffice.com/appstore/app/search?phrase=sync" target="_blank">Click here to search</a>.
-3. Locate the correct "quote" app for your ERP system. <a href="https://online.superoffice.com/appstore/app/search?phrase=quote" target="_blank">Click here to search</a>.
+1. Go to [https://online.superoffice.com/appstore][1].
+2. Locate the correct "sync" app for your ERP system. [Click here to search][2].
+3. Locate the correct "quote" app for your ERP system. [Click here to search][3].
 4. To complete the setup, contact the app provider.
 
 ## What would you like to do now?
@@ -37,3 +37,10 @@ To set up an ERP connection for the online version of SuperOffice:
 [Rank fields shown in the ERP tab](sync-rank-fields-shown-in-the-ERP-tab.md)
 
 [Edit an ERP connection](sync-edit-ERP-connection.md)
+
+<!-- Referenced links -->
+[1]: https://online.superoffice.com/appstore
+[2]: https://online.superoffice.com/appstore/app/search?phrase=sync
+[3]: https://online.superoffice.com/appstore/app/search?phrase=quote
+
+<!-- Referenced images -->

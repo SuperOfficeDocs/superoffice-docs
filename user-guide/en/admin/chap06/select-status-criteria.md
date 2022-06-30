@@ -15,7 +15,7 @@ Status monitors require the use of **Sales Premium** plan or, if you are using a
 
 A status is only active for companies, contacts or projects that fulfil all the criteria you have specified for the status. You need to specify one or more criteria for each status you create.
 
-<a href="javascript:BSSCPopup(&#39;Example-status-monitors.md&#39;,800,500);" id="a10" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here to see some examples of criteria</a>
+<!-- Fix reuse ID=a11 -->Click here to see some examples of criteria
 
 To do this:
 

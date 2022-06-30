@@ -35,9 +35,8 @@ By default, all the columns with companies/contacts from the e-mail application 
 
 1. Click **Configure import settings** and adjust the import settings as described in [Configure import settings](Import-settings-web.md).
 2. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent. The legal basis and consent source can be defined in **Import settings** (see [Configure import settings](Import-settings-web.md#setprivacy)). See also [Privacy](../privacy/privacy.md).
-3. Click **Next** when you have finished. The **Preview** window opens.  
-    <a href="javascript:BSSCPopup(&#39;import-preview-icons.md&#39;);" id="a2" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">What do the different icons in the table mean?</a>
-4. In **Preview** you can browse through the import data before the import begins.  
+3. Click **Next** when you have finished. The **Preview** window opens.<!-- Fix reuse -->What do the different icons in the table mean?
+4. In **Preview** you can browse through the import data before the import begins.
     <!-- Fix reuse ID=a3 -->
     Rows without an icon will not be imported. If you can see that many contacts will not be imported, this may be because they have not been linked to a company. Here, you can do one of the following:
 

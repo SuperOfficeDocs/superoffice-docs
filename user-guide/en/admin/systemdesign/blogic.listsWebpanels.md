@@ -13,4 +13,9 @@ language: en
 
 Please click this link to view this help topic:
 
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/blogic.listsWebpanels.md" target="_blank">Web panels</a>
+[Web panels][1]
+
+<!-- Referenced links -->
+[1]: ../../user/service/topics/blogic.listswebpanels.md
+
+<!-- Referenced images -->

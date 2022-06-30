@@ -18,7 +18,7 @@ SuperOffice Gmail Link is a plug-in which links the Google Gmail client with Sup
 * Create requests in SuperOffice Service based on e-mails in Gmail.
 * Look up senders in SuperOffice.
 
-To install SuperOffice Gmail Link, go to the <a href="http://online.superoffice.com/AppStore/superoffice-as/superoffice-gmail-link" target="_blank">SuperOffice App Store</a>.
+To install SuperOffice Gmail Link, go to the [SuperOffice App Store][1].
 
 ## What would you like to do now?
 
@@ -35,3 +35,8 @@ To install SuperOffice Gmail Link, go to the <a href="http://online.superoffice.
 [Archive outgoing e-mail](e-mail-archive-outgoing-.md)
 
 [Edit Gmail Link settings](Settings.md)
+
+<!-- Referenced links -->
+[1]: http://online.superoffice.com/AppStore/superoffice-as/superoffice-gmail-link
+
+<!-- Referenced images -->

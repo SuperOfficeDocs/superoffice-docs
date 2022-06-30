@@ -152,7 +152,7 @@ In the list box, select the field you want to search for information in. The fie
 
 * <!-- Fix reuse ID=a1 --> ( ![icon](../media/Saint-Counter-Company.bmp) ![icon](../media/Saint-Counter-Project.bmp) )
 
-    Counters can be, for example, the number of sales in a period or the date of the last completed sale. <a href="javascript:BSSCPopup(&#39;Example-status-monitors.md&#39;);" id="a8" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here to see examples of the use of counters in a search</a>.
+    Counters can be, for example, the number of sales in a period or the date of the last completed sale. <!-- Fix reuse ID=a11 -->Click here to see examples of the use of counters in a search.
 
     Each counter field may be shown with two different icons, depending on whether or not the counter values are updated.
 

@@ -21,14 +21,14 @@ If you want to interact with your customers via Facebook, you will want to creat
 To get developer access:
 
 1. Log in to Facebook.
-2. Go to <a href="https://developers.facebook.com" target="_blank">https://developers.facebook.com</a>.
+2. Go to [https://developers.facebook.com][1].
 3. Click **Register** and follow the instructions.
 
 Firstly, you need to set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from. To do this:
 
 1. Open a browser and log in to Facebook.
 2. Go to <https://developers.facebook.com>.
-3. See <a href="https://community.superoffice.com/en/technical/documentation/install-upgrade/service/Facebook-integration/" target="_blank">Facebook integration on SuperOffice Community</a> on how to proceed.
+3. See [Facebook integration on SuperOffice Community][2] on how to proceed.
 4. When you have created the application in Facebook, go to the next step.
 
 ## Step 2: Set up a Facebook account in SuperOffice Service
@@ -51,4 +51,10 @@ To do this:
 
 ## Related topics
 
-<a href="https://community.superoffice.com/en/technical/documentation/install-upgrade/service/Facebook-integration/" target="_blank">Facebook integration on SuperOffice Community</a>
+* [Facebook integration on SuperOffice Community][2]
+
+<!-- Referenced links -->
+[1]: https://developers.facebook.com
+[2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/Facebook-integration/
+
+<!-- Referenced images -->

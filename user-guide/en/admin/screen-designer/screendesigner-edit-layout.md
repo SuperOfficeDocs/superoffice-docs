@@ -47,7 +47,7 @@ Select the tab you want to edit, or click ![icon](../media/btn-add2.png) **Add**
 
 Edit the layout by selecting one of the following sections:
 
-* **Fields**: Drag fields from the list to the layout. <a href="javascript:BSSCPopup(&#39;popup-screendesigner-boxes.md&#39;);" id="a1" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Boxes with stapled lines</a> in the layout, indicate where you can place a field. Fields can be placed in the columns and in the header and footer. See [Fields](ScreenDesigner-Edit-layout.md#Fields).
+* **Fields**: Drag fields from the list to the layout. <!-- Reuse-->Boxes with stapled lines in the layout, indicate where you can place a field. Fields can be placed in the columns and in the header and footer. See [Fields](ScreenDesigner-Edit-layout.md#Fields).
 * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout. Place the elements as described above. See [Elements](ScreenDesigner-Edit-layout.md#Element).
 * **Settings**: Click a field or element in the layout to edit the relevant settings. The available settings may vary according to the selected object. See [Settings](ScreenDesigner-Edit-layout.md#Settings).
 * **Columns**: Select how many columns you want to display in a tab. See [Columns](ScreenDesigner-Edit-layout.md#Columns).
@@ -122,7 +122,7 @@ In the **Action** list, select the action to perform when clicking the link:
 
 * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
 * **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../topics-script/CRMScript.md).
-* **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See <a href="https://docs.superoffice.com/ui/soprotocol/index.md" target="_blank">SOProtocol</a>.
+* **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
 In the **Mode** list, choose if the link should always be available, or if it should only be available in read or edit mode.
 
@@ -147,7 +147,7 @@ In the **Action** list, select the action to perform when clicking the button:
 
 * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
 * **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../topics-script/CRMScript.md).
-* **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See <a href="https://docs.superoffice.com/ui/soprotocol/index.md" target="_blank">SOProtocol</a>.
+* **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
 In the **Mode** list, choose if the button should always be available, or if it should only be available in read or edit mode.
 
@@ -198,3 +198,8 @@ If you need to revert to an earlier version of the screen, you can access the fo
 
 * **Reset to factory settings**: This option discards all changes and resets the screen layout to the standard layout delivered by SuperOffice.
 * **Discard draft**: Discards all changes and resets to the published version of the screen layout.
+
+<!-- Referenced links -->
+[1]: ../../../../docs/ui/soprotocol/index.md
+
+<!-- Referenced images -->

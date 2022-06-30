@@ -68,7 +68,7 @@ To create a new folder:
 * **Until**: Select a date. The form will be deactivated on this date.
 * **Max**: Enter the number of responses. The form will be deactivated after the specified number of responses have been received.
 
-**Use Google Analytics**: Select this option to track the form and connect it to Google Analytics (if that is set up for your web site). In the field below this option, you can enter the Google Analytics tracking ID for this form. Read more on SuperOffice Community: <a href="https://community.superoffice.com/en/Technical/Blog/simple-google-analytics-email-tracking/" target="_blank">Simple Google Analytics e-mail tracking</a>.
+**Use Google Analytics**: Select this option to track the form and connect it to Google Analytics (if that is set up for your web site). In the field below this option, you can enter the Google Analytics tracking ID for this form. Read more on SuperOffice Community: [Simple Google Analytics e-mail tracking][1].
 
 ## <!-- Fix reuse ID=a3 -->
 
@@ -169,3 +169,8 @@ Here you can define how a submitted form should be processed. Fill in the follow
 [Publish forms](form-publish.md)
 
 [Create multi-page forms](form-create-multi-page.md)
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/Technical/Blog/simple-google-analytics-email-tracking/
+
+<!-- Referenced images -->

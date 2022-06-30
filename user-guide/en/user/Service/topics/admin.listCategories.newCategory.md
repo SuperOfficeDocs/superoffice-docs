@@ -54,7 +54,7 @@ To create a new category:
 
     \[\[ENDIF\]\]
 
-    See also <a href="https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/" target="_blank">Reply templates on Categories in Service... what is that?</a>
+    See also [Reply templates on Categories in Service... what is that?][1]
 
     > [!TIP]
     > Check **Apply to subcategories** if you want the selected reply template to also be used for any subcategories. This assumes however that the template is not overridden by settings made in the subcategories.
@@ -81,3 +81,8 @@ To create a new category:
 ## What would you like to do now?
 
 [Search for requests in categories](admin.listCategories.searchTickets.md)
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/
+
+<!-- Referenced images -->

@@ -24,9 +24,9 @@ In the **Consent** tab in the **Privacy** screen (![icon](../media/Knapp-Privacy
 
 For each purpose, a legal basis and source of consent must be documented (this is done during import or in SuperOffice CRM for individual or multiple users). See [Privacy - Legal basis](../chap08/Privacy-Legal-base.md) and [Privacy - Source](../chap08/Privacy-Source.md).
 
-<a href="https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/" target="_blank">Click here to learn more about GDPR, privacy and consent management in SuperOffice</a>
+[Click here to learn more about GDPR, privacy and consent management in SuperOffice][1]
 
-### Options in the Consent tab
+## Options in the Consent tab
 
 The **Consent** tab contains a list of available purposes.
 
@@ -55,3 +55,8 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 ## What do you want to do now?
 
 [Add purpose](Add-consent-purpose.md)
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/
+
+<!-- Referenced images -->

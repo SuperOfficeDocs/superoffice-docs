@@ -13,7 +13,7 @@ language: en
 
 Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
 
-Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. <a href="javascript:BSSCPopup(&#39;Example-status-monitors.md&#39;,800,500);" id="a12" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here to see some examples of statuses</a>. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
+Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. <!-- Fix reuse ID=a11 -->Click here to see some examples of statuses. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
 
 ## Status images
 
@@ -21,7 +21,7 @@ Statuses can be shown as images on the cards of projects, contacts or companies 
 
 ## Default follow-up for a status
 
-When the user opens the status dialog in SuperOffice CRM, he or she is also invited to create a follow-up for the status in question. The follow-up type and text can be predefined. <a href="javascript:BSSCPopup(&#39;Example-follow-up-description.md&#39;);" id="a8" class="BSSCPopup" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == &#39;function&#39;) BSPSPopupOnMouseOver(event);">Click here for an example</a>.
+When the user opens the status dialog in SuperOffice CRM, he or she is also invited to create a follow-up for the status in question. The follow-up type and text can be predefined. <!-- Fix reuse ID=a11 -->Click here for an example.
 
 ## Searches and selections
 

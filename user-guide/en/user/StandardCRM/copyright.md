@@ -31,38 +31,28 @@ Idea and copyright: SuperOffice AS.
 
 Documentation/translation: [Semantix AS](http://www.semantix.no).
 
-## Group company:
+## Group company
 
-SuperOffice AS
+[SuperOffice AS - www.superoffice.com][1]
 
-<a href="http://www.superoffice.com" target="_blank">www.superoffice.com</a>
+## Subsidiaries
 
-## Subsidiaries:
+* [SuperOffice Norge AS - www.superoffice.no][2]
+* [SuperOffice Sweden AB - www.superoffice.se][3]
+* [SuperOffice Danmark A/S - www.superoffice.dk][4]
+* [SuperOffice GmbH - www.superoffice.de][5]
+* [SuperOffice Benelux B.V. - www.superoffice.nl][6]
+* [SuperOffice Software Ltd. - www.superoffice.co.uk][7]
+* [SuperOffice AG - www.superoffice.ch][8]
 
-SuperOffice Norge AS
+<!-- Referenced links -->
+[1]: http://www.superoffice.com
+[2]: http://www.superoffice.no
+[3]: http://www.superoffice.se
+[4]: http://www.superoffice.dk
+[5]: http://www.superoffice.de
+[6]: http://www.superoffice.nl
+[7]: http://www.superoffice.co.uk
+[8]: http://www.superoffice.ch
 
-<a href="http://www.superoffice.no" target="_blank">www.superoffice.no</a>
-
-SuperOffice Sweden AB
-
-<a href="http://www.superoffice.se" target="_blank">www.superoffice.se</a>
-
-SuperOffice Danmark A/S
-
-<a href="http://www.superoffice.dk" target="_blank">www.superoffice.dk</a>
-
-SuperOffice GmbH
-
-<a href="http://www.superoffice.de" target="_blank">www.superoffice.de</a>
-
-SuperOffice Benelux B.V.
-
-<a href="http://www.superoffice.nl" target="_blank">www.superoffice.nl</a>
-
-SuperOffice Software Ltd.
-
-<a href="http://www.superoffice.co.uk" target="_blank">www.superoffice.co.uk</a>
-
-SuperOffice AG
-
-<a href="http://www.superoffice.ch" target="_blank">www.superoffice.ch</a>
+<!-- Referenced images -->

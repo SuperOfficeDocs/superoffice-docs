@@ -13,4 +13,9 @@ language: en
 
 Please click this link to view this help topic:
 
-<a href="https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/blogic.listPackages.md" target="_blank">Packages</a>
+[Packages][1]
+
+<!-- Referenced links -->
+[1]: ../../user/service/topics/blogic.listpackages.md
+
+<!-- Referenced images -->

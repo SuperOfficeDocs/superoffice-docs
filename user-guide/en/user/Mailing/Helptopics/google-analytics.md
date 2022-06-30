@@ -17,4 +17,9 @@ When setting up a mailing, you have the option of using Google Analytics as the 
 
 **Source** and **Campaign**: These fields identify this specific mailing as the source, and allows for a more accurate tracking and reporting in Google.
 
-Read more on SuperOffice Community: <a href="https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/" target="_blank">Simple Google Analytics e-mail tracking</a>.
+Read more on SuperOffice Community: [Simple Google Analytics e-mail tracking][1].
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
+
+<!-- Referenced images -->

@@ -18,9 +18,14 @@ When you start Settings and maintenance, you will see a login screen where you m
 ![icon](../OnPremises.png)
 
 > [!NOTE]
-> The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again, but you can read the complete text here: <a href="https://help.superoffice.com/SODispatcher/v1/agreement-addendum?langiso=%5Blani%5D&amp;nsVer=%5Bver#%5D" target="_blank">Addendum to SuperOffice Software Maintenance Agreement</a>.
+> The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again, but you can read the complete text here: [Addendum to SuperOffice Software Maintenance Agreement][1].
 
 You need to belong to the **User level 0** role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [**Users** screen](../chap07/Users.md).
 
 > [!TIP]
 > You can also open Settings and maintenance via **Settings and maintenance** on the **File** menu in SuperOffice CRM for Windows, or from the main menu in SuperOffice CRM for Web.
+
+<!-- Referenced links -->
+[1]: https://help.superoffice.com/SODispatcher/v1/agreement-addendum?langiso=%5Blani%5D&amp;nsVer=%5Bver#%5D
+
+<!-- Referenced images -->

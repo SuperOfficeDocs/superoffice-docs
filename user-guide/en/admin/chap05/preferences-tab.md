@@ -13,7 +13,7 @@ language: en
 
 In the **Preferences** tab you can specify a number of settings for different parts of SuperOffice CRM, such as the number of items to display in the history list, the default type for new appointment, task and phone call, and the default currency in the **Sale** screen.
 
-Preferences that can only be set on a global (system) level, can be found in the <a href="Global-preferences.md" style="font-weight: bold;">Global preferences</a> tab.
+Preferences that can only be set on a global (system) level, can be found in the [Global preferences][1] tab.
 
 > [!TIP]
 > Use the **Freetext search** field at the top of the screen to find the preference you want to change. The search results will be displayed in the list below.
@@ -42,4 +42,9 @@ The rest of the **Preferences** tab is divided into three main sections:
 
 [View preferences in SuperOffice CRM](Viewing-preferences-in-SuperOffice-CRM.md)
 
-[Global preferences](Global-preferences.md)
+[Global preferences][1]
+
+<!-- Referenced links -->
+[1]: global-preferences.md
+
+<!-- Referenced images -->
