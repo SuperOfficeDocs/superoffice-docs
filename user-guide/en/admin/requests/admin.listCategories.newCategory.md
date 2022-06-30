@@ -56,19 +56,14 @@ In the **Assignment method** tab, enter the following information:
 
 * Select an assignment type:
 
-* -   **Even**: Assigns requests evenly among the members of the category.
-    * **Weighted**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
-    * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
-    * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/Get-next-request-in-the-queue.md)).
-
-* **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
-
-* **Assign to category administrator if no one is available**: Assigns requests to the category manager if no other users are available.
-
-* **Reassign requests on new message if user is not present**: Reassigns requests when a new message arrives on a request and the user is not available.
-
-* **Assign to our service contact if available**: If the relevant company or contact has a request handler specified as **Our contact**, and this user is available, the request is assigned to this user. If **Our contact** is not specified, or the user is not available, the request is assigned in accordance with the usual assignment rules.
-
-* **Duration of sticky request**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same e-mail address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
+  * **Even**: Assigns requests evenly among the members of the category.
+  * **Weighted**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
+  * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
+  * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service/topics/Get-next-request-in-the-queue.md)).
+  * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
+  * **Assign to category administrator if no one is available**: Assigns requests to the category manager if no other users are available.
+  * **Reassign requests on new message if user is not present**: Reassigns requests when a new message arrives on a request and the user is not available.
+  * **Assign to our service contact if available**: If the relevant company or contact has a request handler specified as **Our contact**, and this user is available, the request is assigned to this user. If **Our contact** is not specified, or the user is not available, the request is assigned in accordance with the usual assignment rules.
+  * **Duration of sticky request**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same e-mail address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
 
 Click **OK**. The category is created.

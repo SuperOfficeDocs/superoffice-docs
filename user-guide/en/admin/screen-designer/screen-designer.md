@@ -22,7 +22,8 @@ Your sales team, support team and management team do not necessarily have the sa
 * Remove fields that are never used.
 * Add links/buttons for looking up information in other websites or to manually trigger an automated process based on CRM Script.
 
-**Note**: When this feature is activated, the fields in your current **More** tab for the **Company** and **Contact** screens will change to form two columns. You can edit these tabs in the screen designer (see [Edit layout](ScreenDesigner-Edit-layout.md)).
+> [!NOTE]
+> When this feature is activated, the fields in your current **More** tab for the **Company** and **Contact** screens will change to form two columns. You can edit these tabs in the screen designer (see [Edit layout](ScreenDesigner-Edit-layout.md)).
 
 Currently you can create customer screen layouts for the company and contact cards, as seen at the top of the screen. The **Layouts** list displays any existing screen layouts (usually the default layout), with a preview screen on the right.
 

@@ -19,7 +19,8 @@ List items can be displayed at two levels. The higher level is called the itemâ€
 
 The **Headings** list (in the bottom right of the **Lists** screen) shows which headings the individual items are displayed under. You can also go to the **Headings** tab to see which items appear under a specific heading.
 
-**Tip**: The same items can appear under several headings.
+> [!TIP]
+> The same items can appear under several headings.
 
 ## What would you like to do now?
 

@@ -31,4 +31,5 @@ To complete the fields in the **Edit list item** dialog when the items are curre
 
 5. Click **Save**. The currency is added as a separate item in the **Items** list. Repeat this procedure to add more currencies.
 
-    **Note**: You must enable currencies and set the default currency in the **Preferences** screen (in the **System** group).
+    > [!NOTE]
+    > You must enable currencies and set the default currency in the **Preferences** screen (in the **System** group).

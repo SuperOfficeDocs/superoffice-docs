@@ -28,10 +28,11 @@ To complete the fields in the **Edit list item** dialog when the items are follo
 
 5. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT](../chap06/Status-monitor.md)).
 
-**Tip**: You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance. Follow the procedure under [Add items](Adding-items.md).
+    > [!TIP]
+    > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance. Follow the procedure under [Add items](Adding-items.md).
 
-1. Check the **All day** option if you want it to be possible to select a duration of a whole day for the follow-up type in the follow-ups dialog in SuperOffice CRM.
-2. Check the **Free** option if you want it to be possible to specify free and busy times for the follow-up type in the follow-ups dialog in SuperOffice CRM.
-3. Check the **Publish** option if you want it to be possible to specify, in the follow-ups dialog in SuperOffice CRM, that the follow-up in question should be made available to external users.
-4. Optionally, type in a description of the item in the **Description** field.
-5. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+    * Check the **All day** option if you want it to be possible to select a duration of a whole day for the follow-up type in the follow-ups dialog in SuperOffice CRM.
+    * Check the **Free** option if you want it to be possible to specify free and busy times for the follow-up type in the follow-ups dialog in SuperOffice CRM.
+    * Check the **Publish** option if you want it to be possible to specify, in the follow-ups dialog in SuperOffice CRM, that the follow-up in question should be made available to external users.
+6. Optionally, type in a description of the item in the **Description** field.
+7. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.

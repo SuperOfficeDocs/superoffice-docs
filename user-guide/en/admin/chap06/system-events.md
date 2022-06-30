@@ -54,15 +54,15 @@ The following types of events are started from the various screens in Settings a
 
 * **UDefRebuild**, of which there are several types: the layout of user-defined fields is being updated and the user-defined fields in SuperOffice CRM cannot be accessed while the event is in progress.
 
-* > [!NOTE]
-> You must not cancel this event from the **System notifications** list.
+    > [!NOTE]
+    > You must not cancel this event from the **System notifications** list.
 
 * **FreetextRebuild**: the freetext index is being generated and freetext searching cannot be performed in SuperOffice CRM while generation is in progress.
 
 * **PrototypeRebuild**: a Travel prototype is being generated. The Travel functions cannot be accessed while this event is in progress.
 
-* > [!NOTE]
-> In cases of emergency you can cancel both **FreetextRebuild** and **PrototypeRebuild** from the **System notifications** list.
+    > [!NOTE]
+    > In cases of emergency you can cancel both **FreetextRebuild** and **PrototypeRebuild** from the **System notifications** list.
 
 <!-- -->
 

@@ -19,7 +19,8 @@ To delete a category:
 
 3. Click the category name. This category opens.
 
-    **Tip:** If the category is a subcategory, you first need to click the arrow to the left of the parent category in order to display the associated subcategories.
+    > [!TIP]
+    >If the category is a subcategory, you first need to click the arrow to the left of the parent category in order to display the associated subcategories.
 
 4. Click the **Delete** button at the bottom of the screen. The **Delete request category** dialog appears.
 

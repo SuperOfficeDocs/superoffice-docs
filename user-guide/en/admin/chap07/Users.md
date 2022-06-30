@@ -17,8 +17,9 @@ In the **Users** screen you can add and edit different types of users:
 
 * **Other users** ![icon](../OnPremises.png): On this tab, you can add and edit anonymous users and system users. See [Other users](Other-users.md).
 
-* -   **Anonymous users**: Users with limited rights defined by the role for anonymous users (see [Edit rights for anonymous users](../Rolle/Edit-rights-for-anonymous-users.md)). Anonymous users can be used, for instance, to provide access to web pages. In this way, salespersons can make relevant information from SuperOffice CRM available on a website that does not require a login, to give customers easy access to it.
-    * **System users**: System users can log in to the system via third-party applications and have all rights. This user type is intended for integration purposes. The system user can be used to allow processes full access to the SuperOffice database for replicating diaries, for example.
+* **Anonymous users**: Users with limited rights defined by the role for anonymous users (see [Edit rights for anonymous users](../Rolle/Edit-rights-for-anonymous-users.md)). Anonymous users can be used, for instance, to provide access to web pages. In this way, salespersons can make relevant information from SuperOffice CRM available on a website that does not require a login, to give customers easy access to it.
+
+* **System users**: System users can log in to the system via third-party applications and have all rights. This user type is intended for integration purposes. The system user can be used to allow processes full access to the SuperOffice database for replicating diaries, for example.
 
 * **Our companies**: For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab. See [Our companies](../chap06/Our-companies-web.md).
 

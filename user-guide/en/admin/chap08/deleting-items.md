@@ -20,4 +20,8 @@ To delete both predefined and user-defined list items:
 5. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
 
 > [!NOTE]
-> The deletion is not permanent even if you confirm it. See [Deleted items and headings](Deleted-items-and-headings.md) if you want to undo the deletion. Note also that the name of the item will still be displayed in records in SuperOffice CRM that refer to it. This is explained under [Deleted items and headings](Deleted-items-and-headings.md). Note that this does not apply if you create a list and delete it before you have saved it. In that case, the list cannot be undeleted.
+> The deletion is not permanent even if you confirm it. See [Deleted items and headings](Deleted-items-and-headings.md) if you want to undo the deletion.
+>
+> The name of the item will still be displayed in records in SuperOffice CRM that refer to it. This is explained under [Deleted items and headings](Deleted-items-and-headings.md).
+>
+> This does not apply if you create a list and delete it before you have saved it. In that case, the list cannot be undeleted.

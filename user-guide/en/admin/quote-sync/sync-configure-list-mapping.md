@@ -28,7 +28,8 @@ To do this:
 
 5. Select the corresponding CRM item for each ERP item.
 
-    **Note**: Mapping is "one to one". You cannot map to the same CRM item twice. Double-mapped list items are displayed in RED. To leave an ERP list item unmapped, select **(No Selection)**.
+    > [!NOTE]
+    > Mapping is "one to one". You cannot map to the same CRM item twice. Double-mapped list items are displayed in RED. To leave an ERP list item unmapped, select **(No Selection)**.
 
 6. Repeat steps 4 to 5 to map list items for the next list.
 

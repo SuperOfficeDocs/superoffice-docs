@@ -35,5 +35,5 @@ To specify the search criteria for a freetext search:
     * **Contains**: a search for *pet* returns *Oliver Peter Nielsen* and *Alan Peterson* as hits.
     * **Exact match**: only a search for *Oliver Peter Nielsen* returns *Oliver Peter Nielsen* as a hit.
 
-6. > [!NOTE]
-> When searching for phrases consisting of several words, a search is made for all the words together.
+    > [!NOTE]
+    > When searching for phrases consisting of several words, a search is made for all the words together.

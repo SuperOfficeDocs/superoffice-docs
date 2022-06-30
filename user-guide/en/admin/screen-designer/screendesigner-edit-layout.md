@@ -105,7 +105,8 @@ Use dividers to create sections within columns. This is particularly useful for 
 
 Add links for looking up information in other websites, allow users to run CRM scripts from the company and contact cards, and add navigation to other parts of SuperOffice using soprotocol. You can also use buttons to add links.
 
-**Tip**: You can use [Template variables](../Template-variables.md) in the URLs.
+> [!TIP]
+> You can use [Template variables](../Template-variables.md) in the URLs.
 
 Select the tab you want to edit.
 
@@ -129,7 +130,8 @@ In the **Mode** list, choose if the link should always be available, or if it sh
 
 Buttons work similarly to links. You can add links for looking up information in other websites, allow users to run CRM scripts from the company and contact cards, and add navigation to other parts of SuperOffice using soprotocol.
 
-**Tip**: You can use [Template variables](../Template-variables.md) in the URLs.
+> [!TIP]
+> You can use [Template variables](../Template-variables.md) in the URLs.
 
 Select the tab you want to edit.
 
@@ -181,7 +183,8 @@ To add a new tab:
 3. You can also add the tab name in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
 4. Select the number of columns you want to use in the new tab.
 
-**Tip**: If you later want to rename the tab, select the tab and select **Columns**.
+> [!TIP]
+> If you later want to rename the tab, select the tab and select **Columns**.
 
 Limitations:
 

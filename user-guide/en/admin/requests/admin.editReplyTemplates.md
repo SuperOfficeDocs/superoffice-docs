@@ -19,7 +19,8 @@ In the **System templates** tab, you can specify which reply templates the syste
 * [FAQ](admin.editReplyTemplates.md#FAQ)
 * [Weekly statistics](admin.editReplyTemplates.md#WeeklyStatistics)
 
-**Tip**: Use the search field at the top to find specific templates.
+> [!TIP]
+> Use the search field at the top to find specific templates.
 
 ## Requests
 

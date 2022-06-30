@@ -15,7 +15,8 @@ In the **Preferences** tab you can specify a number of settings for different pa
 
 Preferences that can only be set on a global (system) level, can be found in the <a href="Global-preferences.md" style="font-weight: bold;">Global preferences</a> tab.
 
-**Tip**: Use the **Freetext search** field at the top of the screen to find the preference you want to change. The search results will be displayed in the list below.
+> [!TIP]
+> Use the **Freetext search** field at the top of the screen to find the preference you want to change. The search results will be displayed in the list below.
 
 At the top of the **Preferences** tab, you can choose the required preference group.
 
@@ -24,7 +25,7 @@ The rest of the **Preferences** tab is divided into three main sections:
 * On the left is the **Preferences** list containing all the preferences defined for the active preference group.
 
 > [!NOTE]
->Preferences with active individual settings are shown in bold text in the preferences list.
+> Preferences with active individual settings are shown in bold text in the preferences list.
 
 * At the top right, the description field shows a description of the preference currently selected in the **Preferences** list.
 * Below, the **Active settings** field shows the settings specified for the preference currently selected in the **Preferences** list. See [Active settings](Active-settings.md).

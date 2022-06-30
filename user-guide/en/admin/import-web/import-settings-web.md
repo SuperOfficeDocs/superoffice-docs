@@ -69,7 +69,8 @@ To do this:
 Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.  
 <!-- Fix reuse ID=a1 -->
 
-**Note**: To avoid the risk of overwriting data, you should choose the option that is unique for each company and contact.
+> [!NOTE]
+> To avoid the risk of overwriting data, you should choose the option that is unique for each company and contact.
 
 Company
 
@@ -126,7 +127,11 @@ When you import contacts, you must also set the legal basis and consent source f
 The import source may, for example, contain businesses that are not registered in SuperOffice. You must then choose how new categories, businesses, positions, custom list values and interests are to be managed. In the list boxes under **Lists**, you have the following options:
 
 * **Add new item to the list**: New values will be added to SuperOffice.
-* **Ignore - use default**: New values will not be imported, and the default value for category or business will be used. You specify the default value under **Preferences** &gt; **Default values**. **Note**: **Position** does not have a default value.
+* **Ignore - use default**: New values will not be imported, and the default value for category or business will be used. You specify the default value under **Preferences** &gt; **Default values**.
+
+    > [!NOTE]
+    > **Position** does not have a default value.
+
 * **Ignore - set to blank**: No new values will be imported into SuperOffice.
 
 ## Manage new phone numbers, links and e-mail addresses

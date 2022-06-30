@@ -17,8 +17,6 @@ To delete companies in the **Our companies** tab, the following two criteria mus
 
 * The company cannot be an active satellite. If it is defined as a satellite, this is displayed in the **Active satellite** column in the company list. Satellites are administrated in the **Replication** screen. For more details, see Replication.
 
- 
-
 If these two criteria are satisfied, you can delete companies as follows:
 
 1. Open the **Options** screen.

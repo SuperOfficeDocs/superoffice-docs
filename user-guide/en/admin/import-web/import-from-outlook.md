@@ -60,4 +60,5 @@ When the import is complete, two lists will be displayed:
 
 Above each list is a link to the selection with the new/changed companies/contacts.
 
-**Tip**: If you have imported new companies/contacts and there are problems with the imported data, you can open this selection in SuperOffice CRM and delete the new companies/contacts.
+> [!TIP]
+> If you have imported new companies/contacts and there are problems with the imported data, you can open this selection in SuperOffice CRM and delete the new companies/contacts.

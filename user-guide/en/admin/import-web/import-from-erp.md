@@ -63,4 +63,5 @@ Once the import has finished, two lists are displayed:
 
 Above each list is a link to the selection containing the new/updated actors.
 
-**Tip**: If you have imported new actors, but want to delete them from SuperOffice, you can do this by using the selection.
+> [!TIP]
+> If you have imported new actors, but want to delete them from SuperOffice, you can do this by using the selection.

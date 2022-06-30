@@ -20,7 +20,7 @@ Before you can create the sales guide itself, you need to define
 
 Once you have done that, you can start designing the [sales guide](Create-new-sales-guide.md#Create-sales-guide) itself.
 
-#### A. Create stages for the sales guide
+## A. Create stages for the sales guide
 
 A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../chap08/Adding-items-to-the-Sale-Stage-list.md).
 
@@ -28,7 +28,7 @@ A sales guide for sales to new customers might include, for example, the stages 
 
 Go to the next procedure to link the stages to a sale type.
 
-#### B. Create a sale type for the sales guide
+## B. Create a sale type for the sales guide
 
 A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../chap08/Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md).
 
@@ -39,7 +39,7 @@ Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cr
 
 Go to the next procedure to create the sales guide.
 
-#### C. Create a sales guide
+## C. Create a sales guide
 
 Once you have created stages and specified a sale type for the sales guide, you can design the sales guide itself. You do this by adding follow-ups and/or documents for each stage of the sales guide.
 
@@ -51,7 +51,8 @@ Do as follows:
 
 3. In the list at the top, select the sale type you want to create a sales guide for. The stages selected for this sale type are displayed in the list underneath.
 
-    **Note**: If the sale type is not set up to have a sales guide, you need to click **Click here to turn on guide** at the bottom of the screen. If there are no stages defined for the sale type, you need to click **Click here to add stages** at the bottom of the screen. You can also edit the sale type by clicking the **Edit** button at the top.
+    > [!NOTE]
+    > If the sale type is not set up to have a sales guide, you need to click **Click here to turn on guide** at the bottom of the screen. If there are no stages defined for the sale type, you need to click **Click here to add stages** at the bottom of the screen. You can also edit the sale type by clicking the **Edit** button at the top.
 
 4. Select the required stage in the list. The stage's details are shown at the bottom of the screen.
 

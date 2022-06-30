@@ -48,7 +48,8 @@ To do this:
 
     * **SuperOffice Field**: here you choose which SuperOffice field you want to synchronise. Some fields (such as customer and contact IDs) cannot be synchronised and the list will then be empty.
     * **Show In ERP Tab**: check here if you want this field to be displayed in the **ERP** tab in SuperOffice CRM. <!-- Fix reuse ID=a3 -->  
-        Note: If you have chosen to synchronise this field with a SuperOffice field, there is no point in displaying the field in the **ERP** tab.
+        > [!NOTE]
+        > If you have chosen to synchronise this field with a SuperOffice field, there is no point in displaying the field in the **ERP** tab.
         The **Company** screen
 
         The **Project** screen

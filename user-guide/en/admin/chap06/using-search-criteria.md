@@ -109,15 +109,11 @@ In the list box, select the field you want to search for information in. The fie
 
     If the field you are searching in is a field containing lists, a dialog appears with several fields that vary depending on the type of values involved. But all of them have a list box, where you will find, for example, the following options:
 
-    * Is one of
-
-    * Is not one of
-
-    * Contains
-
-    * Equals
-
-    * Does not equal
+  * Is one of
+  * Is not one of
+  * Contains
+  * Equals
+  * Does not equal
 
     The list box can also contain user-defined values. Select the required option.
 
@@ -152,7 +148,7 @@ In the list box, select the field you want to search for information in. The fie
 
     ![icon](../media/Status-inaktiv.bmp) (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
 
-    * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
+  * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
 * <!-- Fix reuse ID=a1 --> ( ![icon](../media/Saint-Counter-Company.bmp) ![icon](../media/Saint-Counter-Project.bmp) )
 
@@ -166,7 +162,7 @@ In the list box, select the field you want to search for information in. The fie
 
     \*the counter values are not updated, but can still be used in the search. A search on counter values that are not updated will however return data that are not updated. The counter values should be regenerated in Settings and maintenance before they are used in a search.
 
-    * Counter values are only relevant if you have purchased a licence for and have enabled status monitors.
+  * Counter values are only relevant if you have purchased a licence for and have enabled status monitors.
 
     Under **Field** you will find one or more of these options, depending on whether you choose a counter field for sales or activities:
 

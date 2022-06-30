@@ -46,17 +46,19 @@ Enter the following information in the **Details** tab:
 
 2. In the **Document type** field, specify the type of template by clicking the arrow (![icon](../media/pil-ned.bmp) ). You can choose from **Document** and **Fax**.
 
-3. In the **Document stored in **field, you can choose to save the document somewhere other than the default option.
+3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
 4. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../chap06/Status-monitor.md)).
 
-    **Tip**: You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
+    > [!TIP]
+    >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
 5. ![icon](../OnPremises.png) Check the **Publish** option if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
 
 6. ![icon](../OnPremises.png) Check the **Save to database** option to specify that documents that you create using this template will be saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM once you have created it and you cannot access it from the program.
 
 7. Check the **Quote document type** option if the document is to be available as a quote template or order confirmation template. You select the quote document type in the list below.
+
     > [!NOTE]
     > To learn about **quote templates**, <a href="../Quote-templates.pdf" target="_blank">click here</a>.
 

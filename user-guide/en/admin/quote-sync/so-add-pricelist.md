@@ -22,8 +22,10 @@ Click the **Add** button at the top of the tab. The **Add/Edit price list** dial
 Fill in the following fields :
 
 * **Price list name**: Give the price list a descriptive name to make it easier to distinguish from any other price lists.
-* > [!NOTE]
-> You cannot change the currency after you have created the price list. To enable currency, go to **Preferences &gt; System &gt; Enable use of currency**.
+
+    > [!NOTE]
+    > You cannot change the currency after you have created the price list. To enable currency, go to **Preferences &gt; System &gt; Enable use of currency**.
+
 * **Description**: Enter a description of the price list.
 * **Active**: Check here to activate the price list, to make it available for creating quotes. You should not activate the price list until it is completely ready.
 * **Limited validity**: Check here if the price list will only remain valid for a limited period. This might apply to a time-limited sales campaign, for example. You can choose a start and end date *OR* just an end date.

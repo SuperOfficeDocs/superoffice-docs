@@ -27,8 +27,6 @@ To import your Gmail companies into the SuperOffice database:
 > [!NOTE]
 > The companies from Gmail will not be imported into the SuperOffice database yet. SuperOffice will only upload the company list from Gmail, so that you can specify the import settings.
 
-## 
-
 ## B. Adjust the import
 
 By default, all the columns with companies/contacts from the e-mail application concerned (Outlook or Gmail) are linked to a SuperOffice field, but if you wish you can
@@ -63,4 +61,5 @@ When the import is complete, two lists will be displayed:
 
 Above each list is a link to the selection with the new/changed companies/contacts.
 
-**Tip**: If you have imported new companies/contacts and there are problems with the imported data, you can open this selection in SuperOffice CRM and delete the new companies/contacts.
+> [!TIP]
+> If you have imported new companies/contacts and there are problems with the imported data, you can open this selection in SuperOffice CRM and delete the new companies/contacts.

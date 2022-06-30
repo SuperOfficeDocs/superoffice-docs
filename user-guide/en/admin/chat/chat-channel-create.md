@@ -20,7 +20,8 @@ You can create chat channels for specific purposes, such as technical support, p
 4. Complete the fields in the tabs as described below. Your changes are automatically saved when you go to another tab.
 5. Click **Save** when you are done.
 
-**Note**: Fields with red frames are mandatory. Tabs with the icon ![icon](../media/chat-mandatorytab.png) contain empty mandatory fields.
+> [!NOTE]
+> Fields with red frames are mandatory. Tabs with the icon ![icon](../media/chat-mandatorytab.png) contain empty mandatory fields.
 
 <!-- Fix reuse ID=a2 -->
 
@@ -113,7 +114,7 @@ In the **Pre-chat form** tab, you can define how customers should identify thems
 The following fields are available in the **Pre-chat form** tab:
 
 * **Enable pre-chat FAQ suggestions**: If you enable FAQ suggestions, the top 3 FAQs that match the customers message will be displayed in the chat window prior to the chat. The customer can click the FAQ links to view the complete FAQs in SuperOffice Customer Centre. If none of the suggested FAQs answer their questions, they can choose to start the chat.
-    * **FAQ folder**: Select the folder which contains the FAQs (and sub-folders with FAQs) that should be displayed to the customers. Only FAQs that have been published and are accessible to everyone (no login required), will be displayed to customers.
+  * **FAQ folder**: Select the folder which contains the FAQs (and sub-folders with FAQs) that should be displayed to the customers. Only FAQs that have been published and are accessible to everyone (no login required), will be displayed to customers.
 * **Enable pre-chat form for anonymous users**: Select this option if the customers must identify themselves before starting the chat. Leave this option unselected to let the customers start the chat directly.
 * **Message**: Enter a message to the customer. Example: "Let us know who you are and how we can help you".
 * **Fields required to initiate chat**: Select the information the customer must enter to start the chat.

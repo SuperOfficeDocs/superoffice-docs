@@ -61,9 +61,10 @@ Enter the following information in the **Details** tab:
 
 7. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../chap06/Status-monitor.md)).
 
-    **Tip**: You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
+    > [!TIP]
+    > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
-8. In the **Document stored in **field, you can choose to save the document somewhere other than the default option.
+8. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
 9. Specify the default setting for the **Our reference** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables](../Template-variables.md)).
 

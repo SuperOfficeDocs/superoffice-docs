@@ -61,7 +61,8 @@ Do as follows:
 
 3. In the **Project type** list, select the project type you want to create a project guide for. The statuses selected for this project type are displayed in the list above.
 
-    **Note**: If the project type is not set up to have a project guide, you need to click **Click here to enable guide** at the bottom of the screen. If there are no statuses defined for the project type, you need to click **Click here to add statuses** at the bottom of the screen. You can also edit the project type by clicking the **Edit** button at the top.
+    > [!NOTE]
+    > If the project type is not set up to have a project guide, you need to click **Click here to enable guide** at the bottom of the screen. If there are no statuses defined for the project type, you need to click **Click here to add statuses** at the bottom of the screen. You can also edit the project type by clicking the **Edit** button at the top.
 
 4. Select the required status in the list. The status's details are shown at the bottom of the screen.
 

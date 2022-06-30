@@ -36,6 +36,7 @@ In order to do so:
 
 The chat widget is now available and live. Visitors to your website will now be able to start chatting with you.
 
-Please note that when you enable the chat feature, your organization must be ready to handle all incoming chat conversations.
-
-**Note**: The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page has finished loading.
+> [!NOTE]
+> Please note that when you enable the chat feature, your organization must be ready to handle all incoming chat conversations.
+>
+> The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page has finished loading.

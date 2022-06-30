@@ -28,6 +28,7 @@ To select and configure outgoing video meetings:
 4. Select the service provider your company uses for video meetings. A new tab opens.
 
 5. You will be forwarded to the service provider's authentication portal. Here you must do the following:
+
     * authenticate and validate your user (to find more info on how to do this for each service provider, see <a href="https://community.superoffice.com/en/system/search?query=Video%20Meetings%20for%20SuperOffice&amp;type=all&amp;option=0&amp;section=all" target="_blank">TechDoc: Video Meetings for SuperOffice</a>)
     * confirm that the service provider is allowed to connect to SuperOffice
 

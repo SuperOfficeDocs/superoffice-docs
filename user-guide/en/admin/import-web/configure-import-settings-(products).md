@@ -45,13 +45,15 @@ To do this:
 Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate products.  
 <!-- Fix reuse ID=a11 -->
 
-**Note**: To avoid the risk of overwriting data, you should choose the option that is unique for each product.
+> [!NOTE]
+> To avoid the risk of overwriting data, you should choose the option that is unique for each product.
 
 * **Name**: The product name must be identical.
 * **Code**: The product code must be identical.
 * **Name + Code**: Both the product name and the product code must be identical.
 
-**Note**: The data you have selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
+> [!NOTE]
+> The data you have selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
 
 Click the **Action** list box and choose how duplicate hits are to be managed:
 

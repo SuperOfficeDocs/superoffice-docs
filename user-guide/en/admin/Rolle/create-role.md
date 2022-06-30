@@ -45,22 +45,11 @@ To create a role for associates in the company or for external users:
 
     | Name | Rights | Tooltips |
     |---|---|---|
-    <td><p>None | No rights |  </p></td>
-    </tr>
-    <tr>
-    <td><p>Read | Read rights | R</p></td>
-    </tr>
-    <tr>
-    <td><p>Create | Read and create rights | CR</p></td>
-    </tr>
-    <tr>
-    <td><p>Update | Read, create and update rights | CRU</p></td>
-    </tr>
-    <tr>
-    <td><p>Delete | Read, create, update and delete rights | CRUD</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | None | No rights | |
+    | Read | Read rights | R |
+    | Create | Read and create rights | CR |
+    | Update | Read, create and update rights | CRU |
+    | Delete | Read, create, update and delete rights | CRUD |
 
     **C** = Create, **R** = Read, **U** = Update, **D** = Delete
 

@@ -27,7 +27,7 @@ To complete the fields in the **Edit list item** dialog when the items are appli
 
 <!-- -->
 
-1. -   **Button**: the application icon is displayed in the Navigator in SuperOffice CRM. Users can then open the application directly by clicking the icon in the Navigator.
+1. **Button**: the application icon is displayed in the Navigator in SuperOffice CRM. Users can then open the application directly by clicking the icon in the Navigator.
     * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon](../media/knapp-verktoey-liten.bmp) ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon](../media/btn-Menu.png)) in SuperOffice CRM.
     * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See [step 8](#EkstApp-Trinn9). You could, for example, run a synchronisation program for a PDA when SuperOffice CRM closes.
     * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the **Selection** screen or the **Task** buttons in various locations in SuperOffice CRM. <!-- Fix reuse ID=a2 -->
@@ -66,7 +66,7 @@ To complete the fields in the **Edit list item** dialog when the items are appli
 
 <!-- -->
 
-1. -   **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon](../media/knapp-verktoey-liten.bmp)) in the Navigator or by selecting **Other applications** on the main menu (![icon](../media/btn-Menu.png)) in SuperOffice CRM.
+1. **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon](../media/knapp-verktoey-liten.bmp)) in the Navigator or by selecting **Other applications** on the main menu (![icon](../media/btn-Menu.png)) in SuperOffice CRM.
     * **View menu**: the user can access the application using the **Other Applications** option on the **View** menu in SuperOffice CRM.
 
 In the **Run when** list box, choose how the application will be run. This list box only appears if you have selected **Event** under **Add as**.

@@ -13,7 +13,8 @@ language: en
 
 In the **SuperOffice products** tab in the **Quote/Sync** screen, you can delete or deactivate both price lists and products in the price lists. These price lists and products will then no longer be available when users are creating quotes.
 
-**Note**: We recommend that you **deactivate** price lists and products rather than deleting them permanently. If you delete them, problems may arise when updating prices and sending quotes.
+> [!NOTE]
+> We recommend that you **deactivate** price lists and products rather than deleting them permanently. If you delete them, problems may arise when updating prices and sending quotes.
 
 ## Deactivate price lists
 
@@ -24,7 +25,8 @@ In the **SuperOffice products** tab in the **Quote/Sync** screen, you can delete
     Check **Limited validity** and specify the deactivation date in the **Valid to** field.
 4. Click **OK**.
 
-**Note**: Deactivated price lists are not available when the users are creating quotes.
+> [!NOTE]
+> Deactivated price lists are not available when the users are creating quotes.
 
 ## Deactivate products
 

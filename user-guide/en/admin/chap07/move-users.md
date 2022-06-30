@@ -31,6 +31,7 @@ To move a user:
     * **Move all to...**: Select this option if you want to transfer all the activities and sales to the new company.
     * **Move all activities starting from**: Select this option if you want to transfer activities and sales starting after a specific date.
 
-    **Note**:If you want to see the results before you move the contact, click**Show results**![icon](../media/show-results.png):
+    > [!NOTE]
+    > If you want to see the results before you move the contact, click**Show results**![icon](../media/show-results.png):
 
 7. Click **Move**. The user is moved to the specified company.

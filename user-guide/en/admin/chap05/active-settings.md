@@ -17,8 +17,8 @@ The field consists of three columns:
 
 * **Who**: Shows who the setting applies to, i.e. the name of the system, database, group or user.
 
-* > [!NOTE]
-> If this is an individual user, a tooltip about this user will pop up when you hold the mouse pointer over the user’s initials in this column.
+    > [!NOTE]
+    > If this is an individual user, a tooltip about this user will pop up when you hold the mouse pointer over the user’s initials in this column.
 
 * **Level**: shows which level the setting applies to: system, database, group or user (see [Levels for preference settings](Levels-for-preference-settings.md)).
 
