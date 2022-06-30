@@ -11,8 +11,7 @@ language: en
 
 # Customer centre configuration
 
-> [!NOTE]
-> This feature requires a licence for SuperOffice Customer Centre.
+[!include[Requirement](../../includes/req-cep.md)]
 
 In the **Customer centre configuration** screen, you can edit the styling and layout of your customer centre. You can see your changes in the preview on the right side of the screen.
 

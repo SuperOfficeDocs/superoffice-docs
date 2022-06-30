@@ -11,8 +11,7 @@ language: en
 
 # Examples of the use of trackable links
 
-> [!NOTE]
-> This feature requires the Marketing User licence.
+[!include[Requirement](../../includes/req-marketing.md)]
 
 Trackable links can be used in a variety of interesting ways:
 

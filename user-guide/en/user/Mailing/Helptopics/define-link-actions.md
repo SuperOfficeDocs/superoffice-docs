@@ -11,8 +11,7 @@ language: en
 
 # Define link actions
 
-> [!NOTE]
-> This feature requires the Marketing User licence.
+[!include[Requirement](../../includes/req-marketing.md)]
 
 In SuperOffice Marketing you can add actions to your links. These actions are triggered when the recipient clicks a link.
 

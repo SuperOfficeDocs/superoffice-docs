@@ -11,8 +11,7 @@ language: en
 
 # Work with FAQ entries
 
-> [!NOTE]
-> This feature requires a licence for SuperOffice Customer Centre.
+[!include[Requirement](../../../includes/req-cep.md)]
 
 FAQs are closely integrated with the request handling: customer enquiries will often recur, making it a good idea to enter such questions and their answers in the FAQs. These entries can be made available in SuperOffice Customer Centre, where customers themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries. This saves the request handlers time, and customers receive precise and quality-assured answers. <!-- Fix reuse ID=a1 -->
 

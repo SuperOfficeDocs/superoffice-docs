@@ -7,12 +7,12 @@ so.date: 06.29.2022
 keywords: Service
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
-# Data Exchange ![icon](../../media/OnPremises.png)
+# Data Exchange
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 This area is used to configure database integrations between the system and other data sources.
 

@@ -80,17 +80,7 @@ Please note the following:
 
 ## Preview the mailing
 
-When you have added recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients.
-
-> [!NOTE]
-> The mailing will NOT be sent to the recipient.
-
-In order to do this:
-
-1. Click a recipient in the **Recipients** list.
-2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables have been replaced by actual contact data (name, company etc.).
-3. Click links to check that they work, but remember to reset them if they are tracked. See [Reset counters after testing](Reset-counters-after-testing.md).
-4. Click ![icon](../media/btn-Cancel.png) to close the **Preview** window.
+[!include[How to preview a mailing](../../includes/preview-mailing.md)]
 
 ## Review and update the Recipients list
 
@@ -103,5 +93,4 @@ In addition, you can click the **Update list** button below the **Recipients** l
 
 Click **Next** to go to [Step 5: Confirm](Step-5-Confirm-email.md). You can still revisit the **Recipients** step to edit the recipients list.
 
-> [!TIP]
-> Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
+[!include[Tip](../../includes/tip-mailing-save-draft.md)]

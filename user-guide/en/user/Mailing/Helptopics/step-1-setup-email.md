@@ -20,16 +20,10 @@ In order to do this:
 3. In the **From** list, select **Always use** and enter the sender's e-mail address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an e-mail address to be used if no sales contact or support contact is available.
 4. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender.
 5. In the **Folder** list, select a folder in which to place the mailing. <!-- Fix reuse ID=a3 -->
-    It is always a good idea to define a well-organised folder structure to get a better overview of your mailings, forms, templates, links and images in SuperOffice Marketing. You can create sub-folders in all folders, and you can place the appropriate mailings, forms, templates, links and images in each of these folders.
 
-    To create a new folder:
+    [!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
-    1. Select one of the main tabs in SuperOffice Marketing.
-    2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
-    4. Enter a descriptive name for the folder in the **Name** field.
-    5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
-6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. <!-- Fix reuse ID=a1 --> If you add a selection, any contacts in the selection will be added as recipients in the mailing. See [Step 4: Recipients](Step-4-Recipients-email.md).   
+6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. <!-- Fix reuse ID=a1 --> If you add a selection, any contacts in the selection will be added as recipients in the mailing. See [Step 4: Recipients](Step-4-Recipients-email.md).
     <!-- Fix reuse ID=a2 -->
     Answer: To keep track of all mailings related to your selections and projects. The mailings are listed in the **Mailings** section tab in **Selections**, and in the **Activities** section tab in **Projects** in SuperOffice CRM.
 

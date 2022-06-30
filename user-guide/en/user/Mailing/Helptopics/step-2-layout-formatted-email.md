@@ -31,5 +31,4 @@ In order to do this:
 
 [Step 3: Content - E-mail](Step-3-Content-Formatted-e-mail.md)
 
-> [!TIP]
-> Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
+[!include[Tip](../../includes/tip-mailing-save-draft.md)]

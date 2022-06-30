@@ -11,7 +11,6 @@ language: en
 
 # ScreenChooser properties
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 Here you can add a script that will cause a redirect to another screen by running the CRMScript "setVariable("url", myUrl)" function.

@@ -29,5 +29,4 @@ Click **Next** to go to the next step: [Step 4: Recipients](Step-4-Recipients-Do
 
 You can use SuperOffice CRM template variables in your document to insert customer-specific information. This will give the message a more personal touch. You can find more information about these template variables [in the SuperOffice CRM Help](../../StandardCRM/chap02/Template-variables.md).
 
-> [!TIP]
-> Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
+[!include[Tip](../../includes/tip-mailing-save-draft.md)]

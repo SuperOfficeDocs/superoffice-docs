@@ -16,23 +16,17 @@ Add images to use in e-mails. See [Insert images in the message](Insert-images-i
 To add an image to SuperOffice Marketing:
 
 1. Select the **Images** tab.
-2. Optional: Select a folder or <!-- Fix reuse ID=a1 -->.
-    It is always a good idea to define a well-organised folder structure to get a better overview of your mailings, forms, templates, links and images in SuperOffice Marketing. You can create sub-folders in all folders, and you can place the appropriate mailings, forms, templates, links and images in each of these folders.
+2. Optional: Select a folder or create a new one.
 
-    To create a new folder:
+    [!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
-    1. Select one of the main tabs in SuperOffice Marketing.
-    2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
-    4. Enter a descriptive name for the folder in the **Name** field.
-    5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
-3. Click the ![icon](../media/btn-Add.png)**Add** button. This takes you to the **Image properties** screen.
-4. Enter a descriptive name for the image in the **Name** field.
-5. Click **Upload files (or drag here)**, select the image to add, and click **Open**.  
+1. Click the ![icon](../media/btn-Add.png)**Add** button. This takes you to the **Image properties** screen.
+1. Enter a descriptive name for the image in the **Name** field.
+1. Click **Upload files (or drag here)**, select the image to add, and click **Open**.  
     or  
     Drag an image from your PC and drop it on **Upload files (or drag here)**.  
     The preview displays the image.
-6. Click **OK** when you are done.
+1. Click **OK** when you are done.
 
 > [!TIP]
 > When editing a message, you can also add images from the royalty-free image library. See [Insert images in the message](Insert-images-in-the-message.md).

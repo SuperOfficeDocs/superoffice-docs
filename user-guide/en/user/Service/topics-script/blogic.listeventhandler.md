@@ -11,8 +11,7 @@ language: en
 
 # Triggers
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 

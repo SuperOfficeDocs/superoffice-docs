@@ -11,7 +11,6 @@ language: en
 
 # System scripts
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 This screen lists the system scripts which control key parts of the system.

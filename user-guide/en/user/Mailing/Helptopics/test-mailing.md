@@ -16,7 +16,7 @@ language: en
 
 When you create a new mailing, you can also do a few tests to check that the mailing is working properly and that the layout looks OK.
 
-## Send a test e-mail
+## Send a test email
 
 In the **Content** step you can send a test e-mail.
 
@@ -31,17 +31,7 @@ See [What should I test?](test-mailing.md#What-should-I-test-) below for a list 
 
 ## Preview the mailing
 
-When you have added recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients.
-
-> [!NOTE]
-> The mailing will NOT be sent to the recipient.
-
-In order to do this:
-
-1. Click a recipient in the **Recipients** list.
-2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables have been replaced by actual contact data (name, company etc.).
-3. Click links to check that they work, but remember to reset them if they are tracked. See [Reset counters after testing](Reset-counters-after-testing.md).
-4. Click ![icon](../media/btn-Cancel.png) to close the **Preview** window.
+[!include[How to preview a mailing](../../includes/preview-mailing.md)]
 
 ## What should I test?
 
@@ -61,5 +51,4 @@ When you are testing a mailing, it is important to check the following:
 
 Click **Next** to go to **Step 4: Recipients**. You can still go back to the **Content** step to make additional changes to the message. This step is not relevant for form responses.
 
-> [!TIP]
-> Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
+[!include[Tip](../../includes/tip-mailing-save-draft.md)]

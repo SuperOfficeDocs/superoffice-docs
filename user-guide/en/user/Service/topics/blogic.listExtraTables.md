@@ -11,8 +11,7 @@ language: en
 
 # Tables
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 In the **Tables** screen in **System design** there is a list of the tables in the system. Here you can extend the SuperOffice Service by creating new tables and fields for different screens in the system.
 

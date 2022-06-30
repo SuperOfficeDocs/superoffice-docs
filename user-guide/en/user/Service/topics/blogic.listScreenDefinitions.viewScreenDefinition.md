@@ -11,8 +11,7 @@ language: en
 
 # Screen
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 Here you can view the details of the selected screen.
 

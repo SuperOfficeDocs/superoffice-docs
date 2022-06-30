@@ -11,8 +11,7 @@ language: en
 
 # List tables
 
-> [!NOTE]
-> This feature requires the SuperOffice Expander Services licence.
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish.
 

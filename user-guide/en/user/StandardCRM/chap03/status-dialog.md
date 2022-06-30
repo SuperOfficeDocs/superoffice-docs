@@ -11,7 +11,7 @@ language: en
 
 # The View statuses dialog
 
-This feature requires a licence for Sales Intelligence.
+[!include[Requirement](../../includes/req-saint.md)]
 
 The **View statuses** dialog is displayed when you click a status image for a company card, contact card or project card. The dialog contains the following information:
 

@@ -28,8 +28,7 @@ Click the required link, depending on how documents are managed in your SuperOff
 
 [Edit document content - using SuperOffice Web Tools](Editing-documents.md#Editing-document-properties-in-the-Document-dialog-with-plug-in-Web)
 
-> [!NOTE]
-> <!-- Fix reuse ID=a1 -->
+[!include[Requirement](../../includes/req-licence-gen.md)]
 
 ## How do I know if I am using SharePoint, SuperOffice Web Tools or not?
 

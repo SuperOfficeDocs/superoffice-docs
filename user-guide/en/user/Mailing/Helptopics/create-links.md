@@ -11,8 +11,7 @@ language: en
 
 # Create tracked links
 
-> [!NOTE]
-> This feature requires the Marketing User licence.
+[!include[Requirement](../../includes/req-marketing.md)]
 
 As mentioned under [Include links you want to track](includeLinksToTrack.md), you can track URLs inserted in e-mails. The **Tracked links** tab is used to administrate these trackable links. The links created here will be available when you and other users when you edit the contents of your mailings.
 
@@ -22,16 +21,10 @@ As mentioned under [Include links you want to track](includeLinksToTrack.md), yo
 To create a link:
 
 1. Select the **Tracked links** tab.
-2. Optional: Select a folder or <!-- Fix reuse ID=a1 -->.
-    It is always a good idea to define a well-organised folder structure to get a better overview of your mailings, forms, templates, links and images in SuperOffice Marketing. You can create sub-folders in all folders, and you can place the appropriate mailings, forms, templates, links and images in each of these folders.
+2. Optional: Select a folder or create a new folder.
 
-    To create a new folder:
+    [!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
-    1. Select one of the main tabs in SuperOffice Marketing.
-    2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
-    4. Enter a descriptive name for the folder in the **Name** field.
-    5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 3. Click the ![icon](../media/btn-Add.png)**Add** button. This takes you to the **Link properties** screen.
 4. Enter a descriptive name for the link in the **Name** field.
 5. Under **Link actions** at the bottom of the screen, you can choose what should happen when the recipient clicks the link in the message. See [Define link actions](Define-link-actions.md).

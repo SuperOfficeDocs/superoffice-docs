@@ -22,8 +22,7 @@ Click the required link, depending on how documents are managed in your SuperOff
 
 [Create a new document using SuperOffice Web Tools](#Creating-a-new-document-with-plug-in-Web)
 
-> [!NOTE]
-> <!-- Fix reuse ID=a1 -->
+[!include[Requirement](../../includes/req-licence-gen.md)]
 
 ## How do I know if I am using SharePoint, SuperOffice Web Tools or not?
 

@@ -11,7 +11,7 @@ language: en
 
 # Customer languages
 
-[!include[Requirement](../includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 In the **Customer languages** screen is a list of the installed customer languages. From this screen you can configure the customer languages, making it easy to communicate with customers in different languages.
 

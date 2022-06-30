@@ -60,5 +60,4 @@ In addition, you can click the **Update list** button below the **Recipients** l
 
 Click **Next** to go to [Step 5: Confirm](Step-5-Confirm-Document.md). You can still revisit the **Recipients** step to edit the recipients list.
 
-> [!TIP]
-> Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
+[!include[Tip](../../includes/tip-mailing-save-draft.md)]

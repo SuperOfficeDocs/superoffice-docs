@@ -37,16 +37,9 @@ In order to do this:
     > [!NOTE]
     > For variables such as sale ID or project ID to work, you must link the document mailing to a sale or project.
 
-7. In the **Folder** list, select a folder in which to place the mailing. <!-- Fix reuse ID=a31 -->
-    It is always a good idea to define a well-organised folder structure to get a better overview of your mailings, forms, templates, links and images in SuperOffice Marketing. You can create sub-folders in all folders, and you can place the appropriate mailings, forms, templates, links and images in each of these folders.
+7. In the **Folder** list, select a folder in which to place the mailing.
 
-    To create a new folder:
-
-    1. Select one of the main tabs in SuperOffice Marketing.
-    2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
-    4. Enter a descriptive name for the folder in the **Name** field.
-    5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
+    [!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
 8. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. Start typing in the **Selection** or **Project** fields to search for a selection or project respectively. <!-- Fix reuse ID=a2 -->
     Answer: To keep track of all mailings related to your selections and projects. The mailings are listed in the **Mailings** section tab in **Selections**, and in the **Activities** section tab in **Projects** in SuperOffice CRM.

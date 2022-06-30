@@ -49,17 +49,7 @@ To access these, do as follows:
 
 5. Select **Create mailing**. The template opens in the mailings wizard. See [Step 1: Setup - E-mail](step-1-setup-email.md).
 
-<!-- Fix reuse ID=a1 -->
-
-It is always a good idea to define a well-organised folder structure to get a better overview of your mailings, forms, templates, links and images in SuperOffice Marketing. You can create sub-folders in all folders, and you can place the appropriate mailings, forms, templates, links and images in each of these folders.
-
-To create a new folder:
-
-1. Select one of the main tabs in SuperOffice Marketing.
-2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-3. Click the ![icon](../media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
-4. Enter a descriptive name for the folder in the **Name** field.
-5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
+[!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
 ## Create a new e-mail template
 

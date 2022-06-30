@@ -11,7 +11,7 @@ language: en
 
 # Create a script
 
-[!include[Requirement](../includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-expander-services.md)]
 
 In the **Edit script** screen you can edit or create a script. See the [CRMScript documentation][1] for examples and reference.
 

@@ -11,8 +11,7 @@ language: en
 
 # Customer centre source files
 
-> [!NOTE]
-> This feature requires a licence for SuperOffice Customer Centre.
+[!include[Requirement](../../includes/req-cep.md)]
 
 In the **Customer centre source files** screen, you can edit the default pages in your customer centre.
 

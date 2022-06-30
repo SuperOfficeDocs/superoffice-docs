@@ -48,5 +48,4 @@ Below are the relevant topics for this step in the mailings wizard:
 
 [Test mailing](../test-mailing.md): How to test the mailing before sending.
 
-> [!TIP]
-> Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
+[!include[Tip](../../../includes/tip-mailing-save-draft.md)]

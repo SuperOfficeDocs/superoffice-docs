@@ -11,8 +11,7 @@ language: en
 
 # Include links you want to track
 
-> [!NOTE]
-> This feature requires the Marketing User licence.
+[!include[Requirement](../../includes/req-marketing.md)]
 
 You can include links (URLs) in a message and track them. In other words, you can see how many recipients have clicked the links and who has clicked them. Read more about tracking in [Examples of the use of trackable links](Examples-of-the-use-of-trackable-links.md).
 
