@@ -11,8 +11,7 @@ language: en
 
 # Users
 
-> [!NOTE]
-> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
 Selecting ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Users** takes you the **Users** screen, where you have the following options:
 

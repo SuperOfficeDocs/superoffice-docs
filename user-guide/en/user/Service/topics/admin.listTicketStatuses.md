@@ -15,8 +15,7 @@ All requests that are registered in SuperOffice Service, have a status, such as 
 
 For example, you can create a new status called "Waiting for reply" as a more detailed variant of either **Closed** or **Open**, depending on how you want the system to process and report this status internally. You can also link custom logic to such statuses in order to streamline your business processes.
 
-> [!NOTE]
-> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
 The **Request status** screen displays all existing statuses in the system. The list contains the following columns:
 

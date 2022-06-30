@@ -11,8 +11,7 @@ language: en
 
 # Profile
 
-> [!NOTE]
-> If this option is not visible, that means you have insufficient rights for this function. Contact your system administrator for more information.
+[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
 Profiles in the system are used for configuring the appearance and behaviour of screen elements.
 
