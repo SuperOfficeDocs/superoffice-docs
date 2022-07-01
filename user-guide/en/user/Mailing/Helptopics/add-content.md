@@ -14,18 +14,11 @@ language: en
 <details>
   <summary>Add content to your message by using the side-panel</summary>
 
-| Icon | Name | Function |
-|---|---|---|
-| ![icon](../media/editor_sidepanel_btn_content.png) | Content | This section contains various content types, such as columns, text sections, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to edit it in the side panel. See [Edit content](Edit_a_paragraph.md). |
-| ![icon](../media/editor_sidepanel_btn_blocks.png)  | Blocks  | This section contains saved content blocks such as headers and footers. Drag and drop content from this section to the message. To save a content block, click a row and select **Save block** (![icon](../media/NEWbtn_SaveBlock.png)). |
-| ![icon](../media/editor_sidepanel_btn_body.png     | Body    | In this section you can edit the global properties and layout for the message.  |
-| ![icon](../media/editor_sidepanel_btn_images.png)  | Images  | In this section you can find millions of images to use in your mailing. Drag and drop content from this section to the message. See [Insert images in the message](Insert_images_in_the_message.md). |
-</details>.
+[!include[Mailing - sections in the side panel](../../includes/mailing-side-panel.md)]
 
 > [!NOTE]
 > If you have defined specific properties for individual sections, these are not overridden by global properties.
->
-> If the **Images** (![icon](../media/editor_sidepanel_btn_images_small.png)) section is not visible, this preference may have been disabled due to organisational privacy rules.
+</details>
 
 ## Adding columns, text blocks, images etc
 

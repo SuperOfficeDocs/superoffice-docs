@@ -14,13 +14,7 @@ language: en
 In the **Content** step you can edit the layout and content of the form response, and add links and images.
 
 <!-- Fix reuse ID=a1 -->
-
-> [!NOTE]
-> If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. To learn more about the two versions of the message editor, see:
->
-> (for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)
->
-> (for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
+[!include[Note about 2 editor versions](../../includes/note-old-or-new-editor.md)]
 
 ## Are you using the new Drag & drop editor or the previous version of the editor?
 

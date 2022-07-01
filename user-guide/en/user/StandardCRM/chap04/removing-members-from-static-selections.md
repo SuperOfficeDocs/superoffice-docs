@@ -13,13 +13,9 @@ language: en
 
 To remove members from a static selection using search criteria:
 
-1. Open the **Selection** screen.  
+1. Open the **Selection** screen.
     <!-- Fix reuse ID=a1 -->
-    There are several ways to open the **Selection** screen:
-
-    * By clicking the **Selection** button in the Navigator.
-    * By using the[history list][1] or [FastSearcher][2].
-    * By double-clicking on a selection in a search result.
+    [!include[Howto](../../includes/goto-selections.md)]
 2. Go to the required static selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. Click the **Remove members** button in the tab.
 
@@ -30,13 +26,9 @@ To remove members from a static selection using search criteria:
 
 If you only want to remove a specific members, do as follows:
 
-1. Open the **Selection** screen.  
+1. Open the **Selection** screen.
     <!-- Fix reuse ID=a11 -->
-    There are several ways to open the **Selection** screen:
-
-    * By clicking the **Selection** button in the Navigator.
-    * By using the [history list][1] or [FastSearcher][2].
-    * By double-clicking on a selection in a search result.
+    [!include[Howto](../../includes/goto-selections.md)]
 2. Go to the required static selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. Select one or more entries in the list of members.
 4. Right-click and select **Remove**. The members will be instantly removed from the active selection.

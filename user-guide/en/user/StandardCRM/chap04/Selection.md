@@ -102,12 +102,7 @@ There are three different types of selections in SuperOffice CRM:
 
 The **Selection** screen contains the following tabs:
 
-* [The list of members](The-List-of-Members.md): All selection types except **Company/contact** will have two tabs containing selection data. Selection members can be projects, sales, documents, requests, follow-ups, form submissions, chat conversations, mailings or products.
-* [Company/contact](selection-tab-Company-contact.md): The **Company/contact** tab contains companies and contacts linked to list of members. Example: All contacts or companies linked to the sales in a selection.
-* [Criteria](selection-tab-Criteria.md): Here you can edit the criteria for a dynamic selection.
-* [Details](selection-tab-Details.md): Here you can edit general information for a selection.
-* [Charts](Display-selections-as-charts.md): Here you can view the selection data in a chart. Charts of selections can also be used in [dashboards](../Dashboard/Dashboard-Create.md).
-* [Mailings](Mailings-section-tab.md): Here you can create a mailing to contacts in a selection. You can also see the mailings that have been archived on this selection.
+[!include[List of tabs on Selection](../../includes/selections-tabs.md)]
 
 To move backwards and forwards between selections:
 
@@ -115,9 +110,7 @@ To move backwards and forwards between selections:
 
 ## Add record as a favourite
 
-To add a record to favourites, click the star icon ![icon](../../Service/media/favourite-inactive.png) in the corner of the relevant card, tab or dialog. The star turns yellow ![icon](../../Service/media/favourite-active.png), and the record is instantly added to favourites. You do not have to click **Save**.
-
-Now you can quickly access the record by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu. The favourites are also available in the side panel.
+[!include[ALT](../../includes/howto-add-favorite.md)]
 
 ## Tasks
 
@@ -125,14 +118,9 @@ From the **Tasks** button (lower part of the screen), you can perform specific t
 
 ## What would you like to do now?
 
-[Create selections](Create-selections.md)
-
-[Perform tasks using selections](Performing-tasks-using-selections.md)
-
-[Create combined selections](Creating-combined-selections.md)
-
-[Display selections as charts](Display-selections-as-charts.md)
-
-[Edit selections](Editing-Selections.md)
-
-[Delete selections](Deleting-selections.md)
+* [Create selections](Create-selections.md)
+* [Perform tasks using selections](Performing-tasks-using-selections.md)
+* [Create combined selections](Creating-combined-selections.md)
+* [Display selections as charts](Display-selections-as-charts.md)
+* [Edit selections](Editing-Selections.md)
+* [Delete selections](Deleting-selections.md)

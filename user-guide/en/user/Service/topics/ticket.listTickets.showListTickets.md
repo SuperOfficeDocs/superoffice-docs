@@ -39,7 +39,7 @@ Under the list, you can click the ![icon](../media/btn-Menu.png) menu button to 
 
 This section of the screen displays the contents of the request selected under **Result**. Here you have the same options as described under [Process requests](ticket.listTicket.md). <!-- Fix reuse ID=a1 -->
 
-If the preview section is not visible, click the ![icon](../../media/btn-Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+[!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
 
 ## What would you like to do now?
 

@@ -23,7 +23,8 @@ To find contacts that are registered in the system:
 2. Enter the required search criteria under **Criteria**. See [Search in SuperOffice Service](rms.search.md) to find out how to define search criteria.
 3. Click **Search**.
 4. Under **Find contacts** are the contacts that match your search criteria. If you select one of the contacts in the list, the requests linked to that contact are displayed in the preview section. <!-- Fix reuse ID=a1 -->
-    If the preview section is not visible, click the ![icon](../../media/btn-Menu.png) menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+
+    [!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
 
 > [!TIP]
 > There is a more complete description of what you can do in the **Find contacts** screen, under [Search in SuperOffice Service](rms.search.md).

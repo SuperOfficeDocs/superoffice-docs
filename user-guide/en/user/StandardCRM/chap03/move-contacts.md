@@ -11,8 +11,7 @@ language: en
 
 # Move contacts
 
-> [!NOTE]
->To access this function, your user must belong to a role with the functional right **Can manage (move and merge) entities**.
+[!include[Requirement](../../includes/note-req-manage-entities.md)]
 
 You can move a contact from one company to another. If a contact has been set up under the wrong company, or if they have changed department, they can be moved, including their activities and memberships. You also have the option of disconnecting a contact from a company.
 

@@ -11,8 +11,7 @@ language: en
 
 # Copy companies
 
-> [!NOTE]
->To access this function, your user must belong to a role with the functional right **Can manage (move and merge) entities**.
+[!include[Requirement](../../includes/note-req-manage-entities.md)]
 
 At some stage, you may want to copy an existing company to a new company. For example: an existing company has set up a new branch. The new branch will use mostly the same company information as the existing one.
 

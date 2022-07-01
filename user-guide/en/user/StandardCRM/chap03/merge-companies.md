@@ -11,8 +11,7 @@ language: en
 
 # Merge companies
 
-> [!NOTE]
->To access this function, your user must belong to a role with the functional right **Can manage (move and merge) entities**.
+[!include[Requirement](../../includes/note-req-manage-entities.md)]
 
 If there are duplicate records of companies in the database, you can merge them. Contacts and activities will be moved to the target company and the source company will be deleted.
 

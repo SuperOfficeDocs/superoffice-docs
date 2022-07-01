@@ -18,4 +18,4 @@ Selecting ![icon](../media/globalmenu-settings-small.png)**System settings &gt; 
 * In the **Users** tab, you can see all the individual users. See [Users](admin.listUsers.listUsers.md).
 * In the **User groups** tab, you can see the existing user groups. See [User groups](admin.listUsers.listUsergroups.md).
 
-To create, delete or restore users, go to SuperOffice Settings and maintenance.
+[!include[User management](../../includes/howto-users-crud.md)]

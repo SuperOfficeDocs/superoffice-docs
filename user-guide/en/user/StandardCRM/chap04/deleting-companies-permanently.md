@@ -11,26 +11,21 @@ language: en
 
 # Delete records permanently
 
-If you want to delete multiple records (contacts, companies, sales, projects etc.), you can create a selection of these records and delete themin one operation.
+If you want to delete multiple records (contacts, companies, sales, projects etc.), you can create a selection of these records and delete them in one operation.
 
 > [!NOTE]
 > This task is only available for users with administrator access. It is also a task you should think about carefully before performing, because it deletes all selected records permanently, both from the **Selection** screen and from the SuperOffice database.
 
 1. Open the **Selection** screen.  
     <!-- Fix reuse ID=a1 -->
-    There are several ways to open the **Selection** screen:
-
-    * By clicking the **Selection** button in the Navigator.
-    * By using the [history list][1] or [FastSearcher][2].
-    * By double-clicking on a selection in a search result.
+    [!include[Howto](../../includes/goto-selections.md)]
 2. Go to a selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. If you want to delete just some of the selection members, select them in the list of members.
 4. Click the **Task** button and select **Delete all**.
 5. When you are asked whether you want to delete the records, click **Yes**.
 6. When you are asked whether you really want to delete the records from the database, click **Yes**.
 
-> [!NOTE]
-> You can restore companies and contacts that have been deleted by mistake, either by yourself or another user. Deleted companies and contacts are by default kept in the recycle bin for 14 days. After this time, they are permanently deleted. See [Restore deleted companies and contacts](../chap01/Restore-deleted-companies-and-contacts.md).
+[!include[Note about restore](../../includes/note-restore.md)]
 
 <!-- Referenced links -->
 [1]: ../chap01/using-the-history-list.md

@@ -16,24 +16,7 @@ language: en
 If you have purchased a licence for SAINT ("SAles INTelligence"), you can specify criteria for status monitors of companies, contacts and projects in SuperOffice Settings and maintenance. Statuses generated from these criteria can be visualised as an image shown in the company cards, contact cards or project cards. For example, you can display an image of a warning triangle for a customer who has required a lot of sales meetings but who has not generated any sales, or a spider's web for a customer who has not been contacted in more than three months. This provides you with a clear and instant indication of particular statuses, which may be very useful to sales staff.
 
 <!-- Fix reuse ID=a1 -->
-
-## Companies/contacts
-
-| Status name | Criteria | Explanation | Task |
-|---|---|---|---|
-| Expensive customer | **Number of activities** of type **Marketing** in period is high.
-**Number of sales** with status **Sold** in period is low. | You have undertaken a lot of marketing towards the customer, but this has led to few or no sales. | Plan an internal meeting to find out what can be done to make the customer profitable. |
-| Neglected customer | **Number of activities** with direction **Outgoing** in period is low. | You have had very little contact with the customer. | Plan a phone call with the customer to maintain customer relations. |
-| Sleeping customer | **Number of activities** with direction **Incoming** in period is low or zero.
-**Number of activities** with direction **Outgoing** in period is high. | You are trying to get into contact with the customer, but are getting little or no response. | Arrange a meeting with the customer to find out why they do not want to communicate. |
-
-## Projects
-
-| Status name | Criteria | Explanation | Task |
-| Neglected project | **Project status** is set to ongoing.
-**Date of last activity** (follow-up) is older than 14 days. | The project is active, but there have not been any activities for the last 2 weeks. | Plan a project meeting to get the wheels turning. |
-| Unprofitable project | **Number of sales** (completed) is zero.
-**Project status** is completed or stopped. | The project is complete, but nothing has been sold. | Plan an internal meeting to find out why no sales were achieved. |
+[!include[Examples](../../includes/status-examples.md)]
 
 The way to create statuses is described in detail in the SuperOffice Settings and maintenance help.
 

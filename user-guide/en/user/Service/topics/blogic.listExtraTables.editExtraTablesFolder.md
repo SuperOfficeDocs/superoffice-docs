@@ -15,27 +15,12 @@ This screen is used to edit the properties of a new or existing table folder. Ta
 
 ## Create folders
 
-To create a new folder:
-
-1. Click **New folder** at the top of the screen.
-2. In the **Folder** field, select a parent folder in the list.
-3. Enter a descriptive name for the folder in the **Name** field.
-4. Click **OK**. The new folder is created.
+[!include[How to create a selection folder](../../includes/selection-create-folder.md)]
 
 ## Edit folders
 
-You can edit both the name of a folder and the details you entered when creating it. To do this:
-
-1. Go to the required folder.
-2. Click the name of the folder.
-3. Amend the fields as described above.
-4. Click **OK**. The changes are saved.
+[!include[How to edit a selection folder](../../includes/selection-edit-folder.md)]
 
 ## Delete folders
 
-When you delete a folder, all its contents (selections, FAQ entries, reply templates, tables, scripts, macros etc.) are also deleted from SuperOffice Service. To do this:
-
-1. Go to the required folder.
-2. Click the name of the folder.
-3. Click **Delete**.
-4. Click **OK** when you are asked if you want to delete the folder. The folder and its contents are removed from SuperOffice Service.
+[!include[How to delete a selection folder](../../includes/selection-delete-folder.md)]

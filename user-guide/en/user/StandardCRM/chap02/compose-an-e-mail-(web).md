@@ -1,7 +1,7 @@
 ---
-uid: help-en-compose-an-e-mail-(web)
-title: Compose an e-mail (Web)
-description: Compose an e-mail (Web)
+uid: help-en-compose-email-web
+title: Compose an email (Web)
+description: Compose an email (Web)
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRM
@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Compose an e-mail
+# Compose an email
 
 ![icon](../media/Knapperad-E-post.bmp)
 

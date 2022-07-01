@@ -20,8 +20,8 @@ In the **Users** tab, you can display all the users registered in the system. Us
 
 Clicking a user takes you to the **Edit users** screen, which contains all the information recorded about this user.
 
-To create, delete or restore users, go to SuperOffice Settings and maintenance.
+[!include[User management](../../includes/howto-users-crud.md)]
 
 ## What would you like to do now?
 
-[Edit users](admin.listUsers.listUsers.editUser.md)
+* [Edit users](admin.listUsers.listUsers.editUser.md)

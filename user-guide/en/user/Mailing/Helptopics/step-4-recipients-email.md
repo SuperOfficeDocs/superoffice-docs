@@ -9,74 +9,30 @@ so.topic: help
 language: en
 ---
 
-# Step 4: Recipients - E-mail
+# Step 4: Recipients - Email
 
-In the fourth step, **Recipients**, you must select the recipients of the mailing. You can add recipients from a number of sources, as described below. In addition, you can set various mailing options here and also preview the mailing.
+[!include[Intro to mailing recipients](../../includes/mailing-recipients-intro.md)]
 
-> [!NOTE]
-> When you add recipients, only contacts with a valid e-mail address (or mobile phone number, in the case of SMS mailings) will be added to the **Recipients** list.
+[!include[Note](../../includes/note-valid-recipients.md)]
 
 ## Add recipients from selections and projects
 
-You can add recipients from selections (from both SuperOffice CRM and SuperOffice Service) and projects (from SuperOffice CRM).
-
-To do this:
-
-1. Under **Add recipients**, click **Selection** or **Project**.
-2. Click in the field below and start typing the name of the selection or project you want to add. As you type, a dynamic list displays the matches.
-3. Click a selection or a project in the list.
-4. Click ![icon](../media/btn-Add.png). The selection or project is added to the **Recipient sources** list, and the **Recipients** list is updated.
-5. Repeat steps 1 through 4 to add more selections or projects.
-
-> [!NOTE]
-> If you selected a selection under **Archive mailing** in **Setup** (step 1), this selection is listed under **Recipient sources**. You can delete this selection if necessary.
+[!include[How to add recipients from selections and projects](../../includes/howto-add-recipients-selection.md)]
 
 ## Add contacts from SuperOffice
 
-You can add individual contacts from SuperOffice. To do this:
-
-1. Under **Add recipients**, click **Contact**.
-2. Click in the field below and start typing the name of the contact you want to add, in the field below. You can also enter a company name to display all contacts for a company.
-3. Select the contact you want from the list that appears.
-4. Click ![icon](../media/btn-Add.png). The contact is added to the **Recipient sources** list, and the **Recipients** list is updated.
-5. Repeat steps 2-5 to add more contacts. Additional contacts will be added to the same row in the **Recipient sources** list, and the number of contacts will display in the **Name** column.
+[!include[How to add contacts from SuperOffice as recipients](../../includes/howto-add-recipients-contact.md)]
 
 ## Import a list of recipients (contacts) from an external file
 
-You can import recipients from an [external comma-separated file](Create-address-list.md) (.txt, .csv or similar).
-
-> [!NOTE]
-> When you import a list of names and e-mail addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies will be listed in the **Company** column in the **Recipients** list. Any names/e-mail addresses that are **not** found in SuperOfffice, will be filtered out and not included in the mailing. This is due to GDPR regulations.
-
-To do this:
-
-1. Click **Select file**.
-2. Locate the relevant file (.txt, .csv or similar text format).
-3. Click ![icon](../media/btn-Add.png). The list is added to the **Recipient sources** list, and the **Recipients** list is updated.
-4. Repeat steps 2-4 to add more recipients. Additional recipients will be added to the same row in the **Recipient sources** list. The total number of recipients will display in the **Name** column.
+[!include[How to import recipients](../../includes/howto-import-recipients.md)]
 
 <!-- Fix reuse ID=a1 -->
-
-Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the template variables **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty variables in your mailings, make sure to [preview the mailing](test-mailing.md) first.
+[!include[Note](../../includes/note-imported-recipients.md)]
 
 ## Recipient options
 
-Under **Options** in the lower part of the **Recipients** screen, you can select various alternatives for the mailing:
-
-* **Override consent and subscription**: Select this option to also send the mailing to contacts who have not given their consent to receiving e-marketing or are not subscribing to this mailing type. These contacts are listed with the status **No consent** in the **Recipients** list.
-
-* **Only one message per e-mail address**: Select this option to remove duplicate e-mail addresses in the recipient list (indicated by **Duplicate** in the **Status** column). This will update the **Recipients** list.
-
-* **Update recipient list when sending**: Select this option to automatically update the recipients list before sending the mailing. See **Update recipients list** below.
-
-* **Include companies**: Select this option to include companies as recipients.
-
-**Prefer company**: Select this option to send the mailing only to the companies in the recipient list (and not the related contacts). Each company will only receive one mailing.  
-Please note the following:
-
-* Contacts that do not belong to a company, will still receive the mailing.
-* If a company has no e-mail address, the mailing will instead be sent to all related contacts in the recipient list.
-* The **Prefer company** option is only available if you have selected **Include companies** above.
+[!include[Mailing options for recipients](../../includes/mailing-recipient-options.md)]
 
 ## Preview the mailing
 
@@ -84,12 +40,7 @@ Please note the following:
 
 ## Review and update the Recipients list
 
-When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you have checked the option **Update recipient list when sending**, the projects and selections will be checked before sending the mailing, in case contacts have been added, removed or edited.
-
-In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. You should do this if it's been a while since you added the recipients. Some of the contacts on the list might have changed their consent in the mean time.
-
-> [!NOTE]
-> The list only displays the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
+[!include[How to update recipients](../../includes/howto-update-recipients.md)]
 
 Click **Next** to go to [Step 5: Confirm](Step-5-Confirm-email.md). You can still revisit the **Recipients** step to edit the recipients list.
 

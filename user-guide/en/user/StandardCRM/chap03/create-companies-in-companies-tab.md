@@ -18,10 +18,9 @@ language: en
 
     Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. For more details, see [Duplicates](../chap01/Duplicates.md).
 
-2. Enter the required information in the other fields.  
+2. Enter the required information in the other fields.
     <!-- Fix reuse ID=a2 -->
-    > [!NOTE]
-    > Default field values and list values are specified in the **Preferences** dialog. See [Preferences](../chap01/Preferences.md).
+    [!include[Note - default values](../../includes/note-default-values.md)]
 
     1. If, for example, the company is an organisation with several departments, you can specify a department in the **Department** field.
     2. The address fields available will depend on which country is selected. The default is the country that your organisation belongs to. Having selected the country, the correct address format for the remaining address fields will be inserted automatically in the **Company** tab.

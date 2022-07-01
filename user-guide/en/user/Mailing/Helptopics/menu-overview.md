@@ -17,15 +17,7 @@ Below is an overview of the various functions in the **Content** step.
 
 The side-panel contains the following main sections:
 
-| Icon | Name | Function |
-|:-:|---|---|
-| ![icon](../media/editor-sidepanel-btn-content.png) | Content | This section contains various content types, such as columns, text sections, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to edit it in the side panel. See [Edit content](Edit-a-paragraph.md). |
-| ![icon](../media/editor-sidepanel-btn-blocks.png) | Blocks | This section contains saved content blocks such as headers and footers. Drag and drop content from this section to the message.<br />To save a content block, click a row and select **Save block** (![icon](../media/NEWbtn-SaveBlock.png)). |
-| ![icon](../media/editor-sidepanel-btn-body.png) | Body | In this section you can edit the global properties and layout for the message.<br />If you have defined specific properties for individual sections, these are not overridden by global properties. |
-| ![icon](../media/editor-sidepanel-btn-images.png) | Images | In this section you can find millions of images to use in your mailing. Drag and drop content from this section to the message. See [Insert images in the message](Insert-images-in-the-message.md).
-
-> [!NOTE]
-> If the **Images** (![icon](../media/editor-sidepanel-btn-images-small.png)) section is not visible, this preference may have been disabled due to organisational privacy rules.
+[!include[Mailing - sections in the side panel](../../includes/mailing-side-panel.md)]
 
 See also [Add content](Add-content.md).
 

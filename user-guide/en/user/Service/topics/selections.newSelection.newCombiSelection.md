@@ -25,12 +25,8 @@ A combined selection is a combination of two or more existing selections. Here y
 4. Click **Continue**. This takes you to the **Edit selection** screen.
 
 5. In the **General info** tab, enter the following:
-    * **Name**: Enter a descriptive name for the selection.
-    * **ID string**: Here you can enter a unique identifier. In a web-based customer centre, you can refer to this ID string to make the selection available to customers.
-    * **Folder**: If you have organised the selections into a folder structure (see [Administrate folders of selections](selections.editSelectionFolder.md)), click ![icon](../../media/btn-dropdown.png) and select a folder.
-    * **Access**: In this list box, you select who is to have access to read and edit the selection.
-    * **Show in left menu**: Check here if you want the name of the selection to appear under **Selections** in the Navigator.
-    * **Field for parameter constraint**: This field can be used to enter a key or a filter in order to display a selection as a web panel.
+
+    [!include[Contents of Selection General info tab](../../includes/selection-general-info.md)]
 
 6. Go to the **Selection** tab. Here you're going to choose which selections you want to combine.
 
@@ -60,9 +56,7 @@ A combined selection is a combination of two or more existing selections. Here y
     > You can remove a selection from the combined selection by clicking **Delete** ( ![icon](../media/btn-delete.png) ) on the right of the row.
 
 14. In the **Profile** tab, specify how the selection is to be presented:
-    * **Entries per page**: In this list box, you specify how many records are to be displayed per page.
-    * Under **Columns**, you can choose which columns are displayed in the selection, as well as their order. See [Manage columns in selections](selections.editSelection2.editProfile.md).
-    * Under **Sample table** you can see what the selection will look like with the current settings.
+   [!include[Contents of Selection Profile tab](../../includes/selection-profile-tab.md)]
 
 15. Click **Execute** to display the result of the combined selection in the **Result** tab.
 

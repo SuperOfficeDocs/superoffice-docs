@@ -15,14 +15,7 @@ Under **Knowledge Base &gt; Reply templates**, you can put the reply templates i
 
 ## Create folders
 
-To create a new folder:
-
-1. Go to the folder you want to create a subfolder under.
-2. Click the **New folder** button at the top of the screen.
-3. The **Folder** field automatically shows the name of the parent folder you chose. You can select a different folder here.
-4. Enter a descriptive name for the folder in the **Name** field.
-5. In the **Description** field, enter a brief description of what the folder contains.
-6. Click **OK**. The new folder is created.
+[!include[How to create a folder](../../includes/howto-create-folder-kb.md)]
 
 You are now ready to add reply templates to the new folder. See [Create reply templates](document.replyTemplates.newReplyTemplate.md).
 
@@ -33,11 +26,7 @@ Before you delete a reply template folder, you need to remove all the entries in
 * You can delete the reply templates as described under [Delete reply templates](document.replyTemplates.delReplyTemplate.md).
 * You can move a reply template to another folder by changing the content of the **Folder** field when you edit a reply template. See [Edit reply templates](document.replyTemplates.editReplyTemplateCustomerLang.md).
 
-When you are ready to delete the folder itself, do as follows:
-
-1. Go to the required folder.
-2. Click the **Edit folder** button.
-3. Click **Delete**. The folder is deleted immediately.
+[!include[How to delete a folder](../../includes/howto-delete-folder-kb.md)]
 
 ## What would you like to do now?
 

@@ -11,7 +11,7 @@ language: en
 
 # Differences between the Drag & drop editor and the Editor
 
-In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") to replace the old one (the "Editor"). The message editor is used when creating e-mail mailings and form responses. The old message editor will still be available to edit messages and templates created in the old version. All new mailings and templates will be using the new message editor.
+[!include[About the new mailing editor](../../includes/introducing-drag-and-drop-editor.md)]
 
 ## Are you using the new Drag &drop editor or the previous version of the editor?
 
@@ -26,4 +26,4 @@ Go to this topic: [Step 3: Content - E-mail (Drag &amp; drop editor)](Step-3-Con
 
 Go to this topic: [Step 3: Content - E-mail (the old Editor](oldeditor/Step-3-Content-Formatted-e-mail.md)
 
- ![icon](../media/TemplateEditOverview-old.png)
+![icon](../media/TemplateEditOverview-old.png)

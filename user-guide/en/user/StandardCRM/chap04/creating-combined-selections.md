@@ -28,15 +28,8 @@ To create a new combined selection:
     > [!NOTE]
     > If you selected **Companies/contacts** under **Selection of**, you can choose from all types of selection here (a sales selection also contains companies/contacts related to the sales). But if the combined selection comprises Sales, Projects, Documents, Follow-ups, Requests, Form submissions, Chat conversations, Mailings or Products, you can only choose the same type of selections for **Selection 1** and **Selection 2**.
 
-7. Under **Compare**, select which entries from the two selections to include in the combined selection.  
-    <!-- Fix reuse ID=a2 -->
-    | Icon | Option | Description |
-    |:-:|---|---|
-    | ![icon](../media/selection_comb_onlyin1.png) | Only in Selection 1 | Shows entries that are in selection 1, and excludes entries that are in both selection 1 and selection 2. |
-    | ![icon](../media/selection_comb_onlyin2.png) | Only in Selection 2 | Shows entries that are in selection 2, and excludes entries that are in both selection 1 and selection 2. |
-    | ![icon](../media/selection_comb_common.png) | Common | Shows only entries that are in both selection 1 and selection 2. |
-    | ![icon](../media/selection_comb_diff.png) | Difference | Shows only entries that are either in selection 1 or in selection 2. |
-    | ![icon](../media/selection_comb_all.png) | All | Shows only entries in selection 1 and selection 2. |
+7. Under **Compare**, select which entries from the two selections to include in the combined selection.
+    [!include[Options for combining selections](../../includes/table-selection-combinations.md)]
 
 8. The **Owner** field automatically displays the user currently logged in. After you have saved a new selection, you can change the owner by [editing the selection](Editing-Selections.md). In practice, this means that you transfer it from yourself to someone else. In order to edit a selection, you must either be the owner or have administrator access, or you must have been given editing access via the **Functions** preference in SuperOffice Settings and maintenance.
 

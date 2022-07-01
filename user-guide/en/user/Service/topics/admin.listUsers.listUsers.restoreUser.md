@@ -11,4 +11,4 @@ language: en
 
 # Restore users
 
-To create, delete or restore users, go to SuperOffice Settings and maintenance.
+[!include[User management](../../includes/howto-users-crud.md)]

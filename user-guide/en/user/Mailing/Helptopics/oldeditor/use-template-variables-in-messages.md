@@ -14,8 +14,7 @@ language: en
 In order to give the message a more personal touch, you can use template variables to insert customer-specific information. This might be the customer's first name, for example. In this way, you can customise the content for each individual customer.
 
 <!-- Fix reuse ID=a2 -->
-
-Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the template variables **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty variables in your mailings, make sure to [preview the mailing](../test-mailing.md) first.
+[!include[Note](../../../includes/note-imported-recipients.md)]
 
 There are several types of template variables:
 
@@ -23,18 +22,7 @@ There are several types of template variables:
 * Template variables linked to companies; e.g. ****\[\[company.name\]\]**, which inserts the name of the company the contact belongs to.**
 
 <!-- Fix reuse ID=a1 -->
-
-Instead of this text:
-
-"Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us at SuperShop."
-
-you can send this one:
-
-"Dear Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop."
-
-The text you enter will look like this:
-
-"Dear **\[\[customer.firstname\]\]**. Would you like to know more about how our product can help **\[\[company.name\]\]** win new customers? Please call **\[\[company.ourSalesContact.name\]\]** at SuperShop."
+[!include[Mailing example with template variables](../../../includes/mailing-tempvar-example.md))]
 
 **To enter template variables into your message:**
 

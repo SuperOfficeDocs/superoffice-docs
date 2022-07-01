@@ -26,7 +26,7 @@ language: en
         > You can only send one document at a time in this fashion. If you want to send several documents at once, select the documents in the **Activities** section tab.
 
     <!-- Fix reuse ID=a1 -->
-    If the dialog is displayed, do as follows:
+    **If the dialog is displayed, do as follows:**
 
     1. Choose the company to send the document to in the company field. By default the company that is active in the **Company** screen is shown. Here you can also use [FastSearcher](../chap01/Using-FastSearcher.md) or [The History list](../chap01/Using-the-history-list.md). Once you have chosen a company, their e-mail address is displayed next to the company field.
     2. To send it to a specific person in the company, choose from the available alternatives in the list box for contacts. Once you have chosen a contact, their e-mail address is displayed next to the list box for contacts.

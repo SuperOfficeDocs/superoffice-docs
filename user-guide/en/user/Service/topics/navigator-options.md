@@ -50,8 +50,7 @@ When you click a navigator button, one or more of the buttons below are displaye
     * **Customers**: Enter the first or last name of contact or the first part of the company name.
 
         <!-- Fix reuse ID=a11 -->
-
-        To search for a first AND middle name or for a contact with two last names, enter an underscore between the names. Example: "Carl\-Martin" or "Jennings\-Fletcher". The underscore functions as a wild card.
+        [!include[Use wildcard in search](../../includes/tip-search-wildcard.md)]
 
     * **Selections**: Enter the first part of the selection title.
 

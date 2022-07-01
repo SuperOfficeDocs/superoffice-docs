@@ -39,22 +39,7 @@ To create a new category:
 
 5. In the **Reply template** tab, select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance. For more on reply templates, see [Work with reply templates](document.replyTemplates.md).  
     <!-- Fix reuse ID=a2 -->
-
-    To give each department in your company a custom layout for their correspondence, you can create reply templates with different layouts. Each reply template can be linked to a category representing a department. All outgoing replies from the categories (departments) will be merged with the department specific design.
-
-    Apart from the layout/formatting of the reply template, it must contain the following template variables to be able to merge with the reply:
-
-    \[\[IF:message.bodyHtml!=""\]\]
-
-    \[\[message.bodyHtml\]\]
-
-    \[\[ELSE\]\]
-
-    \[\[message.body\]\]
-
-    \[\[ENDIF\]\]
-
-    See also [Reply templates on Categories in Service... what is that?][1]
+    [!include[Reply templates with different layout](../../includes/custom-replytemplate.md)]
 
     > [!TIP]
     > Check **Apply to subcategories** if you want the selected reply template to also be used for any subcategories. This assumes however that the template is not overridden by settings made in the subcategories.
@@ -83,6 +68,5 @@ To create a new category:
 [Search for requests in categories](admin.listCategories.searchTickets.md)
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/
 
 <!-- Referenced images -->

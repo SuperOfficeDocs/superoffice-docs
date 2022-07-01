@@ -17,8 +17,6 @@ Overlapping follow-ups are displayed in the **Diary** screen so that you can see
 
 ## What would you like to do now?
 
-[Create appointments](Creating-appointments.md)
-
-[Create tasks](Creating-tasks.md)
-
-[Enter phone calls](Entering-phone-calls.md)
+* [Create appointments](Creating-appointments.md)
+* [Create tasks](Creating-tasks.md)
+* [Enter phone calls](Entering-phone-calls.md)

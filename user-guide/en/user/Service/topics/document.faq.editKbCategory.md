@@ -43,11 +43,7 @@ Before you delete an FAQ folder, you need to remove all the entries in it. You d
 * You can delete the FAQ entries as described under [Delete FAQ entries](document.faq.delKbEntry.md).
 * You can move an FAQ entry to another folder by changing the content of the **Folder** field when you edit an entry. See [Edit FAQ entries](document.faq.editKbEntry.md).
 
-When you are ready to delete the folder itself, do as follows:
-
-1. Go to the required folder.
-2. Click the **Edit folder** button.
-3. Click **Delete**. The folder is deleted immediately.
+[!include[How to delete a folder](../../includes/howto-delete-folder-kb.md)]
 
 ## What would you like to do now?
 

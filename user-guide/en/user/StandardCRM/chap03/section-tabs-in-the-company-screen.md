@@ -27,4 +27,4 @@ The **Company** screen contains the following section tabs:
 
 [ERP](../ERP/ERP-main.md): Here you can link a SuperOffice company to a customer/supplier in the ERP system.
 
-Additionally, you can define in SuperOffice Settings and maintenance (**Lists &gt; GUI - Web panel)** that more section tabs will be added in the form of URL addresses which SuperOffice CRM links to. You then open the URL address by clicking the tab itself. Here you can click **Open in separate window** to view the web page in a separate browser window.
+[!include[Add more section tabs](../../includes/more-tab.md)]

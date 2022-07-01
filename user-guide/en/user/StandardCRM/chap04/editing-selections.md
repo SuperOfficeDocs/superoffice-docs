@@ -18,11 +18,7 @@ To edit an existing selection:
 
 1. Open the **Selection** screen.  
     <!-- Fix reuse ID=a1 -->
-    There are several ways to open the **Selection** screen:
-
-    * By clicking the **Selection** button in the Navigator.
-    * By using the [History list][1] or[FastSearcher][2].
-    * By double-clicking on a selection in a search result.
+    [!include[Howto](../../includes/goto-selections.md)]
 2. Go to the required selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
 3. Open the **Details** tab.
 4. Click **Edit**. The **Selection** tab changes to edit mode.

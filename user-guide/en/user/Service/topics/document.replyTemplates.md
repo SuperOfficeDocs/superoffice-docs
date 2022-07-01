@@ -14,27 +14,10 @@ language: en
 A reply template can for instance be a specific layout to implement on replies, or a ready-made text that can be pasted into a message you are writing to a customer. It can also include an attachment, which will then be added to the message. Before you send the reply to the customer, you can edit the text and add or remove attachments. In other words, a reply template provides the basis for a customised response to a customer. Using reply templates saves time, and they can be tailored to the precise situation.
 
 <!-- Fix reuse ID=a1 -->
-
-* If you select a reply template, it is pasted in as ordinary text that you can edit before sending the reply. The benefit of using reply templates is that they can be tailored to the precise situation.
-* If you select an FAQ entry, a link to the FAQ entry in the customer centre is pasted in. This means you cannot edit the FAQ entry before sending your reply to the customer. The benefit of using FAQ entries is that you let the customer know that there are FAQs available that may be of use in the future.
+[!include[FAQ vs. reply template](../../includes/faq-vs-replytemplate.md)]
 
 <!-- Fix reuse ID=a2 -->
-
-To give each department in your company a custom layout for their correspondence, you can create reply templates with different layouts. Each reply template can be linked to a category representing a department. All outgoing replies from the categories (departments) will be merged with the department specific design.
-
-Apart from the layout/formatting of the reply template, it must contain the following template variables to be able to merge with the reply:
-
-\[\[IF:message.bodyHtml!=""\]\]
-
-\[\[message.bodyHtml\]\]
-
-\[\[ELSE\]\]
-
-\[\[message.body\]\]
-
-\[\[ENDIF\]\]
-
-See also [Reply templates on Categories in Service... what is that?][1]
+[!include[Reply templates with different layout](../../includes/custom-replytemplate.md)]
 
 ## What would you like to do now?
 

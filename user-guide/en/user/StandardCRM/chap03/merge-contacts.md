@@ -11,8 +11,7 @@ language: en
 
 # Merge contacts
 
-> [!NOTE]
->To access this function, your user must belong to a role with the functional right **Can manage (move and merge) entities**.
+[!include[Requirement](../../includes/note-req-manage-entities.md)]
 
 If a physical person is registered as two different contacts in SuperOffice CRM, you can merge these contacts together. This might be desirable if the person has been registered under two different names at the same company (e.g. "Jonathan Clark" and "Jonathon Clarke"), or if the person has been registered at both his old and his new employer.
 

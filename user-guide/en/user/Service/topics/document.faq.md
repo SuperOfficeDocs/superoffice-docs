@@ -15,8 +15,7 @@ language: en
 
 FAQs are closely integrated with the request handling: customer enquiries will often recur, making it a good idea to enter such questions and their answers in the FAQs. These entries can be made available in SuperOffice Customer Centre, where customers themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries. This saves the request handlers time, and customers receive precise and quality-assured answers. <!-- Fix reuse ID=a1 -->
 
-* If you select a reply template, it is pasted in as ordinary text that you can edit before sending the reply. The benefit of using reply templates is that they can be tailored to the precise situation.
-* If you select an FAQ entry, a link to the FAQ entry in the customer centre is pasted in. This means you cannot edit the FAQ entry before sending your reply to the customer. The benefit of using FAQ entries is that you let the customer know that there are FAQs available that may be of use in the future.
+[!include[FAQ vs. reply template](../../includes/faq-vs-replytemplate.md)]
 
 ## What would you like to do now?
 

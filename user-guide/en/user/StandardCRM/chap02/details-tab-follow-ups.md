@@ -25,18 +25,18 @@ Specify here the priority of the follow-up. Click the arrow to display a list wi
 
 For notification of the follow-up, check **Alarm**.For more information about this, see [Set alarms for follow-ups](Setting-an-alarm-for-follow-ups.md). If an alarm has been specified for a follow-up, an icon ( ![icon](../media/followup-details-alarm.bmp) ) is displayed at the upper left of the main part of the dialog.
 
-Owner
+**Owner**
 
 Here you specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
 
 > [!NOTE]
 > If a user is already occupied at the time in question, the word **CONFLICT** is displayed in the **Status** field. If you want to hide users with conflicts, check **Hide conflict** at the bottom of the dialog.
 
-Show as
+**Show as**
 
 Check **Free** or **Busy** in the **Show as** field to specify whether you are available to others while the appointment is taking place. If you select **Free**, you can have other follow-ups simultaneously, for example if you have reserved the majority of the day to work on a project but you still have time for short meetings.
 
-Visible for
+**Visible for**
 
 Click the **Visible for** field to display a list that allows you to choose whether the follow-up will be visible to all users, visible only to the user defined as owner, or visible to all users in one of the user groups that the owner belongs to.
 
@@ -45,6 +45,6 @@ Click the **Visible for** field to display a list that allows you to choose whet
 
 This option is only available if **Confidential activities** is enabled for the current user in SuperOffice Settings and maintenance.
 
-Publish (requires separate licence)
+**Publish (requires separate license)**
 
 Check here if you want the follow-up to be visible to external users.

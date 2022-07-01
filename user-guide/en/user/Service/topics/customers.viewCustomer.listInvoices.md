@@ -24,10 +24,7 @@ To view invoice information that has been registered for a specific contact , do
     * **Debit** Shows the total amount invoiced.
     * **Balance**: Shows the running balance, i.e. the difference between **Credit** and **Debit**.
 3. If you are sending an invoice out to the contact, it is easier to keep an overview in SuperOffice Service if you add an invoice item at the same time. <!-- Fix reuse ID=a1 -->
-    1. Click the **Invoice** button. This takes you to the **Invoice properties** screen.
-    2. In the **Description** field, enter the object of the invoice.
-    3. Enter the amount in the **Amount** field.
-    4. Click **OK**.
 
-    When you return to the invoice data, you will see that a new row has been added with the amount you just entered in the **Debit** column and that the **Balance** column has also been updated.
+    [!include[How to add invoice item](../../includes/howto-add-invoice-to-request.md)]
+
 4. Click **Return to contact** to go back to the **Contact** screen.

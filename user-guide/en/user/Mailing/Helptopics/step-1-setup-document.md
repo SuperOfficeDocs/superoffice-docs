@@ -41,15 +41,11 @@ In order to do this:
 
     [!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
-8. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. Start typing in the **Selection** or **Project** fields to search for a selection or project respectively. <!-- Fix reuse ID=a2 -->
-    Answer: To keep track of all mailings related to your selections and projects. The mailings are listed in the **Mailings** section tab in **Selections**, and in the **Activities** section tab in **Projects** in SuperOffice CRM.
+8. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. [!include[Start typing to search](../../includes/type-to-search.md)] <!-- Fix reuse ID=a2 -->
 
-    Example: If you send out multiple mailings to promote an event, you can add these mailings to a selection called "Event 2015" to have a complete list of all mailings for this event.
+    [!include[Why](../../includes/mailing-why-selection-or-project.md)]
 
-    Similarly, if you have created a project for your event, you can maintain a list of all project-related mailings in the **Activities** section tab.
-
-    > [!NOTE]
-    > If you add a selection or a project, any contacts in the selection or project will be added as recipients in the mailing. If you add both a selection and a project, only contacts from the selection will be added as recipients.
+    [!include[Note](../../includes/note-setup-mailing.md)]
 
 9. Click **Next** to go to the next step: [Step 2: Template](Step-2-Layout-Document.md).
 

@@ -1,5 +1,5 @@
 ---
-uid: help-en-step-5--confirm---document
+uid: help-en-step-5-confirm-document
 title: Step 5  Confirm - Document
 description: Step 5  Confirm - Document
 author: SuperOffice RnD

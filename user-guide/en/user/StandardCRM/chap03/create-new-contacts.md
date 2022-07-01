@@ -44,8 +44,6 @@ To create a new contact:
 
 11. Go to the **Relations** section tab. Here you can add relations between this contact and another contact or company. See [Add relations](../person/contact-secttab-relations-add.md).
 
-## Add record as a favourite
+## Add record as a favorite
 
-To add a record to favourites, click the star icon ![icon](../../Service/media/favourite-inactive.png) in the corner of the relevant card, tab or dialog. The star turns yellow ![icon](../../Service/media/favourite-active.png), and the record is instantly added to favourites. You do not have to click **Save**.
-
-Now you can quickly access the record by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu. The favourites are also available in the side panel.
+[!include[ALT](../../includes/howto-add-favorite.md)]

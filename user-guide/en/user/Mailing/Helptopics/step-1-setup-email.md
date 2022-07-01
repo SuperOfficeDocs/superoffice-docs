@@ -25,23 +25,17 @@ In order to do this:
 
 6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. <!-- Fix reuse ID=a1 --> If you add a selection, any contacts in the selection will be added as recipients in the mailing. See [Step 4: Recipients](Step-4-Recipients-email.md).
     <!-- Fix reuse ID=a2 -->
-    Answer: To keep track of all mailings related to your selections and projects. The mailings are listed in the **Mailings** section tab in **Selections**, and in the **Activities** section tab in **Projects** in SuperOffice CRM.
+    [!include[Why](../../includes/mailing-why-selection-or-project.md)]
 
-    Example: If you send out multiple mailings to promote an event, you can add these mailings to a selection called "Event 2015" to have a complete list of all mailings for this event.
+    [!include[Start typing to search](../../includes/type-to-search.md)]
 
-    Similarly, if you have created a project for your event, you can maintain a list of all project-related mailings in the **Activities** section tab.
-
-    Start typing in the **Selection** or **Project** fields to search for a selection or project respectively.
 7. In the **Type** list, select the type of mailing you are creating. Select **(Any)** if the mailing matches two or more of the available types. Use **(Any)** when you have added multiple recipients with multiple subscriptions and you want to send the mailing to all of them.
 8. **Attachments**: To add one or more attachments to the mailing, use one of the following methods:
     * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
     * Drag and drop a file from Windows Explorer to the attachments field.
     * Click **Choose a CRM document** to select a document in SuperOffice CRM.
 9. Under **Tracking** are the following options:
-    **Track all links**: Select this option to track all links in the mailing. This will also include links that are not registered as tracked links in SuperOffice Marketing, for instance unregistered links from templates or old mailings, or links that are entered directly in the source/HTML code.
-    **Use Google Analytics**: Select this option to track the mailing and connect it to Google Analytics (if that is set up for your web site). In the fields below, enter the data that should be added as parameters in the tracked URLs.
-    * **Medium**: This field is set to **Email** by default. You cannot edit this field.
-    * **Source**: Enter the source of the mailing, such as "superoffice-mailings".4" etc.
-    * **Campaign**: Enter the type of mailing, such as "newsletter" or "lead-nurturing", or enter a specific campaign name such as "spring-sale-june-21" or "upgrade-campaign-v9"..  
-        <!-- Reuse -->Read more about Google Analytics.
+
+    [!include[Tracking options for mailing](../../includes/mailing-tracking-options.md)]
+
 10. Click **Next** to go to the next step: [Step 2: Template](Step-2-Layout-formatted-email.md).

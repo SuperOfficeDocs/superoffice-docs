@@ -28,7 +28,7 @@ There are various assignment methods available:
 * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
 * **Do not assign**: Does not assign requests to specific request handlers, but puts all requests in a queue as **Unassigned**.
 
-**Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue](Get-next-request-in-the-queue.md).
+[!include[Get next request in queue](../../includes/howto-get-next-request.md)]
 
 ## Example
 
@@ -36,8 +36,6 @@ An example will clarify this feature. Imagine that your company has created a ca
 
 ## What would you like to do now?
 
-[Process requests](ticket.listTicket.md)
-
-[Create requests](ticket.newTicket.md)
-
-[Efficient handling of requests using AI](AI-requests.md)
+* [Process requests](ticket.listTicket.md)
+* [Create requests](ticket.newTicket.md)
+* [Efficient handling of requests using AI](AI-requests.md)

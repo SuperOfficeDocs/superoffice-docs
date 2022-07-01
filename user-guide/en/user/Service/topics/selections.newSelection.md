@@ -1,7 +1,7 @@
 ---
-uid: help-en-selections-newselection
-title: selections newSelection
-description: selections newSelection
+uid: help-en-selections-new
+title: New selection
+description: How to create a new selection
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

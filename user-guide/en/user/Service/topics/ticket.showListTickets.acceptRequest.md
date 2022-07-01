@@ -18,7 +18,7 @@ This is particularly relevant for unassigned requests, i.e. those without a defi
     or  
     In the **Owner** field, select yourself.
 
-**Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue](Get-next-request-in-the-queue.md).
+[!include[Get next request in queue](../../includes/howto-get-next-request.md)]
 
 ## What would you like to do now?
 
