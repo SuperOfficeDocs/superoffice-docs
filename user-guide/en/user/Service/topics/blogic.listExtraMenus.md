@@ -17,15 +17,15 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 
 * **Top menu**
 
-* -   The **Status** tile on the dashboard
-    * Actions buttons and menu buttons ( ![icon](../media/btn-Menu.png) ) in the main screens
-    * Menu buttons in the extra table view
+* The **Status** tile on the dashboard
+  * Actions buttons and menu buttons ( ![icon](../media/btn-Menu.png) ) in the main screens
+  * Menu buttons in the extra table view
 
 * **Navigator**
 
-* -   Additional options on the navigator buttons
-    * Additional options under ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design**
-    * Additional options on the **New** button in the top bar.
+  * Additional options on the navigator buttons
+  * Additional options under ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design**
+  * Additional options on the **New** button in the top bar.
 
 ## What can I add as extra menus?
 

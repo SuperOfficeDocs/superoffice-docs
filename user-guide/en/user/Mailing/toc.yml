@@ -1,0 +1,171 @@
+items:
+- name: Helptopics
+  href: helptopics/add-a-link-to-display-the-message-in-a-browser.md
+  items:
+  - name: Add a link to display the message in a browser
+    href: helptopics/add-a-link-to-display-the-message-in-a-browser.md
+  - name: Add an unsubscribe link
+    href: helptopics/add-an-unsubscribe-link.md
+  - name: Add content
+    href: helptopics/add-content.md
+  - name: Add favourites
+    href: helptopics/add-favourites.md
+  - name: Add images
+    href: helptopics/add-images.md
+  - name: Add recipients to selections or projects
+    href: helptopics/add-recipients-to-selections-or-projects.md
+  - name: Blocked e mail addresses
+    href: helptopics/blocked-e-mail-addresses.md
+  - name: Create address list
+    href: helptopics/create-address-list.md
+  - name: Create links
+    href: helptopics/create-links.md
+  - name: CreateNewMailing
+    href: helptopics/createnewmailing.md
+  - name: Customise the message for display on mobile devices
+    href: helptopics/customise-the-message-for-display-on-mobile-devices.md
+  - name: Define link actions
+    href: helptopics/define-link-actions.md
+  - name: Define settings for mailings
+    href: helptopics/define-settings-for-mailings.md
+  - name: Differences between onsite and online installations
+    href: helptopics/differences-between-onsite-and-online-installations.md
+  - name: Drag and drop editor
+    href: helptopics/drag-and-drop-editor.md
+  - name: Edit a paragraph
+    href: helptopics/edit-a-paragraph.md
+  - name: Edit message content   overview
+    href: helptopics/edit-message-content-overview.md
+  - name: Examples of the use of trackable links
+    href: helptopics/examples-of-the-use-of-trackable-links.md
+  - name: Filter recipient list
+    href: helptopics/filter-recipient-list.md
+  - name: Followup mailings
+    href: helptopics/followup-mailings.md
+  - name: Form create
+    href: helptopics/form-create.md
+  - name: Form create multi page
+    href: helptopics/form-create-multi-page.md
+  - name: Form create step1 setup
+    href: helptopics/form-create-step1-setup.md
+  - name: Form create step2 template
+    href: helptopics/form-create-step2-template.md
+  - name: Form create step3 content
+    href: helptopics/form-create-step3-content.md
+  - name: Form create step3 content GEN
+    href: helptopics/form-create-step3-content-gen.md
+  - name: Form field options
+    href: helptopics/form-field-options.md
+  - name: Form prefilled
+    href: helptopics/form-prefilled.md
+  - name: Form publish
+    href: helptopics/form-publish.md
+  - name: Form submission track
+    href: helptopics/form-submission-track.md
+  - name: Form submissions
+    href: helptopics/form-submissions.md
+  - name: Form submissions process
+    href: helptopics/form-submissions-process.md
+  - name: Form templates
+    href: helptopics/form-templates.md
+  - name: Form view
+    href: helptopics/form-view.md
+  - name: Form work with
+    href: helptopics/form-work-with.md
+  - name: Forms Differences between the Drag Drop Editor and the Editor
+    href: helptopics/forms-differences-between-the-drag-drop-editor-and-the-editor.md
+  - name: FormsGuide
+    href: helptopics/formsguide.md
+  - name: Google Analytics
+    href: helptopics/google-analytics.md
+  - name: IncludeLinksToTrack
+    href: helptopics/includelinkstotrack.md
+  - name: Insert images in the message
+    href: helptopics/insert-images-in-the-message.md
+  - name: Links
+    href: helptopics/links.md
+  - name: Manage bounces
+    href: helptopics/manage-bounces.md
+  - name: Menu overview
+    href: helptopics/menu-overview.md
+  - name: Oldeditor
+    href: helptopics/oldeditor/add-a-link-to-display-the-message-in-a-browser.md
+    items:
+    - name: Add a link to display the message in a browser
+      href: helptopics/oldeditor/add-a-link-to-display-the-message-in-a-browser.md
+    - name: Add an unsubscribe link
+      href: helptopics/oldeditor/add-an-unsubscribe-link.md
+    - name: Customise the message for display on mobile devices
+      href: helptopics/oldeditor/customise-the-message-for-display-on-mobile-devices.md
+    - name: Edit a paragraph
+      href: helptopics/oldeditor/edit-a-paragraph.md
+    - name: Edit message content   overview
+      href: helptopics/oldeditor/edit-message-content-overview.md
+    - name: Editor screenshot
+      href: helptopics/oldeditor/editor-screenshot.md
+    - name: IncludeLinksToTrack
+      href: helptopics/oldeditor/includelinkstotrack.md
+    - name: Insert images in the message
+      href: helptopics/oldeditor/insert-images-in-the-message.md
+    - name: Menu overview
+      href: helptopics/oldeditor/menu-overview.md
+    - name: Step 3  Content   Formatted e mail
+      href: helptopics/oldeditor/step-3-content-formatted-e-mail.md
+    - name: Step 3  Content   Form response
+      href: helptopics/oldeditor/step-3-content-form-response.md
+    - name: Use template variables in messages
+      href: helptopics/oldeditor/use-template-variables-in-messages.md
+  - name: Reset counters after testing
+    href: helptopics/reset-counters-after-testing.md
+  - name: SO Mailing
+    href: helptopics/so-mailing.md
+  - name: Step 1 Setup   Document
+    href: helptopics/step-1-setup-document.md
+  - name: Step 1 Setup   SMS
+    href: helptopics/step-1-setup-sms.md
+  - name: Step 1 setup email
+    href: helptopics/step-1-setup-email.md
+  - name: Step 2  Layout   Document
+    href: helptopics/step-2-layout-document.md
+  - name: Step 2  Layout formatted email
+    href: helptopics/step-2-layout-formatted-email.md
+  - name: Step 2  Template   SMS
+    href: helptopics/step-2-template-sms.md
+  - name: Step 3  Content   Document
+    href: helptopics/step-3-content-document.md
+  - name: Step 3  Content   Email GEN
+    href: helptopics/step-3-content-email-gen.md
+  - name: Step 3  Content   Formatted e mail
+    href: helptopics/step-3-content-formatted-email.md
+  - name: Step 3  Content   SMS
+    href: helptopics/step-3-content-sms.md
+  - name: Step 4  Recipients   Document
+    href: helptopics/step-4-recipients-document.md
+  - name: Step 4  Recipients   SMS
+    href: helptopics/step-4-recipients-sms.md
+  - name: Step 4  Recipients email
+    href: helptopics/step-4-recipients-email.md
+  - name: Step 5  Confirm   Document
+    href: helptopics/step-5-confirm-document.md
+  - name: Step 5  Confirm   SMS
+    href: helptopics/step-5-confirm-sms.md
+  - name: Step 5  Confirm email
+    href: helptopics/step-5-confirm-email.md
+  - name: Test mailing
+    href: helptopics/test-mailing.md
+  - name: The mailing workflow
+    href: helptopics/the-mailing-workflow.md
+  - name: The message editor   old vs new
+    href: helptopics/the-message-editor-old-vs-new.md
+  - name: Track the mailing and view statistics
+    href: helptopics/track-the-mailing-and-view-statistics.md
+  - name: Use template variables in messages
+    href: helptopics/use-template-variables-in-messages.md
+  - name: Work with mailings
+    href: helptopics/work-with-mailings.md
+  - name: Work with messages and templates
+    href: helptopics/work-with-messages-and-templates.md
+  - name: Work with the recipient list after the mailing
+    href: helptopics/work-with-the-recipient-list-after-the-mailing.md
+  - name: Work with tracked links after the mailing
+    href: helptopics/work-with-tracked-links-after-the-mailing.md

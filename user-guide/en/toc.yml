@@ -1,7 +1,5 @@
 items:
-- name: English
-  items:
   - name: User
-    href: user/index.md
+    href: user/toc.yml
   - name: Admin
-    href: admin/index.md
+    href: admin/toc.yml

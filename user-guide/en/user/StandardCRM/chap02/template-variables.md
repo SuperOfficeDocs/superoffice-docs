@@ -3,7 +3,7 @@ uid: help-en-template-variables
 title: Template variables
 description: Template variables
 author: SuperOffice RnD
-so.date:06.29.2022
+so.date: 06.29.2022
 keywords: CRM
 so.topic: help
 language: en

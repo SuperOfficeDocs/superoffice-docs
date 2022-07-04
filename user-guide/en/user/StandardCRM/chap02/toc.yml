@@ -1,0 +1,109 @@
+items:
+- name: Activities in SuperOffice CRM
+  href: activities-in-superoffice-crm.md
+- name: Add activities
+  href: add-activities.md
+- name: Appointment
+  href: appointment.md
+- name: Compose an email (Web)
+  href: compose-an-e-mail-web.md
+- name: Creating appointments
+  href: creating-appointments.md
+- name: Creating follow ups with your associates
+  href: creating-follow-ups-with-your-associates.md
+- name: Creating new documents
+  href: creating-new-documents.md
+- name: Creating overlapping follow ups
+  href: creating-overlapping-follow-ups.md
+- name: Creating recurring follow ups
+  href: creating-recurring-follow-ups.md
+- name: Creating tasks
+  href: creating-tasks.md
+- name: Deleting activities
+  href: deleting-activities.md
+- name: Deleting documents
+  href: deleting-documents.md
+- name: Description tab follow ups
+  href: description-tab-follow-ups.md
+- name: Details tab Document
+  href: details-tab-document.md
+- name: Details tab follow ups
+  href: details-tab-follow-ups.md
+- name: Dialling Contacts
+  href: dialling-contacts.md
+- name: Dialog for followups
+  href: dialog-for-followups.md
+- name: Doc checkoutin
+  href: doc-checkoutin.md
+- name: Doc Language support
+  href: doc-language-support.md
+- name: Document dialog
+  href: document-dialog.md
+- name: Editing documents
+  href: editing-documents.md
+- name: Editing follow ups
+  href: editing-follow-ups.md
+- name: Editing or deleting invitations
+  href: editing-or-deleting-invitations.md
+- name: Editing recurring follow ups
+  href: editing-recurring-follow-ups.md
+- name: Entering phone calls
+  href: entering-phone-calls.md
+- name: Follow up assign
+  href: follow-up-assign.md
+- name: Follow ups in SuperOffice CRM
+  href: follow-ups-in-superoffice-crm.md
+- name: Linking documents to follow ups
+  href: linking-documents-to-follow-ups.md
+- name: Linking participants to follow ups
+  href: linking-participants-to-follow-ups.md
+- name: Links tab (Document)
+  href: links-tab-document.md
+- name: Links tab follow ups
+  href: links-tab-follow-ups.md
+- name: Marking activities as completed not completed
+  href: marking-activities-as-completed-not-completed.md
+- name: More tab Document
+  href: more-tab-document.md
+- name: More tab follow ups
+  href: more-tab-follow-ups.md
+- name: Note
+  href: note.md
+- name: Opening documents
+  href: opening-documents.md
+- name: Opening Follow ups
+  href: opening-follow-ups.md
+- name: Participants category
+  href: participants-category.md
+- name: Phone call
+  href: phone-call.md
+- name: Printing follow ups
+  href: printing-follow-ups.md
+- name: Receive response
+  href: receive-response.md
+- name: Receiving invitations
+  href: receiving-invitations.md
+- name: Sending documents from the Activities section tab
+  href: sending-documents-from-the-activities-section-tab.md
+- name: Sending follow ups
+  href: sending-follow-ups.md
+- name: Setting an alarm for follow ups
+  href: setting-an-alarm-for-follow-ups.md
+- name: Showing follow ups you are invited to
+  href: showing-follow-ups-you-are-invited-to.md
+- name: Status of invitations
+  href: status-of-invitations.md
+- name: Stopping recurring follow ups
+  href: stopping-recurring-follow-ups.md
+- name: Task
+  href: task.md
+- name: Template variables
+  href: template-variables.md
+- name: Template variables examples
+  href: template-variables-examples.md
+- name: Upload documents
+  href: upload-documents.md
+- name: Video meetings
+  href: video-meetings.md
+- name: Write
+  href: write.md

@@ -15,8 +15,6 @@ If you are creating a follow-up on behalf of someone else, you can change the ow
 
 Examples: Your colleague is on vacation, but he needs to phone a client when he gets back. You have arranged a meeting with a client, but you need to delegate it to someone else.
 
-## Assign a follow-up to someone else
-
 1. Open or create a follow-up. See [Add follow-ups (appointments, tasks and phone calls)](Add-activities.md).
 2. Select the **Details** tab and click the name in the **Owner** field.  
     or  

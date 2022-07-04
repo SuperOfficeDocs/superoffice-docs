@@ -1,0 +1,24 @@
+items:
+- name: Topics
+  href: topics/add-sender-to-superoffice.md
+  items:
+  - name: Add sender to SuperOffice
+    href: topics/add-sender-to-superoffice.md
+  - name: Archive attachments
+    href: topics/archive-attachments.md
+  - name: Archive e mails as activities
+    href: topics/archive-e-mails-as-activities.md
+  - name: Archive e mails as requests
+    href: topics/archive-e-mails-as-requests.md
+  - name: E mail archive incoming
+    href: topics/e-mail-archive-incoming.md
+  - name: E mail archive outgoing
+    href: topics/e-mail-archive-outgoing.md
+  - name: Handling e mails from senders not listed in SuperOffice
+    href: topics/handling-e-mails-from-senders-not-listed-in-superoffice.md
+  - name: Handling e mails from senders with several listings
+    href: topics/handling-e-mails-from-senders-with-several-listings.md
+  - name: Settings
+    href: topics/settings.md
+  - name: SuperOffice Gmail Link
+    href: topics/superoffice-gmail-link.md

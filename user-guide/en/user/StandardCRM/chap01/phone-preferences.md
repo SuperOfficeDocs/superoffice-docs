@@ -31,7 +31,7 @@ Suggested suppliers include:
 * Panasonic TSP
 * PBX Dial
 
-## Phone preferences
+## Preferences
 
 If you have installed IP phone, Skype or Facetime, you can make phone calls from SuperOffice CRM. The **Phone-link format** preference must be set correctly, either in **Preferences &gt; Default values** or in SuperOffice Settings and maintenance. In SuperOffice Settings and maintenance the phone preferences can be set for individual users, user groups or system-wide.
 

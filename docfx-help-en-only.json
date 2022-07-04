@@ -2,27 +2,36 @@
   "build": {
     "content": [
       {
-        "files": [
-          "toc.yml",
-          "*.md"
-        ]
-      },
-      {
-        "src":"docs/en",
-        "dest": "en",
+        "src":"user-guide/en",
+        "dest": "help/en",
         "files": [
           "**/**.{md,yml}",
           "toc.yml",
           "*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
         ]
       }
     ],
     "resource": [
       {
-        "files": ["**/**.{png,svg,jpg,gif,bmp,zip}"]
-      },
-      {
-        "files": [ "assets/**" ]
+        "files": [
+          "images/**",
+          "media/**",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.bmp",
+          "**/*.xlsx",
+          "**/*.zip",
+          "**/*.dll",
+          "**/*.docx",
+          "**/*.pdf",
+          "**/*.pptx",
+          "**/*.app"
+        ]
       }
     ],
     "xref": [

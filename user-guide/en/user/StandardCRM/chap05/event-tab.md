@@ -27,7 +27,7 @@ This field shows the date of the event. Click the arrow to select a date for the
 
 Here you can specify a precise time period for when the event is to be visible to Audience users (requires a separate licence). Click the arrow next to each of the date fields to select a start and end date for publishing. If you do not enter dates in these fields, the project will be published all the while it exists in SuperOffice CRM and it is marked as **Publish** (see [Create projects](Creating-projects.md)).
 
-**Visible for category**
+**Visible for category:**
 
 Check here if you want the event to be visible only to specific categories. Click the button ( ![icon](../media/valgknapp.bmp) ) to the right of the field to select the categories that the event will be visible for.
 

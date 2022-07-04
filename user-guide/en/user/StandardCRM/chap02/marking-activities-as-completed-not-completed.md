@@ -1,5 +1,5 @@
 ---
-uid: help-en-marking-activities-as-completed-not-completed
+uid: help-en-marking-activities-as-completed
 title: Marking activities as completed not completed
 description: Marking activities as completed not completed
 author: SuperOffice RnD

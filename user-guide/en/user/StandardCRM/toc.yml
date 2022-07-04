@@ -1,0 +1,38 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Key functions in SuperOffice CRM
+  href: chap01/toc.yml
+- name: Activities in SuperOffice CRM
+  href: chap02/toc.yml
+- name: Dashboard
+  href: Dashboard/toc.yml
+- name: Company
+  href: chap03/toc.yml
+- name: Contact
+  href: person/toc.yml
+- name: Diary
+  href: chap06/toc.yml
+- name: Sale
+  href: sale/toc.yml
+  items:
+  - name: Quote
+    href: quote/toc.yml
+- name: Project
+  href: chap05/toc.yml
+- name: Selection
+  href: chap04/toc.yml
+- name: Inbox/Email
+  href: chap07web/toc.yml
+- name: Reports
+  href: chap09/toc.yml
+- name: ERP
+  href: erp/toc.yml
+- name: License agreement
+  href: Licence-agreement.md
+- name: Copyright information
+  href: copyright.md
+- name: Using the help
+  href: Using-help-for-superoffice-crm.md
+- name: Translation
+  href: Translate-fields.md

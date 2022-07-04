@@ -1,5 +1,5 @@
 ---
-uid: help-en-links-tab-(document)
+uid: help-en-links-tab-document
 title: Links tab (Document)
 description: Links tab (Document)
 author: SuperOffice RnD

@@ -15,7 +15,7 @@ These options appear in the **SuperOffice account** pane of the **SuperOffice CR
 
 Preferred SuperOffice client
 
-Here you can select which SuperOffice client to use when you search for senders (see [Searching for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)): **SuperOffice CRM**** (Windows client)**, **SuperOffice CRM ****(Web client)** or **Service**.
+Here you can select which SuperOffice client to use when you search for senders (see [Searching for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)): **SuperOffice CRM** (Windows client), **SuperOffice CRM** (Web client) or **Service**.
 
 User name
 
@@ -25,11 +25,11 @@ Advanced settings
 
 If you click the down arrow to the right of **Advanced settings**, the following options will appear:
 
-**Enable debug logging**
+**Enable debug logging:**
 
 This option should be activated in connection with debugging if you have been advised to do so by customer support at SuperOffice.
 
-**View log file**
+**View log file:**
 
 Click this button to open the log file for SuperOffice Mail Link. This is also relevant in connection with debugging.
 

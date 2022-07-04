@@ -1,0 +1,485 @@
+items:
+- name: Topics
+  href: topics/admin.editinfo.md
+  items:
+  - name: Admin
+    href: topics/admin.md
+  - name: Admin editInfo
+    href: topics/admin.editinfo.md
+  - name: Admin editInfo password
+    href: topics/admin.editinfo.password.md
+  - name: Admin editInfo settings
+    href: topics/admin.editinfo.settings.md
+  - name: Admin editInfo sms
+    href: topics/admin.editinfo.sms.md
+  - name: Admin editInfo smtp
+    href: topics/admin.editinfo.smtp.md
+  - name: Admin editReplyTemplates
+    href: topics/admin.editreplytemplates.md
+  - name: Admin editUser
+    href: topics/admin.edituser.md
+  - name: Admin editUser helpCategoryMembership
+    href: topics/admin.edituser.helpcategorymembership.md
+  - name: Admin editUser helpExtrafields
+    href: topics/admin.edituser.helpextrafields.md
+  - name: Admin editUser helpInterface
+    href: topics/admin.edituser.helpinterface.md
+  - name: Admin editUser helpNotification
+    href: topics/admin.edituser.helpnotification.md
+  - name: Admin editUser helpOthergroups
+    href: topics/admin.edituser.helpothergroups.md
+  - name: Admin editUser helpPassword
+    href: topics/admin.edituser.helppassword.md
+  - name: Admin editUser helpSettings
+    href: topics/admin.edituser.helpsettings.md
+  - name: Admin editUser helpSignature
+    href: topics/admin.edituser.helpsignature.md
+  - name: Admin editUser helpUserInfo
+    href: topics/admin.edituser.helpuserinfo.md
+  - name: Admin listCategories
+    href: topics/admin.listcategories.md
+  - name: Admin listCategories deleteCategory
+    href: topics/admin.listcategories.deletecategory.md
+  - name: Admin listCategories newCategory
+    href: topics/admin.listcategories.newcategory.md
+  - name: Admin listCategories searchTickets
+    href: topics/admin.listcategories.searchtickets.md
+  - name: Admin listCustCenter config
+    href: topics/admin.listcustcenter.config.md
+  - name: Admin listCustCenter edit
+    href: topics/admin.listcustcenter.edit.md
+  - name: Admin listCustLangs
+    href: topics/admin.listcustlangs.md
+  - name: Admin listCustLangs editCustLang
+    href: topics/admin.listcustlangs.editcustlang.md
+  - name: Admin listCustLangs selectlanguage
+    href: topics/admin.listcustlangs.selectlanguage.md
+  - name: Admin listCustLangs workWithExternaCategories
+    href: topics/admin.listcustlangs.workwithexternacategories.md
+  - name: Admin listFilters
+    href: topics/admin.listfilters.md
+  - name: Admin listFilters listFilters
+    href: topics/admin.listfilters.listfilters.md
+  - name: Admin listFilters listFilters deleteMailbox
+    href: topics/admin.listfilters.listfilters.deletemailbox.md
+  - name: Admin listFilters listFilters editFacebookApplication
+    href: topics/admin.listfilters.listfilters.editfacebookapplication.md
+  - name: Admin listFilters listFilters editSMSmailbox
+    href: topics/admin.listfilters.listfilters.editsmsmailbox.md
+  - name: Admin listFilters listFilters newFilter
+    href: topics/admin.listfilters.listfilters.newfilter.md
+  - name: Admin listFilters listMSFilter
+    href: topics/admin.listfilters.listmsfilter.md
+  - name: Admin listFilters listMSFilter deleteMSFilter
+    href: topics/admin.listfilters.listmsfilter.deletemsfilter.md
+  - name: Admin listFilters listMSFilter newMSFilter
+    href: topics/admin.listfilters.listmsfilter.newmsfilter.md
+  - name: Admin listFilters viewBlocked
+    href: topics/admin.listfilters.viewblocked.md
+  - name: Admin listFilters viewInbox
+    href: topics/admin.listfilters.viewinbox.md
+  - name: Admin listFilters viewOutbox
+    href: topics/admin.listfilters.viewoutbox.md
+  - name: Admin listFilters viewSMS
+    href: topics/admin.listfilters.viewsms.md
+  - name: Admin listFilters viewSMS inbox
+    href: topics/admin.listfilters.viewsms.inbox.md
+  - name: Admin listInvoiceTypes
+    href: topics/admin.listinvoicetypes.md
+  - name: Admin listInvoiceTypes deleteInvoiceType
+    href: topics/admin.listinvoicetypes.deleteinvoicetype.md
+  - name: Admin listInvoiceTypes editInvoiceType
+    href: topics/admin.listinvoicetypes.editinvoicetype.md
+  - name: Admin listPriorities
+    href: topics/admin.listpriorities.md
+  - name: Admin listPriorities editAlert
+    href: topics/admin.listpriorities.editalert.md
+  - name: Admin listPriorities editAlert deleteAlert
+    href: topics/admin.listpriorities.editalert.deletealert.md
+  - name: Admin listPriorities editAlert newAlert
+    href: topics/admin.listpriorities.editalert.newalert.md
+  - name: Admin listPriorities listPriorities
+    href: topics/admin.listpriorities.listpriorities.md
+  - name: Admin listPriorities listPriorities deletePriority
+    href: topics/admin.listpriorities.listpriorities.deletepriority.md
+  - name: Admin listPriorities listPriorities editPriority
+    href: topics/admin.listpriorities.listpriorities.editpriority.md
+  - name: Admin listProfiles
+    href: topics/admin.listprofiles.md
+  - name: Admin listProfiles commonProfiles
+    href: topics/admin.listprofiles.commonprofiles.md
+  - name: Admin listProfiles globalProfiles
+    href: topics/admin.listprofiles.globalprofiles.md
+  - name: Admin listProfiles personalProfile
+    href: topics/admin.listprofiles.personalprofile.md
+  - name: Admin listRoles
+    href: topics/admin.listroles.md
+  - name: Admin listRoles editRole
+    href: topics/admin.listroles.editrole.md
+  - name: Admin listRoles newRole
+    href: topics/admin.listroles.newrole.md
+  - name: Admin listTicketStatuses
+    href: topics/admin.listticketstatuses.md
+  - name: Admin listTicketStatuses deleteTicketStatus
+    href: topics/admin.listticketstatuses.deleteticketstatus.md
+  - name: Admin listTicketStatuses newTicketStatus
+    href: topics/admin.listticketstatuses.newticketstatus.md
+  - name: Admin listUsers
+    href: topics/admin.listusers.md
+  - name: Admin listUsers listUsergroups
+    href: topics/admin.listusers.listusergroups.md
+  - name: Admin listUsers listUsers
+    href: topics/admin.listusers.listusers.md
+  - name: Admin listUsers listUsers batchUpdate
+    href: topics/admin.listusers.listusers.batchupdate.md
+  - name: Admin listUsers listUsers delUser
+    href: topics/admin.listusers.listusers.deluser.md
+  - name: Admin listUsers listUsers editUser
+    href: topics/admin.listusers.listusers.edituser.md
+  - name: Admin listUsers listUsers newUser
+    href: topics/admin.listusers.listusers.newuser.md
+  - name: Admin listUsers listUsers restoreUser
+    href: topics/admin.listusers.listusers.restoreuser.md
+  - name: Admin soapConf
+    href: topics/admin.soapconf.md
+  - name: Admin viewLicenses
+    href: topics/admin.viewlicenses.md
+  - name: AI requests
+    href: topics/ai-requests.md
+  - name: Blogic
+    href: topics/blogic.md
+  - name: Blogic listDbiAgents
+    href: topics/blogic.listdbiagents.md
+  - name: Blogic listDbiAgents editDbiAgent
+    href: topics/blogic.listdbiagents.editdbiagent.md
+  - name: Blogic listDbiAgents editDbiAgentField
+    href: topics/blogic.listdbiagents.editdbiagentfield.md
+  - name: Blogic listDbiAgents editDbiAgentSchedule
+    href: topics/blogic.listdbiagents.editdbiagentschedule.md
+  - name: Blogic listDbiAgents listDbiAgents
+    href: topics/blogic.listdbiagents.listdbiagents.md
+  - name: Blogic listDbiAgents newDbiAgentSchedule
+    href: topics/blogic.listdbiagents.newdbiagentschedule.md
+  - name: Blogic listDbiAgents viewDbiAgent
+    href: topics/blogic.listdbiagents.viewdbiagent.md
+  - name: Blogic listDebugLog
+    href: topics/blogic.listdebuglog.md
+  - name: Blogic listExtraMenus
+    href: topics/blogic.listextramenus.md
+  - name: Blogic listExtraMenus editExtraMenu
+    href: topics/blogic.listextramenus.editextramenu.md
+  - name: Blogic listExtraMenus editExtraMenu menubutton
+    href: topics/blogic.listextramenus.editextramenu-menubutton.md
+  - name: Blogic listExtraMenus editExtraMenu navigator
+    href: topics/blogic.listextramenus.editextramenu-navigator.md
+  - name: Blogic listExtraTables
+    href: topics/blogic.listextratables.md
+  - name: Blogic listExtraTables editExtraTable
+    href: topics/blogic.listextratables.editextratable.md
+  - name: Blogic listExtraTables editExtraTablesFolder
+    href: topics/blogic.listextratables.editextratablesfolder.md
+  - name: Blogic listExtraTables listFields
+    href: topics/blogic.listextratables.listfields.md
+  - name: Blogic listExtraTables listFields editField
+    href: topics/blogic.listextratables.listfields.editfield.md
+  - name: Blogic listPackages
+    href: topics/blogic.listpackages.md
+  - name: Blogic listPackages editPackage
+    href: topics/blogic.listpackages.editpackage.md
+  - name: Blogic listScreenChoosers
+    href: topics/blogic.listscreenchoosers.md
+  - name: Blogic listScreenChoosers editScreenChooser
+    href: topics/blogic.listscreenchoosers.editscreenchooser.md
+  - name: Blogic listScreenDefinitions editLanguage
+    href: topics/blogic.listscreendefinitions.editlanguage.md
+  - name: Blogic listScreenDefinitions editScreenAction
+    href: topics/blogic.listscreendefinitions.editscreenaction.md
+  - name: Blogic listScreenDefinitions editScreenDefinition
+    href: topics/blogic.listscreendefinitions.editscreendefinition.md
+  - name: Blogic listScreenDefinitions editScreenDefinitionFolder
+    href: topics/blogic.listscreendefinitions.editscreendefinitionfolder.md
+  - name: Blogic listScreenDefinitions editScreenElement
+    href: topics/blogic.listscreendefinitions.editscreenelement.md
+  - name: Blogic listScreenDefinitions viewScreenDefinition
+    href: topics/blogic.listscreendefinitions.viewscreendefinition.md
+  - name: Blogic listScreenDefinitions viewScreenDefinitionDesign
+    href: topics/blogic.listscreendefinitions.viewscreendefinitiondesign.md
+  - name: Blogic listsWebpanels
+    href: topics/blogic.listswebpanels.md
+  - name: Blogic listSystemScripts
+    href: topics/blogic.listsystemscripts.md
+  - name: Blogic listSystemScripts editSystemScript
+    href: topics/blogic.listsystemscripts.editsystemscript.md
+  - name: Customers
+    href: topics/customers.md
+  - name: Customers findContacts
+    href: topics/customers.findcontacts.md
+  - name: Customers findContacts showResultsContacts
+    href: topics/customers.findcontacts.showresultscontacts.md
+  - name: Customers findCustomers
+    href: topics/customers.findcustomers.md
+  - name: Customers findCustomers showResults
+    href: topics/customers.findcustomers.showresults.md
+  - name: Customers newCompany
+    href: topics/customers.newcompany.md
+  - name: Customers newCustomer
+    href: topics/customers.newcustomer.md
+  - name: Customers viewCompany
+    href: topics/customers.viewcompany.md
+  - name: Customers viewCompany deleteContact
+    href: topics/customers.viewcompany.deletecontact.md
+  - name: Customers viewCompany editCompany
+    href: topics/customers.viewcompany.editcompany.md
+  - name: Customers viewCompany listInvoicesContact
+    href: topics/customers.viewcompany.listinvoicescontact.md
+  - name: Customers viewCompany listInvoicesContact editInvoice
+    href: topics/customers.viewcompany.listinvoicescontact.editinvoice.md
+  - name: Customers viewCompany mergecompanies
+    href: topics/customers.viewcompany.mergecompanies.md
+  - name: Customers viewCustomer
+    href: topics/customers.viewcustomer.md
+  - name: Customers viewCustomer deleteCustomer
+    href: topics/customers.viewcustomer.deletecustomer.md
+  - name: Customers viewCustomer editCustomer
+    href: topics/customers.viewcustomer.editcustomer.md
+  - name: Customers viewCustomer listInvoices
+    href: topics/customers.viewcustomer.listinvoices.md
+  - name: Customers viewCustomer mergecontacts
+    href: topics/customers.viewcustomer.mergecontacts.md
+  - name: Customers viewCustomer sendNewCustMail
+    href: topics/customers.viewcustomer.sendnewcustmail.md
+  - name: Differences between onsite and online installations
+    href: topics/differences-between-onsite-and-online-installations.md
+  - name: Document
+    href: topics/document.md
+  - name: Document document
+    href: topics/document.document.md
+  - name: Document document delDocument
+    href: topics/document.document.deldocument.md
+  - name: Document document editDocument
+    href: topics/document.document.editdocument.md
+  - name: Document document editFolder
+    href: topics/document.document.editfolder.md
+  - name: Document document findDocument
+    href: topics/document.document.finddocument.md
+  - name: Document document newDocument
+    href: topics/document.document.newdocument.md
+  - name: Document document viewDocument
+    href: topics/document.document.viewdocument.md
+  - name: Document emailAddressBook
+    href: topics/document.emailaddressbook.md
+  - name: Document emailAddressBook editEabFolder
+    href: topics/document.emailaddressbook.editeabfolder.md
+  - name: Document emailAddressBook newEabEntry
+    href: topics/document.emailaddressbook.neweabentry.md
+  - name: Document emailAddressBook viewEabEntry
+    href: topics/document.emailaddressbook.vieweabentry.md
+  - name: Document externalDocument
+    href: topics/document.externaldocument.md
+  - name: Document faq
+    href: topics/document.faq.md
+  - name: Document faq addFaqToMessage
+    href: topics/document.faq.addfaqtomessage.md
+  - name: Document faq delKbEntry
+    href: topics/document.faq.delkbentry.md
+  - name: Document faq editKbCategory
+    href: topics/document.faq.editkbcategory.md
+  - name: Document faq editKbEntry
+    href: topics/document.faq.editkbentry.md
+  - name: Document faq editKbWorkflow
+    href: topics/document.faq.editkbworkflow.md
+  - name: Document faq findKbEntry
+    href: topics/document.faq.findkbentry.md
+  - name: Document faq newKbEntry
+    href: topics/document.faq.newkbentry.md
+  - name: Document faq publishFAQ
+    href: topics/document.faq.publishfaq.md
+  - name: Document faq viewKbComment
+    href: topics/document.faq.viewkbcomment.md
+  - name: Document faq viewKbEntry
+    href: topics/document.faq.viewkbentry.md
+  - name: Document find
+    href: topics/document.find.md
+  - name: Document replyTemplates
+    href: topics/document.replytemplates.md
+  - name: Document replyTemplates addReplyTemplatesToMessages
+    href: topics/document.replytemplates.addreplytemplatestomessages.md
+  - name: Document replyTemplates autoFAQ
+    href: topics/document.replytemplates.autofaq.md
+  - name: Document replyTemplates delReplyTemplate
+    href: topics/document.replytemplates.delreplytemplate.md
+  - name: Document replyTemplates editReplyTemplateCustomerLang
+    href: topics/document.replytemplates.editreplytemplatecustomerlang.md
+  - name: Document replyTemplates editReplyTemplateFolder
+    href: topics/document.replytemplates.editreplytemplatefolder.md
+  - name: Document replyTemplates findReplyTemplates
+    href: topics/document.replytemplates.findreplytemplates.md
+  - name: Document replyTemplates newlangversion
+    href: topics/document.replytemplates.newlangversion.md
+  - name: Document replyTemplates newReplyTemplate
+    href: topics/document.replytemplates.newreplytemplate.md
+  - name: Document replyTemplates viewReplyTemplate
+    href: topics/document.replytemplates.viewreplytemplate.md
+  - name: Get next request in the queue
+    href: topics/get-next-request-in-the-queue.md
+  - name: Navigator options
+    href: topics/navigator-options.md
+  - name: New selection
+    href: topics/selections.newselection.md
+  - name: Rms
+    href: topics/rms.md
+  - name: Rms login
+    href: topics/rms.login.md
+  - name: Rms navigate
+    href: topics/rms.navigate.md
+  - name: Rms navigate buttons
+    href: topics/rms.navigate.buttons.md
+  - name: Rms navigate buttons topbar
+    href: topics/rms.navigate.buttons.topbar.md
+  - name: Rms navigate favourites
+    href: topics/rms.navigate.favourites.md
+  - name: Rms search
+    href: topics/rms.search.md
+  - name: Rms search searchResult
+    href: topics/rms.search.searchresult.md
+  - name: Rms search searchTable
+    href: topics/rms.search.searchtable.md
+  - name: Rms search use shortcut search
+    href: topics/rms.search.use-shortcut-search.md
+  - name: Rms search useQuickSearch
+    href: topics/rms.search.usequicksearch.md
+  - name: Selections
+    href: topics/selections.md
+  - name: Selections deleterecords
+    href: topics/selections.deleterecords.md
+  - name: Selections deleteSelection
+    href: topics/selections.deleteselection.md
+  - name: Selections editSelection2
+    href: topics/selections.editselection2.md
+  - name: Selections editSelection2 editProfile
+    href: topics/selections.editselection2.editprofile.md
+  - name: Selections editSelectionFolder
+    href: topics/selections.editselectionfolder.md
+  - name: Selections listSelections
+    href: topics/selections.listselections.md
+  - name: Selections newSelection newCombiSelection
+    href: topics/selections.newselection.newcombiselection.md
+  - name: Selections newSelection newDynamicSelection
+    href: topics/selections.newselection.newdynamicselection.md
+  - name: Selections newSelection newScriptSelection
+    href: topics/selections.newselection.newscriptselection.md
+  - name: Selections newSelection newSelection
+    href: topics/selections.newselection.newselection.md
+  - name: Selections newSelection newStatSelection
+    href: topics/selections.newselection.newstatselection.md
+  - name: Selections updateSelection
+    href: topics/selections.updateselection.md
+  - name: Stat
+    href: topics/stat.md
+  - name: Stat invoiceStat
+    href: topics/stat.invoicestat.md
+  - name: Stat loginStat
+    href: topics/stat.loginstat.md
+  - name: Stat newStat
+    href: topics/stat.newstat.md
+  - name: Stat newStat standard
+    href: topics/stat.newstat.standard.md
+  - name: Stat reportGenerator reportGeneratorChooseRoot
+    href: topics/stat.reportgenerator.reportgeneratorchooseroot.md
+  - name: Stat simpleStat
+    href: topics/stat.simplestat.md
+  - name: Template variables
+    href: topics/template-variables.md
+  - name: Ticket
+    href: topics/ticket.md
+  - name: Ticket autosave
+    href: topics/ticket.autosave.md
+  - name: Ticket deleteTicket
+    href: topics/ticket.deleteticket.md
+  - name: Ticket listExtraTables
+    href: topics/ticket.listextratables.md
+  - name: Ticket listTicket
+    href: topics/ticket.listticket.md
+  - name: Ticket listTickets
+    href: topics/ticket.listtickets.md
+  - name: Ticket listTickets findTickets
+    href: topics/ticket.listtickets.findtickets.md
+  - name: Ticket listTickets searchTicketLog
+    href: topics/ticket.listtickets.searchticketlog.md
+  - name: Ticket listTickets showListTickets
+    href: topics/ticket.listtickets.showlisttickets.md
+  - name: Ticket listTickets useLists
+    href: topics/ticket.listtickets.uselists.md
+  - name: Ticket mainMenu
+    href: topics/ticket.mainmenu.md
+  - name: Ticket mainMenu dashboard create
+    href: topics/ticket.mainmenu.dashboard-create.md
+  - name: Ticket mainMenu dashboard delete
+    href: topics/ticket.mainmenu.dashboard-delete.md
+  - name: Ticket mainMenu dashboard edit
+    href: topics/ticket.mainmenu.dashboard-edit.md
+  - name: Ticket newQuickTicket
+    href: topics/ticket.newquickticket.md
+  - name: Ticket newTicket
+    href: topics/ticket.newticket.md
+  - name: Ticket receiveTickets
+    href: topics/ticket.receivetickets.md
+  - name: Ticket showListTickets
+    href: topics/ticket.showlisttickets.md
+  - name: Ticket showListTickets acceptRequest
+    href: topics/ticket.showlisttickets.acceptrequest.md
+  - name: Ticket showListTickets addMassMessage
+    href: topics/ticket.showlisttickets.addmassmessage.md
+  - name: Ticket showListTickets addMessage
+    href: topics/ticket.showlisttickets.addmessage.md
+  - name: Ticket showListTickets askForHelp
+    href: topics/ticket.showlisttickets.askforhelp.md
+  - name: Ticket showListTickets closeTickets
+    href: topics/ticket.showlisttickets.closetickets.md
+  - name: Ticket showListTickets editMessage
+    href: topics/ticket.showlisttickets.editmessage.md
+  - name: Ticket showListTickets forward
+    href: topics/ticket.showlisttickets.forward.md
+  - name: Ticket showListTickets hotlist
+    href: topics/ticket.showlisttickets.hotlist.md
+  - name: Ticket showListTickets listTicketLog
+    href: topics/ticket.showlisttickets.listticketlog.md
+  - name: Ticket showListTickets massForward
+    href: topics/ticket.showlisttickets.massforward.md
+  - name: Ticket showListTickets mergeTickets
+    href: topics/ticket.showlisttickets.mergetickets.md
+  - name: Ticket showListTickets Message keeptrack
+    href: topics/ticket.showlisttickets.message-keeptrack.md
+  - name: Ticket showListTickets splitMessage
+    href: topics/ticket.showlisttickets.splitmessage.md
+  - name: Ticket showListTickets splitTicket
+    href: topics/ticket.showlisttickets.splitticket.md
+  - name: Ticket tags
+    href: topics/ticket.tags.md
+  - name: Ticket ticketStepByStep
+    href: topics/ticket.ticketstepbystep.md
+- name: Topics script
+  href: topics-script/blogic.listdebugsessions.md
+  items:
+  - name: Blogic listDebugSessions
+    href: topics-script/blogic.listdebugsessions.md
+  - name: Blogic listDebugSessions viewDebugSession
+    href: topics-script/blogic.listdebugsessions.viewdebugsession.md
+  - name: Blogic listEventHandler
+    href: topics-script/blogic.listeventhandler.md
+  - name: Blogic listScheduledTasks
+    href: topics-script/blogic.listscheduledtasks.md
+  - name: Blogic listScripts
+    href: topics-script/blogic.listscripts.md
+  - name: Blogic listScripts editMacro
+    href: topics-script/blogic.listscripts.editmacro.md
+  - name: Blogic listScripts editScript
+    href: topics-script/blogic.listscripts.editscript.md
+  - name: Blogic listScripts editScriptFolder
+    href: topics-script/blogic.listscripts.editscriptfolder.md
+  - name: CRMScript
+    href: topics-script/crmscript.md
+  - name: Tracing
+    href: topics-script/tracing.md
+  - name: View script macro
+    href: topics-script/view-script-macro.md
