@@ -16,15 +16,7 @@ The **Reports** screen is a report generator supplied with a set of standard rep
 > [!TIP]
 >See [Dashboard](../Dashboard/Dashboards.md) for other ways to present SuperOffice data.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>![icon](../media/Navigator-Rapporter.bmp)</p></td>
-<td><p>Open the **Reports** screen by clicking the **Reports** button in the Navigator.</p></td>
-</tr>
-</tbody>
-</table>
+Open the **Reports** screen by clicking the **Reports** button ![icon](../media/Navigator-Rapporter.bmp) in the Navigator.
 
 > [!TIP]
 > You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** next to the **Reports** button and then selecting from the list.

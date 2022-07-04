@@ -17,32 +17,11 @@ Which sale types are assigned a sales guide and which stages and activities the 
 
 You record a new sale and select the **Sale to new customer** sale type, which is linked to a sales guide. The sales guide contains the following stages, follow-ups and documents:
 
-<table style=" border:Solid 1px #000000; width:100%; max-width:90.718%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>**Stage**</p></td>
-<td><p>Follow-ups</p></td>
-<td><p>**Documents**</p></td>
-</tr>
-<tr>
-<td><p>First meeting</p></td>
-<td><p>Customer meeting (Meeting (External))</p></td>
-<td><p>Meeting confirmation (E-mail)</p></td>
-</tr>
-<tr>
-<td><p>Quotation</p></td>
-<td><p>Quotation preparation (Task)</p></td>
-<td><p>Quotation (Letter)</p></td>
-</tr>
-<tr>
-<td><p>Signing of contract</p></td>
-<td><p>Set up contract meeting (Phone-Out)</p>
-<p>Contract meeting (Meeting (External))</p></td>
-<td>Signed contract</p></td>
-</tr>
-</tbody>
-</table>
+| Stage | Follow-ups | Documents |
+|---|---|---|
+| First meeting | Customer meeting (Meeting (External)) | Meeting confirmation (E-mail) |
+| Quotation | Quotation preparation (Task) | Quotation (Letter) |
+| Signing of contract | Set up contract meeting (Phone-Out)<br /> Contract meeting (Meeting (External)) | Signed contract |
 
 ## B: The First meeting stage
 

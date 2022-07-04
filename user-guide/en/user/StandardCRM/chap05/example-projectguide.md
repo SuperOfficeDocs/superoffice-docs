@@ -17,32 +17,12 @@ Which project types are assigned a project guide and which statuses and activiti
 
 You record a new project and select the **Conference** project type, which is linked to a project guide. The project guide contains the following statuses, follow-ups and documents.
 
-<table style=" border:Solid 1px #000000; width:100%; max-width:90.718%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>**Statuses**</p></td>
-<td><p>Follow-ups</p></td>
-<td><p>**Documents**</p></td>
-</tr>
-<tr>
-<td><p>Planned</p></td>
-<td><p>Planning meeting (Meeting (Internal))</p></td>
-<td><p>Conference programme (Memo)</p></td>
-</tr>
-<tr>
-<td><p>In progress</p></td>
-<td><p>Create list of project members (Follow-up)</p>
-<p>Conference (Meeting (External))</p></td>
-<td><p>Conference invitation (Letter)</p></td>
-</tr>
-<tr>
-<td><p>Closing</p></td>
-<td><p>Evaluation meeting (Meeting (Internal))</p></td>
-<td>Evaluation report (Memo)</p></td>
-</tr>
-</tbody>
-</table>
+| Statuses | Follow-ups | Documents |
+|---|---|---|
+| Planned | Planning meeting (Meeting (Internal)) | Conference programme (Memo) |
+| In progress | Create list of project members (Follow-up)</p> | erence (Meeting (External)) |
+| Closing | Evaluation meeting (Meeting (Internal)) |
+| Evaluation report (Memo) |
 
 ## B: The Planned status
 

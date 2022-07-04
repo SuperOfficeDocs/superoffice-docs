@@ -44,44 +44,16 @@ Do as follows:
 
 5. Edit the contents of the cross table by using these buttons:
 
-    <table>
-    
-    <tbody>
-    <tr>
-    <td><p>![icon](../media/Rep-krysstabell-listeboks.bmp)</p></td>
-    <td><p>Click this button to display a list box containing the different options for showing and hiding rows/columns.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Rep-krysstabell-kryss.bmp)</p></td>
-    <td><p>Remove the check from this box if you don’t want rows and columns to be displayed in the cross table.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/RepWeb-preview-plus.bmp)</p></td>
-    <td><p>Click the plus sign to choose to display all the rows/columns in the list.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/RepWeb-preview-minus.bmp)</p></td>
-    <td><p>Click the minus sign to choose to hide all the rows/columns in the list.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/RepWeb-preview-asterisk.bmp)</p></td>
-    <td><p>Click the star to toggle between showing and hiding rows/columns.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/RepWeb-preview-checkmark.bmp)</p></td>
-    <td><p>Click the tick to confirm your choice.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/RepWeb-preview-cross.bmp)</p></td>
-    <td><p>Click the cross to cancel.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Rep-krysstabell-pilkryss.bmp)</p>
-    <p>![icon](../media/Rep-krysstabell-pilkryss-groent.bmp)</p></td>
-    <td><p>You can also drag and drop individual components of the cross table. The mouse pointer turns into a four-headed arrow when you hold it over a moveable component. Fields where you can move components are displayed with a green line when you hold the mouse pointer over them.</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Icon | Description |
+    |---|---|
+    |![icon](../media/Rep-krysstabell-listeboks.bmp) |Click this button to display a list box containing the different options for showing and hiding rows/columns. |
+    | ![icon](../media/Rep-krysstabell-kryss.bmp) |Remove the check from this box if you don’t want rows and columns to be displayed in the cross table. |
+    | ![icon](../media/RepWeb-preview-plus.bmp) |Click the plus sign to choose to display all the rows/columns in the list. |
+    | ![icon](../media/RepWeb-preview-minus.bmp) |Click the minus sign to choose to hide all the rows/columns in the list. |
+    | ![icon](../media/RepWeb-preview-asterisk.bmp) |Click the star to toggle between showing and hiding rows/columns. |
+    | ![icon](../media/RepWeb-preview-checkmark.bmp) |Click the tick to confirm your choice. |
+    | ![icon](../media/RepWeb-preview-cross.bmp) |Click the cross to cancel. |
+    | ![icon](../media/Rep-krysstabell-pilkryss.bmp)<br />![icon](../media/Rep-krysstabell-pilkryss-groent.bmp) |You can also drag and drop individual components of the cross table. The mouse pointer turns into a four-headed arrow when you hold it over a moveable component. Fields where you can move components are displayed with a green line when you hold the mouse pointer over them. |
 
     > [!NOTE]
     > Fields, rows and columns which you choose to hide in the step described above will not be included in the print-out.

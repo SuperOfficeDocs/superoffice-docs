@@ -15,23 +15,11 @@ When you create a project and select a project type for which a project guide ha
 
 The buttons for the different statuses are displayed at the top of the section tab. The appearance of the buttons changes as you complete the statuses in the project guide:
 
-<table style=" border:Solid 1px #000000; width:100%; max-width:57.601%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>Completed status</p></td>
-<td>![icon](../media/Chap08-project/chap8-projguide-completed-status.bmp)</td>
-</tr>
-<tr>
-<td><p>Current status</p></td>
-<td>![icon](../media/Chap08-project/chap8-projguide-current-status.bmp)</td>
-</tr>
-<tr>
-<td><p>Future status</p></td>
-<td>![icon](../media/Chap08-project/chap8-projguide-future-status.bmp)</td>
-</tr>
-</tbody>
-</table>
+| Button | Description |
+|:-:|---|
+| ![icon](../media/Chap08-project/chap8-projguide-completed-status.bmp) | Completed status |
+| ![icon](../media/Chap08-project/chap8-projguide-current-status.bmp) | Current status |
+| ![icon](../media/Chap08-project/chap8-projguide-future-status.bmp) | Future status |
 
 Each status in the project guide contains different follow-ups and/or documents, which are shown in the lower half of the section tab. They are listed in two columns, **Follow-ups** and **Documents**. If you click the button for a status, the lower half of the section tab shows which activities belong to the status.
 

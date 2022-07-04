@@ -26,38 +26,15 @@ The activities list columns contain the following information:
 
 * The second column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
 * <!-- Fix reuse ID=a1 -->
-    <table style=" vertical-align:top; margin-top:10px; margin-bottom:10px; left:0px; top:0px; width:100%; max-width:417px;" data-cellspacing="0">
-    <tbody>
-    <tr>
-    <td><p>![icon](../media/Type-ikon.bmp)</p></td>
-    <td><p>Appointment</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Type-oppgave.bmp)</p></td>
-    <td><p>Task</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Type-samtale.bmp)</p></td>
-    <td><p>Phone Call</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Type-dokument.bmp)</p></td>
-    <td><p>Document/report</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Type-epost.bmp)</p></td>
-    <td><p>E-mail</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Type-mailing.bmp)</p></td>
-    <td><p>Mailing</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Type-chat.bmp)</p></td>
-    <td><p>Chat conversation</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Icon | Description |
+    |:-:|---|
+    |![icon](../media/Type-ikon.bmp) | Appointment |
+    |![icon](../media/Type-oppgave.bmp) | Task |
+    |![icon](../media/Type-samtale.bmp) | Phone Call |
+    |![icon](../media/Type-dokument.bmp) | Document/report |
+    |![icon](../media/Type-epost.bmp) | E-mail |
+    |![icon](../media/Type-mailing.bmp) | Mailing |
+    |![icon](../media/Type-chat.bmp) | Chat conversation |
 * The remainder of the columns in the activities list show other information about the activity (see the field descriptions in [The Dialog for follow-ups](../chap02/Dialog-for-followups.md)). If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
 Once an activity is completed, it will be removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date. But you can also choose to display future tasks:

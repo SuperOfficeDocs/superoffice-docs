@@ -27,47 +27,16 @@ Alternatives: If the quote contains one or more [alternatives](../quote/quote-ad
 
 On the right of the **Quote** section tab are the version, quote number and <!-- Fix reuse ID=a1 --> (for example, **Draft** or **Sold**). Click **Open** to edit the quote. See [the Edit quote dialog](../quote/quote-dlg-edit-quote.md).
 
-<table style=" border-collapse:separate; width:100%; max-width:38.755%;" data-cellspacing="0" data-border="1">
-
-<tbody>
-<tr>
-<td><p>**Icon**</p></td>
-<td><p>**State**</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--draft.png)![icon](../media/quote-state--draftnotcalculated.png)</p></td>
-<td><p>Draft / Draft – not calculated</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--needsapproval.png)</p></td>
-<td><p>Needs Approval</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--approved.png)![icon](../media/quote-state--not-approved.png)</p></td>
-<td><p>Approved / Not Approved</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--published.png)</p></td>
-<td><p>Sent</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--publishedexpired.png)</p></td>
-<td><p>Sent – Expired</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--sold.png)![icon](../media/quote-state--rejected.png)</p></td>
-<td><p>Sold / Lost</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--ordered.png)</p></td>
-<td><p>Ordered</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/quote-state--archived.png)</p></td>
-<td><p>Archived</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | State |
+|:-:|---|
+| ![icon](../media/quote-state--draft.png)![icon](../media/quote-state--draftnotcalculated.png) | Draft / Draft – not calculated |
+| ![icon](../media/quote-state--needsapproval.png) | Needs Approval |
+| ![icon](../media/quote-state--approved.png)![icon](../media/quote-state--not-approved.png) | Approved / Not Approved |
+| ![icon](../media/quote-state--published.png) | Sent |
+| ![icon](../media/quote-state--publishedexpired.png) | Sent – Expired |
+| ![icon](../media/quote-state--sold.png)![icon](../media/quote-state--rejected.png) | Sold / Lost |
+| ![icon](../media/quote-state--ordered.png) | Ordered |
+| ![icon](../media/quote-state--archived.png) | Archived |
 
 The product list: If products have been added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed. See [Add/edit a product in the quote](../quote/quote-add-edit-product.md).
 

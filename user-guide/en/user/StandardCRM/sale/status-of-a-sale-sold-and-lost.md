@@ -15,31 +15,12 @@ In the **Stage** field in the **Sale** screen, you can set the sale to **Sold** 
 
 For individual sale types, a list of stages, as defined in SuperOffice Settings and maintenance, is also displayed. To find out more about these, see the [Sales guide](sales-guide.md).
 
-<table style=" border-collapse:separate; width:100%; max-width:75.054%;" data-cellspacing="0" data-border="1">
-
-<tbody>
-<tr>
-<td><p>These statuses …</p></td>
-<td><p>... produce these fields in the Sale screen</p></td>
-</tr>
-<tr>
-<td><p>Open ![icon](../media/salg-apent.bmp)</p></td>
-<td><p>![icon](../media/Chap07-sale/72-chap7-sale-open.bmp)</p></td>
-</tr>
-<tr>
-<td><p>Stalled ![icon](../media/Salg-utsatt.bmp)</p></td>
-<td><p>![icon](../media/Chap07-sale/73-chap7-sale-stalled.bmp)</p></td>
-</tr>
-<tr>
-<td><p>Lost ![icon](../media/Salg-tapt.bmp)</p></td>
-<td><p>![icon](../media/Chap07-sale/74-chap7-sale-lost.bmp)</p></td>
-</tr>
-<tr>
-<td><p>Sold ![icon](../media/Salg-solgt.bmp)</p></td>
-<td><p>![icon](../media/Chap07-sale/75-chap7-sale-sold.bmp)</p></td>
-</tr>
-</tbody>
-</table>
+| These statuses … | ... produce these fields in the Sale screen |
+|---|---|
+| Open ![icon](../media/salg-apent.bmp) | ![icon](../media/Chap07-sale/72-chap7-sale-open.bmp) |
+| Stalled ![icon](../media/Salg-utsatt.bmp) | ![icon](../media/Chap07-sale/73-chap7-sale-stalled.bmp) |
+| Lost ![icon](../media/Salg-tapt.bmp) | ![icon](../media/Chap07-sale/74-chap7-sale-lost.bmp) |
+| Sold ![icon](../media/Salg-solgt.bmp) | ![icon](../media/Chap07-sale/75-chap7-sale-sold.bmp) |
 
 Stalled
 

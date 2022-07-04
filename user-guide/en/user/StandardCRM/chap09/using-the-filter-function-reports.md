@@ -11,15 +11,7 @@ language: en
 
 # Use the Filter function in the Reports screen
 
-<table>
-
-<tbody>
-<tr>
-<td><p>![icon](../media/Filter.bmp)</p></td>
-<td><p>You will find the **Filter** button under the report archive(the **Documents** section tab).</p></td>
-</tr>
-</tbody>
-</table>
+![icon](../media/Filter.bmp) You will find the **Filter** button under the report archive(the **Documents** section tab).
 
 To filter out the information displayed in the report archive:
 

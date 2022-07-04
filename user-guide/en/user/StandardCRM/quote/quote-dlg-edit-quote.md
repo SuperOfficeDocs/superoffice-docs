@@ -17,82 +17,27 @@ This is a description of the **Edit quote** dialog.
 
 * [Click to create quote document](quote-create-quote-document.md)
 * Message/warning (with <!-- Fix reuse ID=a1 -->): See [Deal with warnings and notices when adding products to a quote](quote-product-warnings.md).
-    <table>
-    
-    <tbody>
-    <tr>
-    <td><p>**Icon**</p></td>
-    <td><p>**Explanation**</p></td>
-    <td><p>Solution</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Quote-Status-OK.png)</p></td>
-    <td><p>OK</p></td>
-    <td><p>-</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Quote-Status-OKWithInfo.png)</p></td>
-    <td><p>OK with information</p></td>
-    <td><p>A message is displayed for the quote, but the quote can be sent as it is.</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Quote-Status-NeedsApproval.png)</p></td>
-    <td><p>Warning: Needs Approval</p></td>
-    <td><p>The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md).</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/Quote-Status-Error.png)</p></td>
-    <td><p>Error</p></td>
-    <td><p>The error must be corrected before the quote can be sent.</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Icon | Explanation | Solution |
+    |---|---|---|
+    | ![icon](../media/Quote-Status-OK.png) | OK | - |
+    | ![icon](../media/Quote-Status-OKWithInfo.png) | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
+    | ![icon](../media/Quote-Status-NeedsApproval.png) | Warning: Needs Approval | The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md). |
+    | ![icon](../media/Quote-Status-Error.png) | Error | The error must be corrected before the quote can be sent. |
 
     A message is also displayed to explain the cause of the error.
 * **Version**: The current version of the quote is shown here. You can select previous versions from the list.
 * **Number**: The quote number.
 * **State** / <!-- Fix reuse ID=a2 -->: Shows the status of the quote (for example **Draft**, **Needs Approval**, **Sent** or **Sold**)
-    <table style=" border-collapse:separate; width:100%; max-width:38.755%;" data-cellspacing="0" data-border="1">
-    
-    <tbody>
-    <tr>
-    <td><p>**Icon**</p></td>
-    <td><p>**State**</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--draft.png)![icon](../media/quote-state--draftnotcalculated.png)</p></td>
-    <td><p>Draft / Draft – not calculated</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--needsapproval.png)</p></td>
-    <td><p>Needs Approval</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--approved.png)![icon](../media/quote-state--not-approved.png)</p></td>
-    <td><p>Approved / Not Approved</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--published.png)</p></td>
-    <td><p>Sent</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--publishedexpired.png)</p></td>
-    <td><p>Sent – Expired</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--sold.png)![icon](../media/quote-state--rejected.png)</p></td>
-    <td><p>Sold / Lost</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--ordered.png)</p></td>
-    <td><p>Ordered</p></td>
-    </tr>
-    <tr>
-    <td><p>![icon](../media/quote-state--archived.png)</p></td>
-    <td><p>Archived</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Icon | State |
+    |---|---|
+    | ![icon](../media/quote-state--draft.png)![icon](../media/quote-state--draftnotcalculated.png) | Draft / Draft – not calculated |
+    | ![icon](../media/quote-state--needsapproval.png) | Needs Approval |
+    | ![icon](../media/quote-state--approved.png)![icon](../media/quote-state--not-approved.png) | Approved / Not Approved |
+    | ![icon](../media/quote-state--published.png) | Sent |
+    | ![icon](../media/quote-state--publishedexpired.png) | Sent – Expired |
+    | ![icon](../media/quote-state--sold.png)![icon](../media/quote-state--rejected.png) | Sold / Lost |
+    | ![icon](../media/quote-state--ordered.png) | Ordered |
+    | ![icon](../media/quote-state--archived.png) | Archived |
 * **[Send](quote-send.md)**: Click this button to send the quote.
 * **[Place order](quote-create-order.md)**: Click this button to place the order.
 
@@ -104,36 +49,12 @@ The products in the quote are displayed on this tab.
 > If the quote contains several alternatives, the favourite alternative is indicated with ![icon](../media/quote-favourite-active.png) next to the tab name.  
 If the alternative contains warnings or messages for one or more products, an <!-- Fix reuse ID=a3 --> is shown next to the tab name.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>**Icon**</p></td>
-<td><p>**Explanation**</p></td>
-<td><p>Solution</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-OK.png)</p></td>
-<td><p>OK</p></td>
-<td><p>-</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-OKWithInfo.png)</p></td>
-<td><p>OK with information</p></td>
-<td><p>A message is displayed for the quote, but the quote can be sent as it is.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-NeedsApproval.png)</p></td>
-<td><p>Warning: Needs Approval</p></td>
-<td><p>The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md).</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-Error.png)</p></td>
-<td><p>Error</p></td>
-<td><p>The error must be corrected before the quote can be sent.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Explanation | Solution |
+|:-:|---|---|
+| ![icon](../media/Quote-Status-OK.png) | OK | - |
+| ![icon](../media/Quote-Status-OKWithInfo.png) | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
+| ![icon](../media/Quote-Status-NeedsApproval.png) | Warning: Needs Approval | The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md). |
+| ![icon](../media/Quote-Status-Error.png) | Error | The error must be corrected before the quote can be sent. |
 
 A message is also displayed to explain the cause of the error.
 

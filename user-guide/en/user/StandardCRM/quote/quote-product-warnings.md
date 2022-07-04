@@ -16,36 +16,12 @@ In SuperOffice Settings and maintenance, different rules can be defined for what
 > [!NOTE]
 > Products are added to and saved in a quote even if warnings and other messages are displayed, but you cannot send the quote while it contains errors and warnings. You must either correct the error or get the quote approved.
 
-<table>
-
-<tbody>
-<tr>
-<td><p>**Icon**</p></td>
-<td><p>**Explanation**</p></td>
-<td><p>Solution</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-OK.png)</p></td>
-<td><p>OK</p></td>
-<td><p>-</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-OKWithInfo.png)</p></td>
-<td><p>OK with information</p></td>
-<td><p>A message is displayed for the quote, but the quote can be sent as it is.</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-NeedsApproval.png)</p></td>
-<td><p>Warning: Needs Approval</p></td>
-<td><p>The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md).</p></td>
-</tr>
-<tr>
-<td><p>![icon](../media/Quote-Status-Error.png)</p></td>
-<td><p>Error</p></td>
-<td><p>The error must be corrected before the quote can be sent.</p></td>
-</tr>
-</tbody>
-</table>
+| Icon | Explanation | Solution |
+|:-:|---|---|
+| ![icon](../media/Quote-Status-OK.png) | OK | - |
+| ![icon](../media/Quote-Status-OKWithInfo.png) | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
+| ![icon](../media/Quote-Status-NeedsApproval.png) | Warning: Needs Approval | The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md). |
+| ![icon](../media/Quote-Status-Error.png) | Error | The error must be corrected before the quote can be sent. |
 
 A message is also displayed to explain the cause of the error.
 

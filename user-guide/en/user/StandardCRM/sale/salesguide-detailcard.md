@@ -15,23 +15,11 @@ When you create a sale and select a sale type for which a sales guide has been d
 
 The buttons for the different stages are displayed at the top of the section tab. The appearance of the buttons changes as you complete the stages in the sales guide:
 
-<table style=" border:Solid 1px #000000; width:100%; max-width:57.601%;" data-cellspacing="0">
-
-<tbody>
-<tr>
-<td><p>Completed stage</p></td>
-<td>![icon](../media/Chap07-sale/58-chap7-completed-salestage.bmp)</td>
-</tr>
-<tr>
-<td><p>Current stage</p></td>
-<td>![icon](../media/Chap07-sale/57-chap7-current-salestage.bmp)</td>
-</tr>
-<tr>
-<td><p>Future stage</p></td>
-<td>![icon](../media/Chap07-sale/59-chap7-future-salestage.bmp)</td>
-</tr>
-</tbody>
-</table>
+| Stage | Icon |
+|---|---|
+| Completed stage | ![icon](../media/Chap07-sale/58-chap7-completed-salestage.bmp) |
+| Current stage | ![icon](../media/Chap07-sale/57-chap7-current-salestage.bmp) |
+| Future stage | ![icon](../media/Chap07-sale/59-chap7-future-salestage.bmp) |
 
 Each stage in the sales guide contains different follow-ups and/or documents, which are shown in the lower half of the section tab. They are listed in two columns, **Follow-ups** and **Documents**. If you click the button for a stage, the lower half of the section tab shows which activities belong to the stage.
 
