@@ -26,24 +26,24 @@ There are several types of tiles: column, bar, area and pie charts, column+line 
 
 ## Options in the Dashboard screen
 
-Pinned dashboards are displayed with a pin icon (![icon](../media/Dashboard_Images/dashboard_pinned.png)). This usually means that this is a dashboard that has been distributed to multiple users by an administrator.
+Pinned dashboards are displayed with a pin icon (![icon](../media/Dashboard-Images/dashboard-pinned.png)). This usually means that this is a dashboard that has been distributed to multiple users by an administrator.
 
-Dashboard favourites are displayed with a star icon (![icon](../media/Dashboard_Images/dashboard_favourite.png)). You can click this icon in the top-right corner to set a dashboard as favourite.
+Dashboard favourites are displayed with a star icon (![icon](../media/Dashboard-Images/dashboard-favourite.png)). You can click this icon in the top-right corner to set a dashboard as favourite.
 
-Click the **Refresh** button ( ![icon](../media/Dashboard_Images/dashboard_refresh.png) ) to update the data in all tiles.
+Click the **Refresh** button ( ![icon](../media/Dashboard-Images/dashboard-refresh.png) ) to update the data in all tiles.
 
 Click the **Task** button to access the following functions:
 
-* [Create a new dashboard](Dashboard_Create.md)
+* [Create a new dashboard](Dashboard-Create.md)
 
-* [Duplicate a dashboard](Dashboard_duplicate.md)
+* [Duplicate a dashboard](Dashboard-duplicate.md)
 
-* [Edit a dashboard](Dashboard_Edit.md)
+* [Edit a dashboard](Dashboard-Edit.md)
 
-* [Add tiles / Edit layout](Dashboard_Add_Tiles.md)
+* [Add tiles / Edit layout](Dashboard-Add-Tiles.md)
 
-* [Delete a dashboard](Dashboard_Delete.md)
+* [Delete a dashboard](Dashboard-Delete.md)
 
 ## Related topics
 
-[Working with tiles](Dashboard_Tiles.md)
+[Working with tiles](Dashboard-Tiles.md)

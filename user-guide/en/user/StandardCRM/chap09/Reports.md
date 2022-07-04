@@ -20,7 +20,7 @@ The **Reports** screen is a report generator supplied with a set of standard rep
 
 <tbody>
 <tr>
-<td><p>![icon](../media/Navigator_Rapporter.bmp)</p></td>
+<td><p>![icon](../media/Navigator-Rapporter.bmp)</p></td>
 <td><p>Open the **Reports** screen by clicking the **Reports** button in the Navigator.</p></td>
 </tr>
 </tbody>
@@ -31,14 +31,14 @@ The **Reports** screen is a report generator supplied with a set of standard rep
 
 ## What would you like to do now?
 
-[Show report properties](Showing_report_properties.md)
+[Show report properties](Showing-report-properties.md)
 
-[Create reports](Creating_reports.md)
+[Create reports](Creating-reports.md)
 
-[View reports](Viewing_reports.md)
+[View reports](Viewing-reports.md)
 
-[Print reports](Printing_reports.md)
+[Print reports](Printing-reports.md)
 
-[Save reports as files](Saving_reports_as_files.md)
+[Save reports as files](Saving-reports-as-files.md)
 
-[Manage saved reports](Managing_saved_reports.md)
+[Manage saved reports](Managing-saved-reports.md)

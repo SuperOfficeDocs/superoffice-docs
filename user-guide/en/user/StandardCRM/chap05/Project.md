@@ -15,13 +15,13 @@ Using the **Project** function, you can link any activities both to an external 
 
 In the **Project** screen, each project is displayed like an index card. You can see all the information that has been entered for a project.
 
-To move backwards and forwards between projects, click the previous/next buttons ( ![icon](../media/Pil_venstre.bmp)![icon](../media/Pil_hoeyre.bmp) ) at the bottom right of the cards
+To move backwards and forwards between projects, click the previous/next buttons ( ![icon](../media/Pil-venstre.bmp)![icon](../media/Pil-hoeyre.bmp) ) at the bottom right of the cards
 
 ## Add record as a favourite
 
-To add a record to favourites, click the star icon ![icon](../../Service/media/favourite_inactive.png) in the corner of the relevant card, tab or dialog. The star turns yellow ![icon](../../Service/media/favourite_active.png), and the record is instantly added to favourites. You do not have to click **Save**.
+To add a record to favourites, click the star icon ![icon](../../Service/media/favourite-inactive.png) in the corner of the relevant card, tab or dialog. The star turns yellow ![icon](../../Service/media/favourite-active.png), and the record is instantly added to favourites. You do not have to click **Save**.
 
-Now you can quickly access the record by clicking ![icon](../../media/navmenu_favourites.png) from the Navigator menu. The favourites are also available in the side panel.
+Now you can quickly access the record by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu. The favourites are also available in the side panel.
 
 You can also:
 
@@ -36,20 +36,20 @@ If you have selected a project type for which a project guide has been defined, 
 
 <!-- Fix reuse ID=a1 -->
 
-![icon](../media/Chap08_project/81_chap8_project.bmp)
+![icon](../media/Chap08-project/81-chap8-project.bmp)
 
 ## What would you like to do now?
 
-[Create projects](Creating_projects.md)
+[Create projects](Creating-projects.md)
 
-[Edit projects](Editing_projects.md)
+[Edit projects](Editing-projects.md)
 
-[Merge projects](Merge_projects.md)
+[Merge projects](Merge-projects.md)
 
-[Delete projects](Deleting_projects.md)
+[Delete projects](Deleting-projects.md)
 
-[Print projects](Printing_projects.md)
+[Print projects](Printing-projects.md)
 
-[Mailing a document to project members](Performing_mail_merge_for_projects.md)
+[Mailing a document to project members](Performing-mail-merge-for-projects.md)
 
 [Project guide](Projectguide.md)

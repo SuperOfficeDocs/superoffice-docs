@@ -17,8 +17,8 @@ You can go to the next stage by selecting it in the **Stage** list on the main c
 
 A sales guide where only follow-ups and documents for the current stage are displayed:
 
-![icon](../media/Chap07_sale/79_chap7_activities-CurrentStage.bmp)
+![icon](../media/Chap07-sale/79-chap7-activities-CurrentStage.bmp)
 
 A sales guide where all follow-ups and documents for all stages are displayed:
 
-![icon](../media/Chap07_sale/80_chap7_activities_AllStages.bmp)
+![icon](../media/Chap07-sale/80-chap7-activities-AllStages.bmp)
