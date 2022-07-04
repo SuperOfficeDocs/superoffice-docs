@@ -1,0 +1,48 @@
+---
+uid: help-en-dashboard-create
+title: Dashboard Create
+description: Dashboard Create
+author: SuperOffice RnD
+so.date: 07.04.2022
+keywords: CRM
+so.topic: help
+language: en
+---
+
+# Create a new dashboard
+
+In the **Dashboard** screen you can have multiple dashboard tabs to display any number of charts and statistics.
+
+To create a new dashboard tab:
+
+1. Open the **Dashboard** screen.
+
+2. Click the **Task** button and select **Create a new dashboard**. The **Create a new dashboard** dialog opens.
+
+3. Enter the name of the dashboard in the **Name** field. This will be the name of the dashboard tab.
+
+4. Enter a description of the dashboard in the **Description** field. The description is displayed at the top of the dashboard.
+
+    **Tip**: You can also add the name and description in other languages by clicking![icon](../media/Dashboard_Images/tile_icons/translate.png)(see[Translation](../Translate_fields.md)).
+
+5. Select the theme of the dashboard in the **Theme** list.
+
+6. Select the number of columns to use for the dashboard, in the **Columns** field.
+
+7. In the **Visible for** field, specify who will be able to see this tile. By default the dashboard will only be visible for yourself. If you have additional functional rights, you can make the dashboard visible/accessible for one or more user groups, or individual users.
+
+8. Use the **Pin to** function to always show this dashboard for selected users. You can use this function for all users or for selected user groups or users. Using this function requires functional rights.
+
+9. Click **Save** to create the dashboard. The new dashboard opens, containing no tiles.
+
+On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start adding tiles to the dashboard, as described in [Add tiles / Edit layout](Dashboard_Add_Tiles.md).
+
+## Related topics
+
+[Edit a dashboard](Dashboard_Edit.md)
+
+[Add tiles / Edit layout](Dashboard_Add_Tiles.md)
+
+[Duplicate a dashboard](Dashboard_duplicate.md)
+
+[Delete a dashboard](Dashboard_Delete.md)
