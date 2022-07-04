@@ -33,7 +33,7 @@ To configure SharePoint document library, do the following:
 
 In this step you must configure location, folders and file names for your SuperOffice documents and templates.
 
-#### SuperOffice documents - location, folders and filenames
+### SuperOffice documents - location, folders and filenames
 
 * **Site in SharePoint**: Select your site from the list.
 
@@ -45,7 +45,7 @@ In this step you must configure location, folders and file names for your SuperO
 
 * **Filename**: Select the preferred naming of files.
 
-#### SuperOffice document templates – Location
+### SuperOffice document templates – Location
 
 * **Site in SharePoint**: Select your site from the list.
 
