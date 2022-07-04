@@ -19,9 +19,7 @@ Form submissions with status **Submitted** must be processed manually. This mean
 To process a submission:
 
 1. In SuperOffice Marketing:
-    1. Open a form and go to the **Form submissions** tab.  
-        or  
-        Go to the **Form submissions** tab (in the main **Marketing** screen).
+    1. Open a form and go to the **Form submissions** tab or go to the **Form submissions** tab (in the main **Marketing** screen).
     2. At the bottom of the list of form submission, deselect all filters except **Submitted**. The list now displays only form submission that must be processed.
 
     In SuperOffice CRM: Go to the **Contact** screen, search for the relevant person and select the **Activities** section tab.

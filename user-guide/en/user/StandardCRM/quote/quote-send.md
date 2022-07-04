@@ -16,8 +16,7 @@ Once you have added products to the quote and created a quote document, you can 
 To do this:
 
 1. Open the quote in question.
-2. Click **Send**. The **Publish/send a quote** dialog appears.  
-      
+2. Click **Send**. The **Publish/send a quote** dialog appears.
     <!-- Fix reuse ID=a1 -->
     You cannot send a quote if it needs to be approved (see [Approve quote before sending](quote-approve.md)) or contains errors or warnings (see [Deal with warnings and messages when adding products to a quote](quote-product-warnings.md)).
 3. If required, edit the validity of the quote in the **Valid to** field. The number of days until the quote expires is shown on the right of the field.

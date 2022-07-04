@@ -29,9 +29,9 @@ The toolbar contains the following options:
 * **Owner**: The name of the request handler who is responsible for the request is given here. You can change the owner here. See [Ask another request handler for help](ticket.showListTickets.askForHelp.md).
 
 * **Status**: Shows the status of the request. You can change the status here.
-    * **Open**: The request is in progress.
-    * **Closed**: The request has been fully answered.
-    * **Postponed**: Action on the request has been postponed to a future date.
+  * **Open**: The request is in progress.
+  * **Closed**: The request has been fully answered.
+  * **Postponed**: Action on the request has been postponed to a future date.
 
 * **Category**: The category that the request belongs to appears here. You can change the category here.
 
@@ -39,14 +39,14 @@ The toolbar contains the following options:
 
 * **Actions** ( ![icon](../media/btn-Menu.png) ): Click this button to access the following options:
 
-* -   **Reply** / **Reply to all**: Click here to respond to the customer and/or other people linked to the request. See [Reply to customer](ticket.showListTickets.addMessage.md). This function is also available at the bottom of the **Messages** tab.
-    * **Edit request**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to ask a colleague for advice. See [Ask another request handler for help](ticket.showListTickets.askForHelp.md).
-    * **Accept request**: Click here to take over the request. You will then be the request's new owner. See [Take responsibility for requests](ticket.showListTickets.acceptRequest.md).
-    * **Split request**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can split the request into two using this button. See [Split requests](ticket.showListTickets.splitTicket.md).
-    * **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and e-mail), you can merge these requests into one request which will be processed. See [Merge requests](ticket.showListTickets.mergeTickets.md).
-    * **Log**: Click here to view the history of this request. The request log shows everything that has happened to this request since it was first registered.
-    * **Publish to FAQ**: If the same question comes up time and again, it is a good idea to create an answer that can be reused. You click here to send the customer's question and your answer to the administrator, who can then edit and publish the FAQ entry. See [Create FAQ entries](document.faq.newKbEntry.md).
-    * **Print request**: Click here to print the request.
+* **Reply** / **Reply to all**: Click here to respond to the customer and/or other people linked to the request. See [Reply to customer](ticket.showListTickets.addMessage.md). This function is also available at the bottom of the **Messages** tab.
+  * **Edit request**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to ask a colleague for advice. See [Ask another request handler for help](ticket.showListTickets.askForHelp.md).
+  * **Accept request**: Click here to take over the request. You will then be the request's new owner. See [Take responsibility for requests](ticket.showListTickets.acceptRequest.md).
+  * **Split request**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can split the request into two using this button. See [Split requests](ticket.showListTickets.splitTicket.md).
+  * **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and e-mail), you can merge these requests into one request which will be processed. See [Merge requests](ticket.showListTickets.mergeTickets.md).
+  * **Log**: Click here to view the history of this request. The request log shows everything that has happened to this request since it was first registered.
+  * **Publish to FAQ**: If the same question comes up time and again, it is a good idea to create an answer that can be reused. You click here to send the customer's question and your answer to the administrator, who can then edit and publish the FAQ entry. See [Create FAQ entries](document.faq.newKbEntry.md).
+  * **Print request**: Click here to print the request.
 
 ## Messages tab
 

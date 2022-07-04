@@ -27,7 +27,7 @@ To create an import description:
 
 <!-- -->
 
-1. -   **File has header row**: check here if the file begins with a header row, i.e. a row not containing data.
+1. **File has header row**: check here if the file begins with a header row, i.e. a row not containing data.
     * **Add unknown list items to list**: check here if you want any unknown items to be included in existing lists in the SuperOffice database. If this option is unchecked, the unknown item will not be imported and the relevant field in the SuperOffice database will be left empty.
     * **Add as members to new selection**: check here if you are importing the company or contact data type and want the companies/contacts you are importing to be included in a separate selection. In this case you must also specify a name for the selection in the **Name** field.
 

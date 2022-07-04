@@ -23,15 +23,16 @@ To complete the fields in the **Edit list item** dialog when the items are e-mai
 
 3. If you wish, you can choose where to store the document template, in the **Store template in** list.
 
-4. You now have three options: **Create a new e-mail template** | <!-- Fix reuse ID=a1 --> | <!-- Fix reuse ID=a2 -->
-    1. Click **Copy an existing e-mail template file**.
-    2. Click the **Copy template** list.
-    3. Select the required template from the list.
+4. You now have three options:
 
-    1. Select **Upload a new e-mail template from disk (.md/.md)**.
-    2. Click the **Upload** button.
-    3. Click **Upload file** in the **Upload file** dialog.
-    4. Select the required file and click **Open**. The name of the file will be displayed in the **Edit list item** dialog.
+    * **Create a new e-mail template**
+    * **Copy an existing e-mail template file**.
+        1. Click the **Copy template** list.
+        2. Select the required template from the list.
+    * **Upload a new e-mail template from disk (.md/.md)**
+        1. Click the **Upload** button.
+        2. Click **Upload file** in the **Upload file** dialog.
+        3. Select the required file and click **Open**. The name of the file will be displayed in the **Edit list item** dialog.
 
 5. Click **Save** in the **Edit list item** dialog. The dialog is updated.
 

@@ -24,10 +24,8 @@ To do this:
 
 1. Click **Edit**. Which options are displayed here depends on whether you are editing a company, a contact or a project.
 2. Company: Click **Customer** or **Supplier**, depending on which ERP actor you want to link the company to. You can only choose one actor per company.  
-    *Or*  
-    Project: Click **Project**.  
-    *Or*  
-    Contact: Click **Contact**.  
+    *Or* Project: Click **Project**.
+    *Or* Contact: Click **Contact**.
     The **Connect to ERP** dialog opens.
 3. Enter text to search for in the search field and click **Search**. You can also click the search button ![icon](../../media/globalmenu-search.png) to initiate an advanced search (see [Use the Find screen](../chap01/Find-dialog.md)).
 

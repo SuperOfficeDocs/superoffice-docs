@@ -16,7 +16,7 @@ You can transfer chats to other agents and receive transferred chats from other 
 > [!NOTE]
 > A manager can also take over the chat or transfer the chat to another agent. This allows someone with administrator rights to make sure the customer gets an agent that is available and can help the customer correctly.
 
-## Transfer a chat to another agent
+## How to transfer
 
 1. Click ![icon](../media/btn-Menu.png) and select **Transfer**.
 2. Select an agent in the **Transfer to** list. Only agents with status **Present** are displayed here.

@@ -21,8 +21,11 @@ Click the **Task** button, and select **Add tile / Edit layout**. On the right s
 
 In the **Show tiles for** list, select the type of records you want to use, for instance companies, follow-ups or sales. Relevant tiles are displayed in the **Library** and **Selections** tabs below:
 
-* **Library**: This tab contains a set of pre-defined tiles from the online template library. The icon next to the tile name indicates the tile type.  
-    **Tip**: You can also select an empty tile to create a tile from scratch. See [Edit a tile](Dashboard-Tiles-Edit.md).
+* **Library**: This tab contains a set of pre-defined tiles from the online template library. The icon next to the tile name indicates the tile type.
+
+    > [!TIP]
+    > You can also select an empty tile to create a tile from scratch. See [Edit a tile](Dashboard-Tiles-Edit.md).
+
 * **Selections**: This tab contains dynamic selections with charts (see [Charts](../chap04/Display-selections-as-charts.md)), and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.). Please note that when using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.
 
 Optional: Use the search field to find specific tiles.

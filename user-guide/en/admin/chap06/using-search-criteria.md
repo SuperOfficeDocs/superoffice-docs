@@ -21,23 +21,23 @@ In the list box, select the field you want to search for information in. The fie
 
     If the field you are searching in is a text field, e.g. a name field, the search is made on text or numbers you enter. The list that is displayed may contain the following options:
 
-    * Starts with
+  * Starts with
 
-    * Does not start with
+  * Does not start with
 
-    * = / Equals
+  * = / Equals
 
-    * &lt;&gt; / Does not equal
+  * &lt;&gt; / Does not equal
 
-    * Exact match
+  * Exact match
 
-    * Contains
+  * Contains
 
-    * Does not contain
+  * Does not contain
 
-    * Ends with
+  * Ends with
 
-    * Does not end with
+  * Does not end with
 
     Select one of these options and then enter the search criteria in the appropriate text field.
 
@@ -49,43 +49,43 @@ In the list box, select the field you want to search for information in. The fie
 
     If the field you are searching in is a date field, a list box with the following options may be displayed:
 
-    * Before
+  * Before
 
-    * Equals
+  * Equals
 
-    * After
+  * After
 
-    * Between
+  * Between
 
-    * To
+  * To
 
-    * From
+  * From
 
-    * Today
+  * Today
 
-    * After today
+  * After today
 
-    * Previous week
+  * Previous week
 
-    * This week
+  * This week
 
-    * Next week
+  * Next week
 
-    * Previous month
+  * Previous month
 
-    * This month
+  * This month
 
-    * Next month
+  * Next month
 
-    * Previous quarter
+  * Previous quarter
 
-    * This quarter
+  * This quarter
 
-    * Next quarter
+  * Next quarter
 
-    * This half
+  * This half
 
-    * This year
+  * This year
 
     Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) to the right of the date field.
 

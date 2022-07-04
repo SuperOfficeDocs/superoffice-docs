@@ -45,8 +45,8 @@ Do as follows:
     * **Show most common FAQs on the welcome page**: Select this option to display the most popular questions and latest questions.
     * **Enable footer**: Select this option to display a footer at the bottom of the page. Click **Edit** to enter text.
     * **Enable chat**: Select this option to activate the chat window in the lower right corner of the page. Set the following options for the chat:
-        * Select **Always** if you want the chat window available for anyone accessing the customer centre. Otherwise select **Logged in customers** to require users to log in to access the chat window.
-        * **Chat channel**: Select the chat channel you want to use. If no chat channel is selected, the chat window will not be available.
+      * Select **Always** if you want the chat window available for anyone accessing the customer centre. Otherwise select **Logged in customers** to require users to log in to access the chat window.
+      * **Chat channel**: Select the chat channel you want to use. If no chat channel is selected, the chat window will not be available.
     * **Use custom ”Contact us” form**: Select this option to use a custom form instead of the default form. Select a form in the list.
 
 6. Click **Save**.

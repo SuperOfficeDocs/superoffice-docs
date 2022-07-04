@@ -23,7 +23,7 @@ Bring up the **New group view** dialog as follows:
         You can only make changes in group views you have created yourself. If you are displaying a predefined group view, the **Edit** button will be greyed out to indicate that you cannot change it here. These group views contain all users that have been assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
 
         If you want to edit and save a predefined group view, select the **Copy** option and save the view with a new name.
-    * **New group view: **Select this option to create a new view.
+    * **New group view:** Select this option to create a new view.
     * **Copy**: Select this option to copy and edit the current view.
 
 The dialog contains the following fields:

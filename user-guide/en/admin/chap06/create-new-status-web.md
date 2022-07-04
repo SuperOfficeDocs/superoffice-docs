@@ -16,8 +16,11 @@ language: en
 To add a new status:
 
 1. Open the **SAINT** screen.
+
 2. Select the **Company**, **Project** or **Contact** tab.
+
 3. Click **Add** below the **Status monitors** list. The **Status monitor** dialog opens.
+
 4. Complete these fields:
     * **Name**: Enter a descriptive name for the status you want to add.  
         Optional: Click ![icon](../media/translate.png) to add translations of the status name. See [Translation](../Translate-fields.md).
@@ -33,6 +36,7 @@ To add a new status:
     **Name** – the name of the statuses. Deleted statuses are displayed in red if you have checked **Show deleted**.
 
     **Priority** – the priority of the statuses. The priority determines which status will be displayed if a company, contact or project fulfils the criteria for several statuses.
+
 6. If there are several statuses in the list, you need to specify the priority you want the status you have added to have. Click the status and use the arrow buttons to the right of the status list ( ![icon](../media/pil-flyttopp.bmp) / ![icon](../media/pil-flyttned.bmp) ) to move it up or down the list.  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a6 -->
     A company, contact or project can fulfil the criteria for several different statuses, but it is only possible to show one status image on the company card, contact card or project card in SuperOffice CRM. An order of priority therefore has to be specified for displaying statuses in SuperOffice CRM. If a company, contact or a project does not fulfil the criteria for the highest-priority status, then the status with the next highest priority is displayed. If the company, contact or project does not fulfil these criteria, then the next is displayed and so on.

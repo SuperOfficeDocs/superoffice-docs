@@ -52,7 +52,7 @@ By default, a document is opened in edit mode. Below we have described the diffe
 
 ## Cancel a check-out (revert to saved version)
 
-**IMPORTANT!**  
+**IMPORTANT!**
 If another user has checked out a document, you should always contact that user before performing this procedure. Otherwise there is a risk that  
 a. you overwrite someone else's changes  
 b. the other user overwrites your changes when they check in the document  

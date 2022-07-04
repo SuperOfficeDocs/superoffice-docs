@@ -40,20 +40,20 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
     * **Navigator button**: select this option to make the URL accessible as a button in the navigator in SuperOffice CRM.
 
     * **Panel**: select an option in this list box to make the URL accessible as a panel/tab in SuperOffice CRM. <!-- Fix reuse ID=a1 -->
-        * **Company card**, **Contact card**, **Project card**, **Selection card** and **Sale card**: a shortcut to the URL address is added at the top of the **www** tab in the **Company**, **Contact**, **Project**, **Selection** and **Sale** screens. When you click a shortcut in SuperOffice CRM, the web page in question is displayed in a small scrollable window in the tab. You can then also click **Open in separate window** to view the web page in a separate browser window.
-        * **Web panel on SuperOffice button**: the URL address is added in the web panel in SuperOffice CRM. The address can then be opened as an Internet page. If several URL addresses are defined for the web panel, they are shown as tabs on the right-hand side of the web panel. The Web panel is opened by clicking the SuperOffice logo at the top left in SuperOffice CRM.
-        * Section tabs in the **Company**, **Contact**, **Project** and **Sale** screens: the URL address is added as an extra section tab in the **Company/Contact/Project/Sale** screen. When you select the section tab in SuperOffice CRM, the URL opens. You can then also click **Open in separate window** to view the web page in a separate browser window.
+      * **Company card**, **Contact card**, **Project card**, **Selection card** and **Sale card**: a shortcut to the URL address is added at the top of the **www** tab in the **Company**, **Contact**, **Project**, **Selection** and **Sale** screens. When you click a shortcut in SuperOffice CRM, the web page in question is displayed in a small scrollable window in the tab. You can then also click **Open in separate window** to view the web page in a separate browser window.
+      * **Web panel on SuperOffice button**: the URL address is added in the web panel in SuperOffice CRM. The address can then be opened as an Internet page. If several URL addresses are defined for the web panel, they are shown as tabs on the right-hand side of the web panel. The Web panel is opened by clicking the SuperOffice logo at the top left in SuperOffice CRM.
+      * Section tabs in the **Company**, **Contact**, **Project** and **Sale** screens: the URL address is added as an extra section tab in the **Company/Contact/Project/Sale** screen. When you select the section tab in SuperOffice CRM, the URL opens. You can then also click **Open in separate window** to view the web page in a separate browser window.
 
     * **Dialog**: select an option in this list box to make the URL address accessible in a dialog. <!-- Fix reuse ID=a3 -->
-        * **The Dialog for follow-ups**: a shortcut to the URL address is added at the top of the **www** tab in the **Appointment**, **Task** and **Phone Call** dialogs. You can then also click **Open in separate window** to view the web page in a separate browser window.
+      * **The Dialog for follow-ups**: a shortcut to the URL address is added at the top of the **www** tab in the **Appointment**, **Task** and **Phone Call** dialogs. You can then also click **Open in separate window** to view the web page in a separate browser window.
 
-        * **The Document/Quote/Product dialog**: a shortcut to the URL address is added at the top of the **www** tab in these dialogs.
+      * **The Document/Quote/Product dialog**: a shortcut to the URL address is added at the top of the **www** tab in these dialogs.
 
     * **Task**: select this option to make the URL address accessible from the **Task** button in the **Contact** screen.
 
     * **Menu**: select an option in this list box to make the URL accessible on one of the menus in SuperOffice CRM. <!-- Fix reuse ID=a5 -->
-        * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ( ![icon](../media/knapp-verktoey-liten.bmp) ) in the Navigator or selects **Other Applications** in SuperOffice CRM.
-        * **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.
+      * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ( ![icon](../media/knapp-verktoey-liten.bmp) ) in the Navigator or selects **Other Applications** in SuperOffice CRM.
+      * **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.
 
 <!-- -->
 
