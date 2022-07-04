@@ -11,7 +11,7 @@ language: en
 
 # ERP
 
-![icon](../media/utropstegn.bmp) This function requires a licence for SuperOffice Integration Server.
+[!include[Requirement](../../includes/req-integration-server.md)]
 
 If your organisation uses an ERP system and has connected it to SuperOffice CRM, you have the option of synchronising companies (customers and suppliers) and projects between the ERP system and SuperOffice CRM.
 

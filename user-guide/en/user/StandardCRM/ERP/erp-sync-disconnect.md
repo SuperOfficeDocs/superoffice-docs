@@ -11,7 +11,7 @@ language: en
 
 # Disable synchronisation
 
-![icon](../media/utropstegn.bmp) This function requires a licence for SuperOffice Integration Server.
+[!include[Requirement](../../includes/req-integration-server.md)]
 
 To do this:
 

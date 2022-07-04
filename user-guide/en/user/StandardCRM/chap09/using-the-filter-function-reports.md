@@ -15,10 +15,10 @@ language: en
 
 To filter out the information displayed in the report archive:
 
-1. Open the **Reports** screen.  
+1. Open the **Reports** screen.
     <!-- Fix reuse ID=a1 -->
-    To open the **Reports** screen:
-    * By clicking the **Reports** button in the Navigator.
+    [!include[How to-goto-reports](../../includes/goto-reports.md
+)]
 
 2. Click the **Filter** button ( ![icon](../media/Filter.bmp) ).
 

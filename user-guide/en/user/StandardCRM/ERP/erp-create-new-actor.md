@@ -11,7 +11,7 @@ language: en
 
 # Create an actor in the ERP system
 
-![icon](../media/utropstegn.bmp) This function requires a licence for SuperOffice Integration Server.
+[!include[Requirement](../../includes/req-integration-server.md)]
 
 If you want to connect, for example, a SuperOffice company to a customer in the ERP system, and this customer does not exist in the ERP system, you can create the customer in the ERP system based on the data from SuperOffice.
 

@@ -17,27 +17,15 @@ This is a description of the **Edit quote** dialog.
 
 * [Click to create quote document](quote-create-quote-document.md)
 * Message/warning (with <!-- Fix reuse ID=a1 -->): See [Deal with warnings and notices when adding products to a quote](quote-product-warnings.md).
-    | Icon | Explanation | Solution |
-    |---|---|---|
-    | ![icon](../media/Quote-Status-OK.png) | OK | - |
-    | ![icon](../media/Quote-Status-OKWithInfo.png) | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
-    | ![icon](../media/Quote-Status-NeedsApproval.png) | Warning: Needs Approval | The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md). |
-    | ![icon](../media/Quote-Status-Error.png) | Error | The error must be corrected before the quote can be sent. |
 
-    A message is also displayed to explain the cause of the error.
+    [!include[Table showing quote icons](../../includes/table-quote-icons.md)]
+
 * **Version**: The current version of the quote is shown here. You can select previous versions from the list.
 * **Number**: The quote number.
 * **State** / <!-- Fix reuse ID=a2 -->: Shows the status of the quote (for example **Draft**, **Needs Approval**, **Sent** or **Sold**)
-    | Icon | State |
-    |---|---|
-    | ![icon](../media/quote-state--draft.png)![icon](../media/quote-state--draftnotcalculated.png) | Draft / Draft – not calculated |
-    | ![icon](../media/quote-state--needsapproval.png) | Needs Approval |
-    | ![icon](../media/quote-state--approved.png)![icon](../media/quote-state--not-approved.png) | Approved / Not Approved |
-    | ![icon](../media/quote-state--published.png) | Sent |
-    | ![icon](../media/quote-state--publishedexpired.png) | Sent – Expired |
-    | ![icon](../media/quote-state--sold.png)![icon](../media/quote-state--rejected.png) | Sold / Lost |
-    | ![icon](../media/quote-state--ordered.png) | Ordered |
-    | ![icon](../media/quote-state--archived.png) | Archived |
+
+    [!include[Table showing quote states](../../includes/table-quote-states.md)]
+
 * **[Send](quote-send.md)**: Click this button to send the quote.
 * **[Place order](quote-create-order.md)**: Click this button to place the order.
 

@@ -18,8 +18,8 @@ You can save generated reports as documents, so they can later be opened from th
 
 1. Open the **Reports** screen.  
     <!-- Fix reuse ID=a2 -->
-    To open the **Reports** screen:
-    * By clicking the **Reports** button in the Navigator.
+    [!include[How to-goto-reports](../../includes/goto-reports.md
+)]
 2. Select the required report (see [Show report properties](Showing-report-properties.md)).
 
 > [!TIP]

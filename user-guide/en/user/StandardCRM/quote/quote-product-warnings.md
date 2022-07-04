@@ -16,14 +16,7 @@ In SuperOffice Settings and maintenance, different rules can be defined for what
 > [!NOTE]
 > Products are added to and saved in a quote even if warnings and other messages are displayed, but you cannot send the quote while it contains errors and warnings. You must either correct the error or get the quote approved.
 
-| Icon | Explanation | Solution |
-|:-:|---|---|
-| ![icon](../media/Quote-Status-OK.png) | OK | - |
-| ![icon](../media/Quote-Status-OKWithInfo.png) | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
-| ![icon](../media/Quote-Status-NeedsApproval.png) | Warning: Needs Approval | The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md). |
-| ![icon](../media/Quote-Status-Error.png) | Error | The error must be corrected before the quote can be sent. |
-
-A message is also displayed to explain the cause of the error.
+[!include[Table showing quote icons](../../includes/table-quote-icons.md)]
 
 <!-- Fix reuse ID=a1 -->
 

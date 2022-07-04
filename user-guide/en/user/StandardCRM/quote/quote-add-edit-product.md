@@ -15,7 +15,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 <!-- Fix reuse ID=a1 -->
 
-If advanced searching is supported, you have the option of searching for and adding several products simultaneously.
+[!include[Using advanced search](../../includes/quote-add-multiple-products.md)]
 
 To find out how to do this, see [Add several products to a quote](quote-add-multiple-products.md).
 

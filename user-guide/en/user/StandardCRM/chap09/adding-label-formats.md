@@ -15,8 +15,8 @@ To print labels in a format different from those already available, you can defi
 
 1. Open the **Reports** screen.  
     <!-- Fix reuse ID=a1 -->
-    To open the **Reports** screen:
-    * By clicking the **Reports** button in the Navigator.
+    [!include[How to-goto-reports](../../includes/goto-reports.md
+)]
 2. Select the required report (see [Show report properties](Showing-report-properties.md)).
 3. Click the **Preview** button under the criteria list.
 4. In the dialog, click **Add**. The **Define Label Layout** dialog opens.

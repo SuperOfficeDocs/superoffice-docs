@@ -11,8 +11,7 @@ language: en
 
 # Move follow-ups to a different time
 
-> [!NOTE]
-> You can only edit follow-ups where you are the owner. If you are viewing another associate's diary, you can only edit follow-ups where the selected associate is the owner.
+[!include[Note](../../includes/note-edit-followup.md)]
 
 To move a follow-up to a different time or to a different day in the Diary:
 

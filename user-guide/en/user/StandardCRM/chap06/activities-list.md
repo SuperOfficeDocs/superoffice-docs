@@ -26,15 +26,7 @@ The activities list columns contain the following information:
 
 * The second column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
 * <!-- Fix reuse ID=a1 -->
-    | Icon | Description |
-    |:-:|---|
-    |![icon](../media/Type-ikon.bmp) | Appointment |
-    |![icon](../media/Type-oppgave.bmp) | Task |
-    |![icon](../media/Type-samtale.bmp) | Phone Call |
-    |![icon](../media/Type-dokument.bmp) | Document/report |
-    |![icon](../media/Type-epost.bmp) | E-mail |
-    |![icon](../media/Type-mailing.bmp) | Mailing |
-    |![icon](../media/Type-chat.bmp) | Chat conversation |
+    [!include[Table showing icons for activities](../../includes/table-activity-icons.md)]
 * The remainder of the columns in the activities list show other information about the activity (see the field descriptions in [The Dialog for follow-ups](../chap02/Dialog-for-followups.md)). If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
 Once an activity is completed, it will be removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date. But you can also choose to display future tasks:

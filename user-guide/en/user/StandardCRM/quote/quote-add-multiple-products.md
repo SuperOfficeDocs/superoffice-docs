@@ -11,7 +11,7 @@ language: en
 
 # Add several products to a quote
 
-If advanced searching is supported, you have the option of searching for and adding several products simultaneously.
+[!include[Using advanced search](../../includes/quote-add-multiple-products.md)]
 
 Do as follows:
 

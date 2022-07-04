@@ -32,15 +32,7 @@ The second column contains icons that indicate the type of activity, for example
 
 <!-- Fix reuse ID=a1 -->
 
-| Icon | Description |
-|:-:|---|
-| ![icon](../media/Type-ikon.bmp) | Appointment |
-| ![icon](../media/Type-oppgave.bmp) | Task |
-| ![icon](../media/Type-samtale.bmp) | Phone Call |
-| ![icon](../media/Type-dokument.bmp) | Document/report |
-| ![icon](../media/Type-epost.bmp) | E-mail |
-| ![icon](../media/Type-mailing.bmp) | Mailing |
-| ![icon](../media/Type-chat.bmp) | Chat conversation |
+[!include[Table showing icons for activities](../../includes/table-activity-icons.md)]
 
 Date
 

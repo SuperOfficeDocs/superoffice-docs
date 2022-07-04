@@ -15,8 +15,8 @@ The print options for labels are slightly different from those for other report 
 
 1. Open the **Reports** screen.  
     <!-- Fix reuse ID=a2 -->
-    To open the **Reports** screen:
-    * By clicking the **Reports** button in the Navigator.
+    [!include[How to-goto-reports](../../includes/goto-reports.md
+)]
 
 2. Select the required label report (see [Show report properties](Showing-report-properties.md)).
 

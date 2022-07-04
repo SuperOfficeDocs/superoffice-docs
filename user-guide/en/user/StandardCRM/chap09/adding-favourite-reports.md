@@ -15,8 +15,8 @@ Reports which you use a lot or have edited you can add to the list of favourite 
 
 1. Open the **Reports** screen.  
     <!-- Fix reuse ID=a1 -->
-    To open the **Reports** screen:
-    * By clicking the **Reports** button in the Navigator.
+    [!include[How to-goto-reports](../../includes/goto-reports.md
+)]
 2. Select the tab you require from **Company**, **Project**, **Sale,** **Activity** or **Selection**.
 3. Select a report from the report list and make the required changes. (See [Edit search criteria in reports](Editing-search-criteria-in-reports.md)).
 4. Click **Add to favourites** at the bottom right of the criteria list. The **Add favourite** dialog opens.

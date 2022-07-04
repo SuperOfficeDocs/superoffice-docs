@@ -15,8 +15,8 @@ To delete favourite reports:
 
 1. Open the **Reports** screen.  
     <!-- Fix reuse ID=a1 -->
-    To open the **Reports** screen:
-    * By clicking the **Reports** button in the Navigator.
+    [!include[How to-goto-reports](../../includes/goto-reports.md
+)]
 2. Select the **Favourites** tab. The favourite reports are displayed in the report list.
 
 > [!NOTE]

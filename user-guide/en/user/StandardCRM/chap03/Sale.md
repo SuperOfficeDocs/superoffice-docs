@@ -15,19 +15,7 @@ language: en
 
 The **Sales** section tab shows sales connected to the company.
 
-The following information is displayed in the columns on the **Sales** section tab:
-
-* ![icon](../media/Utfoert.bmp): a checkbox showing whether the sale has been completed
-* a status icon for the sale (specifies the sale’s status, e.g. sold or lost)
-* sale date
-* an amount
-* the sales stage
-* the date of the next sales activity
-* the name of the sale
-* any contact the sale is linked to
-* the company the sale is linked to
-* the user ID of the person who recorded the sale
-* ERP discount (if SuperOffice is linked to an ERP system)
+[!include[Contents of the Sales section tab](../../includes/sales-tab.md)]
 
 > [!TIP]
 > You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md). .

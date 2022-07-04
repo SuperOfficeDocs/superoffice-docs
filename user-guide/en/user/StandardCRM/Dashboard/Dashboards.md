@@ -12,7 +12,7 @@ language: en
 # Dashboard
 
 > [!NOTE]
->Some of the functions described here, require specific functional rights or licences.
+> Some of the functions described here, require specific functional rights or licences.
 
 The **Dashboard** feature in SuperOffice CRM gives you quick access to the charts, reports and statistics that are most important to you. You can choose from a wide range of pre-defined charts, and also add charts from dynamic selections or create your own.
 

@@ -97,12 +97,8 @@ These fields show the date when the follow-up was first created and when it was 
 
 ## Related topics
 
-[The Description tab](Description-tab-follow-ups.md)
-
-[The Details tab](Details-tab-follow-ups.md)
-
-[The Participants tab](Participants-category.md)
-
-[The Links tab](Links-tab-follow-ups.md)
-
-[The More tab](More-tab-follow-ups.md)
+* [The Description tab](Description-tab-follow-ups.md)
+* [The Details tab](Details-tab-follow-ups.md)
+* [The Participants tab](Participants-category.md)
+* [The Links tab](Links-tab-follow-ups.md)
+* [The More tab](More-tab-follow-ups.md)

@@ -13,10 +13,10 @@ language: en
 
 To view the properties of individual reports in the **Reports** screen:
 
-1. Open the **Reports** screen.  
+1. Open the **Reports** screen.
     <!-- Fix reuse ID=a1 -->
-    To open the **Reports** screen:
-    * By clicking the **Reports** button in the Navigator.
+    [!include[How to-goto-reports](../../includes/goto-reports.md
+)]
 2. Click one of the tabs to display the reports you want.
 
 > [!TIP]
