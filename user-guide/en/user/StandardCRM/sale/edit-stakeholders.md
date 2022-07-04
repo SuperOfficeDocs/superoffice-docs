@@ -32,5 +32,4 @@ You do this as follows:
 > [!NOTE]
 > Click **Cancel** to exit edit mode without saving your changes.
 
-  
 To remove one or more stakeholders from the sale, select them and click the **Remove** button below the section tab. In the dialog that appears, click **Yes**.

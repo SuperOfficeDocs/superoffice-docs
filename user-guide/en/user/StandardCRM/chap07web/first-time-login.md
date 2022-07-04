@@ -24,4 +24,5 @@ To enter the required information in this window:
 
 Some e-mail providers, such as Gmail, will block login attempts from unknown apps. Check your inbox to see if your e-mail provider has sent you information about an unauthorized login attempt. Follow the instructions in the e-mail to allow SuperOffice to access your account.
 
-**Tip!** To access the e-mail options, go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; E-mail options**.
+> [!TIP]
+> To access the e-mail options, go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; E-mail options**.

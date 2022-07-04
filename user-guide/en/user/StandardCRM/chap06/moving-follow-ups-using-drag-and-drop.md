@@ -11,7 +11,8 @@ language: en
 
 # Move follow-ups using drag and drop
 
-**Note**: You can only edit follow-ups where you are the owner. If you are viewing another associate's diary, you can only edit follow-ups where the selected associate is the owner.
+> [!NOTE]
+> You can only edit follow-ups where you are the owner. If you are viewing another associate's diary, you can only edit follow-ups where the selected associate is the owner.
 
 At some time, you will undoubtedly need to move follow-ups from one time slot to another, from the activities list to the **Diary** screen, or from the **Diary** screen to the activities list. These actions can be accomplished quickly and easily in SuperOffice CRM by dragging and dropping with the mouse.
 

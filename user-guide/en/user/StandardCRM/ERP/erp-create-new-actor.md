@@ -15,7 +15,8 @@ language: en
 
 If you want to connect, for example, a SuperOffice company to a customer in the ERP system, and this customer does not exist in the ERP system, you can create the customer in the ERP system based on the data from SuperOffice.
 
-**Note**: The **Create** button is disabled if SuperOffice is not allowed to create actors in the ERP system.
+> [!NOTE]
+> The **Create** button is disabled if SuperOffice is not allowed to create actors in the ERP system.
 
 To do this:
 

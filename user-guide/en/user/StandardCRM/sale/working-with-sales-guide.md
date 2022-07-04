@@ -35,7 +35,7 @@ This is how you perform the sales process:
     * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
     > [!TIP]
-    > If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Sale **and select **Yes** for the **Confirm creation of suggested follow-up** option.
+    > If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
 
     > [!TIP]
     > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog](../chap02/Dialog-for-followups.md) then opens.

@@ -24,7 +24,7 @@ To open the **Add/edit product** dialog:
 * Open a quote and click **Add** at the bottom of the **Products** tab (or an alternative you have created).
 * Double-click a product in the quote.
 
-### Add a product
+## Add a product
 
 1. If you want to search in a specific price list, you can select it in the list next to the **Product search** field.
 
@@ -53,9 +53,9 @@ In the area on the left of the **Add/edit product** dialog, the product name/cod
 * Figures shown in black can be edited.
 * The total amount and discounts are updated as you edit the different fields.
 * A discount can be specified either as a percentage rate, a discount amount or a total amount.
-    * The discount field you have edited is shown *underlined*.
-    * The other fields are updated so that they correspond with the discount you have defined.
-    * Hold the mouse pointer over a discount field to display any system discounts (such as volume discounts that are added automatically).
+  * The discount field you have edited is shown *underlined*.
+  * The other fields are updated so that they correspond with the discount you have defined.
+  * Hold the mouse pointer over a discount field to display any system discounts (such as volume discounts that are added automatically).
 * If you have specified discounts that are not permitted by the system, a warning or other message is displayed.
 
 ## Image tab

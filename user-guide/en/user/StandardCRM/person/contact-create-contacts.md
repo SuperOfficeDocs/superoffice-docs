@@ -11,7 +11,8 @@ language: en
 
 # Create new contacts
 
-**Note**: If you are creating a contact that is linked to a company, see [Create new contacts (Company screen)](../chap03/create-new-contacts.md).
+> [!NOTE]
+> If you are creating a contact that is linked to a company, see [Create new contacts (Company screen)](../chap03/create-new-contacts.md).
 
 To create a new contact:
 

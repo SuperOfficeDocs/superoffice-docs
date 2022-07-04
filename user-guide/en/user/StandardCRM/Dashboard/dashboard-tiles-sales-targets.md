@@ -35,7 +35,8 @@ To add a tile with sales targets to a dashboard:
 
     * Empty sale tile
 
-    **Tip**: You can also select an empty tile to create a tile from scratch, but the chart type needs to be one of those listed above. See [Edit a tile](Dashboard-Tiles-Edit.md).
+    > [!TIP]
+    > You can also select an empty tile to create a tile from scratch, but the chart type needs to be one of those listed above. See [Edit a tile](Dashboard-Tiles-Edit.md).
 
 6. To add a tile to the dashboard, drag and drop it on the desired position on the dashboard. You can also click **Add** to add a tile to next available position. The tile will automatically adjust to the available space, and will align with the grid and columns setup.
 

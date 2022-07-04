@@ -23,7 +23,8 @@ To create a new dashboard tab:
 
 4. Enter a description of the dashboard in the **Description** field. The description is displayed at the top of the dashboard.
 
-    **Tip**: You can also add the name and description in other languages by clicking![icon](../media/Dashboard-Images/tile-icons/translate.png)(see[Translation](../Translate-fields.md)).
+    > [!TIP]
+    > You can also add the name and description in other languages by clicking![icon](../media/Dashboard-Images/tile-icons/translate.png)(see[Translation](../Translate-fields.md)).
 
 5. Select the theme of the dashboard in the **Theme** list.
 

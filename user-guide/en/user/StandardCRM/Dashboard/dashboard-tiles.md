@@ -28,7 +28,8 @@ Click ![icon](../media/Dashboard-Images/dashboard-tile-options.png) in the heade
 
 * **Print**: Open the tile in the print dialog.
 
-**Tip**: To hide specific data before exporting or printing a tile, click the data labels (legend) next to or under the tile to hide data.
+> [!TIP]
+>  To hide specific data before exporting or printing a tile, click the data labels (legend) next to or under the tile to hide data.
 
 ## Related topics
 

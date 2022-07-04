@@ -11,7 +11,8 @@ language: en
 
 # Change the end time for follow-ups in the Diary
 
-**Note**: You can only edit follow-ups where you are the owner. If you are viewing another associate's diary, you can only edit follow-ups where the selected associate is the owner.
+> [!NOTE]
+> You can only edit follow-ups where you are the owner. If you are viewing another associate's diary, you can only edit follow-ups where the selected associate is the owner.
 
 In the **Diary** screen, you can change the end time for a follow-up without having to open it:
 

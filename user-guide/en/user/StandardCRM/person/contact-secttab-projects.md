@@ -28,7 +28,8 @@ The columns of the **Project** section tab contain the following information:
 * Any link to a web page the project is connected to – a URL address to click on to go to the relevant web page.
 * User ID for the person who created the project.
 
-**Tip:** You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md).
+> [!TIP]
+> You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md).
 
 For more details on how to manage projects, see [Project](../chap05/Project.md).
 
