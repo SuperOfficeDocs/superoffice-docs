@@ -1,0 +1,43 @@
+items:
+- name: Activities sale
+  href: activities-sale.md
+- name: CreateSale LinksTab
+  href: createsale-linkstab.md
+- name: CreateSale Sale tab
+  href: createsale-sale-tab.md
+- name: Create stakeholders
+  href: create-stakeholders.md
+- name: Creating sales
+  href: creating-sales.md
+- name: Deleting sales
+  href: deleting-sales.md
+- name: Details tab
+  href: details-tab.md
+- name: Edit stakeholders
+  href: edit-stakeholders.md
+- name: Example salesguide
+  href: example-salesguide.md
+- name: Printing sales
+  href: printing-sales.md
+- name: Quote detailcard
+  href: quote-detailcard.md
+- name: Sale
+  href: sale.md
+- name: Salecard tab note
+  href: salecard-tab-note.md
+- name: Sale screen section tabs
+  href: sale-screen-section-tabs.md
+- name: Sales guide
+  href: sales-guide.md
+- name: Salesguide detailcard
+  href: salesguide-detailcard.md
+- name: Sales targets
+  href: sales-targets.md
+- name: ShowAllActivitiesDocs
+  href: showallactivitiesdocs.md
+- name: StakeHolders
+  href: stakeholders.md
+- name: Status of a sale sold and lost
+  href: status-of-a-sale-sold-and-lost.md
+- name: Working with sales guide
+  href: working-with-sales-guide.md

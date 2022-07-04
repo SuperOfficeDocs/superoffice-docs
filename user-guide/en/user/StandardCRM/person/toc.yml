@@ -1,0 +1,37 @@
+items:
+- name: Contactcard tab contact
+  href: contactcard-tab-contact.md
+- name: Contactcard tab details
+  href: contactcard-tab-details.md
+- name: Contactcard tab interests
+  href: contactcard-tab-interests.md
+- name: Contactcard tab more
+  href: contactcard-tab-more.md
+- name: Contactcard tab note
+  href: contactcard-tab-note.md
+- name: Contactcard tab www
+  href: contactcard-tab-www.md
+- name: Contact create contacts
+  href: contact-create-contacts.md
+- name: Contact delete
+  href: contact-delete.md
+- name: Contact main
+  href: contact-main.md
+- name: Contact print
+  href: contact-print.md
+- name: Contact secttab activities
+  href: contact-secttab-activities.md
+- name: Contact secttab projects
+  href: contact-secttab-projects.md
+- name: Contact secttab relations
+  href: contact-secttab-relations.md
+- name: Contact secttab relations add
+  href: contact-secttab-relations-add.md
+- name: Contact secttab requests
+  href: contact-secttab-requests.md
+- name: Contact secttab sales
+  href: contact-secttab-sales.md
+- name: Contact send email
+  href: contact-send-email.md
+- name: Section tabs in the Contact screen
+  href: section-tabs-in-the-contact-screen.md

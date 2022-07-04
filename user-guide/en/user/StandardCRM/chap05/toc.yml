@@ -1,0 +1,53 @@
+items:
+- name: Activities Project
+  href: activities-project.md
+- name: Adding links from project and sale
+  href: adding-links-from-project-and-sale.md
+- name: Adding project members
+  href: adding-project-members.md
+- name: Creating project members
+  href: creating-project-members.md
+- name: Creating projects
+  href: creating-projects.md
+- name: Deleting projects
+  href: deleting-projects.md
+- name: Editing project members
+  href: editing-project-members.md
+- name: Editing projects
+  href: editing-projects.md
+- name: Event tab
+  href: event-tab.md
+- name: Example projectguide
+  href: example-projectguide.md
+- name: Image tab Project
+  href: image-tab-project.md
+- name: Invite project members to a meeting
+  href: invite-project-members-to-a-meeting.md
+- name: Merge projects
+  href: merge-projects.md
+- name: More tab Project
+  href: more-tab-project.md
+- name: Performing mail merge for projects
+  href: performing-mail-merge-for-projects.md
+- name: Printing projects
+  href: printing-projects.md
+- name: Project
+  href: project.md
+- name: Projectcard tab note
+  href: projectcard-tab-note.md
+- name: Projectguide
+  href: projectguide.md
+- name: Projectguide detail
+  href: projectguide-detail.md
+- name: Project members
+  href: project-members.md
+- name: Project screen section tabs
+  href: project-screen-section-tabs.md
+- name: Sale
+  href: sale.md
+- name: Sending e mails to project members
+  href: sending-e-mails-to-project-members.md
+- name: View followups and documents
+  href: view-followups-and-documents.md
+- name: Work with projectguide
+  href: work-with-projectguide.md

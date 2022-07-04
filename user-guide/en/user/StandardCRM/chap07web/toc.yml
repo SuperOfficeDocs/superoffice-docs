@@ -1,0 +1,33 @@
+items:
+- name: Adding e mail addresses in CRM
+  href: adding-e-mail-addresses-in-crm.md
+- name: Archive buttons
+  href: archive-buttons.md
+- name: Archiving options
+  href: archiving-options.md
+- name: Create request
+  href: create-request.md
+- name: Create task
+  href: create-task.md
+- name: First time login
+  href: first-time-login.md
+- name: Inbox
+  href: inbox.md
+- name: Inbox CRM web
+  href: inbox-crm-web.md
+- name: Look up sender to SuperOffice
+  href: look-up-sender-to-superoffice.md
+- name: Mark e mails as read unread
+  href: mark-e-mails-as-read-unread.md
+- name: Moving e mail to folders
+  href: moving-e-mail-to-folders.md
+- name: Opening attachments or saving them on disk
+  href: opening-attachments-or-saving-them-on-disk.md
+- name: Preview field
+  href: preview-field.md
+- name: Printing e mail
+  href: printing-e-mail.md
+- name: Receive invitations
+  href: receive-invitations.md
+- name: Writing e mail
+  href: writing-e-mail.md

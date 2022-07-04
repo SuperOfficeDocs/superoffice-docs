@@ -1,0 +1,69 @@
+items:
+- name: Adding favourite reports
+  href: adding-favourite-reports.md
+- name: Adding label formats
+  href: adding-label-formats.md
+- name: Adding search criteria to reports
+  href: adding-search-criteria-to-reports.md
+- name: Creating reports
+  href: creating-reports.md
+- name: Criteria list
+  href: criteria-list.md
+- name: Deleting favourite reports
+  href: deleting-favourite-reports.md
+- name: Deleting reports from the report archive
+  href: deleting-reports-from-the-report-archive.md
+- name: Displaying cross tables
+  href: displaying-cross-tables.md
+- name: Displaying labels
+  href: displaying-labels.md
+- name: Editing and deleting standard reports
+  href: editing-and-deleting-standard-reports.md
+- name: Editing favourite reports
+  href: editing-favourite-reports.md
+- name: Editing label formats
+  href: editing-label-formats.md
+- name: Editing search criteria in reports
+  href: editing-search-criteria-in-reports.md
+- name: Example change search criteria
+  href: example-change-search-criteria.md
+- name: Favourite reports
+  href: favourite-reports.md
+- name: Managing saved reports
+  href: managing-saved-reports.md
+- name: Opening reports in the report archive
+  href: opening-reports-in-the-report-archive.md
+- name: Printing cross tables
+  href: printing-cross-tables.md
+- name: Printing labels
+  href: printing-labels.md
+- name: Printing reports
+  href: printing-reports.md
+- name: Removing label formats
+  href: removing-label-formats.md
+- name: Report archive
+  href: report-archive.md
+- name: Report list
+  href: report-list.md
+- name: Reports
+  href: reports.md
+- name: Reports screen
+  href: reports-screen.md
+- name: Running reports
+  href: running-reports.md
+- name: Saving cross table reports as files
+  href: saving-cross-table-reports-as-files.md
+- name: Saving reports as files
+  href: saving-reports-as-files.md
+- name: Search criteria reports
+  href: search-criteria-reports.md
+- name: Showing report properties
+  href: showing-report-properties.md
+- name: Standard Reports
+  href: standard-reports.md
+- name: Using the Filter function Reports
+  href: using-the-filter-function-reports.md
+- name: Viewing reports
+  href: viewing-reports.md
+- name: Working with reports
+  href: working-with-reports.md

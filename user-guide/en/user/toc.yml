@@ -406,11 +406,29 @@ items:
       href: standardcrm/chap04/static-selections.md
     - name: The List of Members
       href: standardcrm/chap04/the-list-of-members.md
+  - name: Chap05
+    href: standardcrm/chap05/toc.yml
+  - name: Chap06
+    href: standardcrm/chap06/toc.yml
+  - name: Chap07
+    href: standardcrm/chap07web/toc.yml
+  - name: Chap09
+    href: standardcrm/chap09/toc.yml
+  - name: Dashboard
+    href: standardcrm/dashboard/toc.yml
+  - name: ERP
+    href: standardcrm/erp/toc.yml
+  - name: person
+    href: standardcrm/person/toc.yml
+  - name: standardcrm/sale
+    href: sale/toc.yml
+  - name: standardcrm/quote
+    href: quote/toc.yml
   - name: Copyright
     href: standardcrm/copyright.md
   - name: Inbox TOP
     href: standardcrm/inbox-top.md
-  - name: Licence agreement
+  - name: License agreement
     href: standardcrm/licence-agreement.md
   - name: Translate fields
     href: standardcrm/translate-fields.md

@@ -1,0 +1,23 @@
+items:
+- name: Dashboard Add Tiles
+  href: dashboard-add-tiles.md
+- name: Dashboard Create
+  href: dashboard-create.md
+- name: Dashboard Delete
+  href: dashboard-delete.md
+- name: Dashboard duplicate
+  href: dashboard-duplicate.md
+- name: Dashboard Edit
+  href: dashboard-edit.md
+- name: Dashboards
+  href: dashboards.md
+- name: Dashboard Tiles
+  href: dashboard-tiles.md
+- name: Dashboard Tiles Delete
+  href: dashboard-tiles-delete.md
+- name: Dashboard Tiles Edit
+  href: dashboard-tiles-edit.md
+- name: Dashboard tiles sales targets
+  href: dashboard-tiles-sales-targets.md
+- name: Dashboard View and filter
+  href: dashboard-view-and-filter.md

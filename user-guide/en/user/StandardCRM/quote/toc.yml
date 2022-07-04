@@ -1,0 +1,29 @@
+items:
+- name: Quote add alternative
+  href: quote-add-alternative.md
+- name: Quote add edit product
+  href: quote-add-edit-product.md
+- name: Quote add multiple products
+  href: quote-add-multiple-products.md
+- name: Quote approve
+  href: quote-approve.md
+- name: Quote choose ERP connection
+  href: quote-choose-erp-connection.md
+- name: Quote copy
+  href: quote-copy.md
+- name: Quote create
+  href: quote-create.md
+- name: Quote create order
+  href: quote-create-order.md
+- name: Quote create quote document
+  href: quote-create-quote-document.md
+- name: Quote dlg edit quote
+  href: quote-dlg-edit-quote.md
+- name: Quote main
+  href: quote-main.md
+- name: Quote product warnings
+  href: quote-product-warnings.md
+- name: Quote send
+  href: quote-send.md
+- name: Quote sent edit
+  href: quote-sent-edit.md
