@@ -19,5 +19,5 @@ The ![icon](../../media/btn-Menu.png)**Task** button allows the follow options:
 * Select **[New group view](Creating-diary-views.md)** to create a new group view.
 * Select **[Copy](Creating-diary-views.md)** to make a copy of the group view you have opened.
 * Select **[Delete group view](Creating-diary-views.md)** to delete the group view you have opened.
-* Select <a href="../chap02/Linking-participants-to-follow-ups.md" style="font-weight: bold;">Invite participants</a> if you want to link participants to a follow-up.
+* Select [Invite participants](../chap02/Linking-participants-to-follow-ups.md) if you want to link participants to a follow-up.
 * Select **Help** to open this help file.

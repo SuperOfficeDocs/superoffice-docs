@@ -20,7 +20,7 @@ To add a project image:
     There are several ways to open the **Project** screen:
 
     * By clicking the **Project** button in the Navigator.
-    * By using the history list (see <a href="../chap01/Using-the-history-list.md" style="background-color: Transparent;">The History list</a>) or FastSearcher (see [FastSearcher](../chap01/Using-FastSearcher.md)).
+    * By using the [The History list](../chap01/Using-the-history-list.md) or  [FastSearcher](../chap01/Using-FastSearcher.md).
     * By double-clicking a project in a search result or the **Projects** section tab in the **Company** screen.
 
 2. Select the **Image** tab.
