@@ -26,7 +26,7 @@ Click the appropriate item below, depending on what you want to find out about:
 
 We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen. To do this:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Profile**. The **Show profiles** screen appears.
+1. Select ![icon][img1] **System settings &gt; Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Click **Search**.
 4. Point at **Find requests**, and click ![icon][img1] (**New common profile**) to the right of the name. The **Edit element profile** screen appears.
@@ -42,7 +42,7 @@ We explain how to create a common profile by using a specific example. In the ex
 
 To edit the information already recorded for a profile:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Profile**. The **Show profiles** screen appears.
+1. Select ![icon][img1] **System settings** &gt; **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Drill down into the hierarchy until you find the profile you want.
 4. Click the profile name. The **Edit element profile** screen appears.
@@ -53,7 +53,7 @@ To edit the information already recorded for a profile:
 
 To delete a profile from SuperOffice Service, do as follows:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Profile**. The **Show profiles** screen appears.
+1. Select ![icon][img1] **System settings** &gt; **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Drill down into the hierarchy until you find the profile you want.
 4. Click the profile name. The **Edit element profile** screen appears.
@@ -69,3 +69,4 @@ To delete a profile from SuperOffice Service, do as follows:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

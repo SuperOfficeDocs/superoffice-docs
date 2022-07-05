@@ -23,4 +23,10 @@ When the notification time arrives, the **Alarm** dialog opens, containing infor
 * Check **Remind me in 5 minutes** and click **OK** to repeat the alarm.
 
 > [!NOTE]
-> To avoid the sound of the alarm disturbing your colleagues, you can set it to switch off after a certain time. To do this, go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Diary** and edit the **Silent after** option.
+> To avoid the sound of the alarm disturbing your colleagues, you can set it to switch off after a certain time. To do this, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Diary** and edit the **Silent after** option.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

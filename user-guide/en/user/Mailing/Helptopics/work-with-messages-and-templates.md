@@ -70,7 +70,7 @@ To create a new SMS template from scratch:
 
 1. Go to the **Message templates** tab.
 
-2. Click ![icon](../media/btn-Add.png)**Add SMS**. The **Edit template** screen displays.
+2. Click ![icon][img1] **Add SMS**. The **Edit template** screen displays.
 
 3. Enter a descriptive name for the template in the **Name** field.
 
@@ -118,4 +118,5 @@ To import a JSON file:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/btn-add.png

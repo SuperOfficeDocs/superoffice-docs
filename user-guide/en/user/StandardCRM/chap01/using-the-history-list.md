@@ -33,4 +33,10 @@ You can use the history list in different ways:
 3. Click the required company, contact, sale, selection or project to link to the record.
 
 > [!NOTE]
-> You can increase or limit the number of lines in the history list by going to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Visual effects &gt; Size of history list** and entering the number you require.
+> You can increase or limit the number of lines in the history list by going to ![icon][img1] **Personal settings &gt; Preferences &gt; Visual effects &gt; Size of history list** and entering the number you require.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

@@ -15,7 +15,7 @@ In the **Other groups** tab, you can select any secondary groups (in addition to
 
 To do this:
 
-1. Select ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal Settings &gt; Settings &gt; Other groups** tab.
+1. Select ![icon][img2] **Personal Settings &gt; Settings &gt; Other groups** tab.
 2. In the **Group** list, select a group.
 3. Click the ![icon][1] **Add** button. The group is added to the list.
 4. Repeat steps 2-3 to add more groups.
@@ -31,3 +31,4 @@ To do this:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/globalmenu-personalsettings-small.png

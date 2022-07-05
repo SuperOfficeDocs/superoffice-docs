@@ -40,7 +40,7 @@ Edit the following fields:
 * confirmation the data will not be shared with other parties and is stored securely
 * information about how they can change or withdraw consent at any time
 
-Click ![icon](../media/translate.png) next to a field to add new or edit existing translations of the field texts. See [Translation](../Translate-fields.md).
+Click ![icon][img1] next to a field to add new or edit existing translations of the field texts. See [Translation](../Translate-fields.md).
 
 Click **Save** when you are done.
 
@@ -49,3 +49,9 @@ Click **Save** when you are done.
 [Privacy - Legal basis](../chap08/Privacy-Legal-base.md)
 
 [Privacy - Source](../chap08/Privacy-Source.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/translate.png

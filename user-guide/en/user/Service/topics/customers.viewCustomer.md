@@ -25,7 +25,7 @@ This screen comprises the following sections:
 
 ## Contact header
 
-The header of the **Contact** screen contains basic information about the contact: contact name, company and priority. In addition, you can click ![icon](../media/favourite-inactive.png) to set the contact as a favourite ( ![icon](../media/favourite-active.png) ). The contact will then be accessible via the favourites list ( ![icon](../media/navigator-favourites-small.png) ) under **Customers** in the Navigator.
+The header of the **Contact** screen contains basic information about the contact: contact name, company and priority. In addition, you can click ![icon][img2] to set the contact as a favourite ( ![icon](../media/favourite-active.png) ). The contact will then be accessible via the favourites list ( ![icon][img3] ) under **Customers** in the Navigator.
 
 ## Task buttons for contacts
 
@@ -52,4 +52,6 @@ Click the ![icon][img1] **Actions** button to access the following options:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/favorite-inactive.png
+[img3]: ../media/navigator-favorites-small.png

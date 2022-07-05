@@ -27,4 +27,10 @@ To add an IP address range:
 6. Click the **Add** button to add the IP address range to the list below.
 
 > [!TIP]
-> To delete an IP address range from the list, click the delete icon ( ![icon](../media/btn-delete.png) ).
+> To delete an IP address range from the list, click the delete icon ( ![icon][img1] ).
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../media/btn-delete-admin.png

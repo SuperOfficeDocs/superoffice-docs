@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# ![icon](../../../../media/icons/globalmenu-mainmenu.png) Options in the Main menu
+# ![icon][img1] Options in the Main menu
 
 Click the **Main menu** button in the Top bar to access the following options:
 
@@ -24,3 +24,9 @@ Click the **Main menu** button in the Top bar to access the following options:
 * **Targets**: Click here to add sales targets. See [Sales targets](../sale/Sales-targets.md).
 * **Edit system signature**: Click here to edit the default e-mail signature.
 * **Settings and maintenance**: Click here to go to SuperOffice Settings and maintenance. This option is only available if you have administrator's rights.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/globalmenu-mainmenu.png

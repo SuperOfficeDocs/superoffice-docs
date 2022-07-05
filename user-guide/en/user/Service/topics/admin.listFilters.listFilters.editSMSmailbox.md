@@ -13,7 +13,7 @@ language: en
 
 SuperOffice Service can import SMS messages. For this to work, you must set up an SMS mailbox:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **E-mail**. This takes you straight to the **Mailboxes** tab.
+1. Select ![icon][img1] **System settings** &gt; **E-mail**. This takes you straight to the **Mailboxes** tab.
 
 2. Click **New SMS mailbox**.
 
@@ -33,3 +33,9 @@ SuperOffice Service can import SMS messages. For this to work, you must set up a
 [SMS inbox](admin.listFilters.viewSMS.inbox.md)
 
 [SMS outbox](admin.listFilters.viewSMS.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

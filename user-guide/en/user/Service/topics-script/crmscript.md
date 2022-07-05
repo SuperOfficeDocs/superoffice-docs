@@ -15,7 +15,7 @@ CRMScript is a feature that allows you to automate tasks in or modify the behavi
 
 To access the functions in CRMScript:
 
-* In SuperOffice Service, select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript**.
+* In SuperOffice Service, select ![icon][img1] **System settings** &gt; **System design** &gt; **CRMScript**.
 * In SuperOffice Settings and maintenance, click **CRMScript** in the navigator.
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
@@ -31,3 +31,9 @@ The following tabs are available:
 [Debug sessions](blogic.listDebugSessions.viewDebugSession.md) - Find and fix bugs inside your scripts and macros.
 
 [Tracing](Tracing.md) - Record every detail in the execution of a script or macro and save it in a log.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

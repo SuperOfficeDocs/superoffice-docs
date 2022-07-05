@@ -18,7 +18,7 @@ You can create extra tables in SuperOffice Service in order to register differen
 
 To create an extra table:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Tables**.
+1. Select ![icon][img2] **System settings** &gt; **System design** &gt; **Tables**.
 2. Click ![icon](../media/btn-newtable.png)**New table**. The **Table properties** screen appears.
 3. In the **Table properties** screen, enter data about the new table:
     * **Folder**: If you want to place the table in an existing folder, select a folder from the list.
@@ -44,3 +44,4 @@ To create an extra table:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

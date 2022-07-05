@@ -17,7 +17,7 @@ Using the **User groups** tab in the **Users** screen, you can collect the users
 
 To create a new user group:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Users**.
+1. Select ![icon][img1] **System settings &gt; Users**.
 2. Select the **User groups** tab.
 3. Click the **New group** button. The **User group** screen opens.
 4. Fill in the **Name** and **Description** fields.
@@ -33,10 +33,16 @@ If you want to assign a user to this group, follow the procedure under [Edit use
 
 To delete a user group from SuperOffice Service, do as follows:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Users**.
+1. Select ![icon][img1] **System settings &gt; Users**.
 2. Select the **User groups** tab.
 3. Click the name of the user group in question. The **User group** screen opens.
 4. Click the **Delete** button at the bottom of the screen.
 5. If this user group contains users, you must move the users to another group. In the **Move users and subgroups to** list, select the user group to move them to.
 6. Click **Delete**.
 7. Click **OK** when you are asked if you want to delete the user group. The user group is deleted and all users are moved to the group you selected in step 5.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

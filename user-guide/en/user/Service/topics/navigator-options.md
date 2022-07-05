@@ -39,7 +39,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 
 1. Click **Requests**, **Customers**, **Selections**, **Knowledge Base** or **Marketing** in the Navigator on the left of the window. An empty field is displayed at the top. Below is a list of actions/functions and navigation options for the selected navigator button.
 
-    ![icon](../media/loc/navigator-list.png)
+    ![icon][img1]
 
 2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matches.
 
@@ -63,4 +63,11 @@ When you click a navigator button, one or more of the buttons below are displaye
 > [!TIP]
 > If you hold the mouse pointer over a record in the list of search results, a <!-- Fix reuse ID=a12 --> containing additional data about the record.
 
-![icon](../media/loc/Navigator-preview.png)
+![Example -screenshot][img2]
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/navigator-list.png
+[img2]: ../media/navigator-preview-service.png

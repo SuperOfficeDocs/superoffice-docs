@@ -13,7 +13,7 @@ language: en
 
 In the **Edit users** screen, you can adjust the settings defined for your user profile and which control your use of SuperOffice Service.
 
-To edit your user settings, select ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**&gt; Settings**. The following tabs are available:
+To edit your user settings, select ![icon][img1] **&gt; Settings**. The following tabs are available:
 
 [User information](admin.editUser.helpUserInfo.md)
 
@@ -32,3 +32,9 @@ To edit your user settings, select ![icon](../../../../media/icons/globalmenu-pe
 [Notification](admin.editUser.helpNotification.md)
 
 [Extra fields](admin.editUser.helpExtrafields.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

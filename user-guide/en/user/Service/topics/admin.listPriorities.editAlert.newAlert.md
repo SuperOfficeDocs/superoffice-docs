@@ -13,7 +13,7 @@ language: en
 
 To create a new escalation level:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)&gt; **Priorities**. The **Priorities** screen appears.
+1. Select ![icon][img1] &gt; **Priorities**. The **Priorities** screen appears.
 
 2. Click the **New escalation level** button. This takes you to the **Escalation level properties** screen.
 
@@ -43,3 +43,9 @@ To create a new escalation level:
     > If the **Send reply template by SMS to** tab is not displayed, this means that SMS has not been enabled for the licence you are using. Contact your system administrator for more information.
 
 6. Click **OK**. The escalation level is created, and is displayed under the selected priority, in the **Priorities** screen.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

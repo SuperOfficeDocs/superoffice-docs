@@ -15,7 +15,7 @@ In the **Edit script** screen you can edit or create a script. Documentation and
 
 To create or edit a script:
 
-1. In SuperOffice Service: Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.  
+1. In SuperOffice Service: Select ![icon][img1] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.  
     In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
 2. Do one of the following:
     * To create a new script: Click **New script**.
@@ -36,3 +36,4 @@ To create or edit a script:
 [1]: ../../../../../docs/automation/crmscript/index.yml
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

@@ -15,8 +15,8 @@ To make the chat feature available to your customers, you must add a JavaScript 
 
 In order to do so:
 
-1. SuperOffice Settings and maintenance: Click the **Chat** button in the Navigator (![icon](../../../media/icons/knapp-chat-liten.png)).
-    SuperOffice Service: Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Chat**.
+1. SuperOffice Settings and maintenance: Click the **Chat** button in the Navigator (![icon][img2]).
+    SuperOffice Service: Select ![icon][img1] **System settings &gt; Chat**.
 
 2. Select a chat channel in the list.
 
@@ -40,3 +40,9 @@ The chat widget is now available and live. Visitors to your website will now be 
 > Please note that when you enable the chat feature, your organization must be ready to handle all incoming chat conversations.
 >
 > The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page has finished loading.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/chat-btn-small.png

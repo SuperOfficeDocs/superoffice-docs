@@ -30,7 +30,7 @@ To create a new form template from scratch:
 
 1. Go to the **Form templates** tab.
 2. If required, click **Add folder** to create a folder for the template.
-3. Click ![icon](../media/btn-Add.png)**Add form**. The **Edit form** screen displays.
+3. Click ![icon][img2] **Add form**. The **Edit form** screen displays.
 4. Enter a descriptive name for the template in the **Form name** field.
 5. Complete the **Edit form** dialog as described in [Create a new form](form-create.md).
 6. Click **Save** when you are done. The new form template displays in the templates list.
@@ -51,4 +51,5 @@ To create a new form template from scratch:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/btn-add.png

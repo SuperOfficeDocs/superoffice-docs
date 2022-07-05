@@ -15,7 +15,7 @@ In order for a request to be your responsibility, your name must appear in the r
 
 A request handler with category administration rights can specify the assignment method for categories:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Categories**.
+1. Select ![icon][img1] **System settings &gt; Categories**.
 2. Select the required category.
 3. Select the **Assignment method** tab.
 4. Select the appropriate options.
@@ -39,3 +39,9 @@ An example will clarify this feature. Imagine that your company has created a ca
 * [Process requests](ticket.listTicket.md)
 * [Create requests](ticket.newTicket.md)
 * [Efficient handling of requests using AI](AI-requests.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

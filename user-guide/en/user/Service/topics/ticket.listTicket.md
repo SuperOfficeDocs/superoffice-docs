@@ -20,7 +20,7 @@ When you double-click a row in the search results screen (see [View search resul
 
 ## Request header
 
-The header of the request contains the properties defined when the request was created (see [Create requests](ticket.newTicket.md)). The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon](../media/favourite-inactive.png) to set the request as a favourite ( ![icon](../media/favourite-active.png) ). The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
+The header of the request contains the properties defined when the request was created (see [Create requests](ticket.newTicket.md)). The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img2] to set the request as a favourite ( ![icon](../media/favourite-active.png) ). The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
 
 ## Task buttons for requests
 
@@ -52,9 +52,9 @@ The toolbar contains the following options:
 
 The **Messages** tab displays the messages related to the request.
 
-You can change how many messages are displayed, in ![icon](../../../../media/icons/globalmenu-personalsettings-small.png) **Personal settings**. <!-- Fix reuse ID=a2 -->
+You can change how many messages are displayed, in ![icon][img3] **Personal settings**. <!-- Fix reuse ID=a2 -->
 
-1. Select ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Settings**.
+1. Select ![icon][img3] **Personal settings &gt; Settings**.
 2. Select the **Interface** tab.
 3. Specify the number of messages in the **No. of expanded messages** field.
 4. Click **OK**.
@@ -97,3 +97,5 @@ The **Details** tab contains an overview of the request.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/favorite-inactive.png
+[img3]: ../../../../media/icons/globalmenu-personalsettings-small.png

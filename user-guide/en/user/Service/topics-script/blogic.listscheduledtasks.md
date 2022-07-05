@@ -20,7 +20,7 @@ Click a task in the list to edit its properties, such as when it was last execut
 
 ## Create a new scheduled task
 
-1. In SuperOffice Service: Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Scheduled tasks** tab.  
+1. In SuperOffice Service: Select ![icon][img1] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Scheduled tasks** tab.  
     In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Scheduled tasks** tab.
 2. Click **New task**.
 3. Select how often the task should be performed, in the **Frequency** list. **Run after another schedule** can be used to start a task after another task has completed. You can use this option to chain tasks together.
@@ -42,3 +42,9 @@ Click a task in the list to edit its properties, such as when it was last execut
 10. Set **Lock time in minutes**. The purpose of this setting is to prevent multiple tasks from the same schedule to run at the same time. You should set this value higher than the expected run time for your task. If your task takes more time than specified here, it will be considered failed, and a new task from the same schedule will be allowed to run.
 11. Set **Minutes before restart after error**. This setting specifies the time before a failed task (a task that has crashed) will be re-run.
 12. Click **OK**. The task is added to the list, and you can see the status and time of the next execution of the task.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

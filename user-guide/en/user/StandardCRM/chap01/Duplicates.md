@@ -22,4 +22,9 @@ You can continue working with the current record or go to one of the records lis
 
 To change the settings for the duplicate check, click the **Settings** button in the **Duplicates** dialog.
 
-You can also access these settings from the Main menu ( ![icon](../media/globalmenu-mainmenu-small.png) ).
+You can also access these settings from the Main menu ( ![icon][img1] ).
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-mainmenu-small.png

@@ -20,8 +20,14 @@ When you are in the diary, there are several ways to create follow-ups.
 * Click **New** in the top bar and cliselect **Appointment**, **Phone Call** or **Task**.
 
 > [!NOTE]
-> If you create the appointment from the **View** tab (see [The View tab](View-Tab.md)), you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
+> If you create the appointment from the **View** tab (see [The View tab](View-Tab.md)), you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 ## Related topics
 
 [The Dialog for follow-ups](../chap02/Dialog-for-followups.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

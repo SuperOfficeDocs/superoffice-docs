@@ -13,7 +13,7 @@ language: en
 
 To create a new role:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Roles**.
+1. Select ![icon][img3] **System settings &gt; Roles**.
 2. Click the **New role** button. The **Create roles** screen opens.
 3. Enter the following information:
     * **Name**: Enter a descriptive name for the role.
@@ -44,5 +44,6 @@ To create a new role:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]:  ../../../../media/icons/arrow-left.png
+[img1]: ../../../../media/icons/arrow-left.png
 [img2]: ../../../../media/icons/arrow-right.png
+[img3]: ../../../../media/icons/globalmenu-settings-small.png

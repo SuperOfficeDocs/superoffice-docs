@@ -13,7 +13,7 @@ language: en
 
 To create a new e-mail filter:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **E-mail**.
+1. Select ![icon][img2] **System settings** &gt; **E-mail**.
 2. Select the **E-mail filters** tab.
 3. Click **New e-mail filter**. The **Properties for e-mail filter** screen appears.
 4. In the **Filter** tab, you can specify which e-mails are to be filtered, by entering the following information:
@@ -81,3 +81,4 @@ To create a new e-mail filter:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-delete.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

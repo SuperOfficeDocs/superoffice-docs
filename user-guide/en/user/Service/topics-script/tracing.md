@@ -23,14 +23,14 @@ The **Tracing** tab contains a list of all traces. Click a trace in the list to 
 
 To start tracing scripts:
 
-* Go to **CRMScript** &gt; **Debug sessions** (see [Debug sessions](blogic.listDebugSessions.viewDebugSession.md)) and click ![icon][img1] **Start tracing scripts** to start tracing the scripts in the list.
-* Open a script or macro in **Debugger** and click ![icon](../media/btn-script-trace-small.png)**Trace script**.
-* Open a script or macro in the **Macros and scripts** tab and click ![icon](../media/btn-script-trace-small.png) **Trace script**.
+* Go to **CRMScript** &gt; **Debug sessions** (see [Debug sessions][1]) and click ![icon][img1] **Start tracing scripts** to start tracing the scripts in the list.
+* Open a script or macro in **Debugger** and click ![icon][img2] **Trace script**.
+* Open a script or macro in the **Macros and scripts** tab and click ![icon][img2] **Trace script**.
 
 ## Edit tracings
 
 1. Click a trace in the **Tracing** list to open it.
-2. Click ![icon](../media/edit.png)**Edit trace**. The **Edit trace** screen displays.
+2. Click ![icon][img3] **Edit trace**. The **Edit trace** screen displays.
 3. Fill in the following fields:
     * **Description**: Enter a description of the trace, to make it easier to identify.
     * **User filter**: If you want to trace the script for a specific user, select the user from the list.
@@ -41,7 +41,9 @@ To start tracing scripts:
 4. Click **OK** when you are done.
 
 <!-- Referenced links -->
-[1]:
+[1]: blogic.listDebugSessions.viewDebugSession.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-executescript.png
+[img1]: ../../../../media/icons/btn-executescript.png
+[img2]: ../../../../media/icons/btn-script-trace-small.png
+[img3]: ../../../../media/icons/edit.png

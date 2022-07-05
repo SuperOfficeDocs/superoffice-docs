@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# ![icon](../../../../media/icons/globalmenu-personalsettings.png) Options in the Personal settings menu
+# ![icon][1] Options in the Personal settings menu
 
 > [!NOTE]
 > If you added an image in your own contact card, this image will appear on the **Personal settings** button.
@@ -49,3 +49,9 @@ Click the **Personal settings** button in the Top bar to access the following op
 
 > [!NOTE]
 > To change the language in Mobile CRM, click the **Task** button in the bottom left corner. Then select **Settings**, click **Language** and select from the options.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings.png

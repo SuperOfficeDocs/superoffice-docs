@@ -17,7 +17,7 @@ In this topic, you can find out how to create and edit customer languages.
 
 To create a new customer language:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Customer languages**.
+1. Select ![icon][img1] **System settings** &gt; **Customer languages**.
 
 2. Click the **New customer language** button. This takes you to the **Customer language properties** screen.
 
@@ -65,3 +65,9 @@ To create a new customer language:
 [Work with external categories](admin.listCustLangs.workWithExternaCategories.md)
 
 [How SuperOffice Service selects the customer language for new contacts](admin.listCustLangs.selectlanguage.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

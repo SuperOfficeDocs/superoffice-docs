@@ -54,7 +54,7 @@ If specified under **Settings** &gt; **Categories**, the **Status** tile on the 
 
 A user with category administration rights can do the following:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Categories**.
+1. Select ![icon][img1] **System settings &gt; Categories**.
 2. Select the required category.
 3. Select the **Properties tab**.
 4. Check **Show category in status view**.
@@ -87,3 +87,9 @@ Lists requests that no-one has been assigned responsibility for. If you want to 
 [Find requests](ticket.listTickets.md)
 
 [Process requests](ticket.listTicket.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

@@ -16,7 +16,7 @@ language: en
 The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish.
 
 > [!NOTE]
-> The data structures are configured in ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables](blogic.listExtraTables.md).
+> The data structures are configured in ![icon][img1] **System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables](blogic.listExtraTables.md).
 
 ## View entries
 
@@ -48,3 +48,9 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 2. Click **Edit**.
 3. Click the **Delete** button at the bottom of the screen.
 4. Click **OK** when you are asked if you want to delete the entry.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

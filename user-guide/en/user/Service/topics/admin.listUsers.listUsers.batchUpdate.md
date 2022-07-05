@@ -15,7 +15,7 @@ In this screen you can update several users at the same time.
 
 To do this:
 
-1. Select ![icon](../../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Users**.
+1. Select ![icon][img1] **System settings &gt; Users**.
 2. Select the **Users** tab.
 3. Click the **Filter** list to apply a filter to the list.
 4. Check the users you want to update.
@@ -50,3 +50,9 @@ To do this:
 
     * If extra fields have been added for users, you can also change these.
 7. Click **OK**. The selected users are updated with your changes.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

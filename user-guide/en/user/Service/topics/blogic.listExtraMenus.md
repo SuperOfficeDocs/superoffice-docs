@@ -24,7 +24,7 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 * **Navigator**
 
   * Additional options on the navigator buttons
-  * Additional options under ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design**
+  * Additional options under ![icon][img2] **System settings** &gt; **System design**
   * Additional options on the **New** button in the top bar.
 
 ## What can I add as extra menus?
@@ -49,3 +49,4 @@ See also [Menu properties](blogic.listExtraMenus.editExtraMenu.md).
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

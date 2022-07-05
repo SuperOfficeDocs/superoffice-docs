@@ -22,7 +22,7 @@ If you have configured multiple languages for your customer centre, you can set 
 
 Do as follows:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Customer centre config**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
+1. Select ![icon][img1] **System settings** &gt; **Customer centre config**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
 
     > [!TIP]
     > You can also access the **Customer centre** screen from SuperOffice Settings and maintenance. Click **Customer centre** in the navigator and select the **Configure** tab.
@@ -54,3 +54,9 @@ Do as follows:
 7. Repeat steps 4-6 to set the options for another language.
 
 8. Click **Save** when you are done.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

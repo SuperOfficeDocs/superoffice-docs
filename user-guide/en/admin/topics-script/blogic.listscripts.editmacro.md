@@ -28,7 +28,7 @@ For example, you can use macros
 
 We will now create a macro based on the example above.
 
-1. In SuperOffice Service: Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.  
+1. In SuperOffice Service: Select ![icon][img2] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.  
     In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
 
 2. Do one of the following:
@@ -58,3 +58,4 @@ Some of the more advanced macro functions are described in [Triggers](blogic.lis
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
+[img2]: ../../../media/icons/globalmenu-settings-small.png

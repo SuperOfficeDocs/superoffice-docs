@@ -15,8 +15,8 @@ Wherever you are in the system, these options will appear at the top of the scre
 
 | Button | Function |
 |:-:|---|
-| ![icon](../../../media/icons/globalmenu-personalsettings.png) | **Personal settings**: Click here to edit your personal settings, such as language, number/date format and password. If you added an image in your own contact card, this image will appear on the **Personal settings** button. |
-| ![icon](../../../media/icons/globalmenu-mainmenu.png) | **Main menu**: Click here to change the serial number or to open SuperOffice CRM for Web. |
+| ![icon][img2] | **Personal settings**: Click here to edit your personal settings, such as language, number/date format and password. If you added an image in your own contact card, this image will appear on the **Personal settings** button. |
+| ![icon][img1] | **Main menu**: Click here to change the serial number or to open SuperOffice CRM for Web. |
 | **Help** | **Help**: Clicking this button gives you access to the SuperOffice CRM help system. This contains comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
 
 ## Options in the Personal settings menu
@@ -30,3 +30,10 @@ Wherever you are in the system, these options will appear at the top of the scre
 
 * **Change serial number**: Click here to change the serial number for SuperOffice.
 * **SuperOffice® CRM**: Click here to open SuperOffice CRM for Web.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/globalmenu-mainmenu.png
+[img2]: ../../../media/icons/globalmenu-personalsettings.png

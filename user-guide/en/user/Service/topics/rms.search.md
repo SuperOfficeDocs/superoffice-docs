@@ -101,7 +101,7 @@ If you click one of the column headings below **Result**, you get the following 
 
 At the top right corner of the search results list are the following buttons:
 
-* **Update content** ( ![icon](../media/refresh.png) ): Clicking this button updates the search result with any new records that also match the criteria.
+* **Update content** ( ![icon][img1] ): Clicking this button updates the search result with any new records that also match the criteria.
 * Click the ![icon](../media/btn_Menu.png) menu button in the top right corner to access the change the view options.
 * **Edit element profile** ( ![icon](../media/btn_editelementprofile.png) ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results](rms.search.searchResult.md).
 
@@ -129,3 +129,9 @@ If you click the ![icon](../media/btn_Menu.png) menu button in the **Criteria** 
 * You can also define operators between the search criteria. You do this by selecting either **And** or **Or** in the list boxes between the criteria.
 
 To return to the ordinary view, click the **Simple view** button at the top of the screen.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/refresh.png

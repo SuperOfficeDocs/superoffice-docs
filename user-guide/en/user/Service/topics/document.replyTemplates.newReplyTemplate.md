@@ -31,7 +31,7 @@ To create a new reply template:
 5. Select the **(Unspecified language)** tab.
 
 6. In the **Properties** tab, enter the following:
-    * **Language**: In this list, select which language the reply template is in. The list box contains the languages registered under ![icon](../../../media/icons/globalmenu-settings-small.png)&gt; **Customer languages**.
+    * **Language**: In this list, select which language the reply template is in. The list box contains the languages registered under ![icon][img2] &gt; **Customer languages**.
     * **Default**: Check here if you want this to be the default language for this reply template.
     * **Subject**: Enter the title of the reply template. This is normally inserted into the **Subject** field when the reply template is used for an e-mail.
     * **Message headers**: Here you can add predefined content to be displayed in the message header, for example, the **To** and **Subject** fields, in an e-mail. This function is only used in special cases.
@@ -79,3 +79,4 @@ To create a new reply template:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-delete.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

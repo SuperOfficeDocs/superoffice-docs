@@ -19,9 +19,15 @@ This screens contains predefined reports.
 To run a report:
 
 1. Click a report name in the list.
-2. Click the ![icon](../media/btn-showreport.png)**Show report** button.
+2. Click the ![icon](../media/btn-showreport.png) **Show report** button.
 3. In the **Report parameters** screen, enter the relevant parameters for the report.
 4. Click **OK**. The report is displayed as an HTML table in your browser.
 
 > [!NOTE]
-> You can customize a report by clicking the ![icon](../media/edit.png)**Edit report** button next to the report name. This requires administrator rights.
+> You can customize a report by clicking the ![icon][img1] **Edit report** button next to the report name. This requires administrator rights.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/edit.png

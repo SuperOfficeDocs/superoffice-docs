@@ -69,7 +69,7 @@ Use the arrow buttons ( ![icon](../media/btn-RankUp.png) and ![icon](../media/bt
 You can edit the information about the existing columns, e.g. the name and column widths. Proceed as follows:
 
 1. Open the **Edit element profile** screen as described above.
-2. To the right of the required column, click the pencil icon ( ![icon](../media/edit.png) ). The fields under the column overview show information specified for the selected column.
+2. To the right of the required column, click the pencil icon ( ![icon][img2] ). The fields under the column overview show information specified for the selected column.
 3. Edit the information as described under [Add columns](rms.search.searchResult.md#AddColumns) or [Add functions](rms.search.searchResult.md#AddFunctions).
 4. Click the **Update column** button.
 5. Click **OK**. The changes are saved.
@@ -82,3 +82,4 @@ Click the delete icon ( ![icon][img1] ) to the right of the required column. The
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-delete.png
+[img2]: ../../../../media/icons/edit.png

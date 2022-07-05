@@ -27,7 +27,7 @@ When you have finished the message, and want to send it, you have the following 
 > If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming e-mail](archive-buttons.md).
 
 > [!TIP]
-> The signature template at the bottom of the message can be edited in ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings** &gt; **Edit personal signature**.
+> The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** &gt; **Edit personal signature**.
 
 ## Entering information in the New e-mail dialog
 
@@ -62,3 +62,9 @@ Click the **Visible for** field to display a list that allows you to choose whet
 Language
 
 If the selected template includes translated versions, you can select a language for the template.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

@@ -13,7 +13,7 @@ language: en
 
 To create a new category:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)&gt; **Categories**. The **Categories** screen appears.  
+1. Select ![icon][img2] &gt; **Categories**. The **Categories** screen appears.  
     You can also go to the **Requests** screen in SuperOffice Settings and maintenance and select the **Categories** tab.
 
 2. Click the **New category** button. This takes you to the **Category properties** screen.
@@ -71,3 +71,4 @@ To create a new category:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

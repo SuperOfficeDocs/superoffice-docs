@@ -18,10 +18,16 @@ If you want to delete a selection, you do not delete the actual records it conta
 
 1. Select **Selections** &gt; **List selections**. This takes you to the **List selections** screen.
 2. Point at the selection name, to make the icons appear to the right.
-3. Click the **Edit selection** icon ( ![icon](../media/edit.png) ). This takes you to the **Edit selection** screen.
+3. Click the **Edit selection** icon ( ![icon][img1] ). This takes you to the **Edit selection** screen.
 4. Click **Delete**.
 5. When asked if you are sure you want to delete the selection, click **OK**.
 
 ## See also
 
-[Delete records in a selection](selections.deleterecords.md)
+* [Delete records in a selection][1]
+
+<!-- Referenced links -->
+[1]: selections.deleterecords.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/edit.png

@@ -15,7 +15,7 @@ You can specify a number of settings for different parts of SuperOffice CRM, for
 
 ## To change a preference
 
-1. Choose ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**. The **Preferences** dialog opens.
+1. Choose ![icon][img1] **Personal settings &gt; Preferences**. The **Preferences** dialog opens.
 2. Select the required preference from the list on the left.
 3. Enter the required setting in the window on the right.
 4. Click **Save** to save the changes and close the **Preferences** dialog. You can click **Cancel** to discard your changes.
@@ -35,3 +35,9 @@ You can specify a number of settings for different parts of SuperOffice CRM, for
 | ![icon](../media/Preferences_Sorting.bmp) | Sorting | Here you specify how associates, lists and contacts should be sorted, for example, whether to sort your associates by their last name. |
 | ![icon](../media/Preferences_System.bmp) | System | Here you specify system settings such as your home country, currency and default document archive. |
 | ![icon](../media/Preferences_VisualEff.bmp) | Visual effects | Here you specify settings for visual effects, for example, the number of items in the history list (**Size of history list**) or if you want Sunday to be the first day of the week. |
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

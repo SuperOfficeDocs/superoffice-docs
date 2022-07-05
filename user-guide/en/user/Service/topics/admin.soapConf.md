@@ -19,7 +19,7 @@ In the **SOAP** screen, you can configure the SOAP interface. You can set up 3 t
 
 To add an IP address range:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png) **System settings** &gt; **SOAP**.
+1. Select ![icon][img2] **System settings** &gt; **SOAP**.
 2. In the **Port** list, select the required access type.
 3. In the fields next to **From**, enter the start address of the IP address range.
 4. In the fields next to **To**, enter the end address of the IP address range.
@@ -32,3 +32,4 @@ To add an IP address range:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-delete.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

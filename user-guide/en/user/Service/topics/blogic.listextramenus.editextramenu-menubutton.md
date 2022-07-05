@@ -18,7 +18,7 @@ The procedure below describes how to add a macro to the **Actions** button in th
 
 Do as follows:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System design** &gt; **Extra menus**.
+1. Select ![icon][img3] **System design** &gt; **Extra menus**.
 2. Click **Top menu** to display the sub-folders.
 3. Hold the mouse pointer over one of these folders: **View request**, **View contact**, **View company** or **Message menu**. Then click ![icon][img1]. The **Menu properties** screen appears.
 4. Enter the name of the button in the **Label** field. The name should be quite short, because it will be displayed on the button.
@@ -32,3 +32,4 @@ Do as follows:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
 [img2]: ../../../../media/icons/btn-menu.png
+[img3]: ../../../../media/icons/globalmenu-settings-small.png

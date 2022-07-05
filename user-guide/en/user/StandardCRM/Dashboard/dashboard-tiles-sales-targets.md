@@ -60,7 +60,7 @@ To add a tile with sales targets to a dashboard:
     * Big number: You can edit the colours used to display sales targets.
     * Gauge chart: Usethe option **Mark target at** to set the sales target on the gauge chart.
 
-12. Click ![icon](../media/Dashboard-Images/tile-icons/translate.png) to add a translation to the tile name, titles and labels. See [Translation](../Translate-fields.md).
+12. Click ![icon][img1] to add a translation to the tile name, titles and labels. See [Translation](../Translate-fields.md).
 
 13. Click **Save**.
 
@@ -69,3 +69,9 @@ To add a tile with sales targets to a dashboard:
 ## Related topics
 
 [Sales targets](../sale/Sales-targets.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/translate.png

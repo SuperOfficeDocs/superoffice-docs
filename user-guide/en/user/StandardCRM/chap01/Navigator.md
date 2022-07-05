@@ -16,7 +16,7 @@ You move between the main sections of SuperOffice CRM using the Navigator, which
 > [!TIP]
 > Clicking the word next to the button gives you access to various options, such as favourites list, history list and search. If you hold the mouse pointer over a record in any the lists, a <!-- Fix reuse ID=a1 --> containing additional data about the record.
 
-![icon](../media/Chap02-GettingStarted/Navigator-preview.png)
+![Example -screenshot][img2]
 
 > [!TIP]
 > You can change the width of the navigator by clicking these buttons above the navigator: ![icon](../../media/panel-left-hide.png) ![icon](../../media/panel-left-show.png)
@@ -41,6 +41,13 @@ The navigator contains the following buttons:
 
 ## Related topics
 
-[Favourites](Favourites.md) ![icon](../media/navigator-favourites-small.png)
+[Favourites](Favourites.md) ![icon][img1]
 
 [The History list](Using-the-history-list.md) ![icon](../media/navigator-history-small.png)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../media/navigator-favorites-small.png
+[img2]: ../media/navigator-preview-sales.png

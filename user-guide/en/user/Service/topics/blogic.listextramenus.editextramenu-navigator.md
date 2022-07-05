@@ -15,7 +15,7 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 Do as follows:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Extra menus**.
+1. Select ![icon][img2] **System settings** &gt; **System design** &gt; **Extra menus**.
 2. Hold the mouse pointer over the **Navigator** folder and click ![icon][1].
 3. Enter "Websites" in the **Label** field (maximum 14 characters).
 4. Optional: Click the button **Browse** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog box.
@@ -34,3 +34,4 @@ Do as follows:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

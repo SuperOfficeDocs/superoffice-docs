@@ -36,7 +36,7 @@ When you have finished the screen layout, click one of the following buttons:
 1. Select the tab you want to edit.
 2. Edit existing fields as follows:
     * Move fields by clicking ![icon](../media/btn-move.png) to the left of a field label and dragging the field to a new position. To add a new field, see [Fields](ScreenDesigner-Edit-layout.md#Fields).
-    * Delete fields by holding the mouse-pointer over a field and clicking ![icon](../media/btn-delete.png). Deleted fields can be re-added from the **Fields** section. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields. See [Fields](ScreenDesigner-Edit-layout.md#Fields).
+    * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Deleted fields can be re-added from the **Fields** section. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields. See [Fields](ScreenDesigner-Edit-layout.md#Fields).
     * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](ScreenDesigner-Edit-layout.md#Settings).
 3. Change the number of columns in a tab, from the **Columns** section. See [Columns](ScreenDesigner-Edit-layout.md#Columns).
 4. Save the changes as described above.
@@ -68,7 +68,7 @@ In the **Fields** section you can find all available data fields for the selecte
 * To make sure a field is always visible, no matter which tab is selected, place the field in the header or footer.
 * You can place the same field in multiple locations in the screen layout, if relevant.
 * Move fields by clicking ![icon](../media/btn-move.png) to the left of a field label and dragging the field to a new position. To move a field to another tab, drag the field to the tab header to open the tab, and then place the field in the open tab.
-* Delete fields by holding the mouse-pointer over a field and clicking ![icon](../media/btn-delete.png). Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields.
+* Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields.
 
 Limitations:
 
@@ -89,7 +89,7 @@ Labels can be used to create headings for specific groups of fields or a column.
 2. Click and drag the **Label** element to the layout.
 3. Click the label. The **Settings** sections opens to the left.
 4. Replace the text **New label** with the new label name.
-5. You can also add the label in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
+5. You can also add the label in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
 6. Change the font formatting as necessary.
 
 <!-- Fix reuse ID=a3 -->
@@ -116,7 +116,7 @@ Click the link field. The **Settings** sections opens to the left.
 
 Replace the text **Link** with the new link name.
 
-You can also add the link name in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
+You can also add the link name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
 
 In the **Action** list, select the action to perform when clicking the link:
 
@@ -141,7 +141,7 @@ Click the button. The **Settings** sections opens to the left.
 
 Replace the text **Button** with the new button name.
 
-You can also add the button name in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
+You can also add the button name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
 
 In the **Action** list, select the action to perform when clicking the button:
 
@@ -180,7 +180,7 @@ To add a new tab:
 
 1. Click ![icon](../media/btn-add2.png) **Add**. The **Columns** section opens to the left.
 2. Under **Tab title**, replace the text **New tab** with the new tab name.
-3. You can also add the tab name in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
+3. You can also add the tab name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
 4. Select the number of columns you want to use in the new tab.
 
 > [!TIP]
@@ -203,3 +203,5 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [1]: ../../../../docs/ui/soprotocol/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/translate.png
+[img2]: ../media/btn-delete-admin.png

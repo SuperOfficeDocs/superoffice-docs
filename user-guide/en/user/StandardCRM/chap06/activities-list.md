@@ -31,17 +31,17 @@ The activities list columns contain the following information:
 
 Once an activity is completed, it will be removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date. But you can also choose to display future tasks:
 
-1. Go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**.
+1. Go to ![icon][img1] **Personal settings &gt; Preferences**.
 2. Select **Functions** and find the **Show days ahead** option. Here, you define how many days ahead you want completed activities to be visible for. For example, entering 7 here would display tasks for the next week.
 
 If you want activities to be removed from the activities list as soon as they are completed, you can set this as a preference.
 
-1. Go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**.
+1. Go to ![icon][img1] **Personal settings &gt; Preferences**.
 2. Select **Visual effects**, and then edit the **Remove completed activities** preference as described in the [Preferences](../chap01/Preferences.md) topic.
 
 If an activity is highlighted in red type, this means that its provisional date has been passed. However, you can change this setting as follows:
 
-1. Go to ![icon](../../../../media/icons//globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**.
+1. Go to ![icon][img1] **Personal settings &gt; Preferences**.
 2. Select **Functions**, and edit the **Mark overdue activities** option.
 
 ## What would you like to do now?
@@ -55,3 +55,9 @@ If an activity is highlighted in red type, this means that its provisional date 
 [Move between activities in the activities list](Moving-between-activities-in-the-activities-list.md)
 
 [Delete activities in the activities list](Deleting-activities-in-the-activities-list.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

@@ -19,7 +19,7 @@ For this to be possible, the URLs must be unique for each recipient, so that you
 
 In the **Tracked links** tab you have the following options:
 
-* Click the ![icon](../media/btn-Add.png)**Add** button to create a new link (see [Create tracked links](Create-links.md)).
+* Click the ![icon][img2] **Add** button to create a new link (see [Create tracked links](Create-links.md)).
 
 * Click the ![icon](../media/btn-addfolder.png)**Add folder** button to <!-- Fix reuse ID=a1 --> for your links.
 
@@ -45,4 +45,5 @@ In the **Tracked links** tab you have the following options:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/btn-add.png

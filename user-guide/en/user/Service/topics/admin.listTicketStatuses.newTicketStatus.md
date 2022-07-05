@@ -13,7 +13,7 @@ language: en
 
 To create a new request status:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Request status**. The **Request status** screen appears.
+1. Select ![icon][img1] **System settings** &gt; **Request status**. The **Request status** screen appears.
 2. Click the **New status** button. This takes you to the **Edit request status** screen.
 3. In the **Internal status** list box, select which of the internal statuses you want to link your custom request status to.
 4. Check **Default** if you want this request status to be the default custom status for the internal status it represents.
@@ -26,3 +26,9 @@ To create a new request status:
     * at external decision stage
 9. Click **OK**. The request status is created.
 10. If required, adjust the position of the status using the arrow buttons ( ![icon](../media/btn-RankUp.png) and ![icon](../media/btn-RankDown.png) ) in the **Rank** column in the **Request status** screen. The rank here specifies the order in the **Status** list box when creating a new request.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

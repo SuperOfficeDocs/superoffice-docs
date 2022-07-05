@@ -24,7 +24,7 @@ To add tracked links to the e-mail:
 5. Do one of the following:
     * Click ![icon](../../media/btn-folder.png)**Choose link** to select an existing tracked link.
     * Start typing in the search field (below the **Choose link** and **New link** buttons) to search for existing tracked links.
-    * Click ![icon](../../media/btn-Add.png)**New link** to create a new link. Links that are created using this option, will only be available from this mailing (and copies of this mailing). To create a tracked link that can be used in other mailings as well, go to the **Tracked links** tab(see [Create tracked links](../Create-links.md)).
+    * Click ![icon][img1] **New link** to create a new link. Links that are created using this option, will only be available from this mailing (and copies of this mailing). To create a tracked link that can be used in other mailings as well, go to the **Tracked links** tab(see [Create tracked links](../Create-links.md)).
 6. In the **Link label** field, you can edit the link text. Remember to add a space at the end of the text.
 7. Click **OK** in the **Add link** dialog once you have finished adding links to the message. This takes you back to the **Edit paragraph** screen. The linked text is blue and underlined.
 8. Click **OK**.
@@ -45,3 +45,9 @@ To view all the links in a mailing, open the mailing in view mode and select the
 [Add a link to display the message in a browser](Add-a-link-to-display-the-message-in-a-browser.md)
 
 [Examples of the use of trackable links](../Examples-of-the-use-of-trackable-links.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../../media/icons/btn-add.png

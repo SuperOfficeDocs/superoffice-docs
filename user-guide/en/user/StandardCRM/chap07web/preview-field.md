@@ -36,7 +36,7 @@ Attachments
 Displays any attachments to the message. See [Archive or open attachments](Opening-attachments-or-saving-them-on-disk.md) for more information about your options here.
 
 > [!NOTE]
-> Go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; E-mail options**. Open the **General** tab. If you check **Show inline images**, inline images will be displayed in preview.
+> Go to ![icon][img1] **Personal settings &gt; E-mail options**. Open the **General** tab. If you check **Show inline images**, inline images will be displayed in preview.
 
 ## Related topics
 
@@ -47,3 +47,9 @@ Displays any attachments to the message. See [Archive or open attachments](Openi
 [Create task](Create-task.md)
 
 [Create request](Create-request.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

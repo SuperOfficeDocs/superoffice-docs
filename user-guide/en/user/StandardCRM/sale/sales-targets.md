@@ -30,7 +30,7 @@ Before you start using the sales targets feature, you must set up a few things i
 
 To do this:
 
-1. Click ![icon](../media/globalmenu-mainmenu-small.png)**Main menu** and select **Targets**. The **Sales targets** screen opens. If no sales targets have been created yet, the list is empty.
+1. Click ![icon][img1] **Main menu** and select **Targets**. The **Sales targets** screen opens. If no sales targets have been created yet, the list is empty.
 2. In the **Select year** list, select the year for which you want to create a sales target. Your can also set up targets for previous years, to create budget statistics back in time.
 3. Click **Add groups and users** and select a company or group/team. Use the search field to find specific groups.
 4. Click the company or group in the list. The selected company or group is added to the overview with monthly/quarterly targets set to 0 in the default currency. All users (primary group members) belonging to a group are listed below the group.
@@ -65,3 +65,9 @@ Click the **Task** button to export the sales target for the selected year to Ex
 [Dashboard](../Dashboard/Dashboards.md)
 
 [Using sales targets in tiles](../Dashboard/Dashboard-tiles-sales-targets.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-mainmenu-small.png

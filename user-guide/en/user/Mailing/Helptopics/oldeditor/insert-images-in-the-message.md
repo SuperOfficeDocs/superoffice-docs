@@ -42,10 +42,16 @@ You insert an image in a message like this:
 
 12. In the **Link for image** field, you can add a link to make the image clickable. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. Here you have the following options:
     * Click ![icon](../../media/btn-folder.png) to select an existing link (tracked).
-    * Click ![icon](../../media/btn-Add.png) to create a new link. See [Create tracked links](../Create-links.md).
+    * Click ![icon][img1] to create a new link. See [Create tracked links](../Create-links.md).
     * Click ![icon](../../media/btn-editor-edit.png) to edit a selected link. See [Create tracked links](../Create-links.md).
     * Enter the URL directly in the field.
 
 13. Click **OK** when you have finished.
 
 14. Check that the image is correctly displayed and adjust as necessary.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../../media/icons/btn-add.png

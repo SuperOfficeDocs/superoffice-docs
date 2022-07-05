@@ -13,13 +13,13 @@ language: en
 
 In SuperOffice CRM, you can bring up a useful little notepad, regardless of where you are in the program. At any time, you can show or hide the Notepad by:
 
-* Clicking ![icon](../../../../media/icons/globalmenu-mainmenu-small.png)**Main menu** &gt; **Show Notepad**. A tick in front of the menu option means that the option is enabled.
-* Selecting **Notepad** on the [side panel](Navigating-in-the-mini-card.md) list of views will display the notepad in the side panel.
+* Clicking ![icon][img1] **Main menu** &gt; **Show Notepad**. A tick in front of the menu option means that the option is enabled.
+* Selecting **Notepad** on the [side panel][1] list of views will display the notepad in the side panel.
 
 When you display the Notepad on the screen, you can grab the top part of the notepad window and drag it wherever you want.
 
 > [!TIP]
-> To attach a note to something specific in SuperOffice CRM, for example to a company or a project, use the Note function instead. (See [The Note function in SuperOffice CRM](../chap02/Note.md)).
+> To attach a note to something specific in SuperOffice CRM, for example to a company or a project, use the Note function instead. (See [The Note function in SuperOffice CRM][2]).
 
 ## To use the Notepad
 
@@ -31,3 +31,10 @@ When you display the Notepad on the screen, you can grab the top part of the not
 > You can browse back and forth between the pages using the arrow buttons at the bottom of the Notepad. The current page number and total number of pages are displayed at the bottom of the Notepad.
 
 If the Notepad is open when you close SuperOffice CRM, it will also be displayed when you next start the program, with all the text saved.
+
+<!-- Referenced links -->
+[1]: Navigating-in-the-mini-card.md
+[2]: ../chap02/Note.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-mainmenu-small.png

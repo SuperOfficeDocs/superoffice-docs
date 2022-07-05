@@ -21,7 +21,7 @@ You can also click ![icon][img1] **Start tracing scripts** to start tracing the 
 
 To go to the **Debug sessions** tab:
 
-* In SuperOffice Service: Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Debug sessions** tab.
+* In SuperOffice Service: Select ![icon][img2] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Debug sessions** tab.
 * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Debug sessions** tab.
 
 <!-- Referenced links -->
@@ -29,3 +29,4 @@ To go to the **Debug sessions** tab:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-executescript.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

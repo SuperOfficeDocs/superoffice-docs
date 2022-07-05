@@ -37,7 +37,7 @@ Now you need to set up a Facebook account in SuperOffice Service.
 
 To do this:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **E-mail**. This takes you straight to the **Mailboxes** tab.
+1. Select ![icon][img1] **System settings** &gt; **E-mail**. This takes you straight to the **Mailboxes** tab.
 2. Click the **New Facebook application** button. The **Properties for Facebook application** screen appears.
 3. In the **Application ID** field, enter the value you noted down from the **Application ID** field in Facebook.
 4. If you want to import messages from a page, enter that page's ID in the **Page ID** field.
@@ -57,3 +57,5 @@ To do this:
 [2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/Facebook-integration/
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.pending
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

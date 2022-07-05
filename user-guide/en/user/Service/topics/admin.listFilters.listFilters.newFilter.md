@@ -18,7 +18,7 @@ You can create a mailbox to use for importing e-mail into SuperOffice Service. B
 
 To create a new mailbox:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **E-mail**. This takes you straight to the **Mailboxes** tab.
+1. Select ![icon][img1] **System settings** &gt; **E-mail**. This takes you straight to the **Mailboxes** tab.
 
 2. Click **New mailbox**. The **Mailbox properties** screen appears, with the **Properties** tab open.
 
@@ -71,3 +71,9 @@ To create a new mailbox:
 ## What would you like to do now?
 
 [Delete mailboxes](admin.listFilters.listFilters.deleteMailbox.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

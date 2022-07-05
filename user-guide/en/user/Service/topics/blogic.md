@@ -13,7 +13,7 @@ language: en
 
 [!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
-Here you can find the advanced options in SuperOffice Service. To go here select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design**.
+Here you can find the advanced options in SuperOffice Service. To go here select ![icon][img1] **System settings** &gt; **System design**.
 
 ## What would you like to find out more about?
 
@@ -46,3 +46,9 @@ Here you can find the advanced options in SuperOffice Service. To go here select
 [Data Exchange](blogic.listDbiAgents.md)
 
 [Debug log](blogic.listDebugLog.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

@@ -22,7 +22,7 @@ All requests belong to a category, and each category has its own rules that defi
 
 Users can be added as members in the categories individually or via the user group(s) they belong to (see [User groups](admin.listUsers.listUsergroups.md)).
 
-Selecting ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Categories** takes you to a list of all the categories defined in the system. The categories are arranged in a tree structure.
+Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a list of all the categories defined in the system. The categories are arranged in a tree structure.
 
 <!-- Fix reuse ID=a2 -->
 [!include[Reply templates with different layout](../../includes/custom-replytemplate.md)]
@@ -40,3 +40,4 @@ Selecting ![icon](../../../media/icons/globalmenu-settings-small.png)**System se
 <!-- Referenced links -->
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

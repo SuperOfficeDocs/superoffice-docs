@@ -23,7 +23,7 @@ To add a new status:
 
 4. Complete these fields:
     * **Name**: Enter a descriptive name for the status you want to add.  
-        Optional: Click ![icon](../media/translate.png) to add translations of the status name. See [Translation](../Translate-fields.md).
+        Optional: Click ![icon][img1] to add translations of the status name. See [Translation](../Translate-fields.md).
     * **Description**: Enter an explanatory description of the status and what measures are required or recommended. In this field you can also use [template variables](../Template-variables.md) to tailor the text to the relevant company, contact or project.<!-- Fix reuse ID=a11 -->
 
     The name and description are displayed in SuperOffice CRM when the user holds the mouse pointer over the status image or opens the status image for the company. You can subsequently edit the description by following the procedure under [Edit a status description](Edit-description-for-status.md).
@@ -54,3 +54,9 @@ To add a new status:
 [Specify a period length](Select-period-length.md)
 
 [Manage status monitors](Manage-status-monitors.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/translate.png

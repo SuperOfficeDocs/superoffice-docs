@@ -13,6 +13,11 @@ language: en
 
 To use Settings and maintenance in another language:
 
-1. Go to ![icon](../../../media/icons/globalmenu-personalsettings-small.png) **Personal settings &gt; Local settings**.
+1. Go to ![icon][img1] **Personal settings &gt; Local settings**.
 2. Select the language you require in the **Active language** list.
 3. Click **OK**.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/globalmenu-personalsettings-small.png

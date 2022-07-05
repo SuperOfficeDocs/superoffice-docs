@@ -39,7 +39,7 @@ To create a new e-mail filter:
     4. Click **Add** to add the value.
 
         > [!TIP]
-        > You can delete a value again by selecting it and clicking the delete icon ( ![icon](../media/btn-delete.png) ).
+        > You can delete a value again by selecting it and clicking the delete icon ( ![icon][img1] ).
 9. In the **Set properties** tab, you can set specific properties for requests that are generated from e-mails that match the current filter:
     * **Set owner**: If you check here, you can select which user will be assigned e-mails processed by this filter.
 
@@ -75,3 +75,9 @@ To create a new e-mail filter:
     * **Block auto-reply**: If you check here, the system will not reply automatically to this e-mail.
 11. In the **E-mail boxes** tab, you can select which mailboxes the filter applies to.
 12. Click **OK**. The e-mail filter is created.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../media/btn-delete-admin.png

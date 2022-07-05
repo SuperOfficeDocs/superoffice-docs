@@ -20,13 +20,19 @@ To add an image to SuperOffice Marketing:
 
     [!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
-1. Click the ![icon](../media/btn-Add.png)**Add** button. This takes you to the **Image properties** screen.
-1. Enter a descriptive name for the image in the **Name** field.
-1. Click **Upload files (or drag here)**, select the image to add, and click **Open**.  
+3. Click the ![icon][img1] **Add** button. This takes you to the **Image properties** screen.
+4. Enter a descriptive name for the image in the **Name** field.
+5. Click **Upload files (or drag here)**, select the image to add, and click **Open**.  
     or  
     Drag an image from your PC and drop it on **Upload files (or drag here)**.  
     The preview displays the image.
-1. Click **OK** when you are done.
+6. Click **OK** when you are done.
 
 > [!TIP]
 > When editing a message, you can also add images from the royalty-free image library. See [Insert images in the message](Insert-images-in-the-message.md).
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png

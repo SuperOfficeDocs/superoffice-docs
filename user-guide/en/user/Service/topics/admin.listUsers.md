@@ -13,9 +13,15 @@ language: en
 
 [!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
-Selecting ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Users** takes you the **Users** screen, where you have the following options:
+Selecting ![icon][img1] **System settings &gt; Users** takes you the **Users** screen, where you have the following options:
 
 * In the **Users** tab, you can see all the individual users. See [Users](admin.listUsers.listUsers.md).
 * In the **User groups** tab, you can see the existing user groups. See [User groups](admin.listUsers.listUsergroups.md).
 
 [!include[User management](../../includes/howto-users-crud.md)]
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

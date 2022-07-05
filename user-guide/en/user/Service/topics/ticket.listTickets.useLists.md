@@ -17,7 +17,7 @@ The simplest way to search for requests is to use the predefined searches availa
 * **Last requests**: Shows the requests most recently recorded in the system. If specified in user preferences, this list will only contain requests from the categories you are a member of. <!-- Fix reuse ID=a1 -->
     To specify that only requests from categories you are a member of are displayed:
 
-    1. Select ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Settings**.
+    1. Select ![icon][img2] **Personal settings &gt; Settings**.
     2. Select the **Preferences** tab.
     3. Check **Show only own categories**.
     4. Click **OK**.
@@ -45,4 +45,5 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/globalmenu-personalsettings-small.png

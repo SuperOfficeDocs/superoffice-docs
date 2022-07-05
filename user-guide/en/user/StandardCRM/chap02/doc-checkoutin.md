@@ -41,7 +41,7 @@ In most cases, you can save and close the document in the application, and the d
 By default, a document is opened in edit mode. Below we have described the differences between edit mode and read mode.
 
 > [!NOTE]
-> If you prefer to select read mode or edit mode when you open a document, do as follows: Go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings** &gt; **Preferences** &gt; **Functions** and set **Ask to edit or read** to **Yes**.
+> If you prefer to select read mode or edit mode when you open a document, do as follows: Go to ![icon][img2] **Personal settings** &gt; **Preferences** &gt; **Functions** and set **Ask to edit or read** to **Yes**.
 
 * Edit mode: The document is opened for editing. The document cannot be edited by other users until you save and close the document, which automatically checks in the document.
 
@@ -71,3 +71,4 @@ If you or someone else have checked out a document, and you need to edit the doc
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/globalmenu-personalsettings-small.png

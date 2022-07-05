@@ -17,12 +17,14 @@ You can debug a script or macro by opening it in the **Macros and scripts** tab 
 
 To go to the **Macros and scripts** tab:
 
-* In SuperOffice Service: Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.
+* In SuperOffice Service: Select ![icon][img3] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.
 * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
 
-You can also click ![icon](../media/btn-script-trace-small.png) **Trace script** to start [tracing a script](Tracing.md).
+You can also click ![icon][img2] **Trace script** to start [tracing a script](Tracing.md).
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-debug.png
+[img1]: ../../../../media/icons/btn-debug.png
+[img2]: ../../../../media/icons/btn-script-trace-small.png
+[img3]: ../../../../media/icons/globalmenu-settings-small.png

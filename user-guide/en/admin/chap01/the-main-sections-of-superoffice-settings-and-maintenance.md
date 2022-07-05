@@ -26,7 +26,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | [![icon](../media/Knapp-Arbeidsflyt.bmp)](../Sale/Workflow.md) | [Workflow](../Sale/Workflow.md) |
 | [![icon](../media/Knapp-ScreenDesigner.png)](../Screen-designer/Screen-designer.md) | [Screen designer](../Screen-designer/Screen-designer.md) |
 | [![icon](../media/Knapp-Preferanser.bmp)](../chap05/Preferences.md) | [Preferences](../chap05/Preferences.md) |
-| [![icon](../media/Knapp-chat.png)](../chat/chat-main.md) | [Chat](../chat/chat-main.md) |
+| [![icon][img1]](../chat/chat-main.md) | [Chat](../chat/chat-main.md) |
 | [![icon](../media/Knapp-Systemvalg.bmp)](../chap06/Options.md) | [Options](../chap06/Options.md) |
 | [![icon](../media/Knapp-Import.bmp)](../import-web/Import-web.md) | [Import](../import-web/Import-web.md) |
 | [![icon](../media/Knapp-Felt.bmp)](../fields-web/Fields-web.md) | [Fields](../fields-web/Fields-web.md) |
@@ -39,3 +39,9 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 You can easily switch between these screens by clicking the buttons in the Navigator.
 
 To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings](Main-sections-of-the-Maintenance-client.md).
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/chat-btn.png

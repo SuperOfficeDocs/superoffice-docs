@@ -48,9 +48,9 @@ To complete the fields in the **Edit list item** dialog when the items are e-mai
 
 Enter the following information in the **Details** tab:
 
-1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
+1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
 
-2. Enter the title of the e-mail in the **Subject** field. You can also add the subject in other languages by clicking ![icon](../media/translate.png) (see [Translation](../Translate-fields.md)).
+2. Enter the title of the e-mail in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
 
 3. Select **Use signature in new e-mail** to add your signature to new e-mails. If you do not have a personal signature, the system signature will be used.
 
@@ -83,4 +83,10 @@ Here you can add translated versions of the document template. To do this:
 5. Repeat the steps above to add additional languages.
 
 > [!NOTE]
-> As described above, you can add translations of the template name and e-mail subject by clicking ![icon](../media/translate.png) next to the relevant field. See [Translation](../Translate-fields.md).
+> As described above, you can add translations of the template name and e-mail subject by clicking ![icon][img1] next to the relevant field. See [Translation](../Translate-fields.md).
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/translate.png

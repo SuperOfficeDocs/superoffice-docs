@@ -17,7 +17,7 @@ In the **Customer centre source files** screen, you can edit the default pages i
 
 Do as follows:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Customer centre source files**.
+1. Select ![icon][img1] **System settings** &gt; **Customer centre source files**.
 
 2. Click a web page in the list.
 
@@ -31,3 +31,9 @@ Do as follows:
 5. Click **Apply** to save your changes without closing the window, or click **OK** to save and exit.
 
 If you later want to revert a page to the original contents, open the page and click **Restore default**.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

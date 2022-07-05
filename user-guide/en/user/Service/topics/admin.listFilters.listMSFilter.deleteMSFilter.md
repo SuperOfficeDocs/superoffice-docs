@@ -9,12 +9,18 @@ so.topic: help
 language: en
 ---
 
-# Delete e-mail filters
+# Delete email filters
 
-To delete an e-mail address from SuperOffice Service, do as follows:
+To delete an email address from SuperOffice Service, do as follows:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **E-mail**.
+1. Select ![icon][img1] **System settings** &gt; **E-mail**.
 2. Select the **E-mail filters** tab.
-3. Click the required e-mail filter. The **Properties for e-mail filter** screen appears.
+3. Click the required email filter. The **Properties for email filter** screen appears.
 4. Click the **Delete** button at the bottom of the screen.
-5. Click **OK** when you are asked if you want to delete the e-mail filter. The e-mail filter is removed from SuperOffice Service.
+5. Click **OK** when you are asked if you want to delete the email filter. The e-mail filter is removed from SuperOffice Service.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/globalmenu-settings-small.png
