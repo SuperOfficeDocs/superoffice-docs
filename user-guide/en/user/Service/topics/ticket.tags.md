@@ -20,7 +20,7 @@ When you create or edit a request, you can add one or more tags that describe th
 To add or remove tags in multiple requests, do as follows:
 
 1. Select the relevant requests.
-2. Click the **Actions** button (![icon](../media/btn-Menu.png)) in the lower left corner of the request list.
+2. Click the **Actions** button (![icon][img1]) in the lower left corner of the request list.
 3. Select **Batch management** and **Change**.
 4. In the **Batch management** screen, select **Add tag**.
 5. Click in the list and select a tag, or start typing in the field to search for a tag.
@@ -37,3 +37,9 @@ If you have the necessary functional right, you can also create new tags. In a t
 ## Searching for tags
 
 Tags can be used to search for requests in the [quick search](rms.search.useQuickSearch.md) and in the "regular" [search function](ticket.listTickets.findTickets.md) using criteria.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

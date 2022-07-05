@@ -37,7 +37,7 @@ The toolbar contains the following options:
 
 * Tags:
 
-* **Actions** ( ![icon](../media/btn-Menu.png) ): Click this button to access the following options:
+* **Actions** ( ![icon][img1] ): Click this button to access the following options:
 
 * **Reply** / **Reply to all**: Click here to respond to the customer and/or other people linked to the request. See [Reply to customer](ticket.showListTickets.addMessage.md). This function is also available at the bottom of the **Messages** tab.
   * **Edit request**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to ask a colleague for advice. See [Ask another request handler for help](ticket.showListTickets.askForHelp.md).
@@ -52,9 +52,9 @@ The toolbar contains the following options:
 
 The **Messages** tab displays the messages related to the request.
 
-You can change how many messages are displayed, in ![icon](../media/globalmenu-PersonalSettings-small.png) **Personal settings**. <!-- Fix reuse ID=a2 -->
+You can change how many messages are displayed, in ![icon](../../../../media/icons/globalmenu-personalsettings-small.png) **Personal settings**. <!-- Fix reuse ID=a2 -->
 
-1. Select ![icon](../media/globalmenu-PersonalSettings-small.png)**Personal settings &gt; Settings**.
+1. Select ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Settings**.
 2. Select the **Interface** tab.
 3. Specify the number of messages in the **No. of expanded messages** field.
 4. Click **OK**.
@@ -68,7 +68,7 @@ There are basically three types of messages:
 > [!TIP]
 > Internal messages are marked with ![icon](../media/message-internal.png).
 
-Click ![icon](../media/btn-Menu.png) on a message to access additional options for the message:
+Click ![icon][img1] on a message to access additional options for the message:
 
 * **Change**: Click here to edit or delete the message. See [Edit message](ticket.showListTickets.editMessage.md).
 * **Forward**: Click here to forward the message. See [Forward messages to external parties](ticket.showListTickets.forward.md).
@@ -91,3 +91,9 @@ The **Details** tab contains an overview of the request.
 [Efficient handling of requests using AI](AI-requests.md)
 
 [Autosave](ticket.autosave.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

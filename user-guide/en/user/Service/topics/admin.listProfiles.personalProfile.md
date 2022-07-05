@@ -17,7 +17,7 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 2. Click ![icon](../media/btn-editelementprofile.png) on the far right of the request's properties. The **Edit element profile** screen appears.
 3. Next to **New field** are two empty fields.
     * In the left-hand field enter the field name.
-    * Click the list button ( ![icon](../media/btn-dropdown.png) ) next to the field on the right, and select which field in the database you want to get data from.
+    * Click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ) next to the field on the right, and select which field in the database you want to get data from.
 4. Click **Add** next to the two fields you have just completed. This new field is added under the preview at the top of the screen.
 5. Click **OK**. The changes are saved, and the next time you display this screen the new field will be included.
 6. If you want to revert to the default settings, return to the **Edit element profile** screen and click the **Restore default (deletes this profile)** button at the bottom of the screen.

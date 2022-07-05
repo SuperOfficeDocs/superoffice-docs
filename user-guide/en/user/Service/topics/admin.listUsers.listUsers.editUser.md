@@ -13,7 +13,7 @@ language: en
 
 To edit the information already recorded for a user:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Users**.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Users**.
 2. Select the **Users** tab.
 3. Click the **Filter** list to apply a filter to the list.
 4. Click the required user name. The **Edit users** screen is displayed.

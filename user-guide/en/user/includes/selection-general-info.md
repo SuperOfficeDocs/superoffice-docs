@@ -14,4 +14,4 @@
 [1]: selections.editSelectionFolder.md
 
 <!-- Referenced images -->
-[img1]: ../../media/btn-dropdown.png
+[img1]: .../../media/icons/btn-dropdown.png

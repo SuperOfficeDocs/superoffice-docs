@@ -15,14 +15,21 @@ When you click a script or macro in the **Macros and scripts** tab, the **Script
 
 To go to the **Macros and scripts** tab:
 
-* In SuperOffice Service: Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.
+* In SuperOffice Service: Select ![icon]()**System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.
 * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
 
 This screen has following options:
 
-| ![icon](../media/arrow-left.png) | **Macros and scripts**: Click here to return to the list of the scripts and macros. |
+| Icon | Description |
 |---|---|
+| ![icon][img1] | **Macros and scripts**: Click here to return to the list of the scripts and macros. |
 | ![icon](../media/edit.png) | **Edit script**: Click here to edit the [script or macro](blogic.listScripts.editScript.md). |
 | ![icon](../media/btn_executescript.png) | **Run script**: Click here to run the script or macro in standard mode. |
 | ![icon](../media/btn_debug.png) | **Debug script**: Click here to run the selected script or macro in debug mode. This opens the **Debugger** screen (see [Debugger). If you run a script in debug mode, it stops at the first line. You can open a debug session from the **Debug sessions** tab. See Debug sessions](blogic.listDebugSessions.md). |
 | ![icon](../media/btn_script_trace.png) | **Trace script**: Click here to start tracing the script or macro. See [Tracing](Tracing.md). |
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/arrow-left.png
+[img2]: ../../../media/icons/globalmenu-settings-small.png

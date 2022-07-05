@@ -17,7 +17,7 @@ Follow these steps:
 
 1. In the Gmail inbox, open an e-mail.
 
-2. Click the **More** button ( ![icon](../media/btn-Archive-More.png) ) in the e-mail toolbar.
+2. Click the **More** button ( ![icon](../media/btn-archive-more.png) ) in the e-mail toolbar.
 
 3. Select **Create activity**. The dialog **Create activity in SuperOffice** opens.
 

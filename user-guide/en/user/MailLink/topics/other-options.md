@@ -17,7 +17,7 @@ These options appear in the **General settings** pane of the **SuperOffice CRM o
 
 These options determine how SuperOffice CRM and the mail client behave in response to various operations.
 
-**Close e-mail after archiving to SuperOffice CRM**
+**Close e-mail after archiving to SuperOffice CRM:**
 
 Check this box if you want the e-mail window in the mail client to close automatically after you have archived the e-mail to SuperOffice CRM.
 

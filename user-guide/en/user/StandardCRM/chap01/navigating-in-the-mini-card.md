@@ -55,7 +55,7 @@ You can choose from the following views. Click the views for more information.
     | ![icon](../media/minicard_today.png) | Today. |
     | ![icon](../media/minicard_selected.png) | The selected date in the Diary. |
 
-    You can move from month to month by clicking the arrow keys ( ![icon](../../media/arrow-left.png)![icon](../../media/arrow-right.png) ) at the bottom of the side panel.
+    You can move from month to month by clicking the arrow keys ( ![icon][img1] ![icon][img2] ) at the bottom of the side panel.
 * <!-- Fix reuse ID=a1 -->
     Shows all your favourites.
 
@@ -99,3 +99,9 @@ You can choose from the following views. Click the views for more information.
     > If you are in the **Diary** screen and select a date in the different week in the diary, the week view changes to the week the selected date is in.
 * <!-- Fix reuse ID=a15 -->
     In SuperOffice Settings and maintenance, you can also define your own views for the side panel. This is described in more detail in the SuperOffice Settings and maintenance help.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/arrow-left.png
+[img2]: ../../../../media/icons/arrow-right.png

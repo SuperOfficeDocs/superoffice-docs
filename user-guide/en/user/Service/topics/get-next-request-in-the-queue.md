@@ -38,7 +38,7 @@ First, we will create a new request status: **In queue**. New requests should au
 
 Do as follows:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Request status**. The **Request status** screen appears.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Request status**. The **Request status** screen appears.
 
 2. Click the **New status** button. This takes you to the **Edit request status** screen.
 
@@ -66,14 +66,14 @@ The new request status is shown in the list, and there is a check mark in the co
 Now you must ensure that you are a member of the category or categories you are going to manage. We must also specify that requests belonging to these categories should not be assigned according to the assignment method.
 
 > [!NOTE]
-> Membership in categories can also be defined at group level. In ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Users** &gt; **User groups** you can state categories for the various user groups. See [User groups](admin.listUsers.listUsergroups.md).
+> Membership in categories can also be defined at group level. In ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Users** &gt; **User groups** you can state categories for the various user groups. See [User groups](admin.listUsers.listUsergroups.md).
 
 Do as follows:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Categories**. The **Categories** screen appears.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Categories**. The **Categories** screen appears.
 2. Click the required category name. This takes you to the **Category properties** screen.
 3. Select the **Members** tab.
-4. Select yourself in the **User** list and click ![icon](../media/btn-add.png) to add yourself as a member of the category.
+4. Select yourself in the **User** list and click ![icon][img1] to add yourself as a member of the category.
 5. Add any other users as members of this category.
 6. Select the **Assignment method** tab and select **Do not assign**. Now requests in this category will not be assigned to users in accordance with the assignment method.
 7. Click **OK** when you have finished.
@@ -82,8 +82,13 @@ If needed, repeat this procedure for other categories that are to be available t
 
 ## Define new status for requests that are fetched from the queue
 
-When you have fetched a request from the queue, the status must be changed from **In queue** to **Open** (or another active status that indicates that the request is being processed). This is normally handled automatically. To be on the safe side, you can check that the option **New status when accepting a request** in ![icon](../media/globalmenu-settings-small.png) &gt; **System** &gt; **Settings** tab is set as **Open**.
+When you have fetched a request from the queue, the status must be changed from **In queue** to **Open** (or another active status that indicates that the request is being processed). This is normally handled automatically. To be on the safe side, you can check that the option **New status when accepting a request** in ![icon](../../../media/icons/globalmenu-settings-small.png) &gt; **System** &gt; **Settings** tab is set as **Open**.
 
 ## Verify that the queue works
 
 Create a new request, set **Owner** to **Unassigned**, select the category you are a member of and set **Status** to **In queue**. Then try clicking **Requests** &gt; **Get next request in queue**.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png

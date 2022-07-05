@@ -15,7 +15,7 @@ language: en
 2. Do one of the following:
     * Click the e-mail address in the **Contact** tab. If the contact has more than one e-mail address, you must select which one to use.
     * Click **New** on the top bar and select **E-mail**.
-    * Click the **Task** button ( ![icon](../../media/btn-Menu.png) ) and select **Send e-mail**.
+    * Click the **Task** button ( ![icon][img1] ) and select **Send e-mail**.
 
     A message to the specified recipient is then opened in your default e-mail program.
 3. Write the e-mail.
@@ -24,3 +24,9 @@ language: en
     * Send and archive: The e-mail is sent and saved as a document. See more information below.
 5. If you selected **Send and archive**, the **Document** dialog opens when you send the e-mail. Add information in this dialog as necessary (see [The Document dialog](../chap02/Document-dialog.md)).
 6. Click **Create** in the **Document** dialog.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

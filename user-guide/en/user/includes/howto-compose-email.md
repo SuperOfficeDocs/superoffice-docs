@@ -37,8 +37,8 @@
     5. Click **Save**. The window closes and the new quick reply is saved.
 
 <!-- Referenced images -->
-[img1]: ../media/navigator-history-small.png
-[img2]: ../media/web-email-add-attachment-small.bmp
-[img3]: ../chap07web/media/window-close.png
-[img4]: ../../chat/media/chat-btn-faq.png
-[img5]: ../../chat/media/chat-btn-edit.png
+[img1]: ../../media/navigator-history-small.png
+[img2]: ../../media/web-email-add-attachment-small.bmp
+[img3]: ../../chap07web/media/window-close.png
+[img4]: ../../../media/icons/chat-btn-faq.png
+[img5]: ../../../media/icons/chat-btn-edit.png

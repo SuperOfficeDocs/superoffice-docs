@@ -13,7 +13,7 @@ language: en
 
 ![icon](../media/Chap04-activities/30-chap4-activities-detail.bmp)
 
-The **Activities** section tab is available in the **Company** screen, the **Contact** screen, the **Project** screen, the **Diary** screen and the **Sale** screen. You create activities using the ![icon](../media/globalmenu-new.png)**New** menu in the top bar, or by double-clicking in the section tab.
+The **Activities** section tab is available in the **Company** screen, the **Contact** screen, the **Project** screen, the **Diary** screen and the **Sale** screen. You create activities using the ![icon](../../../../media/icons/globalmenu-new.png)**New** menu in the top bar, or by double-clicking in the section tab.
 
 * The **Activities** section tab in the **Company** screen displays activities linked to the company in question. See [Activities (Company)](../chap03/Activities-Contact.md).
 

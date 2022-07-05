@@ -11,14 +11,14 @@ language: en
 
 # Define extra tables
 
-You can create extra tables in SuperOffice Service in order to register different types of data. Once the extra table has been defined and you have created extra fields in it (see [Define extra fields](blogic.listExtraTables.listFields.editField.md)), you can open the table to add content to it by going to ![icon](../media/nav-request-small.png)**Requests** &gt; **Tables**, point at the table and click ![icon](../media/btn-add.png).
+You can create extra tables in SuperOffice Service in order to register different types of data. Once the extra table has been defined and you have created extra fields in it (see [Define extra fields](blogic.listExtraTables.listFields.editField.md)), you can open the table to add content to it by going to ![icon](../media/nav-request-small.png)**Requests** &gt; **Tables**, point at the table and click ![icon][img1].
 
 > [!NOTE]
 > In SuperOffice CRM you can create web panels that can contain table information. To set the relevant access rights, the user must belong to a role that has the functional rights **List tables** and **Edit tables**.
 
 To create an extra table:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Tables**.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Tables**.
 2. Click ![icon](../media/btn-newtable.png)**New table**. The **Table properties** screen appears.
 3. In the **Table properties** screen, enter data about the new table:
     * **Folder**: If you want to place the table in an existing folder, select a folder from the list.
@@ -39,3 +39,8 @@ To create an extra table:
 ## What would you like to do now?
 
 [Define extra fields](blogic.listExtraTables.listFields.editField.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png

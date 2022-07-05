@@ -35,7 +35,7 @@ Do as follows:
 
     Do as follows:
 
-    1. Click ![icon](../media/globalmenu-mainmenu-small.png) (main menu) and select **Download &gt; Download CrossTable viewer**.
+    1. Click ![icon](../../../../media/icons/globalmenu-mainmenu-small.png) (main menu) and select **Download &gt; Download CrossTable viewer**.
     2. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.
     3. If a security warning is displayed, confirm that you want to run the file. The installation wizard then opens.
     4. Follow the instructions in the wizard to install the program.

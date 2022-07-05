@@ -14,12 +14,12 @@ language: en
 You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and e-mail), you can merge these requests into one request which will be processed. Contacts and messages from all merged requests will be kept.
 
 > [!NOTE]
-> You can also search for and select requests to merge from the search results screen. Then click ![icon](../media/btn-Menu.png) in the lower left corner and select **Batch management** &gt; **Merge**.
+> You can also search for and select requests to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management** &gt; **Merge**.
 
 To merge requests:
 
 1. Open one of the requests you want to merge. (See [Process requests](ticket.listTicket.md).)
-2. Click ![icon](../media/btn-Menu.png)and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the request to merge with this one.
+2. Click ![icon][img1] and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the request to merge with this one.
 3. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
 4. Select a request from the list of search results. The selected request opens in a new column in the table.
 5. To add more requests, repeat the previous steps.
@@ -37,3 +37,9 @@ The requests that have been overwritten (i.e. the request IDs have been overwrit
 [Ask another request handler for help.](ticket.showListTickets.askForHelp.md)
 
 [Forward messages to external parties](ticket.showListTickets.forward.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

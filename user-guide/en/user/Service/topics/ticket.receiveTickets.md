@@ -15,7 +15,7 @@ In order for a request to be your responsibility, your name must appear in the r
 
 A request handler with category administration rights can specify the assignment method for categories:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Categories**.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Categories**.
 2. Select the required category.
 3. Select the **Assignment method** tab.
 4. Select the appropriate options.

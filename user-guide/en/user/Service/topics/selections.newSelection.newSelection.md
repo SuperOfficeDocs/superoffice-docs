@@ -24,7 +24,7 @@ Open the search screen. <!-- Fix reuse ID=a2 -->
 
 Enter or adjust the criteria as described under [Search in SuperOffice Service](rms.search.md).
 
-Click ![icon](../media/btn-Menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
+Click ![icon](../../../media/icons/btn-menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
 
 In the **General info** tab, enter the following:
 

@@ -13,7 +13,7 @@ language: en
 
 To create a new role:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Roles**.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Roles**.
 2. Click the **New role** button. The **Create roles** screen opens.
 3. Enter the following information:
     * **Name**: Enter a descriptive name for the role.
@@ -30,13 +30,19 @@ To create a new role:
 9. In the **Workflow access** tab, you can specify which stage in the FAQ workflow the members of the role should have access to:
     1. In the **New rights** list, select the required stage from the list that appears.
     2. Check **Can move**, **Can edit** or **Full access** to specify which access level the members of the role should have for the stage in question. (For more information about this, see [Work with workflows](document.faq.editKbWorkflow.md).)
-    3. Click ![icon](../media/btn-add.png).
+    3. Click ![icon](../../../media/icons/btn-add.png).
     4. Repeat until you have added all the stages you want to add.
 10. In the **Functional rights** tab, you can specify which rights the members of the role should have:
-    * To add a function right: Select an item in the list to the left, and click the right-arrow button ( ![icon](../media/arrow-right.png) ).
-    * To remove a function right: Select an item in the list to the right, and click the left-arrow button ( ![icon](../media/arrow-left.png) ).
+    * To add a function right: Select an item in the list to the left, and click the right-arrow button ( ![icon][img2] ).
+    * To remove a function right: Select an item in the list to the right, and click the left-arrow button ( ![icon][img1]) ).
 11. Click **OK** when you are done.
 
 ## What would you like to do now?
 
 [Edit roles](admin.listRoles.editRole.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]:  ../../../../media/icons/arrow-left.png
+[img2]: ../../../../media/icons/arrow-right.png

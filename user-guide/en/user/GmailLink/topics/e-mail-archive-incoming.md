@@ -17,7 +17,7 @@ Follow these steps:
 
 1. In the Gmail inbox, select the e-mail you would like to archive.
 
-2. Click ![icon](../media/btn-Archive.png) in the e-mail toolbar.
+2. Click ![icon](../media/btn-archive.png) in the e-mail toolbar.
 
     If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-e-mails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-e-mails-from-senders-with-several-listings.md).
 

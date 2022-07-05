@@ -17,7 +17,7 @@ To do this:
 
 1. Go to the project you want merge into another project. (See [Use the Find screen](../chap01/Find-dialog.md).)
 
-2. Click ![icon](../../media/btn-Menu.png)**Task** on the **Project** card and select **Merge projects**. The **Merge projects** dialog opens.
+2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**. The **Merge projects** dialog opens.
 
     ![icon](../media/Chap08-project/95-chap8-merge-project.bmp)
 
@@ -46,3 +46,9 @@ To do this:
 [Edit projects](Editing-projects.md)
 
 [Merge companies](../chap03/Merge-companies.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

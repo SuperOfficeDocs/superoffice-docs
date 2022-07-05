@@ -15,4 +15,4 @@ SuperOffice Service comes with a set of reply templates. Among these reply templ
 
 Based on the customer's request, the system searches for corresponding words (including key words) in FAQ entries in SuperOffice Service. Based on the degree of correlation between these, suggested FAQs that could help the customer are included in the reply template that is automatically sent to the customer to confirm receipt of the request.
 
-You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in ![icon](../media/globalmenu-settings-small.png)**System settings &gt; System &gt; Settings**.
+You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; System &gt; Settings**.

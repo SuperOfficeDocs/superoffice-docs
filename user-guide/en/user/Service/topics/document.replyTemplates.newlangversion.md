@@ -18,7 +18,7 @@ It may be appropriate to have the same reply template in several languages, for 
 3. Click the reply template. This takes you to the **View reply templates** screen.
 4. Click **Edit reply template**. This takes you to the **Reply template properties** screen.
 5. Click the **New language body** button at the bottom of the screen. A new tab is added, named **(Unspecified language)**.
-6. **Language**: In this list, select the language for the current language body of the reply template. The list box contains the languages registered under ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Customer languages**.
+6. **Language**: In this list, select the language for the current language body of the reply template. The list box contains the languages registered under ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Customer languages**.
 7. Enter the texts in the relevant language in the other tabs and make the necessary changes in this language version of the reply template. Find out more about this in [Create reply templates](document.replyTemplates.newReplyTemplate.md).
 8. Click **OK**. The changes are saved. The **(Unspecified language)** tab changes to the selected language.
 

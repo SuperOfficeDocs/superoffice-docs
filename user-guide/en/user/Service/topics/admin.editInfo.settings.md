@@ -27,7 +27,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **New status when accepting a request**: Select which status is to be used when a request is accepted by a user.
 
-* **Send e-mail notification of open requests**: Specifies whether e-mail about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate e-mail notification from ![icon](../media/globalmenu-PersonalSettings-small.png)**Personal settings** &gt; **Settings** &gt; **Notification**.
+* **Send e-mail notification of open requests**: Specifies whether e-mail about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate e-mail notification from ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings** &gt; **Settings** &gt; **Notification**.
 
 * **Number of days before notification**: Specifies how many days must pass before e-mail notification about old requests is sent to the users. You can also specify the time of day that the notification should be sent.
 

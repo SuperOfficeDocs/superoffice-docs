@@ -20,7 +20,7 @@ SuperOffice Service is a web-based system. This means you need to be connected t
 5. Click **Log in**. This takes you to the dashboard in SuperOffice Service. You can read more about this under [Requests](ticket.md).
 
 > [!TIP]
-> To log out of SuperOffice Service, click the ![icon](../media/globalmenu-PersonalSettings-small.png)**Personal settings** button at the top of the screen, and select **Log out**.
+> To log out of SuperOffice Service, click the ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings** button at the top of the screen, and select **Log out**.
 
 ## Multiple sessions
 

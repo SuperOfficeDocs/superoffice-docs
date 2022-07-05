@@ -25,7 +25,7 @@ You can find mailing statistics in the following tabs:
   * **Bounce rate**: How many mailings [bounced](Filter-recipient-list.md#Bounced).
 * **Content**: Here you can view the content of the mailing.
 * **Reports**: Four charts show statistics for the mailing (mouse-over to view exact numbers).
-* **Recipients**: This tab displays a list of recipients of the mailing. The statuses (sending, waiting, failed, bounced, read etc.) of the mailing for each individual recipient are shown here. The summary can be filtered by selecting the checkboxes at the bottom of the screen. See [Filter recipient list](Filter-recipient-list.md). You can also select and add recipients to selections and projects using the ![icon](../media/btn-Menu.png) menu button. See [Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md).
+* **Recipients**: This tab displays a list of recipients of the mailing. The statuses (sending, waiting, failed, bounced, read etc.) of the mailing for each individual recipient are shown here. The summary can be filtered by selecting the checkboxes at the bottom of the screen. See [Filter recipient list](Filter-recipient-list.md). You can also select and add recipients to selections and projects using the ![icon][img1] menu button. See [Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md).
 * **Tracked links**: This tab displays the number of clicks on each tracked link in the mailing. Click a link to go the **View link** screen and display a list of which recipients clicked the link. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).
 * **Manage bounces**: See [Manage bounces](Manage-bounces.md).
 
@@ -37,3 +37,9 @@ You can find mailing statistics in the following tabs:
 [Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md)
 
 [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

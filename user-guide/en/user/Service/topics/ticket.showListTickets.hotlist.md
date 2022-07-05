@@ -22,7 +22,7 @@ In SuperOffice Service there is a favourites list, to which you can add requests
 
 1. Search for the relevant requests.
 2. Click the checkbox next to each request you want to add to the favourites list.
-3. Click ![icon](../../media/btn-Menu.png) in the lower left corner of the list.
+3. Click ![icon](../../../../media/icons/btn-menu.png) in the lower left corner of the list.
 4. Select **Batch management &gt; Add to my favourites**.
 
 1. Open the request. (See [Process requests](ticket.listTicket.md).)
@@ -37,7 +37,7 @@ To view the favourites list, do one of the following:
 
 * Select **Requests** in the Navigator, and click ![icon](../../media/navmenu-favourites.png).
 * Select **Requests** in the Navigator, and select **My favourites**.
-* Go to **Dashboard**, click the list button ( ![icon](../media/btn-dropdown.png) ) next to the title of a panel, and select **My favourites**.
+* Go to **Dashboard**, click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ) next to the title of a panel, and select **My favourites**.
 
 ## Remove requests from the favourites list
 

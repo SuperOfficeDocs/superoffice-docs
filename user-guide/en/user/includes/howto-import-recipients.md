@@ -17,4 +17,4 @@ To do this:
 [1]: ../Create-address-list.md
 
 <!-- Referenced images -->
-[img1]:../media/btn-Add.png
+[img1]: ../../../media/icons/btn-add.png

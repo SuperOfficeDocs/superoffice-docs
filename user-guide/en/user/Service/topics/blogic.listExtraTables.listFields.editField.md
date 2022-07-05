@@ -18,7 +18,7 @@ Once you have created an extra table, you need to set up fields in the table, to
 
 To create extra fields in tables:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Tables**.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System design** &gt; **Tables**.
 2. Browse to the table you want, point at the table name and click ![icon](../media/btn-newfield.png). The **New extra field** screen opens.
 3. Select a field type in the **Type** list box.
 4. Click **OK**. The **Field properties** screen appears.

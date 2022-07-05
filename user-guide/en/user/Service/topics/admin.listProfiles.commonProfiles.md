@@ -26,10 +26,10 @@ Click the appropriate item below, depending on what you want to find out about:
 
 We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen. To do this:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Profile**. The **Show profiles** screen appears.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Click **Search**.
-4. Point at **Find requests**, and click ![icon](../media/btn-add.png) (**New common profile**) to the right of the name. The **Edit element profile** screen appears.
+4. Point at **Find requests**, and click ![icon][img1] (**New common profile**) to the right of the name. The **Edit element profile** screen appears.
 5. In the **Name** field, enter the name of the profile.
 6. Click the **Add criteria** button.
 7. In the dialog box that opens, do the following:
@@ -42,7 +42,7 @@ We explain how to create a common profile by using a specific example. In the ex
 
 To edit the information already recorded for a profile:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Profile**. The **Show profiles** screen appears.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Drill down into the hierarchy until you find the profile you want.
 4. Click the profile name. The **Edit element profile** screen appears.
@@ -53,7 +53,7 @@ To edit the information already recorded for a profile:
 
 To delete a profile from SuperOffice Service, do as follows:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Profile**. The **Show profiles** screen appears.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Drill down into the hierarchy until you find the profile you want.
 4. Click the profile name. The **Edit element profile** screen appears.
@@ -64,3 +64,8 @@ To delete a profile from SuperOffice Service, do as follows:
 [Personal profiles](admin.listProfiles.personalProfile.md)
 
 [Global profiles](admin.listProfiles.globalProfiles.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png

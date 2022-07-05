@@ -21,7 +21,7 @@ To access form templates, do as follows:
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.
-3. Click the ![icon](../media/btn-Menu.png) menu button next to the template you want to use.
+3. Click the ![icon][img1] menu button next to the template you want to use.
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog. See [Create a new form](form-create.md).
 
 ## Create a new form template
@@ -38,7 +38,7 @@ To create a new form template from scratch:
 ## Create a template based on existing form
 
 1. Go to the **Forms** tab.
-2. Click the ![icon](../media/btn-Menu.png) menu button next to the form you want to use as a basis for the template.
+2. Click the ![icon][img1] menu button next to the form you want to use as a basis for the template.
 3. Select **Copy to template**. The **Edit form** screen opens.
 4. Enter a descriptive name for the template in the **Form name** field.
 5. If required, click **Folder** to select a folder for the template.
@@ -46,3 +46,9 @@ To create a new form template from scratch:
 7. Click **Save**.
 
 ![icon](../media/Loc/FormTemplateEditOverview.png)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

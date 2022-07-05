@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# ![icon](../media/globalmenu-personalsettings.png) Options in the Personal settings menu
+# ![icon](../../../../media/icons/globalmenu-personalsettings.png) Options in the Personal settings menu
 
 > [!NOTE]
 > If you added an image in your own contact card, this image will appear on the **Personal settings** button.

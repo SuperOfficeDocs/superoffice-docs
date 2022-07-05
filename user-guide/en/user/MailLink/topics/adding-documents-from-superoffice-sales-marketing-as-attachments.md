@@ -13,7 +13,7 @@ language: en
 
 When creating an e-mail (see [Creating e-mails from Microsoft Outlook](Creating-e-mails-from-Microsoft-Outlook.md) or [Creating e-mails from Lotus Notes](Creating-e-mails-from-Lotus-Notes.md)) you can add documents from SuperOffice CRM as attachments. Follow these steps:
 
-1. In the e-mail window, click the **Attach document** button (![icon](../media/Add-document.png)). The **Include attachments** dialog opens.
+1. In the e-mail window, click the **Attach document** button (![icon](../media/add-document.png)). The **Include attachments** dialog opens.
 
 2. Under **Select from**, select one of the six radio buttons: **Company**, **Project**, **Sale**, **Selection**, **Author** or **Template**. The rest of the dialog changes accordingly.
 
@@ -25,7 +25,7 @@ When creating an e-mail (see [Creating e-mails from Microsoft Outlook](Creating-
 
 4. From the **Date range** dropdown, select the period in which the document(s) you are looking for was/were created.
 
-5. In the list on the left-hand side, all the documents that meet the criteria you have entered, are shown. Select a document and click the arrow button between the lists ( ![icon](../media/Arrow.png) ) to move it to the list on the right-hand side of the dialog.
+5. In the list on the left-hand side, all the documents that meet the criteria you have entered, are shown. Select a document and click the arrow button between the lists ( ![icon](../media/arrow.png) ) to move it to the list on the right-hand side of the dialog.
 
 6. Repeat step 5 if you would like to include more documents.
 

@@ -19,7 +19,7 @@ To merge companies:
 
 1. Go to the company you want to move to another company. (See [Use the Find screen](../chap01/Find-dialog.md).)
 
-2. Select **Manage companies** from the ![icon](../../media/btn-Menu.png)**Task** button, and click **Merge companies**.  
+2. Select **Manage companies** from the ![icon](../../../../media/icons/btn-menu.png)**Task** button, and click **Merge companies**.  
     The **Merge companies** dialog opens. The source company is specified under **From**.
 
     <!-- Fix reuse ID=a1 -->

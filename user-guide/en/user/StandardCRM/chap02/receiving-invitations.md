@@ -11,7 +11,7 @@ language: en
 
 # Receive invitations
 
-![icon](../../media/globalmenu-notice-new.png)
+![icon](../../../../media/icons/globalmenu-notice-new.png)
 
 Participants who are invited to a follow-up will receive a notification on the Top bar. Click the **Notifications** icon to view the invitations(s).
 

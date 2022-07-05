@@ -19,10 +19,10 @@ Normally, contacts are registered by the system when they send in mails, but the
 
 3. In the **New e-mail address** field, enter the address itself to the left and a name to identify the e-mail address (for instance "work", "private" etc) in the field on the right.
 
-4. Click ![icon](../media/btn-add.png) to add the e-mail address. You can add multiple addresses.
+4. Click ![icon][img1] to add the e-mail address. You can add multiple addresses.
 
     > [!TIP]
-    > You can delete an e-mail address by clicking **Delete** ( ![icon](../media/btn-delete.png) ) on the right of the row.
+    > You can delete an e-mail address by clicking **Delete** ( ![icon][img2] ) on the right of the row.
 
 5. Enter the phone number and/or mobile number.
 
@@ -60,3 +60,9 @@ Normally, contacts are registered by the system when they send in mails, but the
 [Edit contacts](customers.viewCustomer.editCustomer.md)
 
 [Create companies](customers.newCompany.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/btn-delete.png

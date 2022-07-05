@@ -13,7 +13,7 @@ language: en
 
 To create a new category:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)&gt; **Categories**. The **Categories** screen appears.  
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)&gt; **Categories**. The **Categories** screen appears.  
     You can also go to the **Requests** screen in SuperOffice Settings and maintenance and select the **Categories** tab.
 
 2. Click the **New category** button. This takes you to the **Category properties** screen.
@@ -32,7 +32,7 @@ To create a new category:
     * **Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences](admin.editUser.helpSettings.md), unless you select **User-defined**.
     * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences](admin.editUser.helpSettings.md), unless you select **User-defined**.
 
-4. In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click ![icon](../media/btn-add.png).
+4. In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click ![icon][img1].
 
     > [!TIP]
     > If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](admin.listUsers.listUsergroups.md).
@@ -70,3 +70,4 @@ To create a new category:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png

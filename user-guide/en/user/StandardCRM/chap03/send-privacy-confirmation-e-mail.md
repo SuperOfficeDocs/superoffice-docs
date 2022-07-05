@@ -28,7 +28,7 @@ The e-mail can also contain a link to a customer centre where the contact can ma
 To send the privacy confirmation e-mail to a contact:
 
 1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
-2. Click **Task** ( ![icon](../../media/btn-Menu.png) ) &gt; **Send privacy confirmation e-mail**.
+2. Click **Task** ( ![icon][img1] ) &gt; **Send privacy confirmation e-mail**.
 3. In the dialog that opens, fill in the following fields:
     * **Send to**: Use the default e-mail address or select another address.
     * **Use template**: Select an e-mail template.
@@ -37,3 +37,9 @@ To send the privacy confirmation e-mail to a contact:
 4. Click **Send**.
 
 The confirmation e-mail is sent to the contact. The e-mail is archived in the **Activities** section tab.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

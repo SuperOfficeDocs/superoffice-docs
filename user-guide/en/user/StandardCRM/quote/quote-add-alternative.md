@@ -47,4 +47,10 @@ When sending the quote, you can select to only include the favourite alternative
 
 ## Delete alternatives
 
-You can delete an alternative by selecting ![icon](../../media/btn-Menu.png)**Task &gt; Delete \[alternative\]** at the bottom of the tab.
+You can delete an alternative by selecting ![icon][img1] **Task &gt; Delete \[alternative\]** at the bottom of the tab.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

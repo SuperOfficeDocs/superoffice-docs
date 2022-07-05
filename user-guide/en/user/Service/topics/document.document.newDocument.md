@@ -17,7 +17,7 @@ If you want to add a document to SuperOffice Service, you first need to create t
 2. Go to the folder you want to put the document in. If it does not yet exist, you can create a new folder. See [Administrate folders of documents](document.document.editFolder.md).
 3. Click the **New document** button. This takes you to the **Document properties** screen.
 4. Enter a descriptive name for the document in the **Name** field.
-5. The **In folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the list button ( ![icon](../media/btn-dropdown.png) ) and select a different folder in the list that appears.
+5. The **In folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ) and select a different folder in the list that appears.
 6. In the **Access** field, select who is to have access to read and edit the document.
 7. If you want to use the document in a web-based customer centre, you can add a unique ID string in the **ID string** field.
 8. In the **Description** field, enter a brief description of what the document contains.

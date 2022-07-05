@@ -54,7 +54,7 @@ If specified under **Settings** &gt; **Categories**, the **Status** tile on the 
 
 A user with category administration rights can do the following:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings &gt; Categories**.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings &gt; Categories**.
 2. Select the required category.
 3. Select the **Properties tab**.
 4. Check **Show category in status view**.

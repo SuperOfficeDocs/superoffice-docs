@@ -37,7 +37,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 * **Show all**. Click here to display all selection members. <!-- Fix reuse ID=a1 -->
 
-    By default the list only displays the 100 first records in the selection. To change this value, go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Functions &gt; Archive page size**.
+    By default the list only displays the 100 first records in the selection. To change this value, go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences &gt; Functions &gt; Archive page size**.
 
 <!-- -->
 

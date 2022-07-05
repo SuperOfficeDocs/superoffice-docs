@@ -27,7 +27,7 @@ To do this:
     *Or* Project: Click **Project**.
     *Or* Contact: Click **Contact**.
     The **Connect to ERP** dialog opens.
-3. Enter text to search for in the search field and click **Search**. You can also click the search button ![icon](../../media/globalmenu-search.png) to initiate an advanced search (see [Use the Find screen](../chap01/Find-dialog.md)).
+3. Enter text to search for in the search field and click **Search**. You can also click the search button ![icon](../../../../media/icons/globalmenu-search.png) to initiate an advanced search (see [Use the Find screen](../chap01/Find-dialog.md)).
 
 > [!TIP]
 > If you search with a blank search field, all records in the ERP system will be displayed.

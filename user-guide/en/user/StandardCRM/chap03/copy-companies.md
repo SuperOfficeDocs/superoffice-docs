@@ -19,7 +19,7 @@ To copy the company:
 
 1. Go to the required company. (See [Use the Find screen](../chap01/Find-dialog.md).)
 
-2. Select **Manage companies** from the ![icon](../../media/btn-Menu.png)**Task** button, and click **Copy company**.  
+2. Select **Manage companies** from the ![icon][img1] **Task** button, and click **Copy company**.  
     The **Copy company** dialog opens. The source company is specified under **From**.
 
     <!-- Fix reuse ID=a1 -->
@@ -40,3 +40,9 @@ To copy the company:
 
 > [!NOTE]
 > Activities, sales, interests, project membership and selection membership are not copied.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

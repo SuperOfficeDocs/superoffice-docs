@@ -23,7 +23,7 @@ When you create or edit selections, you can adjust how many columns to display i
 
 4. In the left-hand field below the **Columns** list, enter the required column name (label).
 
-5. In the next field, click the list button ( ![icon](../media/btn-dropdown.png) ), and select which field in the database you want to get data from.
+5. In the next field, click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ), and select which field in the database you want to get data from.
 
 6. In the **Field size** field, set the desired column width in characters.
 
@@ -76,5 +76,11 @@ You can edit the information about the existing columns, for example the name an
 
 1. Open the **Edit selection** screen. See [Create selection](selections.newSelection.md) or [Edit selection](selections.editSelection2.md).
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
-3. Click the delete icon ( ![icon](../media/btn-delete.png) ) to the right of the required column. The column is removed immediately.
+3. Click the delete icon ( ![icon][img1] ) to the right of the required column. The column is removed immediately.
 4. Click **OK**. The changes are saved.
+
+<!-- Referenced links -->
+
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-delete.png

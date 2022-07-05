@@ -16,7 +16,7 @@ If a message contains two issues that should be handled separately, you can spli
 To do this:
 
 1. Open the request. (See [Process requests](ticket.listTicket.md).)
-2. In the **Messages** tab, click the ![icon](../media/btn-Menu.png) menu button next to the message you want to split. The **Split message** screen opens.
+2. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split. The **Split message** screen opens.
 3. In the **Title** field, enter a descriptive name for the new request.
 4. In he **Category** field, select a category.
 5. In the **Owner** list box, choose one of the following:
@@ -38,3 +38,9 @@ To do this:
 ## See also
 
 [Split requests](ticket.showListTickets.splitTicket.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

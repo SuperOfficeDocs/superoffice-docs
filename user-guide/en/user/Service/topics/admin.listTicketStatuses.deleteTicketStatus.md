@@ -13,7 +13,7 @@ language: en
 
 To delete a custom request status from SuperOffice Service, do as follows:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Request status**. The **Request status** screen appears.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Request status**. The **Request status** screen appears.
 2. Click the required request status. The **Edit request status** screen is displayed.
 3. Click the **Delete** button at the bottom of the screen.
 4. If there are requests with this request status, these must be transferred to another request status in the list **Transfer request status to**.

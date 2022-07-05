@@ -13,7 +13,7 @@ language: en
 
 To delete an e-mail address from SuperOffice Service, do as follows:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **E-mail**.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **E-mail**.
 2. Select the **E-mail filters** tab.
 3. Click the required e-mail filter. The **Properties for e-mail filter** screen appears.
 4. Click the **Delete** button at the bottom of the screen.

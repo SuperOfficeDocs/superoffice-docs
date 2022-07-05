@@ -39,10 +39,10 @@ But you first need to register a company. To do this:
 
 9. Click the **Business** list box, select the applicable business for the company. This list is maintained in SuperOffice Settings and maintenance.
 
-10. In the **Add domain** field, enter the company's Internet domain, for example, "company.com". You can add multiple domains by clicking the ![icon](../media/btn-add.png) add button for each domain you want to add. These domains are used in particular to link contacts to companies automatically.
+10. In the **Add domain** field, enter the company's Internet domain, for example, "company.com". You can add multiple domains by clicking the ![icon][img1] add button for each domain you want to add. These domains are used in particular to link contacts to companies automatically.
 
     > [!TIP]
-    > You can delete a domain by clicking **Delete** ( ![icon](../media/btn-delete.png) ) to the right of the row.
+    > You can delete a domain by clicking **Delete** ( ![icon][img2] ) to the right of the row.
 
 11. Check **Link existing customers based on e-mail address** if you want to check existing contacts against the domains you have entered. If there are any contacts with e-mail addresses containing this domain name, and which are not already linked to another company, they will be automatically linked to the company.
 
@@ -55,3 +55,9 @@ But you first need to register a company. To do this:
 [Edit companies](customers.viewCompany.editCompany.md)
 
 [Create contacts](customers.newCustomer.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/btn-delete.png

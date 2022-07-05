@@ -13,10 +13,6 @@ language: en
 
 It is possible to archive an e-mail in your mail client inbox as a request in SuperOffice Service. How this works, depends on whether you are adding the e-mail to a new or existing request. Click the following links to find out more:
 
-[Creating a new request](#Creating-a-new-request)
-
-[Adding a message to an existing request](#Adding-a-message-to-an-existing-request)
-
 ## Creating a new request
 
 1. Select the e-mail(s) you would like to archive. If you select more than one e-mail, the procedure below is repeated for each e-mail.
@@ -41,4 +37,4 @@ It is possible to archive an e-mail in your mail client inbox as a request in Su
 
 ## What would you like to do now?
 
-[Archive attachments](Archiving-attachment-s-to-SuperOffice-Sales-Marketing.md)
+* [Archive attachments](Archiving-attachment-s-to-SuperOffice-Sales-Marketing.md)

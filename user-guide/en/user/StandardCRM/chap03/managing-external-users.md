@@ -22,7 +22,7 @@ If you have been assigned the **Allow administration of external users** right i
     * By clicking the **Company** button in the Navigator.
     * By using the [history list][1] or [FastSearcher][2].
     * By double-clicking on a company in a search result or in a selection.
-2. Click ![icon](../../media/btn-Menu.png)**Task** &gt; **External users**. The **External users** dialog appears.
+2. Click ![icon][img1] **Task** &gt; **External users**. The **External users** dialog appears.
 
 Follow one of the procedures below:
 
@@ -59,3 +59,4 @@ Using the **Show** list box at the bottom right of the dialog, you can filter th
 [2]: ../chap01/using-fastsearcher.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

@@ -26,7 +26,7 @@ A request can arrive in the system via an e-mail from the customer, or you can r
 
     In the **To** field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**. <!-- Fix reuse ID=a1 -->
 
-    You can register new contacts by clicking ![icon](../media/btn-add.png) in the **Contacts** field in the **Properties** tab.
+    You can register new contacts by clicking ![icon][img1] in the **Contacts** field in the **Properties** tab.
 
     Optionally, you can enter an e-mail address if you want to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
 
@@ -69,7 +69,7 @@ Here you enter information to correctly assign and prioritize the request.
   * You can add additional contacts if you like.
   * Contacts added here will be linked to the request and are able to view information about the request in SuperOffice Customer Centre.
   * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
-  * Click ![icon](../media/btn-add.png) to create a new contact. See [Create contacts](customers.newCustomer.md).
+  * Click ![icon][img1] to create a new contact. See [Create contacts](customers.newCustomer.md).
 * Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.
 
 ## Message
@@ -86,7 +86,7 @@ The section at the bottom contains the following options:
   * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
   * Drag and drop a file from Windows Explorer to the attachments field.
   * Click **Choose a CRM document** to select a document in SuperOffice CRM.
-* **Insert**: Click the list button ( ![icon](../media/btn-dropdown.png) ), and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also add reply templates in other languages. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template](document.replyTemplates.newlangversion.md).
+* **Insert**: Click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ), and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also add reply templates in other languages. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template](document.replyTemplates.newlangversion.md).
 * **Internal/External**: Here you can select **External** if the contact is to have access to the message via SuperOffice Customer Centre, or **Internal** if the contact is not to have access to the message.
 * **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ( ![icon](../media/Stop.png) ), and also re-start the clock by clicking the start button ( ![icon](../media/Play.png) ). Click ![icon](../media/btn-calendar.jpg) (**Select time span**) button to register time spent.
 
@@ -103,7 +103,7 @@ Here you can add invoice lines as internal information for the request. To do th
 1. In the list box at the top left, select the type of invoice. The price is updated in accordance with the invoice you select.
 2. In the **Description** field, enter a more detailed description of what the invoice line relates to.
 3. In the next fields, enter the unit price, quantity, any discount (percent or amount) and the date.
-4. Click ![icon](../media/btn-add.png) to add the invoice line.
+4. Click ![icon][img1] to add the invoice line.
 
 ## Extra fields
 
@@ -112,3 +112,8 @@ This tab contains any extra fields defined for requests. These will vary from co
 ## What would you like to do now?
 
 [Process requests](ticket.showListTickets.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png

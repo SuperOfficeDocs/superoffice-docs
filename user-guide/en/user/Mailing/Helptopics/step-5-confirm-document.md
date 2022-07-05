@@ -30,7 +30,7 @@ Click the mailing in the list to view sending status and statistics. See [Track 
 To view and print the document:
 
 1. Select the **Mailings** tab.
-2. Locate the document, click ![icon](../media/btn-Menu.png) and select **View**.
+2. Locate the document, click ![icon](../../../media/icons/btn-menu.png) and select **View**.
 3. Click the button under **Download generated document**. The document is downloaded to your browser.
 4. Open and print the document.
 

@@ -13,8 +13,8 @@ language: en
 
 In the **Dashboard** tab you can view chat statistics, respond to incoming chats, and listen to ongoing chats (if you have this permission). The number in the **Dashboard** tab indicates how many incoming chats have not been answered by an agent.
 
-![icon](media/loc/chat-tabs.png)
+![icon](media/chat-tabs.png)
 
 ## What would you like to do now?
 
-[View chat statistics](chat-statistics.md)
+* [View chat statistics](chat-statistics.md)

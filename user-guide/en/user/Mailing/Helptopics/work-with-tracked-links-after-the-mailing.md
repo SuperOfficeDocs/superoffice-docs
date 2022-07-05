@@ -35,7 +35,7 @@ In order to do this:
 2. Click the relevant link from the link list. The **View link** screen displays.  
     Here you can see the number of clicks for the link and any actions that have been specified for the link. See [Define link actions](Define-link-actions.md). In the **Clickers** list you can see who has clicked the link and in which mailing they clicked the link.
 3. Use the checkboxes in the left column to select all or specific contacts in the list.
-4. Click the ![icon](../media/btn-Menu.png) menu button. Here you can add the selected contacts to a new or existing selection or project. See [Add recipients to selections or projects](Add-recipients-to-selections-or-projects.md).
+4. Click the ![icon][img1] menu button. Here you can add the selected contacts to a new or existing selection or project. See [Add recipients to selections or projects](Add-recipients-to-selections-or-projects.md).
 5. Click **OK** to close the **View link** screen.
 
 To edit the link, click the **Edit** button. See [Create tracked links](Create-links.md).
@@ -46,8 +46,14 @@ Sometimes you need to reset the number of clicks back to zero. This would be the
 
 1. Select the **Tracked links** tab.
 2. Click **All links** if your link is not displayed in the list. If you have organised the links in folders, first go to the folder the link is in.
-3. Click the menu button ( ![icon](../media/btn-Menu.png) ) next to the link and select **Reset**. The counter in the **Clicks** column changes to 0. Data about which customers have clicked the link are also removed.
+3. Click the menu button ( ![icon][img1] ) next to the link and select **Reset**. The counter in the **Clicks** column changes to 0. Data about which customers have clicked the link are also removed.
 
 ## Related topics
 
 [Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

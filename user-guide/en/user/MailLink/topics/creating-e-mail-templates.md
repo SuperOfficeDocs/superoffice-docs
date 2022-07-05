@@ -25,21 +25,21 @@ You can create your own templates to use when creating e-mails from SuperOffice 
 
 6. Choose the **Items** tab.
 
-7. Click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and select **Document template** from the **List** dropdown.
+7. Click the arrow (![icon][img1]) and select **Document template** from the **List** dropdown.
 
-8. Click the **Add** button (![icon](../media/SO-Admin-Add-button.png)) below the **Items** list. The **Edit list item** dialog opens.
+8. Click the **Add** button (![icon][img2]) below the **Items** list. The **Edit list item** dialog opens.
 
 9. Enter the required name of the template in the mandatory **Name** field.
 
-10. In the **File name** field, click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and select the .somail file you just created.
+10. In the **File name** field, click the arrow (![icon][img1]) and select the .somail file you just created.
 
-11. In the **Direction** field, click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and choose **Outgoing** from the dropdown.
+11. In the **Direction** field, click the arrow (![icon][img1]) and choose **Outgoing** from the dropdown.
 
-12. In the **Record type** field, click the arrow (![icon](../media/SO-Admin-down-arrow.png)) and choose **E-mail**.
+12. In the **Record type** field, click the arrow (![icon][img1]) and choose **E-mail**.
 
-13. In the **Document plugin** field, select the program to be used to display the document by clicking the arrow ( ![icon](../media/SO-Admin-down-arrow.png) ) and selecting from the dropdown.
+13. In the **Document plugin** field, select the program to be used to display the document by clicking the arrow ( ![icon][img1] ) and selecting from the dropdown.
 
-14. In the **Intention** field, click the arrow ( ![icon](../media/SO-Admin-down-arrow.png) ) and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
+14. In the **Intention** field, click the arrow ( ![icon][img1] ) and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
 
 15. Check the **Publish** box if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
 
@@ -59,3 +59,7 @@ You can create your own templates to use when creating e-mails from SuperOffice 
 21. Click **Save** to save the changes in SuperOffice Settings and maintenance.
 
 You may now create new e-mails from SuperOffice CRM using this template.
+
+<!-- Referenced images -->
+[img1]:../media/so-admin-down-arrow.png
+[img2]: ../media/so-admin-add-button.png

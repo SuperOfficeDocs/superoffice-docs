@@ -15,8 +15,8 @@ A quick reply is a pre-defined text that you can use in a chat with a customer. 
 
 To create a quick reply:
 
-1. In an ongoing chat, click ![icon](media/chat-btn-FAQ.png) in the lower part of the chat panel.
-2. Click ![icon](media/chat-btn-edit.png) **Edit**. The **Quick replies** windows opens.
+1. In an ongoing chat, click ![icon](../../../media/icons/chat-btn-faq.png) in the lower part of the chat panel.
+2. Click ![icon](../../../media/icons/chat-btn-edit.png) **Edit**. The **Quick replies** windows opens.
 3. Click **Add**. A new reply is added to the list.
 4. Click the **New name** field and enter a title for the quick reply. This will not be visible to the customer.
 5. Click the **New content** field and enter the reply text you want to send to customers.

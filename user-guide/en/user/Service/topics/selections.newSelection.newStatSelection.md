@@ -35,12 +35,12 @@ To do this:
 
 8. When the search result appears, check the records you want to include in the selection.
 
-9. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner and select ![icon](../media/btn-add.png)**Add to selection**. The selected records are moved to the **Result** tab.
+9. Click the ![icon][img3] menu button in the lower left corner and select ![icon][img1] **Add to selection**. The selected records are moved to the **Result** tab.
 
 10. Repeat steps 6-9 to add more records. Click the **Show criteria** button to access the search fields.
 
     > [!TIP]
-    > To remove entries from the selection, select the relevant entries in the **Result** tab, click the ![icon](../media/btn-Menu.png) menu button in the lower left corner, and select ![icon](../media/btn-delete.png)**Remove from selection** button.
+    > To remove entries from the selection, select the relevant entries in the **Result** tab, click the ![icon][img3] menu button in the lower left corner, and select ![icon][img2] **Remove from selection** button.
 
 11. In the **Profile** tab, specify how the selection is to be presented:
     [!include[Contents of Selection Profile tab](../../includes/selection-profile-tab.md)]
@@ -54,3 +54,10 @@ To do this:
 [View selections](selections.listSelections.md)
 
 [Edit a selection](selections.editSelection2.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../media/icons/btn-delete.png
+[img3]: ../../../media/icons/btn-menu.png

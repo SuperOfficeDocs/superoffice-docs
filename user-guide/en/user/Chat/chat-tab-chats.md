@@ -13,7 +13,7 @@ language: en
 
 Use the **Chats** tab to respond to incoming chats from customers.
 
-![icon](media/loc/chat-tab-chats.png) The number in the **Chats** tab indicates the number of chats you are currently handling.
+![icon](media/chat-tab-chats.png) The number in the **Chats** tab indicates the number of chats you are currently handling.
 
 The **Chats** tab has three main areas:
 
@@ -34,9 +34,9 @@ The following icons are used for the active chat sessions in the list:
 
 | Icon | Description |
 |---|---|
-| ![icon](media/chat_last_customer.png) | The last message in the conversation from the customer and agent. |
-| ![icon](media/chat_last_customer_unanswered.png) | Number of unread messages from the customer. |
-| ![icon](media/chat_transfered.png) | Transferred chat to you or from you. Waiting to be accepted. |
+| ![icon](../../../media/icons/chat_last_customer.png) | The last message in the conversation from the customer and agent. |
+| ![icon](../../../media/icons/chat_last_customer_unanswered.png) | Number of unread messages from the customer. |
+| ![icon](../../../media/icons/chat_transfered.png) | Transferred chat to you or from you. Waiting to be accepted. |
 
 ## Chat conversation
 

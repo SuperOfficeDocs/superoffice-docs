@@ -11,7 +11,7 @@ language: en
 
 # Add recipients to selections or projects
 
-Using the ![icon](../media/btn-Menu.png) menu button you can add recipients and clickers to a selection or project. <!-- Fix reuse ID=a1 -->
+Using the ![icon][img1] menu button you can add recipients and clickers to a selection or project. <!-- Fix reuse ID=a1 -->
 
 * In the **Recipients** tab in the **View mailing** screen (see [Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md)).
 * In the **Clickers** list in the **View link** screen (see [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md)).
@@ -22,7 +22,7 @@ Using the ![icon](../media/btn-Menu.png) menu button you can add recipients and 
 ## Add recipients or clickers to a new selection or project
 
 1. Select the relevant contacts in the list.
-2. Click the ![icon](../media/btn-Menu.png) menu button.
+2. Click the ![icon][img1] menu button.
 3. Click **Add to new selection** or **Add to new project**.
 4. Write the name of the new selection or project.
 5. Click **OK**.
@@ -32,10 +32,16 @@ Open the selection or project to verify that the contacts have been added.
 ## Add recipients or clickers to an existing selection or project
 
 1. Select the relevant contacts in the list.
-2. Click the ![icon](../media/btn-Menu.png) menu button.
+2. Click the ![icon][img1] menu button.
 3. Click **Add to existing selection** or **Add to existing project**.
 4. Start writing the name of the selection or project to search.
 5. Click the selection or project in the list.
 6. Click **OK**.
 
 Open the selection or project to verify that the contacts have been added.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

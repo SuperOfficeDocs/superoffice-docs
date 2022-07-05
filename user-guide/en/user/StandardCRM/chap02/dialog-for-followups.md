@@ -84,7 +84,7 @@ Check here when the follow-up is completed. For more information, see [Mark acti
 
 **Task**
 
-![icon](../../media/btn-Menu.png)
+![icon][img1]
 
 Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as e-mail, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.
 
@@ -102,3 +102,9 @@ These fields show the date when the follow-up was first created and when it was 
 * [The Participants tab](Participants-category.md)
 * [The Links tab](Links-tab-follow-ups.md)
 * [The More tab](More-tab-follow-ups.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

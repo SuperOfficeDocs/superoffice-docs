@@ -15,7 +15,7 @@ Here you can edit the properties of a screen. You can create a script to precalc
 
 ## **Properties**
 
-* **Folder:** If you have organised the screens into a folder structure, click ![icon](../media/btn-dropdown.png) and select a folder.
+* **Folder:** If you have organised the screens into a folder structure, click ![icon](../../../../media/icons/btn-dropdown.png) and select a folder.
 * **Name**: A descriptive name for the screen.
 * **ID string**: A string which uniquely identifies this screen, so that it can be referenced in URL's
 * **Authentication key**: It is possible to run a custom-defined screen without being logged in as an user. In order to do this, you need to supply an authentication key.

@@ -30,19 +30,19 @@ A combined selection is a combination of two or more existing selections. Here y
 
 6. Go to the **Selection** tab. Here you're going to choose which selections you want to combine.
 
-7. Click the list button ( ![icon](../media/btn-dropdown.png) ) next to **Add selection** at the bottom left, and select the option you want to use for combining the selections. The choice you make here is irrelevant for the first selection you add, so you can leave it at **All**.
+7. Click the list button ( ![icon][img1] ) next to **Add selection** at the bottom left, and select the option you want to use for combining the selections. The choice you make here is irrelevant for the first selection you add, so you can leave it at **All**.
 
-8. Click the next list button ( ![icon](../media/btn-dropdown.png) ), and pick a selection.
+8. Click the next list button ( ![icon][img1] ), and pick a selection.
 
 9. Click the **Add selection** button. The selection is added to the list above.
 
-10. You are now going to add selection number 2. Click the list button ( ![icon](../media/btn-dropdown.png) ) next to **Add selection** at the bottom left, and select the option you want to use for combining selection number 1 and selection number 2.
+10. You are now going to add selection number 2. Click the list button ( ![icon][img1] ) next to **Add selection** at the bottom left, and select the option you want to use for combining selection number 1 and selection number 2.
     * **All**: Displays all records from both selections 1 and 2.
     * **Only in Selection 1**: Displays records in selection 1, excluding those which are in both selection 1 and selection 2.
     * **Difference**: Displays only records which are either in selection 1 and or in selection 2 (but not in both).
     * **Common**: Displays only records which are in both selection 1 and selection 2.
 
-11. Click the next list button ( ![icon](../media/btn-dropdown.png) ), and pick a selection.
+11. Click the next list button ( ![icon][img1] ), and pick a selection.
 
 12. Click the **Add selection** button. The selection is added to the list above.
 
@@ -53,7 +53,7 @@ A combined selection is a combination of two or more existing selections. Here y
     * And so forth.
 
     > [!TIP]
-    > You can remove a selection from the combined selection by clicking **Delete** ( ![icon](../media/btn-delete.png) ) on the right of the row.
+    > You can remove a selection from the combined selection by clicking **Delete** ( ![icon][img2] ) on the right of the row.
 
 14. In the **Profile** tab, specify how the selection is to be presented:
    [!include[Contents of Selection Profile tab](../../includes/selection-profile-tab.md)]
@@ -64,8 +64,12 @@ A combined selection is a combination of two or more existing selections. Here y
 
 ## What would you like to do now?
 
-[Update a selection](selections.updateSelection.md)
+* [Update a selection](selections.updateSelection.md)
+* [View selections](selections.listSelections.md)
+* [Edit a selection](selections.editSelection2.md)
 
-[View selections](selections.listSelections.md)
+<!-- Referenced links -->
 
-[Edit a selection](selections.editSelection2.md)
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-dropdown.png
+[img2]: ../../../../media/icons/btn-delete.png

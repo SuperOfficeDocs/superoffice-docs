@@ -27,7 +27,7 @@ In the **Tracked links** tab you have the following options:
 
 * Click a link to open the **View link** screen. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).
 
-* Click the ![icon](../media/btn-Menu.png) menu button next to a link to access the following options:
+* Click the ![icon][img1] menu button next to a link to access the following options:
 
   * **View**. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).
   * **Edit**. See [Create tracked links](Create-links.md).
@@ -40,3 +40,9 @@ In the **Tracked links** tab you have the following options:
 [Include links you want to track](includeLinksToTrack.md)
 
 [Add subscription links](Add-an-unsubscribe-link.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

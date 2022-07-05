@@ -18,10 +18,10 @@ The selection may, for example, contain recipients who have read the mailing, so
 In order to do this:
 
 1. Click the mailing in the **Mailings** tab. The **View mailing** screen opens.
-2. Click the **Recipients** tab. The list shows the 100 first recipients, and you need to click ![icon](../../media/arrow-right.png) to show the next 100.
+2. Click the **Recipients** tab. The list shows the 100 first recipients, and you need to click ![icon][img1] to show the next 100.
 3. Filter the list by using the checkboxes at the bottom of the list. By default all filters are active to show all recipients. See [Filter recipient list](Filter-recipient-list.md).
 4. Use the checkboxes in the left column to select all or specific recipients.
-5. Click the ![icon](../media/btn-Menu.png) menu button. Here you have the following options:
+5. Click the ![icon][img2] menu button. Here you have the following options:
     * Export the selected recipients to an Excel, HTML or text file.
     * Add the selected recipients to a new or existing selection or project. See [Add recipients to selections or projects](Add-recipients-to-selections-or-projects.md).
     * Resend the mailing to the selected recipients.
@@ -37,3 +37,9 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 > [!TIP]
 > To view and handle bounced e-mails and spam complaints for all mailings, see [Blocked e-mail addresses](Blocked-e-mail-addresses.md).
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/btn-menu.png

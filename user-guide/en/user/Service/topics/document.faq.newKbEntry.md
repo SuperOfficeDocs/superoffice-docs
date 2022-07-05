@@ -22,7 +22,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 1. Open a request. See [Process requests](ticket.listTicket.md).
 
-2. Click the ![icon](../media/btn-Menu.png)**Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
+2. Click the ![icon](../../../media/icons/btn-menu.png)**Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
 3. Edit the request name in the **Name** field if necessary.
 
@@ -54,7 +54,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
     1. Click **Choose file** next to **Attachment**.
     2. Browse to the document you require in the dialog box that appears.
-    3. Click ![icon](../media/btn-add.png) to add the attachment.
+    3. Click ![icon][img1] to add the attachment.
     4. Repeat this procedure to add more attachments.
 
 11. In the **Link** field, you can add one or more addresses of relevant websites. <!-- Fix reuse ID=a2 -->
@@ -62,7 +62,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
     1. In the field to the left, enter the name to be displayed for the link.
     2. In the field on the right, enter the actual web address after **http://**
-    3. Click ![icon](../media/btn-add.png)**Add** to add the link.
+    3. Click ![icon][img1] **Add** to add the link.
     4. Repeat this procedure to add more links.
 
 12. Go to the **Question** tab.
@@ -92,3 +92,8 @@ Since the option to create FAQ entries this way is only available to administrat
 [Edit FAQ entries](document.faq.editKbEntry.md)
 
 [Publish FAQ entries](document.faq.publishFAQ.md)
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-add.png

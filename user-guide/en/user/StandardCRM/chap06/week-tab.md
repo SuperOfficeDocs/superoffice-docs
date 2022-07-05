@@ -20,6 +20,6 @@ The **Week** tab displays one week at a time. It is divided into columns, one fo
 To open the **Day** tab for a particular day, click the relevant day heading.
 
 > [!NOTE]
-> You can define whether Sunday or Monday should be considered the first day of the week under ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**.
+> You can define whether Sunday or Monday should be considered the first day of the week under ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**.
 
 Along the left-hand edge of the **Week** tab, there are hourly intervals. You can scroll up and down the time intervals.

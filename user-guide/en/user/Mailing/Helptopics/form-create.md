@@ -28,7 +28,7 @@ To create a new form:
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.
-3. Click the ![icon](../media/btn-Menu.png) menu button next to the template you want to use.
+3. Click the ![icon][img1] menu button next to the template you want to use.
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog.
 
 To activate and publish the form, see [Publish forms](form-publish.md).
@@ -168,3 +168,4 @@ Here you can define how a submitted form should be processed. Fill in the follow
 [1]: https://community.superoffice.com/en/Technical/Blog/simple-google-analytics-email-tracking/
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

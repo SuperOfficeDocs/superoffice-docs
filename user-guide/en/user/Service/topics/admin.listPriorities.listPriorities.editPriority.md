@@ -13,7 +13,7 @@ language: en
 
 To create a new priority:
 
-1. Select ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **Priorities**. The **Priorities** screen appears.
+1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Priorities**. The **Priorities** screen appears.
 2. Click the **New priority** button. This takes you to the **Priority properties** screen.
 3. In the **Properties** tab, enter the following information:
     * **Name**: Enter a descriptive name for the priority.

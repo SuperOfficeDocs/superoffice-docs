@@ -15,7 +15,7 @@ In the **Outbox for e-mail** tab is a list of the e-mails in the queue to be sen
 
 Select **Show sent e-mails** in the lower right corner to display also the last request e-mails.
 
-The following options are also available from the ![icon](../media/btn-Menu.png) menu button:
+The following options are also available from the ![icon][img1] menu button:
 
 * **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 
@@ -27,3 +27,9 @@ The following options are also available from the ![icon](../media/btn-Menu.png)
     > You cannot undo this operation.
 
 If you click one of the messages in this tab, the **Outbound e-mail** screen appears. This contains information about the selected message, such as its size and who created it. Any error messages are also shown.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

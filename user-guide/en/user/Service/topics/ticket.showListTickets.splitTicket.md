@@ -19,7 +19,7 @@ If a single request contains several questions, for example, if the customer fir
 To split a request:
 
 1. Open the request. (See [Process requests](ticket.listTicket.md).)
-2. Click the ![icon](../media/btn-Menu.png)**Actions** button and select **Split request**. This takes you to the **Split request** screen. This is where you specify information about the new request.
+2. Click the ![icon][img1] **Actions** button and select **Split request**. This takes you to the **Split request** screen. This is where you specify information about the new request.
 3. In the **Title** field, enter a descriptive name for the request.
 4. In the **Category** field, select a category for the request.
 5. In the **Owner** field, choose one of the following:
@@ -47,3 +47,9 @@ To split a request:
 [Forward messages to external parties](ticket.showListTickets.forward.md)
 
 [Split message](ticket.showListTickets.splitMessage.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

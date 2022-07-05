@@ -14,7 +14,7 @@ language: en
 In the request lists, you can forward multiple requests at the same time. To do this:
 
 1. Select the requests you want to forward in the request list.
-2. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner of the request list.
+2. Click the ![icon][img1] menu button in the lower left corner of the request list.
 3. Select **Batch management** and **Batch forward**.
 4. Under **Choose recipient**, you will find the following:
     * At the top is the e-mail address of the owner of the request and other request handlers who are or have been linked to the request.
@@ -28,3 +28,9 @@ In the request lists, you can forward multiple requests at the same time. To do 
 ## Related topics
 
 [Forward messages to external parties](ticket.showListTickets.forward.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

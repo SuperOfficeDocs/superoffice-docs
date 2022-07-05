@@ -14,12 +14,12 @@ language: en
 You can merge two or more companies. For example, if two companies in your customer database have decided to merge or one of the companies has bought the other company, you can merge these companies into one company. Contacts (and related requests), invoices and registered domains are kept for both companies.
 
 > [!NOTE]
-> You can also search for and select companies to merge from the search results screen. Then click ![icon](../media/btn-Menu.png) in the lower left corner and select **Batch management** &gt; **Merge**.
+> You can also search for and select companies to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management** &gt; **Merge**.
 
 To merge companies:
 
 1. Open one of the companies you want to merge.
-2. Click ![icon](../media/btn-Menu.png)and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the company to merge with this one.
+2. Click ![icon][img1] and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the company to merge with this one.
 3. In the search field, start typing the company name. Enter **%** to display all companies.
 4. Select a company from the list of search results. The selected company opens in a new column in the table.
 5. To add more companies, repeat the previous steps.
@@ -35,3 +35,9 @@ The companies that have been overwritten will no longer be available in favourit
 ## What would you like to do now?
 
 [Merge contacts](customers.viewCustomer.mergecontacts.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

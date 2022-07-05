@@ -17,7 +17,7 @@ If have created a quote document for a quote, but want to use another document, 
 
 1. Open the quote.
 
-2. Click the ![icon](../../media/btn-Menu.png)**Task** button and select **Change quote document**.
+2. Click the ![icon][img1] **Task** button and select **Change quote document**.
 
 3. Select the quote document in the list.
 
@@ -42,3 +42,9 @@ To do this:
 [Send a quote](quote-send.md)
 
 [Place an order](quote-create-order.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

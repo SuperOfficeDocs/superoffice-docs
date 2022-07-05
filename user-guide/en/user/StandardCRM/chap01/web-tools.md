@@ -16,13 +16,13 @@ SuperOffice Web Tools maintains the integration with your documents and e-mail. 
 * **SuperOffice Web Tools** – which facilitates the integration between browsers, documents and SuperOffice applications.
 * **SuperOffice Mail Link** – which gives you the possibility to archive e-mails from your Outlook or Lotus Notes e-mail client.
 
-You will automatically be asked to upgrade or install SuperOffice Web Tools when you log in to SuperOffice CRM through your browser for the first time on your PC. If this welcome screen does not appear or in case you need to download it again, you can start the SuperOffice Web Tools download wizard manually ( ![icon](../media/globalmenu-mainmenu-small.png) **Main menu &gt; Download &gt; SuperOffice Web Tools**).
+You will automatically be asked to upgrade or install SuperOffice Web Tools when you log in to SuperOffice CRM through your browser for the first time on your PC. If this welcome screen does not appear or in case you need to download it again, you can start the SuperOffice Web Tools download wizard manually ( ![icon](../../../../media/icons/globalmenu-mainmenu-small.png) **Main menu &gt; Download &gt; SuperOffice Web Tools**).
 
 To upgrade or install SuperOffice Web Tools, go to the following SuperOffice support page: [How to download and install Web Tools?][1]
 
 ## How to connect your Microsoft documents with SuperOffice CRM
 
-1. Go to the Main menu ( ![icon](../media/globalmenu-mainmenu-small.png) ) in the top bar.
+1. Go to the Main menu ( ![icon](../../../../media/icons/globalmenu-mainmenu-small.png) ) in the top bar.
 2. Select **Download** &gt; **SuperOffice Web Tools**. The SuperOffice Web Tools wizard is displayed.
 3. In the wizard, select **Personal Computer** &gt; **SuperOffice**, and click **Download** to download the installation file
 4. Click **Next** and **Close** to close the Web Tools wizard.

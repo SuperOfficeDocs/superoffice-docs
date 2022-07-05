@@ -18,7 +18,7 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 * All sales with planned activities for a specific number of days ahead.
 
     > [!NOTE]
-    > The number of days ahead, based on the next activity date, is defined in the **Preferences** dialog. Go to ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**. Select **Functions** &gt; **Show days ahead**.
+    > The number of days ahead, based on the next activity date, is defined in the **Preferences** dialog. Go to ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Preferences**. Select **Functions** &gt; **Show days ahead**.
 
 * All sales with overdue activities, i.e. which have an end date earlier than today. These sales are shown in red.
 

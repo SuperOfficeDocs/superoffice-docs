@@ -20,7 +20,7 @@ Project membership and activities will be moved to the target contact, and the s
 Proceed as follows:
 
 1. In the **Company** screen: Go to the **Contacts** section tab, select and right-click one or two contacts you want to merge, select **Manage contacts** and **Merge contacts**.  
-    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon](../../media/btn-Menu.png) ) in the contact card, and select **Manage contacts** and **Merge contacts**.  
+    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon][img1] ) in the contact card, and select **Manage contacts** and **Merge contacts**.  
     The **Merge contacts** dialog opens.
 
 2. If you have only selected one contact, you need to select a contact under **To** (to search for a contact, start typing). The two contacts you want to merge are now displayed under **From** and **To**.
@@ -49,3 +49,9 @@ Proceed as follows:
 ## Related topics
 
 [Merge companies](Merge-companies.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

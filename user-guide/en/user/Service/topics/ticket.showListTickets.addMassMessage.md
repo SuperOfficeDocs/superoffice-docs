@@ -16,7 +16,7 @@ You can add a message to several requests in a single operation. For example, th
 In the request list, do as follows:
 
 1. Select the relevant requests.
-2. Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner of the request list.
+2. Click the ![icon][img1] menu button in the lower left corner of the request list.
 3. Select **Batch management** and **Reply to customers**.
 4. In the next screen, you have the following options:
     * **Send copy to customer (only external requests)**: If you enable this option, then the message will also be sent by e-mail to the contacts linked to the selected external requests.
@@ -27,3 +27,9 @@ In the request list, do as follows:
     * **Reply template** / **Language**: From this list box, you can select a reply template from the reply template hierarchy. If the template is available in several languages, you must select the correct language. Remember to click **Insert**.
     * **Insert**: Click here to paste the selected reply template into the text area.
 5. Click **OK** when you are finished.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

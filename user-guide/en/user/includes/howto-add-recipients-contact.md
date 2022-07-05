@@ -9,4 +9,4 @@ You can add individual contacts from SuperOffice. To do this:
 5. Repeat steps 2-5 to add more contacts. Additional contacts will be added to the same row in the **Recipient sources** list, and the number of contacts will display in the **Name** column.
 
 <!-- Referenced images -->
-[img1]: ../media/btn-Add.png
+[img1]: ../../../media/icons/btn-add.png

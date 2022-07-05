@@ -16,7 +16,7 @@ In the **New group view** dialog, you can display users and resources whose diar
 Bring up the **New group view** dialog as follows:
 
 1. Select **Diary** in the Navigator and select the **View** tab.
-2. Select ![icon](../../media/btn-Menu.png)**Task** at the bottom right of the tab.
+2. Select ![icon][img1] **Task** at the bottom right of the tab.
 3. Select one of the following:
     * **Edit**: Select this option to edit the current view.  
         <!-- Fix reuse ID=a11 -->
@@ -80,3 +80,9 @@ Closes the dialog without saving changes.
 [Use the group view](Using-group-view.md)
 
 [Create appointments for associates](Creating-appointments-for-associates.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

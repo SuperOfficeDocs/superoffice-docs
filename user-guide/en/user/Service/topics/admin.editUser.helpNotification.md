@@ -22,7 +22,7 @@ You can receive notifications of the following events in SuperOffice Service.
 * **Open requests, not read in the last \[number\] days**: Check here to be notified of open requests that have not been edited for the specified number of days and where you are the owner.
 
     > [!NOTE]
-    > This option is activated from ![icon](../media/globalmenu-settings-small.png)**System settings** &gt; **System** &gt; **Settings** &gt; **Send e-mail notification of open requests**.
+    > This option is activated from ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **System** &gt; **Settings** &gt; **Send e-mail notification of open requests**.
 
 * **New request**: Check here to be notified each time you are assigned a new request.
 

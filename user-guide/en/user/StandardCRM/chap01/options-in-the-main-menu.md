@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# ![icon](../media/globalmenu-mainmenu.png) Options in the Main menu
+# ![icon](../../../../media/icons/globalmenu-mainmenu.png) Options in the Main menu
 
 Click the **Main menu** button in the Top bar to access the following options:
 

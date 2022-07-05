@@ -42,11 +42,11 @@ To access these, do as follows:
 
 3. If required, use the search field to find a specific template.
 
-4. Click the ![icon](../media/btn-Menu.png) menu button next to the template you want to use.
+4. Click the ![icon][img1] menu button next to the template you want to use.
 
 5. Select **Create mailing**. The template opens in the mailings wizard. See [Step 1: Setup - E-mail](step-1-setup-email.md).
 
-[!include[How to create a mailing folder](../../includes/create-mailing-folder.md)] 
+[!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
 ## Create a new e-mail template
 
@@ -86,7 +86,7 @@ To create a new SMS template from scratch:
 (for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
 
 1. Go to the **Mailings** tab.
-2. Click the ![icon](../media/btn-Menu.png) menu button next to the mailing you want to use as a basis for the template.
+2. Click the ![icon][img1] menu button next to the mailing you want to use as a basis for the template.
 3. Select **Copy to template**. The **Edit template** screen opens.
 4. Enter a descriptive name for the template in the **Name** field.
 5. If required, click **Folder** to select a folder for the template.
@@ -100,7 +100,7 @@ To create a new SMS template from scratch:
 (for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
 
 1. Go to the **Message templates** tab.
-2. Click the ![icon](../media/btn-Menu.png) menu button next to the template you want to use.
+2. Click the ![icon][img1] menu button next to the template you want to use.
 3. Select **Make copy**. The **Edit template** screen opens.
 4. Enter a descriptive name for the template in the **Name** field.
 5. Make any necessary changes (as described above), and click **OK**.
@@ -113,3 +113,9 @@ To import a JSON file:
 2. Click **Import** (![icon](../media/btn-import.png)). The **Import** dialog displays.
 3. Select the file you want to import.
 4. Click **OK**. The message template is added.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

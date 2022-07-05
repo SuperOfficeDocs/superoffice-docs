@@ -13,4 +13,10 @@ language: en
 
 This screen shows the log for this request. All events are recorded, including when they occurred, what happened and who was responsible.
 
-Click the ![icon](../media/btn-Menu.png) menu button in the lower left corner and select **Export** to export the log. You can export at Excel, HTML or text.
+Click the ![icon][img1] menu button in the lower left corner and select **Export** to export the log. You can export at Excel, HTML or text.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

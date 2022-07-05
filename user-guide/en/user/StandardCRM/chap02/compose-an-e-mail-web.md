@@ -28,4 +28,4 @@ When you have finished the message, and want to send it, you have the following 
 > If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming e-mail](../chap07web/archive-buttons.md).
 
 > [!TIP]
-> The signature template at the bottom of the message can be edited in ![icon](../media/globalmenu-personalsettings-small.png)**Personal settings** &gt; **Edit personal signature**.
+> The signature template at the bottom of the message can be edited in ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings** &gt; **Edit personal signature**.

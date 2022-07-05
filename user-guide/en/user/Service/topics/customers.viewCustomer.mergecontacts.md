@@ -14,12 +14,12 @@ language: en
 You can merge two or more contacts. For example, if a contact has been registered in two different companies and also without a company, you can merge these contacts into one contact for the correct company. Any requests linked to the contacts are kept.
 
 > [!NOTE]
-> You can also search for and select contacts to merge from the search results screen. Then click ![icon](../media/btn-Menu.png) in the lower left corner and select **Batch management** &gt; **Merge**.
+> You can also search for and select contacts to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management** &gt; **Merge**.
 
 To merge contacts:
 
 1. Open one of the contacts you want to merge.
-2. Click ![icon](../media/btn-Menu.png)and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the contact to merge with this one.
+2. Click ![icon][img1] and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the contact to merge with this one.
 3. In the search field, start typing the contact's name. Enter **%** to display all contacts.
 4. Select a contact from the list of search results. The selected contact opens in a new column in the table.
 5. To add more contacts, repeat the previous steps.
@@ -34,3 +34,9 @@ The contacts that have been overwritten will no longer be available in favourite
 ## What would you like to do now?
 
 [Merge companies](customers.viewCompany.mergecompanies.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

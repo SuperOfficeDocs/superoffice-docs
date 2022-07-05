@@ -17,7 +17,7 @@ The simplest way to search for requests is to use the predefined searches availa
 * **Last requests**: Shows the requests most recently recorded in the system. If specified in user preferences, this list will only contain requests from the categories you are a member of. <!-- Fix reuse ID=a1 -->
     To specify that only requests from categories you are a member of are displayed:
 
-    1. Select ![icon](../media/globalmenu-PersonalSettings-small.png)**Personal settings &gt; Settings**.
+    1. Select ![icon](../../../../media/icons/globalmenu-personalsettings-small.png)**Personal settings &gt; Settings**.
     2. Select the **Preferences** tab.
     3. Check **Show only own categories**.
     4. Click **OK**.
@@ -35,8 +35,14 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 3. Click **Search** to begin the search using the new search criteria.
 
 > [!TIP]
-> To restore the default settings, click the ![icon](../media/btn-Menu.png) menu button and select **Restore default**.
+> To restore the default settings, click the ![icon][img1] menu button and select **Restore default**.
 
 ## What would you like to do now?
 
 [View search results for requests](ticket.listTickets.showListTickets.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

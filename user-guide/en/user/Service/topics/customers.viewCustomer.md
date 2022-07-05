@@ -19,7 +19,7 @@ You can get to the **Contact** screen as follows:
 This screen comprises the following sections:
 
 * At the top of the screen, the contact header contains basic information about the contact. See [Contact header](customers.viewCustomer.md#ContactHeader).
-* The ![icon](../media/btn-Menu.png)**Actions** button gives access to tasks associated with contacts. See [Task buttons for contacts](customers.viewCustomer.md#TaskButtonsForContacts).
+* The ![icon][img1] **Actions** button gives access to tasks associated with contacts. See [Task buttons for contacts](customers.viewCustomer.md#TaskButtonsForContacts).
 * The **Requests** tab contains the requests associated with the contact in question.
 * The **Info** tab contains an overview of the data registered for the contact in question. The contents of the fields are described in detail under [Create contacts](customers.newCustomer.md).
 
@@ -29,7 +29,7 @@ The header of the **Contact** screen contains basic information about the contac
 
 ## Task buttons for contacts
 
-Click the ![icon](../media/btn-Menu.png)**Actions** button to access the following options:
+Click the ![icon][img1] **Actions** button to access the following options:
 
 * **Edit contact**: Click here to change the details registered for the contact. See [Edit contacts](customers.viewCustomer.editCustomer.md).
 * **New request**: Click here to create a new request linked to the contact in question. See [Create requests](ticket.newTicket.md).
@@ -47,3 +47,9 @@ Click the ![icon](../media/btn-Menu.png)**Actions** button to access the followi
 [Send passwords to contacts](customers.viewCustomer.sendNewCustMail.md)
 
 [View invoice data for contacts](customers.viewCustomer.listInvoices.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/btn-menu.png

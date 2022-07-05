@@ -14,4 +14,4 @@ To do this:
 > If you selected a selection under **Archive mailing** in **Setup** (step 1), this selection is listed under **Recipient sources**. You can delete this selection if necessary.
 
 <!-- Referenced images -->
-[img1]: ../media/btn-Add.png
+[img1]: ../../../media/icons/btn-add.png

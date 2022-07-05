@@ -29,7 +29,7 @@ Clicking the element profile button ( ![icon](../media/btn-editelementprofile.pn
 
 5. In the left-hand field below the list, enter the required column name.
 
-6. Click the list button ( ![icon](../media/btn-dropdown.png) ) next to the next field on the right, and select which field in the database you want to get data from.
+6. Click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ) next to the next field on the right, and select which field in the database you want to get data from.
 
 7. In the **Field size** list box, set the desired column width in characters.
 
@@ -76,4 +76,9 @@ You can edit the information about the existing columns, e.g. the name and colum
 
 ## Delete columns
 
-Click the delete icon ( ![icon](../media/btn-delete.png) ) to the right of the required column. The column is removed immediately.
+Click the delete icon ( ![icon][img1] ) to the right of the required column. The column is removed immediately.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-delete.png
