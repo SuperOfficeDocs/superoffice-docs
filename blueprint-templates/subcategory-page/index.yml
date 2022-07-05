@@ -1,0 +1,27 @@
+### YamlMime:SubCategory
+
+title: {{name}} # First title
+summary: # First title summary
+
+metadata:
+  title: {{name}} # Metadata title
+  description: # Metadata description
+  ms.topic: landing-page
+  ms.date: # mm.dd.yyyy
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+landingContent:
+  # Card 1
+  - title: Visible text # Card heading
+    linkLists:
+      - linkListType: download # Determines icon, see options above
+        links:
+        - text: # Link text shown
+          url: https://community.superoffice.com/ # Link target
+        # Add more links (- text blocks)
+      # Add more link list type
+
+  # Add another card here, and so on
