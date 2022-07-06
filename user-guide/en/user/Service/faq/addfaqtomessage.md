@@ -13,7 +13,7 @@ language: en
 
 When you respond to a customer enquiry, you can save time by inserting a link to an FAQ entry in your reply. To do this:
 
-1. Go to the **Message** tab, as described under [Reply to customer](ticket.showListTickets.addMessage.md).
+1. Go to the **Message** tab, as described under [Reply to customer](../topics/ticket.showListTickets.addMessage.md).
 2. Position the mouse pointer in the message where you want to insert the link.
 3. In the **Insert** field, first click **FAQ entry** and then the entry you want.  
     or  

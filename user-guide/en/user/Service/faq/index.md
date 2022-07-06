@@ -19,20 +19,20 @@ FAQs are closely integrated with the request handling: customer enquiries will o
 
 ## What would you like to do now?
 
-[View FAQ entries](document.faq.viewKbEntry.md)
+[View FAQ entries](viewKbEntry.md)
 
-[Create FAQ entries](document.faq.newKbEntry.md)
+[Create FAQ entries](newKbEntry.md)
 
-[Edit FAQ entries](document.faq.editKbEntry.md)
+[Edit FAQ entries](editKbEntry.md)
 
-[Delete FAQ entries](document.faq.delKbEntry.md)
+[Delete FAQ entries](delKbEntry.md)
 
-[Search for FAQ entries](document.faq.findKbEntry.md)
+[Search for FAQ entries](findKbEntry.md)
 
-[Administrate folders of FAQ entries](document.faq.editKbCategory.md)
+[Administrate folders of FAQ entries](editKbCategory.md)
 
-[Add FAQ entries to messages](document.faq.addFaqToMessage.md)
+[Add FAQ entries to messages](addFaqToMessage.md)
 
-[Publish FAQ entries](document.faq.publishFAQ.md)
+[Publish FAQ entries](publishFAQ.md)
 
-[Work with the workflow](document.faq.editKbWorkflow.md)
+[Work with the workflow](editKbWorkflow.md)

@@ -11,12 +11,7 @@ language: en
 
 # Work with workflow
 
-In a new installation, the workflow contains two default stages: **Unpublished** and **Published**. It is possible to add additional stages between these two. For example, you can set up a workflow where an FAQ entry is sent to be proof-read, so that someone checks the entry and then publishes it, or sends it unpublished back for editing. This topic contains information about the following:
-
-* [Create new stage](document.faq.editKbWorkflow.md#CreateNewStage)
-* [Edit stage](document.faq.editKbWorkflow.md#EditStage)
-* [Delete stage](document.faq.editKbWorkflow.md#DeleteStage)
-* [Publish via workflow](document.faq.editKbWorkflow.md#PublishViaWorkflow)
+In a new installation, the workflow contains two default stages: **Unpublished** and **Published**. It is possible to add additional stages between these two. For example, you can set up a workflow where an FAQ entry is sent to be proof-read, so that someone checks the entry and then publishes it, or sends it unpublished back for editing.
 
 ## Create new stage
 
@@ -60,8 +55,8 @@ You can both change the name of a stage and alter which users are to have access
 
 ## Publish via workflow
 
-1. Open the FAQ entry. See [View FAQ entries](document.faq.viewKbEntry.md).
-2. If you want to adjust anything before publishing, follow the procedure under [Publish FAQ entries](document.faq.publishFAQ.md).
+1. Open the FAQ entry. See [View FAQ entries](viewKbEntry.md).
+2. If you want to adjust anything before publishing, follow the procedure under [Publish FAQ entries](publishFAQ.md).
 3. Click the **Move forward in workflow** button until **Published** is shown in the **Workflow stage** field in the **Details** tab.
 
 > [!TIP]

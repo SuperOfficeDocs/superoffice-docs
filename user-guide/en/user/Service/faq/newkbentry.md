@@ -13,14 +13,14 @@ language: en
 
 By creating FAQ entries, your organisation can build up a comprehensive collection of questions and answers which both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
-* A user can create an FAQ entry, based on communication with a customer in **Requests**. See [Create an FAQ entry from a request](document.faq.newKbEntry.md#CreateFAQEntriesFromTheRequestsModule).
-* An administrator can create an FAQ entry directly in **Knowledge Base &gt; FAQ**. See [Create new FAQ entries](document.faq.newKbEntry.md#CreateFAQEntriesFromTheFAQModule).
+* A user can create an FAQ entry, based on communication with a customer in **Requests**. See [Create an FAQ entry from a request](newKbEntry.md#CreateFAQEntriesFromTheRequestsModule).
+* An administrator can create an FAQ entry directly in **Knowledge Base &gt; FAQ**. See [Create new FAQ entries](newKbEntry.md#CreateFAQEntriesFromTheFAQModule).
 
 ## Create FAQ entries from a request
 
 If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers. To do this:
 
-1. Open a request. See [Process requests](ticket.listTicket.md).
+1. Open a request. See [Process requests](../topics/ticket.listTicket.md).
 
 2. Click the ![icon][img1] **Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
@@ -28,7 +28,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 4. In the **Position** field, select a number for the entry's position in the sort order of the folder it belongs in. 1 means the top of the list.
 
-5. In the **Folder** field, select which folder you want to place the entry in. This is relevant if you have a folder structure for FAQ entries. See [Administrate folders of FAQ entries](document.faq.editKbCategory.md).
+5. In the **Folder** field, select which folder you want to place the entry in. This is relevant if you have a folder structure for FAQ entries. See [Administrate folders of FAQ entries](editKbCategory.md).
 
 6. In the **Access** field, select who is to have access to the FAQ entry in question:
     * **Private**: Only you. This can be relevant if you are creating new FAQ entries or updating outdated FAQ entries.
@@ -41,7 +41,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 8. As an FAQ administrator, you can choose from the following options in the **Workflow** field:
 
     * **Unpublished**: Choose this option if you do not want to publish the FAQ entry at the moment.
-    * **Published**: Choose this option if you want to publish the FAQ entry immediately. See [Publish FAQ entries](document.faq.publishFAQ.md).
+    * **Published**: Choose this option if you want to publish the FAQ entry immediately. See [Publish FAQ entries](publishFAQ.md).
     * **Expired**: Select this option if the FAQ entry is no longer current. This will be most relevant when editing existing FAQ entries.
 
     > [!NOTE]
@@ -74,24 +74,24 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 14. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
 
-15. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it. See [Publish FAQ entries](document.faq.publishFAQ.md).
+15. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it. See [Publish FAQ entries](publishFAQ.md).
 
 ## Create new FAQ
 
 You can also create an FAQ entry as follows:
 
 1. Select **Knowledge Base** &gt; **FAQ**.
-2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can create a new folder. See [Administrate folders of FAQ entries](document.faq.editKbCategory.md).
+2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can create a new folder. See [Administrate folders of FAQ entries](editKbCategory.md).
 3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
-4. Follow the procedure [above](document.faq.newKbEntry.md#step3), from step 3 onwards.
+4. Follow the procedure [above](newKbEntry.md#step3), from step 3 onwards.
 
 Since the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 
 ## What would you like to do now?
 
-[Edit FAQ entries](document.faq.editKbEntry.md)
+[Edit FAQ entries](editKbEntry.md)
 
-[Publish FAQ entries](document.faq.publishFAQ.md)
+[Publish FAQ entries](publishFAQ.md)
 
 <!-- Referenced links -->
 

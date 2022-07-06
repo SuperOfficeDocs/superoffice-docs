@@ -34,17 +34,17 @@ Under **Knowledge Base** &gt; **FAQ** you can create a folder structure for FAQs
 
 8. In the **Access control** field, you can enter a script to use to control external customers' access to this folder. If this field contains a script, it will be evaluated and access granted only if the script returns a value of "1".
 
-9. Click **OK**. The new folder is created. You are now ready to add FAQ entries to the new folder. See [Create FAQ entries](document.faq.newKbEntry.md).
+9. Click **OK**. The new folder is created. You are now ready to add FAQ entries to the new folder. See [Create FAQ entries](newKbEntry.md).
 
 ## Delete folders
 
 Before you delete an FAQ folder, you need to remove all the entries in it. You do this in one of the following ways:
 
-* You can delete the FAQ entries as described under [Delete FAQ entries](document.faq.delKbEntry.md).
-* You can move an FAQ entry to another folder by changing the content of the **Folder** field when you edit an entry. See [Edit FAQ entries](document.faq.editKbEntry.md).
+* You can delete the FAQ entries as described under [Delete FAQ entries](delKbEntry.md).
+* You can move an FAQ entry to another folder by changing the content of the **Folder** field when you edit an entry. See [Edit FAQ entries](editKbEntry.md).
 
 [!include[How to delete a folder](../../includes/howto-delete-folder-kb.md)]
 
 ## What would you like to do now?
 
-[Create FAQ entries](document.faq.newKbEntry.md)
+[Create FAQ entries](newKbEntry.md)

@@ -45,7 +45,7 @@ The toolbar contains the following options:
   * **Split request**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can split the request into two using this button. See [Split requests](ticket.showListTickets.splitTicket.md).
   * **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and e-mail), you can merge these requests into one request which will be processed. See [Merge requests](ticket.showListTickets.mergeTickets.md).
   * **Log**: Click here to view the history of this request. The request log shows everything that has happened to this request since it was first registered.
-  * **Publish to FAQ**: If the same question comes up time and again, it is a good idea to create an answer that can be reused. You click here to send the customer's question and your answer to the administrator, who can then edit and publish the FAQ entry. See [Create FAQ entries](document.faq.newKbEntry.md).
+  * **Publish to FAQ**: If the same question comes up time and again, it is a good idea to create an answer that can be reused. You click here to send the customer's question and your answer to the administrator, who can then edit and publish the FAQ entry. See [Create FAQ entries](../faq/newKbEntry.md).
   * **Print request**: Click here to print the request.
 
 ## Messages tab

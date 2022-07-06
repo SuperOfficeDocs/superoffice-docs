@@ -276,28 +276,28 @@ items:
     href: topics/document.emailaddressbook.vieweabentry.md
   - name: Document externalDocument
     href: topics/document.externaldocument.md
-  - name: Document faq
-    href: topics/document.faq.md
+  - name: FAQ
+    href: faq/index.md
   - name: Document faq addFaqToMessage
-    href: topics/document.faq.addfaqtomessage.md
+    href: faq/addfaqtomessage.md
   - name: Document faq delKbEntry
-    href: topics/document.faq.delkbentry.md
+    href: faq/delkbentry.md
   - name: Document faq editKbCategory
-    href: topics/document.faq.editkbcategory.md
+    href: faq/editkbcategory.md
   - name: Document faq editKbEntry
-    href: topics/document.faq.editkbentry.md
+    href: faq/editkbentry.md
   - name: Document faq editKbWorkflow
-    href: topics/document.faq.editkbworkflow.md
+    href: faq/editkbworkflow.md
   - name: Document faq findKbEntry
-    href: topics/document.faq.findkbentry.md
+    href: faq/findkbentry.md
   - name: Document faq newKbEntry
-    href: topics/document.faq.newkbentry.md
+    href: faq/newkbentry.md
   - name: Document faq publishFAQ
-    href: topics/document.faq.publishfaq.md
+    href: faq/publishfaq.md
   - name: Document faq viewKbComment
-    href: topics/document.faq.viewkbcomment.md
+    href: faq/viewkbcomment.md
   - name: Document faq viewKbEntry
-    href: topics/document.faq.viewkbentry.md
+    href: faq/viewkbentry.md
   - name: Document find
     href: topics/document.find.md
   - name: Document replyTemplates

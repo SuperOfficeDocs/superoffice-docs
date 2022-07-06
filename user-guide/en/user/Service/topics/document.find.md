@@ -27,6 +27,6 @@ To search for information in the knowledge base:
 
 [Work with e-mail addresses](document.emailAddressBook.md)
 
-[Work with FAQ entries](document.faq.md)
+[Work with FAQ entries](../faq/index.md)
 
 [Work with reply templates](document.replyTemplates.md)
