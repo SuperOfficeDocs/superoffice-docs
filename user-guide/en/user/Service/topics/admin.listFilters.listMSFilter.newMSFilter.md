@@ -68,11 +68,11 @@ To create a new e-mail filter:
 
     * **Mark e-mail as bounced**: If you check here, e-mail processed by this filter will be marked as bounced. This may be relevant for e-mails received from postmaster, mailer-daemon, etc.
 10. In the **E-mail response** tab, you can create different e-mails to be sent when the filter is triggered. Here you can enter the following information:
-    * **Send reply template**: Here you can select which reply template should be sent if the filter is triggered. For more on reply templates, see [Work with reply templates](document.replyTemplates.md).
+    * **Send reply template**: Here you can select which reply template should be sent if the filter is triggered. For more on reply templates, see [Work with reply templates](../reply-templates/index.md).
     * **... to contact**: If you check here, the selected reply template is sent back to the contact.
     * **... to**: If you check here, the selected reply template is sent to the e-mail address specified in the field on the right.
     * **... to (SMS)**: If you check here, the selected reply template is sent to the mobile number specified in the field on the right.
-    * **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply](document.replyTemplates.autoFAQ.md)). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
+    * **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply](../reply-templates/autoFAQ.md)). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
     * **Block auto-reply**: If you check here, the system will not reply automatically to this e-mail.
 11. In the **E-mail boxes** tab, you can select which mailboxes the filter applies to.
 12. Click **OK**. The e-mail filter is created.

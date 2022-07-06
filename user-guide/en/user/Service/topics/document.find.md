@@ -29,4 +29,4 @@ To search for information in the knowledge base:
 
 [Work with FAQ entries](../faq/index.md)
 
-[Work with reply templates](document.replyTemplates.md)
+[Work with reply templates](../reply-templates/index.md)

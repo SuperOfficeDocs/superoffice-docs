@@ -13,7 +13,7 @@ language: en
 
 [!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
-In the **System templates** screen, you can specify which reply templates the system should use. For more information about reply templates, see [Work with reply templates](document.replyTemplates.md). Information about the different options in the **System templates** screen can be found later in this topic:
+In the **System templates** screen, you can specify which reply templates the system should use. For more information about reply templates, see [Work with reply templates](../reply-templates/index.md). Information about the different options in the **System templates** screen can be found later in this topic:
 
 * [Requests](admin.editReplyTemplates.md#Requests)
 * [Favourites](admin.editReplyTemplates.md#Favourites)

@@ -300,26 +300,26 @@ items:
     href: faq/viewkbentry.md
   - name: Document find
     href: topics/document.find.md
-  - name: Document replyTemplates
-    href: topics/document.replytemplates.md
+  - name: Reply templates
+    href: reply-templates/index.md
   - name: Document replyTemplates addReplyTemplatesToMessages
-    href: topics/document.replytemplates.addreplytemplatestomessages.md
+    href: reply-templates/addreplytemplatestomessages.md
   - name: Document replyTemplates autoFAQ
-    href: topics/document.replytemplates.autofaq.md
+    href: reply-templates/autofaq.md
   - name: Document replyTemplates delReplyTemplate
-    href: topics/document.replytemplates.delreplytemplate.md
+    href: reply-templates/delreplytemplate.md
   - name: Document replyTemplates editReplyTemplateCustomerLang
-    href: topics/document.replytemplates.editreplytemplatecustomerlang.md
+    href: reply-templates/editreplytemplatecustomerlang.md
   - name: Document replyTemplates editReplyTemplateFolder
-    href: topics/document.replytemplates.editreplytemplatefolder.md
+    href: reply-templates/editreplytemplatefolder.md
   - name: Document replyTemplates findReplyTemplates
-    href: topics/document.replytemplates.findreplytemplates.md
+    href: reply-templates/findreplytemplates.md
   - name: Document replyTemplates newlangversion
-    href: topics/document.replytemplates.newlangversion.md
+    href: reply-templates/newlangversion.md
   - name: Document replyTemplates newReplyTemplate
-    href: topics/document.replytemplates.newreplytemplate.md
+    href: reply-templates/newreplytemplate.md
   - name: Document replyTemplates viewReplyTemplate
-    href: topics/document.replytemplates.viewreplytemplate.md
+    href: reply-templates/viewreplytemplate.md
   - name: Get next request in the queue
     href: topics/get-next-request-in-the-queue.md
   - name: Navigator options

@@ -16,7 +16,7 @@ Different companies have different routines for request handling and can use Sup
 ## Scenario 1: The customer submits the request by e-mail
 
 1. The customer writes an e-mail to support@company.com or fills out a form in a user-support portal.
-2. The customer receives automatic acknowledgement of receipt of the enquiry. See [Work with reply templates](document.replyTemplates.md).
+2. The customer receives automatic acknowledgement of receipt of the enquiry. See [Work with reply templates](../reply-templates/index.md).
 3. The enquiry from the customer is automatically registered as a request in SuperOffice Service.
 4. The request ends up with a request handler in SuperOffice Service. See [Receive requests](ticket.receiveTickets.md) and [Find requests](ticket.listTickets.md).
 5. The request handler reads through the request. See [List requests](ticket.listTicket.md).

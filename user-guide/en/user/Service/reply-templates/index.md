@@ -21,25 +21,25 @@ A reply template can for instance be a specific layout to implement on replies, 
 
 ## What would you like to do now?
 
-[View reply templates](document.replyTemplates.viewReplyTemplate.md)
+[View reply templates](viewReplyTemplate.md)
 
-[Create reply templates](document.replyTemplates.newReplyTemplate.md)
+[Create reply templates](newReplyTemplate.md)
 
-[Create new language version of reply template](document.replyTemplates.newlangversion.md)
+[Create new language version of reply template](newlangversion.md)
 
-[Create reply template with automatic FAQ reply](document.replyTemplates.autoFAQ.md)
+[Create reply template with automatic FAQ reply](autoFAQ.md)
 
-[Edit reply templates](document.replyTemplates.editReplyTemplateCustomerLang.md)
+[Edit reply templates](editReplyTemplateCustomerLang.md)
 
-[Copy reply templates](document.replyTemplates.viewReplyTemplate.md#CopyReplyTemplate)
+[Copy reply templates](viewReplyTemplate.md#CopyReplyTemplate)
 
-[Delete reply templates](document.replyTemplates.delReplyTemplate.md)
+[Delete reply templates](delReplyTemplate.md)
 
-[Search for reply templates](document.replyTemplates.findReplyTemplates.md)
+[Search for reply templates](findReplyTemplates.md)
 
-[Administrate folders of reply templates](document.replyTemplates.editReplyTemplateFolder.md)
+[Administrate folders of reply templates](editReplyTemplateFolder.md)
 
-[Add reply templates to messages](document.replyTemplates.addReplyTemplatesToMessages.md)
+[Add reply templates to messages](addReplyTemplatesToMessages.md)
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/

@@ -54,9 +54,9 @@ To create a new mailbox:
 
 15. In the **E-mail fields** field, you can enter a comma-separated list of e-mail fields (headers) to be displayed in the request message, for example, To and Cc.
 
-16. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer. For more on reply templates, see [Work with reply templates](document.replyTemplates.md).
+16. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer. For more on reply templates, see [Work with reply templates](../reply-templates/index.md).
 
-17. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply](document.replyTemplates.autoFAQ.md)). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
+17. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply](../reply-templates/autoFAQ.md)). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
 
 18. <!-- onsite--> Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon](../../../../media/icons/btn-add.png).
 

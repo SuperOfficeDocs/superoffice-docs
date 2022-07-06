@@ -37,7 +37,7 @@ To create a new category:
     > [!TIP]
     > If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](admin.listUsers.listUsergroups.md).
 
-5. In the **Reply template** tab, select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance. For more on reply templates, see [Work with reply templates](document.replyTemplates.md).  
+5. In the **Reply template** tab, select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance. For more on reply templates, see [Work with reply templates](../reply-templates/index.md).
     <!-- Fix reuse ID=a2 -->
     [!include[Reply templates with different layout](../../includes/custom-replytemplate.md)]
 
