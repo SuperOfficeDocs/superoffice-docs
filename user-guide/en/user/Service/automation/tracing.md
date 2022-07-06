@@ -4,7 +4,7 @@ title: Tracing
 description: Tracing
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Service
 so.topic: help
 language: en
 ---
@@ -34,16 +34,16 @@ To start tracing scripts:
 3. Fill in the following fields:
     * **Description**: Enter a description of the trace, to make it easier to identify.
     * **User filter**: If you want to trace the script for a specific user, select the user from the list.
-    * **Trace resolution**: Enter the sampling frequency of the trace log.
+    * **Trace resolution**: Enter the sampling frequency of the trace log.  
         Example: Enter 1 to log every command that is executed by the script. Enter 5 to log every fifth command that is executed by the script.
     * **Keep traces**: Select how long the trace logs should be kept.
     * **Enabled**: Select this option to activate the trace.
 4. Click **OK** when you are done.
 
 <!-- Referenced links -->
-[1]: blogic.listDebugSessions.viewDebugSession.md
+[1]: listDebugSessions.viewDebugSession.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-executescript.png
-[img2]: ../../../media/icons/btn-script-trace-small.png
-[img3]: ../../../media/icons/edit.png
+[img1]: ../../../../media/icons/btn-executescript.png
+[img2]: ../../../../media/icons/btn-script-trace-small.png
+[img3]: ../../../../media/icons/edit.png

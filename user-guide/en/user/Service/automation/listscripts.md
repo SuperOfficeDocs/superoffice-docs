@@ -4,7 +4,7 @@ title: blogic listScripts
 description: blogic listScripts
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Service
 so.topic: help
 language: en
 ---
@@ -27,15 +27,15 @@ A script is a small program written to perform specific tasks, and requires prog
 
 In the **Macros and scripts** tab you have the following options:
 
-* **New script**: Click here to create a new script. See [Create a script](blogic.listScripts.editScript.md).
-* **New macro**: Click here to create a new macro. See [Create a macro](blogic.listScripts.editMacro.md).
-* **New folder**: Click this button to create a new folder. See [Macro/script folder properties](blogic.listScripts.editScriptFolder.md).
+* **New script**: Click here to create a new script. See [Create a script](listScripts.editScript.md).
+* **New macro**: Click here to create a new macro. See [Create a macro](listScripts.editMacro.md).
+* **New folder**: Click this button to create a new folder. See [Macro/script folder properties](listScripts.editScriptFolder.md).
 * **Search**: Click here to search for macros and scripts in the selected folder and sub-folders.
 
 ## What would you like to do now?
 
 [View a script/macro](View-script-macro.md)
 
-[Create a script](blogic.listScripts.editScript.md)
+[Create a script](listScripts.editScript.md)
 
-[Create a macro](blogic.listScripts.editMacro.md)
+[Create a macro](listScripts.editMacro.md)

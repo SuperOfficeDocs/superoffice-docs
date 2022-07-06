@@ -458,28 +458,28 @@ items:
     href: topics/ticket.tags.md
   - name: Ticket ticketStepByStep
     href: topics/ticket.ticketstepbystep.md
-- name: Topics script
-  href: topics-script/blogic.listdebugsessions.md
+- name: Automation
+  href: automation/listdebugsessions.md
   items:
   - name: Blogic listDebugSessions
-    href: topics-script/blogic.listdebugsessions.md
+    href: automation/listdebugsessions.md
   - name: Blogic listDebugSessions viewDebugSession
-    href: topics-script/blogic.listdebugsessions.viewdebugsession.md
+    href: automation/listdebugsessions.viewdebugsession.md
   - name: Blogic listEventHandler
-    href: topics-script/blogic.listeventhandler.md
+    href: automation/listeventhandler.md
   - name: Blogic listScheduledTasks
-    href: topics-script/blogic.listscheduledtasks.md
+    href: automation/listscheduledtasks.md
   - name: Blogic listScripts
-    href: topics-script/blogic.listscripts.md
+    href: automation/listscripts.md
   - name: Blogic listScripts editMacro
-    href: topics-script/blogic.listscripts.editmacro.md
+    href: automation/listscripts.editmacro.md
   - name: Blogic listScripts editScript
-    href: topics-script/blogic.listscripts.editscript.md
+    href: automation/listscripts.editscript.md
   - name: Blogic listScripts editScriptFolder
-    href: topics-script/blogic.listscripts.editscriptfolder.md
+    href: automation/listscripts.editscriptfolder.md
   - name: CRMScript
-    href: topics-script/crmscript.md
+    href: automation/index.md
   - name: Tracing
-    href: topics-script/tracing.md
+    href: automation/tracing.md
   - name: View script macro
-    href: topics-script/view-script-macro.md
+    href: automation/view-script-macro.md

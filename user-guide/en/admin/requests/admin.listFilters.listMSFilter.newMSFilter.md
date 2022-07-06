@@ -19,7 +19,7 @@ To create a new e-mail filter:
 4. In the **Filter** tab, you can specify which e-mails are to be filtered, by entering the following information:
     * **Description**: Enter a brief description of the e-mail filter.
     * **Priority**: In this list box, you select the filter's priority. A value of 10 is the highest priority and 1 the lowest.
-    * **Script**: Here you can select a script or macro to be run by this filter. See [Macros and scripts](../topics-script/blogic.listScripts.md).
+    * **Script**: Here you can select a script or macro to be run by this filter. See [Macros and scripts](../../user/service/automation/index.md).
 5. Select whether to apply this filter for all incoming e-mail or only e-mails matching specific criteria:
     * **All incoming e-mail**: If you select this option, the e-mail filter is used for all incoming e-mails.
     * **E-mail which contains**: If you select this option, e-mails containing the fixed expression (regexp) specified in the fields to the right will trigger the e-mail filter. In the list box on the far right, you can choose between the e-mail header and/or e-mail body.

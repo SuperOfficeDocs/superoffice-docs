@@ -4,7 +4,7 @@ title: CRMScript
 description: CRMScript
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Service
 so.topic: help
 language: en
 ---
@@ -22,13 +22,13 @@ Triggers are scripts that are executed for specific events in the system, such a
 
 The following tabs are available:
 
-[Macros and scripts](blogic.listScripts.md) - Create macros and scripts to automate and schedule tasks in SuperOffice.
+[Macros and scripts](listScripts.md) - Create macros and scripts to automate and schedule tasks in SuperOffice.
 
-[Triggers](blogic.listEventHandler.md) - Define that a certain event in the system will trigger one or more predefined actions.
+[Triggers](listEventHandler.md) - Define that a certain event in the system will trigger one or more predefined actions.
 
-[Scheduled tasks](blogic.listScheduledTasks.md) - Specify that a script or macro should be run at specific times.
+[Scheduled tasks](listScheduledTasks.md) - Specify that a script or macro should be run at specific times.
 
-[Debug sessions](blogic.listDebugSessions.viewDebugSession.md) - Find and fix bugs inside your scripts and macros.
+[Debug sessions](listDebugSessions.viewDebugSession.md) - Find and fix bugs inside your scripts and macros.
 
 [Tracing](Tracing.md) - Record every detail in the execution of a script or macro and save it in a log.
 
@@ -36,4 +36,4 @@ The following tabs are available:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../../media/icons/globalmenu-settings-small.png

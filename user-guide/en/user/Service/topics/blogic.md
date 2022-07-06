@@ -19,17 +19,17 @@ Here you can find the advanced options in SuperOffice Service. To go here select
 
 [Tables](blogic.listExtraTables.md)
 
-[CRMScript](../topics-script/CRMScript.md)
+[CRMScript](../automation/index.md)
 
-[Macros and scripts](../topics-script/blogic.listScripts.md)
+[Macros and scripts](../automation/listScripts.md)
 
-[Triggers](../topics-script/blogic.listEventHandler.md)
+[Triggers](../automation/listEventHandler.md)
 
-[Scheduled tasks](../topics-script/blogic.listScheduledTasks.md)
+[Scheduled tasks](../automation/listScheduledTasks.md)
 
-[Debug sessions](../topics-script/blogic.listDebugSessions.viewDebugSession.md)
+[Debug sessions](../automation/listDebugSessions.viewDebugSession.md)
 
-[Tracing](../topics-script/Tracing.md)
+[Tracing](../automation/Tracing.md)
 
 [Screens](blogic.listScreenDefinitions.editScreenDefinition.md)
 

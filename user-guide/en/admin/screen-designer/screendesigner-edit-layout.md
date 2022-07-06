@@ -121,7 +121,7 @@ You can also add the link name in other languages by clicking ![icon][img1] (see
 In the **Action** list, select the action to perform when clicking the link:
 
 * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
-* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../topics-script/CRMScript.md).
+* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../../user/service/automation/index.md).
 * **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
 In the **Mode** list, choose if the link should always be available, or if it should only be available in read or edit mode.
@@ -146,7 +146,7 @@ You can also add the button name in other languages by clicking ![icon][img1] (s
 In the **Action** list, select the action to perform when clicking the button:
 
 * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
-* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../topics-script/CRMScript.md).
+* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../../user/service/automation/index.md).
 * **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
 In the **Mode** list, choose if the button should always be available, or if it should only be available in read or edit mode.

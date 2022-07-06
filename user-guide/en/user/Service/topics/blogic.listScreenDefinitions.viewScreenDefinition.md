@@ -23,7 +23,7 @@ Here you can view the details of the selected screen.
 
 * **New script**: Click here to add a new script. See [Edit button](blogic.listScreenDefinitions.editScreenAction.md).
 
-* **New macro**: Click here to add a new macro. See [Create a macro](../topics-script/blogic.listScripts.editMacro.md).
+* **New macro**: Click here to add a new macro. See [Create a macro](../automation/listScripts.editMacro.md).
 
 * **Show screen**: Click here to show the screen.
 

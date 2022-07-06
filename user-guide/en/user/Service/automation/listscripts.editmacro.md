@@ -4,14 +4,14 @@ title: blogic listScripts editMacro
 description: blogic listScripts editMacro
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Service
 so.topic: help
 language: en
 ---
 
 # Create a macro
 
-Macros have a number of functions in SuperOffice. They can be linked to specific [triggers](blogic.listEventHandler.md) in the system (such as escalations or new message on request in SuperOffice Service) or be assigned to buttons in defined screens, so that users can click a button to perform a set of actions that are often repeated. This makes request management faster and users avoid unnecessary clicking.
+Macros have a number of functions in SuperOffice. They can be linked to specific [triggers](listEventHandler.md) in the system (such as escalations or new message on request in SuperOffice Service) or be assigned to buttons in defined screens, so that users can click a button to perform a set of actions that are often repeated. This makes request management faster and users avoid unnecessary clicking.
 
 For example, you can use macros
 
@@ -52,10 +52,11 @@ We will now create a macro based on the example above.
 
 9. Click **OK** when you are done.
 
-Some of the more advanced macro functions are described in [Triggers](blogic.listEventHandler.md).
+Some of the more advanced macro functions are described in [Triggers](listEventHandler.md).
 
 <!-- Referenced links -->
+[1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/globalmenu-settings-small.png

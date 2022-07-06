@@ -23,9 +23,9 @@ This screen has following options:
 | Icon | Description |
 |---|---|
 | ![icon][img1] | **Macros and scripts**: Click here to return to the list of the scripts and macros. |
-| ![icon][img3] | **Edit script**: Click here to edit the [script or macro](blogic.listScripts.editScript.md). |
+| ![icon][img3] | **Edit script**: Click here to edit the [script or macro](listScripts.editScript.md). |
 | ![icon][img5] | **Run script**: Click here to run the script or macro in standard mode. |
-| ![icon][img6] | **Debug script**: Click here to run the selected script or macro in debug mode. This opens the **Debugger** screen (see [Debugger). If you run a script in debug mode, it stops at the first line. You can open a debug session from the **Debug sessions** tab. See Debug sessions](blogic.listDebugSessions.md). |
+| ![icon][img6] | **Debug script**: Click here to run the selected script or macro in debug mode. This opens the **Debugger** screen (see [Debugger). If you run a script in debug mode, it stops at the first line. You can open a debug session from the **Debug sessions** tab. See Debug sessions](listDebugSessions.md). |
 | ![icon][img4] | **Trace script**: Click here to start tracing the script or macro. See [Tracing](Tracing.md). |
 
 <!-- Referenced links -->

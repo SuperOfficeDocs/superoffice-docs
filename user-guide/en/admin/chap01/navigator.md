@@ -30,14 +30,14 @@ The Navigator on the far left of the main screen contains the following buttons:
 | [![icon](../media/Knapp-Systemvalg.bmp)](../chap06/Options.md) | **Options**: opens the **Options** screen, where you can define system-wide settings, i.e. settings for freetext search, time zones, number allocation, labels and reports. |
 | [![icon](../media/Knapp-Import.bmp)](../import-web/Import-web.md) | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. |
 | [![icon](../media/Knapp-Felt.bmp)](../fields-web/Fields-web.md) | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. |
-| [![icon](../media/Knapp-CRMScript.bmp)](../topics-script/CRMScript.md) | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. |
+| [![icon](../media/Knapp-CRMScript.bmp)][1]] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. |
 | ![icon](../media/Knapp-requests.png) | **Requests**: here you can find various settings for requests in SuperOffice Service. |
 | ![icon](../media/Knapp-customercentre.png) | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. |
 | ![icon](../media/Knapp-systemdesign.png) | **System design**: here you can find various advanced settings for SuperOffice Service. |
 | [![icon](../media/Knapp-AppStore.png)](https://online.superoffice.com/appstore/Category/all) | **App Store**: Click here to open the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online. |
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../user/service/automation/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/chat-btn.png

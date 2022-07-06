@@ -154,7 +154,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 * **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
 * **E-mail response**: Select a form response to send to contacts when their form is processed. To create a form response, see [Form response: Step 1: Setup](form-create-step1-setup.md).
 * **Create request**: If you have added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
-* **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript](../../Service/topics-script/CRMScript.md).
+* **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript](../../service/automation/index.md).
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/campanies to one specific category and/or business.  
     For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.
 

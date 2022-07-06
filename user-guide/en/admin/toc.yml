@@ -601,28 +601,3 @@ items:
     href: systemdesign/blogic.listswebpanels.md
   - name: System design
     href: systemdesign/system-design.md
-- name: Topics script
-  href: topics-script/blogic.listdebugsessions.md
-  items:
-  - name: Blogic listDebugSessions
-    href: topics-script/blogic.listdebugsessions.md
-  - name: Blogic listDebugSessions viewDebugSession
-    href: topics-script/blogic.listdebugsessions.viewdebugsession.md
-  - name: Blogic listEventHandler
-    href: topics-script/blogic.listeventhandler.md
-  - name: Blogic listScheduledTasks
-    href: topics-script/blogic.listscheduledtasks.md
-  - name: Blogic listScripts
-    href: topics-script/blogic.listscripts.md
-  - name: Blogic listScripts editMacro
-    href: topics-script/blogic.listscripts.editmacro.md
-  - name: Blogic listScripts editScript
-    href: topics-script/blogic.listscripts.editscript.md
-  - name: Blogic listScripts editScriptFolder
-    href: topics-script/blogic.listscripts.editscriptfolder.md
-  - name: CRMScript
-    href: topics-script/crmscript.md
-  - name: Tracing
-    href: topics-script/tracing.md
-  - name: View script macro
-    href: topics-script/view-script-macro.md
