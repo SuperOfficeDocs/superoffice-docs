@@ -40,4 +40,4 @@ The Navigator on the far left of the main screen contains the following buttons:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/chat-btn.png
+[img1]: ../../../media/icons/chat-btn.png

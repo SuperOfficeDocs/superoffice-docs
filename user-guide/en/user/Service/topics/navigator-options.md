@@ -21,16 +21,16 @@ When you click a navigator button, one or more of the buttons below are displaye
 
 <details><summary>Click here to see a screenshot</summary><!-- Fix reuse ID=a1 -->
 
-![icon](../media/loc/Navigator_preview.png)
+![icon](../media/navigator-preview-service.png)
 
 </details>
 
 | Button | Description |
 |:-:|---|
-| ![icon](../media/navigator_list.png)       | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
-| ![icon](../media/navigator_history.png)    | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
-| ![icon](../media/navigator_favourites.png) | **Favourites**: Click this button to view the records you have set as favourites. See [Favourites](rms.navigate.favourites.md). |
-| ![icon](../media/navigator_search.png)     | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic, so you only need to start typing your search phrase to initiate the search. |
+| ![icon][img1]       | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
+| ![icon](../media/navigator-history.png)    | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
+| ![icon](../media/navigator-favorites.png) | **Favourites**: Click this button to view the records you have set as favourites. See [Favourites](rms.navigate.favourites.md). |
+| ![icon](../media/navigator-search.png)     | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic, so you only need to start typing your search phrase to initiate the search. |
 
 > [!NOTE]
 > Clicking the **Dashboard** button only opens the dashboard.

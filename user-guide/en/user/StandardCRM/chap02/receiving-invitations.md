@@ -11,7 +11,7 @@ language: en
 
 # Receive invitations
 
-![icon](../../../../media/icons/globalmenu-notice-new.png)
+![icon](../../media/globalmenu-notice-new.png)
 
 Participants who are invited to a follow-up will receive a notification on the Top bar. Click the **Notifications** icon to view the invitations(s).
 
@@ -30,9 +30,9 @@ The icons in the list of invitations show information about the follow-up you ar
 
 | Icon | Description |
 |---|---|
-| ![icon](../media/invitation_accepted.bmp) | Icon for follow-ups you have accepted an invitation to. |
-| ![icon](../media/invitasjon_avslått.bmp) | Icon for follow-ups you have declined. These follow-ups stay in the **Invitations** dialog until the day after the follow-up takes place, so that you retain the option of changing your mind. |
-| ![icon](../media/Recurring_booking_assignment.bmp) | Repeating follow-up. |
+| ![icon](../media/invitation-accepted.bmp) | Icon for follow-ups you have accepted an invitation to. |
+| ![icon](../media/invitasjon-avslått.bmp) | Icon for follow-ups you have declined. These follow-ups stay in the **Invitations** dialog until the day after the follow-up takes place, so that you retain the option of changing your mind. |
+| ![icon](../media/Recurring-booking-assignment.bmp) | Repeating follow-up. |
 
 ## Filter the display
 

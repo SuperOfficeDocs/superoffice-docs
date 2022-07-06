@@ -41,7 +41,7 @@ To create a new combined selection:
 
 12. Check **Completed** if you want to specify that the selection is inactive. If you want the selection to be active, leave this box unchecked.
 
-13. To add the selection to favourites, click the star icon ![icon][img1]. The star turns yellow ![icon](../../Service/media/favourite-active.png), and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu.
+13. To add the selection to favourites, click the star icon ![icon][img1]. The star turns yellow ![icon][img2], and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu.
 
 14. Click **Save** to save the selection in the database.  
     Once the selection has been saved, you can [edit it](Editing-Selections.md) to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.
@@ -57,3 +57,4 @@ To create a new combined selection:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/favorite-inactive.png
+[img2]: ../../../../media/icons/favorite-active.png

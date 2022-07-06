@@ -2,4 +2,4 @@ SharePoint: Create a new document. If it opens in Microsoft Office Online, you a
 
 SuperOffice Web Tools: Open the system tray in the lower right corner of your desktop and look for the SuperOffice icon .
 
-![icon](../media/webtools-systray.png)
+![icon](../standardcrm/media/webtools-systray.png)

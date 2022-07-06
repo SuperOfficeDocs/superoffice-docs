@@ -10,4 +10,4 @@ The columns of the **Project** section tab contain the following information:
 * User ID for the person who created the project.
 
 <!-- Referenced images -->
-[img1]: ../media/Binders.bmp
+[img1]: ../standardcrm/media/binders.bmp

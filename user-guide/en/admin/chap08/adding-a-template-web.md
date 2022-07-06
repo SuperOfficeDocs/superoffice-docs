@@ -53,15 +53,15 @@ Enter the following information in the **Details** tab:
     > [!TIP]
     >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
-5. ![icon](../OnPremises.png) Check the **Publish** option if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
+5. <!-- onsite-->Check the **Publish** option if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
 
-6. ![icon](../OnPremises.png) Check the **Save to database** option to specify that documents that you create using this template will be saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM once you have created it and you cannot access it from the program.
+6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template will be saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM once you have created it and you cannot access it from the program.
 
 7. Check the **Quote document type** option if the document is to be available as a quote template or order confirmation template. You select the quote document type in the list below.
 
     [!include[Link to quote template docs](../includes/learn-quote-templates.md)]
 
-8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables](../Template-variables.md)).
+8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables][2]).
 
 9. Optionally, type in a description of the template in the **Description** field.
 
@@ -80,5 +80,6 @@ Here you can add translated versions of the document template. To do this:
 
 <!-- Referenced links -->
 [1]: ../Quote-templates.pdf
+[2]: ../../user/standardcrm/chap02/template-variables.md
 
 <!-- Referenced images -->

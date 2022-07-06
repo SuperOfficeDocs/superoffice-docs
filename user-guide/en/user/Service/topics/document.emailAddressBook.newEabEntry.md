@@ -27,6 +27,6 @@ To register an e-mail address:
 
 6. In the **E-mail address** field, enter the person's e-mail address.
 
-7. ![icon](../../media/CRMOnline.png) In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
+7. <!-- online --> In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 8. Click **OK**. The e-mail address is added to the specified folder and will be available the next time you want to send an e-mail.

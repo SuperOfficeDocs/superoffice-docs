@@ -1,5 +1,5 @@
 ---
-uid: help-en-step-3--content---form-response
+uid: help-en-step-3-content-form-response
 title: Step 3  Content - Form response
 description: Step 3  Content - Form response
 author: SuperOffice RnD

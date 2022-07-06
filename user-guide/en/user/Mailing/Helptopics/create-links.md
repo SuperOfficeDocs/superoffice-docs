@@ -25,9 +25,15 @@ To create a link:
 
     [!include[How to create a mailing folder](../../includes/create-mailing-folder.md)]
 
-3. Click the ![icon](../media/btn-Add.png)**Add** button. This takes you to the **Link properties** screen.
+3. Click the ![icon][img1] **Add** button. This takes you to the **Link properties** screen.
 4. Enter a descriptive name for the link in the **Name** field.
 5. Under **Link actions** at the bottom of the screen, you can choose what should happen when the recipient clicks the link in the message. See [Define link actions](Define-link-actions.md).
 6. Click **OK** when you are done.
 
 A small dot on the link action tabs indicate which link actions are active. Multiple link actions can be active for a link.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png

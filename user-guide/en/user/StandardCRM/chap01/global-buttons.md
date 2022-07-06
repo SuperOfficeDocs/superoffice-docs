@@ -15,11 +15,17 @@ The global buttons appear throughout SuperOffice CRM. Some of them are in the ma
 
 | Button | Function |
 |---|---|
-| ![icon](../../media/globalmenu_search.png) | Click here to open the search window. |
-| ![icon](../media/Dialogboksknapper_Telefon.bmp) | Click here to choose a telephone number to dial. |
-| ![icon](../media/Dialogboksknapper_pil_ned.bmp) | Click an arrow button to open and close a list box. |
-| ![icon](../../media/btn_Menu.png) | Click here to open a menu containing tasks relevant to the dialog or screen. |
+| ![icon](../../media/globalmenu-search.png) | Click here to open the search window. |
+| ![icon](../media/Dialogboksknapper-Telefon.bmp) | Click here to choose a telephone number to dial. |
+| ![icon](../media/Dialogboksknapper-pil-ned.bmp) | Click an arrow button to open and close a list box. |
+| ![icon][img1] | Click here to open a menu containing tasks relevant to the dialog or screen. |
 
 ## Related topics
 
 [The Top bar](Buttons-in-the-menu-bar.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-menu.png

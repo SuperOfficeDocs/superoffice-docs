@@ -34,7 +34,7 @@ This is a description of the **Edit quote** dialog.
 The products in the quote are displayed on this tab.
 
 > [!NOTE]
-> If the quote contains several alternatives, the favourite alternative is indicated with ![icon](../media/quote-favourite-active.png) next to the tab name.  
+> If the quote contains several alternatives, the favourite alternative is indicated with ![icon](../media/quote-favorite-active.png) next to the tab name.  
 If the alternative contains warnings or messages for one or more products, an <!-- Fix reuse ID=a3 --> is shown next to the tab name.
 
 | Icon | Explanation | Solution |

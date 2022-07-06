@@ -15,7 +15,7 @@ In the **Users** screen you can add and edit different types of users:
 
 * **Associates**: SuperOffice CRM users (in your company)
 
-* **Other users** ![icon](../OnPremises.png): On this tab, you can add and edit anonymous users and system users. See [Other users](Other-users.md).
+* **Other users** <!-- onsite--> On this tab, you can add and edit anonymous users and system users. See [Other users](Other-users.md).
 
 * **Anonymous users**: Users with limited rights defined by the role for anonymous users (see [Edit rights for anonymous users](../Rolle/Edit-rights-for-anonymous-users.md)). Anonymous users can be used, for instance, to provide access to web pages. In this way, salespersons can make relevant information from SuperOffice CRM available on a website that does not require a login, to give customers easy access to it.
 

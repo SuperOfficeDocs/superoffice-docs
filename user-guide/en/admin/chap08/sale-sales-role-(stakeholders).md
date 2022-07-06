@@ -1,5 +1,5 @@
 ---
-uid: help-en-sale---sales-role-(stakeholders)
+uid: help-en-sale-sales-role-stakeholders
 title: Sale - Sales role (Stakeholders)
 description: Sale - Sales role (Stakeholders)
 author: SuperOffice RnD

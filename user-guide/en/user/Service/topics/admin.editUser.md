@@ -27,7 +27,7 @@ To edit your user settings, select ![icon][img1] **&gt; Settings**. The followin
 
 [Other groups](admin.editUser.helpOthergroups.md)
 
-[Password](admin.editUser.helpPassword.md) ![icon](../../media/OnPremises.png)
+[Password](admin.editUser.helpPassword.md) <!-- onsite-->
 
 [Notification](admin.editUser.helpNotification.md)
 

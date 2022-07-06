@@ -7,9 +7,10 @@ so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
-# Other users ![icon](../OnPremises.png)
+# Other users
 
 [!include[Requirement](../includes/note-users-that-req-es.md)]
 

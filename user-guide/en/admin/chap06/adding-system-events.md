@@ -7,9 +7,10 @@ so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
-# Add system events ![icon](../OnPremises.png)
+# Add system events
 
 You can initiate some system events from **System notifications** list in the **Status** tab (see [System events](System-events.md)). You do this as follows:
 

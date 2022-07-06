@@ -20,7 +20,7 @@ When you double-click a row in the search results screen (see [View search resul
 
 ## Request header
 
-The header of the request contains the properties defined when the request was created (see [Create requests](ticket.newTicket.md)). The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img2] to set the request as a favourite ( ![icon](../media/favourite-active.png) ). The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
+The header of the request contains the properties defined when the request was created (see [Create requests](ticket.newTicket.md)). The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img2] to set the request as a favourite ( ![icon][img4] ). The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
 
 ## Task buttons for requests
 
@@ -99,3 +99,4 @@ The **Details** tab contains an overview of the request.
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/favorite-inactive.png
 [img3]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img4]: ../../../../media/icons/favorite-inactive.png

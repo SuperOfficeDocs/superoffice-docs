@@ -12,7 +12,7 @@ language: en
 # Template variables (CRM)
 
 > [!TIP]
-> Here you can find some examples of how template variables can enrich your mailings and documents: [Template variables - examples](Template_variables_examples.md)
+> Here you can find some examples of how template variables can enrich your mailings and documents: [Template variables - examples](Template-variables-examples.md)
 
 The topics below give an overview of different template variables in SuperOffice CRM, which you can use when you create template documents.
 
@@ -161,7 +161,7 @@ When you use address variables from the company card, the system will select add
 | atfi | Direct fax, ID (hidden, unique ID). |
 | atfn | First name. |
 | ati. | First name (first letter followed by stop). |
-| atid | Selected contact's unique ID (person_id). |
+| atid | Selected contact's unique ID (person-id). |
 | atin | First name (first letter). |
 | atln | Last name. |
 | atm? | Middle name (if middle name preference is set). |
@@ -299,7 +299,7 @@ When you use address variables from the company card, the system will select add
 | audl | Direct phone number with inter-area and international prefix. |
 | audp | Direct phone number. |
 | auem | E-mail. |
-| auid | Sender’s unique ID (person_id of the selected diary owner). |
+| auid | Sender’s unique ID (person-id of the selected diary owner). |
 | aumr | Mr/Ms for sender |
 | aums | Mail Stop (for American addresses). |
 | aunm | Number recorded for the document's owner. |
@@ -324,7 +324,7 @@ When you use address variables from the company card, the system will select add
 | uf01-10 | User-defined field 1-10 of the decimal number type. |
 | ul01-60 | User-defined field 1-60 of the whole number type. |
 | us01-49 | User-defined field 1-49 of the text type. |
-| usid | Current user's unique ID (associate_id of the logged in user). |
+| usid | Current user's unique ID (associate-id of the logged in user). |
 
 ## Variables from the sender’s own company card
 
@@ -486,7 +486,7 @@ When you use address variables from the company card, the system will select add
 | usem | Current user's primary e-mail address. |
 | user | Current user ID. |
 | usfn | Current user's first name. |
-| usid | Current user's unique ID (associate_id of the logged in user). |
+| usid | Current user's unique ID (associate-id of the logged in user). |
 | usln | Current user's last name. |
 | usmn | Current user's middle name. |
 
@@ -602,7 +602,7 @@ qaf1 | Extra field 1. |
 
 ## Variables for SuperOffice Service
 
-These are variables for SuperOffice Service data used in SuperOffice CRM. [Click here to see template variables for SuperOffice Service and SuperOffice Marketing](../../Service/topics/Template_variables.md).
+These are variables for SuperOffice Service data used in SuperOffice CRM. [Click here to see template variables for SuperOffice Service and SuperOffice Marketing](../../Service/topics/Template-variables.md).
 
 | Variable | Description |
 |---|---|

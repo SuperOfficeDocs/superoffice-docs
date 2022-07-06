@@ -14,7 +14,7 @@ In the e-mail message, you can use template variables to insert customer-specifi
 
 In the tables below you can find all template variables for SuperOffice Service and SuperOffice Marketing.
 
-([Click here to see template variables for SuperOffice CRM](Template_variables.md).)
+([Click here to see template variables for SuperOffice CRM](Template-variables.md).)
 
 <!-- Fix reuse ID=a1 -->
 
@@ -237,8 +237,8 @@ Decrement variable:
 
 Format date:
 
-\[\[FORMAT\_DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
+\[\[FORMAT\-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
 
 Format time:
 
-\[\[SEC\_TO\_TIME:"seconds","h:m:s"\]\]
+\[\[SEC\-TO\-TIME:"seconds","h:m:s"\]\]

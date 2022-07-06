@@ -32,7 +32,7 @@ Unchecked (![icon](../media/checkbox-unselected.png)): Only document templates o
 
 ## Default outgoing e-mail template
 
-Select the default document template to be used when archiving outgoing e-mail messages. See [Archive outgoing e-mail](e-mail-archive-outgoing-.md).
+Select the default document template to be used when archiving outgoing e-mail messages. See [Archive outgoing e-mail](e-mail-archive-outgoing.md).
 
 > [!TIP]
 > Start typing in the list to search for a document template.

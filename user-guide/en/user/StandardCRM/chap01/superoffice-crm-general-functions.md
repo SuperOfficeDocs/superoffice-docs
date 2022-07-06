@@ -1,5 +1,5 @@
 ---
-uid: help-en-superoffice-crm---general-functions
+uid: help-en-superoffice-crm-general-functions
 title: SuperOffice crm - general functions
 description: SuperOffice crm - general functions
 author: SuperOffice RnD

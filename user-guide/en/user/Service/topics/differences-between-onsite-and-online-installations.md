@@ -11,4 +11,4 @@ language: en
 
 # Differences between onsite and online installations
 
-SuperOffice Service is available as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are a number of minor differences between the two. Specific functional differences are indicated by the ![icon](../../media/CRMOnline.png) and ![icon](../../media/OnPremises.png)icons in the procedures themselves or in topic titles.
+SuperOffice Service is available as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are a number of minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.

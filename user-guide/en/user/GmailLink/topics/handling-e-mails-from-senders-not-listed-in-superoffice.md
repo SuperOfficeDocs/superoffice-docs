@@ -20,7 +20,7 @@ Follow these steps:
 
 1. Process the e-mail or attachment as described in one of these topics:
     * [Archive incoming e-mail](e-mail-archive-incoming.md)
-    * [Archive outgoing e-mail](e-mail-archive-outgoing-.md)
+    * [Archive outgoing e-mail](e-mail-archive-outgoing.md)
     * [Archive attachments](Archive-attachments.md)
     * [Create activity](Archive-e-mails-as-activities.md)
     * [Create request](Archive-e-mails-as-requests.md)

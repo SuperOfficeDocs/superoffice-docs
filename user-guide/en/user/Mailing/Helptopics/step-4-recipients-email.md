@@ -1,7 +1,7 @@
 ---
-uid: help-en-step-4--recipients-email
+uid: help-en-step-4-recipients-email
 title: Step 4  Recipients email
-description: Step 4  Recipients email
+description: Step 4 Recipients email
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing

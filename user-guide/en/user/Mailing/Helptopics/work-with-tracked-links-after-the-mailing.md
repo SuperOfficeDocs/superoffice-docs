@@ -56,4 +56,4 @@ Sometimes you need to reset the number of clicks back to zero. This would be the
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

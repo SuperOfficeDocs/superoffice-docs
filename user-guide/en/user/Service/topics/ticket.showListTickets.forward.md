@@ -29,4 +29,4 @@ As a request handler, you, even aided by your colleagues, are not always able to
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

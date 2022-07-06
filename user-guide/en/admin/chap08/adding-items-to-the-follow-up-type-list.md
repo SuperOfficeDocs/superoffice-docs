@@ -1,5 +1,5 @@
 ---
-uid: help-en-adding-items-to-the-follow-up---type-list
+uid: help-en-adding-items-to-the-follow-up-type-list
 title: Adding items to the Follow-up - Type list
 description: Adding items to the Follow-up - Type list
 author: SuperOffice RnD

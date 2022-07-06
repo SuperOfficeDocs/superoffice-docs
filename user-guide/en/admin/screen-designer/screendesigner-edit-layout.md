@@ -89,7 +89,7 @@ Labels can be used to create headings for specific groups of fields or a column.
 2. Click and drag the **Label** element to the layout.
 3. Click the label. The **Settings** sections opens to the left.
 4. Replace the text **New label** with the new label name.
-5. You can also add the label in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
+5. You can also add the label in other languages by clicking ![icon][img1] (see [Translation][2]).
 6. Change the font formatting as necessary.
 
 <!-- Fix reuse ID=a3 -->
@@ -106,7 +106,7 @@ Use dividers to create sections within columns. This is particularly useful for 
 Add links for looking up information in other websites, allow users to run CRM scripts from the company and contact cards, and add navigation to other parts of SuperOffice using soprotocol. You can also use buttons to add links.
 
 > [!TIP]
-> You can use [Template variables](../Template-variables.md) in the URLs.
+> You can use [Template variables][3] in the URLs.
 
 Select the tab you want to edit.
 
@@ -116,7 +116,7 @@ Click the link field. The **Settings** sections opens to the left.
 
 Replace the text **Link** with the new link name.
 
-You can also add the link name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
+You can also add the link name in other languages by clicking ![icon][img1] (see [Translation][2]).
 
 In the **Action** list, select the action to perform when clicking the link:
 
@@ -131,7 +131,7 @@ In the **Mode** list, choose if the link should always be available, or if it sh
 Buttons work similarly to links. You can add links for looking up information in other websites, allow users to run CRM scripts from the company and contact cards, and add navigation to other parts of SuperOffice using soprotocol.
 
 > [!TIP]
-> You can use [Template variables](../Template-variables.md) in the URLs.
+> You can use [Template variables][3] in the URLs.
 
 Select the tab you want to edit.
 
@@ -141,7 +141,7 @@ Click the button. The **Settings** sections opens to the left.
 
 Replace the text **Button** with the new button name.
 
-You can also add the button name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
+You can also add the button name in other languages by clicking ![icon][img1] (see [Translation][2]).
 
 In the **Action** list, select the action to perform when clicking the button:
 
@@ -180,7 +180,7 @@ To add a new tab:
 
 1. Click ![icon](../media/btn-add2.png) **Add**. The **Columns** section opens to the left.
 2. Under **Tab title**, replace the text **New tab** with the new tab name.
-3. You can also add the tab name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
+3. You can also add the tab name in other languages by clicking ![icon][img1] (see [Translation][2]).
 4. Select the number of columns you want to use in the new tab.
 
 > [!TIP]
@@ -201,6 +201,8 @@ If you need to revert to an earlier version of the screen, you can access the fo
 
 <!-- Referenced links -->
 [1]: ../../../../docs/ui/soprotocol/index.md
+[2]: ../../user/standardcrm/translate-fields.md
+[3]: ../../user/standardcrm/chap02/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

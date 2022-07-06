@@ -24,5 +24,5 @@ You have the following options:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/edit.png

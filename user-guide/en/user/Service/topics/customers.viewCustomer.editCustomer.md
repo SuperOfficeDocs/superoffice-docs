@@ -22,4 +22,4 @@ To edit the information already recorded for a contact:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

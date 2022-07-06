@@ -23,8 +23,8 @@ You can open the help in three ways:
 
 ## Conventions and symbols used in procedures and field descriptions
 
-* ![icon](../media/OnPremises.png) This icon indicates functionality that is only available in the onsite Web client.
-* ![icon](../media/CRMOnline.png) This icon indicates functionality that is only available in the online Web client.
+* <!-- onsite--> This icon indicates functionality that is only available in the onsite Web client.
+* <!-- online--> This icon indicates functionality that is only available in the online Web client.
 * **Bold** – Indicates software references, i.e. menu options, buttons, fields and so on in SuperOffice CRM. For example: Select **Preferences** on the **Personal settings** menu.
 * **\[Square brackets\]** – Used to describe software references, usually fields, that do not have a name or a label. For example: the **\[Company\]** field on the company card.
 * **BOLD CAPITALS** – Refers to a key on the keyboard. For example: Press **DELETE** the delete the appointment.

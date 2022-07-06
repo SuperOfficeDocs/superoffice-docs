@@ -40,7 +40,7 @@ Follow these steps:
 
 [Archive incoming e-mail](e-mail-archive-incoming.md)
 
-[Archive outgoing e-mail](e-mail-archive-outgoing-.md)
+[Archive outgoing e-mail](e-mail-archive-outgoing.md)
 
 [Archive attachments](Archive-attachments.md)
 

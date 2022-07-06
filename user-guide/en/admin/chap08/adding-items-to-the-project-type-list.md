@@ -1,5 +1,5 @@
 ---
-uid: help-en-adding-items-to-the-project---type-list
+uid: help-en-adding-items-to-the-project-type-list
 title: Adding items to the Project - Type list
 description: Adding items to the Project - Type list
 author: SuperOffice RnD

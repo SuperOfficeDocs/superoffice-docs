@@ -1,5 +1,5 @@
 ---
-uid: help-en-edit-message-content---overview
+uid: help-en-edit-message-content-overview
 title: Edit message content - overview
 description: Edit message content - overview
 author: SuperOffice RnD

@@ -1,7 +1,7 @@
 ---
-uid: help-en-step-3--content---formatted-e-mail
-title: Step 3  Content - Formatted e-mail
-description: Step 3  Content - Formatted e-mail
+uid: help-en-step-3-content-formatted-email
+title: Step 3  Content - Formatted email
+description: Step 3  Content - Formatted email
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing

@@ -17,7 +17,7 @@ In the **Forms** tab you can find all existing forms. Here you have the followin
 * **My forms**: Shows the forms that you have created.
 * **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions have been received.
 * **All forms**: Shows all available forms.
-* **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ( ![icon](../media/btn-Search.png) ).
+* **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ( ![icon](../media/btn-search.png) ).
 
 To view an existing form, click a form in the list. The **View form** screen opens.
 
@@ -26,7 +26,7 @@ In the top part of the screen, you have the following options:
 * **Inactive**/**Active**: Click this slider button to activate or deactivate the form.
 * **Refresh**: Click this button to update the screen.
 * **Edit**: Click this button to edit the form.
-* ![icon](../media/favourite-inactive.png): Click this button to set the form as a favourite. See [Add favourites](Add-favourites.md).
+* ![icon][img1]: Click this button to set the form as a favourite. See [Add favourites](Add-favourites.md).
 
 The **View form** screen consists of the following tabs:
 
@@ -62,3 +62,9 @@ Here you can view and process all submitted forms. Use the filter options at the
 ## Response e-mail
 
 This tab is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions](form-create.md#form-actions)). Here you can preview the form response (mailing) associated with this form.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/favorite-inactive.png

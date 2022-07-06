@@ -1,7 +1,7 @@
 ---
-uid: help-en-step-1--setup-sms
+uid: help-en-step-1-setup-sms
 title: Step 1 Setup - SMS
-description: Step 1  Setup - SMS
+description: Step 1 Setup - SMS
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing

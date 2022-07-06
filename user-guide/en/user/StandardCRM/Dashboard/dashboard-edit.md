@@ -15,7 +15,7 @@ To edit an existing dashboard:
 
 1. Open the **Dashboard** screen.
 2. Select the dashboard you want to edit.
-3. To change the name of the dashboard and adjust other settings, click the **Task** button, and select **Edit dashboard**. See [Create a new dashboard](Dashboard-Create.md).
+3. To change the name of the dashboard and adjust other settings, click the **Task** button, and select **Edit dashboard**. See [Create a new dashboard](dashboard-create.md).
 4. To add tiles and edit the dashboard layout, click the **Task** button, and select **Add tile / Edit layout**. See [Add tiles / Edit layout](Dashboard-Add-Tiles.md).
 5. Click **Save**.
 

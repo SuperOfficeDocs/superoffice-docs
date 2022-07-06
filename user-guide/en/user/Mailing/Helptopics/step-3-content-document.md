@@ -1,7 +1,7 @@
 ---
-uid: help-en-step-3--content---document
+uid: help-en-step-3-content-document
 title: Step 3  Content - Document
-description: Step 3  Content - Document
+description: Step 3 Content - Document
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing

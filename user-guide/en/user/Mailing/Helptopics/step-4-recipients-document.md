@@ -1,7 +1,7 @@
 ---
-uid: help-en-step-4--recipients---document
+uid: help-en-step-4-recipients-document
 title: Step 4  Recipients - Document
-description: Step 4  Recipients - Document
+description: Step 4 Recipients - Document
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing

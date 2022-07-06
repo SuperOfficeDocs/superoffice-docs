@@ -24,7 +24,7 @@ The import file must have the following format:
     > [!NOTE]
     > You can also specify just the e-mail address. The name will then not be available as a template variable.
 
-* ![icon](../../media/OnPremises.png) (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the e-mail address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
+* <!-- onsite--> (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the e-mail address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
 
 > [!NOTE]
 > If you only have the mobile phone number and want to send an SMS, you can enter the following: " , , 99887766".

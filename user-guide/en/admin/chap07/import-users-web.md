@@ -7,9 +7,10 @@ so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
-# Import users ![icon](../OnPremises.png)
+# Import users
 
 If your organisation uses Active Directory or another authentication type, you can add several users simultaneously:
 

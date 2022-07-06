@@ -15,8 +15,8 @@ The users you have chosen to link to a follow-up will be notified of this on the
 
 | Icon | Description |
 |---|---|
-|![icon](../media/invitation_accepted.bmp) | Invitation has been accepted. |
-| ![icon](../media/invitasjon_avslått.bmp) | Invitation has been declined. |
+|![icon](../media/invitation-accepted.bmp) | Invitation has been accepted. |
+| ![icon](../media/invitasjon-avslått.bmp) | Invitation has been declined. |
 | ![icon](../media/eye-icon.bmp) | Invitation has been seen but not answered. |
 | unmarked | Invitation has not been seen. |
 

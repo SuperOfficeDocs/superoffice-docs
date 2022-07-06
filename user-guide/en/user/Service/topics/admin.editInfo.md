@@ -19,7 +19,7 @@ The **System** screen is used to configure some of the key characteristics of Su
 
 [Settings](admin.editInfo.settings.md)
 
-[SMTP](admin.editInfo.smtp.md) ![icon](../../media/OnPremises.png)
+[SMTP](admin.editInfo.smtp.md) <!-- onsite-->
 
 [Password](admin.editInfo.password.md)
 

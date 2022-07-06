@@ -1,7 +1,7 @@
 ---
-uid: help-en-step-4--recipients---sms
+uid: help-en-step-recipients-sms
 title: Step 4  Recipients - SMS
-description: Step 4  Recipients - SMS
+description: Step 4 Recipients - SMS
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing

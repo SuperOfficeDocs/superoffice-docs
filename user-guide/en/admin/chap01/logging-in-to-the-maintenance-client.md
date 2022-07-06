@@ -15,7 +15,7 @@ When you start Settings and maintenance, you will see a login screen where you m
 
 * Enter your user ID and password and click **OK**.
 
-![icon](../OnPremises.png)
+<!-- onsite-->
 
 > [!NOTE]
 > The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again, but you can read the complete text here: [Addendum to SuperOffice Software Maintenance Agreement][1].

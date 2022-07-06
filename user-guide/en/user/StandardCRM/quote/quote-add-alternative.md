@@ -39,9 +39,9 @@ To create an alternative:
 
 ## Favourite alternative
 
-If you have created several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favourite ( ![icon](../media/quote-favourite-active.png)**Favourite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favourite alternative.
+If you have created several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favourite ( ![icon](../media/quote-favorite-active.png)**Favourite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favourite alternative.
 
-If you want another alternative to be the favourite, select its tab, and click ![icon](../media/quote-favourite-inactive.png)**Favourite alternative** at the bottom.
+If you want another alternative to be the favourite, select its tab, and click ![icon](../media/quote-favorite-inactive.png)**Favourite alternative** at the bottom.
 
 When sending the quote, you can select to only include the favourite alternative.
 

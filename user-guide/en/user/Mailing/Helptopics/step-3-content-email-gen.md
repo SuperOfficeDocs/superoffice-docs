@@ -25,10 +25,10 @@ See below to determine whether you are using the Drag & drop editor (new) or the
 ![icon](../media/TemplateEditOverview.png)
 ![icon](../media/editor-sidepanel.png)
 
-Go to this topic: [Step 3: Content - E-mail (Drag &amp; drop editor)](Step-3-Content-Formatted-e-mail.md)
+Go to this topic: [Step 3: Content - E-mail (Drag &amp; drop editor)](Step-3-Content-Formatted-email.md)
 
 ### Editor (old)
 
-Go to this topic: [Step 3: Content - E-mail (the old Editor](oldeditor/Step-3-Content-Formatted-e-mail.md)
+Go to this topic: [Step 3: Content - E-mail (the old Editor](oldeditor/Step-3-Content-Formatted-email.md)
 
  ![icon](../media/TemplateEditOverview-old.png)

@@ -7,9 +7,10 @@ so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
-# Create Facebook applications ![icon](../OnPremises.png)
+# Create Facebook applications
 
 If you want to interact with your customers via Facebook, you will want to create a link between SuperOffice Service and a user wall or page on Facebook. Messages and comments posted to the wall will then be imported into SuperOffice Service as requests (in the same way as e-mail is imported). When the request handler responds to one of these messages, the reply is posted to Facebook.
 

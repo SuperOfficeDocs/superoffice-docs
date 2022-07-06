@@ -42,4 +42,4 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/btn-menu.png

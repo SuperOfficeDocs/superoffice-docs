@@ -16,8 +16,8 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 * **Address**: The mailbox's sending address.
 * **Category**: Requests from the mailbox will be assigned to this category.
 * **Priority**: The priority which new requests are assigned when registered from this mailbox.
-* ![icon](../CRMOnline.png)**Forwarding address**: If you are not using the e-mail functions in SuperOffice, e-mails will be forwarded to this address.
-* ![icon](../OnPremises.png)**Protocol**: The protocol which the mailbox uses.
+* <!-- online --> **Forwarding address**: If you are not using the e-mail functions in SuperOffice, e-mails will be forwarded to this address.
+* <!-- onsite -->**Protocol**: The protocol which the mailbox uses.
 
 ## What would you like to do now?
 
@@ -25,4 +25,4 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 
 [Delete mailboxes](admin.listFilters.listFilters.deleteMailbox.md)
 
-![icon](../OnPremises.png)[Create Facebook applications](admin.listFilters.listFilters.editFacebookApplication.md)
+<!-- onsite -->[Create Facebook applications](admin.listFilters.listFilters.editFacebookApplication.md)

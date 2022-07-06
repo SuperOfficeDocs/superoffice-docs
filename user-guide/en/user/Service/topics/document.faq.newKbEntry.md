@@ -22,7 +22,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 1. Open a request. See [Process requests](ticket.listTicket.md).
 
-2. Click the ![icon](../../../media/icons/btn-menu.png)**Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
+2. Click the ![icon][img1] **Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
 3. Edit the request name in the **Name** field if necessary.
 
@@ -96,4 +96,4 @@ Since the option to create FAQ entries this way is only available to administrat
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
+[img1]: ../../../../media/icons/btn-add.png

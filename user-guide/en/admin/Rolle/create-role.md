@@ -19,9 +19,9 @@ To create a role for associates in the company or for external users:
 
 2. Select one of the following tabs:
     * **Associates**: Here you can add roles for employees in your company.
-    * ![icon](../OnPremises.png)**External**: Here you can add roles for external users.
+    * <!-- onsite-->**External**: Here you can add roles for external users.
     * ![icon](../media/question.bmp) <!-- Fix reuse ID=a3 -->
-        ![icon](../OnPremises.png) There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
+        <!-- onsite--> There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
 
 3. Click **Add** under the list. The **Create New Role** dialog opens.
 

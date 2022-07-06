@@ -1,5 +1,5 @@
 ---
-uid: help-en-sale---sales-type-(for-stages)
+uid: help-en-sale-sales-type-for-stages
 title: Sale - Sales type (for stages)
 description: Sale - Sales type (for stages)
 author: SuperOffice RnD

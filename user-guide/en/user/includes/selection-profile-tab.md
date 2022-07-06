@@ -5,4 +5,4 @@
 * Under **Sample table** you can see what the selection will look like with the current settings.
 
 <!-- Referenced links -->
-[1]: selections.editSelection2.editProfile.md
+[1]: ../service/topics/selections.editselection2.editprofile.md

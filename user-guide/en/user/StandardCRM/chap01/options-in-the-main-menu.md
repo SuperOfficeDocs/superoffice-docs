@@ -29,4 +29,4 @@ Click the **Main menu** button in the Top bar to access the following options:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-mainmenu.png
+[img1]: ../../../../media/icons/globalmenu-mainmenu.png

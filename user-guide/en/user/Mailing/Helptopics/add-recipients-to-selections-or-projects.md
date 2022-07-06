@@ -44,4 +44,4 @@ Open the selection or project to verify that the contacts have been added.
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

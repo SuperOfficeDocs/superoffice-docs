@@ -35,7 +35,7 @@ Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a l
 
 [Search for requests in categories](admin.listCategories.searchTickets.md)
 
-[How to set up Get next request in queue](Get-next-request-in-the-queue.md)
+[How to set up Get next request in queue](get-next-request-in-the-queue.md)
 
 <!-- Referenced links -->
 

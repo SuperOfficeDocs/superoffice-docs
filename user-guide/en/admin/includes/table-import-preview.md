@@ -7,7 +7,7 @@
 | empty | No updating. |
 
 <!-- Referenced images -->
-[img1]: ../media/import_preview_icon_Company_New.bmp
-[img2]: ../media/import_preview_icon_Company_Changed.bmp
-[img3]: ../media/import_preview_icon_Person_New.bmp
-[img4]: ../media/import_preview_icon_Person_Changed.bmp
+[img1]: ../media/import-preview-icon-company-new.bmp
+[img2]: ../media/import-preview-icon-company-changed.bmp
+[img3]: ../media/import-preview-icon-person-new.bmp
+[img4]: ../media/import-preview-icon-person-changed.bmp

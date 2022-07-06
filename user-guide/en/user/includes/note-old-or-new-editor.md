@@ -7,5 +7,5 @@ To learn more about the two versions of the message editor, see:
 * (for form responses) [Differences between the Drag & drop editor and the Editor][2]
 
 <!-- Referenced links -->
-[1]: ../The-message-editor-old-vs-new.md
-[2]: ../forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md
+[1]: ../mailing/helptopics/the-message-editor-old-vs-new.md
+[2]: ../mailing/helptopics/forms-differences-between-the-drag-drop-editor-and-the-editor.md

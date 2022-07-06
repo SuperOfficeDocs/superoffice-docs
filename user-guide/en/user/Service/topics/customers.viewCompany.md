@@ -26,7 +26,7 @@ This screen comprises the following sections:
 
 ## Company header
 
-The header of the **Company** screen contains basic information about the company: company name, category and priority. In addition, you can click ![icon][img2] to set the company as a favourite ( ![icon](../media/favourite-active.png) ). The company will then be accessible via the favourites list ( ![icon][img3] ) under **Customers** in the Navigator.
+The header of the **Company** screen contains basic information about the company: company name, category and priority. In addition, you can click ![icon][img2] to set the company as a favourite ( ![icon][img4] ). The company will then be accessible via the favourites list ( ![icon][img3] ) under **Customers** in the Navigator.
 
 ## Task buttons for companies
 
@@ -52,3 +52,4 @@ Click the ![icon][img1] **Actions** button to access the following options:
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/favorite-inactive.png
 [img3]: ../media/navigator-favorites-small.png
+[img4]: ../../../../media/icons/favorite-active.png

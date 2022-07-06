@@ -1,5 +1,5 @@
 ---
-uid: help-en-project---status
+uid: help-en-project-status
 title: Project - Status
 description: Project - Status
 author: SuperOffice RnD

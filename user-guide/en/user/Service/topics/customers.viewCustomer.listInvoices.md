@@ -33,4 +33,4 @@ To view invoice information that has been registered for a specific contact , do
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

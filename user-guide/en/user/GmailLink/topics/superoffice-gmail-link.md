@@ -32,7 +32,7 @@ To install SuperOffice Gmail Link, go to the [SuperOffice App Store][1].
 
 [Look up sender in SuperOffice](Add-sender-to-SuperOffice.md)
 
-[Archive outgoing e-mail](e-mail-archive-outgoing-.md)
+[Archive outgoing e-mail](e-mail-archive-outgoing.md)
 
 [Edit Gmail Link settings](Settings.md)
 

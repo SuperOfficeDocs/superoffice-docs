@@ -168,4 +168,4 @@ Here you can define how a submitted form should be processed. Fill in the follow
 [1]: https://community.superoffice.com/en/Technical/Blog/simple-google-analytics-email-tracking/
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

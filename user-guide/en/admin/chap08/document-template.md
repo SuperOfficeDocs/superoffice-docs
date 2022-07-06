@@ -17,7 +17,7 @@ It is important for an organisation’s profile that letters, faxes and other do
 
 SuperOffice CRM is supplied with several standard templates that you can use immediately when you have installed the program (see [Use standard templates](Using-standard-templates.md)).
 
-You can also create your own templates in the applications you have chosen to use in conjunction with SuperOffice CRM (see [GUI - Application](Application.md)). You do this by entering template variables in the template documents (see [Template variables](../Template-variables.md)) which then retrieve information from corresponding fields in SuperOffice CRM when you write a document using a template you have created.
+You can also create your own templates in the applications you have chosen to use in conjunction with SuperOffice CRM (see [GUI - Application](Application.md)). You do this by entering template variables in the template documents (see [Template variables][1]) which then retrieve information from corresponding fields in SuperOffice CRM when you write a document using a template you have created.
 
 Adding a template document involves following steps:
 
@@ -28,14 +28,12 @@ In the sections below there are more details on using standard templates and tem
 
 ## What would you like to do now?
 
-[Use standard templates](Using-standard-templates.md)
-
-[Create a template document](Creating-a-template-document.md)
-
-[Add a document template](Adding-a-template-web.md)
-
-[Look at template variables](../Template-variables.md)
+* [Use standard templates](Using-standard-templates.md)
+* [Create a template document](Creating-a-template-document.md)
+* [Add a document template](Adding-a-template-web.md)
+* [Look at template variables][1]
 
 <!-- Referenced links -->
+[1]: ../../user/standardcrm/chap02/template-variables.md
 
 <!-- Referenced images -->

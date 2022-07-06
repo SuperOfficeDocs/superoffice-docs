@@ -17,7 +17,7 @@ It is important for an organisation’s profile that e-mails have a distinctive 
 
 SuperOffice CRM is supplied with several standard templates that you can use immediately when you have installed the program.
 
-You can also create your own templates. You do this by entering template variables in the e-mail templates (see [Template variables](../Template-variables.md)) which then retrieve information from corresponding fields in SuperOffice CRM when you write an e-mail using a template you have created.
+You can also create your own templates. You do this by entering template variables in the e-mail templates (see [Template variables][1]) which then retrieve information from corresponding fields in SuperOffice CRM when you write an e-mail using a template you have created.
 
 Adding an e-mail template involves following steps:
 
@@ -29,6 +29,7 @@ Adding an e-mail template involves following steps:
 [Add an e-mail template](Add-e-mail-template.md)
 
 <!-- Referenced links -->
-[1]: ../Quote-templates.pdf
+[1]: ../../../../docs/document/templates/quote/index.md
+[2]: ../../user/standardcrm/chap02/template-variables.md
 
 <!-- Referenced images -->

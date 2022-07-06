@@ -60,4 +60,4 @@ To do this:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
 [img2]: ../../../../media/icons/btn-delete.png
-[img3]: ../../../media/icons/btn-menu.png
+[img3]: ../../../../media/icons/btn-menu.png

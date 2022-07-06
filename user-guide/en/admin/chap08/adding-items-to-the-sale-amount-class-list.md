@@ -1,5 +1,5 @@
 ---
-uid: help-en-adding-items-to-the-sale---amount-class-list
+uid: help-en-adding-items-to-the-sale-amount-class-list
 title: Adding items to the Sale - Amount class list
 description: Adding items to the Sale - Amount class list
 author: SuperOffice RnD

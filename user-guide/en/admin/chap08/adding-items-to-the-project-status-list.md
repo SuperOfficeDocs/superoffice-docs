@@ -1,5 +1,5 @@
 ---
-uid: help-en-adding-items-to-the-project---status-list
+uid: help-en-adding-items-to-the-project-status-list
 title: Adding items to the Project - Status list
 description: Adding items to the Project - Status list
 author: SuperOffice RnD

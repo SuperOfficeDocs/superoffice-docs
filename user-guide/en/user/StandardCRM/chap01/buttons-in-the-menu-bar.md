@@ -23,7 +23,7 @@ Wherever you are in the system, these options will appear at the top of the scre
 | ![icon][img2] | **Personal settings**: Click here to edit your personal settings, such as preferences, e-mail signature and password. If you added an image in your own contact card, this image will appear on the **Personal settings** button. See [Options in the Personal settings menu](Options-in-the-Personal-settings-menu.md). |
 | ![icon][img1] | **Main menu**: Click here to access general system settings, such as downloads, and SuperOffice Settings and maintenance. See [Options in the Main menu](Options-in-the-Main-menu.md). |
 | **Help** | **Help**: Clicking this button gives you access to the SuperOffice CRM help system. This contains comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
-| ![icon](../../../../media/icons/globalmenu-search.png) | **Search**: At the top right is the freetext search field. You can use this field to quickly find data in the system. See [Freetext search](Freetext-search.md). |
+| ![icon](../../media/globalmenu-search.png) | **Search**: At the top right is the freetext search field. You can use this field to quickly find data in the system. See [Freetext search](Freetext-search.md). |
 
 <!-- Referenced links -->
 [1]:
@@ -31,4 +31,4 @@ Wherever you are in the system, these options will appear at the top of the scre
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-mainmenu.png
 [img2]: ../../../../media/icons/globalmenu-personalsettings.png
-[img3]: .././../media/globalmenu-new.png
+[img3]: ../../../media/globalmenu-new.png

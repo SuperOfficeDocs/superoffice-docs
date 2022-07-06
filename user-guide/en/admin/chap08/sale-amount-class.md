@@ -1,5 +1,5 @@
 ---
-uid: help-en-sale---amount-class
+uid: help-en-sale-amount-class
 title: Sale - Amount class
 description: Sale - Amount class
 author: SuperOffice RnD

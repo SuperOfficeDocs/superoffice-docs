@@ -51,9 +51,9 @@ You can choose from the following views. Click the views for more information.
 
     If you hold the mouse pointer over these days, a tooltip containing a list of the relevant follow-ups appears.
 
-    | ![icon](../media/minicard_level.png) | The "bar" below the date indicates the level of activities that day, making it easier to schedule meetings. |
-    | ![icon](../media/minicard_today.png) | Today. |
-    | ![icon](../media/minicard_selected.png) | The selected date in the Diary. |
+    | ![icon](../media/minicard-level.png) | The "bar" below the date indicates the level of activities that day, making it easier to schedule meetings. |
+    | ![icon](../media/minicard-today.png) | Today. |
+    | ![icon](../media/minicard-selected.png) | The selected date in the Diary. |
 
     You can move from month to month by clicking the arrow keys ( ![icon][img1] ![icon][img2] ) at the bottom of the side panel.
 * <!-- Fix reuse ID=a1 -->

@@ -42,4 +42,4 @@ You can find mailing statistics in the following tabs:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

@@ -2,4 +2,4 @@
 > To learn about **quote templates**, [click here][1].
 
 <!-- Referenced links -->
-[1]: Quote templates.pdf
+[1]: ../../../../docs/document/templates/quote/index.md

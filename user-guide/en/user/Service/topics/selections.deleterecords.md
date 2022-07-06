@@ -28,4 +28,4 @@ If you want to delete the actual records in a selection, do as follows:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

@@ -30,11 +30,11 @@
 12. Go to the **Relations** section tab. Here you can add relations between this contact and another contact or company. See [Add relations][8].
 
 <!-- Referenced links -->
-[1]: ../person/contactcard-tab-contact.md
-[2]: ../person/contactcard-tab-details.md
-[3]: ../person/contactcard-tab-more.md
-[4]: ../person/contactcard-tab-interests.md
-[5]: ../person/contactcard-tab-note.md
-[6]: ../person/contactcard-tab-www.md
-[7]: Edit-legalbase.md
-[8]: ../person/contact-secttab-relations-add.md
+[1]: ../standardcrm/person/contactcard-tab-contact.md
+[2]: ../standardcrm/person/contactcard-tab-details.md
+[3]: ../standardcrm/person/contactcard-tab-more.md
+[4]: ../standardcrm/person/contactcard-tab-interests.md
+[5]: ../standardcrm/person/contactcard-tab-note.md
+[6]: ../standardcrm/person/contactcard-tab-www.md
+[7]: ../standardcrm/chap03/edit-legalbase.md
+[8]: ../standardcrm/person/contact-secttab-relations-add.md

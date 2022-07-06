@@ -1,7 +1,7 @@
 ---
-uid: help-en-step-3--content---sms
+uid: help-en-step-3-content-sms
 title: Step 3  Content - SMS
-description: Step 3  Content - SMS
+description: Step 3 Content - SMS
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing

@@ -10,14 +10,14 @@
 | ![icon][img11] | Archived |
 
 <!-- Referenced images -->
-[img1]:../media/quote-state-draft.png
-[img2]: ../media/quote-state-draftnotcalculated.png
-[img3]: ../media/quote-state-needsapproval.png
-[img4]: ../media/quote-state-approved.png
-[img5]: ../media/quote-state--not-approved.png
-[img6]: ../media/quote-state-published.png
-[img7]: ../media/quote-state-publishedexpired.png
-[img8]: ../media/quote-state-sold.png
-[img9]: ../media/quote-state-rejected.png
-[img10]: ../media/quote-state-ordered.png
-[img11]: ../media/quote-state-archived.png
+[img1]: ../standardcrm/media/quote-state-draft.png
+[img2]: ../standardcrm/media/quote-state-draftnotcalculated.png
+[img3]: ../standardcrm/media/quote-state-needsapproval.png
+[img4]: ../standardcrm/media/quote-state-approved.png
+[img5]: ../standardcrm/media/quote-state-not-approved.png
+[img6]: ../standardcrm/media/quote-state-published.png
+[img7]: ../standardcrm/media/quote-state-publishedexpired.png
+[img8]: ../standardcrm/media/quote-state-sold.png
+[img9]: ../standardcrm/media/quote-state-rejected.png
+[img10]: ../standardcrm/media/quote-state-ordered.png
+[img11]: ../standardcrm/media/quote-state-archived.png

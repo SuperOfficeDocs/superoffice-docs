@@ -22,31 +22,31 @@ To create a new mailbox:
 
 2. Click **New mailbox**. The **Mailbox properties** screen appears, with the **Properties** tab open.
 
-3. ![icon](../../media/OnPremises.png) In the **Address** field, enter the e-mail address you want to use for the mailbox.
+3. <!-- onsite--> In the **Address** field, enter the e-mail address you want to use for the mailbox.
 
     > [!NOTE]
     > Set up forwarding to this mailbox address if you are going to use your company's e-mail address (for example info@company.com). Use **Forwarding address** in the **Mailboxes** screen.
 
-4. ![icon](../../media/CRMOnline.png) In the **Address** field, enter the name without @domain.xx, and press **TAB** to add the CRM Online settings to the e-mail address.
+4. <!-- online --> In the **Address** field, enter the name without @domain.xx, and press **TAB** to add the CRM Online settings to the e-mail address.
 
     > [!NOTE]
     > Friendly e-mail address can be added to the address by adding ("friendly name") at the end of the e-mail address.Example: info@company.com (Customer Ltd.).
 
-5. ![icon](../../media/OnPremises.png) In the **Protocol** list box, select which protocol to use to communicate with the mail server. Some of the protocols may require further configuration.
+5. <!-- onsite--> In the **Protocol** list box, select which protocol to use to communicate with the mail server. Some of the protocols may require further configuration.
 
-6. ![icon](../../media/OnPremises.png) In the **E-mail server** field, enter the server's host name.
+6. <!-- onsite--> In the **E-mail server** field, enter the server's host name.
 
-7. ![icon](../../media/OnPremises.png) In the **User name** and **Password** fields, enter the user name and password for the mailbox.
+7. <!-- onsite--> In the **User name** and **Password** fields, enter the user name and password for the mailbox.
 
-8. ![icon](../../media/OnPremises.png) In the **Folder** field, enter the folder name for the mailbox on the server.
+8. <!-- onsite--> In the **Folder** field, enter the folder name for the mailbox on the server.
 
-9. ![icon](../../media/OnPremises.png) In the **Port** field, you can change the proposed default port for the selected protocol.
+9. <!-- onsite--> In the **Port** field, you can change the proposed default port for the selected protocol.
 
 10. In the **Category** list box, select to which category the messages in this mailbox should belong.
 
 11. In the **Priority** list box, select which priority that requests from this mailbox should be given.
 
-12. ![icon](../../media/OnPremises.png) In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
+12. <!-- onsite--> In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
 
 13. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer language](admin.listCustLangs.md).
 
@@ -58,11 +58,11 @@ To create a new mailbox:
 
 17. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply](document.replyTemplates.autoFAQ.md)). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
 
-18. ![icon](../../media/OnPremises.png) Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon](../../../../media/icons/btn-add.png).
+18. <!-- onsite--> Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon](../../../../media/icons/btn-add.png).
 
 19. **Import auto-replies and system messages**: By default, e-mails that contain out of office messages, system messages and other irrelevant messages are not imported. If you do want to import such e-mails, you can check this option.
 
-20. ![icon](../../CRMOnline.png) **AI services**: Here you can select the following options for categorization and text analysis using AI:
+20. <!-- online--> **AI services**: Here you can select the following options for categorization and text analysis using AI:
     * **Use AI to suggest categories**: Select this option to let the AI suggest a category for requests based on the content of e-mail messages.
     * **Use text analysis**: Select this option to let the AI analyse the text in e-mail messages to detect language (for translation) and perform sentiment analysis.
 

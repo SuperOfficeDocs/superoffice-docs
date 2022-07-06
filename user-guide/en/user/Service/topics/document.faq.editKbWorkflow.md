@@ -31,7 +31,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
     * **Can move**: The user is permitted to change the workflow stage for entries, i.e. publish or cancel publishing.
     * **Can edit**: The user is permitted to edit FAQ entries.
     * **Full access**: The user has all rights in relation to the workflow..
-9. Click the ![icon](../../../media/icons/btn-add.png)**Add** button to add the user to the list under **User access**.
+9. Click the ![icon][img3] **Add** button to add the user to the list under **User access**.
 10. Repeat steps 7-9 to add more users.
 11. Click **OK**. The stage is created and now available when you publish FAQ entries.
 
@@ -73,3 +73,4 @@ You can both change the name of a stage and alter which users are to have access
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/btn-workflow.png
+[img3]: ../../../../media/icons/btn-add.png

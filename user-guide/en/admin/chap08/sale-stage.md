@@ -1,5 +1,5 @@
 ---
-uid: help-en-sale---stage
+uid: help-en-sale-stage
 title: Sale - Stage
 description: Sale - Stage
 author: SuperOffice RnD

@@ -1,5 +1,5 @@
 ---
-uid: help-en-follow-up---type
+uid: help-en-follow-up-type
 title: Follow-up - Type
 description: Follow-up - Type
 author: SuperOffice RnD

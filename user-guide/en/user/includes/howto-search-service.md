@@ -8,4 +8,4 @@ To quickly access a specific record (such as a request or contact), function or 
 > You can also use the [keywords used in the quick search][1] to search for specific items like contacts or companies.
 
 <!-- Referenced links -->
-[1]: rms.search.useQuickSearch.md#SearchForOtherRecords
+[1]: ../service/topics/rms.search.usequicksearch.md#searchforotherrecords

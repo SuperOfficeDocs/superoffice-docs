@@ -29,4 +29,4 @@ To back up the data file only:
 
 If, in addition, you want to back up all documents and templates, you must create a backup of the whole **SO\-ARC** folder and associated sub-folders.
 
-![icon](../CRMOnline.png) Online customers must contact SuperOffice Support to create a backup.
+<!-- online --> Online customers must contact SuperOffice Support to create a backup.

@@ -32,4 +32,4 @@ This is particularly relevant for unassigned requests, i.e. those without a defi
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

@@ -54,7 +54,7 @@ It may happen that you want to create a series of appointments to occur at regul
         | Day &lt;number&gt; **of &lt;month&gt;**| Use this if you want the follow-up to take place on the same date each time.<br />For example: Day 13 of April. |
         | &lt;ordinal number&gt; **&lt;weekday&gt; of &lt;month&gt;**| Use this if you want the follow-up to take place on the same weekday each time.<br/>For example: The fourth Thursday of August. |
 
-    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon](../media/Pil_hoeyre.bmp)) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
+    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon](../media/Pil-hoeyre.bmp)) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
 
 6. In the **Repeating follow-ups ends** field, choose whether the follow-up should stop after a specific number of times or after a specific date.
 

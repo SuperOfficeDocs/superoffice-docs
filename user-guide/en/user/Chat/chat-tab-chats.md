@@ -34,9 +34,9 @@ The following icons are used for the active chat sessions in the list:
 
 | Icon | Description |
 |---|---|
-| ![icon](../../../media/icons/chat_last_customer.png) | The last message in the conversation from the customer and agent. |
-| ![icon](../../../media/icons/chat_last_customer_unanswered.png) | Number of unread messages from the customer. |
-| ![icon](../../../media/icons/chat_transfered.png) | Transferred chat to you or from you. Waiting to be accepted. |
+| ![icon](../../../media/icons/chat-last-customer.png) | The last message in the conversation from the customer and agent. |
+| ![icon](../../../media/icons/chat-last-customer-unanswered.png) | Number of unread messages from the customer. |
+| ![icon](../../../media/icons/chat-transfered.png) | Transferred chat to you or from you. Waiting to be accepted. |
 
 ## Chat conversation
 

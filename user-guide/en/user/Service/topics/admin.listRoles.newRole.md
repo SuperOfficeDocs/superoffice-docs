@@ -30,7 +30,7 @@ To create a new role:
 9. In the **Workflow access** tab, you can specify which stage in the FAQ workflow the members of the role should have access to:
     1. In the **New rights** list, select the required stage from the list that appears.
     2. Check **Can move**, **Can edit** or **Full access** to specify which access level the members of the role should have for the stage in question. (For more information about this, see [Work with workflows](document.faq.editKbWorkflow.md).)
-    3. Click ![icon](../../../media/icons/btn-add.png).
+    3. Click ![icon][img4].
     4. Repeat until you have added all the stages you want to add.
 10. In the **Functional rights** tab, you can specify which rights the members of the role should have:
     * To add a function right: Select an item in the list to the left, and click the right-arrow button ( ![icon][img2] ).
@@ -47,3 +47,4 @@ To create a new role:
 [img1]: ../../../../media/icons/arrow-left.png
 [img2]: ../../../../media/icons/arrow-right.png
 [img3]: ../../../../media/icons/globalmenu-settings-small.png
+[img4]: ../../../../media/icons/btn-add.png

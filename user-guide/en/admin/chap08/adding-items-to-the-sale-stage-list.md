@@ -1,5 +1,5 @@
 ---
-uid: help-en-adding-items-to-the-sale---stage-list
+uid: help-en-adding-items-to-the-sale-stage-list
 title: Adding items to the Sale - Stage list
 description: Adding items to the Sale - Stage list
 author: SuperOffice RnD

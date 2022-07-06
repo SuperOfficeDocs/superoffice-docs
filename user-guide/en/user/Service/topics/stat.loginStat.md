@@ -14,7 +14,7 @@ language: en
 This screen shows statistics for when the users have logged in and out of the system.
 
 1. Set the following criteria:
-    * **User**: Select a user from the list and click the ![icon](../../../media/icons/btn-add.png)**Add** button. You can add multiple users.
+    * **User**: Select a user from the list and click the ![icon][img2] **Add** button. You can add multiple users.
     * **Logged in**: Select an interval from the list.
     * **Origin equals**: Select the origin from which the users have logged on. Select blank to show all origins.
     * **Hide empty rows**: If you enable this option, then empty rows will be ignored.
@@ -29,3 +29,4 @@ This screen shows statistics for when the users have logged in and out of the sy
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/btn-add.png

@@ -48,9 +48,9 @@ To complete the fields in the **Edit list item** dialog when the items are e-mai
 
 Enter the following information in the **Details** tab:
 
-1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
+1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon][img1] (see [Translation][1]).
 
-2. Enter the title of the e-mail in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation](../Translate-fields.md)).
+2. Enter the title of th[e e-mail in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation]][1]).
 
 3. Select **Use signature in new e-mail** to add your signature to new e-mails. If you do not have a personal signature, the system signature will be used.
 
@@ -67,7 +67,7 @@ Enter the following information in the **Details** tab:
 
 8. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-9. Specify the default setting for the **Our reference** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables](../Template-variables.md)).
+9. Specify the default setting for the **Our reference** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables][2]).
 
 > [!NOTE]
 > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog. Only htm/html files can be edited directly in this editor. The file type is displayed in the **File name** field in the **Details** tab. Click the **Download** button to download other file types and edit them in the relevant application.
@@ -83,10 +83,11 @@ Here you can add translated versions of the document template. To do this:
 5. Repeat the steps above to add additional languages.
 
 > [!NOTE]
-> As described above, you can add translations of the template name and e-mail subject by clicking ![icon][img1] next to the relevant field. See [Translation](../Translate-fields.md).
+> As described above, you can add translations of the template name and e-mail subject by clicking ![icon][img1] next to the relevant field. See [Translation][1].
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../user/standardcrm/translate-fields.md
+[2]: ../../user/standardcrm/chap02/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

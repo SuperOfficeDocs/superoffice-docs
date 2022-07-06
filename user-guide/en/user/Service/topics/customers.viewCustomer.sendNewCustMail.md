@@ -30,4 +30,4 @@ A contact who is going to have access to a customer centre needs a user name and
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

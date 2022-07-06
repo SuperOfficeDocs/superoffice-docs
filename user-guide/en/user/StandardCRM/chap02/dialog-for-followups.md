@@ -107,4 +107,4 @@ These fields show the date when the follow-up was first created and when it was 
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

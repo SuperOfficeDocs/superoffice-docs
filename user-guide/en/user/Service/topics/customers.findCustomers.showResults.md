@@ -46,4 +46,4 @@ This section of the screen displays the requests linked to the contact selected 
 [1]:
 
 <!-- Referenced images -->
-[img1]: .../../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

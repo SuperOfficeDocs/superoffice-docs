@@ -17,4 +17,4 @@ To do this:
 3. Click **Next** to go to the next step.
 
 <!-- Referenced images -->
-[img1]: ../media/btn-Search.png
+[img1]: ../mailing/media/btn-search.png

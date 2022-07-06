@@ -1,5 +1,5 @@
 ---
-uid: help-en-step-1-setup---document
+uid: help-en-step-1-setup-document
 title: Step 1 Setup - Document
 description: Step 1 Setup - Document
 author: SuperOffice RnD
@@ -56,4 +56,4 @@ In order to do this:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

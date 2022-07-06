@@ -14,7 +14,7 @@ To do this:
 4. Repeat steps 2-4 to add more recipients. Additional recipients will be added to the same row in the **Recipient sources** list. The total number of recipients will display in the **Name** column.
 
 <!-- Referenced links -->
-[1]: ../Create-address-list.md
+[1]: ../mailing/helptopics/create-address-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

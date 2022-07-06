@@ -49,4 +49,4 @@ This section of the screen displays the contents of the request selected under *
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

@@ -50,7 +50,7 @@ To create a new static or dynamic selection:
 
 14. Check **Completed** if you want to specify that the selection is inactive. If you want the selection to be active, leave this box unchecked.
 
-15. To add the selection to favourites, click the star icon ![icon][img1]. The star turns yellow ![icon](../../Service/media/favourite-active.png), and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu.
+15. To add the selection to favourites, click the star icon ![icon][img1]. The star turns yellow ![icon][img2], and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon](../../media/navmenu-favourites.png) from the Navigator menu.
 
 16. When you have finished defining the core data for the selection, click **Save** to save.
 
@@ -72,3 +72,4 @@ To create a new static or dynamic selection:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/favorite-inactive.png
+[img2]: ../../../../media/icons/favorite-active.png

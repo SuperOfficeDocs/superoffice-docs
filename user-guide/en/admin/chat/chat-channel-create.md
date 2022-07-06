@@ -140,5 +140,5 @@ The preview on the right displays the chat window with the current settings.
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png
 [img2]: ../../../media/icons/chat-btn-small.png
-[img3]: ../../../media/chat-badge-example.png
-[img4]: ../../../../media/icons/chat-mandatorytab.png
+[img3]: ../../media/chat-badge-example.png
+[img4]: ../../../media/icons/chat-mandatorytab.png

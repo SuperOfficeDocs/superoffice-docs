@@ -24,7 +24,7 @@ Open the search screen. <!-- Fix reuse ID=a2 -->
 
 Enter or adjust the criteria as described under [Search in SuperOffice Service](rms.search.md).
 
-Click ![icon](../../../media/icons/btn-menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
+Click ![icon](../../../../media/icons/btn-menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
 
 In the **General info** tab, enter the following:
 
@@ -45,7 +45,7 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 * [Edit a selection](selections.editSelection2.md)
 
 <!-- Referenced links -->
-[1]: ../../topics/ticket.listtickets.findtickets.md
-[2]: ../../topics/ticket.listtickets.uselists.md
+[1]: ticket.listtickets.findtickets.md
+[2]: ticket.listtickets.uselists.md
 
 <!-- Referenced images -->

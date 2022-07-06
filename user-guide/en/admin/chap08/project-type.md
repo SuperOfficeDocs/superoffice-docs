@@ -1,5 +1,5 @@
 ---
-uid: help-en-project---type
+uid: help-en-project-type
 title: Project - Type
 description: Project - Type
 author: SuperOffice RnD

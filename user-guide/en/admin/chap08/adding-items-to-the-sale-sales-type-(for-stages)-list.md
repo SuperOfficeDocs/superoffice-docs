@@ -1,5 +1,5 @@
 ---
-uid: help-en-adding-items-to-the-sale---sales-type-(for-stages)-list
+uid: help-en-adding-items-to-the-sale
 title: Adding items to the Sale - Sales type (for stages) list
 description: Adding items to the Sale - Sales type (for stages) list
 author: SuperOffice RnD

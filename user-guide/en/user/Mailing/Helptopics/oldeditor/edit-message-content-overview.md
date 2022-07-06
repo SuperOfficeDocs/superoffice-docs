@@ -1,5 +1,5 @@
 ---
-uid: help-en-edit-message-content---overview
+uid: help-en-edit-message-content-overview
 title: Edit message content - overview
 description: Edit message content - overview
 author: SuperOffice RnD
@@ -48,7 +48,7 @@ In the paragraph menu, you can click ![icon](../../media/btn-editor-newpara.jpg)
 
 ## Move, copy and delete paragraphs and columns
 
-In the column and paragraph menus, you can move ( ![icon](../../media/btn-editor-move.jpg) ) and delete ( ![icon](../../media/btn-Cancel.png) ) columns and paragraphs. In the paragraph menu, you can also copy ( ) a paragraph.
+In the column and paragraph menus, you can move ( ![icon](../../media/btn-editor-move.jpg) ) and delete ( ![icon](../../media/btn-cancel.png) ) columns and paragraphs. In the paragraph menu, you can also copy ( ) a paragraph.
 
 ## Edit format and layout
 

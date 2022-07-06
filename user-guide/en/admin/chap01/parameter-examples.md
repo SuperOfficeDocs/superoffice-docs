@@ -44,4 +44,4 @@ Local-datapath=ODBC:SuperOfficeLocal
 ```
 
 > [!TIP]
-> You can find the latest information about, among other things, settings in **SuperOffice.ini** and **SOUSER.INI** [in the onsite section](../../../../docs//onsite/travel/index.md).
+> You can find the latest information about, among other things, settings in **SuperOffice.ini** and **SOUSER.INI** [in the onsite section](../../../../docs/onsite/travel/index.md).

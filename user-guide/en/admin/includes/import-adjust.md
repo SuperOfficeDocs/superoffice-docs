@@ -32,9 +32,9 @@ Rows without an icon will not be imported. If you can see that many contacts wil
     7. When you have verified that this actually is the data you want to import, click **Import**.
 
 <!-- Referenced links -->
-[1]: ../import_web/Import_settings_web.md
-[2]: import_web/Import_settings_web.md#setprivacy
-[3]: privacy/privacy.md
+[1]: ../import-web/import-settings-web.md
+[2]: ../import-web/import-settings-web.md#setprivacy
+[3]: ../privacy/privacy.md
 
 <!-- Referenced images -->
-[img1]: media/import_preview_icon_Company_New.bmp
+[img1]: ../media/import-preview-icon-company-new.bmp

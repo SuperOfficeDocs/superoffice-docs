@@ -161,6 +161,11 @@ To add documents to a status:
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Project guide** section tab in SuperOffice CRM.
 5. Select the required template in the **Template** field (see also [Document - Template](../chap08/Document-template.md)).
 6. Enter the subject to be used in the document in the **Default subject** field.
-7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable](../Template-variables.md#Variables-from-the-Project-card) for a project number, project title or another field relating to the project.
+7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for a project number, project title or another field relating to the project.
 8. Click **Save** to save your changes in Settings and maintenance.
 9. Repeat this procedure to add more documents in this or other statuses.
+
+<!-- Referenced links -->
+[1]: ../../user/standardcrm/chap02/template-variables.md#variables-from-the-project-card
+
+<!-- Referenced images -->

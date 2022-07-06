@@ -22,7 +22,7 @@ There are several types of template variables:
 * Template variables linked to companies; e.g. ****\[\[company.name\]\]**, which inserts the name of the company the contact belongs to.**
 
 <!-- Fix reuse ID=a1 -->
-[!include[Mailing example with template variables](../../../includes/mailing-tempvar-example.md))]
+[!include[Mailing example with template variables](../../../includes/mailing-tempvar-example.md)]
 
 **To enter template variables into your message:**
 

@@ -34,7 +34,7 @@ Click the **Refresh** button ( ![icon](../media/Dashboard-Images/dashboard-refre
 
 Click the **Task** button to access the following functions:
 
-* [Create a new dashboard](Dashboard-Create.md)
+* [Create a new dashboard](dashboard-create.md)
 
 * [Duplicate a dashboard](Dashboard-duplicate.md)
 

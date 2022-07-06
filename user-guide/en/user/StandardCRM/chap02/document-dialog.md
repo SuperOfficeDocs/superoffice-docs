@@ -19,7 +19,7 @@ The central feature of the document function is the **Document** dialog, which y
 The dialog consists of a main section with general information about the document, and the following tabs with additional information.
 
 * [Details](Details-tab-Document.md)
-* [Links](Links-tab-(Document).md)
+* [Links](Links-tab-Document.md)
 * [More](More-tab-Document.md)
 
 The main section contains the following essential information about the document:

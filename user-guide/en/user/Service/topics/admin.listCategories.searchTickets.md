@@ -13,7 +13,7 @@ language: en
 
 From the **Categories** screen, it is also possible to search for requests in a specific category. To do this:
 
-1. Select ![icon](../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Categories**.
+1. Select ![icon](../../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Categories**.
 
 2. Point at the category in which you want to search, to make the icons appear to the right.
 
