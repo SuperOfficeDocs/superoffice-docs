@@ -252,20 +252,20 @@ items:
     href: topics/differences-between-onsite-and-online-installations.md
   - name: Document
     href: topics/document.md
-  - name: Document document
-    href: topics/document.document.md
+  - name: Knowledge base
+    href: knowledge-base/index.md
   - name: Document document delDocument
-    href: topics/document.document.deldocument.md
+    href: knowledge-base/deldocument.md
   - name: Document document editDocument
-    href: topics/document.document.editdocument.md
+    href: knowledge-base/editdocument.md
   - name: Document document editFolder
-    href: topics/document.document.editfolder.md
+    href: knowledge-base/editfolder.md
   - name: Document document findDocument
-    href: topics/document.document.finddocument.md
+    href: knowledge-base/finddocument.md
   - name: Document document newDocument
-    href: topics/document.document.newdocument.md
+    href: knowledge-base/newdocument.md
   - name: Document document viewDocument
-    href: topics/document.document.viewdocument.md
+    href: knowledge-base/viewdocument.md
   - name: Document emailAddressBook
     href: topics/document.emailaddressbook.md
   - name: Document emailAddressBook editEabFolder

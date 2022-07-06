@@ -21,7 +21,7 @@ To search for information in the knowledge base:
 
 ## What would you like to do now?
 
-[Work with documents](document.document.md)
+[Work with documents](../knowledge-base/index.md)
 
 [Work with external documents](document.externalDocument.md)
 

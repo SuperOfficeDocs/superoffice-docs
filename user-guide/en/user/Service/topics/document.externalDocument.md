@@ -17,14 +17,14 @@ This applies, for example, when you use the **Message** tab when answering reque
 
 Apart from this practical use, external documents are otherwise dealt with in the same way as other documents. This means that you can follow the procedures in the topics below when working with external documents; you just need to remember to select **Knowledge Base** &gt; **External documents** first, so that you are working from the correct location:
 
-[View documents](document.document.viewDocument.md)
+[View documents](../knowledge-base/viewDocument.md)
 
-[Create documents](document.document.newDocument.md)
+[Create documents](../knowledge-base/newDocument.md)
 
-[Edit documents](document.document.editDocument.md)
+[Edit documents](../knowledge-base/editDocument.md)
 
-[Delete documents](document.document.delDocument.md)
+[Delete documents](../knowledge-base/delDocument.md)
 
-[Search for documents](document.document.findDocument.md)
+[Search for documents](../knowledge-base/findDocument.md)
 
-[Administrate folders of documents](document.document.editFolder.md)
+[Administrate folders of documents](../knowledge-base/editFolder.md)

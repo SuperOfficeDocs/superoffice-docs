@@ -21,7 +21,7 @@ Under **Knowledge Base** &gt; **Documents** you can create a folder structure fo
 4. Enter a descriptive name for the folder in the **Name** field.
 5. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ) and select a different folder in the list that appears.
 6. In the **Access** list box, you select who is to have access to read and edit the folder.
-7. Click **OK**. The new folder is created. You are now ready to add documents to the new folder. See [Create documents](document.document.newDocument.md).
+7. Click **OK**. The new folder is created. You are now ready to add documents to the new folder. See [Create documents](newDocument.md).
 
 ## Delete folders
 
@@ -35,4 +35,4 @@ When you delete a folder, all the documents in it are also deleted from SuperOff
 
 ## What would you like to do now?
 
-[Create documents](document.document.newDocument.md)
+[Create documents](newDocument.md)
