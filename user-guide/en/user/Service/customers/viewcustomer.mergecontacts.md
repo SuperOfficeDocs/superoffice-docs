@@ -33,7 +33,7 @@ The contacts that have been overwritten will no longer be available in favourite
 
 ## What would you like to do now?
 
-[Merge companies](customers.viewCompany.mergecompanies.md)
+[Merge companies](viewCompany.mergecompanies.md)
 
 <!-- Referenced links -->
 [1]:

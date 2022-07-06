@@ -11,4 +11,4 @@ language: en
 
 # Invoice properties
 
-This screen is used to create or edit an invoice entry. See [View invoice data for contacts](customers.viewCustomer.listInvoices.md).
+This screen is used to create or edit an invoice entry. See [View invoice data for contacts](viewCustomer.listInvoices.md).

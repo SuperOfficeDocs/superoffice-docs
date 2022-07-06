@@ -23,7 +23,7 @@ If you are very busy and just need to register a request as fast as possible, us
 5. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](admin.listPriorities.editAlert.md) set for different customers.
 6. In the **Contact** field, add the contact for the request. <!-- Fix reuse ID=a2 -->
     * To search for a contact, start typing their name. The search starts automatically.
-    * If the contact is not recorded in the system, click ![icon][img1] to add them as a new contact. See [Create contacts](customers.newCustomer.md).
+    * If the contact is not recorded in the system, click ![icon][img1] to add them as a new contact. See [Create contacts](../customers/newCustomer.md).
 
     You can only add one contact to a quick request. To add additional contacts, open the request after you have created it.
 7. In the **Message** field, enter the actual message you want to add to the request.

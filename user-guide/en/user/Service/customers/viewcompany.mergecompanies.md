@@ -34,7 +34,7 @@ The companies that have been overwritten will no longer be available in favourit
 
 ## What would you like to do now?
 
-[Merge contacts](customers.viewCustomer.mergecontacts.md)
+[Merge contacts](viewCustomer.mergecontacts.md)
 
 <!-- Referenced links -->
 [1]:

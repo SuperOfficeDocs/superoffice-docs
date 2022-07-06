@@ -211,43 +211,43 @@ items:
   - name: Blogic listSystemScripts editSystemScript
     href: topics/blogic.listsystemscripts.editsystemscript.md
   - name: Customers
-    href: topics/customers.md
+    href: customers/index.md
   - name: Customers findContacts
-    href: topics/customers.findcontacts.md
+    href: customers/findcontacts.md
   - name: Customers findContacts showResultsContacts
-    href: topics/customers.findcontacts.showresultscontacts.md
+    href: customers/findcontacts.showresultscontacts.md
   - name: Customers findCustomers
-    href: topics/customers.findcustomers.md
+    href: customers/findcustomers.md
   - name: Customers findCustomers showResults
-    href: topics/customers.findcustomers.showresults.md
+    href: customers/findcustomers.showresults.md
   - name: Customers newCompany
-    href: topics/customers.newcompany.md
+    href: customers/newcompany.md
   - name: Customers newCustomer
-    href: topics/customers.newcustomer.md
+    href: customers/newcustomer.md
   - name: Customers viewCompany
-    href: topics/customers.viewcompany.md
+    href: customers/viewcompany.md
   - name: Customers viewCompany deleteContact
-    href: topics/customers.viewcompany.deletecontact.md
+    href: customers/viewcompany.deletecontact.md
   - name: Customers viewCompany editCompany
-    href: topics/customers.viewcompany.editcompany.md
+    href: customers/viewcompany.editcompany.md
   - name: Customers viewCompany listInvoicesContact
-    href: topics/customers.viewcompany.listinvoicescontact.md
+    href: customers/viewcompany.listinvoicescontact.md
   - name: Customers viewCompany listInvoicesContact editInvoice
-    href: topics/customers.viewcompany.listinvoicescontact.editinvoice.md
+    href: customers/viewcompany.listinvoicescontact.editinvoice.md
   - name: Customers viewCompany mergecompanies
-    href: topics/customers.viewcompany.mergecompanies.md
+    href: customers/viewcompany.mergecompanies.md
   - name: Customers viewCustomer
-    href: topics/customers.viewcustomer.md
+    href: customers/viewcustomer.md
   - name: Customers viewCustomer deleteCustomer
-    href: topics/customers.viewcustomer.deletecustomer.md
+    href: customers/viewcustomer.deletecustomer.md
   - name: Customers viewCustomer editCustomer
-    href: topics/customers.viewcustomer.editcustomer.md
+    href: customers/viewcustomer.editcustomer.md
   - name: Customers viewCustomer listInvoices
-    href: topics/customers.viewcustomer.listinvoices.md
+    href: customers/viewcustomer.listinvoices.md
   - name: Customers viewCustomer mergecontacts
-    href: topics/customers.viewcustomer.mergecontacts.md
+    href: customers/viewcustomer.mergecontacts.md
   - name: Customers viewCustomer sendNewCustMail
-    href: topics/customers.viewcustomer.sendnewcustmail.md
+    href: customers/viewcustomer.sendnewcustmail.md
   - name: Differences between onsite and online installations
     href: topics/differences-between-onsite-and-online-installations.md
   - name: Document

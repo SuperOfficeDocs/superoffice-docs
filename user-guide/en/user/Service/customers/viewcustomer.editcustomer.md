@@ -13,9 +13,9 @@ language: en
 
 To edit the information already recorded for a contact:
 
-1. Open the **Contact** screen as described under [View contacts](customers.viewCustomer.md).
+1. Open the **Contact** screen as described under [View contacts](viewCustomer.md).
 2. Click the ![icon][img1] **Actions** button and select **Edit contact**. The **Contact properties** screen appears.
-3. Make the required changes. For more information about the fields in this screen, see [Create contacts](customers.newCustomer.md).
+3. Make the required changes. For more information about the fields in this screen, see [Create contacts](newCustomer.md).
 4. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->
