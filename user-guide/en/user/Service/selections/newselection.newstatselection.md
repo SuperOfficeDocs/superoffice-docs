@@ -13,7 +13,7 @@ language: en
 
 You can find records and add them all, or some of them at a time, to a static selection. You can perform many searches in different tables and using different criteria, and select the records you want to include in the selection. When they are no longer relevant, you simply remove them from the selection.
 
-A static selection contains only those records you have added to it manually, unlike a dynamic selection (see [Create a dynamic selection](selections.newSelection.newDynamicSelection.md)). Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records.
+A static selection contains only those records you have added to it manually, unlike a dynamic selection (see [Create a dynamic selection](newSelection.newDynamicSelection.md)). Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records.
 
 To do this:
 
@@ -29,7 +29,7 @@ To do this:
 
     [!include[Contents of Selection General info tab](../../includes/selection-general-info.md)]
 
-6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service](rms.search.md).
+6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service](../topics/rms.search.md).
 
 7. Click the **Search** button to start the search.
 
@@ -49,11 +49,11 @@ To do this:
 
 ## What would you like to do now?
 
-[Update a selection](selections.updateSelection.md)
+[Update a selection](updateSelection.md)
 
-[View selections](selections.listSelections.md)
+[View selections](listSelections.md)
 
-[Edit a selection](selections.editSelection2.md)
+[Edit a selection](editSelection2.md)
 
 <!-- Referenced links -->
 

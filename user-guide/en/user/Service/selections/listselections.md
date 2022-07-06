@@ -13,15 +13,15 @@ language: en
 
 At the top of the **List selections** screen are two buttons:
 
-* **New selection**: Click here to create a new selection. See [Create a selection](selections.newSelection.md).
-* **New folder**: Click here to create a new folder. This applies if you have arranged your selections into a folder structure (see [Administrate folders of selections](selections.editSelectionFolder.md)).
+* **New selection**: Click here to create a new selection. See [Create a selection](newSelection.md).
+* **New folder**: Click here to create a new folder. This applies if you have arranged your selections into a folder structure (see [Administrate folders of selections](editSelectionFolder.md)).
 
 To view existing selections, do as follows:
 
 1. Select **Selections** &gt; **List selections**. This takes you to the **List selections** screen, containing a list of all the selections you have access to. The number of records in each selection is given in parentheses. You can hover the mouse pointer over the name of a selection to display the selection type (for example, static or dynamic) and what type of records it contains.
 
     > [!TIP]
-    > If you check **Show in left menu** when you create a selection (see [Create a selection](selections.newSelection.md)), the name of the selection is also displayed under **Selections** in the Navigator.
+    > If you check **Show in left menu** when you create a selection (see [Create a selection](newSelection.md)), the name of the selection is also displayed under **Selections** in the Navigator.
 
 2. Click the required selection. The selection is opened so that you can see which records it contains.
 
@@ -35,15 +35,15 @@ To view existing selections, do as follows:
 
 ## What would you like to do now?
 
-[Update a selection](selections.updateSelection.md)
+[Update a selection](updateSelection.md)
 
-[Create a selection](selections.newSelection.md)
+[Create a selection](newSelection.md)
 
-[Edit a selection](selections.editSelection2.md)
+[Edit a selection](editSelection2.md)
 
-[Delete a selection](selections.deleteSelection.md)
+[Delete a selection](deleteSelection.md)
 
-[Administrate folders of selections](selections.editSelectionFolder.md)
+[Administrate folders of selections](editSelectionFolder.md)
 
 <!-- Referenced links -->
 [1]:

@@ -22,7 +22,7 @@ Open the search screen. <!-- Fix reuse ID=a2 -->
 * You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
 * In the knowledge base, you can click the **Search** icon ( ![icon](../media/search.png) ) to the right of a folder name to search for different types of content.
 
-Enter or adjust the criteria as described under [Search in SuperOffice Service](rms.search.md).
+Enter or adjust the criteria as described under [Search in SuperOffice Service](../topics/rms.search.md).
 
 Click ![icon](../../../../media/icons/btn-menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
 
@@ -30,7 +30,7 @@ In the **General info** tab, enter the following:
 
 [!include[Contents of Selection General info tab](../../includes/selection-general-info.md)]
 
-In the **Selection** tab you can view the search criteria specified for the selection. If necessary, adjust the criteria as described under [Search in SuperOffice Service](rms.search.md).
+In the **Selection** tab you can view the search criteria specified for the selection. If necessary, adjust the criteria as described under [Search in SuperOffice Service](../topics/rms.search.md).
 
 In the **Profile** tab, specify how the selection is to be presented:
 
@@ -40,12 +40,12 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 
 ## What would you like to do now?
 
-* [Update a selection](selections.updateSelection.md)
-* [View selections](selections.listSelections.md)
-* [Edit a selection](selections.editSelection2.md)
+* [Update a selection](updateSelection.md)
+* [View selections](listSelections.md)
+* [Edit a selection](editSelection2.md)
 
 <!-- Referenced links -->
-[1]: ticket.listtickets.findtickets.md
-[2]: ticket.listtickets.uselists.md
+[1]: ../topics/ticket.listtickets.findtickets.md
+[2]: ../topics/ticket.listtickets.uselists.md
 
 <!-- Referenced images -->

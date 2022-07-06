@@ -27,7 +27,7 @@ If you want to delete a selection, you do not delete the actual records it conta
 * [Delete records in a selection][1]
 
 <!-- Referenced links -->
-[1]: selections.deleterecords.md
+[1]: deleterecords.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/edit.png

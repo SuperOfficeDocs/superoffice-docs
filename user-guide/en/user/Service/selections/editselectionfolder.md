@@ -27,4 +27,4 @@ Under **Selections** &gt; **List selections** you can create a folder structure 
 
 ## What would you like to do now?
 
-* [Create a selection](selections.newSelection.md)
+* [Create a selection](newSelection.md)

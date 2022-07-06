@@ -13,7 +13,7 @@ language: en
 
 When you update a selection, you can see how many members (records) it has at the present time. You can do this in several ways.
 
-If you checked **Show in left menu** when you created a selection (see [Create a selection](selections.newSelection.md)), the name of the selection is also displayed under **Selections** in the Navigator. The number of entries in the selection is given in brackets and this number is updated when you click the selection name.
+If you checked **Show in left menu** when you created a selection (see [Create a selection](newSelection.md)), the name of the selection is also displayed under **Selections** in the Navigator. The number of entries in the selection is given in brackets and this number is updated when you click the selection name.
 
 For selections that are not displayed in the Navigator, you can do as follows:
 
@@ -22,15 +22,15 @@ For selections that are not displayed in the Navigator, you can do as follows:
 3. Click the **Update number of results** icon ( ![icon][img1] ). The number in brackets next to the name is updated.
 
 > [!TIP]
-> When you edit a selection (see [Edit a selection](selections.editSelection2.md)), you can update the selection by clicking the **Execute** button in the **Edit selection** screen.
+> When you edit a selection (see [Edit a selection](editSelection2.md)), you can update the selection by clicking the **Execute** button in the **Edit selection** screen.
 
 ## What would you like to do now?
 
-[Create a selection](selections.newSelection.md)
+[Create a selection](newSelection.md)
 
-[Edit a selection](selections.editSelection2.md)
+[Edit a selection](editSelection2.md)
 
-[Delete a selection](selections.deleteSelection.md)
+[Delete a selection](deleteSelection.md)
 
 <!-- Referenced links -->
 [1]:

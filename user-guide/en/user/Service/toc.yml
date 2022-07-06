@@ -325,7 +325,7 @@ items:
   - name: Navigator options
     href: topics/navigator-options.md
   - name: New selection
-    href: topics/selections.newselection.md
+    href: selections/newselection.md
   - name: Rms
     href: topics/rms.md
   - name: Rms login
@@ -349,31 +349,31 @@ items:
   - name: Rms search useQuickSearch
     href: topics/rms.search.usequicksearch.md
   - name: Selections
-    href: topics/selections.md
+    href: selections/index.md
   - name: Selections deleterecords
-    href: topics/selections.deleterecords.md
+    href: selections/deleterecords.md
   - name: Selections deleteSelection
-    href: topics/selections.deleteselection.md
+    href: selections/deleteselection.md
   - name: Selections editSelection2
-    href: topics/selections.editselection2.md
+    href: selections/editselection2.md
   - name: Selections editSelection2 editProfile
-    href: topics/selections.editselection2.editprofile.md
+    href: selections/editselection2.editprofile.md
   - name: Selections editSelectionFolder
-    href: topics/selections.editselectionfolder.md
+    href: selections/editselectionfolder.md
   - name: Selections listSelections
-    href: topics/selections.listselections.md
+    href: selections/listselections.md
   - name: Selections newSelection newCombiSelection
-    href: topics/selections.newselection.newcombiselection.md
+    href: selections/newselection.newcombiselection.md
   - name: Selections newSelection newDynamicSelection
-    href: topics/selections.newselection.newdynamicselection.md
+    href: selections/newselection.newdynamicselection.md
   - name: Selections newSelection newScriptSelection
-    href: topics/selections.newselection.newscriptselection.md
+    href: selections/newselection.newscriptselection.md
   - name: Selections newSelection newSelection
-    href: topics/selections.newselection.newselection.md
+    href: selections/newselection.newselection.md
   - name: Selections newSelection newStatSelection
-    href: topics/selections.newselection.newstatselection.md
+    href: selections/newselection.newstatselection.md
   - name: Selections updateSelection
-    href: topics/selections.updateselection.md
+    href: selections/updateselection.md
   - name: Stat
     href: topics/stat.md
   - name: Stat invoiceStat
