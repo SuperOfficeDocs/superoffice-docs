@@ -46,6 +46,12 @@ On by default on 8.1
 
 SuperOffice Inbox downloads emails from your mailbox and stores them in the SuperOffice database.
 
+**Online:**
+
+[Submit a support request][3] to your local support team. They can change the value for your tenant.
+
+**OnSite:**
+
 If you want to change how many days to past we should download and store emails, you can add the following key in the [Mail section of the NetServer configuration][4].
 
 ```xml
