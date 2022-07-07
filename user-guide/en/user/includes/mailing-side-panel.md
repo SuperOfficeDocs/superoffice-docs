@@ -9,8 +9,8 @@
 > If the **Images** (![icon][img6]) section is not visible, this preference may have been disabled due to organisational privacy rules.
 
 <!-- Referenced links -->
-[1]: ../marketing/edit-a-paragraph.md
-[2]: ../marketing/insert-images-in-the-message.md
+[1]: ../marketing/edit-paragraph.md
+[2]: ../marketing/insert-images-in-message.md
 
 <!-- Referenced images -->
 [img1]: ../marketing/media/editor-sidepanel-btn-content.png

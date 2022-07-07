@@ -23,7 +23,7 @@ Specify here the priority of the follow-up. Click the arrow to display a list wi
 
 **Alarm**
 
-For notification of the follow-up, check **Alarm**.For more information about this, see [Set alarms for follow-ups](Setting-an-alarm-for-follow-ups.md). If an alarm has been specified for a follow-up, an icon ( ![icon](../media/followup-details-alarm.bmp) ) is displayed at the upper left of the main part of the dialog.
+For notification of the follow-up, check **Alarm**.For more information about this, see [Set alarms for follow-ups](Setting-alarm-for-follow-ups.md). If an alarm has been specified for a follow-up, an icon ( ![icon](../media/followup-details-alarm.bmp) ) is displayed at the upper left of the main part of the dialog.
 
 **Owner**
 

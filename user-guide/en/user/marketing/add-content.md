@@ -24,7 +24,7 @@ language: en
 
 |   |   |
 |---|---|
-|![icon](media/editor-sidepanel-btn-content.png) | From the **Content** section you can add all types of content, such as columns, text blocks, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to edit it in the side panel. See [Edit content](Edit-a-paragraph.md).|
+|![icon](media/editor-sidepanel-btn-content.png) | From the **Content** section you can add all types of content, such as columns, text blocks, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to edit it in the side panel. See [Edit content](Edit-paragraph.md).|
 
 | Icon | Name | Function |
 |------|------|----------|
@@ -54,4 +54,4 @@ In this section you can edit the global properties and layout for the message.
 
 ## Adding images
 
-Add images from the SuperOffice database or from the royalty-free online image database. See [Insert images in the message](Insert-images-in-the-message.md).
+Add images from the SuperOffice database or from the royalty-free online image database. See [Insert images in the message](Insert-images-in-message.md).

@@ -15,7 +15,7 @@ When you have opened the diary of an associate on the screen (see [Create group 
 
 1. Click the **View** tab in the **Diary** screen.
 2. Find the person's diary in the **View** (see [Use the group view](Using-group-view.md)).
-3. Create a new appointment in this diary using the mouse (see [Create follow-ups from the Diary](Creating-appointments-using-the-Diary.md)). The **Appointment** dialog opens.
+3. Create a new appointment in this diary using the mouse (see [Create follow-ups from the Diary](Creating-appointments-using-Diary.md)). The **Appointment** dialog opens.
 
 > [!NOTE]
 > If you have checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.

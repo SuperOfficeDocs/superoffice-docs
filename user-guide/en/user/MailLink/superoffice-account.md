@@ -15,7 +15,7 @@ These options appear in the **SuperOffice account** pane of the **SuperOffice CR
 
 Preferred SuperOffice client
 
-Here you can select which SuperOffice client to use when you search for senders (see [Searching for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)): **SuperOffice CRM** (Windows client), **SuperOffice CRM** (Web client) or **Service**.
+Here you can select which SuperOffice client to use when you search for senders (see [Searching for the sender of an e-mail](Searching-for-sender-of-e-mail.md)): **SuperOffice CRM** (Windows client), **SuperOffice CRM** (Web client) or **Service**.
 
 User name
 

@@ -23,7 +23,7 @@ The **Activities** section tab is available in the **Company** screen, the **Con
 
 * The **Activities** section tab in the **Diary** screen displays all your uncompleted activities. See [Activities section tab (Diary)](activities-list.md).
 
-* Activities are also displayed in the different views in the **Diary** screen. See [Tabs in the Diary screen](Tabs-in-the-Diary-screen.md).
+* Activities are also displayed in the different views in the **Diary** screen. See [Tabs in the Diary screen](Tabs-in-Diary-screen.md).
 
 There are two types of activities – documents and follow-ups. Follow-ups is a collective term for appointments, phone calls and tasks. In addition, mailings, form submissions and chat records are displayed in the **Activities** section tab.
 
@@ -52,15 +52,15 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 * [Task](Task.md)
 * [Phone Call](Phone-call.md)
 * [Work with documents](Write.md)
-* [Compose an e-mail](Compose-an-email-Web.md)
+* [Compose an e-mail](Compose-email-Web.md)
 * [Chat](../../Chat/index.md)
 
 ## What would you like to do now?
 
-* [Use filters in the section tabs](../key-functions/Use-filters-in-the-section-tabs.md)
+* [Use filters in the section tabs](../key-functions/Use-filters-in-section-tabs.md)
 * [Delete activities](Deleting-activities.md)
 * [Dial contacts](Dialling-Contacts.md)
 * [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md)
 * [Add follow-ups (appointments, tasks and phone calls)](Add-activities.md)
 * [Work with documents](Write.md)
-* [Compose an e-mail](Compose-an-email-Web.md)
+* [Compose an e-mail](Compose-email-Web.md)

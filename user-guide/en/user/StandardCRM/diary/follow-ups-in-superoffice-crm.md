@@ -32,7 +32,7 @@ Features which are common to all follow-ups are described below.
 
 [Edit follow-ups](Editing-follow-ups.md)
 
-[Set alarms for follow-ups](Setting-an-alarm-for-follow-ups.md)
+[Set alarms for follow-ups](Setting-alarm-for-follow-ups.md)
 
 [Send follow-ups](Sending-follow-ups.md)
 

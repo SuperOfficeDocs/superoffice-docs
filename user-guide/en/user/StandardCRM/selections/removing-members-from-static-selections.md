@@ -38,7 +38,7 @@ If you only want to remove a specific members, do as follows:
 [Add members to static selections](Adding-members-to-static-selections.md)
 
 <!-- Referenced links -->
-[1]: ../key-functions/using-the-history-list.md
+[1]: ../key-functions/using-history-list.md
 [2]: ../key-functions/using-fastsearcher.md
 
 <!-- Referenced images -->

@@ -43,6 +43,6 @@ The fields in the **Import** screen and their use are described under [Import fi
 
 [Look at import descriptions](Import-descriptions.md)
 
-[Update information in the database](Updating-the-database.md)
+[Update information in the database](Updating-database.md)
 
 [Look at exports](Export.md)

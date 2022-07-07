@@ -22,7 +22,7 @@ To add a relation:
     > [!NOTE]
     > A relation must always consist of two parties, one active and one passive, for example: Contact A owns Company B, while Company B is owned by Contact A.
 
-4. Select companies and contacts under **Active part** and **Passive part** as required. Specify them either by clicking the arrow and selecting the required company or contact in the displayed list box, by typing in the whole or the beginning of the name. (See [FastSearcher](../key-functions/Using-FastSearcher.md) and [The History list](../key-functions/Using-the-history-list.md)).
+4. Select companies and contacts under **Active part** and **Passive part** as required. Specify them either by clicking the arrow and selecting the required company or contact in the displayed list box, by typing in the whole or the beginning of the name. (See [FastSearcher](../key-functions/Using-FastSearcher.md) and [The History list](../key-functions/Using-history-list.md)).
 
 5. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. The available alternatives are defined in SuperOffice Settings and maintenance.
 

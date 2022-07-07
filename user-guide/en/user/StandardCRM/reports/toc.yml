@@ -14,7 +14,7 @@ items:
 - name: Deleting favourite reports
   href: deleting-favourite-reports.md
 - name: Deleting reports from the report archive
-  href: deleting-reports-from-the-report-archive.md
+  href: deleting-reports-from-report-archive.md
 - name: Displaying cross tables
   href: displaying-cross-tables.md
 - name: Displaying labels
@@ -34,7 +34,7 @@ items:
 - name: Managing saved reports
   href: managing-saved-reports.md
 - name: Opening reports in the report archive
-  href: opening-reports-in-the-report-archive.md
+  href: opening-reports-in-report-archive.md
 - name: Printing cross tables
   href: printing-cross-tables.md
 - name: Printing labels
@@ -62,7 +62,7 @@ items:
 - name: Standard Reports
   href: standard-reports.md
 - name: Using the Filter function Reports
-  href: using-the-filter-function-reports.md
+  href: using-filter-function-reports.md
 - name: Viewing reports
   href: viewing-reports.md
 - name: Working with reports

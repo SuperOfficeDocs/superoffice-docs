@@ -27,6 +27,6 @@ SuperOffice Mail Link is a plug-in which links the Microsoft Outlook or Lotus No
 
 [Create e-mails](Creating-emails.md)
 
-[Search for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)
+[Search for the sender of an e-mail](Searching-for-sender-of-e-mail.md)
 
 [Set options in the SuperOffice CRM options dialog](E-mail-options-dialog.md)

@@ -8,7 +8,7 @@ items:
 - name: Chat create request
   href: create-request.md
 - name: Chat function from the customers perspective
-  href: function-from-the-customers-perspective.md
+  href: function-from-customers-perspective.md
 - name: Chat link to person
   href: link-to-person.md
 - name: Chat Person side panel

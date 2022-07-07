@@ -21,8 +21,8 @@ The activities displayed depend on which of the following checkboxes you have se
 You can show all activities, or just one of the types. For more details about the different activities, see [Activities in SuperOffice CRM](../diary/index.md).
 
 > [!TIP]
-> You can also filter activities by date and user (see [Use the Filter function](Using-the-Filter-function-Contact.md)).
+> You can also filter activities by date and user (see [Use the Filter function](Using-Filter-function-Contact.md)).
 
 ## Related topics
 
-[Move between activities in the activities list](../diary/Moving-between-activities-in-the-activities-list.md)
+[Move between activities in the activities list](../diary/Moving-between-activities-in-activities-list.md)

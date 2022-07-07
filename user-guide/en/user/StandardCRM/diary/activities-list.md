@@ -46,15 +46,15 @@ If an activity is highlighted in red type, this means that its provisional date 
 
 ## What would you like to do now?
 
-[View activities in the activities list](Viewing-activities-in-the-activities-list.md)
+[View activities in the activities list](Viewing-activities-in-activities-list.md)
 
-[Open activities in the activities list](Opening-activities-in-the-activities-list.md)
+[Open activities in the activities list](Opening-activities-in-activities-list.md)
 
-[Create follow-ups in the activities list](Creating-follow-ups-in-the-activities-list.md)
+[Create follow-ups in the activities list](Creating-follow-ups-in-activities-list.md)
 
-[Move between activities in the activities list](Moving-between-activities-in-the-activities-list.md)
+[Move between activities in the activities list](Moving-between-activities-in-activities-list.md)
 
-[Delete activities in the activities list](Deleting-activities-in-the-activities-list.md)
+[Delete activities in the activities list](Deleting-activities-in-activities-list.md)
 
 <!-- Referenced links -->
 [1]:

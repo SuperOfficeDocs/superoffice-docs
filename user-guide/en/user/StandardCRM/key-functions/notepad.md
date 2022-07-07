@@ -33,7 +33,7 @@ When you display the Notepad on the screen, you can grab the top part of the not
 If the Notepad is open when you close SuperOffice CRM, it will also be displayed when you next start the program, with all the text saved.
 
 <!-- Referenced links -->
-[1]: Navigating-in-the-mini-card.md
+[1]: Navigating-in-mini-card.md
 [2]: ../diary/Note.md
 
 <!-- Referenced images -->

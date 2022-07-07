@@ -25,7 +25,7 @@ The simplest way to search for requests is to use the predefined searches availa
 <!-- -->
 
 * **Own open requests**: Shows requests that belong to you and which have the **Open** status. In other words, this list contains the requests that it is your responsibility to deal with, and this is therefore the screen you will be working in most often.
-* **Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue](get-next-request-in-the-queue.md).
+* **Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue](get-next-request-in-queue.md).
 * **Unassigned requests**: Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests](showListTickets.acceptRequest.md).
 
 In practice, all these lists are predefined searches, and if you wish you can customise the search criteria:

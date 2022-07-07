@@ -1,5 +1,5 @@
 ---
-uid: help-en-the-browser-in-superoffice-crm
+uid: help-en-browser-in-superoffice-crm
 title: The browser in SuperOffice CRM
 description: The browser in SuperOffice CRM
 author: SuperOffice RnD

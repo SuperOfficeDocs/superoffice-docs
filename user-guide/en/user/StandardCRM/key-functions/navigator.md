@@ -43,7 +43,7 @@ The navigator contains the following buttons:
 
 [Favourites](Favourites.md) ![icon][img1]
 
-[The History list](Using-the-history-list.md) ![icon](../media/navigator-history-small.png)
+[The History list](Using-history-list.md) ![icon](../media/navigator-history-small.png)
 
 <!-- Referenced links -->
 [1]:

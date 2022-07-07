@@ -23,7 +23,7 @@ The **View** tab is used mainly to open and look at overviews of other users or 
 
 [Create group views](Creating-diary-views.md)
 
-[View group views for an entire user group](Viewing-views-for-an-entire-user-group.md)
+[View group views for an entire user group](Viewing-views-for-entire-user-group.md)
 
 [Use the group view](Using-group-view.md)
 

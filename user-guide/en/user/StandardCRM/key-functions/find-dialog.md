@@ -26,7 +26,7 @@ To search for records and data in SuperOffice CRM, you use the **Find** screen.
 
 To use the search function in SuperOffice CRM:
 
-1. Click the **Find** button on the [top bar](Buttons-in-the-menu-bar.md). ![icon](../media/GlobalMenu-Find.png)
+1. Click the **Find** button on the [top bar](Buttons-in-menu-bar.md). ![icon](../media/GlobalMenu-Find.png)
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
 3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Click ![icon](../media/criteria-remove.png) to remove any criteria you do not want to use.
     *or* If you want to add new search criteria, click the **Add** button. A new line is added to the criteria list.
@@ -53,7 +53,7 @@ Display a record in the side panel
 
 Use the side panel to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
 
-See [The side panel](Navigating-in-the-mini-card.md).
+See [The side panel](Navigating-in-mini-card.md).
 
 Perform tasks on the search results
 
@@ -134,7 +134,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
     * To open one of the records, double-click it. It is then displayed in the **Company** screen.
 
-    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
+    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
     * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
@@ -177,7 +177,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
     * To open one of the records, double-click it. It is then displayed in the **Company** screen.
 
-    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
+    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
     * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
@@ -206,7 +206,7 @@ Let's assume you are the manager of a company and want to find out what types of
 10. You then decide what you want to use the search results for. Here are some suggestions:
     * To open one of the records, double-click it. It is then displayed in the **Sale** screen.
 
-    * Preview each sale in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
+    * Preview each sale in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
     * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
@@ -251,7 +251,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
     * To open one of the records, double-click it. It is then displayed in the **Project** screen.
 
-    * Preview each project in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
+    * Preview each project in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
     * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
@@ -304,7 +304,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
     * To open one of the records, double-click it. It is then displayed on the **Activities** section tab in the **Company** screen.
 
-    * Preview each follow-up in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them. See [The side panel](Navigating-in-the-mini-card.md).
+    * Preview each follow-up in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
     * You can create a selection containing these follow-ups, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
@@ -316,6 +316,6 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 [Use FastSearcher](Using-FastSearcher.md)
 
-[Use the history list](Using-the-history-list.md)
+[Use the history list](Using-history-list.md)
 
 [Use search criteria](Using-search-criteria.md)

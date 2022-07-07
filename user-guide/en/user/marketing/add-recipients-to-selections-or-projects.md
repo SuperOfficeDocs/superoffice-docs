@@ -13,8 +13,8 @@ language: en
 
 Using the ![icon][img1] menu button you can add recipients and clickers to a selection or project. <!-- Fix reuse ID=a1 -->
 
-* In the **Recipients** tab in the **View mailing** screen (see [Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md)).
-* In the **Clickers** list in the **View link** screen (see [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md)).
+* In the **Recipients** tab in the **View mailing** screen (see [Work with the recipient list after the mailing](Work-with-recipient-list-after-mailing.md)).
+* In the **Clickers** list in the **View link** screen (see [Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md)).
 
 > [!NOTE]
 > Only contacts already registered in the SuperOffice database will be added to the selection or project. A contact icon ![icon](media/btn-contact.png) in the **Type** column indicates that a contact is registered in the SuperOffice database. Recipients imported from external lists will typically not be registered.

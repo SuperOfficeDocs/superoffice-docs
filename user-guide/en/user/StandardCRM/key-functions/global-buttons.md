@@ -22,7 +22,7 @@ The global buttons appear throughout SuperOffice CRM. Some of them are in the ma
 
 ## Related topics
 
-[The Top bar](Buttons-in-the-menu-bar.md)
+[The Top bar](Buttons-in-menu-bar.md)
 
 <!-- Referenced links -->
 [1]:

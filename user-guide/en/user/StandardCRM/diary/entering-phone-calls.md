@@ -13,7 +13,7 @@ language: en
 
 To enter a new call:
 
-* Choose **New** &gt; **Phone Call** on the [top bar](../key-functions/Buttons-in-the-menu-bar.md).
+* Choose **New** &gt; **Phone Call** on the [top bar](../key-functions/Buttons-in-menu-bar.md).
 * Click **Task** ( ![icon][img1] ) &gt; **Make a phone call** in a contact card.
 
 The **Phone call** dialog opens. Here you specify the phone call details as described under [The Dialog for follow-ups](Dialog-for-followups.md).

@@ -29,6 +29,6 @@ To open another diary:
 > [!NOTE]
 > Other users are displayed with the ![icon](../media/dagbokeierliste-annen-person.bmp) icon and red underlining, while resources are displayed with the ![icon](../media/dagbokeierliste-annen-ressurs.bmp) icon and blue underlining.
 
-When you open the diary of another user or resource, you can switch between the different tabs as in your own diary, and you can create follow-ups in their diaries by clicking and selecting time periods with the mouse, provided that you have the access rights to do so. (See [Create follow-ups from the Diary](Creating-appointments-using-the-Diary.md)).
+When you open the diary of another user or resource, you can switch between the different tabs as in your own diary, and you can create follow-ups in their diaries by clicking and selecting time periods with the mouse, provided that you have the access rights to do so. (See [Create follow-ups from the Diary](Creating-appointments-using-Diary.md)).
 
 You can also see an overview for several users and resources at the same time by using the **Show** button at the bottom of the **View** tab.

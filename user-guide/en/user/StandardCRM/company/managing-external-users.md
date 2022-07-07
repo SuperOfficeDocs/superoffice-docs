@@ -56,7 +56,7 @@ Select the contact you want to remove the login for and click **Remove login**. 
 Using the **Show** list box at the bottom right of the dialog, you can filter the list of contacts according to user status.
 
 <!-- Referenced links -->
-[1]: ../key-functions/using-the-history-list.md
+[1]: ../key-functions/using-history-list.md
 [2]: ../key-functions/using-fastsearcher.md
 
 <!-- Referenced images -->

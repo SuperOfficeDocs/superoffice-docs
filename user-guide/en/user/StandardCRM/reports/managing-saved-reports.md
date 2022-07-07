@@ -15,8 +15,8 @@ The report archive (the **Documents** section tab) at the bottom of the **Report
 
 ## What would you like to do now?
 
-[Open reports in the report archive (the Documents section tab)](Opening-reports-in-the-report-archive.md)
+[Open reports in the report archive (the Documents section tab)](Opening-reports-in-report-archive.md)
 
-[Use the Filter function](Using-the-Filter-function-Reports.md)
+[Use the Filter function](Using-Filter-function-Reports.md)
 
-[Delete reports from the report archive (the Documents section tab)](Deleting-reports-from-the-report-archive.md)
+[Delete reports from the report archive (the Documents section tab)](Deleting-reports-from-report-archive.md)

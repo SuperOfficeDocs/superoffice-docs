@@ -12,7 +12,7 @@ language: en
 # Step 5: Confirm - Document
 
 > [!NOTE]
-> Document mailings are not actually sent when you click **Send now**. A PDF document is generated, containing all the pages to all the persons/companies you have selected as recipients in the mailing. You can [open and print](Step-5-Confirm-Document.md#Open-and-print-the-document) the PDF from the **View mailing** screen.
+> Document mailings are not actually sent when you click **Send now**. A PDF document is generated, containing all the pages to all the persons/companies you have selected as recipients in the mailing. You can [open and print](Step-5-Confirm-Document.md#Open-and-print-document) the PDF from the **View mailing** screen.
 
 In the final step, **Confirm**, you can view a summary of the mailing and verify that these are correct. Any error messages displayed in this screen need to be solved before the mailing can be sent.
 
@@ -23,7 +23,7 @@ In the final step, **Confirm**, you can view a summary of the mailing and verify
 
 Click **Send now** to generate a PDF document. A PDF document is generated. The workflow closes and you are returned to the **Mailings** tab.
 
-Click the mailing in the list to view sending status and statistics. See [Track the mailing and view statistics](Track-the-mailing-and-view-statistics.md).
+Click the mailing in the list to view sending status and statistics. See [Track the mailing and view statistics](Track-mailing-and-view-statistics.md).
 
 ## Open and print the document
 
@@ -38,6 +38,6 @@ To view and print the document:
 
 [Follow up mailings](Followup-mailings.md)
 
-[Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md)
+[Work with the recipient list after the mailing](Work-with-recipient-list-after-mailing.md)
 
-[Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md)
+[Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md)

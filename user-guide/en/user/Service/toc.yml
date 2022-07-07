@@ -381,7 +381,7 @@ items:
   - name: AI requests
     href: request/ai-requests.md
   - name: Get next request in the queue
-    href: request/get-next-request-in-the-queue.md
+    href: request/get-next-request-in-queue.md
   - name: Ticket autosave
     href: request/autosave.md
   - name: Ticket deleteTicket

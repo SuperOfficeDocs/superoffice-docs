@@ -42,5 +42,5 @@ To add a project image:
     > To remove an active project image, click **Delete** to the left of the description.
 
 <!-- Referenced links -->
-[1]: ../key-functions/using-the-history-list.md
+[1]: ../key-functions/using-history-list.md
 [2]: ../key-functions/using-fastsearcher.md

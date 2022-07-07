@@ -31,7 +31,7 @@ To edit an existing selection:
 6. When you have made the required changes, click **Save** to close and save the changes. Click **Cancel** if you want to reject your changes.
 
 <!-- Referenced links -->
-[1]: ../key-functions/Using-the-history-list.md
+[1]: ../key-functions/Using-history-list.md
 [2]: ../key-functions/Using-FastSearcher.md
 
 <!-- Referenced images -->

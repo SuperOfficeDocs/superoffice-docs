@@ -34,7 +34,7 @@ The following data is displayed:
 
 * the sale date (estimated, sold or lost)
 
-* a status icon for the sale, showing whether it is sold ( ![icon](../media/Salg-solgt-detaljkort.bmp) ), lost ( ![icon](../media/Salg-tapt-detaljkort.bmp) ) or stalled ( ![icon](../media/Salg-utsatt-detaljkort.bmp) ) (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales](../sale/Status-of-a-sale-sold-and-lost.md))
+* a status icon for the sale, showing whether it is sold ( ![icon](../media/Salg-solgt-detaljkort.bmp) ), lost ( ![icon](../media/Salg-tapt-detaljkort.bmp) ) or stalled ( ![icon](../media/Salg-utsatt-detaljkort.bmp) ) (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales](../sale/Status-of-sale-sold-and-lost.md))
 
 Sales not marked as completed are shown in this list.
 

@@ -64,7 +64,7 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 * [Create request in chat](create-request.md)
 * [Transfer a chat to another agent](transfer-to-another-agent.md)
 * [Send FAQs, reply templates and quick replies in a chat](Send-FAQ-or-reply-template.md)
-* [Using the chat function from the customer's perspective](function-from-the-customers-perspective.md)
+* [Using the chat function from the customer's perspective](function-from-customers-perspective.md)
 * [Send files in chat](send-files.md)
 
 <!-- Referenced links -->

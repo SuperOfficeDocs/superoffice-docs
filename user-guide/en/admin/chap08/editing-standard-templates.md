@@ -26,8 +26,8 @@ To change a standard template:
 5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
 
 > [!NOTE]
-> If you save a standard template with a new name, you have created a new template. You must link this template to SuperOffice CRM. For more details, see [Add a document template](Adding-a-template-web.md).
+> If you save a standard template with a new name, you have created a new template. You must link this template to SuperOffice CRM. For more details, see [Add a document template](Adding-template-web.md).
 
 ## What would you like to do now?
 
-[Create a template document](Creating-a-template-document.md)
+[Create a template document](Creating-template-document.md)

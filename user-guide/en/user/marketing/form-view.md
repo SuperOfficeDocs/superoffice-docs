@@ -39,7 +39,7 @@ Here you can basic information about the form, including a preview of the form, 
 * **Completion last 7 days**: Submitted forms per day the last 7 days.
 * **Completion rate**: Status for submitted forms.
 
-Next to **Mailing** is a link to the form response mailing used in association with this form. Click the link to view information and statistics about the form response. See [Track the mailing and view statistics](Track-the-mailing-and-view-statistics.md).
+Next to **Mailing** is a link to the form response mailing used in association with this form. Click the link to view information and statistics about the form response. See [Track the mailing and view statistics](Track-mailing-and-view-statistics.md).
 
 ## **Publish**
 

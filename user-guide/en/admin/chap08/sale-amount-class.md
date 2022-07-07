@@ -17,4 +17,4 @@ An amount class for a sale can be used to categorise sales into different classe
 
 ## What would you like to do now?
 
-[Add items to the Sale - Amount class list](Adding-items-to-the-Sale-Amount-class-list.md)
+[Add items to the Sale - Amount class list](Adding-items-to-Sale-Amount-class-list.md)

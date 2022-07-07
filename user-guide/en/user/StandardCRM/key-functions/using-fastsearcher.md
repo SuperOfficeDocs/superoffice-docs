@@ -21,7 +21,7 @@ You can use FastSearcher in various ways:
 
 [!include[Use wildcard in search](../../includes/tip-search-wildcard.md)]
 
-1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top. Below this is a list of records you have previously worked with (see [The History list](Using-the-history-list.md)).
+1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top. Below this is a list of records you have previously worked with (see [The History list](Using-history-list.md)).
 
     ![icon](../media/Chap02-GettingStarted/11-chap2-quicksearch-company.bmp)
 

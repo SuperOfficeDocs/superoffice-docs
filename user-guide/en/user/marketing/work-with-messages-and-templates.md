@@ -59,7 +59,7 @@ To create a new e-mail template from scratch:
 5. Click the blue box (column) in the message, and edit the layout in the side-panel.
 6. Click **Add Content** in a column. The side-panel displays various content types (such as images and text) that can be added to the column.
 7. Click and drag a content type from the side-panel to a column in the message.
-8. Click the content in the message to edit it. See [Edit content](Edit-a-paragraph.md).
+8. Click the content in the message to edit it. See [Edit content](Edit-paragraph.md).
 9. Click outside the column when you are done.
 10. Click and drag columns from the side-panel to add more content to your message.
 11. Click **OK** when you are done. The new template displays in the templates list.
@@ -83,7 +83,7 @@ To create a new SMS template from scratch:
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
 (for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
+(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-Drag-Drop-Editor-and-Editor.md)
 
 1. Go to the **Mailings** tab.
 2. Click the ![icon][img1] menu button next to the mailing you want to use as a basis for the template.
@@ -97,7 +97,7 @@ To create a new SMS template from scratch:
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
 (for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-the-Drag-Drop-Editor-and-the-Editor.md)
+(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-Drag-Drop-Editor-and-Editor.md)
 
 1. Go to the **Message templates** tab.
 2. Click the ![icon][img1] menu button next to the template you want to use.

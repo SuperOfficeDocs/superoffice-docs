@@ -6,9 +6,9 @@ items:
 - name: Address formats for different countries
   href: address-formats-for-different-countries.md
 - name: Changing the rank of contacts
-  href: changing-the-rank-of-contacts.md
+  href: changing-rank-of-contacts.md
 - name: Columns in the Contacts section tab
-  href: columns-in-the-contacts-section-tab.md
+  href: columns-in-contacts-section-tab.md
 - name: Companies
   href: companies.md
 - name: Companycard tab note
@@ -44,7 +44,7 @@ items:
 - name: Edit legalbase
   href: edit-legalbase.md
 - name: Forwarding e mail from the Activities section tab
-  href: forwarding-email-from-the-activities-section-tab.md
+  href: forwarding-email-from-activities-section-tab.md
 - name: Generate personal data report
   href: generate-personal-data-report.md
 - name: Managing external users
@@ -64,13 +64,13 @@ items:
 - name: Relations
   href: relations.md
 - name: Replying to e mail from the Activities section tab
-  href: replying-to-email-from-the-activities-section-tab.md
+  href: replying-to-email-from-activities-section-tab.md
 - name: Requests
   href: requests.md
 - name: Sale
   href: sale.md
 - name: Section tabs in the Company screen
-  href: section-tabs-in-the-company-screen.md
+  href: section-tabs-in-company-screen.md
 - name: Sending e mail to contacts
   href: sending-email-to-contacts.md
 - name: Send privacy confirmation e mail
@@ -84,7 +84,7 @@ items:
 - name: Using status monitors in dynamic selections
   href: using-status-monitors-in-dynamic-selections.md
 - name: Using the Filter function Contact
-  href: using-the-filter-function-contact.md
+  href: using-filter-function-contact.md
 - name: Viewing activities
   href: viewing-activities.md
 - name: WWW tab

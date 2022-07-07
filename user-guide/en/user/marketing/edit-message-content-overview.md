@@ -22,7 +22,7 @@ In the **Content** step you can edit the appearance and content of the message.
 SuperOffice Marketing is supplied with many ready-made message templates (see [Work with the messages templates](work-with-messages-and-templates.md)), and you can easily move content around to get the appearance you want. Save frequently used content as blocks to save time.
 
 > [!TIP]
-> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** (![icon](media/NEWbtn-Mobile.png)) in the menu in the lower left corner. See also [Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md).
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** (![icon](media/NEWbtn-Mobile.png)) in the menu in the lower left corner. See also [Customise the message for display on mobile devices](Customise-message-for-display-on-mobile-devices.md).
 
 Below you can see how a typical template is made up and how menus are displayed.
 
@@ -42,11 +42,11 @@ If you click text content, a text editing toolbar is displayed.
 
 The global menu is always displayed at the bottom left of the content area.
 
-See [Edit content](Edit-a-paragraph.md).
+See [Edit content](Edit-paragraph.md).
 
 ## Edit text and images
 
-[Edit text](Edit-a-paragraph.md), [insert images](Insert-images-in-the-message.md) and add other content by clicking a section in the message. Use the text editing toolbar and the side-panel to edit the selected section.
+[Edit text](Edit-paragraph.md), [insert images](Insert-images-in-message.md) and add other content by clicking a section in the message. Use the text editing toolbar and the side-panel to edit the selected section.
 
 ## Insert new content
 
@@ -71,10 +71,10 @@ To edit the message at a global level, select **Body** (![icon](media/editor-sid
 
 [Add content](Add-content.md)
 
-[Edit content](Edit-a-paragraph.md)
+[Edit content](Edit-paragraph.md)
 
 [Include links you want to track](includeLinksToTrack.md)
 
 [Use merge tags in messages](Use-template-variables-in-messages.md)
 
-[Insert images in the message](Insert-images-in-the-message.md)
+[Insert images in the message](Insert-images-in-message.md)

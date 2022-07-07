@@ -24,9 +24,9 @@ Click the required link, depending on how documents are managed in your SuperOff
 
 [Edit document content using SharePoint Documents](Editing-documents.md#Edit-document-content-using-SharePoint-Documents)
 
-[Edit document content - without SuperOffice Web Tools](Editing-documents.md#Editing-document-properties-in-the-Document-dialog-without-plug-in-Web)
+[Edit document content - without SuperOffice Web Tools](Editing-documents.md#Editing-document-properties-in-Document-dialog-without-plug-in-Web)
 
-[Edit document content - using SuperOffice Web Tools](Editing-documents.md#Editing-document-properties-in-the-Document-dialog-with-plug-in-Web)
+[Edit document content - using SuperOffice Web Tools](Editing-documents.md#Editing-document-properties-in-Document-dialog-with-plug-in-Web)
 
 [!include[Requirement](../../includes/req-licence-gen.md)]
 

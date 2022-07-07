@@ -1,5 +1,5 @@
 ---
-uid: help-en-the-status-tab
+uid: help-en-status-tab
 title: The Status tab
 description: The Status tab
 author: SuperOffice RnD

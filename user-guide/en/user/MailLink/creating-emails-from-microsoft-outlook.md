@@ -25,6 +25,6 @@ There are basically two ways of creating an e-mail from Microsoft Outlook. You c
 
 ## Related topics
 
-[Buttons in the e-mail window](Buttons-in-the-email-window.md)
+[Buttons in the e-mail window](Buttons-in-email-window.md)
 
 [Creating e-mails from Microsoft Outlook using SuperOffice templates](Creating-emails-from-Microsoft-Outlook-using-SuperOffice-templates.md)

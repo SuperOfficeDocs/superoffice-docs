@@ -16,7 +16,7 @@ language: en
 The columns of the **Sales** section tab contain the following information:
 
 * ![icon](../media/Salg-solgt-detaljkort.bmp) : The first column in the **Sales** section tab specifies the **Completed** status of a sale. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the sale is completed, while an empty box means that it is not completed.
-* a status icon for the sale, showing whether it is sold ( ![icon](../media/Salg-solgt-detaljkort.bmp) ), lost ( ![icon](../media/Salg-tapt-detaljkort.bmp) ) or stalled ( ![icon](../media/Salg-utsatt-detaljkort.bmp) ) (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales](../sale/Status-of-a-sale-sold-and-lost.md))
+* a status icon for the sale, showing whether it is sold ( ![icon](../media/Salg-solgt-detaljkort.bmp) ), lost ( ![icon](../media/Salg-tapt-detaljkort.bmp) ) or stalled ( ![icon](../media/Salg-utsatt-detaljkort.bmp) ) (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales](../sale/Status-of-sale-sold-and-lost.md))
 * the date of the sale
 * the sale amount
 * the current stage of the sale
@@ -29,4 +29,4 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 
 ## Related topics
 
-[Filter activities and sales](../company/Using-the-Filter-function-Contact.md)
+[Filter activities and sales](../company/Using-Filter-function-Contact.md)

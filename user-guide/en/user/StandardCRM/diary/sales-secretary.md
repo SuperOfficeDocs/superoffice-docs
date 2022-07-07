@@ -22,7 +22,7 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 
 * All sales with overdue activities, i.e. which have an end date earlier than today. These sales are shown in red.
 
-* Stalled sales where you have set a reopen date. The reopen date overwrites the date in the **Next activity** field and is displayed in the **Next activity** column on the **Sales** section tab. (For more information on stalled sales, the reopen date and next activity, see [Stalled, sold and lost sales](../sale/Status-of-a-sale-sold-and-lost.md).)
+* Stalled sales where you have set a reopen date. The reopen date overwrites the date in the **Next activity** field and is displayed in the **Next activity** column on the **Sales** section tab. (For more information on stalled sales, the reopen date and next activity, see [Stalled, sold and lost sales](../sale/Status-of-sale-sold-and-lost.md).)
 
 ## Related topics
 

@@ -17,4 +17,4 @@ When you archive an e-mail or an attachment, SuperOffice CRM performs a search t
 
 [Archiving e-mails to SuperOffice CRM](Archiving-emails-to-SuperOffice-Sales-Marketing.md)
 
-[Searching for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)
+[Searching for the sender of an e-mail](Searching-for-sender-of-e-mail.md)

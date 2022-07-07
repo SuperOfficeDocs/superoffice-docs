@@ -27,4 +27,4 @@ After you have added items, you can specify details for each individual item. Yo
 
 ## What would you like to do now?
 
-[Add items to the GUI - Application list](Adding-external-applications-to-the-Application-list.md)
+[Add items to the GUI - Application list](Adding-external-applications-to-Application-list.md)

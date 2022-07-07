@@ -29,4 +29,4 @@ language: en
 
 [Send e-mail to contacts](Sending-email-to-contacts.md)
 
-[Change the rank of contacts](Changing-the-rank-of-contacts.md)
+[Change the rank of contacts](Changing-rank-of-contacts.md)

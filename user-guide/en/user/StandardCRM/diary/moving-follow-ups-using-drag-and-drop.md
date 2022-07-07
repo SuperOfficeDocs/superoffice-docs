@@ -20,6 +20,6 @@ At some time, you will undoubtedly need to move follow-ups from one time slot to
 
 ## What would you like to do now?
 
-[Move follow-ups to a different time](Moving-follow-ups-to-a-different-time.md)
+[Move follow-ups to a different time](Moving-follow-ups-to-different-time.md)
 
-[Move follow-ups between the activities list and the Diary](Moving-follow-ups-from-the-activities-list-to-the-diary.md)
+[Move follow-ups between the activities list and the Diary](Moving-follow-ups-from-activities-list-to-diary.md)

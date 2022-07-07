@@ -28,7 +28,7 @@ SuperOffice CRM consists of the following main sections which you will quickly b
 
 You can easily switch between these screens by clicking the buttons in the Navigator (see [The Navigator](Navigator.md)).
 
-Access to other useful functions is also just a click away thanks to the **New** button (see [The Top bar](Buttons-in-the-menu-bar.md)) and the global buttons (see [Global buttons](Global-Buttons.md)) in SuperOffice CRM.
+Access to other useful functions is also just a click away thanks to the **New** button (see [The Top bar](Buttons-in-menu-bar.md)) and the global buttons (see [Global buttons](Global-Buttons.md)) in SuperOffice CRM.
 
 ## Related topics
 

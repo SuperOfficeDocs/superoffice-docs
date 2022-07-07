@@ -41,7 +41,7 @@ Here you can specify that a link click should add or remove interests for the co
 * In the **Set interest** list box, you can choose an interest to be added for the contacts if they click the link.
 * In the **Remove interest** list box, you can choose an interest to be removed for the contacts if they click the link.
 
-See also [Clear interests in SuperOffice CRM](oldeditor/Add-an-unsubscribe-link.md#Clear-interests-in-SuperOffice-CRM).
+See also [Clear interests in SuperOffice CRM](oldeditor/Add-unsubscribe-link.md#Clear-interests-in-SuperOffice-CRM).
 
 ## Selection/Project
 

@@ -33,4 +33,4 @@ To ask the system to suggest which stopwords to add:
 8. A message is displayed to remind you that changes in the stopword list do not have a retroactive effect, which means that new stopwords will not apply to fields that were created before the stopwords were defined. Click **OK**.
 
     > [!TIP]
-    > If you want your changes to apply retroactively, you can generate a new freetext index. See [Regenerate a freetext index](Regenerating-a-freetext-index.md).
+    > If you want your changes to apply retroactively, you can generate a new freetext index. See [Regenerate a freetext index](Regenerating-freetext-index.md).

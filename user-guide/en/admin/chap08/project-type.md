@@ -17,4 +17,4 @@ Each project in SuperOffice CRM must have a project type, and each project type 
 
 ## What would you like to do now?
 
-[Add items to the Project - Type, status list](Adding-items-to-the-Project-Type-list.md)
+[Add items to the Project - Type, status list](Adding-items-to-Project-Type-list.md)

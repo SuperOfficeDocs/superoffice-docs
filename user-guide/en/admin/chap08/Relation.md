@@ -15,4 +15,4 @@ Relations are displayed in the **Relations** section tab in the **Company** scre
 
 ## What would you like to do now?
 
-[Add items to the General - Relation list](Adding-items-to-the-Relation-list.md)
+[Add items to the General - Relation list](Adding-items-to-Relation-list.md)

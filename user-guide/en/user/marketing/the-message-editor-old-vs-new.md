@@ -1,5 +1,5 @@
 ---
-uid: help-en-the-message-editor-old-vs-new
+uid: help-en-message-editor-old-vs-new
 title: The message editor - old vs new
 description: The message editor - old vs new
 author: SuperOffice RnD

@@ -1,8 +1,8 @@
 items:
   - name: Add a link to display the message in a browser
-    href: add-a-link-to-display-the-message-in-a-browser.md
+    href: add-link-to-display-message-in-browser.md
   - name: Add an unsubscribe link
-    href: add-an-unsubscribe-link.md
+    href: add-unsubscribe-link.md
   - name: Add content
     href: add-content.md
   - name: Add favourites
@@ -20,7 +20,7 @@ items:
   - name: CreateNewMailing
     href: createnewmailing.md
   - name: Customise the message for display on mobile devices
-    href: customise-the-message-for-display-on-mobile-devices.md
+    href: customise-message-for-display-on-mobile-devices.md
   - name: Define link actions
     href: define-link-actions.md
   - name: Define settings for mailings
@@ -30,11 +30,11 @@ items:
   - name: Drag and drop editor
     href: drag-and-drop-editor.md
   - name: Edit a paragraph
-    href: edit-a-paragraph.md
+    href: edit-paragraph.md
   - name: Edit message content   overview
     href: edit-message-content-overview.md
   - name: Examples of the use of trackable links
-    href: examples-of-the-use-of-trackable-links.md
+    href: examples-of-use-of-trackable-links.md
   - name: Filter recipient list
     href: filter-recipient-list.md
   - name: Followup mailings
@@ -70,7 +70,7 @@ items:
   - name: Form work with
     href: form-work-with.md
   - name: Forms Differences between the Drag Drop Editor and the Editor
-    href: forms-differences-between-the-drag-drop-editor-and-the-editor.md
+    href: forms-differences-between-drag-drop-editor-and-editor.md
   - name: FormsGuide
     href: formsguide.md
   - name: Google Analytics
@@ -78,7 +78,7 @@ items:
   - name: IncludeLinksToTrack
     href: includelinkstotrack.md
   - name: Insert images in the message
-    href: insert-images-in-the-message.md
+    href: insert-images-in-message.md
   - name: Links
     href: links.md
   - name: Manage bounces
@@ -86,16 +86,16 @@ items:
   - name: Menu overview
     href: menu-overview.md
   - name: Oldeditor
-    href: oldeditor/add-a-link-to-display-the-message-in-a-browser.md
+    href: oldeditor/add-link-to-display-message-in-browser.md
     items:
     - name: Add a link to display the message in a browser
-      href: oldeditor/add-a-link-to-display-the-message-in-a-browser.md
+      href: oldeditor/add-link-to-display-message-in-browser.md
     - name: Add an unsubscribe link
-      href: oldeditor/add-an-unsubscribe-link.md
+      href: oldeditor/add-unsubscribe-link.md
     - name: Customise the message for display on mobile devices
-      href: oldeditor/customise-the-message-for-display-on-mobile-devices.md
+      href: oldeditor/customise-message-for-display-on-mobile-devices.md
     - name: Edit a paragraph
-      href: oldeditor/edit-a-paragraph.md
+      href: oldeditor/edit-paragraph.md
     - name: Edit message content   overview
       href: oldeditor/edit-message-content-overview.md
     - name: Editor screenshot
@@ -103,7 +103,7 @@ items:
     - name: IncludeLinksToTrack
       href: oldeditor/includelinkstotrack.md
     - name: Insert images in the message
-      href: oldeditor/insert-images-in-the-message.md
+      href: oldeditor/insert-images-in-message.md
     - name: Menu overview
       href: oldeditor/menu-overview.md
     - name: Step 3  Content   Formatted e mail
@@ -155,7 +155,7 @@ items:
   - name: The message editor   old vs new
     href: the-message-editor-old-vs-new.md
   - name: Track the mailing and view statistics
-    href: track-the-mailing-and-view-statistics.md
+    href: track-mailing-and-view-statistics.md
   - name: Use template variables in messages
     href: use-template-variables-in-messages.md
   - name: Work with mailings
@@ -163,6 +163,6 @@ items:
   - name: Work with messages and templates
     href: work-with-messages-and-templates.md
   - name: Work with the recipient list after the mailing
-    href: work-with-the-recipient-list-after-the-mailing.md
+    href: work-with-recipient-list-after-mailing.md
   - name: Work with tracked links after the mailing
-    href: work-with-tracked-links-after-the-mailing.md
+    href: work-with-tracked-links-after-mailing.md

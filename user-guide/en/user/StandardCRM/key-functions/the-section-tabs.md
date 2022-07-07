@@ -1,5 +1,5 @@
 ---
-uid: help-en-the-section-tabs
+uid: help-en-section-tabs
 title: The Section tabs
 description: The Section tabs
 author: SuperOffice RnD
@@ -34,14 +34,14 @@ To change the default number of records, do as follows:
 
 * [Sort lists](Sorting-lists.md)
 * [Grouping lists](Sections-tabs-Grouping-lists.md)
-* [Use filters in the section tabs](Use-filters-in-the-section-tabs.md)
+* [Use filters in the section tabs](Use-filters-in-section-tabs.md)
 * [Adjust column widths](Adjusting-column-widths.md)
-* [Configure columns](Changing-the-column-view.md)
+* [Configure columns](Changing-column-view.md)
 * [Export section tabs](Export-archives.md)
-* [Filter activities](../company/Using-the-Filter-function-Contact.md)
-* [Section tabs in the Company screen](../company/Section-tabs-in-the-Company-screen.md)
-* [Section tabs in the Contact screen](../person/Section-tabs-in-the-Contact-screen.md)
-* [Section tabs in the Diary screen](../diary/Section-tabs-in-the-Diary-screen.md)
+* [Filter activities](../company/Using-Filter-function-Contact.md)
+* [Section tabs in the Company screen](../company/Section-tabs-in-Company-screen.md)
+* [Section tabs in the Contact screen](../person/Section-tabs-in-Contact-screen.md)
+* [Section tabs in the Diary screen](../diary/Section-tabs-in-Diary-screen.md)
 * [Section tabs in the Sale screen](../sale/sale-screen-section-tabs.md)
 * [Section tabs in the Project screen](../project/Project-screen-section-tabs.md)
-* [Section tabs in the Selection screen](../selections/Section-tabs-in-the-Selection-screen.md)
+* [Section tabs in the Selection screen](../selections/Section-tabs-in-Selection-screen.md)

@@ -16,6 +16,6 @@ language: en
 ## What do you want to do now?
 
 * [Follow up mailings](Followup-mailings.md)
-* [Track the mailing and view statistics](Track-the-mailing-and-view-statistics.md)
-* [Work with the recipient list after the mailing](Work-with-the-recipient-list-after-the-mailing.md)
-* [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md)
+* [Track the mailing and view statistics](Track-mailing-and-view-statistics.md)
+* [Work with the recipient list after the mailing](Work-with-recipient-list-after-mailing.md)
+* [Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md)

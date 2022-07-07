@@ -33,4 +33,4 @@ There are two important things to remember before you import data:
 
 [Import descriptions](Import-descriptions.md)
 
-[Update information in the database](Updating-the-database.md)
+[Update information in the database](Updating-database.md)

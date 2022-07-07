@@ -16,11 +16,11 @@ language: en
 
 Click the required link, depending on how documents are managed in your SuperOffice installation:
 
-[Create a new document with SharePoint Documents](Creating-new-documents.md#Create-a-new-document-with-SharePoint-Documents)
+[Create a new document with SharePoint Documents](Creating-new-documents.md#Create-new-document-with-SharePoint-Documents)
 
-[Create a new document without SuperOffice Web Tools](#Creating-a-new-document-without-plug-in-Web)
+[Create a new document without SuperOffice Web Tools](#Creating-new-document-without-plug-in-Web)
 
-[Create a new document using SuperOffice Web Tools](#Creating-a-new-document-with-plug-in-Web)
+[Create a new document using SuperOffice Web Tools](#Creating-new-document-with-plug-in-Web)
 
 [!include[Requirement](../../includes/req-licence-gen.md)]
 

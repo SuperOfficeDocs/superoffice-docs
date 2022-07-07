@@ -25,11 +25,11 @@ You can create a follow-up to appear, for example, on the activities list of all
 
 6. Enter a description of the follow-up in the **Description** field.
 
-7. Choose which project the follow-up will be linked to in the **Project** field. Do this by clicking the arrow and selecting the required project in the list box, or by typing in the whole or the beginning of the project name (see [The History list](../key-functions/Using-the-history-list.md) and [FastSearcher](../key-functions/Using-FastSearcher.md)).
+7. Choose which project the follow-up will be linked to in the **Project** field. Do this by clicking the arrow and selecting the required project in the list box, or by typing in the whole or the beginning of the project name (see [The History list](../key-functions/Using-history-list.md) and [FastSearcher](../key-functions/Using-FastSearcher.md)).
 
 8. In the **Priority** field, specify the priority of the follow-up. Click the arrow to display a list with the default options of high, medium and low priority.
 
-9. Check **Completed** if the follow-up should be set as completed. It will then not be included when using [FastSearcher](../key-functions/Using-FastSearcher.md) and in counters, but will still be shown in [The History list](../key-functions/Using-the-history-list.md).
+9. Check **Completed** if the follow-up should be set as completed. It will then not be included when using [FastSearcher](../key-functions/Using-FastSearcher.md) and in counters, but will still be shown in [The History list](../key-functions/Using-history-list.md).
 
 10. Check **Generate only one follow-up on each company** if you do not want to create a follow-up for each contact in each company in the selection. In that case, for each company just a single follow-up will be created, for the first company member added to the selection.
 

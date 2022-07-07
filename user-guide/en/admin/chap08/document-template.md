@@ -21,7 +21,7 @@ You can also create your own templates in the applications you have chosen to us
 
 Adding a template document involves following steps:
 
-* You need to add and define the document template in Settings and maintenance. See [Add a document template](Adding-a-template-web.md).
+* You need to add and define the document template in Settings and maintenance. See [Add a document template](Adding-template-web.md).
 * You need to make the document template available to the requisite user groups. See [User group filtering](User-groups.md).
 
 In the sections below there are more details on using standard templates and template variables in SuperOffice CRM, and creating and linking new templates.
@@ -29,8 +29,8 @@ In the sections below there are more details on using standard templates and tem
 ## What would you like to do now?
 
 * [Use standard templates](Using-standard-templates.md)
-* [Create a template document](Creating-a-template-document.md)
-* [Add a document template](Adding-a-template-web.md)
+* [Create a template document](Creating-template-document.md)
+* [Add a document template](Adding-template-web.md)
 * [Look at template variables][1]
 
 <!-- Referenced links -->

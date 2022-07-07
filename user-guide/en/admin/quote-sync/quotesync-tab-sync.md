@@ -28,7 +28,7 @@ The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associat
 
 [Configure default values for synchronisation](sync-configure-default-values.md)
 
-[Rank fields shown in the ERP tab](sync-rank-fields-shown-in-the-ERP-tab.md)
+[Rank fields shown in the ERP tab](sync-rank-fields-shown-in-ERP-tab.md)
 
 [Edit an ERP connection](sync-edit-ERP-connection.md)
 

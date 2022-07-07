@@ -1,5 +1,5 @@
 ---
-uid: help-en-the-main-sections-of-superoffice-settings-and-maintenance
+uid: help-en-main-sections-of-superoffice-settings-and-maintenance
 title: The main sections of SuperOffice Settings and maintenance
 description: The main sections of SuperOffice Settings and maintenance
 author: SuperOffice RnD
@@ -38,7 +38,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 
 You can easily switch between these screens by clicking the buttons in the Navigator.
 
-To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings](Main-sections-of-the-Maintenance-client.md).
+To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings](Main-sections-of-Maintenance-client.md).
 
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md

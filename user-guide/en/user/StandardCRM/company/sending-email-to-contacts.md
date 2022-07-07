@@ -33,4 +33,4 @@ language: en
 8. Click **Create** in the **Document** dialog.
 
 > [!NOTE]
-> You can also send e-mail to a contact by clicking directly on the e-mail address for this person in the **Contacts** section tab (see [Columns in the Contacts section tab](Columns-in-the-Contacts-section-tab.md)).
+> You can also send e-mail to a contact by clicking directly on the e-mail address for this person in the **Contacts** section tab (see [Columns in the Contacts section tab](Columns-in-Contacts-section-tab.md)).

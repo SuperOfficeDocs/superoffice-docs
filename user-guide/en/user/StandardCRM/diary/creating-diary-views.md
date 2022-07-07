@@ -45,7 +45,7 @@ For more information about the fields in this dialog, see [The New group view di
 
 ## What would you like to do now?
 
-[View group views for an entire user group](Viewing-views-for-an-entire-user-group.md)
+[View group views for an entire user group](Viewing-views-for-entire-user-group.md)
 
 [Use the group view](Using-group-view.md)
 

@@ -24,13 +24,13 @@ items:
   - name: Buttons win
     href: chap01/buttons-win.md
   - name: Changing the language version web
-    href: chap01/changing-the-language-version-web.md
+    href: chap01/changing-language-version-web.md
   - name: Log in to Windows Client settings
     href: chap01/log-in-to-windows-client-settings.md
   - name: Logging in to the Maintenance client
-    href: chap01/logging-in-to-the-maintenance-client.md
+    href: chap01/logging-in-to-maintenance-client.md
   - name: Main sections of the Maintenance client
-    href: chap01/main-sections-of-the-maintenance-client.md
+    href: chap01/main-sections-of-maintenance-client.md
   - name: Navigator
     href: chap01/navigator.md
   - name: Parameter examples
@@ -88,7 +88,7 @@ items:
   - name: Updating rules for duplicate handling
     href: chap04/updating-rules-for-duplicate-handling.md
   - name: Updating the database
-    href: chap04/updating-the-database.md
+    href: chap04/updating-database.md
 - name: Chap05
   href: chap05/active-settings.md
   items:
@@ -128,7 +128,7 @@ items:
   - name: Activating time zones web
     href: chap06/activating-time-zones-web.md
   - name: Adding companies in the Our companies tab web
-    href: chap06/adding-companies-in-the-our-companies-tab-web.md
+    href: chap06/adding-companies-in-our-companies-tab-web.md
   - name: Adding stopwords
     href: chap06/adding-stopwords.md
   - name: Adding system events
@@ -150,9 +150,9 @@ items:
   - name: Default values for new document templates web
     href: chap06/default-values-for-new-document-templates-web.md
   - name: Deleting companies in the Our companies tab
-    href: chap06/deleting-companies-in-the-our-companies-tab.md
+    href: chap06/deleting-companies-in-our-companies-tab.md
   - name: Deleting companies in the Our companies tab web
-    href: chap06/deleting-companies-in-the-our-companies-tab-web.md
+    href: chap06/deleting-companies-in-our-companies-tab-web.md
   - name: Deleting stopwords
     href: chap06/deleting-stopwords.md
   - name: Edit description for status
@@ -180,7 +180,7 @@ items:
   - name: Our companies web
     href: chap06/our-companies-web.md
   - name: Regenerating a freetext index
-    href: chap06/regenerating-a-freetext-index.md
+    href: chap06/regenerating-freetext-index.md
   - name: Reports
     href: chap06/reports.md
   - name: Resetting labels
@@ -260,35 +260,35 @@ items:
   - name: Add e mail template
     href: chap08/add-email-template.md
   - name: Adding a template web
-    href: chap08/adding-a-template-web.md
+    href: chap08/adding-template-web.md
   - name: Adding external applications to the Application list
-    href: chap08/adding-external-applications-to-the-application-list.md
+    href: chap08/adding-external-applications-to-application-list.md
   - name: Adding headings web
     href: chap08/adding-headings-web.md
   - name: Adding items
     href: chap08/adding-items.md
   - name: Adding items to the Country list web
-    href: chap08/adding-items-to-the-country-list-web.md
+    href: chap08/adding-items-to-country-list-web.md
   - name: Adding items to the Currency list
-    href: chap08/adding-items-to-the-currency-list.md
+    href: chap08/adding-items-to-currency-list.md
   - name: Adding items to the Follow up   Type list
-    href: chap08/adding-items-to-the-follow-up-type-list.md
+    href: chap08/adding-items-to-follow-up-type-list.md
   - name: Adding items to the Project   Status list
-    href: chap08/adding-items-to-the-project-status-list.md
+    href: chap08/adding-items-to-project-status-list.md
   - name: Adding items to the Project   Type list
-    href: chap08/adding-items-to-the-project-type-list.md
+    href: chap08/adding-items-to-project-type-list.md
   - name: Adding items to the Relation list
-    href: chap08/adding-items-to-the-relation-list.md
+    href: chap08/adding-items-to-relation-list.md
   - name: Adding items to the Resource list
-    href: chap08/adding-items-to-the-resource-list.md
+    href: chap08/adding-items-to-resource-list.md
   - name: Adding items to the Sale   Amount class list
-    href: chap08/adding-items-to-the-sale-amount-class-list.md
+    href: chap08/adding-items-to-sale-amount-class-list.md
   - name: Adding items to the Sale   Sales type (for stages) list
-    href: chap08/adding-items-to-the-sale-sales-type-(for-stages)-list.md
+    href: chap08/adding-items-to-sale-sales-type-(for-stages)-list.md
   - name: Adding items to the Sale   Stage list
-    href: chap08/adding-items-to-the-sale-stage-list.md
+    href: chap08/adding-items-to-sale-stage-list.md
   - name: Adding items to the Webpanel list
-    href: chap08/adding-items-to-the-webpanel-list.md
+    href: chap08/adding-items-to-webpanel-list.md
   - name: Adding user defined lists web
     href: chap08/adding-user-defined-lists-web.md
   - name: Application
@@ -296,7 +296,7 @@ items:
   - name: Country
     href: chap08/country.md
   - name: Creating a template document
-    href: chap08/creating-a-template-document.md
+    href: chap08/creating-template-document.md
   - name: Currency
     href: chap08/currency.md
   - name: Deleted items and headings
@@ -310,7 +310,7 @@ items:
   - name: Duplicates
     href: chap08/duplicates.md
   - name: Editing a list s name and description web
-    href: chap08/editing-a-list-s-name-and-description-web.md
+    href: chap08/editing-list-s-name-and-description-web.md
   - name: Editing items
     href: chap08/editing-items.md
   - name: Editing standard templates
@@ -389,7 +389,7 @@ items:
   - name: Editing fields web
     href: fields-web/editing-fields-web.md
   - name: Editing the TAB order of fields web
-    href: fields-web/editing-the-tab-order-of-fields-web.md
+    href: fields-web/editing-tab-order-of-fields-web.md
   - name: Fields web
     href: fields-web/fields-web.md
   - name: Moving fields web
@@ -464,7 +464,7 @@ items:
   - name: Sync import from erp(sync)
     href: quote-sync/sync-import-from-erp(sync).md
   - name: Sync rank fields shown in the ERP tab
-    href: quote-sync/sync-rank-fields-shown-in-the-erp-tab.md
+    href: quote-sync/sync-rank-fields-shown-in-erp-tab.md
   - name: Sync resync from CRM
     href: quote-sync/sync-resync-from-crm.md
   - name: Sync set sync priority
@@ -528,11 +528,11 @@ items:
   - name: Create role
     href: rolle/create-role.md
   - name: Deleting a role
-    href: rolle/deleting-a-role.md
+    href: rolle/deleting-role.md
   - name: Edit rights for anonymous users
     href: rolle/edit-rights-for-anonymous-users.md
   - name: Editing a role
-    href: rolle/editing-a-role.md
+    href: rolle/editing-role.md
   - name: Role
     href: rolle/role.md
   - name: Set data rights for role

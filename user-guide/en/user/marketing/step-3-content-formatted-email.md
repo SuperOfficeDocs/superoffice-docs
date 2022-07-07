@@ -25,23 +25,23 @@ Below are the relevant topics for this step in the mailings wizard:
 
 [Menu overview](Menu-overview.md): A complete overview of the menus/buttons in the content editor.
 
-[Edit content](Edit-a-paragraph.md)
+[Edit content](Edit-paragraph.md)
 
 [Use merge tags in messages](Use-template-variables-in-messages.md)
 
-[Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md)
+[Customise the message for display on mobile devices](Customise-message-for-display-on-mobile-devices.md)
 
 ## Add links
 
 [Include links you want to track](includeLinksToTrack.md)
 
-[Add subscription links](Add-an-unsubscribe-link.md)
+[Add subscription links](Add-unsubscribe-link.md)
 
-[Add a link to display the message in a browser](Add-a-link-to-display-the-message-in-a-browser.md)
+[Add a link to display the message in a browser](Add-link-to-display-message-in-browser.md)
 
 ## Add images
 
-[Insert images in the message](Insert-images-in-the-message.md)
+[Insert images in the message](Insert-images-in-message.md)
 
 ## Test the mailing
 

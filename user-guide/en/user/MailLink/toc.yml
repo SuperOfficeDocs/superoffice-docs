@@ -4,9 +4,9 @@ items:
 - name: About
   href: about.md
 - name: Adding an e mail address to a new contact
-  href: adding-an-email-address-to-a-new-contact.md
+  href: adding-email-address-to-new-contact.md
 - name: Adding an e mail address to an existing contact
-  href: adding-an-email-address-to-an-existing-contact.md
+  href: adding-email-address-to-existing-contact.md
 - name: Adding documents from SuperOffice Sales Marketing as attachments
   href: adding-documents-from-superoffice-sales-marketing-as-attachments.md
 - name: Archiving attachment s to SuperOffice Sales Marketing
@@ -20,9 +20,9 @@ items:
 - name: Archiving e mails to SuperOffice Sales Marketing
   href: archiving-emails-to-superoffice-sales-marketing.md
 - name: Buttons in the e mail window
-  href: buttons-in-the-email-window.md
+  href: buttons-in-email-window.md
 - name: Buttons on the Microsoft Outlook toolbar
-  href: buttons-on-the-microsoft-outlook-toolbar.md
+  href: buttons-on-microsoft-outlook-toolbar.md
 - name: Changing default mail client in SuperOffice Sales Marketing
   href: changing-default-mail-client-in-superoffice-sales-marketing.md
 - name: Creating e mail templates
@@ -54,11 +54,11 @@ items:
 - name: Invitations
   href: invitations.md
 - name: Not adding an e mail address to SuperOffice Sales Marketing
-  href: not-adding-an-email-address-to-superoffice-sales-marketing.md
+  href: not-adding-email-address-to-superoffice-sales-marketing.md
 - name: Other options
   href: other-options.md
 - name: Searching for the sender of an e mail
-  href: searching-for-the-sender-of-an-e-mail.md
+  href: searching-for-sender-of-e-mail.md
 - name: Selecting recipients
   href: selecting-recipients.md
 - name: SuperOffice Account

@@ -25,13 +25,13 @@ In the **Tracked links** tab you have the following options:
 
     [!include[How to create a mailing folder](../includes/create-mailing-folder.md)]
 
-* Click a link to open the **View link** screen. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).
+* Click a link to open the **View link** screen. See [Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md).
 
 * Click the ![icon][img1] menu button next to a link to access the following options:
 
-  * **View**. See [Work with tracked links after the mailing](Work-with-tracked-links-after-the-mailing.md).
+  * **View**. See [Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md).
   * **Edit**. See [Create tracked links](Create-links.md).
-  * **Reset**. See [Reset counters for links](Work-with-tracked-links-after-the-mailing.md#ResetCountersForLinks).
+  * **Reset**. See [Reset counters for links](Work-with-tracked-links-after-mailing.md#ResetCountersForLinks).
   * **Move to folder**. Click here to move the link to another folder.
   * **Delete**. Click here to delete the link.
 
@@ -39,7 +39,7 @@ In the **Tracked links** tab you have the following options:
 
 [Include links you want to track](includeLinksToTrack.md)
 
-[Add subscription links](Add-an-unsubscribe-link.md)
+[Add subscription links](Add-unsubscribe-link.md)
 
 <!-- Referenced links -->
 [1]:

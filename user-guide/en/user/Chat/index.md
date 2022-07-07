@@ -26,4 +26,4 @@ The **Chat** screen consists of the following tabs:
 
 [View chat statistics](statistics.md)
 
-[Using the chat function from the customer's perspective](function-from-the-customers-perspective.md)
+[Using the chat function from the customer's perspective](function-from-customers-perspective.md)

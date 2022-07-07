@@ -8,4 +8,4 @@ To learn more about the two versions of the message editor, see:
 
 <!-- Referenced links -->
 [1]: ../marketing/the-message-editor-old-vs-new.md
-[2]: ../marketing/forms-differences-between-the-drag-drop-editor-and-the-editor.md
+[2]: ../marketing/forms-differences-between-drag-drop-editor-and-editor.md

@@ -1,5 +1,5 @@
 ---
-uid: help-en-the-mailing-workflow
+uid: help-en-mailing-workflow
 title: The mailing workflow
 description: The mailing workflow
 author: SuperOffice RnD

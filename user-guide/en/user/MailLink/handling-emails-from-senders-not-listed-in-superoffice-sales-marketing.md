@@ -21,8 +21,8 @@ Follow these steps:
     * [Archiving attachments](Archiving-attachment-s-to-SuperOffice-Sales-Marketing.md)
 2. If the sender of the e-mail or attachment is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving e-mail when you attempt to archive: **This sender's e-mail address is not recognised. Click here to update SuperOffice with this e-mail address**. Click the warning.
 3. In the **Save e-mail address** dialog, select one of the following radio buttons:
-    * **Create new contact**: Click this option if you want to add the e-mail address to a new contact. See [Adding an e-mail address to a new contact](Adding-an-email-address-to-a-new-contact.md).
-    * **Add e-mail address to existing contact**: Click this option if you want to add the e-mail address to an existing contact. See [Adding an e-mail address to an existing contact](Adding-an-email-address-to-an-existing-contact.md).
+    * **Create new contact**: Click this option if you want to add the e-mail address to a new contact. See [Adding an e-mail address to a new contact](Adding-email-address-to-new-contact.md).
+    * **Add e-mail address to existing contact**: Click this option if you want to add the e-mail address to an existing contact. See [Adding an e-mail address to an existing contact](Adding-email-address-to-existing-contact.md).
 4. Click **OK**. The contact and their e-mail address will be displayed on the **Contacts** section tab of the specified company card.
 
 > [!NOTE]
@@ -30,6 +30,6 @@ Follow these steps:
 
 ## What would you like to do now?
 
-[Add an e-mail address to a new contact](Adding-an-email-address-to-a-new-contact.md)
+[Add an e-mail address to a new contact](Adding-email-address-to-new-contact.md)
 
-[Add an e-mail address to an existing contact](Adding-an-email-address-to-an-existing-contact.md)
+[Add an e-mail address to an existing contact](Adding-email-address-to-existing-contact.md)

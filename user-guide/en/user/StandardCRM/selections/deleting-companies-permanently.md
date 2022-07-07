@@ -28,7 +28,7 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
 [!include[Note about restore](../../includes/note-restore.md)]
 
 <!-- Referenced links -->
-[1]: ../key-functions/using-the-history-list.md
+[1]: ../key-functions/using-history-list.md
 [2]: ../key-functions/using-fastsearcher.md
 
 <!-- Referenced images -->

@@ -18,7 +18,7 @@ A message is made up of columns and paragraphs. You insert text and images in th
 SuperOffice Marketing is supplied with many ready-made message template layouts, and you can easily move columns and paragraphs around to get the appearance you want. You can also delete unwanted columns and paragraphs or add new ones.
 
 > [!TIP]
-> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon](../media/btn-editor-mobile.png) ). See also [Customise the message for display on mobile devices](Customise-the-message-for-display-on-mobile-devices.md).
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon](../media/btn-editor-mobile.png) ). See also [Customise the message for display on mobile devices](Customise-message-for-display-on-mobile-devices.md).
 
 Below you can see how a typical template is made up and how menus are displayed.
 
@@ -36,11 +36,11 @@ Here are some of the main functions of the **Content** step:
 | ![icon](../media/editor-menu-border.jpg) | |
 | ![icon](../media/editor-menu-global.jpg) | The global menu is always displayed at the top right in the content area.
 
-See [Edit a paragraph](Edit-a-paragraph.md).
+See [Edit a paragraph](Edit-paragraph.md).
 
 ## Edit text and images
 
-[Edit text](Edit-a-paragraph.md) and [insert images](Insert-images-in-the-message.md) by clicking the **Edit paragraph** ( ![icon](../media/btn-editor-edit.png) ) button in a paragraph.
+[Edit text](Edit-paragraph.md) and [insert images](Insert-images-in-message.md) by clicking the **Edit paragraph** ( ![icon](../media/btn-editor-edit.png) ) button in a paragraph.
 
 ## Insert new paragraphs and columns
 
@@ -61,10 +61,10 @@ The appearance and properties of the template (such as font type and size, colou
 
 [See the menu overview](Menu-overview.md)
 
-[Edit a paragraph](Edit-a-paragraph.md)
+[Edit a paragraph](Edit-paragraph.md)
 
 [Include links you want to track](includeLinksToTrack.md)
 
 [Use template variables in messages](Use-template-variables-in-messages.md)
 
-[Insert images in the message](Insert-images-in-the-message.md)
+[Insert images in the message](Insert-images-in-message.md)

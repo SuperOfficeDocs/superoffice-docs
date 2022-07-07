@@ -25,4 +25,4 @@ If Quote functionality is active, you can also set various options for quotes cr
 
 ## What would you like to do now?
 
-[Add items to the Sale - Type, Stages, Quote list](Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md)
+[Add items to the Sale - Type, Stages, Quote list](Adding-items-to-Sale-Sales-type-(for-stages)-list.md)

@@ -19,7 +19,7 @@ To complete the fields in the **Edit list item** dialog when the items are e-mai
 
 1. Enter the required name of the item in the **Template name** field.
 
-2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template](Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md), or a [privacy confirmation template](Privacy-Source-add.md).
+2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template](Adding-items-to-Sale-Sales-type-(for-stages)-list.md), or a [privacy confirmation template](Privacy-Source-add.md).
 
 3. If you wish, you can choose where to store the document template, in the **Store template in** list.
 

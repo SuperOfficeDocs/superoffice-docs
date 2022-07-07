@@ -33,7 +33,7 @@ This lets you search for any text in SuperOffice CRM which users have entered in
 
 To go to a record shown in the hit list, double-click it.
 
-You can preview records in the [side panel](Navigating-in-the-mini-card.md). Click the list at the top of the side panel and select **Preview**. Click a record in the search results to preview it.
+You can preview records in the [side panel](Navigating-in-mini-card.md). Click the list at the top of the side panel and select **Preview**. Click a record in the search results to preview it.
 
 <!-- Fix reuse ID=a1 -->
 
@@ -45,7 +45,7 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 
 [FastSearcher](Using-FastSearcher.md)
 
-[The History list](Using-the-history-list.md)
+[The History list](Using-history-list.md)
 
 [Export section tabs](Export-archives.md)
 

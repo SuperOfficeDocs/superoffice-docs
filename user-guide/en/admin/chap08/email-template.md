@@ -21,7 +21,7 @@ You can also create your own templates. You do this by entering template variabl
 
 Adding an e-mail template involves following steps:
 
-* You need to create the e-mail template in Settings and maintenance. See [Add a document template](Adding-a-template-web.md).
+* You need to create the e-mail template in Settings and maintenance. See [Add a document template](Adding-template-web.md).
 * You need to make the e-mail template available to the requisite user groups. See [User group filtering](User-groups.md).
 
 ## What would you like to do now?

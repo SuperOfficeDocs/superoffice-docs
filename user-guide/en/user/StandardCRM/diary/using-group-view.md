@@ -19,6 +19,6 @@ If you click on the name of a user or resource, this user or resource becomes th
 
 [Create group views](Creating-diary-views.md)
 
-[View group views for an entire user group](Viewing-views-for-an-entire-user-group.md)
+[View group views for an entire user group](Viewing-views-for-entire-user-group.md)
 
 [Create appointments for associates](Creating-appointments-for-associates.md)

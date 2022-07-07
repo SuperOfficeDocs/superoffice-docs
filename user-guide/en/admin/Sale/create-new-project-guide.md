@@ -32,7 +32,7 @@ Once you have done that, you can start designing the [project guide](Create-new-
 
 ## A. Create statuses for the project guide
 
-A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding-items-to-the-Project-Status-list.md).
+A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding-items-to-Project-Status-list.md).
 
 A project guide for a project of the Conference type might, for example, comprise the "Planned", "In progress" and "Closing" statuses.
 
@@ -40,7 +40,7 @@ Go to the next procedure to link the statuses to a project type.
 
 ## B. Create a project type for the project guide
 
-A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../chap08/Adding-items-to-the-Project-Type-list.md).
+A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../chap08/Adding-items-to-Project-Type-list.md).
 
 Examples of project types: "Conference", "Campaign", "Internal".
 
@@ -166,6 +166,6 @@ To add documents to a status:
 9. Repeat this procedure to add more documents in this or other statuses.
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/diary/template-variables.md#variables-from-the-project-card
+[1]: ../../user/standardcrm/diary/template-variables.md#variables-from-project-card
 
 <!-- Referenced images -->

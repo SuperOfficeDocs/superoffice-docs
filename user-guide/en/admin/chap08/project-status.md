@@ -17,4 +17,4 @@ The statuses displayed in the list depend of the project type. You can select wh
 
 ## What would you like to do now?
 
-[Add items to the Project - Status list](Adding-items-to-the-Project-Status-list.md)
+[Add items to the Project - Status list](Adding-items-to-Project-Status-list.md)

@@ -34,6 +34,6 @@ You can set columns widths to be adjusted automatically according to the content
 
 [Sort lists](Sorting-lists.md)
 
-[Configure columns](Changing-the-column-view.md)
+[Configure columns](Changing-column-view.md)
 
-[Change the rank of contacts](../company/Changing-the-rank-of-contacts.md)
+[Change the rank of contacts](../company/Changing-rank-of-contacts.md)

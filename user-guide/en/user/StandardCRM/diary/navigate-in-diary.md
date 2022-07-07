@@ -29,4 +29,4 @@ The diary consists of four different tabs: **Day** tab, **Week** tab, **Month** 
 > [!TIP]
 > Click **Diary** in the navigator and click a month, week number or a day in the calendar to move directly to one of the tabs above.
 
-For more details about the different views, see [Tabs in the Diary screen](Tabs-in-the-Diary-screen.md).
+For more details about the different views, see [Tabs in the Diary screen](Tabs-in-Diary-screen.md).

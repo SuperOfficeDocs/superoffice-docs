@@ -22,7 +22,7 @@ Once you have done that, you can start designing the [sales guide](Create-new-sa
 
 ## A. Create stages for the sales guide
 
-A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../chap08/Adding-items-to-the-Sale-Stage-list.md).
+A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../chap08/Adding-items-to-Sale-Stage-list.md).
 
 A sales guide for sales to new customers might include, for example, the stages "First meeting", "Quotation" and "Signing of contract".
 
@@ -30,7 +30,7 @@ Go to the next procedure to link the stages to a sale type.
 
 ## B. Create a sale type for the sales guide
 
-A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../chap08/Adding-items-to-the-Sale-Sales-type-(for-stages)-list.md).
+A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../chap08/Adding-items-to-Sale-Sales-type-(for-stages)-list.md).
 
 Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cross-sale to existing customer".
 

@@ -25,4 +25,4 @@ Follow these steps to create an e-mail from Lotus Notes:
 
 ## Related topics
 
-[Buttons in the e-mail window](Buttons-in-the-email-window.md)
+[Buttons in the e-mail window](Buttons-in-email-window.md)

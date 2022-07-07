@@ -37,7 +37,7 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 
 [Edit documents](Editing-documents.md)
 
-[Send documents](Sending-documents-from-the-Activities-section-tab.md)
+[Send documents](Sending-documents-from-Activities-section-tab.md)
 
 [Delete documents](Deleting-documents.md)
 
