@@ -26,7 +26,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | [![icon](../media/Knapp-Arbeidsflyt.bmp)](../Sale/Workflow.md) | [Workflow](../Sale/Workflow.md) |
 | [![icon](../media/Knapp-ScreenDesigner.png)](../Screen-designer/Screen-designer.md) | [Screen designer](../Screen-designer/Screen-designer.md) |
 | [![icon](../media/Knapp-Preferanser.bmp)](../chap05/Preferences.md) | [Preferences](../chap05/Preferences.md) |
-| [![icon][img1]](../chat/chat-main.md) | [Chat](../chat/chat-main.md) |
+| [![icon][img1]][2]] | [Chat][2] |
 | [![icon](../media/Knapp-Systemvalg.bmp)](../chap06/Options.md) | [Options](../chap06/Options.md) |
 | [![icon](../media/Knapp-Import.bmp)](../import-web/Import-web.md) | [Import](../import-web/Import-web.md) |
 | [![icon](../media/Knapp-Felt.bmp)](../fields-web/Fields-web.md) | [Fields](../fields-web/Fields-web.md) |
@@ -42,6 +42,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md
+[2]: ../../user/chat/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/chat-btn.png

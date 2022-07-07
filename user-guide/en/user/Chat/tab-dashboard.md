@@ -17,4 +17,4 @@ In the **Dashboard** tab you can view chat statistics, respond to incoming chats
 
 ## What would you like to do now?
 
-* [View chat statistics](chat-statistics.md)
+* [View chat statistics](statistics.md)

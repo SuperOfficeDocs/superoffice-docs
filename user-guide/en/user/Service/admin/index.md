@@ -39,7 +39,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 
 [Customer centre source files](listCustCenter.edit.md)
 
-[Chat](../../Chat/chat-admin/chat-main.md)
+[Chat](../../Chat/admin/index.md)
 
 [SOAP](soapConf.md)
 

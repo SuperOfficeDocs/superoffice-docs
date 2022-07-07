@@ -31,4 +31,4 @@ If you have selected the wrong contact, you can click **Change contact** at the 
 
 ## Related topics
 
-[Add customer to SuperOffice](chat-add-chat-user-to-SuperOffice.md)
+[Add customer to SuperOffice](add-chat-user-to-SuperOffice.md)

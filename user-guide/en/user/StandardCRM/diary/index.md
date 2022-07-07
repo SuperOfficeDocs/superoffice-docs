@@ -53,7 +53,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 * [Phone Call](Phone-call.md)
 * [Work with documents](Write.md)
 * [Compose an e-mail](Compose-an-e-mail-Web.md)
-* [Chat](../../Chat/Chat.md)
+* [Chat](../../Chat/index.md)
 
 ## What would you like to do now?
 

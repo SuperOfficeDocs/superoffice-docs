@@ -1,40 +1,38 @@
 items:
 - name: Chat
-  href: chat.md
+  href: index.md
 - name: Chat actions
-  href: chat-actions.md
+  href: actions.md
 - name: Chat add chat user to SuperOffice
-  href: chat-add-chat-user-to-superoffice.md
+  href: add-chat-user-to-superoffice.md
 - name: Chat create request
-  href: chat-create-request.md
+  href: create-request.md
 - name: Chat function from the customers perspective
-  href: chat-function-from-the-customers-perspective.md
+  href: function-from-the-customers-perspective.md
 - name: Chat link to person
-  href: chat-link-to-person.md
+  href: link-to-person.md
 - name: Chat Person side panel
-  href: chat-person-side-panel.md
+  href: person-side-panel.md
 - name: Chat quick reply
-  href: chat-quick-reply.md
+  href: quick-reply.md
 - name: Chat respond
-  href: chat-respond.md
+  href: respond.md
 - name: Chat Send FAQ or reply template
-  href: chat-send-faq-or-reply-template.md
+  href: send-faq-or-reply-template.md
 - name: Chat send files
-  href: chat-send-files.md
+  href: send-files.md
 - name: Chat statistics
-  href: chat-statistics.md
+  href: statistics.md
 - name: Chat tab Chats
-  href: chat-tab-chats.md
+  href: tab-chats.md
 - name: Chat tab Dashboard
-  href: chat-tab-dashboard.md
+  href: tab-dashboard.md
 - name: Chat transfer to another agent
-  href: chat-transfer-to-another-agent.md
+  href: transfer-to-another-agent.md
 - name: Chat admin
-  href: chat-admin/chat-add-javascript.md
+  href: admin/index.md
   items:
   - name: Chat Add JavaScript
-    href: chat-admin/chat-add-javascript.md
+    href: admin/add-javascript.md
   - name: Chat channel create
-    href: chat-admin/chat-channel-create.md
-  - name: Chat main
-    href: chat-admin/chat-main.md
+    href: admin/channel-create.md

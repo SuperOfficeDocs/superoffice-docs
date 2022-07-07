@@ -26,7 +26,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 | [![icon](../media/Knapp-Arbeidsflyt.bmp)](../Sale/Workflow.md) | **Workflow**: opens the **Workflow** screen, where you can define sales guides and project guides for SuperOffice CRM. |
 | [![icon](../media/Knapp-ScreenDesigner.png)](../Screen-designer/Screen-designer.md) | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. |
 | [![icon](../media/Knapp-Preferanser.bmp)](../chap05/Preferences.md) | **Preferences**: opens the **Preferences** screen, where you can specify a number of settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings](../chap05/Video-meetings.md) and the [Document library](../chap05/Document-library.md). |
-| [![icon][img1]](../chat/chat-main.md) | **Chat**: opens the **Chat** screen, where you can create chat channels and set up the chat feature. |
+| [![icon][img1]][2] | **Chat**: opens the **Chat** screen, where you can create chat channels and set up the chat feature. |
 | [![icon](../media/Knapp-Systemvalg.bmp)](../chap06/Options.md) | **Options**: opens the **Options** screen, where you can define system-wide settings, i.e. settings for freetext search, time zones, number allocation, labels and reports. |
 | [![icon](../media/Knapp-Import.bmp)](../import-web/Import-web.md) | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. |
 | [![icon](../media/Knapp-Felt.bmp)](../fields-web/Fields-web.md) | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. |
@@ -38,6 +38,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md
+[2]: ../../user/chat/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/chat-btn.png

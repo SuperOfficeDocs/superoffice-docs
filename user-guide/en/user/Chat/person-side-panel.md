@@ -17,6 +17,6 @@ If the customer is found in SuperOffice, you can show contact information, reque
 
 ## What would you like to do now?
 
-[Link chat to SuperOffice contact](chat-link-to-person.md)
+[Link chat to SuperOffice contact](link-to-person.md)
 
-[Add customer to SuperOffice](chat-add-chat-user-to-SuperOffice.md)
+[Add customer to SuperOffice](add-chat-user-to-SuperOffice.md)

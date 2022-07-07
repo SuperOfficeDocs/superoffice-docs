@@ -1,10 +1,10 @@
 ---
-uid: help-en-chat-main
+uid: help-en-main
 title: chat main
 description: chat main
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: CRM/Service
 so.topic: help
 language: en
 ---
@@ -17,6 +17,6 @@ Your agents can access chat via the Navigator in both SuperOffice CRM and SuperO
 
 ## What do you want to do now?
 
-[Create a chat channel](chat-channel-create.md)
+[Create a chat channel](channel-create.md)
 
-[Add JavaScript for your website](chat-Add-JavaScript.md)
+[Add JavaScript for your website](Add-JavaScript.md)

@@ -35,7 +35,7 @@ When you click one of these buttons, you get access to various options, such as 
 | ![icon](../media/nav-kb.png) | **Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organise information for the customer. Among other things, it contains FAQs and reply templates. See [Knowledge Base][5]. |
 | ![icon](../media/nav-statistics.png) | **Statistics**: Here you can run standard reports and create new reports. See [Statistics][1]. |
 | ![icon][img1] | **Marketing**: From here you can create and send mailings (e-mails, SMS and documents) and create and publish forms. See [Getting started](../../marketing/the-mailing-workflow.md). |
-| ![icon](../media/nav-chat.png) | **Chat**: Opens the **Chat** screen, where you can respond to inquiries sent via the chat function on you company's web page. See [Chat](../../chat/chat.md). |
+| ![icon](../media/nav-chat.png) | **Chat**: Opens the **Chat** screen, where you can respond to inquiries sent via the chat function on you company's web page. See [Chat](../../chat/index.md). |
 
 ## See also
 

@@ -40,8 +40,8 @@ The following icons are used for the active chat sessions in the list:
 
 ## Chat conversation
 
-Here you can chat with the customer. See [Respond to a chat](chat-respond.md).
+Here you can chat with the customer. See [Respond to a chat](respond.md).
 
 ## Contact side panel (right side)
 
-When a customer contacts you in the chat and is already registered in SuperOffice, you can display relevant information about them in the side panel on the right side of the **Chat** screen. You can also add new customers as new contacts (and new companies). See [The contact side panel](chat-Person-side-panel.md).
+When a customer contacts you in the chat and is already registered in SuperOffice, you can display relevant information about them in the side panel on the right side of the **Chat** screen. You can also add new customers as new contacts (and new companies). See [The contact side panel](Person-side-panel.md).
