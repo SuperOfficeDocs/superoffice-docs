@@ -251,9 +251,9 @@ items:
   - name: Differences between onsite and online installations
     href: topics/differences-between-onsite-and-online-installations.md
   - name: Document
-    href: topics/document.md
-  - name: Knowledge base
     href: knowledge-base/index.md
+  - name: Knowledge base
+    href: knowledge-base/work-with-documents.md
   - name: Document document delDocument
     href: knowledge-base/deldocument.md
   - name: Document document editDocument
@@ -267,15 +267,15 @@ items:
   - name: Document document viewDocument
     href: knowledge-base/viewdocument.md
   - name: Document emailAddressBook
-    href: topics/document.emailaddressbook.md
+    href: knowledge-base/emailaddressbook.md
   - name: Document emailAddressBook editEabFolder
-    href: topics/document.emailaddressbook.editeabfolder.md
+    href: knowledge-base/emailaddressbook.editeabfolder.md
   - name: Document emailAddressBook newEabEntry
-    href: topics/document.emailaddressbook.neweabentry.md
+    href: knowledge-base/emailaddressbook.neweabentry.md
   - name: Document emailAddressBook viewEabEntry
-    href: topics/document.emailaddressbook.vieweabentry.md
+    href: knowledge-base/emailaddressbook.vieweabentry.md
   - name: Document externalDocument
-    href: topics/document.externaldocument.md
+    href: knowledge-base/externaldocument.md
   - name: FAQ
     href: faq/index.md
   - name: Document faq addFaqToMessage
@@ -299,7 +299,7 @@ items:
   - name: Document faq viewKbEntry
     href: faq/viewkbentry.md
   - name: Document find
-    href: topics/document.find.md
+    href: knowledge-base/find.md
   - name: Reply templates
     href: reply-templates/index.md
   - name: Document replyTemplates addReplyTemplatesToMessages

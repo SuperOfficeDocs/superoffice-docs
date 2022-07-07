@@ -21,12 +21,8 @@ To search for information in the knowledge base:
 
 ## What would you like to do now?
 
-[Work with documents](../knowledge-base/index.md)
-
-[Work with external documents](document.externalDocument.md)
-
-[Work with e-mail addresses](document.emailAddressBook.md)
-
-[Work with FAQ entries](../faq/index.md)
-
-[Work with reply templates](../reply-templates/index.md)
+* [Work with documents](../knowledge-base/work-with-documents.md)
+* [Work with external documents](externalDocument.md)
+* [Work with e-mail addresses](emailAddressBook.md)
+* [Work with FAQ entries](../faq/index.md)
+* [Work with reply templates](../reply-templates/index.md)

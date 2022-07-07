@@ -17,7 +17,7 @@ To register an e-mail address:
 
 1. Select **Knowledge Base** &gt; **E-mail addresses**.
 
-2. Go to the folder you want to put the e-mail address in. If it does not yet exist, you can create a new folder. See [Administrate e-mail address folders](document.emailAddressBook.editEabFolder.md).
+2. Go to the folder you want to put the e-mail address in. If it does not yet exist, you can create a new folder. See [Administrate e-mail address folders](emailAddressBook.editEabFolder.md).
 
 3. Click the **New e-mail address** button. This takes you to the **E-mail address properties** screen.
 

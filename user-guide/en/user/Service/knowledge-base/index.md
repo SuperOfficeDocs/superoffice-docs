@@ -1,7 +1,7 @@
 ---
-uid: help-en-document-document
-title: document document
-description: document document
+uid: help-en-document
+title: document
+description: document
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -9,23 +9,13 @@ so.topic: help
 language: en
 ---
 
-# Work with documents
+# Knowledge Base
 
-Under **Knowledge Base &gt; Documents** you can add documents to make them available to yourself and/or other users. Such documents might include price lists, installation routines and brochures.
+The knowledge base gives request handlers access to saved data in a single location, which makes it easier to find information and make it available to customers. You can use the knowledge base both as a look-up tool and for extracting information to reuse in communications with customers. The knowledge base comprises the following main sections:
 
-> [!NOTE]
-> The difference between **Documents** and **External documents** (see [Work with external documents](../topics/document.externalDocument.md)) is that the latter contains files that are accessible to everyone, including unregistered customers.
-
-## What would you like to do now?
-
-[View documents](viewDocument.md)
-
-[Create documents](newDocument.md)
-
-[Edit documents](editDocument.md)
-
-[Delete documents](delDocument.md)
-
-[Search for documents](findDocument.md)
-
-[Administrate folders of documents](editFolder.md)
+* **Search**: Here you can search for content in all entries in the knowledge base. See [Search for contents in the knowledge base](find.md).
+* **Documents**: Here you can add documents to make them available to yourself and/or other users. Such documents might include price lists, installation routines and brochures. See [Work with documents](work-with-documents.md).
+* **External documents**: Here you can add documents to make them available to anyone using SuperOffice Service, including unregistered customers. See [Work with external documents](externalDocument.md).
+* **E-mail addresses**: Here you can create a list of e-mail addresses that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice Service. These addresses will then be accessible in most places where you may want to send an e-mail. [Work with e-mail addresses](emailAddressBook.md).
+* **FAQ**: This contains a list of frequently asked questions and their answers. These entries can be made available in a web-based customer centre, where customers themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries. [Work with FAQ entries](../faq/index.md).
+* **Reply templates**: Here you will find a list of all the reply templates in the system. A reply template consists of ready-made text that can be pasted into a message you are writing to a customer. See [Work with reply templates](../reply-templates/index.md).
