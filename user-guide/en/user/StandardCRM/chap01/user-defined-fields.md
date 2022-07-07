@@ -19,7 +19,7 @@ Several sections of SuperOffice CRM, for example, the **Company** screen, contai
 
 [The More tab (Contact)](../person/contactcard-tab-more.md)
 
-[The More tab (Project)](../chap05/More-tab-Project.md)
+[The More tab (Project)](../project/More-tab-Project.md)
 
 [The More tab (follow-ups)](../diary/More-tab-follow-ups.md)
 

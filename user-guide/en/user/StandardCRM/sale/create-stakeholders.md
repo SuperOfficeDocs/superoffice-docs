@@ -22,7 +22,7 @@ To link the sale to stakeholders:
 3. Click the **Add** button below the section tab. The **Add stakeholders** dialog opens.
 
     > [!NOTE]
-    > You can also add stakeholders via the section tabs containing contacts in the **Company** and **Selection** screens. See [Add project members and stakeholders from section tabs](../chap05/Adding-project-members.md) for more information.
+    > You can also add stakeholders via the section tabs containing contacts in the **Company** and **Selection** screens. See [Add project members and stakeholders from section tabs](../project/Adding-project-members.md) for more information.
 
     <!-- Fix reuse ID=a2 -->
 

@@ -19,7 +19,7 @@ items:
   - name: Quote
     href: quote/toc.yml
 - name: Project
-  href: chap05/toc.yml
+  href: project/toc.yml
 - name: Selection
   href: chap04/toc.yml
 - name: Inbox/Email

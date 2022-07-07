@@ -49,4 +49,4 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 
 [Export section tabs](Export-archives.md)
 
-[Add project members](../chap05/Creating-project-members.md)
+[Add project members](../project/Creating-project-members.md)

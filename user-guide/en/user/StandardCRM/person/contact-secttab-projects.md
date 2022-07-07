@@ -22,8 +22,8 @@ Double-click a project in the list to open the **Project** screen in SuperOffice
 > [!TIP]
 > You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md).
 
-For more details on how to manage projects, see [Project](../chap05/Project.md).
+For more details on how to manage projects, see [Project](../project/index.md).
 
 ## Related topics
 
-[Create projects](../chap05/Creating-projects.md)
+[Create projects](../project/Creating-projects.md)

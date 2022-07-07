@@ -21,8 +21,8 @@ For each stakeholder, information about company, contact name, role in the sale,
 
 [Create stakeholders](Create-stakeholders.md)
 
-[Add stakeholders from section tabs](../chap05/Adding-project-members.md)
+[Add stakeholders from section tabs](../project/Adding-project-members.md)
 
 [Edit or remove stakeholders](Edit-stakeholders.md)
 
-[Send e-mail to stakeholders](../chap05/Sending-e-mails-to-project-members.md)
+[Send e-mail to stakeholders](../project/Sending-e-mails-to-project-members.md)

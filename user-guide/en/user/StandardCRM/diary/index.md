@@ -19,7 +19,7 @@ The **Activities** section tab is available in the **Company** screen, the **Con
 
 * The **Activities** section tab in the **Contact** screen displays activities linked to the contact in question. See [Activities (Contact)](../person/contact-secttab-activities.md).
 
-* The **Activities** section tab in the **Project** and **Sale** screens displays activities linked to the project or sale in question. See [Activities (Project)](../chap05/Activities-Project.md) and [Activities section tab (Sale)](../sale/activities-sale.md).
+* The **Activities** section tab in the **Project** and **Sale** screens displays activities linked to the project or sale in question. See [Activities (Project)](../project/Activities-Project.md) and [Activities section tab (Sale)](../sale/activities-sale.md).
 
 * The **Activities** section tab in the **Diary** screen displays all your uncompleted activities. See [Activities section tab (Diary)](activities-list.md).
 

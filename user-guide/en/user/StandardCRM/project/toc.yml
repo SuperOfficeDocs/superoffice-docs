@@ -1,4 +1,6 @@
 items:
+- name: Project
+  href: index.md
 - name: Activities Project
   href: activities-project.md
 - name: Adding links from project and sale
@@ -31,8 +33,6 @@ items:
   href: performing-mail-merge-for-projects.md
 - name: Printing projects
   href: printing-projects.md
-- name: Project
-  href: project.md
 - name: Projectcard tab note
   href: projectcard-tab-note.md
 - name: Projectguide

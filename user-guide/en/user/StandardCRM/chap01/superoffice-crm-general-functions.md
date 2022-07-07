@@ -19,7 +19,7 @@ SuperOffice CRM consists of the following main sections which you will quickly b
 * [Diary](../diary/Diary.md)
 * [Sale](../sale/sale.md)
   * [Quote](../quote/quote-main.md)
-* [Project](../chap05/Project.md)
+* [Project](../project/index.md)
 * [Selection](../chap04/Selection.md)
 * [Inbox](../Inbox-TOP.md)
 * [Chat](../../Chat/Chat.md)

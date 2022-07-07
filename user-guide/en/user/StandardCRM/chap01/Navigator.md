@@ -30,7 +30,7 @@ The navigator contains the following buttons:
 | ![icon](../media/Navigator-Contact.bmp) | **Contact**: opens the **Contact** screen, which is your window to the database containing all your contacts. See [Contact](../person/Contact-main.md). |
 | ![icon](../media/Navigator-Dagbok.bmp) | **Diary**: opens the **Diary** screen, which is a kind of advanced filofax. See the main [Diary](../diary/Diary.md) topic. |
 | ![icon](../media/Navigator-Salg.bmp) | **Sale**: opens the **Sale** screen, containing information about all the sales. See the main [Sale](../sale/sale.md) topic. |
-| ![icon](../media/Navigator-Prosjekt.bmp) | **Project**: opens the **Project** screen, containing information about different projects. See [Project](../chap05/Project.md). |
+| ![icon](../media/Navigator-Prosjekt.bmp) | **Project**: opens the **Project** screen, containing information about different projects. See [Project](../project/index.md). |
 | ![icon](../media/Navigator-Utvalg.bmp) | **Selection**: opens the **Selection** screen, where you can enter companies, contacts, projects, sales, documents and follow-ups that you work with frequently into separate selections. Selections can, among other things, be used for mailings. See [Selection](../chap04/Selection.md). |
 | ![icon](../media/Navigator-E-post.bmp) | **Inbox**: opens your inbox, where you can read and reply to incoming messages. See [Inbox/E-mail](../chap07web/inbox.md). |
 | ![icon](../media/Navigator-Chat.png) | **Chat**: opens the **Chat** screen, where you can respond to inquiries sent via the chat feature on you company's web page. See [Chat](../../Chat/Chat.md). |
