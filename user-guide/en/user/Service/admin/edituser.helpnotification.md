@@ -13,7 +13,7 @@ language: en
 
 In SuperOffice Service, request handlers can choose to receive notifications of various events. In the **Notification** tab in the **Edit users** screen, you can check how you want to receive such notifications:
 
-* **Pop-up**: The notification button ( ![icon](../../media/globalmenu-notice-new.png) ) in the top bar will indicate that you have new notifications. See [Buttons in the Top bar](../topics/rms.navigate.buttons.topbar.md).
+* **Pop-up**: The notification button ( ![icon](../../media/globalmenu-notice-new.png) ) in the top bar will indicate that you have new notifications. See [Buttons in the Top bar](../getting-started/buttons.topbar.md).
 * **E-mail**: You will receive an e-mail message when an event occurs.
 * **SMS** (if the SMS module is installed): You will receive a text message when an event occurs.
 

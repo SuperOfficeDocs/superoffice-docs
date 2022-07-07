@@ -602,7 +602,7 @@ qaf1 | Extra field 1. |
 
 ## Variables for SuperOffice Service
 
-These are variables for SuperOffice Service data used in SuperOffice CRM. [Click here to see template variables for SuperOffice Service and SuperOffice Marketing](../../Service/topics/Template-variables.md).
+These are variables for SuperOffice Service data used in SuperOffice CRM. [Click here to see template variables for SuperOffice Service and SuperOffice Marketing](../../Service/template-variables.md).
 
 | Variable | Description |
 |---|---|

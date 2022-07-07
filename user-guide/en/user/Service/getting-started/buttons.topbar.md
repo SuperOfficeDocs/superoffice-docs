@@ -26,7 +26,7 @@ The other buttons in SuperOffice Service are described in connection with the ta
 
 ## Related topics
 
-[Global buttons](rms.navigate.buttons.md)
+[Global buttons](buttons.md)
 
 <!-- Referenced links -->
 [1]:

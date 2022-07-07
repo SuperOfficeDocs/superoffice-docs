@@ -49,4 +49,4 @@ There are several types of template variables:
 
 ## What would you like to find out more about?
 
-[Template variables](../../../Service/topics/Template-variables.md)
+[Template variables](../../../Service/template-variables.md)

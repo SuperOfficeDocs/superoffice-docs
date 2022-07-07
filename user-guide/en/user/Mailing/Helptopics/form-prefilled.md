@@ -24,6 +24,6 @@ In order to do this:
     It should look something like this:  
     ...formId=F-FH2K4Vru&field\-name\-1=&field\-mail=
 5. Copy the link or JavaScript to a text editor or similar.
-6. Enter the relevant [template variables](../../Service/topics/Template-variables.md) between two square brackets (\[\[ \]\] ) AFTER the equal sign:  
+6. Enter the relevant [template variables](../../Service/template-variables.md) between two square brackets (\[\[ \]\] ) AFTER the equal sign:  
     ...formId=F-FH2K4Vru&field\-name\-1=\[\[customer.name\]\]&field\-mail=\[\[customer.email\]\]
 7. Copy the complete link or JavaScript and publish it.

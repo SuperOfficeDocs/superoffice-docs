@@ -13,7 +13,7 @@ language: en
 
 In the **User information** tab in the **Edit users** screen, you can edit the following details for your own user profile:
 
-* **User ID**: This is the name you enter when logging in to the system. See [Log in to SuperOffice Service](../topics/rms.login.md).
+* **User ID**: This is the name you enter when logging in to the system. See [Log in to SuperOffice Service](../login.md).
 * **Display name**: This is the name visible to other users of SuperOffice Service.
 * **First name**, **Middle name** and **Last name**: these comprise your full name.
 * **Mobile phone**: This is the mobile number registered for you in the system and which is used to notify you by SMS, if you have SMS notification enabled.

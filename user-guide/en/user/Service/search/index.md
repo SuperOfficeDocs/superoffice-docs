@@ -22,7 +22,7 @@ Searching in SuperOffice Service is performed from the same screen, no matter wh
 </details>
 
 > [!TIP]
-> There is also a quick search option. For more information about this, see [Use quick search](useQuickSearch.md). In addition, clicking the various navigator buttons gives you access to more search options (see [Navigator options](../topics/Navigator-options.md)).
+> There is also a quick search option. For more information about this, see [Use quick search](useQuickSearch.md). In addition, clicking the various navigator buttons gives you access to more search options (see [Navigator options](../getting-started/navigator-options.md)).
 
 ## Open the search screen
 

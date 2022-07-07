@@ -1,6 +1,6 @@
 items:
 - name: Topics
-  href: admin/index.md
+  href: index.md
   items:
   - name: Admin
     href: admin/index.md
@@ -249,7 +249,7 @@ items:
   - name: Customers viewCustomer sendNewCustMail
     href: customers/viewcustomer.sendnewcustmail.md
   - name: Differences between onsite and online installations
-    href: topics/differences-between-onsite-and-online-installations.md
+    href: differences-between-onsite-and-online-installations.md
   - name: Document
     href: knowledge-base/index.md
   - name: Knowledge base
@@ -323,21 +323,19 @@ items:
   - name: Get next request in the queue
     href: request/get-next-request-in-the-queue.md
   - name: Navigator options
-    href: topics/navigator-options.md
+    href: getting-started/navigator-options.md
   - name: New selection
     href: selections/newselection.md
-  - name: Rms
-    href: topics/rms.md
-  - name: Rms login
-    href: topics/rms.login.md
-  - name: Rms navigate
-    href: topics/rms.navigate.md
+  - name: Log in
+    href: login.md
+  - name: Getting started
+    href: getting-started/index.md
   - name: Rms navigate buttons
-    href: topics/rms.navigate.buttons.md
+    href: getting-started/buttons.md
   - name: Rms navigate buttons topbar
-    href: topics/rms.navigate.buttons.topbar.md
+    href: getting-started/buttons.topbar.md
   - name: Rms navigate favourites
-    href: topics/rms.navigate.favourites.md
+    href: getting-started/favorites.md
   - name: Rms search
     href: search/index.md
   - name: Rms search searchResult
@@ -389,7 +387,7 @@ items:
   - name: Stat simpleStat
     href: statistics/simplestat.md
   - name: Template variables
-    href: topics/template-variables.md
+    href: template-variables.md
   - name: Ticket
     href: request/index.md
   - name: Ticket autosave

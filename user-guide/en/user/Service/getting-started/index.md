@@ -39,9 +39,9 @@ When you click one of these buttons, you get access to various options, such as 
 
 ## See also
 
-* [Navigator options](Navigator-options.md)
-* [Buttons in the Top bar](rms.navigate.buttons.topbar.md)
-* [Global buttons](rms.navigate.buttons.md)
+* [Navigator options](navigator-options.md)
+* [Buttons in the Top bar](buttons.topbar.md)
+* [Global buttons](buttons.md)
 
 <!-- Referenced links -->
 [1]: ../customers/index.md

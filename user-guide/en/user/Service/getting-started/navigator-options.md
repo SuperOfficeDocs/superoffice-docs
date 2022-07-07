@@ -29,7 +29,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 |:-:|---|
 | ![icon][img1]       | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
 | ![icon](../media/navigator-history.png)    | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
-| ![icon](../media/navigator-favorites.png) | **Favourites**: Click this button to view the records you have set as favourites. See [Favourites](rms.navigate.favourites.md). |
+| ![icon](../media/navigator-favorites.png) | **Favourites**: Click this button to view the records you have set as favourites. See [Favourites](favorites.md). |
 | ![icon](../media/navigator-search.png)     | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic, so you only need to start typing your search phrase to initiate the search. |
 
 > [!NOTE]

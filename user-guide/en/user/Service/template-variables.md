@@ -14,7 +14,7 @@ In the e-mail message, you can use template variables to insert customer-specifi
 
 In the tables below you can find all template variables for SuperOffice Service and SuperOffice Marketing.
 
-([Click here to see template variables for SuperOffice CRM](Template-variables.md).)
+([Click here to see template variables for SuperOffice CRM](template-variables.md).)
 
 <!-- Fix reuse ID=a1 -->
 
@@ -181,7 +181,6 @@ When editing reply templates and mailings, you can insert template variables by 
 | company.primaryContact.id | The id (ejuser) of the agent which is marked as the primary support contact for this company |
 | ourContact.email | Our contacts e-mail address |
 | ourContact.name | Our contact |
-
 
 ## Variables for reply templates (user) (only SuperOffice Service)
 

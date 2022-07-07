@@ -44,4 +44,4 @@ There are several types of merge tags:
 
 ## What would you like to find out more about?
 
-[Template variables](../../Service/topics/Template-variables.md) (merge tags)
+[Template variables](../../Service/template-variables.md) (merge tags)
