@@ -1,0 +1,168 @@
+items:
+  - name: Add a link to display the message in a browser
+    href: add-a-link-to-display-the-message-in-a-browser.md
+  - name: Add an unsubscribe link
+    href: add-an-unsubscribe-link.md
+  - name: Add content
+    href: add-content.md
+  - name: Add favourites
+    href: add-favourites.md
+  - name: Add images
+    href: add-images.md
+  - name: Add recipients to selections or projects
+    href: add-recipients-to-selections-or-projects.md
+  - name: Blocked e mail addresses
+    href: blocked-e-mail-addresses.md
+  - name: Create address list
+    href: create-address-list.md
+  - name: Create links
+    href: create-links.md
+  - name: CreateNewMailing
+    href: createnewmailing.md
+  - name: Customise the message for display on mobile devices
+    href: customise-the-message-for-display-on-mobile-devices.md
+  - name: Define link actions
+    href: define-link-actions.md
+  - name: Define settings for mailings
+    href: define-settings-for-mailings.md
+  - name: Differences between onsite and online installations
+    href: differences-between-onsite-and-online-installations.md
+  - name: Drag and drop editor
+    href: drag-and-drop-editor.md
+  - name: Edit a paragraph
+    href: edit-a-paragraph.md
+  - name: Edit message content   overview
+    href: edit-message-content-overview.md
+  - name: Examples of the use of trackable links
+    href: examples-of-the-use-of-trackable-links.md
+  - name: Filter recipient list
+    href: filter-recipient-list.md
+  - name: Followup mailings
+    href: followup-mailings.md
+  - name: Form create
+    href: form-create.md
+  - name: Form create multi page
+    href: form-create-multi-page.md
+  - name: Form create step1 setup
+    href: form-create-step1-setup.md
+  - name: Form create step2 template
+    href: form-create-step2-template.md
+  - name: Form create step3 content
+    href: form-create-step3-content.md
+  - name: Form create step3 content GEN
+    href: form-create-step3-content-gen.md
+  - name: Form field options
+    href: form-field-options.md
+  - name: Form prefilled
+    href: form-prefilled.md
+  - name: Form publish
+    href: form-publish.md
+  - name: Form submission track
+    href: form-submission-track.md
+  - name: Form submissions
+    href: form-submissions.md
+  - name: Form submissions process
+    href: form-submissions-process.md
+  - name: Form templates
+    href: form-templates.md
+  - name: Form view
+    href: form-view.md
+  - name: Form work with
+    href: form-work-with.md
+  - name: Forms Differences between the Drag Drop Editor and the Editor
+    href: forms-differences-between-the-drag-drop-editor-and-the-editor.md
+  - name: FormsGuide
+    href: formsguide.md
+  - name: Google Analytics
+    href: google-analytics.md
+  - name: IncludeLinksToTrack
+    href: includelinkstotrack.md
+  - name: Insert images in the message
+    href: insert-images-in-the-message.md
+  - name: Links
+    href: links.md
+  - name: Manage bounces
+    href: manage-bounces.md
+  - name: Menu overview
+    href: menu-overview.md
+  - name: Oldeditor
+    href: oldeditor/add-a-link-to-display-the-message-in-a-browser.md
+    items:
+    - name: Add a link to display the message in a browser
+      href: oldeditor/add-a-link-to-display-the-message-in-a-browser.md
+    - name: Add an unsubscribe link
+      href: oldeditor/add-an-unsubscribe-link.md
+    - name: Customise the message for display on mobile devices
+      href: oldeditor/customise-the-message-for-display-on-mobile-devices.md
+    - name: Edit a paragraph
+      href: oldeditor/edit-a-paragraph.md
+    - name: Edit message content   overview
+      href: oldeditor/edit-message-content-overview.md
+    - name: Editor screenshot
+      href: oldeditor/editor-screenshot.md
+    - name: IncludeLinksToTrack
+      href: oldeditor/includelinkstotrack.md
+    - name: Insert images in the message
+      href: oldeditor/insert-images-in-the-message.md
+    - name: Menu overview
+      href: oldeditor/menu-overview.md
+    - name: Step 3  Content   Formatted e mail
+      href: oldeditor/step-3-content-formatted-email.md
+    - name: Step 3  Content   Form response
+      href: oldeditor/step-3-content-form-response.md
+    - name: Use template variables in messages
+      href: oldeditor/use-template-variables-in-messages.md
+  - name: Reset counters after testing
+    href: reset-counters-after-testing.md
+  - name: SO Mailing
+    href: index.md
+  - name: Step 1 Setup   Document
+    href: step-1-setup-document.md
+  - name: Step 1 Setup   SMS
+    href: step-1-setup-sms.md
+  - name: Step 1 setup email
+    href: step-1-setup-email.md
+  - name: Step 2  Layout   Document
+    href: step-2-layout-document.md
+  - name: Step 2  Layout formatted email
+    href: step-2-layout-formatted-email.md
+  - name: Step 2  Template   SMS
+    href: step-2-template-sms.md
+  - name: Step 3  Content   Document
+    href: step-3-content-document.md
+  - name: Step 3  Content   Email GEN
+    href: step-3-content-email-gen.md
+  - name: Step 3  Content   Formatted e mail
+    href: step-3-content-formatted-email.md
+  - name: Step 3  Content   SMS
+    href: step-3-content-sms.md
+  - name: Step 4  Recipients   Document
+    href: step-4-recipients-document.md
+  - name: Step 4  Recipients   SMS
+    href: step-4-recipients-sms.md
+  - name: Step 4  Recipients email
+    href: step-4-recipients-email.md
+  - name: Step 5  Confirm   Document
+    href: step-5-confirm-document.md
+  - name: Step 5  Confirm   SMS
+    href: step-5-confirm-sms.md
+  - name: Step 5  Confirm email
+    href: step-5-confirm-email.md
+  - name: Test mailing
+    href: test-mailing.md
+  - name: The mailing workflow
+    href: the-mailing-workflow.md
+  - name: The message editor   old vs new
+    href: the-message-editor-old-vs-new.md
+  - name: Track the mailing and view statistics
+    href: track-the-mailing-and-view-statistics.md
+  - name: Use template variables in messages
+    href: use-template-variables-in-messages.md
+  - name: Work with mailings
+    href: work-with-mailings.md
+  - name: Work with messages and templates
+    href: work-with-messages-and-templates.md
+  - name: Work with the recipient list after the mailing
+    href: work-with-the-recipient-list-after-the-mailing.md
+  - name: Work with tracked links after the mailing
+    href: work-with-tracked-links-after-the-mailing.md

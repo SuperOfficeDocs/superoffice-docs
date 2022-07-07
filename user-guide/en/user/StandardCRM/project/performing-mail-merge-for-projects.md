@@ -16,7 +16,7 @@ To send the same document to all the members of a project, you can use the ![ico
 * Select ![icon](../media/Navigator-Utvalg-small.bmp)**Selections** in the navigator, go to the **Task** tab and click **Create document mailing**.
 * Select ![icon][img1] **Marketing** in the navigator, select the **Mailings** tab and create a new document mailing.
 
-See [Create new mailing](../../Mailing/Helptopics/CreateNewMailing.md) for more information.
+See [Create new mailing](../../marketing/CreateNewMailing.md) for more information.
 
 > [!NOTE]
 > In **Step 4: Recipients** you must select the project to add the project members as recipients.

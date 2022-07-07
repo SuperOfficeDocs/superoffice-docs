@@ -9,13 +9,13 @@
 > If the **Images** (![icon][img6]) section is not visible, this preference may have been disabled due to organisational privacy rules.
 
 <!-- Referenced links -->
-[1]: ../mailing/helptopics/edit-a-paragraph.md
-[2]: ../mailing/helptopics/insert-images-in-the-message.md
+[1]: ../marketing/edit-a-paragraph.md
+[2]: ../marketing/insert-images-in-the-message.md
 
 <!-- Referenced images -->
-[img1]: ../mailing/media/editor-sidepanel-btn-content.png
-[img2]: ../mailing/media/editor-sidepanel-btn-blocks.png
-[img3]: ../mailing/media/editor-sidepanel-btn-body.png
-[img4]: ../mailing/media/editor-sidepanel-btn-images.png
-[img5]: ../mailing/media/newbtn-saveblock.png
-[img6]: ../mailing/media/editor-sidepanel-btn-images-small.png
+[img1]: ../marketing/media/editor-sidepanel-btn-content.png
+[img2]: ../marketing/media/editor-sidepanel-btn-blocks.png
+[img3]: ../marketing/media/editor-sidepanel-btn-body.png
+[img4]: ../marketing/media/editor-sidepanel-btn-images.png
+[img5]: ../marketing/media/newbtn-saveblock.png
+[img6]: ../marketing/media/editor-sidepanel-btn-images-small.png

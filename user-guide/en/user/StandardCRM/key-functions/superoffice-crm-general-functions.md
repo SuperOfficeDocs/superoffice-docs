@@ -24,7 +24,7 @@ SuperOffice CRM consists of the following main sections which you will quickly b
 * [Inbox](../Inbox-TOP.md)
 * [Chat](../../Chat/Chat.md)
 * [Reports](../reports/index.md)
-* [Marketing](../../Mailing/Helptopics/SO-Mailing.md)
+* [Marketing](../../marketing/index.md)
 
 You can easily switch between these screens by clicking the buttons in the Navigator (see [The Navigator](Navigator.md)).
 

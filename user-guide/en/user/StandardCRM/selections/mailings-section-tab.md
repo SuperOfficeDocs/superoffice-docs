@@ -17,6 +17,6 @@ The purpose of the latter is to keep track of all mailings related to a selectio
 
 Double-click a mailing to open it.
 
-**Create a mailing**: Click here to create a new mailing to the contacts in this selection. See [Step 1: Setup](../../Mailing/Helptopics/step-1-setup-email.md).
+**Create a mailing**: Click here to create a new mailing to the contacts in this selection. See [Step 1: Setup](../../marketing/step-1-setup-email.md).
 
 **Export**: Click here to export the list to a spreadsheet.

@@ -13,4 +13,4 @@ To create a new folder:
 5. Click**OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 
 <!-- Referenced images -->
-[img1]: ../mailing/media/btn-addfolder.png
+[img1]: ../marketing/media/btn-addfolder.png

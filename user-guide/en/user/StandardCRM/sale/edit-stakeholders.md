@@ -17,7 +17,7 @@ You do this as follows:
 
 1. Go to the required sale in the **Sale** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 2. Select the **Stakeholders** section tab.
-3. Select one or more stakeholders, and click **Edit** ( ![icon](../../Mailing/media/btn-editor-edit.png) ) at the bottom of the section tab. The **Edit stakeholder** dialog opens.
+3. Select one or more stakeholders, and click **Edit** ( ![icon](../../marketing/media/btn-editor-edit.png) ) at the bottom of the section tab. The **Edit stakeholder** dialog opens.
 
 <!-- -->
 

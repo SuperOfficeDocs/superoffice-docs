@@ -11,7 +11,7 @@ To do this:
 * Click ![icon][img1] to close the **Preview** window.
 
 <!-- Referenced links -->
-[1]: ../mailing/helptopics/reset-counters-after-testing.md
+[1]: ../marketing/reset-counters-after-testing.md
 
 <!-- Referenced images -->
-[img1]: ../mailing/media/btn-cancel.png
+[img1]: ../marketing/media/btn-cancel.png

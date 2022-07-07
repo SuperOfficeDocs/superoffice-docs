@@ -30,10 +30,10 @@ You can click the mailing in the list to view sending status and statistics. See
 To stop the mailing or start a planned mailing ahead of schedule, click the **Stop** or **Start** button respectively.
 
 <!-- Referenced links -->
-[1]: ../mailing/helptopics/track-the-mailing-and-view-statistics.md
+[1]: ../marketing/track-the-mailing-and-view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../mailing/media/loc/btn-sendnow.png
-[img2]: ../mailing/media/loc/btn-schedule.png
-[img3]: ../mailing/media/btn-calendar.jpg
-[img4]: ../mailing/media/btn-schedulenow.png
+[img1]: ../marketing/media/loc/btn-sendnow.png
+[img2]: ../marketing/media/loc/btn-schedule.png
+[img3]: ../marketing/media/btn-calendar.jpg
+[img4]: ../marketing/media/btn-schedulenow.png
