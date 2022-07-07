@@ -13,7 +13,7 @@ language: en
 
 As a request handler, you are not always able to answer the request on your own. You may sometimes need to ask for help from a colleague. To do this:
 
-1. Open the request. (See [Process requests](ticket.listTicket.md).)
+1. Open the request. (See [Process requests](listTicket.md).)
 
 2. Click ![icon][img1] **Actions** and select **Edit request**. This takes you to the **Properties** tab in the **Request** screen.
 
@@ -31,11 +31,11 @@ As a request handler, you are not always able to answer the request on your own.
 7. Click **OK**. The request is transferred to the other person.
 
 > [!TIP]
-> Before transferring responsibility for the request to someone else, it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field. See [Add requests to the favourites list](ticket.showListTickets.hotlist.md).
+> Before transferring responsibility for the request to someone else, it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field. See [Add requests to the favourites list](showListTickets.hotlist.md).
 
 ## What would you like to do now?
 
-[Use the favourites list](ticket.showListTickets.hotlist.md)
+[Use the favourites list](showListTickets.hotlist.md)
 
 <!-- Referenced links -->
 [1]:

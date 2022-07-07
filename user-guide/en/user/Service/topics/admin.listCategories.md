@@ -12,7 +12,7 @@ language: en
 # Categories
 
 > [!TIP]
-> Looking for a more flexible way of organizing your request? Try [using tags in requests](ticket.tags.md).
+> Looking for a more flexible way of organizing your request? Try [using tags in requests](../request/tags.md).
 
 All requests belong to a category, and each category has its own rules that define how requests are processed in the system. Typically, the higher-level categories will correspond to the organisation's departments, while subcategories will correspond to areas of responsibility and/or logical structures within a department. Subcategories could also be the products that the company sells. An example might be to have the main categories of User Support, Development, Sales and Invoicing - and subcategories in these for each of the products that are sold.
 
@@ -35,7 +35,7 @@ Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a l
 
 [Search for requests in categories](admin.listCategories.searchTickets.md)
 
-[How to set up Get next request in queue](get-next-request-in-the-queue.md)
+[How to set up Get next request in queue](../request/get-next-request-in-the-queue.md)
 
 <!-- Referenced links -->
 

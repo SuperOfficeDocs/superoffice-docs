@@ -64,7 +64,7 @@ To create a new reply template:
     > [!TIP]
     > You can delete an attachment by clicking **Delete** ( ![icon][img1] ) to the right of the row.
 
-11. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in responding to customer enquiries. See [Reply to customer](../topics/ticket.showListTickets.addMessage.md).
+11. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in responding to customer enquiries. See [Reply to customer](../request/showListTickets.addMessage.md).
 
 ## What would you like to do now?
 

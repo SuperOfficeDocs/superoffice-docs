@@ -20,7 +20,7 @@ This screen comprises the following sections:
 
 * At the top of the screen, the company header contains basic information about the contact. See [Company header](viewCompany.md#CompanyHeader).
 * The ![icon][img1] **Actions** button gives access to tasks associated with contacts. See [Task buttons for companies](viewCompany.md#TaskButtonsForCompanies).
-* The **Requests** tab contains the requests associated with this company. Open a request by double-clicking it. See [Process requests](../topics/ticket.listTicket.md).
+* The **Requests** tab contains the requests associated with this company. Open a request by double-clicking it. See [Process requests](../request/listTicket.md).
 * The **Contacts** tab contains the contacts associated with this company. Open a contact by double-clicking the appropriate row. See [View contacts](viewCustomer.md).
 * The **Info** tab contains an overview of the data registered for the active company. The contents of the fields are described in detail under [Create companies](newCompany.md).
 

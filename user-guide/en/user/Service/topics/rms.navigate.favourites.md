@@ -11,7 +11,7 @@ language: en
 
 # Favourites
 
-The Favourites function gives you easy to access to your favourite records, such as [requests](ticket.showListTickets.hotlist.md), contacts, companies, selections and mailings.
+The Favourites function gives you easy to access to your favourite records, such as [requests](../request/showListTickets.hotlist.md), contacts, companies, selections and mailings.
 
 ## Add record as a favourite
 
@@ -29,7 +29,7 @@ Now you can quickly access the record by clicking ![icon](../../media/navmenu-fa
 
 ## Related topics
 
-[Add requests to the favourites list](ticket.showListTickets.hotlist.md)
+[Add requests to the favourites list](../request/showListTickets.hotlist.md)
 
 <!-- Referenced links -->
 [1]:

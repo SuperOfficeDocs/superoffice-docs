@@ -22,8 +22,8 @@ From the **Categories** screen, it is also possible to search for requests in a 
 
 3. Click **Search** next to the category name. This takes you to the search screen.
 
-4. Search as described under [Search for requests](ticket.listTickets.findTickets.md).
+4. Search as described under [Search for requests](../request/listTickets.findTickets.md).
 
 ## Related topics
 
-[Using tags in requests](ticket.tags.md)
+[Using tags in requests](../request/tags.md)

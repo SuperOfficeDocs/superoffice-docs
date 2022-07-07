@@ -18,7 +18,7 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 
 To merge requests:
 
-1. Open one of the requests you want to merge. (See [Process requests](ticket.listTicket.md).)
+1. Open one of the requests you want to merge. (See [Process requests](listTicket.md).)
 2. Click ![icon][img1] and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the request to merge with this one.
 3. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
 4. Select a request from the list of search results. The selected request opens in a new column in the table.
@@ -28,15 +28,15 @@ To merge requests:
     * Contacts from all merged requests will be kept, and the main contact will be inherited from the selected request ID.
 7. Click **OK**. The requests are merged.
 
-The requests that have been overwritten (i.e. the request IDs have been overwritten) will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the quick search field (see [Use quick search](rms.search.useQuickSearch.md)), you are redirected to the merged request.
+The requests that have been overwritten (i.e. the request IDs have been overwritten) will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the quick search field (see [Use quick search](../topics/rms.search.useQuickSearch.md)), you are redirected to the merged request.
 
 ## What would you like to do now?
 
-[Reply to customer](ticket.showListTickets.addMessage.md)
+[Reply to customer](showListTickets.addMessage.md)
 
-[Ask another request handler for help.](ticket.showListTickets.askForHelp.md)
+[Ask another request handler for help.](showListTickets.askForHelp.md)
 
-[Forward messages to external parties](ticket.showListTickets.forward.md)
+[Forward messages to external parties](showListTickets.forward.md)
 
 <!-- Referenced links -->
 [1]:

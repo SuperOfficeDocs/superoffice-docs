@@ -37,8 +37,8 @@ Click the appropriate link below, depending on what you want to find out about:
 
 There are many different ways to bring up the search screen, depending on where in the system you are:
 
-* You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests](ticket.listTickets.findTickets.md).
-* You can use predefined lists to search for requests. See [Use lists](ticket.listTickets.useLists.md).
+* You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests](../request/listTickets.findTickets.md).
+* You can use predefined lists to search for requests. See [Use lists](../request/listTickets.useLists.md).
 * You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
 * In the knowledge base, you can click the **Search** icon ( ![icon](../media/search.png) ) to the right of a folder name to search for different types of content.
 * The search screen is used as the basis for creating some types of selection. See [Create a selection](../selections/newSelection.md).

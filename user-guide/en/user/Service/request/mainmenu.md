@@ -14,7 +14,7 @@ language: en
 A dashboard can contain up to four tiles (panels) that provide an instant overview of requests and request statistics in SuperOffice Service. The content of the tiles can be individually customised, for different roles or globally.
 
 > [!NOTE]
-> By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards](ticket.mainMenu.dashboard-create.md) with the tiles/charts of your choice.
+> By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards](mainMenu.dashboard-create.md) with the tiles/charts of your choice.
 
 ## Choose the content of the tiles
 
@@ -25,10 +25,10 @@ If you or your role have sufficient rights, you can choose the content you want 
 
 You can choose to display, for example
 
-* [statistics about requests](ticket.mainMenu.md#Statistics)
-* [statuses of your own requests](ticket.mainMenu.md#Status)
-* [own active requests](ticket.mainMenu.md#OwnActiveTickets)
-* [unassigned requests](ticket.mainMenu.md#UndelegatedTickets)
+* [statistics about requests](mainMenu.md#Statistics)
+* [statuses of your own requests](mainMenu.md#Status)
+* [own active requests](mainMenu.md#OwnActiveTickets)
+* [unassigned requests](mainMenu.md#UndelegatedTickets)
 
 Find out more about this below.
 
@@ -74,19 +74,19 @@ Shows requests that belong to you and which have the **Open** status. In other w
 
 ## Unassigned requests
 
-Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests](ticket.showListTickets.acceptRequest.md).
+Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests](showListTickets.acceptRequest.md).
 
 ## **What would you like to do now?**
 
-[Create a dashboard](ticket.mainMenu.dashboard-create.md)
+[Create a dashboard](mainMenu.dashboard-create.md)
 
-[Receive requests](ticket.receiveTickets.md)
+[Receive requests](receiveTickets.md)
 
-[Create requests](ticket.newTicket.md)
+[Create requests](newTicket.md)
 
-[Find requests](ticket.listTickets.md)
+[Find requests](listTickets.md)
 
-[Process requests](ticket.listTicket.md)
+[Process requests](listTicket.md)
 
 <!-- Referenced links -->
 [1]:

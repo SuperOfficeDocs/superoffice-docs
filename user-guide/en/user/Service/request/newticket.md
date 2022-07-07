@@ -12,7 +12,7 @@ language: en
 # Create requests
 
 > [!TIP]
-> If you are very busy and just need to register a request fast, see [New quick request](ticket.newQuickTicket.md).
+> If you are very busy and just need to register a request fast, see [New quick request](newQuickTicket.md).
 
 A request can arrive in the system via an e-mail from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone. To do this:
 
@@ -20,7 +20,7 @@ A request can arrive in the system via an e-mail from the customer, or you can r
 
 2. When you create a new request, the **To** field has the following purposes:
 
-    * By default, the contact(s) entered here will also be the contact(s) for the new request. See [Automatically add message recipients as request contacts](ticket.newTicket.md#Automatically-add-message-recipients-as-request-contacts).
+    * By default, the contact(s) entered here will also be the contact(s) for the new request. See [Automatically add message recipients as request contacts](newTicket.md#Automatically-add-message-recipients-as-request-contacts).
     * Contact(s) entered here will receive the message (in the **Message** tab) by e-mail (even if the access level of the message is set to **Internal**).
     * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
 
@@ -35,15 +35,15 @@ A request can arrive in the system via an e-mail from the customer, or you can r
 
 3. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blindcopy.
 
-4. Go to the **Properties** tab and enter request information like title, category, priority and status. See [Properties](ticket.newTicket.md#Properties).
+4. Go to the **Properties** tab and enter request information like title, category, priority and status. See [Properties](newTicket.md#Properties).
 
-5. Go to the **Message** tab and enter the actual message you want to add to the request. See [Message](ticket.newTicket.md#Message).
+5. Go to the **Message** tab and enter the actual message you want to add to the request. See [Message](newTicket.md#Message).
 
-6. Go to the **Invoice information** tab and enter any invoice lines. See [Invoice information](ticket.newTicket.md#InvoiceInformation).
+6. Go to the **Invoice information** tab and enter any invoice lines. See [Invoice information](newTicket.md#InvoiceInformation).
 
-7. Go to the **Extra fields** tab and enter information in any available extra fields. See [Extra fields](ticket.newTicket.md#ExtraFields).
+7. Go to the **Extra fields** tab and enter information in any available extra fields. See [Extra fields](newTicket.md#ExtraFields).
 
-8. Click **OK** to save the request. See also [Autosave](ticket.autosave.md).
+8. Click **OK** to save the request. See also [Autosave](autosave.md).
 
 ## Properties
 
@@ -56,7 +56,7 @@ Here you enter information to correctly assign and prioritize the request.
   * **(Active user)**: Select this option to assign the request to yourself.
   * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
   * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
-* In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](admin.listPriorities.editAlert.md) set for different contacts and companies.
+* In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](../topics/admin.listPriorities.editAlert.md) set for different contacts and companies.
 * In the **Access level for request** list box, select one of the following options:
   * **External**: Select this option if the contact is to have access to the request viaSuperOffice Customer Centre.
   * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
@@ -64,7 +64,7 @@ Here you enter information to correctly assign and prioritize the request.
   * **Open**: Select this option if the request is in progress.
   * **Closed**: Select this option if the request has been completed.
   * **Postponed**: If there is a need to postpone handling of this request, select this option and specify a date and time in the **Activate** field. On this date and time, the request is set back to **Open**.
-* In the **Tags** list box, select relevant tags for this request. See [Using tags in requests](ticket.tags.md).
+* In the **Tags** list box, select relevant tags for this request. See [Using tags in requests](tags.md).
 * The **Contacts** field: By default, the person you entered in the **To** field is also added as a contact for the request (after you click **OK**).
   * You can add additional contacts if you like.
   * Contacts added here will be linked to the request and are able to view information about the request in SuperOffice Customer Centre.
@@ -96,7 +96,7 @@ The section at the bottom contains the following options:
 ## Invoice information
 
 > [!NOTE]
-> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](admin.listInvoiceTypes.md).
+> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](../topics/admin.listInvoiceTypes.md).
 
 Here you can add invoice lines as internal information for the request. To do this:
 
@@ -111,7 +111,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 
 ## What would you like to do now?
 
-[Process requests](ticket.showListTickets.md)
+[Process requests](showListTickets.md)
 
 <!-- Referenced links -->
 

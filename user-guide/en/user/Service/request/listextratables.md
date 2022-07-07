@@ -16,17 +16,17 @@ language: en
 The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish.
 
 > [!NOTE]
-> The data structures are configured in ![icon][img1] **System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables](blogic.listExtraTables.md).
+> The data structures are configured in ![icon][img1] **System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables](../topics/blogic.listExtraTables.md).
 
 ## View entries
 
 1. Click **Requests** &gt; **Tables** in the Navigator.
-2. Click the required table to open it and view existing entries. Here, for example, you can click **Show criteria** and search as described under [Search in SuperOffice Service](rms.search.md), if you cannot see the table entry you are looking for.
+2. Click the required table to open it and view existing entries. Here, for example, you can click **Show criteria** and search as described under [Search in SuperOffice Service](../topics/rms.search.md), if you cannot see the table entry you are looking for.
 3. Double-click the required table entry in the list. The following options are available:
     * **Search**: Click here to search for a table entry.
-    * **Edit**: Click here to edit the entry. See [Edit entries](ticket.listExtraTables.md#EditEntries).
-    * **New entry**: Click here to create a new entry. See [Create entries](ticket.listExtraTables.md#CreateEntries).
-    * **Copy**: Click here to copy the entry. This takes you to the same screen as for editing. See [Edit entries](ticket.listExtraTables.md#EditEntries).
+    * **Edit**: Click here to edit the entry. See [Edit entries](listExtraTables.md#EditEntries).
+    * **New entry**: Click here to create a new entry. See [Create entries](listExtraTables.md#CreateEntries).
+    * **Copy**: Click here to copy the entry. This takes you to the same screen as for editing. See [Edit entries](listExtraTables.md#EditEntries).
 
 ## Create entries
 

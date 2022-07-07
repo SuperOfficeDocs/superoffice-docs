@@ -24,7 +24,7 @@ To create a new category:
     * **Subcategory of**: If this is to be a subcategory of another category, select the parent category you require.
     * **Category administrator**: Select who is to be responsible for the requests in this category. In the **Assignment method** tab, you can specify that requests are to be assigned to the category manager if no other members of the category are available. Normally, the role of category administrator should be filled by a departmental manager.
     * **Internal**: If you check here, the category will not be visible in SuperOffice Customer Centre.
-    * **Show category in status view**: If you check here, this category will be displayed under **Status** on the **Dashboard**. For more information about this, see [Hyperlinks to categories](ticket.mainMenu.md#HyperlinksToCategories).
+    * **Show category in status view**: If you check here, this category will be displayed under **Status** on the **Dashboard**. For more information about this, see [Hyperlinks to categories](../request/mainMenu.md#HyperlinksToCategories).
     * **Only members have access**: If you check here, the category will only be accessible to members of the category.
     * **Send notification to members about new request**: If you check here, all members of the category will receive notification of new requests in this category.
     * **Take ownership when replying**: If you check here, the user who replies to a request in this category, will be set as the owner of the request.
@@ -49,7 +49,7 @@ To create a new category:
     * **Even assignment**: Assigns requests evenly among the members of the category.
     * **Weighted assignment**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
     * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
-    * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](get-next-request-in-the-queue.md)).
+    * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](../request/get-next-request-in-the-queue.md)).
 
     * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
 

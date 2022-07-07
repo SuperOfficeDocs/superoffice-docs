@@ -145,7 +145,7 @@ items:
   - name: Admin viewLicenses
     href: topics/admin.viewlicenses.md
   - name: AI requests
-    href: topics/ai-requests.md
+    href: request/ai-requests.md
   - name: Blogic
     href: topics/blogic.md
   - name: Blogic listDbiAgents
@@ -321,7 +321,7 @@ items:
   - name: Document replyTemplates viewReplyTemplate
     href: reply-templates/viewreplytemplate.md
   - name: Get next request in the queue
-    href: topics/get-next-request-in-the-queue.md
+    href: request/get-next-request-in-the-queue.md
   - name: Navigator options
     href: topics/navigator-options.md
   - name: New selection
@@ -391,73 +391,73 @@ items:
   - name: Template variables
     href: topics/template-variables.md
   - name: Ticket
-    href: topics/ticket.md
+    href: request/index.md
   - name: Ticket autosave
-    href: topics/ticket.autosave.md
+    href: request/autosave.md
   - name: Ticket deleteTicket
-    href: topics/ticket.deleteticket.md
+    href: request/deleteticket.md
   - name: Ticket listExtraTables
-    href: topics/ticket.listextratables.md
+    href: request/listextratables.md
   - name: Ticket listTicket
-    href: topics/ticket.listticket.md
+    href: request/listticket.md
   - name: Ticket listTickets
-    href: topics/ticket.listtickets.md
+    href: request/listtickets.md
   - name: Ticket listTickets findTickets
-    href: topics/ticket.listtickets.findtickets.md
+    href: request/listtickets.findtickets.md
   - name: Ticket listTickets searchTicketLog
-    href: topics/ticket.listtickets.searchticketlog.md
+    href: request/listtickets.searchticketlog.md
   - name: Ticket listTickets showListTickets
-    href: topics/ticket.listtickets.showlisttickets.md
+    href: request/listtickets.showlisttickets.md
   - name: Ticket listTickets useLists
-    href: topics/ticket.listtickets.uselists.md
+    href: request/listtickets.uselists.md
   - name: Ticket mainMenu
-    href: topics/ticket.mainmenu.md
+    href: request/mainmenu.md
   - name: Ticket mainMenu dashboard create
-    href: topics/ticket.mainmenu.dashboard-create.md
+    href: request/mainmenu.dashboard-create.md
   - name: Ticket mainMenu dashboard delete
-    href: topics/ticket.mainmenu.dashboard-delete.md
+    href: request/mainmenu.dashboard-delete.md
   - name: Ticket mainMenu dashboard edit
-    href: topics/ticket.mainmenu.dashboard-edit.md
+    href: request/mainmenu.dashboard-edit.md
   - name: Ticket newQuickTicket
-    href: topics/ticket.newquickticket.md
+    href: request/newquickticket.md
   - name: Ticket newTicket
-    href: topics/ticket.newticket.md
+    href: request/newticket.md
   - name: Ticket receiveTickets
-    href: topics/ticket.receivetickets.md
+    href: request/receivetickets.md
   - name: Ticket showListTickets
-    href: topics/ticket.showlisttickets.md
+    href: request/showlisttickets.md
   - name: Ticket showListTickets acceptRequest
-    href: topics/ticket.showlisttickets.acceptrequest.md
+    href: request/showlisttickets.acceptrequest.md
   - name: Ticket showListTickets addMassMessage
-    href: topics/ticket.showlisttickets.addmassmessage.md
+    href: request/showlisttickets.addmassmessage.md
   - name: Ticket showListTickets addMessage
-    href: topics/ticket.showlisttickets.addmessage.md
+    href: request/showlisttickets.addmessage.md
   - name: Ticket showListTickets askForHelp
-    href: topics/ticket.showlisttickets.askforhelp.md
+    href: request/showlisttickets.askforhelp.md
   - name: Ticket showListTickets closeTickets
-    href: topics/ticket.showlisttickets.closetickets.md
+    href: request/showlisttickets.closetickets.md
   - name: Ticket showListTickets editMessage
-    href: topics/ticket.showlisttickets.editmessage.md
+    href: request/showlisttickets.editmessage.md
   - name: Ticket showListTickets forward
-    href: topics/ticket.showlisttickets.forward.md
+    href: request/showlisttickets.forward.md
   - name: Ticket showListTickets hotlist
-    href: topics/ticket.showlisttickets.hotlist.md
+    href: request/showlisttickets.hotlist.md
   - name: Ticket showListTickets listTicketLog
-    href: topics/ticket.showlisttickets.listticketlog.md
+    href: request/showlisttickets.listticketlog.md
   - name: Ticket showListTickets massForward
-    href: topics/ticket.showlisttickets.massforward.md
+    href: request/showlisttickets.massforward.md
   - name: Ticket showListTickets mergeTickets
-    href: topics/ticket.showlisttickets.mergetickets.md
+    href: request/showlisttickets.mergetickets.md
   - name: Ticket showListTickets Message keeptrack
-    href: topics/ticket.showlisttickets.message-keeptrack.md
+    href: request/showlisttickets.message-keeptrack.md
   - name: Ticket showListTickets splitMessage
-    href: topics/ticket.showlisttickets.splitmessage.md
+    href: request/showlisttickets.splitmessage.md
   - name: Ticket showListTickets splitTicket
-    href: topics/ticket.showlisttickets.splitticket.md
+    href: request/showlisttickets.splitticket.md
   - name: Ticket tags
-    href: topics/ticket.tags.md
+    href: request/tags.md
   - name: Ticket ticketStepByStep
-    href: topics/ticket.ticketstepbystep.md
+    href: request/ticketstepbystep.md
 - name: Automation
   href: automation/listdebugsessions.md
   items:

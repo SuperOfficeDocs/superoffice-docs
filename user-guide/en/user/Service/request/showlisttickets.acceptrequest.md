@@ -13,7 +13,7 @@ language: en
 
 This is particularly relevant for unassigned requests, i.e. those without a defined owner. If you want to take over a request, it is important to follow the procedure below to identify that you have taken it over. Otherwise there is a risk of others answering the request at the same time. To do this:
 
-1. Open the request. (See [Process requests](ticket.listTicket.md).)
+1. Open the request. (See [Process requests](listTicket.md).)
 2. Click the ![icon][img1] **Actions** button and select **Accept request**.  
     or  
     In the **Owner** field, select yourself.
@@ -22,11 +22,11 @@ This is particularly relevant for unassigned requests, i.e. those without a defi
 
 ## What would you like to do now?
 
-[Reply to customer](ticket.showListTickets.addMessage.md)
+[Reply to customer](showListTickets.addMessage.md)
 
-[Ask another request handler for help.](ticket.showListTickets.askForHelp.md)
+[Ask another request handler for help.](showListTickets.askForHelp.md)
 
-[Forward messages to external parties](ticket.showListTickets.forward.md)
+[Forward messages to external parties](showListTickets.forward.md)
 
 <!-- Referenced links -->
 [1]:

@@ -25,4 +25,4 @@ Selecting **Requests** in the navigator and then the **Categories** tab, takes y
 
 [Delete categories](admin.listCategories.deleteCategory.md)
 
-[How to set up Get next request in queue](../../user/service/topics/get-next-request-in-the-queue.md)
+[How to set up Get next request in queue](../../user/service/request/get-next-request-in-the-queue.md)

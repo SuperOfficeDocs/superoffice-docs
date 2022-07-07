@@ -32,8 +32,8 @@ The header of the **Contact** screen contains basic information about the contac
 Click the ![icon][img1] **Actions** button to access the following options:
 
 * **Edit contact**: Click here to change the details registered for the contact. See [Edit contacts](viewCustomer.editCustomer.md).
-* **New request**: Click here to create a new request linked to the contact in question. See [Create requests](../topics/ticket.newTicket.md).
-* **New quick request**: Click here to create a new request as fast as possible, linked to the contact in question. See [New quick request](../topics/ticket.newQuickTicket.md).
+* **New request**: Click here to create a new request linked to the contact in question. See [Create requests](../request/newTicket.md).
+* **New quick request**: Click here to create a new request as fast as possible, linked to the contact in question. See [New quick request](../request/newQuickTicket.md).
 * **Send password**: Click here to send the contact's user name and password by e-mail. See [Send passwords to contacts](viewCustomer.sendNewCustMail.md).
 * **Invoices**: Click here to display invoice data recorded for the contact. See [View invoice data for contacts](viewCustomer.listInvoices.md).
 * **Open in SuperOffice CRM**: Click here to show the contact in SuperOffice CRM, if you have a licence for this application.

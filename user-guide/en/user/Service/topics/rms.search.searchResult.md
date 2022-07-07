@@ -47,7 +47,7 @@ Clicking the element profile button ( ![icon](../media/btn-editelementprofile.pn
 You can also add functions, for example, a summary column in the search results table. We will use a concrete example to explain how this works. In the example below, we assume that you already have a search result consisting of requests and that you now want to add a column showing how long it took from a request being received to a request handler reading it.
 
 1. First follow the procedure above for adding a column called, for example, "Read by request handler", which gets information from the **Read by owner** field in the database.
-2. Use the up arrow ( ![icon](../media/btn-RankUp.png) ) to move this column until it is just below the **Created** (ticket.created\-at) column.
+2. Use the up arrow ( ![icon](../media/btn-RankUp.png) ) to move this column until it is just below the **Created** (../request/created\-at) column.
 3. Click the **View functions** button ( ![icon](../media/calculator.png) ).
 4. In the field on the far left below the list, enter the name you want to give the column that will contain the function.
 5. In the list box on the right of the name field, select the **Time difference** function.

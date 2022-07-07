@@ -9,13 +9,13 @@ so.topic: help
 language: en
 ---
 
-# ![icon](../media/nav-request.png)Using tags in requests
+# Using tags in requests
 
 Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
 
 ## Adding tags to request
 
-When you create or edit a request, you can add one or more tags that describe the request. See [Create requests](ticket.newTicket.md).
+When you create or edit a request, you can add one or more tags that describe the request. See [Create requests](newTicket.md).
 
 To add or remove tags in multiple requests, do as follows:
 
@@ -29,14 +29,14 @@ To add or remove tags in multiple requests, do as follows:
 
 ## Creating new tags
 
-If you have the necessary functional right, you can also create new tags. In a tag field in a request or in the [quick search field](rms.search.useQuickSearch.md), type a tag name you want to create. If the tag already exists, it will appear in the list. If not, click the message below the field to create the tag.
+If you have the necessary functional right, you can also create new tags. In a tag field in a request or in the [quick search field](../topics/rms.search.useQuickSearch.md), type a tag name you want to create. If the tag already exists, it will appear in the list. If not, click the message below the field to create the tag.
 
 > [!NOTE]
 > Adding and deleting tags will be a functional right set by the administrator. This is to facilitate a more efficient tag system, and to avoid duplicate tags for the same request. Administrators can also add tags in the **Tag** list in the **Lists** screen in SuperOffice Settings and maintenance.
 
 ## Searching for tags
 
-Tags can be used to search for requests in the [quick search](rms.search.useQuickSearch.md) and in the "regular" [search function](ticket.listTickets.findTickets.md) using criteria.
+Tags can be used to search for requests in the [quick search](../topics/rms.search.useQuickSearch.md) and in the "regular" [search function](listTickets.findTickets.md) using criteria.
 
 <!-- Referenced links -->
 [1]:

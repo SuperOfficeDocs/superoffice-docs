@@ -45,7 +45,7 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 * [Edit a selection](editSelection2.md)
 
 <!-- Referenced links -->
-[1]: ../topics/ticket.listtickets.findtickets.md
-[2]: ../topics/ticket.listtickets.uselists.md
+[1]: ../request/listtickets.findtickets.md
+[2]: ../request/listtickets.uselists.md
 
 <!-- Referenced images -->

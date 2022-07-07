@@ -20,7 +20,7 @@ By creating FAQ entries, your organisation can build up a comprehensive collecti
 
 If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers. To do this:
 
-1. Open a request. See [Process requests](../topics/ticket.listTicket.md).
+1. Open a request. See [Process requests](../request/listTicket.md).
 
 2. Click the ![icon][img1] **Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
