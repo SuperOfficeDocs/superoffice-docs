@@ -20,7 +20,7 @@ The section tabs in SuperOffice CRM can contain large amounts of data, such as c
 
 The following filtering options are available in the section tabs:
 
-* The **Filter** button ( ![icon](../media/Filter.bmp) ): You can filter the **Activities** and **Sales** section tabs by date, users and groups. See [Filter activities and sales](../chap03/Using-the-Filter-function-Contact.md).
+* The **Filter** button ( ![icon](../media/Filter.bmp) ): You can filter the **Activities** and **Sales** section tabs by date, users and groups. See [Filter activities and sales](../company/Using-the-Filter-function-Contact.md).
 * Activities filters (check-boxes): You can filter the **Activities** section tabs by activity type. Click the arrow and select check-boxes to show/hide mailings, documents, follow-ups and forms/chats (**Other**) in the list.
 * The column filter ( ![icon](../media/filter-column.png) ): Click the column filter button ( ![icon](../media/filter-column.png) ) on a column header to filter on that column. See [Use column filters in the section tabs](Use-column-filters-in-the-section-tabs.md).
 * To filter the list of members in the **Selection** screen, see [Filtering the List of Members](../chap04/The-List-of-Members.md#Filtering-the-List-of-Members).

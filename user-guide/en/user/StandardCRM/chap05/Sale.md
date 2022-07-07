@@ -29,4 +29,4 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 
 ## Related topics
 
-[Filter activities and sales](../chap03/Using-the-Filter-function-Contact.md)
+[Filter activities and sales](../company/Using-the-Filter-function-Contact.md)

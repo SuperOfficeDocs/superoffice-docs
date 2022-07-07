@@ -64,12 +64,12 @@ Shows the user ID of the person who created the activity.
 
 ## What would you like to do now?
 
-[View activities](../chap03/Viewing-activities.md)
+[View activities](../company/Viewing-activities.md)
 
-[Delete activities](../chap03/Deleting-activities-Contact.md)
+[Delete activities](../company/Deleting-activities-Contact.md)
 
-[Reply to e-mail from the Activities section tab](../chap03/Replying-to-e-mail-from-the-Activities-section-tab.md)
+[Reply to e-mail from the Activities section tab](../company/Replying-to-e-mail-from-the-Activities-section-tab.md)
 
-[Forward e-mail from the Activities section tab](../chap03/Forwarding-e-mail-from-the-Activities-section-tab.md)
+[Forward e-mail from the Activities section tab](../company/Forwarding-e-mail-from-the-Activities-section-tab.md)
 
-[Filter activities](../chap03/Using-the-Filter-function-Contact.md)
+[Filter activities](../company/Using-the-Filter-function-Contact.md)

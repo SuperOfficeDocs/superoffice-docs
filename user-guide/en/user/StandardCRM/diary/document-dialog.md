@@ -108,7 +108,7 @@ When you click this button, the following options are displayed:
 
 * **Delete**: Deletes the current entry.
 * **Help**: Opens the help for the active dialog.
-* **Copy shortcut**: Copies a shortcut to the active entry. See [Create shortcuts to entries in SuperOffice CRM](../chap03/Creating-shortcuts-to-entries-in-CRM.md).
+* **Copy shortcut**: Copies a shortcut to the active entry. See [Create shortcuts to entries in SuperOffice CRM](../company/Creating-shortcuts-to-entries-in-CRM.md).
 * **Revert to saved version**: Select this option to cancel a check-out. This may be relevant if you have checked out the document by mistake and are unable to check it in again. See [Check in/out documents](doc-checkoutin.md).
 
 Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.

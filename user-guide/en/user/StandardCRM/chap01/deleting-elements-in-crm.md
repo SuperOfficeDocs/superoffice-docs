@@ -12,7 +12,7 @@ language: en
 # Delete items in SuperOffice CRM
 
 > [!NOTE]
-> To delete companies or contacts, see [Delete companies](../chap03/Deleting-companies.md) and [Delete contacts](../person/contact-delete.md). See also [Restore deleted companies and contacts](Restore-deleted-companies-and-contacts.md).
+> To delete companies or contacts, see [Delete companies](../company/Deleting-companies.md) and [Delete contacts](../person/contact-delete.md). See also [Restore deleted companies and contacts](Restore-deleted-companies-and-contacts.md).
 
 When you choose to delete something in SuperOffice CRM, the dialog displays **Delete Appointment**, **Delete Sale**, **Delete Selection** and so on, depending on what you have chosen to delete. The name of the item is displayed in the dialog, so that you can check that you have made the right choice.
 

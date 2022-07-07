@@ -22,6 +22,6 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 
 Click **Add** to create a new sale. For more details on how to manage sales, see [Sale](../sale/sale.md).
 
-Click the **Filter** button ( ![icon](../media/Filter.bmp) ) to filter the list by date, users or groups. See [Filter sales](../chap03/Using-the-Filter-function-Contact.md).
+Click the **Filter** button ( ![icon](../media/Filter.bmp) ) to filter the list by date, users or groups. See [Filter sales](../company/Using-the-Filter-function-Contact.md).
 
 If you check **Include stakeholders** at the bottom of the section tab, sales where the contact is involved as a stakeholder are also displayed. See [Stakeholders](../sale/StakeHolders.md).

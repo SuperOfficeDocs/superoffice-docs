@@ -39,7 +39,7 @@ To link the sale to stakeholders:
 7. If you want to add contacts as stakeholders, select the contact(s) and click the bottom arrow button ( ![icon](../media/Pil-hoeyre.bmp) ). The contact(s) will then be displayed on the right of the dialog.
 
     > [!NOTE]
-    > If the required name is not in the list, you must first create the contact. See [Create new contacts](../chap03/create-new-contacts.md).
+    > If the required name is not in the list, you must first create the contact. See [Create new contacts](../company/create-new-contacts.md).
 
 8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.  
     A company/contact can be added as a stakeholder multiple times if different roles are specified in each case.

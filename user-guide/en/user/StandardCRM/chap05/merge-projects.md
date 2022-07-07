@@ -45,7 +45,7 @@ To do this:
 
 [Edit projects](Editing-projects.md)
 
-[Merge companies](../chap03/Merge-companies.md)
+[Merge companies](../company/Merge-companies.md)
 
 <!-- Referenced links -->
 [1]:

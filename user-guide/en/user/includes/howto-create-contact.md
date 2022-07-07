@@ -36,5 +36,5 @@
 [4]: ../standardcrm/person/contactcard-tab-interests.md
 [5]: ../standardcrm/person/contactcard-tab-note.md
 [6]: ../standardcrm/person/contactcard-tab-www.md
-[7]: ../standardcrm/chap03/edit-legalbase.md
+[7]: ../standardcrm/company/edit-legalbase.md
 [8]: ../standardcrm/person/contact-secttab-relations-add.md

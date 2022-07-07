@@ -11,7 +11,7 @@ language: en
 
 # Contacts
 
-The **Contact** screen is used to display individual contacts. Contacts that are associated with a company can also be viewed in the **Contacts** section tab in the **Company** screen. All activities added to a contact will also be added to the associated company. See [Company](../chap03/Companies.md).
+The **Contact** screen is used to display individual contacts. Contacts that are associated with a company can also be viewed in the **Contacts** section tab in the **Company** screen. All activities added to a contact will also be added to the associated company. See [Company](../company/Companies.md).
 
 In the **Contact** screen, every record in the database is displayed like an index card. A record in a database contains all the information that has been entered for a contact.
 
@@ -23,13 +23,13 @@ The bottom of the **Contact** screen contains five default section tabs: **Activ
 
 ## What would you like to do now?
 
-[Create new contacts](../chap03/create-new-contacts.md)
+[Create new contacts](../company/create-new-contacts.md)
 
-[Edit privacy settings for a contact](../chap03/Edit-legalbase.md)
+[Edit privacy settings for a contact](../company/Edit-legalbase.md)
 
-[Move contacts](../chap03/Move-contacts.md)
+[Move contacts](../company/Move-contacts.md)
 
-[Merge contacts](../chap03/Merge-contacts.md)
+[Merge contacts](../company/Merge-contacts.md)
 
 [Delete contacts](contact-delete.md)
 

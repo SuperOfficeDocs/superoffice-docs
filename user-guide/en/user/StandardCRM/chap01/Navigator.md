@@ -26,7 +26,7 @@ The navigator contains the following buttons:
 | Button | Description |
 |---|---|
 | ![icon](../media/Navigator-Dashboard.bmp) | **Dashboard**: opens the **Dashboard** screen, containing reports and charts of your SuperOffice data. See [Dashboard](../Dashboard/Dashboards.md). |
-| ![icon](../media/Navigator-Kontakt.bmp) | **Company**: opens the **Company** screen, which is your window to the database containing all the companies you are in contact with. See [Companies](../chap03/Companies.md). |
+| ![icon](../media/Navigator-Kontakt.bmp) | **Company**: opens the **Company** screen, which is your window to the database containing all the companies you are in contact with. See [Companies](../company/Companies.md). |
 | ![icon](../media/Navigator-Contact.bmp) | **Contact**: opens the **Contact** screen, which is your window to the database containing all your contacts. See [Contact](../person/Contact-main.md). |
 | ![icon](../media/Navigator-Dagbok.bmp) | **Diary**: opens the **Diary** screen, which is a kind of advanced filofax. See the main [Diary](../diary/Diary.md) topic. |
 | ![icon](../media/Navigator-Salg.bmp) | **Sale**: opens the **Sale** screen, containing information about all the sales. See the main [Sale](../sale/sale.md) topic. |
