@@ -28,7 +28,7 @@ Follow these steps:
 
 4. In the dialog **Archive e-mail in SuperOffice**, the **Company** and **Contact** fields have been filled in if the recipient's e-mail address is registered in SuperOffice. Fill in relevant information in the following fields:
 
-    [!include[Archiving options for Gmail](../../includes/gmail-archiving-options.md)]
+    [!include[Archiving options for Gmail](../includes/gmail-archiving-options.md)]
 
 5. Click **Save**. The e-mail (including any attachments) is archived to SuperOffice CRM as a new document. You can then double-click the e-mail in the **Activities** section tab to open it.
 
@@ -39,10 +39,7 @@ Click the link in the pop-up message to open the document in SuperOffice.
 
 ## What would you like to do now?
 
-[Archive incoming e-mail](e-mail-archive-incoming.md)
-
-[Archive attachments](Archive-attachments.md)
-
-[Create activity](Archive-e-mails-as-activities.md)
-
-[Create request](Archive-e-mails-as-requests.md)
+* [Archive incoming e-mail](e-mail-archive-incoming.md)
+* [Archive attachments](Archive-attachments.md)
+* [Create activity](Archive-e-mails-as-activities.md)
+* [Create request](Archive-e-mails-as-requests.md)

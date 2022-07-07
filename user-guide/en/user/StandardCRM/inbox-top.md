@@ -13,8 +13,6 @@ language: en
 
 The inbox feature in SuperOffice CRM will depend on the SuperOffice client and e-mail client you are using. Click a link below to go to the relevant chapter in the help system:
 
-[Inbox](email/Inbox-CRM-web.md)
-
-[Gmail Link](../GmailLink/topics/SuperOffice-Gmail-Link.md) – SuperOffice Gmail Link
-
-[SuperOffice Mail Link](../mailLink/index.md) - SuperOffice Mail Link (Outlook and Notes integration)
+* [Inbox](email/inbox-crm-web.md)
+* [Gmail Link](../gmaillink/index.md) – SuperOffice Gmail Link
+* [SuperOffice Mail Link](../maillink/index.md) - SuperOffice Mail Link (Outlook and Notes integration)

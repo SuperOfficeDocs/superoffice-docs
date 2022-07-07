@@ -17,7 +17,7 @@ Follow these steps:
 
 1. In the Gmail inbox, open an e-mail.
 
-2. Click the **More** button ( ![icon](../media/btn-archive-more.png) ) in the e-mail toolbar.
+2. Click the **More** button ( ![icon](media/btn-archive-more.png) ) in the e-mail toolbar.
 
 3. Select **Create activity**. The dialog **Create activity in SuperOffice** opens.
 
@@ -38,10 +38,7 @@ Follow these steps:
 
 ## What would you like to do now?
 
-[Archive incoming e-mail](e-mail-archive-incoming.md)
-
-[Archive outgoing e-mail](e-mail-archive-outgoing.md)
-
-[Archive attachments](Archive-attachments.md)
-
-[Create request](Archive-e-mails-as-requests.md)
+* [Archive incoming e-mail](e-mail-archive-incoming.md)
+* [Archive outgoing e-mail](e-mail-archive-outgoing.md)
+* [Archive attachments](Archive-attachments.md)
+* [Create request](Archive-e-mails-as-requests.md)

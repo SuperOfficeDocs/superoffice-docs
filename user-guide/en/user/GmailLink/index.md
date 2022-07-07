@@ -1,5 +1,5 @@
 ---
-uid: help-en-superoffice-gmail-link
+uid: help-en--gmail-link
 title: SuperOffice Gmail Link
 description: SuperOffice Gmail Link
 author: SuperOffice RnD
