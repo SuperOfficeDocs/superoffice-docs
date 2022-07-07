@@ -17,7 +17,7 @@ The **Details** tab contains detailed information about the document.
 
 * **Document:** Click the link to upload the document or drag and drop the document from Windows Explorer to the **Document** dialog.
 
-    ![icon](../media/Chap04-activities/DocFileUploadDragDrop.png)
+    ![icon](../media/chap04-activities/DocFileUploadDragDrop.png)
 
     For more details, see [Create new documents](Creating-new-documents.md) and [Edit documents](Editing-documents.md).
 

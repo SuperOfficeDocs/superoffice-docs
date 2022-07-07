@@ -1,4 +1,6 @@
 items:
+- name: Selection
+  href: index.md
 - name: Adding members to static selections
   href: adding-members-to-static-selections.md
 - name: Combined selections
@@ -45,8 +47,6 @@ items:
   href: removing-members-from-static-selections.md
 - name: Section tabs in the Selection screen
   href: section-tabs-in-the-selection-screen.md
-- name: Selection
-  href: selection.md
 - name: Selection tab Company contact
   href: selection-tab-company-contact.md
 - name: Selection tab Criteria

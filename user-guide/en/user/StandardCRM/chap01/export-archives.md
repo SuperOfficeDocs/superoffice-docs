@@ -25,7 +25,7 @@ You can export all section tabs containing records in SuperOffice CRM to an Exce
 3. Save the spreadsheet wherever you want.
 
 > [!TIP]
-> You can also export selections to Excel using the **Export to Excel** task: see [Perform tasks using selections](../chap04/Performing-tasks-using-selections.md).
+> You can also export selections to Excel using the **Export to Excel** task: see [Perform tasks using selections](../selections/Performing-tasks-using-selections.md).
 
 > [!NOTE]
 > If you know that this function has been enabled in SuperOffice Settings and maintenance, but you cannot see the ![icon](../media/Excel-export.bmp)**Export** button at the bottom of the section tabs, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Functions &gt; Show Export button in the section tabs** and select **Yes**.

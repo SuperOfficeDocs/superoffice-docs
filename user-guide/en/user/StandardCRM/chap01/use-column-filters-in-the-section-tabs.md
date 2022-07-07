@@ -40,7 +40,7 @@ Click ![icon](../../media/btn-columnheaderoptions.png) and **Reset** to reset th
 
 ## Related topics
 
-To filter the list of members in the **Selection** screen, see [Filtering the List of Members](../chap04/The-List-of-Members.md#Filtering-the-List-of-Members).
+To filter the list of members in the **Selection** screen, see [Filtering the List of Members](../selections/The-List-of-Members.md#Filtering-the-List-of-Members).
 
 To filter the **Documents** section tab in the **Reports** screen, see [Use the Filter function in the Reports screen](../chap09/Using-the-Filter-function-Reports.md).
 

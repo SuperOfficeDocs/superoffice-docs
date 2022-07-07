@@ -77,7 +77,7 @@ Do as follows:
     or  
     <!-- Fix reuse ID=a3 --> the document from Windows Explorer to the **Document** dialog.
 
-    ![icon](../media/Chap04-activities/DocFileUploadDragDrop.png)
+    ![icon](../media/chap04-activities/DocFileUploadDragDrop.png)
 
 8. Close the **Document** dialog by clicking **Save**.
 

@@ -25,7 +25,7 @@ To delete a company and associated data:
 
 [Merge companies](Merge-companies.md)
 
-[Delete records permanently](../chap04/Deleting-companies-permanently.md)
+[Delete records permanently](../selections/Deleting-companies-permanently.md)
 
 <!-- Referenced links -->
 [1]:

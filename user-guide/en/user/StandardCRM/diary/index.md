@@ -11,7 +11,7 @@ language: en
 
 # Activities in SuperOffice CRM
 
-![icon](../media/Chap04-activities/30-chap4-activities-detail.bmp)
+![icon](../media/chap04-activities/30-chap4-activities-detail.bmp)
 
 The **Activities** section tab is available in the **Company** screen, the **Contact** screen, the **Project** screen, the **Diary** screen and the **Sale** screen. You create activities using the ![icon](../../../../media/icons/globalmenu-new.png) **New** menu in the top bar, or by double-clicking in the section tab.
 

@@ -44,4 +44,4 @@ To change the default number of records, do as follows:
 * [Section tabs in the Diary screen](../diary/Section-tabs-in-the-Diary-screen.md)
 * [Section tabs in the Sale screen](../sale/sale-screen-section-tabs.md)
 * [Section tabs in the Project screen](../project/Project-screen-section-tabs.md)
-* [Section tabs in the Selection screen](../chap04/Section-tabs-in-the-Selection-screen.md)
+* [Section tabs in the Selection screen](../selections/Section-tabs-in-the-Selection-screen.md)

@@ -21,7 +21,7 @@ items:
 - name: Project
   href: project/toc.yml
 - name: Selection
-  href: chap04/toc.yml
+  href: selections/toc.yml
 - name: Inbox/Email
   href: chap07web/toc.yml
 - name: Reports

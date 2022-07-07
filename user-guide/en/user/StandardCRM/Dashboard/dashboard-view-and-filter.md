@@ -21,5 +21,5 @@ To do this:
 4. Here you have the following options:
     * Click a record to see a preview on the right-hand side of the window.
     * Double-click a record to open it (or select a record and click **Open**).
-    * To copy the records to a selection, click the **Task** button and select **Copy into selection**. If you do not select any records, all records will be copied. See [Add members to static selections](../chap04/Adding-members-to-static-selections.md).
+    * To copy the records to a selection, click the **Task** button and select **Copy into selection**. If you do not select any records, all records will be copied. See [Add members to static selections](../selections/Adding-members-to-static-selections.md).
 5. Click **Close** when you are done.

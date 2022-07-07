@@ -26,7 +26,7 @@ In the **Show tiles for** list, select the type of records you want to use, for 
     > [!TIP]
     > You can also select an empty tile to create a tile from scratch. See [Edit a tile](Dashboard-Tiles-Edit.md).
 
-* **Selections**: This tab contains dynamic selections with charts (see [Charts](../chap04/Display-selections-as-charts.md)), and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.). Please note that when using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.
+* **Selections**: This tab contains dynamic selections with charts (see [Charts](../selections/Display-selections-as-charts.md)), and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.). Please note that when using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.
 
 Optional: Use the search field to find specific tiles.
 
