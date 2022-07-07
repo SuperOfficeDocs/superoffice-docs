@@ -1,9 +1,15 @@
 items:
-- name: Topics
+- name: Overview
   href: index.md
+- name: Differences between onsite and online installations
+  href: differences-between-onsite-and-online-installations.md
+- name: Rms login
+  href: login.md
+- name: Template variables
+  href: template-variables.md
+- name: Admin
+  href: admin/index.md
   items:
-  - name: Admin
-    href: admin/index.md
   - name: Admin editInfo
     href: admin/editinfo.md
   - name: Admin editInfo password
@@ -14,6 +20,8 @@ items:
     href: admin/editinfo.sms.md
   - name: Admin editInfo smtp
     href: admin/editinfo.smtp.md
+  - name: Admin editReplyTemplates
+    href: admin/admin.editreplytemplates.md
   - name: Admin editReplyTemplates
     href: admin/editreplytemplates.md
   - name: Admin editUser
@@ -37,9 +45,13 @@ items:
   - name: Admin editUser helpUserInfo
     href: admin/edituser.helpuserinfo.md
   - name: Admin listCategories
+    href: admin/admin.listcategories.md
+  - name: Admin listCategories
     href: admin/listcategories.md
   - name: Admin listCategories deleteCategory
     href: admin/listcategories.deletecategory.md
+  - name: Admin listCategories newCategory
+    href: admin/admin.listcategories.newcategory.md
   - name: Admin listCategories newCategory
     href: admin/listcategories.newcategory.md
   - name: Admin listCategories searchTickets
@@ -66,6 +78,8 @@ items:
     href: admin/listfilters.listfilters.editfacebookapplication.md
   - name: Admin listFilters listFilters editSMSmailbox
     href: admin/listfilters.listfilters.editsmsmailbox.md
+  - name: Admin listFilters listFilters newFilter
+    href: admin/admin.listfilters.listfilters.newfilter.md
   - name: Admin listFilters listFilters newFilter
     href: admin/listfilters.listfilters.newfilter.md
   - name: Admin listFilters listMSFilter
@@ -119,6 +133,8 @@ items:
   - name: Admin listRoles newRole
     href: admin/listroles.newrole.md
   - name: Admin listTicketStatuses
+    href: admin/admin.listticketstatuses.md
+  - name: Admin listTicketStatuses
     href: admin/listticketstatuses.md
   - name: Admin listTicketStatuses deleteTicketStatus
     href: admin/listticketstatuses.deleteticketstatus.md
@@ -144,10 +160,32 @@ items:
     href: admin/soapconf.md
   - name: Admin viewLicenses
     href: admin/viewlicenses.md
-  - name: AI requests
-    href: request/ai-requests.md
-  - name: Blogic
-    href: blogic/index.md
+- name: Automation
+  href: automation/index.md
+  items:
+  - name: Blogic listDebugSessions
+    href: automation/listdebugsessions.md
+  - name: Blogic listDebugSessions viewDebugSession
+    href: automation/listdebugsessions.viewdebugsession.md
+  - name: Blogic listEventHandler
+    href: automation/listeventhandler.md
+  - name: Blogic listScheduledTasks
+    href: automation/listscheduledtasks.md
+  - name: Blogic listScripts
+    href: automation/listscripts.md
+  - name: Blogic listScripts editMacro
+    href: automation/listscripts.editmacro.md
+  - name: Blogic listScripts editScript
+    href: automation/listscripts.editscript.md
+  - name: Blogic listScripts editScriptFolder
+    href: automation/listscripts.editscriptfolder.md
+  - name: Tracing
+    href: automation/tracing.md
+  - name: View script macro
+    href: automation/view-script-macro.md
+- name: Blogic
+  href: blogic/index.md
+  items:
   - name: Blogic listDbiAgents
     href: blogic/listdbiagents.md
   - name: Blogic listDbiAgents editDbiAgent
@@ -210,8 +248,9 @@ items:
     href: blogic/listsystemscripts.md
   - name: Blogic listSystemScripts editSystemScript
     href: blogic/listsystemscripts.editsystemscript.md
-  - name: Customers
-    href: customers/index.md
+- name: Customers
+  href: customers/index.md
+  items:
   - name: Customers findContacts
     href: customers/findcontacts.md
   - name: Customers findContacts showResultsContacts
@@ -248,36 +287,9 @@ items:
     href: customers/viewcustomer.mergecontacts.md
   - name: Customers viewCustomer sendNewCustMail
     href: customers/viewcustomer.sendnewcustmail.md
-  - name: Differences between onsite and online installations
-    href: differences-between-onsite-and-online-installations.md
-  - name: Document
-    href: knowledge-base/index.md
-  - name: Knowledge base
-    href: knowledge-base/work-with-documents.md
-  - name: Document document delDocument
-    href: knowledge-base/deldocument.md
-  - name: Document document editDocument
-    href: knowledge-base/editdocument.md
-  - name: Document document editFolder
-    href: knowledge-base/editfolder.md
-  - name: Document document findDocument
-    href: knowledge-base/finddocument.md
-  - name: Document document newDocument
-    href: knowledge-base/newdocument.md
-  - name: Document document viewDocument
-    href: knowledge-base/viewdocument.md
-  - name: Document emailAddressBook
-    href: knowledge-base/emailaddressbook.md
-  - name: Document emailAddressBook editEabFolder
-    href: knowledge-base/emailaddressbook.editeabfolder.md
-  - name: Document emailAddressBook newEabEntry
-    href: knowledge-base/emailaddressbook.neweabentry.md
-  - name: Document emailAddressBook viewEabEntry
-    href: knowledge-base/emailaddressbook.vieweabentry.md
-  - name: Document externalDocument
-    href: knowledge-base/externaldocument.md
-  - name: FAQ
-    href: faq/index.md
+- name: Faq
+  href: faq/index.md
+  items:
   - name: Document faq addFaqToMessage
     href: faq/addfaqtomessage.md
   - name: Document faq delKbEntry
@@ -298,10 +310,53 @@ items:
     href: faq/viewkbcomment.md
   - name: Document faq viewKbEntry
     href: faq/viewkbentry.md
+- name: Getting started
+  href: getting-started/index.md
+  items:
+  - name: Navigator options
+    href: getting-started/navigator-options.md
+  - name: Rms navigate buttons
+    href: getting-started/buttons.md
+  - name: Rms navigate buttons topbar
+    href: getting-started/buttons.topbar.md
+  - name: Rms navigate favourites
+    href: getting-started/favorites.md
+- name: Knowledge base
+  href: knowledge-base/index.md
+  items:
+  - name: Document document
+    href: knowledge-base/work-with-documents.md
+  - name: Document document delDocument
+    href: knowledge-base/deldocument.md
+  - name: Document document editDocument
+    href: knowledge-base/editdocument.md
+  - name: Document document editFolder
+    href: knowledge-base/editfolder.md
+  - name: Document document findDocument
+    href: knowledge-base/finddocument.md
+  - name: Document document newDocument
+    href: knowledge-base/newdocument.md
+  - name: Document document viewDocument
+    href: knowledge-base/viewdocument.md
+  - name: Document emailAddressBook
+    href: knowledge-base/emailaddressbook.md
+  - name: Document emailAddressBook editEabFolder
+    href: knowledge-base/emailaddressbook.editeabfolder.md
+  - name: Document emailAddressBook newEabEntry
+    href: knowledge-base/emailaddressbook.neweabentry.md
+  - name: Document emailAddressBook viewEabEntry
+    href: knowledge-base/document.emailaddressbook.vieweabentry.md
+  - name: Document emailAddressBook viewEabEntry
+    href: knowledge-base/emailaddressbook.vieweabentry.md
+  - name: Document externalDocument
+    href: knowledge-base/externaldocument.md
+  - name: Document find
+    href: knowledge-base/document.find.md
   - name: Document find
     href: knowledge-base/find.md
-  - name: Reply templates
-    href: reply-templates/index.md
+- name: Reply templates
+  href: reply-templates/index.md
+  items:
   - name: Document replyTemplates addReplyTemplatesToMessages
     href: reply-templates/addreplytemplatestomessages.md
   - name: Document replyTemplates autoFAQ
@@ -320,76 +375,13 @@ items:
     href: reply-templates/newreplytemplate.md
   - name: Document replyTemplates viewReplyTemplate
     href: reply-templates/viewreplytemplate.md
+- name: Request
+  href: request/index.md
+  items:
+  - name: AI requests
+    href: request/ai-requests.md
   - name: Get next request in the queue
     href: request/get-next-request-in-the-queue.md
-  - name: Navigator options
-    href: getting-started/navigator-options.md
-  - name: New selection
-    href: selections/newselection.md
-  - name: Log in
-    href: login.md
-  - name: Getting started
-    href: getting-started/index.md
-  - name: Rms navigate buttons
-    href: getting-started/buttons.md
-  - name: Rms navigate buttons topbar
-    href: getting-started/buttons.topbar.md
-  - name: Rms navigate favourites
-    href: getting-started/favorites.md
-  - name: Rms search
-    href: search/index.md
-  - name: Rms search searchResult
-    href: search/searchresult.md
-  - name: Rms search searchTable
-    href: search/searchtable.md
-  - name: Rms search use shortcut search
-    href: search/use-shortcut-search.md
-  - name: Rms search useQuickSearch
-    href: search/usequicksearch.md
-  - name: Selections
-    href: selections/index.md
-  - name: Selections deleterecords
-    href: selections/deleterecords.md
-  - name: Selections deleteSelection
-    href: selections/deleteselection.md
-  - name: Selections editSelection2
-    href: selections/editselection2.md
-  - name: Selections editSelection2 editProfile
-    href: selections/editselection2.editprofile.md
-  - name: Selections editSelectionFolder
-    href: selections/editselectionfolder.md
-  - name: Selections listSelections
-    href: selections/listselections.md
-  - name: Selections newSelection newCombiSelection
-    href: selections/newselection.newcombiselection.md
-  - name: Selections newSelection newDynamicSelection
-    href: selections/newselection.newdynamicselection.md
-  - name: Selections newSelection newScriptSelection
-    href: selections/newselection.newscriptselection.md
-  - name: Selections newSelection newSelection
-    href: selections/newselection.newselection.md
-  - name: Selections newSelection newStatSelection
-    href: selections/newselection.newstatselection.md
-  - name: Selections updateSelection
-    href: selections/updateselection.md
-  - name: Stat
-    href: statistics/index.md
-  - name: Stat invoiceStat
-    href: statistics/invoicestat.md
-  - name: Stat loginStat
-    href: statistics/loginstat.md
-  - name: Stat newStat
-    href: statistics/newstat.md
-  - name: Stat newStat standard
-    href: statistics/newstat.standard.md
-  - name: Stat reportGenerator reportGeneratorChooseRoot
-    href: statistics/reportgenerator.reportgeneratorchooseroot.md
-  - name: Stat simpleStat
-    href: statistics/simplestat.md
-  - name: Template variables
-    href: template-variables.md
-  - name: Ticket
-    href: request/index.md
   - name: Ticket autosave
     href: request/autosave.md
   - name: Ticket deleteTicket
@@ -455,29 +447,61 @@ items:
   - name: Ticket tags
     href: request/tags.md
   - name: Ticket ticketStepByStep
+    href: request/ticket.ticketstepbystep.md
+  - name: Ticket ticketStepByStep
     href: request/ticketstepbystep.md
-- name: Automation
-  href: automation/listdebugsessions.md
+- name: Search
+  href: search/index.md
   items:
-  - name: Blogic listDebugSessions
-    href: automation/listdebugsessions.md
-  - name: Blogic listDebugSessions viewDebugSession
-    href: automation/listdebugsessions.viewdebugsession.md
-  - name: Blogic listEventHandler
-    href: automation/listeventhandler.md
-  - name: Blogic listScheduledTasks
-    href: automation/listscheduledtasks.md
-  - name: Blogic listScripts
-    href: automation/listscripts.md
-  - name: Blogic listScripts editMacro
-    href: automation/listscripts.editmacro.md
-  - name: Blogic listScripts editScript
-    href: automation/listscripts.editscript.md
-  - name: Blogic listScripts editScriptFolder
-    href: automation/listscripts.editscriptfolder.md
-  - name: CRMScript
-    href: automation/index.md
-  - name: Tracing
-    href: automation/tracing.md
-  - name: View script macro
-    href: automation/view-script-macro.md
+  - name: Rms search searchResult
+    href: search/searchresult.md
+  - name: Rms search searchTable
+    href: search/searchtable.md
+  - name: Rms search use shortcut search
+    href: search/use-shortcut-search.md
+  - name: Rms search useQuickSearch
+    href: search/usequicksearch.md
+- name: Selections
+  href: selections/index.md
+  items:
+  - name: New selection
+    href: selections/newselection.md
+  - name: Selections deleterecords
+    href: selections/deleterecords.md
+  - name: Selections deleteSelection
+    href: selections/deleteselection.md
+  - name: Selections editSelection2
+    href: selections/editselection2.md
+  - name: Selections editSelection2 editProfile
+    href: selections/editselection2.editprofile.md
+  - name: Selections editSelectionFolder
+    href: selections/editselectionfolder.md
+  - name: Selections listSelections
+    href: selections/listselections.md
+  - name: Selections newSelection newCombiSelection
+    href: selections/newselection.newcombiselection.md
+  - name: Selections newSelection newDynamicSelection
+    href: selections/newselection.newdynamicselection.md
+  - name: Selections newSelection newScriptSelection
+    href: selections/newselection.newscriptselection.md
+  - name: Selections newSelection newSelection
+    href: selections/newselection.newselection.md
+  - name: Selections newSelection newStatSelection
+    href: selections/newselection.newstatselection.md
+  - name: Selections updateSelection
+    href: selections/updateselection.md
+- name: Statistics
+  href: statistics/index.md
+  items:
+  - name: Stat invoiceStat
+    href: statistics/invoicestat.md
+  - name: Stat loginStat
+    href: statistics/loginstat.md
+  - name: Stat newStat
+    href: statistics/newstat.md
+  - name: Stat newStat standard
+    href: statistics/newstat.standard.md
+  - name: Stat reportGenerator reportGeneratorChooseRoot
+    href: statistics/reportgenerator.reportgeneratorchooseroot.md
+  - name: Stat simpleStat
+    href: statistics/simplestat.md
