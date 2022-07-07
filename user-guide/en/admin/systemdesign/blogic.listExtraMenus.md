@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Extra menus][1]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/blogic.listextramenus.md
+[1]: ../../user/service/blogic/listextramenus.md
 
 <!-- Referenced images -->

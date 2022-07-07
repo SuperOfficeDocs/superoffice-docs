@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Debug log][1]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/blogic.listdebuglog.md
+[1]: ../../user/service/blogic/listdebuglog.md
 
 <!-- Referenced images -->

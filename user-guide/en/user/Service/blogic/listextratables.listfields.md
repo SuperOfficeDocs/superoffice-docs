@@ -11,4 +11,4 @@ language: en
 
 # Extra fields
 
-See [Define extra fields](blogic.listExtraTables.listFields.editField.md).
+See [Define extra fields](listExtraTables.listFields.editField.md).

@@ -25,6 +25,6 @@ This screen displays both standard tables, predefined in the system and which fo
 
 ## What would you like to do now?
 
-[Define extra tables](blogic.listExtraTables.editExtraTable.md)
+[Define extra tables](listExtraTables.editExtraTable.md)
 
-[Define extra fields](blogic.listExtraTables.listFields.editField.md)
+[Define extra fields](listExtraTables.listFields.editField.md)

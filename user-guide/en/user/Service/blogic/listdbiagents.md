@@ -18,14 +18,14 @@ This area is used to configure database integrations between the system and othe
 
 ## What would you like to find out more about?
 
-[Agents](blogic.listDbiAgents.listDbiAgents.md)
+[Agents](listDbiAgents.listDbiAgents.md)
 
-[Agent properties](blogic.listDbiAgents.viewDbiAgent.md)
+[Agent properties](listDbiAgents.viewDbiAgent.md)
 
-[Edit agent](blogic.listDbiAgents.editDbiAgent.md)
+[Edit agent](listDbiAgents.editDbiAgent.md)
 
-[New agent schedule](blogic.listDbiAgents.newDbiAgentSchedule.md)
+[New agent schedule](listDbiAgents.newDbiAgentSchedule.md)
 
-[Agent Schedule properties](blogic.listDbiAgents.editDbiAgentSchedule.md)
+[Agent Schedule properties](listDbiAgents.editDbiAgentSchedule.md)
 
-[Agent field properties](blogic.listDbiAgents.editDbiAgentField.md)
+[Agent field properties](listDbiAgents.editDbiAgentField.md)

@@ -11,4 +11,4 @@ language: en
 
 # Debug log
 
-Here you can search in the debug logs. See [Search in SuperOffice Service](rms.search.md).
+Here you can search in the debug logs. See [Search in SuperOffice Service](../topics/rms.search.md).

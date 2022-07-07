@@ -17,7 +17,7 @@ Here you can find the advanced options in SuperOffice Service. To go here select
 
 ## What would you like to find out more about?
 
-[Tables](blogic.listExtraTables.md)
+[Tables](listExtraTables.md)
 
 [CRMScript](../automation/index.md)
 
@@ -31,21 +31,21 @@ Here you can find the advanced options in SuperOffice Service. To go here select
 
 [Tracing](../automation/Tracing.md)
 
-[Screens](blogic.listScreenDefinitions.editScreenDefinition.md)
+[Screens](listScreenDefinitions.editScreenDefinition.md)
 
-[ScreenChoosers](blogic.listScreenChoosers.md)
+[ScreenChoosers](listScreenChoosers.md)
 
-[System scripts](blogic.listSystemScripts.md)
+[System scripts](listSystemScripts.md)
 
-[Extra menus](blogic.listExtraMenus.md)
+[Extra menus](listExtraMenus.md)
 
-[Web panels](blogic.listsWebpanels.md)
+[Web panels](listsWebpanels.md)
 
-[Packages](blogic.listPackages.md)
+[Packages](listPackages.md)
 
-[Data Exchange](blogic.listDbiAgents.md)
+[Data Exchange](listDbiAgents.md)
 
-[Debug log](blogic.listDebugLog.md)
+[Debug log](listDebugLog.md)
 
 <!-- Referenced links -->
 [1]:

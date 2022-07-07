@@ -34,15 +34,15 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 * Scripts/macros: Buttons or menu options that trigger a script or macro.
 * Selections: Shortcut to a selection.
 
-See also [Menu properties](blogic.listExtraMenus.editExtraMenu.md).
+See also [Menu properties](listExtraMenus.editExtraMenu.md).
 
 ## What would you like to do now?
 
-[Add function to menu button (Actions)](blogic.listExtraMenus.editExtraMenu-menubutton.md)
+[Add function to menu button (Actions)](listExtraMenus.editExtraMenu-menubutton.md)
 
-[Add an extra browser tab (web panel)](blogic.listsWebpanels.md)
+[Add an extra browser tab (web panel)](listsWebpanels.md)
 
-[Add navigator group and extra menu](blogic.listExtraMenus.editExtraMenu-navigator.md)
+[Add navigator group and extra menu](listExtraMenus.editExtraMenu-navigator.md)
 
 <!-- Referenced links -->
 [1]:

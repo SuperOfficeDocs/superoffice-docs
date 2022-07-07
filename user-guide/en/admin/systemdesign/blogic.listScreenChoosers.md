@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [ScreenChooser][1]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/blogic.listscreenchoosers.md
+[1]: ../../user/service/blogic/listscreenchoosers.md
 
 <!-- Referenced images -->

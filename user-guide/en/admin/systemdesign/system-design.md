@@ -24,12 +24,12 @@ In this screen you can find various functions related to system design in SuperO
 
 <!-- Referenced links -->
 [1]: ../../user/service/admin/listprofiles.md
-[2]: ../../user/service/topics/blogic.listextratables.md
-[3]: ../../user/service/topics/blogic.listextramenus.md
-[4]: ../../user/service/topics/blogic.listswebpanels.md
-[5]: ../../user/service/topics/blogic.listscreendefinitions.viewscreendefinition.md
-[6]: ../../user/service/topics/blogic.listscreenchoosers.md
-[7]: ../../user/service/topics/blogic.listpackages.md
-[8]: ../../user/service/topics/blogic.listdebuglog.md
+[2]: ../../user/service/blogic/listextratables.md
+[3]: ../../user/service/blogic/listextramenus.md
+[4]: ../../user/service/blogic/listswebpanels.md
+[5]: ../../user/service/blogic/listscreendefinitions.viewscreendefinition.md
+[6]: ../../user/service/blogic/listscreenchoosers.md
+[7]: ../../user/service/blogic/listpackages.md
+[8]: ../../user/service/blogic/listdebuglog.md
 
 <!-- Referenced images -->

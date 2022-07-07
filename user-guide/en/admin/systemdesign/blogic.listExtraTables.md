@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Tables][1]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/blogic.listextratables.md
+[1]: ../../user/service/blogic/listextratables.md
 
 <!-- Referenced images -->

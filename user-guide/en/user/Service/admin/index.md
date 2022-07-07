@@ -43,7 +43,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 
 [SOAP](soapConf.md)
 
-[System design](../topics/blogic.md)
+[System design](../blogic/index.md)
 
 > [!NOTE]
 > The [Invoice types](listInvoiceTypes.md) function is only available if you have the required feature toggle.

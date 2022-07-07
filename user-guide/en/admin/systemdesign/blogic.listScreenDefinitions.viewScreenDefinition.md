@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Screens][1]
 
 <!-- Referenced links -->
-[1]: ../../user/Service/topics/blogic.listScreenDefinitions.viewScreenDefinition.md
+[1]: ../../user/service/blogic/listScreenDefinitions.viewScreenDefinition.md
 
 <!-- Referenced images -->

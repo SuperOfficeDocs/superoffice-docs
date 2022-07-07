@@ -14,7 +14,7 @@ language: en
 Common profiles are linked to a role and apply to all users who have that role (see [Roles](listRoles.md)). You configure common profiles in the **Show profiles** screen. This screen contains two types of profiles:
 
 * **System**: These profiles you can configure by following the procedure below.
-* **System screens**: This is a list of screens created using the system designers in SuperOffice Service. You can change these if you have access to **System design** &gt; **Screens** (see [Screens](../topics/blogic.listScreenDefinitions.editScreenDefinition.md)).
+* **System screens**: This is a list of screens created using the system designers in SuperOffice Service. You can change these if you have access to **System design** &gt; **Screens** (see [Screens](../blogic/listScreenDefinitions.editScreenDefinition.md)).
 
 Click the appropriate item below, depending on what you want to find out about:
 

@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Web panels][1]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/blogic.listswebpanels.md
+[1]: ../../user/service/blogic/listswebpanels.md
 
 <!-- Referenced images -->

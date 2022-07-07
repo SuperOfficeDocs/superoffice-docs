@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Packages][1]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/blogic.listpackages.md
+[1]: ../../user/service/blogic/listpackages.md
 
 <!-- Referenced images -->

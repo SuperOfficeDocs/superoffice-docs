@@ -147,69 +147,69 @@ items:
   - name: AI requests
     href: request/ai-requests.md
   - name: Blogic
-    href: topics/blogic.md
+    href: blogic/index.md
   - name: Blogic listDbiAgents
-    href: topics/blogic.listdbiagents.md
+    href: blogic/listdbiagents.md
   - name: Blogic listDbiAgents editDbiAgent
-    href: topics/blogic.listdbiagents.editdbiagent.md
+    href: blogic/listdbiagents.editdbiagent.md
   - name: Blogic listDbiAgents editDbiAgentField
-    href: topics/blogic.listdbiagents.editdbiagentfield.md
+    href: blogic/listdbiagents.editdbiagentfield.md
   - name: Blogic listDbiAgents editDbiAgentSchedule
-    href: topics/blogic.listdbiagents.editdbiagentschedule.md
+    href: blogic/listdbiagents.editdbiagentschedule.md
   - name: Blogic listDbiAgents listDbiAgents
-    href: topics/blogic.listdbiagents.listdbiagents.md
+    href: blogic/listdbiagents.listdbiagents.md
   - name: Blogic listDbiAgents newDbiAgentSchedule
-    href: topics/blogic.listdbiagents.newdbiagentschedule.md
+    href: blogic/listdbiagents.newdbiagentschedule.md
   - name: Blogic listDbiAgents viewDbiAgent
-    href: topics/blogic.listdbiagents.viewdbiagent.md
+    href: blogic/listdbiagents.viewdbiagent.md
   - name: Blogic listDebugLog
-    href: topics/blogic.listdebuglog.md
+    href: blogic/listdebuglog.md
   - name: Blogic listExtraMenus
-    href: topics/blogic.listextramenus.md
+    href: blogic/listextramenus.md
   - name: Blogic listExtraMenus editExtraMenu
-    href: topics/blogic.listextramenus.editextramenu.md
+    href: blogic/listextramenus.editextramenu.md
   - name: Blogic listExtraMenus editExtraMenu menubutton
-    href: topics/blogic.listextramenus.editextramenu-menubutton.md
+    href: blogic/listextramenus.editextramenu-menubutton.md
   - name: Blogic listExtraMenus editExtraMenu navigator
-    href: topics/blogic.listextramenus.editextramenu-navigator.md
+    href: blogic/listextramenus.editextramenu-navigator.md
   - name: Blogic listExtraTables
-    href: topics/blogic.listextratables.md
+    href: blogic/listextratables.md
   - name: Blogic listExtraTables editExtraTable
-    href: topics/blogic.listextratables.editextratable.md
+    href: blogic/listextratables.editextratable.md
   - name: Blogic listExtraTables editExtraTablesFolder
-    href: topics/blogic.listextratables.editextratablesfolder.md
+    href: blogic/listextratables.editextratablesfolder.md
   - name: Blogic listExtraTables listFields
-    href: topics/blogic.listextratables.listfields.md
+    href: blogic/listextratables.listfields.md
   - name: Blogic listExtraTables listFields editField
-    href: topics/blogic.listextratables.listfields.editfield.md
+    href: blogic/listextratables.listfields.editfield.md
   - name: Blogic listPackages
-    href: topics/blogic.listpackages.md
+    href: blogic/listpackages.md
   - name: Blogic listPackages editPackage
-    href: topics/blogic.listpackages.editpackage.md
+    href: blogic/listpackages.editpackage.md
   - name: Blogic listScreenChoosers
-    href: topics/blogic.listscreenchoosers.md
+    href: blogic/listscreenchoosers.md
   - name: Blogic listScreenChoosers editScreenChooser
-    href: topics/blogic.listscreenchoosers.editscreenchooser.md
+    href: blogic/listscreenchoosers.editscreenchooser.md
   - name: Blogic listScreenDefinitions editLanguage
-    href: topics/blogic.listscreendefinitions.editlanguage.md
+    href: blogic/listscreendefinitions.editlanguage.md
   - name: Blogic listScreenDefinitions editScreenAction
-    href: topics/blogic.listscreendefinitions.editscreenaction.md
+    href: blogic/listscreendefinitions.editscreenaction.md
   - name: Blogic listScreenDefinitions editScreenDefinition
-    href: topics/blogic.listscreendefinitions.editscreendefinition.md
+    href: blogic/listscreendefinitions.editscreendefinition.md
   - name: Blogic listScreenDefinitions editScreenDefinitionFolder
-    href: topics/blogic.listscreendefinitions.editscreendefinitionfolder.md
+    href: blogic/listscreendefinitions.editscreendefinitionfolder.md
   - name: Blogic listScreenDefinitions editScreenElement
-    href: topics/blogic.listscreendefinitions.editscreenelement.md
+    href: blogic/listscreendefinitions.editscreenelement.md
   - name: Blogic listScreenDefinitions viewScreenDefinition
-    href: topics/blogic.listscreendefinitions.viewscreendefinition.md
+    href: blogic/listscreendefinitions.viewscreendefinition.md
   - name: Blogic listScreenDefinitions viewScreenDefinitionDesign
-    href: topics/blogic.listscreendefinitions.viewscreendefinitiondesign.md
+    href: blogic/listscreendefinitions.viewscreendefinitiondesign.md
   - name: Blogic listsWebpanels
-    href: topics/blogic.listswebpanels.md
+    href: blogic/listswebpanels.md
   - name: Blogic listSystemScripts
-    href: topics/blogic.listsystemscripts.md
+    href: blogic/listsystemscripts.md
   - name: Blogic listSystemScripts editSystemScript
-    href: topics/blogic.listsystemscripts.editsystemscript.md
+    href: blogic/listsystemscripts.editsystemscript.md
   - name: Customers
     href: customers/index.md
   - name: Customers findContacts

@@ -26,4 +26,4 @@ The autosave feature is activated by default when you view and edit requests (in
 * The autosave function is a useful feature, but should not replace saving your work the proper way.
 
 > [!TIP]
-> If you are using custom screens, you can activate or deactivate autosave. See [Screen properties](../topics/blogic.listScreenDefinitions.editScreenDefinition.md).
+> If you are using custom screens, you can activate or deactivate autosave. See [Screen properties](../blogic/listScreenDefinitions.editScreenDefinition.md).

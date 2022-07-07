@@ -25,7 +25,7 @@ Do as follows:
 8. Enter "Google" in the **Label** field (maximum 20 characters).
 9. Check **Use URL** and enter "http://www.google.com" in the **URL** field.
 10. DO NOT check **Append ID** or **Append &lt;usec&gt;**, or values will be added behind the URL you have defined.
-11. DO NOT check **Return to same screen**. If checked, external URLs do not work. See [Menu properties](blogic.listExtraMenus.editExtraMenu.md).
+11. DO NOT check **Return to same screen**. If checked, external URLs do not work. See [Menu properties](listExtraMenus.editExtraMenu.md).
 12. In the **Target** field, enter "\_blank", so that the website opens in a new tab in the browser.
 13. Click **OK**.
 14. Click the navigator group and the new extra menu and check that the website opens correctly.
