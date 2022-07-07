@@ -375,19 +375,19 @@ items:
   - name: Selections updateSelection
     href: selections/updateselection.md
   - name: Stat
-    href: topics/stat.md
+    href: statistics/index.md
   - name: Stat invoiceStat
-    href: topics/stat.invoicestat.md
+    href: statistics/invoicestat.md
   - name: Stat loginStat
-    href: topics/stat.loginstat.md
+    href: statistics/loginstat.md
   - name: Stat newStat
-    href: topics/stat.newstat.md
+    href: statistics/newstat.md
   - name: Stat newStat standard
-    href: topics/stat.newstat.standard.md
+    href: statistics/newstat.standard.md
   - name: Stat reportGenerator reportGeneratorChooseRoot
-    href: topics/stat.reportgenerator.reportgeneratorchooseroot.md
+    href: statistics/reportgenerator.reportgeneratorchooseroot.md
   - name: Stat simpleStat
-    href: topics/stat.simplestat.md
+    href: statistics/simplestat.md
   - name: Template variables
     href: topics/template-variables.md
   - name: Ticket

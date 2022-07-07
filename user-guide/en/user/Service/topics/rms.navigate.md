@@ -33,7 +33,7 @@ When you click one of these buttons, you get access to various options, such as 
 | ![icon](../media/nav-company.png) | **Customers**: Here you can search for and create companies and contacts. See [Customers][1]. |
 | ![icon](../media/nav-selection.png) | **Selections**: You use selections to save a set of records, such as a set of requests or contacts that you want to work with later on and elsewhere in the system. See [Selections][2]. |
 | ![icon](../media/nav-kb.png) | **Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organise information for the customer. Among other things, it contains FAQs and reply templates. See [Knowledge Base](document.md). |
-| ![icon](../media/nav-statistics.png) | **Statistics**: Here you can run standard reports and create new reports. See [Statistics](stat.md). |
+| ![icon](../media/nav-statistics.png) | **Statistics**: Here you can run standard reports and create new reports. See [Statistics][1]. |
 | ![icon][img1] | **Marketing**: From here you can create and send mailings (e-mails, SMS and documents) and create and publish forms. See [Getting started](../../Mailing/Helptopics/The-mailing-workflow.md). |
 | ![icon](../media/nav-chat.png) | **Chat**: Opens the **Chat** screen, where you can respond to inquiries sent via the chat function on you company's web page. See [Chat](../../Chat/Chat.md). |
 
@@ -48,6 +48,7 @@ When you click one of these buttons, you get access to various options, such as 
 <!-- Referenced links -->
 [1]: ../customers/index.md
 [2]: ../selections/index.md
+[3]: ../statistics/index.md
 
 <!-- Referenced images -->
 ../../../../media/icons/nav-mailing.png
