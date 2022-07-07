@@ -56,7 +56,7 @@ items:
 - name: Selection task bulk update
   href: selection-task-bulk-update.md
 - name: Sending e mail to several recipients simultaneously
-  href: sending-e-mail-to-several-recipients-simultaneously.md
+  href: sending-email-to-several-recipients-simultaneously.md
 - name: Static selections
   href: static-selections.md
 - name: The List of Members

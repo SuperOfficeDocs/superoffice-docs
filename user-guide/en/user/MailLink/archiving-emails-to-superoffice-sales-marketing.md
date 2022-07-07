@@ -1,5 +1,5 @@
 ---
-uid: help-en-archiving-e-mails-to-superoffice-sales-marketing
+uid: help-en-archiving-emails-to-superoffice-sales-marketing
 title: Archiving e-mails to SuperOffice Sales Marketing
 description: Archiving e-mails to SuperOffice Sales Marketing
 author: SuperOffice RnD
@@ -13,10 +13,10 @@ language: en
 
 When you click the **Archive e-mail** button on the mail client toolbar, a menu with archiving options is displayed. These are described in the following topics:
 
-* [Archiving e-mails on companies/contacts](Archiving-e-mails-on-companies-contacts-in-SuperOffice-Sales-Marketing.md)
-* [Archiving e-mails as activities](Archiving-e-mails-as-tasks-in-SuperOffice-Sales-Marketing.md)
+* [Archiving e-mails on companies/contacts](Archiving-emails-on-companies-contacts-in-SuperOffice-Sales-Marketing.md)
+* [Archiving e-mails as activities](Archiving-emails-as-tasks-in-SuperOffice-Sales-Marketing.md)
 * [Archiving attachments](Archiving-attachment-s-to-SuperOffice-Sales-Marketing.md)
-* [Archiving e-mails as requests](Archiving-e-mails-as-requests.md)
+* [Archiving e-mails as requests](Archiving-emails-as-requests.md)
 
 > [!NOTE]
 > This button also appears in the e-mail window when you open an e-mail you have received.

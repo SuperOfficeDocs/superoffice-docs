@@ -12,7 +12,7 @@ items:
   - name: Add recipients to selections or projects
     href: add-recipients-to-selections-or-projects.md
   - name: Blocked e mail addresses
-    href: blocked-e-mail-addresses.md
+    href: blocked-email-addresses.md
   - name: Create address list
     href: create-address-list.md
   - name: Create links

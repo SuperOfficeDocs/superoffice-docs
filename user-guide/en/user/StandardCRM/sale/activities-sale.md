@@ -39,8 +39,8 @@ The following columns are displayed on the **Activities** section tab:
 
 [Delete activities](../company/Deleting-activities-Contact.md)
 
-[Reply to e-mail from the Activities section tab](../company/Replying-to-e-mail-from-the-Activities-section-tab.md)
+[Reply to e-mail from the Activities section tab](../company/Replying-to-email-from-the-Activities-section-tab.md)
 
-[Forward e-mail from the Activities section tab](../company/Forwarding-e-mail-from-the-Activities-section-tab.md)
+[Forward e-mail from the Activities section tab](../company/Forwarding-email-from-the-Activities-section-tab.md)
 
 [Filter activities and sales](../company/Using-the-Filter-function-Contact.md)

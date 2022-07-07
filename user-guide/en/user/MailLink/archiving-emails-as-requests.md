@@ -1,5 +1,5 @@
 ---
-uid: help-en-archiving-e-mails-as-requests
+uid: help-en-archiving-emails-as-requests
 title: Archiving e-mails as requests
 description: Archiving e-mails as requests
 author: SuperOffice RnD

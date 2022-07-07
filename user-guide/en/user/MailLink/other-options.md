@@ -47,4 +47,4 @@ If you check this box, you will receive a warning whenever you try to archive an
 
 Check for duplicates when an e-mail is opened
 
-If you check this box and open an e-mail that has already been archived, the **Archive e-mail** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the e-mail was archived. (See [E-mails that have already been archived in SuperOffice CRM](E-mails-that-have-already-been-archived-in-SuperOffice-Sales-Marketing.md).)
+If you check this box and open an e-mail that has already been archived, the **Archive e-mail** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the e-mail was archived. (See [E-mails that have already been archived in SuperOffice CRM](emails-that-have-already-been-archived-in-SuperOffice-Sales-Marketing.md).)

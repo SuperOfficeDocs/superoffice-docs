@@ -19,4 +19,4 @@ Click the **Archive is ON/OFF** button in the new e-mail window to enable/disabl
 
 [Differences between archiving in Outlook, Notes and SuperOffice CRM](Differences-between-archiving-in-Outlook-and-SuperOffice-Sales-Marketing.md)
 
-[E-mails that have already been archived in SuperOffice CRM](E-mails-that-have-already-been-archived-in-SuperOffice-Sales-Marketing.md)
+[E-mails that have already been archived in SuperOffice CRM](emails-that-have-already-been-archived-in-SuperOffice-Sales-Marketing.md)

@@ -52,7 +52,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 * [Task](Task.md)
 * [Phone Call](Phone-call.md)
 * [Work with documents](Write.md)
-* [Compose an e-mail](Compose-an-e-mail-Web.md)
+* [Compose an e-mail](Compose-an-email-Web.md)
 * [Chat](../../Chat/index.md)
 
 ## What would you like to do now?
@@ -63,4 +63,4 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 * [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md)
 * [Add follow-ups (appointments, tasks and phone calls)](Add-activities.md)
 * [Work with documents](Write.md)
-* [Compose an e-mail](Compose-an-e-mail-Web.md)
+* [Compose an e-mail](Compose-an-email-Web.md)

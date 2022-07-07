@@ -44,7 +44,7 @@ items:
 - name: Edit legalbase
   href: edit-legalbase.md
 - name: Forwarding e mail from the Activities section tab
-  href: forwarding-e-mail-from-the-activities-section-tab.md
+  href: forwarding-email-from-the-activities-section-tab.md
 - name: Generate personal data report
   href: generate-personal-data-report.md
 - name: Managing external users
@@ -64,7 +64,7 @@ items:
 - name: Relations
   href: relations.md
 - name: Replying to e mail from the Activities section tab
-  href: replying-to-e-mail-from-the-activities-section-tab.md
+  href: replying-to-email-from-the-activities-section-tab.md
 - name: Requests
   href: requests.md
 - name: Sale
@@ -72,7 +72,7 @@ items:
 - name: Section tabs in the Company screen
   href: section-tabs-in-the-company-screen.md
 - name: Sending e mail to contacts
-  href: sending-e-mail-to-contacts.md
+  href: sending-email-to-contacts.md
 - name: Send privacy confirmation e mail
   href: send-privacy-confirmation-e-mail.md
 - name: Status dialog

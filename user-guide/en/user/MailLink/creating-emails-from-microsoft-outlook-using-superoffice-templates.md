@@ -1,5 +1,5 @@
 ---
-uid: help-en-creating-e-mails-from-microsoft-outlook-using-superoffice-templates
+uid: help-en-creating-emails-from-microsoft-outlook-using-superoffice-templates
 title: Creating e-mails from Microsoft Outlook using SuperOffice templates
 description: Creating e-mails from Microsoft Outlook using SuperOffice templates
 author: SuperOffice RnD
@@ -49,4 +49,4 @@ When creating an e-mail from Microsoft Outlook, it is also possible to use Super
 
 ## What would you like to do now?
 
-[Create e-mail templates](Creating-e-mail-templates.md)
+[Create e-mail templates](Creating-email-templates.md)

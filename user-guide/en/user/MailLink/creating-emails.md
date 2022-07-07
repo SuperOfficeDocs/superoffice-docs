@@ -1,5 +1,5 @@
 ---
-uid: help-en-creating-e-mails
+uid: help-en-creating-emails
 title: Creating e-mails
 description: Creating e-mails
 author: SuperOffice RnD
@@ -13,8 +13,8 @@ language: en
 
 You can create an e-mail either from SuperOffice CRM or from Microsoft Outlook or Lotus Notes. This is described in the following topics:
 
-* [Creating e-mails from SuperOffice CRM](Creating-e-mails-from-SuperOffice-Sales-Marketing.md)
+* [Creating e-mails from SuperOffice CRM](Creating-emails-from-SuperOffice-Sales-Marketing.md)
 
-* [Creating e-mails from Microsoft Outlook](Creating-e-mails-from-Microsoft-Outlook.md)
+* [Creating e-mails from Microsoft Outlook](Creating-emails-from-Microsoft-Outlook.md)
 
-* [Creating e-mails from Lotus Notes](Creating-e-mails-from-Lotus-Notes.md)
+* [Creating e-mails from Lotus Notes](Creating-emails-from-Lotus-Notes.md)

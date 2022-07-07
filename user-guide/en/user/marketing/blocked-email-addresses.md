@@ -1,5 +1,5 @@
 ---
-uid: help-en-blocked-e-mail-addresses
+uid: help-en-blocked-email-addresses
 title: Blocked e-mail addresses
 description: Blocked e-mail addresses
 author: SuperOffice RnD
@@ -11,7 +11,7 @@ language: en
 
 # Blocked e-mail addresses
 
-In the **Blocked e-mail addresses** tab, you can handle bounced e-mails and [spam complaints](Blocked-e-mail-addresses.md#Spam-complaints).
+In the **Blocked e-mail addresses** tab, you can handle bounced e-mails and [spam complaints](#Spam-complaints).
 
 ## Blocked e-mail addresses
 

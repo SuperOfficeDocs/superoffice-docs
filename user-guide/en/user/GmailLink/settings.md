@@ -43,7 +43,7 @@ Select the default document template to be used when archiving incoming e-mail m
 
 ## Default activity type
 
-Select the default activity type to be used when creating an activity from an incoming e-mail message. See [Create activity](Archive-e-mails-as-activities.md).
+Select the default activity type to be used when creating an activity from an incoming e-mail message. See [Create activity](Archive-emails-as-activities.md).
 
 ## SuperOffice account information
 

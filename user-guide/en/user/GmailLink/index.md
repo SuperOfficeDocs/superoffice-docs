@@ -26,9 +26,9 @@ To install SuperOffice Gmail Link, go to the [SuperOffice App Store][1].
 
 [Archive attachments](Archive-attachments.md)
 
-[Create activity](Archive-e-mails-as-activities.md)
+[Create activity](Archive-emails-as-activities.md)
 
-[Create request](Archive-e-mails-as-requests.md)
+[Create request](Archive-emails-as-requests.md)
 
 [Look up sender in SuperOffice](Add-sender-to-SuperOffice.md)
 

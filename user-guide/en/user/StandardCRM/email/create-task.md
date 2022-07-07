@@ -24,7 +24,7 @@ In order to do so:
 
 This can mean one of the following:
 
-* The sender's e-mail address is not registered in SuperOffice CRM. To add the sender to SuperOffice CRM, see [Add e-mail addresses in SuperOffice CRM](Adding-e-mail-addresses-in-CRM.md).
+* The sender's e-mail address is not registered in SuperOffice CRM. To add the sender to SuperOffice CRM, see [Add e-mail addresses in SuperOffice CRM](Adding-email-addresses-in-CRM.md).
 * The sender's e-mail address is registered on more than one contact or company in SuperOffice CRM. Select the correct contact under **This contact could be**.
 
 If you do not want to register this e-mail address in SuperOffice CRM, click **Do not add contact to SuperOffice** to go to the **Task** dialog.

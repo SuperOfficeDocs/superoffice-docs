@@ -1,5 +1,5 @@
 ---
-uid: help-en-handling-e-mails-from-senders-not-listed-in-superoffice
+uid: help-en-handling-emails-from-senders-not-listed-in-superoffice
 title: Handling e-mails from senders not listed in SuperOffice
 description: Handling e-mails from senders not listed in SuperOffice
 author: SuperOffice RnD
@@ -22,8 +22,8 @@ Follow these steps:
     * [Archive incoming e-mail](e-mail-archive-incoming.md)
     * [Archive outgoing e-mail](e-mail-archive-outgoing.md)
     * [Archive attachments](Archive-attachments.md)
-    * [Create activity](Archive-e-mails-as-activities.md)
-    * [Create request](Archive-e-mails-as-requests.md)
+    * [Create activity](Archive-emails-as-activities.md)
+    * [Create request](Archive-emails-as-requests.md)
 2. If the sender of the e-mail or attachment is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving e-mail. Click the warning. The dialog **Add e-mail address to SuperOffice** opens.
 3. Here you have the following options:
     * **Could it be one of these?** SuperOffice will try to match the sender with existing contacts in the database. Click one of the suggested contacts if it matches the sender.

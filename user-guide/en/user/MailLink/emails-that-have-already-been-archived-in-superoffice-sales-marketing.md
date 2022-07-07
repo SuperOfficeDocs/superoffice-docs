@@ -1,5 +1,5 @@
 ---
-uid: help-en-e-mails-that-have-already-been-archived-in-superoffice-sales-marketing
+uid: help-en-emails-that-have-already-been-archived-in-superoffice-sales-marketing
 title: E-mails that have already been archived in SuperOffice Sales Marketing
 description: E-mails that have already been archived in SuperOffice Sales Marketing
 author: SuperOffice RnD

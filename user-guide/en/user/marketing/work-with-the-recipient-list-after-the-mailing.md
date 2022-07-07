@@ -36,7 +36,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 * Once you’ve filtered out the recipients you wish to follow up on, you can export all recipients to a selection or a project in SuperOffice CRM. You can follow up on your recipients from this selection or Project. See [Add recipients to selections or projects](Add-recipients-to-selections-or-projects.md).
 
 > [!TIP]
-> To view and handle bounced e-mails and spam complaints for all mailings, see [Blocked e-mail addresses](Blocked-e-mail-addresses.md).
+> To view and handle bounced e-mails and spam complaints for all mailings, see [Blocked e-mail addresses](Blocked-email-addresses.md).
 
 <!-- Referenced links -->
 

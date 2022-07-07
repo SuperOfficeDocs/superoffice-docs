@@ -23,9 +23,9 @@ SuperOffice Mail Link is a plug-in which links the Microsoft Outlook or Lotus No
 
 ## What would you like to do now?
 
-[Archive e-mails to SuperOffice CRM](Archiving-e-mails-to-SuperOffice-Sales-Marketing.md)
+[Archive e-mails to SuperOffice CRM](Archiving-emails-to-SuperOffice-Sales-Marketing.md)
 
-[Create e-mails](Creating-e-mails.md)
+[Create e-mails](Creating-emails.md)
 
 [Search for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)
 

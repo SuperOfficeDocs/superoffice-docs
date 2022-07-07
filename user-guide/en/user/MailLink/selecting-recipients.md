@@ -30,8 +30,8 @@ When creating an e-mail (see [Creating e-mails from Microsoft Outlook][1] or [Cr
 7. When you have finished selecting recipients, click **OK** to enter them as recipients in your e-mail.
 
 <!-- Referenced links -->
-[1]: creating-e-mails-from-microsoft-outlook.md
-[2]: creating-e-mails-from-lotus-notes.md
+[1]: creating-emails-from-microsoft-outlook.md
+[2]: creating-emails-from-lotus-notes.md
 
 <!-- Referenced images -->
 [img1]: media//add-recipient.png

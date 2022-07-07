@@ -1,5 +1,5 @@
 ---
-uid: help-en-e-mail-options-dialog
+uid: help-en-email-options-dialog
 title: E-mail options dialog
 description: E-mail options dialog
 author: SuperOffice RnD

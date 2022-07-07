@@ -20,4 +20,4 @@ Follow these steps:
 3. What happens next, depends on whether the sender's e-mail address is found or not found in SuperOffice:
     * If the e-mail address is found on a company/contact, the company/contact card is displayed.
     * If the e-mail address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose one of them.
-    * If the e-mail address is not registered in SuperOffice CRM, you can click **Create new company and contact**. See [Add e-mail addresses in SuperOffice CRM](Adding-e-mail-addresses-in-CRM.md).
+    * If the e-mail address is not registered in SuperOffice CRM, you can click **Create new company and contact**. See [Add e-mail addresses in SuperOffice CRM](Adding-email-addresses-in-CRM.md).

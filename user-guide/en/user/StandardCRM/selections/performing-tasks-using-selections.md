@@ -41,7 +41,7 @@ The following tasks are available under these categories:
 
 [Create mailings](Create-mailings.md)
 
-[Send e-mail to several recipients simultaneously](Sending-e-mail-to-several-recipients-simultaneously.md)
+[Send e-mail to several recipients simultaneously](Sending-email-to-several-recipients-simultaneously.md)
 
 [Generate follow-ups](Generating-follow-ups.md)
 

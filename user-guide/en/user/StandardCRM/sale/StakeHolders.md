@@ -25,4 +25,4 @@ For each stakeholder, information about company, contact name, role in the sale,
 
 [Edit or remove stakeholders](Edit-stakeholders.md)
 
-[Send e-mail to stakeholders](../project/Sending-e-mails-to-project-members.md)
+[Send e-mail to stakeholders](../project/Sending-emails-to-project-members.md)

@@ -32,7 +32,7 @@ SuperOffice Marketing consists of these main tabs:
 * **Message templates**: Here you can find the standard SuperOffice Marketing templates and templates you have created, in addition to a wide range of templates from the online template library. To create new templates, see [Work with the message templates](work-with-messages-and-templates.md).
 * **Tracked links**: Here you can find all tracked links used in your mailings. Click the ![icon][img1] **Add** button to create a new link. See [Create tracked links](Create-links.md).
 * **Images**: Here you can find all available images in SuperOffice Marketing. Click the ![icon][img1] **Add** button to add new images. See [Add images](Add-images.md).
-* **Blocked e-mail addresses**: Here you can handle bounced e-mails and spam complaints. See [Blocked e-mail addresses](Blocked-e-mail-addresses.md).
+* **Blocked e-mail addresses**: Here you can handle bounced e-mails and spam complaints. See [Blocked e-mail addresses](Blocked-email-addresses.md).
 * **Forms**: Here you can find all forms and create new ones. See [Create a new form](form-create.md).
 * **Form templates**: Here you can find all form templates. See [Work with the form templates](form-templates.md).
 * **Form submissions**: Here you can view submitted forms. See [Form submissions](form-submissions.md).

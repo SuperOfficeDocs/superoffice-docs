@@ -1,5 +1,5 @@
 ---
-uid: help-en-creating-e-mails-from-superoffice-sales-marketing
+uid: help-en-creating-emails-from-superoffice-sales-marketing
 title: Creating e-mails from SuperOffice Sales Marketing
 description: Creating e-mails from SuperOffice Sales Marketing
 author: SuperOffice RnD
@@ -11,7 +11,7 @@ language: en
 
 # Creating e-mails from SuperOffice CRM
 
-There are basically two ways of creating an e-mail from SuperOffice CRM. You can use the **E-mail** toolbar button at the bottom of the SuperOffice CRM window. This works more or less the same way as described in [Creating e-mails from Microsoft Outlook](Creating-e-mails-from-Microsoft-Outlook.md) or [Creating e-mails from Lotus Notes](Creating-e-mails-from-Lotus-Notes.md), apart from the fact that you can use predefined e-mail body templates (see [Creating e-mails using predefined e-mail body templates](Creating-e-mails-using-predefined-e-mail-body-templates.md)).
+There are basically two ways of creating an e-mail from SuperOffice CRM. You can use the **E-mail** toolbar button at the bottom of the SuperOffice CRM window. This works more or less the same way as described in [Creating e-mails from Microsoft Outlook](Creating-emails-from-Microsoft-Outlook.md) or [Creating e-mails from Lotus Notes](Creating-emails-from-Lotus-Notes.md), apart from the fact that you can use predefined e-mail body templates (see [Creating e-mails using predefined e-mail body templates](Creating-emails-using-predefined-email-body-templates.md)).
 
 You can, however, also use the **Write** toolbar button. Follow these steps:
 
@@ -27,6 +27,6 @@ You can, however, also use the **Write** toolbar button. Follow these steps:
 
 ## What would you like to do now?
 
-[Create e-mails using predefined e-mail body templates](Creating-e-mails-using-predefined-e-mail-body-templates.md)
+[Create e-mails using predefined e-mail body templates](Creating-emails-using-predefined-email-body-templates.md)
 
-[Create e-mail templates](Creating-e-mail-templates.md)
+[Create e-mail templates](Creating-email-templates.md)

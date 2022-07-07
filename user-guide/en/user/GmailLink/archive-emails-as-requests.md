@@ -1,5 +1,5 @@
 ---
-uid: help-en-archive-e-mails-as-requests
+uid: help-en-archive-emails-as-requests
 title: Archive e-mails as requests
 description: Archive e-mails as requests
 author: SuperOffice RnD
@@ -31,5 +31,5 @@ Follow these steps:
 
 * [Archive incoming e-mail](e-mail-archive-incoming.md)
 * [Archive outgoing e-mail](e-mail-archive-outgoing.md)
-* [Create activity](Archive-e-mails-as-activities.md)
+* [Create activity](Archive-emails-as-activities.md)
 * [Archive attachments](Archive-attachments.md)

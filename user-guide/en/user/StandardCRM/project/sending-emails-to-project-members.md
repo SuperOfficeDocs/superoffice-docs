@@ -1,5 +1,5 @@
 ---
-uid: help-en-sending-e-mails-to-project-members
+uid: help-en-sending-emails-to-project-members
 title: Sending e-mails to project members
 description: Sending e-mails to project members
 author: SuperOffice RnD

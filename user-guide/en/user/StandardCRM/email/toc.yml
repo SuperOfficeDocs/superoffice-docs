@@ -1,6 +1,6 @@
 items:
 - name: Adding e mail addresses in CRM
-  href: adding-e-mail-addresses-in-crm.md
+  href: adding-email-addresses-in-crm.md
 - name: Archive buttons
   href: archive-buttons.md
 - name: Archiving options
@@ -18,9 +18,9 @@ items:
 - name: Look up sender to SuperOffice
   href: look-up-sender-to-superoffice.md
 - name: Mark e mails as read unread
-  href: mark-e-mails-as-read-unread.md
+  href: mark-emails-as-read-unread.md
 - name: Moving e mail to folders
-  href: moving-e-mail-to-folders.md
+  href: moving-email-to-folders.md
 - name: Opening attachments or saving them on disk
   href: opening-attachments-or-saving-them-on-disk.md
 - name: Preview field

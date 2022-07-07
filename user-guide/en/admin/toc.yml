@@ -117,7 +117,7 @@ items:
   - name: Preferences tab
     href: chap05/preferences-tab.md
   - name: Setup 1 configure e mail setup in superoffice
-    href: chap05/setup-1-configure-e-mail-setup-in-superoffice.md
+    href: chap05/setup-1-configure-email-setup-in-superoffice.md
   - name: Video meetings
     href: chap05/video-meetings.md
   - name: Viewing preferences in SuperOffice CRM
@@ -255,10 +255,10 @@ items:
   - name: Visibility
     href: chap07/visibility.md
 - name: Chap08
-  href: chap08/add-e-mail-template.md
+  href: chap08/add-email-template.md
   items:
   - name: Add e mail template
-    href: chap08/add-e-mail-template.md
+    href: chap08/add-email-template.md
   - name: Adding a template web
     href: chap08/adding-a-template-web.md
   - name: Adding external applications to the Application list

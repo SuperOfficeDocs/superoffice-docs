@@ -1,7 +1,7 @@
 ---
-uid: help-en-creating-e-mail-templates
-title: Creating e-mail templates
-description: Creating e-mail templates
+uid: help-en-creating-email-templates
+title: Creating email templates
+description: Creating email templates
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: SuperOffice Mail Link

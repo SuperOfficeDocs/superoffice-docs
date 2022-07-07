@@ -46,7 +46,7 @@ items:
 - name: Sale
   href: sale.md
 - name: Sending e mails to project members
-  href: sending-e-mails-to-project-members.md
+  href: sending-emails-to-project-members.md
 - name: View followups and documents
   href: view-followups-and-documents.md
 - name: Work with projectguide

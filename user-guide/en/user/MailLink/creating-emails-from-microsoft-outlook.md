@@ -1,5 +1,5 @@
 ---
-uid: help-en-creating-e-mails-from-microsoft-outlook
+uid: help-en-creating-emails-from-microsoft-outlook
 title: Creating e-mails from Microsoft Outlook
 description: Creating e-mails from Microsoft Outlook
 author: SuperOffice RnD
@@ -11,7 +11,7 @@ language: en
 
 # Creating e-mails from Microsoft Outlook
 
-There are basically two ways of creating an e-mail from Microsoft Outlook. You can use SuperOffice templates (see [Creating e-mails from Microsoft Outlook using SuperOffice templates](Creating-e-mails-from-Microsoft-Outlook-using-SuperOffice-templates.md)), or you can use standard Outlook functionality. Follow these steps:
+There are basically two ways of creating an e-mail from Microsoft Outlook. You can use SuperOffice templates (see [Creating e-mails from Microsoft Outlook using SuperOffice templates](Creating-emails-from-Microsoft-Outlook-using-SuperOffice-templates.md)), or you can use standard Outlook functionality. Follow these steps:
 
 1. Click the ****New** e-mail** button on the Microsoft Outlook toolbar. A new e-mail window opens.
 
@@ -25,6 +25,6 @@ There are basically two ways of creating an e-mail from Microsoft Outlook. You c
 
 ## Related topics
 
-[Buttons in the e-mail window](Buttons-in-the-e-mail-window.md)
+[Buttons in the e-mail window](Buttons-in-the-email-window.md)
 
-[Creating e-mails from Microsoft Outlook using SuperOffice templates](Creating-e-mails-from-Microsoft-Outlook-using-SuperOffice-templates.md)
+[Creating e-mails from Microsoft Outlook using SuperOffice templates](Creating-emails-from-Microsoft-Outlook-using-SuperOffice-templates.md)

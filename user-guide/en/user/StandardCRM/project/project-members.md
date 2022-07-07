@@ -21,4 +21,4 @@ language: en
 
 [Edit or delete project members](Editing-project-members.md)
 
-[Send e-mail to project members](Sending-e-mails-to-project-members.md)
+[Send e-mail to project members](Sending-emails-to-project-members.md)

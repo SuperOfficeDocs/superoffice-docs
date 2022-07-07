@@ -26,7 +26,7 @@ Adding an e-mail template involves following steps:
 
 ## What would you like to do now?
 
-[Add an e-mail template](Add-e-mail-template.md)
+[Add an e-mail template](Add-email-template.md)
 
 <!-- Referenced links -->
 [1]: ../../../../docs/document/templates/quote/index.md

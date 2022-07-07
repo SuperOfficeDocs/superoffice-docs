@@ -21,7 +21,7 @@ Shows the subject of the e-mail.
 
 \[From\]
 
-Shows the sender. If the sender is recorded in SuperOffice CRM, you can hold the mouse-pointer over the name to view the contact card. See also [Add e-mail addresses in SuperOffice CRM](Adding-e-mail-addresses-in-CRM.md).
+Shows the sender. If the sender is recorded in SuperOffice CRM, you can hold the mouse-pointer over the name to view the contact card. See also [Add e-mail addresses in SuperOffice CRM](Adding-email-addresses-in-CRM.md).
 
 **Date**
 

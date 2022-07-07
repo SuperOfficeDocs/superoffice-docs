@@ -1,5 +1,5 @@
 ---
-uid: help-en-e-mail-archive-outgoing-
+uid: help-en-email-archive-outgoing-
 title: e-mail archive outgoing 
 description: e-mail archive outgoing 
 author: SuperOffice RnD
@@ -24,7 +24,7 @@ Follow these steps:
 
 3. Click **Send and archive**. The e-mail is sent and the dialog **Archive e-mail in SuperOffice** opens.
 
-    If the recipient of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-e-mails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the recipient is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-e-mails-from-senders-with-several-listings.md).
+    If the recipient of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-emails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the recipient is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-emails-from-senders-with-several-listings.md).
 
 4. In the dialog **Archive e-mail in SuperOffice**, the **Company** and **Contact** fields have been filled in if the recipient's e-mail address is registered in SuperOffice. Fill in relevant information in the following fields:
 
@@ -41,5 +41,5 @@ Click the link in the pop-up message to open the document in SuperOffice.
 
 * [Archive incoming e-mail](e-mail-archive-incoming.md)
 * [Archive attachments](Archive-attachments.md)
-* [Create activity](Archive-e-mails-as-activities.md)
-* [Create request](Archive-e-mails-as-requests.md)
+* [Create activity](Archive-emails-as-activities.md)
+* [Create request](Archive-emails-as-requests.md)

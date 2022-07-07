@@ -21,8 +21,8 @@ These buttons appear in the new e-mail window in your mail client (see [Creating
 | ![icon][img5] | Click the small6 arrow to the right of the **SuperOffice** button to open the  **SuperOffice CRM options** dialog. See [SuperOffice CRM options dialog][6]. |
 
 <!-- Referenced links -->
-[1]: creating-e-mails-from-microsoft-outlook.md
-[2]: creating-e-mails-from-lotus-notes.md
+[1]: creating-emails-from-microsoft-outlook.md
+[2]: creating-emails-from-lotus-notes.md
 [3]: default-options.md
 [4]: selecting-recipients.md
 [5]: adding-documents-from-superoffice-sales-marketing-as-attachments.md

@@ -1,5 +1,5 @@
 ---
-uid: help-en-mark-e-mails-as-read-unread
+uid: help-en-mark-emails-as-read-unread
 title: Mark e-mails as read unread
 description: Mark e-mails as read unread
 author: SuperOffice RnD

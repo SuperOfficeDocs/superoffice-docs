@@ -1,5 +1,5 @@
 ---
-uid: help-en-archive-e-mails-as-activities
+uid: help-en-archive-emails-as-activities
 title: Archive e-mails as activities
 description: Archive e-mails as activities
 author: SuperOffice RnD
@@ -21,7 +21,7 @@ Follow these steps:
 
 3. Select **Create activity**. The dialog **Create activity in SuperOffice** opens.
 
-    If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-e-mails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-e-mails-from-senders-with-several-listings.md).
+    If the sender of the e-mail is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling e-mails from senders not registered in SuperOffice](Handling-emails-from-senders-not-listed-in-SuperOffice.md). A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling e-mails from senders with several listings](Handling-emails-from-senders-with-several-listings.md).
 
 4. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields
     * **Company**: Search for a company by starting to type the company name or select a company in the list.
@@ -41,4 +41,4 @@ Follow these steps:
 * [Archive incoming e-mail](e-mail-archive-incoming.md)
 * [Archive outgoing e-mail](e-mail-archive-outgoing.md)
 * [Archive attachments](Archive-attachments.md)
-* [Create request](Archive-e-mails-as-requests.md)
+* [Create request](Archive-emails-as-requests.md)

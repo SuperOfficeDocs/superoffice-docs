@@ -11,7 +11,7 @@ language: en
 
 # Adding documents from SuperOffice CRM as attachments
 
-When creating an e-mail (see [Creating e-mails from Microsoft Outlook](Creating-e-mails-from-Microsoft-Outlook.md) or [Creating e-mails from Lotus Notes](Creating-e-mails-from-Lotus-Notes.md)) you can add documents from SuperOffice CRM as attachments. Follow these steps:
+When creating an e-mail (see [Creating e-mails from Microsoft Outlook](Creating-emails-from-Microsoft-Outlook.md) or [Creating e-mails from Lotus Notes](Creating-emails-from-Lotus-Notes.md)) you can add documents from SuperOffice CRM as attachments. Follow these steps:
 
 1. In the e-mail window, click the **Attach document** button (![icon](media//add-document.png)). The **Include attachments** dialog opens.
 

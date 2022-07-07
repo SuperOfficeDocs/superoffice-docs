@@ -1,5 +1,5 @@
 ---
-uid: help-en-creating-e-mails-from-lotus-notes
+uid: help-en-creating-emails-from-lotus-notes
 title: Creating e-mails from Lotus Notes
 description: Creating e-mails from Lotus Notes
 author: SuperOffice RnD
@@ -25,4 +25,4 @@ Follow these steps to create an e-mail from Lotus Notes:
 
 ## Related topics
 
-[Buttons in the e-mail window](Buttons-in-the-e-mail-window.md)
+[Buttons in the e-mail window](Buttons-in-the-email-window.md)

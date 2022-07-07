@@ -34,7 +34,7 @@ Displays the contact's name, title and mobile phone number.
 
 E-mail
 
-Displays the contact's e-mail address. Click on the e-mail address to send a message to this person. This opens the message in the e-mail program you have specified. See [Send e-mail to contacts](Sending-e-mail-to-contacts.md).
+Displays the contact's e-mail address. Click on the e-mail address to send a message to this person. This opens the message in the e-mail program you have specified. See [Send e-mail to contacts](Sending-email-to-contacts.md).
 
 Former employees
 

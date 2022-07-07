@@ -16,7 +16,7 @@ In the **Video meetings** tab you can select the video meeting service you want 
 See the following topics:
 
 * [Configure video meetings](Configure-video-meetings.md)
-* [E-mail setup for video meetings](Setup-1-Configure-e-mail-setup-in-SuperOffice.md)
+* [E-mail setup for video meetings](Setup-1-Configure-email-setup-in-SuperOffice.md)
 
 ## Related topics
 

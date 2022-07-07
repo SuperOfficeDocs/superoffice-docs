@@ -27,6 +27,6 @@ language: en
 
 [Delete contacts](Deleting-contacts.md)
 
-[Send e-mail to contacts](Sending-e-mail-to-contacts.md)
+[Send e-mail to contacts](Sending-email-to-contacts.md)
 
 [Change the rank of contacts](Changing-the-rank-of-contacts.md)

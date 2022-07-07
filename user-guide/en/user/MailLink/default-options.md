@@ -11,7 +11,7 @@ language: en
 
 # Archive options
 
-These options appear in the **Archive options** pane of the **SuperOffice CRM options dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)). You can override the default options by using the buttons in your mail client (see [Buttons on the mail client toolbar](Buttons-on-the-Microsoft-Outlook-toolbar.md) and [Buttons in the e-mail window](Buttons-in-the-e-mail-window.md)).
+These options appear in the **Archive options** pane of the **SuperOffice CRM options dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)). You can override the default options by using the buttons in your mail client (see [Buttons on the mail client toolbar](Buttons-on-the-Microsoft-Outlook-toolbar.md) and [Buttons in the e-mail window](Buttons-in-the-email-window.md)).
 
 **Archive e-mail by default when:**
 
@@ -19,11 +19,11 @@ For each option you check here, **Archive is ON** will be set by default for the
 
 **created from SuperOffice CRM:**
 
-Checking this box enables default archiving of e-mails that you compose using SuperOffice CRM (see [Creating e-mails from SuperOffice CRM](Creating-e-mails-from-SuperOffice-Sales-Marketing.md)). When you send an e-mail, it will be archived in SuperOffice CRM by default.
+Checking this box enables default archiving of e-mails that you compose using SuperOffice CRM (see [Creating e-mails from SuperOffice CRM](Creating-emails-from-SuperOffice-Sales-Marketing.md)). When you send an e-mail, it will be archived in SuperOffice CRM by default.
 
 **written to associates from SuperOffice CRM:**
 
-Check this box if you want to archive *all* outgoing e-mails written to associates. If you leave this box unchecked, e-mails sent to people that are registered as associates in SuperOffice CRM will *not* be archived by default. This option only applies to e-mails that you compose using SuperOffice CRM (see [Creating e-mails from SuperOffice CRM](Creating-e-mails-from-SuperOffice-Sales-Marketing.md)). Please note that this option is only available if the **created from SuperOffice CRM** box is checked
+Check this box if you want to archive *all* outgoing e-mails written to associates. If you leave this box unchecked, e-mails sent to people that are registered as associates in SuperOffice CRM will *not* be archived by default. This option only applies to e-mails that you compose using SuperOffice CRM (see [Creating e-mails from SuperOffice CRM](Creating-emails-from-SuperOffice-Sales-Marketing.md)). Please note that this option is only available if the **created from SuperOffice CRM** box is checked
 
 **created from e-mail client:**
 

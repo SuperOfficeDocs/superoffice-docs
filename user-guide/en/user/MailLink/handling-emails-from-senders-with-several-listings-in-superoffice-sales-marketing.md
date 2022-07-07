@@ -1,5 +1,5 @@
 ---
-uid: help-en-handling-e-mails-from-senders-with-several-listings-in-superoffice-sales-marketing
+uid: help-en-handling-emails-from-senders-with-several-listings-in-superoffice-sales-marketing
 title: Handling e-mails from senders with several listings in SuperOffice Sales Marketing
 description: Handling e-mails from senders with several listings in SuperOffice Sales Marketing
 author: SuperOffice RnD
@@ -15,6 +15,6 @@ When you archive an e-mail or an attachment, SuperOffice CRM performs a search t
 
 ## What would you like to do now?
 
-[Archiving e-mails to SuperOffice CRM](Archiving-e-mails-to-SuperOffice-Sales-Marketing.md)
+[Archiving e-mails to SuperOffice CRM](Archiving-emails-to-SuperOffice-Sales-Marketing.md)
 
 [Searching for the sender of an e-mail](Searching-for-the-sender-of-an-e-mail.md)

@@ -68,8 +68,8 @@ Shows the user ID of the person who created the activity.
 
 [Delete activities](../company/Deleting-activities-Contact.md)
 
-[Reply to e-mail from the Activities section tab](../company/Replying-to-e-mail-from-the-Activities-section-tab.md)
+[Reply to e-mail from the Activities section tab](../company/Replying-to-email-from-the-Activities-section-tab.md)
 
-[Forward e-mail from the Activities section tab](../company/Forwarding-e-mail-from-the-Activities-section-tab.md)
+[Forward e-mail from the Activities section tab](../company/Forwarding-email-from-the-Activities-section-tab.md)
 
 [Filter activities](../company/Using-the-Filter-function-Contact.md)

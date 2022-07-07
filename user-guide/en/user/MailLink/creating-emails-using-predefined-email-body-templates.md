@@ -1,5 +1,5 @@
 ---
-uid: help-en-creating-e-mails-using-predefined-e-mail-body-templates
+uid: help-en-creating-emails-using-predefined-e-mail-body-templates
 title: Creating e-mails using predefined e-mail body templates
 description: Creating e-mails using predefined e-mail body templates
 author: SuperOffice RnD
@@ -30,4 +30,4 @@ When creating an e-mail from SuperOffice CRM, it is also possible to use predefi
 
 ## What would you like to do now?
 
-[Create e-mail templates](Creating-e-mail-templates.md)
+[Create e-mail templates](Creating-email-templates.md)
