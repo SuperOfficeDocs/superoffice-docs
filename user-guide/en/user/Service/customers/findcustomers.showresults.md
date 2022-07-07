@@ -16,7 +16,7 @@ Once you have got a list of contacts by following the procedure under [Find cont
 * **Result**: This contains all the contacts that match your search criteria. See [Result](findCustomers.showResults.md#Result).
 * **Preview**: Displays the requests linked to the contact selected under **Find contacts**. See [Preview](findCustomers.showResults.md#Preview).
 
-To edit the search criteria, click **Show criteria**. See [Search in SuperOffice Service](../topics/rms.search.md).
+To edit the search criteria, click **Show criteria**. See [Search in SuperOffice Service](../search/index.md).
 
 ## Result
 

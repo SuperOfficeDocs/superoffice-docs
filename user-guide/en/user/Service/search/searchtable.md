@@ -11,4 +11,4 @@ language: en
 
 # Find entries
 
-See [Search in SuperOffice Service](rms.search.md).
+See [Search in SuperOffice Service](index.md).

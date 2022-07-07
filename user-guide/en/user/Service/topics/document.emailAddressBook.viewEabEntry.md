@@ -15,5 +15,5 @@ If you want details of the e-mail addresses that have been registered, select **
 
 * To create a new e-mail address, see [Create e-mail addresses](document.emailAddressBook.newEabEntry.md).
 * To edit an existing e-mail address, click the name in the list. See [Create e-mail addresses](document.emailAddressBook.newEabEntry.md).
-* To search for an e-mail address, click the **Search** button. See [Search in SuperOffice Service](rms.search.md).
+* To search for an e-mail address, click the **Search** button. See [Search in SuperOffice Service](../search/index.md).
 * To delete an e-mail address, click the name in the list, and click **Delete** in the **E-mail address properties** screen.

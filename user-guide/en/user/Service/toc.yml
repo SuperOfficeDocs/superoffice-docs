@@ -339,15 +339,15 @@ items:
   - name: Rms navigate favourites
     href: topics/rms.navigate.favourites.md
   - name: Rms search
-    href: topics/rms.search.md
+    href: search/index.md
   - name: Rms search searchResult
-    href: topics/rms.search.searchresult.md
+    href: search/searchresult.md
   - name: Rms search searchTable
-    href: topics/rms.search.searchtable.md
+    href: search/searchtable.md
   - name: Rms search use shortcut search
-    href: topics/rms.search.use-shortcut-search.md
+    href: search/use-shortcut-search.md
   - name: Rms search useQuickSearch
-    href: topics/rms.search.usequicksearch.md
+    href: search/usequicksearch.md
   - name: Selections
     href: selections/index.md
   - name: Selections deleterecords

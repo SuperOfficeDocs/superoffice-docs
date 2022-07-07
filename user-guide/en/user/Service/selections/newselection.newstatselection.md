@@ -29,7 +29,7 @@ To do this:
 
     [!include[Contents of Selection General info tab](../../includes/selection-general-info.md)]
 
-6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service](../topics/rms.search.md).
+6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service](../search/index.md).
 
 7. Click the **Search** button to start the search.
 

@@ -28,7 +28,7 @@ To merge requests:
     * Contacts from all merged requests will be kept, and the main contact will be inherited from the selected request ID.
 7. Click **OK**. The requests are merged.
 
-The requests that have been overwritten (i.e. the request IDs have been overwritten) will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the quick search field (see [Use quick search](../topics/rms.search.useQuickSearch.md)), you are redirected to the merged request.
+The requests that have been overwritten (i.e. the request IDs have been overwritten) will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the quick search field (see [Use quick search](../search/useQuickSearch.md)), you are redirected to the merged request.
 
 ## What would you like to do now?
 

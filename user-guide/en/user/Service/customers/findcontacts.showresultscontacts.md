@@ -13,7 +13,7 @@ language: en
 
 Once you have got a list of companies by following the procedure under [Search for companies](findContacts.md), you will be in a screen containing the following sections:
 
-* **Criteria**: Here you enter search criteria to filter out which companies you wish to see. See [Search in SuperOffice Service](../topics/rms.search.md).
+* **Criteria**: Here you enter search criteria to filter out which companies you wish to see. See [Search in SuperOffice Service](../search/index.md).
 * **Result**: This contains all the companies that match your search criteria. See [List search results for companies &gt; Result](findContacts.showResultsContacts.md#Result).
 * **Preview**: Displays the requests and contacts linked to the company selected under **Result**. See [List search results for companies &gt; Preview](findContacts.showResultsContacts.md#Preview).
 

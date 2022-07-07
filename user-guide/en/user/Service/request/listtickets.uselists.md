@@ -31,7 +31,7 @@ The simplest way to search for requests is to use the predefined searches availa
 In practice, all these lists are predefined searches, and if you wish you can customise the search criteria:
 
 1. Click **Show criteria** at the top of the screen.
-2. Adjust the criteria as described under [Search in SuperOffice Service](../topics/rms.search.md).
+2. Adjust the criteria as described under [Search in SuperOffice Service](../search/index.md).
 3. Click **Search** to begin the search using the new search criteria.
 
 > [!TIP]

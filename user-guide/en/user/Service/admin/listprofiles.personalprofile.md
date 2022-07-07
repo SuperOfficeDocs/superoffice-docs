@@ -23,7 +23,7 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 6. If you want to revert to the default settings, return to the **Edit element profile** screen and click the **Restore default (deletes this profile)** button at the bottom of the screen.
 
 > [!TIP]
-> For an example of how to edit a personal profile in the search results screen, see [Manage the display of search results](../topics/rms.search.searchResult.md).
+> For an example of how to edit a personal profile in the search results screen, see [Manage the display of search results](../search/searchResult.md).
 
 ## What would you like to find out more about?
 

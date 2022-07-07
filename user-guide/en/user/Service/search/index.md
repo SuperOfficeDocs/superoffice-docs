@@ -22,16 +22,7 @@ Searching in SuperOffice Service is performed from the same screen, no matter wh
 </details>
 
 > [!TIP]
-> There is also a quick search option. For more information about this, see [Use quick search](rms.search.useQuickSearch.md). In addition, clicking the various navigator buttons gives you access to more search options (see [Navigator options](Navigator-options.md)).
-
-Click the appropriate link below, depending on what you want to find out about:
-
-* [Open the search screen](rms.search.md#OpenTheSearchScreen)
-* [The Criteria screen](rms.search.md#TheCriteriaSectionOfTheSearchScreen)
-* [The search results](rms.search.md#TheResultSectionOfTheSearchScreen)
-* [The preview section](rms.search.md#ThePreviewSectionOfTheSearchScreen)
-* [Add search criteria](rms.search.md#AddSearchCriteria)
-* [Use advanced view](rms.search.md#UseAdvancedView)
+> There is also a quick search option. For more information about this, see [Use quick search](useQuickSearch.md). In addition, clicking the various navigator buttons gives you access to more search options (see [Navigator options](../topics/Navigator-options.md)).
 
 ## Open the search screen
 
@@ -45,7 +36,7 @@ There are many different ways to bring up the search screen, depending on where 
 
 ## The Criteria screen
 
-In the **Criteria** screen you enter the search criteria in the available fields. You can add additional fields by clicking **[Add criteria](rms.search.md#AddSearchCriteria)**.
+In the **Criteria** screen you enter the search criteria in the available fields. You can add additional fields by clicking **[Add criteria](#AddSearchCriteria)**.
 
 > [!TIP]
 > You can also run an "empty" search, in other words a search where you do not enter any search criteria. This lets you display all records of the relevant type, such as requests.
@@ -64,9 +55,9 @@ The list below explains how to use the different types of field that can be disp
 At the bottom of the **Criteria** screen, you have the following options:
 
 * **Clear search fields**: When you click this button, the values entered in the fields in the search screen are cleared. This is a quick way of emptying all the fields.
-* **Restore default**: When you click this button, all the criteria you have added by following the procedure under [Add search criteria](rms.search.md#AddSearchCriteria) are removed.
+* **Restore default**: When you click this button, all the criteria you have added by following the procedure under [Add search criteria](#AddSearchCriteria) are removed.
 * **Save as selection**: Click here to create a selection consisting of the records that meet the specified criteria. See [Create a selection based on search criteria](../selections/newSelection.newSelection.md).
-* **Advanced view**: Click here for access to more advanced search options. These are described under [Use advanced view](rms.search.md#UseAdvancedView).
+* **Advanced view**: Click here for access to more advanced search options. These are described under [Use advanced view](#UseAdvancedView).
 
 ## Add search criteria
 
@@ -97,13 +88,13 @@ If you click one of the column headings below **Result**, you get the following 
 * **Sort ascending**: Clicking here sorts the records in ascending order, for example, alphabetically if the column contains text, based on the column in question.
 * **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest will be displayed at the top.
 * **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records will be divided into three groups with these headings.
-* **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, add a column showing request response times (see [Add columns](rms.search.searchResult.md#AddColumns)), and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
+* **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, add a column showing request response times (see [Add columns](searchResult.md#AddColumns)), and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
 
 At the top right corner of the search results list are the following buttons:
 
 * **Update content** ( ![icon][img1] ): Clicking this button updates the search result with any new records that also match the criteria.
 * Click the ![icon][img2] menu button in the top right corner to access the change the view options.
-* **Edit element profile** ( ![icon](../media/btn-editelementprofile.png) ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results](rms.search.searchResult.md).
+* **Edit element profile** ( ![icon](../media/btn-editelementprofile.png) ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results](searchResult.md).
 
 Under the list, you can click ![icon][img2] to access the following options:
 

@@ -15,7 +15,7 @@ If there are lots of reply templates in a folder, it may be difficult to find th
 
 1. Select **Knowledge Base &gt; Reply templates**.
 2. Click the **Search** button. This takes you to the **Criteria** screen.
-3. Search as described under [Search in SuperOffice Service](../topics/rms.search.md).
+3. Search as described under [Search in SuperOffice Service](../search/index.md).
 
 ## See also
 

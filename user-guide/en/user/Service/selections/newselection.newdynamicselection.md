@@ -26,7 +26,7 @@ To do this:
 
     [!include[Contents of Selection General info tab](../../includes/selection-general-info.md)]
 
-6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service](../topics/rms.search.md).
+6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service](../search/index.md).
 7. In the **Profile** tab, specify how the selection is to be presented:
     [!include[Contents of Selection Profile tab](../../includes/selection-profile-tab.md)]
 8. Click **Execute** to display the result of the dynamic selection in the **Result** tab. If necessary, adjust the search criteria in the **Selection** tab and repeat this step.
