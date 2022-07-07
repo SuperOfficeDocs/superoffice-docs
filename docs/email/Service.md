@@ -105,6 +105,8 @@ To create a new mailbox:
  * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
 * Click OK. The mailbox is created.
 
+See the [help file][8] for more information.
+
 #### What is UPN (User Principal Name)?
 In Windows Active Directory, a User Principal Name (UPN) is the name of a system user in an email address format. A UPN (for example: john.doe@domain.com) consists of the user name (logon name), separator (the @ symbol), and domain name (UPN suffix).
 A UPN is not the same as an email address. Sometimes, a UPN can match a user's email address, but this is not a general rule. 
@@ -135,6 +137,11 @@ How to open the incoming/outgoing log:
 The status, number of attempts, and last error message + possibly a more comprehensive error description below (big red square in picture) will help determine what has gone wrong sending the email.
 
 ![x -screenshot][img4]
+
+<!-- Referenced links -->
+[6]: https://www.codetwo.com/kb/upn/#exchange
+[7]: https://www.codetwo.com/kb/upn/#office-365
+[8]: https://community.superoffice.com/en/learning/admin-guide/service/request-setup/service-mailbox-setup/
 
 <!-- Referenced images -->
 [img1]: media/320curl.jpg
