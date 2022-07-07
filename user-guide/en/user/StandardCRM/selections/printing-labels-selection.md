@@ -20,6 +20,6 @@ Label printing will come in handy, for example, when you have to send out letter
 3. Select the label format you require and click **OK**. A PDF is generated.
 
     > [!NOTE]
-    > In this dialog you can also add new label formats as well as edit and delete existing ones. This is described under [Add label formats](../chap09/Adding-label-formats.md), [Edit label formats](../chap09/Editing-label-formats.md) and [Remove label formats](../chap09/Removing-label-formats.md).
+    > In this dialog you can also add new label formats as well as edit and delete existing ones. This is described under [Add label formats](../reports/Adding-label-formats.md), [Edit label formats](../reports/Editing-label-formats.md) and [Remove label formats](../reports/Removing-label-formats.md).
 
 4. Open the PDF and print it.

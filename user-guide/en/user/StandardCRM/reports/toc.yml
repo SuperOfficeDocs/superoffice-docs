@@ -1,4 +1,6 @@
 items:
+- name: Reports
+  href: index.md
 - name: Adding favourite reports
   href: adding-favourite-reports.md
 - name: Adding label formats
@@ -45,8 +47,6 @@ items:
   href: report-archive.md
 - name: Report list
   href: report-list.md
-- name: Reports
-  href: reports.md
 - name: Reports screen
   href: reports-screen.md
 - name: Running reports
