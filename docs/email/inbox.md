@@ -11,6 +11,7 @@ so.topic: concept
 
 # SuperOffice Inbox
 
+SuperOffice Inbox (the integrated email client)
 How to configure your email setup in SuperOffice Inbox: [Helpfile][5]
 
 # MailKit
@@ -68,6 +69,69 @@ Now the Inbox will download emails younger than 30 days only. If no value is set
 
 ### Connection and authentication
 
+#### OAuth 2.0
+
+**Requirements**
+* CRM Online or Onsite customers who use SuperOffice G9 9.2 R10 or newer
+* Microsoft 365 (Microsoft® Exchange Online)
+* MX Record pointing to the Microsoft® Exchange Online server
+
+**How to add the feature?**
+
+We made that feature General Available (iow. not in Pilot) with SuperOffice 10.0.3.
+
+**Online:**
+Enabled. Next time you log in to your Microsoft 365 (Microsoft® Exchange Online) email account in SuperOffice Inbox - you will be redirected to Microsoft for authentication.
+
+**Onsite:**
+For versions between G9 9.2 R10 and 10.0.3 you can add the feature via adding:
+
+* a) a new sectionGroup 'FeatureToggles' with state
+* b) a FeatureToggles section, with state and key="NewAuthentication"
+* in the web.config file (ask your technical installation partner for assistance if needed)
+
+a)
+```xml
+<configuration>
+<configSections>
+<sectionGroup name="SuperOffice">
+<sectionGroup name="FeatureToggles">
+<section name="State" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+</sectionGroup>
+<sectionGroup name="Security">
+...
+```
+
+b)
+```xml
+<FeatureToggles>
+  <State>
+    <add key="NewAuthentication" value="True" />
+  </State>
+</FeatureToggles>
+```
+
+**How to log in**
+
+Log in to your Microsoft email account in SuperOffice Inbox
+1) Fill inn your Microsoft365 'User Princpal Name' (UPN) in the field "Email account".
+2) Click "Next".
+* If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication. 
+3) Authenticate towards Microsoft and complete the login
+* You will then be taken to the SuperOffice Inbox. Your email account is now set up to use OAuth 2.0 authentication
+
+##### What is UPN (User Principal Name)?
+In Windows Active Directory, a User Principal Name (UPN) is the name of a system user in an email address format. A UPN (for example: john.doe@domain.com) consists of the user name (logon name), separator (the @ symbol), and domain name (UPN suffix).
+A UPN is not the same as an email address. Sometimes, a UPN can match a user's email address, but this is not a general rule. 
+
+###### How to check or modify the UPN of a user
+
+Use the links below to learn how to check and change UPNs in various environments.
+* [Microsoft Exchange Server][6]
+* [Office 365][7]
+
+#### Encrypted connection 
+
 **Outgoing:**
 
 The better and more modern way is to use port 587 on outgoing mail. It starts unencrypted, but the connection is upgraded to encrypted (using STARTTLS) if the server supports it. Connections to 587 should not have the SSL checkbox, as it starts without encryption (and that checkbox will enforce encryption from the beginning of the connection).
@@ -98,6 +162,8 @@ Read section [Mail logging][1]
 [3]: https://cs.superoffice.com/
 [4]: ../api/config/mail.md
 [5]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap07web%2FInbox_CRM_web.htm
+[6]: https://www.codetwo.com/kb/upn/#exchange
+[7]: https://www.codetwo.com/kb/upn/#office-365
 
 <!-- Referenced images -->
 [img1]: media/mailkit.jpg
