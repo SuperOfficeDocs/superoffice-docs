@@ -30,6 +30,6 @@ Adding an e-mail template involves following steps:
 
 <!-- Referenced links -->
 [1]: ../../../../docs/document/templates/quote/index.md
-[2]: ../../user/standardcrm/chap02/template-variables.md
+[2]: ../../user/standardcrm/diary/template-variables.md
 
 <!-- Referenced images -->

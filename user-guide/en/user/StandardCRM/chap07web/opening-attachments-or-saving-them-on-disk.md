@@ -18,7 +18,7 @@ To open an attachment or archive an attachment in SuperOffice:
 3. Click the arrow on the attachment you want to save or open.
 4. Select one of the following options:
     * **Open**: The attached file is displayed in your browser. Click the attachment to open it or to save it. How this works, depends on the browser.
-    * **Archive**: The **Document** dialog opens. See [The Document dialog](../chap02/Document-dialog.md).  
+    * **Archive**: The **Document** dialog opens. See [The Document dialog](../diary/Document-dialog.md).  
         <!-- Fix reuse ID=a1 -->
         This can mean one of the following:
 

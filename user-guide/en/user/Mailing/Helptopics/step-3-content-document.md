@@ -27,6 +27,6 @@ Click **Next** to go to the next step: [Step 4: Recipients](Step-4-Recipients-Do
 
 ## Use template variables
 
-You can use SuperOffice CRM template variables in your document to insert customer-specific information. This will give the message a more personal touch. You can find more information about these template variables [in the SuperOffice CRM Help](../../StandardCRM/chap02/Template-variables.md).
+You can use SuperOffice CRM template variables in your document to insert customer-specific information. This will give the message a more personal touch. You can find more information about these template variables [in the SuperOffice CRM Help](../../standardcrm/diary/Template-variables.md).
 
 [!include[Tip](../../includes/tip-mailing-save-draft.md)]

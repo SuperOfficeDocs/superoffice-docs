@@ -21,12 +21,12 @@ Follow-ups with times are displayed as boxes in the different views in the **Dia
 
 | Icon | Description |
 |:-:|---|
-| ![icon](../media/Recurring-booking-assignment.bmp) | Means that this is a repeating follow-up. See [Create repeating follow-ups](../chap02/Creating-recurring-follow-ups.md). |
-| ![icon](../media/Vis-som-gruppe.bmp) | Means that the follow-up has several participants. See [Invite your associates to a follow-up](../chap02/Creating-follow-ups-with-your-associates.md). |
-| ![icon](../media/utfoert-dagbok.bmp) | Means that the follow-up has been completed: See [Change Completed status of an activity](../chap02/Marking-activities-as-completed-not-completed.md). |
+| ![icon](../media/Recurring-booking-assignment.bmp) | Means that this is a repeating follow-up. See [Create repeating follow-ups](Creating-recurring-follow-ups.md). |
+| ![icon](../media/Vis-som-gruppe.bmp) | Means that the follow-up has several participants. See [Invite your associates to a follow-up](Creating-follow-ups-with-your-associates.md). |
+| ![icon](../media/utfoert-dagbok.bmp) | Means that the follow-up has been completed: See [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md). |
 | ![icon](../media/followup-details-alarm.bmp) | Means that the follow-up has an active alarm. |
-| ![icon](../media/diary-unansweredinvitation.png) | Means that there are unanswered invitations for this follow-up. See [Status of invitations](../chap02/Status-of-invitations.md). |
-| ![icon](../media/videomeeting-diaryicon.png) | Means that this follow-up is a video meeting. See [Work with video meetings](../chap02/video-meetings.md). To join the meeting, right-click the follow-up and select **Join meeting**. |
+| ![icon](../media/diary-unansweredinvitation.png) | Means that there are unanswered invitations for this follow-up. See [Status of invitations](Status-of-invitations.md). |
+| ![icon](../media/videomeeting-diaryicon.png) | Means that this follow-up is a video meeting. See [Work with video meetings](video-meetings.md). To join the meeting, right-click the follow-up and select **Join meeting**. |
 
 By default, the follow-ups are displayed as a blue field in the diary tabs. If you hold the mouse pointer over one of these fields, a tooltip is displayed showing more information about the follow-up. You can also double-click the blue field to open the follow-up.
 

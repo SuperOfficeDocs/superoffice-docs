@@ -18,7 +18,7 @@ In order to do so:
 1. Go to the inbox or the relevant folder.
 2. Select the required message.
 3. Click **Archive** ![icon](../media/web-email-archive-SMALL.bmp).
-4. Click **Archive e-mail**. The **Document** dialog opens. See [The Document dialog](../chap02/Document-dialog.md).
+4. Click **Archive e-mail**. The **Document** dialog opens. See [The Document dialog](../diary/Document-dialog.md).
 
 <!-- Fix reuse ID=a1 -->
 

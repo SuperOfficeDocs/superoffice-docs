@@ -18,13 +18,13 @@ The **Activities** section tab shows all activities that are linked to the activ
 Double-click an activity in the section tab to view or edit it, as required.
 
 > [!NOTE]
-> Activities are described in more detail under [Activities in SuperOffice CRM](../chap02/Activities-in-SuperOffice-CRM.md).
+> Activities are described in more detail under [Activities in SuperOffice CRM](../diary/index.md).
 
 ## Columns in the Activities section tab
 
 **Completed status** ![icon](../media/Salg-solgt-detaljkort.bmp)
 
-The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more details on the **Completed** status, see [Change Completed status of an activity](../chap02/Marking-activities-as-completed-not-completed.md).
+The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more details on the **Completed** status, see [Change Completed status of an activity](../diary/Marking-activities-as-completed-not-completed.md).
 
 Type icons
 

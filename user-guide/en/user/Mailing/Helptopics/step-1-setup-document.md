@@ -32,7 +32,7 @@ In order to do this:
 5. Optional: Start writing in the **Sale** field to search for a SuperOffice CRM sale. <!-- Fix reuse ID=a3 -->
     You can connect the document mailing to a specific sale. This can be relevant if you are creating mailings where the recipients are sale stakeholders from a SuperOffice CRM sale. By using template variables in the template, you can add sales data to your mailing.
 
-6. In the **Our ref** field, enter the name that should appear as our reference in the document. You can use SuperOffice CRM [template variables](../../StandardCRM/chap02/Template-variables.md) in this field. Some examples have been provided below this field.
+6. In the **Our ref** field, enter the name that should appear as our reference in the document. You can use SuperOffice CRM [template variables](../../standardcrm/diary/Template-variables.md) in this field. Some examples have been provided below this field.
 
     > [!NOTE]
     > For variables such as sale ID or project ID to work, you must link the document mailing to a sale or project.

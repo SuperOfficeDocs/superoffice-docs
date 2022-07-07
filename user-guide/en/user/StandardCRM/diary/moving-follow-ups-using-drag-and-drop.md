@@ -16,7 +16,7 @@ language: en
 At some time, you will undoubtedly need to move follow-ups from one time slot to another, from the activities list to the **Diary** screen, or from the **Diary** screen to the activities list. These actions can be accomplished quickly and easily in SuperOffice CRM by dragging and dropping with the mouse.
 
 > [!NOTE]
-> You can only move one follow-up at a time, and only follow-ups that are not completed. (See [Change Completed status of an activity](../chap02/Marking-activities-as-completed-not-completed.md).)
+> You can only move one follow-up at a time, and only follow-ups that are not completed. (See [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md).)
 
 ## What would you like to do now?
 

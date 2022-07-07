@@ -34,6 +34,6 @@ In the sections below there are more details on using standard templates and tem
 * [Look at template variables][1]
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/chap02/template-variables.md
+[1]: ../../user/standardcrm/diary/template-variables.md
 
 <!-- Referenced images -->

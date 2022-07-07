@@ -17,7 +17,7 @@ language: en
 When you choose to delete something in SuperOffice CRM, the dialog displays **Delete Appointment**, **Delete Sale**, **Delete Selection** and so on, depending on what you have chosen to delete. The name of the item is displayed in the dialog, so that you can check that you have made the right choice.
 
 > [!TIP]
-> To delete a repeating follow-up, see [Stop repeating follow-ups](../chap02/Stopping-recurring-follow-ups.md).
+> To delete a repeating follow-up, see [Stop repeating follow-ups](../diary/Stopping-recurring-follow-ups.md).
 
 <!-- Fix reuse ID=a1 -->
 

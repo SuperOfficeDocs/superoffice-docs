@@ -2,4 +2,4 @@ There are different types of activities: (including reports and email), (appoint
 
 <!-- Referenced links -->
 [1]: ../standardcrm/chap01/buttons-in-the-menu-bar.md
-[2]: ../standardcrm/chap02/activities-in-superoffice-crm.md
+[2]: ../standardcrm/diary/index.md

@@ -202,7 +202,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 <!-- Referenced links -->
 [1]: ../../../../docs/ui/soprotocol/index.md
 [2]: ../../user/standardcrm/translate-fields.md
-[3]: ../../user/standardcrm/chap02/template-variables.md
+[3]: ../../user/standardcrm/diary/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

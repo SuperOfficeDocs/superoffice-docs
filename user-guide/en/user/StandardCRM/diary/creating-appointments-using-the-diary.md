@@ -24,7 +24,7 @@ When you are in the diary, there are several ways to create follow-ups.
 
 ## Related topics
 
-[The Dialog for follow-ups](../chap02/Dialog-for-followups.md)
+[The Dialog for follow-ups](Dialog-for-followups.md)
 
 <!-- Referenced links -->
 [1]:

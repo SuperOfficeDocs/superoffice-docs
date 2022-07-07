@@ -17,7 +17,7 @@ The **View** tab in the **Diary** screen shows your own diary with your user ID 
 
 ![icon](../media/Chap05-diary/46-chap5-view.bmp)
 
-The **View** tab is used mainly to open and look at overviews of other users or resources, in order to find out when they will be available, before inviting them to a meeting by linking them to follow-ups, or creating follow-ups for them. (See [Add participants to follow-ups](../chap02/Linking-participants-to-follow-ups.md) and [Create appointments for associates](Creating-appointments-for-associates.md).)
+The **View** tab is used mainly to open and look at overviews of other users or resources, in order to find out when they will be available, before inviting them to a meeting by linking them to follow-ups, or creating follow-ups for them. (See [Add participants to follow-ups](Linking-participants-to-follow-ups.md) and [Create appointments for associates](Creating-appointments-for-associates.md).)
 
 ## What would you like to do now?
 

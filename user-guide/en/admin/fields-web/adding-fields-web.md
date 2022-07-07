@@ -68,4 +68,4 @@ If you find you are not allowed to create a new field, this may be because you h
 
 <!-- Referenced links -->
 [1]: ../chap09/Maximum-number-of-fields.md
-[2]: ../../user/standardcrm/chap02/template-variables.md
+[2]: ../../user/standardcrm/diary/template-variables.md

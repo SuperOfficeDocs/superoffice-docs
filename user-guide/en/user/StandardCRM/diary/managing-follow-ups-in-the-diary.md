@@ -11,11 +11,11 @@ language: en
 
 # Manage follow-ups in the Diary
 
-Follow-ups are a key concept in SuperOffice CRM and are described under [Work with follow-ups](../chap02/Follow-ups-in-SuperOffice-CRM.md). However, follow-ups are closely linked to the **Diary** screen, and some functions apply especially to the Diary. The topics below describe how to manage follow-ups in the **Diary** screen directly.
+Follow-ups are a key concept in SuperOffice CRM and are described under [Work with follow-ups](Follow-ups-in-SuperOffice-CRM.md). However, follow-ups are closely linked to the **Diary** screen, and some functions apply especially to the Diary. The topics below describe how to manage follow-ups in the **Diary** screen directly.
 
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).  
-When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. (See [The Dialog for follow-ups](../chap02/Dialog-for-followups.md)).
+When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. (See [The Dialog for follow-ups](Dialog-for-followups.md)).
 
 ## What would you like to do now?
 

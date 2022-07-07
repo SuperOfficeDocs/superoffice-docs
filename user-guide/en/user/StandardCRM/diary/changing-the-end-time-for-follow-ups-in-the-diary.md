@@ -21,4 +21,4 @@ In the **Diary** screen, you can change the end time for a follow-up without hav
 4. Release the mouse button. The time slot for the follow-up is changed.
 
 > [!NOTE]
-> You can also change the time slot by opening the follow-up (see [Open follow-ups in the Diary](Opening-follow-ups-via-the-Diary.md)) and changing the **Start**, **End**, **Due** or **Duration** fields. These fields are described in [The Dialog for follow-ups](../chap02/Dialog-for-followups.md).
+> You can also change the time slot by opening the follow-up (see [Open follow-ups in the Diary](Opening-follow-ups-via-the-Diary.md)) and changing the **Start**, **End**, **Due** or **Duration** fields. These fields are described in [The Dialog for follow-ups](Dialog-for-followups.md).

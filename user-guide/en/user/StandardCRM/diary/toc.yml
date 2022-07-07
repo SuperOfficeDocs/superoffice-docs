@@ -1,14 +1,28 @@
 items:
 - name: Activities in SuperOffice CRM
-  href: activities-in-superoffice-crm.md
+  href: index.md
+- name: Activities list
+  href: activities-list.md
 - name: Add activities
   href: add-activities.md
 - name: Appointment
   href: appointment.md
+- name: Changing the end time for follow ups in the Diary
+  href: changing-the-end-time-for-follow-ups-in-the-diary.md
 - name: Compose an email (Web)
   href: compose-an-e-mail-web.md
+- name: Copying follow ups to the diary
+  href: copying-follow-ups-to-the-diary.md
 - name: Creating appointments
   href: creating-appointments.md
+- name: Creating appointments for associates
+  href: creating-appointments-for-associates.md
+- name: Creating appointments using the Diary
+  href: creating-appointments-using-the-diary.md
+- name: Creating diary views
+  href: creating-diary-views.md
+- name: Creating follow ups in the activities list
+  href: creating-follow-ups-in-the-activities-list.md
 - name: Creating follow ups with your associates
   href: creating-follow-ups-with-your-associates.md
 - name: Creating new documents
@@ -19,10 +33,16 @@ items:
   href: creating-recurring-follow-ups.md
 - name: Creating tasks
   href: creating-tasks.md
+- name: Day tab
+  href: day-tab.md
 - name: Deleting activities
   href: deleting-activities.md
+- name: Deleting activities in the activities list
+  href: deleting-activities-in-the-activities-list.md
 - name: Deleting documents
   href: deleting-documents.md
+- name: Deleting follow ups using the Diary
+  href: deleting-follow-ups-using-the-diary.md
 - name: Description tab follow ups
   href: description-tab-follow-ups.md
 - name: Details tab Document
@@ -33,6 +53,8 @@ items:
   href: dialling-contacts.md
 - name: Dialog for followups
   href: dialog-for-followups.md
+- name: Diary
+  href: diary.md
 - name: Doc checkoutin
   href: doc-checkoutin.md
 - name: Doc Language support
@@ -61,28 +83,54 @@ items:
   href: links-tab-document.md
 - name: Links tab follow ups
   href: links-tab-follow-ups.md
+- name: Managing follow ups in the diary
+  href: managing-follow-ups-in-the-diary.md
 - name: Marking activities as completed not completed
   href: marking-activities-as-completed-not-completed.md
+- name: Month tab
+  href: month-tab.md
 - name: More tab Document
   href: more-tab-document.md
 - name: More tab follow ups
   href: more-tab-follow-ups.md
+- name: Moving between activities in the activities list
+  href: moving-between-activities-in-the-activities-list.md
+- name: Moving follow ups from the activities list to the diary
+  href: moving-follow-ups-from-the-activities-list-to-the-diary.md
+- name: Moving follow ups to a different time
+  href: moving-follow-ups-to-a-different-time.md
+- name: Moving follow ups using drag and drop
+  href: moving-follow-ups-using-drag-and-drop.md
+- name: Navigate in diary
+  href: navigate-in-diary.md
 - name: Note
   href: note.md
+- name: Opening activities in the activities list
+  href: opening-activities-in-the-activities-list.md
 - name: Opening documents
   href: opening-documents.md
 - name: Opening Follow ups
   href: opening-follow-ups.md
+- name: Opening follow ups via the Diary
+  href: opening-follow-ups-via-the-diary.md
 - name: Participants category
   href: participants-category.md
 - name: Phone call
   href: phone-call.md
 - name: Printing follow ups
   href: printing-follow-ups.md
+- name: Printing from the Diary
+  href: printing-from-the-diary.md
 - name: Receive response
   href: receive-response.md
 - name: Receiving invitations
   href: receiving-invitations.md
+- name: Sale card
+  href: sale-card.md
+- name: Sales secretary
+  href: sales-secretary.md
+- name: Section tabs in the Diary screen
+  href: section-tabs-in-the-diary-screen.md
 - name: Sending documents from the Activities section tab
   href: sending-documents-from-the-activities-section-tab.md
 - name: Sending follow ups
@@ -95,15 +143,35 @@ items:
   href: status-of-invitations.md
 - name: Stopping recurring follow ups
   href: stopping-recurring-follow-ups.md
+- name: Tabs in the Diary screen
+  href: tabs-in-the-diary-screen.md
 - name: Task
   href: task.md
+- name: Tasks button
+  href: tasks-button.md
 - name: Template variables
   href: template-variables.md
 - name: Template variables examples
   href: template-variables-examples.md
+- name: Time zones
+  href: time-zones.md
 - name: Upload documents
   href: upload-documents.md
+- name: Using group view
+  href: using-group-view.md
 - name: Video meetings
   href: video-meetings.md
+- name: View dialog
+  href: view-dialog.md
+- name: Viewing activities in the activities list
+  href: viewing-activities-in-the-activities-list.md
+- name: Viewing another diary
+  href: viewing-another-diary.md
+- name: Viewing views for an entire user group
+  href: viewing-views-for-an-entire-user-group.md
+- name: View Tab
+  href: view-tab.md
+- name: Week tab
+  href: week-tab.md
 - name: Write
   href: write.md

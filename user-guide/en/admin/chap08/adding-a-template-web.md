@@ -80,6 +80,6 @@ Here you can add translated versions of the document template. To do this:
 
 <!-- Referenced links -->
 [1]: ../Quote-templates.pdf
-[2]: ../../user/standardcrm/chap02/template-variables.md
+[2]: ../../user/standardcrm/diary/template-variables.md
 
 <!-- Referenced images -->

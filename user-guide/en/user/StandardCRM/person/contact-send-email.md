@@ -22,7 +22,7 @@ language: en
 4. Send the e-mail by clicking one of the following buttons:
     * Send: The e-mail is sent and will be available in the Activities section tab.
     * Send and archive: The e-mail is sent and saved as a document. See more information below.
-5. If you selected **Send and archive**, the **Document** dialog opens when you send the e-mail. Add information in this dialog as necessary (see [The Document dialog](../chap02/Document-dialog.md)).
+5. If you selected **Send and archive**, the **Document** dialog opens when you send the e-mail. Add information in this dialog as necessary (see [The Document dialog](../diary/Document-dialog.md)).
 6. Click **Create** in the **Document** dialog.
 
 <!-- Referenced links -->

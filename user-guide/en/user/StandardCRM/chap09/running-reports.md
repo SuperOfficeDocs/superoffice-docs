@@ -18,7 +18,7 @@ Using your own favourite reports or the published reports in the **Reports** scr
 
 When you want to run a report in the **Reports** screen, you can choose to view the report on-screen, print it to a printer, or save it as a file. In each of the last two cases, it is a good idea to view the report on-screen first, to make sure that it looks the way you want it to.
 
-To save a report as a document (type = Report) in SuperOffice CRM, click the **Save** button in the **Reports** screen. See [Create new documents](../chap02/Creating-new-documents.md).
+To save a report as a document (type = Report) in SuperOffice CRM, click the **Save** button in the **Reports** screen. See [Create new documents](../diary/Creating-new-documents.md).
 
 ## What would you like to do now?
 

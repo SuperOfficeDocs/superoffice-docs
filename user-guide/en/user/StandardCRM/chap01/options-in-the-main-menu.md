@@ -20,7 +20,7 @@ Click the **Main menu** button in the Top bar to access the following options:
 * **Duplicate settings**: Click here to edit the duplicate settings for companies, projects and selections. See [Duplicates](Duplicates.md).
 * **Filter**: Click here to edit the filter settings. See [Use filters in the section tabs](Use-filters-in-the-section-tabs.md).
 * **Show Notepad**: Click here to show the Notepad and create a new note. See [Notepad](Notepad.md).
-* **Show confirmation dialog when sending invitations**: Click her to activate/deactivate the confirmation dialog when sending e-mails to meeting participants from the **Appointment** dialog (see [Add participants to follow-ups](../chap02/Linking-participants-to-follow-ups.md)).
+* **Show confirmation dialog when sending invitations**: Click her to activate/deactivate the confirmation dialog when sending e-mails to meeting participants from the **Appointment** dialog (see [Add participants to follow-ups](../diary/Linking-participants-to-follow-ups.md)).
 * **Targets**: Click here to add sales targets. See [Sales targets](../sale/Sales-targets.md).
 * **Edit system signature**: Click here to edit the default e-mail signature.
 * **Settings and maintenance**: Click here to go to SuperOffice Settings and maintenance. This option is only available if you have administrator's rights.

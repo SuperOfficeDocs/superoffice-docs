@@ -25,6 +25,6 @@ This function uses the SOProtocol. SuperOffice Web Tools must be installed for t
 
 ## Related topics
 
-[The Dialog for follow-ups](../chap02/Dialog-for-followups.md)
+[The Dialog for follow-ups](../diary/Dialog-for-followups.md)
 
-[The Document dialog](../chap02/Document-dialog.md)
+[The Document dialog](../diary/Document-dialog.md)

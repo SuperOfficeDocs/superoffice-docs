@@ -1,5 +1,5 @@
 ---
-uid: help-en-activities-in-superoffice-crm
+uid: help-en-index
 title: Activities in SuperOffice CRM
 description: Activities in SuperOffice CRM
 author: SuperOffice RnD
@@ -21,9 +21,9 @@ The **Activities** section tab is available in the **Company** screen, the **Con
 
 * The **Activities** section tab in the **Project** and **Sale** screens displays activities linked to the project or sale in question. See [Activities (Project)](../chap05/Activities-Project.md) and [Activities section tab (Sale)](../sale/activities-sale.md).
 
-* The **Activities** section tab in the **Diary** screen displays all your uncompleted activities. See [Activities section tab (Diary)](../chap06/activities-list.md).
+* The **Activities** section tab in the **Diary** screen displays all your uncompleted activities. See [Activities section tab (Diary)](activities-list.md).
 
-* Activities are also displayed in the different views in the **Diary** screen. See [Tabs in the Diary screen](../chap06/Tabs-in-the-Diary-screen.md).
+* Activities are also displayed in the different views in the **Diary** screen. See [Tabs in the Diary screen](Tabs-in-the-Diary-screen.md).
 
 There are two types of activities – documents and follow-ups. Follow-ups is a collective term for appointments, phone calls and tasks. In addition, mailings, form submissions and chat records are displayed in the **Activities** section tab.
 

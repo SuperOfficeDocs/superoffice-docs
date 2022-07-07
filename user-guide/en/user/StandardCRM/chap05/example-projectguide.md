@@ -32,7 +32,7 @@ You record a new project and select the **Conference** project type, which is li
 
     1. In the project guide, you click **Create** next to the **Planning meeting** follow-up.  
         The **Appointment** dialog opens, with **Meeting (Internal)** specified as the appointment type and the name of the project prefilled.
-    2. Complete the information and invite participants. This is described under [The Dialog for follow-ups](../chap02/Dialog-for-followups.md).
+    2. Complete the information and invite participants. This is described under [The Dialog for follow-ups](../diary/Dialog-for-followups.md).
     3. Click **Save**.
 
 2. At the meeting you decide on the conference programme (agenda) and you want to create a memo containing this information.
@@ -94,7 +94,7 @@ You record a new project and select the **Conference** project type, which is li
 
     <!-- Fix reuse ID=a6 -->
 
-    Click **Create** next to the **Conference invitation** document and create the document. (See [Edit documents](../chap02/Editing-documents.md)).
+    Click **Create** next to the **Conference invitation** document and create the document. (See [Edit documents](../diary/Editing-documents.md)).
 
 4. Finally, the conference itself is held. You create the **Conference** meeting.
 

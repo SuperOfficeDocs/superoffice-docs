@@ -55,7 +55,7 @@ Here you enter the name of the sale, if any, that the follow-up is linked to. If
 
 \[Time zone selector\]
 
-If time zones have been activated in SuperOffice Settings and maintenance, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field (see [Time zones](../chap06/Time-zones.md)).
+If time zones have been activated in SuperOffice Settings and maintenance, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field (see [Time zones](Time-zones.md)).
 
 **Start / End/Due / Duration**
 

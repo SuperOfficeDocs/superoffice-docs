@@ -30,4 +30,4 @@ Appointments can be displayed in the following places in SuperOffice CRM:
 * on the **Day**/**Week**/**Month**/**View** tabs in the **Diary** screen.
 * in these side panel views: **Day**, **Month**, **Next day** and **Week**.
 
-The [Create appointments](Creating-appointments.md) topic describes how to create an appointment. Other aspects of appointments are explained in general under [Activities in SuperOffice CRM](Activities-in-SuperOffice-CRM.md) and [Work with follow-ups](Follow-ups-in-SuperOffice-CRM.md).
+The [Create appointments](Creating-appointments.md) topic describes how to create an appointment. Other aspects of appointments are explained in general under [Activities in SuperOffice CRM](index.md) and [Work with follow-ups](Follow-ups-in-SuperOffice-CRM.md).

@@ -38,4 +38,4 @@ The following data is displayed:
 
 Sales not marked as completed are shown in this list.
 
-The **Sales** section tab functions as a kind of "sales secretary" to help you keep an overview of your sales. For more details, see [Sales secretary](Sales-secretary.md).
+The **Sales** section tab functions as a kind of "sales secretary" to help you keep an overview of your sales. For more details, see [Sales secretary](sales-secretary.md).

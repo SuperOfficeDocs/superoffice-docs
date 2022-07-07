@@ -17,7 +17,7 @@ The **Activities** section tab shows all activities that are linked to the activ
 
 The following columns are displayed on the **Activities** section tab:
 
-* ![icon](../media/Salg-solgt-detaljkort.bmp) : **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more information about how to change this status, see [Change Completed status of an activity](../chap02/Marking-activities-as-completed-not-completed.md).
+* ![icon](../media/Salg-solgt-detaljkort.bmp) : **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more information about how to change this status, see [Change Completed status of an activity](../diary/Marking-activities-as-completed-not-completed.md).
 
 <!-- -->
 

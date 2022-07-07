@@ -21,6 +21,6 @@ Several sections of SuperOffice CRM, for example, the **Company** screen, contai
 
 [The More tab (Project)](../chap05/More-tab-Project.md)
 
-[The More tab (follow-ups)](../chap02/More-tab-follow-ups.md)
+[The More tab (follow-ups)](../diary/More-tab-follow-ups.md)
 
-[The More tab (Document)](../chap02/More-tab-Document.md)
+[The More tab (Document)](../diary/More-tab-Document.md)

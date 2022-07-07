@@ -17,7 +17,7 @@ Wherever you are in the system, these options will appear at the top of the scre
 |---|---|
 | ![icon][img3] | **New**: Click this button to quickly create new companies, contacts, sales, projects, selections, and activities (appointments, phone calls, tasks, documents and e-mails). |
 | ![icon](../media/GlobalMenu-Find.png) | **Find**: Click this button to search for companies, contacts, projects, selections, follow-ups, sales and documents in SuperOffice CRM. See [Use the Find screen](Find-dialog.md). |
-| ![icon](../../media/globalmenu-notice.png) | No invitations<br /> **Notifications**: Click here to open a list of new notifications in SuperOffice CRM, such as invitations and approved sales/quotes. Click an item in the list to open the relevant record. See [Receive invitations](../chap02/Receiving-invitations.md). |
+| ![icon](../../media/globalmenu-notice.png) | No invitations<br /> **Notifications**: Click here to open a list of new notifications in SuperOffice CRM, such as invitations and approved sales/quotes. Click an item in the list to open the relevant record. See [Receive invitations](../diary/Receiving-invitations.md). |
 | ![icon](../../media/globalmenu-notice-new.png) | Unread invitations |
 | ![icon](../../media/globalmenu-notice-pending.png) | Unanswered invitations |
 | ![icon][img2] | **Personal settings**: Click here to edit your personal settings, such as preferences, e-mail signature and password. If you added an image in your own contact card, this image will appear on the **Personal settings** button. See [Options in the Personal settings menu](Options-in-the-Personal-settings-menu.md). |

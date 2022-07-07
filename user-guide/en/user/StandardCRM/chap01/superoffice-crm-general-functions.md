@@ -13,29 +13,18 @@ language: en
 
 SuperOffice CRM consists of the following main sections which you will quickly become familiar with:
 
-[Dashboard](../Dashboard/Dashboards.md)
-
-[Company](../chap03/Companies.md)
-
-[Contact](../person/Contact-main.md)
-
-[Diary](../chap06/Diary.md)
-
-[Sale](../sale/sale.md)
-
-* [Quote](../quote/quote-main.md)
-
-[Project](../chap05/Project.md)
-
-[Selection](../chap04/Selection.md)
-
-[Inbox](../Inbox-TOP.md)
-
-[Chat](../../Chat/Chat.md)
-
-[Reports](../chap09/Reports.md)
-
-[Marketing](../../Mailing/Helptopics/SO-Mailing.md)
+* [Dashboard](../Dashboard/Dashboards.md)
+* [Company](../chap03/Companies.md)
+* [Contact](../person/Contact-main.md)
+* [Diary](../diary/Diary.md)
+* [Sale](../sale/sale.md)
+  * [Quote](../quote/quote-main.md)
+* [Project](../chap05/Project.md)
+* [Selection](../chap04/Selection.md)
+* [Inbox](../Inbox-TOP.md)
+* [Chat](../../Chat/Chat.md)
+* [Reports](../chap09/Reports.md)
+* [Marketing](../../Mailing/Helptopics/SO-Mailing.md)
 
 You can easily switch between these screens by clicking the buttons in the Navigator (see [The Navigator](Navigator.md)).
 
@@ -43,8 +32,6 @@ Access to other useful functions is also just a click away thanks to the **New**
 
 ## Related topics
 
-[Log in](Logging-in.md)
-
-[The Main screen](Main-screen.md)
-
-[Search options in SuperOffice CRM](Search-options-in-CRM.md)
+* [Log in](Logging-in.md)
+* [The Main screen](Main-screen.md)
+* [Search options in SuperOffice CRM](Search-options-in-CRM.md)

@@ -30,7 +30,7 @@ Phone calls can be displayed in the following places in SuperOffice CRM:
 * on the **Day**/**Week**/**Month**/**View** tabs in the **Diary** screen.
 * in these side panel views: **Day**, **Month**, **Next day** and **Week**.
 
-The [Enter phone calls](Entering-phone-calls.md) topic describes how to enter a phone call. Other aspects of phone calls are explained in general under [Activities in SuperOffice CRM](Activities-in-SuperOffice-CRM.md) and [Work with follow-ups](Follow-ups-in-SuperOffice-CRM.md).
+The [Enter phone calls](Entering-phone-calls.md) topic describes how to enter a phone call. Other aspects of phone calls are explained in general under [Activities in SuperOffice CRM](index.md) and [Work with follow-ups](Follow-ups-in-SuperOffice-CRM.md).
 
 <!-- Referenced links -->
 [1]:

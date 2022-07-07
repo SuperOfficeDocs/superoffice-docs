@@ -19,7 +19,7 @@ The activities list does not change when you switch between the different tabs i
 
 The activities list columns contain the following information:
 
-* ![icon](../media/Salg-solgt-detaljkort.bmp) : The first column in the activities list specifies the **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more details on the **Completed** status, see [Change Completed status of an activity](../chap02/Marking-activities-as-completed-not-completed.md).
+* ![icon](../media/Salg-solgt-detaljkort.bmp) : The first column in the activities list specifies the **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more details on the **Completed** status, see [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md).
 
 > [!TIP]
 > To change the **Completed** status of an activity simply click the box.
@@ -27,7 +27,7 @@ The activities list columns contain the following information:
 * The second column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
 * <!-- Fix reuse ID=a1 -->
     [!include[Table showing icons for activities](../../includes/table-activity-icons.md)]
-* The remainder of the columns in the activities list show other information about the activity (see the field descriptions in [The Dialog for follow-ups](../chap02/Dialog-for-followups.md)). If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
+* The remainder of the columns in the activities list show other information about the activity (see the field descriptions in [The Dialog for follow-ups](Dialog-for-followups.md)). If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
 Once an activity is completed, it will be removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date. But you can also choose to display future tasks:
 

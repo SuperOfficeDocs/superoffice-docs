@@ -13,7 +13,7 @@ language: en
 
 In the **Reports** screen, you can only run previously defined reports (see [Run reports](Running-reports.md)); you cannot define completely new reports.
 
-To save a report as a document (type = Report) in SuperOffice CRM, click the **Save** button in the **Reports** screen. See [Create new documents](../chap02/Creating-new-documents.md).
+To save a report as a document (type = Report) in SuperOffice CRM, click the **Save** button in the **Reports** screen. See [Create new documents](../diary/Creating-new-documents.md).
 
 You can define new reports in SuperOffice Reporter Studio and import them in SuperOffice Settings and maintenance (**Options** &gt; **Reports**).
 

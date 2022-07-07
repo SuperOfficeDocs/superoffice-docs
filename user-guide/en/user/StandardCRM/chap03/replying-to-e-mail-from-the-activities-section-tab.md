@@ -20,4 +20,4 @@ E-mail messages that are saved as documents for a specific company are displayed
 5. Enter the required information.
 6. When you have finished the message, and want to send it, you have the following options:
     * To send the message straightaway, click the **Send** button.
-    * To send the message and archive it as a document in SuperOffice CRM, click **Send and archive**. The **Document** dialog opens. See [Create new documents](../chap02/Creating-new-documents.md).
+    * To send the message and archive it as a document in SuperOffice CRM, click **Send and archive**. The **Document** dialog opens. See [Create new documents](../diary/Creating-new-documents.md).

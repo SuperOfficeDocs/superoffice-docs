@@ -32,28 +32,16 @@ To change the default number of records, do as follows:
 
 ## Related topics
 
-[Sort lists](Sorting-lists.md)
-
-[Grouping lists](Sections-tabs-Grouping-lists.md)
-
-[Use filters in the section tabs](Use-filters-in-the-section-tabs.md)
-
-[Adjust column widths](Adjusting-column-widths.md)
-
-[Configure columns](Changing-the-column-view.md)
-
-[Export section tabs](Export-archives.md)
-
-[Filter activities](../chap03/Using-the-Filter-function-Contact.md)
-
-[Section tabs in the Company screen](../chap03/Section-tabs-in-the-Company-screen.md)
-
-[Section tabs in the Contact screen](../person/Section-tabs-in-the-Contact-screen.md)
-
-[Section tabs in the Diary screen](../chap06/Section-tabs-in-the-Diary-screen.md)
-
-[Section tabs in the Sale screen](../sale/sale-screen-section-tabs.md)
-
-[Section tabs in the Project screen](../chap05/Project-screen-section-tabs.md)
-
-[Section tabs in the Selection screen](../chap04/Section-tabs-in-the-Selection-screen.md)
+* [Sort lists](Sorting-lists.md)
+* [Grouping lists](Sections-tabs-Grouping-lists.md)
+* [Use filters in the section tabs](Use-filters-in-the-section-tabs.md)
+* [Adjust column widths](Adjusting-column-widths.md)
+* [Configure columns](Changing-the-column-view.md)
+* [Export section tabs](Export-archives.md)
+* [Filter activities](../chap03/Using-the-Filter-function-Contact.md)
+* [Section tabs in the Company screen](../chap03/Section-tabs-in-the-Company-screen.md)
+* [Section tabs in the Contact screen](../person/Section-tabs-in-the-Contact-screen.md)
+* [Section tabs in the Diary screen](../diary/Section-tabs-in-the-Diary-screen.md)
+* [Section tabs in the Sale screen](../sale/sale-screen-section-tabs.md)
+* [Section tabs in the Project screen](../chap05/Project-screen-section-tabs.md)
+* [Section tabs in the Selection screen](../chap04/Section-tabs-in-the-Selection-screen.md)

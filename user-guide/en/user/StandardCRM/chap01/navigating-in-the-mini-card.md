@@ -42,10 +42,10 @@ You can choose from the following views. Click the views for more information.
 
     In a dynamic selection, you can choose to show companies only, without specifying a contact. If **Include main contact** is not checked in the dynamic selection (see [Creating dynamic selections](../chap04/Creating-dynamic-selections.md)), no information will be displayed in the **Contact** view for the side panel, even if you have selected a contact.
 * <!-- Fix reuse ID=a3 -->
-    Shows a day's agenda which works in the same way as the [Day](../chap06/Day-tab.md) tab in the [Diary](../chap06/Diary.md) screen
+    Shows a day's agenda which works in the same way as the [Day](../diary/Day-tab.md) tab in the [Diary](../diary/Diary.md) screen
 
     > [!NOTE]
-    > You can only show your own diary in the side panel. If you want to view other people's diaries, you can do this in the [Diary](../chap06/Diary.md) screen.
+    > You can only show your own diary in the side panel. If you want to view other people's diaries, you can do this in the [Diary](../diary/Diary.md) screen.
 * <!-- Fix reuse ID=a5 -->
     Shows a monthly agenda, giving you an overview of follow-ups for the next month(s). You can expand the side panel to show multiple months.
 
@@ -69,7 +69,7 @@ You can choose from the following views. Click the views for more information.
 * <!-- Fix reuse ID=a7 -->
     Opens the [Notepad](Notepad.md) in the side panel.
 * <!-- Fix reuse ID=a6 -->
-    Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links, opens the [contact card](../person/contact-create-contacts.md), [Document dialog](../chap02/Document-dialog.md), or [follow-ups dialog](../chap02/Dialog-for-followups.md), where you can view and edit the contact or activity.
+    Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links, opens the [contact card](../person/contact-create-contacts.md), [Document dialog](../diary/Document-dialog.md), or [follow-ups dialog](../diary/Dialog-for-followups.md), where you can view and edit the contact or activity.
 * <!-- Fix reuse ID=a10 -->
     Shows a summary of information about the current project in the **Project** screen.
 
