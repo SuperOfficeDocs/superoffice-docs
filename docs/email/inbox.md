@@ -1,6 +1,6 @@
 ---
-title: mailkit
-description: MailKit
+title: SuperOffice Inbox
+description: SuperOffice Inbox
 author: Bergfrid Dias
 so.date: 12.09.2021
 keywords: email
@@ -8,6 +8,10 @@ so.topic: concept
 # so.envir:
 # so.client:
 ---
+
+# SuperOffice Inbox
+
+How to configure your email setup in SuperOffice Inbox: [Helpfile][5]
 
 # MailKit
 
@@ -87,6 +91,7 @@ Read section [Mail logging][1]
 [2]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=166
 [3]: https://cs.superoffice.com/
 [4]: ../api/config/mail.md
+[5]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap07web%2FInbox_CRM_web.htm
 
 <!-- Referenced images -->
 [img1]: media/mailkit.jpg
