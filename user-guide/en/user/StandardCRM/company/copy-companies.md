@@ -17,7 +17,7 @@ At some stage, you may want to copy an existing company to a new company. For ex
 
 To copy the company:
 
-1. Go to the required company. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required company. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 
 2. Select **Manage companies** from the ![icon][img1] **Task** button, and click **Copy company**.  
     The **Copy company** dialog opens. The source company is specified under **From**.

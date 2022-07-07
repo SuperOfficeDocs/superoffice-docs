@@ -24,7 +24,7 @@ Before you start using the sales targets feature, you must set up a few things i
 * Creating, editing and deleting sales targets requires specific data rights. This can be changed in **Roles** in SuperOffice Settings and Maintenance.
 
 > [!TIP]
-> Use the **Freetext search** field to find sales targets for specific groups and users in a specific year. See [Freetext search](../chap01/Freetext-search.md).
+> Use the **Freetext search** field to find sales targets for specific groups and users in a specific year. See [Freetext search](../key-functions/Freetext-search.md).
 
 ## Add sales targets for a year
 

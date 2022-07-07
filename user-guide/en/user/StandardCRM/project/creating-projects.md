@@ -21,7 +21,7 @@ To create projects:
 
     Type in the name of the project in the field at the top of the **Project** tab. ***Project Name*** is shown in red, indicating that this field is mandatory.
 
-    If you try to create a project with the same, or similar, name as an existing project, the **Duplicates** dialog opens. This works in the same way as for companies. For more details, see [Duplicates](../chap01/Duplicates.md).
+    If you try to create a project with the same, or similar, name as an existing project, the **Duplicates** dialog opens. This works in the same way as for companies. For more details, see [Duplicates](../key-functions/Duplicates.md).
 
     Number
 

@@ -15,7 +15,7 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 To do this:
 
-1. Go to the project you want merge into another project. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the project you want merge into another project. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 
 2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**. The **Merge projects** dialog opens.
 

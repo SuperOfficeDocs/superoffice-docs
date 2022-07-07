@@ -11,7 +11,7 @@ language: en
 
 # Dial contacts
 
-If your IP phone solution is correctly configured (see [Phone preferences](../chap01/Phone-preferences.md)), you can call a contact directly from SuperOffice CRM.
+If your IP phone solution is correctly configured (see [Phone preferences](../key-functions/Phone-preferences.md)), you can call a contact directly from SuperOffice CRM.
 
 ## Dial a contact from the Appointment, Task, Phone Call and Document dialogs
 

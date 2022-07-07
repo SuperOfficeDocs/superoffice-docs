@@ -33,4 +33,4 @@ To quickly upload a document to SuperOffice CRM, do as follows:
 
 [Edit documents](Editing-documents.md)
 
-[Web Tools](../chap01/Web-Tools.md)
+[Web Tools](../key-functions/Web-Tools.md)

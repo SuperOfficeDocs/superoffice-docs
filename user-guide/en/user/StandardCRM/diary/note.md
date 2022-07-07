@@ -16,7 +16,7 @@ To insert an important comment in SuperOffice CRM, use the note function.
 The note function attaches a note to the current company, contact, sale, project or selection card.
 
 > [!NOTE]
-> To create a note without fastening it to any specific item in SuperOffice CRM, use the Notepad function instead (see [Notepad](../chap01/Notepad.md)).
+> To create a note without fastening it to any specific item in SuperOffice CRM, use the Notepad function instead (see [Notepad](../key-functions/Notepad.md)).
 
 ## Create a note Web
 

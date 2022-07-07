@@ -16,7 +16,7 @@ The **Sales** section tab shows sales connected to the contact.
 [!include[Contents of the Sales section tab](../../includes/sales-tab.md)]
 
 > [!TIP]
->  You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../chap01/Changing-the-column-view.md). .
+>  You can configure the columns on the section tab to display just the information that interests you. See [Configure columns](../key-functions/Changing-the-column-view.md). .
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
 

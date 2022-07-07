@@ -18,7 +18,7 @@ To do this:
 1. Go to the required sale.
 2. Click the **Task** button (![icon][img1]).
 3. Select **Delete 'sale name'**.
-4. When you are asked if you really want to delete the sale, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM](../chap01/Deleting-elements-in-CRM.md).)
+4. When you are asked if you really want to delete the sale, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM](../key-functions/Deleting-elements-in-CRM.md).)
 
 <!-- Referenced links -->
 [1]:

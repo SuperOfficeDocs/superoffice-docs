@@ -38,4 +38,4 @@ Now we are going to amend slightly the standard report criteria, so that you can
 
 8. Click **OK**.
 
-For more information about search criteria and field types, see [Use search criteria](../chap01/Using-search-criteria.md).
+For more information about search criteria and field types, see [Use search criteria](../key-functions/Using-search-criteria.md).

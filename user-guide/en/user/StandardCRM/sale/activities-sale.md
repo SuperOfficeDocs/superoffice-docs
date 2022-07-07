@@ -31,7 +31,7 @@ The following columns are displayed on the **Activities** section tab:
 * ID specifies which user owns the activity.
 
 > [!TIP]
-> You can choose how many and which columns to display. See [Configure columns](../chap01/Changing-the-column-view.md).
+> You can choose how many and which columns to display. See [Configure columns](../key-functions/Changing-the-column-view.md).
 
 ## What would you like to do now?
 

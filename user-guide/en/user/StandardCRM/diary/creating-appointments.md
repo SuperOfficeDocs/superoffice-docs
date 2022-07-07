@@ -13,7 +13,7 @@ language: en
 
 To create a new appointment from anywhere in SuperOffice CRM:
 
-* Choose **New** &gt; **Appointment** on the [top bar](../chap01/Buttons-in-the-menu-bar.md).
+* Choose **New** &gt; **Appointment** on the [top bar](../key-functions/Buttons-in-the-menu-bar.md).
 * Click the **Task** button ( ![icon][img1]) ) in the contact card, and select **Request a meeting**.
 * Click the **Add** button in the **Activities** section tab.
 

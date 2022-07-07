@@ -57,7 +57,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 
 ## What would you like to do now?
 
-* [Use filters in the section tabs](../chap01/Use-filters-in-the-section-tabs.md)
+* [Use filters in the section tabs](../key-functions/Use-filters-in-the-section-tabs.md)
 * [Delete activities](Deleting-activities.md)
 * [Dial contacts](Dialling-Contacts.md)
 * [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md)

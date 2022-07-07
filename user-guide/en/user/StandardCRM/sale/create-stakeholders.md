@@ -13,7 +13,7 @@ language: en
 
 To link the sale to stakeholders:
 
-1. Go to the required sale in the **Sale** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required sale in the **Sale** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 
 2. Select the **Stakeholders** section tab.  
     <!-- Fix reuse ID=a1 -->

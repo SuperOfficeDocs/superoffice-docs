@@ -11,4 +11,4 @@ language: en
 
 # The Note tab (Project screen)
 
-Here you can enter information of any kind. The contents of this field is searchable via [Freetext search](../chap01/Freetext-search.md).
+Here you can enter information of any kind. The contents of this field is searchable via [Freetext search](../key-functions/Freetext-search.md).

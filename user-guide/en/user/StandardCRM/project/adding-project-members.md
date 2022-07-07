@@ -11,7 +11,7 @@ language: en
 
 # Add project members and stakeholders from section tabs
 
-You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen](../chap01/Find-dialog.md).
+You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen](../key-functions/Find-dialog.md).
 
 You do this as follows:
 

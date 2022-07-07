@@ -11,7 +11,7 @@ language: en
 
 # Delete activities in the activities list
 
-To delete activities in the activities list, select one or more activities and click **Delete** at the bottom left of the list. A dialog opens asking you to confirm or cancel the deletion. For more details, see [Delete elements in SuperOffice CRM](../chap01/Deleting-elements-in-CRM.md).
+To delete activities in the activities list, select one or more activities and click **Delete** at the bottom left of the list. A dialog opens asking you to confirm or cancel the deletion. For more details, see [Delete elements in SuperOffice CRM](../key-functions/Deleting-elements-in-CRM.md).
 
 > [!NOTE]
 > The **Delete** button is only available if the user who is logged in has permission to delete items from the activities list in question.

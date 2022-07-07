@@ -13,7 +13,7 @@ language: en
 
 E-mail messages that are saved as documents for a specific company are displayed on the **Activities** section tab for that company. To forward such an e-mail:
 
-1. Go to the required company in the **Company** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required company in the **Company** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 2. Select the **Activities** section tab.
 3. Select the required e-mail message.
 4. Right-click and choose **Forward**. The original message is displayed in your e-mail program.

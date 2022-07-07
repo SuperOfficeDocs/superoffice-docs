@@ -44,4 +44,4 @@ They will then be shown in a different colour. They are also shown in this way o
 
 ## What would you like to do now?
 
-[Configure columns](../chap01/Changing-the-column-view.md)
+[Configure columns](../key-functions/Changing-the-column-view.md)

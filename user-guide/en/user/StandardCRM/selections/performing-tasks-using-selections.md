@@ -22,7 +22,7 @@ The **Task** button contains tasks such as sending e-mails, mass-editing and exp
 
 From the **Task** button in the **Selection** screen or the **Find** screen, you perform tasks as follows:
 
-1. Go to the required selection. You can, for example, search for a selection from the **Selection** button in the navigator or search as described under [Use the Find screen](../chap01/Find-dialog.md).
+1. Go to the required selection. You can, for example, search for a selection from the **Selection** button in the navigator or search as described under [Use the Find screen](../key-functions/Find-dialog.md).
 
 2. Select the tab containing the records you want to work with.
 
@@ -47,7 +47,7 @@ The following tasks are available under these categories:
 
 ### Manage
 
-[Bulk update](../chap01/Bulk-update.md)
+[Bulk update](../key-functions/Bulk-update.md)
 
 [Copy selections](Copying-selections.md)
 

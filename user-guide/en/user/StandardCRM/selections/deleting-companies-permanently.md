@@ -19,7 +19,7 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
 1. Open the **Selection** screen.  
     <!-- Fix reuse ID=a1 -->
     [!include[Howto](../../includes/goto-selections.md)]
-2. Go to a selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
+2. Go to a selection. You can, for example, search as described under [Use the Find screen](../key-functions/Find-dialog.md).
 3. If you want to delete just some of the selection members, select them in the list of members.
 4. Click the **Task** button and select **Delete all**.
 5. When you are asked whether you want to delete the records, click **Yes**.
@@ -28,7 +28,7 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
 [!include[Note about restore](../../includes/note-restore.md)]
 
 <!-- Referenced links -->
-[1]: ../chap01/using-the-history-list.md
-[2]: ../chap01/using-fastsearcher.md
+[1]: ../key-functions/using-the-history-list.md
+[2]: ../key-functions/using-fastsearcher.md
 
 <!-- Referenced images -->

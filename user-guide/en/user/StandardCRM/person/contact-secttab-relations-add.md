@@ -13,7 +13,7 @@ language: en
 
 To add a relation:
 
-1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 
 2. Select the **Relations** section tab.
 
@@ -22,7 +22,7 @@ To add a relation:
     > [!NOTE]
     > A relation must always consist of two parties, one active and one passive, for example: Contact A owns Company B, while Company B is owned by Contact A.
 
-4. Select companies and contacts under **Active part** and **Passive part** as required. Specify them either by clicking the arrow and selecting the required company or contact in the displayed list box, by typing in the whole or the beginning of the name. (See [FastSearcher](../chap01/Using-FastSearcher.md) and [The History list](../chap01/Using-the-history-list.md)).
+4. Select companies and contacts under **Active part** and **Passive part** as required. Specify them either by clicking the arrow and selecting the required company or contact in the displayed list box, by typing in the whole or the beginning of the name. (See [FastSearcher](../key-functions/Using-FastSearcher.md) and [The History list](../key-functions/Using-the-history-list.md)).
 
 5. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. The available alternatives are defined in SuperOffice Settings and maintenance.
 
@@ -39,6 +39,6 @@ To add a relation:
 
 You can delete relations which have been set up, as follows:
 
-1. Go to the required contact in the **Contact** screen. (use the [FastSearcher](../chap01/Using-FastSearcher.md) in the navigator or [the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required contact in the **Contact** screen. (use the [FastSearcher](../key-functions/Using-FastSearcher.md) in the navigator or [the Find screen](../key-functions/Find-dialog.md).)
 2. Right-click the required relation on the **Relations** section tab and select **Delete**. The **Delete Relation** dialog opens.
-3. Click **Yes** to confirm that you really want to delete the relation. (For more details about this, see [Delete items in SuperOffice CRM](../chap01/Deleting-elements-in-CRM.md).)
+3. Click **Yes** to confirm that you really want to delete the relation. (For more details about this, see [Delete items in SuperOffice CRM](../key-functions/Deleting-elements-in-CRM.md).)

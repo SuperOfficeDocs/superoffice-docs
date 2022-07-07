@@ -25,7 +25,7 @@ To add search criteria to reports:
 > It is not recommended that you run reports without specifying search criteria, as this may generate extremely large reports and result in time-consuming processing.
 
 1. Click the **Add** button at the bottom of the criteria list. The **Add/edit search criteria** dialog appears.
-2. Enter the required information as described under [Use search criteria](../chap01/Using-search-criteria.md).
+2. Enter the required information as described under [Use search criteria](../key-functions/Using-search-criteria.md).
 
 > [!NOTE]
 > The criteria you can choose from vary according to the tab and report you have selected.

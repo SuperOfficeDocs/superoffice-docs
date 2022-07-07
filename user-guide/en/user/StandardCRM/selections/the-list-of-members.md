@@ -21,7 +21,7 @@ The first tab in a selection contains a list of members (records, data)in the ac
 > [!NOTE]
 > Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimise performance when working with large selections, only the first 100 records are usually loaded in the list of members.
 
-To activate the column filter, click ![icon](../../media/btn-columnheaderoptions.png) on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon](../../media/btn-columnheaderfilter.png)) is now displayed on column which can be filtered. See [Use column filters in the section tabs](../chap01/Use-column-filters-in-the-section-tabs.md).
+To activate the column filter, click ![icon](../../media/btn-columnheaderoptions.png) on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon](../../media/btn-columnheaderfilter.png)) is now displayed on column which can be filtered. See [Use column filters in the section tabs](../key-functions/Use-column-filters-in-the-section-tabs.md).
 
 ## The Task button
 
@@ -45,7 +45,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 ## Related topics
 
-[Use filters in the section tabs](../chap01/Use-filters-in-the-section-tabs.md)
+[Use filters in the section tabs](../key-functions/Use-filters-in-the-section-tabs.md)
 
 [Create selections](Create-selections.md)
 

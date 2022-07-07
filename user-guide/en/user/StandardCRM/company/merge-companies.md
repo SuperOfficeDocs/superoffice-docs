@@ -17,7 +17,7 @@ If there are duplicate records of companies in the database, you can merge them.
 
 To merge companies:
 
-1. Go to the company you want to move to another company. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the company you want to move to another company. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 
 2. Select **Manage companies** from the ![icon](../../../../media/icons/btn-menu.png)**Task** button, and click **Merge companies**.  
     The **Merge companies** dialog opens. The source company is specified under **From**.
@@ -26,7 +26,7 @@ To merge companies:
 
     ![icon](../media/Chap03-contacts/21-chap3-merge-companies.bmp)
 
-3. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to search for a company (see [FastSearcher](../chap01/Using-FastSearcher.md)).
+3. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to search for a company (see [FastSearcher](../key-functions/Using-FastSearcher.md)).
 
     > [!TIP]
     > If you want to switch the **From** and **To** companies, click the ![icon](../media/Slå-sammen-Bytte.bmp) button.

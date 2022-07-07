@@ -17,9 +17,9 @@ When you create a new contact, he/she is added at the bottom of the **Contacts**
     <!-- Fix reuse ID=a1 -->
     On the far right of the list is a column with numerical values that show the ranking of the various contacts. If these are in ascending order, so that the contact at the top of the list is numbered 1 and the number increases down the list, they are sorted correctly.
 
-    If you cannot see the number column, you must first add the Rank column. See [Configure columns](../chap01/Changing-the-column-view.md).
+    If you cannot see the number column, you must first add the Rank column. See [Configure columns](../key-functions/Changing-the-column-view.md).
 
-    If the numbers are in a different order, you can click the column heading immediately above to sort the list correctly. For more information about how to sort lists, see [Sort lists](../chap01/Sorting-lists.md).
+    If the numbers are in a different order, you can click the column heading immediately above to sort the list correctly. For more information about how to sort lists, see [Sort lists](../key-functions/Sorting-lists.md).
 2. Select the required contact.
 3. Right-click and choose **Shift Up/Shift Down** until the contact is in the desired position.
 
@@ -27,6 +27,6 @@ The changes you make here define the default ranking, which means that they will
 
 ## Related topics
 
-[Sort lists](../chap01/Sorting-lists.md)
+[Sort lists](../key-functions/Sorting-lists.md)
 
-[Configure columns](../chap01/Changing-the-column-view.md)
+[Configure columns](../key-functions/Changing-the-column-view.md)

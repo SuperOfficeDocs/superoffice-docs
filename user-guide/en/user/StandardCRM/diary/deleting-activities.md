@@ -19,4 +19,4 @@ You can delete activities from any screen where they are displayed (see [Activit
 > [!NOTE]
 > On the **Activities** section tab, you can also select the activity and click the **Delete** button on the left, below the list.
 
-A dialog opens asking you to confirm or cancel the deletion. For more details, see [Delete elements in SuperOffice CRM](../chap01/Deleting-elements-in-CRM.md).
+A dialog opens asking you to confirm or cancel the deletion. For more details, see [Delete elements in SuperOffice CRM](../key-functions/Deleting-elements-in-CRM.md).

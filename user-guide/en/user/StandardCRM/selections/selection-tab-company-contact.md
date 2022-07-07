@@ -37,7 +37,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 [Perform tasks using selections](Performing-tasks-using-selections.md)
 
-[Use filters in the section tabs](../chap01/Use-filters-in-the-section-tabs.md)
+[Use filters in the section tabs](../key-functions/Use-filters-in-the-section-tabs.md)
 
 [Create selections](Create-selections.md)
 

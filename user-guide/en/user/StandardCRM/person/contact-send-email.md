@@ -11,7 +11,7 @@ language: en
 
 # Send e-mail to a contact (Contact screen)
 
-1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 2. Do one of the following:
     * Click the e-mail address in the **Contact** tab. If the contact has more than one e-mail address, you must select which one to use.
     * Click **New** on the top bar and select **E-mail**.

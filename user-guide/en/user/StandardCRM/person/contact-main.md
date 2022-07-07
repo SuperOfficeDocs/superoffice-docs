@@ -17,7 +17,7 @@ In the **Contact** screen, every record in the database is displayed like an ind
 
 To move backwards and forwards between contacts, click the previous/next buttons ( ![icon](../media/Pil-venstre.bmp)![icon](../media/Pil-hoeyre.bmp) ) at the bottom right of the cards
 
-You can [search](../chap01/Search-options-in-CRM.md) for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
+You can [search](../key-functions/Search-options-in-CRM.md) for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
 
 The bottom of the **Contact** screen contains five default section tabs: **Activities**, **Sales**, **Requests**, **Projects** and **Relations**. Everything you need to find out about a contact is available from a single screen.
 

@@ -18,7 +18,7 @@ To delete an existing selection:
     [!include[Howto](../../includes/goto-selections.md)]
 2. Click the **Task** button.
 3. Select **Delete this selection**.
-4. When you are asked if you really want to delete the selection, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM](../chap01/Deleting-elements-in-CRM.md).)
+4. When you are asked if you really want to delete the selection, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM](../key-functions/Deleting-elements-in-CRM.md).)
 
 <!-- Referenced links -->
 

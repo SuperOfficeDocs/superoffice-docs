@@ -13,7 +13,7 @@ language: en
 
 To print out information about a contact:
 
-1. Go to the required company in the **Company** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required company in the **Company** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 2. Select the **Contacts** section tab.
 3. Right-click the required contact and select **Print**.
 4. In the window which displays the contents to be printed, click **Print**.

@@ -17,4 +17,4 @@ The **Bulk update** task allows you to change specific values across multiple re
 2. Optional: If you want to update specific records, select them in the list.
 3. Select the **Bulk update** task. The **Bulk update** dialog opens.
 
-See [Bulk update](../chap01/Bulk-update.md) for the rest of this procedure.
+See [Bulk update](../key-functions/Bulk-update.md) for the rest of this procedure.

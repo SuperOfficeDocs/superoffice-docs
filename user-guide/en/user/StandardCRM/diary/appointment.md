@@ -14,7 +14,7 @@ language: en
 Appointments are activities with a defined start and end time, such as meetings. The default duration for an appointment is 1 hour, but you can of course change the duration as required.
 
 > [!TIP]
-> This is done in the **Preferences** dialog, which you open by choosing **Preferences** on the **Personal settings** menu. Select **Default values**, and enter the required value under **Duration for new appointment** as described under [Preferences](../chap01/Preferences.md).
+> This is done in the **Preferences** dialog, which you open by choosing **Preferences** on the **Personal settings** menu. Select **Default values**, and enter the required value under **Duration for new appointment** as described under [Preferences](../key-functions/Preferences.md).
 
 ![icon](../media/Knapperad-Avtale.bmp)
 

@@ -99,4 +99,4 @@ To do this:
 
 ## Related topics
 
-[Web Tools](../chap01/Web-Tools.md)
+[Web Tools](../key-functions/Web-Tools.md)

@@ -26,7 +26,7 @@ The main section contains the following essential information about the document
 
 **\[Document template\]**
 
-Click the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher](../chap01/Using-FastSearcher.md).
+Click the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher](../key-functions/Using-FastSearcher.md).
 
 > [!NOTE]
 > The templates may have been created in various programs, for example, Word or Excel, so when you create a document (see [Create new documents](Creating-new-documents.md)), the template is opened in the program it was created in. This means, for example, that DOCX files will open in Word.

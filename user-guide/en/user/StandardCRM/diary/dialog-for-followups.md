@@ -25,7 +25,7 @@ The main section contains the following essential information about the follow-u
 
 **\[Type\]**
 
-Click the arrow next to this field ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher](../chap01/Using-FastSearcher.md).
+Click the arrow next to this field ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher](../key-functions/Using-FastSearcher.md).
 
 > [!NOTE]
 > It is the **\[Type\]** field which determines the type of follow-up in question, i.e. an appointment, task or phone call.
@@ -69,7 +69,7 @@ Enter a date and, where appropriate, a time in the **Start** field and the **End
 If you check **All day**, the time of the appointment is set to the period specified as the default working day.
 
 > [!TIP]
-> These default values are specified in the [Preferences](../chap01/Preferences.md) dialog. Select **Diary**, and enter the required times for **All-day start time** and **All-day end time**.
+> These default values are specified in the [Preferences](../key-functions/Preferences.md) dialog. Select **Diary**, and enter the required times for **All-day start time** and **All-day end time**.
 
 **Location**
 

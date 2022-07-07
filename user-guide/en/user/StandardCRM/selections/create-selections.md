@@ -22,7 +22,7 @@ To create a new static or dynamic selection:
 
 2. Click the **Find** option that is relevant for the data type you want to use in your selection. You can also click **Typical searches** to use pre-defined searches.
 
-3. Add your search criteria in the **Criteria** tab as described in [Use search criteria](../chap01/Using-search-criteria.md).
+3. Add your search criteria in the **Criteria** tab as described in [Use search criteria](../key-functions/Using-search-criteria.md).
 
 4. Click **Find**. The **Results** tab displays the data matching your criteria.
 
@@ -36,7 +36,7 @@ To create a new static or dynamic selection:
 7. Click **Save**.
 
 8. Type the name of the new selection where ***Selection name*** appears. This field is mandatory.  
-    If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. For more details, see [Duplicates](../chap01/Duplicates.md).
+    If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. For more details, see [Duplicates](../key-functions/Duplicates.md).
 
 9. In the **Selection is** field, you can change to another type of selection if necessary.
 
@@ -59,7 +59,7 @@ To create a new static or dynamic selection:
     [!include[List of tabs on Selection](../../includes/selections-tabs.md)]
 
 > [!TIP]
-> Click ![icon](../../media/btn-columnheaderoptions.png) on the far right of the column headers in a selection. Here you can group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs](../chap01/The-Section-tabs.md) for additional functions.
+> Click ![icon](../../media/btn-columnheaderoptions.png) on the far right of the column headers in a selection. Here you can group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs](../key-functions/The-Section-tabs.md) for additional functions.
 
 ## Related topics
 

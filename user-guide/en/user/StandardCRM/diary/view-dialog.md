@@ -47,7 +47,7 @@ Select from
 When you have selected an option for **Select from**, a list box displays below. The contents of this list box will vary depending on what you selected above:
 
 * If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** if you want to display all the users in the organisation.
-* If you selected **Project**, the history list of projects is displayed. Here you can also use [FastSearcher](../chap01/Using-FastSearcher.md) or [The History list](../chap01/Using-the-history-list.md).
+* If you selected **Project**, the history list of projects is displayed. Here you can also use [FastSearcher](../key-functions/Using-FastSearcher.md) or [The History list](../key-functions/Using-the-history-list.md).
 * If you selected **Resource**, a list of resources in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** if you want to see all the resources in your organisation.
 
 \[Left pane\]

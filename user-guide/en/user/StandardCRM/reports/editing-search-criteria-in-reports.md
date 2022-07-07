@@ -31,7 +31,7 @@ To edit search criteria in reports:
 
 5. The **Add/edit search criteria** dialog appears.
 
-6. Edit the required information as described under [Use search criteria](../chap01/Using-search-criteria.md).
+6. Edit the required information as described under [Use search criteria](../key-functions/Using-search-criteria.md).
 
     > [!NOTE]
     > The criteria you can choose from vary according to the tab and report you have selected.

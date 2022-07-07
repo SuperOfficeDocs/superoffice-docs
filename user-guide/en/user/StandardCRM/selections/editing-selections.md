@@ -19,7 +19,7 @@ To edit an existing selection:
 1. Open the **Selection** screen.  
     <!-- Fix reuse ID=a1 -->
     [!include[Howto](../../includes/goto-selections.md)]
-2. Go to the required selection. You can, for example, search as described under [Use the Find screen](../chap01/Find-dialog.md).
+2. Go to the required selection. You can, for example, search as described under [Use the Find screen](../key-functions/Find-dialog.md).
 3. Open the **Details** tab.
 4. Click **Edit**. The **Selection** tab changes to edit mode.
 5. In the **Selection** is list, you can change a dynamic or combined selection into a static selection. <!-- Fix reuse ID=a2 -->
@@ -31,7 +31,7 @@ To edit an existing selection:
 6. When you have made the required changes, click **Save** to close and save the changes. Click **Cancel** if you want to reject your changes.
 
 <!-- Referenced links -->
-[1]: ../chap01/Using-the-history-list.md
-[2]: ../chap01/Using-FastSearcher.md
+[1]: ../key-functions/Using-the-history-list.md
+[2]: ../key-functions/Using-FastSearcher.md
 
 <!-- Referenced images -->

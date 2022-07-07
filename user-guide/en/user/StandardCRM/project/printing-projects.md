@@ -13,7 +13,7 @@ language: en
 
 To print information about a project:
 
-1. Go to the required project. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required project. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 
 2. Click the **Task** button and select **Print**.
 

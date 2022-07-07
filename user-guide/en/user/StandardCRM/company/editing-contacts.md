@@ -13,7 +13,7 @@ language: en
 
 To edit information recorded for a contact, do as follows:
 
-1. Go to the required company in the **Company** screen. (See [Use the Find screen](../chap01/Find-dialog.md).)
+1. Go to the required company in the **Company** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
 2. Select the **Contacts** section tab.
 3. Double-click the required contact. The contact card opens in the **Contact** screen.
 4. Click **Edit**.

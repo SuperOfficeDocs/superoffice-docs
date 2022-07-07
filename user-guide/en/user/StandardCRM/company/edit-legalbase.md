@@ -17,7 +17,7 @@ language: en
 You must have the permission (consent) of a person to store and process their data (in order to sell to and/or provide services to a person). In addition, you need their permission to be able to send them e-marketing material. This topic explains how you set the legal basis and source for the purposes called **Sales and service** and **E-marketing**. Additional purposes might also be available in your system.
 
 > [!TIP]
-> To edit these settings for multiple contacts, use [Bulk update](../chap01/Bulk-update.md).
+> To edit these settings for multiple contacts, use [Bulk update](../key-functions/Bulk-update.md).
 
 [Click here to learn more about GDPR, privacy and consent management in SuperOffice][1]
 
