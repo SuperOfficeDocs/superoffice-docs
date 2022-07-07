@@ -11,7 +11,7 @@ language: en
 
 # SuperOffice account
 
-These options appear in the **SuperOffice account** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)).
+These options appear in the **SuperOffice account** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](email-options-dialog.md)).
 
 Preferred SuperOffice client
 

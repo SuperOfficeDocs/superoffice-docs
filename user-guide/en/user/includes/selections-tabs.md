@@ -6,7 +6,7 @@
 * [Mailings][7]: Here you can create a mailing to contacts in a selection. You can also see the mailings that have been archived on this selection.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/selections/the-list-of-members.md
+[1]: ../standardcrm/selections/list-of-members.md
 [2]: ../standardcrm/selections/selection-tab-company-contact.md
 [3]: ../standardcrm/selections/selection-tab-criteria.md
 [4]: ../standardcrm/selections/selection-tab-details.md

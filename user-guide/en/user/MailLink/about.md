@@ -11,4 +11,4 @@ language: en
 
 # About
 
-The **About** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)) contains information about the current version of SuperOffice Mail Link and about installed components.
+The **About** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](email-options-dialog.md)) contains information about the current version of SuperOffice Mail Link and about installed components.

@@ -11,7 +11,7 @@ language: en
 
 # General settings
 
-These options appear in the **General settings** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)).
+These options appear in the **General settings** pane of the **SuperOffice CRM options** dialog (see [SuperOffice CRM options dialog](email-options-dialog.md)).
 
 **Actions when archiving an e-mail:**
 

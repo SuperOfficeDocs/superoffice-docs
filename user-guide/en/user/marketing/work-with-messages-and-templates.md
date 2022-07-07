@@ -82,7 +82,7 @@ To create a new SMS template from scratch:
 
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
+(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](message-editor-old-vs-new.md)  
 (for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-Drag-Drop-Editor-and-Editor.md)
 
 1. Go to the **Mailings** tab.
@@ -96,7 +96,7 @@ To create a new SMS template from scratch:
 
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](The-message-editor-old-vs-new.md)  
+(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](message-editor-old-vs-new.md)  
 (for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-Drag-Drop-Editor-and-Editor.md)
 
 1. Go to the **Message templates** tab.

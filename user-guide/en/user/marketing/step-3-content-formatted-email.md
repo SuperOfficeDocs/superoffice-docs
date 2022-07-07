@@ -15,7 +15,7 @@ In the **Content** step you can edit the layout and content of the e-mail, and a
 
 ![icon](media/TemplateEditOverview-sidepanel-THUMB.png)
 
-To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop editor and the Editor](The-message-editor-old-vs-new.md).
+To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop editor and the Editor](message-editor-old-vs-new.md).
 
 Below are the relevant topics for this step in the mailings wizard:
 

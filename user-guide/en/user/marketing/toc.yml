@@ -151,9 +151,9 @@ items:
   - name: Test mailing
     href: test-mailing.md
   - name: The mailing workflow
-    href: the-mailing-workflow.md
+    href: mailing-workflow.md
   - name: The message editor   old vs new
-    href: the-message-editor-old-vs-new.md
+    href: message-editor-old-vs-new.md
   - name: Track the mailing and view statistics
     href: track-mailing-and-view-statistics.md
   - name: Use template variables in messages

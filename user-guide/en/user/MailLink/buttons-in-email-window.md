@@ -26,7 +26,7 @@ These buttons appear in the new e-mail window in your mail client (see [Creating
 [3]: default-options.md
 [4]: selecting-recipients.md
 [5]: adding-documents-from-superoffice-sales-marketing-as-attachments.md
-[6]: e-mail-options-dialog.md
+[6]: email-options-dialog.md
 
 <!-- referenced images -->
 [img1]: media//archive-is-on.png

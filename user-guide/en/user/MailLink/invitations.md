@@ -11,7 +11,7 @@ language: en
 
 # Invitations
 
-These options appear in the **Invitations** pane of the **SuperOffice CRM** options**** dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)). Here you can define how invitations are handled.
+These options appear in the **Invitations** pane of the **SuperOffice CRM** options**** dialog (see [SuperOffice CRM options dialog](email-options-dialog.md)). Here you can define how invitations are handled.
 
 Incoming invitations
 

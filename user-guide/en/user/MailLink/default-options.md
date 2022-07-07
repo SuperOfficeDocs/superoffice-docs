@@ -11,7 +11,7 @@ language: en
 
 # Archive options
 
-These options appear in the **Archive options** pane of the **SuperOffice CRM options dialog (see [SuperOffice CRM options dialog](E-mail-options-dialog.md)). You can override the default options by using the buttons in your mail client (see [Buttons on the mail client toolbar](Buttons-on-Microsoft-Outlook-toolbar.md) and [Buttons in the e-mail window](Buttons-in-email-window.md)).
+These options appear in the **Archive options** pane of the **SuperOffice CRM options dialog (see [SuperOffice CRM options dialog](email-options-dialog.md)). You can override the default options by using the buttons in your mail client (see [Buttons on the mail client toolbar](Buttons-on-Microsoft-Outlook-toolbar.md) and [Buttons in the e-mail window](Buttons-in-email-window.md)).
 
 **Archive e-mail by default when:**
 

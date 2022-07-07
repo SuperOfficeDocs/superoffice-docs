@@ -80,7 +80,7 @@ items:
 - name: Status monitor
   href: status-monitor.md
 - name: The browser in SuperOffice CRM
-  href: the-browser-in-superoffice-crm.md
+  href: browser-in-superoffice-crm.md
 - name: Using status monitors in dynamic selections
   href: using-status-monitors-in-dynamic-selections.md
 - name: Using the Filter function Contact

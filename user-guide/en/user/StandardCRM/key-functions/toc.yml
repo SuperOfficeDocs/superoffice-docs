@@ -72,7 +72,7 @@ items:
 - name: Technical requirements
   href: technical-requirements.md
 - name: The Section tabs
-  href: the-section-tabs.md
+  href: section-tabs.md
 - name: Use column filters in the section tabs
   href: use-column-filters-in-section-tabs.md
 - name: Use filters in the section tabs

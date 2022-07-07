@@ -34,7 +34,7 @@ To create projects:
     Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you have finished, or press **TAB** until the table closes.
 
     > [!TIP]
-    > Clicking on a web address when you are in view mode will take you to the relevant web site. This will open in a separate browser in SuperOffice CRM. For more details, see [The Browser in SuperOffice CRM](../company/The-browser-in-SuperOffice-CRM.md).
+    > Clicking on a web address when you are in view mode will take you to the relevant web site. This will open in a separate browser in SuperOffice CRM. For more details, see [The Browser in SuperOffice CRM](../company/browser-in-SuperOffice-CRM.md).
 
     \[Description field\]
 

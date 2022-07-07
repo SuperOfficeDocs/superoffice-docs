@@ -17,4 +17,4 @@ Specific features of SuperOffice CRM are maintained via Windows Client settings.
 
 [Import](../chap04/Import.md)
 
-To read more about the features/modules available in the web-based maintenance client, see [The main sections of SuperOffice Settings and maintenance](The-main-sections-of-SuperOffice-Settings-and-maintenance.md).
+To read more about the features/modules available in the web-based maintenance client, see [The main sections of SuperOffice Settings and maintenance](main-sections-of-SuperOffice-Settings-and-maintenance.md).

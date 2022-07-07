@@ -15,4 +15,4 @@ language: en
 
 ## Related topics
 
-* [The browser in SuperOffice CRM](The-browser-in-SuperOffice-CRM.md)
+* [The browser in SuperOffice CRM](browser-in-SuperOffice-CRM.md)

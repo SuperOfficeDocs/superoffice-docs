@@ -38,9 +38,9 @@ items:
   - name: Status screen
     href: chap01/status-screen.md
   - name: The main sections of SuperOffice Settings and maintenance
-    href: chap01/the-main-sections-of-superoffice-settings-and-maintenance.md
+    href: chap01/main-sections-of-superoffice-settings-and-maintenance.md
   - name: The Status tab
-    href: chap01/the-status-tab.md
+    href: chap01/status-tab.md
   - name: Top bar
     href: chap01/top-bar.md
 - name: Chap03

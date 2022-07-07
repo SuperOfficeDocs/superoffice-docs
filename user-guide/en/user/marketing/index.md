@@ -27,7 +27,7 @@ The messages you send out can be customised for each customer using [template va
 
 SuperOffice Marketing also deals with what happens after the mailing has been done. You can get instant feedback on the success of the mailing: you can see how many and which customers received and opened the mailing, you can see data on click frequency and see which mailings led to sales.
 
-To get started, go to [Getting started](The-mailing-workflow.md).
+To get started, go to [Getting started](mailing-workflow.md).
 
 > [!NOTE]
 > Tracked links and reporting features require the Marketing User licence. You also need functional rights to edit and send mailings.
