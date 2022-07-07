@@ -39,6 +39,6 @@
 <!-- Referenced images -->
 [img1]: ../standardcrm/media/navigator-history-small.png
 [img2]: ../standardcrm/media/web-email-add-attachment-small.bmp
-[img3]: ../standardcrm/chap07web/media/window-close.png
+[img3]: ../standardcrm/email/media/window-close.png
 [img4]: ../../../media/icons/chat-btn-faq.png
 [img5]: ../../../media/icons/chat-btn-edit.png

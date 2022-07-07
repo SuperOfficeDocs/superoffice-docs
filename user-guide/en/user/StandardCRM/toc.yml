@@ -23,7 +23,7 @@ items:
 - name: Selection
   href: selections/toc.yml
 - name: Inbox/Email
-  href: chap07web/toc.yml
+  href: email/toc.yml
 - name: Reports
   href: chap09/toc.yml
 - name: ERP
