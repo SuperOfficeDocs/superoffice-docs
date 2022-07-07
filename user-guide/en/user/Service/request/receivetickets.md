@@ -24,7 +24,7 @@ A request handler with category administration rights can specify the assignment
 There are various assignment methods available:
 
 * **Even assignment**: Assigns requests evenly among the members of the category.
-* **Weighted assignment**: Assigns requests based on the [weightings](../topics/admin.listCategories.newCategory.md) specified for members of the category.
+* **Weighted assignment**: Assigns requests based on the [weightings](../topics/../admin/listCategories.newCategory.md) specified for members of the category.
 * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
 * **Do not assign**: Does not assign requests to specific request handlers, but puts all requests in a queue as **Unassigned**.
 

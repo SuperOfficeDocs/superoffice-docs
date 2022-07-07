@@ -44,4 +44,4 @@ The following settings are available for SMS mailings:
 
 To test the settings, enter a mobile phone number and some text, and then click **Send test**.
 
-For information about additional modules, see [SMS](../../Service/topics/admin.editInfo.sms.md).
+For information about additional modules, see [SMS](../../service/admin/editInfo.sms.md).

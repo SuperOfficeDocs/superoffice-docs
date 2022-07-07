@@ -26,7 +26,7 @@ But you first need to register a company. To do this:
 
 4. In the **Main contact** list box, select who is to be the main contact for the company.
 
-5. In the **Priority** list box, select the default priority to apply to new requests linked to this company. This setting will be overridden if a different priority is linked to the contact for a new request. Here you can choose between **Low**, **Medium** and **High** or any custom options. See also [Work with priorities](../topics/admin.listPriorities.listPriorities.md).
+5. In the **Priority** list box, select the default priority to apply to new requests linked to this company. This setting will be overridden if a different priority is linked to the contact for a new request. Here you can choose between **Low**, **Medium** and **High** or any custom options. See also [Work with priorities](../topics/../admin/listPriorities.listPriorities.md).
 
 6. In the **Our service contact** field, select the person who will handle service requests for this company.
 

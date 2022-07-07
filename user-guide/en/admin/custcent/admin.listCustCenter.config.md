@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Customer centre configuration][1]
 
 <!-- Referenced links -->
-[1]: ../../user/Service/topics/admin.listCustCenter.config.md
+[1]: ../../user/service/admin/listCustCenter.config.md
 
 <!-- Referenced images -->

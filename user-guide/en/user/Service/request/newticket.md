@@ -56,7 +56,7 @@ Here you enter information to correctly assign and prioritize the request.
   * **(Active user)**: Select this option to assign the request to yourself.
   * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
   * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
-* In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](../topics/admin.listPriorities.editAlert.md) set for different contacts and companies.
+* In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](../topics/../admin/listPriorities.editAlert.md) set for different contacts and companies.
 * In the **Access level for request** list box, select one of the following options:
   * **External**: Select this option if the contact is to have access to the request viaSuperOffice Customer Centre.
   * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
@@ -96,7 +96,7 @@ The section at the bottom contains the following options:
 ## Invoice information
 
 > [!NOTE]
-> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](../topics/admin.listInvoiceTypes.md).
+> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](../topics/../admin/listInvoiceTypes.md).
 
 Here you can add invoice lines as internal information for the request. To do this:
 

@@ -23,7 +23,7 @@ In this screen you can find various functions related to system design in SuperO
 * [Debug log][8]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/admin.listprofiles.md
+[1]: ../../user/service/admin/listprofiles.md
 [2]: ../../user/service/topics/blogic.listextratables.md
 [3]: ../../user/service/topics/blogic.listextramenus.md
 [4]: ../../user/service/topics/blogic.listswebpanels.md

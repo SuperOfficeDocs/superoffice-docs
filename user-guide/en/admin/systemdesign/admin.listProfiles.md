@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Profile][1]
 
 <!-- Referenced links -->
-[1]: ../../user/service/topics/admin.listprofiles.md
+[1]: ../../user/service/admin/listprofiles.md
 
 <!-- Referenced images -->

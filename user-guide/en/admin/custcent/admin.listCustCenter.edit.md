@@ -16,6 +16,6 @@ Please click this link to view this help topic:
 [Customer centre source files][1]
 
 <!-- Referenced links -->
-[1]: ../../user/Service/topics/admin.listCustCenter.edit.md
+[1]: ../../user/service/admin/listCustCenter.edit.md
 
 <!-- Referenced images -->

@@ -66,7 +66,7 @@ The new request status is shown in the list, and there is a check mark in the co
 Now you must ensure that you are a member of the category or categories you are going to manage. We must also specify that requests belonging to these categories should not be assigned according to the assignment method.
 
 > [!NOTE]
-> Membership in categories can also be defined at group level. In ![icon][img2] **System settings** &gt; **Users** &gt; **User groups** you can state categories for the various user groups. See [User groups](../topics/admin.listUsers.listUsergroups.md).
+> Membership in categories can also be defined at group level. In ![icon][img2] **System settings** &gt; **Users** &gt; **User groups** you can state categories for the various user groups. See [User groups](../topics/../admin/listUsers.listUsergroups.md).
 
 Do as follows:
 
