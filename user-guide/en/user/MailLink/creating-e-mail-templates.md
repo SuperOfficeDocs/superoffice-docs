@@ -61,5 +61,5 @@ You can create your own templates to use when creating e-mails from SuperOffice 
 You may now create new e-mails from SuperOffice CRM using this template.
 
 <!-- Referenced images -->
-[img1]:../media/so-admin-down-arrow.png
-[img2]: ../media/so-admin-add-button.png
+[img1]:media//so-admin-down-arrow.png
+[img2]: media//so-admin-add-button.png

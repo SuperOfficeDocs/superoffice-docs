@@ -29,8 +29,8 @@ These buttons appear in the new e-mail window in your mail client (see [Creating
 [6]: e-mail-options-dialog.md
 
 <!-- referenced images -->
-[img1]: ../media/archive-is-on.png
-[img2]: ../media/archive-is-off.png
-[img3]: ../media/add-recipient.png
-[img4]: ../media/add-document.png
-[img5]: ../media/superoffice-button.png
+[img1]: media//archive-is-on.png
+[img2]: media//archive-is-off.png
+[img3]: media//add-recipient.png
+[img4]: media//add-document.png
+[img5]: media//superoffice-button.png

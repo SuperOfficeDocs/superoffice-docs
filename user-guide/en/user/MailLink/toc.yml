@@ -1,70 +1,67 @@
 items:
-- name: Topics
-  href: topics/about.md
-  items:
-  - name: About
-    href: topics/about.md
-  - name: Adding an e mail address to a new contact
-    href: topics/adding-an-e-mail-address-to-a-new-contact.md
-  - name: Adding an e mail address to an existing contact
-    href: topics/adding-an-e-mail-address-to-an-existing-contact.md
-  - name: Adding documents from SuperOffice Sales Marketing as attachments
-    href: topics/adding-documents-from-superoffice-sales-marketing-as-attachments.md
-  - name: Archiving attachment s to SuperOffice Sales Marketing
-    href: topics/archiving-attachment-s-to-superoffice-sales-marketing.md
-  - name: Archiving e mails as requests
-    href: topics/archiving-e-mails-as-requests.md
-  - name: Archiving e mails as tasks in SuperOffice Sales Marketing
-    href: topics/archiving-e-mails-as-tasks-in-superoffice-sales-marketing.md
-  - name: Archiving e mails on companies contacts in SuperOffice Sales Marketing
-    href: topics/archiving-e-mails-on-companies-contacts-in-superoffice-sales-marketing.md
-  - name: Archiving e mails to SuperOffice Sales Marketing
-    href: topics/archiving-e-mails-to-superoffice-sales-marketing.md
-  - name: Buttons in the e mail window
-    href: topics/buttons-in-the-e-mail-window.md
-  - name: Buttons on the Microsoft Outlook toolbar
-    href: topics/buttons-on-the-microsoft-outlook-toolbar.md
-  - name: Changing default mail client in SuperOffice Sales Marketing
-    href: topics/changing-default-mail-client-in-superoffice-sales-marketing.md
-  - name: Creating e mail templates
-    href: topics/creating-e-mail-templates.md
-  - name: Creating e mails
-    href: topics/creating-e-mails.md
-  - name: Creating e mails from Lotus Notes
-    href: topics/creating-e-mails-from-lotus-notes.md
-  - name: Creating e mails from Microsoft Outlook
-    href: topics/creating-e-mails-from-microsoft-outlook.md
-  - name: Creating e mails from Microsoft Outlook using SuperOffice templates
-    href: topics/creating-e-mails-from-microsoft-outlook-using-superoffice-templates.md
-  - name: Creating e mails from SuperOffice Sales Marketing
-    href: topics/creating-e-mails-from-superoffice-sales-marketing.md
-  - name: Creating e mails using predefined e mail body templates
-    href: topics/creating-e-mails-using-predefined-e-mail-body-templates.md
-  - name: Default options
-    href: topics/default-options.md
-  - name: Differences between archiving in Outlook and SuperOffice Sales Marketing
-    href: topics/differences-between-archiving-in-outlook-and-superoffice-sales-marketing.md
-  - name: E mail options dialog
-    href: topics/e-mail-options-dialog.md
-  - name: E mails that have already been archived in SuperOffice Sales Marketing
-    href: topics/e-mails-that-have-already-been-archived-in-superoffice-sales-marketing.md
-  - name: Handling e mails from senders not listed in SuperOffice Sales Marketing
-    href: topics/handling-e-mails-from-senders-not-listed-in-superoffice-sales-marketing.md
-  - name: Handling e mails from senders with several listings in SuperOffice Sales Marketing
-    href: topics/handling-e-mails-from-senders-with-several-listings-in-superoffice-sales-marketing.md
-  - name: Introduction
-    href: topics/introduction.md
-  - name: Invitations
-    href: topics/invitations.md
-  - name: Not adding an e mail address to SuperOffice Sales Marketing
-    href: topics/not-adding-an-e-mail-address-to-superoffice-sales-marketing.md
-  - name: Other options
-    href: topics/other-options.md
-  - name: Searching for the sender of an e mail
-    href: topics/searching-for-the-sender-of-an-e-mail.md
-  - name: Selecting recipients
-    href: topics/selecting-recipients.md
-  - name: SuperOffice Account
-    href: topics/superoffice-account.md
-  - name: Turning default archiving on off
-    href: topics/turning-default-archiving-on-off.md
+- name: Introduction
+  href: index.md
+- name: About
+  href: about.md
+- name: Adding an e mail address to a new contact
+  href: adding-an-e-mail-address-to-a-new-contact.md
+- name: Adding an e mail address to an existing contact
+  href: adding-an-e-mail-address-to-an-existing-contact.md
+- name: Adding documents from SuperOffice Sales Marketing as attachments
+  href: adding-documents-from-superoffice-sales-marketing-as-attachments.md
+- name: Archiving attachment s to SuperOffice Sales Marketing
+  href: archiving-attachment-s-to-superoffice-sales-marketing.md
+- name: Archiving e mails as requests
+  href: archiving-e-mails-as-requests.md
+- name: Archiving e mails as tasks in SuperOffice Sales Marketing
+  href: archiving-e-mails-as-tasks-in-superoffice-sales-marketing.md
+- name: Archiving e mails on companies contacts in SuperOffice Sales Marketing
+  href: archiving-e-mails-on-companies-contacts-in-superoffice-sales-marketing.md
+- name: Archiving e mails to SuperOffice Sales Marketing
+  href: archiving-e-mails-to-superoffice-sales-marketing.md
+- name: Buttons in the e mail window
+  href: buttons-in-the-e-mail-window.md
+- name: Buttons on the Microsoft Outlook toolbar
+  href: buttons-on-the-microsoft-outlook-toolbar.md
+- name: Changing default mail client in SuperOffice Sales Marketing
+  href: changing-default-mail-client-in-superoffice-sales-marketing.md
+- name: Creating e mail templates
+  href: creating-e-mail-templates.md
+- name: Creating e mails
+  href: creating-e-mails.md
+- name: Creating e mails from Lotus Notes
+  href: creating-e-mails-from-lotus-notes.md
+- name: Creating e mails from Microsoft Outlook
+  href: creating-e-mails-from-microsoft-outlook.md
+- name: Creating e mails from Microsoft Outlook using SuperOffice templates
+  href: creating-e-mails-from-microsoft-outlook-using-superoffice-templates.md
+- name: Creating e mails from SuperOffice Sales Marketing
+  href: creating-e-mails-from-superoffice-sales-marketing.md
+- name: Creating e mails using predefined e mail body templates
+  href: creating-e-mails-using-predefined-e-mail-body-templates.md
+- name: Default options
+  href: default-options.md
+- name: Differences between archiving in Outlook and SuperOffice Sales Marketing
+  href: differences-between-archiving-in-outlook-and-superoffice-sales-marketing.md
+- name: E mail options dialog
+  href: e-mail-options-dialog.md
+- name: E mails that have already been archived in SuperOffice Sales Marketing
+  href: e-mails-that-have-already-been-archived-in-superoffice-sales-marketing.md
+- name: Handling e mails from senders not listed in SuperOffice Sales Marketing
+  href: handling-e-mails-from-senders-not-listed-in-superoffice-sales-marketing.md
+- name: Handling e mails from senders with several listings in SuperOffice Sales Marketing
+  href: handling-e-mails-from-senders-with-several-listings-in-superoffice-sales-marketing.md
+- name: Invitations
+  href: invitations.md
+- name: Not adding an e mail address to SuperOffice Sales Marketing
+  href: not-adding-an-e-mail-address-to-superoffice-sales-marketing.md
+- name: Other options
+  href: other-options.md
+- name: Searching for the sender of an e mail
+  href: searching-for-the-sender-of-an-e-mail.md
+- name: Selecting recipients
+  href: selecting-recipients.md
+- name: SuperOffice Account
+  href: superoffice-account.md
+- name: Turning default archiving on off
+  href: turning-default-archiving-on-off.md

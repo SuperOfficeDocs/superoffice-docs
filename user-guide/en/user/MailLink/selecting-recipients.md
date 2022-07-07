@@ -34,5 +34,5 @@ When creating an e-mail (see [Creating e-mails from Microsoft Outlook][1] or [Cr
 [2]: creating-e-mails-from-lotus-notes.md
 
 <!-- Referenced images -->
-[img1]: ../media/add-recipient.png
-[img2]: ../media/arrow.png
+[img1]: media//add-recipient.png
+[img2]: media//arrow.png

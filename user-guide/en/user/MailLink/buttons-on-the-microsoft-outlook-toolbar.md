@@ -15,6 +15,6 @@ These buttons appear on the Microsoft Outlook or Lotus Notes toolbar:
 
 | Button | Function |
 |:-:|---|
-| ![icon](../media/archive-to-superoffice-crm.png) | Archiving emails to SuperOffice CRM |
-| ![icon](../media/search-for-sender-in-superoffice-crm.png) | Searching for the sender of an email |
-| ![icon](../media/superoffice-button.png) Click the small arrow to the right of the **SuperOffice** button to open the **SuperOffice CRM options** dialog. See [SuperOffice CRM options dialog](e-mail-options-dialog.md). |
+| ![icon](media//archive-to-superoffice-crm.png) | Archiving emails to SuperOffice CRM |
+| ![icon](media//search-for-sender-in-superoffice-crm.png) | Searching for the sender of an email |
+| ![icon](media//superoffice-button.png) Click the small arrow to the right of the **SuperOffice** button to open the **SuperOffice CRM options** dialog. See [SuperOffice CRM options dialog](e-mail-options-dialog.md). |

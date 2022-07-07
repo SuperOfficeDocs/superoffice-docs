@@ -29,4 +29,4 @@ Follow these steps:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../media//icons/globalmenu-personalsettings-small.png
