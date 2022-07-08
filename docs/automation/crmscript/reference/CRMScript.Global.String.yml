@@ -313,7 +313,7 @@ items:
   so.version: 4.7.1
   langs:
   - crmscript
-  parent: CRMScript.Global.
+  parent: CRMScript.Global.String
   name: isUpper()
   nameWithType: String.isUpper()
   fullName: CRMScript.Global.String.isUpper()
