@@ -51,5 +51,5 @@ Click the ![icon][img1] **Actions** button to access the following options:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/favorite-inactive.png
-[img3]: ../media/navigator-favorites-small.png
+[img3]: ../../../../media/icons/navigator-favorites-small.png
 [img4]: ../../../../media/icons/favorite-active.png

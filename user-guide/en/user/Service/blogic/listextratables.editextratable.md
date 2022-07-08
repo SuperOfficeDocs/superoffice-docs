@@ -11,7 +11,7 @@ language: en
 
 # Define extra tables
 
-You can create extra tables in SuperOffice Service in order to register different types of data. Once the extra table has been defined and you have created extra fields in it (see [Define extra fields](listExtraTables.listFields.editField.md)), you can open the table to add content to it by going to ![icon](../media/nav-request-small.png)**Requests** &gt; **Tables**, point at the table and click ![icon][img1].
+You can create extra tables in SuperOffice Service in order to register different types of data. Once the extra table has been defined and you have created extra fields in it (see [Define extra fields][1]), you can open the table to add content to it by going to ![icon][img3] **Requests** &gt; **Tables**, point at the table and click ![icon][img1].
 
 > [!NOTE]
 > In SuperOffice CRM you can create web panels that can contain table information. To set the relevant access rights, the user must belong to a role that has the functional rights **List tables** and **Edit tables**.
@@ -19,7 +19,7 @@ You can create extra tables in SuperOffice Service in order to register differen
 To create an extra table:
 
 1. Select ![icon][img2] **System settings** &gt; **System design** &gt; **Tables**.
-2. Click ![icon](../media/btn-newtable.png)**New table**. The **Table properties** screen appears.
+2. Click ![icon][img4] **New table**. The **Table properties** screen appears.
 3. In the **Table properties** screen, enter data about the new table:
     * **Folder**: If you want to place the table in an existing folder, select a folder from the list.
     * **Name**: The name of the table.
@@ -33,15 +33,18 @@ To create an extra table:
     * **Parent field**: This field is used in connection with hierarchical tables.
     * **Full name**: If this is a hierarchical table, this field can specify a field that is automatically updated with the entry's full name based on the name field for this entry, and all parent entries.
     * **Hide ID field**: If this option is enabled, then the ID field will not be shown when listing entries in the table.
-    * **Hide the table**: If you check this option, the table will not be visible from ![icon](../media/nav-request-small.png) **Requests** &gt; **Tables**.
+    * **Hide the table**: If you check this option, the table will not be visible from ![icon][img3] **Requests** &gt; **Tables**.
 4. Click **OK** to save the new table.
 
 ## What would you like to do now?
 
-[Define extra fields](listExtraTables.listFields.editField.md)
+* [Define extra fields][1]
 
 <!-- Referenced links -->
+[1]: listExtraTables.listFields.editField.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
 [img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img3]: ../../../../media/icons/nav-request-small.png
+[img4]: ../media/btn-newtable.png

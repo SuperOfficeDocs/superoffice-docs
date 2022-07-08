@@ -37,7 +37,7 @@
     5. Click **Save**. The window closes and the new quick reply is saved.
 
 <!-- Referenced images -->
-[img1]: ../standardcrm/media/navigator-history-small.png
+[img1]: ../../../media/icons/navigator-history-small.png
 [img2]: ../standardcrm/media/web-email-add-attachment-small.bmp
 [img3]: ../standardcrm/email/media/window-close.png
 [img4]: ../../../media/icons/chat-btn-faq.png

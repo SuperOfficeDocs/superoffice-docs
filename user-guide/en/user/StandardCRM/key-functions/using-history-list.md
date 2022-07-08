@@ -15,12 +15,12 @@ In several places in SuperOffice CRM, the history list makes it easy to access t
 
 You can use the history list in different ways:
 
-* Directly from the Navigator ( ![icon](../media/navigator-history-small.png) ) to go to the required company, contact, sale, project or selection.
+* Directly from the Navigator ( ![icon][img2] ) to go to the required company, contact, sale, project or selection.
 * From dialogs containing the fields for companies, contacts, sales and projects, for example, the **Appointment** and **Document** dialogs, to link to the appointment or document.
 
 ## Using the history list in the Navigator
 
-1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ( ![icon](../media/navigator-history-small.png) ) is displayed underneath this.
+1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ( ![icon][img2] ) is displayed underneath this.
 2. Click the company, contact, sale, project or selection you want to view.
 
 > [!TIP]
@@ -40,3 +40,4 @@ You can use the history list in different ways:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../../../../media/icons/navigator-history-small.png

@@ -13,21 +13,7 @@ language: en
 
 You use search criteria to define what you are looking for, e.g. "companies with an address in Denmark". Search criteria are used in a number of places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
 
-Everywhere you are able to enter search criteria, you will find a criteria list containing the selected search criteria. Click these links to find out more about search criteria:
-
-[Add search criteria](Using-search-criteria.md#AddSearchCriteria)
-
-[Change search criteria](Using-search-criteria.md#EditSearchCriteria)
-
-[Move search criteria](Using-search-criteria.md#Move-search-criteria)
-
-[Delete search criteria](Using-search-criteria.md#DeleteSearchCriteria)
-
-[Activate or deactivate search criteria](#Activating-or-deactivating-search-criteria)
-
-[Move search criteria up or down (change order)](Using-search-criteria.md#Criteria-change-order)
-
-[Reset to default search criteria](Using-search-criteria.md#Default-driteria)
+Everywhere you are able to enter search criteria, you will find a criteria list containing the selected search criteria.
 
 ## Add search criteria
 
@@ -118,13 +104,9 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
         To the right of the fields, you can click the links to specify additional criteria for the counters. The available options will depend on the type of record and counter you are working with.
 
         **SAINT type**: Here you choose the activity type you want to search for.
-
         **Status**: Here you choose the status of the record you want to search for.
-
         **Direction**: Here you can choose whether the activity is incoming or outgoing.
-
         **Amount class**: Here you choose the sale's amount class.
-
         **Intention**: Here you choose the intention of the activity.
 
         Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
