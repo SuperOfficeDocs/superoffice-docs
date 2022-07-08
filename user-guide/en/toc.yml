@@ -1,4 +1,6 @@
 items:
+  - name: Welcome
+    href: index.md
   - name: User
     href: user/toc.yml
   - name: Admin

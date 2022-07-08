@@ -11,3 +11,4 @@ items:
   href: service/toc.yml
 - name: Standardcrm
   href: standardcrm/toc.yml
+  topicHref: standardcrm/index.md

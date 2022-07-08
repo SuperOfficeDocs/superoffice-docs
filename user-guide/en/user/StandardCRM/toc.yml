@@ -1,6 +1,4 @@
 items:
-- name: Introduction
-  href: index.md
 - name: Key functions in SuperOffice CRM
   href: key-functions/toc.yml
 - name: Dashboard
