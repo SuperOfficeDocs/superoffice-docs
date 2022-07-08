@@ -3,16 +3,14 @@ items:
   href: index.md
 - name: Key functions in SuperOffice CRM
   href: key-functions/toc.yml
-- name: Activities in SuperOffice CRM
-  href: chap02/toc.yml
 - name: Dashboard
   href: Dashboard/toc.yml
 - name: Company
-  href: chap03/toc.yml
+  href: company/toc.yml
 - name: Contact
   href: person/toc.yml
 - name: Diary
-  href: chap06/toc.yml
+  href: diary/toc.yml
 - name: Sale
   href: sale/toc.yml
   items:
@@ -28,11 +26,5 @@ items:
   href: reports/toc.yml
 - name: ERP
   href: erp/toc.yml
-- name: License agreement
-  href: Licence-agreement.md
-- name: Copyright information
-  href: copyright.md
-- name: Using the help
-  href: Using-help-for-superoffice-crm.md
 - name: Translation
   href: Translate-fields.md

@@ -1,17 +1,15 @@
 ---
 uid: help-en-copyright
-title: copyright
+title: Copyright
 description: copyright
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: copyright, Semantix
 so.topic: help
 language: en
 ---
 
 # Copyright information
-
-This documentation was written, edited and formatted using RoboHelp HTML 11 ® from Adobe Systems Incorporated.
 
 © 2022 SuperOffice AS. All rights reserved.
 
@@ -29,7 +27,7 @@ Other products and companies mentioned may be trademarks of their respective own
 
 Idea and copyright: SuperOffice AS.
 
-Documentation/translation: [Semantix AS](http://www.semantix.no).
+Documentation/translation: [Semantix AS][9].
 
 ## Group company
 
@@ -54,5 +52,6 @@ Documentation/translation: [Semantix AS](http://www.semantix.no).
 [6]: http://www.superoffice.nl
 [7]: http://www.superoffice.co.uk
 [8]: http://www.superoffice.ch
+[9]: http://www.semantix.no
 
 <!-- Referenced images -->

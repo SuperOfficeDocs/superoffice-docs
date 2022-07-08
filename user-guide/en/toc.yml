@@ -3,3 +3,9 @@ items:
     href: user/toc.yml
   - name: Admin
     href: admin/toc.yml
+  - name: License agreement
+    href: License-agreement.md
+  - name: Copyright information
+    href: copyright.md
+  - name: Using the help
+    href: about.md

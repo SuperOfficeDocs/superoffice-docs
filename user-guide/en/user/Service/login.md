@@ -1,6 +1,6 @@
 ---
 uid: help-en-service-login
-title:Log in to Service
+title: Log in to Service
 description: How to log in to SuperOffice Service
 author: SuperOffice RnD
 so.date: 06.29.2022

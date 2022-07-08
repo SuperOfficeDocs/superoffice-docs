@@ -4,7 +4,7 @@ items:
 - name: Gmaillink
   href: gmaillink/toc.yml
 - name: Mailing
-  href: mailing/toc.yml
+  href: marketing/toc.yml
 - name: Maillink
   href: maillink/toc.yml
 - name: Service

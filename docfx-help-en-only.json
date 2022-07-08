@@ -2,20 +2,18 @@
   "build": {
     "content": [
       {
-        "src":"user-guide/en",
-        "dest": "help/en",
-        "files": [
-          "**/**.{md,yml}",
-          "toc.yml",
-          "*.md"
-        ],
+        "src":"user-guide",
+        "dest":"help",
+        "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
         "exclude": [
-          "**/includes/**"
+          "**/includes/**, no/**"
         ]
       }
     ],
     "resource": [
       {
+        "src":"user-guide",
+        "dest":"help",
         "files": [
           "images/**",
           "media/**",
@@ -41,7 +39,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "./templates/superoffice"
+      "../templates/superoffice"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
