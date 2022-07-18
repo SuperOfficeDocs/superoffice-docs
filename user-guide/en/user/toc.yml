@@ -1,12 +1,10 @@
 items:
 - name: Chat
   href: chat/toc.yml
-- name: Gmaillink
-  href: gmaillink/toc.yml
+- name: Email
+  href: email/toc.yml
 - name: Mailing
   href: marketing/toc.yml
-- name: Maillink
-  href: maillink/toc.yml
 - name: Service
   href: service/toc.yml
 - name: Standardcrm

@@ -11,7 +11,7 @@ language: en
 
 # Use the Filter function in the Reports screen
 
-![icon](../media/Filter.bmp) You will find the **Filter** button under the report archive(the **Documents** section tab).
+![icon](../../../../media/icons/filter.bmp) You will find the **Filter** button under the report archive(the **Documents** section tab).
 
 To filter out the information displayed in the report archive:
 
@@ -20,7 +20,7 @@ To filter out the information displayed in the report archive:
     [!include[How to-goto-reports](../../includes/goto-reports.md
 )]
 
-2. Click the **Filter** button ( ![icon](../media/Filter.bmp) ).
+2. Click the **Filter** button ( ![icon](../../../../media/icons/filter.bmp) ).
 
 3. In the **From** box, specify from how far back in time you want to show reports.
 

@@ -63,7 +63,7 @@ In the list box, select the field you want to search for information in. The fie
   * This half
   * This year
 
-    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) to the right of the date field.
+    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon](../../../media/icons/dialogboksknapper-pil-ned.bmp) ) to the right of the date field.
 
 * <!-- Fix reuse ID=a4 -->
 

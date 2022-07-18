@@ -20,8 +20,6 @@ items:
   href: project/toc.yml
 - name: Selection
   href: selections/toc.yml
-- name: Email
-  href: email/toc.yml
 - name: Reports
   href: reports/toc.yml
 - name: ERP

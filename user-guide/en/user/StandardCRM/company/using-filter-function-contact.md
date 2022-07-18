@@ -11,7 +11,7 @@ language: en
 
 # Filter activities and sales
 
-![icon](../media/Filter.bmp)
+![icon](../../../../media/icons/filter.bmp)
 
 At the bottom of the **Activities** and **Sales** section tabs in the **Company**, **Contact**, **Sale** and **Project** screens is the **Filter** button.
 
@@ -27,7 +27,7 @@ To filter the information displayed in the **Activities** and **Sales** section 
 
 2. Select the **Activities** or **Sales** section tab.
 
-3. Click the **Filter** button ( ![icon](../media/Filter.bmp) ).
+3. Click the **Filter** button ( ![icon](../../../../media/icons/filter.bmp) ).
 
 4. In the **From** box, specify from how far back in time you want to show activities or sales.
 
@@ -44,7 +44,7 @@ To filter the information displayed in the **Activities** and **Sales** section 
 
 7. When you have chosen a time interval, group(s) and associate(s), click **OK**. The **Activities** or **Sales** section tabs will then show all activities or sales that match the criteria you specified in the **Filter** dialog.
 
-Hold the mouse pointer over the **Filter** button ( ![icon](../media/Filter.bmp) ) to display the active filter settings.
+Hold the mouse pointer over the **Filter** button ( ![icon](../../../../media/icons/filter.bmp) ) to display the active filter settings.
 
 > [!NOTE]
 > In the **Activities** tab, you can also use pre-defined filters for documents, follow-ups, chats/forms (other) and mailings. See [Use filters in the section tabs](../key-functions/Use-filters-in-section-tabs.md).

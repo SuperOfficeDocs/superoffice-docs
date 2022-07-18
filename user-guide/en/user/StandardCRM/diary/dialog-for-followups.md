@@ -25,7 +25,7 @@ The main section contains the following essential information about the follow-u
 
 **\[Type\]**
 
-Click the arrow next to this field ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher](../key-functions/Using-FastSearcher.md).
+Click the arrow next to this field ( ![icon][img2] ) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher](../key-functions/Using-FastSearcher.md).
 
 > [!NOTE]
 > It is the **\[Type\]** field which determines the type of follow-up in question, i.e. an appointment, task or phone call.
@@ -73,7 +73,7 @@ If you check **All day**, the time of the appointment is set to the period speci
 
 **Location**
 
-Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up. If you have specified a resource of type **Location** as a participant in the **Participants** tab, e.g. a meeting room, the resource is also displayed in this list box.
+Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ( ![icon][img2] ) next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up. If you have specified a resource of type **Location** as a participant in the **Participants** tab, e.g. a meeting room, the resource is also displayed in this list box.
 
 > [!TIP]
 > You can also simply enter an address for the location.
@@ -108,3 +108,4 @@ These fields show the date when the follow-up was first created and when it was 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/dialogboksknapper-pil-ned.bmp

@@ -26,7 +26,7 @@ The main section contains the following essential information about the document
 
 **\[Document template\]**
 
-Click the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher](../key-functions/Using-FastSearcher.md).
+Click the arrow ( ![icon][img1] ) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher](../key-functions/Using-FastSearcher.md).
 
 > [!NOTE]
 > The templates may have been created in various programs, for example, Word or Excel, so when you create a document (see [Create new documents](Creating-new-documents.md)), the template is opened in the program it was created in. This means, for example, that DOCX files will open in Word.
@@ -112,3 +112,9 @@ When you click this button, the following options are displayed:
 * **Revert to saved version**: Select this option to cancel a check-out. This may be relevant if you have checked out the document by mistake and are unable to check it in again. See [Check in/out documents](doc-checkoutin.md).
 
 Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/dialogboksknapper-pil-ned.bmp

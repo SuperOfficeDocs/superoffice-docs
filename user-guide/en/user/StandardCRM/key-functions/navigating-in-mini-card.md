@@ -13,7 +13,7 @@ language: en
 
 The side panel appears at the right side of SuperOffice CRM. The panel is available in all screens except for the **Inbox**.
 
-It works as a window to relevant information in SuperOffice CRM. You can choose from a number of different views by clicking the arrow (![icon](../media/Dialogboksknapper-pil-ned.bmp)) to the right of the side panel's view name.
+It works as a window to relevant information in SuperOffice CRM. You can choose from a number of different views by clicking the arrow (![icon][img3]) to the right of the side panel's view name.
 
 > [!TIP]
 > You can hide or show the side panel by clicking these buttons above the side panel: ![icon](../../media/panel-right-hide.png) ![icon](../../media/panel-right-show.png)
@@ -31,7 +31,7 @@ You can choose from the following views. Click the views for more information.
     Shows a summary of information about the current company in the **Company** screen.
 
     > [!TIP]
-    > If you want to view other companies, without having to switch companies in the **Company** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the company name.
+    > If you want to view other companies, without having to switch companies in the **Company** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon][img3] ) next to the company name.
 * <!-- Fix reuse ID=a9 -->
     Shows information about the contact selected in the **Company** or **Selection** screen.
 
@@ -74,7 +74,7 @@ You can choose from the following views. Click the views for more information.
     Shows a summary of information about the current project in the **Project** screen.
 
     > [!TIP]
-    > If you want to view other projects, without having to switch projects in the **Project** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the project name.
+    > If you want to view other projects, without having to switch projects in the **Project** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon][img3] ) next to the project name.
 * <!-- Fix reuse ID=a11 -->
     Shows a list of project members in the current project in the **Project** screen.
 
@@ -84,12 +84,12 @@ You can choose from the following views. Click the views for more information.
     Shows a summary of information about the current sale in the **Sale** screen.
 
     > [!TIP]
-    > If you want to view other sales, without having to switch sales in the **Sale** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the name of the sale.
+    > If you want to view other sales, without having to switch sales in the **Sale** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon][img3] ) next to the name of the sale.
 * <!-- Fix reuse ID=a13 -->
     Shows a summary of information about the current selection in the **Selection** screen.
 
     > [!TIP]
-    > If you want to view other selections, without having to switch selections in the **Selection** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ) next to the selection name.
+    > If you want to view other selections, without having to switch selections in the **Selection** screen, you can use the [history list](Using-history-list.md), which you bring up by clicking the arrow ( ![icon][img3] ) next to the selection name.
 * <!-- Fix reuse ID=a14 -->
     Shows a list of members of the current selection in the **Selection** screen.
 * <!-- Fix reuse ID=a12 -->
@@ -105,3 +105,4 @@ You can choose from the following views. Click the views for more information.
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-left.png
 [img2]: ../../../../media/icons/arrow-right.png
+[img3]: ../../../../media/icons/dialogboksknapper-pil-ned.bmp

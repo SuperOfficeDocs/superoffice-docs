@@ -1,0 +1,23 @@
+items:
+- name: SuperOffice Gmail Link
+  href: index.md
+  items:
+  - name: Add sender to SuperOffice
+    href: add-sender-to-superoffice.md
+  - name: Archive attachments
+    href: archive-attachments.md
+  - name: Archive emails as activities
+    href: archive-emails-as-activities.md
+  - name: Archive emails as requests
+    href: archive-emails-as-requests.md
+  - name: Email archive incoming
+    href: email-archive-incoming.md
+  - name: Email archive outgoing
+    href: email-archive-outgoing.md
+  - name: Handling emails from senders not listed in SuperOffice
+    href: handling-emails-from-senders-not-listed-in-superoffice.md
+  - name: Handling emails from senders with several listings
+    href: handling-emails-from-senders-with-several-listings.md
+  - name: Settings
+    href: settings.md
+

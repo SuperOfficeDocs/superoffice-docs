@@ -89,7 +89,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 5. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon](../media/criteratype-sale.png)), and then **Amount**.
 
-6. In the list box to the right of **Amount**, click the arrow (![icon](../media/Dialogboksknapper-pil-ned.bmp)) and select **&gt;** (greater than).
+6. In the list box to the right of **Amount**, click the arrow (![icon][img1]) and select **&gt;** (greater than).
 
 7. In the last field on the line, enter the minimum amount, e.g. "100 000".
 
@@ -99,7 +99,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 10. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon](../media/criteratype-sale.png)), and then **Registered date**.
 
-11. In the second list box, click the arrow (![icon](../media/Dialogboksknapper-pil-ned.bmp)) and select **Between**.
+11. In the second list box, click the arrow (![icon][img1]) and select **Between**.
 
 12. In the third list box, specify the start date of the period you want, and in the fourth list box, the end date.
 
@@ -309,3 +309,9 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 * [Use FastSearcher](Using-FastSearcher.md)
 * [Use the history list](Using-history-list.md)
 * [Use search criteria](Using-search-criteria.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/dialogboksknapper-pil-ned.bmp

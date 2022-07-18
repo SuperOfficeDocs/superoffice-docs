@@ -61,7 +61,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
         * Previous...
         * This, previous and next...
 
-        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ( ![icon](../media/Dialogboksknapper-pil-ned.bmp) ).
+        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ( ![icon][img1] ).
     * <!-- Fix reuse ID=a4 -->
         If the field you are searching in contains a numerical value, e.g. the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
 
@@ -143,4 +143,10 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 
 ## What would you like to do now?
 
-[Use the Find screen](Find-dialog.md)
+* [Use the Find screen](Find-dialog.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/dialogboksknapper-pil-ned.bmp
