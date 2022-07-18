@@ -13,8 +13,8 @@ language: en
 
 Once you have got a list of contacts by following the procedure under [Find contacts](findCustomers.md), you will be in a screen containing the following sections:
 
-* **Result**: This contains all the contacts that match your search criteria. See [Result](findCustomers.showResults.md#Result).
-* **Preview**: Displays the requests linked to the contact selected under **Find contacts**. See [Preview](findCustomers.showResults.md#Preview).
+* **Result**: This contains all the contacts that match your search criteria.
+* **Preview**: Displays the requests linked to the contact selected under **Find contacts**.
 
 To edit the search criteria, click **Show criteria**. See [Search in SuperOffice Service](../search/index.md).
 

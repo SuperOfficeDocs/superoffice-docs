@@ -24,7 +24,7 @@ To create a new category:
     * **Subcategory of**: If this is to be a subcategory of another category, select the parent category you require.
     * **Category administrator**: Select who is to be responsible for the requests in this category. In the **Assignment method** tab, you can specify that requests are to be assigned to the category manager if no other members of the category are available. Normally, the role of category administrator should be filled by a departmental manager.
     * **Internal**: If you check here, the category will not be visible in SuperOffice Customer Centre.
-    * **Show category in status view**: If you check here, this category will be displayed under **Status** on the **Dashboard**. For more information about this, see [Hyperlinks to categories](../request/mainMenu.md#HyperlinksToCategories).
+    * **Show category in status view**: If you check here, this category will be displayed under **Status** on the **Dashboard**. For more information about this, see [Hyperlinks to categories](../request/mainmenu.md#hyperlinks-to-categories).
     * **Only members have access**: If you check here, the category will only be accessible to members of the category.
     * **Send notification to members about new request**: If you check here, all members of the category will receive notification of new requests in this category.
     * **Take ownership when replying**: If you check here, the user who replies to a request in this category, will be set as the owner of the request.

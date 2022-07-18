@@ -13,8 +13,8 @@ language: en
 
 Once you have got a list of requests using one of the methods described under [Find requests](listTickets.md), you will be in a screen containing the following sections:
 
-* **Result**: This contains all the requests that match your search criteria. See [Result](listTickets.showListTickets.md#Result).
-* **Preview**: Displays the contents of the request selected under **Find requests**. See [Preview](listTickets.showListTickets.md#Preview).
+* **Result**: This contains all the requests that match your search criteria.
+* **Preview**: Displays the contents of the request selected under **Find requests**.
 
 To edit the search criteria, click **Show criteria**. See [Search in SuperOffice Service](../search/index.md).
 

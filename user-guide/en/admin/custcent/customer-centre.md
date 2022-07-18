@@ -13,9 +13,16 @@ language: en
 
 In the **Customer centre** screen, you define settings for the customer centre and manage customer languages. Select one of the following tabs:
 
-* [Customer centre configuration](https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fadmin.listCustCenter.config.md). In the **Customer centre configuration** tab, you can edit the styling and layout of your customer centre. You can see your changes in the preview on the right side of the screen.
-* [Customer centre source files](https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.md#t=Service%2Ftopics%2Fadmin.listCustCenter.edit.md). In the **Customer centre source files** tab, you can edit the default pages in your customer centre.
+* [Customer centre configuration][2]. In the **Customer centre configuration** tab, you can edit the styling and layout of your customer centre. You can see your changes in the preview on the right side of the screen.
+* [Customer centre source files][3]. In the **Customer centre source files** tab, you can edit the default pages in your customer centre.
 
 ## Related topics
 
-[Customer languages](../chap06/admin.listCustLangs.md)
+* [Customer languages][1]
+
+<!-- Referenced links -->
+[1]: ../chap06/admin.listCustLangs.md
+[2]: admin.listCustCenter.config.md
+[3]: admin.listCustCenter.edit.md
+
+<!-- Referenced images -->

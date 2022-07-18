@@ -23,7 +23,7 @@ In the **Quote** section tab at the bottom of the **Sale** screen, you can displ
 
 **Click to create quote document**: See [Create a quote document](../quote/quote-create-quote-document.md).
 
-Alternatives: If the quote contains one or more [alternatives](../quote/quote-add-alternative.md), you can choose one from the list at the top of the **Quote** section tab. The ![icon](../media/quote-favorite-active.png)/![icon](../media/quote-favorite-inactive.png) icons at the bottom of the list indicate whether the selected alternative is the [favourite alternative](../quote/quote-add-alternative.md#quote-alternative-favourite) or not.
+Alternatives: If the quote contains one or more [alternatives](../quote/quote-add-alternative.md), you can choose one from the list at the top of the **Quote** section tab. The ![icon](../media/quote-favorite-active.png)/![icon](../media/quote-favorite-inactive.png) icons at the bottom of the list indicate whether the selected alternative is the [favourite alternative](../quote/quote-add-alternative.md#favourite-alternative) or not.
 
 On the right of the **Quote** section tab are the version, quote number and <!-- Fix reuse ID=a1 --> (for example, **Draft** or **Sold**). Click **Open** to edit the quote. See [the Edit quote dialog](../quote/quote-dlg-edit-quote.md).
 
@@ -34,5 +34,4 @@ The product list: If products have been added to the quote, they are shown in th
 **Export**: Click here to export the product list to a spreadsheet.
 
 [Add/edit a product in the quote](../quote/quote-add-edit-product.md)
-
 [Create a quote document](../quote/quote-create-quote-document.md)

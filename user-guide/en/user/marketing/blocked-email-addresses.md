@@ -11,7 +11,7 @@ language: en
 
 # Blocked e-mail addresses
 
-In the **Blocked e-mail addresses** tab, you can handle bounced e-mails and [spam complaints](#Spam-complaints).
+In the **Blocked e-mail addresses** tab, you can handle bounced e-mails and [spam complaints](#spam-complaints).
 
 ## Blocked e-mail addresses
 

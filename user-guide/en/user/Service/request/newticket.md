@@ -20,7 +20,7 @@ A request can arrive in the system via an e-mail from the customer, or you can r
 
 2. When you create a new request, the **To** field has the following purposes:
 
-    * By default, the contact(s) entered here will also be the contact(s) for the new request. See [Automatically add message recipients as request contacts](newTicket.md#Automatically-add-message-recipients-as-request-contacts).
+    * By default, the contact(s) entered here will also be the contact(s) for the new request.
     * Contact(s) entered here will receive the message (in the **Message** tab) by e-mail (even if the access level of the message is set to **Internal**).
     * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
 
@@ -35,13 +35,13 @@ A request can arrive in the system via an e-mail from the customer, or you can r
 
 3. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blindcopy.
 
-4. Go to the **Properties** tab and enter request information like title, category, priority and status. See [Properties](newTicket.md#Properties).
+4. Go to the **Properties** tab and enter request information like title, category, priority and status. See [Properties](#properties).
 
-5. Go to the **Message** tab and enter the actual message you want to add to the request. See [Message](newTicket.md#Message).
+5. Go to the **Message** tab and enter the actual message you want to add to the request. See [Message](#message).
 
-6. Go to the **Invoice information** tab and enter any invoice lines. See [Invoice information](newTicket.md#InvoiceInformation).
+6. Go to the **Invoice information** tab and enter any invoice lines. See [Invoice information](#invoice-information).
 
-7. Go to the **Extra fields** tab and enter information in any available extra fields. See [Extra fields](newTicket.md#ExtraFields).
+7. Go to the **Extra fields** tab and enter information in any available extra fields. See [Extra fields](#extra-fields).
 
 8. Click **OK** to save the request. See also [Autosave](autosave.md).
 

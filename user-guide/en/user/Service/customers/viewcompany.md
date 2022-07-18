@@ -18,8 +18,8 @@ You can get to the **Company** screen as follows:
 
 This screen comprises the following sections:
 
-* At the top of the screen, the company header contains basic information about the contact. See [Company header](viewCompany.md#CompanyHeader).
-* The ![icon][img1] **Actions** button gives access to tasks associated with contacts. See [Task buttons for companies](viewCompany.md#TaskButtonsForCompanies).
+* At the top of the screen, the company header contains basic information about the contact. See [Company header](#company-header).
+* The ![icon][img1] **Actions** button gives access to tasks associated with contacts. See [Task buttons for companies](#task-buttons-for-companies).
 * The **Requests** tab contains the requests associated with this company. Open a request by double-clicking it. See [Process requests](../request/listTicket.md).
 * The **Contacts** tab contains the contacts associated with this company. Open a contact by double-clicking the appropriate row. See [View contacts](viewCustomer.md).
 * The **Info** tab contains an overview of the data registered for the active company. The contents of the fields are described in detail under [Create companies](newCompany.md).
@@ -39,11 +39,9 @@ Click the ![icon][img1] **Actions** button to access the following options:
 
 ## What would you like to do now?
 
-[Edit companies](viewCompany.editCompany.md)
-
-[Delete companies](viewCompany.deleteContact.md)
-
-[View invoice data for companies](viewCompany.listInvoicesContact.md)
+* [Edit companies](viewCompany.editCompany.md)
+* [Delete companies](viewCompany.deleteContact.md)
+* [View invoice data for companies](viewCompany.listInvoicesContact.md)
 
 <!-- Referenced links -->
 [1]:

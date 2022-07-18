@@ -20,13 +20,7 @@ Editing documents involves two things:
 > You can open a document in edit mode or in read mode. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode. See [Check in/out documents](doc-checkoutin.md).  
 If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
-Click the required link, depending on how documents are managed in your SuperOffice installation:
-
-[Edit document content using SharePoint Documents](Editing-documents.md#Edit-document-content-using-SharePoint-Documents)
-
-[Edit document content - without SuperOffice Web Tools](Editing-documents.md#Editing-document-properties-in-Document-dialog-without-plug-in-Web)
-
-[Edit document content - using SuperOffice Web Tools](Editing-documents.md#Editing-document-properties-in-Document-dialog-with-plug-in-Web)
+Follow the instructions below, depending on how documents are managed in your SuperOffice installation:
 
 [!include[Requirement](../../includes/req-licence-gen.md)]
 

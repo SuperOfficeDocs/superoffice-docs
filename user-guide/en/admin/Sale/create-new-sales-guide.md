@@ -15,12 +15,12 @@ This procedure shows you how to create a sales guide from scratch.
 
 Before you can create the sales guide itself, you need to define
 
-* [stages](Create-new-sales-guide.md#Create-stages-for-sales-guide) to include in the sales guide
-* [the sales type](Create-new-sales-guide.md#Create-sales-type) (with associated stages) that the sales guide will be linked to
+* [stages](#create-stages) to include in the sales guide
+* [the sales type](#create-type) (with associated stages) that the sales guide will be linked to
 
-Once you have done that, you can start designing the [sales guide](Create-new-sales-guide.md#Create-sales-guide) itself.
+Once you have done that, you can start designing the [sales guide](#create-guide) itself.
 
-## A. Create stages for the sales guide
+## <a id="create-stages" />A. Create stages for the sales guide
 
 A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../chap08/Adding-items-to-Sale-Stage-list.md).
 
@@ -28,7 +28,7 @@ A sales guide for sales to new customers might include, for example, the stages 
 
 Go to the next procedure to link the stages to a sale type.
 
-## B. Create a sale type for the sales guide
+## <a id="create-type" />B. Create a sale type for the sales guide
 
 A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../chap08/Adding-items-to-Sale-Sales-type-(for-stages)-list.md).
 
@@ -39,7 +39,7 @@ Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cr
 
 Go to the next procedure to create the sales guide.
 
-## C. Create a sales guide
+## <a id="create-guide" />C. Create a sales guide
 
 Once you have created stages and specified a sale type for the sales guide, you can design the sales guide itself. You do this by adding follow-ups and/or documents for each stage of the sales guide.
 
@@ -56,12 +56,12 @@ Do as follows:
 
 4. Select the required stage in the list. The stage's details are shown at the bottom of the screen.
 
-5. Add one or more follow-ups for the selected stage, as described under [Add a follow-up for a stage](Create-new-sales-guide.md#Add-activity-for-stage) below.
+5. Add one or more follow-ups for the selected stage, as described under [Add a follow-up for a stage](#add-a-follow-up-for-a-stage) below.
 
     > [!NOTE]
     > You do not need to add a document for each stage, but you should add at least one follow-up for each stage.
 
-6. Add one or more documents for the selected stage, as described under [Add a document for a stage](Create-new-sales-guide.md#Add-document-for-stage) below.
+6. Add one or more documents for the selected stage, as described under [Add a document for a stage](#add-a-document-for-a-stage) below.
 
 7. Repeat steps 4-6 for each stage you want to add follow-ups and documents for.
 

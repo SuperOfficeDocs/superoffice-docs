@@ -11,7 +11,7 @@ language: en
 
 # Rank fields shown in the ERP tab
 
-You can set the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. (You determine which fields should be shown in the ERP tab in the [**Allocations** dialog](sync-configure-field-allocation.md).)
+You can set the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. (You determine which fields should be shown in the ERP tab in the [Allocations dialog](sync-configure-field-allocation.md).)
 
 To do this:
 
@@ -24,4 +24,4 @@ To do this:
 7. Click **Done**.
 
 > [!TIP]
-> Double-click a field to edit the default value for that field. See [Configure default values for synchronisation](sync-configure-default-values.md#DefaultValueForSync).
+> Double-click a field to edit the default value for that field. See [Configure default values for synchronisation](sync-configure-default-values.md).

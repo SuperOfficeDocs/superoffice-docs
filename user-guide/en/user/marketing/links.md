@@ -31,7 +31,7 @@ In the **Tracked links** tab you have the following options:
 
   * **View**. See [Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md).
   * **Edit**. See [Create tracked links](Create-links.md).
-  * **Reset**. See [Reset counters for links](Work-with-tracked-links-after-mailing.md#ResetCountersForLinks).
+  * **Reset**. See [Reset counters for links](Work-with-tracked-links-after-mailing.md).
   * **Move to folder**. Click here to move the link to another folder.
   * **Delete**. Click here to delete the link.
 

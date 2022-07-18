@@ -27,7 +27,7 @@ In order to do this:
 3. Enter an e-mail address. You can add multiple e-mail addresses by using ; as separator.
 4. Click **OK**. The e-mail is sent to the specified address(es).
 
-See [What should I test?](test-mailing.md#What-should-I-test-) below for a list of what you should check in the mailing.
+See [What should I test?](#what-should-i-test) below for a list of what you should check in the mailing.
 
 ## Preview the mailing
 
@@ -47,7 +47,7 @@ When you are testing a mailing, it is important to check the following:
 * That the mailing is legible on a smart phone or tablet. See [Customise the message for display on mobile devices](Customise-message-for-display-on-mobile-devices.md).
 
 > [!NOTE]
-> You need to remember to reset the counters after you have clicked links. See [Reset counters for links](Work-with-tracked-links-after-mailing.md#ResetCountersForLinks).
+> You need to remember to reset the counters after you have clicked links. See [Reset counters for links](Work-with-tracked-links-after-mailing.md).
 
 Click **Next** to go to **Step 4: Recipients**. You can still go back to the **Content** step to make additional changes to the message. This step is not relevant for form responses.
 

@@ -13,9 +13,9 @@ language: en
 
 When you double-click a row in the search results screen (see [View search results for requests](listTickets.showListTickets.md)), you are taken to the **Request** screen. This screen comprises the following sections:
 
-* At the top of the screen, the request header contains basic information about the request. See [Request header](listTicket.md#RequestHeader).
-* Below the header is a row of buttons for performing tasks associated with requests. See [Task buttons for requests](listTicket.md#TaskButtonsForRequests).
-* The **Messages** tab displays the messages related to the request. See [Messages tab](listTicket.md#MessagesTab).
+* At the top of the screen, the request header contains basic information about the request.
+* Below the header is a row of buttons for performing tasks associated with requests.
+* The **Messages** tab displays the messages related to the request.
 * The **Details** tab contains an overview of the data registered for the request.
 
 ## Request header

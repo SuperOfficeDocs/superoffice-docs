@@ -22,15 +22,17 @@ In the request lists, you can forward multiple requests at the same time. To do 
 5. Check the recipient(s) you want, and click **To**, **Cc** or **Bcc**, depending on which recipient field you want to put them in. The recipients are displayed in the list which appears underneath.
 6. If you check **Close request**, the requests are closed once they are forwarded.
 7. Under **Comment**, you can enter a comment, which will then be added both to the e-mail message and to the request as an internal message.
-8. Click ![icon](../media/msg-attachment.png) in the toolbar and add any relevant documents as attachments to the request. See [Message](newTicket.md#Message).
+8. Click ![icon][img2] in the toolbar and add any relevant documents as attachments to the request. See [Message][1].
 9. Click **OK**. The requests are sent.
 
 ## Related topics
 
-[Forward messages to external parties](showListTickets.forward.md)
+* [Forward messages to external parties][2]
 
 <!-- Referenced links -->
-[1]:
+[1]: newticket.md#message
+[2]: showListTickets.forward.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../media/msg-attachment.png

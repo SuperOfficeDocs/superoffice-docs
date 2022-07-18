@@ -1,4 +1,6 @@
 items:
+- name: Overview
+  href: index.md
 - name: Key functions in SuperOffice CRM
   href: key-functions/toc.yml
 - name: Dashboard
@@ -18,7 +20,7 @@ items:
   href: project/toc.yml
 - name: Selection
   href: selections/toc.yml
-- name: Inbox/Email
+- name: Email
   href: email/toc.yml
 - name: Reports
   href: reports/toc.yml

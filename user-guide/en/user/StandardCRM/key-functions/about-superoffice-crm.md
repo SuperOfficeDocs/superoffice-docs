@@ -11,16 +11,6 @@ language: en
 
 # About SuperOffice CRM
 
-In this help topic, you can find out about:
-
-[SuperOffice CRM](#SuperOffice-CRM)
-
-[The Idea behind SuperOffice CRM](About-SuperOffice-CRM.md#The-Idea-behind-SuperOffice-CRM)
-
-[The same starting point for many tasks](#The-same-starting-point-for-many-tasks)
-
-[Common profile](#Common-profile)
-
 ## SuperOffice CRM
 
 SuperOffice CRM is easy to get started with. It is extremely user-friendly with many new functions to make your working day more productive.

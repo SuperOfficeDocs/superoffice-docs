@@ -16,12 +16,6 @@ Common profiles are linked to a role and apply to all users who have that role (
 * **System**: These profiles you can configure by following the procedure below.
 * **System screens**: This is a list of screens created using the system designers in SuperOffice Service. You can change these if you have access to **System design** &gt; **Screens** (see [Screens](../blogic/listScreenDefinitions.editScreenDefinition.md)).
 
-Click the appropriate item below, depending on what you want to find out about:
-
-* [Create common profiles](listProfiles.commonProfiles.md#CreateCommonProfiles)
-* [Edit common profiles](listProfiles.commonProfiles.md#EditCommonProfiles)
-* [Delete common profiles](listProfiles.commonProfiles.md#DeleteCommonProfiles)
-
 ## Create common profiles
 
 We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen. To do this:

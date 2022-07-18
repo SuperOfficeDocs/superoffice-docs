@@ -68,11 +68,9 @@ To create a new reply template:
 
 ## What would you like to do now?
 
-[Create new language version of reply template](newlangversion.md)
-
-[Edit reply templates](editReplyTemplateCustomerLang.md)
-
-[Copy reply templates](viewReplyTemplate.md#CopyReplyTemplate)
+* [Create new language version of reply template](newlangversion.md)
+* [Edit reply templates](editReplyTemplateCustomerLang.md)
+* [Copy reply templates](viewreplytemplate.md#copy-reply-templates)
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/

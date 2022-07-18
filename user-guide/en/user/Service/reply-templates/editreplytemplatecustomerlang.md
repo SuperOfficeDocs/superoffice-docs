@@ -27,6 +27,5 @@ To edit a reply template in **Knowledge Base**:
 
 ## What would you like to do now?
 
-[Create new language version of reply template](newlangversion.md)
-
-[Copy reply templates](viewReplyTemplate.md#CopyReplyTemplate)
+* [Create new language version of reply template](newlangversion.md)
+* [Copy reply templates](viewreplytemplate.md#copy-reply-templates)

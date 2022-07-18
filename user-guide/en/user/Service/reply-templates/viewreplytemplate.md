@@ -32,10 +32,7 @@ If you want to create a new reply template based on an existing reply template, 
 
 ## What would you like to do now?
 
-[Add reply templates to messages](addReplyTemplatesToMessages.md)
-
-[Create reply templates](newReplyTemplate.md)
-
-[Edit reply templates](editReplyTemplateCustomerLang.md)
-
-[Delete reply templates](delReplyTemplate.md)
+* [Add reply templates to messages](addReplyTemplatesToMessages.md)
+* [Create reply templates](newReplyTemplate.md)
+* [Edit reply templates](editReplyTemplateCustomerLang.md)
+* [Delete reply templates](delReplyTemplate.md)

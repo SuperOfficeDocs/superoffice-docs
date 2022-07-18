@@ -24,16 +24,7 @@ If you have been assigned the **Allow administration of external users** right i
     * By using the [history list][1] or [FastSearcher][2].
     * By double-clicking on a company in a search result or in a selection.
 2. Click ![icon][img1] **Task** &gt; **External users**. The **External users** dialog appears.
-
-Follow one of the procedures below:
-
-[Add an external user](#Legge-til-en-ekstern-bruker)
-
-[Remove an external user](#Fjerne-en-ekstern-bruker)
-
-[Remove login for an external user](#Fjerne-p-logging-for-en-ekstern-bruker)
-
-[Filter the list](#Filtrere-listen)
+3. Follow one of the procedures below.
 
 ## Add an external user
 

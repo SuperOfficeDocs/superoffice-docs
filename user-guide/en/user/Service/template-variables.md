@@ -57,7 +57,6 @@ When editing reply templates and mailings, you can insert template variables by 
 | licence.stat | 1 if the customer has licence for Stat, otherwise 0 |
 | licence.ticket | 1 if the customer has licence for Ticket, otherwise 0 |
 
-
 ## Links (only SuperOffice Marketing)
 
 | Variable | Description|
@@ -65,7 +64,6 @@ When editing reply templates and mailings, you can insert template variables by 
 | Link for viewing message online | URL for showing the mailing message online in a browser, for example 'Click here if this message looks funny' |
 | link.subscription | The link to cancel your subscription |
 | link.viewShipmentMessage | The link to view the mailing message online |
-
 
 ## Maintenance
 

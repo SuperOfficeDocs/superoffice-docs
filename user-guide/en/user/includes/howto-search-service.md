@@ -8,4 +8,4 @@ To quickly access a specific record (such as a request or contact), function or 
 > You can also use the [keywords used in the quick search][1] to search for specific items like contacts or companies.
 
 <!-- Referenced links -->
-[1]: ../service/search/usequicksearch.md#searchforotherrecords
+[1]: ../service/search/usequicksearch.md#search-for-other-records

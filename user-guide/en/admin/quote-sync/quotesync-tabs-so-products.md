@@ -34,10 +34,9 @@ You can export an open price list by clicking ![icon](../media/Excel-export.bmp)
 Either you do not have access rights to the export function (see [Roles](../Rolle/Role.md)), or this preference is not enabled (see [Preferences](../chap05/Preferences.md)).
 
 > [!TIP]
-> Before you export the price list, it may be useful to select which columns you want and their order. See [Edit column view](../chap01/Adjusting-views.md#Edit-column-view).
+> Before you export the price list, it may be useful to select which columns you want and their order. See [Edit column view](../chap01/Adjusting-views.md#change-the-column-view).
 
 ## What would you like to do now?
 
-[Add a price list](SO-add-pricelist.md)
-
-[Add products to a price list](SO-add-product-to-pricelist.md)
+* [Add a price list](SO-add-pricelist.md)
+* [Add products to a price list](SO-add-product-to-pricelist.md)

@@ -7,7 +7,7 @@ By default, all the columns with companies/contacts from the email application c
 
 2. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent.
 
-    The legal basis and consent source can be defined in **Import settings** (see [Configure import settings][2]). See also [Privacy][3].
+    The legal basis and consent source can be defined in **Import settings** (see [Configure import settings][1]). See also [Privacy][3].
 
 3. Click **Next** when you have finished. The **Preview** window opens.
 
@@ -33,7 +33,6 @@ Rows without an icon will not be imported. If you can see that many contacts wil
 
 <!-- Referenced links -->
 [1]: ../import-web/import-settings-web.md
-[2]: ../import-web/import-settings-web.md#setprivacy
 [3]: ../privacy/privacy.md
 
 <!-- Referenced images -->

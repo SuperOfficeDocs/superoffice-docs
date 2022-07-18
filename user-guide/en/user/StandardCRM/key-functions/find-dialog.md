@@ -16,12 +16,6 @@ To search for records and data in SuperOffice CRM, you use the **Find** screen.
 > [!NOTE]
 > If you have a licence for SuperOffice Integration Server, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
 
-* To find out how the search features works: Click [Search for information in SuperOffice CRM](#Searching-for-information-in-SuperOffice-CRM).
-
-* To find out what you can do with the search results: Click [Work with search results](#Working-with-search-results).
-
-* To see specific examples of how to use the search features: Click [The search facility in SuperOffice CRM](#Search-examples)
-
 ## Search for information in SuperOffice CRM
 
 To use the search function in SuperOffice CRM:
@@ -71,17 +65,17 @@ Select records, right-click, and select **Add to selection**. See [Add members t
 
 There are effectively no limits on what you can search for in SuperOffice CRM. The following specific examples of the search options in action are intended to provide you with tips on searching. In each case, we firstly describe a specific search requirement and then explain in detail how to perform the search. You can use these examples as inspiration for creating your own searches:
 
-[Example 1: search for profitable customers](#Search-example-1)
+[Example 1: search for profitable customers](#ex1)
 
-[Example 2: search for customers in Denmark who you are responsible for](#Search-example-2)
+[Example 2: search for customers in Denmark who you are responsible for](#ex2)
 
-[Example 3: search for sold sales](#Search-example-3)
+[Example 3: search for sold sales](#ex3)
 
-[Example 4: search for projects you have participated in during the last year](#Search-example-4)
+[Example 4: search for projects you have participated in during the last year](#ex4)
 
-[Example 5: search for marketing initiatives undertaken](#Search-example-5)
+[Example 5: search for marketing initiatives undertaken](#ex5)
 
-## Example 1: search for profitable customers
+## <a id="ex1" />Example 1: search for profitable customers
 
 Imagine that you are a sales department manager and you want to make a presentation to the rest of management, showing what you have achieved since the last meeting. You want to focus on profitable customers, i.e. customers you have recently sold a lot to. This is how to find them:
 
@@ -115,7 +109,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 15. In the list that appears, enter "Status" in order to FastSearch in the field.
 
-16. From the list that is displayed, select **Sale** -** Status** (with the sale icon ![icon](../media/criteratype-sale.png) in front of it).
+16. From the list that is displayed, select **Sale** - **Status** (with the sale icon ![icon](../media/criteratype-sale.png) in front of it).
 
 17. In the second list box, select **Is one of**.
 
@@ -138,7 +132,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
     * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
-## Example 2: search for customers in Denmark who you are responsible for
+## <a id="ex2" />Example 2: search for customers in Denmark who you are responsible for
 
 Imagine you are going to attend a conference in Denmark. When you are there, you also want to use the opportunity to visit some customers. You start your planning by searching for all customers in Denmark who you are responsible for. To do this:
 
@@ -181,7 +175,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
     * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
-## Example 3: search for sold sales
+## <a id="ex3" />Example 3: search for sold sales
 
 Let's assume you are the manager of a company and want to find out what types of sales work well for you, and why, with a view to achieving more of the same. You start by searching for sales with the status **Sold**. To do this:
 
@@ -210,7 +204,7 @@ Let's assume you are the manager of a company and want to find out what types of
 
     * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
-## Example 4: search for projects you have participated in during the last year
+## <a id="ex4" />Example 4: search for projects you have participated in during the last year
 
 Imagine that the time for your pay review is approaching and you think you deserve to be better rewarded for your efforts. To show your boss how energetic and versatile you are, you want to tell him about the projects you have been involved in in the last year. This is how to find them:
 
@@ -255,7 +249,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
     * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
 
-## Example 5: search for marketing initiatives undertaken
+## <a id="ex5" />Example 5: search for marketing initiatives undertaken
 
 Imagine that you are a marketing department manager and you want to brainstorm about future marketing initiatives. As a basis for this, you want to get an overview of the marketing-related follow-ups you have done in the previous quarter. To do this:
 
@@ -310,12 +304,8 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 ## What would you like to do now?
 
-[Perform tasks](../selections/Performing-tasks-using-selections.md)
-
-[Use freetext search](Freetext-search.md)
-
-[Use FastSearcher](Using-FastSearcher.md)
-
-[Use the history list](Using-history-list.md)
-
-[Use search criteria](Using-search-criteria.md)
+* [Perform tasks](../selections/Performing-tasks-using-selections.md)
+* [Use freetext search](Freetext-search.md)
+* [Use FastSearcher](Using-FastSearcher.md)
+* [Use the history list](Using-history-list.md)
+* [Use search criteria](Using-search-criteria.md)

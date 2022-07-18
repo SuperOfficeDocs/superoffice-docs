@@ -68,7 +68,7 @@ You can edit the information about the existing columns, for example the name an
 1. Open the **Edit selection** screen. See [Create selection](newSelection.md) or [Edit selection](editSelection2.md).
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
 3. To the right of the required column, click the edit icon ( ![icon][img2] ). The fields under the column overview show information specified for the selected column.
-4. Edit the information as described under [Add columns](editSelection2.editProfile.md#AddColumns) or [Add functions](editSelection2.editProfile.md#AddFunctions).
+4. Edit the information as described under [Add columns](#add-columns) or [Add functions](#add-functions).
 5. Click the **Update column** button.
 6. Click **OK**. The changes are saved.
 

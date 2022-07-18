@@ -25,12 +25,12 @@ This procedure shows you how to create a project guide from scratch.
 
 Before you can create the project guide itself, you need to define
 
-* [statuses](Create-new-project-guide.md#Create-stages-for-project-guide) to include in the project guide
-* [the project type](Create-new-project-guide.md#Create-project-type) (with associated statuses) that the project guide will be linked to
+* statuses to include in the project guide
+* the project type (with associated statuses) that the project guide will be linked to
 
-Once you have done that, you can start designing the [project guide](Create-new-project-guide.md#Create-project-guide) itself.
+Once you have done that, you can start designing the [project guide](#create-guide) itself.
 
-## A. Create statuses for the project guide
+## <a id="create-stage" /> A. Create statuses for the project guide
 
 A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding-items-to-Project-Status-list.md).
 
@@ -38,7 +38,7 @@ A project guide for a project of the Conference type might, for example, compris
 
 Go to the next procedure to link the statuses to a project type.
 
-## B. Create a project type for the project guide
+## <a id="create-type" /> B. Create a project type for the project guide
 
 A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../chap08/Adding-items-to-Project-Type-list.md).
 
@@ -49,7 +49,7 @@ Examples of project types: "Conference", "Campaign", "Internal".
 
 Go to the next procedure to create the project guide.
 
-## C. Create a project guide
+## <a id="create-guide" />C. Create a project guide
 
 Once you have created statuses and specified a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 
@@ -66,12 +66,12 @@ Do as follows:
 
 4. Select the required status in the list. The status's details are shown at the bottom of the screen.
 
-5. Add one or more follow-ups for the selected status, as described under [Add a follow-up for a status](Create-new-project-guide.md#Add-followup-for-status) below.
+5. Add one or more follow-ups for the selected status, as described under [Add a follow-up for a status](#add-a-follow-up-for-a-status) below.
 
     > [!NOTE]
     > You do not need to add a document for each status, but you should add at least one follow-up for each status.
 
-6. Add one or more documents for the selected status, as described under [Add a document for a status](Create-new-project-guide.md#Add-document-for-status) below.
+6. Add one or more documents for the selected status, as described under [Add a document for a status](#add-a-document-for-a-status) below.
 
 7. Repeat steps 4-6 for each status you want to add follow-ups and documents for.
 
@@ -166,6 +166,6 @@ To add documents to a status:
 9. Repeat this procedure to add more documents in this or other statuses.
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/diary/template-variables.md#variables-from-project-card
+[1]: ../../user/standardcrm/diary/template-variables.md#variables-from-the-project-card
 
 <!-- Referenced images -->

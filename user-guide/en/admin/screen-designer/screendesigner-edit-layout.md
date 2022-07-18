@@ -11,11 +11,11 @@ language: en
 
 # Edit layout
 
-When you have created a new layout as described in [Add new layout](ScreenDesigner-Add-new-layout.md), it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
+When you have created a new layout as described in [Add new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
-To edit a screen layout:
+**To edit a screen layout:**
 
-Click the **Screen designer** button in the Navigator (![icon](../media/Knapp-ScreenDesigner-small.png)).
+Click the **Screen designer** button in the Navigator (![icon][img3]).
 
 Click **Company** or **Contact** at the top.
 
@@ -29,28 +29,28 @@ When you have finished the screen layout, click one of the following buttons:
 
 * **Save draft**: Click this button if the layout is not finished yet.
 * **Save + Publish**: Click this button to publish the layout to the selected user groups.
-* **Cancel**: Click this button to discard all changes. See also [Undo changes](ScreenDesigner-Edit-layout.md#Undo-changes).
+* **Cancel**: Click this button to discard all changes. See also [Undo changes](#undo-changes).
 
 ## Edit existing fields in the layout
 
 1. Select the tab you want to edit.
 2. Edit existing fields as follows:
-    * Move fields by clicking ![icon](../media/btn-move.png) to the left of a field label and dragging the field to a new position. To add a new field, see [Fields](ScreenDesigner-Edit-layout.md#Fields).
-    * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Deleted fields can be re-added from the **Fields** section. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields. See [Fields](ScreenDesigner-Edit-layout.md#Fields).
-    * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](ScreenDesigner-Edit-layout.md#Settings).
-3. Change the number of columns in a tab, from the **Columns** section. See [Columns](ScreenDesigner-Edit-layout.md#Columns).
+    * Move fields by clicking ![icon][img4] to the left of a field label and dragging the field to a new position. To add a new field, see [Fields](#fields).
+    * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Deleted fields can be re-added from the **Fields** section. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields. See [Fields](#fields).
+    * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](#settings).
+3. Change the number of columns in a tab, from the **Columns** section. See [Columns](#columns).
 4. Save the changes as described above.
 
 ## Add new content to a layout
 
-Select the tab you want to edit, or click ![icon](../media/btn-add2.png) **Add** to add a new tab. See [Tabs](ScreenDesigner-Edit-layout.md#Tabs).
+Select the tab you want to edit, or click ![icon][img5] **Add** to add a new tab. See [Tabs](#tabs).
 
 Edit the layout by selecting one of the following sections:
 
-* **Fields**: Drag fields from the list to the layout. <!-- Reuse-->Boxes with stapled lines in the layout, indicate where you can place a field. Fields can be placed in the columns and in the header and footer. See [Fields](ScreenDesigner-Edit-layout.md#Fields).
-* **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout. Place the elements as described above. See [Elements](ScreenDesigner-Edit-layout.md#Element).
-* **Settings**: Click a field or element in the layout to edit the relevant settings. The available settings may vary according to the selected object. See [Settings](ScreenDesigner-Edit-layout.md#Settings).
-* **Columns**: Select how many columns you want to display in a tab. See [Columns](ScreenDesigner-Edit-layout.md#Columns).
+* **Fields**: Drag fields from the list to the layout. <!-- Reuse-->Boxes with stapled lines in the layout, indicate where you can place a field. Fields can be placed in the columns and in the header and footer. See [Fields](#fields).
+* **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout. Place the elements as described above. See [Elements](#elements).
+* **Settings**: Click a field or element in the layout to edit the relevant settings. The available settings may vary according to the selected object. See [Settings](#settings).
+* **Columns**: Select how many columns you want to display in a tab. See [Columns](#columns).
 
 When you have finished customizing the screen layout, click one of the following buttons:
 
@@ -67,12 +67,12 @@ In the **Fields** section you can find all available data fields for the selecte
 * Drag a field from the list to a stapled area in the selected tab.
 * To make sure a field is always visible, no matter which tab is selected, place the field in the header or footer.
 * You can place the same field in multiple locations in the screen layout, if relevant.
-* Move fields by clicking ![icon](../media/btn-move.png) to the left of a field label and dragging the field to a new position. To move a field to another tab, drag the field to the tab header to open the tab, and then place the field in the open tab.
+* Move fields by clicking ![icon][img4] to the left of a field label and dragging the field to a new position. To move a field to another tab, drag the field to the tab header to open the tab, and then place the field in the open tab.
 * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields.
 
 Limitations:
 
-* Mandatory fields cannot be deleted. This is defined in [Fields](../fields-web/Fields-web.md) screen.
+* Mandatory fields cannot be deleted. This is defined in [Fields][5] screen.
 * Some tabs, such as **ERP** and **Note**, cannot be edited, since they have specific functions.
 
 ## Elements
@@ -121,7 +121,7 @@ You can also add the link name in other languages by clicking ![icon][img1] (see
 In the **Action** list, select the action to perform when clicking the link:
 
 * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
-* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../../user/service/automation/index.md).
+* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript][6].
 * **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
 In the **Mode** list, choose if the link should always be available, or if it should only be available in read or edit mode.
@@ -146,7 +146,7 @@ You can also add the button name in other languages by clicking ![icon][img1] (s
 In the **Action** list, select the action to perform when clicking the button:
 
 * **Open website**: Select this option to add a link to a website. Select the URL encoding and target as necessary.
-* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript](../../user/service/automation/index.md).
+* **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript][6].
 * **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
 In the **Mode** list, choose if the button should always be available, or if it should only be available in read or edit mode.
@@ -166,7 +166,7 @@ By default a tab has 2 columns, but you can use anything from 1-4 columns depend
 Limitations:
 
 * Changing from 2-4 columns to 1 column will move all fields into 1 column.
-* Using 4 columns may affect visibility of some fields. You may consider to hide the labels of some fields (see [Settings](ScreenDesigner-Edit-layout.md#Settings)).
+* Using 4 columns may affect visibility of some fields. You may consider to hide the labels of some fields (see [Settings](#settings)).
 * Some tabs, such as **ERP** and **Note**, do not have a column setup, since they have specific functions.
 * If a user does not have the screen size to fit all columns, they will be stacked on top of each other.
 
@@ -178,7 +178,7 @@ To remove a tab, select it and click **Task** &gt; **Remove tab**. Click **OK** 
 
 To add a new tab:
 
-1. Click ![icon](../media/btn-add2.png) **Add**. The **Columns** section opens to the left.
+1. Click ![icon][img5] **Add**. The **Columns** section opens to the left.
 2. Under **Tab title**, replace the text **New tab** with the new tab name.
 3. You can also add the tab name in other languages by clicking ![icon][img1] (see [Translation][2]).
 4. Select the number of columns you want to use in the new tab.
@@ -203,7 +203,13 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [1]: ../../../../docs/ui/soprotocol/index.md
 [2]: ../../user/standardcrm/translate-fields.md
 [3]: ../../user/standardcrm/diary/template-variables.md
+[4]: screendesigner-add-new-layout.md
+[5]: ../fields-web/fields-web.md
+[6]: ../../user/service/automation/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png
 [img2]: ../media/btn-delete-admin.png
+[img3]: ../media/knapp-screendesigner-small.png
+[img4]: ../media/btn-move.png
+[img5]: ../media/btn-add2.png

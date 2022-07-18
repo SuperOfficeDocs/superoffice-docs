@@ -13,8 +13,8 @@ language: en
 
 Create your own custom forms with the **Forms** feature in SuperOffice Marketing. In this topic we will show you how to create two different forms that might be relevant for your company:
 
-* [Newsletter sign-up](FormsGuide.md#DNT-newslettersignup): Let your customers sign up for one or more of your newsletters.
-* [Contact me](FormsGuide.md#DNT-contactme): Use a "contact me" form to open up another communication channel with your customers or prospects. Use this form to generate support requests or generate leads for your sales team.
+* [Newsletter sign-up](#newsletter-sign-up): Let your customers sign up for one or more of your newsletters.
+* [Contact me](#contact-me): Use a "contact me" form to open up another communication channel with your customers or prospects. Use this form to generate support requests or generate leads for your sales team.
 
 The procedures below will guide your through the form creation using examples. We will not cover every field and option, but you can find comprehensive instructions in [Create a new form](form-create.md).
 
@@ -185,10 +185,8 @@ Copy the direct link and/or JavaScript into a newsletter, website or customer ce
 
 Open the link to the form, fill in the form and check that everything works as expected.
 
-What happens now? See the following topics:
+## What happens now? See the following topics
 
-[Form submissions](form-submissions.md)
-
-[Track form submissions and view statistics](form-submission-track.md)
-
-[Process form submissions](form-submissions-process.md)
+* [Form submissions](form-submissions.md)
+* [Track form submissions and view statistics](form-submission-track.md)
+* [Process form submissions](form-submissions-process.md)

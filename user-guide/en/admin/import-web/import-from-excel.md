@@ -51,7 +51,7 @@ To do this:
 2. Find the column containing the first and last names of the contacts, click the **(No Selection)** column title and select **Contact: First name** and **Contact: Last name**. If there is a single column containing both first and last names, select **Contact: Full name**.
 3. Select the SuperOffice fields for the rest of the columns in the table. You do not need to do this for the columns you do not want to import.
 4. Click **Configure import settings** and adjust the import settings as described in [Configure import settings](Import-settings-web.md).
-5. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent. The legal basis and consent source can be defined in **Import settings** (see [Configure import settings](Import-settings-web.md#setprivacy)). See also [Privacy](../privacy/privacy.md).
+5. In the **Consent comment** field, enter a comment about why you are registering these contacts in SuperOffice (purpose) and how/where you obtained their consent. The legal basis and consent source can be defined in **Import settings** (see [Configure import settings](Import-settings-web.md)). See also [Privacy](../privacy/privacy.md).
 6. Click **Next**. The **Preview import** window will appear.  
     <!-- Fix reuse ID=a4 -->
     You must link all the required SuperOffice fields to their respective columns in order to continue. The required fields will be displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.

@@ -13,8 +13,8 @@ language: en
 
 By creating FAQ entries, your organisation can build up a comprehensive collection of questions and answers which both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
-* A user can create an FAQ entry, based on communication with a customer in **Requests**. See [Create an FAQ entry from a request](newKbEntry.md#CreateFAQEntriesFromTheRequestsModule).
-* An administrator can create an FAQ entry directly in **Knowledge Base &gt; FAQ**. See [Create new FAQ entries](newKbEntry.md#CreateFAQEntriesFromTheFAQModule).
+* A user can create an FAQ entry, based on communication with a customer in **Requests**. See [Create an FAQ entry from a request](#create-faq-entries-from-a-request).
+* An administrator can create an FAQ entry directly in **Knowledge Base &gt; FAQ**. See [Create new FAQ entries](#create-new-faq).
 
 ## Create FAQ entries from a request
 
@@ -83,15 +83,14 @@ You can also create an FAQ entry as follows:
 1. Select **Knowledge Base** &gt; **FAQ**.
 2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can create a new folder. See [Administrate folders of FAQ entries](editKbCategory.md).
 3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
-4. Follow the procedure [above](newKbEntry.md#step3), from step 3 onwards.
+4. Follow the procedure above from step 3 onwards.
 
 Since the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 
 ## What would you like to do now?
 
-[Edit FAQ entries](editKbEntry.md)
-
-[Publish FAQ entries](publishFAQ.md)
+* [Edit FAQ entries](editKbEntry.md)
+* [Publish FAQ entries](publishFAQ.md)
 
 <!-- Referenced links -->
 

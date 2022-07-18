@@ -48,8 +48,8 @@ To update multiple records:
 4. Select an action in the **Action** column. The available actions will depend on the type of field you have selected in the previous step. Here are some examples of available actions:
     * **Check**: Check or uncheck a checkbox.
     * **Toggle**: Uncheck a checked checkbox and vice versa.
-    * **Search and replace**: Find a text and replace it. See [Search and replace](Bulk-update.md#Search-and-replace).
-    * **Regex**: Update a field using regular expressions. See [Regex](Bulk-update.md#Regex).
+    * **Search and replace**: Find a text and replace it. See [Search and replace](#search-and-replace).
+    * **Regex**: Update a field using regular expressions. See [Regex](#regex).
     * **Set**: Apply a new value to the field.
     * **Clear**: Clear any value from the field.
     * List actions: Select or clear single or multiple values for list fields.
@@ -82,7 +82,7 @@ The action type **Search and replace** allows you to find a specific text in a f
 3. Enter the replacement text in the **Replace with** field.
 4. Optional: Click **Options** and select settings for case-sensitivity and whole/partial word search.
 
-## Regular expressions
+## <a id="regex" />Regular expressions
 
 The action type **Regex** allows you to use regular expressions to update a field.
 

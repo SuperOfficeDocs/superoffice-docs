@@ -20,7 +20,7 @@ You record a new project and select the **Conference** project type, which is li
 | Statuses | Follow-ups | Documents |
 |---|---|---|
 | Planned | Planning meeting (Meeting (Internal)) | Conference programme (Memo) |
-| In progress | Create list of project members (Follow-up)</p> | erence (Meeting (External)) |
+| In progress | Create list of project members (Follow-up) | erence (Meeting (External)) |
 | Closing | Evaluation meeting (Meeting (Internal)) |
 | Evaluation report (Memo) |
 

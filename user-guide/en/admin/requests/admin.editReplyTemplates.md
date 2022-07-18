@@ -11,13 +11,7 @@ language: en
 
 # System templates
 
-In the **System templates** tab, you can specify which reply templates the system should use. Information about the different options in the **System templates** tab can be found later in this topic:
-
-* [Requests](admin.editReplyTemplates.md#Requests)
-* [Favourites](admin.editReplyTemplates.md#Favourites)
-* [Customers](admin.editReplyTemplates.md#Customers)
-* [FAQ](admin.editReplyTemplates.md#FAQ)
-* [Weekly statistics](admin.editReplyTemplates.md#WeeklyStatistics)
+In the **System templates** tab, you can specify which reply templates the system should use.
 
 > [!TIP]
 > Use the search field at the top to find specific templates.

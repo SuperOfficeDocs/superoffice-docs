@@ -38,4 +38,4 @@ You do, however, have the possibility to override "no consent / no subscription"
 
 In SuperOffice CRM, you can register interests (such as "Monthly newsletter") to contacts. These interests can be used as a basis for various kinds of mailings. Instead of using unsubscribe as described above, you can easily clear a particular interest, such as monthly newsletter, from customers who do not want to receive it.
 
-You do this by creating a link that removes the interest in question from recipients who click the link. The same method can be used to register interests. See [Update interest](../Define-link-actions.md#update-interest).
+You do this by creating a link that removes the interest in question from recipients who click the link. The same method can be used to register interests. See [Update interest](../Define-link-actions.md#interests).

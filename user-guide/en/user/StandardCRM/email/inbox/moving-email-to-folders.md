@@ -1,5 +1,5 @@
 ---
-uid: help-en-moving-e-mail-to-folders
+uid: help-en-moving-email-to-folders
 title: Moving e mail to folders
 description: Moving e mail to folders
 author: SuperOffice RnD
@@ -9,16 +9,16 @@ so.topic: help
 language: en
 ---
 
-# Move e-mails to folders
+# Move emails to folders
 
-## Move an e-mail message to another folder
+## Move an email message to another folder
 
 1. Go to the inbox.
 2. Select a message in the inbox.
 3. Click the **Actions** button ![icon][img1], and select **Move to folder**.
 4. Select the required folder. The message is moved to the specified folder.
 
-## Move multiple e-mail messages to another folder
+## Move multiple email messages to another folder
 
 1. Go to the inbox.
 2. Select the messages in the inbox.
@@ -29,4 +29,4 @@ language: en
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../../../media/icons/btn-menu.png

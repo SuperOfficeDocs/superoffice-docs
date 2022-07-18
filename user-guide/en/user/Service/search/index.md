@@ -36,7 +36,7 @@ There are many different ways to bring up the search screen, depending on where 
 
 ## The Criteria screen
 
-In the **Criteria** screen you enter the search criteria in the available fields. You can add additional fields by clicking **[Add criteria](#AddSearchCriteria)**.
+In the **Criteria** screen you enter the search criteria in the available fields. You can add additional fields by clicking **Add criteria**.
 
 > [!TIP]
 > You can also run an "empty" search, in other words a search where you do not enter any search criteria. This lets you display all records of the relevant type, such as requests.
@@ -55,9 +55,9 @@ The list below explains how to use the different types of field that can be disp
 At the bottom of the **Criteria** screen, you have the following options:
 
 * **Clear search fields**: When you click this button, the values entered in the fields in the search screen are cleared. This is a quick way of emptying all the fields.
-* **Restore default**: When you click this button, all the criteria you have added by following the procedure under [Add search criteria](#AddSearchCriteria) are removed.
+* **Restore default**: When you click this button, all the criteria you have added by following the procedure under [Add search criteria](#add-search-criteria) are removed.
 * **Save as selection**: Click here to create a selection consisting of the records that meet the specified criteria. See [Create a selection based on search criteria](../selections/newSelection.newSelection.md).
-* **Advanced view**: Click here for access to more advanced search options. These are described under [Use advanced view](#UseAdvancedView).
+* **Advanced view**: Click here for access to more advanced search options. These are described under [Use advanced view](#use-advanced-view).
 
 ## Add search criteria
 
@@ -88,7 +88,7 @@ If you click one of the column headings below **Result**, you get the following 
 * **Sort ascending**: Clicking here sorts the records in ascending order, for example, alphabetically if the column contains text, based on the column in question.
 * **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest will be displayed at the top.
 * **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records will be divided into three groups with these headings.
-* **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, add a column showing request response times (see [Add columns](searchResult.md#AddColumns)), and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
+* **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, add a column showing request response times (see [Add columns](searchResult.md#add-columns)), and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
 
 At the top right corner of the search results list are the following buttons:
 
@@ -101,7 +101,7 @@ Under the list, you can click ![icon][img2] to access the following options:
 * **Export**: Click here to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
 * **Batch management**: If you select one or more records in the list, you can click this button and select an action to perform on all the selected records simultaneously.
 
-## The preview section</span>
+## The preview section
 
 This section of the screen displays the contents of the record selected in the list. <!-- Fix reuse ID=a11 -->
 
@@ -111,7 +111,7 @@ If the preview section is not visible, click the ![icon][img2] menu button in th
 
 </details>
 
-## Use advanced view</span>
+## Use advanced view
 
 If you click the ![icon][img2] menu button in the **Criteria** screen and select **Advanced view**, you gain access to more advanced search options. These are normally only relevant for experienced users. Here you can specify, for example, that you want to search for all requests that do not have a specific owner, or all requests where one field is empty, instead of having a set value. The options displayed here will depend on the context of your search. For instance, different fields are shown when searching for requests compared with searching for contacts. Some of the available options are outlined below:
 

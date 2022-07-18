@@ -17,13 +17,15 @@ In SuperOffice Marketing you can add actions to your links. These actions are tr
 
 Click here to go to the relevant topic:
 
-* [**Response**](Define-link-actions.md#Landing-page-or-URL): Add landing page or custom text.
-* **[Set field](Define-link-actions.md#extrafield)**: Add a value to an extra field for customer contacts
-* [**Interests**](Define-link-actions.md#update-interest): Update interests.
-* **[Selection/Project](Define-link-actions.md#add-remove-contact)**: Add/remove customer contact from a selection/project.
-* [**Follow-up**](Define-link-actions.md#create-task-or-appt-in-SM): Create a follow-up (task or appointment) in SuperOffice CRM.
-* [**Request**](Define-link-actions.md#create-new-ticket): Create a new request.
-* [**Script**](Define-link-actions.md#run-script): Execute a script.
+| Tab | Action |
+|---|---|
+| Response | Add landing page or custom text. |
+| Set field | Add a value to an extra field for customer contacts |
+| Interests | Update interests. |
+| Selection/Project] | Add/remove customer contact from a selection/project. |
+| Follow-up] | Create a follow-up (task or appointment) in SuperOffice CRM. |
+| Request | Create a new request. |
+| Script | Execute a script. |
 
 ## Response
 
@@ -41,7 +43,7 @@ Here you can specify that a link click should add or remove interests for the co
 * In the **Set interest** list box, you can choose an interest to be added for the contacts if they click the link.
 * In the **Remove interest** list box, you can choose an interest to be removed for the contacts if they click the link.
 
-See also [Clear interests in SuperOffice CRM](oldeditor/Add-unsubscribe-link.md#Clear-interests-in-SuperOffice-CRM).
+See also [Clear interests in SuperOffice CRM](oldeditor/Add-unsubscribe-link.md#clear-interests-in-superoffice-crm).
 
 ## Selection/Project
 

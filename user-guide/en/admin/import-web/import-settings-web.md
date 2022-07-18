@@ -22,16 +22,6 @@ This applies to the following, among other things:
 * Legal basis and consent source for contacts
 * Lists: Select the preferred method for managing list elements in the import, e.g. new categories, business types and phone numbers.
 
-Click here to go to the relevant topic:
-
-[Manage duplicates (company/contact)](Import-settings-web.md#SetDuplicates)
-
-[Manage contacts that do not belong to a company](Import-settings-web.md#NoContact)
-
-[Manage list values that do not exist in SuperOffice](Import-settings-web.md#NewCategoryBusinessPosition)
-
-[Manage new phone numbers, links and e-mail addresses](Import-settings-web.md#NewPhoneLinkMail)
-
 ## Manage duplicates (company/contact)
 
 A duplicate occurs if you have the same record in the import file and in the database. In the import settings, you must always specify rules for managing duplicates.

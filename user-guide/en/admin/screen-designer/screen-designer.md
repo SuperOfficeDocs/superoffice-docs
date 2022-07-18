@@ -9,7 +9,9 @@ so.topic: help
 language: en
 ---
 
-# ![icon](../media/Knapp-ScreenDesigner.png) Screen designer
+# Screen designer
+
+ ![icon](../media/Knapp-ScreenDesigner.png)
 
 Screen designer (configurable screens) requires the Developer Tools licence.
 
@@ -31,6 +33,5 @@ The layouts are marked with status (published or draft) and the assigned user gr
 
 ## What do you want to do now?
 
-[Add new layout](ScreenDesigner-Add-new-layout.md)
-
-[Edit layout](ScreenDesigner-Edit-layout.md)
+* [Add new layout](ScreenDesigner-Add-new-layout.md)
+* [Edit layout](ScreenDesigner-Edit-layout.md)

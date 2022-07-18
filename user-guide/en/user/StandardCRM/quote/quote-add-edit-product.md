@@ -35,7 +35,7 @@ To open the **Add/edit product** dialog:
 
 3. Click the product you want in the list. The dialog will be updated with product information.  
 
-4. Edit the product quantity, discount and total price, if required. See [Edit quantity, discounts and prices for a product](quote-add-edit-product.md#product-edit-count-disount-price) below.
+4. Edit the product quantity, discount and total price, if required. See *Edit quantity, discounts and prices for a product* below.
 
 5. Read and edit any product information in the **Description** and **Details** tabs.
 

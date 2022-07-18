@@ -14,12 +14,12 @@ language: en
 Clicking the element profile button ( ![icon](../media/btn-editelementprofile.png) ) in the search results list takes you to the **Edit element profile** screen. Here you can specify how the search results should be presented:
 
 * **Entries per page**: In this list box, you specify how many records are to be displayed per page.
-* Under **Columns**, you can choose which columns are displayed in the **Result** section of the screen. See [Add columns](#AddColumns).
+* Under **Columns**, you can choose which columns are displayed in the **Result** section of the screen.
 * Under **Sample table**, you can see what the search results will look like with the current settings.
 
 ## Add columns
 
-1. Open the search screen. (See [Open the search screen](index.md#OpenTheSearchScreen).)
+1. Open the search screen. (See [Open the search screen](index.md#open-the-search-screen).)
 
 2. Perform a search by entering criteria and clicking the **Search** button, so that the **Result** section appears.
 
@@ -70,7 +70,7 @@ You can edit the information about the existing columns, e.g. the name and colum
 
 1. Open the **Edit element profile** screen as described above.
 2. To the right of the required column, click the pencil icon ( ![icon][img2] ). The fields under the column overview show information specified for the selected column.
-3. Edit the information as described under [Add columns](#AddColumns) or [Add functions](#AddFunctions).
+3. Edit the information as described under [Add columns](#add-columns) or [Add functions](#add-functions).
 4. Click the **Update column** button.
 5. Click **OK**. The changes are saved.
 

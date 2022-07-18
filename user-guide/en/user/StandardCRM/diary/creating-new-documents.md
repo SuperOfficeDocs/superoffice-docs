@@ -14,13 +14,7 @@ language: en
 > [!TIP]
 > If you just want to upload a document, see [Upload documents](Upload-documents.md).
 
-Click the required link, depending on how documents are managed in your SuperOffice installation:
-
-[Create a new document with SharePoint Documents](Creating-new-documents.md#Create-new-document-with-SharePoint-Documents)
-
-[Create a new document without SuperOffice Web Tools](#Creating-new-document-without-plug-in-Web)
-
-[Create a new document using SuperOffice Web Tools](#Creating-new-document-with-plug-in-Web)
+Follow the instructions below, depending on how documents are managed in your SuperOffice installation:
 
 [!include[Requirement](../../includes/req-licence-gen.md)]
 

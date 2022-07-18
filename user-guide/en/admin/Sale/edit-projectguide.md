@@ -18,6 +18,6 @@ To edit an existing project guide:
 3. Select the required project type in the list box at the top.
 4. You can also edit information on the project type and its statuses by clicking **Edit**. See [Add items to the Project - Status list](../chap08/Adding-items-to-Project-Status-list.md).
 5. You can create individual statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding-items-to-Project-Status-list.md).
-6. Edit follow-ups and documents by double-clicking them in the lists at the bottom. See [Add a follow-up for a status](Create-new-project-guide.md#Add-followup-for-status) and [Add a document for a status](Create-new-project-guide.md#Add-document-for-status).
+6. Edit follow-ups and documents by double-clicking them in the lists at the bottom. See [Add a follow-up for a status](create-new-project-guide.md#add-a-follow-up-for-a-status) and [Add a document for a status](create-new-project-guide.md#add-a-document-for-a-status).
 
 The changes are saved automatically.

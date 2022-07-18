@@ -18,7 +18,7 @@ To complete the fields in the **Edit list item** dialog when the items are appli
 > [!NOTE]
 > Files or applications that have to be run locally (e.g. .exe files) are not accessible in SuperOffice CRM for Web.
 
-1. Enter the required name of the item in the **Name** field. This name is displayed at the place where you add the application in SuperOffice CRM (see [step 7](#EkstApp-Trinn8) concerning the **Show** list box).
+1. Enter the required name of the item in the **Name** field. This name is displayed at the place where you add the application in SuperOffice CRM (see step 7 concerning the **Show** list box).
 
     > [!NOTE]
     > This is a mandatory field and must therefore be filled in.
@@ -29,7 +29,7 @@ To complete the fields in the **Edit list item** dialog when the items are appli
 
 1. **Button**: the application icon is displayed in the Navigator in SuperOffice CRM. Users can then open the application directly by clicking the icon in the Navigator.
     * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon](../media/knapp-verktoey-liten.bmp) ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
-    * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See [step 8](#EkstApp-Trinn9). You could, for example, run a synchronisation program for a PDA when SuperOffice CRM closes.
+    * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See step 8. You could, for example, run a synchronisation program for a PDA when SuperOffice CRM closes.
     * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the **Selection** screen or the **Task** buttons in various locations in SuperOffice CRM. <!-- Fix reuse ID=a2 -->
         The names in parenthesis indicate in which section tab the application is available.
 
@@ -79,7 +79,7 @@ Check **Wait for application to finish** if you want SuperOffice CRM to wait for
 
 Under **Start-up mode**, specify the type of window the application will start in – Maximised, Minimised or Restored.
 
-In the **Icon** field, choose the icon to display for the application in the Navigator in SuperOffice CRM (see [step 7](#EkstApp-Trinn8) concerning the **Show** list box). This list box only appears if you have selected **Button** under **Add as**.
+In the **Icon** field, choose the icon to display for the application in the Navigator in SuperOffice CRM (see step 7 concerning the **Show** list box). This list box only appears if you have selected **Button** under **Add as**.
 
 * **From library**: Select one of the available icons in the list.
 * **Use program icon**: Use the default icon for the selected application.

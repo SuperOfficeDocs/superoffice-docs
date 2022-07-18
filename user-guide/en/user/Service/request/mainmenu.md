@@ -25,10 +25,10 @@ If you or your role have sufficient rights, you can choose the content you want 
 
 You can choose to display, for example
 
-* [statistics about requests](mainMenu.md#Statistics)
-* [statuses of your own requests](mainMenu.md#Status)
-* [own active requests](mainMenu.md#OwnActiveTickets)
-* [unassigned requests](mainMenu.md#UndelegatedTickets)
+* [statistics about requests](#statistics)
+* [statuses of your own requests](#status)
+* [own active requests](#own-open-requests)
+* [unassigned requests](#unassigned-requests)
 
 Find out more about this below.
 
@@ -76,17 +76,13 @@ Shows requests that belong to you and which have the **Open** status. In other w
 
 Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests](showListTickets.acceptRequest.md).
 
-## **What would you like to do now?**
+## What would you like to do now?
 
-[Create a dashboard](mainMenu.dashboard-create.md)
-
-[Receive requests](receiveTickets.md)
-
-[Create requests](newTicket.md)
-
-[Find requests](listTickets.md)
-
-[Process requests](listTicket.md)
+* [Create a dashboard](mainMenu.dashboard-create.md)
+* [Receive requests](receiveTickets.md)
+* [Create requests](newTicket.md)
+* [Find requests](listTickets.md)
+* [Process requests](listTicket.md)
 
 <!-- Referenced links -->
 [1]:

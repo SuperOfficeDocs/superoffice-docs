@@ -15,7 +15,7 @@ In the **Content** step you enter the content of the SMS.
 
 In order to do this:
 
-1. In the **SMS text** field, enter the text. You can use [template variables for contacts](../Service/template-variables.md#Variables-for-selected-contact) here. This works the same way as for e-mail mailings. See [Use template variables in messages](Use-template-variables-in-messages.md).
+1. In the **SMS text** field, enter the text. You can use [template variables for contacts](../Service/template-variables.md#variables-for-a-selected-contact) here. This works the same way as for e-mail mailings. See [Use template variables in messages](Use-template-variables-in-messages.md).
 2. Click **Next** to go to the next step: [Step 4: Recipients](Step-4-Recipients-SMS.md).
 
 > [!NOTE]
