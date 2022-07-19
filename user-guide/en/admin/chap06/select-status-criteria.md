@@ -36,8 +36,14 @@ To do this:
 
 7. Check that you have checked (![icon](../media/avmerkingsboks.bmp)) the criteria you want to use for this status.
 
-8. Click ![icon](../media/Pil-hoeyre.bmp) **Regenerate selected status monitor** to update the status with the criteria you have added. When the status has been regenerated, no red cross will be shown by the status name.
+8. Click ![icon][img2] **Regenerate selected status monitor** to update the status with the criteria you have added. When the status has been regenerated, no red cross will be shown by the status name.
 
 ## What would you like to do now?
 
-[Manage status monitors](Manage-status-monitors.md)
+* [Manage status monitors](Manage-status-monitors.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img2]: ../../../media/icons/pil-hoeyre.bmp

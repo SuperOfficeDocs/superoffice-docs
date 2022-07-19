@@ -15,7 +15,7 @@ Using the **Project** function, you can link any activities both to an external 
 
 In the **Project** screen, each project is displayed like an index card. You can see all the information that has been entered for a project.
 
-To move backwards and forwards between projects, click the previous/next buttons ( ![icon](../media/Pil-venstre.bmp)![icon](../media/Pil-hoeyre.bmp) ) at the bottom right of the cards
+To move backwards and forwards between projects, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards
 
 ## Add record as a favourite
 
@@ -51,3 +51,10 @@ If you have selected a project type for which a project guide has been defined, 
 [Mailing a document to project members](Performing-mail-merge-for-projects.md)
 
 [Project guide](Projectguide.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/pil-venstre.bmp

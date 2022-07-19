@@ -23,10 +23,16 @@ At the bottom of the **Status monitors** tab, <!-- Fix reuse ID=a1 -->(text whic
 
 When you have added, edited or deleted a criterion (see [Select status criteria](Select-status-criteria.md)), or if, for example, you have edited an intention for a task in SuperOffice CRM, a red cross ( ![icon](../media/Roedt-kryss.bmp) ) is displayed in the status list to the left of the status(es) in question. Statuses marked with a red cross are not enabled. You must then regenerate these statuses by clicking one of these buttons:
 
-![icon](../media/Pil-hoeyre.bmp) **Regenerate selected status monitor** (bottom of the **Company**, **Contact** or **Project** tab): Click here to regenerate the selected status.
+![icon][img2] **Regenerate selected status monitor** (bottom of the **Company**, **Contact** or **Project** tab): Click here to regenerate the selected status.
 
-![icon](../media/Pil-hoeyre.bmp) **Regenerate all status monitors** (bottom of the **Status** tab): Click here to regenerate all statuses.
+![icon][img2] **Regenerate all status monitors** (bottom of the **Status** tab): Click here to regenerate all statuses.
 
 ## Regenerate counter values
 
-![icon](../media/Pil-hoeyre.bmp) **Regenerate all counters**: Click here to regenerate all counters.
+![icon][img2] **Regenerate all counters**: Click here to regenerate all counters.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img2]: ../../../media/icons/pil-hoeyre.bmp

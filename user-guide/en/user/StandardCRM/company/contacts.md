@@ -13,7 +13,7 @@ language: en
 
 ![icon](../media/Chap03-contacts/22-chap3-contacts-detail.bmp)
 
-**Contacts** is one of the section tabs at the bottom of the **Company** screen. It contains information about employees of the active company. Double-click on a name in the list to open the contact in the **Contact** screen. See [Contact](../person/Contact-main.md).
+**Contacts** is one of the section tabs at the bottom of the **Company** screen. It contains information about employees of the active company. Double-click on a name in the list to open the contact in the **Contact** screen. See [Contact](../../person/index.md).
 
 ## What would you like to do now?
 

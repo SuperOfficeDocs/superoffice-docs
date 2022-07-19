@@ -46,10 +46,17 @@ To do this:
 
 1. Right-click a column heading, and select **Configure columns**. The **Columns** tab in the **Customise** dialog is displayed.
 2. Make the required changes in the columns as follows:
-    * Add columns: In the **Available columns** pane, select the columns you want to add and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ) to move them to the **Columns selected** pane.
-    * Remove columns: In the **Columns selected** pane, select the columns you want to remove and click the left arrow ( ![icon](../media/Pil-venstre.bmp) ) to move them to the **Available columns** pane.
+    * Add columns: In the **Available columns** pane, select the columns you want to add and click the right arrow ( ![icon][img1] ) to move them to the **Columns selected** pane.
+    * Remove columns: In the **Columns selected** pane, select the columns you want to remove and click the left arrow ( ![icon][img2] ) to move them to the **Available columns** pane.
     * Change the order of the columns: In the **Columns selected** pane, select the column that you want to move left or right in the view and click either the up arrow ( ![icon](../media/pil-flyttopp.bmp) ) or the down arrow ( ![icon](../media/pil-flyttned.bmp) ).
 3. Click **Save** to save the setup and close the **Customise** dialog.
 
 > [!TIP]
 > To reset the column layout, click **Reset** at the bottom of the **Columns selected** pane.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/pil-venstre.bmp

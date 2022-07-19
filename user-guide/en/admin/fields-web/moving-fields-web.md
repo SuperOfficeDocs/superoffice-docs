@@ -20,7 +20,7 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 * Click and drag using the mouse. The field(s) will automatically be adjusted to fit the grid.
 * Click a field and use the arrow keys on the keyboard.
-* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon](../media/Pil-venstre.bmp) ![icon](../media/Pil-hoeyre.bmp) ![icon](../media/pil-flyttned.bmp) ![icon](../media/pil-flyttopp.bmp) ).
+* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon][img2] ![icon][img1] ![icon](../media/pil-flyttned.bmp) ![icon](../media/pil-flyttopp.bmp) ).
 * Double-click a field and specify position values **X** and **Y** in the **Fields** dialog. <!-- Fix reuse ID=a1 -->
     1. Specify the following in the fields to the right of **Label**:
 
@@ -49,3 +49,10 @@ Select the fields you want to adjust and click left-align ( ![icon](../media/ali
 1. Double-click the relevant field in the **Fields** list or grid
 2. Specify the width of the label in the field to the right of **Label**.
 3. Specify the width of the data field in the field to the right of **Data**.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/pil-venstre.bmp

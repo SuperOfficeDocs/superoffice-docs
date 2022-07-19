@@ -18,6 +18,12 @@ The columns of the **Relations** section tab contain the following information:
 * Names of contacts and companies that are part of a relation with the current contact.
 * What relation they have to each other.
 * Who created the relation.
-* If a paperclip symbol ( ![icon](../media/Binders.bmp) ) is displayed, this indicates that there is a more detailed description of the relation in the **Relation** dialog. Hold the mouse-pointer over the paper-clip icon ( ![icon](../media/Binders.bmp) ) to display the description.
+* If a paperclip symbol ( ![icon][img1] ) is displayed, this indicates that there is a more detailed description of the relation in the **Relation** dialog. Hold the mouse-pointer over the paper-clip icon ( ![icon][img1] ) to display the description.
 
-Double-click on a relation row and the **Relation** dialog opens, showing all the information entered for that relation (see [Add relations](contact-secttab-relations-add.md)).
+Double-click on a relation row and the **Relation** dialog opens, showing all the information entered for that relation (see [Add relations][1]).
+
+<!-- Referenced links -->
+[1]: contact-secttab-relations-add.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/binders.bmp

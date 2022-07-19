@@ -1,4 +1,6 @@
 items:
+- name: Overview
+  href: index.md
 - name: Contactcard tab contact
   href: contactcard-tab-contact.md
 - name: Contactcard tab details
@@ -15,8 +17,6 @@ items:
   href: contact-create-contacts.md
 - name: Contact delete
   href: contact-delete.md
-- name: Contact main
-  href: contact-main.md
 - name: Contact print
   href: contact-print.md
 - name: Contact secttab activities

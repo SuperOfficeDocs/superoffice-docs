@@ -106,7 +106,7 @@ The **Selection** screen contains the following tabs:
 
 To move backwards and forwards between selections:
 
-* click the previous/next buttons ( ![icon](../media/Pil-venstre.bmp)![icon](../media/Pil-hoeyre.bmp) ) at the top right of the screen
+* click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the top right of the screen
 
 ## Add record as a favourite
 
@@ -124,3 +124,10 @@ From the **Tasks** button (lower part of the screen), you can perform specific t
 * [Display selections as charts](Display-selections-as-charts.md)
 * [Edit selections](Editing-Selections.md)
 * [Delete selections](Deleting-selections.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/pil-venstre.bmp

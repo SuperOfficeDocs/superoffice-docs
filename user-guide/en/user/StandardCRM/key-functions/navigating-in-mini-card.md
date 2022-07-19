@@ -36,7 +36,7 @@ You can choose from the following views. Click the views for more information.
     Shows information about the contact selected in the **Company** or **Selection** screen.
 
     > [!TIP]
-    > If you click the contact's name, the [contact card](../person/contact-create-contacts.md) opens, and here you can view and edit detailed information about the contact.
+    > If you click the contact's name, the [contact card](../../person/contact-create-contacts.md) opens, and here you can view and edit detailed information about the contact.
 
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
 
@@ -69,7 +69,7 @@ You can choose from the following views. Click the views for more information.
 * <!-- Fix reuse ID=a7 -->
     Opens the [Notepad](Notepad.md) in the side panel.
 * <!-- Fix reuse ID=a6 -->
-    Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links, opens the [contact card](../person/contact-create-contacts.md), [Document dialog](../diary/Document-dialog.md), or [follow-ups dialog](../diary/Dialog-for-followups.md), where you can view and edit the contact or activity.
+    Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links, opens the [contact card](../../person/contact-create-contacts.md), [Document dialog](../diary/Document-dialog.md), or [follow-ups dialog](../diary/Dialog-for-followups.md), where you can view and edit the contact or activity.
 * <!-- Fix reuse ID=a10 -->
     Shows a summary of information about the current project in the **Project** screen.
 
@@ -79,7 +79,7 @@ You can choose from the following views. Click the views for more information.
     Shows a list of project members in the current project in the **Project** screen.
 
     > [!TIP]
-    > If you double-click the name of a project member, the [contact card](../person/contact-create-contacts.md) opens, and here you can view and edit detailed information about the project member.
+    > If you double-click the name of a project member, the [contact card](../../person/contact-create-contacts.md) opens, and here you can view and edit detailed information about the project member.
 * <!-- Fix reuse ID=a16 -->
     Shows a summary of information about the current sale in the **Sale** screen.
 

@@ -13,13 +13,13 @@ language: en
 
 The **Contacts** section tab contains the following columns:
 
-**\[Information\]** ![icon](../media/Binders.bmp)
+**\[Information\]** ![icon][img1]
 
-A paperclip icon ( ![icon](../media/Binders.bmp) ) in this column means that information has been entered about that contact in **Note** tab in the contact card. Position the mouse pointer over the dot and the information is displayed in a tooltip.
+A paperclip icon ( ![icon][img1] ) in this column means that information has been entered about that contact in **Note** tab in the contact card. Position the mouse pointer over the dot and the information is displayed in a tooltip.
 
 **\[Interests\]** ![icon](../media/Knappenaal.bmp)
 
-A pin icon ( ![icon](../media/Knappenaal.bmp) ) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab. See [Create new contacts](../person/contact-create-contacts.md).
+A pin icon ( ![icon](../media/Knappenaal.bmp) ) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab. See [Create new contacts](../../person/contact-create-contacts.md).
 
 Mr/Ms
 
@@ -44,4 +44,10 @@ They will then be shown in a different colour. They are also shown in this way o
 
 ## What would you like to do now?
 
-[Configure columns](../key-functions/Changing-column-view.md)
+* [Configure columns](../key-functions/Changing-column-view.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/binders.bmp

@@ -11,8 +11,13 @@ language: en
 
 # The www tab (Contact screen)
 
-[!include[About the www tab](../../includes/www-tab.md)]
+[!include[About the www tab](../includes/www-tab.md)]
 
 ## Related topics
 
-* [The browser in SuperOffice CRM](../company/browser-in-SuperOffice-CRM.md)
+* [The browser in SuperOffice CRM][1]
+
+<!-- Referenced links -->
+[1]: ../standardcrm/company/browser-in-superoffice-crm.md
+
+<!-- Referenced images -->

@@ -97,19 +97,19 @@ In the list box, select the field you want to search for information in. The fie
 
     To add a value:
 
-    Select the required value(s) in the pane on the left, and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ). The selected value(s) are displayed under **Selected values** in the pane on the right.
+    Select the required value(s) in the pane on the left, and click the right arrow ( ![icon][img1] ). The selected value(s) are displayed under **Selected values** in the pane on the right.
 
     To remove a value:
 
-    Select the required value(s) in the pane on the right, and click the left arrow ( ![icon](../media/Pil-venstre.bmp) ).
+    Select the required value(s) in the pane on the right, and click the left arrow ( ![icon][img2] ).
 
     To add all values:
 
-    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ). The values are displayed under **Selected values** in the pane on the right.
+    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon][img1] ). The values are displayed under **Selected values** in the pane on the right.
 
     To remove all selected values:
 
-    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon](../media/Pil-venstre.bmp) ). All the selected values are removed.
+    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
 
 * <!-- Fix reuse ID=a7 --> ( ![icon](../media/Status-aktiv.bmp) )
 
@@ -153,3 +153,10 @@ In the list box, select the field you want to search for information in. The fie
 **Change search criteria:**
 
 If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears, as described above.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/pil-venstre.bmp

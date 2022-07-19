@@ -54,13 +54,13 @@ It may happen that you want to create a series of appointments to occur at regul
         | Day &lt;number&gt; **of &lt;month&gt;**| Use this if you want the follow-up to take place on the same date each time.<br />For example: Day 13 of April. |
         | &lt;ordinal number&gt; **&lt;weekday&gt; of &lt;month&gt;**| Use this if you want the follow-up to take place on the same weekday each time.<br/>For example: The fourth Thursday of August. |
 
-    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon](../media/Pil-hoeyre.bmp)) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
+    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon][img2]) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
 
 6. In the **Repeating follow-ups ends** field, choose whether the follow-up should stop after a specific number of times or after a specific date.
 
 7. If you want to change one or more dates for a repeating follow-up manually, for example, if there is a conflict, you can do this in the list of selected dates at the far right of the dialog. You have the following options:
     * Move a date: Select the date you want to move, and click **Later** ( ![icon](../media/Pil-ned.bmp) ) if you want to defer the follow-up by one day, or **Earlier** ( ![icon](../media/Pil-opp.bmp) ) if you want to bring the follow-up one day forwards.
-    * Add a date: Click the **Add** button below the list. The same calendar is then displayed as when you select **Custom**. Select the required date and click the arrow button ( ![icon](../media/Pil-hoeyre.bmp) ) to the right of the calendar to add the date to the list. Use the arrow buttons ( ![icon](../media/Kalender-pil-venstre.bmp)![icon](../media/Kalender-pil-hoeyre.bmp) ) on either side of the month name in the calendar to display other months.
+    * Add a date: Click the **Add** button below the list. The same calendar is then displayed as when you select **Custom**. Select the required date and click the arrow button ( ![icon][img2] ) to the right of the calendar to add the date to the list. Use the arrow buttons ( ![icon](../media/Kalender-pil-venstre.bmp)![icon](../media/Kalender-pil-hoeyre.bmp) ) on either side of the month name in the calendar to display other months.
     * Delete a date: Select the date you want to delete, and click the **Delete** button below the list. The date will then be removed from the list of dates.
 
 8. When you have finished entering dates for the follow-up, click **OK** to save the dates and close the dialog, or click **Cancel** to close the dialog without saving the dates.
@@ -71,8 +71,12 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 
 ## What would you like to find out more about?
 
-[Edit repeating follow-ups](Editing-recurring-follow-ups.md)
+* [Edit repeating follow-ups](Editing-recurring-follow-ups.md)
+* [Receive invitations](Receiving-invitations.md)
+* [Stop repeating follow-ups](Stopping-recurring-follow-ups.md)
 
-[Receive invitations](Receiving-invitations.md)
+<!-- Referenced links -->
+[1]:
 
-[Stop repeating follow-ups](Stopping-recurring-follow-ups.md)
+<!-- Referenced images -->
+[img2]: ../../../../media/icons/pil-hoeyre.bmp

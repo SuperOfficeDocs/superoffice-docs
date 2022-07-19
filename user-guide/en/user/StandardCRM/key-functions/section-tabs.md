@@ -40,7 +40,7 @@ To change the default number of records, do as follows:
 * [Export section tabs](Export-archives.md)
 * [Filter activities](../company/Using-Filter-function-Contact.md)
 * [Section tabs in the Company screen](../company/Section-tabs-in-Company-screen.md)
-* [Section tabs in the Contact screen](../person/Section-tabs-in-Contact-screen.md)
+* [Section tabs in the Contact screen](../../person/Section-tabs-in-Contact-screen.md)
 * [Section tabs in the Diary screen](../diary/Section-tabs-in-Diary-screen.md)
 * [Section tabs in the Sale screen](../sale/sale-screen-section-tabs.md)
 * [Section tabs in the Project screen](../project/Project-screen-section-tabs.md)

@@ -39,6 +39,12 @@ To add a relation:
 > [!NOTE]
 > The alternatives displayed in this list box also depend on whether it is a relation between two companies, between a company and a contact or between two contacts.
 
-1. Enter any additional information as free text in the **Description** field. If you type in anything here, a paperclip symbol ( ![icon](../media/Binders.bmp) ) is displayed on the relevant line in the **Relations** section tab.
+1. Enter any additional information as free text in the **Description** field. If you type in anything here, a paperclip symbol ( ![icon][img1] ) is displayed on the relevant line in the **Relations** section tab.
 2. The **Result** field is automatically updated according to the information in the **Relation** field. Example: If you selected "owns" as a relationship, the result will show who owns whom, and who is owned by whom.
 3. When you have finished entering information, click the **Save** button to close the dialog and save the information you entered.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/binders.bmp

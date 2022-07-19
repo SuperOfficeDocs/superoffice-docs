@@ -16,11 +16,11 @@ language: en
 The **Company** screen contains all your company customers. For each company, you can view the associated contacts in the **Contacts** section tab.
 
 > [!NOTE]
-> Contacts that are not associated with a company, can be found in the **Contact** screen. See [Contact](../person/Contact-main.md).
+> Contacts that are not associated with a company, can be found in the **Contact** screen. See [Contact](../../person/index.md).
 
 In the **Company** screen, every record in the database is displayed like an index card. A record in a database contains all the information that has been entered for a company.
 
-To move backwards and forwards between companies, click the previous/next buttons ( ![icon](../media/Pil-venstre.bmp)![icon](../media/Pil-hoeyre.bmp) ) at the bottom right of the cards
+To move backwards and forwards between companies, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards
 
 You can search for specific companies based on criteria that you specify. You can also write documents, generate follow-ups and create new companies and contacts.
 
@@ -39,3 +39,10 @@ The bottom of the **Company** screen contains the following default section tabs
 [Delete companies](Deleting-companies.md)
 
 [Print companies](Printing-companies.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/pil-venstre.bmp

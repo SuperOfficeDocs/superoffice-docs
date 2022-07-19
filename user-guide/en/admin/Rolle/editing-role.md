@@ -26,7 +26,14 @@ To edit a role:
     Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).
 6. If you are editing roles for associates: Go to the **Functional rights** tab and edit the role's functional rights.  
     <!-- Fix reuse ID=a5 -->
-    * To add a right: Select one or more rights in the **This role CANNOT** field, and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ).
-    * To remove a right: Select one or more rights in the **This role can** field, and click the left arrow ( ![icon](../media/Pil-venstre.bmp) ).
+    * To add a right: Select one or more rights in the **This role CANNOT** field, and click the right arrow ( ![icon][img1] ).
+    * To remove a right: Select one or more rights in the **This role can** field, and click the left arrow ( ![icon][img2] ).
 
 The changes are saved automatically.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/pil-venstre.bmp

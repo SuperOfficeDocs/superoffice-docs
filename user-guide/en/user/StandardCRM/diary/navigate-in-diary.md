@@ -18,7 +18,7 @@ There are different ways of navigating in the diary.
 To move between the different days, weeks or months in the **Diary** screen:
 
 * click the word **Diary** in the Navigator and select a time period from the list that appears, or click **Today** or **This week** to move to the current day or week.
-* click the previous/next buttons ( ![icon](../media/Pil-venstre.bmp)![icon](../media/Pil-hoeyre.bmp) ) at the bottom right of the Diary.
+* click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the Diary.
 * (if open) click a day or week in the day, week or month view in the side panel.
 * in the **Day** tab, **Week** tab and **Month** tab you can click **Today** or **This week** to move to the current day or week.
 
@@ -30,3 +30,10 @@ The diary consists of four different tabs: **Day** tab, **Week** tab, **Month** 
 > Click **Diary** in the navigator and click a month, week number or a day in the calendar to move directly to one of the tabs above.
 
 For more details about the different views, see [Tabs in the Diary screen](Tabs-in-Diary-screen.md).
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/pil-venstre.bmp

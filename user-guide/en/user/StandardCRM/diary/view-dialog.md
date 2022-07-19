@@ -52,7 +52,7 @@ When you have selected an option for **Select from**, a list box displays below.
 
 \[Left pane\]
 
-Here you will see a list of available users and/or resources that can be added to the group view. Select the users/resources you require and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ) to add them to the pane on the right.
+Here you will see a list of available users and/or resources that can be added to the group view. Select the users/resources you require and click the right arrow ( ![icon][img2] ) to add them to the pane on the right.
 
 > [!NOTE]
 > You can also select users and resources individually by double-clicking them.
@@ -61,7 +61,7 @@ Click **Select all** ( ![icon](../media/Merk-alle.bmp) ) if you want to select a
 
 \[Right pane\]
 
-Displayed here are all the users and resources you have added to the group view. If you want to remove a user or a resource from this list, select it and click the left arrow ( ![icon](../media/Pil-venstre.bmp) ). The users and resources you have chosen will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon](../media/Pil-opp.bmp) ) or arrow down ( ![icon](../media/Pil-ned.bmp) ) to move it up or down.
+Displayed here are all the users and resources you have added to the group view. If you want to remove a user or a resource from this list, select it and click the left arrow ( ![icon][img3] ). The users and resources you have chosen will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon](../media/Pil-opp.bmp) ) or arrow down ( ![icon](../media/Pil-ned.bmp) ) to move it up or down.
 
 Save
 
@@ -86,3 +86,5 @@ Closes the dialog without saving changes.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/pil-hoeyre.bmp
+[img3]: ../../../../media/icons/pil-venstre.bmp

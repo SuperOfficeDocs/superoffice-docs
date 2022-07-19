@@ -11,7 +11,7 @@ language: en
 
 # Send e-mail to a contact (Contact screen)
 
-1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
+1. [!include[Go to Contact screen](../includes/goto-contact.md)]
 2. Do one of the following:
     * Click the e-mail address in the **Contact** tab. If the contact has more than one e-mail address, you must select which one to use.
     * Click **New** on the top bar and select **E-mail**.
@@ -22,11 +22,11 @@ language: en
 4. Send the e-mail by clicking one of the following buttons:
     * Send: The e-mail is sent and will be available in the Activities section tab.
     * Send and archive: The e-mail is sent and saved as a document. See more information below.
-5. If you selected **Send and archive**, the **Document** dialog opens when you send the e-mail. Add information in this dialog as necessary (see [The Document dialog](../diary/Document-dialog.md)).
+5. If you selected **Send and archive**, the **Document** dialog opens when you send the e-mail. Add information in this dialog as necessary (see [The Document dialog][1]).
 6. Click **Create** in the **Document** dialog.
 
 <!-- Referenced links -->
-[1]:
+[1]: ../standardcrm/diary/document-dialog.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/btn-menu.png

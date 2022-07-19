@@ -18,7 +18,7 @@ In the **Interests** tab you have the following options:
 Here you select what interests a contact has. Interests are used to create selections for mailings and similar. The available interests are defined in SuperOffice Settings and maintenance.
 
 > [!TIP]
->  Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
+> Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
 
 ## E-marketing/subscriptions
 

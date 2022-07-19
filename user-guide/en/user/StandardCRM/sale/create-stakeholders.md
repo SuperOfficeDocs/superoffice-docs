@@ -36,7 +36,7 @@ To link the sale to stakeholders:
 
 6. If you want to add the company as a stakeholder, click the top arrow button (to the right of the company). The company is then displayed on the right-hand side of the window.
 
-7. If you want to add contacts as stakeholders, select the contact(s) and click the bottom arrow button ( ![icon](../media/Pil-hoeyre.bmp) ). The contact(s) will then be displayed on the right of the dialog.
+7. If you want to add contacts as stakeholders, select the contact(s) and click the bottom arrow button ( ![icon][img2] ). The contact(s) will then be displayed on the right of the dialog.
 
     > [!NOTE]
     > If the required name is not in the list, you must first create the contact. See [Create new contacts](../company/create-new-contacts.md).
@@ -47,7 +47,7 @@ To link the sale to stakeholders:
 9. In the large text box under **Comments**, enter a more detailed description of the company’s or contact's function within the sale, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a paperclip symbol ( ![icon](../media/Binders.bmp) ) will be displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) will be displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
 10. Repeat steps 4-9 for each stakeholder you want to add.
 
@@ -55,3 +55,10 @@ To link the sale to stakeholders:
 
     > [!TIP]
     > You can select multiple companies and/or contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Sales role** field and **Comments** text box will apply to all the selected companies/contacts.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/binders.bmp
+[img2]: ../../../../media/icons/pil-hoeyre.bmp

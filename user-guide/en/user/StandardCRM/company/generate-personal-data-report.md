@@ -15,7 +15,7 @@ If a contact has requested to view all information registered on them in SuperOf
 
 To generate a personal data report for a contact:
 
-1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
+1. [!include[Go to Contact screen](../../includes/goto-contact.md)]
 2. Click **Task** ( ![icon][img1] ) &gt; **Generate personal data report**.
 3. In the **Privacy report** dialog, you view the information registered on the contact.
 4. Send the report as an e-mail attachment or save the report as a PDF.

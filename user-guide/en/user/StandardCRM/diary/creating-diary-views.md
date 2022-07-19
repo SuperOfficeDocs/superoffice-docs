@@ -28,7 +28,7 @@ In SuperOffice CRM, you can add a selection of users and resources in your organ
     * If you selected **Project**, the history list of projects is displayed.
     * If you selected **Resource**, a list of resource groups in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** if you want to see all the resources in your organisation.
 
-4. Select the users/resources you require and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ) to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
+4. Select the users/resources you require and click the right arrow ( ![icon][img2] ) to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 
 5. The pane on the right displays all the users and resources you have added to the group view. If you want to remove a user or a resource from this list, select it and click **Delete**.
 
@@ -45,8 +45,12 @@ For more information about the fields in this dialog, see [The New group view di
 
 ## What would you like to do now?
 
-[View group views for an entire user group](Viewing-views-for-entire-user-group.md)
+* [View group views for an entire user group](Viewing-views-for-entire-user-group.md)
+* [Use the group view](Using-group-view.md)
+* [Create appointments for associates](Creating-appointments-for-associates.md)
 
-[Use the group view](Using-group-view.md)
+<!-- Referenced links -->
+[1]:
 
-[Create appointments for associates](Creating-appointments-for-associates.md)
+<!-- Referenced images -->
+[img2]: ../../../../media/icons/pil-hoeyre.bmp

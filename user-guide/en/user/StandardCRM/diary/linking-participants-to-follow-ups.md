@@ -28,7 +28,7 @@ To book participants and resources:
     * If you selected **Associates** or **Resource** in step 3, you can choose **All** in the list box to display the associates or resources in all groups.
     * If you selected **Company/contact**, **Project** or **Selection** in step 3, you can search for the required company, contact, project or selection from this field.
 
-5. Once you have selected the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon](../media/Pil-hoeyre.bmp) ). They are then displayed on the right-hand side of the window. You can also select users and resources individually by double-clicking them.
+5. Once you have selected the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right-hand side of the window. You can also select users and resources individually by double-clicking them.
 
     > [!NOTE]
     > If any of the people are busy at the time you have specified, their name is shown in red, so you can easily see whether you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
@@ -54,3 +54,9 @@ To book participants and resources:
     See [Status of invitations](Status-of-invitations.md) for more information.
 
 8. When you have finished choosing participants and resources, click **Save** to save your selections or **Cancel** to exit the dialog without saving.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img2]: ../../../../media/icons/pil-hoeyre.bmp

@@ -32,10 +32,17 @@ Now we are going to amend slightly the standard report criteria, so that you can
 
 5. Click the arrow next to the **Is one of** field and change the value to **Is not one of**.
 
-6. Select the **Sold** criterion in the **Selected values** column and click the left-pointing arrow (![icon](../media/Pil-venstre.bmp)) between the columns. The criterion is moved over to the left-hand column.
+6. Select the **Sold** criterion in the **Selected values** column and click the left-pointing arrow (![icon][img2]) between the columns. The criterion is moved over to the left-hand column.
 
-7. Select the **Open** criterion in the left-hand column and click the right-pointing arrow (![icon](../media/Pil-hoeyre.bmp)) between the columns. The criterion is moved over to the **Selected values** column. The report will now contain sales which do *not* have the status **Open**.
+7. Select the **Open** criterion in the left-hand column and click the right-pointing arrow (![icon][img1]) between the columns. The criterion is moved over to the **Selected values** column. The report will now contain sales which do *not* have the status **Open**.
 
 8. Click **OK**.
 
 For more information about search criteria and field types, see [Use search criteria](../key-functions/Using-search-criteria.md).
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/pil-venstre.bmp

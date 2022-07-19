@@ -13,6 +13,6 @@ language: en
 
 To print out information about a contact:
 
-1. Go to the required contact in the **Contact** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
+1. [!include[Go to Contact screen](../includes/goto-contact.md)]
 2. Click the **Task** button and select **Print**.
 3. In the window which displays the contents to be printed, click **Print**.

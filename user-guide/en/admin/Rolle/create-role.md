@@ -47,12 +47,19 @@ To create a role for associates in the company or for external users:
     > [!TIP]
     > Hold the mouse pointer over a right to display more information about it.
 
-11. To add a right: Select one or more rights in the **This role CANNOT** field, and click the right arrow ( ![icon](../media/Pil-hoeyre.bmp) ).
+11. To add a right: Select one or more rights in the **This role CANNOT** field, and click the right arrow ( ![icon][img1] ).
 
-12. To remove a right: Select one or more rights in the **This role can** field, and click the left arrow ( ![icon](../media/Pil-venstre.bmp) ).
+12. To remove a right: Select one or more rights in the **This role can** field, and click the left arrow ( ![icon][img2] ).
 
 The changes are saved automatically.
 
 ## What would you like to do now?
 
 [Add users](../chap07/Adding-users-web.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/pil-venstre.bmp

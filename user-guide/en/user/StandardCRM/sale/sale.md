@@ -29,7 +29,7 @@ If you have selected a sale type for which a sales guide has been defined, the *
 
 In the **Sale** screen, each sale is displayed like an index card. You can see all the information that has been recorded for a sale.
 
-To move backwards and forwards between sales click the previous/next buttons ( ![icon](../media/Pil-venstre.bmp)![icon](../media/Pil-hoeyre.bmp) ) at the bottom right of the cards
+To move backwards and forwards between sales click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards
 
 ## Add record as a favourite
 
@@ -42,3 +42,10 @@ To move backwards and forwards between sales click the previous/next buttons ( !
 * [Work with sales guides](Working-with-sales-guide.md)
 * [Create a quote](../quote/quote-create.md)
 * [Work with sales targets](Sales-targets.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/pil-venstre.bmp
