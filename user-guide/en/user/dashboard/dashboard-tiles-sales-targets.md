@@ -11,7 +11,7 @@ language: en
 
 # Using sales targets in tiles
 
-If you have defined sales targets for your company, teams/groups and/or sales people (see [Sales targets](../sale/Sales-targets.md)), you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
+If you have defined sales targets for your company, teams/groups and/or sales people (see [Sales targets][4]), you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
 
 To add a tile with sales targets to a dashboard:
 
@@ -25,18 +25,18 @@ To add a tile with sales targets to a dashboard:
 
 5. In the **Library** tab, select one of the following charts:
 
-    * ![icon](../media/Dashboard-Images/dashboard-tiletype-bignumbers.png) - Big number
+    * ![icon][img2] - Big number
 
-    * ![icon](../media/Dashboard-Images/dashboard-tiletype-bar.png)- Bar chart
+    * ![icon][img3] - Bar chart
 
-    * ![icon](../media/Dashboard-Images/dashboard-tiletype-column.png)- Column chart
+    * ![icon][img4] - Column chart
 
-    * ![icon](../media/Dashboard-Images/dashboard-tiletype-gauge.png)- Gauge chart
+    * ![icon][img5] - Gauge chart
 
     * Empty sale tile
 
     > [!TIP]
-    > You can also select an empty tile to create a tile from scratch, but the chart type needs to be one of those listed above. See [Edit a tile](Dashboard-Tiles-Edit.md).
+    > You can also select an empty tile to create a tile from scratch, but the chart type needs to be one of those listed above. See [Edit a tile][1].
 
 6. To add a tile to the dashboard, drag and drop it on the desired position on the dashboard. You can also click **Add** to add a tile to next available position. The tile will automatically adjust to the available space, and will align with the grid and columns setup.
 
@@ -44,9 +44,9 @@ To add a tile with sales targets to a dashboard:
     * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard will be highlighted in yellow when the tile can fit in that position.
     * Click the header of a tile and drag it to another position.
 
-8. In the dashboard, click the **Edit tile** icon ( ![icon](../media/Dashboard-Images/dashboard-tile-edit.png) ) on the tile you have added.
+8. In the dashboard, click the **Edit tile** icon ( ![icon][img6] ) on the tile you have added.
 
-9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other criteria as necessary. Remember to update the tile name to reflect any changes made here. See [Use search criteria](../key-functions/Using-search-criteria.md).
+9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other criteria as necessary. Remember to update the tile name to reflect any changes made here. See [Use search criteria][2].
 
 10. In the **Layout** tab you need to edit the layout as follows:
     * **Chart type**: You can change this to any chart type listed in step 5.
@@ -60,7 +60,7 @@ To add a tile with sales targets to a dashboard:
     * Big number: You can edit the colours used to display sales targets.
     * Gauge chart: Usethe option **Mark target at** to set the sales target on the gauge chart.
 
-12. Click ![icon][img1] to add a translation to the tile name, titles and labels. See [Translation](../translate-fields.md).
+12. Click ![icon][img1] to add a translation to the tile name, titles and labels. See [Translation][3].
 
 13. Click **Save**.
 
@@ -68,10 +68,18 @@ To add a tile with sales targets to a dashboard:
 
 ## Related topics
 
-[Sales targets](../sale/Sales-targets.md)
+* [Sales targets][4]
 
 <!-- Referenced links -->
-[1]:
+[1]: dashboard-tiles-edit.md
+[2]: ../standardcrm/key-functions/using-search-criteria.md
+[3]: ../standardcrm/translate-fields.md
+[4]: ../standardcrm/sale/sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/translate.png
+[img1]: ../../../media/icons/translate.png
+[img2]: ../../../media/icons/dashboard/dashboard-tiletype-bignumbers.png
+[img3]: ../../../media/icons/dashboard/dashboard-tiletype-bar.png
+[img4]: ../../../media/icons/dashboard/dashboard-tiletype-column.png
+[img5]: ../../../media/icons/dashboard/dashboard-tiletype-gauge.png
+[img6]: ../../../media/icons/dashboard/dashboard-tile-edit.png

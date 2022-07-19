@@ -22,28 +22,37 @@ Each chart in a dashboard is presented as a tile. A dashboard can contain multip
 
 The tiles can also be customized to show only data from selections. Access rights and confidentiality apply to the tile data, so tiles will only display information you have access to. Tile data typically relates to you, or your groups, and to a specific period (this month, last 6 month, etc.)
 
-There are several types of tiles: column, bar, area and pie charts, column+line charts and bar+line charts, lists,; and key numbers and big numbers.
+There are several types of tiles: column, bar, area and pie charts, column+line charts and bar+line charts, lists, and key numbers and big numbers.
 
 ## Options in the Dashboard screen
 
-Pinned dashboards are displayed with a pin icon (![icon](../media/Dashboard-Images/dashboard-pinned.png)). This usually means that this is a dashboard that has been distributed to multiple users by an administrator.
+Pinned dashboards are displayed with a pin icon (![icon][img1]). This usually means that this is a dashboard that has been distributed to multiple users by an administrator.
 
-Dashboard favourites are displayed with a star icon (![icon](../media/Dashboard-Images/dashboard-favourite.png)). You can click this icon in the top-right corner to set a dashboard as favourite.
+Dashboard favourites are displayed with a star icon (![icon][img2]). You can click this icon in the top-right corner to set a dashboard as favourite.
 
-Click the **Refresh** button ( ![icon](../media/Dashboard-Images/dashboard-refresh.png) ) to update the data in all tiles.
+Click the **Refresh** button ( ![icon][img3] ) to update the data in all tiles.
 
 Click the **Task** button to access the following functions:
 
-* [Create a new dashboard](dashboard-create.md)
-
-* [Duplicate a dashboard](Dashboard-duplicate.md)
-
-* [Edit a dashboard](Dashboard-Edit.md)
-
-* [Add tiles / Edit layout](Dashboard-Add-Tiles.md)
-
-* [Delete a dashboard](Dashboard-Delete.md)
+* [Create a new dashboard][1]
+* [Duplicate a dashboard][2]
+* [Edit a dashboard][3]
+* [Add tiles / Edit layout][4]
+* [Delete a dashboard][5]
 
 ## Related topics
 
-[Working with tiles](Dashboard-Tiles.md)
+* [Working with tiles][6]
+
+<!-- Referenced links -->
+[1]: dashboard-create.md
+[2]: dashboard-duplicate.md
+[3]: dashboard-edit.md
+[4]: dashboard-add-tiles.md
+[5]: dashboard-delete.md
+[6]: dashboard-tiles.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/dashboard/dashboard-pinned.png
+[img2]: ../../../media/icons/dashboard/dashboard-favourite.png
+[img3]: ../../../media/icons/dashboard/dashboard-refresh.png

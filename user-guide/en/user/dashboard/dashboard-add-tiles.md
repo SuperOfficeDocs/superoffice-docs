@@ -24,9 +24,9 @@ In the **Show tiles for** list, select the type of records you want to use, for 
 * **Library**: This tab contains a set of pre-defined tiles from the online template library. The icon next to the tile name indicates the tile type.
 
     > [!TIP]
-    > You can also select an empty tile to create a tile from scratch. See [Edit a tile](Dashboard-Tiles-Edit.md).
+    > You can also select an empty tile to create a tile from scratch. See [Edit a tile][1].
 
-* **Selections**: This tab contains dynamic selections with charts (see [Charts](../selections/Display-selections-as-charts.md)), and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.). Please note that when using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.
+* **Selections**: This tab contains dynamic selections with charts (see [Charts][2]), and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.). Please note that when using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.
 
 Optional: Use the search field to find specific tiles.
 
@@ -43,6 +43,12 @@ Click **Done** when you have completed the dashboard.
 
 ## Related topics
 
-[Edit a tile](Dashboard-Tiles-Edit.md)
+* [Edit a tile][1]
+* [Remove a tile][3]
 
-[Remove a tile](Dashboard-Tiles-Delete.md)
+<!-- Referenced links -->
+[1]: dashboard-tiles-edit.md
+[2]: ../standardcrm/selections/display-selections-as-charts.md
+[3]: dashboard-tiles-delete.md
+
+<!-- Referenced images -->

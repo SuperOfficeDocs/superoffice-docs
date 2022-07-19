@@ -62,12 +62,12 @@ Click the **Task** button to export the sales target for the selected year to Ex
 
 ## Related topics
 
-[Dashboard](../Dashboard/Dashboards.md)
-
-[Using sales targets in tiles](../Dashboard/Dashboard-tiles-sales-targets.md)
+* [Dashboard][1]
+* [Using sales targets in tiles][2]
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../dashboard/index.md
+[2]: ../../dashboard/dashboard-tiles-sales-targets.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-mainmenu-small.png

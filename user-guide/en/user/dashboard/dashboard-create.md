@@ -24,7 +24,7 @@ To create a new dashboard tab:
 4. Enter a description of the dashboard in the **Description** field. The description is displayed at the top of the dashboard.
 
     > [!TIP]
-    > You can also add the name and description in other languages by clicking![icon][img1] (see[Translation](../translate-fields.md)).
+    > You can also add the name and description in other languages by clicking![icon][img1] (see[Translation][1]).
 
 5. Select the theme of the dashboard in the **Theme** list.
 
@@ -36,20 +36,21 @@ To create a new dashboard tab:
 
 9. Click **Save** to create the dashboard. The new dashboard opens, containing no tiles.
 
-On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start adding tiles to the dashboard, as described in [Add tiles / Edit layout](Dashboard-Add-Tiles.md).
+On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start adding tiles to the dashboard, as described in [Add tiles / Edit layout][2].
 
 ## Related topics
 
-[Edit a dashboard](Dashboard-Edit.md)
-
-[Add tiles / Edit layout](Dashboard-Add-Tiles.md)
-
-[Duplicate a dashboard](Dashboard-duplicate.md)
-
-[Delete a dashboard](Dashboard-Delete.md)
+* [Edit a dashboard][3]
+* [Add tiles / Edit layout][2]
+* [Duplicate a dashboard][4]
+* [Delete a dashboard][5]
 
 <!-- Referenced links -->
-[1]:
+[1]: ../standardcrm/translate-fields.md
+[2]: dashboard-add-tiles.md
+[3]: dashboard-edit.md
+[4]: dashboard-duplicate.md
+[5]: dashboard-delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/translate.png
+[img1]: ../../../media/icons/translate.png

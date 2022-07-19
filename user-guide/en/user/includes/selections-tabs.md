@@ -11,7 +11,7 @@
 [3]: ../standardcrm/selections/selection-tab-criteria.md
 [4]: ../standardcrm/selections/selection-tab-details.md
 [5]: ../standardcrm/selections/display-selections-as-charts.md
-[6]: ../standardcrm/dashboard/dashboard-create.md
+[6]: ../dashboard/dashboard-create.md
 [7]: ../standardcrm/selections/mailings-section-tab.md
 
 <!-- Referenced images -->

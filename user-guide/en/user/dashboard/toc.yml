@@ -1,4 +1,6 @@
 items:
+- name: Overview
+  href: index.md
 - name: Dashboard Add Tiles
   href: dashboard-add-tiles.md
 - name: Dashboard Create
@@ -9,8 +11,6 @@ items:
   href: dashboard-duplicate.md
 - name: Dashboard Edit
   href: dashboard-edit.md
-- name: Dashboards
-  href: dashboards.md
 - name: Dashboard Tiles
   href: dashboard-tiles.md
 - name: Dashboard Tiles Delete
