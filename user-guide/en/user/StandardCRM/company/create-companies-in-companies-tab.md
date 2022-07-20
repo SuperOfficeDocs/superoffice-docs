@@ -16,7 +16,7 @@ language: en
 
     ![icon](../media/Chap03-contacts/18-chap3-NewCompany.bmp)
 
-    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. For more details, see [Duplicates](../key-functions/Duplicates.md).
+    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. [!include[For more info](../../includes/see-duplicates.md)]
 
 2. Enter the required information in the other fields.
     <!-- Fix reuse ID=a2 -->

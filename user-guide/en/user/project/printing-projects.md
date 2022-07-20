@@ -13,8 +13,6 @@ language: en
 
 To print information about a project:
 
-1. Go to the required project. (See [Use the Find screen](../key-functions/Find-dialog.md).)
-
+1. [!include[Go to project](includes/goto-project.md)]
 2. Click the **Task** button and select **Print**.
-
 3. In the window which displays the contents to be printed, click **Print**.

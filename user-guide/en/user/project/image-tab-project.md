@@ -15,13 +15,11 @@ In the **Image** tab, you can add an image for the project. The project image is
 
 To add a project image:
 
-1. Open the **Project** screen.  
-    <!-- Fix reuse ID=a1 -->
-    There are several ways to open the **Project** screen:
+1. Open the **Project** screen. There are several ways to open the **Project** screen:
 
-    * By clicking the **Project<** button in the Navigator.
-    * By using the[history list][1] or [FastSearcher][2].
-    * By double-clicking a project in a search result or the **Projects<** section tab in the **Company<** screen.
+    * By clicking the **Project** button in the Navigator.
+    * By using the [history list][1] or [FastSearcher][2].
+    * By double-clicking a project in a search result or the **Projects** section tab in the **Company** screen.
 
 2. Select the **Image** tab.
 
@@ -42,5 +40,5 @@ To add a project image:
     > To remove an active project image, click **Delete** to the left of the description.
 
 <!-- Referenced links -->
-[1]: ../key-functions/using-history-list.md
-[2]: ../key-functions/using-fastsearcher.md
+[1]: ../standardcrm/key-functions/using-history-list.md
+[2]: ../standardcrm/key-functions/using-fastsearcher.md

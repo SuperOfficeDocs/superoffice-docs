@@ -41,12 +41,8 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 
 ## Related topics
 
-[Use the Find screen](Find-dialog.md)
-
-[FastSearcher](Using-FastSearcher.md)
-
-[The History list](Using-history-list.md)
-
-[Export section tabs](Export-archives.md)
-
-[Add project members](../project/Creating-project-members.md)
+* [Use the Find screen](Find-dialog.md)
+* [FastSearcher](Using-FastSearcher.md)
+* [The History list](Using-history-list.md)
+* [Export section tabs](Export-archives.md)
+* [Add project members](../../project/Creating-project-members.md)

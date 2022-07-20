@@ -13,15 +13,15 @@ language: en
 
 To create projects:
 
-1. Click **New** on the top bar and select **Project**.  
+1. Click **New** on the top bar and select **Project**.
     An empty project card opens.
-2. Fill in the required information in the fields in the **Project** tab.  
+2. Fill in the required information in the fields in the **Project** tab.
     <!-- Fix reuse ID=a6 -->
     **Project name**
 
     Type in the name of the project in the field at the top of the **Project** tab. ***Project Name*** is shown in red, indicating that this field is mandatory.
 
-    If you try to create a project with the same, or similar, name as an existing project, the **Duplicates** dialog opens. This works in the same way as for companies. For more details, see [Duplicates](../key-functions/Duplicates.md).
+    If you try to create a project with the same, or similar, name as an existing project, the **Duplicates** dialog opens. This works in the same way as for companies. [!include[For more info](../includes/see-duplicates.md)]
 
     Number
 
@@ -34,7 +34,7 @@ To create projects:
     Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you have finished, or press **TAB** until the table closes.
 
     > [!TIP]
-    > Clicking on a web address when you are in view mode will take you to the relevant web site. This will open in a separate browser in SuperOffice CRM. For more details, see [The Browser in SuperOffice CRM](../company/browser-in-SuperOffice-CRM.md).
+    > Clicking on a web address when you are in view mode will take you to the relevant web site. This will open in a separate browser in SuperOffice CRM. For more details, see [The Browser in SuperOffice CRM][1].
 
     \[Description field\]
 
@@ -49,14 +49,14 @@ To create projects:
     Choose the type of project here. Click the arrow to display a list of predefined types. These are defined in SuperOffice Settings and maintenance. This is a mandatory field and **must** therefore be filled in.
 
     > [!NOTE]
-    > Some project types are linked to a [project guide](Projectguide.md). If you switch project type, the associated project guide also disappears. Any activities and documents you have created in connection with the project guide will remain on the **Activities** section tab in the diary. If you later switch back to the original project type, the link between the follow-ups/documents and the project guide is restored.
+    > Some project types are linked to a [project guide][2]. If you switch project type, the associated project guide also disappears. Any activities and documents you have created in connection with the project guide will remain on the **Activities** section tab in the diary. If you later switch back to the original project type, the link between the follow-ups/documents and the project guide is restored.
 
     Status
 
     Specify the status of the project here. Click the arrow to display a list of predefined alternatives. These are defined in SuperOffice Settings and maintenance.
 
     > [!NOTE]
-    > If the project is linked to a project guide, the statuses of the project guide are shown in this field. When you change a status, for example from **Planned** to **In progress**, the first status in the **Project guide** section tab is marked as completed, with a tick. See [Project guide](Projectguide.md).
+    > If the project is linked to a project guide, the statuses of the project guide are shown in this field. When you change a status, for example from **Planned** to **In progress**, the first status in the **Project guide** section tab is marked as completed, with a tick. See [Project guide][2].
 
     End date
 
@@ -68,7 +68,7 @@ To create projects:
 
     \[User-defined fields\]
 
-    Here, three of the fields from the **More** tab may be displayed (see [The More tab](More-tab-Project.md)), as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+    Here, three of the fields from the **More** tab may be displayed (see [The More tab][3]), as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
     **Completed**
 
@@ -76,20 +76,29 @@ To create projects:
 
     Publish (requires separate licence)
 
-    If you check this box, the project will be visible to external users through third-party applications. For more information about this, see the SuperOffice Audience help. You can choose to have the project published for a specified period of time only (see [The Event tab](Event-tab.md)).
+    If you check this box, the project will be visible to external users through third-party applications. For more information about this, see the SuperOffice Audience help. You can choose to have the project published for a specified period of time only (see [The Event tab][4]).
 3. Click **Save** to save the information entered, or click one of the tabs to enter further information.  
-    You are now ready to [add project members](Creating-project-members.md), for example.
+    You are now ready to [add project members][5], for example.
 
-What would you like to do now?
+## What would you like to do now?
 
-[Add project members](Creating-project-members.md)
+* [Add project members][5]
+* [Add project members from section tabs][6]
+* [Edit projects][7]
+* [Merge projects][8]
+* [Delete projects][9]
+* [Work with project guides][10]
 
-[Add project members from section tabs](Adding-project-members.md)
+<!-- Referenced links -->
+[1]: ../standardcrm/company/browser-in-superoffice-crm.md
+[2]: projectguide.md
+[3]: more-tab-project.md
+[4]: event-tab.md
+[5]: creating-project-members.md
+[6]: adding-project-members.md
+[7]: editing-projects.md
+[8]: merge-projects.md
+[9]: deleting-projects.md
+[10]: work-with-projectguide.md
 
-[Edit projects](Editing-projects.md)
-
-[Merge projects](Merge-projects.md)
-
-[Delete projects](Deleting-projects.md)
-
-[Work with project guides](Work-with-projectguide.md)
+<!-- Referenced images -->

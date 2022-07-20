@@ -22,8 +22,8 @@ See [Create new mailing][1] for more information.
 > In **Step 4: Recipients** you must select the project to add the project members as recipients.
 
 <!-- Referenced links -->
-[1]: ../../marketing/createnewmailing.md
+[1]: ../marketing/createnewmailing.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/nav-mailing.png
-[img2]: ../../../../media/icons/navigator-utvalg-small.bmp
+[img1]: ../../../media/icons/nav-mailing.png
+[img2]: ../../../media/icons/navigator-utvalg-small.bmp

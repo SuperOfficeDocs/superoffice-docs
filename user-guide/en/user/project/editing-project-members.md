@@ -17,13 +17,13 @@ You can edit the details in the **Function** and **Comments** field for project 
 
 To do this:
 
-1. Go to the required project in the **Project** screen.
+1. [!include[Go to project](includes/goto-project.md)]
 2. Choose the **Project Members** section tab.
 3. Double-click a project member. The **Project member** dialog opens.
 
 <!-- -->
 
-1. Make the required changes in the **Function** and **Comments** fields. There is a description of the different fields under [Add create project members](Creating-project-members.md).
+1. Make the required changes in the **Function** and **Comments** fields. There is a description of the different fields under [Add create project members][1].
 2. Click **Save** to close the dialog and save the changes.
 
 > [!TIP]
@@ -34,3 +34,8 @@ To do this:
 1. Select one or more project members in the **Project Members** section tab.
 2. Click the **Delete** button below the section tab.
 3. In the dialog that appears, click **Yes**.
+
+<!-- Referenced links -->
+[1]: creating-project-members.md
+
+<!-- Referenced images -->

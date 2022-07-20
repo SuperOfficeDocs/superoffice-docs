@@ -17,7 +17,7 @@ The **Activities** section tab shows all activities that are linked to the activ
 
 The following columns are displayed on the **Activities** section tab:
 
-* ![icon](../media/Salg-solgt-detaljkort.bmp) : **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more information about how to change this status, see [Change Completed status of an activity](../diary/Marking-activities-as-completed-not-completed.md).
+* ![icon][img2] : **Completed** status of an activity. A tick in the checkbox (![icon][img1]) means that the activity is completed, while an empty box means that it is not completed. For more information about how to change this status, see [Change Completed status of an activity](../diary/Marking-activities-as-completed-not-completed.md).
 
 <!-- -->
 
@@ -35,12 +35,15 @@ The following columns are displayed on the **Activities** section tab:
 
 ## What would you like to do now?
 
-[View activities](../company/Viewing-activities.md)
+* [View activities](../company/Viewing-activities.md)
+* [Delete activities](../company/Deleting-activities-Contact.md)
+* [Reply to e-mail from the Activities section tab](../company/Replying-to-email-from-Activities-section-tab.md)
+* [Forward e-mail from the Activities section tab](../company/Forwarding-email-from-Activities-section-tab.md)
+* [Filter activities and sales](../company/Using-Filter-function-Contact.md)
 
-[Delete activities](../company/Deleting-activities-Contact.md)
+<!-- Referenced links -->
+[1]:
 
-[Reply to e-mail from the Activities section tab](../company/Replying-to-email-from-Activities-section-tab.md)
-
-[Forward e-mail from the Activities section tab](../company/Forwarding-email-from-Activities-section-tab.md)
-
-[Filter activities and sales](../company/Using-Filter-function-Contact.md)
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/utfoert.bmp
+[img2]: ../../../../media/icons/salg-solgt-detaljkort.bmp

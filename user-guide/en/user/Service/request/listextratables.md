@@ -16,7 +16,7 @@ language: en
 The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish.
 
 > [!NOTE]
-> The data structures are configured in ![icon][img1] **System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables](../blogic/).
+> The data structures are configured in ![icon][img1] **System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables](../blogic/index.md).
 
 ## View entries
 

@@ -29,7 +29,7 @@ To merge companies:
 3. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to search for a company (see [FastSearcher](../key-functions/Using-FastSearcher.md)).
 
     > [!TIP]
-    > If you want to switch the **From** and **To** companies, click the ![icon](../media/Slå-sammen-Bytte.bmp) button.
+    > If you want to switch the **From** and **To** companies, click the ![icon][img1] button.
 
 4. Under **Contacts and company details**, you can choose from:
 
@@ -38,7 +38,7 @@ To merge companies:
     * **Replace empty fields in \[target company\] with values from \[source company\]**. If you select this option, empty data fields in the **To** company will be updated with data from the **From** company.
 
     > [!NOTE]
-    > If you want to see the results before you merge the companies, click **Show results**: ![icon](../media/Vis-resultat.bmp).
+    > If you want to see the results before you merge the companies, click **Show results**: ![icon][img2].
 
 5. Click **Merge**. The following then happens:
 
@@ -54,4 +54,11 @@ To merge companies:
 
 ## Related topics
 
-[Merge contacts](Merge-contacts.md)
+* [Merge contacts](Merge-contacts.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/slå-sammen-bytte.bmp
+[img2]: ../../../../media/icons/vis-resultat.bmp

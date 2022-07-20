@@ -15,5 +15,5 @@ The columns of the **Activities** section tab contain the following information:
 [1]: ../standardcrm/diary/marking-activities-as-completed-not-completed.md
 
 <!-- Referenced images -->
-[img1]: ../standardcrm/media/utfoert.bmp
+[img1]: ../../../media/icons/utfoert.bmp
 [img2]: ../standardcrm/media/type-samtale.bmp

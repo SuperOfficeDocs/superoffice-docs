@@ -19,7 +19,7 @@ To move backwards and forwards between projects, click the previous/next buttons
 
 ## Add record as a favourite
 
-[!include[ALT](../../includes/howto-add-favorite.md)]
+[!include[ALT](../includes//howto-add-favorite.md)]
 
 You can also:
 
@@ -30,31 +30,30 @@ You can also:
 * link projects to a sale
 * perform projects using a project guide
 
-If you have selected a project type for which a project guide has been defined, the **Project guide** tab is displayed on the section tab. For more information, see [Project guide](Projectguide.md).
+If you have selected a project type for which a project guide has been defined, the **Project guide** tab is displayed on the section tab. For more information, see [Project guide][1].
 
-<!-- Fix reuse ID=a1 -->
-
-![icon](../media/Chap08-project/81-chap8-project.bmp)
+![Project screen -screenshot][img1]
 
 ## What would you like to do now?
 
-[Create projects](Creating-projects.md)
-
-[Edit projects](Editing-projects.md)
-
-[Merge projects](Merge-projects.md)
-
-[Delete projects](Deleting-projects.md)
-
-[Print projects](Printing-projects.md)
-
-[Mailing a document to project members](Performing-mail-merge-for-projects.md)
-
-[Project guide](Projectguide.md)
+* [Create projects][2]
+* [Edit projects][3]
+* [Merge projects][4]
+* [Delete projects][5]
+* [Print projects][6]
+* [Mailing a document to project members][7]
+* [Project guide][1]
 
 <!-- Referenced links -->
-[1]:
+[1]: Projectguide.md
+[2]: Creating-projects.md
+[3]: Editing-projects.md
+[4]: Merge-projects.md
+[5]: Deleting-projects.md
+[6]: Printing-projects.md
+[7]: Performing-mail-merge-for-projects.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/pil-hoeyre.bmp
-[img2]: ../../../../media/icons/pil-venstre.bmp
+[img1]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/pil-venstre.bmp
+[img3]: media/project.bmp

@@ -34,7 +34,7 @@ To copy the company:
     * **Copy**. If you select this option, the company details and the contacts are copied.
 
     > [!NOTE]
-    > If you want to see the results before you copy the company, click **Show results**: ![icon](../media/Vis-resultat.bmp)
+    > If you want to see the results before you copy the company, click **Show results**: ![icon][img2]
 
 5. Click **Copy**. The new company is created with the specified information, and is given its own number and code. You can then edit the company information if required (see [Edit companies](Editing-companies.md)).
 
@@ -46,3 +46,4 @@ To copy the company:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/vis-resultat.bmp

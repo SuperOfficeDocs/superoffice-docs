@@ -33,9 +33,15 @@ Proceed as follows to move a contact to another company:
     * **Move all activities starting after**. Select this option if you want to transfer activities and sales starting after a specific date.
 
 > [!NOTE]
-> If you want to see the results before you move the contact, click **Show results** ![icon](../media/Vis-resultat.bmp):
+> If you want to see the results before you move the contact, click **Show results** ![icon][img1]:
 
 1. Click **Move**. The contact is moved to (or disconnected from) the specified company.
 
 > [!NOTE]
 > You cannot move contacts (SuperOffice users) in your own company.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/vis-resultat.bmp

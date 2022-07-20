@@ -19,7 +19,7 @@ The activities list does not change when you switch between the different tabs i
 
 The activities list columns contain the following information:
 
-* ![icon](../media/Salg-solgt-detaljkort.bmp) : The first column in the activities list specifies the **Completed** status of an activity. A tick in the checkbox (![icon](../media/Utfoert.bmp)) means that the activity is completed, while an empty box means that it is not completed. For more details on the **Completed** status, see [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md).
+* ![icon][img3] : The first column in the activities list specifies the **Completed** status of an activity. A tick in the checkbox (![icon][img2]) means that the activity is completed, while an empty box means that it is not completed. For more details on the **Completed** status, see [Change Completed status of an activity](Marking-activities-as-completed-not-completed.md).
 
 > [!TIP]
 > To change the **Completed** status of an activity simply click the box.
@@ -61,3 +61,5 @@ If an activity is highlighted in red type, this means that its provisional date 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../../../../media/icons/utfoert.bmp
+[img3]: ../../../../media/icons/salg-solgt-detaljkort.bmp

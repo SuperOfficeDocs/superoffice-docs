@@ -11,7 +11,7 @@ language: en
 
 # Add project members and stakeholders from section tabs
 
-You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen](../key-functions/Find-dialog.md).
+You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][1].
 
 You do this as follows:
 
@@ -29,3 +29,8 @@ You do this as follows:
 5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
 
 6. Click **Save**. The contacts are added to the sale/project you have specified.
+
+<!-- Referenced links -->
+[1]: ../standardcrm/key-functions/find-dialog.md
+
+<!-- Referenced images -->

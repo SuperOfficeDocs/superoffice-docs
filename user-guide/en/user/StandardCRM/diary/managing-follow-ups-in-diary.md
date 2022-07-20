@@ -15,20 +15,14 @@ Follow-ups are a key concept in SuperOffice CRM and are described under [Work wi
 
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).  
-When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. (See [The Dialog for follow-ups](Dialog-for-followups.md)).
+When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 
 ## What would you like to do now?
 
-[Open follow-ups via the Diary](Opening-follow-ups-via-Diary.md)
-
-[Create appointments using the Diary](Creating-appointments-using-Diary.md)
-
-[Change the end time for follow-ups in the Diary](Changing-end-time-for-follow-ups-in-Diary.md)
-
-[Move follow-ups using drag and drop](Moving-follow-ups-using-drag-and-drop.md)
-
-[Copy follow-ups to the Diary](Copying-follow-ups-to-diary.md)
-
-[Print from the Diary](Printing-from-Diary.md)
-
-[Delete follow-ups using the Diary](Deleting-follow-ups-using-Diary.md)
+* [Open follow-ups via the Diary](Opening-follow-ups-via-Diary.md)
+* [Create appointments using the Diary](Creating-appointments-using-Diary.md)
+* [Change the end time for follow-ups in the Diary](Changing-end-time-for-follow-ups-in-Diary.md)
+* [Move follow-ups using drag and drop](Moving-follow-ups-using-drag-and-drop.md)
+* [Copy follow-ups to the Diary](Copying-follow-ups-to-diary.md)
+* [Print from the Diary](Printing-from-Diary.md)
+* [Delete follow-ups using the Diary](Deleting-follow-ups-using-Diary.md)

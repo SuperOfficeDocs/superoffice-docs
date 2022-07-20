@@ -14,7 +14,7 @@ language: en
 To edit an existing follow-up:
 
 1. Open the required follow-up (see [Open follow-ups](Opening-Follow-ups.md)). The **Appointment**, **Task** or **Phone Call** dialog appears.
-2. Make the required changes in the dialog (see [The Dialog for follow-ups](Dialog-for-followups.md)).
+2. Make the required changes in the dialog. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 3. Click **Save** to save the information and close the dialog.
 
 > [!NOTE]

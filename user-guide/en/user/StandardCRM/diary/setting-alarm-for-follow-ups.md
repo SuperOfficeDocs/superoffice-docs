@@ -11,7 +11,7 @@ language: en
 
 # Set alarms for follow-ups
 
-To be notified of a follow-up in advance, check the **Alarm** checkbox in the **Details** tab in the **Appointment**, **Task** or **Phone Call** dialog (see [The Dialog for follow-ups](Dialog-for-followups.md)). The field next to the checkbox specifies the number of hours and minutes before the follow-up is due. The default is 10 minutes, but you can change it.
+To be notified of a follow-up in advance, check the **Alarm** checkbox in the **Details** tab in the **Appointment**, **Task** or **Phone Call** dialog.[!include[See Appointment dialog](../../includes/see-apt-dialog.md)] The field next to the checkbox specifies the number of hours and minutes before the follow-up is due. The default is 10 minutes, but you can change it.
 
 > [!NOTE]
 > If you edit a repeating follow-up, you are asked if you want to change only this instance, or this and all future instances. See [Edit repeating follow-ups](Editing-recurring-follow-ups.md).

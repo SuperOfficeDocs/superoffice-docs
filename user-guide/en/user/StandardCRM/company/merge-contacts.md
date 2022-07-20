@@ -26,7 +26,7 @@ Proceed as follows:
 2. If you have only selected one contact, you need to select a contact under **To** (to search for a contact, start typing). The two contacts you want to merge are now displayed under **From** and **To**.
 
     > [!TIP]
-    > If you want to switch the **From** and **To** contacts, click the ![icon](../media/Slå-sammen-Bytte.bmp) button.
+    > If you want to switch the **From** and **To** contacts, click the ![icon][img2] button.
 
 3. Select one of the following under **Action on \[contact/company\] after merge**:
     * **Delete...**: If you select this option, the source contact is deleted after the merge. This may be appropriate if you have registered the same contact twice under the same company.
@@ -39,7 +39,7 @@ Proceed as follows:
     * **Move all activities starting after**. Select this option if you want to transfer activities and sales starting after a specific date.
 
     > [!NOTE]
-    > If you want to see the results before you merge the contacts, click **Show results**: ![icon](../media/Vis-resultat.bmp).
+    > If you want to see the results before you merge the contacts, click **Show results**: ![icon][img3].
 
 5. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
 
@@ -55,3 +55,5 @@ Proceed as follows:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/slå-sammen-bytte.bmp
+[img3]: ../../../../media/icons/vis-resultat.bmp

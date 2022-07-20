@@ -49,7 +49,7 @@ The navigator contains the following buttons:
 [3]: ../../person/index.md
 [4]: ../diary/diary.md
 [5]: ../sale/sale.md
-[6]: ../project/index.md
+[6]: ../../project/index.md
 [7]: ../selections/index.md
 [8]: ../../email/inbox/index.md
 [9]: ../../chat/index.md

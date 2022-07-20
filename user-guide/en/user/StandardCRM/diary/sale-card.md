@@ -34,8 +34,16 @@ The following data is displayed:
 
 * the sale date (estimated, sold or lost)
 
-* a status icon for the sale, showing whether it is sold ( ![icon](../media/Salg-solgt-detaljkort.bmp) ), lost ( ![icon](../media/Salg-tapt-detaljkort.bmp) ) or stalled ( ![icon](../media/Salg-utsatt-detaljkort.bmp) ) (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales](../sale/Status-of-sale-sold-and-lost.md))
+* a status icon for the sale, showing whether it is sold ( ![icon][img1] ), lost ( ![icon][img2] ) or stalled ( ![icon][img3] ) (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales](../sale/Status-of-sale-sold-and-lost.md))
 
 Sales not marked as completed are shown in this list.
 
 The **Sales** section tab functions as a kind of "sales secretary" to help you keep an overview of your sales. For more details, see [Sales secretary](sales-secretary.md).
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/salg-solgt-detaljkort.bmp
+[img2]: ../../../../media/icons/salg-tapt-detaljkort.bmp
+[img3]: ../../../../media/icons/salg-utsatt-detaljkort.bmp

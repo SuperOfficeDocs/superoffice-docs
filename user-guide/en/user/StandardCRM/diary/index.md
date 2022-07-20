@@ -19,7 +19,7 @@ The **Activities** section tab is available in the **Company** screen, the **Con
 
 * The **Activities** section tab in the **Contact** screen displays activities linked to the contact in question. See [Activities (Contact)](../../person/contact-secttab-activities.md).
 
-* The **Activities** section tab in the **Project** and **Sale** screens displays activities linked to the project or sale in question. See [Activities (Project)](../project/Activities-Project.md) and [Activities section tab (Sale)](../sale/activities-sale.md).
+* The **Activities** section tab in the **Project** and **Sale** screens displays activities linked to the project or sale in question. See [Activities (Project)](../../project/Activities-Project.md) and [Activities section tab (Sale)](../sale/activities-sale.md).
 
 * The **Activities** section tab in the **Diary** screen displays all your uncompleted activities. See [Activities section tab (Diary)](activities-list.md).
 
@@ -33,7 +33,7 @@ The table below illustrates the different kinds of activities:
 
 The activities list columns contain the following information:
 
-* ![icon](../media/Utfoert.bmp): The first column in the activities list specifies the **Completed** status of an activity. A tick means that the activity is completed, while an empty box means that it is not completed.
+* ![icon][img1]: The first column in the activities list specifies the **Completed** status of an activity. A tick means that the activity is completed, while an empty box means that it is not completed.
 * The Category column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
 * The other columns in the activities list show various information about the activity. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
@@ -64,3 +64,9 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 * [Add follow-ups (appointments, tasks and phone calls)](Add-activities.md)
 * [Work with documents](Write.md)
 * [Compose an e-mail](Compose-email-Web.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/utfoert.bmp

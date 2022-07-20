@@ -15,21 +15,21 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 To do this:
 
-1. Go to the project you want merge into another project. (See [Use the Find screen](../key-functions/Find-dialog.md).)
+1. Go to the project you want merge into another project. (See [Use the Find screen][1].)
 
 2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**. The **Merge projects** dialog opens.
 
-    ![icon](../media/Chap08-project/95-chap8-merge-project.bmp)
+    ![Merge projects dialog -screenshot][img2]
 
 3. Under **To**, select the project you want to merge the existing project into. Start typing in the field to search for a project.
 
     > [!TIP]
-    > If you want to switch the **From** and **To** projects, click the ![icon](../media/Slå-sammen-Bytte.bmp) button.
+    > If you want to switch the **From** and **To** projects, click the ![icon][img3] button.
 
 4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** if you want to update empty fields in the target project with details from the source one.
 
     > [!NOTE]
-    > If you want to see the results before you merge the projects, click **Show results:**![icon](../media/Vis-resultat.bmp)
+    > If you want to see the results before you merge the projects, click **Show results:**![icon][img4]
 
 5. Click **Merge**. The following then happens:
     * The projects are merged.
@@ -43,12 +43,16 @@ To do this:
 
 ## Related topics
 
-[Edit projects](Editing-projects.md)
-
-[Merge companies](../company/Merge-companies.md)
+* [Edit projects][3]
+* [Merge companies][2]
 
 <!-- Referenced links -->
-[1]:
+[1]: ../standardcrm/key-functions/find-dialog.md
+[2]: ../standardcrm/company/merge-companies.md
+[3]: editing-projects.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/btn-menu.png
+[img2]: media/merge-project.bmp
+[img3]: ../../../media/icons/slå-sammen-bytte.bmp
+[img4]: ../../../media/icons/vis-resultat.bmp

@@ -19,7 +19,7 @@ If a project guide has been defined for a project type that you specify for a pr
 This is how you perform the project:
 
 1. Click the **Create** button in front of the follow-up/document name.
-2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog](../diary/Document-dialog.md) or [The dialog for follow-ups](../diary/Dialog-for-followups.md).  
+2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] or [The dialog for follow-ups][2].
     You can delegate the follow-up to your colleagues by setting them as the owner of the follow-up. If defined in SuperOffice Settings and maintenance for a specific follow-up, the **Assign task to project member** dialog appears, where you can select a colleague as the owner of the follow-up.
 
 <!-- -->
@@ -27,7 +27,7 @@ This is how you perform the project:
 1. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
 
 > [!TIP]
-> If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog](../diary/Dialog-for-followups.md) then opens.
+> If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
 1. Once all the required follow-ups and documents for a project status have been completed, you move on to the next status.  
     <!-- Fix reuse ID=a1 -->
@@ -55,4 +55,11 @@ This is how you perform the project:
 
 1. Repeat the above procedure for all follow-ups/documents in each status of the project guide.
 
-[Click here for an example of a project guide.](Example-projectguide.md)
+[Click here for an example of a project guide.][3]
+
+<!-- Referenced links -->
+[1]: ../standardcrm/diary/document-dialog.md
+[2]: ../standardcrm/diary/dialog-for-followups.md
+[3]: example-projectguide.md
+
+<!-- Referenced images -->

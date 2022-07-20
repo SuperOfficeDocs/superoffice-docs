@@ -13,14 +13,14 @@ language: en
 
 To link the project to a company, you must specify at least one project member, as follows:
 
-1. Go to the required project in the **Project** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
+1. [!include[Go to project](includes/goto-project.md)]
 
 2. Choose the **Project Members** section tab.
 
 3. Click the **Add** button below the section tab. The **Add project members** dialog opens.
 
     > [!NOTE]
-    > You can also add project members via the section tabs containing contacts in the **Company**, **Selection** and **Sale** screens. See [Add project members and stakeholders from section tabs](Adding-project-members.md) for more information.
+    > You can also add project members via the section tabs containing contacts in the **Company**, **Selection** and **Sale** screens. See [Add project members and stakeholders from section tabs][1] for more information.
 
 4. In the **Company/contact** field:
     * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the **Company** screen is shown.
@@ -31,7 +31,7 @@ To link the project to a company, you must specify at least one project member, 
 6. In the list of contacts on the left select the contact(s) you want to add to the project.
 
     > [!NOTE]
-    > If the required name is not in the list, you must first create the contact. For more details, see [Create new contacts](../../person/contact-create-contacts.md).
+    > If the required name is not in the list, you must first create the contact. For more details, see [Create new contacts][2].
 
 7. Click the arrow button to the right of the list ( ![icon][img2] ). The contact(s) will then be displayed on the right of the dialog.
 
@@ -48,8 +48,9 @@ To link the project to a company, you must specify at least one project member, 
 > You can select multiple contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Function** field and **Comment** text box will apply to all the selected contacts.
 
 <!-- Referenced links -->
-[1]:
+[1]: adding-project-members.md
+[2]: ../person/contact-create-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
-[img2]: ../../../../media/icons/pil-hoeyre.bmp
+[img1]: ../../../media/icons/binders.bmp
+[img2]: ../../../media/icons/pil-hoeyre.bmp

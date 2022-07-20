@@ -11,10 +11,15 @@ language: en
 
 # The More tab (Project)
 
-![icon](../media/Chap08-project/87-Chap8-Project-more.bmp)
+![he More tab (Project) -screenshot][img1]
 
 The **More** tab displays user-defined fields for the project. If your organisation needs more fields than the default fields in the **Project** tab, you can specify in SuperOffice Settings and maintenance that these fields will be inserted here.
 
 Click **Edit** to edit the project information in the **More** tab.
 
 Three of the user-defined fields from the **More** tab can also be displayed in the **Project** tab.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: media/project-more.bmp

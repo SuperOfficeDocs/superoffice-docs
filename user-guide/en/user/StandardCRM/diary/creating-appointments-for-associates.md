@@ -21,7 +21,7 @@ When you have opened the diary of an associate on the screen (see [Create group 
 > If you have checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 1. Choose the participants to include (see [Add participants to follow-ups](Linking-participants-to-follow-ups.md)), if they are not automatically included.
-2. Enter the required information in the fields. For a detailed description of these fields, see [The Dialog for follow-ups](Dialog-for-followups.md).
+2. Enter the required information in the fields. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 3. Click the **Save** button. The appointment will be displayed in the selected person's diary.
 
 <!-- Referenced links -->

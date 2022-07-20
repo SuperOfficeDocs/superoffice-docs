@@ -24,7 +24,7 @@ To change the **Completed** status of an activity:
 > [!TIP]
 > For more information about how to open activities, see the [Open follow-ups](Opening-Follow-ups.md) and [Open documents](Opening-documents.md) topics.
 
-* Hold the mouse pointer over the box in the **Completed** column (![icon](../media/Salg-solgt-detaljkort.bmp)) in the **Activities** section tab. Then click the checkbox ( ![icon](../media/Utfoert.bmp) ).
+* Hold the mouse pointer over the box in the **Completed** column (![icon][img2]) in the **Activities** section tab. Then click the checkbox ( ![icon][img1] ).
 
     ![icon](../media/39-chap4-completed-activity-2.bmp)
 
@@ -32,3 +32,10 @@ To change the **Completed** status of an activity:
 
 > [!NOTE]
 > You cannot edit completed activities until you have changed their **Completed** status.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/utfoert.bmp
+[img2]: ../../../../media/icons/salg-solgt-detaljkort.bmp

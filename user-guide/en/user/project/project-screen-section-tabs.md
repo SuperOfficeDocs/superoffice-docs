@@ -13,11 +13,19 @@ language: en
 
 The bottom part of the **Project** screen consists of section tabs which display a project guide (if one is defined for the current project type), project members, activities and sales that are linked to each individual project. The section tabs are described below.
 
-[!include[Add more section tabs](../../includes/more-tab.md)]
+[!include[Add more section tabs](../includes/more-tab.md)]
 
 ## Related topics
 
-* [Project guide](Projectguide.md)
-* [Project members](Project-members.md)
-* [Activities](Activities-Project.md)
-* [Sales](Sale.md)
+* [Project guide][1]
+* [Project members][2]
+* [Activities][3]
+* [Sales][4]
+
+<!-- Referenced links -->
+[1]: projectguide.md
+[2]: project-members.md
+[3]: activities-project.md
+[4]: sale.md
+
+<!-- Referenced images -->

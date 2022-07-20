@@ -19,8 +19,13 @@ You can preview documents and activities in the **Preview** view in the side pan
 
 ## Related topics
 
-[Project guide section tab](Projectguide-detail.md)
+* [Project guide section tab][1]
+* [Project guide example][2]
+* [Work with project guides][3]
 
-[Project guide example](Example-projectguide.md)
+<!-- Referenced links -->
+[1]: projectguide-detail.md
+[2]: example-projectguide.md
+[3]: work-with-projectguide.md
 
-[Work with project guides](Work-with-projectguide.md)
+<!-- Referenced images -->

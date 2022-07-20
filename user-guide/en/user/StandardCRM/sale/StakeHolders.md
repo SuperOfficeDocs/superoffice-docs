@@ -19,10 +19,7 @@ For each stakeholder, information about company, contact name, role in the sale,
 
 ## What would you like to do now?
 
-[Create stakeholders](Create-stakeholders.md)
-
-[Add stakeholders from section tabs](../project/Adding-project-members.md)
-
-[Edit or remove stakeholders](Edit-stakeholders.md)
-
-[Send e-mail to stakeholders](../project/Sending-emails-to-project-members.md)
+* [Create stakeholders](Create-stakeholders.md)
+* [Add stakeholders from section tabs](../../project/Adding-project-members.md)
+* [Edit or remove stakeholders](Edit-stakeholders.md)
+* [Send email to stakeholders](../../project/Sending-emails-to-project-members.md)

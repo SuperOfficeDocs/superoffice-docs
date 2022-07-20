@@ -15,11 +15,11 @@ In the **Stage** field in the **Sale** screen, you can set the sale to **Sold** 
 
 For individual sale types, a list of stages, as defined in SuperOffice Settings and maintenance, is also displayed. To find out more about these, see the [Sales guide](sales-guide.md).
 
-| These statuses … | ... produce these fields in the Sale screen |
+| These statuses ... | ... produce these fields in the Sale screen |
 |---|---|
 | Open ![icon](../media/salg-apent.bmp) | ![icon](../media/Chap07-sale/72-chap7-sale-open.bmp) |
-| Stalled ![icon](../media/Salg-utsatt.bmp) | ![icon](../media/Chap07-sale/73-chap7-sale-stalled.bmp) |
-| Lost ![icon](../media/Salg-tapt.bmp) | ![icon](../media/Chap07-sale/74-chap7-sale-lost.bmp) |
+| Stalled ![icon][img2] | ![icon](../media/Chap07-sale/73-chap7-sale-stalled.bmp) |
+| Lost ![icon][img1] | ![icon](../media/Chap07-sale/74-chap7-sale-lost.bmp) |
 | Sold ![icon](../media/Salg-solgt.bmp) | ![icon](../media/Chap07-sale/75-chap7-sale-sold.bmp) |
 
 Stalled
@@ -37,6 +37,12 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 
 ## Related topics
 
-[Enter information in the Sale tab](CreateSale-Sale-tab.md)
+* [Enter information in the Sale tab](CreateSale-Sale-tab.md)
+* [Sales guide](sales-guide.md)
 
-[Sales guide](sales-guide.md)
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/salg-utsatt.bmp
+[img2]: ../../../../media/icons/salg-tapt.bmp

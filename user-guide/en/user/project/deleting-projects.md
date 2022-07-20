@@ -13,13 +13,13 @@ language: en
 
 To delete a whole project and associated data:
 
-1. Go to the required project. (See [Use the Find screen](../key-functions/Find-dialog.md).)
+1. [!include[Go to project](includes/goto-project.md)]
 2. Click the **Task** button (![icon][img1]).
 3. Select **Delete 'project name'**.
-4. When you are asked if you really want to delete the project, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM](../key-functions/Deleting-elements-in-CRM.md).)
+4. When you are asked if you really want to delete the project, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM][1].)
 
 <!-- Referenced links -->
-[1]:
+[1]: ../standardcrm/key-functions/deleting-elements-in-crm.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/btn-menu.png

@@ -36,7 +36,7 @@ To create a new static or dynamic selection:
 7. Click **Save**.
 
 8. Type the name of the new selection where ***Selection name*** appears. This field is mandatory.  
-    If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. For more details, see [Duplicates](../key-functions/Duplicates.md).
+    If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. [!include[For more info](../../includes/see-duplicates.md)]
 
 9. In the **Selection is** field, you can change to another type of selection if necessary.
 
