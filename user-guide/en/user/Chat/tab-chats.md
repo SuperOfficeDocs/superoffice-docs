@@ -13,7 +13,7 @@ language: en
 
 Use the **Chats** tab to respond to incoming chats from customers.
 
-![icon](media/chat-tab-chats.png) The number in the **Chats** tab indicates the number of chats you are currently handling.
+![icon][img1] The number in the **Chats** tab indicates the number of chats you are currently handling.
 
 The **Chats** tab has three main areas:
 
@@ -34,14 +34,24 @@ The following icons are used for the active chat sessions in the list:
 
 | Icon | Description |
 |---|---|
-| ![icon](../../../media/icons/chat-last-customer.png) | The last message in the conversation from the customer and agent. |
-| ![icon](../../../media/icons/chat-last-customer-unanswered.png) | Number of unread messages from the customer. |
-| ![icon](../../../media/icons/chat-transfered.png) | Transferred chat to you or from you. Waiting to be accepted. |
+| ![icon][img2] | The last message in the conversation from the customer and agent. |
+| ![icon][img3] | Number of unread messages from the customer. |
+| ![icon][img4] | Transferred chat to you or from you. Waiting to be accepted. |
 
 ## Chat conversation
 
-Here you can chat with the customer. See [Respond to a chat](respond.md).
+Here you can chat with the customer. See [Respond to a chat][1].
 
 ## Contact side panel (right side)
 
-When a customer contacts you in the chat and is already registered in SuperOffice, you can display relevant information about them in the side panel on the right side of the **Chat** screen. You can also add new customers as new contacts (and new companies). See [The contact side panel](Person-side-panel.md).
+When a customer contacts you in the chat and is already registered in SuperOffice, you can display relevant information about them in the side panel on the right side of the **Chat** screen. You can also add new customers as new contacts (and new companies). See [The contact side panel][2].
+
+<!-- Referenced links -->
+[1]: respond.md
+[2]: Person-side-panel.md
+
+<!-- Referenced images -->
+[img1]: media/chat-tab-chats.png
+[img2]: ../../../media/icons/chat-last-customer.png
+[img3]: ../../../media/icons/chat-last-customer-unanswered.png
+[img4]: ../../../media/icons/chat-transfered.png

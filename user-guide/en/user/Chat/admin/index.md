@@ -17,6 +17,12 @@ Your agents can access chat via the Navigator in both SuperOffice CRM and SuperO
 
 ## What do you want to do now?
 
-[Create a chat channel](channel-create.md)
+* [Create a chat channel][1]
+* [Add JavaScript for your website][2]
 
-[Add JavaScript for your website](Add-JavaScript.md)
+<!-- Referenced links -->
+[1]: channel-create.md
+[2]: Add-JavaScript.md
+
+<!-- Referenced images -->
+[img1]: media/

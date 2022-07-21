@@ -13,12 +13,15 @@ language: en
 
 The following actions are available in the chat conversation:
 
-[Create request in chat](create-request.md)
+* [Create request in chat][1]
+* [Transfer a chat to another agent][2]
+* [Send FAQs, reply templates and quick replies in a chat][3]
+* [Send files in chat][4]
+* [Create a quick reply][5]
 
-[Transfer a chat to another agent](transfer-to-another-agent.md)
-
-[Send FAQs, reply templates and quick replies in a chat](Send-FAQ-or-reply-template.md)
-
-[Send files in chat](send-files.md)
-
-[Create a quick reply](quick-reply.md)
+<!-- Referenced links -->
+[1]: create-request.md
+[2]: transfer-to-another-agent.md
+[3]: Send-FAQ-or-reply-template.md
+[4]: send-files.md
+[5]: quick-reply.md

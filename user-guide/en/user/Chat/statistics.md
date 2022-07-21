@@ -24,8 +24,13 @@ By default statistics are shown for all available channels, but you can select a
 
 ## Respond to an incoming chat
 
-Double-click a row in the Incoming chat list to respond to that chat. The chat opens in the **Chats** tab. See [Respond to a chat](respond.md).
+Double-click a row in the Incoming chat list to respond to that chat. The chat opens in the **Chats** tab. See [Respond to a chat][1].
 
 ## Listen to an ongoing chat
 
 Double-click a row in the **Ongoing chat sessions** list to listen in on (watch) an ongoing chat. The agent will not be notified that you are monitoring to the chat. You cannot participate in the chat.
+
+<!-- Referenced links -->
+[1]: respond.md
+
+<!-- Referenced images -->
