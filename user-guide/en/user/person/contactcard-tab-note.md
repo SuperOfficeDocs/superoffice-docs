@@ -11,9 +11,4 @@ language: en
 
 # The Note tab (Contact screen)
 
-Here you can enter information of any kind. The contents of this field is searchable via [Freetext search][1].
-
-<!-- Referenced links -->
-[1]: ../standardcrm/key-functions/freetext-search.md
-
-<!-- Referenced images -->
+[!include[About the Note tab](../includes/about-note-tab.md)]

@@ -32,6 +32,6 @@ If you want to reset the columns to the default view, click **Reset**.
 
 [Adjust column widths](Adjusting-column-widths.md)
 
-[Change the rank of contacts](../company/Changing-rank-of-contacts.md)
+[Change the rank of contacts](../../company/Changing-rank-of-contacts.md)
 
 [Grouping lists](Sections-tabs-Grouping-lists.md)

@@ -35,11 +35,11 @@ The following columns are displayed on the **Activities** section tab:
 
 ## What would you like to do now?
 
-* [View activities](../company/Viewing-activities.md)
-* [Delete activities](../company/Deleting-activities-Contact.md)
-* [Reply to e-mail from the Activities section tab](../company/Replying-to-email-from-Activities-section-tab.md)
-* [Forward e-mail from the Activities section tab](../company/Forwarding-email-from-Activities-section-tab.md)
-* [Filter activities and sales](../company/Using-Filter-function-Contact.md)
+* [View activities](../../company/Viewing-activities.md)
+* [Delete activities](../../company/Deleting-activities-Contact.md)
+* [Reply to e-mail from the Activities section tab](../../company/Replying-to-email-from-Activities-section-tab.md)
+* [Forward e-mail from the Activities section tab](../../company/Forwarding-email-from-Activities-section-tab.md)
+* [Filter activities and sales](../../company/Using-Filter-function-Contact.md)
 
 <!-- Referenced links -->
 [1]:

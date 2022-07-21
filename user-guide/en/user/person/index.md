@@ -31,11 +31,11 @@ The bottom of the **Contact** screen contains five default section tabs: **Activ
 * [Send email to a contact][7]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/company/companies.md
-[2]: ../standardcrm/company/create-new-contacts.md
-[3]: ../standardcrm/company/edit-legalbase.md
-[4]: ../standardcrm/company/move-contacts.md
-[5]: ../standardcrm/company/merge-contacts.md
+[1]: ../company/index.md
+[2]: ../company/create-new-contacts.md
+[3]: ../company/edit-legalbase.md
+[4]: ../company/move-contacts.md
+[5]: ../company/merge-contacts.md
 [6]: contact-delete.md
 [7]: contact-send-email.md
 [8]: ../standardcrm/key-functions/search-options-in-crm.md

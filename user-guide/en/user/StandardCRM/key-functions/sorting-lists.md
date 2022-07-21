@@ -23,7 +23,7 @@ Click once on a column heading to sort the list by this column in ascending orde
 
 [Use filters in the section tabs](Use-filters-in-section-tabs.md)
 
-[Change the rank of contacts](../company/Changing-rank-of-contacts.md)
+[Change the rank of contacts](../../company/Changing-rank-of-contacts.md)
 
 [Adjust column widths](Adjusting-column-widths.md)
 

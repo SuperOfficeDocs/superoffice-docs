@@ -1,0 +1,91 @@
+items:
+- name: Overview
+  href: index.md
+- name: Activities Contact
+  href: activities-contact.md
+- name: Adding relations
+  href: adding-relations.md
+- name: Address formats for different countries
+  href: address-formats-for-different-countries.md
+- name: Changing the rank of contacts
+  href: changing-rank-of-contacts.md
+- name: Columns in the Contacts section tab
+  href: columns-in-contacts-section-tab.md
+- name: Companycard tab note
+  href: companycard-tab-note.md
+- name: Contacts
+  href: contacts.md
+- name: Copy companies
+  href: copy-companies.md
+- name: Create companies in companies tab
+  href: create-companies-in-companies-tab.md
+- name: Create company Interest tab
+  href: create-company-interest-tab.md
+- name: Create company More tab
+  href: create-company-more-tab.md
+- name: Create new companies
+  href: create-new-companies.md
+- name: Create new contacts
+  href: create-new-contacts.md
+- name: Creating shortcuts to entries in CRM
+  href: creating-shortcuts-to-entries-in-crm.md
+- name: Deleting activities Contact
+  href: deleting-activities-contact.md
+- name: Deleting companies
+  href: deleting-companies.md
+- name: Deleting contacts
+  href: deleting-contacts.md
+- name: Deleting relations
+  href: deleting-relations.md
+- name: Editing companies
+  href: editing-companies.md
+- name: Editing contacts
+  href: editing-contacts.md
+- name: Edit legalbase
+  href: edit-legalbase.md
+- name: Forwarding e mail from the Activities section tab
+  href: forwarding-email-from-activities-section-tab.md
+- name: Generate personal data report
+  href: generate-personal-data-report.md
+- name: Managing external users
+  href: managing-external-users.md
+- name: Merge companies
+  href: merge-companies.md
+- name: Merge contacts
+  href: merge-contacts.md
+- name: Move contacts
+  href: move-contacts.md
+- name: Printing companies
+  href: printing-companies.md
+- name: Printing contacts
+  href: printing-contacts.md
+- name: Projects
+  href: projects.md
+- name: Relations
+  href: relations.md
+- name: Replying to e mail from the Activities section tab
+  href: replying-to-email-from-activities-section-tab.md
+- name: Requests
+  href: requests.md
+- name: Sale
+  href: sale.md
+- name: Section tabs in the Company screen
+  href: section-tabs-in-company-screen.md
+- name: Sending e mail to contacts
+  href: sending-email-to-contacts.md
+- name: Send privacy confirmation e mail
+  href: send-privacy-confirmation-e-mail.md
+- name: Status dialog
+  href: status-dialog.md
+- name: Status monitor
+  href: status-monitor.md
+- name: The browser in SuperOffice CRM
+  href: browser-in-superoffice-crm.md
+- name: Using status monitors in dynamic selections
+  href: using-status-monitors-in-dynamic-selections.md
+- name: Using the Filter function Contact
+  href: using-filter-function-contact.md
+- name: Viewing activities
+  href: viewing-activities.md
+- name: WWW tab
+  href: www-tab.md

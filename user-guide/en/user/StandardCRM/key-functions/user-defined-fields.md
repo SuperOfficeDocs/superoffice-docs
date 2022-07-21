@@ -15,7 +15,7 @@ Several sections of SuperOffice CRM, for example, the **Company** screen, contai
 
 ## Related topics
 
-* [The More tab (Company)](../company/Create-company-More-tab.md)
+* [The More tab (Company)](../../company/Create-company-More-tab.md)
 * [The More tab (Contact)](../../person/contactcard-tab-more.md)
 * [The More tab (Project)](../../project/more-tab-project.md)
 * [The More tab (follow-ups)](../diary/More-tab-follow-ups.md)

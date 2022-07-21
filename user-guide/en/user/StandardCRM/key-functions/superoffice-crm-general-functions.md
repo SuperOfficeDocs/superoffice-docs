@@ -14,7 +14,7 @@ language: en
 SuperOffice CRM consists of the following main sections which you will quickly become familiar with:
 
 * [Dashboard](../../dashboard/index.md)
-* [Company](../company/Companies.md)
+* [Company](../../company/index.md)
 * [Contact](../../person/index.md)
 * [Diary](../diary/Diary.md)
 * [Sale](../sale/sale.md)

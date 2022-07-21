@@ -15,7 +15,7 @@ language: en
 
 The **Activities** section tab is available in the **Company** screen, the **Contact** screen, the **Project** screen, the **Diary** screen and the **Sale** screen. You create activities using the ![icon](../../../../media/icons/globalmenu-new.png) **New** menu in the top bar, or by double-clicking in the section tab.
 
-* The **Activities** section tab in the **Company** screen displays activities linked to the company in question. See [Activities (Company)](../company/Activities-Contact.md).
+* The **Activities** section tab in the **Company** screen displays activities linked to the company in question. See [Activities (Company)](../../company/Activities-Contact.md).
 
 * The **Activities** section tab in the **Contact** screen displays activities linked to the contact in question. See [Activities (Contact)](../../person/contact-secttab-activities.md).
 

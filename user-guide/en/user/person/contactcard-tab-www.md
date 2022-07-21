@@ -18,6 +18,6 @@ language: en
 * [The browser in SuperOffice CRM][1]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/company/browser-in-superoffice-crm.md
+[1]: ../company/browser-in-superoffice-crm.md
 
 <!-- Referenced images -->

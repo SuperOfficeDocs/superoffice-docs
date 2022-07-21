@@ -23,6 +23,6 @@ To create a new contact:
 [!include[ALT](../includes/howto-add-favorite.md)]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/company/create-new-contacts.md
+[1]: ../company/create-new-contacts.md
 
 <!-- Referenced images -->

@@ -59,11 +59,11 @@ The second column contains icons that indicate the type of activity, for example
 <!-- Referenced links -->
 [1]: ../standardcrm/diary/index.md
 [2]: ../standardcrm/diary/marking-activities-as-completed-not-completed.md
-[3]: ../standardcrm/company/viewing-activities.md
-[4]: ../standardcrm/company/deleting-activities-contact.md
-[5]: ../standardcrm/company/replying-to-email-from-activities-section-tab.md
-[6]: ../standardcrm/company/forwarding-email-from-activities-section-tab.md
-[7]: ../standardcrm/company/using-filter-function-contact.md
+[3]: ../company/viewing-activities.md
+[4]: ../company/deleting-activities-contact.md
+[5]: ../company/replying-to-email-from-activities-section-tab.md
+[6]: ../company/forwarding-email-from-activities-section-tab.md
+[7]: ../company/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: media/project-activities.bmp

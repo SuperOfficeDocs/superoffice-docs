@@ -53,4 +53,4 @@ You can create a selection containing all open request that have not been update
 
 [Create selections](Create-selections.md)
 
-[Use status monitors in a dynamic selection](../company/Using-status-monitors-in-dynamic-selections.md)
+[Use status monitors in a dynamic selection](../../company/Using-status-monitors-in-dynamic-selections.md)
