@@ -21,6 +21,7 @@ The Developer Portal stores your public key. However, you must store the private
 
 ## How to
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
@@ -42,6 +43,7 @@ The Developer Portal stores your public key. However, you must store the private
 7. Click **Save Settings**.
 
 8. Request to publish the new configuration.
+<!-- markdownlint-enable MD029 -->
 
 ## Read more
 
