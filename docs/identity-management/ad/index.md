@@ -82,7 +82,7 @@ The login dialog accepts Active Directory domain username and password.
 
 This is a ”safety valve” for users that are AD authenticated, but for any reason can’t succeed the integrated login phase.
 
-The idea is that _**if**_ users see a login dialog, then their "usual" user should work, whether that is a SuperOffice or AD user; which is why NetServer will accept both types of credentials in the username+password strings.
+The idea is that **if** users see a login dialog, then their "usual" user should work, whether that is a SuperOffice or AD user; which is why NetServer will accept both types of credentials in the username+password strings.
 
 The SuperOffice user is checked first since that happens with a known speed (database lookup). AD user lookup **can** take a long time if your server has a difficult relationship with the domain controller (think DMZ+firewalls+complicated setups).
 

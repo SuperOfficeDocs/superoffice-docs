@@ -88,7 +88,7 @@ MD047: true
 MD048:
   style: "backtick"
 MD049:
-  style: "consistent"
+  style: "asterisk"
 MD050:
   style: "consistent"
 MD051: true

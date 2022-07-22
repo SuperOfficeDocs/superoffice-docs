@@ -46,9 +46,12 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
 2. We want to add the DKIM record from Mailgun. Click **Add New** to add the new DKIM record.
 
-    * Some DNS servers may require "version of DKIM". Add this by adding "v=DKIM1; " in front of the key: `Example: "k=rsa; p=XXX..."  -->  "_v=DKIM1;_ k=rsa; p=XXX..."`
+    * Some DNS servers may require "version of DKIM". Add this by adding "v=DKIM1; " in front of the key. Example:
+        ```text
+        "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
+        ```
     * Add "Host name" value ("pic._domainkey.[yourdomainName]") you received from us.
-    * Add "Address" value ("_v=DKIM1;_ k=rsa; p=XXX..") you received from us (see note above)
+    * Add "Address" value ("v=DKIM1; k=rsa; p=XXX..") you received from us (see note above)
     * Choose "txt" as record type
 
     ![x -screenshot][img4]

@@ -34,7 +34,6 @@ Information about all databases generated from this database
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![travelgenerateddatabase table relationship diagram](./media/travelgenerateddatabase.png)
 
 [!include[details](./includes/travelgenerateddatabase.md)]
@@ -51,7 +50,6 @@ Information about all databases generated from this database
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -59,4 +57,3 @@ Information about all databases generated from this database
 ## Security Flags
 
 * No access control via user's Role.
-

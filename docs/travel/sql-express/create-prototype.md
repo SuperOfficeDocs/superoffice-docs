@@ -38,7 +38,7 @@ When the prototype has finished, the database files will be automatically zipped
 
 ## ProtoServerPath
 
-The full path (without filename) to the place you want the prototypes to be created, _as viewed from the database server._ So this should always be a local path, like c:\so_proto or something similar. This path is going to be used when SOAdmin or the Travel gateway service tells the SQL Server to create a new database; the statement will be processed by the database server and must therefore refer to a file path local to the server machine.
+The full path (without filename) to the place you want the prototypes to be created, **as viewed from the database server**. So this should always be a local path, like c:\so_proto or something similar. This path is going to be used when SOAdmin or the Travel gateway service tells the SQL Server to create a new database; the statement will be processed by the database server and must therefore refer to a file path local to the server machine.
 
 ## ProtoClientPath
 

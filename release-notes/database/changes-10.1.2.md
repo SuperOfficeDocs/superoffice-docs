@@ -11,6 +11,7 @@ so.envir:
   - "onsite"
   - "online"
 ---
+<!-- markdownlint-disable-file MD036 -->
 
 # Released database changes in version 10.1.2.686
 
@@ -57,7 +58,6 @@ userName
 
 Minor update in ZipCity; update of preference descriptions; update of FI address layout; update of SuperOffice data for SW, DA, GE
 
-
 **Step 27**
 
 Preference Description update with Service mappings and new rank/group fields; also cleanup of obsolete Counter preferences (#63450)
@@ -77,7 +77,6 @@ Add the Tags MDO list, a new Function Right to directly define tags, and assign 
 
 Reload the CacheTabs table, to add new lists
 
-
 **Step 30**
 
 It is now possible to turn off trailing-whitespace trimming of string fields in the database; and specify this and TimeZone processing in a generic manner
@@ -93,11 +92,9 @@ name
 
 Preference descriptions for the R project
 
-
 **Step 32**
 
 Transfer any password rules set in the now-obsolete preference System/PasswordPolicy into the password_rules table with id=1
-
 
 **Step 33**
 
@@ -110,11 +107,9 @@ includeSignature, showCurrents, senderEmailMode, senderEmailAddress
 
 Re-add the Tags MDO list in UdListDefinition table.
 
-
 **Step 35**
 
 Preference descriptions for the R project
-
 
 **Step 36**
 
@@ -127,36 +122,29 @@ ownerTable, ownerRecord, group\_id, configurationName
 
 Preference descriptions for invitation support
 
-
 **Step 38**
 
 Preference descriptions for invitation support and cleanup of UserPreference table
-
 
 **Step 39**
 
 New preference: default appointment type for incoming invitations
 
-
 **Step 40**
 
 This step has been made obsolete by later changes
-
 
 **Step 41**
 
 This step has been made obsolete by later changes
 
-
 **Step 42**
 
 Updated preferences, and translated name of functional right to create Tags
 
-
 **Step 43**
 
 Updated ZipCity for Norway
-
 
 **Step 44**
 
@@ -176,7 +164,6 @@ cautionWarning
 **Step 46**
 
 Updated preferences
-
 
 **Step 47**
 
@@ -204,7 +191,6 @@ suggestedCategory\_id
 
 Fix inconsistent Main Contact (supportPersonId) after bug in Sales.Web GUI
 
-
 **Step 51**
 
 Add a virtual field on contact (dotsyntax)
@@ -223,7 +209,6 @@ invitationDocType, privacyDocType
 
 Update Red Letter Days, table is overwritten, adding Red days for 2005-2030 for 23 countries
 
-
 **Step 54**
 
 Add a virtual field on person and contact (dotsyntax): emailLastBounce
@@ -236,7 +221,6 @@ emailLastBounce
 **Step 55**
 
 Reset bounceCount and lastBounce on the Email table for rows where lastBounce is before the start of year 2020
-
 
 **Step 56**
 
@@ -270,7 +254,6 @@ updatedCount
 
 Update SOCompany information for new Online databases based on what is in the template and what data is wanted spring 2020
 
-
 **Step 60**
 
 Add mother_associate_id to appointments to optimize logic that depends on the owner of the mother appointment
@@ -291,41 +274,33 @@ contact\_id
 
 New preference for disabling Image editor in Unlayer mailings editor
 
-
 **Step 63**
 
 New functional right for hiding Service and Mailings button and screen
-
 
 **Step 64**
 
 New preference for invitations, no tentative appointments for others
 
-
 **Step 65**
 
 New preference for mailing, disable image library for royalty-free images
-
 
 **Step 66**
 
 Add starting 0 to german zipcodes where it missed. Update N_List for US, remove duplicate MrMrs.
 
-
 **Step 67**
 
 , Remove duplicate of LowerLimitsaletypecat, new preference for mailing, disable image library for royalty-free images, translations
-
 
 **Step 68**
 
 New preference for document dialog in SOFO (and possible later OML, GmailLink and WEB)
 
-
 **Step 69**
 
-Update some languageinfo and languageinfocountry for correct detecting of language for GDPR confirmation mail. Update RedLetterDay and SOCompany address for Germany. Add a zipcode for DK: Orø. Set group for quote documents for new dbs. 
-
+Update some languageinfo and languageinfocountry for correct detecting of language for GDPR confirmation mail. Update RedLetterDay and SOCompany address for Germany. Add a zipcode for DK: Orø. Set group for quote documents for new dbs.
 
 **Step 70**
 
@@ -338,7 +313,6 @@ FileName
 
 New preference for Mailing, DisableFormsPoweredBy. Rename Mailing header to Marketing. Some fixes of quotes to single quotes.
 
-
 **Step 72**
 
 New field in Document-table for URL to external documents. Should be used internally by DocPlugins only!
@@ -350,7 +324,6 @@ ExtUrl
 
 Turn on freetext index in online.
 
-
 **Step 74**
 
 * Add table CacheInvalidation
@@ -359,52 +332,42 @@ Turn on freetext index in online.
 
 New preference: disable export of tile data
 
-
 **Step 76**
 
 Cleanup LocaleText - Reinsert all data
-
 
 **Step 77**
 
 Cleanup Prefdesc and prefdescline: Only partner-added rows are left, all SuperOffice-maintained preferences are now described in code
 
-
 **Step 78**
 
 Updated ZipToCity for Norway and Sweden
-
 
 **Step 79**
 
 New complete LocaleText - with new ticket notifications
 
-
 **Step 80**
 
-LocaleText - with LanguageRows for detection of supported GUI languages 
-
+LocaleText - with LanguageRows for detection of supported GUI languages
 
 **Step 81**
 
-Add functional right 'Lock / Unlock Target Assignment' 
-
+Add functional right 'Lock / Unlock Target Assignment'
 
 **Step 82**
 
 Index names for extrafields need to be as the Service code creates them; SDB import did not conform. This step will locate and rename any wrongly-named physical indexes (only applicable to databases that have been SDB-imported).
 There was also another bug where index-creation logic for extrafields was inverted, such that a field would get an index when it should not have, and vice versa. This is also corrected, both ways.
 
-
 **Step 83**
 
 Historically, extra-fields of type 'long text' where 'ntext' in Sql Server. This data type is obsolete and such steps will be converted to 'nvarchar(max)', though without reallocating storage space as that might take a long time depending on the amount of data
 
-
 **Step 84**
 
 Update translations for functional right 'Can lock and unlock target assignment'
-
 
 ## chat
 
@@ -552,7 +515,6 @@ deltaState
 
 Clear out all rows in SystemEvent, in preparation for a unique index to be defined
 
-
 **Step 4**
 
 Create unique index on SystemEvent, to support multi-user-safe event locking
@@ -616,21 +578,17 @@ ConsentSourceId, LegalBaseId
 
 Set the #STORE consent on all person records that do not already have it; we assume that all persons in the customers database are there for a legitimate reason
 
-
 **Step 16**
 
 As we now set the #STORE consent on all person records that do not already have it, we also set a default consent and legal base for new persons, thus we set the Default legal base preference.
-
 
 **Step 22**
 
 Remove confirmation mail links for consent sources where SuperOffice does not send privacy confirmation email by design.
 
-
 **Step 23**
 
 Update document template to sync emailmode with privacytype
-
 
 ## CRMScript
 
@@ -679,7 +637,6 @@ autosave
 **Step 7**
 
 Fix triggers with screen_type = 130. Set to 113 and disable.
-
 
 ## CS
 
@@ -730,11 +687,9 @@ tags, contact\_id
 
 Transfer mobile phone from ticket to person if no phone on person
 
-
 **Step 10**
 
 Set ticket.contact_id to be consistent with ticket.cust_id.contact_id; and copy the person classifiers (associate_id, group_id, business_idx, category_idx) from contact to person unless person.contact_id = 0
-
 
 **Step 11**
 
@@ -754,7 +709,6 @@ attachment\_location\_id
 **Step 13**
 
 Create and enable password rules if they have not been changed from the default
-
 
 **Step 14**
 
@@ -783,7 +737,6 @@ suggestedCategory\_id, origHumanCategory\_id
 **Step 17**
 
 Add details clob to ticket_log_action table for JSON logging
-
 
 **Step 18**
 
@@ -824,7 +777,6 @@ ai\_suggest\_category, ai\_text\_analysis
 
 Change ticket notification expiry from 10 minutes to 24 hours
 
-
 **Step 24**
 
 Add support for setting tags on email filter
@@ -855,7 +807,6 @@ Create new table for storing customer center styling and configuration options
 **Step 2**
 
 Prime in default Customer Center Config
-
 
 ## dashboard
 
@@ -900,7 +851,6 @@ rank
 **Step 6**
 
 Add functional right
-
 
 **Step 7**
 
@@ -964,11 +914,9 @@ Set the required attributes to activate Sentry functionality on dashboard, dashb
 
 Update dashboard theme data with fixed IDs
 
-
 **Step 16**
 
 Generate Dataright rows for the new Dashboard, in the data right matrix in Admin
-
 
 **Step 17**
 
@@ -981,7 +929,6 @@ style
 
 Update big number colors in dark mode for built-in dashboard themes
 
-
 **Step 19**
 
 Update DashboardTileDefinition with information about where it can be used
@@ -992,7 +939,6 @@ usage
 **Step 20**
 
 Update colors for stalled and open sales in dashboards.
-
 
 ## forms
 
@@ -1113,7 +1059,6 @@ cal\_data
 
 Ensure all email-IDs used as foreignkeys in the foreignkey-table are enclosed in tags. Update all rows as needed, in one operation
 
-
 ## invitation
 
 Adds support for invitations (iCal) leading to appointments
@@ -1132,7 +1077,6 @@ organizer\_email, organizer\_fullname, recurring\_end\_date
 **Step 3**
 
 Set preference "Diary sync active" if Infobridge synchronizer seem to be in use.
-
 
 **Step 4**
 
@@ -1169,7 +1113,6 @@ flags
 **Step 3**
 
 Remove the old SOEditor mailing templates for new Online installations
-
 
 **Step 4**
 
@@ -1225,7 +1168,6 @@ are\_statistics\_dirty
 
 The typical search table is an owner of a set of predefined selection criteria
 
-
 **Step 2**
 
 Cleanup after initial (obsolete) table definition
@@ -1256,11 +1198,9 @@ chartKey, lastLoaded, lastLoadedBy, lastMembershipChange, lastMembershipChangeBy
 
 SelectionForFind creates a dynamic selection for each entity/associate as needed; they were missing the required VisibleFor row; those are added here
 
-
 **Step 7**
 
 Update targetTableNumber to 5 where it was 0, and reset membercounts to -1 where we have no recent data
-
 
 **Step 8**
 
@@ -1285,7 +1225,6 @@ Add table OnlineApp, to echo information about authorizations and usage. Optimiz
 **Step 2**
 
 Deleting obsolete counter-preferences
-
 
 ## Pocket
 
@@ -1326,11 +1265,9 @@ flags
 
 Change value of registry entry for maximum width of components
 
-
 **Step 3**
 
 Make sure the row with id=1 in ejuser contains the '(System)' user
-
 
 ## SubscriptionMgmt
 
@@ -1381,7 +1318,6 @@ waiting\_for\_approval
 
 Add tables for Targets (Sales, Project, Selection....
 
-
 **Step 2**
 
 Some further normalization
@@ -1397,7 +1333,6 @@ Some further normalization
 **Step 3**
 
 Generate Dataright rows for Targets, in the data right matrix in Admin
-
 
 **Step 4**
 
@@ -1445,4 +1380,3 @@ Remove the old usage fields from the webhooks table after the usage has been cop
 
 * Modify table Webhook
 total\_calls, total\_errors, consecutive\_errors, last\_error
-

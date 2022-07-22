@@ -17,7 +17,7 @@ DKIM (Domain Keys Identified Mail) should be considered a method to verify that 
 
 This involves using a private domain key to encrypt your domain's outgoing mail headers, and adding a public version of the key to the domain's DNS records.
 
-To add a digital signature to outgoing mail, you generate a _domain key_ that Mailgun uses to create signed mail headers that are unique to your domain. You add the public key to the Domain Name System (DNS) records for your domain. Recipients can then verify the source of a mail message by retrieving your public key and using it to confirm your signature.
+To add a digital signature to outgoing mail, you generate a **domain key** that Mailgun uses to create signed mail headers that are unique to your domain. You add the public key to the Domain Name System (DNS) records for your domain. Recipients can then verify the source of a mail message by retrieving your public key and using it to confirm your signature.
 
 Not all receiving mail servers support the DKIM standard.
 
