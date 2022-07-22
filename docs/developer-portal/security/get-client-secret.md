@@ -17,6 +17,7 @@ so.client:
 
 [!include[Define app credentials](../../apps/includes/def-app-credentials.md)] That also means that you can't copy it from the Developer Portal. If it's lost, you need to create a new one.
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
@@ -30,6 +31,7 @@ so.client:
 5. Click **Save Settings**.
 
 6. Request to publish the new configuration.
+<!-- markdownlint-enable MD029 -->
 
 ## Read more
 

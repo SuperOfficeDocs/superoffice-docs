@@ -1,6 +1,6 @@
 ---
-title: Service & Marketing
-description: Email in Service & Marketing using cURL mail
+title: Service and Marketing
+description: Email in Service and Marketing using cURL mail
 author: {github-id}
 keywords: email,cURL
 so.topic: concept
@@ -8,11 +8,11 @@ so.topic: concept
 # so.client:
 ---
 
-# Email in Service & Marketing
+# Email in Service and Marketing
 
 cURL is used for sending and receiving emails in the SuperOffice Service client and in the SuperOffice Marketing client.
 
-# cURL mail
+## cURL mail
 
 cURL uses libcurl, and supports a range of common Internet protocols.
 
@@ -52,7 +52,8 @@ This can be changed either by a SQL statement (requires access to SQL database)
 
 ### OAuth 2.0
 
-**Requirements**
+**Requirements:**
+
 * Onsite customers who use SuperOffice G9 9.2 R10 or newer
 * Microsoft 365 (Microsoft® Exchange Online)
 * MX Record pointing to the Microsoft® Exchange Online server
@@ -72,18 +73,21 @@ For versions between G9 9.2 R10 and 10.0.3 you can add the feature via adding:
 * in the web.config file (ask your technical installation partner for assistance if needed)
 
 a)
+
 ```xml
 <configuration>
-<configSections>
-<sectionGroup name="SuperOffice">
-<sectionGroup name="FeatureToggles">
-<section name="State" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-</sectionGroup>
-<sectionGroup name="Security">
+  <configSections>
+    <sectionGroup name="SuperOffice">
+      <sectionGroup name="FeatureToggles">
+        <section name="State"
+          type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      </sectionGroup>
+    <sectionGroup name="Security">
 ...
 ```
 
 b)
+
 ```xml
 <FeatureToggles>
   <State>
@@ -92,32 +96,37 @@ b)
 </FeatureToggles>
 ```
 
-**How to log in**
+**How to log in:**
 
-How to use the feature in SuperOffice Service? 
+How to use the feature in SuperOffice Service?
+
 Next time you create a mailbox in SuperOffice Service and add your Microsoft 365 (Microsoft® Exchange Online) email account  - you will be redirected to Microsoft for authentication.
 
 To create a new mailbox:
 
-* Select System settings > E-mail. This takes you straight to the Mailboxes tab.
-* Click New mailbox. The Mailbox properties screen appears, with the Properties tab open.
-* In the Address field, enter the Microsoft 365 email account e-mail address you want to use for the mailbox.
- * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
-* Click OK. The mailbox is created.
+1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
+2. Click New mailbox. The Mailbox properties screen appears, with the Properties tab open.
+3. In the Address field, enter the Microsoft 365 email account e-mail address you want to use for the mailbox.
+    * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
+4. Click OK. The mailbox is created.
 
 See the [help file][8] for more information.
 
 #### What is UPN (User Principal Name)?
+
 In Windows Active Directory, a User Principal Name (UPN) is the name of a system user in an email address format. A UPN (for example: john.doe@domain.com) consists of the user name (logon name), separator (the @ symbol), and domain name (UPN suffix).
-A UPN is not the same as an email address. Sometimes, a UPN can match a user's email address, but this is not a general rule. 
+
+A UPN is not the same as an email address. Sometimes, a UPN can match a user's email address, but this is not a general rule.
 
 ##### How to check or modify the UPN of a user
 
 Use the links below to learn how to check and change UPNs in various environments.
+
 * [Microsoft Exchange Server][6]
 * [Office 365][7]
 
 ## How to troubleshoot mail when using cURL (email in / out)
+
 Error information will appear in each of incoming mail's receiving log and outgoing mail's sending log. This information will in most cases tell what's wrong.
 
 How to open the incoming/outgoing log:

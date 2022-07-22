@@ -15,6 +15,7 @@ so.client:
 
 [!include[Define app credentials](../../apps/includes/def-app-credentials.md)]
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
@@ -24,6 +25,7 @@ so.client:
 3. Alternatively, turn on **Advanced** and check the **Authentication** section.
 
     ![App client ID in Authentication section -screenshot][img2]
+<!-- markdownlint-enable MD029 -->
 
 ## Read more
 

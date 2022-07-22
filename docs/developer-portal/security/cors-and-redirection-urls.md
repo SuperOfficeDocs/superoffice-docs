@@ -41,6 +41,7 @@ Types of URLs:
 
 ## To view redirection endpoints
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
@@ -50,6 +51,7 @@ Types of URLs:
 3. If not shown on the **Configuration** start page, toggle **Advanced** and select **Authentication**.
 
     ![Application configuration: authentication URLs -screenshot][img2]
+<!-- markdownlint-enable MD029 -->
 
 ## To add or update redirection endpoints
 
