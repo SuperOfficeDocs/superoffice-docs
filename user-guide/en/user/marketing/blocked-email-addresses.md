@@ -27,10 +27,10 @@ The **Blocked e-mail addresses** tab provides an excellent overview of e-mail ad
 > [!TIP]
 > Click a column to access sorting and grouping functions.
 
-To fix a single e-mail address, select it in the list and click **Open** in the side-panel to edit the contact. Go to the **Details** tab. A warning icon (![icon](media/warning-asterisk-red.png))next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
+To fix a single e-mail address, select it in the list and click **Open** in the side-panel to edit the contact. Go to the **Details** tab. A warning icon (![icon][img1])next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
 
 > [!TIP]
-> You can also work with blocked e-mails and bounces for individual mailings. See [Manage bounces](Manage-bounces.md).
+> You can also work with blocked e-mails and bounces for individual mailings. See [Manage bounces][1].
 
 ## Working with blocked email addresses (bounces)
 
@@ -67,3 +67,9 @@ You can export the list for further processing.
 1. Select the e-mail addresses you want to export.
 2. Select **Actions** &gt; **Export**.
 3. Select an export format. The export file displays in the bottom of you browser. It can also be found in you downloads folder.
+
+<!-- Referenced links -->
+[1]: Manage-bounces.md
+
+<!-- Referenced images -->
+[img1]: media/warning-asterisk-red.png

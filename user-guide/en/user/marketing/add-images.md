@@ -11,7 +11,7 @@ language: en
 
 # Add images
 
-Add images to use in e-mails. See [Insert images in the message](Insert-images-in-message.md).
+Add images to use in e-mails. See [Insert images in the message][1].
 
 To add an image to SuperOffice Marketing:
 
@@ -29,10 +29,11 @@ To add an image to SuperOffice Marketing:
 6. Click **OK** when you are done.
 
 > [!TIP]
-> When editing a message, you can also add images from the royalty-free image library. See [Insert images in the message](Insert-images-in-message.md).
+> When editing a message, you can also add images from the royalty-free image library. See [Insert images in the message][2].
 
 <!-- Referenced links -->
-[1]:
+[1]: Insert-images-in-message.md
+[2]: Insert-images-in-message.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

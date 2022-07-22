@@ -25,7 +25,7 @@ When creating a mailing, you follow a workflow consisting of 5 steps:
 * **Recipients** (not applicable for forms)
 * **Confirm** (not applicable for forms)
 
-![icon](media/Loc/mailing-workflow-all.png)
+![icon][img1]
 
 **Green** = Complete step | **Red** = Incomplete or skipped step | Grey/dotted = Step not started
 
@@ -52,16 +52,23 @@ To do this:
 
 You have now started the workflow to create a mailing. The first step is called **Setup**. Depending on the type of mailing you have selected, go to either of these topics:
 
-[Step 1: Setup - E-mail](step-1-setup-email.md)
-
-[Step 1: Setup - SMS](Step-1-Setup-SMS.md)
-
-[Step 1: Setup - Document](Step-1-Setup-Document.md)
-
-[Step 1: Setup - Form response](form-create-step1-setup.md)
+* [Step 1: Setup - E-mail][1]
+* [Step 1: Setup - SMS][2]
+* [Step 1: Setup - Document][3]
+* [Step 1: Setup - Form response][4]
 
 ## What would you like to do now?
 
-[Define settings for mailings](define-settings-for-mailings.md)
+* [Define settings for mailings][5]
+* [Follow up mailings][6]
 
-[Follow up mailings](Followup-mailings.md)
+<!-- Referenced links -->
+[1]: step-1-setup-email.md
+[2]: Step-1-Setup-SMS.md
+[3]: Step-1-Setup-Document.md
+[4]: form-create-step1-setup.md
+[5]: define-settings-for-mailings.md
+[6]: Followup-mailings.md
+
+<!-- Referenced images -->
+[img1]: media/Loc/mailing-workflow-all.png

@@ -17,7 +17,7 @@ The Favourites function gives you easy to access to your favourite mailings or f
 
 To add a mailing or form to your favourites, open it and click the star icon ![icon][img1] in the top-right corner. The star turns yellow ![icon][img2], and the mailing/form is instantly added to your favourites.
 
-In SuperOffice Service you can now quickly access the record by clicking **Marketing** and then ![icon](../media/navmenu-favourites.png) in the Navigator.
+In SuperOffice Service you can now quickly access the record by clicking **Marketing** and then ![icon][img3] in the Navigator.
 
 > [!TIP]
 > If you hold the mouse pointer over a mailing or form in the favourites list, a tooltip is displayed containing additional data about the mailing or form.
@@ -33,3 +33,4 @@ In SuperOffice Service you can now quickly access the record by clicking **Marke
 <!-- Referenced images -->
 [img1]: ../../../media/icons/favorite-inactive.png
 [img2]: ../../../media/icons/favorite-active.png
+[img3]: ../media/navmenu-favourites.png
