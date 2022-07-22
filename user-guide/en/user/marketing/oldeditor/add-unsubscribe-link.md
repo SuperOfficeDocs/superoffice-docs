@@ -15,15 +15,15 @@ When you send a newsletter, for example, you must give the recipients the option
 
 In order to do this:
 
-1. Go to the contents of the message and edit a paragraph (see [Edit a paragraph](Edit-paragraph.md)) to open the editing view.  
-    Or click the **Add a new paragraph** ( ![icon](../media/btn-editor-newpara.jpg) ) button to add a paragraph at the bottom.
+1. Go to the contents of the message and edit a paragraph (see [Edit a paragraph][1]) to open the editing view.  
+    Or click the **Add a new paragraph** ( ![icon][img1] ) button to add a paragraph at the bottom.
 2. Select the **Body** tab.
 3. Position the mouse pointer where you wish to insert the link.
-4. Click the ![icon](../media/btn-link.png)**Subscription links** button in the toolbar. The **Add (un)subscription link** dialog opens.
+4. Click the ![icon][img2]**Subscription links** button in the toolbar. The **Add (un)subscription link** dialog opens.
 5. Change the text in the **Link label** field, if required; for example, to "Click here to unsubscribe" or "Click here to manage your subscriptions".
 6. In the **Add (un)subscription link** field, select one of the following options:
     * **Manage subscriptions**: Inserts a link to a web page where the recipients can select which mailing types they want to receive. The link is valid for 21 days by default.
-    * **Unsubscribe from this type of mailing**: Inserts a link to unsubscribe to this mailing type. The recipient will still receive mailings of other types. The mailing type is selected in [Step 1: Setup](../step-1-setup-email.md).
+    * **Unsubscribe from this type of mailing**: Inserts a link to unsubscribe to this mailing type. The recipient will still receive mailings of other types. The mailing type is selected in [Step 1: Setup][2].
 7. Click **OK**. The link is inserted in the message.
 
 ## What happens now?
@@ -31,11 +31,22 @@ In order to do this:
 Based on the feedback from the recipients, the subscription preferences are updated on the **Interests** tab on the contact card in SuperOffice CRM.
 
 > [!NOTE]
-> This means that the customer no longer receives this mailing type from SuperOffice Marketing, regardless of which recipient list is used for the mailing. This may be not what you want for future marketing purposes. For more about alternative unsubscription methods, see [Examples of the use of trackable links](../Examples-of-use-of-trackable-links.md).  
-You do, however, have the possibility to override "no consent / no subscription" settings, from **Options** in the lower part of the **Recipients** screen (see [Step 4: Recipients](../Step-4-Recipients-email.md)).
+> This means that the customer no longer receives this mailing type from SuperOffice Marketing, regardless of which recipient list is used for the mailing. This may be not what you want for future marketing purposes. For more about alternative unsubscription methods, see [Examples of the use of trackable links][3].  
+You do, however, have the possibility to override "no consent / no subscription" settings, from **Options** in the lower part of the **Recipients** screen (see [Step 4: Recipients][4]).
 
 ## Clear interests in SuperOffice CRM
 
 In SuperOffice CRM, you can register interests (such as "Monthly newsletter") to contacts. These interests can be used as a basis for various kinds of mailings. Instead of using unsubscribe as described above, you can easily clear a particular interest, such as monthly newsletter, from customers who do not want to receive it.
 
-You do this by creating a link that removes the interest in question from recipients who click the link. The same method can be used to register interests. See [Update interest](../Define-link-actions.md#interests).
+You do this by creating a link that removes the interest in question from recipients who click the link. The same method can be used to register interests. See [Update interest][5].
+
+<!-- Referenced links -->
+[1]: Edit-paragraph.md
+[2]: ../step-1-setup-email.md
+[3]: ../Examples-of-use-of-trackable-links.md
+[4]: ../Step-4-Recipients-email.md
+[5]: ../Define-link-actions.md#interests
+
+<!-- Referenced images -->
+[img1]: ../media/btn-editor-newpara.jpg
+[img2]: ../media/btn-link.png

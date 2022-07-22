@@ -26,17 +26,17 @@ There are several types of template variables:
 
 **To enter template variables into your message:**
 
-1. Click the **Edit paragraph** ( ![icon](../media/btn-editor-edit.png) ) button in the paragraph you wish to edit.
+1. Click the **Edit paragraph** ( ![icon][img1] ) button in the paragraph you wish to edit.
 
 2. Select the **Heading** tab.
 
 3. Type, for example "Dear ".
 
-4. Position the mouse pointer after the text and click ![icon](../media/btn-Variable.png)**Template variables**.
+4. Position the mouse pointer after the text and click ![icon][img2]**Template variables**.
 
 5. In the dialog that appears, select **First name** in the **Add template variable** list.
 
-    ![icon](../media/Loc/editor-templatevar.jpg)
+    ![icon][img3]
 
 6. Click **OK**. The **\[\[customer.firstname\]\]** template variable is inserted with a yellow background.
 
@@ -45,8 +45,17 @@ There are several types of template variables:
 8. **Continue entering text and inserting the template variables you require.**
 
 > [!TIP]
-> Before you send out a mailing, you should test that the customer data is correctly inserted in the message. See [Test mailing](../test-mailing.md).**
+> Before you send out a mailing, you should test that the customer data is correctly inserted in the message. See [Test mailing][1].**
 
 ## What would you like to find out more about?
 
-[Template variables](../../Service/template-variables.md)
+* [Template variables]([2])
+
+<!-- Referenced links -->
+[1]: ../test-mailing.md
+[2]: ../../Service/template-variables.md
+
+<!-- Referenced images -->
+[img1]: ../media/btn-editor-edit.png
+[img2]: ../media/btn-Variable.png
+[img3]: ../media/Loc/editor-templatevar.jpg

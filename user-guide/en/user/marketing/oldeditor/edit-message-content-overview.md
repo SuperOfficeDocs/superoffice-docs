@@ -18,13 +18,13 @@ A message is made up of columns and paragraphs. You insert text and images in th
 SuperOffice Marketing is supplied with many ready-made message template layouts, and you can easily move columns and paragraphs around to get the appearance you want. You can also delete unwanted columns and paragraphs or add new ones.
 
 > [!TIP]
-> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon](../media/btn-editor-mobile.png) ). See also [Customise the message for display on mobile devices](Customise-message-for-display-on-mobile-devices.md).
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon][img1] ). See also [Customise the message for display on mobile devices][1].
 
 Below you can see how a typical template is made up and how menus are displayed.
 
-For a complete list of these menus and buttons, see [Menu overview](Menu-overview.md).
+For a complete list of these menus and buttons, see [Menu overview][2].
 
-![icon](../media/TemplateEditOverview-old.png)
+![icon][img2]
 
 Here are some of the main functions of the **Content** step:
 
@@ -32,39 +32,55 @@ Here are some of the main functions of the **Content** step:
 
 | Icon | Description |
 |:-:|---|
-| ![icon](../media/editor-menu-para.jpg) | When you hover the mouse pointer over columns and paragraphs, a toolbar with editing options appears. |
-| ![icon](../media/editor-menu-border.jpg) | |
-| ![icon](../media/editor-menu-global.jpg) | The global menu is always displayed at the top right in the content area.
+| ![icon][img3] | When you hover the mouse pointer over columns and paragraphs, a toolbar with editing options appears. |
+| ![icon][img4] | |
+| ![icon][img5] | The global menu is always displayed at the top right in the content area.
 
-See [Edit a paragraph](Edit-paragraph.md).
+See [Edit a paragraph][3].
 
 ## Edit text and images
 
-[Edit text](Edit-paragraph.md) and [insert images](Insert-images-in-message.md) by clicking the **Edit paragraph** ( ![icon](../media/btn-editor-edit.png) ) button in a paragraph.
+[Edit text][3] and [insert images][4] by clicking the **Edit paragraph** ( ![icon][img6] ) button in a paragraph.
 
 ## Insert new paragraphs and columns
 
-In the paragraph menu, you can click ![icon](../media/btn-editor-newpara.jpg) or ![icon](../media/btn-editor-addcolumn.jpg) to insert a paragraph or a column with paragraphs.
+In the paragraph menu, you can click ![icon][img7] or ![icon][img8] to insert a paragraph or a column with paragraphs.
 
 ## Move, copy and delete paragraphs and columns
 
-In the column and paragraph menus, you can move ( ![icon](../media/btn-editor-move.jpg) ) and delete ( ![icon](../media/btn-cancel.png) ) columns and paragraphs. In the paragraph menu, you can also copy ( ) a paragraph.
+In the column and paragraph menus, you can move ( ![icon][img9] ) and delete ( ![icon][img10] ) columns and paragraphs. In the paragraph menu, you can also copy ( ) a paragraph.
 
 ## Edit format and layout
 
-The appearance and properties of the template (such as font type and size, colours and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon](../media/btn-editor-edit.png) ) in the global menu or in a column or paragraph.
+The appearance and properties of the template (such as font type and size, colours and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon][img6] ) in the global menu or in a column or paragraph.
 
 > [!TIP]
 > Use standard fonts for the best legibility with any e-mail client or web browser.
 
 ## What would you like to do now?
 
-[See the menu overview](Menu-overview.md)
+* [See the menu overview][2]
+* [Edit a paragraph][3]
+* [Include links you want to track][5]
+* [Use template variables in messages][6]
+* [Insert images in the message][4]
 
-[Edit a paragraph](Edit-paragraph.md)
+<!-- Referenced links -->
+[1]: Customise-message-for-display-on-mobile-devices.md
+[2]: Menu-overview.md
+[3]: Edit-paragraph.md
+[4]: Insert-images-in-message.md
+[5]: includeLinksToTrack.md
+[6]: Use-template-variables-in-messages.md
 
-[Include links you want to track](includeLinksToTrack.md)
-
-[Use template variables in messages](Use-template-variables-in-messages.md)
-
-[Insert images in the message](Insert-images-in-message.md)
+<!-- Referenced images -->
+[img1]: ../media/btn-editor-mobile.png
+[img2]: ../media/TemplateEditOverview-old.png
+[img3]: ../media/editor-menu-para.jpg
+[img4]: ../media/editor-menu-border.jpg
+[img5]: ../media/editor-menu-global.jpg
+[img6]: ../media/btn-editor-edit.png
+[img7]: ../media/btn-editor-newpara.jpg
+[img8]: ../media/btn-editor-addcolumn.jpg
+[img9]: ../media/btn-editor-move.jpg
+[img10]: ../media/btn-cancel.png

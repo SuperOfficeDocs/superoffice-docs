@@ -15,7 +15,7 @@ You insert an image in a message like this:
 
 1. Go to the **Content** screen in the mailing, or open a template for editing.
 
-2. Click the **Edit paragraph** ( ![icon](../media/btn-editor-edit.png) ) button in the paragraph where you wish to insert the image.
+2. Click the **Edit paragraph** ( ![icon][img2] ) button in the paragraph where you wish to insert the image.
 
 3. Select the **Image** tab.
 
@@ -26,13 +26,13 @@ You insert an image in a message like this:
 
 5. Click the image you want to insert. A preview of the image is displayed in the field on the right.
 
-6. Click **Resize image** ( ![icon](../media/btn-resize.jpg) ). Here you can:
+6. Click **Resize image** ( ![icon][img3] ). Here you can:
     * Change the title of the image in the **Image title** field.
     * Define the size of the image (in pixels). A maximum width of 600 pixels is normally recommended.
 
 7. Click **OK** when you have finished.
 
-8. Click ![icon](../media/btn-green-check.jpg)**Select this image** to use this image. This takes you back to the **Edit paragraph** dialog.
+8. Click ![icon][img4]**Select this image** to use this image. This takes you back to the **Edit paragraph** dialog.
 
 9. Select where to position the image in the text by checking one of the options for **Image position**.
 
@@ -41,9 +41,9 @@ You insert an image in a message like this:
 11. Select **Break line on mobile devices** to ensure that the image size is optimal for the mobile devices.
 
 12. In the **Link for image** field, you can add a link to make the image clickable. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. Here you have the following options:
-    * Click ![icon](../media/btn-folder.png) to select an existing link (tracked).
-    * Click ![icon][img1] to create a new link. See [Create tracked links](../Create-links.md).
-    * Click ![icon](../media/btn-editor-edit.png) to edit a selected link. See [Create tracked links](../Create-links.md).
+    * Click ![icon][img5] to select an existing link (tracked).
+    * Click ![icon][img1] to create a new link. See [Create tracked links][1].
+    * Click ![icon][img2] to edit a selected link. See [Create tracked links][1].
     * Enter the URL directly in the field.
 
 13. Click **OK** when you have finished.
@@ -51,7 +51,11 @@ You insert an image in a message like this:
 14. Check that the image is correctly displayed and adjust as necessary.
 
 <!-- Referenced links -->
-[1]:
+[1]: ../Create-links.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
+[img2]: ../media/btn-editor-edit.png
+[img3]: ../media/btn-resize.jpg
+[img4]: ../media/btn-green-check.jpg
+[img5]: ../media/btn-folder.png

@@ -1,1 +1,6 @@
-![icon](../media/TemplateEditOverview-old.png)
+![icon][img1]
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../media/TemplateEditOverview-old.png
