@@ -33,7 +33,6 @@ PMembType list table. List text of titles (member types) for project members.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PMembType table relationship diagram](./media/PMembType.png)
 
 [!include[details](./includes/pmembtype.md)]
@@ -54,7 +53,6 @@ PMembType list table. List text of titles (member types) for project members.
 |[PMembTypeHeadingLink](pmembtypeheadinglink.md)  |Heading link table for PMembType, for MDO headers |
 |[projectmember](projectmember.md)  |Project members. Link-table between person and project |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ PMembType list table. List text of titles (member types) for project members.
 ## Security Flags
 
 * No access control via user's Role.
-

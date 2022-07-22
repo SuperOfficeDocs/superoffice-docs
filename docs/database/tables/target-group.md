@@ -31,7 +31,6 @@ Info about a set of (sales, project, selection...) targets
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![target_group table relationship diagram](./media/target_group.png)
 
 [!include[details](./includes/target-group.md)]
@@ -50,7 +49,6 @@ Info about a set of (sales, project, selection...) targets
 |[target\_period](target-period.md)  |A set of periods linked with target amounts for users/usergroups and the target groups/years. |
 |[target\_revision\_history](target-revision-history.md)  |Revision history info in case the original target group or assignment info was deleted |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ Info about a set of (sales, project, selection...) targets
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

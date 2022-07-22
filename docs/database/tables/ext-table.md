@@ -36,7 +36,6 @@ This table contains entries used for mapping an external table to an internal ta
 |primary\_key|The name of the primary key. TODO: depreciated?|String(64)|&#x25CF;|
 |sql\_limit|Used for LIMIT optimiziation of the search query|Int|&#x25CF;|
 
-
 ![ext_table table relationship diagram](./media/ext_table.png)
 
 [!include[details](./includes/ext-table.md)]
@@ -58,7 +57,6 @@ This table contains entries used for mapping an external table to an internal ta
 |[ext\_field](ext-field.md)  |This table contains entries mapping an external field to an internal field. Used for database integration. |
 |[ext\_table](ext-table.md)  |This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration. |
 
-
 ## Replication Flags
 
 * None
@@ -66,4 +64,3 @@ This table contains entries used for mapping an external table to an internal ta
 ## Security Flags
 
 * No access control via user's Role.
-

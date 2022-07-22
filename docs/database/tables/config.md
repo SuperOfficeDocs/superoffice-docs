@@ -52,7 +52,6 @@ This table contains certain system-wide configuration values.
 |temp\_license|Temporary license key created for this session.|String(255)|&#x25CF;|
 |feature\_toggle|Temporary values used for feature toggles|Clob|&#x25CF;|
 
-
 ![config table relationship diagram](./media/config.png)
 
 [!include[details](./includes/config.md)]
@@ -70,4 +69,3 @@ This table contains certain system-wide configuration values.
 ## Security Flags
 
 * No access control via user's Role.
-

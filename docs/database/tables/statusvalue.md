@@ -36,7 +36,6 @@ Values for statuses
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![StatusValue table relationship diagram](./media/StatusValue.png)
 
 [!include[details](./includes/statusvalue.md)]
@@ -69,7 +68,6 @@ Values for statuses
 |[project](project.md)  |Projects |
 |[StatusDef](statusdef.md)  |Status definitions. Name and description are in LocaleText for internationalization |
 
-
 ## Replication Flags
 
 * None
@@ -77,4 +75,3 @@ Values for statuses
 ## Security Flags
 
 * No access control via user's Role.
-

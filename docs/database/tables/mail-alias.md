@@ -25,7 +25,6 @@ This table contains the alias&amp;apos;es for each mailbox, one-to-many-relation
 |filter\_id|The mailbox which the alias belongs to|FK [mail_in_filter](mail-in-filter.md)| |
 |alias|The alias for the mailbox|String(255)|&#x25CF;|
 
-
 ![mail_alias table relationship diagram](./media/mail_alias.png)
 
 [!include[details](./includes/mail-alias.md)]
@@ -43,7 +42,6 @@ This table contains the alias&amp;apos;es for each mailbox, one-to-many-relation
 |------|-------------|
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
 
-
 ## Replication Flags
 
 * None
@@ -51,4 +49,3 @@ This table contains the alias&amp;apos;es for each mailbox, one-to-many-relation
 ## Security Flags
 
 * No access control via user's Role.
-

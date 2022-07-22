@@ -31,7 +31,6 @@ The internal (superoffice-facing) key related to a synchronized record
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpInternalKey table relationship diagram](./media/ErpInternalKey.png)
 
 [!include[details](./includes/erpinternalkey.md)]
@@ -50,7 +49,6 @@ The internal (superoffice-facing) key related to a synchronized record
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ The internal (superoffice-facing) key related to a synchronized record
 ## Security Flags
 
 * No access control via user's Role.
-

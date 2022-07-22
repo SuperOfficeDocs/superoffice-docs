@@ -32,7 +32,6 @@ Many-many link table between project type and status, similar to sale type-stage
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ProjectTypeStatusLink table relationship diagram](./media/ProjectTypeStatusLink.png)
 
 [!include[details](./includes/projecttypestatuslink.md)]
@@ -54,7 +53,6 @@ Many-many link table between project type and status, similar to sale type-stage
 |[SuggestedAppointment](suggestedappointment.md)  |Defines a suggested appointment for use in a Sale Guide or Project Guide |
 |[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Many-many link table between project type and status, similar to sale type-stage
 ## Security Flags
 
 * No access control via user's Role.
-

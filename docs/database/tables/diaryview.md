@@ -35,7 +35,6 @@ Configuration of a multi-user diary view
 |updatedCount|Number of updates made to this record|UShort| |
 |tzLocationId|Default timezone location for this view|FK [TZLocation](tzlocation.md)|&#x25CF;|
 
-
 ![DiaryView table relationship diagram](./media/DiaryView.png)
 
 [!include[details](./includes/diaryview.md)]
@@ -55,7 +54,6 @@ Configuration of a multi-user diary view
 |[DiaryViewRow](diaryviewrow.md)  |Configuration of a multi-user diary view |
 |[TZLocation](tzlocation.md)  |Time zone location |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ Configuration of a multi-user diary view
 ## Security Flags
 
 * No access control via user's Role.
-

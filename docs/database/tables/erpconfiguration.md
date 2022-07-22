@@ -31,7 +31,6 @@ Global settings for the Erp Integration Server
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpConfiguration table relationship diagram](./media/ErpConfiguration.png)
 
 [!include[details](./includes/erpconfiguration.md)]
@@ -48,7 +47,6 @@ Global settings for the Erp Integration Server
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -56,4 +54,3 @@ Global settings for the Erp Integration Server
 ## Security Flags
 
 * No access control via user's Role.
-

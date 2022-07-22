@@ -30,7 +30,6 @@ Heading link table for Intent, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![IntentHeadingLink table relationship diagram](./media/IntentHeadingLink.png)
 
 [!include[details](./includes/intentheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for Intent, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for Intent, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

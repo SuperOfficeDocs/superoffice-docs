@@ -34,7 +34,6 @@ List table for user-defined lists, contains all user-defined lists. Note - MDO m
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![UDList table relationship diagram](./media/UDList.png)
 
 [!include[details](./includes/udlist.md)]
@@ -55,7 +54,6 @@ List table for user-defined lists, contains all user-defined lists. Note - MDO m
 |[UDListGroupLink](udlistgrouplink.md)  |User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[UDListHeadingLink](udlistheadinglink.md)  |Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ List table for user-defined lists, contains all user-defined lists. Note - MDO m
 ## Security Flags
 
 * No access control via user's Role.
-

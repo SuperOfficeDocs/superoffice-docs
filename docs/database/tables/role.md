@@ -35,7 +35,6 @@ User roles for role-based security, names and tooltips are in LocaleText. For mo
 |updatedCount|Number of updates made to this record|UShort| |
 |use\_categories|Override user categories with role categories|Bool|&#x25CF;|
 
-
 ![Role table relationship diagram](./media/Role.png)
 
 [!include[details](./includes/role.md)]
@@ -59,7 +58,6 @@ User roles for role-based security, names and tooltips are in LocaleText. For mo
 |[text](text.md)  |Long text fields from all over the system |
 |[UserRoleLink](userrolelink.md)  |Link between user role and user |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -69,4 +67,3 @@ User roles for role-based security, names and tooltips are in LocaleText. For mo
 ## Security Flags
 
 * No access control via user's Role.
-

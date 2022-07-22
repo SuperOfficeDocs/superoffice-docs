@@ -47,7 +47,6 @@ Employees, resources and other users - except for External persons
 |userName|Associate user name|String(254)|&#x25CF;|
 |waiting\_for\_approval|0 = Approved (default). 1 = Associate/User must be approved by an administrator. User cannot log in while waiting, but can be assigned licenses. Used in Online.|Bool| |
 
-
 ![associate table relationship diagram](./media/associate.png)
 
 [!include[details](./includes/associate.md)]
@@ -397,7 +396,6 @@ Employees, resources and other users - except for External persons
 |[Webhook\_usage](webhook-usage.md)  |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook. |
 |[WinPosSize](winpossize.md)  |Stores the position and size of each window, so they can be shown in the same place again |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -408,4 +406,3 @@ Employees, resources and other users - except for External persons
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

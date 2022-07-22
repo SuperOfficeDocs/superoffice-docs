@@ -36,7 +36,6 @@ Currency list table
 |updatedCount|Number of updates made to this record|UShort| |
 |isoCode|ISO currency code, see http://www.xe.com/iso4217.php|String(9)|&#x25CF;|
 
-
 ![Currency table relationship diagram](./media/Currency.png)
 
 [!include[details](./includes/currency.md)]
@@ -62,7 +61,6 @@ Currency list table
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 |[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -72,4 +70,3 @@ Currency list table
 ## Security Flags
 
 * No access control via user's Role.
-

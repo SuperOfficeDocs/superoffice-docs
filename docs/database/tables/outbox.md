@@ -38,7 +38,6 @@ Outgoing emails with sending status and other info
 |type|Indicates if this is a SMS to be sent via WebServices or a normal email. 0 = email, 1 = sms|type| |
 |rfc822\_content|The content of the outgoing email as a string. Alternative to using outbox file|Clob|&#x25CF;|
 
-
 ![outbox table relationship diagram](./media/outbox.png)
 
 [!include[details](./includes/outbox.md)]
@@ -59,7 +58,6 @@ Outgoing emails with sending status and other info
 |[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
-
 ## Replication Flags
 
 * None
@@ -67,4 +65,3 @@ Outgoing emails with sending status and other info
 ## Security Flags
 
 * No access control via user's Role.
-

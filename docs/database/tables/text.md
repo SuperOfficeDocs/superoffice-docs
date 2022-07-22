@@ -33,7 +33,6 @@ Long text fields from all over the system
 |lcid|Language/culture code of the text, if known. This is a reserved field for future use|UShort|&#x25CF;|
 |seqno|Sequence number, for possible chaining of multiple records to store longer texts|UShort|&#x25CF;|
 
-
 ![text table relationship diagram](./media/text.png)
 
 [!include[details](./includes/text.md)]
@@ -68,7 +67,6 @@ Long text fields from all over the system
 |[UDefField](udeffield.md)  |Definition table for user-defined fields; one row in this table corresponds to one generation of one field. The user defined fields that are in use, and earlier versions of user defined fields. ColumnId refers to the field type; see UDXXXSmall or UDXXXLarge for the referring ID.  Preferences prefsection=&apos;System&apos;, prefkey=&apos;CurrentUdefVersioncontact&apos;  (or CurrentUdefVersionperson, project, sale), gives you the current version of user defined fields.  prefkey=&apos;AdminUdefVersion&lt;...&gt;&apos; gives you the current version that&apos;s being edited. If Current version = admin version, no editing has been done since the last Publish of user defined field was performed. |
 |[UserPreference](userpreference.md)  |Preference system. If deflevel is set to 5; the user may change the preferences |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -78,4 +76,3 @@ Long text fields from all over the system
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

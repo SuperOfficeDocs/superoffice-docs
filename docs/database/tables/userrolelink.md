@@ -32,7 +32,6 @@ Link between user role and user
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![UserRoleLink table relationship diagram](./media/UserRoleLink.png)
 
 [!include[details](./includes/userrolelink.md)]
@@ -50,7 +49,6 @@ Link between user role and user
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,4 +58,3 @@ Link between user role and user
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

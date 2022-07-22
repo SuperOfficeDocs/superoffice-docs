@@ -26,7 +26,6 @@ New DatabaseModel used by Continuous Database
 |IsDatabaseUnicode|Almost all databases are unicode capable|Bool|&#x25CF;|
 |ModelData|Compressed json string containing DatabaseModel of the given version|Blob|&#x25CF;|
 
-
 ![DatabaseModel table relationship diagram](./media/DatabaseModel.png)
 
 [!include[details](./includes/databasemodel.md)]
@@ -44,4 +43,3 @@ New DatabaseModel used by Continuous Database
 ## Security Flags
 
 * No access control via user's Role.
-

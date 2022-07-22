@@ -26,7 +26,6 @@ This table links an email message id to an eJournal item
 |domain|The domain to which this message id links|Int| |
 |item\_id|The id of the element this item links to|Int| |
 
-
 ![message_id table relationship diagram](./media/message_id.png)
 
 [!include[details](./includes/message-id.md)]
@@ -47,4 +46,3 @@ This table links an email message id to an eJournal item
 ## Security Flags
 
 * No access control via user's Role.
-

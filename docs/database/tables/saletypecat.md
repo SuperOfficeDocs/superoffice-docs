@@ -33,7 +33,6 @@ Category for sale type
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SaleTypeCat table relationship diagram](./media/SaleTypeCat.png)
 
 [!include[details](./includes/saletypecat.md)]
@@ -56,7 +55,6 @@ Category for sale type
 |[SaleTypeCatGroupLink](saletypecatgrouplink.md)  |User group link table for SaleTypeCat, for MDO item hiding |
 |[SaleTypeCatHeadingLink](saletypecatheadinglink.md)  |Heading link table for SaleTypeCat, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -66,4 +64,3 @@ Category for sale type
 ## Security Flags
 
 * No access control via user's Role.
-

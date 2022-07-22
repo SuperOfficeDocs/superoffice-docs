@@ -45,7 +45,6 @@ Unique owner of a set of licensed modules
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ModuleOwner table relationship diagram](./media/ModuleOwner.png)
 
 [!include[details](./includes/moduleowner.md)]
@@ -64,7 +63,6 @@ Unique owner of a set of licensed modules
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -73,4 +71,3 @@ Unique owner of a set of licensed modules
 ## Security Flags
 
 * No access control via user's Role.
-

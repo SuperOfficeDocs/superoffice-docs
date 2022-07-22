@@ -25,7 +25,6 @@ The table is used by the hotlist to store the relationship between tickets and u
 |user\_id|The reference to the user.|FK [ejuser](ejuser.md)| |
 |ticket\_id|The ticket the user what to have in his hotlist|FK [ticket](ticket.md)| |
 
-
 ![hotlist table relationship diagram](./media/hotlist.png)
 
 [!include[details](./includes/hotlist.md)]
@@ -45,7 +44,6 @@ The table is used by the hotlist to store the relationship between tickets and u
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
-
 ## Replication Flags
 
 * None
@@ -53,4 +51,3 @@ The table is used by the hotlist to store the relationship between tickets and u
 ## Security Flags
 
 * No access control via user's Role.
-

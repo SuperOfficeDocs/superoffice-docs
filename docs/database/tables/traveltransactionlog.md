@@ -31,7 +31,6 @@ Log of all updates made to the database, that need to be replicated.
 |flags|Extra information about the operation, as a bit-masked field|Enum [TtlFlags](enums/ttlflags.md)|&#x25CF;|
 |application\_id|ID of the application/client/owner of the context in which this record was written. This is primarily an Online feature, but the value int.MaxValue denotes the Win client|Int|&#x25CF;|
 
-
 ![traveltransactionlog table relationship diagram](./media/traveltransactionlog.png)
 
 [!include[details](./includes/traveltransactionlog.md)]
@@ -54,12 +53,9 @@ Log of all updates made to the database, that need to be replicated.
 |[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother) |
 |[traveller](traveller.md)  |Associates traveling out from this database |
 
-
 ## Replication Flags
 
 * None
 
 ## Security Flags
-
-* No access control via user's Role.
 

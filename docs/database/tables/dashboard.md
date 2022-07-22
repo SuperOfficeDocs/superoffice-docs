@@ -40,7 +40,6 @@ Describes a dashboard
 |columns|How many columns there will be in the dashboard.|Int|&#x25CF;|
 |guid|GUID identifying a default dashboard from SuperOffice|String(36)|&#x25CF;|
 
-
 ![dashboard table relationship diagram](./media/dashboard.png)
 
 [!include[details](./includes/dashboard.md)]
@@ -61,7 +60,6 @@ Describes a dashboard
 |[dashboard\_tile](dashboard-tile.md)  |Represents one tile in the dashboard |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * None
@@ -69,4 +67,3 @@ Describes a dashboard
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

@@ -29,7 +29,6 @@ This table connected the chat topics with the users (i.e. the membership).
 |can\_listen|True of a user can listen in on this topic|Bool|&#x25CF;|
 |manager|True if the user is a manager for this topic|Bool|&#x25CF;|
 
-
 ![chat_topic_user table relationship diagram](./media/chat_topic_user.png)
 
 [!include[details](./includes/chat-topic-user.md)]
@@ -49,7 +48,6 @@ This table connected the chat topics with the users (i.e. the membership).
 |[chat\_topic](chat-topic.md)  |This table contains chat topics. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ This table connected the chat topics with the users (i.e. the membership).
 ## Security Flags
 
 * No access control via user's Role.
-

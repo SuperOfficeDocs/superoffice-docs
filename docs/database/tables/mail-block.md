@@ -26,7 +26,6 @@ This table controls the spam-protection system, ensuring that a single email rec
 |last\_update|Last time we adjusted the value for this email address.|Int|&#x25CF;|
 |time\_pool|The current value for this email address.|Int|&#x25CF;|
 
-
 ![mail_block table relationship diagram](./media/mail_block.png)
 
 [!include[details](./includes/mail-block.md)]
@@ -44,4 +43,3 @@ This table controls the spam-protection system, ensuring that a single email rec
 ## Security Flags
 
 * No access control via user's Role.
-

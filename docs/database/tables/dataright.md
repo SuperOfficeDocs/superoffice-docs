@@ -34,7 +34,6 @@ Data right definition
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![DataRight table relationship diagram](./media/DataRight.png)
 
 [!include[details](./includes/dataright.md)]
@@ -54,7 +53,6 @@ Data right definition
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Data right definition
 ## Security Flags
 
 * No access control via user's Role.
-

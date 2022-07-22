@@ -35,7 +35,6 @@ Owner of a set of predefined selection criteria
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![TypicalSearch table relationship diagram](./media/TypicalSearch.png)
 
 [!include[details](./includes/typicalsearch.md)]
@@ -53,7 +52,6 @@ Owner of a set of predefined selection criteria
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -61,4 +59,3 @@ Owner of a set of predefined selection criteria
 ## Security Flags
 
 * No access control via user's Role.
-

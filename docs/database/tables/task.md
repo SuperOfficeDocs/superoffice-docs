@@ -41,7 +41,6 @@ Task list table, activity types, like Phone, Meeting
 |intentId|Link to the intention of this kind of task (used by SAINT)|FK [Intent](intent.md)|&#x25CF;|
 |default\_videomeeting\_status|Default video-meeting status for meetings created in SuperOffice CRM.|Enum [VideoMeetingStatus](enums/videomeetingstatus.md)| |
 
-
 ![Task table relationship diagram](./media/Task.png)
 
 [!include[details](./includes/task.md)]
@@ -67,7 +66,6 @@ Task list table, activity types, like Phone, Meeting
 |[TaskGroupLink](taskgrouplink.md)  |User group link table for Task, for MDO item hiding |
 |[TaskHeadingLink](taskheadinglink.md)  |Heading link table for Task, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -77,4 +75,3 @@ Task list table, activity types, like Phone, Meeting
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -32,7 +32,6 @@ User-defined fields
 |string48|string value 48, not indexed|String(199)|&#x25CF;|
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
-
 ![udtempLarge table relationship diagram](./media/udtempLarge.png)
 
 [!include[details](./includes/udtemplarge.md)]
@@ -50,4 +49,3 @@ User-defined fields
 ## Security Flags
 
 * No access control via user's Role.
-

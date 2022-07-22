@@ -84,7 +84,6 @@ Address formats for GUI and labels. See more information; Addressformat on http;
 |labelLayout2|Part two of format specification, concatenated with part one above|String(254)|&#x25CF;|
 |isBuiltIn|Is this row populated by SuperOffice?|Bool|&#x25CF;|
 
-
 ![AddressFormat table relationship diagram](./media/AddressFormat.png)
 
 [!include[details](./includes/addressformat.md)]
@@ -101,7 +100,6 @@ Address formats for GUI and labels. See more information; Addressformat on http;
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -111,4 +109,3 @@ Address formats for GUI and labels. See more information; Addressformat on http;
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -34,7 +34,6 @@ Link table between associate and usergroup, specifies secondary group membership
 |updatedCount|Number of updates made to this record|UShort| |
 |encryptedCheck|Encrypted data, to detect unwanted changes|String(254)|&#x25CF;|
 
-
 ![UserGroupLink table relationship diagram](./media/UserGroupLink.png)
 
 [!include[details](./includes/usergrouplink.md)]
@@ -54,7 +53,6 @@ Link table between associate and usergroup, specifies secondary group membership
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Link table between associate and usergroup, specifies secondary group membership
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

@@ -30,7 +30,6 @@ Heading link table for AmountClass, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![AmountClassHeadingLink table relationship diagram](./media/AmountClassHeadingLink.png)
 
 [!include[details](./includes/amountclassheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for AmountClass, for MDO headers
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for AmountClass, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

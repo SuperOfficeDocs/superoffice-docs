@@ -49,7 +49,6 @@ Quote Version is made up of one or more Alternatives. One of 1..n possible alter
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![QuoteAlternative table relationship diagram](./media/QuoteAlternative.png)
 
 [!include[details](./includes/quotealternative.md)]
@@ -71,7 +70,6 @@ Quote Version is made up of one or more Alternatives. One of 1..n possible alter
 |[QuoteLine](quoteline.md)  |One line in a QuoteAlternative. QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly. |
 |[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -80,4 +78,3 @@ Quote Version is made up of one or more Alternatives. One of 1..n possible alter
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

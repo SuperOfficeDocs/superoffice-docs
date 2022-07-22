@@ -32,7 +32,6 @@ Delivery of outgoing messages to messageplugins, updated with status asynchroneo
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 
-
 ![outgoing_message table relationship diagram](./media/outgoing_message.png)
 
 [!include[details](./includes/outgoing-message.md)]
@@ -54,7 +53,6 @@ Delivery of outgoing messages to messageplugins, updated with status asynchroneo
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ Delivery of outgoing messages to messageplugins, updated with status asynchroneo
 ## Security Flags
 
 * No access control via user's Role.
-

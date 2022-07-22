@@ -36,7 +36,6 @@ Configuration information for the Saint system
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SaintConfiguration table relationship diagram](./media/SaintConfiguration.png)
 
 [!include[details](./includes/saintconfiguration.md)]
@@ -53,7 +52,6 @@ Configuration information for the Saint system
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,4 +60,3 @@ Configuration information for the Saint system
 ## Security Flags
 
 * No access control via user's Role.
-

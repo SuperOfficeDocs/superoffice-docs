@@ -60,7 +60,6 @@ Companies and Organizations.   This table features a special record containing i
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 |DeletedDate|Datetime (utc) when this record was soft-deleted; if this value is set then the record should not be shown|UtcDateTime|&#x25CF;|
 
-
 ![contact table relationship diagram](./media/contact.png)
 
 [!include[details](./includes/contact.md)]
@@ -136,7 +135,6 @@ Companies and Organizations.   This table features a special record containing i
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -147,4 +145,3 @@ Companies and Organizations.   This table features a special record containing i
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

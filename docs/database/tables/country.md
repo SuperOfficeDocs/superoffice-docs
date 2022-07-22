@@ -53,7 +53,6 @@ Country information
 |abbrev2|ISO 2-letter abbreviation|String(2)|&#x25CF;|
 |tzLocationId|Default timezone location for this country|FK [TZLocation](tzlocation.md)|&#x25CF;|
 
-
 ![country table relationship diagram](./media/country.png)
 
 [!include[details](./includes/country.md)]
@@ -83,7 +82,6 @@ Country information
 |[TZLocation](tzlocation.md)  |Time zone location |
 |[ziptocity](ziptocity.md)  |Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http://techdoc.superoffice.com  |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -92,4 +90,3 @@ Country information
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -32,7 +32,6 @@ One ERP Connector, known by its URL
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpConnector table relationship diagram](./media/ErpConnector.png)
 
 [!include[details](./includes/erpconnector.md)]
@@ -50,7 +49,6 @@ One ERP Connector, known by its URL
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ One ERP Connector, known by its URL
 ## Security Flags
 
 * No access control via user's Role.
-

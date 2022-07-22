@@ -34,7 +34,6 @@ Screen choosers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![screen_chooser table relationship diagram](./media/screen_chooser.png)
 
 [!include[details](./includes/screen-chooser.md)]
@@ -54,7 +53,6 @@ Screen choosers
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ Screen choosers
 ## Security Flags
 
 * No access control via user's Role.
-

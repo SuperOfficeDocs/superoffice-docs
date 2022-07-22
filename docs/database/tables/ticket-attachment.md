@@ -27,7 +27,6 @@ This table connects an attachment to a message. It references the entry in the a
 |content\_id|The content_id of this attachment, used for inline images|String(255)|&#x25CF;|
 |inline\_image|True if this attachment is inlined in the html_body.|Bool| |
 
-
 ![ticket_attachment table relationship diagram](./media/ticket_attachment.png)
 
 [!include[details](./includes/ticket-attachment.md)]
@@ -47,7 +46,6 @@ This table connects an attachment to a message. It references the entry in the a
 |[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
 
-
 ## Replication Flags
 
 * None
@@ -55,4 +53,3 @@ This table connects an attachment to a message. It references the entry in the a
 ## Security Flags
 
 * No access control via user's Role.
-

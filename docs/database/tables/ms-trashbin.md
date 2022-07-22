@@ -27,7 +27,6 @@ This table contains entries for emails which have been trashed by a filter, wait
 |when\_trashed|When the email was trashed by the filter.|DateTime|&#x25CF;|
 |subject|The subject field of the trashed email|String(255)|&#x25CF;|
 
-
 ![ms_trashbin table relationship diagram](./media/ms_trashbin.png)
 
 [!include[details](./includes/ms-trashbin.md)]
@@ -47,7 +46,6 @@ This table contains entries for emails which have been trashed by a filter, wait
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
 |[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
 
-
 ## Replication Flags
 
 * None
@@ -55,4 +53,3 @@ This table contains entries for emails which have been trashed by a filter, wait
 ## Security Flags
 
 * No access control via user's Role.
-

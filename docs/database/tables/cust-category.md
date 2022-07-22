@@ -28,7 +28,6 @@ This table contains entries for categories exposed through a customer language.
 |parent\_id|The parent category for this cust_category. -1 if this is a toplevel cust_category.|FK [cust_category](cust-category.md)|&#x25CF;|
 |fullname|The fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;.|String(255)|&#x25CF;|
 
-
 ![cust_category table relationship diagram](./media/cust_category.png)
 
 [!include[details](./includes/cust-category.md)]
@@ -50,7 +49,6 @@ This table contains entries for categories exposed through a customer language.
 |[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ This table contains entries for categories exposed through a customer language.
 ## Security Flags
 
 * No access control via user's Role.
-

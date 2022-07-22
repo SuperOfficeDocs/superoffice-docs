@@ -33,7 +33,6 @@ Secondary user groups
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![UserGroup table relationship diagram](./media/UserGroup.png)
 
 [!include[details](./includes/usergroup.md)]
@@ -113,7 +112,6 @@ Secondary user groups
 |[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -123,4 +121,3 @@ Secondary user groups
 ## Security Flags
 
 * No access control via user's Role.
-

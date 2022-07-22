@@ -31,7 +31,6 @@ A document folder.
 |inherited\_access\_level|The lowest access level for this folder or any parent|inherited_access_level|&#x25CF;|
 |fullname|The full name of this category, i.e. Foo/bar/test.|Clob|&#x25CF;|
 
-
 ![doc_folder table relationship diagram](./media/doc_folder.png)
 
 [!include[details](./includes/doc-folder.md)]
@@ -53,7 +52,6 @@ A document folder.
 |[doc\_folder](doc-folder.md)  |A document folder. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
-
 ## Replication Flags
 
 * None
@@ -61,4 +59,3 @@ A document folder.
 ## Security Flags
 
 * No access control via user's Role.
-

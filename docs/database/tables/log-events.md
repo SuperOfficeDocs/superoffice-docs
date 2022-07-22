@@ -35,7 +35,6 @@ System log
 |source\_user|The user generating the event. 1=system, other=ejuser.id|Int|&#x25CF;|
 |source\_user\_desc|Describing the id in source_user. eg user name or customer name or (System)|Clob|&#x25CF;|
 
-
 ![log_events table relationship diagram](./media/log_events.png)
 
 [!include[details](./includes/log-events.md)]
@@ -53,4 +52,3 @@ System log
 ## Security Flags
 
 * No access control via user's Role.
-

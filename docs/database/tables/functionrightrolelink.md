@@ -31,7 +31,6 @@ Functional right definition
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![FunctionRightRoleLink table relationship diagram](./media/FunctionRightRoleLink.png)
 
 [!include[details](./includes/functionrightrolelink.md)]
@@ -53,7 +52,6 @@ Functional right definition
 |[FunctionRight](functionright.md)  |Functional right definition |
 |[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ Functional right definition
 ## Security Flags
 
 * No access control via user's Role.
-

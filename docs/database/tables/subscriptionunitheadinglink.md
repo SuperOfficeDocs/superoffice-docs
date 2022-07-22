@@ -30,7 +30,6 @@ Heading link table for SubscriptionUnit, for MDO item headings
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SubscriptionUnitHeadingLink table relationship diagram](./media/SubscriptionUnitHeadingLink.png)
 
 [!include[details](./includes/subscriptionunitheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for SubscriptionUnit, for MDO item headings
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[SubscriptionUnit](subscriptionunit.md)  |The list of Subscription units, in the internal product register (year/quarter/month etc., or perhaps amounts if volume-based subscription) |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for SubscriptionUnit, for MDO item headings
 ## Security Flags
 
 * No access control via user's Role.
-

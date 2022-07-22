@@ -36,7 +36,6 @@ This table will hold outgoing sms messages when transmitted with WebServices
 |message\_id|Reference to the message id this SMS was sent from|FK [ej_message](ej-message.md)| |
 |outgoing\_message\_id|Reference to the outgoing message entry created by netserver for sending and status update|FK [outgoing_message](outgoing-message.md)|&#x25CF;|
 
-
 ![sms table relationship diagram](./media/sms.png)
 
 [!include[details](./includes/sms.md)]
@@ -64,7 +63,6 @@ This table will hold outgoing sms messages when transmitted with WebServices
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
-
 ## Replication Flags
 
 * None
@@ -72,4 +70,3 @@ This table will hold outgoing sms messages when transmitted with WebServices
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -27,7 +27,6 @@ Zip codes and city names. Zip codes used during address entry. You will find mor
 |city|City field|String(79)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ziptocity table relationship diagram](./media/ziptocity.png)
 
 [!include[details](./includes/ziptocity.md)]
@@ -46,7 +45,6 @@ Zip codes and city names. Zip codes used during address entry. You will find mor
 |------|-------------|
 |[country](country.md)  |Country information |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -56,4 +54,3 @@ Zip codes and city names. Zip codes used during address entry. You will find mor
 ## Security Flags
 
 * No access control via user's Role.
-

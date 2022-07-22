@@ -36,7 +36,6 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![AmountClass table relationship diagram](./media/AmountClass.png)
 
 [!include[details](./includes/amountclass.md)]
@@ -60,7 +59,6 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 |[CounterValue](countervalue.md)  |Visible for rights |
 |[Currency](currency.md)  |Currency list table |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -70,4 +68,3 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 ## Security Flags
 
 * No access control via user's Role.
-

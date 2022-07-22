@@ -36,7 +36,6 @@ One connection to an ERP connector, specifying Client and other required informa
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpConnection table relationship diagram](./media/ErpConnection.png)
 
 [!include[details](./includes/erpconnection.md)]
@@ -61,7 +60,6 @@ One connection to an ERP connector, specifying Client and other required informa
 |[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
 |[QuoteConnection](quoteconnection.md)  |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system. |
 
-
 ## Replication Flags
 
 * None
@@ -69,4 +67,3 @@ One connection to an ERP connector, specifying Client and other required informa
 ## Security Flags
 
 * No access control via user's Role.
-

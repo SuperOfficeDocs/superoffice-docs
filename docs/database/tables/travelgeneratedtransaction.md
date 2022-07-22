@@ -59,4 +59,3 @@ Record of all generated replication data files from this database (\*.dwn files 
 
 ## Security Flags
 
-* No access control via user's Role.

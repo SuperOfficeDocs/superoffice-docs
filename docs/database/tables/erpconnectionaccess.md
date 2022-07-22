@@ -33,7 +33,6 @@ Access control for Erp Connections
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpConnectionAccess table relationship diagram](./media/ErpConnectionAccess.png)
 
 [!include[details](./includes/erpconnectionaccess.md)]
@@ -52,7 +51,6 @@ Access control for Erp Connections
 |[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ Access control for Erp Connections
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -43,7 +43,6 @@ Preference description, drives the Preference GUI. Maintenance client - controls
 |subGroup|Keys that share a value (including NULL) in this field are shown together; a visual spacer is shown between groups|String(128)|&#x25CF;|
 |minLevel|The minimum (furthest away from User) level this preference can be set for|Int|&#x25CF;|
 
-
 ![PrefDesc table relationship diagram](./media/PrefDesc.png)
 
 [!include[details](./includes/prefdesc.md)]
@@ -63,7 +62,6 @@ Preference description, drives the Preference GUI. Maintenance client - controls
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[PrefDescLine](prefdescline.md)  |Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -73,4 +71,3 @@ Preference description, drives the Preference GUI. Maintenance client - controls
 ## Security Flags
 
 * No access control via user's Role.
-

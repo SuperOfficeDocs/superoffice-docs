@@ -25,7 +25,6 @@ This table allows several customers to be connected to several tickets (many-to-
 |ticket\_id|Reference to a ticket|FK [ticket](ticket.md)| |
 |customer\_id|Reference to a customer|FK [person](person.md)| |
 
-
 ![ticket_customers table relationship diagram](./media/ticket_customers.png)
 
 [!include[details](./includes/ticket-customers.md)]
@@ -46,7 +45,6 @@ This table allows several customers to be connected to several tickets (many-to-
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
-
 ## Replication Flags
 
 * None
@@ -54,4 +52,3 @@ This table allows several customers to be connected to several tickets (many-to-
 ## Security Flags
 
 * No access control via user's Role.
-

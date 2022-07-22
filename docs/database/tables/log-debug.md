@@ -25,7 +25,6 @@ A log used for debugging, especially useful for bLogic/ejscript
 |info|Debug info|Clob|&#x25CF;|
 |time\_of\_entry|When the event happened|DateTime|&#x25CF;|
 
-
 ![log_debug table relationship diagram](./media/log_debug.png)
 
 [!include[details](./includes/log-debug.md)]
@@ -43,4 +42,3 @@ A log used for debugging, especially useful for bLogic/ejscript
 ## Security Flags
 
 * No access control via user's Role.
-

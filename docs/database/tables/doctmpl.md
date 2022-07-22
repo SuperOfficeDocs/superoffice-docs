@@ -55,7 +55,6 @@ DocTmpl list table. Describes templates available for writing new documents.
 |senderEmailAddress|The email address to use in from field|String(256)|&#x25CF;|
 |invitationDocType|Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3|Enum [DocTmplInvitationType](enums/doctmplinvitationtype.md)|&#x25CF;|
 
-
 ![DocTmpl table relationship diagram](./media/DocTmpl.png)
 
 [!include[details](./includes/doctmpl.md)]
@@ -79,7 +78,6 @@ DocTmpl list table. Describes templates available for writing new documents.
 |[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
 |[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -89,4 +87,3 @@ DocTmpl list table. Describes templates available for writing new documents.
 ## Security Flags
 
 * No access control via user's Role.
-

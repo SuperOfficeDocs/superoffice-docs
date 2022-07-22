@@ -27,7 +27,6 @@ User added dictionary words
 |include|Include/Exclude word.|Int| |
 |word|User word|String(32)| |
 
-
 ![dictionary table relationship diagram](./media/dictionary.png)
 
 [!include[details](./includes/dictionary.md)]
@@ -49,7 +48,6 @@ User added dictionary words
 |[dictionary\_base](dictionary-base.md)  |Language catalog for the ejournal dictionaries (automatic proof reading of message text etc) |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ User added dictionary words
 ## Security Flags
 
 * No access control via user's Role.
-

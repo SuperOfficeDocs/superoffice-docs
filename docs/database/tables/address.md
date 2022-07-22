@@ -41,7 +41,6 @@ Contact and Person addresses
 |wgs84latitude|Latitude (that&apos;s north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information.|Double|&#x25CF;|
 |wgs84longitude|Longitude (that&apos;s East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information.|Double|&#x25CF;|
 
-
 ![address table relationship diagram](./media/address.png)
 
 [!include[details](./includes/address.md)]
@@ -63,7 +62,6 @@ Contact and Person addresses
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -73,4 +71,3 @@ Contact and Person addresses
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

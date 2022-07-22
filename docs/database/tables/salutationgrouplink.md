@@ -30,7 +30,6 @@ User group link table for Salutation, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SalutationGroupLink table relationship diagram](./media/SalutationGroupLink.png)
 
 [!include[details](./includes/salutationgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for Salutation, for MDO item hiding
 |[Salutation](salutation.md)  |Academic title for Person |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for Salutation, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

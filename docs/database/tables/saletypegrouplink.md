@@ -30,7 +30,6 @@ User group link table for SaleType, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SaleTypeGroupLink table relationship diagram](./media/SaleTypeGroupLink.png)
 
 [!include[details](./includes/saletypegrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for SaleType, for MDO item hiding
 |[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for SaleType, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

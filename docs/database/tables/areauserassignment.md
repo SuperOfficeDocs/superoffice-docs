@@ -30,7 +30,6 @@ Link table indicating which users actually reside in this area.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![areauserassignment table relationship diagram](./media/areauserassignment.png)
 
 [!include[details](./includes/areauserassignment.md)]
@@ -50,7 +49,6 @@ Link table indicating which users actually reside in this area.
 |[area](area.md)  |Definition of an Area (database subset for satellite and travel) |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,4 +58,3 @@ Link table indicating which users actually reside in this area.
 ## Security Flags
 
 * No access control via user's Role.
-

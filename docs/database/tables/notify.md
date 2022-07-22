@@ -35,7 +35,6 @@ This table contains the pop-up messages displayed for users for various events, 
 |custom\_message|Text for custom notify messages|String(255)|&#x25CF;|
 |custom\_url|An URL which can be set with custom notification messages|String(2048)|&#x25CF;|
 
-
 ![notify table relationship diagram](./media/notify.png)
 
 [!include[details](./includes/notify.md)]
@@ -63,7 +62,6 @@ This table contains the pop-up messages displayed for users for various events, 
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 
-
 ## Replication Flags
 
 * None
@@ -71,4 +69,3 @@ This table contains the pop-up messages displayed for users for various events, 
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -25,7 +25,6 @@ Keys that makes sure a form is not posted twice
 |form\_key|A random key|String(40)| |
 |time\_of\_entry|When the key was generated|DateTime|&#x25CF;|
 
-
 ![form_keys table relationship diagram](./media/form_keys.png)
 
 [!include[details](./includes/form-keys.md)]
@@ -44,4 +43,3 @@ Keys that makes sure a form is not posted twice
 ## Security Flags
 
 * No access control via user's Role.
-

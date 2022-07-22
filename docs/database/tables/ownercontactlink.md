@@ -30,7 +30,6 @@ Table specifying which contacts can own associates.  All contacts that have rows
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![OwnerContactLink table relationship diagram](./media/OwnerContactLink.png)
 
 [!include[details](./includes/ownercontactlink.md)]
@@ -49,7 +48,6 @@ Table specifying which contacts can own associates.  All contacts that have rows
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,4 +57,3 @@ Table specifying which contacts can own associates.  All contacts that have rows
 ## Security Flags
 
 * No access control via user's Role.
-

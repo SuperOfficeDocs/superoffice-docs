@@ -29,7 +29,6 @@ This table contains log entries for the tickets.
 |log\_description|A string describing the event (or part of such) to be logged.|Clob|&#x25CF;|
 |log\_what\_value2|A reference to various tables, depending on the log_code.|Int|&#x25CF;|
 
-
 ![ticket_log table relationship diagram](./media/ticket_log.png)
 
 [!include[details](./includes/ticket-log.md)]
@@ -50,7 +49,6 @@ This table contains log entries for the tickets.
 |------|-------------|
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ This table contains log entries for the tickets.
 ## Security Flags
 
 * No access control via user's Role.
-

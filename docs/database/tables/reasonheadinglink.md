@@ -30,7 +30,6 @@ Heading link table for Reason, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ReasonHeadingLink table relationship diagram](./media/ReasonHeadingLink.png)
 
 [!include[details](./includes/reasonheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for Reason, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[Reason](reason.md)  |Reason list table. Why we lost the sale (list) |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for Reason, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

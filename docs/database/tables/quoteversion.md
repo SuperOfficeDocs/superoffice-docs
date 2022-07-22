@@ -59,7 +59,6 @@ There may be multiple Versions of a Quote, with one of them active
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![QuoteVersion table relationship diagram](./media/QuoteVersion.png)
 
 [!include[details](./includes/quoteversion.md)]
@@ -83,7 +82,6 @@ There may be multiple Versions of a Quote, with one of them active
 |[QuoteAlternative](quotealternative.md)  |Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed. |
 |[QuoteVersionAttachment](quoteversionattachment.md)  |Actual attachments to a quote |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -92,4 +90,3 @@ There may be multiple Versions of a Quote, with one of them active
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

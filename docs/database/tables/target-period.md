@@ -30,7 +30,6 @@ A set of periods linked with target amounts for users/usergroups and the target 
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![target_period table relationship diagram](./media/target_period.png)
 
 [!include[details](./includes/target-period.md)]
@@ -49,7 +48,6 @@ A set of periods linked with target amounts for users/usergroups and the target 
 |[target\_assignment\_value](target-assignment-value.md)  |A set of values linked to assignment info and a period in a target group. |
 |[target\_group](target-group.md)  |Info about a set of (sales, project, selection...) targets |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ A set of periods linked with target amounts for users/usergroups and the target 
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

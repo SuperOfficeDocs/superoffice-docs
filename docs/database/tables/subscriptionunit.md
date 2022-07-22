@@ -33,7 +33,6 @@ The list of Subscription units, in the internal product register (year/quarter/m
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SubscriptionUnit table relationship diagram](./media/SubscriptionUnit.png)
 
 [!include[details](./includes/subscriptionunit.md)]
@@ -53,7 +52,6 @@ The list of Subscription units, in the internal product register (year/quarter/m
 |[SubscriptionUnitGroupLink](subscriptionunitgrouplink.md)  |User group link table for SubscriptionUnit, for MDO item hiding |
 |[SubscriptionUnitHeadingLink](subscriptionunitheadinglink.md)  |Heading link table for SubscriptionUnit, for MDO item headings |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ The list of Subscription units, in the internal product register (year/quarter/m
 ## Security Flags
 
 * No access control via user's Role.
-

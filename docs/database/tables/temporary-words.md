@@ -26,7 +26,6 @@ This table is used as a temporary table, containing the words we want           
 |word|The temporary word|String(63)| |
 |word\_length|The length of the word|Int| |
 
-
 ![temporary_words table relationship diagram](./media/temporary_words.png)
 
 [!include[details](./includes/temporary-words.md)]
@@ -46,4 +45,3 @@ This table is used as a temporary table, containing the words we want           
 ## Security Flags
 
 * No access control via user's Role.
-

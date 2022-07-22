@@ -30,7 +30,6 @@ User group link table for DeliveryType, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![DeliveryTypeGroupLink table relationship diagram](./media/DeliveryTypeGroupLink.png)
 
 [!include[details](./includes/deliverytypegrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for DeliveryType, for MDO item hiding
 |[DeliveryType](deliverytype.md)  |The list of Delivery types, in the internal product register |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for DeliveryType, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

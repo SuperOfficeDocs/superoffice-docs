@@ -36,7 +36,6 @@ Timestamp information
 |week\_stat|Timestamp for when the week statistics was last sent.|DateTime|&#x25CF;|
 |mailsync|Timestamp for syncing crm inbox2 email accounts|DateTime|&#x25CF;|
 
-
 ![timestamps table relationship diagram](./media/timestamps.png)
 
 [!include[details](./includes/timestamps.md)]
@@ -54,4 +53,3 @@ Timestamp information
 ## Security Flags
 
 * No access control via user's Role.
-

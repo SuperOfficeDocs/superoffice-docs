@@ -56,4 +56,3 @@ Information about all databases generated from this database
 
 ## Security Flags
 
-* No access control via user's Role.

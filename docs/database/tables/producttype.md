@@ -33,7 +33,6 @@ List for the ProductType field of the Product table (Quote Management)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ProductType table relationship diagram](./media/ProductType.png)
 
 [!include[details](./includes/producttype.md)]
@@ -53,7 +52,6 @@ List for the ProductType field of the Product table (Quote Management)
 |[ProductTypeGroupLink](producttypegrouplink.md)  |User group link table for ProductType, for MDO item hiding |
 |[ProductTypeHeadingLink](producttypeheadinglink.md)  |Heading link table for ProductType, for MDO item headings |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ List for the ProductType field of the Product table (Quote Management)
 ## Security Flags
 
 * No access control via user's Role.
-

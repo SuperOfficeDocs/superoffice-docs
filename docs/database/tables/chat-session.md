@@ -54,7 +54,6 @@ This table contains chat sessions.
 |country|The country that the chat customer selected.|Int|&#x25CF;|
 |rating|Rating of this chat conversation given by the customer|Int|&#x25CF;|
 
-
 ![chat_session table relationship diagram](./media/chat_session.png)
 
 [!include[details](./includes/chat-session.md)]
@@ -82,7 +81,6 @@ This table contains chat sessions.
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
-
 ## Replication Flags
 
 * None
@@ -90,4 +88,3 @@ This table contains chat sessions.
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -42,4 +42,3 @@ so.date: 04.04.2022
 [img1]: media/expand-toc.png
 [img2]: media/in-this-article.png
 [img3]: media/filter-toc.png
-[img4]: media/whats-new.png

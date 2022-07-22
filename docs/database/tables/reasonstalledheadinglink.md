@@ -30,7 +30,6 @@ Heading link table for ReasonStalled, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ReasonStalledHeadingLink table relationship diagram](./media/ReasonStalledHeadingLink.png)
 
 [!include[details](./includes/reasonstalledheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for ReasonStalled, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[ReasonStalled](reasonstalled.md)  |Why was the sale marked as stalled |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for ReasonStalled, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

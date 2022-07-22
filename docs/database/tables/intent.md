@@ -33,7 +33,6 @@ Intent list for SAINT. More information regarding SuperOffice Sales Intelligence
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![Intent table relationship diagram](./media/Intent.png)
 
 [!include[details](./includes/intent.md)]
@@ -56,7 +55,6 @@ Intent list for SAINT. More information regarding SuperOffice Sales Intelligence
 |[IntentHeadingLink](intentheadinglink.md)  |Heading link table for Intent, for MDO headers |
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -66,4 +64,3 @@ Intent list for SAINT. More information regarding SuperOffice Sales Intelligence
 ## Security Flags
 
 * No access control via user's Role.
-

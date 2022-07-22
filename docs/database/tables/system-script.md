@@ -25,7 +25,6 @@ A table containing the system script
 |script\_id|Enum containing the values defining the various scripts|script_id|&#x25CF;|
 |body|The script|Clob|&#x25CF;|
 
-
 ![system_script table relationship diagram](./media/system_script.png)
 
 [!include[details](./includes/system-script.md)]
@@ -43,4 +42,3 @@ A table containing the system script
 ## Security Flags
 
 * No access control via user's Role.
-

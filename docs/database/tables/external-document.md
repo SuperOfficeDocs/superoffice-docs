@@ -33,7 +33,6 @@ This table stores documents which can be viewed externaly, through the customer 
 |deleted|A boolean telling if the external document is to be treated as deleted|Bool| |
 |s\_message|Relation to s_message if this document is an image in a newsletter|FK [s_message](s-message.md)|&#x25CF;|
 
-
 ![external_document table relationship diagram](./media/external_document.png)
 
 [!include[details](./includes/external-document.md)]
@@ -59,7 +58,6 @@ This table stores documents which can be viewed externaly, through the customer 
 |[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
 |[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
 
-
 ## Replication Flags
 
 * None
@@ -67,4 +65,3 @@ This table stores documents which can be viewed externaly, through the customer 
 ## Security Flags
 
 * No access control via user's Role.
-

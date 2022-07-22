@@ -34,7 +34,6 @@ Criteria storage for Selection and other Find mechanisms
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SearchCriteriaGroup table relationship diagram](./media/SearchCriteriaGroup.png)
 
 [!include[details](./includes/searchcriteriagroup.md)]
@@ -54,7 +53,6 @@ Criteria storage for Selection and other Find mechanisms
 |[SearchCriterion](searchcriterion.md)  |Criteria storage for Selection and other Find mechanisms |
 |[text](text.md)  |Long text fields from all over the system |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -64,4 +62,3 @@ Criteria storage for Selection and other Find mechanisms
 ## Security Flags
 
 * No access control via user's Role.
-

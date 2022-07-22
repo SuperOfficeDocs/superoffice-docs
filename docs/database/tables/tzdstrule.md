@@ -39,7 +39,6 @@ Time zone rule for daylight saving time
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![TZDstRule table relationship diagram](./media/TZDstRule.png)
 
 [!include[details](./includes/tzdstrule.md)]
@@ -58,7 +57,6 @@ Time zone rule for daylight saving time
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[TZLocation](tzlocation.md)  |Time zone location |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -68,4 +66,3 @@ Time zone rule for daylight saving time
 ## Security Flags
 
 * No access control via user's Role.
-
