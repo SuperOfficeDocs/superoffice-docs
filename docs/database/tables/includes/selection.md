@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### How the selections in a combined selections should be put together
 
 | combinationType | ID | Comment |

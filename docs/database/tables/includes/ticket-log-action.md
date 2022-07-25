@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 Whenever a request is changed, we will create one entry in `ticket_log_action` (with the timestamp), and multiple entries in `ticket_log_change` (one entry for each value that has changed).
 
 #### enum LogAction

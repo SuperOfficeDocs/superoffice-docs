@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### LabelLayout/LabelLayout2
 
 In SuperOffice 6, we replaced the ExtraFlags formatting of labellayout with the two fields LabelLayout and LabelLayout2. We use some special characters to separate the template variables:

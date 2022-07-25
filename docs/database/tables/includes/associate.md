@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Field type in table associate
 
 This enumeration consists of flag values that can be combined.

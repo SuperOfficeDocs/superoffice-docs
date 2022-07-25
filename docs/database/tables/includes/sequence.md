@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Use of the Sequence table
 
 The sequence table contains the next unallocated ID for each SuperOffice table.
