@@ -83,7 +83,7 @@ The five possible state changes are:
 Not only does that provide advanced notice when tenants are upgraded to new versions of SuperOffice, but it can signal whenever a customer has canceled a subscription (Delete).
 
 > [!NOTE]
-> The only way to subscribe to this webhook is by supplying a **State Change URL** when you [register the application][12], or submitting an [application change request][4]. Provide the URL where the state change payload is sent in the **Other changes** textbox as *Stage Change URL: https://your_domain.com/your_endpoint_name*.
+> The only way to subscribe to this webhook is by supplying a **State Change URL** when you [register the application][12], or submitting an [application change request][4]. Provide the URL where the state change payload is sent in the **Other changes** textbox as *Stage Change URL: `https://your_domain.com/your_endpoint_name`*.
 
 ## API Usage
 

@@ -1,7 +1,7 @@
 ---
 uid: table-Intent
 title: Intent table
-description: Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
+description: Intent list for SAINT. 
 so.generated: true
 keywords:
   - "database"
@@ -16,7 +16,7 @@ so.envir:
 # Intent Table (216)
 
 Intent MDO list item table.
-Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
+Intent list for SAINT. 
 
 ## Fields
 

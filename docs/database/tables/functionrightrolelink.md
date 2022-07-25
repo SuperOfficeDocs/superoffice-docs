@@ -50,7 +50,7 @@ Functional right definition
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[FunctionRight](functionright.md)  |Functional right definition |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. |
 
 ## Replication Flags
 

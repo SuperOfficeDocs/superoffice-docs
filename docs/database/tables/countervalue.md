@@ -69,10 +69,10 @@ Visible for rights
 
 | Table|  Description |
 |------|-------------|
-|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[Intent](intent.md)  |Intent list for SAINT.  |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[project](project.md)  |Projects |
 

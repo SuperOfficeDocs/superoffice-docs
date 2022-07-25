@@ -109,7 +109,7 @@ Secondary user groups
 |[TaskGroupLink](taskgrouplink.md)  |User group link table for Task, for MDO item hiding |
 |[UDefFieldGL](udeffieldgl.md)  |User group link table for UDefField, for MDO item hiding |
 |[UDListGroupLink](udlistgrouplink.md)  |User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
-|[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
+|[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 
 ## Replication Flags

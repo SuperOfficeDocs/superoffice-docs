@@ -74,7 +74,7 @@ DocTmpl list table. Describes templates available for writing new documents.
 |[ConsentSource](consentsource.md)  |Consent source for GDPR |
 |[DocTmplGroupLink](doctmplgrouplink.md)  |User group link table for DocTmpl, for MDO item hiding |
 |[DocTmplHeadingLink](doctmplheadinglink.md)  |Heading link table for DocTmpl, for MDO headers |
-|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[Intent](intent.md)  |Intent list for SAINT.  |
 |[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
 |[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
 

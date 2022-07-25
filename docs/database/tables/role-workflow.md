@@ -46,7 +46,7 @@ Knowledge base workflow access rights associated with a role
 |------|-------------|
 |[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
 |[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText.|
 
 ## Replication Flags
 

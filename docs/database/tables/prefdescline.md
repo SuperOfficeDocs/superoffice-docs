@@ -50,7 +50,7 @@ Preference description - multiple choice line - drives the Preference GUI. May b
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[PrefDesc](prefdesc.md)  |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.  |
+|[PrefDesc](prefdesc.md)  |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.  |
 
 ## Replication Flags
 

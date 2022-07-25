@@ -1,7 +1,7 @@
 ---
 uid: table-Role
 title: Role table
-description: User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http;//techdoc.superoffice.com
+description: User roles for role-based security, names and tooltips are in LocaleText.
 so.generated: true
 keywords:
   - "database"
@@ -15,7 +15,7 @@ so.envir:
 
 # Role Table (191)
 
-User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http;//techdoc.superoffice.com
+User roles for role-based security, names and tooltips are in LocaleText.
 
 ## Fields
 

@@ -45,7 +45,7 @@ Profiles associated with a role
 |------|-------------|
 |[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
 |[element\_profile](element-profile.md)  |The new (4.0) profile table. Contains profile for a single Html-element. Connected through element_profile_link |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. |
 
 ## Replication Flags
 

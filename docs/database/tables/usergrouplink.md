@@ -1,7 +1,7 @@
 ---
 uid: table-UserGroupLink
 title: UserGroupLink table
-description: Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http;//techdoc.superoffice.com has more information about how roles are implemented.
+description: Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup.
 so.generated: true
 keywords:
   - "database"
@@ -15,7 +15,7 @@ so.envir:
 
 # UserGroupLink Table (60)
 
-Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http;//techdoc.superoffice.com has more information about how roles are implemented.
+Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. 
 
 ## Fields
 

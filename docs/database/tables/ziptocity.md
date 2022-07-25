@@ -1,7 +1,7 @@
 ---
 uid: table-ziptocity
 title: ziptocity table
-description: Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http;//techdoc.superoffice.com 
+description: Zip codes and city names. Zip codes used during address entry.
 so.generated: true
 keywords:
   - "database"
@@ -15,7 +15,7 @@ so.envir:
 
 # ziptocity Table (16)
 
-Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http;//techdoc.superoffice.com
+Zip codes and city names. Zip codes used during address entry.
 
 ## Fields
 

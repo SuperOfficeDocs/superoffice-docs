@@ -57,7 +57,7 @@ Long text fields from all over the system
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[project](project.md)  |Projects |
 |[projectmember](projectmember.md)  |Project members. Link-table between person and project |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. |
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 |[SearchCriteria](searchcriteria.md)  |Criteria storage for Selection and other Find mechanisms |

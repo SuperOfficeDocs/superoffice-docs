@@ -46,7 +46,7 @@ Heading link table for AmountClass, for MDO headers
 
 | Table|  Description |
 |------|-------------|
-|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 

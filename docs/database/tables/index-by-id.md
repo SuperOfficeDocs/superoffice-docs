@@ -35,7 +35,7 @@ so.envir:
 |13| [sale](sale.md) |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  |
 |14| [contactinterest](contactinterest.md) |Link-table between contact and interests in ContInt|
 |15| [personinterest](personinterest.md) |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest.|
-|16| [ziptocity](ziptocity.md) |Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http://techdoc.superoffice.com |
+|16| [ziptocity](ziptocity.md) |Zip codes and city names. Zip codes used during address entry.|
 |17| [redletterday](redletterday.md) |Red letter days for calendar (holidays, birthday of king etc)|
 |18| [text](text.md) |Long text fields from all over the system|
 |19| [country](country.md) |Country information|
@@ -76,10 +76,10 @@ so.envir:
 |54| [URL](url.md) |Unified Resource Locators, URL to contacts, persons or projects.|
 |55| [Email](email.md) |Email addresses for contacts, projects and persons|
 |56| [UserPreference](userpreference.md) |Preference system. If deflevel is set to 5; the user may change the preferences|
-|57| [AddressFormat](addressformat.md) |Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com|
+|57| [AddressFormat](addressformat.md) |Address formats for GUI and labels.|
 |58| [Heading](heading.md) |Heading items for all MDO lists, lists that are grouped and filtered.|
 |59| [UserGroup](usergroup.md) |Secondary user groups|
-|60| [UserGroupLink](usergrouplink.md) |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented.|
+|60| [UserGroupLink](usergrouplink.md) |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. |
 |61| [Business](business.md) |Business list table|
 |62| [BusinessGroupLink](businessgrouplink.md) |User group link table for Business, for MDO item hiding|
 |63| [BusinessHeadingLink](businessheadinglink.md) |Heading link table for Business, for MDO headers|
@@ -203,14 +203,14 @@ so.envir:
 |181| [foreignapp](foreignapp.md) |Top level of Foreign Key system|
 |182| [foreigndevice](foreigndevice.md) |Middle level of Foreign Key system|
 |183| [foreignkey](foreignkey.md) |Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables.|
-|184| [PrefDesc](prefdesc.md) |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. |
+|184| [PrefDesc](prefdesc.md) |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. |
 |185| [PrefDescLine](prefdescline.md) |Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.|
 |186| [ImportObject](importobject.md) |Import object types - see localetext for names.|
 |187| [ImportField](importfield.md) |Import object types - see localetext for names|
 |188| [ImportRelation](importrelation.md) |Relations between import objects|
 |189| [ImportDefault](importdefault.md) |Defaults for import fields/objects|
 |190| [UsageStats](usagestats.md) |Usage statistics|
-|191| [Role](role.md) |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com|
+|191| [Role](role.md) |User roles for role-based security, names and tooltips are in LocaleText. |
 |192| [UserRoleLink](userrolelink.md) |Link between user role and user|
 |193| [FunctionRight](functionright.md) |Functional right definition|
 |194| [FunctionRightRoleLink](functionrightrolelink.md) |Functional right definition|
@@ -235,7 +235,7 @@ so.envir:
 |213| [ProjectTypeStatusLink](projecttypestatuslink.md) |Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items|
 |214| [DiaryView](diaryview.md) |Configuration of a multi-user diary view|
 |215| [DiaryViewRow](diaryviewrow.md) |Configuration of a multi-user diary view|
-|216| [Intent](intent.md) |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com |
+|216| [Intent](intent.md) |Intent list for SAINT. |
 |217| [IntentGroupLink](intentgrouplink.md) |User group link table for Intent, for MDO item hiding|
 |218| [IntentHeadingLink](intentheadinglink.md) |Heading link table for Intent, for MDO headers|
 |219| [Salutation](salutation.md) |Academic title for Person|
@@ -244,7 +244,7 @@ so.envir:
 |222| [RejectReason](rejectreason.md) |Rejection reason (suggested) for bookings|
 |223| [RejectReasonGroupLink](rejectreasongrouplink.md) |User group link table for Comptr, for MDO item hiding|
 |224| [RejectReasonHeadingLink](rejectreasonheadinglink.md) |Heading link table for RejectReason, for MDO headers|
-|225| [AmountClass](amountclass.md) |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com |
+|225| [AmountClass](amountclass.md) |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. |
 |226| [AmountClassGroupLink](amountclassgrouplink.md) |User group link table for AmountClass, for MDO item hiding|
 |227| [AmountClassHeadingLink](amountclassheadinglink.md) |Heading link table for AmountClass, for MDO headers|
 |228| [udappntsmall](udappntsmall.md) |User-defined fields|

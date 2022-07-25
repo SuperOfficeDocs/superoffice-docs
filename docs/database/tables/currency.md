@@ -34,7 +34,7 @@ Currency list table
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-|isoCode|ISO currency code, see http://www.xe.com/iso4217.php|String(9)|&#x25CF;|
+|isoCode|ISO currency code, see <http://www.xe.com/iso4217.php> |String(9)|&#x25CF;|
 
 ![Currency table relationship diagram](./media/Currency.png)
 
@@ -51,7 +51,7 @@ Currency list table
 
 | Table|  Description |
 |------|-------------|
-|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[country](country.md)  |Country information |
 |[CurrencyGroupLink](currencygrouplink.md)  |User group link table for Currency, for MDO item hiding |
