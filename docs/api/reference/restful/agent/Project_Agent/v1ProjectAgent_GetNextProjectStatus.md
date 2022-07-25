@@ -9,14 +9,6 @@ id: v1ProjectAgent_GetNextProjectStatus
 POST /api/v1/Agents/Project/GetNextProjectStatus
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Project/GetNextProjectStatus
 ```http
 POST /api/v1/Agents/Project/GetNextProjectStatus?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +33,21 @@ POST /api/v1/Agents/Project/GetNextProjectStatus?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId 
+ProjectId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

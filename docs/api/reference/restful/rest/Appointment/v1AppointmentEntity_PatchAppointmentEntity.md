@@ -27,22 +27,14 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
-
-
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
-
-
 Calls the {SuperOffice.CRM.Services.IAppointmentAgent} service SaveAppointmentEntity.
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AppointmentEntity  id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -53,7 +45,6 @@ Calls the {SuperOffice.CRM.Services.IAppointmentAgent} service SaveAppointmentEn
 ```http
 PATCH /api/v1/Appointment/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -69,9 +60,9 @@ PATCH /api/v1/Appointment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,12 +70,9 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-
 ## Response: object
 
 Appointments appear in the diary, and have links to a Contact/Person and possibly a Project or Sale. They have start and end time+date.
-
-
 
 AppointmentEntity entity with API _Links added.
 

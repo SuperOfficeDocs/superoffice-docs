@@ -16,8 +16,6 @@ Gets which page one fields have changed from the current version
 * **ownerType:** The user-defined field owner-entity.
 * **userGroupId:** Id of UserGroup
 
-
-
 [WSDL file for Services87/UserDefinedFieldInfo](../Services87-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetChangedPageOneFields Response
 
 ```xml
@@ -74,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -99,4 +99,3 @@ Download [WSDL file for Services87/User](../Services87-User.md) if you need to g
 * [SetGeneratedPasswordFromName](SetGeneratedPasswordFromName.md)
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
-

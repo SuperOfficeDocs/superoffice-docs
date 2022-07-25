@@ -11,16 +11,12 @@ GET /api/v1/Person/{personId}/Image
 
 The person's picture.
 
-The image is returned as stored. If width/height or format is specified, then the image is 
+The image is returned as stored. If width/height or format is specified, then the image is
 scaled and converted to the requested type.
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
-
 
 ## Query String Parameters
 
@@ -38,7 +34,6 @@ GET /api/v1/Person/{personId}/Image?type=id
 GET /api/v1/Person/{personId}/Image?ifBlank=ClearPixel
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -52,10 +47,7 @@ GET /api/v1/Person/{personId}/Image?ifBlank=ClearPixel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: byte
-
-
 
 | Response | Description |
 |----------------|-------------|
@@ -63,7 +55,6 @@ GET /api/v1/Person/{personId}/Image?ifBlank=ClearPixel
 | 404 | No image on this person (when ifBlank not defined) |
 
 Response body: byte
-
 
 ## Sample Request
 

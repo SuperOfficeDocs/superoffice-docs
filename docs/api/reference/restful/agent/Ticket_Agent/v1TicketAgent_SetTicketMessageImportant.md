@@ -11,12 +11,6 @@ POST /api/v1/Agents/Ticket/SetTicketMessageImportant
 
 Set the important flag on or off for a ticket message
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Set the important flag on or off for a ticket message
 POST /api/v1/Agents/Ticket/SetTicketMessageImportant?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Ticket/SetTicketMessageImportant?$select=name,department,cat
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TicketMessageId, Important 
+TicketMessageId, Important
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketMessageId | int32 |  |
 | Important | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

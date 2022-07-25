@@ -11,15 +11,9 @@ PUT /api/v1/RelationDefinition/{id}
 
 Updates the existing RelationDefinitionEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The RelationDefinitionEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing RelationDefinitionEntity
 ```http
 PUT /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The RelationDefinitionEntity to be saved. 
+The RelationDefinitionEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,12 +54,9 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-
 ## Response: object
 
 A relation definition entity with source and destination tables
-
-
 
 RelationDefinitionEntity entity with API _Links added.
 

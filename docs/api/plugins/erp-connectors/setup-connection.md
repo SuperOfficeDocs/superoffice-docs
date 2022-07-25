@@ -130,7 +130,6 @@ The process of defining and saving a new sync connection.
 <!-- Referenced links -->
 [1]: api/field-meta-data-carrier.md
 [2]: helpers.md
-[3]: default-values.md
 [4]: api/pluginresponseinfo.md
 [5]: api/erp-actor-carrier.md
 

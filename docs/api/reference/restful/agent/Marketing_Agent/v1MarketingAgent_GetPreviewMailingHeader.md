@@ -11,12 +11,6 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 
 Get a shipment from its shipment id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a shipment from its shipment id
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ShipmentId 
+ShipmentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ShipmentId | int32 |  |
 
-
 ## Response: object
 
 A shipment with information intended for previewing it.
-
-
 
 Carrier object for PreviewMailingHeader.
 Services for the PreviewMailingHeader Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.

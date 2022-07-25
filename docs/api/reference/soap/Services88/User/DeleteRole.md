@@ -17,8 +17,6 @@ Delete the specified role and move all users associated with the role to the rep
 * **roleIdToDelete:** The roleId to delete
 * **replacingRoleId:** The roleId which all associated users will be moved to.
 
-
-
 [WSDL file for Services88/User](../Services88-User.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteRole Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

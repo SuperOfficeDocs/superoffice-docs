@@ -13,13 +13,9 @@ Create a new physical document based on a document template and store it in the 
 
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | Identifier for the document **Required** |
-
 
 ## Query String Parameters
 
@@ -43,7 +39,6 @@ POST /api/v1/Document/{documentId}/Content?projectId=341
 POST /api/v1/Document/{documentId}/Content?uiCulture=veniam
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -58,11 +53,9 @@ POST /api/v1/Document/{documentId}/Content?uiCulture=veniam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: customTags  
+## Request Body: customTags
 
-Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag. 
-
-
+Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag.
 
 ## Response: object
 

@@ -22,11 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 QuoteLine selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.QuoteLineSelectionDynamicProviderSingleCriteriaGroup" />.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"quoteLine"|[Dynamic quoteline]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
@@ -609,7 +611,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

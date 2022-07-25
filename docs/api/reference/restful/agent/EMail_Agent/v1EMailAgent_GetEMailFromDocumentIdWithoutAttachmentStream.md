@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 
 Get an e-mail based on an archived document
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get an e-mail based on an archived document
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,20 +37,17 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId 
+DocumentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-
 ## Response: object
 
 All information about an e-mail
-
-
 
 Carrier object for EMailEntity.
 Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

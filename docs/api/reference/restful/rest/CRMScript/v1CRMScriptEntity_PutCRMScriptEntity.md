@@ -11,17 +11,11 @@ PUT /api/v1/CRMScript/{id}
 
 Updates the existing CRMScriptEntity
 
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The CRMScriptEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Updates the existing CRMScriptEntity
 ```http
 PUT /api/v1/CRMScript/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -48,9 +41,9 @@ PUT /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The CRMScriptEntity to be saved. 
+The CRMScriptEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,12 +59,9 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-
 ## Response: object
 
 CRM Scripts - stored in the ejScript table, including source code.
-
-
 
 CRMScriptEntity entity with API _Links added.
 

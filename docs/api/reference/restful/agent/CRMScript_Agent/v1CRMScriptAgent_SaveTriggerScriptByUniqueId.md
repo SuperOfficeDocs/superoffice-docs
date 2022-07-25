@@ -13,12 +13,7 @@ Validate a CRMScript.
 
 This will check that the syntax is correct
 
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -29,7 +24,6 @@ This will check that the syntax is correct
 ```http
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,21 +39,18 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TriggerScriptUniqueId, Entity 
+TriggerScriptUniqueId, Entity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TriggerScriptUniqueId | string |  |
 | Entity |  | CRM Trigger Script - The script runs when a given event fires. <br /> Carrier object for TriggerScriptEntity. Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
-
 ## Response: object
 
 CRM Trigger Script - The script runs when a given event fires.
-
-
 
 Carrier object for TriggerScriptEntity.
 Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.

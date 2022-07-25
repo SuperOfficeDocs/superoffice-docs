@@ -11,12 +11,6 @@ POST /api/v1/Agents/Archive/SetActivityFilter
 
 Set activity filter for the specified list.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Set activity filter for the specified list.
 POST /api/v1/Agents/Archive/SetActivityFilter?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/Archive/SetActivityFilter?$select=name,department,category/i
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ActivityFilter 
+ActivityFilter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ActivityFilter |  | Activity list filter information. <br /> Carrier object for ActivityFilter. Services for the ActivityFilter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

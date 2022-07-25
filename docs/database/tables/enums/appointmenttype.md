@@ -14,7 +14,7 @@ so.envir:
 
 # AppointmentType Enum
 
-where=no start time,note,docin, docout 
+where=no start time,note,docin, docout
 
 | Name | Value | Description |
 |------|-------|-------------|
@@ -31,4 +31,4 @@ where=no start time,note,docin, docout
 
 ## Usage
 
-* [appointment](../appointment.md).type - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
+* [appointment](../appointment.md).type - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.

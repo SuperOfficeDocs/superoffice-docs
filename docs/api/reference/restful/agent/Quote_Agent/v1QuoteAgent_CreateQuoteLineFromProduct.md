@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 
 Create a quoteline based on a product.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Create a quoteline based on a product.
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteAlternativeId, Product 
+QuoteAlternativeId, Product
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
 | Product |  | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <br /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
 ## Response: object
 
 Information about a connection to the ERP system.
-
-
 
 Carrier object for QuoteLine.
 Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

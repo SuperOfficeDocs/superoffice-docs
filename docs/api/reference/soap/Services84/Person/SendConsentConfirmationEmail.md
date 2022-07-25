@@ -19,8 +19,6 @@ Send confirmation email to the provided person, email address (id), using the do
 * **cultureLcidId:** The id of the culture (LCID)
 * **subject:** Optional email subject
 
-
-
 [WSDL file for Services84/Person](../Services84-Person.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendConsentConfirmationEmail Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

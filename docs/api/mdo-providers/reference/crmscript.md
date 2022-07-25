@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "crmscript" MDO List
+
 Archive of CRMScripts. Returns script id + name of script as hierarchy.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CRMScriptProvider">CRMScriptProvider</see> class.
 The name of the MDO list is 'crmscript'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("crmscript", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +46,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

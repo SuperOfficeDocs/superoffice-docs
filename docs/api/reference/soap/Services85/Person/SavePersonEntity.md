@@ -17,7 +17,6 @@ Updates the existing PersonEntity or creates a new PersonEntity if the id parame
 
 **Returns:** New or updated PersonEntity
 
-
 [WSDL file for Services85/Person](../Services85-Person.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -438,7 +437,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SavePersonEntity Response
 
@@ -881,4 +879,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

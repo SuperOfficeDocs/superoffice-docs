@@ -13,11 +13,6 @@ Delete all the items in the DeliveryType list.
 
 Marks all existing items as deleted.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -26,9 +21,7 @@ Marks all existing items as deleted.
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

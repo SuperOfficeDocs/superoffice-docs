@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 
 Creates an appointment based on a suggested appointment.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates an appointment based on a suggested appointment.
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SuggestedAppointmentId, SaleId, CreateNow, OwnerId 
+SuggestedAppointmentId, SaleId, CreateNow, OwnerId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +45,6 @@ SuggestedAppointmentId, SaleId, CreateNow, OwnerId
 | SaleId | int32 |  |
 | CreateNow | bool |  |
 | OwnerId | int32 |  |
-
 
 ## Response: object
 

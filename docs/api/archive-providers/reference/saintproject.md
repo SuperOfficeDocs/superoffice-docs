@@ -22,11 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Archive provider for Project Saint Status - same as Find Project, but adds ability to call up stored definitions via a statusDefId column
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"project"|Project|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |statusdefId|int|Status definition: Status definition|  |
@@ -635,7 +637,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

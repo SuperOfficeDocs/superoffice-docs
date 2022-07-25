@@ -6,9 +6,6 @@ title: CRMScript
 /api/v1/CRMScript
 ```
 
-
-
-
 * [GET CRMScript/default](v1CRMScriptEntity_DefaultCRMScriptEntity.md)
 
 * [GET CRMScript](v1CRMScriptEntity_GetAll.md)

@@ -16,8 +16,6 @@ Remove the stored settings of the bulk update for this table from this context
 * **tableName:** The name of the table to remove stored settings from
 * **context:** Where is the function called from that we will remove the settings from
 
-
-
 [WSDL file for Services84/BulkUpdate](../Services84-BulkUpdate.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveStoredFields Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

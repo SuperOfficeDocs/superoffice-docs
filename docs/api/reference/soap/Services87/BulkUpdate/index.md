@@ -23,4 +23,3 @@ Download [WSDL file for Services87/BulkUpdate](../Services87-BulkUpdate.md) if y
 * [GetStoredFields](GetStoredFields.md)
 * [RemoveStoredFields](RemoveStoredFields.md)
 * [RemoveStoredFieldsAndGetDefaultFields](RemoveStoredFieldsAndGetDefaultFields.md)
-

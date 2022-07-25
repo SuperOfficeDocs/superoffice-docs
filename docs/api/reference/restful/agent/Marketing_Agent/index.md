@@ -6,9 +6,6 @@ title: Marketing_Agent
 /api/v1/Marketing/Agent
 ```
 
-
-
-
 * [POST Agents/Marketing/CreateDefaultFormEntity](v1MarketingAgent_CreateDefaultFormEntity.md)
 
 * [POST Agents/Marketing/SaveFormEntity](v1MarketingAgent_SaveFormEntity.md)

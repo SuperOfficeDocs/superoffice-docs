@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetValidUserNa
 Generates a valid username for an unsaved user
 <br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **user:** 
-
-
+* **user:**
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -240,7 +238,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetValidUserNameForNewUser Response
 
 ```xml
@@ -261,4 +258,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

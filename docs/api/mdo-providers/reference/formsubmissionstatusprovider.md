@@ -16,14 +16,8 @@ so.envir:
 
 # "formsubmissionstatusprovider" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FormSubmissionStatusProvider">FormSubmissionStatusProvider</see> class.
 The name of the MDO list is 'formsubmissionstatusprovider'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("formsubmissionstatusprovider", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |3|Submitted|||
 |4|Processed|||
 |5|Failed|||
-
 
 ## Related MDO Lists
 

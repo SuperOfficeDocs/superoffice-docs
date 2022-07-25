@@ -11,13 +11,6 @@ POST /api/v1/Agents/Project/SaveProjectEntity
 
 Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ProjectEntity or creates a new ProjectEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ProjectEntity to be saved. 
+The ProjectEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,12 +63,9 @@ The ProjectEntity to be saved.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
-
 ## Response: object
 
 The Project Service. The service implements all services working with the Project object
-
-
 
 Carrier object for ProjectEntity.
 Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.

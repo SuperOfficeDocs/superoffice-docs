@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
 
 Deletes all appointments(within the appointmentIds array) with status BookingDeleted.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Deletes all appointments(within the appointmentIds array) with status BookingDel
 ```http
 POST /api/v1/Agents/Appointment/CleanUpBookingDeleted?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Appointment/CleanUpBookingDeleted?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentIds 
+AppointmentIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentIds | array |  |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

@@ -18,7 +18,6 @@ Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if
 
 **Returns:** New or updated TriggerScriptEntity
 
-
 [WSDL file for Services88/CRMScript](../Services88-CRMScript.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveTriggerScriptEntity Response
 
 ```xml
@@ -92,4 +90,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

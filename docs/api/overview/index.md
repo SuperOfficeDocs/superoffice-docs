@@ -156,7 +156,6 @@ Read more about each platform API in the SDK documentation.
 [7]: ../../online/integrate/index.md
 [8]: ../reference/restful/index.md
 [9]: ../reference/soap/index.md
-[10]: ../../automation/webhook/index.md
 [11]: ../plugins/erp-connectors/index.md
 [12]: ../plugins/quote-connectors/index.md
 [13]: ../../mirroring/overview.md

@@ -13,10 +13,6 @@ Get list of users that can be assigned to chat topics.
 
 Users with Chat-CALs from the MDO list 'chatuser'
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Users with Chat-CALs from the MDO list 'chatuser'
 ```http
 POST /api/v1/Agents/Chat/GetUserAgentList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Chat/GetUserAgentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Flat, OnlyPresent 
+Flat, OnlyPresent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Flat | bool |  |
 | OnlyPresent | bool |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

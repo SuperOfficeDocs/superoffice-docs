@@ -14,9 +14,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.TestAuthentic
 Test if logged-in user has a working mail account
 <br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-
-
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TestAuthenticate Response
 
 ```xml
@@ -69,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -15,8 +15,6 @@ Save a new license to the database.
 
 * **newLicense:** New license to save to the database.
 
-
-
 [WSDL file for Services84/License](../Services84-License.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -202,7 +200,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ActivateLicenseInfo Response
 
 ```xml
@@ -227,4 +224,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

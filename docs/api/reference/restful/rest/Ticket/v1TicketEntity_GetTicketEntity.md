@@ -13,13 +13,9 @@ Gets a TicketEntity object.
 
 Calls the Ticket agent service GetTicketEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +28,6 @@ Calls the Ticket agent service GetTicketEntity.
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
 GET /api/v1/Ticket/{id}?fk=True
 ```
-
 
 ## Request Headers
 
@@ -47,12 +42,9 @@ GET /api/v1/Ticket/{id}?fk=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The ticket entity is used for representing a service ticket
-
-
 
 TicketEntity entity with API _Links added.
 

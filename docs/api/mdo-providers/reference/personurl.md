@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "personurl" MDO List
+
 List of urls (web pages) matching the search value, possibly restricted to a given company or person.
 
 AdditionalInfo:
@@ -33,10 +34,6 @@ The name of the MDO list is 'personurl'.
 
 Separator: &
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -48,6 +45,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("personurl", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -61,7 +59,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

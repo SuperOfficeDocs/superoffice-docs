@@ -27,7 +27,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-**Response**
+**Response:**
 
 ```json
 {
@@ -52,7 +52,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-**Response**
+**Response:**
 
 ```json
 {
@@ -90,7 +90,7 @@ Content-Type: application/json
 }
 ```
 
-**Response**
+**Response:**
 
 ```JSON
 {
@@ -104,7 +104,6 @@ Content-Type: application/json
   "FieldProperties": {}
 }
 ```
-
 
 # [WebApi Proxy API](#tab/lists-webapi-proxy)
 

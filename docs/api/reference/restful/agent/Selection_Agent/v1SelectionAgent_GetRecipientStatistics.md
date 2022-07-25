@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/GetRecipientStatistics
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatistics?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Selection/GetRecipientStatistics?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId 
+SelectionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
-
 ## Response: object
 
 Class representing a RecipientStatistics carrier used for counting attributes on selection members.
-
-
 
 Carrier object for RecipientStatistics.
 

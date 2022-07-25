@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "projecttype" MDO List
+
 Project type list. Encodes Default project duration in extra info.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectTypeProvider">ProjectTypeProvider</see> class.
 The name of the MDO list is 'projecttype'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("projecttype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |1|DM/Kampanje||duration=0&unit=0|
 |4|Guided project||duration=3&unit=6|
 |2|Internt||duration=0&unit=0|
-
 
 ## Related MDO Lists
 

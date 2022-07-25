@@ -20,4 +20,3 @@ Download [WSDL file for Services87/DatabaseTable](../Services87-DatabaseTable.md
 * [InsertRow](InsertRow.md)
 * [ReadRow](ReadRow.md)
 * [UpdateRow](UpdateRow.md)
-

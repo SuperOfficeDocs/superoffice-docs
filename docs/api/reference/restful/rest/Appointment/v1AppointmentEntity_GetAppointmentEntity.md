@@ -13,13 +13,9 @@ Gets a AppointmentEntity object.
 
 Calls the Appointment agent service GetAppointmentEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the AppointmentEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +28,6 @@ Calls the Appointment agent service GetAppointmentEntity.
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
 GET /api/v1/Appointment/{id}?fk=False
 ```
-
 
 ## Request Headers
 
@@ -47,12 +42,9 @@ GET /api/v1/Appointment/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Appointments appear in the diary, and have links to a Contact/Person and possibly a Project or Sale. They have start and end time+date.
-
-
 
 AppointmentEntity entity with API _Links added.
 

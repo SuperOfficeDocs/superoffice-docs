@@ -16,8 +16,6 @@ Saves a project image that is displayed in the CRM application's project image s
 * **description:** Image description. Should be image name (e.g. winter.jpg) for project images
 * **image:** The project image (System.Drawing.Image)
 
-
-
 [WSDL file for Services86/BLOB](../Services86-BLOB.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveProjectImage Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

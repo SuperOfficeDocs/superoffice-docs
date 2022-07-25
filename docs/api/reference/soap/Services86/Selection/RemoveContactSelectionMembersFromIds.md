@@ -16,8 +16,6 @@ Removes members from the selection using a collection a selectionmember id's. Me
 * **selectionId:** The id of the selection where to members will be removed.
 * **selectionMembersIds:** An array of selectionmember id's to remove from the selection.
 
-
-
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveContactSelectionMembersFromIds Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

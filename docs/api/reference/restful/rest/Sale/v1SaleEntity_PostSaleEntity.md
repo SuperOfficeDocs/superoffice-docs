@@ -13,10 +13,6 @@ Creates a new SaleEntity
 
 Calls the Sale agent service SaveSaleEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Sale agent service SaveSaleEntity.
 ```http
 POST /api/v1/Sale?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Sale?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The SaleEntity to be saved. 
+The SaleEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,12 +88,9 @@ The SaleEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
 
 The Sale Entity contains the sale amount, currency, and sale members. Sales are linked to contacts, persons, and/or projects.
-
-
 
 SaleEntity entity with API _Links added.
 

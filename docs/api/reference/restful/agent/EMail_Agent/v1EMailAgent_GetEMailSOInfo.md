@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo
 
 Gets a EMailSOInfo object.
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Gets a EMailSOInfo object.
 POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=292
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +38,9 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Glue between SuperOffice data and an e-mail.
-
-
 
 Carrier object for EMailSOInfo.
 Services for the EMailSOInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

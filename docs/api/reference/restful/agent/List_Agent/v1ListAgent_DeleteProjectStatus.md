@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/DeleteProjectStatus
 
 Deletes a project status
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes a project status
 POST /api/v1/Agents/List/DeleteProjectStatus?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/List/DeleteProjectStatus?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectStatusId 
+ProjectStatusId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectStatusId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,10 +13,6 @@ Translate a text from one language to another.
 
 Language of the text is automatically detected.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Language of the text is automatically detected.
 ```http
 POST /api/v1/Agents/AI/Translate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,26 +37,22 @@ POST /api/v1/Agents/AI/Translate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Text, TargetLanguage 
+Text, TargetLanguage
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Text | string |  |
 | TargetLanguage | string |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

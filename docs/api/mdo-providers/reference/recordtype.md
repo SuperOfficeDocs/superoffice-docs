@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "recordtype" MDO List
+
 A complete and generic mapping of record types to resource strings.
 This is a simple, hard-coded list corresponding to Task table <see cref="!:SuperOffice.CRM.Data.Task" /> record_type column which is defined by a typed field <see cref="T:SuperOffice.Data.SQL.TaskTypeFieldInfo" /> using the TaskType enum AN.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.ArchiveLists.RecordTypeProvider">RecordTypeProvider</see> class.
 The name of the MDO list is 'recordtype'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("recordtype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -63,7 +60,6 @@ foreach (var item in listProvider.RootItems) {
 |100|Mailing|||
 |200|Chat session|||
 |300|Form submission|||
-
 
 ## Related MDO Lists
 

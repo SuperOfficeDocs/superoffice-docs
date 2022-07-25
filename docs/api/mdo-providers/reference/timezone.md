@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "timezone" MDO List
+
 Provides the timezone list.
 If no search value is passed in the list is restricted to 'available' timezones
 
@@ -23,7 +24,6 @@ AdditionalInfo = "[all]" returns all timezones
 AdditionalInfo = "123" returns all active timezones and the specific location
 
 AdditionalInfo = "locationId=123" returns only the given location.
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TimeZoneProvider">TimeZoneProvider</see> class.
 The name of the MDO list is 'timezone'.
@@ -36,10 +36,6 @@ The name of the MDO list is 'timezone'.
 |Get all active timezones and the given location| |1234|
 |Get the specific Timezone location| locationId|1234|
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -51,6 +47,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("timezone", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -84,7 +81,6 @@ foreach (var item in listProvider.RootItems) {
 |100|Labrador (GMT-04.00)||124|
 |101|Labrador (exception) (GMT-03.30)||124|
 |102|Manitoba (GMT-06.00)||124|
-
 
 ## Related MDO Lists
 

@@ -291,4 +291,3 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [SetVisibleForUserGroupsFromListName](SetVisibleForUserGroupsFromListName.md)
 * [SortListItems](SortListItems.md)
 * [UpdateHierarchyFromPath](UpdateHierarchyFromPath.md)
-

@@ -19,7 +19,6 @@ Save a user, with lookup based on the user name.
 
 **Returns:** User retrieved by name
 
-
 [WSDL file for Services88/User](../Services88-User.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -242,7 +241,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SaveUserFromName Response
 
@@ -467,4 +465,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

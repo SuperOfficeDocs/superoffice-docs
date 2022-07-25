@@ -18,7 +18,6 @@ Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id 
 
 **Returns:** New or updated CRMScriptEntity
 
-
 [WSDL file for Services86/CRMScript](../Services86-CRMScript.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -62,7 +61,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveCRMScriptEntity Response
 
 ```xml
@@ -94,4 +92,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

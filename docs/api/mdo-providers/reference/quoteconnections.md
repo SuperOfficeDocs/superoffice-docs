@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "quoteconnections" MDO List
+
 Retrieve the list of all defined Quote Connections - i.e. not the connectors (DLLs).
 ExtraInfo: "connectorname=Name-of-connector" - restricts results to connections defined by one particular connector.
 
@@ -29,10 +30,6 @@ The name of the MDO list is 'quoteconnections'.
 |-----|-----|------|
 |Name of the connector to get connections for| connectorname|Custom Quote Connector Name|
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -44,6 +41,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quoteconnections", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,7 +58,6 @@ foreach (var item in listProvider.RootItems) {
 |3|TestClient SuperOffice test/debug connector A||Test.QuoteConnector|
 |4|TestClient SuperOffice test/Debug connector B||Test.QuoteConnector|
 |5|TestClient SuperOffice manipulating connector||Test.QuoteConnector|
-
 
 ## Related MDO Lists
 

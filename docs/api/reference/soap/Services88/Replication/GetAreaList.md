@@ -18,7 +18,6 @@ Gets an array of Area objects.
 
 **Returns:** Array of Area objects
 
-
 [WSDL file for Services88/Replication](../Services88-Replication.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetAreaList Response
 
 ```xml
@@ -83,4 +81,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

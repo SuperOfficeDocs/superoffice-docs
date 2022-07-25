@@ -33,7 +33,7 @@ The intention is that Product Owners will be responsible for adding or changing 
 
 The set of predefined typical searches created by SuperOffice will be stored in a cloud storage as a file with json file-format encoding. An update service (likely with different triggers/schedulers onsite and online) will update the typical searches with any new versions if found, by querying the central service for the json file. If a newer typical search version exists, the file will be downloaded and used to update the client’s database. This request will likely be sent once per day per customer onsite, may be different for online (on demand when file is updated or some scheduling algorithm).
 
-It should also be possible to send a request for a customer from the SuperOffice Operations Center. This will allow for fast updates when new typical searches are available.  
+It should also be possible to send a request for a customer from the SuperOffice Operations Center. This will allow for fast updates when new typical searches are available.
 
 The client will then be able to fetch the updated typical searches from the database when clicking the find-button.
 

@@ -65,4 +65,3 @@ Download [WSDL file for Services88/Project](../Services88-Project.md) if you nee
 * [SetProjectImage](SetProjectImage.md)
 * [UpdateProjectMember](UpdateProjectMember.md)
 * [ValidateProjectEntity](ValidateProjectEntity.md)
-

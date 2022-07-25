@@ -11,14 +11,7 @@ POST /api/v1/Agents/Replication/SaveSatellite
 
 Updates the existing Satellite or creates a new Satellite if the id parameter is empty
 
-
-
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
-
-
-
-
-
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Updates the existing Satellite or creates a new Satellite if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The Satellite to be saved. 
+The Satellite to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +41,6 @@ The Satellite to be saved.
 | Contact |  | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 | Area |  | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-
 
 ## Response: object
 

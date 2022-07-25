@@ -11,12 +11,6 @@ POST /api/v1/Agents/Contact/ValidateContactEntity
 
 Check that entity is ready for saving, return error messages by field.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Check that entity is ready for saving, return error messages by field.
 ```http
 POST /api/v1/Agents/Contact/ValidateContactEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Contact/ValidateContactEntity?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactEntity 
+ContactEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <br /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample Request
 

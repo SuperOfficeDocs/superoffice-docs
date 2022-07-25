@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 
 Creates a new selection based on selection members from an existing selection.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates a new selection based on selection members from an existing selection.
 ```http
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, Name, TargetSelectionType, CopyMembers 
+SelectionId, Name, TargetSelectionType, CopyMembers
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +45,6 @@ SelectionId, Name, TargetSelectionType, CopyMembers
 | Name | string |  |
 | TargetSelectionType | string |  |
 | CopyMembers | bool |  |
-
 
 ## Response: object
 

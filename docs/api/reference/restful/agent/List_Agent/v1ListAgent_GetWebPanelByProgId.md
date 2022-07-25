@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetWebPanelByProgId
 
 Get a web panel using the ProgId key that was specified when it was created
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a web panel using the ProgId key that was specified when it was created
 ```http
 POST /api/v1/Agents/List/GetWebPanelByProgId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/List/GetWebPanelByProgId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProgId 
+ProgId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgId | string |  |
 
-
 ## Response: object
 
 The web panel entity contains information on a web panel
-
-
 
 Carrier object for WebPanelEntity.
 Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

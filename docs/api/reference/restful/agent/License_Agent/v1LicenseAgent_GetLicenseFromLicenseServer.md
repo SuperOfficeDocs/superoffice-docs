@@ -9,14 +9,6 @@ id: v1LicenseAgent_GetLicenseFromLicenseServer
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```http
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +33,15 @@ POST /api/v1/Agents/License/GetLicenseFromLicenseServer?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerName 
+OwnerName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

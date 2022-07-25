@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.ITimeZoneAgent.GetDefault
 
 Returns the id of the default timezone preference with deflevel system wide
 
-
 **Returns:** The id of the system wide default timezone preference
-
 
 [WSDL file for Services85/TimeZone](../Services85-TimeZone.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDefaultTimeZonePreference Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

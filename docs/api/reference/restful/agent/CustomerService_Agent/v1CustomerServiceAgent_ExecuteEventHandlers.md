@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 
 This method will execute event handlers in CRMScript for a given event.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ This method will execute event handlers in CRMScript for a given event.
 ```http
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EventData 
+EventData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EventData |  | EventData containing data related to event handlers <br /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-
 ## Response: object
 
 EventData containing data related to event handlers
-
-
 
 Carrier object for EventData.
 Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

@@ -13,11 +13,6 @@ Create a new DocumentTemplateEntity list item
 
 Calls the List agent service SaveDocumentTemplateEntity.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The DocumentTemplateEntity to be created. 
+The DocumentTemplateEntity to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,12 +59,9 @@ The DocumentTemplateEntity to be created.
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-
 ## Response: object
 
 The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
-
-
 
 Carrier object for DocumentTemplateEntity.
 Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

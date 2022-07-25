@@ -18,7 +18,6 @@ Return true if there is one or more MX records in DNS for the given mail domain
 
 **Returns:** True if there is at least one MX record
 
-
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## HasMXRecord Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

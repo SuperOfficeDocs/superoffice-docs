@@ -13,10 +13,6 @@ Creates a new AttachmentEntity
 
 Calls the Ticket agent service SaveAttachmentEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Ticket agent service SaveAttachmentEntity.
 ```http
 POST /api/v1/Attachment?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Attachment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The AttachmentEntity to be saved. 
+The AttachmentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,12 +50,9 @@ The AttachmentEntity to be saved.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 
-
 ## Response: object
 
 The Attachment carrier represent meta data for a Service attachment
-
-
 
 AttachmentEntity entity with API _Links added.
 

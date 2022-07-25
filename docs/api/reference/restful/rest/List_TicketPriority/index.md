@@ -6,9 +6,6 @@ title: List_TicketPriority
 /api/v1/List/TicketPriority
 ```
 
-
-
-
 * [GET List/TicketPriority](v1TicketPriorityList_GetListDefinition.md)
 
 * [PUT List/TicketPriority](v1TicketPriorityList_SetListDefinition.md)

@@ -19,7 +19,6 @@ Execute a CRMScript with event data as input. Returns event data with output var
 
 **Returns:** The EventData instance after script execution with output values
 
-
 [WSDL file for Services88/CRMScript](../Services88-CRMScript.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -76,7 +75,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ExecuteScriptAsEventByUniqueId Response
 
 ```xml
@@ -120,4 +118,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

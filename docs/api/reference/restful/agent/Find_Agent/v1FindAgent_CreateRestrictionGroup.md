@@ -11,12 +11,6 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup
 
 Create a restriction group, initialized with next rank etc.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Create a restriction group, initialized with next rank etc.
 ```http
 POST /api/v1/Agents/Find/CreateRestrictionGroup?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, Context 
+StorageType, ProviderName, StorageKey, Context
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,10 +46,7 @@ StorageType, ProviderName, StorageKey, Context
 | StorageKey | string |  |
 | Context | string |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

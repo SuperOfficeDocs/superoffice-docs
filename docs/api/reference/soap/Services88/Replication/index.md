@@ -24,4 +24,3 @@ Download [WSDL file for Services88/Replication](../Services88-Replication.md) if
 * [SaveCentralLicense](SaveCentralLicense.md)
 * [SaveSatellite](SaveSatellite.md)
 * [SetFreetextSearchEnabledOnArea](SetFreetextSearchEnabledOnArea.md)
-

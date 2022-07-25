@@ -6,9 +6,6 @@ title: List_Position
 /api/v1/List/Position
 ```
 
-
-
-
 * [GET List/Position](v1PositionList_GetListDefinition.md)
 
 * [PUT List/Position](v1PositionList_SetListDefinition.md)

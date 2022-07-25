@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "activitystatus" MDO List
+
 MDO provider for the ActivityStatus enum: NotStarted, Started, Completed
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ActivityStatusProvider">ActivityStatusProvider</see> class.
 The name of the MDO list is 'activitystatus'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("activitystatus", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |1|Not started|||
 |2|Not done|||
 |3|Completed|||
-
 
 ## Related MDO Lists
 

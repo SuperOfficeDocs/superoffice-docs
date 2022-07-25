@@ -13,14 +13,9 @@ Gets user groups visible for the ProjectStatus list's item.
 
 Calls the List agent service GetHeadings.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +30,7 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

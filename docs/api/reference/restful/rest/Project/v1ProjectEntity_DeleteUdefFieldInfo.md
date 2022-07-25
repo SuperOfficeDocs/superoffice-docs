@@ -13,14 +13,9 @@ Delete a ProjectEntity user-defined field's details based on the prog-id or labe
 
 Deletes the admin version of the field. The layout needs to be published before the change is visible.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
-
-
 
 ## Request Headers
 
@@ -30,9 +25,7 @@ Deletes the admin version of the field. The layout needs to be published before 
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

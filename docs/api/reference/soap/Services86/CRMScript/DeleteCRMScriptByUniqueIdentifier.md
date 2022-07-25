@@ -18,7 +18,6 @@ Delete the CRMScript
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services86/CRMScript](../Services86-CRMScript.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteCRMScriptByUniqueIdentifier Response
 
 ```xml
@@ -69,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

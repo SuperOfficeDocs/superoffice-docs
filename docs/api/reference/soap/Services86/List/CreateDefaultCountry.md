@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.CreateDefaultC
 
 Gets a new country
 
-
 **Returns:** A new country with default values
-
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultCountry Response
 
@@ -88,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/AssignTo
 
 Assigning an appointment to another person.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Assigning an appointment to another person.
 ```http
 POST /api/v1/Agents/Appointment/AssignTo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Appointment/AssignTo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentId, Participant, UpdateMode 
+AppointmentId, Participant, UpdateMode
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 | Participant |  |  |
 | UpdateMode | string |  |
-
 
 ## Response: object
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Contact/ChangeCountry
 
 Change country regenerates the default values and localized information such as phone number and address format
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Change country regenerates the default values and localized information such as 
 ```http
 POST /api/v1/Agents/Contact/ChangeCountry?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/Contact/ChangeCountry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactEntity, ToCountryId 
+ContactEntity, ToCountryId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <br /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 | ToCountryId | int32 |  |
 
-
 ## Response: object
 
 The Contact Service. The service implements all services working with the Contact object
-
-
 
 Carrier object for ContactEntity.
 Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>.

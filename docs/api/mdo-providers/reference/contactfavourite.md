@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "contactfavourite" MDO List
+
 MDO list provider for Favourites
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactFavouriteListProvider">ContactFavouriteListProvider</see> class.
 The name of the MDO list is 'contactfavourite'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("contactfavourite", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +46,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

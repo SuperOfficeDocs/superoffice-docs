@@ -11,14 +11,7 @@ POST /api/v1/Webhook/Test
 
 Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.
 
-
-
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: webhook  
+## Request Body: webhook
 
-Webhook definition to ping. Must contain a valid TargetUrl. 
+Webhook definition to ping. Must contain a valid TargetUrl.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +47,9 @@ Webhook definition to ping. Must contain a valid TargetUrl.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-
 ## Response: object
 
 Result of calling a webhook
-
-
 
 Carrier object for WebhookResult.
 Services for the WebhookResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>.

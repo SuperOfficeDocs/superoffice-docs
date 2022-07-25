@@ -13,14 +13,9 @@ Update the Blob that describes the given contact's picture.
 
 The actual bitmap is accessible via /api/v1/contact/123/image.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ The actual bitmap is accessible via /api/v1/contact/123/image.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo  
+## Request Body: imageInfo
 
-New or Updated information about the image. 
+New or Updated information about the image.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +50,6 @@ New or Updated information about the image.
 | CreatedBy |  | The person that first created the document. The property is read-only. |
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-
 
 ## Response: object
 

@@ -25,12 +25,14 @@ This class provides the needed overrides and concrete implementations needed by 
 to drive the sentry calculations, as well as the specialization with the correct root extender
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"suggestedAppointment"|Follow-ups|
 |"appointment"|Follow-ups|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -592,7 +594,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

@@ -11,15 +11,9 @@ PUT /api/v1/Person/{id}
 
 Updates the existing PersonEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PersonEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing PersonEntity
 ```http
 PUT /api/v1/Person/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Person/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The PersonEntity to be saved. 
+The PersonEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,12 +109,9 @@ The PersonEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.PersonEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
 ## Response: object
 
 The Person Service. The service implements all services working with the Person object.
-
-
 
 PersonEntity entity with API _Links added.
 

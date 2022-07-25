@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dashboard/SaveDashboardTile
 
 Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DashboardTile or creates a new DashboardTile if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashboardTile to be saved. 
+The DashboardTile to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,12 +46,9 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
 
 Dashboard Tile configuration
-
-
 
 Carrier object for DashboardTile.
 Services for the DashboardTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.

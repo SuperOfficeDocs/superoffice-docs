@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage
 
 Deletes language variant of the document template
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes language variant of the document template
 POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage?$select=name,department,
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentTemplateId, LanguageCode 
+DocumentTemplateId, LanguageCode
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 | LanguageCode | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

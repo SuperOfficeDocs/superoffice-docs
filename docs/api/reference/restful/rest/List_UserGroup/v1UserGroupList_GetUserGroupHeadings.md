@@ -13,11 +13,6 @@ Gets headings for the UserGroup list.
 
 Calls the User agent service GetGetHeadingsFromListDefinition.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +26,7 @@ Calls the User agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

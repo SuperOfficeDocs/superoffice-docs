@@ -30,7 +30,7 @@ How SEM works is simple, but clever. As seen in the figure below, all requests t
 
 GET and POST requests are generally issued when an action occurs from within the main form of the web application; such as clicking the New button to create a new company.
 
-AJAX requests refer to all requests sent to the server via the SuperOffice web AjaxMethodDispatcher, an AJAX utility class used for submitting both synchronous and asynchronous requests to the web server.  
+AJAX requests refer to all requests sent to the server via the SuperOffice web AjaxMethodDispatcher, an AJAX utility class used for submitting both synchronous and asynchronous requests to the web server.
 
 **Conceptual overview of the SuperOffice web ServerEventManager workflow:**
 
@@ -311,7 +311,6 @@ The OnSampleEvent method iterates over the returned status of results of each ba
 This article has covered the full breadth of SuperOffice Background Computing. You have been introduced to the Server Event Manager, and explained how intricate of a role it plays in the execution of batch tasks. You have been given insight into how a client action begins the series of steps required to successfully create a batch task, monitor the task's progress, as well as invoke a callback on the client when the batch task has been completed. Finally, you have seen code that can be used to successfully execute a custom batch task through the web application.
 
 <!-- Referenced links -->
-[1]: ../../onsite/batch-task-server.md
 
 <!-- Referenced images -->
 [img1]: media/servereventmanager4-initial.png

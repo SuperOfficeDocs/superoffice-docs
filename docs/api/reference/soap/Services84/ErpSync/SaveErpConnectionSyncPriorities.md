@@ -17,7 +17,6 @@ Takes an array of the ErpConnection ids and saves these as ordered sync prioriti
 
 **Returns:** Returns true if new sync priorities is saved
 
-
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveErpConnectionSyncPriorities Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

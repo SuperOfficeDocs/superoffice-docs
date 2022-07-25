@@ -26,4 +26,3 @@ Download [WSDL file for Services85/Diagnostics](../Services85-Diagnostics.md) if
 * [GetCacheNames](GetCacheNames.md)
 * [LogViewState](LogViewState.md)
 * [ResyncUsers](ResyncUsers.md)
-

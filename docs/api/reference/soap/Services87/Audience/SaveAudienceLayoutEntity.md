@@ -17,7 +17,6 @@ Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity 
 
 **Returns:** New or updated AudienceLayoutEntity
 
-
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -83,7 +82,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveAudienceLayoutEntity Response
 
 ```xml
@@ -137,4 +135,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -13,9 +13,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.ITimeZoneAgent.Initialize
 
 Initalizes the TimeZoneData
 
-
-
-
 [WSDL file for Services86/TimeZone](../Services86-TimeZone.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## InitializeTimeZoneData Response
 
@@ -102,4 +98,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

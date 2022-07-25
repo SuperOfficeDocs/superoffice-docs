@@ -19,7 +19,6 @@ This method will do a test of a SMTP account, by sending an email to a special @
 
 **Returns:** Contains the result of the test
 
-
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TestSmtpServer Response
 
 ```xml
@@ -78,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

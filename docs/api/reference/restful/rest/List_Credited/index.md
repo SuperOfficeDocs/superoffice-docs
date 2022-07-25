@@ -6,9 +6,6 @@ title: List_Credited
 /api/v1/List/Credited
 ```
 
-
-
-
 * [GET List/Credited](v1CreditedList_GetListDefinition.md)
 
 * [PUT List/Credited](v1CreditedList_SetListDefinition.md)

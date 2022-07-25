@@ -30,11 +30,13 @@ blah....
 ........
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"number"|[number]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -95,7 +97,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

@@ -19,7 +19,6 @@ Send an array of messages
 
 **Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
 
-
 [WSDL file for Services88/Messaging](../Services88-Messaging.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -62,7 +61,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendMessages Response
 
 ```xml
@@ -89,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -6,9 +6,6 @@ title: List_Reason
 /api/v1/List/Reason
 ```
 
-
-
-
 * [GET List/Reason](v1ReasonList_GetListDefinition.md)
 
 * [PUT List/Reason](v1ReasonList_SetListDefinition.md)

@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/SaveUserFromName
 
 Save a user, with lookup based on the user name.
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Save a user, with lookup based on the user name.
 ```http
 POST /api/v1/Agents/User/SaveUserFromName?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,21 +37,18 @@ POST /api/v1/Agents/User/SaveUserFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UserName, User 
+UserName, User
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserName | string |  |
 | User |  | SuperOffice User, with login credentials and an associated person. <br /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
 ## Response: object
 
 SuperOffice User, with login credentials and an associated person.
-
-
 
 Carrier object for User.
 Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

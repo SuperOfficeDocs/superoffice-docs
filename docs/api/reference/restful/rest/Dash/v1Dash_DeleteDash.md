@@ -13,14 +13,9 @@ Deletes the Dash
 
 Calls the Dash agent service DeleteDash.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dash to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -30,9 +25,7 @@ Calls the Dash agent service DeleteDash.
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

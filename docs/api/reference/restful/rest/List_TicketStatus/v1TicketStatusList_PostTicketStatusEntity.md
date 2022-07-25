@@ -13,11 +13,6 @@ Create a new TicketStatusEntity list item
 
 Calls the List agent service SaveTicketStatusEntity.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The TicketStatusEntity to be created. 
+The TicketStatusEntity to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,12 +41,9 @@ The TicketStatusEntity to be created.
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
 
-
 ## Response: object
 
 Entity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.
-
-
 
 Carrier object for TicketStatusEntity.
 Services for the TicketStatusEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

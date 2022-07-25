@@ -71,7 +71,7 @@ The selection name, entity, and long comment are exported. Owner, Category, Comp
 
 The data are exported using the service layer carriers **TypicalSearchConfiguration** -> **TypicalSearch** -> **ArchiveRestrictionGroup** -> **ArchiveRestriction**. The final file format is JSON.
 
-The TypicalSearch.Version number is assigned based on a global counter. The first selection is assigned version 1, the second gets 2, etc. In addition, the TypicalSearchExporter uses the ForeignKey feature to store the registered/last updated date together with the assigned version number, for each such selection, in the ACME AS installation. To detect changes in the criteria (which do not update the updated field of the selection itself), a SHA256 hash of all criteria/operators/values is also stored in the foreignkey. The foreignkey value itself is in JSON format.  
+The TypicalSearch.Version number is assigned based on a global counter. The first selection is assigned version 1, the second gets 2, etc. In addition, the TypicalSearchExporter uses the ForeignKey feature to store the registered/last updated date together with the assigned version number, for each such selection, in the ACME AS installation. To detect changes in the criteria (which do not update the updated field of the selection itself), a SHA256 hash of all criteria/operators/values is also stored in the foreignkey. The foreignkey value itself is in JSON format.
 
 When an export is performed, if a selection has a newer updated date than the last (or a hash mismatch), the global version number counter is increased by one and that version number assigned to the selection (and saved in ForeignKey).
 

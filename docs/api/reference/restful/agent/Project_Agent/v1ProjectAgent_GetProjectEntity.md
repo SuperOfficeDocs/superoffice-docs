@@ -11,12 +11,6 @@ POST /api/v1/Agents/Project/GetProjectEntity
 
 Gets a ProjectEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a ProjectEntity object.
 POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=307
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The Project Service. The service implements all services working with the Project object
-
-
 
 Carrier object for ProjectEntity.
 Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.

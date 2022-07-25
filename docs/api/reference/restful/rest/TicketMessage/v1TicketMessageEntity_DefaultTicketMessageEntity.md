@@ -13,11 +13,6 @@ Set default values into a new TicketMessageEntity.
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultTicketMessageEntity.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +26,9 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request).
-
-
 
 Carrier object for TicketMessageEntity.
 Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.

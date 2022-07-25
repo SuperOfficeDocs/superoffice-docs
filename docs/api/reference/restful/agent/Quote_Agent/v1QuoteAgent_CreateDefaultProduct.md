@@ -13,11 +13,6 @@ Set default values into a new Product.
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +26,9 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
-
-
 
 Carrier object for Product.
 Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

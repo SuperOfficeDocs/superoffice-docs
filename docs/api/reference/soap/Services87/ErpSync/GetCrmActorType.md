@@ -19,7 +19,6 @@ Retrieves the CrmActorType that are mapped to a specific ErpActorType for this c
 
 **Returns:** The CrmActorType
 
-
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCrmActorType Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -13,10 +13,6 @@ Creates a new SelectionEntity
 
 Calls the Selection agent service SaveSelectionEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Selection agent service SaveSelectionEntity.
 ```http
 POST /api/v1/Selection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Selection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The SelectionEntity to be saved. 
+The SelectionEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,11 +85,7 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
-
-
-
 
 SelectionEntity entity with API _Links added.
 

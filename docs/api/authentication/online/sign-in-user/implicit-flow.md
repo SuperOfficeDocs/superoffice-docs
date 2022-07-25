@@ -13,7 +13,7 @@ so.client: online
 
 [!include[Deprecated OAuth flows](../includes/implicit-hybrid-deprecated.md)]
 
-In the Implicit flow, the client application requests an ID token and possibly also an access token.  
+In the Implicit flow, the client application requests an ID token and possibly also an access token.
 
 ## Scenario: client application requests ID token only
 
@@ -61,7 +61,7 @@ In the Implicit flow, the client application requests an ID token and possibly a
 
 ## Scenario: client application requests both ID token and access token
 
-This scenario is almost the same as the [ID token][2] only scenario, except here we set **response type** to `token id_token`.
+This scenario is almost the same as the [ID token][3] only scenario, except here we set **response type** to `token id_token`.
 
 ```http
 GET Request (test in a browser to handle the login/redirect)https://sod.superoffice.com/login/common/oauth/authorize?

@@ -28,6 +28,7 @@ to make sure we get the right order. We also need to filter repeating bookings a
 because someone may explicitly request an instance an a recurring booking, so that all other instances should be suppressed.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"invitation"|Invitation|
@@ -37,6 +38,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 |"repeating"|Show repetitions|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -586,7 +588,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

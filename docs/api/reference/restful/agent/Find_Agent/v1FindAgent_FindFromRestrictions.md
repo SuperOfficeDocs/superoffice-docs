@@ -11,37 +11,19 @@ POST /api/v1/Agents/Find/FindFromRestrictions
 
 Execute a Find operation and return a page of results.
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
 Archive Restriction Info objects represent search terms.
-
 
 Column names and operator strings are defined elsewhere.
 
-
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
-
-
-
-
-
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
-
-
-
-
-
-
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -52,7 +34,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -68,9 +49,9 @@ POST /api/v1/Agents/Find/FindFromRestrictions?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Restrictions, ProviderName, PageSize, PageNumber 
+Restrictions, ProviderName, PageSize, PageNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,12 +60,9 @@ Restrictions, ProviderName, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-
 ## Response: object
 
 Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
-
-
 
 Carrier object for FindResults.
 Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.

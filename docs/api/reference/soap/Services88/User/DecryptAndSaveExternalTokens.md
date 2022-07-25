@@ -18,7 +18,6 @@ First asks AccessGateway to decrypt the tokens, then saves the external tokens t
 
 **Returns:** Key that can be used to retrieve the tokens
 
-
 [WSDL file for Services88/User](../Services88-User.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DecryptAndSaveExternalTokens Response
 
 ```xml
@@ -76,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

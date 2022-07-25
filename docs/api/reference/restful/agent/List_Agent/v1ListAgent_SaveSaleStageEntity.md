@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveSaleStageEntity
 
 Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SaleStageEntity to be saved. 
+The SaleStageEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,12 +38,9 @@ The SaleStageEntity to be saved.
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
 
-
 ## Response: object
 
 This entity represents a sale stage with a default percentage rating.
-
-
 
 Carrier object for SaleStageEntity.
 Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

@@ -28,7 +28,6 @@ Parse the source string, and replace any template variable tags with their value
 
 **Returns:** Source string with templates substituted, using the same encoding as for the source (binary data will be returned in Base64).
 
-
 [WSDL file for Services84/Document](../Services84-Document.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -70,7 +69,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SubstituteTemplateVariables Response
 
 ```xml
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

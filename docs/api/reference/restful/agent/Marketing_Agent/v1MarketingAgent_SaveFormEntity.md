@@ -11,13 +11,6 @@ POST /api/v1/Agents/Marketing/SaveFormEntity
 
 Updates the existing FormEntity or creates a new FormEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing FormEntity or creates a new FormEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The FormEntity to be saved. 
+The FormEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,12 +54,9 @@ The FormEntity to be saved.
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
 
-
 ## Response: object
 
 Definition and configuration of a Form
-
-
 
 Carrier object for FormEntity.
 Services for the FormEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.

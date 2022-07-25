@@ -13,10 +13,6 @@ List of timezones
 
 Use with SO-TIMEZONE header to specify times.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -45,7 +41,6 @@ GET /api/v1/TimeZone?$context=suscipit
 GET /api/v1/TimeZone?$format=JSON
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -58,7 +53,6 @@ GET /api/v1/TimeZone?$format=JSON
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

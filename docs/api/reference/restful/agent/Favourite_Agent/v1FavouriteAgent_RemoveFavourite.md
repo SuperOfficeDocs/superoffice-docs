@@ -11,12 +11,6 @@ POST /api/v1/Agents/Favourite/RemoveFavourite
 
 Remove favourite for a table, record id and associate
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Remove favourite for a table, record id and associate
 POST /api/v1/Agents/Favourite/RemoveFavourite?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Favourite/RemoveFavourite?$select=name,department,category/i
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, RecordId, AssociateId 
+TableName, RecordId, AssociateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,9 +40,7 @@ TableName, RecordId, AssociateId
 | RecordId | int32 |  |
 | AssociateId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

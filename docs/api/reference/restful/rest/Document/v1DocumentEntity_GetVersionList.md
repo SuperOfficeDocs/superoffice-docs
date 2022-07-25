@@ -11,16 +11,9 @@ GET /api/v1/Document/{documentId}/Version
 
 Get a list of existing, committed  versions for a given document
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document Id **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Get a list of existing, committed  versions for a given document
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

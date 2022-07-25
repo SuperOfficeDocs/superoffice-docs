@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMessagingAgent.CreateMes
 Create a new message and insert it in the message queue. (inbox)
 <br />**Online Restricted:** The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **incomingMessage:** 
-
-
+* **incomingMessage:**
 
 [WSDL file for Services87/Messaging](../Services87-Messaging.md)
 
@@ -57,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateMessage Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

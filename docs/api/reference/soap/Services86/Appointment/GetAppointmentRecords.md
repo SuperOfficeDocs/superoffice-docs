@@ -16,8 +16,6 @@ Get all records involved in a booking and/or recurring appointments. MotherId ca
 * **motherId:** Appointment id of the owner of a booking
 * **recurrenceRuleId:** RecurrenceId of a recuring appointment
 
-
-
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAppointmentRecords Response
 
@@ -122,4 +119,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

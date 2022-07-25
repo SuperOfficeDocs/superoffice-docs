@@ -11,17 +11,10 @@ PUT /api/v1/Hierarchy/{domain}/{path}
 
 Update a hierarchy item from a path
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
 | path | string | Hierarchy path to item **Required** |
-
-
 
 ## Request Headers
 
@@ -37,9 +30,9 @@ Update a hierarchy item from a path
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The hierarchy node to update. 
+The hierarchy node to update.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +47,9 @@ The hierarchy node to update.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-
 ## Response: object
 
 Folder structures
-
-
 
 Carrier object for HierarchyEntity.
 Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

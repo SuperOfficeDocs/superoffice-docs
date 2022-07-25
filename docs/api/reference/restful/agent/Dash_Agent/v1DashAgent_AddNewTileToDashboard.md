@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/AddNewTileToDashboard
 
 Add a new tile to a dashboard with next rank
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Add a new tile to a dashboard with next rank
 ```http
 POST /api/v1/Agents/Dash/AddNewTileToDashboard?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/Dash/AddNewTileToDashboard?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DashboardId, DashTileDefinition 
+DashboardId, DashTileDefinition
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 | DashTileDefinition |  | Dashboard Tile definition <br /> Carrier object for DashTileDefinition. Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>. |
 
-
 ## Response: object
 
 Dashboard Tile configuration
-
-
 
 Carrier object for DashTile.
 Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.GetCu
 
 This method will get the URL for the external access to the customer center
 
-
 **Returns:** The URL to the customer center, without any actions
-
 
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCustomerUrl Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

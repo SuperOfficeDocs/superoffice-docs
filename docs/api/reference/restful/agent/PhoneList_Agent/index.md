@@ -6,9 +6,6 @@ title: PhoneList_Agent
 /api/v1/PhoneList/Agent
 ```
 
-
-
-
 * [POST Agents/PhoneList/Search](v1PhoneListAgent_Search.md)
 
 * [POST Agents/PhoneList/SearchWithPreferences](v1PhoneListAgent_SearchWithPreferences.md)

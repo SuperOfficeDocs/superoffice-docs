@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SaveListEntityByName
 
 Save a ListEntity resolved by the provided name.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save a ListEntity resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveListEntityByName?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/List/SaveListEntityByName?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name, ListEntity 
+Name, ListEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | ListEntity |  | The list entity contains information about a specific list <br /> Carrier object for ListEntity. Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
 ## Response: object
 
 The list entity contains information about a specific list
-
-
 
 Carrier object for ListEntity.
 Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

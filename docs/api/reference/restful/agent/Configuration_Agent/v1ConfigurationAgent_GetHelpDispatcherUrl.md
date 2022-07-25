@@ -11,12 +11,6 @@ POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl
 
 Will get the GetHelpDispatcherUrl used by the help system
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Will get the GetHelpDispatcherUrl used by the help system
 ```http
 POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,17 +34,13 @@ POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

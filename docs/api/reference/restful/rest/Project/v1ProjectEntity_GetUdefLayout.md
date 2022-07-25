@@ -13,11 +13,6 @@ Current ProjectEntity user-defined field layout.
 
 May be different from the published version.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +26,7 @@ May be different from the published version.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

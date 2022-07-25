@@ -13,10 +13,6 @@ Get a CLOB (limited to a reasonable size by the mechanics of Web Services) accor
 
 Existing data, if any, will be overwritten. Overwrite with a blank value to delete.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ Existing data, if any, will be overwritten. Overwrite with a blank value to dele
 POST /api/v1/Agents/BLOB/SetAppData?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +32,16 @@ POST /api/v1/Agents/BLOB/SetAppData?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Key, Data 
+Key, Data
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string |  |
 | Data | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

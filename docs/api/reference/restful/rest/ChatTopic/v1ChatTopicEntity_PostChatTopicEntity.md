@@ -13,10 +13,6 @@ Creates a new ChatTopicEntity
 
 Calls the Chat agent service SaveChatTopicEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Chat agent service SaveChatTopicEntity.
 ```http
 POST /api/v1/ChatTopic?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/ChatTopic?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ChatTopicEntity to be saved. 
+The ChatTopicEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,12 +73,9 @@ The ChatTopicEntity to be saved.
 | OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 
-
 ## Response: object
 
 Chat topics define who is assigned, when the channel is open for business, and look of the chat widget.
-
-
 
 ChatTopicEntity entity with API _Links added.
 

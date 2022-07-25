@@ -11,13 +11,6 @@ POST /api/v1/Agents/Person/SavePersonEntity
 
 Updates the existing PersonEntity or creates a new PersonEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing PersonEntity or creates a new PersonEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The PersonEntity to be saved. 
+The PersonEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,10 +95,7 @@ The PersonEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.PersonEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,17 +11,10 @@ POST /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageC
 
 Create a new document template language based on an existing template
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The id of the document template **Required** |
 | languageCode | string | The language code ('en-US, 'nb-NO', etc) **Required** |
-
-
 
 ## Request Headers
 
@@ -31,9 +24,7 @@ Create a new document template language based on an existing template
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

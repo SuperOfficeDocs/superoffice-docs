@@ -39,4 +39,3 @@ Download [WSDL file for Services86/Archive](../Services86-Archive.md) if you nee
 * [SetChosenColumns](SetChosenColumns.md)
 * [SetChosenEntities](SetChosenEntities.md)
 * [SetColumnWidths](SetColumnWidths.md)
-

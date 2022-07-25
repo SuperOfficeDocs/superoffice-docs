@@ -18,7 +18,6 @@ Save a user group.  Set UserGroup.Deleted to mark a user group as deleted and in
 
 **Returns:** UserGroup as saved to the database
 
-
 [WSDL file for Services87/User](../Services87-User.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveUserGroup Response
 
 ```xml
@@ -84,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

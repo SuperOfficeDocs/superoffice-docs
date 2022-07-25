@@ -15,9 +15,7 @@ Loading default values into a new CRMScriptEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 <br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-
 **Returns:** New CRMScriptEntity with default values
-
 
 [WSDL file for Services86/CRMScript](../Services86-CRMScript.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultCRMScriptEntity Response
 
@@ -81,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

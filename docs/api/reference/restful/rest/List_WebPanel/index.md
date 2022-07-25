@@ -6,9 +6,6 @@ title: List_WebPanel
 /api/v1/List/WebPanel
 ```
 
-
-
-
 * [GET List/WebPanel](v1WebPanelEntityList_GetListDefinition.md)
 
 * [PUT List/WebPanel](v1WebPanelEntityList_SetListDefinition.md)

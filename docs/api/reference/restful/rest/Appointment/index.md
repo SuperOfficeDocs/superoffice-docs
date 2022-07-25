@@ -6,9 +6,6 @@ title: Appointment
 /api/v1/Appointment
 ```
 
-
-
-
 * [GET Appointment/default](v1AppointmentEntity_DefaultAppointmentEntity.md)
 
 * [GET Appointment](v1AppointmentEntity_GetAll.md)

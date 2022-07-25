@@ -19,7 +19,6 @@ Get an access token based on the current user's session.
 
 **Returns:** An access token. "8A:xyz123=="
 
-
 [WSDL file for Services87/User](../Services87-User.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetAccessToken Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

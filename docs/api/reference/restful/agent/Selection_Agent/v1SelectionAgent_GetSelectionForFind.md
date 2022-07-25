@@ -13,10 +13,6 @@ Obtain a selection for the given entity, for the current user, of type WorkingSe
 
 Optionally populate criteria from the TypicalSearches system
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Optionally populate criteria from the TypicalSearches system
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/Selection/GetSelectionForFind?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EntityName, TypicalSearchId 
+EntityName, TypicalSearchId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 | TypicalSearchId | int32 |  |
 
-
 ## Response: object
 
 Provider name and selection id for a Find temporary selection
-
-
 
 Carrier object for SelectionForFind.
 Services for the SelectionForFind Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.

@@ -13,14 +13,9 @@ Gets a TicketStatusEntity list item.
 
 Calls the List agent service GetTicketStatusEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketStatusEntity to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +30,9 @@ Calls the List agent service GetTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Entity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.
-
-
 
 Carrier object for TicketStatusEntity.
 Services for the TicketStatusEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

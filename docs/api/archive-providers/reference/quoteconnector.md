@@ -20,11 +20,13 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.QuoteConnectorProvider">SuperOffice.CRM.ArchiveLists.QuoteConnectorProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"connector"|[??Connector]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |name| *None* |Name: Name (from code) of the Quote Connector| x |
@@ -45,7 +47,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

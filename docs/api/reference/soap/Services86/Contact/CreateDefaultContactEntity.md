@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.CreateDefau
 Loading default values into a new ContactEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New ContactEntity with default values
-
 
 [WSDL file for Services86/Contact](../Services86-Contact.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultContactEntity Response
 
@@ -404,4 +401,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

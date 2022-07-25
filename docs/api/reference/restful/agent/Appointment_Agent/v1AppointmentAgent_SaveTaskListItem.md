@@ -11,13 +11,6 @@ POST /api/v1/Agents/Appointment/SaveTaskListItem
 
 Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing TaskListItem or creates a new TaskListItem if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The TaskListItem to be saved. 
+The TaskListItem to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +44,6 @@ The TaskListItem to be saved.
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-
 
 ## Response: object
 

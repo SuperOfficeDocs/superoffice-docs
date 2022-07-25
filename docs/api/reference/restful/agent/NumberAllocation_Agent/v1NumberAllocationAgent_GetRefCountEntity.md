@@ -11,12 +11,6 @@ POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 
 Gets a RefCountEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a RefCountEntity object.
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=783
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 A refcount entity for a number allocation
-
-
 
 Carrier object for RefCountEntity.
 Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>.

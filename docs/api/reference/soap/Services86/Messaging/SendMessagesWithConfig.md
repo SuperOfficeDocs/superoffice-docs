@@ -20,7 +20,6 @@ Send an array of messages using given config
 
 **Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
 
-
 [WSDL file for Services86/Messaging](../Services86-Messaging.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -69,7 +68,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendMessagesWithConfig Response
 
 ```xml
@@ -96,4 +94,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

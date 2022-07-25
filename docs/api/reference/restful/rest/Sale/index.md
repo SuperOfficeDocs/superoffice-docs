@@ -6,9 +6,6 @@ title: Sale
 /api/v1/Sale
 ```
 
-
-
-
 * [GET Sale/default](v1SaleEntity_DefaultSaleEntity.md)
 
 * [GET Sale](v1SaleEntity_GetAll.md)

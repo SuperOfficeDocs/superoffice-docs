@@ -13,14 +13,9 @@ Updates the existing ConsentSource
 
 Calls the List agent service SaveConsentSource.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ConsentSource to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ Calls the List agent service SaveConsentSource.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of ConsentSource to be saved. 
+The details of ConsentSource to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +44,6 @@ The details of ConsentSource to be saved.
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-
 
 ## Response: object
 

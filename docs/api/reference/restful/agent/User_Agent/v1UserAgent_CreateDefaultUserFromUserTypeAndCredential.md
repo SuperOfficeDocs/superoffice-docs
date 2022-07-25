@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 
 Creates a PersonEntity with default values based on the contactId and credentials.
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Creates a PersonEntity with default values based on the contactId and credential
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UserType, ContactId, CredentialType, CredentialValue, CredentialDisplayValue 
+UserType, ContactId, CredentialType, CredentialValue, CredentialDisplayValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,12 +49,9 @@ UserType, ContactId, CredentialType, CredentialValue, CredentialDisplayValue
 | CredentialValue | string |  |
 | CredentialDisplayValue | string |  |
 
-
 ## Response: object
 
 SuperOffice User, with login credentials and an associated person.
-
-
 
 Carrier object for User.
 Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetAsso
 
 ## GetAssociatesDiary
 
-
-
-* **associateIds:** 
-* **startTime:** 
-* **endTime:** 
-
-
+* **associateIds:**
+* **startTime:**
+* **endTime:**
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -54,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAssociatesDiary Response
 
@@ -127,4 +122,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

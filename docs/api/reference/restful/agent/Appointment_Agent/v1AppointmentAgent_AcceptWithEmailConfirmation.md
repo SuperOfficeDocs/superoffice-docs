@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/AcceptWithEmailConfirmation
 
 Accepting an appointment invitation and send an email confirmation to the meeting organizer.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Accepting an appointment invitation and send an email confirmation to the meetin
 POST /api/v1/Agents/Appointment/AcceptWithEmailConfirmation?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Appointment/AcceptWithEmailConfirmation?$select=name,departm
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentId, UpdateMode 
+AppointmentId, UpdateMode
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 | UpdateMode | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -15,8 +15,6 @@ Deletes the ForeignAppEntity
 
 * **foreignAppEntityId:** The identity of the ForeignAppEntity
 
-
-
 [WSDL file for Services84/ForeignSystem](../Services84-ForeignSystem.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteForeignAppEntity Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

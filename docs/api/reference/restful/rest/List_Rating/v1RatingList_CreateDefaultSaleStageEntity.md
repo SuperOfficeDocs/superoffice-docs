@@ -11,13 +11,6 @@ GET /api/v1/List/Rating/Items/Default
 
 Gets a default SaleStageEntity list item.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +24,9 @@ Gets a default SaleStageEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 This entity represents a sale stage with a default percentage rating.
-
-
 
 Carrier object for SaleStageEntity.
 Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

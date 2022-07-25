@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetProductFromDbId
 
 Get a product with the given database id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a product with the given database id
 ```http
 POST /api/v1/Agents/Quote/GetProductFromDbId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Quote/GetProductFromDbId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProductId 
+ProductId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProductId | int32 |  |
 
-
 ## Response: object
 
 Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
-
-
 
 Carrier object for Product.
 Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

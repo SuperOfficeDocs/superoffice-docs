@@ -6,9 +6,6 @@ title: Appointment_Agent
 /api/v1/Appointment/Agent
 ```
 
-
-
-
 * [POST Agents/Appointment/GetSuggestedAppointmentEntity](v1AppointmentAgent_GetSuggestedAppointmentEntity.md)
 
 * [POST Agents/Appointment/GetTaskListItem](v1AppointmentAgent_GetTaskListItem.md)

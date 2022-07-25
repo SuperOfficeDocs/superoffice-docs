@@ -17,7 +17,6 @@ Returning all phones that belong to a person, ordered by the phone type.
 
 **Returns:** An array of Phones
 
-
 [WSDL file for Services84/Person](../Services84-Person.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPhones Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

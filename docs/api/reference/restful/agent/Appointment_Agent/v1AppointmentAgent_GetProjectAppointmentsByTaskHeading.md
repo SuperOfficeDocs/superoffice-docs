@@ -13,10 +13,6 @@ Method that returns a specified number of appointments of a specific appointment
 
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The appointments belong to the project specified.  Task represents the different
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId, StartTime, EndTime, Count, TaskHeadingId 
+ProjectId, StartTime, EndTime, Count, TaskHeadingId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +49,7 @@ ProjectId, StartTime, EndTime, Count, TaskHeadingId
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

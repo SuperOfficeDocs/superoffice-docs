@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignDevice
 
 Deletes a foreign device from an application
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes a foreign device from an application
 POST /api/v1/Agents/ForeignSystem/DeleteForeignDevice?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignDevice?$select=name,department,ca
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ForeignDevice, ApplicationName 
+ForeignDevice, ApplicationName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <br /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 | ApplicationName | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -15,11 +15,10 @@ so.envir:
 ---
 
 # "dashboardtile" MDO List
+
 MDO list provider for Dashboard tiles
 If the DashboardTileEntityType parameter is given in the ExtraInfo, only this type will be shown in list, so no tree view in that case.
 Example: DashboardTileEntityType=Company
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DashboardTileListProvider">DashboardTileListProvider</see> class.
 The name of the MDO list is 'dashboardtile'.
@@ -32,10 +31,6 @@ The name of the MDO list is 'dashboardtile'.
 
 Separator: &
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -47,6 +42,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashboardtile", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,7 +56,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

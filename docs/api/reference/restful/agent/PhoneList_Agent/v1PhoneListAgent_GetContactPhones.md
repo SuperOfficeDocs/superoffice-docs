@@ -13,10 +13,6 @@ Returns an array of phone list items for all the persons belonging to a contact 
 
 The in-parameter must be a valid contact-id.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The in-parameter must be a valid contact-id.
 ```http
 POST /api/v1/Agents/PhoneList/GetContactPhones?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +37,15 @@ POST /api/v1/Agents/PhoneList/GetContactPhones?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId 
+ContactId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

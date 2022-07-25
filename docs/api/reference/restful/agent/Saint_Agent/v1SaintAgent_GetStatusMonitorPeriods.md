@@ -11,12 +11,6 @@ POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 
 Returns the StatusMonitorPeriods entity.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns the StatusMonitorPeriods entity.
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Agents/Saint/GetStatusMonitorPeriods?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Obsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors
-
-
 
 Carrier object for StatusMonitorPeriods.
 Services for the StatusMonitorPeriods Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.

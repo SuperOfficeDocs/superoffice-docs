@@ -13,10 +13,6 @@ POST /api/v1/Agents/Chat/PickUpChatSession
 
 The welcome message is sent to the customer. Returns NULL if session was not in queue.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The welcome message is sent to the customer. Returns NULL if session was not in 
 ```http
 POST /api/v1/Agents/Chat/PickUpChatSession?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/Chat/PickUpChatSession?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ChatSessionId 
+ChatSessionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 
-
 ## Response: object
 
 Chat sessions belong to a chat topic, and contain messages to/from users
-
-
 
 Carrier object for ChatSessionEntity.
 Services for the ChatSessionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

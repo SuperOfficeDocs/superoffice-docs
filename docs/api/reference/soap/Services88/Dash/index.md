@@ -49,4 +49,3 @@ Download [WSDL file for Services88/Dash](../Services88-Dash.md) if you need to g
 * [SaveDashTileDefinition](SaveDashTileDefinition.md)
 * [SaveDashTileHtmlList](SaveDashTileHtmlList.md)
 * [SaveDashTiles](SaveDashTiles.md)
-

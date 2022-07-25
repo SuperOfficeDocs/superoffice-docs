@@ -18,7 +18,6 @@ Get an e-mail based on the provided DocumentEntity
 
 **Returns:** The e-mail
 
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -301,7 +300,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateEMailFromDocumentEntity Response
 
 ```xml
@@ -473,4 +471,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

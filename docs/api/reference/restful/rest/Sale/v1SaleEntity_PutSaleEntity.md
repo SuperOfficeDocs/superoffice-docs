@@ -11,15 +11,9 @@ PUT /api/v1/Sale/{id}
 
 Updates the existing SaleEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing SaleEntity
 ```http
 PUT /api/v1/Sale/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Sale/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SaleEntity to be saved. 
+The SaleEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,12 +90,9 @@ The SaleEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
 
 The Sale Entity contains the sale amount, currency, and sale members. Sales are linked to contacts, persons, and/or projects.
-
-
 
 SaleEntity entity with API _Links added.
 

@@ -18,7 +18,6 @@ Get appointment data contained in the emails iCal attachment
 
 **Returns:** Appointment data
 
-
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetEmailAppointment Response
 
@@ -132,4 +130,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

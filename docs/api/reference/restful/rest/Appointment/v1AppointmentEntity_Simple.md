@@ -13,14 +13,9 @@ A simple Appointment object.
 
 This is a simpler, smaller variation of the full AppointmentEntity. Calls the Appointment agent service GetAppointment.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Appointment to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +30,9 @@ This is a simpler, smaller variation of the full AppointmentEntity. Calls the Ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Simple read-only appointment data.
-
-
 
 Carrier object for Appointment.
 Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.

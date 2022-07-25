@@ -17,7 +17,6 @@ Returns all fields needed to connect to the given connector
 
 **Returns:** The fields
 
-
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetConfigurationFields Response
 
@@ -84,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

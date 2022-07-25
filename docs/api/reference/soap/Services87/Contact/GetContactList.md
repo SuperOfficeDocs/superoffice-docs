@@ -17,7 +17,6 @@ Gets an array of Contact objects.
 
 **Returns:** Array of Contact objects
 
-
 [WSDL file for Services87/Contact](../Services87-Contact.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetContactList Response
 
@@ -136,4 +134,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

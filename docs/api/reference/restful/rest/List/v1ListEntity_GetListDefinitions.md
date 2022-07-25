@@ -11,12 +11,6 @@ GET /api/v1/List
 
 Get a list of the lists - built-in and user-defined.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a list of the lists - built-in and user-defined.
 ```http
 GET /api/v1/List?includeDeleted=False
 ```
-
 
 ## Request Headers
 
@@ -41,10 +34,7 @@ GET /api/v1/List?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

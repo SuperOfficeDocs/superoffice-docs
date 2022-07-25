@@ -11,16 +11,9 @@ GET /api/v1/License/User/{associateId}
 
 Obtain information about associate module licenses
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | Associate id to check for associate module licenses **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Obtain information about associate module licenses
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

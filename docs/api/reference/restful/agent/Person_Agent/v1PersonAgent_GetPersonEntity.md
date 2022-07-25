@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/GetPersonEntity
 
 Gets a PersonEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a PersonEntity object.
 POST /api/v1/Agents/Person/GetPersonEntity?personEntityId=179
 POST /api/v1/Agents/Person/GetPersonEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,10 +36,7 @@ POST /api/v1/Agents/Person/GetPersonEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

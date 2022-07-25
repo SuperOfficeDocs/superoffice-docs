@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/CreateDefaultFromCredential
 
 Creates a PersonEntity with default values based on the contactId and credentials.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates a PersonEntity with default values based on the contactId and credential
 ```http
 POST /api/v1/Agents/Person/CreateDefaultFromCredential?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Person/CreateDefaultFromCredential?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, CredentialType, CredentialValue, CredentialDisplayValue 
+ContactId, CredentialType, CredentialValue, CredentialDisplayValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,10 +46,7 @@ ContactId, CredentialType, CredentialValue, CredentialDisplayValue
 | CredentialValue | string |  |
 | CredentialDisplayValue | string |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

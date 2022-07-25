@@ -11,12 +11,6 @@ POST /api/v1/Agents/NumberAllocation/SetNumberEachTemplate
 
 Saves true or false if Automatically create new counters for new document templates
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Saves true or false if Automatically create new counters for new document templa
 POST /api/v1/Agents/NumberAllocation/SetNumberEachTemplate?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/NumberAllocation/SetNumberEachTemplate?$select=name,departme
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SetValue 
+SetValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SetValue | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

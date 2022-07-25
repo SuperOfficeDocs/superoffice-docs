@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/CreateAndAcceptWithEmailConfirmation
 
 Creating an appointment from an emailItem invitation and accepting it with email confirmation to the meeting organizer.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Creating an appointment from an emailItem invitation and accepting it with email
 POST /api/v1/Agents/Appointment/CreateAndAcceptWithEmailConfirmation?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Appointment/CreateAndAcceptWithEmailConfirmation?$select=nam
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EmailItemId, UpdateMode 
+EmailItemId, UpdateMode
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailItemId | int32 |  |
 | UpdateMode | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

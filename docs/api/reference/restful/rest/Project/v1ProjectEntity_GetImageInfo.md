@@ -13,14 +13,9 @@ Get the Blob that describes the given project's picture.
 
 The actual bitmap is accessible via /api/Services80/project/123/image/content.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | projectId | int32 | Project id **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +29,6 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

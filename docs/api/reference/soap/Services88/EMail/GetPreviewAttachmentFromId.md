@@ -21,7 +21,6 @@ Retrieve an attachment from an e-mail. The returned data is intended to be use f
 
 **Returns:** The attachment
 
-
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPreviewAttachmentFromId Response
 
 ```xml
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

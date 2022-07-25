@@ -17,7 +17,6 @@ Get License from the license server for a particular module owner.
 
 **Returns:** License from the database, from the license server and with usage.
 
-
 [WSDL file for Services88/License](../Services88-License.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetLicenseStatusFromLicenseServer Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

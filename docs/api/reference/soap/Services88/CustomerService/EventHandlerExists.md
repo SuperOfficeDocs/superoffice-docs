@@ -17,7 +17,6 @@ Check if an eventhandler exists for a given enum
 
 **Returns:** True if it exists
 
-
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## EventHandlerExists Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

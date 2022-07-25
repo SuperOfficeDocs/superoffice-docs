@@ -17,7 +17,6 @@ Get the shop URL for the specified module owner. This can be used to redirect us
 
 **Returns:** The URL which contains the shop for the specified module owner.
 
-
 [WSDL file for Services84/License](../Services84-License.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetShopUrl Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

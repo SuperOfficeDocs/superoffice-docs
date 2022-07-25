@@ -19,7 +19,7 @@ While most data access layers require only database credentials to access to dat
 
 The application must use the `SuperOffice.SoSession` class, which is an `IPrincipal` container with overloaded static `Authenticate` methods to perform authentication.
 
-## SoSession.Authenticate Overloads:
+## SoSession.Authenticate Overloads
 
 * SoSession.Authenticate()
 * SoSession.Authenticate("username", "password")
@@ -76,7 +76,7 @@ using (SoSession session = SoSession.Authenticate("UserName","P@55w0rd"))
 
 ## Authenticate with SoCredentials
 
-SoCredentials contains only one property, Ticket. **Ticket** represents a stored credential record that can be used to authenticate a user. Tickets have the "7T:" prefix, and is generated in onsite by the [<usec>][6] template variable.
+SoCredentials contains only one property, Ticket. **Ticket** represents a stored credential record that can be used to authenticate a user. Tickets have the "7T:" prefix, and is generated in onsite by the [\<usec\>][6] template variable.
 
 In the online environment, tickets are issues by the [System User flow][7].
 

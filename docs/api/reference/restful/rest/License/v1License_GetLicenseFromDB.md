@@ -11,16 +11,9 @@ GET /api/v1/License/{ownerName}
 
 Get license, with usage, as it is stored in the database for one particular module owner.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ownerName | string | Name of the module owner. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Get license, with usage, as it is stored in the database for one particular modu
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

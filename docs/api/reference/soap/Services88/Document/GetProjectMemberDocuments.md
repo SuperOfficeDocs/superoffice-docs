@@ -20,7 +20,6 @@ Method that returns a specified number of document appointments within a time ra
 
 **Returns:** Array of Appointments.
 
-
 [WSDL file for Services88/Document](../Services88-Document.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetProjectMemberDocuments Response
 
@@ -98,4 +96,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

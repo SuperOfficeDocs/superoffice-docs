@@ -17,8 +17,6 @@ Remove a credentials entry for authenticated user.
 * **type:** Type of credential(Ex: "imap", "smtp")
 * **publicValue:** PublicValue field of credentials to remove.
 
-
-
 [WSDL file for Services88/User](../Services88-User.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveUntrustedCredentials Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

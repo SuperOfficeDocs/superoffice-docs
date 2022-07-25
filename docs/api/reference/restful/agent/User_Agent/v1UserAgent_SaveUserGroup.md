@@ -13,12 +13,7 @@ Save a user group.
 
 Set UserGroup.Deleted to mark a user group as deleted and invisible in the user interface.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -29,7 +24,6 @@ Set UserGroup.Deleted to mark a user group as deleted and invisible in the user 
 ```http
 POST /api/v1/Agents/User/SaveUserGroup?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,20 +39,17 @@ POST /api/v1/Agents/User/SaveUserGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UserGroup 
+UserGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserGroup |  | The main user group that this user belongs to <br /> Carrier object for UserGroup. Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-
 ## Response: object
 
 The main user group that this user belongs to
-
-
 
 Carrier object for UserGroup.
 Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

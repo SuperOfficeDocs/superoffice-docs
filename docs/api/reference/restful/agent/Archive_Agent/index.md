@@ -6,9 +6,6 @@ title: Archive_Agent
 /api/v1/Archive/Agent
 ```
 
-
-
-
 * [POST Agents/Archive/CreateDefaultArchiveListResult](v1ArchiveAgent_CreateDefaultArchiveListResult.md)
 
 * [POST Agents/Archive/GetActivityFilter](v1ArchiveAgent_GetActivityFilter.md)

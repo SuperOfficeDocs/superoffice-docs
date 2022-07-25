@@ -20,7 +20,6 @@ Get a person from the provided information. If the person does not exist, it wil
 
 **Returns:** The results of the resolve-operation.
 
-
 [WSDL file for Services88/Person](../Services88-Person.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## ResolvePersonFromInfo Response
 
@@ -534,4 +532,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

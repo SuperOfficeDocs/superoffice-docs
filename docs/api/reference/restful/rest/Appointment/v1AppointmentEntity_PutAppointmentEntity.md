@@ -11,15 +11,9 @@ PUT /api/v1/Appointment/{id}
 
 Updates the existing AppointmentEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AppointmentEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing AppointmentEntity
 ```http
 PUT /api/v1/Appointment/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Appointment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The AppointmentEntity to be saved. 
+The AppointmentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,12 +101,9 @@ The AppointmentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
 
 Appointments appear in the diary, and have links to a Contact/Person and possibly a Project or Sale. They have start and end time+date.
-
-
 
 AppointmentEntity entity with API _Links added.
 

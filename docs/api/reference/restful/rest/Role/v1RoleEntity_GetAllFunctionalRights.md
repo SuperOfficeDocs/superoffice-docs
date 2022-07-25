@@ -11,19 +11,13 @@ GET /api/v1/Role/{roleType}/FunctionRight
 
 Get a list of all functional rights for the given type of role.
 
-MDO List name = 'FunctionRights', extra='roleType=0' 
+MDO List name = 'FunctionRights', extra='roleType=0'
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleType | Enum: Employee, ExternalUser, Anonymous, System | Type of role (Employee/External/Anonymous/System) **Required** |
-
-
 
 ## Request Headers
 
@@ -38,10 +32,7 @@ MDO List name = 'FunctionRights', extra='roleType=0'
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

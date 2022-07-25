@@ -15,6 +15,7 @@ so.envir:
   - "online"
 ---
 
+<!-- markdownlint-disable-file MD033 -->
 # "Participants"
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.ParticipantsProvider">SuperOffice.CRM.ArchiveLists.ParticipantsProvider</see> inside NetServer's SODatabase assembly.
@@ -81,6 +82,7 @@ and resourceRestrictionId, and internally sort out which is which. Similarly, if
 in through the externalPersonRestrictionId are actually associates, then that too will be sorted out.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"associate"|Associate|
@@ -88,6 +90,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |"externalPerson"|External users|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |ownerAssociateIdInformation|associate|Owner's Associate ID: Associate ID of the user specified as owner of the follow-up|  |
@@ -227,7 +230,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetDocumentTemplatesTasks
 
 The appointment's task is a Document template item when the appointment is a document.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ The appointment's task is a Document template item when the appointment is a doc
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,10 +34,7 @@ POST /api/v1/Agents/List/GetDocumentTemplatesTasks?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

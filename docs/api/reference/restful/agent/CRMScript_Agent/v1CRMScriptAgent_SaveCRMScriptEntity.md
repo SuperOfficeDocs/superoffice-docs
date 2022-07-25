@@ -11,14 +11,7 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty
 
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The CRMScriptEntity to be saved. 
+The CRMScriptEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,12 +45,9 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-
 ## Response: object
 
 CRM Scripts - stored in the ejScript table, including source code.
-
-
 
 Carrier object for CRMScriptEntity.
 Services for the CRMScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.

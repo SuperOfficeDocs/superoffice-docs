@@ -261,7 +261,7 @@ Person fields. Key constants are in ``BulkUpdateSystem.PersonFieldValueKeys`.
                 <p>Values[2] = (int) consentSourceId<br>Values[3] = (string) comment</p>
                 <p>Remove:</p>
                 <p>Clears all existing rows</p>
-                <p>Values[0] = *not used<br>Values[1] = *not used<br>Values[2] = *not used<br>Values[3] = *not
+                <p>Values[0] = *not used<br>Values[1] =*not used<br>Values[2] = *not used<br>Values[3] =*not
                     used<br>Values[4] = (int) consentPurposeId</p>
             </td>
             <td>ConsentPersons</td>

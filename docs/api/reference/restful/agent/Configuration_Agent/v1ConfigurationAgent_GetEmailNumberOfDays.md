@@ -9,14 +9,6 @@ id: v1ConfigurationAgent_GetEmailNumberOfDays
 POST /api/v1/Agents/Configuration/GetEmailNumberOfDays
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Configuration/GetEmailNumberOfDays
 ```http
 POST /api/v1/Agents/Configuration/GetEmailNumberOfDays?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,17 +32,13 @@ POST /api/v1/Agents/Configuration/GetEmailNumberOfDays?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

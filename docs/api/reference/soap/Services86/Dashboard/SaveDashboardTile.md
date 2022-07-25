@@ -17,7 +17,6 @@ Updates the existing DashboardTile or creates a new DashboardTile if the id para
 
 **Returns:** New or updated DashboardTile
 
-
 [WSDL file for Services86/Dashboard](../Services86-Dashboard.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -97,7 +96,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SaveDashboardTile Response
 
@@ -180,4 +178,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

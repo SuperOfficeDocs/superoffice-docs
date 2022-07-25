@@ -58,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetKeyByValue Response
 
 ```xml
@@ -87,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

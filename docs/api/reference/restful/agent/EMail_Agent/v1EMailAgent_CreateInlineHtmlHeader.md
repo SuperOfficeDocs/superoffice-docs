@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
 
 Create Outlook style HTML header to use in for instance reply entities and when printing
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Create Outlook style HTML header to use in for instance reply entities and when 
 ```http
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,25 +37,21 @@ POST /api/v1/Agents/EMail/CreateInlineHtmlHeader?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Email 
+Email
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Email |  | All information about an e-mail <br /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

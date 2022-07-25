@@ -18,7 +18,6 @@ Get all functional rights for the given role. Functional rights not set on the r
 
 **Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
 
-
 [WSDL file for Services86/User](../Services86-User.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetFunctionalRights Response
 
@@ -128,4 +126,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

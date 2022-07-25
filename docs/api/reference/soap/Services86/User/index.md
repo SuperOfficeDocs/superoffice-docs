@@ -95,4 +95,3 @@ Download [WSDL file for Services86/User](../Services86-User.md) if you need to g
 * [SetGeneratedPasswordFromName](SetGeneratedPasswordFromName.md)
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
-

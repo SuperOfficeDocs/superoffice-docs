@@ -11,15 +11,9 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages
 
 Get all or some of the messages in a chat session
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to reset **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get all or some of the messages in a chat session
 ```http
 GET /api/v1/ChatSession/{chatSessionId}/Messages?after=568
 ```
-
 
 ## Request Headers
 
@@ -45,10 +38,7 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages?after=568
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment
 
 Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Toggle the 'included' state of a quote version attachment; will throw exceptions
 ```http
 POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId, DocumentId, Include 
+QuoteVersionId, DocumentId, Include
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +45,13 @@ QuoteVersionId, DocumentId, Include
 | DocumentId | int32 |  |
 | Include | bool |  |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

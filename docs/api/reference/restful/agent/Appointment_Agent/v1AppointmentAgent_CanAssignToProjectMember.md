@@ -9,14 +9,6 @@ id: v1AppointmentAgent_CanAssignToProjectMember
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Appointment/CanAssignToProjectMember
 ```http
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,26 +33,22 @@ POST /api/v1/Agents/Appointment/CanAssignToProjectMember?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId, SuggestedAppointmentId 
+ProjectId, SuggestedAppointmentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 | SuggestedAppointmentId | int32 |  |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

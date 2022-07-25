@@ -11,12 +11,6 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 
 Update users roles in a chat topic
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Update users roles in a chat topic
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ChatTopicId, Useragents 
+ChatTopicId, Useragents
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Useragents | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

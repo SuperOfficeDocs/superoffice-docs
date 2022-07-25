@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 
 Make stuff similar to what happens in the win client
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Make stuff similar to what happens in the win client
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Info, SelectedListId 
+Info, SelectedListId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <br /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
 | SelectedListId | int32 |  |
 
-
 ## Response: object
 
 Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
-
-
 
 Carrier object for UserDefinedFieldInfo.
 Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.

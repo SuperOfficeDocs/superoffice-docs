@@ -11,12 +11,6 @@ POST /api/v1/Agents/AI/TrainCategoryGuesser
 
 The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ The category guesser training API will be called with an array of Categorization
 ```http
 POST /api/v1/Agents/AI/TrainCategoryGuesser?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/AI/TrainCategoryGuesser?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, MaxItems, MaxTextLength 
+SelectionId, MaxItems, MaxTextLength
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +45,13 @@ SelectionId, MaxItems, MaxTextLength
 | MaxItems | int32 |  |
 | MaxTextLength | int32 |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

@@ -13,14 +13,9 @@ Updates the existing SaleTypeEntity
 
 Calls the List agent service SaveSaleTypeEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of SaleTypeEntity to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ Calls the List agent service SaveSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of SaleTypeEntity to be saved. 
+The details of SaleTypeEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +59,6 @@ The details of SaleTypeEntity to be saved.
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
-
 
 ## Response: object
 

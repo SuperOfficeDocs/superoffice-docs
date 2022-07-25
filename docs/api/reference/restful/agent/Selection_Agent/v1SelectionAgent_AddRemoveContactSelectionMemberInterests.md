@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 
 Adds or removes interests on companies and persons in a selection.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Adds or removes interests on companies and persons in a selection.
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests?$select=n
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, AddCompanyInterests, RemoveCompanyInterests, AddContactInterests, RemoveContactInterests 
+SelectionId, AddCompanyInterests, RemoveCompanyInterests, AddContactInterests, RemoveContactInterests
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,9 +42,7 @@ SelectionId, AddCompanyInterests, RemoveCompanyInterests, AddContactInterests, R
 | AddContactInterests | array |  |
 | RemoveContactInterests | array |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

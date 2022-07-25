@@ -19,7 +19,6 @@ Get en e-mail based on its primary key in the DB
 
 **Returns:** The e-mail
 
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetEMail Response
 
@@ -225,4 +223,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

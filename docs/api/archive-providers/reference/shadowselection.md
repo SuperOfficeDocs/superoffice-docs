@@ -28,12 +28,14 @@ pulled from the actual selection (if it's a contact selection) or its shadow.
 Only the two ID columns are available. The row type is fixed (contact or person), and the column names are also fixed.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"contact"|[Contact]|
 |"person"|[Person]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |contactId| *None* |Contact ID: Contact (company) ID|  |
@@ -50,7 +52,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

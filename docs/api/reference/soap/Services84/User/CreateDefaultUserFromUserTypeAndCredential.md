@@ -19,8 +19,6 @@ Creates a PersonEntity with default values based on the contactId and credential
 * **credentialValue:** This is the actuall value of the credentials.  This will typically be the password or teh users SID in active directory
 * **credentialDisplayValue:** The value displayed to the user. this will typically be the users login name in active directory.
 
-
-
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultUserFromUserTypeAndCredential Response
 
@@ -202,4 +199,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

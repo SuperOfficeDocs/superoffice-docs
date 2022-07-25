@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetDepartment
 
 Gets a Department object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a Department object.
 POST /api/v1/Agents/List/GetDepartment?departmentId=777
 POST /api/v1/Agents/List/GetDepartment?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetDepartment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 a.k.a. User Group
-
-
 
 Carrier object for Department.
 Services for the Department Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

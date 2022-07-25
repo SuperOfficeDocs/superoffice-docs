@@ -18,7 +18,6 @@ Gets a particular document, and tries to parse it, and returns it in MIME/RFC822
 
 **Returns:** A document-stream representing the document in MIME/RFC822 format.
 
-
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetEmailDocumentAsMimeStream Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

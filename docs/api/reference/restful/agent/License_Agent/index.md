@@ -6,9 +6,6 @@ title: License_Agent
 /api/v1/License/Agent
 ```
 
-
-
-
 * [POST Agents/License/GetLicenseForAllOwnersFromDB](v1LicenseAgent_GetLicenseForAllOwnersFromDB.md)
 
 * [POST Agents/License/GetLicenseFromLicenseServer](v1LicenseAgent_GetLicenseFromLicenseServer.md)

@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "tags" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'tags'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("tags", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +46,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

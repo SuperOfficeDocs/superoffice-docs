@@ -15,7 +15,7 @@ so.envir:
 
 # UserGroupLink Table (60)
 
-Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. 
+Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup.
 
 ## Fields
 

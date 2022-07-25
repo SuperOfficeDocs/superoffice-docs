@@ -25,7 +25,6 @@ Get a page of results for an archive list, with context parameter, explicitly sp
 
 **Returns:** Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
 
-
 [WSDL file for Services85/Archive](../Services85-Archive.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -65,7 +64,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetArchiveListByColumnsWithHeaderWithContext2 Response
 
@@ -107,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

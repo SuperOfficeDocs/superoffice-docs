@@ -11,11 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.ILicenseAgent.GetLicenseF
 
 ## GetLicenseFromLicenseServer
 
-
-
-* **ownerName:** 
-
-
+* **ownerName:**
 
 [WSDL file for Services84/License](../Services84-License.md)
 
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetLicenseFromLicenseServer Response
 
@@ -224,4 +219,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -13,10 +13,6 @@ Creates a new ProjectEntity
 
 Calls the Project agent service SaveProjectEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Project agent service SaveProjectEntity.
 ```http
 POST /api/v1/Project?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Project?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ProjectEntity to be saved. 
+The ProjectEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,12 +75,9 @@ The ProjectEntity to be saved.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
-
 ## Response: object
 
 The Project Service. The service implements all services working with the Project object
-
-
 
 ProjectEntity entity with API _Links added.
 

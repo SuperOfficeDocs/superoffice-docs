@@ -20,7 +20,6 @@ Returns all webhooks, according to filter criteria
 
 **Returns:** Array of all webhooks, filtered according to given criteria.
 
-
 [WSDL file for Services87/Webhook](../Services87-Webhook.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAllWebhooks Response
 
@@ -130,4 +128,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

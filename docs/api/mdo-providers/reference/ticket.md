@@ -16,14 +16,8 @@ so.envir:
 
 # "ticket" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TicketListProvider">TicketListProvider</see> class.
 The name of the MDO list is 'ticket'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ticket", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +44,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

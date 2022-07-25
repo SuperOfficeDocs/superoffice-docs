@@ -28,6 +28,7 @@ Preferences have multiple sources: the userpreference table (<see cref="T:SuperO
 Service settings that are mapped into preferences, retrieved by <see cref="T:SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" />.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"default"|[default]|
@@ -37,6 +38,7 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 |"user"|User|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |sectionKey|string|Section!Key|  |
@@ -64,7 +66,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

@@ -6,9 +6,6 @@ title: List_Rating
 /api/v1/List/Rating
 ```
 
-
-
-
 * [GET List/Rating](v1RatingList_GetListDefinition.md)
 
 * [PUT List/Rating](v1RatingList_SetListDefinition.md)

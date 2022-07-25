@@ -13,10 +13,6 @@ Generate all the documents required to send the Quote as an email to the prospec
 
 Quote version status is not changed by this method.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Quote version status is not changed by this method.
 ```http
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Quote/GenerateQuoteDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId, EmailBodyTemplateId, AttachMainDocument, QuotedProductsTemplateId, IncludeAttachments, RawMailSubject 
+QuoteVersionId, EmailBodyTemplateId, AttachMainDocument, QuotedProductsTemplateId, IncludeAttachments, RawMailSubject
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,12 +50,9 @@ QuoteVersionId, EmailBodyTemplateId, AttachMainDocument, QuotedProductsTemplateI
 | IncludeAttachments | bool |  |
 | RawMailSubject | string |  |
 
-
 ## Response: object
 
 Prepare the documents required to publish a quote - Email, main document as pdf, quoted products as pdf, attachments
-
-
 
 Carrier object for QuotePublishDocuments.
 Services for the QuotePublishDocuments Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

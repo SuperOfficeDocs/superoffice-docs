@@ -13,14 +13,9 @@ Deletes the ShipmentMessageBlockEntity
 
 Calls the Marketing agent service DeleteShipmentMessageBlockEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageBlockEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -30,9 +25,7 @@ Calls the Marketing agent service DeleteShipmentMessageBlockEntity.
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

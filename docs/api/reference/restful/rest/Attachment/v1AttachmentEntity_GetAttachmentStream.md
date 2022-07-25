@@ -11,16 +11,9 @@ GET /api/v1/Attachment/{attachmentId}/Content
 
 Get the content of an attachment
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | attachmentId | int32 | The id of the attachment to retrieve **Required** |
-
-
 
 ## Request Headers
 
@@ -35,17 +28,13 @@ Get the content of an attachment
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
-
-
+## Response
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
-
+Response body:
 
 ## Sample Request
 

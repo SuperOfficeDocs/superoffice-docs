@@ -23,7 +23,6 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 
 **Returns:** The ForeignKey.
 
-
 [WSDL file for Services87/ForeignSystem](../Services87-ForeignSystem.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetKeyByValue Response
 
 ```xml
@@ -88,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -34,11 +34,13 @@ as well as before any ORDER BY, are applied.
 Private appointments that are not fully readable will not be shown (they are skipped), as in the Windows client
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"appointment"|Follow-up|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -585,7 +587,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

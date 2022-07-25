@@ -6,9 +6,6 @@ title: List_SelectionCategory
 /api/v1/List/SelectionCategory
 ```
 
-
-
-
 * [GET List/SelectionCategory](v1SelectionCategoryList_GetListDefinition.md)
 
 * [PUT List/SelectionCategory](v1SelectionCategoryList_SetListDefinition.md)

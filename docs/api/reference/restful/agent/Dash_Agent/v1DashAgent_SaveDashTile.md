@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dash/SaveDashTile
 
 Updates the existing DashTile or creates a new DashTile if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DashTile or creates a new DashTile if the id parameter is e
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashTile to be saved. 
+The DashTile to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,12 +38,9 @@ The DashTile to be saved.
 | Rank | int32 | Rank order |
 | DashTileDefinition |  | The tile definition entity |
 
-
 ## Response: object
 
 Dashboard Tile configuration
-
-
 
 Carrier object for DashTile.
 Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

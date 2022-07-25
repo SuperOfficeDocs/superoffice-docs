@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/GetProgramUrl
 
 This method will convert a module name into a Service URL.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ This method will convert a module name into a Service URL.
 ```http
 POST /api/v1/Agents/CustomerService/GetProgramUrl?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,26 +35,22 @@ POST /api/v1/Agents/CustomerService/GetProgramUrl?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProgramName, External 
+ProgramName, External
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgramName | string |  |
 | External | bool |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

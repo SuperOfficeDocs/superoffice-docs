@@ -13,10 +13,6 @@ Saving the current history item.
 
 This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ This history item is saved with Rank = 1, and all the remaining elements rank va
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/ViewState/SaveCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Current 
+Current
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Current |  | The usage history of the currently logged in user is represented as History objects. <br /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
 
-
 ## Response: object
 
 The usage history of the currently logged in user is represented as History objects.
-
-
 
 Carrier object for History.
 Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>.

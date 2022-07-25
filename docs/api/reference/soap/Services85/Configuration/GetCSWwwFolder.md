@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.GetCS
 
 This method will get the www folder for CS
 
-
 **Returns:** The www folder for CS
-
 
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCSWwwFolder Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

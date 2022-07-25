@@ -26,7 +26,6 @@ Deletes all specified occurrences of a key, belonging to the ForeignApp and Fore
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services84/ForeignSystem](../Services84-ForeignSystem.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -72,7 +71,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteForeignKey Response
 
 ```xml
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

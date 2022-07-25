@@ -13,13 +13,9 @@ Gets a SelectionEntity object.
 
 Calls the Selection agent service GetSelectionEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SelectionEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the Selection agent service GetSelectionEntity.
 ```http
 GET /api/v1/Selection/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,11 +40,7 @@ GET /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
-
 
 SelectionEntity entity with API _Links added.
 

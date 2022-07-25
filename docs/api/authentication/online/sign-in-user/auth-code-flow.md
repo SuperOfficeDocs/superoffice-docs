@@ -100,7 +100,7 @@ The identity provider (central-superid) will verify all the parameters, ensuring
 ### Post response
 
 [!include[auth-code-response.md](includes/auth-code-response.md)]
-  
+
 | Parameter | Description |
 |-----------|-------------|
 | `access_token` | The access token issued by the Authorization Server. |
@@ -175,16 +175,10 @@ The response contains the token type, access token, expiration in seconds, and i
 
 [!include[refresh token](../includes/refresh-token-response.md)]
 
-
 <!-- Referenced links -->
 [1]: ../index.md
 [2]: ../api.md
 [3]: ../validate-security-tokens.md
 [5]: https://tools.ietf.org/html/rfc7636
-[6]: https://www.nuget.org/packages/System.IdentityModel.Tokens.Jwt/
-[7]: https://github.com/auth0/node-jsonwebtoken
-[8]: https://jwt.io/
 
 <!-- Referenced images -->
-[img1]: media/oauth-code-flow.png
-[img2]: ../../media/id-token.png

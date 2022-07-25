@@ -11,17 +11,10 @@ PUT /api/v1/List/{udListDefinitionId}/Items/{id}
 
 Save a list item for the specified list defintion
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The identity of the list item to load **Required** |
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to save the item to. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
-
-
 
 ## Request Headers
 
@@ -37,9 +30,9 @@ Save a list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item  
+## Request Body: item
 
-The item to save 
+The item to save
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,12 +43,9 @@ The item to save
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-
 ## Response: object
 
 The list item entity contains generic list item information
-
-
 
 Carrier object for ListItemEntity.
 Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

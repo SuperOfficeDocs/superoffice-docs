@@ -398,4 +398,3 @@ so.envir:
 | [webpanelgroup](webpanelgroup.md) |List of WebPanels with visible for groups as commaseperated ids in extrainfo field|
 | [weekday](weekday.md) |MDO provider for the hard-coded list of week days.|
 | [weeknumber](weeknumber.md) |MDO provider for the hard-coded list of numbered weeks in the recurrence dialog.|
-

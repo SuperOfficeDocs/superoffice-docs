@@ -26,7 +26,6 @@ Specifying a zero recordId will remove the recordId restriction and delete all k
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -72,7 +71,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteForeignKey Response
 
 ```xml
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

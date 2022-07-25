@@ -11,13 +11,7 @@ POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 
 Get the current mappings for one connection/actor; connection+actor type = unique key
 
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get the current mappings for one connection/actor; connection+actor type = uniqu
 ```http
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,21 +37,18 @@ POST /api/v1/Agents/ErpSync/GetActorTypeMapping?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ErpConnectionId, ActorType 
+ErpConnectionId, ActorType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ActorType | string |  |
 
-
 ## Response: object
 
 Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice)
-
-
 
 Carrier object for ErpSyncActorTypeMapping.
 Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.

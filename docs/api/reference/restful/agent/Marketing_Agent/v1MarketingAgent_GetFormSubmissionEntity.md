@@ -11,12 +11,6 @@ POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 
 Gets a FormSubmissionEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a FormSubmissionEntity object.
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=662
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Content of a Form submission
-
-
 
 Carrier object for FormSubmissionEntity.
 Services for the FormSubmissionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.

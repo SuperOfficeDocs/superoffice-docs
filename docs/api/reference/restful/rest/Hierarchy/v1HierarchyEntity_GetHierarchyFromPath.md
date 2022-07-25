@@ -11,16 +11,10 @@ GET /api/v1/Hierarchy/{domain}/{path}
 
 Get a hierarchy item from a path
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
 | path | string | Hierarchy path to item **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Get a hierarchy item from a path
 ```http
 GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
-
 
 ## Request Headers
 
@@ -46,12 +39,9 @@ GET /api/v1/Hierarchy/{domain}/{path}?children=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Folder structures
-
-
 
 Carrier object for HierarchyEntity.
 Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

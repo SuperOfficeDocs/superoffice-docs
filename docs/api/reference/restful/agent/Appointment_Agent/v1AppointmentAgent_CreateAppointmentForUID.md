@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 
 Create an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Create an invitation record and an appointment with a given UID to reserve it if
 ```http
 POST /api/v1/Agents/Appointment/CreateAppointmentForUID?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Appointment/CreateAppointmentForUID?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentEntity, UID 
+AppointmentEntity, UID
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 | UID | string |  |
-
 
 ## Response: object
 

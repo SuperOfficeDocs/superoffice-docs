@@ -15,9 +15,7 @@ Loading default values into a new EMailSOInfo.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 <br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-
 **Returns:** New EMailSOInfo with default values
-
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultEMailSOInfo Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

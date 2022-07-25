@@ -13,10 +13,6 @@ Deletes all specified occurrences of a key, belonging to the ForeignApp and Fore
 
 Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ Specifying a blank table name will delete ALL keys of the given name; specifying
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +32,9 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName?$select=name,department
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,9 +45,7 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

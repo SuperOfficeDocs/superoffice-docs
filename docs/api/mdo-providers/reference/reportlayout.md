@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "reportlayout" MDO List
+
 ReportCategoryProvider creates an MDO list that consists of the values in <see cref="T:SuperOffice.Data.ReportCategory" />.
 In the MDO list the following enumeration values are omitted: All, Person and Diary.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ReportLayoutProvider">ReportLayoutProvider</see> class.
 The name of the MDO list is 'reportlayout'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("reportlayout", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,7 +54,6 @@ foreach (var item in listProvider.RootItems) {
 |6|Calendar week-7|||
 |7|Calendar month|||
 |8|Text|||
-
 
 ## Related MDO Lists
 

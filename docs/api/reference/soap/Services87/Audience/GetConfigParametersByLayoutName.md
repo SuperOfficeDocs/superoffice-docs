@@ -17,7 +17,6 @@ Gets the Audience configuration parameters belonging to a given Audience layout.
 
 **Returns:** Array of Audience configuration parameters.
 
-
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetConfigParametersByLayoutName Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

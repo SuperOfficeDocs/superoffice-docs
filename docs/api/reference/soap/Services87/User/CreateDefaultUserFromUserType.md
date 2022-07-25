@@ -18,7 +18,6 @@ Create default User providing the user type.  Only System and Anonymous users ca
 
 **Returns:** New user object with defalt values set.
 
-
 [WSDL file for Services87/User](../Services87-User.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultUserFromUserType Response
 
@@ -273,4 +271,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -20,6 +20,7 @@ As the name implies, the `List` endpoint provides access to **all lists**. The L
 ### RESTful REST endpoint
 
 The endpoint is located at the `/api/v1/list` URL. See [API reference][2] for more details.
+
 ### RESTful Agent
 
 The endpoint is located at the `/api/v1/agent/list` URL. See [API reference][3] for more details.

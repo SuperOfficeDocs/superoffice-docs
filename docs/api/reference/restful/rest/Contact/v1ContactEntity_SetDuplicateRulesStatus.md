@@ -11,13 +11,6 @@ PUT /api/v1/Contact/DuplicateRules
 
 Set which duplicate rules should be active or not
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -27,9 +20,9 @@ Set which duplicate rules should be active or not
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: rules  
+## Request Body: rules
 
-Duplicate rules to update active status for 
+Duplicate rules to update active status for
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,9 +31,7 @@ Duplicate rules to update active status for
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

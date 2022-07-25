@@ -18,8 +18,6 @@ Delete specified mail items
 * **messageServerIds:** The e-mails to handle
 * **moveToFolder:** If set, move deleted items to this folder
 
-
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -62,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Delete Response
 
 ```xml
@@ -82,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

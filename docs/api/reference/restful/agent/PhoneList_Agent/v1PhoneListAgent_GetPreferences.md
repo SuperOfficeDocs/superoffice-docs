@@ -11,12 +11,6 @@ POST /api/v1/Agents/PhoneList/GetPreferences
 
 Getting Phone List Preferences from the CRM 5 user preferences
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Getting Phone List Preferences from the CRM 5 user preferences
 ```http
 POST /api/v1/Agents/PhoneList/GetPreferences?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Agents/PhoneList/GetPreferences?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Search preferences for a phone list search
-
-
 
 Carrier object for PhoneListPreferences.
 Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>.

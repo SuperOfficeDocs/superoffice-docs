@@ -13,10 +13,6 @@ Creates a new Product
 
 Calls the Quote agent service SaveProduct.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Quote agent service SaveProduct.
 ```http
 POST /api/v1/Product?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Product?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The Product to be saved. 
+The Product to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,12 +78,9 @@ The Product to be saved.
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
 
-
 ## Response: object
 
 Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
-
-
 
 Carrier object for Product.
 Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

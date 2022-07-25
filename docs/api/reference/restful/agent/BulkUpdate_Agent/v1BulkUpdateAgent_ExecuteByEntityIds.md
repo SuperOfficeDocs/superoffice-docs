@@ -11,12 +11,6 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 
 Do the batchupdate on selected
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Do the batchupdate on selected
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FieldValueInfos, TableName, Context, Ids 
+FieldValueInfos, TableName, Context, Ids
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,17 +46,13 @@ FieldValueInfos, TableName, Context, Ids
 | Context | string |  |
 | Ids | string |  |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

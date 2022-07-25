@@ -11,17 +11,11 @@ PUT /api/v1/User/{id}
 
 Updates the existing User
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The User id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Updates the existing User
 ```http
 PUT /api/v1/User/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -48,9 +41,9 @@ PUT /api/v1/User/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The User to be saved. 
+The User to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,12 +73,9 @@ The User to be saved.
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 
-
 ## Response: object
 
 SuperOffice User, with login credentials and an associated person.
-
-
 
 User entity with API _Links added.
 

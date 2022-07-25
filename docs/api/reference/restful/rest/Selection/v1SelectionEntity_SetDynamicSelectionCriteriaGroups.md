@@ -13,14 +13,9 @@ Update the criteria for this dynamic selection.
 
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ Replaces existing criteria with the new values. This call supports multiple crit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria  
+## Request Body: criteria
 
-Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set 
+Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,10 +42,7 @@ Criteria groups defining the selection result. Empty array is legal, simply mean
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

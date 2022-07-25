@@ -6,9 +6,6 @@ title: Person
 /api/v1/Person
 ```
 
-
-
-
 * [GET Person/default](v1PersonEntity_DefaultPersonEntity.md)
 
 * [GET Person](v1PersonEntity_GetAll.md)

@@ -13,10 +13,6 @@ Get a list of custom commands valid for the specific document at this time.
 
 This information should not be cached by clients, as it may change between documents and over time.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ This information should not be cached by clients, as it may change between docum
 ```http
 POST /api/v1/Agents/Document/GetDocumentCommands?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Document/GetDocumentCommands?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId, AllowedReturnTypes 
+DocumentId, AllowedReturnTypes
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AllowedReturnTypes | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

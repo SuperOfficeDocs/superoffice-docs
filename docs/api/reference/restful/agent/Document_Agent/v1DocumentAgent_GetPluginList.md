@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/GetPluginList
 
 Get a list of installed document plugins
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a list of installed document plugins
 ```http
 POST /api/v1/Agents/Document/GetPluginList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,17 +34,13 @@ POST /api/v1/Agents/Document/GetPluginList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample Request
 

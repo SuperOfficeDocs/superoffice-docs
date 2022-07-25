@@ -13,12 +13,7 @@ Get en e-mail based on its primary key in the DB.
 
 The returned value is not sanitized.
 
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -29,7 +24,6 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,21 +39,18 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMail?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Id, IncludeAttachments 
+Id, IncludeAttachments
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | IncludeAttachments | bool |  |
 
-
 ## Response: object
 
 All information about an e-mail
-
-
 
 Carrier object for EMailEntity.
 Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

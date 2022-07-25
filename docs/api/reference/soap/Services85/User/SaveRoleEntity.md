@@ -17,7 +17,6 @@ Updates the existing RoleEntity or creates a new RoleEntity if the id parameter 
 
 **Returns:** New or updated RoleEntity
 
-
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -109,7 +108,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveRoleEntity Response
 
 ```xml
@@ -189,4 +187,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

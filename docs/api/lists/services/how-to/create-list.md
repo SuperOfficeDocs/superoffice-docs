@@ -28,7 +28,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-**Response**
+**Response:**
 
 ```json
 {
@@ -60,7 +60,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-**Response**
+**Response:**
 
 ```json
 {
@@ -93,7 +93,7 @@ Content-Type: application/json
 }
 ```
 
-**Response**
+**Response:**
 
 ```json
 Response

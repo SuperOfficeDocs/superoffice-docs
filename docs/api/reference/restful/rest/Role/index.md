@@ -6,9 +6,6 @@ title: Role
 /api/v1/Role
 ```
 
-
-
-
 * [GET Role/default](v1RoleEntity_DefaultRoleEntity.md)
 
 * [GET Role](v1RoleEntity_GetAll.md)

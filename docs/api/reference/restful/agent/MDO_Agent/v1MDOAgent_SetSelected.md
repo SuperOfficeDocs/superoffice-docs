@@ -11,12 +11,6 @@ POST /api/v1/Agents/MDO/SetSelected
 
 Saves the selected values as selected by their given list representation.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Saves the selected values as selected by their given list representation.
 ```http
 POST /api/v1/Agents/MDO/SetSelected?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/MDO/SetSelected?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name, AdditionalInfo, SelectableMDOList 
+Name, AdditionalInfo, SelectableMDOList
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +45,7 @@ Name, AdditionalInfo, SelectableMDOList
 | AdditionalInfo | string |  |
 | SelectableMDOList | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

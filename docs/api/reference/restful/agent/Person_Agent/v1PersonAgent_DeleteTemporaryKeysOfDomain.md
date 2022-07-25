@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain
 
 Delete all temporary keys for a given domain and person
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Delete all temporary keys for a given domain and person
 POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain?$select=name,department,c
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Domain, PersonId 
+Domain, PersonId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Domain | string |  |
 | PersonId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

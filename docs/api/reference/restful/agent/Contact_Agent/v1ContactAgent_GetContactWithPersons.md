@@ -11,12 +11,6 @@ POST /api/v1/Agents/Contact/GetContactWithPersons
 
 Returns the contact with all the contact persons belonging to the contact
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns the contact with all the contact persons belonging to the contact
 ```http
 POST /api/v1/Agents/Contact/GetContactWithPersons?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Contact/GetContactWithPersons?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId 
+ContactId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
-
 ## Response: object
 
 The Contact Service. The service implements all services working with the Contact object
-
-
 
 Carrier object for ContactEntity.
 Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>.

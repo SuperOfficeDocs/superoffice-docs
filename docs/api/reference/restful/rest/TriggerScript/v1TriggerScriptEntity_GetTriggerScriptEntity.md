@@ -13,16 +13,11 @@ Gets a TriggerScriptEntity object.
 
 Calls the CRMScript agent service GetTriggerScriptEntity.
 
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TriggerScriptEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -33,7 +28,6 @@ Calls the CRMScript agent service GetTriggerScriptEntity.
 ```http
 GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -48,12 +42,9 @@ GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 CRM Trigger Script - The script runs when a given event fires.
-
-
 
 TriggerScriptEntity entity with API _Links added.
 

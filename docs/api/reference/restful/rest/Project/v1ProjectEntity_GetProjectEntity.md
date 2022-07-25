@@ -13,13 +13,9 @@ Gets a ProjectEntity object.
 
 Calls the Project agent service GetProjectEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ProjectEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +28,6 @@ Calls the Project agent service GetProjectEntity.
 GET /api/v1/Project/{id}?$select=name,department,category/id
 GET /api/v1/Project/{id}?fk=False
 ```
-
 
 ## Request Headers
 
@@ -47,12 +42,9 @@ GET /api/v1/Project/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The Project Service. The service implements all services working with the Project object
-
-
 
 ProjectEntity entity with API _Links added.
 

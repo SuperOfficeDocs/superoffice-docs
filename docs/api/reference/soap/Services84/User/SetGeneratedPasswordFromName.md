@@ -11,11 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.SetGeneratedPa
 
 ## SetGeneratedPasswordFromName
 
-
-
-* **associateName:** 
-
-
+* **associateName:**
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetGeneratedPasswordFromName Response
 
 ```xml
@@ -70,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

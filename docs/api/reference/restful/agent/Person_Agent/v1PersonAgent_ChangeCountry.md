@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/ChangeCountry
 
 Change country regenerates the default values and localized information such as phone number and address format for this entity.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Change country regenerates the default values and localized information such as 
 ```http
 POST /api/v1/Agents/Person/ChangeCountry?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/Person/ChangeCountry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonEntity, ToCountryId 
+PersonEntity, ToCountryId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonEntity |  |  |
 | ToCountryId | int32 |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 
 Creates a AppointmentEntity populated with the default values for the specific type.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates a AppointmentEntity populated with the default values for the specific t
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Type 
+Type
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
-
 
 ## Response: object
 

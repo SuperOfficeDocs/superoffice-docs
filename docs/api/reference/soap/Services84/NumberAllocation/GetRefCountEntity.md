@@ -17,7 +17,6 @@ Gets a RefCountEntity object.
 
 **Returns:** RefCountEntity
 
-
 [WSDL file for Services84/NumberAllocation](../Services84-NumberAllocation.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetRefCountEntity Response
 
@@ -126,4 +124,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

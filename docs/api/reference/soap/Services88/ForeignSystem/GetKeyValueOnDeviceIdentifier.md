@@ -24,7 +24,6 @@ Returning a foreign key string value by its key name and device identifier, that
 
 **Returns:** The ForeignKey's string value.
 
-
 [WSDL file for Services88/ForeignSystem](../Services88-ForeignSystem.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetKeyValueOnDeviceIdentifier Response
 
 ```xml
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

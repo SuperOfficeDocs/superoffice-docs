@@ -17,8 +17,6 @@ Delete specified mail items and optionally move to the specified folder
 * **ids:** The e-mails to handle
 * **moveToFolder:** If set, move deleted items to this folder
 
-
-
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteEmails Response
 
 ```xml
@@ -74,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

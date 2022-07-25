@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "paymenttype" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'paymenttype'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("paymenttype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,7 +47,6 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|Credit Card|||
 |2|Invoice|||
-
 
 ## Related MDO Lists
 

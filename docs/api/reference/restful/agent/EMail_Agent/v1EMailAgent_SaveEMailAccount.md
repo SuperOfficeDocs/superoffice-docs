@@ -11,14 +11,7 @@ POST /api/v1/Agents/EMail/SaveEMailAccount
 
 Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Updates the existing EMailAccount or creates a new EMailAccount if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The EMailAccount to be saved. 
+The EMailAccount to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,12 +42,9 @@ The EMailAccount to be saved.
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
 
-
 ## Response: object
 
 Properties for an email account
-
-
 
 Carrier object for EMailAccount.
 Services for the EMailAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

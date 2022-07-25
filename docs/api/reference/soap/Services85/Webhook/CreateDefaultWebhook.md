@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IWebhookAgent.CreateDefau
 Loading default values into a new Webhook.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New Webhook with default values
-
 
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultWebhook Response
 
@@ -120,4 +117,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

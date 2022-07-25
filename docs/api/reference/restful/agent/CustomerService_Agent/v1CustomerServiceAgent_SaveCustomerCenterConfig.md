@@ -11,13 +11,6 @@ POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 
 Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The CustomerCenterConfig to be saved. 
+The CustomerCenterConfig to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,12 +40,9 @@ The CustomerCenterConfig to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-
 ## Response: object
 
 Contains configuration when displaying the Customer Center
-
-
 
 Carrier object for CustomerCenterConfig.
 Services for the CustomerCenterConfig Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

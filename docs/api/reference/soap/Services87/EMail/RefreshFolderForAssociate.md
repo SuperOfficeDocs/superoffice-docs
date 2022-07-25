@@ -18,7 +18,6 @@ Get all emails in folder(s) from current associate
 
 **Returns:** JSON serialized string containing array of data about each folder
 
-
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RefreshFolderForAssociate Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

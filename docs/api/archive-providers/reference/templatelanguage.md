@@ -23,11 +23,13 @@ Archive Provider for retriving the registered languages for a given document tem
 The provider will use the document plugin to get the languages registered.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"templatelanguage"|[(templatelanguage)]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |id| *None* |id|  |
@@ -43,7 +45,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

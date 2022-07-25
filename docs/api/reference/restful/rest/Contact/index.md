@@ -6,9 +6,6 @@ title: Contact
 /api/v1/Contact
 ```
 
-
-
-
 * [GET Contact/{id}/Imageinfo](v1ContactEntity_GetImageInfo.md)
 
 * [PUT Contact/{id}/ImageInfo](v1ContactEntity_PutImageInfo.md)

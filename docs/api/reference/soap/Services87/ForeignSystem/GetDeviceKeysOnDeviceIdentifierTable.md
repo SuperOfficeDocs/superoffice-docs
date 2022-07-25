@@ -22,7 +22,6 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 
 **Returns:** Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
 
-
 [WSDL file for Services87/ForeignSystem](../Services87-ForeignSystem.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDeviceKeysOnDeviceIdentifierTable Response
 
 ```xml
@@ -88,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

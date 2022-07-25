@@ -31,11 +31,13 @@ provided, this restriction will limit the entities searched. The <see cref="T:Su
 is an MDO provider for supported entities.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"freetextcount"|Number of matches|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |ownerEntityName|listAny|Owner: Owner (type) of freetext match| x |
@@ -53,7 +55,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

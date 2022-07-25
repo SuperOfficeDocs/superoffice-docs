@@ -18,7 +18,6 @@ Create Outlook style HTML header to use in for instance reply entities and when 
 
 **Returns:** The generated HTML header
 
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -202,7 +201,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateInlineHtmlHeader Response
 
 ```xml
@@ -223,4 +221,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

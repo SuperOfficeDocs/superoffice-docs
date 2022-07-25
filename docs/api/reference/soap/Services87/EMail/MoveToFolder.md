@@ -18,8 +18,6 @@ Moved specified items from current folder to targetFolder
 * **messageServerIds:** The e-mails to handle
 * **targetFolder:** Name of folder to move items to
 
-
-
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -62,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## MoveToFolder Response
 
 ```xml
@@ -82,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

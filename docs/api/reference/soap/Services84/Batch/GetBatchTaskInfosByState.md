@@ -17,7 +17,6 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 
 **Returns:** Returns an array of BatchTaskInfo.
 
-
 [WSDL file for Services84/Batch](../Services84-Batch.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetBatchTaskInfosByState Response
 
@@ -99,4 +97,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

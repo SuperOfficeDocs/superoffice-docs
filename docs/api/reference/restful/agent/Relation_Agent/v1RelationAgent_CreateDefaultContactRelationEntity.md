@@ -13,11 +13,6 @@ Set default values into a new ContactRelationEntity.
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +26,9 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
-
-
 
 Carrier object for ContactRelationEntity.
 Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>.

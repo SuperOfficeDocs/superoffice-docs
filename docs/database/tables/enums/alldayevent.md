@@ -23,5 +23,5 @@ Default value for alldayEvent flag
 
 ## Usage
 
-* [appointment](../appointment.md).alldayEvent - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
+* [appointment](../appointment.md).alldayEvent - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.
 * [Task](../task.md).defaultAlldayEvent - Task list table, activity types, like Phone, Meeting

@@ -31,7 +31,7 @@ Now add in the key/value mapping dictionary, the ForeignKey table, and you have 
 
 ## Enter the Code-ness
 
-In NetServer you have but two options for working _easily_ with ForeignKeys: work at the Entity or Rows layer. Working at the Entities layer is great when working with pre-existing SuperOffice entities and performance is not a concern.
+In NetServer you have but two options for working *easily* with ForeignKeys: work at the Entity or Rows layer. Working at the Entities layer is great when working with pre-existing SuperOffice entities and performance is not a concern.
 
 Alternatively, working at the Rows layer feels disconnected and cumbersome – assemble a trilogy of ForeignAppRow, ForeignDeviceRows, and ForeignKeyRows types and somehow find a happy means of managing them. There is some help using the SuperOffice.CRM.Rows.Util.RowForeignKeyHelper, but that only gets you so far.
 

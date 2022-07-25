@@ -17,7 +17,6 @@ Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutE
 
 **Returns:** New or updated ReportLabelLayoutEntity
 
-
 [WSDL file for Services87/Report](../Services87-Report.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -63,7 +62,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveReportLabelLayoutEntity Response
 
 ```xml
@@ -97,4 +95,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

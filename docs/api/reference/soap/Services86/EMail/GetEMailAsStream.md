@@ -20,7 +20,6 @@ Retrieve an e-mail optionally stripping attachments as a stream
 
 **Returns:** The attachment as a stream
 
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetEMailAsStream Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -59,7 +59,4 @@ var allLists = mdoAgent.GetSimpleListAsync("lists").Result;
 
 [Back](index.md)
 
-
 <!-- Link references -->
-
-[1]: ../../../web-services/proxies/index.md

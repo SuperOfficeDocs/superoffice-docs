@@ -11,11 +11,7 @@ POST /api/v1/Agents/Replication/SaveCentralLicense
 
 <br />
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
-
-
-
-
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
 
 ## Query String Parameters
 
@@ -26,7 +22,6 @@ POST /api/v1/Agents/Replication/SaveCentralLicense
 ```http
 POST /api/v1/Agents/Replication/SaveCentralLicense?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +37,15 @@ POST /api/v1/Agents/Replication/SaveCentralLicense?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-License 
+License
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | License | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

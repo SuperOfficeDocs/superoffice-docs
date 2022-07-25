@@ -11,15 +11,9 @@ PUT /api/v1/Project/{id}
 
 Updates the existing ProjectEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ProjectEntity
 ```http
 PUT /api/v1/Project/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Project/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ProjectEntity to be saved. 
+The ProjectEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,12 +77,9 @@ The ProjectEntity to be saved.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
-
 ## Response: object
 
 The Project Service. The service implements all services working with the Project object
-
-
 
 ProjectEntity entity with API _Links added.
 

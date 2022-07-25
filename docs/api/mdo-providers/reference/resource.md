@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "resource" MDO List
+
 MDO provider for resources (from the associate table)
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ResourceMDOProvider">ResourceMDOProvider</see> class.
 The name of the MDO list is 'resource'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("resource", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -58,7 +55,6 @@ foreach (var item in listProvider.RootItems) {
 |80|ResourceItem 13: Heading 2 og 3|||
 |50|ResourceItem 10: Heading 3|||
 |51|ResourceItem 11: Heading 3|||
-
 
 ## Related MDO Lists
 

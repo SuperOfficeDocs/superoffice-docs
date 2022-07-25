@@ -11,11 +11,10 @@ POST /api/v1/Agents/Find/FindFromRestrictions2
 
 Execute a Find operation and return a page of results.
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
-
 
 For example:
 
@@ -36,8 +35,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-
 ## Brackets and or
+
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -50,12 +49,10 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
-
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-
 
 Example: group last names together, and inject a header row for each group.
 
@@ -65,7 +62,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows, 
+Example: count instances of middle names, and hide the individual rows,
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -81,27 +78,18 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
+
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
-
-
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
-
 
 ```
 "department contains 'Bob\\'s'"
 ```
-
-
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -112,7 +100,6 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions2?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -128,9 +115,9 @@ POST /api/v1/Agents/Find/FindFromRestrictions2?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Restrictions, ProviderName, PageSize, PageNumber 
+Restrictions, ProviderName, PageSize, PageNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -139,12 +126,9 @@ Restrictions, ProviderName, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-
 ## Response: object
 
 Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
-
-
 
 Carrier object for FindResults.
 Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.

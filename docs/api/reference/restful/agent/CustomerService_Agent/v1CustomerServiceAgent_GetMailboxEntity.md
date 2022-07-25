@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity
 
 Gets a MailboxEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a MailboxEntity object.
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=728
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 This entity represent a mailbox used for importing emails in Service
-
-
 
 Carrier object for MailboxEntity.
 Services for the MailboxEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

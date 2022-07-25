@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "emailaddress" MDO List
+
 List of e-mail addresses matching the search value
 Searches e-mail address, person name, company name.
 
@@ -34,12 +35,8 @@ ExtraInfo = e-mail address
 
 Type = "Person" or "Contact"
 
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EmailAddressProvider">EmailAddressProvider</see> class.
 The name of the MDO list is 'emailaddress'.
-
-
-
 
 ## Sample Request
 
@@ -52,6 +49,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("emailaddress", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -85,7 +83,6 @@ foreach (var item in listProvider.RootItems) {
 |95|Carl-Oskar Cederström <qa5@superoffice.com>||qa5@superoffice.com|
 |96|Cidrik Culien <qa5@superoffice.com>|nomail|qa5@superoffice.com|
 |97|Cecilie Carlsen <qa5@superoffice.com>||qa5@superoffice.com|
-
 
 ## Related MDO Lists
 

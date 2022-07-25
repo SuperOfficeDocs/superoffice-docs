@@ -11,16 +11,9 @@ DELETE /api/v1/List/{name}
 
 Delete a ListEntity resolved by the provided name.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to delete. **Required** |
-
-
 
 ## Request Headers
 
@@ -30,9 +23,7 @@ Delete a ListEntity resolved by the provided name.
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

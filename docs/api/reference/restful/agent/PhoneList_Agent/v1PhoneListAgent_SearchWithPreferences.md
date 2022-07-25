@@ -13,10 +13,6 @@ Searching the phone list.
 
 Search is based on the supplied preferences.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Search is based on the supplied preferences.
 ```http
 POST /api/v1/Agents/PhoneList/SearchWithPreferences?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/PhoneList/SearchWithPreferences?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SearchString, Preferences 
+SearchString, Preferences
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SearchString | string |  |
 | Preferences |  | Search preferences for a phone list search <br /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

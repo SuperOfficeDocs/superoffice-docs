@@ -74,7 +74,6 @@ You might also be interested in:
 [9]: onsite/custom-proxies/index.md
 [10]: ../config/index.md
 [11]: ../../automation/overview.md
-[12]: ../web-services/proxies/index.md
 [13]: ../reference/soap/index.md
 [14]: ../web-services/endpoints/index.md
 [15]: ../config/index.md

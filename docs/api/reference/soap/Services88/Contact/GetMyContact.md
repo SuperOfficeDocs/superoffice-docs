@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.GetMyContac
 
 Gets the contact belonging to the currently logged on user.
 
-
 **Returns:** The Contact
-
 
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyContact Response
 
@@ -420,4 +417,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,13 +11,6 @@ GET /api/v1/Presence/GetAll
 
 Get the chat presence status for all chat users
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +24,7 @@ Get the chat presence status for all chat users
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

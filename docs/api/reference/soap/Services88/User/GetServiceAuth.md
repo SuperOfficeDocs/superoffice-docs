@@ -18,7 +18,6 @@ Gets a ServiceAuth object.
 
 **Returns:** ServiceAuth
 
-
 [WSDL file for Services88/User](../Services88-User.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetServiceAuth Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

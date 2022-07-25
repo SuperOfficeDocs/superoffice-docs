@@ -16,7 +16,7 @@ so.envir:
 # Intent Table (216)
 
 Intent MDO list item table.
-Intent list for SAINT. 
+Intent list for SAINT.
 
 ## Fields
 

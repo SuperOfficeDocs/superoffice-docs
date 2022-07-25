@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 
 Send confirmation email to the provided person, email address (id), using the document template
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Send confirmation email to the provided person, email address (id), using the do
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Person/SendConsentConfirmationEmail?$select=name,department,
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, EmailAddress, EmailTemplateId, CultureLcidId, Subject 
+PersonId, EmailAddress, EmailTemplateId, CultureLcidId, Subject
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,9 +42,7 @@ PersonId, EmailAddress, EmailTemplateId, CultureLcidId, Subject
 | CultureLcidId | int32 |  |
 | Subject | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

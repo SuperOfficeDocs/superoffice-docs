@@ -18,7 +18,6 @@ Method that returns a array of associate , based on DiaryGroupType and groupId. 
 
 **Returns:** Array of associate
 
-
 [WSDL file for Services85/Associate](../Services85-Associate.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAssociatesByGroup Response
 
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

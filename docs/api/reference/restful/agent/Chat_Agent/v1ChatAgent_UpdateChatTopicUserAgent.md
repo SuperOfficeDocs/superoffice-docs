@@ -11,12 +11,6 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 
 Update a user's role in a chat topic
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Update a user's role in a chat topic
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ChatTopicId, Username, Useragent 
+ChatTopicId, Username, Useragent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,12 +45,9 @@ ChatTopicId, Username, Useragent
 | Username | string |  |
 | Useragent |  | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <br /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-
 ## Response: object
 
 User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
-
-
 
 Carrier object for ChatTopicAgent.
 Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

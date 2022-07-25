@@ -11,12 +11,6 @@ POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice
 
 Specify what kind of notification events a device should receive push notifications for
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Specify what kind of notification events a device should receive push notificati
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice?$select=name,departm
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DeviceIdentifier, Tags 
+DeviceIdentifier, Tags
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DeviceIdentifier | string |  |
 | Tags | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

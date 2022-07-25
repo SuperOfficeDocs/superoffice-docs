@@ -15,9 +15,7 @@ Loading default values into a new User.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 <br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-
 **Returns:** New User with default values
-
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultUser Response
 
@@ -208,4 +205,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

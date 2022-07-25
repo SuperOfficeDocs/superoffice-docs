@@ -11,15 +11,9 @@ PUT /api/v1/PreferenceDescription/{id}
 
 Updates the existing PreferenceDescription
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescription id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing PreferenceDescription
 ```http
 PUT /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The PreferenceDescription to be saved. 
+The PreferenceDescription to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +64,9 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-
 ## Response: object
 
 Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
-
-
 
 PreferenceDescription entity with API _Links added.
 

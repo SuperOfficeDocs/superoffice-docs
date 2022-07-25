@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.GetCurrentAcc
 Get current account (last logged into should normally be current) for logged in associate
 <br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-
 **Returns:** Id of current account
-
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetCurrentAccount Response
 
@@ -93,4 +90,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

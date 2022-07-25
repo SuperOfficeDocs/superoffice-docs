@@ -16,8 +16,6 @@ This table supports Soft Delete; records will be marked as deleted and disappear
 
 * **contactEntityId:** The identity of the ContactEntity
 
-
-
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteContactEntity Response
 
 ```xml
@@ -70,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

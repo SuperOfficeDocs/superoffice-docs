@@ -23,10 +23,12 @@ This archive provider is made for getting the available criteria for a given rep
 The report id is set when instanciating the object through the
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 
@@ -40,7 +42,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

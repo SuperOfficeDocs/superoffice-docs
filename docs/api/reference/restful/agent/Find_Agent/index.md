@@ -6,9 +6,6 @@ title: Find_Agent
 /api/v1/Find/Agent
 ```
 
-
-
-
 * [POST Agents/Find/FindFromRestrictionsColumns2](v1FindAgent_FindFromRestrictionsColumns2.md)
 
 * [POST Agents/Find/FindFromRestrictionsColumnsOrderBy2](v1FindAgent_FindFromRestrictionsColumnsOrderBy2.md)

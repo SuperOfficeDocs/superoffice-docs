@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/GetCheckoutState
 
 Get the current checkout state for a document, relative to the user perforing the call.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get the current checkout state for a document, relative to the user perforing th
 ```http
 POST /api/v1/Agents/Document/GetCheckoutState?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Document/GetCheckoutState?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId 
+DocumentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

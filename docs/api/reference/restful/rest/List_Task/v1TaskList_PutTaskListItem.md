@@ -13,14 +13,9 @@ Updates the existing TaskListItem
 
 Calls the Appointment agent service SaveTaskListItem.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TaskListItem to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ Calls the Appointment agent service SaveTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of TaskListItem to be saved. 
+The details of TaskListItem to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +50,6 @@ The details of TaskListItem to be saved.
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-
 
 ## Response: object
 

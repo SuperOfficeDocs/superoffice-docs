@@ -13,11 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.GetWebA
 
 Get all WebAppUsages for a given period, that match an optional search term
 
-* **fromDate:** 
-* **toDate:** 
+* **fromDate:**
+* **toDate:**
 * **searchTerm:** ViewState search term. '%' is the wildcard character, for example 'Pocket%' will match all viewstates starting with 'Pocket'. If empty, all viewstates will be matched
-
-
 
 [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md)
 
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetWebAppUsagesForPeriod Response
 
 ```xml
@@ -84,4 +81,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

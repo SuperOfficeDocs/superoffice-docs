@@ -17,7 +17,6 @@ Get email from db based on In-Reply-To Message Id
 
 **Returns:** EMailEntity that is in reply to the provided messageId
 
-
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMailFromInReplyTo Response
 
@@ -222,4 +220,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

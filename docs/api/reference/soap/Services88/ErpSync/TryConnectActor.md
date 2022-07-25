@@ -17,11 +17,9 @@ Create a link between Erp and Crm and set default values
 * **erpConnectionId:** ErpConnectionId
 * **crmRecordId:** CrmRecordId
 * **crmActorType:** The Crm Actor type
-* **erpKey:** 
+* **erpKey:**
 * **erpActorType:** The Erp Actor type
 * **fieldValues:** The Crm Fields
-
-
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -69,7 +67,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TryConnectActor Response
 
 ```xml
@@ -90,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

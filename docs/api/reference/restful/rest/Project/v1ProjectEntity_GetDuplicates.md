@@ -11,16 +11,9 @@ GET /api/v1/Project/Duplicates/{name}
 
 Get duplicates(exact or similar in the database) based on the name
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | Name used for lookup **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Get duplicates(exact or similar in the database) based on the name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

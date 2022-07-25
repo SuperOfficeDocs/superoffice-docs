@@ -6,9 +6,6 @@ title: Relation_Agent
 /api/v1/Relation/Agent
 ```
 
-
-
-
 * [POST Agents/Relation/CreateDefaultContactRelationEntity](v1RelationAgent_CreateDefaultContactRelationEntity.md)
 
 * [POST Agents/Relation/GetContactRelationEntity](v1RelationAgent_GetContactRelationEntity.md)

@@ -9,14 +9,6 @@ id: v1AppointmentAgent_GetAlarms
 POST /api/v1/Agents/Appointment/GetAlarms
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Appointment/GetAlarms
 ```http
 POST /api/v1/Agents/Appointment/GetAlarms?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +33,15 @@ POST /api/v1/Agents/Appointment/GetAlarms?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes 
+IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeInvitations | bool |  |
 | IncludeAllAppointments | bool |  |
 | DefaultAlarmLeadTimeInMinutes | int32 |  |
-
 
 ## Response: object
 

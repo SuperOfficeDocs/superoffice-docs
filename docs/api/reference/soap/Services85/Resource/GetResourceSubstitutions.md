@@ -19,7 +19,6 @@ Get substitutions for some or all resources for one culture
 
 **Returns:** Array of override objects, empty if there are none
 
-
 [WSDL file for Services85/Resource](../Services85-Resource.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetResourceSubstitutions Response
 
 ```xml
@@ -84,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

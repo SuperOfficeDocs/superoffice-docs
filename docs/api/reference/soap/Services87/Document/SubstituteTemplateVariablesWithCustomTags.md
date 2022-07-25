@@ -32,7 +32,6 @@ This method also takes a pair of arrays specifying custom tags and their values;
 
 **Returns:** Source string with templates substituted, using the same encoding as for the source (binary data will be returned in Base64).
 
-
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -80,7 +79,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SubstituteTemplateVariablesWithCustomTags Response
 
 ```xml
@@ -101,4 +99,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

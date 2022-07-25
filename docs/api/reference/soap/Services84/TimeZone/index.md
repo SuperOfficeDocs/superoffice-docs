@@ -26,4 +26,3 @@ Download [WSDL file for Services84/TimeZone](../Services84-TimeZone.md) if you n
 * [TimeOfLastTimeZoneUpdate](TimeOfLastTimeZoneUpdate.md)
 * [ToggleActiveTimeZoneRow](ToggleActiveTimeZoneRow.md)
 * [UpdateTimeZoneData](UpdateTimeZoneData.md)
-

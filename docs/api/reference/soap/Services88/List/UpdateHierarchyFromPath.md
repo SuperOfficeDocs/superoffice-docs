@@ -19,7 +19,6 @@ Update a hierarchy item from a path
 
 **Returns:** The hierarchy node updated to the path
 
-
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -93,7 +92,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## UpdateHierarchyFromPath Response
 
 ```xml
@@ -164,4 +162,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

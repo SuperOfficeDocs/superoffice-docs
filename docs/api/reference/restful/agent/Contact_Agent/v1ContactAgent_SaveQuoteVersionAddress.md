@@ -11,12 +11,6 @@ POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 
 Save a custom quote version address.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save a custom quote version address.
 ```http
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Contact/SaveQuoteVersionAddress?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId, Address, AddressType, CountryId 
+QuoteVersionId, Address, AddressType, CountryId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,12 +46,9 @@ QuoteVersionId, Address, AddressType, CountryId
 | AddressType | string |  |
 | CountryId | int32 |  |
 
-
 ## Response: object
 
 Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
-
-
 
 Carrier object for Address.
 

@@ -18,7 +18,6 @@ Get a list of all functional rights for the given type of role. MDO List name = 
 
 **Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
 
-
 [WSDL file for Services87/User](../Services87-User.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAllFunctionalRights Response
 
@@ -128,4 +126,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

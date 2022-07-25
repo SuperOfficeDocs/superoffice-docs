@@ -18,7 +18,6 @@ Get a list of custom commands valid for the specific document at this time. This
 
 **Returns:** Array of command information items. The command list is constrained by the allowedReturnTypes parameter.
 
-
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDocumentCommands Response
 
 ```xml
@@ -83,4 +81,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

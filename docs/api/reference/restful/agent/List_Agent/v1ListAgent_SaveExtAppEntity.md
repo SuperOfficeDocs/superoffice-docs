@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveExtAppEntity
 
 Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ExtAppEntity to be saved. 
+The ExtAppEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,12 +54,9 @@ The ExtAppEntity to be saved.
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
 
-
 ## Response: object
 
 The ext app entity contains information on an external application
-
-
 
 Carrier object for ExtAppEntity.
 Services for the ExtAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

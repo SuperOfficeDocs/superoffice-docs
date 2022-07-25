@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEMailFromT
 
 <br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **fileName:** 
-
-
+* **fileName:**
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetEMailFromTemp Response
 
@@ -224,4 +221,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

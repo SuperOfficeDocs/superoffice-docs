@@ -11,17 +11,10 @@ PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 
 Saves the active headings for the list item.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to delete the items from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The identity of the list item to delete **Required** |
-
-
 
 ## Request Headers
 
@@ -37,9 +30,9 @@ Saves the active headings for the list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: headings  
+## Request Body: headings
 
-The headings to save. 
+The headings to save.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,10 +52,7 @@ The headings to save.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

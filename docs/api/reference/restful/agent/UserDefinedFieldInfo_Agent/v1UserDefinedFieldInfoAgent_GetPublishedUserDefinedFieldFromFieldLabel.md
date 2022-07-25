@@ -13,10 +13,6 @@ Return information about the given user defined field identified by the owner an
 
 Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Note that field labels are fuzzy. Leading and trailing spaces and punctuation ar
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FieldLabel, OwnerType 
+FieldLabel, OwnerType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FieldLabel | string |  |
 | OwnerType | string |  |
 
-
 ## Response: object
 
 Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
-
-
 
 Carrier object for UserDefinedFieldInfo.
 Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.

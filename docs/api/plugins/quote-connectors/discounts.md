@@ -123,5 +123,4 @@ The connector calculates:
 * the **Earning Percent** from the Earning Amount and TotalPrice:  100.00 / 1100.00 = 9.10%
 
 <!-- Referenced images -->
-[img1]: media/image028.png
 [img2]: media/image036.jpg

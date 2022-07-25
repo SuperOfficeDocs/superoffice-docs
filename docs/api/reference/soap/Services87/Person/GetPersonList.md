@@ -17,7 +17,6 @@ Gets an array of Person objects.
 
 **Returns:** Array of Person objects
 
-
 [WSDL file for Services87/Person](../Services87-Person.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetPersonList Response
 
@@ -116,4 +114,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -13,10 +13,6 @@ Creates a new PriceList
 
 Calls the Quote agent service SavePriceList.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Quote agent service SavePriceList.
 ```http
 POST /api/v1/Pricelist?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Pricelist?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The PriceList to be saved. 
+The PriceList to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,12 +54,9 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-
 ## Response: object
 
 A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
-
-
 
 PriceList entity with API _Links added.
 

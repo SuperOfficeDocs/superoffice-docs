@@ -13,12 +13,7 @@ Retrieve information about folders.
 
 If folders parameter is not specified(null), information about all subscribed folders will be returned.
 
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -29,7 +24,6 @@ If folders parameter is not specified(null), information about all subscribed fo
 ```http
 POST /api/v1/Agents/EMail/GetFolderInfo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,19 +39,16 @@ POST /api/v1/Agents/EMail/GetFolderInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ConnectionInfo, Folders 
+ConnectionInfo, Folders
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | Folders | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

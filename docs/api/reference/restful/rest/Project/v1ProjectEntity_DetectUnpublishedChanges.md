@@ -13,10 +13,6 @@ Is the UDef Layout changed? This may or may not involve moving data (which takes
 
 True if the ProjectEntity user-defined field layout has been changed.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ True if the ProjectEntity user-defined field layout has been changed.
 ```http
 GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=False
 ```
-
 
 ## Request Headers
 
@@ -41,17 +36,13 @@ GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

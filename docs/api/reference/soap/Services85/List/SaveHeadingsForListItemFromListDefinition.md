@@ -19,7 +19,6 @@ Saves the active headings for the list item.
 
 **Returns:** Array of headings
 
-
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -108,7 +107,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveHeadingsForListItemFromListDefinition Response
 
 ```xml
@@ -185,4 +183,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

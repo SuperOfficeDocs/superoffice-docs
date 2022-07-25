@@ -17,7 +17,6 @@ Deletes the specified chat sessions.
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services85/CustomerService](../Services85-CustomerService.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteChatSessions Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

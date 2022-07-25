@@ -22,12 +22,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Implementation of the provider for the combined selection
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"staticContact"|Static company|
 |"staticPerson"|Static contact|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
@@ -902,7 +904,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

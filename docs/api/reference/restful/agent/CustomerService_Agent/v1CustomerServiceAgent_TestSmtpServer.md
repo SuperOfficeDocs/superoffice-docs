@@ -13,10 +13,6 @@ This method will do a test of a SMTP account, by sending an email to a special @
 
 com account
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ com account
 ```http
 POST /api/v1/Agents/CustomerService/TestSmtpServer?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/CustomerService/TestSmtpServer?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SmtpUri, From, UseStoredPassword 
+SmtpUri, From, UseStoredPassword
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,12 +47,9 @@ SmtpUri, From, UseStoredPassword
 | From | string |  |
 | UseStoredPassword | bool |  |
 
-
 ## Response: object
 
 Carrier containing information about the result of a SMTP test
-
-
 
 Carrier object for SmtpTestResult.
 Services for the SmtpTestResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

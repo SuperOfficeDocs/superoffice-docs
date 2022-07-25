@@ -15,8 +15,6 @@ Deletes the ContactEntity
 
 * **contactEntityId:** The identity of the ContactEntity
 
-
-
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteContactEntity Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

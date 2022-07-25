@@ -32,11 +32,13 @@ Freetext search will limit the number of hits to the first 1000. This clipping i
 as well as before any ORDER BY, are applied.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"person"|Contact|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -735,7 +737,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

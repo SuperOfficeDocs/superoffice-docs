@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetAllAvailab
 
 Get all available connections. Some installed connections may not be available to the user. Includes pricelists for the connection. This is a heavy call
 
-
 **Returns:** List of connections
-
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAllAvailableQuoteConnectionsWithPriceLists Response
 
@@ -129,4 +126,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

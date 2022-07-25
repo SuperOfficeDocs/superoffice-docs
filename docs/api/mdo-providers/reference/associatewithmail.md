@@ -16,14 +16,8 @@ so.envir:
 
 # "associatewithmail" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AssociateWithMailProvider">AssociateWithMailProvider</see> class.
 The name of the MDO list is 'associatewithmail'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("associatewithmail", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +64,6 @@ foreach (var item in listProvider.RootItems) {
 |87|Kjell Jensen|||
 |81|Listadm Listadm|||
 |84|Localuser2 Localuser2|||
-
 
 ## Related MDO Lists
 

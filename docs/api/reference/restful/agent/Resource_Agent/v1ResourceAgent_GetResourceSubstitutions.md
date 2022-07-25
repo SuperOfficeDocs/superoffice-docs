@@ -11,12 +11,6 @@ POST /api/v1/Agents/Resource/GetResourceSubstitutions
 
 Get substitutions for some or all resources for one culture
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get substitutions for some or all resources for one culture
 ```http
 POST /api/v1/Agents/Resource/GetResourceSubstitutions?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Resource/GetResourceSubstitutions?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ResourceNames, Culture, ActiveOnly 
+ResourceNames, Culture, ActiveOnly
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +45,7 @@ ResourceNames, Culture, ActiveOnly
 | Culture | string |  |
 | ActiveOnly | bool |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,19 +11,12 @@ GET /api/v1/Table/{tableName}/{id}
 
 Read a row from a table
 
-
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable **Required** |
 | id | int32 | The id of the row to fetch **Required** |
-
-
 
 ## Request Headers
 
@@ -38,12 +31,9 @@ Read a row from a table
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The extra table entity contains meta data for an extra table (not implemented yet)
-
-
 
 Carrier object for TableRecord.
 Services for the TableRecord Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.

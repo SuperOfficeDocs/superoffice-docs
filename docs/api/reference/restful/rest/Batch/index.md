@@ -6,9 +6,6 @@ title: Batch
 /api/v1/Batch
 ```
 
-
-
-
 * [GET BatchTask](v1Batch_GetAll.md)
 
 * [POST BatchTask](v1Batch_StartBatchJob.md)

@@ -17,7 +17,6 @@ Gets an array of Business objects.
 
 **Returns:** Array of Business objects
 
-
 [WSDL file for Services84/List](../Services84-List.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetBusinessList Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

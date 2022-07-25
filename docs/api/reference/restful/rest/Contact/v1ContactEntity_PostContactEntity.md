@@ -13,10 +13,6 @@ Creates a new ContactEntity
 
 Calls the Contact agent service SaveContactEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Contact agent service SaveContactEntity.
 ```http
 POST /api/v1/Contact?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Contact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ContactEntity to be saved. 
+The ContactEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,12 +88,9 @@ The ContactEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
 ## Response: object
 
 The Contact Service. The service implements all services working with the Contact object
-
-
 
 ContactEntity entity with API _Links added.
 

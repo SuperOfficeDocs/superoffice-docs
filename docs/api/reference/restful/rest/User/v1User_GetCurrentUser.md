@@ -13,11 +13,6 @@ Gets the currently logged in user's information: username, personal name, creden
 
 Blocked in Online for safety. Calls the User agent service GetUser.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +26,9 @@ Blocked in Online for safety. Calls the User agent service GetUser.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 SuperOffice User, with login credentials and an associated person.
-
-
 
 Carrier object for User.
 Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

@@ -13,10 +13,6 @@ Creates the report as favorite.
 
 The sourceId is the key to the report that the favorite is based on.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The sourceId is the key to the report that the favorite is based on.
 ```http
 POST /api/v1/Agents/Report/CreateFavorite?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +37,15 @@ POST /api/v1/Agents/Report/CreateFavorite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SourceId, Name, Description 
+SourceId, Name, Description
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceId | int32 |  |
 | Name | string |  |
 | Description | string |  |
-
 
 ## Response: object
 

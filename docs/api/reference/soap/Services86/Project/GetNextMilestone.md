@@ -17,7 +17,6 @@ Next upcoming milestone appointment
 
 **Returns:** Upcoming milestone appointment
 
-
 [WSDL file for Services86/Project](../Services86-Project.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetNextMilestone Response
 
@@ -119,4 +117,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

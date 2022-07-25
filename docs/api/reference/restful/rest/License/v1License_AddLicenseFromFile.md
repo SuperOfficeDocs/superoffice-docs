@@ -11,13 +11,6 @@ POST /api/v1/License
 
 Load and activate a new license from file/string if the new license is valid.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,15 +25,11 @@ Load and activate a new license from file/string if the new license is valid.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fileContent  
+## Request Body: fileContent
 
-Content of the license file as XML. 
-
-
+Content of the license file as XML.
 
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

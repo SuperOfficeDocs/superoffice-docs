@@ -21,7 +21,6 @@ The source document should be of type MergeDraft. This method also takes a pair 
 
 **Returns:** The document as a Stream
 
-
 [WSDL file for Services85/Document](../Services85-Document.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SubstituteMergeDocumentTemplateVariables2 Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

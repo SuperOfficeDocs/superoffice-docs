@@ -19,7 +19,6 @@ Recalculates the amount to the new currency.
 
 **Returns:** Amount in new currency
 
-
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ChangeCurrency Response
 
 ```xml
@@ -75,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

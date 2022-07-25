@@ -13,14 +13,9 @@ Reset chat session, put it back on the queue for pickup.
 
 Used by bots to hand off a session to human
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to reset **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +30,9 @@ Used by bots to hand off a session to human
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Chat sessions belong to a chat topic, and contain messages to/from users
-
-
 
 Carrier object for ChatSessionEntity.
 Services for the ChatSessionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

@@ -6,9 +6,6 @@ title: List_ConsentPurpose
 /api/v1/List/ConsentPurpose
 ```
 
-
-
-
 * [GET List/ConsentPurpose](v1ConsentPurposeList_GetListDefinition.md)
 
 * [PUT List/ConsentPurpose](v1ConsentPurposeList_SetListDefinition.md)

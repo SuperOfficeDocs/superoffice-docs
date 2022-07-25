@@ -17,8 +17,6 @@ Get credential users within a user group
 * **type:** Type of credentials, corresponding to name of plugin and type in the credentials table.
 * **groupName:** Name of user group needed to discover the users.
 
-
-
 [WSDL file for Services87/User](../Services87-User.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetCredentialUsersInGroup Response
 
@@ -87,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

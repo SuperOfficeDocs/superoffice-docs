@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 
 Creates a temporary selection with members from a collection of ContactPerson id's.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates a temporary selection with members from a collection of ContactPerson id
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactPersonIds 
+ContactPersonIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactPersonIds | array |  |
-
 
 ## Response: object
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 
 Creates a temporary selection with members from a collection of entity id's.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates a temporary selection with members from a collection of entity id's.
 ```http
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Ids, TargetTableNumber 
+Ids, TargetTableNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
 | TargetTableNumber | int32 |  |
-
 
 ## Response: object
 

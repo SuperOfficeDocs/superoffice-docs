@@ -15,8 +15,6 @@ Deletes the ReportLabelLayoutEntity
 
 * **reportLabelLayoutEntityId:** The identity of the ReportLabelLayoutEntity
 
-
-
 [WSDL file for Services84/Report](../Services84-Report.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteReportLabelLayoutEntity Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 
 Gets the next suggested appointment for a given sale (or rather a given sale's guide).
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets the next suggested appointment for a given sale (or rather a given sale's g
 ```http
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SaleId, CurrentAppointmentId, SkipCompleteCheck 
+SaleId, CurrentAppointmentId, SkipCompleteCheck
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 | CurrentAppointmentId | int32 |  |
 | SkipCompleteCheck | bool |  |
-
 
 ## Response: object
 

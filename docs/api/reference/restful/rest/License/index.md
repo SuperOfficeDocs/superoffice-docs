@@ -6,9 +6,6 @@ title: License
 /api/v1/License
 ```
 
-
-
-
 * [GET License](v1License_GetLicenseForAllOwnersFromDB.md)
 
 * [POST License](v1License_AddLicenseFromFile.md)

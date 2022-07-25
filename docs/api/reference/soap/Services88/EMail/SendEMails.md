@@ -20,7 +20,6 @@ Send the provided e-mails
 
 **Returns:** The sent e-mails (updated with message id etc.)
 
-
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -223,7 +222,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendEMails Response
 
 ```xml
@@ -400,4 +398,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

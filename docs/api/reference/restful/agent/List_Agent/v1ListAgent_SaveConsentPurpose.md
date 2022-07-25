@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SaveConsentPurpose
 
 Save a ConsentPurpose object
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save a ConsentPurpose object
 ```http
 POST /api/v1/Agents/List/SaveConsentPurpose?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/List/SaveConsentPurpose?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ConsentPurpose 
+ConsentPurpose
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConsentPurpose |  | Carrier object for ConsentPurpose. Services for the ConsentPurpose Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
-
 
 ## Response: object
 

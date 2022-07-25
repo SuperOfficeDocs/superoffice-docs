@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.SyncAll">Su
 
 Sync all active connections
 
-
 **Returns:** The response
-
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SyncAll Response
 
@@ -94,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -13,10 +13,6 @@ Creates a new ContactRelationEntity
 
 Calls the Relation agent service SaveContactRelationEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Relation agent service SaveContactRelationEntity.
 ```http
 POST /api/v1/Relation?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Relation?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ContactRelationEntity to be saved. 
+The ContactRelationEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,12 +62,9 @@ The ContactRelationEntity to be saved.
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
 
-
 ## Response: object
 
 Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
-
-
 
 ContactRelationEntity entity with API _Links added.
 
