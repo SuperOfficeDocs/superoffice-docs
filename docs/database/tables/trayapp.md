@@ -56,4 +56,3 @@ Tray application presence. SuperOffice CRM web extensions.
 * None
 
 ## Security Flags
-

@@ -14,6 +14,7 @@ so.client: pocket
 Pocket CRM is included in Onsite Subscription and you can just download and install the Pocket CRM app. If you have an Onsite Buy license type, see the [deployment guide][2].
 
 ## Online
+
 Pocket CRM can't log in to SuperOffice version 10 and later. You need to upgrade to [Mobile CRM][1] to benefit from the latest features.
 
 ## Onsite

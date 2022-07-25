@@ -14,7 +14,6 @@ so.envir:
 
 # ScreenChooserType Enum
 
-
 | Name | Value | Description |
 |------|-------|-------------|
 |None|0||

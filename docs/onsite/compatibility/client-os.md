@@ -27,7 +27,6 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 | Windows 8           | ![i][img1] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] |
 | Windows 7 SP2       | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |
 
-
 > [!NOTE]
 > Windows 10 is supported from Windows 10 Anniversary Update (version 1607).<br>Windows 7 SP1 and SP2 have reached the end of support on 14th January 2020.
 

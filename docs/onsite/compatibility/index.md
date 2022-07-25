@@ -22,6 +22,7 @@ We make the compatibility reports when other vendors release newer versions afte
 We have tested Microsoft Office 2021 with SuperOffice 10. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on February 24th 2022.
 
 <a href="../../assets/downloads/compatibility/msoffice-2021.xlsx" download>Click to download report</a>
+
 ## MacOS Monterey
 
 ![macos-monterey.jpg][img15]
@@ -38,7 +39,6 @@ We have tested Windows Server 2022 with SuperOffice 10.0.2 Onsite. No issues fou
 
 <a href="../../assets/downloads/compatibility/windows-server-2022.xlsx" download>Click to download report</a>
 
-
 ## Windows 11
 
 ![windows11.jpg][img14]
@@ -46,6 +46,7 @@ We have tested Windows Server 2022 with SuperOffice 10.0.2 Onsite. No issues fou
 We have tested Windows 11 with SuperOffice 10.0.2, both Onsite and Online. No issues found installing, login or working with SuperOffice. SuperOffice Web and Service were tested with Chrome and Edge browsers. The report was made on November 10th 2021.
 
 <a href="../../assets/downloads/compatibility/windows11.xlsx" download>Click to download report</a>
+
 ## MacOS Big Sur
 
 ![mac-os-big-sur.jpg][img1]
@@ -57,7 +58,6 @@ We have tested WebTools for Mac 11.4.7460.1008 on MacOS Big Sur. We’ve conduct
 ## Safari 14
 
 ![safari14.jpg][img2]
-
 
 We have tested SuperOffice 9.1 R03 Web and Service with Safari 14 browser on MacOS Big Sur. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. We found several UI-related bugs both in Web and Service clients and logged in TFS (Web: 75607, 75606, 75608, Service: 75360, 75309). None of them are considered critical, hence we conclude the test as **Passed**. The report was made on September 29th 2020.
 

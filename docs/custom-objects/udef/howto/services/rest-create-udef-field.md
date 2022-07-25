@@ -15,7 +15,6 @@ This guide describes how to create a user-defined field using the web services A
 > [!NOTE]
 > To show a user-defined field in the client, it must first be published.
 
-
 ## Steps
 
 [!include[ALT](includes/how-to-guide-steps-intro.md)]
@@ -26,7 +25,7 @@ All examples depend on the [udefFieldType][1] enum type to define what the data 
 
 These examples demonstrate how to create a Number user-defined field. First, a request is sent to obtain the default user-defined field structure, including calculated positioning in the client. Then field values are updated to reflect field text, tooltip, whether it should be indexed, or be mandatory.
 
-# [RESTful REST API](#tab/create-rest)
+#### [RESTful REST API](#tab/create-rest)
 
 1. First get the JSON structure that represents a user-defined field. **This is a POST request.**
 
@@ -134,7 +133,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
     Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
 
-# [RESTful Agent API](#tab/create-agent)
+#### [RESTful Agent API](#tab/create-agent)
 
 1. First get the JSON structure that represents a user-defined field. **This is a POST request.**
 
@@ -275,7 +274,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
     The field is not yet viewable in the UI. It needs to first be published.
 
-2. Publish the user-defined field.
+1. Publish the user-defined field.
 
     > [!WARNING]
     > A Publish request creates a new version of all user-defined fields for the entity. Therefore, all user-defined fields will have updated UdefFieldId values.
@@ -303,7 +302,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
     Finally issue the publish the request to activate the new field changes.
 
-    ```http    
+    ```http
     POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/Publish
     Authorization: Bearer {{token}}
     Accept: application/json; charset=utf-8
@@ -324,7 +323,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
     Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
 
-# [SuperOffice.WebApi](#tab/create-webapi)
+##### [SuperOffice.WebApi](#tab/create-webapi)
 
 1. First create the UserDefinedFieldInfo instance that represents a user-defined field.
 
@@ -350,7 +349,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
     Fields are published by entity type. When published, all user-defined fields for that entity receive a new UDefFieldId number.
 
-    ```csharp    
+    ```csharp
     // make sure no one else is trying to publish at the same time
     if(!await udefAgent.IsAnyPublishEventActiveAsync())
     {
@@ -370,6 +369,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 To create a user-defined field based on a list, create it with `udefFieldType` **List**.
 
 ### User-defined lists
+
 For user-defined lists, set the ListTableId and  UDListDefinitionId property values accordingly.
 
 | Property | Description |
@@ -383,7 +383,7 @@ For Build in Lists. for example the **Business list entity**, only set the `List
 
 **Request:**
 
-# [Restful REST](#tab/create-udef-list-rest)
+#### [Restful REST](#tab/create-udef-list-rest)
 
 ```http
 GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/archive/dynamic?$select=udlistdefinition.name,udlistdefinition.listTableId HTTP/1.1
@@ -392,7 +392,7 @@ Authorization: Bearer {{token}}
 SO-Language: en-US
 ```
 
-**Response**
+**Response:**
 
 All except Business list removed here for brevity.
 
@@ -405,7 +405,8 @@ All except Business list removed here for brevity.
 },
 ```
 
-# [Restful Agent](#tab/create-udef-list-agent)
+#### [Restful Agent](#tab/create-udef-list-agent)
+
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetArchiveListByColumns HTTP/1.1
 Content-Type: application/json
@@ -441,7 +442,7 @@ SO-Language: en-US
 }
 ```
 
-# [SuperOffice.WebApi](#tab/create-udef-list-webapi)
+#### [SuperOffice.WebApi](#tab/create-udef-list-webapi)
 
 ```csharp
 var config = new WebApiOptions(tenant.WebApiUrl);

@@ -58,4 +58,3 @@ Log of all updates made to the database, that need to be replicated.
 * None
 
 ## Security Flags
-

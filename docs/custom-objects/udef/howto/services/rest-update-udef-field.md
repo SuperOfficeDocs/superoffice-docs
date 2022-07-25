@@ -16,7 +16,7 @@ This guide describes how to update a user-defined field using the web services A
 
 [!include[ALT](includes/how-to-guide-steps-intro.md)]
 
-# [RESTful REST API](#tab/update-rest)
+### [RESTful REST API](#tab/update-rest)
 
 1. Get the user-defined field by progId or label text (FieldLabel).
 
@@ -163,7 +163,7 @@ This guide describes how to update a user-defined field using the web services A
 
     Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
 
-# [RESTful Agent API](#tab/update-agent)
+### [RESTful Agent API](#tab/update-agent)
 
 There are several options to get one or all user-defined field, published and non-published fields.
 
@@ -306,7 +306,7 @@ The get none published fields, use one of the following endpoints:
 
     Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
 
-# [SuperOffice.WebApi](#tab/update-webapi)
+### [SuperOffice.WebApi](#tab/update-webapi)
 
 There are several options to get one or all user-defined field, published and non-published fields.
 
@@ -381,4 +381,3 @@ How to write good how-to guides
 -->
 
 <!-- Link references -->
-

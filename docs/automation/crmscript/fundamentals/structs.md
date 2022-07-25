@@ -108,6 +108,7 @@ Only supports the following element datatypes:
 
 > [!NOTE]
 > For the types not supported natively by JSON, we will require/produce the following formats:
+>
 > * Date: converted to/from string with format "YYYY-MM-DD"
 > * DateTime: converted to/from string with format "YYYY-MM-DDTHH:MI:SS"
 > * Time: converted to/from string with format "HH:MI:SS"
@@ -135,9 +136,11 @@ h.print();
 ```
 
 ### String toJsonString()
+
 This function will return a JSON formatted string of the struct's contents. Same functionality as toJson(JSONBuilder), but it will return a string directly without having to instantiate a JSONbuilder.
 
 Introduced or updated in version: 10.1.4
+
 ```crmscript!
 struct Person {
   String firstname;
@@ -167,6 +170,7 @@ Only supports the following item datatypes:
 
 > [!NOTE]
 > For the types not supported natively by JSON, we will require/produce the following formats:
+>
 > * Date: converted to/from string with format "YYYY-MM-DD"
 > * DateTime: converted to/from string with format "YYYY-MM-DDTHH:MI:SS"
 > * Time: converted to/from string with format "HH:MI:SS"
@@ -195,7 +199,8 @@ print(jsBuilder.getString());
 ```
 
 ### Void fromJsonString(String json)
-This function will set the struct to the contents of the supplied JSON formatted string. Same functionality as fromXMLNode(XMLNode n), but it will parse the provided string directly without having to use parseJSON() yourself. 
+
+This function will set the struct to the contents of the supplied JSON formatted string. Same functionality as fromXMLNode(XMLNode n), but it will parse the provided string directly without having to use parseJSON() yourself.
 
 Introduced or updated in version: 10.1.4
 
@@ -211,7 +216,8 @@ p.fromJsonString('{"firstname": "Jon", "lastname": "Doe", "dob": "1984-10-26"}')
 printLine(p.toJsonString());
 ```
 
-### String toString() 
+### String toString()
+
 If a struct has a function with this exact signature, then the result of this function is what will be used when an instance of this struct is serialized to a string. Specifically, this applies to the array buildString(String separator) method, as well as what is shown as the variable for script debugging and tracing.
 
 Introduced or updated in version: 10.1.4
@@ -228,6 +234,7 @@ struct Person {
 ```
 
 ### Bool compare(\<SameStruct\> s)
+
 If a struct  has a function with this exact signature, then this method will be used to compare two instances of the struct when sorting an array of struct instances.
 
 Introduced or updated in version: 10.1.4

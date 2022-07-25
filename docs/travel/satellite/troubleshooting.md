@@ -14,6 +14,7 @@ so.client: win
 ## Problems with satellite generation
 
 The most common problem with a Satellite generation is not enough disk space on the hard disk. Free up disk space and try again.
+
 ## Problem viewing all company employees in the Our contact field
 
 If you have not included the user's name in the Satellite area definition who is the Our Contact for the Home Company in the central database, the total number of employees in the company will not display in the Our Contact pop-up field in the Satellite database. Only the Satellite's own employees are listed.
