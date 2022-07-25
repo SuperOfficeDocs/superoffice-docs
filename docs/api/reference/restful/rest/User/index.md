@@ -2,12 +2,11 @@
 title: User
 ---
 
+# User
+
 ```http
 /api/v1/User
 ```
-
-
-
 
 * [GET User](v1User_GetAll.md)
 

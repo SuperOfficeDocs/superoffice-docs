@@ -2,12 +2,11 @@
 title: TableRecord
 ---
 
+# TableRecord
+
 ```http
 /api/v1/TableRecord
 ```
-
-
-
 
 * [GET Table/{tableName}/{id}](v1TableRecord_ReadRow.md)
 

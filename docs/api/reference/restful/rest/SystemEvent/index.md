@@ -2,12 +2,11 @@
 title: SystemEvent
 ---
 
+# SystemEvent
+
 ```http
 /api/v1/SystemEvent
 ```
-
-
-
 
 * [GET SystemEvent/default](v1SystemEventEntity_DefaultSystemEventEntity.md)
 

@@ -2,12 +2,11 @@
 title: ShipmentMessageBlock
 ---
 
+# ShipmentMessageBlock
+
 ```http
 /api/v1/ShipmentMessageBlock
 ```
-
-
-
 
 * [GET ShipmentMessageBlock/default](v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity.md)
 
