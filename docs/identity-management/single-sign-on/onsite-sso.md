@@ -63,7 +63,7 @@ To enable Single sign-on for Web Tools (MailLink and Web Extensions) the binding
 
 ## SuperOffice Service
 
-**SuperOffice 8.4 R04** and newer includes support for NetServer communicating with Service (for instance through the ticket or crmscript agent).
+**SuperOffice 8.4 R04** and newer includes support for NetServer communicating with Service (for instance through the ticket or CRMScript agent).
 
 ### Impersonation user
 

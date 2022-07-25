@@ -67,6 +67,7 @@ NSDocumentAgent docAgent;
 NSDocument[] docList = docAgent.GetAppointmentDocuments(appointmentId);
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### NSDocument[] GetContactDocuments(Integer contactId, DateTime startTime, DateTime endTime, Integer count)
 
 Fetches a limited number of documents within a time range for the given contact.

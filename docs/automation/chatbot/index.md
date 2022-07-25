@@ -93,7 +93,7 @@ POST /api/v1/ChatSession/{chatSessionId}/Messages
 
 ## Examples
 
-A full set of chatbot examples can be found on [GitHub SuperOffice/devnet-crmscript-chatbot][1]
+A full set of chatbot examples can be found on [GitHub SuperOffice/devnet-CRMScript-chatbot][1]
 
 * **Echo bot:** just mirrors the user's input back. Overrides pre-chat form.
 * **Echo bot 2:** just mirrors the user's input back, but shows pre-chat form first.

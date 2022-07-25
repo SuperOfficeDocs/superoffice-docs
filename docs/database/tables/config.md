@@ -27,7 +27,7 @@ This table contains certain system-wide configuration values.
 |template\_path|The path to the templates used for the customer front-end.|String(255)|&#x25CF;|
 |admin\_mail|The email address to the administrator of the system. E.g. ejournal-admin@company.com.|String(255)|&#x25CF;|
 |default\_mail|The default from address in emails being sent from the system. E.g. support@company.com.|String(255)|&#x25CF;|
-|panic\_mail|The email address to where error messages are sent. Normally error@superoffice.com.|String(255)|&#x25CF;|
+|panic\_mail|The email address to where error messages are sent. Normally error@SuperOffice.com.|String(255)|&#x25CF;|
 |smtp\_host|The hostname or IP-address of the SMTP server used for sending email.|String(255)|&#x25CF;|
 |smtp\_port|The port of the SMTP server used for sending email.|Int| |
 |cgi\_bin|The cgi-bin alias used to access the executables through HTTP. E.g. `/bin`|String(255)|&#x25CF;|

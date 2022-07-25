@@ -113,7 +113,7 @@ A tablespace with this name has to exist to run SuperOffice.
 
 ### When configuring an Oracle database using DbSetup/ServerSetup
 
-The configuration program reads Default and Temp TableSpace names from *SUPEROFFICE.INI*
+The configuration program reads Default and Temp TableSpace names from *SuperOffice.INI*
 
 ```text
 [Oracle]

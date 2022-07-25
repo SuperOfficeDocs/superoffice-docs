@@ -18,6 +18,7 @@ An invitation has type = 6 (booking in diary) and status = 6 or 7 (notSeen and s
 
 Here is what happens when the **ACCEPT** button is clicked:
 
+<!-- markdownlint-disable MD013 -->
 ## Update invitation appointment
 
 ```SQL

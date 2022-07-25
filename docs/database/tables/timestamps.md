@@ -30,7 +30,7 @@ Timestamp information
 |ticket\_alert|Timestamp for when tickets should be checked for escalation.|DateTime|&#x25CF;|
 |delete\_temp\_ticket|Timestamp for when tickets should be checked for deletion.|DateTime|&#x25CF;|
 |active\_tickets||DateTime|&#x25CF;|
-|critical\_email|Timestamp for when we last emailed a critical email to panic_email (usually error@superoffice.com).|DateTime|&#x25CF;|
+|critical\_email|Timestamp for when we last emailed a critical email to panic_email (usually error@SuperOffice.com).|DateTime|&#x25CF;|
 |last\_ticketdel|Timestamp for when we last physically removed tickets tagged for deletion.|DateTime|&#x25CF;|
 |build\_faq|Timestamp for when the FAQ search tree was last rebuilt.|DateTime|&#x25CF;|
 |week\_stat|Timestamp for when the week statistics was last sent.|DateTime|&#x25CF;|

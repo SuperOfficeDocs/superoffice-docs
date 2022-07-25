@@ -147,7 +147,7 @@ so.envir:
 | [ErpConnector](erpconnector.md) |One ERP Connector, known by its URL| 417 |
 | [ErpExternalKey](erpexternalkey.md) |The external (ERP-facing) key related to a synchronized record / connection| 423 |
 | [ErpField](erpfield.md) |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector| 425 |
-| [ErpInternalKey](erpinternalkey.md) |The internal (superoffice-facing) key related to a synchronized record| 422 |
+| [ErpInternalKey](erpinternalkey.md) |The internal (SuperOffice-facing) key related to a synchronized record| 422 |
 | [ErpListItemMapping](erplistitemmapping.md) |Defines a mapping of ERP to CRM fields, per connection and actor type| 424 |
 | [ErpSyncLog](erpsynclog.md) |Record all field changes done by the Erp Sync| 426 |
 | [ext\_datasource](ext-datasource.md) |This table contains external datasources, used for databaseintegration of customers and companies.| 317 |

@@ -43,7 +43,6 @@ The following example shows how we can create a new Contact using the URL. `cont
 ![07][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image007.jpg

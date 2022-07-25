@@ -15,7 +15,7 @@ so.envir:
 
 # ErpInternalKey Table (422)
 
-The internal (superoffice-facing) key related to a synchronized record
+The internal (SuperOffice-facing) key related to a synchronized record
 
 ## Fields
 

@@ -33,7 +33,7 @@ A webhook subscription contains the following properties:
 | TargetURL | Defines a URL where webhook payloads are sent. Must be HTTPS and must respond to POST |
 | Secret | Optional shared secret. Used for creating a SHA256 HMAC if set. |
 | State | Unknown = 0, Active = 1, Stopped = 2, TooManyErrors = 3 |
-| Type | Name of webhook plugin that handles dispatching this webhook: "webhook", "crmscript", etc. |
+| Type | Name of webhook plugin that handles dispatching this webhook: "webhook", "CRMScript", etc. |
 | Headers | Hook-specific custom headers to be added to the webhook payload. |
 | Properties | Hook-specific data properties to be added to the webhook payload. |
 

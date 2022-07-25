@@ -19,7 +19,7 @@ How do we debug the web client? For starters, all the web browsers have develope
 * Chrome: Built-in (Ctrl-Shift-J)
 * Safari: Built-in (Ctrl-Alt-I)
 
-With these tools, you can get an overview of the current HTML styles and execute javascript code. In addition to the browser debuggers, we have some simple tools to help you make sense of what's happening inside.
+With these tools, you can get an overview of the current HTML styles and execute JavaScript code. In addition to the browser debuggers, we have some simple tools to help you make sense of what's happening inside.
 
 ## Diagnostics viewer
 
@@ -37,7 +37,7 @@ If you want to debug closer to your codebase, you can use our **Debug** window t
 debug.trace("My trace", "My category");
 ```
 
-This Javascript code above will produce the following output:
+This JavaScript code above will produce the following output:
 
 ![debug 1][img1]
 
@@ -83,7 +83,7 @@ When you open the **Debug** window, you will notice a lot of traces going on whe
 > [!NOTE]
 > This will only work in S&M 7.Web
 
-During the loading of a new page, the application will be looking for a Javascript file named *socustom.js* in the root folder. Any scripts inside this file will be executed for the main page and any dialogs opened.
+During the loading of a new page, the application will be looking for a JavaScript file named *socustom.js* in the root folder. Any scripts inside this file will be executed for the main page and any dialogs opened.
 
 Let's say we want to open the **Debug** window when we press Ctrl-F9 inside the web application.
 
@@ -91,7 +91,7 @@ Let's say we want to open the **Debug** window when we press Ctrl-F9 inside the 
 
 1. Create a new file *socustom.js* and place it in the root folder.
 
-2. Add the following javascript code to the file:
+2. Add the following JavaScript code to the file:
 
 ```javascript
 $j(document).ready(function() {

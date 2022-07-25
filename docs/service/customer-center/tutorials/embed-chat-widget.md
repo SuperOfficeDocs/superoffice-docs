@@ -34,11 +34,11 @@ It is possible to expand the script tag with data-attributes to pass values into
 * Phone: **data-customerPhone** = "‪12345678"
 * Company: **data-companyName** = "Liberty Inc"
 
-The contextual page might have these values available as either local Javascript variables, cookie values, or URL parameters. Therefore, it should be possible to use the following syntax:
+The contextual page might have these values available as either local JavaScript variables, cookie values, or URL parameters. Therefore, it should be possible to use the following syntax:
 
 * `data-customerName="cookie:someValue"?`: Get the value from the cookie named "someValue"
 * `data-customerName="url:someParameter"`: Get the value from the URL parameter named "someParameter"
-* `data-customerName="variable:someVar"`: Get the value from the Javascript variable named "someVar" ("window.someVar")
+* `data-customerName="variable:someVar"`: Get the value from the JavaScript variable named "someVar" ("window.someVar")
 
 All 4 fields support this syntax.
 

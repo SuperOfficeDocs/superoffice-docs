@@ -46,7 +46,6 @@ subcontext = "entityname" of the entity defined in the archive provider
 ```
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/web-archive-control-row-context-menu.png

@@ -19,7 +19,7 @@ The following section gives you information about the parameters in *SOUSER.INI*
 
 The setting is local to the user – it is part of the user’s roaming profile. This means the language setting is replicated when the user logs in to a new machine.
 
-During startup, a copy of the file in *user\appdata\roaming\superoffice* will be copied to *user\appdata\local\superoffice*. This means you have to make any changes to the SOUSER.ini file found in *user\appdata\roaming\superoffice*.
+During startup, a copy of the file in *user\appdata\roaming\SuperOffice* will be copied to *user\appdata\local\SuperOffice*. This means you have to make any changes to the SOUSER.ini file found in *user\appdata\roaming\SuperOffice*.
 
 The file is still accessible to developers and consultants who need to tweak settings there, but most users will just use the language dropdown rather than tweaking the INI file.
 
@@ -57,7 +57,7 @@ UserID=PS
 To use Sales & Marketing and Sales & Marketing Help in another language, for example, Norwegian, you can change the Language= parameter under `[Startup]` in *SOUSER.INI*, to `Language=NO`, as long as you have installed the language module for the Norwegian version. The default value is the language version you installed, for example, US for US English. You need two language files for SIX (*SOLN32_XX_.DLL* and *SOCRMHELP_XX_.DLL*), and two language files for the Maintenance Client (*SOADLN_XX_.DLL* and *SOADMHELP_XX_.DLL*).
 
 > [!NOTE]
-> For you to be able to change languages, the language files must be located in the *SUPEROFFICE* folder, or you will get an error message.
+> For you to be able to change languages, the language files must be located in the *SuperOffice* folder, or you will get an error message.
 
 ## Specifying which days to display in the Week tab
 

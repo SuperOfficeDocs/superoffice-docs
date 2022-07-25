@@ -48,7 +48,7 @@ Since you are upgrading the client on a computer, there is information you can u
     1. [Locate and open SuperOffice.ini][7].
     2. Copy the address after `"Centralpath="`
 
-    ![superoffice-ini_centralpath -screenshot][img1]
+    ![SuperOffice-ini_centralpath -screenshot][img1]
 
 2. Open the file path to where the server installation is - in file explorer
 

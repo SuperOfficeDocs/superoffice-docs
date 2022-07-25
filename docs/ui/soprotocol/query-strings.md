@@ -33,7 +33,6 @@ To go to a specific company card, set the active archive, and open an appointmen
 ![09][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

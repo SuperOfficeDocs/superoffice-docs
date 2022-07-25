@@ -34,7 +34,7 @@ This table will hold outgoing sms messages when transmitted with WebServices
 |shipment\_id|Reference to the shipment id, used for eMarketeer|FK [s_shipment](s-shipment.md)| |
 |customer\_id|Reference to the customer id, used for eMarketeer|FK [person](person.md)| |
 |message\_id|Reference to the message id this SMS was sent from|FK [ej_message](ej-message.md)| |
-|outgoing\_message\_id|Reference to the outgoing message entry created by netserver for sending and status update|FK [outgoing_message](outgoing-message.md)|&#x25CF;|
+|outgoing\_message\_id|Reference to the outgoing message entry created by NetServer for sending and status update|FK [outgoing_message](outgoing-message.md)|&#x25CF;|
 
 ![sms table relationship diagram](./media/sms.png)
 

@@ -52,7 +52,7 @@ The external (ERP-facing) key related to a synchronized record / connection
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
-|[ErpInternalKey](erpinternalkey.md)  |The internal (superoffice-facing) key related to a synchronized record |
+|[ErpInternalKey](erpinternalkey.md)  |The internal (SuperOffice-facing) key related to a synchronized record |
 |[ErpSyncLog](erpsynclog.md)  |Record all field changes done by the Erp Sync |
 
 ## Replication Flags

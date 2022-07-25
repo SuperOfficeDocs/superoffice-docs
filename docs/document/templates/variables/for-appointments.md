@@ -20,7 +20,7 @@ so.topic: reference
 | bcon | The appointment's company, name |
 | bcrd | The appointment's creation date, in PC's local time, formatted YYYYMMdd |
 | bcrt | The appointment's creation time, in PC's local time, formatted HHmmss |
-| bdlg | The "superoffice:invitations" link to the invitation dialog |
+| bdlg | The "SuperOffice:invitations" link to the invitation dialog |
 | bdll | The "Use this link to open the Invitation dialog in SuperOffice CRM" link displayed for registered contacts. Blank if recipient is not a registered contact |
 | beda | The appointment's end date, formatted as YYYYMMdd |
 | bema | The appointment's owner, email address |

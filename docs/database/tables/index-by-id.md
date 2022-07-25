@@ -441,7 +441,7 @@ so.envir:
 |419| [ErpConnectionActorType](erpconnectionactortype.md) |Data about the configuration of one Erp Actor on one ErpConnection|
 |420| [ErpConnectionAccess](erpconnectionaccess.md) |Access control for Erp Connections|
 |421| [ConnectionConfigField](connectionconfigfield.md) |Configuration data for Erp and Quote Connections|
-|422| [ErpInternalKey](erpinternalkey.md) |The internal (superoffice-facing) key related to a synchronized record|
+|422| [ErpInternalKey](erpinternalkey.md) |The internal (SuperOffice-facing) key related to a synchronized record|
 |423| [ErpExternalKey](erpexternalkey.md) |The external (ERP-facing) key related to a synchronized record / connection|
 |424| [ErpListItemMapping](erplistitemmapping.md) |Defines a mapping of ERP to CRM fields, per connection and actor type|
 |425| [ErpField](erpfield.md) |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector|

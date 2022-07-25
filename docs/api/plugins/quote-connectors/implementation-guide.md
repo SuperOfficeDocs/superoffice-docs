@@ -105,4 +105,3 @@ so.topic: howto
 9. Create a quote with the new connector.
 
 <!-- Referenced links -->
-[1]:

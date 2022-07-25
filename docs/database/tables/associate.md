@@ -152,7 +152,7 @@ Employees, resources and other users - except for External persons
 |[ErpConnector](erpconnector.md)  |One ERP Connector, known by its URL |
 |[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
 |[ErpField](erpfield.md)  |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector |
-|[ErpInternalKey](erpinternalkey.md)  |The internal (superoffice-facing) key related to a synchronized record |
+|[ErpInternalKey](erpinternalkey.md)  |The internal (SuperOffice-facing) key related to a synchronized record |
 |[ErpListItemMapping](erplistitemmapping.md)  |Defines a mapping of ERP to CRM fields, per connection and actor type |
 |[ErpSyncLog](erpsynclog.md)  |Record all field changes done by the Erp Sync |
 |[ExtApp](extapp.md)  |ExtApp list table. Applications startable from SuperOffice |

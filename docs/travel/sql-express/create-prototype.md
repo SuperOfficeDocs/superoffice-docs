@@ -22,14 +22,14 @@ Make sure you start SOAdmin.exe elevated (as administrator) the first time you t
 
 The prototype is generated on a database server, and the actual database file must reside on the same server. If the archivepath file store and the database server run on different computers, the prototype will have to be created on the database server and not the archivepath file server – this is how MS SQL Server works.
 
-Two new variables have to be added to *superoffice.ini* in the `SuperOffice` section for this purpose, note that both should point to the same location on the same computer as the SQL prototype is generated:
+Two new variables have to be added to *SuperOffice.ini* in the `SuperOffice` section for this purpose, note that both should point to the same location on the same computer as the SQL prototype is generated:
 
 ```text
 ProtoServerPath=c:\SOProto
 ProtoClientPath=c:\SOProto
 ```
 
-These 2 items have to be inserted into the *Superoffice.ini* manually, and they are read at start-up, so you need to restart SOAdmin.exe if you just added it and it's still complaining that the ProtoServerPath is missing.
+These 2 items have to be inserted into the *SuperOffice.ini* manually, and they are read at start-up, so you need to restart SOAdmin.exe if you just added it and it's still complaining that the ProtoServerPath is missing.
 
 When the prototype has finished, the database files will be automatically zipped and copied to the `ARCHIVEPATH`, like *\\\\SERVER\SO_Arc\Template\travel*.
 

@@ -193,7 +193,7 @@ Since we’re not in Office Store, we have to do this manually:
 
     The App Catalog is now being created – and available to be used within about 5 minutes.
 
-3. Download the SuperOffice SharePoint App <a href="../../../assets/downloads/cloud-office/cloud-office-superoffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
+3. Download the SuperOffice SharePoint App <a href="../../../assets/downloads/cloud-office/cloud-office-SuperOffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
 
 4. Choose "Apps for SharePoint" in the menu. ![imagekoepi.png -screenshot][img30]
 
