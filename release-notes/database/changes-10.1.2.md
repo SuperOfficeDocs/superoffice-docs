@@ -224,7 +224,7 @@ Reset bounceCount and lastBounce on the Email table for rows where lastBounce is
 
 **Step 56**
 
-Remove several sections and some individual preferences, that were only relevant to the Windows client. 
+Remove several sections and some individual preferences, that were only relevant to the Windows client.
 Remove never-used fields in searchcriterionvalue and replace with a string field for valueType
 
 * Modify table searchcriterionvalue

@@ -224,7 +224,7 @@ Reset bounceCount and lastBounce on the Email table for rows where lastBounce is
 
 **Step 56**
 
-Remove several sections and some individual preferences, that were only relevant to the Windows client. 
+Remove several sections and some individual preferences, that were only relevant to the Windows client.
 Remove never-used fields in searchcriterionvalue and replace with a string field for valueType
 
 * [Modify table searchcriterionvalue](../../docs/database/tables/searchcriterionvalue.md)
@@ -754,7 +754,6 @@ organizer\_email, organizer\_fullname, recurring\_end\_date
 
 Set preference "Diary sync active" if Infobridge synchronizer seem to be in use.
 
-
 **Step 4**
 
 Adds support for modifications of single appointments in a recurring series.
@@ -791,7 +790,6 @@ flags
 
 Remove the old SOEditor mailing templates for new Online installations
 
-
 **Step 4**
 
 Change type of S_Shipment.Status to a defined enum called ShipmentStatus and change type of (S_Link_Customer/S_Link_Customer_Statical).LinkType to ShipmentLinkType.
@@ -806,7 +804,6 @@ link\_type
 ## NewSelection
 
 The typical search table is an owner of a set of predefined selection criteria
-
 
 **Step 2**
 
@@ -838,11 +835,9 @@ chartKey, lastLoaded, lastLoadedBy, lastMembershipChange, lastMembershipChangeBy
 
 SelectionForFind creates a dynamic selection for each entity/associate as needed; they were missing the required VisibleFor row; those are added here
 
-
 **Step 7**
 
 Update targetTableNumber to 5 where it was 0, and reset membercounts to -1 where we have no recent data
-
 
 **Step 8**
 
@@ -867,7 +862,6 @@ Add table OnlineApp, to echo information about authorizations and usage. Optimiz
 **Step 2**
 
 Deleting obsolete counter-preferences
-
 
 ## Pocket
 
@@ -901,11 +895,9 @@ flags
 
 Change value of registry entry for maximum width of components
 
-
 **Step 3**
 
 Make sure the row with id=1 in ejuser contains the '(System)' user
-
 
 ## SubscriptionMgmt
 
@@ -957,4 +949,3 @@ waiting\_for\_approval
 The **Webhook** table keeps track of the **Target\_URL** where we will dispatch HTTP POST notificationsof events that happen in SuperOffice. The webhook state should be ACTIVE(1). If too many errors are received when we try to POST to the TargetUrl, then the webhook state is changed to TOO-MANY-ERRORS(3).
 
 * [Add table Webhook](../../docs/database/tables/webhook.md)
-
