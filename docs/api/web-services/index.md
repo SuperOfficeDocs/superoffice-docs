@@ -235,11 +235,11 @@ There is one nuget package for .NET developers. This package exposes the same Ag
 
 WSDL files for all versioned endpoints are [available for download][12] in the reference section, or as individual files on each endpoint reference page.
 
-**Download All**
+**Download All:**
 
 ![Download all WSDLs][wsdl-all]
 
-**Download Single**
+**Download Single:**
 
 ![Download all WSDLs][wsdl-single]
 

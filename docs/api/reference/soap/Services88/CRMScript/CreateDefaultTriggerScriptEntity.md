@@ -13,7 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.CreateDef
 
 Loading default values into a new TriggerScriptEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
 **Returns:** New TriggerScriptEntity with default values

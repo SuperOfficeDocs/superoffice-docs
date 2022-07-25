@@ -9,7 +9,7 @@ id: v1EMailAgent_GetEmailsAsString
 POST /api/v1/Agents/EMail/GetEmailsAsString
 ```
 
-<para />
+<br />
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 

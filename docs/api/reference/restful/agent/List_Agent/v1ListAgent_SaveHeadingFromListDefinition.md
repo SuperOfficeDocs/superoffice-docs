@@ -49,7 +49,7 @@ Id, Entity
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
-| Entity |  | The heading entity contains generic list item information <para /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Entity |  | The heading entity contains generic list item information <br /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
 
 ## Response: object

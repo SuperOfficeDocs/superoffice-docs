@@ -51,7 +51,7 @@ UserGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserGroup |  | The main user group that this user belongs to <para /> Carrier object for UserGroup. Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| UserGroup |  | The main user group that this user belongs to <br /> Carrier object for UserGroup. Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 
 ## Response: object

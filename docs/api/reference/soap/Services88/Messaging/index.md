@@ -12,7 +12,7 @@ Handled by the <see cref="T:SuperOffice.Services88.IMessagingAgent">SuperOffice.
 
 Interface for the Messaging Agent
 SMS and other external messaging systems
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** This agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 Download [WSDL file for Services88/Messaging](../Services88-Messaging.md) if you need to generate your own proxy code.
 

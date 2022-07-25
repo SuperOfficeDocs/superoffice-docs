@@ -13,7 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.CreateDefault
 
 Loading default values into a new EMailEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
 **Returns:** New EMailEntity with default values

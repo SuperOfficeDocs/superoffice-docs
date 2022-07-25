@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.Save">SuperOf
 ## Save
 
 Save the e-mail back to the database
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **email:** The e-mail to save
 

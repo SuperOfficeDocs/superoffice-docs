@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SaveUntrustedC
 ## SaveUntrustedCredentials
 
 Save credentials for authenticated user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **type:** Type of credential(Ex: "imap", "smtp")
 * **credentials:** Credentials to save.

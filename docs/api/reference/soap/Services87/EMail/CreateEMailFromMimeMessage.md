@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.CreateEMailFr
 ## CreateEMailFromMimeMessage
 
 Get an e-mail based on the provided MIME-message
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **mimeMessage:** string representing a MIME-formatted message
 

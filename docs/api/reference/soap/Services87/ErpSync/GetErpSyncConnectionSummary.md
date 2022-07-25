@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetErpSyncC
 ## GetErpSyncConnectionSummary
 
 Get a summary of the current ErpSync configuration/setup
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpSyncConnectionId:** The ID of the ErpSync connection for which information is sought
 

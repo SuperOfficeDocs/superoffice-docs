@@ -12,7 +12,7 @@ Handled by the <see cref="T:SuperOffice.Services88.IEMailAgent">SuperOffice.Serv
 
 Interface for the EMail Agent
 Email connection, reading, sending
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** This agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to generate your own proxy code.
 

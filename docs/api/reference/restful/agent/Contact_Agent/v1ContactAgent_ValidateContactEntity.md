@@ -48,7 +48,7 @@ ContactEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <para /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
+| ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <br /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 
 
 ## Response: object

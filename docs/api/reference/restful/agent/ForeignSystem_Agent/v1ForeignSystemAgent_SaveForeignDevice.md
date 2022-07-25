@@ -48,7 +48,7 @@ ForeignDevice, ApplicationName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <br /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 | ApplicationName | string |  |
 
 

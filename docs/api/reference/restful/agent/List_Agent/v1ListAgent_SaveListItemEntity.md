@@ -48,7 +48,7 @@ ListItemEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ListItemEntity |  | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| ListItemEntity |  | The list item entity contains generic list item information <br /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
 
 ## Response: object

@@ -50,7 +50,7 @@ ErpSyncDefaultValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ErpSyncDefaultValue |  | Contains default value information for one ERP field <para /> Carrier object for ErpSyncDefaultValue. Services for the ErpSyncDefaultValue Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| ErpSyncDefaultValue |  | Contains default value information for one ERP field <br /> Carrier object for ErpSyncDefaultValue. Services for the ErpSyncDefaultValue Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
 
 ## Response: object

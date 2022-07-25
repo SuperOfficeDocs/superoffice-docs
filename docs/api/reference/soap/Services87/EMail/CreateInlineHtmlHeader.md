@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.CreateInlineH
 ## CreateInlineHtmlHeader
 
 Create Outlook style HTML header to use in for instance reply entities and when printing
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **email:** The e-mail to generate header based on
 

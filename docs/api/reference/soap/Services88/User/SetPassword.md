@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SetPassword">S
 ## SetPassword
 
 Change password for a user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateId:** Id of User to set password for
 * **password:** New password

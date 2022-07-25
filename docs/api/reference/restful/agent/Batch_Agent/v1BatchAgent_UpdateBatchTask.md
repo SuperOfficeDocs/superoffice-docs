@@ -48,7 +48,7 @@ BatchTaskInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| BatchTaskInfo |  | BatchTaskInfo contains information about one batch task. <para /> Carrier object for BatchTaskInfo. Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>. |
+| BatchTaskInfo |  | BatchTaskInfo contains information about one batch task. <br /> Carrier object for BatchTaskInfo. Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>. |
 
 
 ## Response: object

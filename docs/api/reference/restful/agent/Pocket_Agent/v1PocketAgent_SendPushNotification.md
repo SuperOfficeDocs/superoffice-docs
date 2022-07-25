@@ -44,7 +44,7 @@ AssociateIds, Message
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
-| Message |  | Describes behaviour and content for a push notification message <para /> Carrier object for PocketNotificationMessage. Services for the PocketNotificationMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPocketAgent">Pocket Agent</see>. |
+| Message |  | Describes behaviour and content for a push notification message <br /> Carrier object for PocketNotificationMessage. Services for the PocketNotificationMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPocketAgent">Pocket Agent</see>. |
 
 
 ## Response

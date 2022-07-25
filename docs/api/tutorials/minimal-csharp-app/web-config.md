@@ -19,7 +19,7 @@ This section will present the technical details to understand what is required t
 * SuperOffice>Service
 * appSettings
 
-[!include[web.config](./includes/web-config.md)]
+[!code-xml[XML](includes/web-config.xml)]
 
 The `Session Mode` property instructs NetServer to use the **PartnerHttpContext** provider to store the user's context when the application is run.
 
@@ -71,7 +71,7 @@ Path to a local file containing the partners' **application private key**.
 
 **Example private key file:**
 
-[!include[ALT](./includes/private-key.md)]
+[!code-xml[XML](includes/private-key.xml)]
 
 ### SuperIdCertificate
 

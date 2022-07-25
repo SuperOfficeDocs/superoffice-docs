@@ -48,7 +48,7 @@ Info, SelectedListId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
+| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <br /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
 | SelectedListId | int32 |  |
 
 

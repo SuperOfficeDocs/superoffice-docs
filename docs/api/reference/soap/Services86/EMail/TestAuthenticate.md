@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.TestAuthentic
 ## TestAuthenticate
 
 Test if logged-in user has a working mail account
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
 

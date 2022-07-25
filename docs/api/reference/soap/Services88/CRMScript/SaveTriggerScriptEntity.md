@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.SaveTrigg
 ## SaveTriggerScriptEntity
 
 Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is 0.
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **triggerScriptEntity:** The TriggerScriptEntity that is saved.
 

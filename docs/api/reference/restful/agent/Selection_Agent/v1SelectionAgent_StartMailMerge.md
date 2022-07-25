@@ -43,7 +43,7 @@ Settings
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Settings |  | Settings specifying what selection to perform the mailmerge on, what merge document to use etc. <para /> Carrier object for MailMergeSettings. Services for the MailMergeSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>. |
+| Settings |  | Settings specifying what selection to perform the mailmerge on, what merge document to use etc. <br /> Carrier object for MailMergeSettings. Services for the MailMergeSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>. |
 
 
 ## Response

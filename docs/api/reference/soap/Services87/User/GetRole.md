@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetRole">Super
 ## GetRole
 
 Gets a Role object.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleId:** The identifier of the Role object
 

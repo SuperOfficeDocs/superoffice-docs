@@ -43,7 +43,7 @@ ActivityFilter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ActivityFilter |  | Activity list filter information. <para /> Carrier object for ActivityFilter. Services for the ActivityFilter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>. |
+| ActivityFilter |  | Activity list filter information. <br /> Carrier object for ActivityFilter. Services for the ActivityFilter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>. |
 
 
 ## Response

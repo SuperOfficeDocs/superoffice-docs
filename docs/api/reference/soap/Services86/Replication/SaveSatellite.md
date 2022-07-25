@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IReplicationAgent.SaveSat
 ## SaveSatellite
 
 Updates the existing Satellite or creates a new Satellite if the id parameter is 0.
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+<br />**Online Restricted:** The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 * **satellite:** The Satellite that is saved.
 

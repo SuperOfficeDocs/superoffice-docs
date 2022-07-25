@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.MoveErpFiel
 ## MoveErpFieldItem
 
 Moves the rank of the erp field up or down
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpFieldId:** The id of the erp field to move
 * **direction:** Positive value to increase rank, negative to decrease.

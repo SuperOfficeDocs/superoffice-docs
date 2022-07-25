@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.CreateExternal
 ## CreateExternalUser
 
 Creates an associate of type external user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **personId:** The personId to create an external user for.
 * **userName:** Login username.

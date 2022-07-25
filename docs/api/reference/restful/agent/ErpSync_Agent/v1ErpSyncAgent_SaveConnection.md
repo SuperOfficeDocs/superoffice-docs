@@ -50,7 +50,7 @@ Connection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Connection |  | Information about a connection to the ERP system. <para /> Carrier object for ErpConnection. Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| Connection |  | Information about a connection to the ERP system. <br /> Carrier object for ErpConnection. Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
 
 ## Response: object

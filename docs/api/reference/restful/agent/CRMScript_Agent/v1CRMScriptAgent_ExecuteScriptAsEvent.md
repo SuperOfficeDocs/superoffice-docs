@@ -52,7 +52,7 @@ CRMScriptId, EventData
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CRMScriptId | int32 |  |
-| EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
+| EventData |  | EventData containing data related to event handlers <br /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
 
 ## Response: object

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.ExecuteUserCom
 ## ExecuteUserCommand
 
 Executes the custom command for User
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **commandName:** The name of the command to execute.
 * **actionResult:** Result of an UI operation.

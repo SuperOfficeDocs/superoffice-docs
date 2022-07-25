@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.SupportsAdv
 ## SupportsAdvancedSearch
 
 Indicates if the connection supports advanced search for the given erp actor
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** Ths id of the connection
 * **erpActorType:** The erp actor type to check for

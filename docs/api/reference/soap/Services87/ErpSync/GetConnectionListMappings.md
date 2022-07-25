@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetConnecti
 ## GetConnectionListMappings
 
 Returns the listmappings for the specified connection.
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** Primary key of the connection
 

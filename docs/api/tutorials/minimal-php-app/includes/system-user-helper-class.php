@@ -1,4 +1,3 @@
-```php
 class SystemUserHelper
 {
    /*
@@ -25,4 +24,3 @@ class SystemUserHelper
       return $agent->AuthenticateSystemUser($signThis.".".base64_encode($signature), $returnTokenType);
    }
 }
-```

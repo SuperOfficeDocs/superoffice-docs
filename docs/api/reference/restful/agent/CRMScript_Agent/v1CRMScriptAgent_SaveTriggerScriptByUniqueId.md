@@ -52,7 +52,7 @@ TriggerScriptUniqueId, Entity
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TriggerScriptUniqueId | string |  |
-| Entity |  | CRM Trigger Script - The script runs when a given event fires. <para /> Carrier object for TriggerScriptEntity. Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| Entity |  | CRM Trigger Script - The script runs when a given event fires. <br /> Carrier object for TriggerScriptEntity. Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
 
 ## Response: object
@@ -77,7 +77,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
+| Source | string | The CRMScript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 The next step is to convert the retrieved activity data into a format that can be displayed in a data grid.
 
 [!code-csharp[CS](../itunes-setdatagrid.cs?range=46-102)]

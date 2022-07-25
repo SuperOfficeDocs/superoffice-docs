@@ -13,7 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.CreateD
 
 Loading default values into a new Satellite.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+<br />**Online Restricted:** The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 
 **Returns:** New Satellite with default values

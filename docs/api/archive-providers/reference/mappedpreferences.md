@@ -20,16 +20,18 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider">SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider</see> inside NetServer's SODatabase assembly.
 
 Get all the mapped ('fake') Service preferences known to the <see cref="T:SuperOffice.Data.ServicePreferenceMapper" />.
-<b>NOTE</b> that only <b>section</b> and <b>key</b> are supported as restrictions, and only with the <b>equals</b> operator.
+**NOTE** that only **section** and **key** are supported as restrictions, and only with the **equals** operator.
 Anything else needs to be coded!
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"system"|[system]|
 |"user"|User|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |userpreferenceId|int|Database ID: The database ID of the row in the userpreference table| x |
@@ -54,7 +56,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SetExternalUse
 ## SetExternalUserInfo
 
 Modifies an external user. Changes external users information according to the flags set in  externalUserInfoModification.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateId:** The associateId to alter.
 * **userName:** Login username.

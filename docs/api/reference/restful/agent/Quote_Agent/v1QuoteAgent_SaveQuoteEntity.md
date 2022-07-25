@@ -48,7 +48,7 @@ QuoteEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteEntity |  | Quote methods <para /> Carrier object for QuoteEntity. Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteEntity |  | Quote methods <br /> Carrier object for QuoteEntity. Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
 
 ## Response: object

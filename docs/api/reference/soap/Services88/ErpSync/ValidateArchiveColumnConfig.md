@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ValidateArc
 ## ValidateArchiveColumnConfig
 
 Clear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **listOwner:** GUI name used in archive control config
 * **erpConnectionId:** The ERP connection ID

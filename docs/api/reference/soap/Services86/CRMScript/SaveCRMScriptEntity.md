@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.ICRMScriptAgent.SaveCRMSc
 ## SaveCRMScriptEntity
 
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is 0.
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptEntity:** The CRMScriptEntity that is saved.
 

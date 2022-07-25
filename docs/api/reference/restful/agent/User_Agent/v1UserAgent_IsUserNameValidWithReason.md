@@ -9,7 +9,7 @@ id: v1UserAgent_IsUserNameValidWithReason
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 ```
 
-<para />
+<br />
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 

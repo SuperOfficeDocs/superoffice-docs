@@ -48,7 +48,7 @@ QuoteLineConfiguration
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineConfiguration |  | QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified. <para /> Carrier object for QuoteLineConfiguration. Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLineConfiguration |  | QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified. <br /> Carrier object for QuoteLineConfiguration. Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
 
 ## Response: object

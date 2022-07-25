@@ -48,7 +48,7 @@ Duplicate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Duplicate |  | A duplicate entry <para /> Carrier object for DuplicateEntry. |
+| Duplicate |  | A duplicate entry <br /> Carrier object for DuplicateEntry. |
 
 
 ## Response: int32

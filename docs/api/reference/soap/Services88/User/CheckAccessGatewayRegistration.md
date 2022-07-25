@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CheckAccessGat
 ## CheckAccessGatewayRegistration
 
 Checks if AccessGatewayRegistration is valid
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
 **Returns:** True if the registration is usable

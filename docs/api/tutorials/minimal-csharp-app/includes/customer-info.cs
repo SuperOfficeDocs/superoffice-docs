@@ -1,4 +1,3 @@
-```csharp
 namespace SuperOffice.DevNet.Online.SystemUser.PartnerDBLibrary.Models
 {
     public class CustomerInfo
@@ -11,4 +10,3 @@ namespace SuperOffice.DevNet.Online.SystemUser.PartnerDBLibrary.Models
         public DateTime LastSync { get; set; }
     }
 }
-```

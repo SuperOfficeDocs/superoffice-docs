@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetUserGroupLi
 ## GetUserGroupList
 
 Gets an array of UserGroup objects.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userGroupIds:** The identifiers of the UserGroup object
 

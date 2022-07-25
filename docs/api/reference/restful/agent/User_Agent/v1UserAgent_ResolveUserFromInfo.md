@@ -56,7 +56,7 @@ ContactId, PersonName, PhoneNumbers, Emails, UserType, Credential
 | PhoneNumbers | array |  |
 | Emails | array |  |
 | UserType | string |  |
-| Credential |  | Credentials supported for authentication <para /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| Credential |  | Credentials supported for authentication <br /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 
 ## Response: object

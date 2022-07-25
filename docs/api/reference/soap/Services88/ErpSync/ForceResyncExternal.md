@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ForceResync
 ## ForceResyncExternal
 
 Force resync from CRM or given Erp connection to all other connections, using external keys
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** Resync from the given erp connection
 * **erpActorType:** Which actor type the external keys are associated with

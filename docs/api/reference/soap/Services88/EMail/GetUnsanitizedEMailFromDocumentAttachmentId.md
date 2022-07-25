@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetUnsanitize
 ## GetUnsanitizedEMailFromDocumentAttachmentId
 
 Get an e-mail based on an email in the archive system and attachment id. The returned value is not sanitized.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **docId:** The primary key of the document row in the DB
 * **attachmentIds:** Id of the attachment. If multiple elements this is treated as attachment in attachemnts, e.g. [1, 2] means attachment 2 in attachment 1 of email.

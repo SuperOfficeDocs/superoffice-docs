@@ -77,9 +77,9 @@ Response body: object
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |

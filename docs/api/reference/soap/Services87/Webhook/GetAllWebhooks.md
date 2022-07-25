@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IWebhookAgent.GetAllWebho
 ## GetAllWebhooks
 
 Returns all webhooks, according to filter criteria
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **nameFilter:** Only return hooks with this name. Default NULL = no filter
 * **eventFilter:** Only return hooks responding to this event name. Default NULL = no filter

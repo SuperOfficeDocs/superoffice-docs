@@ -51,7 +51,7 @@ UserId, Credential
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserId | int32 |  |
-| Credential |  | Credentials supported for authentication <para /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| Credential |  | Credentials supported for authentication <br /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 
 ## Response: bool

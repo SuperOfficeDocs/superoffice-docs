@@ -63,7 +63,7 @@ The TicketMessageEntity to be saved.
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person |  | If this is an incoming message, this will contain the person  <br />Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -102,7 +102,7 @@ Response body: object
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person |  | If this is an incoming message, this will contain the person  <br />Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |

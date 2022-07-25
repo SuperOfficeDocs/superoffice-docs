@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ForceResync
 ## ForceResyncNoBlankValues
 
 Force resync from CRM or given Erp connection to all other connections and tell the sync that you don't want blank values to overwrite non-blank values. Useful on import.
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** If positive, resync from the given erp connection
 * **internalKeyIds:** The internal keys of the entities to resync, or empty to resync all

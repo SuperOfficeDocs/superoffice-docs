@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.ValidateT
 ## ValidateTriggerScript
 
 Validate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **triggerScriptId:** The id of the CRMScript Trigger to validate
 

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMessagingAgent.CreateMes
 ## CreateMessage
 
 Create a new message and insert it in the message queue. (inbox)
-<para /><b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **incomingMessage:** 
 

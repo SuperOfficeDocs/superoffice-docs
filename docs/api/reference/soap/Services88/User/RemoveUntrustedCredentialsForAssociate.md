@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.RemoveUntruste
 ## RemoveUntrustedCredentialsForAssociate
 
 Remove a credentials entry for a specified user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateId:** Id of user to remove credentials for.
 * **type:** Type of credential(Ex: "imap", "smtp")

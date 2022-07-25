@@ -48,7 +48,7 @@ QuoteLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLine |  | Information about a connection to the ERP system. <br /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
 
 ## Response: object

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetUntrustedCr
 ## GetUntrustedCredentialsForAssociate
 
 Get a set of credentials of a specified type for a specified user. SecretValue is only populated for authenticated user, and system users.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateId:** Id of user to retrieve credentials for.
 * **type:** Type of credential(Ex: "imap", "smtp").

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.ResolveUserFro
 ## ResolveUserFromInfo
 
 Get a user from the provided information. If the user or associated person does not exist, it will be created on demand.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **contactId:** The contact Id of the contact which the person belongs to. Cannot be 0.
 * **personName:** The full name of the person to be resolved. Optional.

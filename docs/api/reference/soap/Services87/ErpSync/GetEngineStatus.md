@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetEngineSt
 ## GetEngineStatus
 
 Get the current status of the Sync engine
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
 **Returns:** The current status of the engine

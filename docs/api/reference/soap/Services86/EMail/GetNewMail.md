@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.GetNewMail">S
 ## GetNewMail
 
 Get new email in folder(s) for current associate
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **folders:** List of folder ids to check for new email
 

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.SetSubscripti
 ## SetSubscription
 
 Set subscription on or off on a set of folders
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **folders:** Folders to set subscription value on

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.SaveEMailAcco
 ## SaveEMailAccount
 
 Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is 0.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **eMailAccount:** The EMailAccount that is saved.
 

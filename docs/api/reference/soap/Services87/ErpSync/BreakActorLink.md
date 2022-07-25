@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.BreakActorL
 ## BreakActorLink
 
 Remove the link between a CRM entity and an ERP entity
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** The ERP connection ID
 * **crmRecordId:** The ID of the CRM entity to connect to

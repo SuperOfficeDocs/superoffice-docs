@@ -50,7 +50,7 @@ Email
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Email |  | All information about an e-mail <br /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
 
 ## Response: object

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEMailAccou
 ## GetEMailAccountFromEMailAddress
 
 Returns the email account corresponding to this email address (for the current associate).
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **fromAddress:** The address associated with this email account
 

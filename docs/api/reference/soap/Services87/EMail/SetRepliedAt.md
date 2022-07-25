@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.SetRepliedAt"
 ## SetRepliedAt
 
 Set the replied\_at field based on the MessageID
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **messageId:** The MessageID
 

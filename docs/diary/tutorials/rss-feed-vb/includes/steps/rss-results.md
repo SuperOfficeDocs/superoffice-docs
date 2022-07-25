@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 **Feed content shown in a browser before subscribed:**
 
 ![RSS feed before subscribing -screenshot][img2]

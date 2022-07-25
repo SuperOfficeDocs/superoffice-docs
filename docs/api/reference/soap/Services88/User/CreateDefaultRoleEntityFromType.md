@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CreateDefaultR
 ## CreateDefaultRoleEntityFromType
 
 Create a new role entity of the specified role type. The role type cannot be changed after the entity is created.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **type:** Type of role (Employee/External/Anonymous/System)
 

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.ChangeEngin
 ## ChangeEngineInterval
 
 Change the interval for each run of the Sync Engine
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **interval:** The run interval for the engine
 

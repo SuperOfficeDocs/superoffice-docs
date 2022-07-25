@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetUnsanitize
 ## GetUnsanitizedPreviewAttachmentFromId
 
 Retrieve an attachment from an e-mail. The returned data is intended to be use for a preview. The returned data is not sanitized.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **mailItemId:** Unique ID for the e-mail to retrieve the attachment from
 * **attachmentId:** Id of the attachment in the e-mail

@@ -44,7 +44,7 @@ SelectionId, SelectionMemberEditValues
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
-| SelectionMemberEditValues |  | A class representing values to change when changing company and contact details from the Edit Company Details task for selections. <para /> Carrier object for SelectionMemberEditValues. |
+| SelectionMemberEditValues |  | A class representing values to change when changing company and contact details from the Edit Company Details task for selections. <br /> Carrier object for SelectionMemberEditValues. |
 
 
 ## Response

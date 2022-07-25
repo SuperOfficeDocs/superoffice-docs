@@ -49,7 +49,7 @@ LayoutName, ConfigParameter
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
-| ConfigParameter |  | An Audience configuration parameter, used for handling Audience application or Web part settings. <para /> Carrier object for AudienceConfigParameter. Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>. |
+| ConfigParameter |  | An Audience configuration parameter, used for handling Audience application or Web part settings. <br /> Carrier object for AudienceConfigParameter. Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>. |
 
 
 ## Response: object

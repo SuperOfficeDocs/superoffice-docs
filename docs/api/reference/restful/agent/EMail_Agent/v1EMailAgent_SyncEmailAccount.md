@@ -45,7 +45,7 @@ SyncUserAccount
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SyncUserAccount |  | Details for syncing email user accounts <para /> Carrier object for SyncUserAccount. Services for the SyncUserAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| SyncUserAccount |  | Details for syncing email user accounts <br /> Carrier object for SyncUserAccount. Services for the SyncUserAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
 
 ## Response

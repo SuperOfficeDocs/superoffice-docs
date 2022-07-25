@@ -9,7 +9,7 @@ id: v1UserAgent_IsNickNameUnique
 POST /api/v1/Agents/User/IsNickNameUnique
 ```
 
-<para />
+<br />
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 

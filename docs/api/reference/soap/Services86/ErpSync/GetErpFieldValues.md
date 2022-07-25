@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetErpField
 ## GetErpFieldValues
 
 Get the values for the specified fields from the ERP connection
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** The id of the connection
 * **crmActorType:** The type of the CRM entity

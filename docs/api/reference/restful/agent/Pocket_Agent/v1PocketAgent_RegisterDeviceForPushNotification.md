@@ -43,7 +43,7 @@ DeviceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DeviceInfo |  | Describes a device running Pocket CRM <para /> Carrier object for PocketDeviceInfo. Services for the PocketDeviceInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPocketAgent">Pocket Agent</see>. |
+| DeviceInfo |  | Describes a device running Pocket CRM <br /> Carrier object for PocketDeviceInfo. Services for the PocketDeviceInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPocketAgent">Pocket Agent</see>. |
 
 
 ## Response

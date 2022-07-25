@@ -50,7 +50,7 @@ ListMapping
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ListMapping |  | Information about all list connections for a connection between CRM and the ERP system. <para /> Carrier object for ErpConnectionListMappingContainer. Services for the ErpConnectionListMappingContainer Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| ListMapping |  | Information about all list connections for a connection between CRM and the ERP system. <br /> Carrier object for ErpConnectionListMappingContainer. Services for the ErpConnectionListMappingContainer Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
 
 ## Response: object

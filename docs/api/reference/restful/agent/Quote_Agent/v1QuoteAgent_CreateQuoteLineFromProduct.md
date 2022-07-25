@@ -49,7 +49,7 @@ QuoteAlternativeId, Product
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
-| Product |  | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <para /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| Product |  | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <br /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
 
 ## Response: object

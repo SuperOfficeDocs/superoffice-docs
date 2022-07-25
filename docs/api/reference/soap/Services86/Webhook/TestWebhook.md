@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IWebhookAgent.TestWebhook
 ## TestWebhook
 
 Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **webhook:** Webhook definition to ping. Must contain a valid TargetUrl.
 

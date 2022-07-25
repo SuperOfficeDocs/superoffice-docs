@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GenerateNewPas
 ## GenerateNewPasswordForExternalUser
 
 Generates a new password for an external user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateName:** The name of the associate to change the password for.
 

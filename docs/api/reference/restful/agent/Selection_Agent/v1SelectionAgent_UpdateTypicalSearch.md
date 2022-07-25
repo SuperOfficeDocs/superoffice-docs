@@ -48,7 +48,7 @@ Searches
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Searches |  | Full set of all TypicalSearch elements maintained by one source (including criteria) <para /> Carrier object for TypicalSearches. Services for the TypicalSearches Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>. |
+| Searches |  | Full set of all TypicalSearch elements maintained by one source (including criteria) <br /> Carrier object for TypicalSearches. Services for the TypicalSearches Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>. |
 
 
 ## Response: string

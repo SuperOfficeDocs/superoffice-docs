@@ -11,7 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.SaveCen
 
 ## SaveCentralLicense
 
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+<br />**Online Restricted:** The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 * **license:** 
 

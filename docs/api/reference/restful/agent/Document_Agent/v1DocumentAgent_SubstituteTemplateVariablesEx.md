@@ -48,7 +48,7 @@ Parameters
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Parameters |  | Parameters specifying source and properties for template variable substitution. <para /> Carrier object for TemplateVariablesParameters. Services for the TemplateVariablesParameters Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>. |
+| Parameters |  | Parameters specifying source and properties for template variable substitution. <br /> Carrier object for TemplateVariablesParameters. Services for the TemplateVariablesParameters Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>. |
 
 
 ## Response: string

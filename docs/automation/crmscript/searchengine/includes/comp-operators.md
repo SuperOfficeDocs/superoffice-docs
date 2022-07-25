@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 | Value              | Same as | Result                         |
 |--------------------|:-------:|--------------------------------|
 | OperatorEquals     | ==      | values match                   |

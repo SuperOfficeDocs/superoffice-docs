@@ -46,7 +46,7 @@ AppointmentId, RejectReason, UpdateMode, SmtpEMailConnectionInfo
 | AppointmentId | int32 |  |
 | RejectReason | string |  |
 | UpdateMode | string |  |
-| SmtpEMailConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| SmtpEMailConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
 
 ## Response

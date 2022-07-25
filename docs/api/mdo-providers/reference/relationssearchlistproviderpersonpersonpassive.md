@@ -18,7 +18,7 @@ so.envir:
 Serve the active and passive texts of relations, with a given table as source (active)
 or destination (passive).
 
-To facilitate relation searching, we need to provide a way to choose <b>which</b> relation we
+To facilitate relation searching, we need to provide a way to choose **which** relation we
 would like to find. This provider supplies one list (dynamically named) for each table that
 is used as a source or destination (relationdefinition --&gt; relationtarget).
 

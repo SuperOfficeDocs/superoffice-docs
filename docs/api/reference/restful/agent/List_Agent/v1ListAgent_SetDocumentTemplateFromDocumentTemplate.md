@@ -49,7 +49,7 @@ SourceDocumentTemplateId, DocumentTemplateEntity
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceDocumentTemplateId | int32 |  |
-| DocumentTemplateEntity |  | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <para /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| DocumentTemplateEntity |  | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <br /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
 
 ## Response: object

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMessagingAgent.SetDelive
 ## SetDeliveryStatus
 
 Set or change the delivery status on an outgoing messsage.
-<para /><b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **plugin:** Name of plugin
 * **externalMessageId:** External message id known to plugin.

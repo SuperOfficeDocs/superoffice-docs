@@ -20,7 +20,7 @@ Retrieve the list of all defined Erp Connectors (not Connections, that's another
 Implementation relies on the <see cref="T:SuperOffice.CRM.ArchiveLists.ErpConnectorProvider" /> archivelist, and simply reformats its data.
 
 The items contain the Url pointing to the connector, in the ExtraInfo field; note that this does not
-<b>have</b> to be unique for each connector... though it should be...
+**have** to be unique for each connector... though it should be...
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ErpConnectors">ErpConnectors</see> class.
 The name of the MDO list is 'erpconnectors'.

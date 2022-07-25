@@ -1,4 +1,3 @@
-```xml
 <configuration>
  <configSections>
     <sectionGroup name="SuperOffice">
@@ -29,4 +28,3 @@
     <add key="SystemTokenCertificatePath" value="certificates\partnerprivatekey.xml" />
     <add key="SuperIdCertificate" value="16b7fb8c3f9ab06885a800c64e64c97c4ab5e98c" />
 </appSettings>…
-```

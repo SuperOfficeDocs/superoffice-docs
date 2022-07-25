@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetAllFunction
 ## GetAllFunctionalRights
 
 Get a list of all functional rights for the given type of role. MDO List name = 'FunctionRights', extra='roleType=0'
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleType:** Type of role (Employee/External/Anonymous/System)
 

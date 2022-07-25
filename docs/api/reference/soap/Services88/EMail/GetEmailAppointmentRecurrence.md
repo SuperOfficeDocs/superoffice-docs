@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEmailAppoi
 ## GetEmailAppointmentRecurrence
 
 Get recurrence data contained in the email iCal attachment
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **mailItemId:** Id identifying the email
 

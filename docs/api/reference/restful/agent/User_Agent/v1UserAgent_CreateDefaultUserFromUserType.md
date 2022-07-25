@@ -77,9 +77,9 @@ Response body: object
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
+| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -90,7 +90,7 @@ Response body: object
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |

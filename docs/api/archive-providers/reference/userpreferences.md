@@ -21,8 +21,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 
 User (and system) preference settings, at all levels
 
-The <see cref="T:SuperOffice.Data.SoPreference" /> class will return the <b>current</b> setting for a preference for the current principal.
-This archive provider is for administrative purposes, and returns <b>all</b> settings for the preference(s) selected.
+The <see cref="T:SuperOffice.Data.SoPreference" /> class will return the **current** setting for a preference for the current principal.
+This archive provider is for administrative purposes, and returns **all** settings for the preference(s) selected.
 <br />
 Preferences have multiple sources: the userpreference table (<see cref="T:SuperOffice.CRM.ArchiveLists.UserPreferenceTableProvider" />, and various
 Service settings that are mapped into preferences, retrieved by <see cref="T:SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" />.

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.GetEMailAddre
 ## GetEMailAddresses
 
 Get information about one or more email addresses, identified by IDs
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **emailIds:** Array of IDs from the email table, each identifying one email address
 

@@ -48,7 +48,7 @@ ProjectEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectEntity |  | The Project Service. The service implements all services working with the Project object <para /> Carrier object for ProjectEntity. Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
+| ProjectEntity |  | The Project Service. The service implements all services working with the Project object <br /> Carrier object for ProjectEntity. Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
 
 
 ## Response: object

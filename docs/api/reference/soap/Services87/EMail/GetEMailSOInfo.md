@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetEMailSOInf
 ## GetEMailSOInfo
 
 Gets a EMailSOInfo object.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **eMailSOInfoId:** The identifier of the EMailSOInfo object
 

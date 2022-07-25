@@ -4,7 +4,7 @@ title: Projects
 description: Working with projects in CRMScript
 author: Bergfrid Dias
 so.date: 10.27.2021
-keywords: project, project management, CRMSCript
+keywords: project, project management, CRMScript
 so.topic: howto
 ---
 

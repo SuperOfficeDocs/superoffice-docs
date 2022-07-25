@@ -50,7 +50,7 @@ Section, Key, PreferenceDescription
 |----------------|------|--------------|
 | Section | string |  |
 | Key | string |  |
-| PreferenceDescription |  | Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. <para /> Carrier object for PreferenceDescription. Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| PreferenceDescription |  | Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. <br /> Carrier object for PreferenceDescription. Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 
 
 ## Response: object

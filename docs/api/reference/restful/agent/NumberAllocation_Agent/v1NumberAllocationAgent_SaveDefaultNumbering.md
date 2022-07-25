@@ -43,7 +43,7 @@ RefCountEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RefCountEntity |  | A refcount entity for a number allocation <para /> Carrier object for RefCountEntity. Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>. |
+| RefCountEntity |  | A refcount entity for a number allocation <br /> Carrier object for RefCountEntity. Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>. |
 
 
 ## Response

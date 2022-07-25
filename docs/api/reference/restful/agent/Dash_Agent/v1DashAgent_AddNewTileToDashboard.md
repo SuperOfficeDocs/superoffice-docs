@@ -49,7 +49,7 @@ DashboardId, DashTileDefinition
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
-| DashTileDefinition |  | Dashboard Tile definition <para /> Carrier object for DashTileDefinition. Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>. |
+| DashTileDefinition |  | Dashboard Tile definition <br /> Carrier object for DashTileDefinition. Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>. |
 
 
 ## Response: object

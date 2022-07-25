@@ -1,4 +1,3 @@
-```csharp
 public class CustomerDataSource
 {
     private const string _dataSource = @"C:\Temp\Customers.xml";
@@ -36,4 +35,3 @@ public class CustomerDataSource
         }
     }
 }
-```

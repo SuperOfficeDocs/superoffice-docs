@@ -40,7 +40,7 @@ The User entity.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| User |  | SuperOffice User, with login credentials and an associated person. <br /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 
 ## Response: array

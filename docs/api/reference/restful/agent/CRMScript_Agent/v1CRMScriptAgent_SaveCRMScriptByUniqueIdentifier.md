@@ -51,7 +51,7 @@ UniqueIdentifier, Crmscript
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
-| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <br /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
 
 ## Response: object

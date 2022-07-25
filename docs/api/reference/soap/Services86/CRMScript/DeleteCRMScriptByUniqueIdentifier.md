@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.ICRMScriptAgent.DeleteCRM
 ## DeleteCRMScriptByUniqueIdentifier
 
 Delete the CRMScript
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **uniqueIdentifier:** Global unique reference to script (independent of installation)
 

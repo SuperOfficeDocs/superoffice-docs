@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IWebhookAgent.GetLastErro
 ## GetLastError
 
 Return the most recent error message received when calling this webhook.
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **webhookId:** Webhook to get error message for.
 

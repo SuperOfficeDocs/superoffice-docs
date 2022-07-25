@@ -13,7 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.CreateDefaultR
 
 Loading default values into a new RoleEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
 **Returns:** New RoleEntity with default values

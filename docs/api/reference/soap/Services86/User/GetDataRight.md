@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetDataRight">
 ## GetDataRight
 
 Read one specific data right at the given position. An exception will be thrown if non existing position is specified.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleId:** The role id to set the data right for
 * **tableName:** The name of the entity/table

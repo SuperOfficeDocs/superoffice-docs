@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.MarkAsRead">S
 ## MarkAsRead
 
 Mark one or more e-mails as (un)read
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **messageServerIds:** The e-mails to handle

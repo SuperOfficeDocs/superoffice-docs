@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetFieldsFo
 ## GetFieldsForNewErpActor
 
 Get the fields that must be filled out when creating a new ERP actor
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** The id of the connection
 * **erpActorType:** The type of the ERP actor to create

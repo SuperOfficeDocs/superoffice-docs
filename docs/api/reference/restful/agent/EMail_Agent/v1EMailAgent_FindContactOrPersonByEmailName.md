@@ -9,7 +9,7 @@ id: v1EMailAgent_FindContactOrPersonByEmailName
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 ```
 
-<para />
+<br />
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 

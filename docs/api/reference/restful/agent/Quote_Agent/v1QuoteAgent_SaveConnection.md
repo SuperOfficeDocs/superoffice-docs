@@ -48,7 +48,7 @@ Connection
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Connection |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteConnection. Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| Connection |  | Information about a connection to the ERP system. <br /> Carrier object for QuoteConnection. Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
 
 ## Response: object

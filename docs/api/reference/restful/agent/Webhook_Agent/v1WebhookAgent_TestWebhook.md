@@ -50,7 +50,7 @@ Webhook
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Webhook |  | Webhook definitions. Webhooks broadcast events from NetServer to remote servers. <para /> Carrier object for Webhook. Services for the Webhook Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>. |
+| Webhook |  | Webhook definitions. Webhooks broadcast events from NetServer to remote servers. <br /> Carrier object for Webhook. Services for the Webhook Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>. |
 
 
 ## Response: object

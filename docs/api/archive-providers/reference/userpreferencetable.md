@@ -1,7 +1,7 @@
 ---
 uid: UserPreferenceTable
 title: UserPreferenceTable
-description: Archive provider for preferences that live in the <b>userpreference</b> table. <see cref="T -SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
+description: Archive provider for preferences that live in the **userpreference** table. <see cref="T -SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
 keywords:
   - "archive"
   - "provider"
@@ -19,7 +19,7 @@ so.envir:
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.UserPreferenceTableProvider">SuperOffice.CRM.ArchiveLists.UserPreferenceTableProvider</see> inside NetServer's SODatabase assembly.
 
-Archive provider for preferences that live in the <b>userpreference</b> table. <see cref="T:SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
+Archive provider for preferences that live in the **userpreference** table. <see cref="T:SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
 actually live in the Service tables.
 
 ## Supported Entities

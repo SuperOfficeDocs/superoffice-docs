@@ -43,7 +43,7 @@ Preference
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Preference |  | One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found. <para /> Carrier object for Preference. Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| Preference |  | One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found. <br /> Carrier object for Preference. Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 
 
 ## Response

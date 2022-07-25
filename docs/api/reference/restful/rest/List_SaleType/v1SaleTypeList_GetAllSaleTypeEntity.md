@@ -75,7 +75,7 @@ Response body: array
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 

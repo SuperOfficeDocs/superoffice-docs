@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.SendAndSaveEm
 ## SendAndSaveEmailToTmpDocument
 
 Send the provided e-mail and create tmp document ready to archive
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **email:** The e-mail to send
 * **stripAttachments:** If true, do not include attachments in tmp document

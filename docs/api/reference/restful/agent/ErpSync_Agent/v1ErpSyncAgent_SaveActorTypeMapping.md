@@ -50,7 +50,7 @@ Mapping
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Mapping |  | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <para /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| Mapping |  | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <br /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
 
 ## Response: object

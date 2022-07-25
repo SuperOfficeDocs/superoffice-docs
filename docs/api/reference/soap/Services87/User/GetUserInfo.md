@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetUserInfo">S
 ## GetUserInfo
 
 Gets a UserInfo object.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userInfoId:** The identifier of the UserInfo object
 

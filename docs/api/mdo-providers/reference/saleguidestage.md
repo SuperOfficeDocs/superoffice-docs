@@ -21,7 +21,7 @@ AdditionalInfo is a name/value string, and can be either sale_id=&lt;id&gt; or s
 then you get back all the stages valid for this sale, with stylehint currentStage for the current one; if saletype_id is given,
 you get back all stages valid for this sale type, but (obviously) with no current indication.
 <br />
-If no additionalInfo is given, all stages are returned. The 'special' stages Open, Lost and Sold are <b>not</b> included in this
+If no additionalInfo is given, all stages are returned. The 'special' stages Open, Lost and Sold are **not** included in this
 provider; use the SaleStage provider for those.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleGuideStage">SaleGuideStage</see> class.

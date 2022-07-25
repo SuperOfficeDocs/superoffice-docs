@@ -12,7 +12,7 @@ Handled by the <see cref="T:SuperOffice.Services88.IErpSyncAgent">SuperOffice.Se
 
 Interface for the ErpSync Agent
 Services for the ERP Integration Services feature
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 Download [WSDL file for Services88/ErpSync](../Services88-ErpSync.md) if you need to generate your own proxy code.
 

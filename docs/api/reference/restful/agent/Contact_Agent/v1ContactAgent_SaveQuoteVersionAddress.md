@@ -49,7 +49,7 @@ QuoteVersionId, Address, AddressType, CountryId
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
-| Address |  | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <para /> Carrier object for Address. |
+| Address |  | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <br /> Carrier object for Address. |
 | AddressType | string |  |
 | CountryId | int32 |  |
 

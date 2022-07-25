@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.SaveTrigg
 ## SaveTriggerScriptByUniqueId
 
 Validate a CRMScript. This will check that the syntax is correct
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **triggerScriptUniqueId:** The unique id of the CRMScript to validate
 * **entity:** Trigger script details and source code

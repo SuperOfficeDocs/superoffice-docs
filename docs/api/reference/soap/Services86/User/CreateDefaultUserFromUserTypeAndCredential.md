@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.CreateDefaultU
 ## CreateDefaultUserFromUserTypeAndCredential
 
 Creates a PersonEntity with default values based on the contactId and credentials.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userType:** Type of associate for the user
 * **contactId:** Contact id of the person

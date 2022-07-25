@@ -42,7 +42,7 @@ Entity to be checked for errors.
 | Firstname | string | First name |
 | MiddleName | string | Middle name or 'van' etc. |
 | Lastname | string | Last name |
-| Mrmrs | string | e.g. Mrs   sex_title  <para>Use MDO List name "mrmrs" to get list items.</para> |
+| Mrmrs | string | e.g. Mrs   sex_title  <br />Use MDO List name "mrmrs" to get list items. |
 | Title | string | Title |
 | UpdatedDate | date-time | Last updated date  in UTC. |
 | CreatedDate | date-time | Registered date  in UTC. |
@@ -56,11 +56,11 @@ Entity to be checked for errors.
 | MobilePhones | array | Returns a collection of mobile phone numbers that belong to the contact person. |
 | OfficePhones | array | Returns a collection of office phone numbers that belong to the contact person. |
 | OtherPhones | array | Returns a collection of pagers that belong to the contact person. |
-| Position |  | The position. This is a predefined SuperOffice value, different from Title  <para>Use MDO List name "perspos" to get list items.</para> |
+| Position |  | The position. This is a predefined SuperOffice value, different from Title  <br />Use MDO List name "perspos" to get list items. |
 | UpdatedBy |  | The person that last updated the person object |
-| Contact |  | The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.  <para>Use MDO List name "contact_new" to get list items.</para> |
-| Country |  | The country this contact person is located in.  <para>Use MDO List name "country" to get list items.</para> |
-| Interests | array | The person's available and selected interests.  <para>Use MDO List name "persint" to get list items.</para> |
+| Contact |  | The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.  <br />Use MDO List name "contact_new" to get list items. |
+| Country |  | The country this contact person is located in.  <br />Use MDO List name "country" to get list items. |
+| Interests | array | The person's available and selected interests.  <br />Use MDO List name "persint" to get list items. |
 | PersonNumber | string | Alphanumeric user field |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | NoMailing | bool | Spam filter. Indicates if this person should retrieve advertising. |
@@ -75,14 +75,14 @@ Entity to be checked for errors.
 | Kanalname | string | Kana last name, used in Japanese versions only |
 | Kanafname | string | Kana first name, used in Japanese versions only |
 | CorrespondingAssociate |  | The associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user). |
-| Category |  | Person's category. Usually null. Refer to the Contact.Category instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  <para>Use MDO List name "category" to get list items.</para> |
-| Business |  | Person's business - usually blank. Use Contact.Business instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  <para>Use MDO List name "business" to get list items.</para> |
-| Associate |  | The associate owning this person (similar to contact.Associate) - usually blank. Use the Person.Contact.Associate instead.  Intended for use when individual persons are created (i.e. when Person.Contact is blank)  <para>Use MDO List name "associate" to get list items.</para> |
-| Salutation | string | Academic title, populated from Salutation list but can be overwritten with anything at all  <para>Use MDO List name "salutation" to get list items.</para> |
+| Category |  | Person's category. Usually null. Refer to the Contact.Category instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  <br />Use MDO List name "category" to get list items. |
+| Business |  | Person's business - usually blank. Use Contact.Business instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  <br />Use MDO List name "business" to get list items. |
+| Associate |  | The associate owning this person (similar to contact.Associate) - usually blank. Use the Person.Contact.Associate instead.  Intended for use when individual persons are created (i.e. when Person.Contact is blank)  <br />Use MDO List name "associate" to get list items. |
+| Salutation | string | Academic title, populated from Salutation list but can be overwritten with anything at all  <br />Use MDO List name "salutation" to get list items. |
 | ActiveInterests | int32 | The number of active interests. |
-| SupportAssociate |  | <para>Use MDO List name "associate" to get list items.</para> |
-| TicketPriority |  | <para>Use MDO List name "ticketpriority" to get list items.</para> |
-| CustomerLanguage |  | <para>Use MDO List name "customerlanguage" to get list items.</para> |
+| SupportAssociate |  | <br />Use MDO List name "associate" to get list items. |
+| TicketPriority |  | <br />Use MDO List name "ticketpriority" to get list items. |
+| CustomerLanguage |  | <br />Use MDO List name "customerlanguage" to get list items. |
 | DbiAgentId | int32 | Integration agent (eJournal) |
 | DbiKey | string | The primary key for the integrated entry in the external datasource. |
 | DbiLastModified | date-time | When the entry was last modified. |

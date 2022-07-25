@@ -50,7 +50,7 @@ Domain, Path, Entity
 |----------------|------|--------------|
 | Domain | string |  |
 | Path | string |  |
-| Entity |  | Folder structures <para /> Carrier object for HierarchyEntity. Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Entity |  | Folder structures <br /> Carrier object for HierarchyEntity. Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
 
 ## Response: object

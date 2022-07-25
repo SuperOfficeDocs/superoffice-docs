@@ -48,7 +48,7 @@ Quote
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Quote |  | Quote carrier with the active quote version and favorite alternative. <para /> Carrier object for Quote. Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| Quote |  | Quote carrier with the active quote version and favorite alternative. <br /> Carrier object for Quote. Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
 
 ## Response: object

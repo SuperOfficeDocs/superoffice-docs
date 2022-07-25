@@ -49,7 +49,7 @@ Name, ListEntity
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
-| ListEntity |  | The list entity contains information about a specific list <para /> Carrier object for ListEntity. Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| ListEntity |  | The list entity contains information about a specific list <br /> Carrier object for ListEntity. Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
 
 ## Response: object

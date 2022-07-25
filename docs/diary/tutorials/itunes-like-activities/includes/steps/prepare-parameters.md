@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 Section 1 in the code shows how the parameters required by the `GetArchiveListByColumns` method are created:
 
 * the columns to be included in the selection

@@ -46,7 +46,7 @@ Type, Credentials
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
-| Credentials |  | Credentials for external authentication. <para /> Carrier object for UntrustedCredentials. Services for the UntrustedCredentials Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| Credentials |  | Credentials for external authentication. <br /> Carrier object for UntrustedCredentials. Services for the UntrustedCredentials Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 
 ## Response

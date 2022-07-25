@@ -48,7 +48,7 @@ ProjectMember
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectMember |  | A person can be a member of multiple projects, with a different comment and member type in each project. <para /> Carrier object for ProjectMember. Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
+| ProjectMember |  | A person can be a member of multiple projects, with a different comment and member type in each project. <br /> Carrier object for ProjectMember. Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
 
 
 ## Response: object
@@ -85,7 +85,7 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |

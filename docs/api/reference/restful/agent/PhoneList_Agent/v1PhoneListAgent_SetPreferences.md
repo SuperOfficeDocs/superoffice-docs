@@ -43,7 +43,7 @@ Preferences
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Preferences |  | Search preferences for a phone list search <para /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
+| Preferences |  | Search preferences for a phone list search <br /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
 
 
 ## Response

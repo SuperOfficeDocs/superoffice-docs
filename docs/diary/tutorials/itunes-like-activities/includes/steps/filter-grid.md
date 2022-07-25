@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 Once the data are retrieved we can filter the data according to the search text specified by the user.
 
 [!code-csharp[CS](../itunes-searchtext.cs)]

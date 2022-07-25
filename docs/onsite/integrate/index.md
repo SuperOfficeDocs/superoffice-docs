@@ -4,4 +4,5 @@ description: Placeholder landing page
 so.date: 12.02.2021
 ---
 
+<!-- markdownlint-disable-file MD041 -->
 [!include[placeholder](../../includes/default-index.md)]

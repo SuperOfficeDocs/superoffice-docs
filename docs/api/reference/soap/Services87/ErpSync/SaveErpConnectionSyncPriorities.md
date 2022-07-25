@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.SaveErpConn
 ## SaveErpConnectionSyncPriorities
 
 Takes an array of the ErpConnection ids and saves these as ordered sync priorities
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionIds:** The id put in array in the same order as the priorities
 

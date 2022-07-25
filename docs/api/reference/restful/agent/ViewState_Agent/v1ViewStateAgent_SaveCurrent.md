@@ -48,7 +48,7 @@ Current
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Current |  | The usage history of the currently logged in user is represented as History objects. <para /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
+| Current |  | The usage history of the currently logged in user is represented as History objects. <br /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
 
 
 ## Response: object

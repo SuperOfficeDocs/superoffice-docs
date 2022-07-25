@@ -11,7 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.FindContactOr
 
 ## FindContactOrPersonByEmailName
 
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **name:** The sender name
 * **emailAddress:** The sender email address

@@ -69,7 +69,7 @@ Unlike the chatbot scripts, these triggers apply to all chat channels and all ch
 
 ### Webhooks
 
-There are webhook events that are fired that correspond to the CRMscript triggers.
+There are webhook events that are fired that correspond to the CRMScript triggers.
 
 These events are fired when chat sessions and messages change:
 

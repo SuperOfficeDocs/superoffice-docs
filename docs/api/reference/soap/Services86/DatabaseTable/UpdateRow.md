@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDatabaseTableAgent.Updat
 ## UpdateRow
 
 Update a row in a table
-<para /><b>Online Restricted:</b> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table to update; in the current release this must be an 'extratable'. Use the database name, on the form y\_aTable
 * **id:** The id of the row to update

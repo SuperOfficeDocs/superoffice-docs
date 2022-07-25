@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 | Person address types | Contact address types | Quote address types|
 |---|---|---|
 | Address1  | PostalAddress1 |BillingAddress1  |

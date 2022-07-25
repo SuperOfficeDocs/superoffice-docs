@@ -50,7 +50,7 @@ TokenManagementInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TokenManagementInfo |  | Token information <para /> Carrier object for TokenManagementInfo. Services for the TokenManagementInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| TokenManagementInfo |  | Token information <br /> Carrier object for TokenManagementInfo. Services for the TokenManagementInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 
 ## Response: string

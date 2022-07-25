@@ -9,7 +9,7 @@ id: v1ReplicationAgent_SaveCentralLicense
 POST /api/v1/Agents/Replication/SaveCentralLicense
 ```
 
-<para />
+<br />
 
 ## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 

@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetEMail">Sup
 ## GetEMail
 
 Get en e-mail based on its primary key in the DB
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **id:** The primary key of the email row in the DB
 * **includeAttachments:** Should we retrieve attachments embedded in the e-mail from the server

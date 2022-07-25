@@ -35,7 +35,7 @@ Save the description of Business list
 ## Request Body: listEntity  
 
 The list entity contains information about a specific list
-<para />
+<br />
 Carrier object for ListEntity.
 Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 

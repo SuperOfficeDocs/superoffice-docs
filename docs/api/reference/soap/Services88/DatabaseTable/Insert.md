@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Inser
 ## Insert
 
 Mass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
-<para /><b>Online Restricted:</b> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table where rows should be inserted
 * **columns:** List of column names, in the same order as in the Data parameter
