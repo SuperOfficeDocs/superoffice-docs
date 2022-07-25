@@ -169,4 +169,4 @@ In part 3 of this tutorial we will [create a custom MDO control][4].
 
 <!-- Referenced images -->
 [img1]: media/image017.jpg
-[img1]: media/image018.jpg
+[img2]: media/image018.jpg

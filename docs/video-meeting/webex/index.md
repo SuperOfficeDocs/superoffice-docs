@@ -93,7 +93,6 @@ If you (the user) experience difficulties with creating and starting video meeti
 3. Remove the **SuperOffice CRM** app from the Cisco app store.
 
 <!-- Referenced links -->
-[1]: https://meetings.superoffice.com/meet/DisconnectUser
 [4]: https://admin.webex.com
 [8]: ../howto/configure-email-invitations.md
 

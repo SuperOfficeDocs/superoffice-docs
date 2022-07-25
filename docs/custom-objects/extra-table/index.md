@@ -58,7 +58,7 @@ The prefixes ensure that what you create don't conflict with future SuperOffice 
 3. Set table properties:
     * Enter a *name* to be used as the label.
     * Enter a *database field* beginning with **y_** to identify it in the schema.
-    * Optionally set other properties. See the [user guide][1] for details.
+    * Optionally set other properties.
 4. Click **OK** to save the new table (runs `create table y_mynewtable ...`).
 5. Add fields to your new table. (See next task for details.)
 6. Optionally adjust table properties such as sort order.

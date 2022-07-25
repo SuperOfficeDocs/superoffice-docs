@@ -20,7 +20,7 @@ Creating an appointment through an entity can be done in 2 different ways:
 
 [!code-csharp[CS](includes/create-apt-entity-in-entity-1.cs)]
 
-In the example above, we have created an appointment as explained in [this example][2]. The difference is that here we do not save the created appointment. Instead, we assign it to the `Appointments` property of the `Contact` instance created and then save the `Contact`:
+In the example above, we have created an appointment as explained in [this example][1]. The difference is that here we do not save the created appointment. Instead, we assign it to the `Appointments` property of the `Contact` instance created and then save the `Contact`:
 
 [!code-csharp[CS](includes/create-apt-entity-in-entity-1.cs?range=28,31,34)]
 

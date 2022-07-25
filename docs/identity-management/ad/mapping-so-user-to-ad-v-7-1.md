@@ -89,7 +89,7 @@ Limiting users to a particular organization unit can be an example of this.
 
 By specifying the full name of this Organization Unit in the SuperOffice.config file, searches will be restricted to this node.
 
-![image][10]
+![image][img10]
 
 <!-- Referenced links -->
 [1]:../../api/config/security.md

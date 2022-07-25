@@ -91,7 +91,7 @@ The SuperOffice needs to be either green or white, depending upon the background
 
 Note that the logo should NEVER look blind. If you are using the logo on a colored background, you must use the negative logo.
 
-![imageyiti.png -screenshot][img22]
+![imageyiti.png -screenshot][img2]
 
 This is our primary logo.
 It should always be your first choice. If, for some reason, this can’t be used – choose another option described below and available from download.

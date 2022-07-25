@@ -121,7 +121,6 @@ Copy the below code-lines to Notepad or another text editor and save as *SuperOf
 [!code-batchfile[cmd](includes/SuperOfficeWebToolConfiguration.cmd)]
 
 <!-- Referenced links -->
-[1]: index.md
 [2]: upgrade.md
 [3]: https://www3.superoffice.com/DownloadService/
 [4]: install.md

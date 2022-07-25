@@ -111,7 +111,6 @@ Then, **uninstall** the Google Meet video meeting service:
     ![imagef35lq.png -screenshot][img5]
 
 <!-- Referenced links -->
-[1]: https://meetings.superoffice.com/meet/DisconnectUser
 [4]: https://myaccount.google.com/security
 [5]: https://myaccount.google.com/permissions
 [6]: https://meetings.superoffice.com/Error/GoogleAuthenticationFailure

@@ -28,7 +28,7 @@ The deployment is now complete. The SuperOffice add-in for Outlook should now be
 
 **Read more:**
 
-* The SuperOffice for Outlook [quick-start guide][2]
+* The SuperOffice for Outlook quick-start guide (PDF)
 * [Deploy an Office add-in][3] (Microsoft docs)
 * [Get an Office Add-in for Outlook][4] (Office support article)
 

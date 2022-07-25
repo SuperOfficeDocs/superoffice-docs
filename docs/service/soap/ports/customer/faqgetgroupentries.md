@@ -1,14 +1,14 @@
 ---
-title: faqgetGroupEnties
-uid: cs_soap_ports_customer_faqgetGroupEnties
-description: Services SOAP interface port reference - customer faqgetGroupEnties
+title: faqgetGroupEntries
+uid: cs_soap_ports_customer_faqgetGroupEntries
+description: Services SOAP interface port reference - customer faqgetGroupEntries
 author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
 ---
 
-# faqgetGroupEnties
+# faqgetGroupEntries
 
 ## Description
 
