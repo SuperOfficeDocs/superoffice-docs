@@ -18,4 +18,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDatabaseAgent'
 
 * [GetStepsFromNetServerCode](getstepsfromnetservercode.md)
 * [GetStepsInDatabase](getstepsindatabase.md)
-

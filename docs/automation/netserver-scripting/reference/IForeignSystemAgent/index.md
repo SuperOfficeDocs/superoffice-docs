@@ -46,4 +46,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IForeignSystemA
 * [SaveForeignAppEntity](saveforeignappentity.md)
 * [SaveForeignDevice](saveforeigndevice.md)
 * [SaveForeignKey](saveforeignkey.md)
-

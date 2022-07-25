@@ -23,4 +23,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.INumberAllocati
 * [SaveDefaultNumbering](savedefaultnumbering.md)
 * [SaveRefCountEntity](saverefcountentity.md)
 * [SetNumberEachTemplate](setnumbereachtemplate.md)
-

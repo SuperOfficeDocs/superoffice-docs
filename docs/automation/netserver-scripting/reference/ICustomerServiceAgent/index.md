@@ -47,4 +47,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ICustomerServic
 * [SessionIsValid](sessionisvalid.md)
 * [TestSmtpServer](testsmtpserver.md)
 * [UpdateFeatureToggles](updatefeaturetoggles.md)
-

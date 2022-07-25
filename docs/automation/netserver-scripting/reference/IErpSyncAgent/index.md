@@ -62,4 +62,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IErpSyncAgent'>
 * [ToggleErpConnectionActive](toggleerpconnectionactive.md)
 * [UpdateConnectionFields](updateconnectionfields.md)
 * [ValidateArchiveColumnConfig](validatearchivecolumnconfig.md)
-

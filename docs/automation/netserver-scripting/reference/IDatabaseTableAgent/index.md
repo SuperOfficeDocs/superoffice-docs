@@ -24,4 +24,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDatabaseTableA
 * [Truncate](truncate.md)
 * [UpdateRow](updaterow.md)
 * [Upsert](upsert.md)
-

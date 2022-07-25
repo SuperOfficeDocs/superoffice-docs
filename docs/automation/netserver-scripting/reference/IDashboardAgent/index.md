@@ -31,4 +31,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDashboardAgent
 * [SaveDashboard](savedashboard.md)
 * [SaveDashboardTile](savedashboardtile.md)
 * [SetTile](settile.md)
-

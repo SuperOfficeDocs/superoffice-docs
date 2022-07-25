@@ -22,4 +22,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAIAgent'>IAIAg
 * [GuessCategory](guesscategory.md)
 * [TrainCategoryGuesser](traincategoryguesser.md)
 * [Translate](translate.md)
-

@@ -113,4 +113,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IEMailAgent'>IE
 * [SyncEmailAccounts](syncemailaccounts.md)
 * [TestAuthenticate](testauthenticate.md)
 * [ToggleSubscription](togglesubscription.md)
-
