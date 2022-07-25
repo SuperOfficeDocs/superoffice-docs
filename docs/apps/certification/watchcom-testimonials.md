@@ -9,6 +9,8 @@ so.envir: cloud
 so.client: online
 ---
 
+<!-- markdownlint-disable-file MD028 -->
+
 # Testimonials
 
 Read what our published partners say about the security audit.
