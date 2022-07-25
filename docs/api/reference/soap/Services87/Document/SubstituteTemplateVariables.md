@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.Substitute
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
-* **source:** Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.&lt;p/&gt;Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.
+* **source:** Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.
+
+  Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.
 * **generatorEncoding:** Encoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string.
 * **contactId:** Identifier for a contact
 * **personId:** Identifier for a person

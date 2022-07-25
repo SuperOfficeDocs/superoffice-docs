@@ -17,7 +17,9 @@ Returning a foreign key string value by its key name and device identifier, that
 * **deviceName:** The name of the foreign device.
 * **deviceIdentifier:** The device identifier.
 * **keyName:** The name of the foreign key.
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+* **tableName:** Table name, transformed to and from numeric table id by the service layer.
+
+  Use an empty string to indicate that your key is not bound to any specific table.
 * **recordId:** Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
 
 **Returns:** The ForeignKey's string value.

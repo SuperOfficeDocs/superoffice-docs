@@ -11,9 +11,13 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.Substitute
 
 ## SubstituteTemplateVariablesWithCustomTags2
 
-Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.&lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
-* **source:** Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.&lt;p/&gt;Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.
+This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+* **source:** Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.
+
+  Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.
 * **generatorEncoding:** Encoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string.
 * **customTags:** Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag.
 * **contactId:** Identifier for a contact

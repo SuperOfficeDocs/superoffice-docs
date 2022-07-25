@@ -16,10 +16,11 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 * **applicationName:** The name of the foreign application.
 * **deviceName:** The name of the foreign device.
 * **deviceIdentifier:** Identifier for a unique grouping of keys within a device.
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.<p />Use an empty string to indicate that your key is not bound to any specific table.
+* **tableName:** Table name, transformed to and from numeric table id by the service layer.
+
+  Use an empty string to indicate that your key is not bound to any specific table.
 
 **Returns:** Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
-
 
 [WSDL file for Services85/ForeignSystem](../Services85-ForeignSystem.md)
 

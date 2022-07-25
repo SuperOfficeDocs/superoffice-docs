@@ -14,6 +14,7 @@ so.client: online
 
 Person fields. Key constants are in ``BulkUpdateSystem.PersonFieldValueKeys`.
 
+<!-- markdownlint-disable-file MD033 -->
 <table>
     <title>Person</title>
     <thead>

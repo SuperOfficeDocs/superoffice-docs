@@ -11,7 +11,7 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx
 
 Parse the source document, and replace any template variable tags with their values, based on the provided identifiers.
 
-&lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+ The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
 
 
 

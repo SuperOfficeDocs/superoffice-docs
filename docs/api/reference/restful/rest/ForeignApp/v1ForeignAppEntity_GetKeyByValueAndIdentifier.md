@@ -22,7 +22,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
 | keyName | string | The name of the foreign key. **Required** |
-| tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+| tableName | string | Table name, transformed to and from numeric table id by the service layer.<br />Use an empty string to indicate that your key is not bound to any specific table. **Required** |
 
 
 ## Query String Parameters

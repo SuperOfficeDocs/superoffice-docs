@@ -15,6 +15,7 @@ so.client: online
 
 Ticket fields. Key constants are in `BulkUpdateSystem.TicketFieldValueKeys`.
 
+<!-- markdownlint-disable-file MD033 -->
 <table>
     <title>Ticket</title>
     <thead>

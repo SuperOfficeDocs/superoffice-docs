@@ -21,7 +21,7 @@ The table name and record ID must also be specified.
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | keyName | string | The name of the foreign key. **Required** |
-| tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+| tableName | string | Table name, transformed to and from numeric table id by the service layer.<br />Use an empty string to indicate that your key is not bound to any specific table. **Required** |
 | recordId | int32 | Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table. **Required** |
 
 

@@ -11,7 +11,7 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
-&lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
 
 
 
