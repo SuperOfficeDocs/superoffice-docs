@@ -20,13 +20,22 @@ In the **Content** step you can edit the layout and content of the form response
 
 ### Drag &amp; drop editor (new)
 
-![icon](media/TemplateEditOverview.png)
-![icon](media/editor-sidepanel.png)
+![icon][img1]
+![icon][img2]
 
-Go to this topic: [Step 3: Content - Form response (Drag &amp; drop editor)](form-create-step3-content.md)
+Go to this topic: [Step 3: Content - Form response (Drag &amp; drop editor)][1]
 
 ### Editor (old)
 
-![icon](media/TemplateEditOverview-old.png)
+![icon][img3]
 
-Go to this topic: [Step 3: Content - Form response (the old Editor)](oldeditor/Step-3-Content-Form-response.md)
+Go to this topic: [Step 3: Content - Form response (the old Editor)][2]
+
+<!-- Referenced links -->
+[1]: form-create-step3-content.md
+[2]: oldeditor/Step-3-Content-Form-response.md
+
+<!-- Referenced images -->
+[img1]: media/TemplateEditOverview.png
+[img2]: media/editor-sidepanel.png
+[img3]: media/TemplateEditOverview-old.png

@@ -23,10 +23,17 @@ In order to do this:
 6. (if relevant) In SuperOffice Marketing, click **Edit** to reopen the dialog box.
 7. Click **Select file**, select the saved document, and click **Upload selected file**. The preview on the right is updated with the contents of the uploaded file.
 
-Click **Next** to go to the next step: [Step 4: Recipients](Step-4-Recipients-Document.md).
+Click **Next** to go to the next step: [Step 4: Recipients][1].
 
 ## Use template variables
 
-You can use SuperOffice CRM template variables in your document to insert customer-specific information. This will give the message a more personal touch. You can find more information about these template variables [in the SuperOffice CRM Help](../standardcrm/diary/Template-variables.md).
+You can use SuperOffice CRM template variables in your document to insert customer-specific information. This will give the message a more personal touch. You can find more information about these template variables [in the SuperOffice CRM Help][2].
 
 [!include[Tip](../includes/tip-mailing-save-draft.md)]
+
+<!-- Referenced links -->
+[1]: Step-4-Recipients-Document.md
+[2]: ../standardcrm/diary/Template-variables.md
+
+<!-- Referenced images -->
+[img1]:

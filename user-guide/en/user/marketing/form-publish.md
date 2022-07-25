@@ -17,9 +17,9 @@ In order to do so:
 
 1. Go to the **Forms** tab.
 2. Click the form to open it in view mode.
-3. Set the form to **Active** (![icon](media/btn-form-active.png)) in the header.
+3. Set the form to **Active** (![icon][img1]) in the header.
 4. Go to the **Publish** tab.
-5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. If no field identifiers are added, you have probably not added these IDs to the fields in the form. This option is relevant if you want to pre-fill fields in the forms with existing customer data from SuperOffice. See [Using pre-filled fields in form](form-prefilled.md).
+5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. If no field identifiers are added, you have probably not added these IDs to the fields in the form. This option is relevant if you want to pre-fill fields in the forms with existing customer data from SuperOffice. See [Using pre-filled fields in form][1].
 6. On the left side of the screen, select a publishing option for the form:
     * **Direct link**: A direct link to the form.
     * **Embed inline**: A script tag used to add the form on a web page.
@@ -27,10 +27,18 @@ In order to do so:
     * **Embed as side tab**: A side tab with a button to hide/show the form.
 7. Copy the links/tags into a newsletter, website or customer centre to publish it to your customers or prospects.
 
-A notification on the **Form submissions** tab (![icon](media/btn-form-notification.png)) indicates that you have received form submissions.
+A notification on the **Form submissions** tab (![icon][img2]) indicates that you have received form submissions.
 
 ## What would you like to do now?
 
-[Track form submissions and view statistics](form-submission-track.md)
+* [Track form submissions and view statistics][2]
+* [Process form submissions][3]
 
-[Process form submissions](form-submissions-process.md)
+<!-- Referenced links -->
+[1]: form-prefilled.md
+[2]: form-submission-track.md
+[3]: form-submissions-process.md
+
+<!-- Referenced images -->
+[img1]: media/btn-form-active.png
+[img2]: media/btn-form-notification.png

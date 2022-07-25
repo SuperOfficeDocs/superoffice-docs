@@ -44,11 +44,18 @@ When you are testing a mailing, it is important to check the following:
 * That images are correctly displayed.
 * That the layout of messages looks good.
 * That the messages are up-to-date (dates/years, names, version numbers, etc.) and do not contain spelling mistakes/typos.
-* That the mailing is legible on a smart phone or tablet. See [Customise the message for display on mobile devices](Customise-message-for-display-on-mobile-devices.md).
+* That the mailing is legible on a smart phone or tablet. See [Customise the message for display on mobile devices][1].
 
 > [!NOTE]
-> You need to remember to reset the counters after you have clicked links. See [Reset counters for links](Work-with-tracked-links-after-mailing.md).
+> You need to remember to reset the counters after you have clicked links. See [Reset counters for links][2].
 
 Click **Next** to go to **Step 4: Recipients**. You can still go back to the **Content** step to make additional changes to the message. This step is not relevant for form responses.
 
 [!include[Tip](../includes/tip-mailing-save-draft.md)]
+
+<!-- Referenced links -->
+[1]: Customise-message-for-display-on-mobile-devices.md
+[2]: Work-with-tracked-links-after-mailing.md
+
+<!-- Referenced images -->
+[img1]:

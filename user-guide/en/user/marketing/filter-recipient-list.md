@@ -32,8 +32,15 @@ By default all filters are active to show all recipients. Uncheck a filter check
 If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** once this is done.
 
 > [!TIP]
-> To view and handle bounced e-mails and spam complaints for all mailings, see [Blocked e-mail addresses](Blocked-email-addresses.md).
+> To view and handle bounced e-mails and spam complaints for all mailings, see [Blocked e-mail addresses][1].
 
 ## Related topics
 
-[Add recipients to selections or projects](Add-recipients-to-selections-or-projects.md)
+* [Add recipients to selections or projects][2]
+
+<!-- Referenced links -->
+[1]: Blocked-email-addresses.md
+[2]: Add-recipients-to-selections-or-projects.md
+
+<!-- Referenced images -->
+[img1]:

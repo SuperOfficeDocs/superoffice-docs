@@ -17,7 +17,7 @@ In the **Forms** tab you can find all existing forms. Here you have the followin
 * **My forms**: Shows the forms that you have created.
 * **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions have been received.
 * **All forms**: Shows all available forms.
-* **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ( ![icon](media/btn-search.png) ).
+* **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ( ![icon][img2] ).
 
 To view an existing form, click a form in the list. The **View form** screen opens.
 
@@ -26,7 +26,7 @@ In the top part of the screen, you have the following options:
 * **Inactive**/**Active**: Click this slider button to activate or deactivate the form.
 * **Refresh**: Click this button to update the screen.
 * **Edit**: Click this button to edit the form.
-* ![icon][img1]: Click this button to set the form as a favourite. See [Add favourites](Add-favourites.md).
+* ![icon][img1]: Click this button to set the form as a favourite. See [Add favourites][1].
 
 The **View form** screen consists of the following tabs:
 
@@ -39,15 +39,15 @@ Here you can basic information about the form, including a preview of the form, 
 * **Completion last 7 days**: Submitted forms per day the last 7 days.
 * **Completion rate**: Status for submitted forms.
 
-Next to **Mailing** is a link to the form response mailing used in association with this form. Click the link to view information and statistics about the form response. See [Track the mailing and view statistics](Track-mailing-and-view-statistics.md).
+Next to **Mailing** is a link to the form response mailing used in association with this form. Click the link to view information and statistics about the form response. See [Track the mailing and view statistics][2].
 
 ## **Publish**
 
-Here you can find the link and script for publishing the form on a web page or in a mailing. See [Publish forms](form-publish.md).
+Here you can find the link and script for publishing the form on a web page or in a mailing. See [Publish forms][3].
 
 Click the **Open in new window** button to preview the form.
 
-**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be pre-filled with existing data (name, e-mail etc.) for registered contacts. See [Using pre-filled fields in form](form-prefilled.md).
+**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be pre-filled with existing data (name, e-mail etc.) for registered contacts. See [Using pre-filled fields in form][4].
 
 On the left side of the screen you can select various types of publishing options for the form.
 
@@ -57,14 +57,20 @@ Charts show statistics for the form (mouse-over to view exact numbers).
 
 ## **Form submissions**
 
-Here you can view and process all submitted forms. Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions](form-submissions-process.md).
+Here you can view and process all submitted forms. Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions][5].
 
 ## Response e-mail
 
-This tab is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions](form-create.md)). Here you can preview the form response (mailing) associated with this form.
+This tab is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
 
 <!-- Referenced links -->
-[1]:
+[1]: Add-favourites.md
+[2]: Track-mailing-and-view-statistics.md
+[3]: form-publish.md
+[4]: form-prefilled.md
+[5]: form-submissions-process.md
+[6]: form-create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/favorite-inactive.png
+[img2]: media/btn-search.png

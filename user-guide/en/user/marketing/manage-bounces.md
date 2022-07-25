@@ -11,9 +11,9 @@ language: en
 
 # Manage bounces
 
-You can manage bounces and blocked e-mails for individual mailings. To manage this for ALL mailings, see [Blocked e-mail addresses](Blocked-email-addresses.md).
+You can manage bounces and blocked e-mails for individual mailings. To manage this for ALL mailings, see [Blocked e-mail addresses][1].
 
-To fix a single e-mail address, select it in the list and click **Open** in the side-panel to edit the contact. Go to the **Details** tab. A warning icon (![icon](media/warning-asterisk-red.png)) next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
+To fix a single e-mail address, select it in the list and click **Open** in the side-panel to edit the contact. Go to the **Details** tab. A warning icon (![icon][img1]) next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
 
 > [!TIP]
 > Click a column to access sorting and grouping functions.
@@ -26,4 +26,10 @@ To handle multiple e-mail addresses, you have a number of options in the **Actio
 
 ## Related topics
 
-[Blocked e-mail addresses](Blocked-email-addresses.md)
+* [Blocked e-mail addresses][1]
+
+<!-- Referenced links -->
+[1]: Blocked-email-addresses.md
+
+<!-- Referenced images -->
+[img1]: media/warning-asterisk-red.png

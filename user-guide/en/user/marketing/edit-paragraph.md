@@ -11,12 +11,12 @@ language: en
 
 # Edit content
 
-![icon](media/Loc/neweditor-section-edit.png)
+![icon][img1]
 
 > [!TIP]
-> To edit global properties and layout for the message, select **Body** (![icon](media/editor-sidepanel-btn-body-small.png)) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.  
+> To edit global properties and layout for the message, select **Body** (![icon][img2]) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.  
 >
-> Use the **Desktop** (![icon](media/btn-editor-desktop.png)) and **Mobile** (![icon](media/btn-editor-mobile.png)) at the top of the side-panel to edit properties for desktop versions and mobile versions of the message. See [Customise the message for display on mobile devices](Customise-message-for-display-on-mobile-devices.md).
+> Use the **Desktop** (![icon][img3]) and **Mobile** (![icon][img4]) at the top of the side-panel to edit properties for desktop versions and mobile versions of the message. See [Customise the message for display on mobile devices][1].
 
 ## Edit text content
 
@@ -25,15 +25,15 @@ To edit text content (text blocks) in a message, do as follows:
 1. Go to the **Content** step in the mailing, or open a template for editing.
 
 2. Click the text you wish to edit, so that the text editing toolbar is shown.  
-    ![icon](media/Loc/NEWcontent-edit-toolbar-tempvar.png)
+    ![icon][img5]
 
 3. Edit the text using the buttons in the toolbar.
 
-4. Click **Merge tags** (same as template variables) to insert merge tags in the message. In order to give the message a more personal touch, you can use merge tags to insert customer-specific information. See [Use merge tags in messages](Use-template-variables-in-messages.md).
+4. Click **Merge tags** (same as template variables) to insert merge tags in the message. In order to give the message a more personal touch, you can use merge tags to insert customer-specific information. See [Use merge tags in messages][2].
 
-5. Add tracked links to the message. For example, you can add a link to an information page for a product. You can create a new link or add an existing link. See [Include links you want to track](includeLinksToTrack.md).
+5. Add tracked links to the message. For example, you can add a link to an information page for a product. You can create a new link or add an existing link. See [Include links you want to track][3].
 
-    To add a regular link (untracked): Select a text and click ![icon](media/newbtn-link.png) in the toolbar. Enter the link in the **URL** field.
+    To add a regular link (untracked): Select a text and click ![icon][img6] in the toolbar. Enter the link in the **URL** field.
 
 6. Edit the formatting of the text using the fields in the side-panel.
 
@@ -58,7 +58,7 @@ You can edit the following sections:
 
 **Column properties**: Here you can edit the properties for each column in the row.
 
-**Row properties**: Here you can edit the properties of the row, such as background colour and [background image](Insert-images-in-message.md).
+**Row properties**: Here you can edit the properties of the row, such as background colour and [background image][4].
 
 **Responsive design**: Use this option to hide specific rows in the desktop or mobile version of the message.
 
@@ -69,12 +69,26 @@ Click **Next** if you are done editing.
 
 ## What would you like to do now?
 
-[Add content](Add-content.md)
+* [Add content][5]
+* [Use merge tags in messages][6]
+* [Include links you want to track][3]
+* [Add subscription links][7]
+* [Add a link to display the message in a browser][8]
 
-[Use merge tags in messages](Use-template-variables-in-messages.md)
+<!-- Referenced links -->
+[1]: Customise-message-for-display-on-mobile-devices.md
+[2]: Use-template-variables-in-messages.md
+[3]: includeLinksToTrack.md
+[4]: Insert-images-in-message.md
+[5]: Add-content.md
+[6]: Use-template-variables-in-messages.md
+[7]: Add-unsubscribe-link.md
+[8]: Add-link-to-display-message-in-browser.md
 
-[Include links you want to track](includeLinksToTrack.md)
-
-[Add subscription links](Add-unsubscribe-link.md)
-
-[Add a link to display the message in a browser](Add-link-to-display-message-in-browser.md)
+<!-- Referenced images -->
+[img1]: media/Loc/neweditor-section-edit.png
+[img2]: media/editor-sidepanel-btn-body-small.png
+[img3]: media/btn-editor-desktop.png
+[img4]: media/btn-editor-mobile.png
+[img5]: media/Loc/NEWcontent-edit-toolbar-tempvar.png
+[img6]: media/newbtn-link.png

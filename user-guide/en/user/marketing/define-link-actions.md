@@ -43,7 +43,7 @@ Here you can specify that a link click should add or remove interests for the co
 * In the **Set interest** list box, you can choose an interest to be added for the contacts if they click the link.
 * In the **Remove interest** list box, you can choose an interest to be removed for the contacts if they click the link.
 
-See also [Clear interests in SuperOffice CRM](oldeditor/Add-unsubscribe-link.md#clear-interests-in-superoffice-crm).
+See also [Clear interests in SuperOffice CRM][1].
 
 ## Selection/Project
 
@@ -58,10 +58,10 @@ In the **Follow-up** tab, you can specify that a link click should generate task
 3. **Description**: Enter a description of the task/appointment. This might be, for example, which mailing it relates to, which link the recipient clicked, and possibly how the task/appointment should be followed up.
 4. **Project**: Here you select a project which the task/appointment should be linked to. Type the beginning of a name to start the quick search.
 5. **Task**: Select the required task or appointment type.
-6. **Created by**: Select which user should be responsible for the task/appointment, or click the **Select active user** button ( ![icon](media/btn-contact.png) ) to choose yourself.
+6. **Created by**: Select which user should be responsible for the task/appointment, or click the **Select active user** button ( ![icon][img1] ) to choose yourself.
 7. **Assign to Our contact if available**: Check here if the task/appointment should be assigned to "our contact" for the recipient, i.e. the person who looks after this customer.
-8. **Default recipient**: Select a default recipient whom the task/appointment should be assigned to, or click the **Select active user** button ( ![icon](media/btn-contact.png) ) to choose yourself.
-9. **Duration**: Click the **Select time span** button ( ![icon](media/btn-calendar.jpg) ) next to this field to set the duration of the task/appointment.
+8. **Default recipient**: Select a default recipient whom the task/appointment should be assigned to, or click the **Select active user** button ( ![icon][img1] ) to choose yourself.
+9. **Duration**: Click the **Select time span** button ( ![icon][img2] ) next to this field to set the duration of the task/appointment.
 
 ## Request
 
@@ -79,3 +79,10 @@ In the **Script** tab, you can choose a script or macro to be run when the recip
 
 1. Select **Execute script** to activate this function.
 2. Click the **Script** list and select the required script from the list that appears. The following variables are available in the script: custId, linkId, shipmentId, linkUrl and linkHits. You can also use the returnUrl variable to override the specified link URL.
+
+<!-- Referenced links -->
+[1]: ../marketing/add-unsubscribe-link.md#clear-interests-in-superoffice-crm
+
+<!-- Referenced images -->
+[img1]: media/btn-contact.png
+[img2]: media/btn-calendar.jpg

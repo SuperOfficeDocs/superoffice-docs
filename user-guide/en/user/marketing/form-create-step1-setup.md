@@ -26,7 +26,7 @@ In order to do this:
 
     1. Select one of the main tabs in SuperOffice Marketing.
     2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
-    3. Click the ![icon](media/btn-addfolder.png)**Add folder** button. The **Folder properties** dialog appears.
+    3. Click the ![icon][img1]**Add folder** button. The **Folder properties** dialog appears.
     4. Enter a descriptive name for the folder in the **Name** field.
     5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. <!-- Fix reuse ID=a1 -->  
@@ -43,4 +43,10 @@ In order to do this:
 
     [!include[Tracking options for mailing](../includes/mailing-tracking-options.md)]
 
-9. Click **Next** to go to the next step: [Step 2: Template](form-create-step2-template.md).
+9. Click **Next** to go to the next step: [Step 2: Template][1].
+
+<!-- Referenced links -->
+[1]: form-create-step2-template.md
+
+<!-- Referenced images -->
+[img1]: media/btn-addfolder.png

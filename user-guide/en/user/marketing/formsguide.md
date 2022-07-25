@@ -16,7 +16,7 @@ Create your own custom forms with the **Forms** feature in SuperOffice Marketing
 * [Newsletter sign-up](#newsletter-sign-up): Let your customers sign up for one or more of your newsletters.
 * [Contact me](#contact-me): Use a "contact me" form to open up another communication channel with your customers or prospects. Use this form to generate support requests or generate leads for your sales team.
 
-The procedures below will guide your through the form creation using examples. We will not cover every field and option, but you can find comprehensive instructions in [Create a new form](form-create.md).
+The procedures below will guide your through the form creation using examples. We will not cover every field and option, but you can find comprehensive instructions in [Create a new form][1].
 
 ## Newsletter sign-up
 
@@ -34,7 +34,7 @@ Fill in the options/fields in the **Properties** category as relevant. Do NOT ac
 
 Click **Apply now** to save the form and continue editing.
 
-In the **Fields** category, click ![icon](media/btn-Field-Add.png) and add the following fields:
+In the **Fields** category, click ![icon][img1] and add the following fields:
 
 First and last name (remove the **Contact - Name field**)
 
@@ -50,7 +50,7 @@ Select the **OK** field, change the name to "Submit", and edit the font/backgrou
 
 Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
-Click ![icon](media/btn-Field-Move.png) at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
+Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
 
 Click **Apply now** to save the form and continue editing.
 
@@ -61,7 +61,7 @@ Click **Apply now** to save the form and continue editing.
 In the **Double opt-in** category, select **Enable double opt-in**. <!-- Fix reuse ID=a2 --><span id="POPUP467953676" class="expandtext" style="display: none;">This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their e-mail address. This is done by sending them an e-mail when they submit the form. The e-mail contains a link they must click to confirm that the e-mail address is correct.  
 The link is valid for 30 minutes by default.
 
-In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an e-mail confirmation. <!-- Fix reuse ID=a3 -->. Click **Show/hide toolbar** (![icon](media/btn-editor-toolbar-showhide.png)) to display formatting options for the text.
+In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an e-mail confirmation. <!-- Fix reuse ID=a3 -->. Click **Show/hide toolbar** (![icon][img3]) to display formatting options for the text.
 
 We will now send an e-mail to the address you have registered in our form.
 
@@ -83,9 +83,9 @@ Best regards,
 
 The SuperShop Team
 
-Click **Show/hide toolbar** (![icon](media/btn-editor-toolbar-showhide.png)) and then click **Insert confirm link** (![icon](media/btn-ConfirmLink.png)). The confirmation link is inserted in the body text.
+Click **Show/hide toolbar** (![icon][img3]) and then click **Insert confirm link** (![icon][img4]). The confirmation link is inserted in the body text.
 
-Click the confirmation link, select **Edit link** (![icon](media/btn-EditLink.png)), and change the link text to "Click here to confirm your e-mail address". The link is valid for 30 minutes by default.
+Click the confirmation link, select **Edit link** (![icon][img5]), and change the link text to "Click here to confirm your e-mail address". The link is valid for 30 minutes by default.
 
 Click **Apply now** to save the form and continue editing.
 
@@ -103,11 +103,11 @@ In the **Actions** category, you must set up the actions to be performed when th
 * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 * **Add contact to selection**: Select the selection you created in step 1. Use this selection to keep track of contacts added via this form.
 * **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
-* **E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. To create a form response, see [Form response: Step 1: Setup](form-create-step1-setup.md).
+* **E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. To create a form response, see [Form response: Step 1: Setup][2].
 
 Click **Save**. The form is saved and the **Edit form** screen closes.
 
-Set the form to **Active** (![icon](media/btn-form-active.png)) in the header.
+Set the form to **Active** (![icon][img6]) in the header.
 
 Go to the **Publish** tab.
 
@@ -117,11 +117,9 @@ Open the link to the form, fill in the form and check that everything works as e
 
 What happens now? See the following topics:
 
-[Form submissions](form-submissions.md)
-
-[Track form submissions and view statistics](form-submission-track.md)
-
-[Process form submissions](form-submissions-process.md)
+* [Form submissions][3]
+* [Track form submissions and view statistics][4]
+* [Process form submissions][5]
 
 ## Contact me
 
@@ -137,7 +135,7 @@ Enter "Contact me (support)" in the **Form name** field.
 
 Fill in the options/fields in the **Properties** category as relevant. Do NOT activate any options under **Deactivate form automatically**.
 
-In the **Fields** category, click ![icon](media/btn-Field-Add.png) and add the following fields:
+In the **Fields** category, click ![icon][img1] and add the following fields:
 
 * First and last name. Remove the **Contact - Name field**.
 * **View elements** &gt; **Text block**: Enter the text in "How can we contact you?" in bold.
@@ -149,7 +147,7 @@ Select the **OK** field, change the name to "Submit", and edit the font/backgrou
 
 Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
-Click ![icon](media/btn-Field-Move.png) at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
+Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
 
 Click **Apply now** to save the form and continue editing.
 
@@ -173,11 +171,11 @@ Select **Create request** and do the following:
 
 Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
-**E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. To create a form response, see [Form response: Step 1: Setup](form-create-step1-setup.md).
+**E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. To create a form response, see [Form response: Step 1: Setup][2].
 
 Click **Save**. The form is saved and the **Edit form** screen closes.
 
-Set the form to **Active** (![icon](media/btn-form-active.png)) in the header.
+Set the form to **Active** (![icon][img6]) in the header.
 
 Go to the **Publish** tab.
 
@@ -187,6 +185,21 @@ Open the link to the form, fill in the form and check that everything works as e
 
 ## What happens now? See the following topics
 
-* [Form submissions](form-submissions.md)
-* [Track form submissions and view statistics](form-submission-track.md)
-* [Process form submissions](form-submissions-process.md)
+* [Form submissions][3]
+* [Track form submissions and view statistics][4]
+* [Process form submissions][5]
+
+<!-- Referenced links -->
+[1]: form-create.md
+[2]: form-create-step1-setup.md
+[3]: form-submissions.md
+[4]: form-submission-track.md
+[5]: form-submissions-process.md
+
+<!-- Referenced images -->
+[img1]: media/btn-Field-Add.png
+[img2]: media/btn-Field-Move.png
+[img3]: media/btn-editor-toolbar-showhide.png
+[img4]: media/btn-ConfirmLink.png
+[img5]: media/btn-EditLink.png
+[img6]: media/btn-form-active.png

@@ -23,7 +23,7 @@ In order to do this:
 
     [!include[How to create a mailing folder](../includes/create-mailing-folder.md)]
 
-6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. <!-- Fix reuse ID=a1 --> If you add a selection, any contacts in the selection will be added as recipients in the mailing. See [Step 4: Recipients](Step-4-Recipients-email.md).
+6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. <!-- Fix reuse ID=a1 --> If you add a selection, any contacts in the selection will be added as recipients in the mailing. See [Step 4: Recipients][1].
     <!-- Fix reuse ID=a2 -->
     [!include[Why](../includes/mailing-why-selection-or-project.md)]
 
@@ -38,4 +38,11 @@ In order to do this:
 
     [!include[Tracking options for mailing](../includes/mailing-tracking-options.md)]
 
-10. Click **Next** to go to the next step: [Step 2: Template](Step-2-Layout-formatted-email.md).
+10. Click **Next** to go to the next step: [Step 2: Template][2].
+
+<!-- Referenced links -->
+[1]: Step-4-Recipients-email.md
+[2]: Step-2-Layout-formatted-email.md
+
+<!-- Referenced images -->
+[img1]:

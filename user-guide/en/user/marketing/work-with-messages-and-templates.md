@@ -44,7 +44,7 @@ To access these, do as follows:
 
 4. Click the ![icon][img1] menu button next to the template you want to use.
 
-5. Select **Create mailing**. The template opens in the mailings wizard. See [Step 1: Setup - E-mail](step-1-setup-email.md).
+5. Select **Create mailing**. The template opens in the mailings wizard. See [Step 1: Setup - E-mail][1].
 
 [!include[How to create a mailing folder](../includes/create-mailing-folder.md)]
 
@@ -59,7 +59,7 @@ To create a new e-mail template from scratch:
 5. Click the blue box (column) in the message, and edit the layout in the side-panel.
 6. Click **Add Content** in a column. The side-panel displays various content types (such as images and text) that can be added to the column.
 7. Click and drag a content type from the side-panel to a column in the message.
-8. Click the content in the message to edit it. See [Edit content](Edit-paragraph.md).
+8. Click the content in the message to edit it. See [Edit content][2].
 9. Click outside the column when you are done.
 10. Click and drag columns from the side-panel to add more content to your message.
 11. Click **OK** when you are done. The new template displays in the templates list.
@@ -74,7 +74,7 @@ To create a new SMS template from scratch:
 
 3. Enter a descriptive name for the template in the **Name** field.
 
-4. In the **SMS** text field, enter the mailing text. You can use template variables for contacts here. This works the same way as for e-mail mailings. See [Use template variables in messages](Use-template-variables-in-messages.md).
+4. In the **SMS** text field, enter the mailing text. You can use template variables for contacts here. This works the same way as for e-mail mailings. See [Use template variables in messages][3].
 
 5. Click **OK** when you are done. The new template displays in the templates list.
 
@@ -82,8 +82,8 @@ To create a new SMS template from scratch:
 
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](message-editor-old-vs-new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-Drag-Drop-Editor-and-Editor.md)
+(for e-mail mailings) [Differences between the Drag & drop editor and the Editor][4]  
+(for form responses) [Differences between the Drag & drop editor and the Editor][5]
 
 1. Go to the **Mailings** tab.
 2. Click the ![icon][img1] menu button next to the mailing you want to use as a basis for the template.
@@ -96,8 +96,8 @@ To create a new SMS template from scratch:
 
 > [!NOTE]
 > If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the previous version of the message editor. The learn more about the two versions of the message editor, see:  
-(for e-mail mailings) [Differences between the Drag & drop editor and the Editor](message-editor-old-vs-new.md)  
-(for form responses) [Differences between the Drag & drop editor and the Editor](forms-Differences-between-Drag-Drop-Editor-and-Editor.md)
+(for e-mail mailings) [Differences between the Drag & drop editor and the Editor][4]  
+(for form responses) [Differences between the Drag & drop editor and the Editor][5]
 
 1. Go to the **Message templates** tab.
 2. Click the ![icon][img1] menu button next to the template you want to use.
@@ -110,13 +110,18 @@ To create a new SMS template from scratch:
 To import a JSON file:
 
 1. Go to the **Message templates** tab.
-2. Click **Import** (![icon](media/btn-import.png)). The **Import** dialog displays.
+2. Click **Import** (![icon][img3]). The **Import** dialog displays.
 3. Select the file you want to import.
 4. Click **OK**. The message template is added.
 
 <!-- Referenced links -->
-[1]:
+[1]: step-1-setup-email.md
+[2]: Edit-paragraph.md
+[3]: Use-template-variables-in-messages.md
+[4]: message-editor-old-vs-new.md
+[5]: forms-Differences-between-Drag-Drop-Editor-and-Editor.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/btn-add.png
+[img3]: media/btn-import.png

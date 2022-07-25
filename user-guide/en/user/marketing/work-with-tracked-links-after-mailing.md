@@ -11,7 +11,7 @@ language: en
 
 # Work with tracked links after the mailing
 
-You can include links (URLs) in an e-mail mailing or form response and track them. In other words, you can see how many recipients have clicked them. See [Include links you want to track](includeLinksToTrack.md).
+You can include links (URLs) in an e-mail mailing or form response and track them. In other words, you can see how many recipients have clicked them. See [Include links you want to track][1].
 
 <!-- Fix reuse ID=a1 -->
 
@@ -27,22 +27,22 @@ To view the links for a mailing, open the relevant mailing, click the **Tracked 
 To view the links for all mailings, click the **Tracked links** tab in the main SuperOffice Marketing screen. If you cannot find the link you want to work with, click **All links**. Click the link you want to work with.
 
 > [!NOTE]
-> Only registered links (see [Create tracked links](Create-links.md)) are displayed here. If you have added "regular" links in the mailing, you need to select the **Track all links** option in [Step 1: Setup](step-1-setup-email.md).
+> Only registered links (see [Create tracked links][2]) are displayed here. If you have added "regular" links in the mailing, you need to select the **Track all links** option in [Step 1: Setup][3].
 
 In order to do this:
 
 1. In the active mailing, select the **Tracked links** tab.
 2. Click the relevant link from the link list. The **View link** screen displays.  
-    Here you can see the number of clicks for the link and any actions that have been specified for the link. See [Define link actions](Define-link-actions.md). In the **Clickers** list you can see who has clicked the link and in which mailing they clicked the link.
+    Here you can see the number of clicks for the link and any actions that have been specified for the link. See [Define link actions][4]. In the **Clickers** list you can see who has clicked the link and in which mailing they clicked the link.
 3. Use the checkboxes in the left column to select all or specific contacts in the list.
-4. Click the ![icon][img1] menu button. Here you can add the selected contacts to a new or existing selection or project. See [Add recipients to selections or projects](Add-recipients-to-selections-or-projects.md).
+4. Click the ![icon][img1] menu button. Here you can add the selected contacts to a new or existing selection or project. See [Add recipients to selections or projects][5].
 5. Click **OK** to close the **View link** screen.
 
-To edit the link, click the **Edit** button. See [Create tracked links](Create-links.md).
+To edit the link, click the **Edit** button. See [Create tracked links][2].
 
 Reset counters for links
 
-Sometimes you need to reset the number of clicks back to zero. This would be the case, for example, after you have sent out a test message (see [Test the mailing](test-mailing.md)), so that your own and others' clicking of links during testing are not included in your results. To do this:
+Sometimes you need to reset the number of clicks back to zero. This would be the case, for example, after you have sent out a test message (see [Test the mailing][6]), so that your own and others' clicking of links during testing are not included in your results. To do this:
 
 1. Select the **Tracked links** tab.
 2. Click **All links** if your link is not displayed in the list. If you have organised the links in folders, first go to the folder the link is in.
@@ -50,10 +50,16 @@ Sometimes you need to reset the number of clicks back to zero. This would be the
 
 ## Related topics
 
-[Work with the recipient list after the mailing](Work-with-recipient-list-after-mailing.md)
+* [Work with the recipient list after the mailing][7]
 
 <!-- Referenced links -->
-[1]:
+[1]: includeLinksToTrack.md
+[2]: Create-links.md
+[3]: step-1-setup-email.md
+[4]: Define-link-actions.md
+[5]: Add-recipients-to-selections-or-projects.md
+[6]: test-mailing.md
+[7]: Work-with-recipient-list-after-mailing.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

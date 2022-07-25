@@ -13,5 +13,12 @@ language: en
 
 A mailing is usually handled in two steps:
 
-* Preparing and sending the mailing – see [Create new mailing](CreateNewMailing.md).
-* Following up the completed mailing – see [Follow up mailings](Followup-mailings.md).
+* Preparing and sending the mailing – see [Create new mailing][1].
+* Following up the completed mailing – see [Follow up mailings][2].
+
+<!-- Referenced links -->
+[1]: CreateNewMailing.md
+[2]: Followup-mailings.md
+
+<!-- Referenced images -->
+[img1]:

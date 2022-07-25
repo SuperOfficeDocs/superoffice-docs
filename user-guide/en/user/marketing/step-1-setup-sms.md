@@ -27,6 +27,12 @@ In order to do this:
 
     [!include[Note](../includes/note-setup-mailing.md)]
 
-5. Click **Next** to go to the next step: [Step 2: Template](Step-2-Template-SMS.md).
+5. Click **Next** to go to the next step: [Step 2: Template][1].
 
 [!include[Tip](../includes/tip-mailing-save-draft.md)]
+
+<!-- Referenced links -->
+[1]: Step-2-Template-SMS.md
+
+<!-- Referenced images -->
+[img1]:

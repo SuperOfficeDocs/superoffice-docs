@@ -23,7 +23,7 @@ Here you can basic information about the form, including a preview of the form, 
 * **Last submission**: When the last form was submitted.
 * **Completion last 7 days**: Submitted forms per day the last 7 days.
 * **Completion rate**: Status for submitted forms.
-* **Mailing**: This field is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions](form-create.md)). Click the link to view information and statistics about the form response. See [Track the mailing and view statistics](Track-mailing-and-view-statistics.md).
+* **Mailing**: This field is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions][1]). Click the link to view information and statistics about the form response. See [Track the mailing and view statistics][2].
 
 ## **Reports**
 
@@ -31,6 +31,14 @@ These charts show statistics for the form (mouse-over to view exact numbers).
 
 ## **Form submissions**
 
-Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions (![icon](media/btn-form-notification.png)).
+Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions (![icon][img1]).
 
-Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions](form-submissions-process.md).
+Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions][3].
+
+<!-- Referenced links -->
+[1]: form-create.md
+[2]: Track-mailing-and-view-statistics.md
+[3]: form-submissions-process.md
+
+<!-- Referenced images -->
+[img1]: media/btn-form-notification.png

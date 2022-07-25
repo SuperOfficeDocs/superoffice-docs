@@ -22,13 +22,22 @@ See below to determine whether you are using the Drag & drop editor (new) or the
 
 ### Drag &amp; drop editor (new)
 
-![icon](media/TemplateEditOverview.png)
-![icon](media/editor-sidepanel.png)
+![icon][img1]
+![icon][img2]
 
-Go to this topic: [Step 3: Content - E-mail (Drag &amp; drop editor)](Step-3-Content-Formatted-email.md)
+Go to this topic: [Step 3: Content - E-mail (Drag &amp; drop editor)][1]
 
 ### Editor (old)
 
-Go to this topic: [Step 3: Content - E-mail (the old Editor](oldeditor/Step-3-Content-Formatted-email.md)
+Go to this topic: [Step 3: Content - E-mail (the old Editor][2]
 
- ![icon](media/TemplateEditOverview-old.png)
+ ![icon][img3]
+
+<!-- Referenced links -->
+[1]: Step-3-Content-Formatted-email.md
+[2]: oldeditor/Step-3-Content-Formatted-email.md
+
+<!-- Referenced images -->
+[img1]: media/TemplateEditOverview.png
+[img2]: media/editor-sidepanel.png
+[img3]: media/TemplateEditOverview-old.png

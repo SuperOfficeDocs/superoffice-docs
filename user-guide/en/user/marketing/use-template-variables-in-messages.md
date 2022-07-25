@@ -15,7 +15,7 @@ In order to give the message a more personal touch, you can use <!-- Fix reuse I
 
 <!-- Fix reuse ID=a2 -->
 
-Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the merge tags **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty merge tags in your mailings, make sure to [preview the mailing](test-mailing.md) first.
+Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an e-mail address (or just an e-mail address). This means that only the merge tags **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty merge tags in your mailings, make sure to [preview the mailing][1] first.
 
 There are several types of merge tags:
 
@@ -35,7 +35,7 @@ There are several types of merge tags:
 
 4. In the list that appears, select **Contact** and **First name**.
 
-    ![icon](media/Loc/neweditor-templatevar.png)
+    ![icon][img1]
 
 5. Continue entering text and inserting the merge tags you require.
 
@@ -44,4 +44,11 @@ There are several types of merge tags:
 
 ## What would you like to find out more about?
 
-[Template variables](../service/template-variables.md) (merge tags)
+* [Template variables][2] (merge tags)
+
+<!-- Referenced links -->
+[1]: test-mailing.md
+[2]: ../service/template-variables.md
+
+<!-- Referenced images -->
+[img1]: media/Loc/neweditor-templatevar.png

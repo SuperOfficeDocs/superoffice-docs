@@ -15,14 +15,21 @@ If you are creating a form with many fields, it might be useful to split the for
 
 In order to do so:
 
-1. Create a form as described in [Create a new form](form-create.md).
+1. Create a form as described in [Create a new form][1].
 2. Go to the **Fields** category.
-3. Click the **Add** button (![icon](media/btn-Field-Add.png)). The **Add element** window opens.
+3. Click the **Add** button (![icon][img1]). The **Add element** window opens.
 4. Select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
-6. Click ![icon](media/btn-Field-Move.png) at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
+6. Click ![icon][img2] at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
 7. Click **Apply now** when you are done.
 8. Repeat steps 2-7 to add another section.
 
 > [!TIP]
 > You can add a progress bar to the form, so the user can see how much is left to fill in. Go to the **Style** category, click the check box next to **Progress bar colour**, and select a colour.
+
+<!-- Referenced links -->
+[1]: form-create.md
+
+<!-- Referenced images -->
+[img1]: media/btn-Field-Add.png
+[img2]: media/btn-Field-Move.png

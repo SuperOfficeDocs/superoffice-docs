@@ -41,16 +41,16 @@ This is an overview of special options in some of the available fields.
 **Radio buttons**: A selection field where you can select one of multiple values.
 
 * **Vertical**: Display the values horizontally or vertically.
-* **Data**: Here you enter the values for each radio button. Enter a value in this field and click the add button (![icon](media/btn-Field-value-add.png)). Repeat to add additional values.
+* **Data**: Here you enter the values for each radio button. Enter a value in this field and click the add button (![icon][img1]). Repeat to add additional values.
 
 **Checkbox**: A selection field where you can select multiple values.
 
 * **Vertical**: Display the values horizontally or vertically.
-* **Data**: Here you enter the values for each checkbox. Enter a value in this field and click the add button (![icon](media/btn-Field-value-add.png)). Repeat to add additional values.
+* **Data**: Here you enter the values for each checkbox. Enter a value in this field and click the add button (![icon][img1]). Repeat to add additional values.
 
 **Drop-down**: A selection field where you can select a value from a list.
 
-* **Data**: Here you enter the list values. Enter a value in this field and click the add button (![icon](media/btn-Field-value-add.png)). Repeat to add additional values.
+* **Data**: Here you enter the list values. Enter a value in this field and click the add button (![icon][img1]). Repeat to add additional values.
 
 **Hidden**: A field that is not visible in the published form. In the **Default value** field you can enter a code, a project name/number or other information that should be associated with this form.
 
@@ -68,13 +68,16 @@ This is an overview of special options in some of the available fields.
 
 ## View elements
 
-**Text block**: Enter a text to display in the form, such as a short introduction or detailed description. Click **Show/hide toolbar** (![icon](media/btn-editor-toolbar-showhide.png)) to display formatting options for the text. Click **Open text editor in dialog** (![icon](media/btn-editor-open.png)) to edit the text in a larger editor.
+**Text block**: Enter a text to display in the form, such as a short introduction or detailed description. Click **Show/hide toolbar** (![icon][img2]) to display formatting options for the text. Click **Open text editor in dialog** (![icon](media/btn-editor-open.png)) to edit the text in a larger editor.
 
 **Image**: Add an image to the form. Click the link to select an image or drag and drop an image to the **Image** field. Use the **Position** radio buttons to place the image on the form.
 
-**Section**: Add a section between the fields to create a multi-page form. This is very useful if your form contains many fields and you want to avoid scrolling. See [Create multi-page forms](form-create-multi-page.md).
+**Section**: Add a section between the fields to create a multi-page form. This is very useful if your form contains many fields and you want to avoid scrolling. See [Create multi-page forms][2].
 
 <!-- Referenced links -->
 [1]: ../../../../docs/marketing/forms/recaptcha.md
+[2]: form-create-multi-page.md
 
 <!-- Referenced images -->
+[img1]: media/btn-Field-value-add.png
+[img2]: media/btn-editor-toolbar-showhide.png

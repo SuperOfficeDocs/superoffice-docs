@@ -13,7 +13,7 @@ language: en
 
 The forms feature is a powerful engine to get information from a form into SuperOffice without too much integrations and hassle. Forms make it easier to interact with customers and prospects via your website or customer centre. A wide variety of data can be added in a form (including file upload) and you can add a number of automated actions to perform when the form is submitted and processed.
 
-See examples here: [How to create forms (examples)](FormsGuide.md)
+See examples here: [How to create forms (examples)][1]
 
 It is easy to create a form and post it on any web page you want it to show, like “Contact me” forms, and it is easy to transform all those new prospects to contacts in SuperOffice.
 
@@ -21,8 +21,19 @@ Examples of forms: start free trial, contact us, update data, consent management
 
 Creating a form follows roughly this workflow:
 
-1. [Create a new form](form-create.md)
-2. [Form response - Step 1: Setup](form-create-step1-setup.md) - an e-mail can be automatically sent to a submitter when their form is processed.
-3. [Publish forms](form-publish.md) - use a link or JavaScript to publish the form in a newsletter or on a website or Customer Centre.
-4. [Track form submissions and view statistics](form-submission-track.md) - view the response rate in real-time.
-5. [Process form submissions](form-submissions-process.md) - update SuperOffice with the submitted data, either manually or automatically. SuperOffice can identify existing contacts based on e-mail addresses or create new contacts and companies.
+1. [Create a new form][2]
+2. [Form response - Step 1: Setup][3] - an e-mail can be automatically sent to a submitter when their form is processed.
+3. [Publish forms][4] - use a link or JavaScript to publish the form in a newsletter or on a website or Customer Centre.
+4. [Track form submissions and view statistics][5] - view the response rate in real-time.
+5. [Process form submissions][6] - update SuperOffice with the submitted data, either manually or automatically. SuperOffice can identify existing contacts based on e-mail addresses or create new contacts and companies.
+
+<!-- Referenced links -->
+[1]: FormsGuide.md
+[2]: form-create.md
+[3]: form-create-step1-setup.md
+[4]: form-publish.md
+[5]: form-submission-track.md
+[6]: form-submissions-process.md
+
+<!-- Referenced images -->
+[img1]:

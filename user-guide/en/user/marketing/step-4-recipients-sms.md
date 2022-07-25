@@ -45,6 +45,12 @@ language: en
 
 [!include[How to update recipients](../includes/howto-update-recipients.md)]
 
-Click **Next** to go to [Step 5: Confirm](Step-5-Confirm-SMS.md). You can still revisit the **Recipients** step to edit the recipients list.
+Click **Next** to go to [Step 5: Confirm][1]. You can still revisit the **Recipients** step to edit the recipients list.
 
 [!include[Tip](../includes/tip-mailing-save-draft.md)]
+
+<!-- Referenced links -->
+[1]: Step-5-Confirm-SMS.md
+
+<!-- Referenced images -->
+[img1]:

@@ -13,6 +13,12 @@ language: en
 
 [!include[Mailing step 2: choose template (layout)](../includes/mailing-choose-template.md)]
 
-[Step 3: Content - SMS](Step-3-Content-SMS.md)
+[Step 3: Content - SMS][1]
 
 [!include[Tip](../includes/tip-mailing-save-draft.md)]
+
+<!-- Referenced links -->
+[1]: Step-3-Content-SMS.md
+
+<!-- Referenced images -->
+[img1]:

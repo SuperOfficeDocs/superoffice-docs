@@ -19,31 +19,34 @@ For this to be possible, the URLs must be unique for each recipient, so that you
 
 In the **Tracked links** tab you have the following options:
 
-* Click the ![icon][img2] **Add** button to create a new link (see [Create tracked links](Create-links.md)).
+* Click the ![icon][img2] **Add** button to create a new link (see [Create tracked links][1]).
 
-* Click the ![icon](media/btn-addfolder.png)**Add folder** button to <!-- Fix reuse ID=a1 --> for your links.
+* Click the ![icon][img3]**Add folder** button to <!-- Fix reuse ID=a1 --> for your links.
 
     [!include[How to create a mailing folder](../includes/create-mailing-folder.md)]
 
-* Click a link to open the **View link** screen. See [Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md).
+* Click a link to open the **View link** screen. See [Work with tracked links after the mailing][2].
 
 * Click the ![icon][img1] menu button next to a link to access the following options:
 
-  * **View**. See [Work with tracked links after the mailing](Work-with-tracked-links-after-mailing.md).
-  * **Edit**. See [Create tracked links](Create-links.md).
-  * **Reset**. See [Reset counters for links](Work-with-tracked-links-after-mailing.md).
+  * **View**. See [Work with tracked links after the mailing][2].
+  * **Edit**. See [Create tracked links][1].
+  * **Reset**. See [Reset counters for links][2].
   * **Move to folder**. Click here to move the link to another folder.
   * **Delete**. Click here to delete the link.
 
 ## See also
 
-[Include links you want to track](includeLinksToTrack.md)
-
-[Add subscription links](Add-unsubscribe-link.md)
+* [Include links you want to track][3]
+* [Add subscription links][4]
 
 <!-- Referenced links -->
-[1]:
+[1]: Create-links.md
+[2]: Work-with-tracked-links-after-mailing.md
+[3]: includeLinksToTrack.md
+[4]: Add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/btn-add.png
+[img3]: media/btn-addfolder.png

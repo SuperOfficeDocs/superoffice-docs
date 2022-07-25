@@ -13,6 +13,12 @@ language: en
 
 [!include[How to choose a template](../includes/mailing-choose-template-form.md)]
 
-[Step 3: Content](form-create-step3-content.md)
+[Step 3: Content][1]
 
 [!include[Tip](../includes/tip-mailing-save-draft.md)]
+
+<!-- Referenced links -->
+[1]: form-create-step3-content.md
+
+<!-- Referenced images -->
+[img1]:
