@@ -64,7 +64,6 @@ To debug, use the developer tools of your browser and the SuperOffice [Diagnosti
 [9]: ../tutorials/custom-archive-control/index.md
 [10]: ../custom-ajax-methods.md
 [11]: change-system-config.md
-[12]: change-page-config.md
 
 <!-- Referenced images -->
 [img6]: media/web-client-custom-code.png

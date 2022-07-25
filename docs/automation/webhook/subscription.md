@@ -79,7 +79,7 @@ using (var wa = new WebhookAgent())
 
 ### WebhookAgent methods
 
-The `WebhookAgent` has methods to get an existing webhook by ID `GetWebhook(int id)`, and a delete method to permanently remove a webhook, `DeleteWebhook(int id)`. 
+The `WebhookAgent` has methods to get an existing webhook by ID `GetWebhook(int id)`, and a delete method to permanently remove a webhook, `DeleteWebhook(int id)`.
 
 The table below lists all available `WebhookAgent` Methods.
 

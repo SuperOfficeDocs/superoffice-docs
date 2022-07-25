@@ -28,5 +28,4 @@ Database mirroring only works with **Microsoft SQL Server** database server. Cus
 Databases and applications of the interface usually don't need any special backup, because the data is transient and kept primarily in the cloud (SuperOffice CRM Online).
 
 <!-- Referenced links -->
-[1]: overview.md
 [2]: https://online.superoffice.com/appstore/superoffice-as/database-mirroring-service

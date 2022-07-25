@@ -61,7 +61,6 @@ If some existing users do not get asked to switch to IDP authentication, a user 
 
 <!-- Referenced links -->
 [2]: https://admin.microsoft.com/AdminPortal/Home#/users
-[4]: ../../../identity-management/superid/overview.md
 [5]: ../../../identity-management/superid/howto/register-idp.md
 
 <!-- Referenced images -->

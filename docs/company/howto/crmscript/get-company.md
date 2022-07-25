@@ -48,4 +48,3 @@ print(c.getValue("name"));
 ```
 
 <!-- Referenced links -->
-[1]: <xref:CRMScript.Native.Company.getValue(String)>

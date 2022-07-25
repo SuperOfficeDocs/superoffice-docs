@@ -114,4 +114,3 @@ There you are. The preferred way to open the **Debug** window. And no debug code
 <!-- Referenced images -->
 [img1]: media/diagnostics.png
 [img2]: media/debugwindow-1.png
-[img3]: media/debugwindow-2.png

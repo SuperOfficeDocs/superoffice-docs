@@ -94,7 +94,6 @@ You can change the label of a version to make it more descriptive.
 * If your version was **rejected** for Stage, you need to fix the problems in SOD and then request to publish again.
 
 <!-- Referenced links -->
-[1]: ../apps/getting-started/app-envir.md
 
 <!-- Referenced images -->
 [img1]: media/app-versions-2.png

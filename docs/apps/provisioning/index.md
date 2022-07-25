@@ -46,7 +46,7 @@ This example was presented at Expander World 2016.
 
 Provisioning must be as automatic as possible. In some cases, it can include manual instructions with the intent of automating this later.
 
-For example, if the application requires new web panels in the SuperOffice solution, it should ideally create the web panels for the customer during provisioning. The alternative is for the customer to manually follow a set of instructions for how to create these themselves, which will open up for errors.  
+For example, if the application requires new web panels in the SuperOffice solution, it should ideally create the web panels for the customer during provisioning. The alternative is for the customer to manually follow a set of instructions for how to create these themselves, which will open up for errors.
 
 ### Benefits of automation
 
@@ -62,7 +62,6 @@ If you don't offer automatic provisioning from day 1, be prepared to do so soon 
 Manual provisioning might introduce potential errors. You also run the risk of the customer never getting the application going.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/content/resources/expander-world-resources/expander-world-2016/
 
 <!-- Referenced images -->
 [img1]: media/appstoreprovisioning.png

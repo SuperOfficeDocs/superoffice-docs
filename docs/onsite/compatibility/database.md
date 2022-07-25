@@ -50,5 +50,4 @@ For database-specific system requirements, check the vendor [Microsoft][1] or 
 
 <!--Referenced icons-->
 [img1]: ../../media/icons/testedyes.png
-[img2]: ../../media/icons/testedno.png
 [img3]: ../../media/icons/testednotyet.png

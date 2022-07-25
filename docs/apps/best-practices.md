@@ -264,9 +264,9 @@ Here are some thoughts for constructing optimal queries:
 
 Optimized searches means using smart restrictions that will translate to optimal SQL. Therefore, consider the following recommendations:
 
-1. Always use an __$orderby__={primarykey}
-2. Strongly suggest use a __$filter__={criteria} (especially when using __\$top__)
-3. If using __\$top__, use __\$skip__ for further optimization. (do __NOT__ ask for all records every request)
+1. Always use an **$orderby**={primarykey}
+2. Strongly suggest use a **$filter**={criteria} (especially when using __\$top__)
+3. If using __\$top__, use __\$skip__ for further optimization. (do **NOT** ask for all records every request)
 
  By creating well-defined It's good to off-loading heavy lifting queries to the database server, .
 
@@ -359,7 +359,6 @@ Read about [effective visual design][6].
 
 <!-- Referenced links -->
 [1]: tenant-status/status-page.md
-[2]: tenant-status/check-status.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
 [4]: https://community.superoffice.com/change-application
 [5]: ../api/authentication/online/validate-security-tokens.md
@@ -368,7 +367,6 @@ Read about [effective visual design][6].
 [8]: ../api/authentication/online/sign-in-user/index.md
 [9]: ../api/authentication/online/auth-application/index.md
 [10]: tenant-status/notifications.md
-[11]: tenant-status/get-notifications.md
 [12]: https://community.superoffice.com/application-registration/
 [13]: getting-started/what-api-to-use.md
 [14]: certification/checklist.md

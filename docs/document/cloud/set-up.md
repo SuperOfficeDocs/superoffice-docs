@@ -26,7 +26,6 @@ SuperOffice CRM Online can integrate with Google Workspace and Microsoft 365 (Sh
 Read the [technical description][6].
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/appstore/superoffice-as/office-365-integration
 [2]: g-suite/index.md
 [3]: office-365/set-up.md
 [4]: g-suite/set-up.md

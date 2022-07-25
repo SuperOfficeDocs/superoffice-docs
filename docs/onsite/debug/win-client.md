@@ -50,5 +50,4 @@ If asked for even more extended logging, you may turn this on by adding:
 
 <!-- Referenced links -->
 [1]: ../install/win-client/superoffice-ini.md
-[2]: ../install/win-client/superoffice-config.md
 [3]: index.md

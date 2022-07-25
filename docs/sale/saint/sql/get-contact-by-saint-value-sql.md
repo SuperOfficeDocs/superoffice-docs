@@ -56,5 +56,4 @@ SELECT * FROM CounterValue WHERE contact_id > 0 AND record_type = 5 AND directio
 We must specify `intent_id` for appointments/documents to avoid duplicate IDs in the result. `intent_id` = 0 implies all intents.
 
 <!-- Referenced links -->
-[1]: ../../../../database/tables/countervalue.md
 [2]: ../counters.md

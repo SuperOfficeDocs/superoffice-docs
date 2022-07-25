@@ -71,7 +71,6 @@ If you believe you have a great case for an application, navigate to the [applic
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/application-registration
 [2]: ../../api/authentication/online/certificates/index.md
-[3]: ../../api/authentication/online/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 [6]: ../../apps/getting-started/developer-registration-form.md
 [7]: ../order-database-mirroring.md

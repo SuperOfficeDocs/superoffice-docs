@@ -36,7 +36,6 @@ The deployment is now complete. The SuperOffice add-in for Outlook should now be
 [1]: https://appsource.microsoft.com/en-us/product/office/WA200001597?src=office&tab=Overview
 [3]: https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide
 [4]: https://support.office.com/en-us/article/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8
-[5]: deploy-centrally.md
 
 <!-- Referenced images -->
 [img2]: media/image1ya58.png

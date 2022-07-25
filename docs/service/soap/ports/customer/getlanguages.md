@@ -35,7 +35,5 @@ foreach(customer.LanguagesStruct i in tmpLangStruct)
 ```
 
 <!-- Referenced links -->
-[1]: ../../error-codes.md
 
 <!-- Referenced links -->
-[1]: ../../error-codes.md

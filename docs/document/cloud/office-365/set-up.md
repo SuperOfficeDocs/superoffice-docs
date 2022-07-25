@@ -255,11 +255,9 @@ When it is ready to use, you may [continue to set up the templates][1], to make 
 
 <!-- Referenced links -->
 [1]: ../configure.md
-[2]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
 [3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script
 [5]: https://social.technet.microsoft.com/wikicontents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx
-[6]: security.md
 [7]: troubleshooting.md
 [12]: https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true
 [13]: https://docs.microsoft.com/en-us/sharepoint/sharepoint-admin-role
@@ -285,7 +283,6 @@ When it is ready to use, you may [continue to set up the templates][1], to make 
 [img27]: media/image69pt4.png
 [img30]: media/imagekoepi.png
 [img31]: media/imageydark.png
-[img31]: media/imagem7t19.png
 [img32]: media/image6e0ta.png
 [img33]: media/imagebnc9j.png
 [img34]: media/imagezfo3m.png
