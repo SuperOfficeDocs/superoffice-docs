@@ -8,6 +8,7 @@ so.topic: article
 so.client: web
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Typical search
 
 Typical searches are a set of predefined searches created by SuperOffice to enable the users to get started with search and selections more easily. If the user is unsure of where to start, typical searches can help the user getting started given a set of predefined searches.
@@ -101,7 +102,7 @@ This service method will be used to retrieve the typical search titles, tooltips
 
 ### Get Typical Search items
 
-For each _entity_ it’s possible to obtain the list of corresponding typical search items.
+For each **entity** it’s possible to obtain the list of corresponding typical search items.
 
 #### [REST](#tab/find-typical-1)
 
@@ -142,7 +143,7 @@ var mdoAgent = new MDOAgent(options);
 MDOListItem[] findEntities = await mdoAgent.GetListAsync("typicalSearch", true, "contact", false);
 ```
 
-___
+***
 
 ### Get archive provider for entity by typical search ID
 
@@ -174,7 +175,7 @@ var agent = new SelectionAgent(options);
 SelectionForFind selForFind = await agent.GetSelectionForFindAsync("contact", 2);
 ```
 
-___
+***
 
 ### Azure
 

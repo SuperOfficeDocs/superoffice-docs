@@ -134,6 +134,7 @@ Using `Default` will calculate some of the needed values for you, similar to cli
 
 For the REST APIs, that means sending a GET request to the appropriate entity to create a default endpoint. The following example demonstrates what you should do.
 
+<!-- markdownlint-disable MD051 -->
 ### [RESTful REST API](#tab/create-rest)
 
 Proper creation invocation:
@@ -184,6 +185,7 @@ PostRequest(person, "/api/v1/Agent/Person/SavePersonEntity​");
 ```
 
 ***
+<!-- markdownlint-enable MD051 -->
 
 ### Provisioning
 

@@ -16,6 +16,7 @@ This guide describes how to get all user-defined fields using the web services A
 
 [!include[ALT](includes/how-to-guide-steps-intro.md)]
 
+<!-- markdownlint-disable MD051 -->
 ### [RESTful REST API](#tab/get-all-rest)
 
 The following examples demonstrate how to get all user-defined fields for a company, using the api/v1/Contact/UdefLayout endpoint.
@@ -59,6 +60,7 @@ return await udefAgent.GetPublishedUserDefinedFieldListAsync(UDefType.Contact);
 ```
 
 ***
+<!-- markdownlint-enable MD051 -->
 
 <!-- 
 How to write good how-to guides 

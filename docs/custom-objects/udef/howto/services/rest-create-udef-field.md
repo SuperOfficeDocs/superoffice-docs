@@ -25,6 +25,7 @@ All examples depend on the [udefFieldType][1] enum type to define what the data 
 
 These examples demonstrate how to create a Number user-defined field. First, a request is sent to obtain the default user-defined field structure, including calculated positioning in the client. Then field values are updated to reflect field text, tooltip, whether it should be indexed, or be mandatory.
 
+<!-- markdownlint-disable MD051 -->
 #### [RESTful REST API](#tab/create-rest)
 
 1. First get the JSON structure that represents a user-defined field. **This is a POST request.**
@@ -363,6 +364,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     If the fields are not immediately observable in the client user interface (UI), navigate to the application with the ´?flush´ query string parameter at the end of the URL as an authenticated user. The fields should then appear in the UI.
 
 ***
+<!-- markdownlint-enable MD051 -->
 
 ## User-Defined Field Lists
 
@@ -383,6 +385,7 @@ For Build in Lists. for example the **Business list entity**, only set the `List
 
 **Request:**
 
+<!-- markdownlint-disable MD051 -->
 #### [Restful REST](#tab/create-udef-list-rest)
 
 ```http
@@ -479,6 +482,7 @@ var results = await archiveAgent.GetArchiveListByColumnsAsync(
 ```
 
 ***
+<!-- markdownlint-enable MD051 -->
 
 Do not use the PrimaryKey value, use the `udlistdefinition.listTableId` value.
 

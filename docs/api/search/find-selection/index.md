@@ -10,6 +10,8 @@ so.client: web
 so.version: 9.2
 ---
 
+<!-- markdownlint-disable-file MD051 -->
+
 # Find and Selection
 
 SuperOffice [Find][1] is a unification of the **Find dialog** and **Selections**: two legacy approaches to search for specific information. SuperOffice provides new APIs to perform searches, used by both Find and Selections, and for you to easily implement the same search capability for integrations.
@@ -97,7 +99,7 @@ var selectionAgent = new SelectionAgent(options);
 SelectionEntity selectionEntity = await selectionAgent.GetSelectionEntity(selectionId);
 ```
 
-___
+***
 
 > [!NOTE]
 > It is important to not hard-code the selection provider names. Future support may include selections of more entities.
@@ -246,7 +248,7 @@ var selectionAgent = new SelectionAgent(options);
 SelectionEntity selectionEntity = await selectionAgent.CreateDefaultSelectionEntity();
 ```
 
-___
+***
 
 ### Save the SelectionEntity
 
@@ -352,7 +354,7 @@ selectionEntity.VisibleFor = new[]
 selectionEntity = await selectionAgent.SaveSelectionEntityAsync(selectionEntity);
 ```
 
-___
+***
 
 > [!NOTE]
 > When saving a selection, the default setting for populating the `VisibleFor` property looks at the user preferences. Section `Defaults` and key `DefaultSelectionVisibleFor`.

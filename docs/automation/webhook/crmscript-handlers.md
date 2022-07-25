@@ -31,6 +31,7 @@ Save the script with a unique include name, `ScriptHook1`.
 
 We then need to create a hook that will call this script:
 
+<!-- markdownlint-disable MD051 -->
 ## [CRMScript API](#tab/Webhook-CRMScript)
 
 ## Create a webhook using CRMScript
@@ -86,6 +87,7 @@ Authorization: Bearer {{token}}
 ```
 
 ***
+<!-- markdownlint-enable MD051 -->
 
 The webhook must have a name, a list of events to subscribe to and must be set to `crmscript`.
 
