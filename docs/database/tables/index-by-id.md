@@ -12,7 +12,7 @@ so.envir:
   - "online"
 ---
 
-# Database tables by [name](index.md) | **number** 
+# Database tables by [name](index.md) | **number**
 
 > [!NOTE]
 > Table numbers could be different between databases - depends on whether there are custom 3rd party tables. You must reference the sequence table column `TableNumber` to be certain.
@@ -49,7 +49,7 @@ so.envir:
 |27| [QuoteConnectionAccess](quoteconnectionaccess.md) |Access control for Quote Connections|
 |28| [activeuser](activeuser.md) |Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use: for determining who is logged on, at what location, etc.|
 |29| [traveltransactionlog](traveltransactionlog.md) |Log of all updates made to the database, that need to be replicated.|
-|30| [travelgeneratedtransaction](travelgeneratedtransaction.md) |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother)|
+|30| [travelgeneratedtransaction](travelgeneratedtransaction.md) |Record of all generated replication data files from this database (\*.dwn files from mother database to child, \*.up from child database to mother)|
 |31| [traveller](traveller.md) |Associates traveling out from this database|
 |32| [travelcurrent](travelcurrent.md) |Information about this database and its place in the hierarchy|
 |33| [travelgenerateddatabase](travelgenerateddatabase.md) |Information about all databases generated from this database|

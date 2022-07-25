@@ -50,7 +50,7 @@ Log of all updates made to the database, that need to be replicated.
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[travelcurrent](travelcurrent.md)  |Information about this database and its place in the hierarchy |
-|[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother) |
+|[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (\*.dwn files from mother database to child, \*.up from child database to mother) |
 |[traveller](traveller.md)  |Associates traveling out from this database |
 
 ## Replication Flags
