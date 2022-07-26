@@ -43,7 +43,7 @@ The Developer Portal stores your public key. However, you must store the private
 7. Click **Save Settings**.
 
 8. Request to publish the new configuration.
-<!-- markdownlint-enable MD029 -->
+<!-- markdownlint-restore -->
 
 ## Read more
 

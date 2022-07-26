@@ -79,7 +79,7 @@ MDOListItem[] findEntities = await mdoAgent.GetListAsync("selectionmembertypev2"
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 The result is an array of [MDOListItem][2] and contains the following details. Use the name of the `ExtraInfo` property to define the search entity.
 
@@ -162,7 +162,7 @@ SelectionForFind selectionForFind = await selectionAgent.GetSelectionForFind(ent
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 ### SelectionForFind properties
 
@@ -282,7 +282,7 @@ ArchiveColumnInfo[] availableColumns = await archiveAgent.GetAvailableColumns(pr
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 #### Get archive provider column results
 
@@ -365,7 +365,7 @@ MDOListItem[] listItems = await mdoAgent.GetList("restrictionOperators","true","
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 #### REST JSON results
 
@@ -439,7 +439,7 @@ ArchiveRestrictionGroup[] criteriaGroups = await selectionAgent.GetDynamicSelect
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 The following example demonstrates how to set the criteria for the personalized person entity. The criteria say to return all persons where the first name starts with B and ends with Y, or the first name starts with R and ends with Y.
 
@@ -468,7 +468,7 @@ This code sets the criteria for the personalized selection equal to the `Selecti
 [!code-csharp[CS](includes/set-criteria-groups-webapi.cs)]
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 ## Perform the search
 
@@ -574,7 +574,7 @@ foreach (var listItem in results)
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 ## Summary
 

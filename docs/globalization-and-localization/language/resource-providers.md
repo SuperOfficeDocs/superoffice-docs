@@ -42,7 +42,7 @@ As we can see in the config section there are 5 resource providers listed. The p
 ```XML
 <add name="ResourceDllProvider" rank="20" assemblyname="SuperOffice.DCF" objecttype="SuperOffice.Globalization.ResourceDllProvider" params="SuperOffice.Web.Globalization.ResourceStrings;SuperOffice.Web.Globalization" />
 ```
-<!-- markdownlint-enable MD013 -->
+<!-- markdownlint-restore -->
 
 This line will load the satellite assembly from the *SuperOffice.Web.Globalization.dll* depending on the language that you selected when you login to SuperOffice. For example, if you chose English as the language when you log into the system this statement will load the English resource satellite assembly to the *SuperOffice.Web.Globalization.dll* file in *bin\\en-us*.
 

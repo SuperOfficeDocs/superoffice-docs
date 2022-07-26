@@ -121,7 +121,7 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
 ### [SuperOffice.WebApi](#tab/delete-webapi)
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 <!-- 
 How to write good how-to guides 

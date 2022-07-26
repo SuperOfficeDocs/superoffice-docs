@@ -31,7 +31,7 @@ so.client:
 5. Click **Save Settings**.
 
 6. Request to publish the new configuration.
-<!-- markdownlint-enable MD029 -->
+<!-- markdownlint-restore -->
 
 ## Read more
 

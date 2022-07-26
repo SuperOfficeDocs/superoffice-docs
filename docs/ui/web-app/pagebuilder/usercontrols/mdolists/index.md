@@ -22,7 +22,7 @@ so.envir: onsite
 [!code-xml[XML](includes/projtemp5-3.xml)]
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 ## Control element
 

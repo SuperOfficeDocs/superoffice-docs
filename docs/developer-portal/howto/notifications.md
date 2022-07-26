@@ -45,7 +45,7 @@ The **State change URL** is set in the advanced application configuration of eac
 7. Click **Save Settings** or **OK**.
 
 8. [Request to publish the new configuration.][3]
-<!-- markdownlint-enable MD029 -->
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > You must set up a web service listening at the given URL and be prepared to [parse notifications][2].

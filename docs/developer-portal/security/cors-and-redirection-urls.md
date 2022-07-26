@@ -51,7 +51,7 @@ Types of URLs:
 3. If not shown on the **Configuration** start page, toggle **Advanced** and select **Authentication**.
 
     ![Application configuration: authentication URLs -screenshot][img2]
-<!-- markdownlint-enable MD029 -->
+<!-- markdownlint-restore -->
 
 ## To add or update redirection endpoints
 

@@ -28,7 +28,7 @@ You can check which customers that have authorized a specific app and get a list
     ![List of customers -screenshot][img1]
 
 3. Click through the environment specific tabs.
-<!-- markdownlint-enable MD029 -->
+<!-- markdownlint-restore -->
 
 ## Who are my customers?
 

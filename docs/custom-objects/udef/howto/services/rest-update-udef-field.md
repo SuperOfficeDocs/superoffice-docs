@@ -367,7 +367,7 @@ The get none published fields, use one of the following endpoints:
     If the fields are not immediately observable in the client user interface (UI), navigate to the application with the ´?flush´ query string parameter at the end of the URL as an authenticated user. The fields should then appear in the UI.
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 <!-- 
 How to write good how-to guides 

@@ -185,7 +185,7 @@ PostRequest(person, "/api/v1/Agent/Person/SavePersonEntity​");
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 ### Provisioning
 
@@ -265,8 +265,8 @@ Here are some thoughts for constructing optimal queries:
 Optimized searches means using smart restrictions that will translate to optimal SQL. Therefore, consider the following recommendations:
 
 1. Always use an **$orderby**={primarykey}
-2. Strongly suggest use a **$filter**={criteria} (especially when using __\$top__)
-3. If using __\$top__, use __\$skip__ for further optimization. (do **NOT** ask for all records every request)
+2. Strongly suggest use a **$filter**={criteria} (especially when using **\$top**)
+3. If using **\$top**, use **\$skip** for further optimization. (do **NOT** ask for all records every request)
 
  By creating well-defined It's good to off-loading heavy lifting queries to the database server, .
 

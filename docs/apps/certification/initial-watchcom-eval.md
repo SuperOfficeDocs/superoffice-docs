@@ -110,7 +110,7 @@ Security audits come in 3 different packages: small, medium, and large.
     </tr>
   </tbody>
 </table>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-restore -->
 
 > [!WARNING]
 > If the audit uncovers extensive issues that need to be fixed, it may lead to re-testing and additional auditing services. This may induce additional fees. You will be notified if and when this occurs. You are not obliged to complete and pay for an additional audit - however, **failing to do so will lead to your application not being certified and therefore not listed in the SuperOffice App Store**.

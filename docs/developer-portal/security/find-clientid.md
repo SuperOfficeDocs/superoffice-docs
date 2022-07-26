@@ -25,7 +25,7 @@ so.client:
 3. Alternatively, turn on **Advanced** and check the **Authentication** section.
 
     ![App client ID in Authentication section -screenshot][img2]
-<!-- markdownlint-enable MD029 -->
+<!-- markdownlint-restore -->
 
 ## Read more
 

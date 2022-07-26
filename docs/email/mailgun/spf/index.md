@@ -39,7 +39,7 @@ The SPF '_spf.online.superoffice.com' includes:
 * shortcut to SPF range '_spf.eu.mailgun.org' (all Mailgun EU IP addresses)
 
 Non-DKIM: add SPF '_spf.online.superoffice.com'
-<!-- markdownlint-enable MD044 -->
+<!-- markdownlint-restore -->
 
 ## SuperOffice CRM Online SPF details for DKIM-customers
 
@@ -47,7 +47,7 @@ When using DKIM, the SPF check requires to include SPF for 'mailgun.org' - to be
 
 <!-- markdownlint-disable MD044 -->
 So when using DKIM (and therefore SPF for 'mailgun.org'), you do not need '_spf.online.superoffice.com' (as this includes the same sub-selection as SPF 'mailgun.org' does: '_spf.eu.mailgun.org').
-<!-- markdownlint-enable MD044 -->
+<!-- markdownlint-restore -->
 
 DKIM: add SPF 'mailgun.org'
 

@@ -33,7 +33,7 @@ TableId = System.Convert.ToInt32(Machine.Shift.Right, 8)
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 ## Field offset
 

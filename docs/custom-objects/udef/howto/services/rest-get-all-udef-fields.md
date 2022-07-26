@@ -60,7 +60,7 @@ return await udefAgent.GetPublishedUserDefinedFieldListAsync(UDefType.Contact);
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 <!-- 
 How to write good how-to guides 

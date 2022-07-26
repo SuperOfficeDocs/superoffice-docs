@@ -162,7 +162,7 @@ France, however, has 3 lines total, with the first and second lines containing j
 ![Field array elements][img7]
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 It is important to understand that some company addresses contain only a postal address while others contain both a postal and street address.
 

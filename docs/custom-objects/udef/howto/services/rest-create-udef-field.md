@@ -364,7 +364,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     If the fields are not immediately observable in the client user interface (UI), navigate to the application with the ´?flush´ query string parameter at the end of the URL as an authenticated user. The fields should then appear in the UI.
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 ## User-Defined Field Lists
 
@@ -482,7 +482,7 @@ var results = await archiveAgent.GetArchiveListByColumnsAsync(
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 Do not use the PrimaryKey value, use the `udlistdefinition.listTableId` value.
 

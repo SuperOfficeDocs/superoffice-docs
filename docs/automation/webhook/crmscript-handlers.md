@@ -87,7 +87,7 @@ Authorization: Bearer {{token}}
 ```
 
 ***
-<!-- markdownlint-enable MD051 -->
+<!-- markdownlint-restore -->
 
 The webhook must have a name, a list of events to subscribe to and must be set to `crmscript`.
 
