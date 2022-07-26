@@ -52,4 +52,4 @@ Criteria constrain which data to have in the grid. This adds **where clauses**:
 | clear           |          | Clears the selected value of the element (v. 4.2.21)                  |
 
 <!-- Referenced links -->
-[1]: ../custom-screens/blogic_query_syntax.md
+[1]: ../custom-screens/blogic-query-syntax.md

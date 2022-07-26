@@ -38,7 +38,7 @@ the actual functionality of the provider.
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|SuperOffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
+|superoffice_system-user-cal| *None* |System user: Allows log in to NetServer|  |
 |associateDbId|associate|ID| x |
 |role|listAny|Role : Role| x |
 |assocName|associate|User ID : User ID| x |

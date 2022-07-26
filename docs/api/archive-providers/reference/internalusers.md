@@ -51,17 +51,17 @@ the actual functionality of the provider.
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|SuperOffice\_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
-|SuperOffice\_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
-|SuperOffice\_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
-|SuperOffice\_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
-|SuperOffice\_outlook-synchronizer| *None* |Outlook Synchronizer: Enables Outlook client sync (??)|  |
-|SuperOffice\_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
-|SuperOffice\_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
-|SuperOffice\_superlicense-complete| *None* |Complete CRM User: User Plan: Can edit Companies, Diary, Project, Selections, Sales, Reports and use Customer Service|  |
-|SuperOffice\_superlicense-no-selection| *None* |(No Selection): User Plan: License Not in Use.|  |
-|SuperOffice\_superlicense-sales-pro| *None* |Sales User: User Plan: Can edit Companies, Diary, Project, Combi Selections, Sales, Reports|  |
-|SuperOffice\_superlicense-marketing-pro| *None* |Marketing User: User Plan: Can edit Companies, Diary, Project, Combi Selections, Reports, eMarketing|  |
+|superoffice_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
+|superoffice_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
+|superoffice_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
+|superoffice_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
+|superoffice_outlook-synchronizer| *None* |Outlook Synchronizer: Enables Outlook client sync (??)|  |
+|superoffice_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
+|superoffice_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
+|superoffice_superlicense-complete| *None* |Complete CRM User: User Plan: Can edit Companies, Diary, Project, Selections, Sales, Reports and use Customer Service|  |
+|superoffice_superlicense-no-selection| *None* |(No Selection): User Plan: License Not in Use.|  |
+|superoffice_superlicense-sales-pro| *None* |Sales User: User Plan: Can edit Companies, Diary, Project, Combi Selections, Sales, Reports|  |
+|superoffice_superlicense-marketing-pro| *None* |Marketing User: User Plan: Can edit Companies, Diary, Project, Combi Selections, Reports, eMarketing|  |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |

@@ -9,11 +9,12 @@ so.category: list
 so.area: api-services
 ---
 
-<!-- markdownlint-disable-file MD051 -->
+
 # How to get all lists
 
 To get all available lists, use the `Lists` keyword.
 
+<!-- markdownlint-disable-file MD051 -->
 ## [RESTful REST API](#tab/lists-restful-rest)
 
 ```http
