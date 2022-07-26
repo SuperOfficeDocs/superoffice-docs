@@ -23,7 +23,7 @@ MD012:
 MD013:
   line_length: 1200
   heading_line_length: 80
-  code_block_line_length: 120
+  code_block_line_length: 180
   code_blocks: true
   tables: false
   headings: true
@@ -46,7 +46,7 @@ MD025:
   level: 1
   front_matter_title: ""
 MD026:
-  punctuation: ".,;:!。，；：！"
+  punctuation: ".,;:。，；"
 MD027: true
 MD028: true
 MD029:
@@ -60,7 +60,7 @@ MD031:
   list_items: false
 MD032: true
 MD033:
-  allowed_elements: ["details","summary","br","table","a","see","script"]
+  allowed_elements: ["details","summary","br","table","a","see","seealso","script"]
 MD034: true
 MD035:
   style: "consistent"
