@@ -16,20 +16,18 @@ They are parsed and converted into ArchiveRestrictions.
 
 For example:
 
-```
-
+```http
 "name begins 'Super'"
 "category = 3"
 "category in (2,3,4)"
 "xstop set"
 "registered after '2014.3.4'"
 "registered dateBetween ('2014.11.29', '2014.12.25')"
-
 ```
 
 Unary operators:
 
-```
+```http
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
@@ -37,13 +35,13 @@ Unary operators:
 
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
-```
+```http
 "business = 2  AND name contains 'super'"
 ```
 
 Brackets can be used for grouping.
 
-```
+```http
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
@@ -54,27 +52,21 @@ You add functions and modifiers to the column name to trigger aggregation.
 
 Example: group last names together, and inject a header row for each group.
 
-```
-
+```http
 GroupBy(lastName):Header
-
 ```
 
 Example: count instances of middle names, and hide the individual rows,
 report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
-
+```http
 Count(middleName):HideDetail:Footer
-
 ```
 
 Example: the aggregator functions can nest, so you can say
 
-```
-
+```http
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
 ```
 
 ## Strings
@@ -85,7 +77,7 @@ You can also use the normal = operator to do string exact match checks.
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
 
-```
+```http
 "department contains 'Bob\\'s'"
 ```
 

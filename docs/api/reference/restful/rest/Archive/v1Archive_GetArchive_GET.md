@@ -75,33 +75,26 @@ DatePart specific modifiers
 
 Example: group last names together, and inject a header row for each group.
 
-```
-
+```http
 GroupBy(lastName):Header
-
 ```
 
 Example: count instances of middle names, and hide the individual rows,
 report just the totals for each group using a footer. Note how the modifiers stack.
 
-```
-
+```http
 Count(middleName):HideDetail:Footer
-
 ```
 
 Example: the aggregator functions can nest, so you can say
 
-```
-
+```http
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
-
 ```
 
 Some simple queries can be used to filter and simplify the result list:
 
-```
-
+```http
 GET api/archives/$metadata
 GET api/archives/findContact
 GET api/archives/findContact?$top=20
@@ -109,7 +102,6 @@ GET api/archives/findContact?$select=nameDepartment,fullname
 GET api/archives/findContact?$filter=name begins 'foo'
 GET api/archives/findContact?$filter=thisAndPrevious(registered, 2, 'weeks')
 GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name begins 'foo'
-
 ```
 
 | Path Part | Type | Description |

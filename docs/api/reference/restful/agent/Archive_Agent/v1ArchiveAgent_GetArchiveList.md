@@ -19,10 +19,8 @@ Column names and operator strings are defined elsewhere.
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```
-
+```http
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
-
 ```
 
 ## Query String Parameters
