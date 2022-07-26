@@ -9,11 +9,12 @@ so.category: list
 so.area: api-services
 ---
 
-## How to create a list item
+<!-- markdownlint-disable-file MD051 -->
+# How to create a list item
 
 Create a list item and add it to an existing list, use the `Lists` endpoint.
 
-# [RESTful REST API](#tab/lists-restful-rest)
+## [RESTful REST API](#tab/lists-restful-rest)
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/List/109/Items HTTP/1.1
@@ -42,7 +43,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [RESTful Agent API](#tab/lists-restful-agent)
+## [RESTful Agent API](#tab/lists-restful-agent)
 
 Use the `CreateDefaultListItemEntity` to get the default list item JSON structure, then use the SaveListItemEntity endpoint to persist the new list.
 
@@ -105,7 +106,7 @@ Content-Type: application/json
 }
 ```
 
-# [WebApi Proxy API](#tab/lists-webapi-proxy)
+## [WebApi Proxy API](#tab/lists-webapi-proxy)
 
 Create a list item using the [SuperOffice.WebApi][1] proxy client.
 
@@ -118,8 +119,6 @@ var listItem = await listAgent.CreateDefaultListItemEntityAsync();
 listItem.Name = "Custom list item one";
 listItem.Tooltip = "Custom list item one tooltip";
 listItem = await listAgent.SaveListItemEntityAsync(listItem);
-
-
 ```
 
 ***

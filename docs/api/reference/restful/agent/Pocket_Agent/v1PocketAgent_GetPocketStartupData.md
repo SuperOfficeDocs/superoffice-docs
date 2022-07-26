@@ -64,7 +64,7 @@ Response body: object
 | NotificationsCount | int32 | Number of new invitations |
 | SystemWebPanels | array | Web panels defined in Admin client, set to be shown in Pocket client |
 | PocketPreferences | array | All Pocket specific preferences, including WebPanels defined by the user in Pocket |
-| IsPushNotificationEnabled | bool | Is push notification configured and enabled in Netserver |
+| IsPushNotificationEnabled | bool | Is push notification configured and enabled in NetServer |
 | CustomData | string | Custom data for Pocket, in JSON format |
 | TableRight |  |  |
 | FieldProperties | object |  |

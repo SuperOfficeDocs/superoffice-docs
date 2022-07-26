@@ -59,7 +59,7 @@ When a customer is checking if for an update of the typical searches, the custom
 
 ## When the only change is a removed typical search
 
-The MasterVersion number in the TypicalSearches carrier is incremented once per deleted typical search. It is stored in both the Master installation at Superoffice, and in each customer database. It is therefore possible to see that there has in fact been a change since the last import; and once all the typical searches in the carrier have been imported, whatever is left over will be deleted. This deletion can be inhibited by setting the DeleteLeftovers property to false, but Superoffice does not expect to use this feature.
+The MasterVersion number in the TypicalSearches carrier is incremented once per deleted typical search. It is stored in both the Master installation at SuperOffice, and in each customer database. It is therefore possible to see that there has in fact been a change since the last import; and once all the typical searches in the carrier have been imported, whatever is left over will be deleted. This deletion can be inhibited by setting the DeleteLeftovers property to false, but SuperOffice does not expect to use this feature.
 
 ## TypicalSearchExporter
 

@@ -126,7 +126,7 @@ The following example code has an extensive amount of logging to the console. Th
 
 ### index.js code
 
-[!code-javascript[index.js](includes/index.js)]
+[!code-JavaScript[index.js](includes/index.js)]
 
 ### [SOAP](#tab/soap-sut)
 
@@ -141,7 +141,7 @@ The following example code has an extensive amount of logging to the console. Th
 
 ### index.soap.js code
 
-[!code-javascript[index.js](includes/index.soap.js)]
+[!code-JavaScript[index.js](includes/index.soap.js)]
 
 ***
 

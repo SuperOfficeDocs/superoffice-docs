@@ -7,6 +7,7 @@ keywords: data-access, mass-operations, bulk-update
 version: 9.2 R04
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Working with Insert
 
 Used when there is a need to insert multiple records in a table, Insert requires a target table name, an array of target column names and a matching dataset. The dataset must be a two-dimensional array of string values, where the first dimension represents the data rows and the second dimension represents each data cell in the row.

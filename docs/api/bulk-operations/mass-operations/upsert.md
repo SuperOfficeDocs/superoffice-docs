@@ -8,6 +8,7 @@ version: 9.2 R04
 so.topic: howto
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Working with Upsert
 
 Notably, the most complex mass operation method, `Upsert`, performs any combination of inserts, updates, and, in some cases, deletes. It requires the same parameters as the [Insert][1] method, but adds a string array of *keys*, and an `UpsertNomatchAction` enum.

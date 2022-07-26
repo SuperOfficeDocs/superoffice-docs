@@ -90,9 +90,9 @@ In addition to containing the conditions that must evaluate to true before SEM e
 
 Regardless of the type of request, when the call to SEM returns and a ServerEventObjResult is returned, the client passes the result to the client-side JavaScript ServerEventManager object.
 
-The ServerEventManager then, for each ServerEventObject in the ServerEventObjResult, passes the ServerEventObject into the invokePageHandler method. The invokePageHandler method in turn calls the javascript PageEventHandler object and invokes the onServerEvent method. The onServerEvent method actually invokes the event, notifying each subscriber and passing the data returned in the ServerEventObject.Data property.
+The ServerEventManager then, for each ServerEventObject in the ServerEventObjResult, passes the ServerEventObject into the invokePageHandler method. The invokePageHandler method in turn calls the JavaScript PageEventHandler object and invokes the onServerEvent method. The onServerEvent method actually invokes the event, notifying each subscriber and passing the data returned in the ServerEventObject.Data property.
 
-Finally, when control from the PageEventHandler object returns, the ServerEventManager javascript object invokes an AJAX server-side method that will call EndInvoke on each plug-in that returned a ServerEventObject result.
+Finally, when control from the PageEventHandler object returns, the ServerEventManager JavaScript object invokes an AJAX server-side method that will call EndInvoke on each plug-in that returned a ServerEventObject result.
 
 **Server Event Manager Routine:**
 

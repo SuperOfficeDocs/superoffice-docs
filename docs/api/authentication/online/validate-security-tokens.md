@@ -237,7 +237,7 @@ namespace Example
 }
 ```
 
-### [Sample Javascript# Validator](#tab/js)
+### [Sample JavaScript# Validator](#tab/js)
 
 This sample code depends on jsonwebtoken and jwks-rsa npm packages.
 

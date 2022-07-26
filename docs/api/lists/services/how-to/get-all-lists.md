@@ -9,11 +9,12 @@ so.category: list
 so.area: api-services
 ---
 
-## How to get all lists
+<!-- markdownlint-disable-file MD051 -->
+# How to get all lists
 
 To get all available lists, use the `Lists` keyword.
 
-# [RESTful REST API](#tab/lists-restful-rest)
+## [RESTful REST API](#tab/lists-restful-rest)
 
 ```http
 GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/List 
@@ -21,7 +22,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-# [RESTful Agent API](#tab/lists-restful-agent)
+## [RESTful Agent API](#tab/lists-restful-agent)
 
 Ironically, it's not possible to get all lists from the List endpoint. Use the MDO endpoint to get all built-in and user-defined lists.
 
@@ -41,7 +42,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [WebApi Proxy API](#tab/lists-webapi-proxy)
+## [WebApi Proxy API](#tab/lists-webapi-proxy)
 
 Ironically, it's not possible to get all lists from the ListAgent. Use the MDO endpoint to get all built-in and user-defined lists.
 

@@ -15,7 +15,7 @@ Create or Update the CRMScript information
 <br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **uniqueIdentifier:** Global unique reference to script (independent of installation)
-* **crmscript:** Information about the CRMScript
+* **CRMScript:** Information about the CRMScript
 
 **Returns:** Information about the CRMScript as saved in the database
 

@@ -9,7 +9,7 @@ id: v1CustomerServiceAgent_TestSmtpServer
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 ```
 
-This method will do a test of a SMTP account, by sending an email to a special @superoffice.
+This method will do a test of a SMTP account, by sending an email to a special @SuperOffice.
 
 com account
 

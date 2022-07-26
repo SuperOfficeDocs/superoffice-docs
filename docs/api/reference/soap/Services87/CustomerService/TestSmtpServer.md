@@ -11,7 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Tes
 
 ## TestSmtpServer
 
-This method will do a test of a SMTP account, by sending an email to a special @superoffice.com account
+This method will do a test of a SMTP account, by sending an email to a special @SuperOffice.com account
 
 * **smtpUri:** An URI containing information to connect to the SMTP server, eg. smtps://myuser:mypassword@smtp.myserver.com:465. Note that username and password must be url encoded
 * **from:** The from-address used in the test

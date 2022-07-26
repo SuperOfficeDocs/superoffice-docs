@@ -31,7 +31,7 @@ Create or Update the CRMScript information
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: crmscript
+## Request Body: CRMScript
 
 Information about the CRMScript
 

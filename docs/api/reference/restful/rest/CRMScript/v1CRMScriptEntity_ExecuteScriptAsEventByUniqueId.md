@@ -35,7 +35,7 @@ Returns event data with output variable values.
 
 ## Request Body: eventData
 
-The EventData instance sent to the crmscript with input values
+The EventData instance sent to the CRMScript with input values
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

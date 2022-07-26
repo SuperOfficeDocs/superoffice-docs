@@ -14,12 +14,12 @@ so.envir:
   - "online"
 ---
 
-# "crmscript" MDO List
+# "CRMScript" MDO List
 
 Archive of CRMScripts. Returns script id + name of script as hierarchy.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CRMScriptProvider">CRMScriptProvider</see> class.
-The name of the MDO list is 'crmscript'.
+The name of the MDO list is 'CRMScript'.
 
 ## Sample Request
 

@@ -15,7 +15,7 @@ Execute a CRMScript with event data as input. Returns event data with output var
 <br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptId:** The id of the CRMScript to execute
-* **eventData:** The EventData instance sent to the crmscript with input values
+* **eventData:** The EventData instance sent to the CRMScript with input values
 
 **Returns:** The EventData instance after script execution with output values
 
