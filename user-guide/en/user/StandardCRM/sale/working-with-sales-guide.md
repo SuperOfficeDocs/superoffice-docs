@@ -20,11 +20,11 @@ This is how you perform the sales process:
 
 1. Click the **Create** button in front of the follow-up/document name.
 
-2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog](../diary/Document-dialog.md) and [The dialog for follow-ups](../diary/Dialog-for-followups.md).
+2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] and [The dialog for follow-ups][2].
 
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Sales guide** section tab. By default, documents are marked as completed.
 
-    ![icon](../media/question.bmp)<!-- Fix reuse ID=a2 -->
+    ![icon][img2]<!-- Fix reuse ID=a2 -->
 
     In SuperOffice Settings and maintenance, it is possible to specify that a follow-up in a sales guide should be suggested automatically when the preceding follow-up is marked as completed. In that case, the **Sales guide** dialog opens when you mark the previous follow-up as completed.
 
@@ -38,7 +38,7 @@ This is how you perform the sales process:
     > If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
 
     > [!TIP]
-    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog](../diary/Dialog-for-followups.md) then opens.
+    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
 4. Once all follow-ups and documents for a stage have been completed, go to the next stage on the main **Sale** card.  
     <!-- Fix reuse ID=a1 -->
@@ -61,10 +61,13 @@ This is how you perform the sales process:
 
 5. Repeat the above procedure for all follow-ups/documents in each stage of the sales guide.
 
-[Click here for an example of a sales guide.](Example-salesguide.md)
+[Click here for an example of a sales guide.][3]
 
 <!-- Referenced links -->
-[1]:
+[1]: ../diary/Document-dialog.md
+[2]: ../diary/Dialog-for-followups.md
+[3]: Example-salesguide.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../media/question.bmp

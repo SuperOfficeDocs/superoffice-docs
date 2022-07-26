@@ -17,7 +17,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 [!include[Using advanced search](../../includes/quote-add-multiple-products.md)]
 
-To find out how to do this, see [Add several products to a quote](quote-add-multiple-products.md).
+To find out how to do this, see [Add several products to a quote][1].
 
 To open the **Add/edit product** dialog:
 
@@ -31,7 +31,7 @@ To open the **Add/edit product** dialog:
 2. Start typing the name of the product or product code in the **Product search** field. The hitlist is updated automatically. You can search on all or parts of both the product name and product code.  
 
     > [!TIP]
-    > If advanced searching is supported, you can click the search button ![icon](../media/Dialogboksknapper-Finn.bmp) in the **Product search** field for search for and add several products simultaneously. See [Add several products to a quote](quote-add-multiple-products.md).
+    > If advanced searching is supported, you can click the search button ![icon][img1] in the **Product search** field for search for and add several products simultaneously. See [Add several products to a quote][1].
 
 3. Click the product you want in the list. The dialog will be updated with product information.  
 
@@ -69,3 +69,9 @@ Detailed product information is shown here, if this has been defined in SuperOff
 ## Details tab
 
 Detailed price calculations are shown here. The content of this tab is defined in SuperOffice Settings and maintenance.
+
+<!-- Referenced links -->
+[1]: quote-add-multiple-products.md
+
+<!-- Referenced images -->
+[img1]: ../media/Dialogboksknapper-Finn.bmp

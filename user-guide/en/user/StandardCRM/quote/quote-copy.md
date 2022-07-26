@@ -25,4 +25,10 @@ To do this:
     If the **OK** button is disabled, you have selected a sale which uses an ERP connection that you do not have access to. This means that the quote you are trying to copy gets products from a product list that you do not have permission to use.
 
     Hold the mouse pointer over the disabled **OK** button to display the name of the connection that you do not have access to.
-5. Edit the quote as described in [Create a quote](quote-create.md).
+5. Edit the quote as described in [Create a quote][1].
+
+<!-- Referenced links -->
+[1]: quote-create.md
+
+<!-- Referenced images -->
+[img1]:

@@ -13,14 +13,14 @@ language: en
 
 In the **Stage** field in the **Sale** screen, you can set the sale to **Sold** or **Lost**. You can also check the **Stalled** checkbox below this field if you want put the sales process on hold. If you do this, the fields underneath change, along with the icon at the top left of the **Sale** screen.
 
-For individual sale types, a list of stages, as defined in SuperOffice Settings and maintenance, is also displayed. To find out more about these, see the [Sales guide](sales-guide.md).
+For individual sale types, a list of stages, as defined in SuperOffice Settings and maintenance, is also displayed. To find out more about these, see the [Sales guide][1].
 
 | These statuses ... | ... produce these fields in the Sale screen |
 |---|---|
-| Open ![icon](../media/salg-apent.bmp) | ![icon](../media/Chap07-sale/72-chap7-sale-open.bmp) |
-| Stalled ![icon][img2] | ![icon](../media/Chap07-sale/73-chap7-sale-stalled.bmp) |
-| Lost ![icon][img1] | ![icon](../media/Chap07-sale/74-chap7-sale-lost.bmp) |
-| Sold ![icon](../media/Salg-solgt.bmp) | ![icon](../media/Chap07-sale/75-chap7-sale-sold.bmp) |
+| Open ![icon][img3] | ![icon][img4] |
+| Stalled ![icon][img2] | ![icon][img5] |
+| Lost ![icon][img1] | ![icon][img6] |
+| Sold ![icon][img7] | ![icon][img8] |
 
 Stalled
 
@@ -37,12 +37,19 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 
 ## Related topics
 
-* [Enter information in the Sale tab](CreateSale-Sale-tab.md)
-* [Sales guide](sales-guide.md)
+* [Enter information in the Sale tab][2]
+* [Sales guide][1]
 
 <!-- Referenced links -->
-[1]:
+[1]: sales-guide.md
+[2]: CreateSale-Sale-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/salg-utsatt.bmp
 [img2]: ../../../../media/icons/salg-tapt.bmp
+[img3]: ../media/salg-apent.bmp
+[img4]: ../media/Chap07-sale/72-chap7-sale-open.bmp
+[img5]: ../media/Chap07-sale/73-chap7-sale-stalled.bmp
+[img6]: ../media/Chap07-sale/74-chap7-sale-lost.bmp
+[img7]: ../media/Salg-solgt.bmp
+[img8]: ../media/Chap07-sale/75-chap7-sale-sold.bmp

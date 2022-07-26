@@ -15,14 +15,20 @@ Using the sales guide, the company can simplify and structure the sales process 
 
 The sales guide is defined in SuperOffice Settings and maintenance. See the **SuperOffice Settings and maintenance help** for instructions.
 
-![icon](../media/Chap07-sale/60-chap7-salesguide-first-meeting.bmp)
+![icon][img1]
 
 You can preview documents and activities in the **Preview** view in the side panel.
 
 ## Related topics
 
-[The Sales guide section tab](Salesguide-detailcard.md)
+* [The Sales guide section tab][1]
+* [Work with sales guides][2]
+* [Example of a sales guide][3]
 
-[Work with sales guides](Working-with-sales-guide.md)
+<!-- Referenced links -->
+[1]: Salesguide-detailcard.md
+[2]: Working-with-sales-guide.md
+[3]: Example-salesguide.md
 
-[Example of a sales guide](Example-salesguide.md)
+<!-- Referenced images -->
+[img1]: ../media/Chap07-sale/60-chap7-salesguide-first-meeting.bmp

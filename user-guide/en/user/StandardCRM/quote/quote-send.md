@@ -18,7 +18,7 @@ To do this:
 1. Open the quote in question.
 2. Click **Send**. The **Publish/send a quote** dialog appears.
     <!-- Fix reuse ID=a1 -->
-    You cannot send a quote if it needs to be approved (see [Approve quote before sending](quote-approve.md)) or contains errors or warnings (see [Deal with warnings and messages when adding products to a quote](quote-product-warnings.md)).
+    You cannot send a quote if it needs to be approved (see [Approve quote before sending][1]) or contains errors or warnings (see [Deal with warnings and messages when adding products to a quote][2]).
 3. If required, edit the validity of the quote in the **Valid to** field. The number of days until the quote expires is shown on the right of the field.
 4. Select the required template for the quote in the **Quote layout** field.
 5. Click in the **Language** field to choose which language to send the quote in.
@@ -32,4 +32,12 @@ To do this:
 
 The quote is marked as **Sent** and is archived as a PDF document in the **Activities** section tab.
 
-[Do you want to edit the quote?](quote-sent-edit.md)
+[Do you want to edit the quote?][3]
+
+<!-- Referenced links -->
+[1]: quote-approve.md
+[2]: quote-product-warnings.md
+[3]: quote-sent-edit.md
+
+<!-- Referenced images -->
+[img1]:

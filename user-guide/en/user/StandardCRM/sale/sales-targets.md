@@ -24,7 +24,7 @@ Before you start using the sales targets feature, you must set up a few things i
 * Creating, editing and deleting sales targets requires specific data rights. This can be changed in **Roles** in SuperOffice Settings and Maintenance.
 
 > [!TIP]
-> Use the **Freetext search** field to find sales targets for specific groups and users in a specific year. See [Freetext search](../key-functions/Freetext-search.md).
+> Use the **Freetext search** field to find sales targets for specific groups and users in a specific year. See [Freetext search][3].
 
 ## Add sales targets for a year
 
@@ -38,23 +38,23 @@ To do this:
 6. If applicable, change the currency for the company or group. The default currency is the base currency set for you company. You cannot set currency for individual users.
 7. Adjust the numbers manually using the **TAB** key go the next field.  
     or  
-    Click the menu button ( ![icon](../media/salestarget-menu.png) ) at the end of a row and select **Adjust numbers**. The following options are available in the dialog:
+    Click the menu button ( ![icon][img2] ) at the end of a row and select **Adjust numbers**. The following options are available in the dialog:
     * **Set initial amount**: Enter the amount for the whole year. The amount will be split equally among the months or quarters on the current row.
     * **Copy from**: Copy the values from another group or user.
     * **Copy from last year**: Copy values from last year and increase the values by a specific percentage. This option is disabled if last year has no values.  
         Click **Save** when you are done. The sums for all users will be added to the **All** row at the top of the list of users.
-8. Optional: When you have completed a row, you can lock it (![icon](../media/salestarget-unlocked.png)-![icon](../media/salestarget-locked.png)) to disable editing. This can be relevant when the budget has been approved and should not be edited. Locked rows cannot be removed, cleared or edited.
-9. If a specific group or user should not have a sales target, click the menu button ( ![icon](../media/salestarget-menu.png) ) and select **Clear** to empty the values.
+8. Optional: When you have completed a row, you can lock it (![icon][img3]-![icon][img4]) to disable editing. This can be relevant when the budget has been approved and should not be edited. Locked rows cannot be removed, cleared or edited.
+9. If a specific group or user should not have a sales target, click the menu button ( ![icon][img2] ) and select **Clear** to empty the values.
 10. Click **Save**.
 11. Repeat steps 3-10 to add additional groups or companies.
 12. Go to step 2 to add sales targets for another year, or click **Save and close** to exit this screen.
 
 > [!NOTE]
-> To remove a company or group target, click the menu button ( ![icon](../media/salestarget-menu.png) ) and select **Remove company target** or **Remove group target**.
+> To remove a company or group target, click the menu button ( ![icon][img2] ) and select **Remove company target** or **Remove group target**.
 
 ## Revision history
 
-To view the revision history for a sales target (row), click the menu button ( ![icon](../media/salestarget-menu.png) ) and select **Revision history**. In the screen that displays, you can view all changes that has been made to the current sales target. This includes changed values and locking/unlocking, when the change was made and by whom. Use the expand/collapse buttons at the top to view/hide details.
+To view the revision history for a sales target (row), click the menu button ( ![icon][img2] ) and select **Revision history**. In the screen that displays, you can view all changes that has been made to the current sales target. This includes changed values and locking/unlocking, when the change was made and by whom. Use the expand/collapse buttons at the top to view/hide details.
 
 ## Export
 
@@ -68,6 +68,10 @@ Click the **Task** button to export the sales target for the selected year to Ex
 <!-- Referenced links -->
 [1]: ../../dashboard/index.md
 [2]: ../../dashboard/dashboard-tiles-sales-targets.md
+[3]: ../key-functions/Freetext-search.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-mainmenu-small.png
+[img2]: ../media/salestarget-menu.png
+[img3]: ../media/salestarget-unlocked.png
+[img4]: ../media/salestarget-locked.png

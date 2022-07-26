@@ -13,7 +13,7 @@ language: en
 
 To link the sale to stakeholders:
 
-1. Go to the required sale in the **Sale** screen. (See [Use the Find screen](../key-functions/Find-dialog.md).)
+1. Go to the required sale in the **Sale** screen. (See [Use the Find screen][1].)
 
 2. Select the **Stakeholders** section tab.  
     <!-- Fix reuse ID=a1 -->
@@ -22,11 +22,11 @@ To link the sale to stakeholders:
 3. Click the **Add** button below the section tab. The **Add stakeholders** dialog opens.
 
     > [!NOTE]
-    > You can also add stakeholders via the section tabs containing contacts in the **Company** and **Selection** screens. See [Add project members and stakeholders from section tabs](../../project/Adding-project-members.md) for more information.
+    > You can also add stakeholders via the section tabs containing contacts in the **Company** and **Selection** screens. See [Add project members and stakeholders from section tabs][2] for more information.
 
     <!-- Fix reuse ID=a2 -->
 
-    ![icon](../media/Chap07-sale/chap7-add-stakeholders.bmp)
+    ![icon][img3]
 
 4. The active sale is displayed by default in the **Sale** field. You can select a different sale to add the stakeholder(s) to, if you want. You do this by clicking the arrow and selecting the required sale in the list box which appears, or by simply entering the name of the sale.
 
@@ -39,7 +39,7 @@ To link the sale to stakeholders:
 7. If you want to add contacts as stakeholders, select the contact(s) and click the bottom arrow button ( ![icon][img2] ). The contact(s) will then be displayed on the right of the dialog.
 
     > [!NOTE]
-    > If the required name is not in the list, you must first create the contact. See [Create new contacts](../../company/create-new-contacts.md).
+    > If the required name is not in the list, you must first create the contact. See [Create new contacts][3].
 
 8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.  
     A company/contact can be added as a stakeholder multiple times if different roles are specified in each case.
@@ -57,8 +57,11 @@ To link the sale to stakeholders:
     > You can select multiple companies and/or contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Sales role** field and **Comments** text box will apply to all the selected companies/contacts.
 
 <!-- Referenced links -->
-[1]:
+[1]: ../key-functions/Find-dialog.md
+[2]: ../../project/Adding-project-members.md
+[3]: ../../company/create-new-contacts.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
 [img2]: ../../../../media/icons/pil-hoeyre.bmp
+[img3]: ../media/Chap07-sale/chap7-add-stakeholders.bmp

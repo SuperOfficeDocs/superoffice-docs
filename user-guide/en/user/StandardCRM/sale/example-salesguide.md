@@ -30,7 +30,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
     1. In the sales guide, you click **Create** next to the **Customer meeting** follow-up.  
         The **Appointment** dialog opens, with **Meeting (External)** specified as the appointment type and the name of the sale and company prefilled.
-    2. Complete the information and invite participants. This is described under [The Dialog for follow-ups](../diary/Dialog-for-followups.md).
+    2. Complete the information and invite participants. This is described under [The Dialog for follow-ups][1].
     3. Click **Save**.
 
 2. For the sake of good order, you want to send an e-mail confirming the time and location of the meeting.  
@@ -73,7 +73,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 3. You now want to create the quotation for the company.  
     <!-- Fix reuse ID=a6 -->
 
-    Click **Create** next to the **Quotation** document and create the document. (See [Edit documents](../diary/Editing-documents.md)).
+    Click **Create** next to the **Quotation** document and create the document. (See [Edit documents][2]).
 
 ## D: The Signing of contract stage
 
@@ -120,4 +120,12 @@ You can now change the stage to **Sold**. Once all the required follow-ups and d
 
 ## Related topics
 
-[Work with sales guides](Working-with-sales-guide.md)
+* [Work with sales guides][3]
+
+<!-- Referenced links -->
+[1]: ../diary/Dialog-for-followups.md
+[2]: ../diary/Editing-documents.md
+[3]: Working-with-sales-guide.md
+
+<!-- Referenced images -->
+[img1]: media/

@@ -15,4 +15,10 @@ If you have sent a quote, and you want to edit it (for example, in response to a
 
 The original quote is archived and a new version of the quote is created with the status **Draft**. You can display previous versions of the quote using the **Version** list.
 
-See also [Send a quote](quote-send.md).
+See also [Send a quote][1].
+
+<!-- Referenced links -->
+[1]: quote-send.md
+
+<!-- Referenced images -->
+[img1]:

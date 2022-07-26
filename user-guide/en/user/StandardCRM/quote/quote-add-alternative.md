@@ -17,9 +17,9 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
 To create an alternative:
 
-1. Open an existing quote, or create a new one. See [Create a quote](quote-create.md).
+1. Open an existing quote, or create a new one. See [Create a quote][1].
 
-2. If you haven't already done so, add any products in the **Products** tab. See [Add products to a quote](quote-add-edit-product.md).
+2. If you haven't already done so, add any products in the **Products** tab. See [Add products to a quote][2].
 
 3. Click the **+** (plus sign) tab in the **Edit quote** dialog.
 
@@ -39,9 +39,9 @@ To create an alternative:
 
 ## Favourite alternative
 
-If you have created several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favourite ( ![icon](../media/quote-favorite-active.png)**Favourite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favourite alternative.
+If you have created several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favourite ( ![icon][img2]**Favourite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favourite alternative.
 
-If you want another alternative to be the favourite, select its tab, and click ![icon](../media/quote-favorite-inactive.png)**Favourite alternative** at the bottom.
+If you want another alternative to be the favourite, select its tab, and click ![icon][img3]**Favourite alternative** at the bottom.
 
 When sending the quote, you can select to only include the favourite alternative.
 
@@ -50,7 +50,10 @@ When sending the quote, you can select to only include the favourite alternative
 You can delete an alternative by selecting ![icon][img1] **Task &gt; Delete \[alternative\]** at the bottom of the tab.
 
 <!-- Referenced links -->
-[1]:
+[1]: quote-create.md
+[2]: quote-add-edit-product.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../media/quote-favorite-active.png
+[img3]: ../media/quote-favorite-inactive.png
