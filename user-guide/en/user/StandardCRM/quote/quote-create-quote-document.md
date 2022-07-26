@@ -28,23 +28,26 @@ Once you have created the quote and added the products you want, you can create 
 
 To do this:
 
-1. Open an existing quote, or create a new one. See [Create a quote](quote-create.md).
+1. Open an existing quote, or create a new one. See [Create a quote][1].
 2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab. The **Document** dialog opens.
-3. Complete the fields with the required information. See [The Document dialog](../../diary/document-dialog.md) for an explanation of what to enter here.
+3. Complete the fields with the required information. See [The Document dialog][2] for an explanation of what to enter here.
 4. Click the **Create** button to create a new document based on the selected document template.
 5. Type in the document content, and save and close it in the usual way in the program. The document is then displayed on the **Activities** section tab in the **Sale** screen (and in the **Company** and **Diary** screens).
 
 > [!TIP]
-> There is a list of the variables you can insert into documents you create. You can find the variables in [Template variables](../../diary/template-variables.md).
+> There is a list of the variables you can insert into documents you create. You can find the variables in [Template variables][3].
 
 ## See also
 
-[Send a quote](quote-send.md)
-
-[Place an order](quote-create-order.md)
+* [Send a quote][4]
+* [Place an order][5]
 
 <!-- Referenced links -->
-[1]:
+[1]: quote-create.md
+[2]: ../../diary/document-dialog.md
+[3]: ../../diary/template-variables.md
+[4]: quote-send.md
+[5]: quote-create-order.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

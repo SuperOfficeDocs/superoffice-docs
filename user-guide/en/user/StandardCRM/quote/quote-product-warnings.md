@@ -11,7 +11,7 @@ language: en
 
 # Deal with warnings and notices when adding products to a quote
 
-In SuperOffice Settings and maintenance, different rules can be defined for what is allowed and not allowed when you add products to a quote. Depending on how these rules are defined, various icons/warnings may be displayed when you add products to a quote. In some cases, the quote must be approved before sending (see [Approve quote before sending](quote-approve.md)).
+In SuperOffice Settings and maintenance, different rules can be defined for what is allowed and not allowed when you add products to a quote. Depending on how these rules are defined, various icons/warnings may be displayed when you add products to a quote. In some cases, the quote must be approved before sending (see [Approve quote before sending][1]).
 
 > [!NOTE]
 > Products are added to and saved in a quote even if warnings and other messages are displayed, but you cannot send the quote while it contains errors and warnings. You must either correct the error or get the quote approved.
@@ -34,3 +34,9 @@ Warnings and messages may be due to, for example:
 * Total price is zero or negative
 * Total discount is too high
 * Total earnings are too low
+
+<!-- Referenced links -->
+[1]: quote-approve.md
+
+<!-- Referenced images -->
+[img1]:

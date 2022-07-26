@@ -14,7 +14,7 @@ language: en
 1. Click **New** on the top bar and select **Sale**.  
     An empty sale card opens.
     <!-- Fix reuse ID=a2 -->
-    ![icon](../media/Chap07-sale/54-chap7-sale-new.bmp)
+    ![icon][img1]
 2. Type in the name of the sale in the field with a red underline. This field is mandatory.
 3. Enter the required information in the other fields.  
     <!-- Fix reuse ID=a3 -->
@@ -37,19 +37,19 @@ language: en
     9. Enter the sale type in the **Sale type** field. Click the arrow to display a list of available sale types. These are defined in SuperOffice Settings and maintenance.
 
         > [!NOTE]
-        > Some sale types are linked to a [sales guide](sales-guide.md). If you switch sale type, the associated sales guide also disappears. Any follow-ups and documents you have created in connection with the sales guide will remain on the **Activities** section tab in the diary. If you later switch back to the original sale type, the link between the follow-ups/documents and the sales guide is restored.
+        > Some sale types are linked to a [sales guide][1]. If you switch sale type, the associated sales guide also disappears. Any follow-ups and documents you have created in connection with the sales guide will remain on the **Activities** section tab in the diary. If you later switch back to the original sale type, the link between the follow-ups/documents and the sales guide is restored.
 
     10. In the **Stage** field, enter the sale's current stage:
-        * If the sale type for the sale does not have any stages linked to it, the sale has the status **Open**. If you click the arrow, you can set the sale to **Sold** and **Lost**. The fields below then change so you can enter the date, competitor and reason for the sold/lost sale. See [Stalled, sold and lost sales](Status-of-sale-sold-and-lost.md).
+        * If the sale type for the sale does not have any stages linked to it, the sale has the status **Open**. If you click the arrow, you can set the sale to **Sold** and **Lost**. The fields below then change so you can enter the date, competitor and reason for the sold/lost sale. See [Stalled, sold and lost sales][2].
 
-        * If the sale type for the sale does have stages linked to it, you can click the arrow to select a sale stage. A sale type with different sale stages can be linked to a sales guide and is predefined in SuperOffice Settings and maintenance. See [Sales guide](sales-guide.md).
+        * If the sale type for the sale does have stages linked to it, you can click the arrow to select a sale stage. A sale type with different sale stages can be linked to a sales guide and is predefined in SuperOffice Settings and maintenance. See [Sales guide][1].
 
             > [!NOTE]
             > When you change a stage, for example from **First meeting** to **Quotation**, the first stage in the **Sales guide** section tab is marked as completed, with a tick.
 
     11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. This is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
 
-    12. You can check the **Stalled** box to indicate that the sale has stalled. This might be the case if, say, the customer has decided to wait until next year before purchasing. See [Stalled, sold and lost sales](Status-of-sale-sold-and-lost.md).
+    12. You can check the **Stalled** box to indicate that the sale has stalled. This might be the case if, say, the customer has decided to wait until next year before purchasing. See [Stalled, sold and lost sales][2].
 
         > [!NOTE]
         > The fields below change if you have checked **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you have marked the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
@@ -70,6 +70,14 @@ language: en
 
 ## What would you like to do now?
 
-[Enter information in the Details tab](details-tab.md)
+* [Enter information in the Details tab][3]
+* [Enter information in the Links tab][4]
 
-[Enter information in the Links tab](CreateSale-LinksTab.md)
+<!-- Referenced links -->
+[1]: sales-guide.md
+[2]: Status-of-sale-sold-and-lost.md
+[3]: details-tab.md
+[4]: CreateSale-LinksTab.md
+
+<!-- Referenced images -->
+[img1]: ../media/Chap07-sale/54-chap7-sale-new.bmp

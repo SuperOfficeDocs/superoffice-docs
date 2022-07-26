@@ -19,8 +19,14 @@ On the main **Company**, **Contact** and **Project** cards, the **ERP** tab is d
 
 ## What would you like to do now?
 
-[Connect to ERP](ERP-connect.md)
+* [Connect to ERP][1]
+* [Create an actor in the ERP system][2]
+* [Disable synchronisation][3]
 
-[Create an actor in the ERP system](ERP-create-new-actor.md)
+<!-- Referenced links -->
+[1]: ERP-connect.md
+[2]: ERP-create-new-actor.md
+[3]: ERP-sync-disconnect.md
 
-[Disable synchronisation](ERP-sync-disconnect.md)
+<!-- Referenced images -->
+[img1]:

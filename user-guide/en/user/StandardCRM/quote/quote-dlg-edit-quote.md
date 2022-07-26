@@ -15,8 +15,8 @@ This is a description of the **Edit quote** dialog.
 
 ## The top section of the dialog
 
-* [Click to create quote document](quote-create-quote-document.md)
-* Message/warning (with <!-- Fix reuse ID=a1 -->): See [Deal with warnings and notices when adding products to a quote](quote-product-warnings.md).
+* [Click to create quote document][1]
+* Message/warning (with <!-- Fix reuse ID=a1 -->): See [Deal with warnings and notices when adding products to a quote][2].
 
     [!include[Table showing quote icons](../../includes/table-quote-icons.md)]
 
@@ -26,23 +26,23 @@ This is a description of the **Edit quote** dialog.
 
     [!include[Table showing quote states](../../includes/table-quote-states.md)]
 
-* **[Send](quote-send.md)**: Click this button to send the quote.
-* **[Place order](quote-create-order.md)**: Click this button to place the order.
+* **[Send][3]**: Click this button to send the quote.
+* **[Place order][4]**: Click this button to place the order.
 
 ## Products tab (and any alternatives)
 
 The products in the quote are displayed on this tab.
 
 > [!NOTE]
-> If the quote contains several alternatives, the favourite alternative is indicated with ![icon](../media/quote-favorite-active.png) next to the tab name.  
+> If the quote contains several alternatives, the favourite alternative is indicated with ![icon][img1] next to the tab name.
 If the alternative contains warnings or messages for one or more products, an <!-- Fix reuse ID=a3 --> is shown next to the tab name.
 
 | Icon | Explanation | Solution |
 |:-:|---|---|
-| ![icon](../media/Quote-Status-OK.png) | OK | - |
-| ![icon](../media/Quote-Status-OKWithInfo.png) | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
-| ![icon](../media/Quote-Status-NeedsApproval.png) | Warning: Needs Approval | The quote must be approved before it can be sent. See [Approve quote before sending](quote-approve.md). |
-| ![icon](../media/Quote-Status-Error.png) | Error | The error must be corrected before the quote can be sent. |
+| ![icon][img2] | OK | - |
+| ![icon][img3] | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
+| ![icon][img4] | Warning: Needs Approval | The quote must be approved before it can be sent. See [Approve quote before sending][5]. |
+| ![icon][img5] | Error | The error must be corrected before the quote can be sent. |
 
 A message is also displayed to explain the cause of the error.
 
@@ -52,11 +52,11 @@ A message is also displayed to explain the cause of the error.
 > Total discount must be enabled as an option in SuperOffice Settings and maintenance.
 
 * **Earnings/Total**: This shows the earnings and the total for the whole of the alternative.
-* **Add**: Click here to search for and add products. See [Add/edit a product in the quote](quote-add-edit-product.md).
-* Double-click a product to edit it. See [Add/edit a product in the quote](quote-add-edit-product.md).
+* **Add**: Click here to search for and add products. See [Add/edit a product in the quote][6].
+* Double-click a product to edit it. See [Add/edit a product in the quote][6].
 * **Delete**: Click here to delete the selected product(s).
-* **Export**: Click here to export the list to a spreadsheet. See [Export section tabs](../key-functions/Export-archives.md).
-* Sort: Use the arrow keys ( ![icon](../../../../media/icons/pil-opp.bmp) / ![icon](../../../../media/icons/pil-ned.bmp) ) to change the order of the products.
+* **Export**: Click here to export the list to a spreadsheet. See [Export section tabs][7].
+* Sort: Use the arrow keys ( ![icon][img6] / ![icon][img7] ) to change the order of the products.
 
 > [!TIP]
 > You can double-click the tabs to change the names of the alternatives in the quote.
@@ -72,3 +72,21 @@ Here you can select one or more attachments to append to the quote. The attachme
 The bottom section of the dialog
 
 **Update prices**: Click here to update the prices in the quote from the price list(s).
+
+<!-- Referenced links -->
+[1]: quote-create-quote-document.md
+[2]: quote-product-warnings.md
+[3]: quote-send.md
+[4]: quote-create-order.md
+[5]: quote-approve.md
+[6]: quote-add-edit-product.md
+[7]: ../key-functions/Export-archives.md
+
+<!-- Referenced images -->
+[img1]: ../media/quote-favorite-active.png
+[img2]: ../media/Quote-Status-OK.png
+[img3]: ../media/Quote-Status-OKWithInfo.png
+[img4]: ../media/Quote-Status-NeedsApproval.png
+[img5]: ../media/Quote-Status-Error.png
+[img6]: ../../../../media/icons/pil-opp.bmp
+[img7]: ../../../../media/icons/pil-ned.bmp

@@ -15,8 +15,18 @@ When you have registered a sale in SuperOffice CRM, it is quick and easy to crea
 
 The process of creating and sending a quote can be summed up as follows:
 
-1. Open a sale and create the quote. See [Create a quote](quote-create.md).
-2. Add products to the quote. See [Add/edit a product in the quote](quote-add-edit-product.md).
-3. Create the quote document. This will be the "letter" that accompanies the list of products that are being offered. See [Create a quote document](quote-create-quote-document.md).
-4. Send the quote. See [Send a quote](quote-send.md).
-5. When the customer accepts the quote, the order can be places. See [Place an order](quote-create-order.md).
+1. Open a sale and create the quote. See [Create a quote][1].
+2. Add products to the quote. See [Add/edit a product in the quote][2].
+3. Create the quote document. This will be the "letter" that accompanies the list of products that are being offered. See [Create a quote document][3].
+4. Send the quote. See [Send a quote][4].
+5. When the customer accepts the quote, the order can be places. See [Place an order][5].
+
+<!-- Referenced links -->
+[1]: quote-create.md
+[2]: quote-add-edit-product.md
+[3]: quote-create-quote-document.md
+[4]: quote-send.md
+[5]: quote-create-order.md
+
+<!-- Referenced images -->
+[img1]:

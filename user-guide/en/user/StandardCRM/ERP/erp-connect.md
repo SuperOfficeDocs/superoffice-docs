@@ -27,12 +27,12 @@ To do this:
     *Or* Project: Click **Project**.
     *Or* Contact: Click **Contact**.
     The **Connect to ERP** dialog opens.
-3. Enter text to search for in the search field and click **Search**. You can also click the search button ![icon](../../media/globalmenu-search.png) to initiate an advanced search (see [Use the Find screen](../key-functions/Find-dialog.md)).
+3. Enter text to search for in the search field and click **Search**. You can also click the search button ![icon][img1] to initiate an advanced search (see [Use the Find screen][1]).
 
 > [!TIP]
 > If you search with a blank search field, all records in the ERP system will be displayed.
 
-1. Select an item in the hitlist. If you don't get any hits, you can create a new "actor" in the ERP system based on data from SuperOffice CRM. See [Create an actor in the ERP system](ERP-create-new-actor.md).
+1. Select an item in the hitlist. If you don't get any hits, you can create a new "actor" in the ERP system based on data from SuperOffice CRM. See [Create an actor in the ERP system][2].
 2. Click **Connect**. A dialog appears showing the data that will be synchronised between SuperOffice CRM and the ERP system. What data is displayed here is defined in SuperOffice Settings and maintenance.
 3. If the data in the two systems are different, select the data that are correct.  
     For example: If the street addresses are different, select the correct one. The other data will be overwritten.
@@ -42,6 +42,13 @@ To do this:
 
 ## What would you like to do now?
 
-[Create an actor in the ERP system](ERP-create-new-actor.md)
+* [Create an actor in the ERP system][2]
+* [Disable synchronisation][3]
 
-[Disable synchronisation](ERP-sync-disconnect.md)
+<!-- Referenced links -->
+[1]: ../key-functions/Find-dialog.md
+[2]: ERP-create-new-actor.md
+[3]: ERP-sync-disconnect.md
+
+<!-- Referenced images -->
+[img1]: ../../media/globalmenu-search.png
