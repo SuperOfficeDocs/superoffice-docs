@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "category" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'category'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("category", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |3|Leverandør|||
 |9|MarketingItem 1|||
 |5|Tapt kunde|||
-
 
 ## Related MDO Lists
 

@@ -94,7 +94,6 @@ Example:
 * `{pcvu}` variable is used as the display name for the Pocket configuration URL.
 
 <!-- Referenced links -->
-[1]: ../../onsite/debug/web-client.md
 [2]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FAdding_items.htm
 [3]: https://www.apple.com/business/docs/iOS_Security_Guide.pdf
 [4]: https://source.android.com/security/encryption/full-disk

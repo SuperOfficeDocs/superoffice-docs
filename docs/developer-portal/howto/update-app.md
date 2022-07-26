@@ -39,4 +39,3 @@ When you release a new version of your application, your App Store listing can i
 
 <!-- Referenced links -->
 [1]: ../app-store/update-app-page.md
-[2]: ../../apps/publish/update-app-form.md

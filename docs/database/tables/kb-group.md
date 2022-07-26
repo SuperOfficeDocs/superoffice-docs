@@ -30,7 +30,6 @@ This table contains FAQ groups. A group is a cluster of entries (potentially loc
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 |parent\_id|The parent group for this group. -1 if this is a toplevel group.|FK [ej_category](ej-category.md)| |
 
-
 ![kb_group table relationship diagram](./media/kb_group.png)
 
 [!include[details](./includes/kb-group.md)]
@@ -56,7 +55,6 @@ This table contains FAQ groups. A group is a cluster of entries (potentially loc
 |[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
 |[kb\_group\_entry](kb-group-entry.md)  |This table contains group entries for FAQ groups. |
 
-
 ## Replication Flags
 
 * None
@@ -64,4 +62,3 @@ This table contains FAQ groups. A group is a cluster of entries (potentially loc
 ## Security Flags
 
 * No access control via user's Role.
-

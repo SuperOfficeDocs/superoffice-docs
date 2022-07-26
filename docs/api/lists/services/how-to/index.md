@@ -32,5 +32,4 @@ As the name implies, the `List` endpoint provides access to **all lists**. The L
 [7]: create-list-item.md
 [8]: delete-list-item.md
 
-
 <!-- Referenced images -->

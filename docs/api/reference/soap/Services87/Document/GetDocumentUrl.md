@@ -19,7 +19,6 @@ Get a URL referring to the given document content.&lt;para/&gt;This URL may be p
 
 **Returns:** Fully resolved URL referring to the document. May be NULL or blank if plugin does not support URLs.
 
-
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDocumentUrl Response
 
 ```xml
@@ -75,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

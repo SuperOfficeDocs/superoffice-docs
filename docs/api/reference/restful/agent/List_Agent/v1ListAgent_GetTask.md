@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetTask
 
 Gets a Task object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a Task object.
 POST /api/v1/Agents/List/GetTask?taskId=123
 POST /api/v1/Agents/List/GetTask?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetTask?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Type of an appointment
-
-
 
 Carrier object for Task.
 Services for the Task Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

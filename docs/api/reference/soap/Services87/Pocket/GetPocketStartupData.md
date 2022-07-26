@@ -11,13 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPocketAgent.GetPocketSta
 
 ## GetPocketStartupData
 
-
-
 * **tables:** Tables to check for license
 * **currentClientTime:** Current time on the client, used for overdue sale lookup having correct timezone relative to client
 
 **Returns:** Startup data for pocket
-
 
 [WSDL file for Services87/Pocket](../Services87-Pocket.md)
 
@@ -53,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetPocketStartupData Response
 
@@ -200,4 +196,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

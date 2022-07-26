@@ -35,7 +35,6 @@ Contains ticket types, used to drive processing logic together with ticket relat
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
-
 ![ticket_type table relationship diagram](./media/ticket_type.png)
 
 [!include[details](./includes/ticket-type.md)]
@@ -54,7 +53,6 @@ Contains ticket types, used to drive processing logic together with ticket relat
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_relation\_type](ticket-relation-type.md)  |Contains ticket relation types, used to drive processing logic together with ticket relations |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ Contains ticket types, used to drive processing logic together with ticket relat
 ## Security Flags
 
 * No access control via user's Role.
-

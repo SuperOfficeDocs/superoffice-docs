@@ -11,14 +11,15 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.Substitute
 
 ## SubstituteMergeDocumentTemplateVariables2
 
-Parse the source document, and replace any template variable tags with their values, based on the associate Id.&lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+Parse the source document, and replace any template variable tags with their values, based on the associate Id.
+
+The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
 
 * **documentId:** The document id that refers to the binary data (document)
 * **associateId:** The associateId used to subsitute tags in the document.
 * **customTags:** Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag.
 
 **Returns:** The document as a Stream
-
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -59,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SubstituteMergeDocumentTemplateVariables2 Response
 
 ```xml
@@ -80,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

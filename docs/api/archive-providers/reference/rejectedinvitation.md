@@ -25,11 +25,13 @@ A rejected invitation is one that has been rejected or deleted by you, and is no
 This is an optional entity and is fetched only if the user checks the corresponding box.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"rejected"|Show declined|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -578,7 +580,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

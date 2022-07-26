@@ -11,12 +11,6 @@ POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity
 
 Deletes the AudienceLayoutEntity
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes the AudienceLayoutEntity
 POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=356
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -36,9 +29,7 @@ POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=3
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

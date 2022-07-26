@@ -17,7 +17,6 @@ Method that logs off associates that are logged on to the win client
 
 **Returns:** A void return
 
-
 [WSDL file for Services84/Associate](../Services84-Associate.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## LogOffWindowsUsers Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

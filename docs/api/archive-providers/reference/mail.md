@@ -24,6 +24,7 @@ This subclass filter envelopes based on a provided string, only envelopes contai
 the string in either subject, sender, recipient or date are returned
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"companies"|Companies|
@@ -31,6 +32,7 @@ the string in either subject, sender, recipient or date are returned
 |"others"|Others|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |id| *None* |ID: ID of the e-mail|  |
@@ -56,7 +58,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

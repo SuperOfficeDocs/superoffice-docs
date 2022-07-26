@@ -6,9 +6,6 @@ title: Dashboard_Agent
 /api/v1/Dashboard/Agent
 ```
 
-
-
-
 * [POST Agents/Dashboard/CreateDefaultDashboard](v1DashboardAgent_CreateDefaultDashboard.md)
 
 * [POST Agents/Dashboard/SaveDashboard](v1DashboardAgent_SaveDashboard.md)

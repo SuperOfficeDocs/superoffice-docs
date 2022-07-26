@@ -13,10 +13,8 @@ Implemented by the <see cref="M:SuperOffice.Services87.IContactAgent.ChangeCount
 
 Change country regenerates the default values and localized information such as phone number and address format
 
-* **contactEntity:** 
+* **contactEntity:**
 * **toCountryId:** The country to switch to
-
-
 
 [WSDL file for Services87/Contact](../Services87-Contact.md)
 
@@ -379,7 +377,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## ChangeCountry Response
 
@@ -746,4 +743,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

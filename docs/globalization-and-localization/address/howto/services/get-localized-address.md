@@ -10,7 +10,7 @@ so.topic: howto
 # so.client:
 ---
 
-## Read the LocalizedAddress
+# Read the LocalizedAddress
 
 Reading the `LocalizedAddress` data structure is very straightforward. Simply loop over the `LocalizedField` lines and print out each field on each line.
 

@@ -31,7 +31,7 @@ Custom apps may only be used by a customer tenant who have the [Developer Tools 
 
 3. Choose the **Custom database mirror app** template. Click **Next**.
 
-4. Enter the name of your application. Use **Data mirroring for _Company name_** as the application name. Click **Next**.
+4. Enter the name of your application. Use **Data mirroring for *Company name*** as the application name. Click **Next**.
 
     [!include[Requirements for app name](includes/note-app-name.md)]
 

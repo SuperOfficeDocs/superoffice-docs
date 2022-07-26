@@ -13,10 +13,6 @@ Creates a new DashTileDefinition
 
 Calls the Dash agent service SaveDashTileDefinition.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Dash agent service SaveDashTileDefinition.
 ```http
 POST /api/v1/DashTileDefinition?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/DashTileDefinition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The DashTileDefinition to be saved. 
+The DashTileDefinition to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,12 +62,9 @@ The DashTileDefinition to be saved.
 | MeasureByField | string | Field to group by |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-
 ## Response: object
 
 Dashboard Tile definition
-
-
 
 DashTileDefinition entity with API _Links added.
 

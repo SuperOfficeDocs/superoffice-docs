@@ -6,9 +6,6 @@ title: List_UserGroup
 /api/v1/List/UserGroup
 ```
 
-
-
-
 * [GET List/UserGroup](v1UserGroupList_GetListDefinition.md)
 
 * [PUT List/UserGroup](v1UserGroupList_SetListDefinition.md)

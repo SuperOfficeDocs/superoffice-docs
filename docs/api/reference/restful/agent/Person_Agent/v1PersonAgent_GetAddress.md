@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/GetAddress
 
 Gets the person's localized address.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets the person's localized address.
 ```http
 POST /api/v1/Agents/Person/GetAddress?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Person/GetAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId 
+PersonId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-
 ## Response: object
 
 Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
-
-
 
 Carrier object for Address.
 

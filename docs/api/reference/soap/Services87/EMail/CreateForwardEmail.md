@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.CreateForward
 ## CreateForwardEmail
 
 Create forward email
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **email:** The e-mail to forward
 
 **Returns:** The new forward email entity
-
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -205,7 +204,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateForwardEmail Response
 
 ```xml
@@ -380,4 +378,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -30,7 +30,6 @@ Not quite obsolete preference table; historical info mostly. From 6.1 this table
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![preference table relationship diagram](./media/preference.png)
 
 [!include[details](./includes/preference.md)]
@@ -48,7 +47,6 @@ Not quite obsolete preference table; historical info mostly. From 6.1 this table
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -58,4 +56,3 @@ Not quite obsolete preference table; historical info mostly. From 6.1 this table
 ## Security Flags
 
 * No access control via user's Role.
-

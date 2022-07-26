@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.CreateDef
 Loading default values into a new MailMergeSettings.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New MailMergeSettings with default values
-
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultMailMergeSettings Response
 
@@ -108,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

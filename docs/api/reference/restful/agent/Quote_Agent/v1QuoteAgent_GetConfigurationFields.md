@@ -13,10 +13,6 @@ Used by ADMIN.
 
 Asks for metadata needed to populate admin dialog that takes in the information needed to create a connection to an ERP system. The values entered in the dialog are stored in SuperOffice db and used when InitializeConnector is called by the client.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Asks for metadata needed to populate admin dialog that takes in the information 
 ```http
 POST /api/v1/Agents/Quote/GetConfigurationFields?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Quote/GetConfigurationFields?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ConnectionId, ConnectorName 
+ConnectionId, ConnectorName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionId | int32 |  |
 | ConnectorName | string |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

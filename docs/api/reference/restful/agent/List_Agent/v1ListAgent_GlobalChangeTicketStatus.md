@@ -13,10 +13,6 @@ This method will change all references from one ticket status to another.
 
 Typically used in conjuction with delete
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ Typically used in conjuction with delete
 POST /api/v1/Agents/List/GlobalChangeTicketStatus?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +32,16 @@ POST /api/v1/Agents/List/GlobalChangeTicketStatus?$select=name,department,catego
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FromTicketStatusId, ToTicketStatusId 
+FromTicketStatusId, ToTicketStatusId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromTicketStatusId | int32 |  |
 | ToTicketStatusId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx
 
 Parse the source string, and replace any template variable tags with their values, based on the identities, custom values and entities specified in the other parameters.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Parse the source string, and replace any template variable tags with their value
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Parameters 
+Parameters
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Parameters |  | Parameters specifying source and properties for template variable substitution. <para /> Carrier object for TemplateVariablesParameters. Services for the TemplateVariablesParameters Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>. |
-
+| Parameters |  | Parameters specifying source and properties for template variable substitution. <br /> Carrier object for TemplateVariablesParameters. Services for the TemplateVariablesParameters Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>. |
 
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

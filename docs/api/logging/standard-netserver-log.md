@@ -47,5 +47,4 @@ Remove the following if you don't want logging to file:
 * SuperOffice.Logging.dll
 
 <!-- Referenced links-->
-[1]: https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger
 [2]: ../config/diagnostics.md

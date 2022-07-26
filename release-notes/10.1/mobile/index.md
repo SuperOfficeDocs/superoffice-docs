@@ -15,4 +15,4 @@ so.topic: reference
 * [Notifications – Request notifications (10.1.9)][9]
 
 <!-- Referenced links-->
-[1]: 10.1.9-update.md
+[9]: 10.1.9-update.md

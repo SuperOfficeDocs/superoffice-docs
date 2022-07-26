@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.CreateD
 Loading default values into a new SuggestedAppointmentEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New SuggestedAppointmentEntity with default values
-
 
 [WSDL file for Services84/Appointment](../Services84-Appointment.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultSuggestedAppointmentEntity Response
 
@@ -106,4 +103,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

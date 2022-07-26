@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
 > **Companies** are in code and database references called *contact*. Use the context to determine whether *contact* denotes a real-life company or person.
 >

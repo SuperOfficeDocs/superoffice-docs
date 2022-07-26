@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.RefreshFolder
 ## RefreshFolder
 
 Refresh the given folders - i.e., fetch data from the mail server and update the in-database cache. This may happen synchronously or as a batch task, the return value will be 0 if the processing was synchronous, or the batch task id if a batch task is used.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** Email connection info credentials
 * **folders:** List of folder names to refresh
 
 **Returns:** Batch task id, or 0 if the processing was synchronous
-
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RefreshFolder Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

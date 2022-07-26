@@ -52,7 +52,7 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 
     ![LinqPad References][img3]
 
-5. Go to Additional Namespace Imports and paste in these lines:  
+5. Go to Additional Namespace Imports and paste in these lines:
 
     ```csharp
     Newtonsoft.Json 
@@ -135,5 +135,4 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 [img4]: media/linqpadmissingtablesexample.png
 [img5]: media/linqpadnomissingtables.png
 [img6]: media/linqpadrun.png
-[img7]: media/mig-proc-duplicate.jpg
 [img8]: media/sequencedictionary.png

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
 > Registry propagation does not work for Office 2013 in SuperOffice versions below 7.5.
 

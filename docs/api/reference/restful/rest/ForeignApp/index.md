@@ -6,9 +6,6 @@ title: ForeignApp
 /api/v1/ForeignApp
 ```
 
-
-
-
 * [PUT ForeignApp/{appName}](v1ForeignAppEntity_PostForeignApp_PUT.md)
 
 * [POST ForeignApp/{appName}](v1ForeignAppEntity_PostForeignApp.md)

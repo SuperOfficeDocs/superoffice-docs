@@ -19,4 +19,3 @@ Download [WSDL file for Services85/Relation](../Services85-Relation.md) if you n
 * [DeleteContactRelation](DeleteContactRelation.md)
 * [GetContactRelationEntity](GetContactRelationEntity.md)
 * [SaveContactRelation](SaveContactRelation.md)
-

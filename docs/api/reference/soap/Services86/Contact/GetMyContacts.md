@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.GetMyContac
 
 Getting the contacts where the user currently logged in is set as contact owner.
 
-
 **Returns:** Array of contacts
-
 
 [WSDL file for Services86/Contact](../Services86-Contact.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyContacts Response
 
@@ -129,4 +126,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

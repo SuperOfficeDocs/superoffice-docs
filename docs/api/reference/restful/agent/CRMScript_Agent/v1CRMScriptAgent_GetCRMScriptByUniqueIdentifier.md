@@ -11,13 +11,7 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 
 Get information about a script from a unique identifier
 
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get information about a script from a unique identifier
 ```http
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,20 +37,17 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UniqueIdentifier 
+UniqueIdentifier
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
 
-
 ## Response: object
 
 The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
-
-
 
 Carrier object for Script.
 Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.

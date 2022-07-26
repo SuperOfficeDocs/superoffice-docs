@@ -4,7 +4,7 @@ title: Messages
 description: How to Create and update messages; use a reply template; get message info
 author: Bergfrid Skaara Dias
 so.date: 11.02.2021
-keywords: CRMSCript, Service, ticket, request, message
+keywords: CRMScript, Service, ticket, request, message
 so.topic: howto
 ---
 

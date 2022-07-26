@@ -17,7 +17,6 @@ Gets a named list from the connector Return array of QuoteListItems. Return NULL
 
 **Returns:** The list items
 
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetQuoteList Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

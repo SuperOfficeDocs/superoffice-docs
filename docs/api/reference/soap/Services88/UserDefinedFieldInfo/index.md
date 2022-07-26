@@ -47,4 +47,3 @@ Download [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefin
 * [SetPublishStartSystemEvent](SetPublishStartSystemEvent.md)
 * [SetRankOnFields](SetRankOnFields.md)
 * [SetUserDefinedPageOneField](SetUserDefinedPageOneField.md)
-

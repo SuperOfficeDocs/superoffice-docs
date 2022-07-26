@@ -1,8 +1,7 @@
-```php
 if($_GET['systemUser'] == 1) {
    //use system user to create a contactEntity
 
-   //exchange system user token for a JWT/SAML token – contains system user ticket
+   //exchange system user token for a JWT/SAML token contains system user ticket
    $returnedToken = SystemUserHelper::GetSystemUserToken(ENABLE_SAML ? "Saml":"Jwt");
 
    //validate the returned token using SuperOffice public certificates
@@ -29,4 +28,3 @@ if($_GET['systemUser'] == 1) {
    $id = $contact['ContactId'];
    header("Location: contactEntity.php?contactEntityId=$id");
 }
-```

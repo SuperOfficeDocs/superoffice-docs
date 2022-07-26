@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/SaveQuoteLine
 
 Saves the QuoteLine in the SuperOffice database
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Saves the QuoteLine in the SuperOffice database
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLine?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Quote/SaveQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteLine 
+QuoteLine
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
-
+| QuoteLine |  | Information about a connection to the ERP system. <br /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
 ## Response: object
 
 Information about a connection to the ERP system.
-
-
 
 Carrier object for QuoteLine.
 Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

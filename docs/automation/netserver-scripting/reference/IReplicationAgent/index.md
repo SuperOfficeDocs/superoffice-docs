@@ -24,4 +24,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IReplicationAge
 * [SaveCentralLicense](savecentrallicense.md)
 * [SaveSatellite](savesatellite.md)
 * [SetFreetextSearchEnabledOnArea](setfreetextsearchenabledonarea.md)
-

@@ -6,9 +6,6 @@ title: Sale_Agent
 /api/v1/Sale/Agent
 ```
 
-
-
-
 * [POST Agents/Sale/GetSaleStakeholder](v1SaleAgent_GetSaleStakeholder.md)
 
 * [POST Agents/Sale/GetSaleStakeholderList](v1SaleAgent_GetSaleStakeholderList.md)

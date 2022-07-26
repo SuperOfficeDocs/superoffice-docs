@@ -26,7 +26,6 @@ Who and when, if somebody edits a knowledge base folder
 |user\_id|The id of the user that created this comment.|FK [ejuser](ejuser.md)| |
 |log\_when|When the action occured.|DateTime|&#x25CF;|
 
-
 ![kb_category_log table relationship diagram](./media/kb_category_log.png)
 
 [!include[details](./includes/kb-category-log.md)]
@@ -46,7 +45,6 @@ Who and when, if somebody edits a knowledge base folder
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
 
-
 ## Replication Flags
 
 * None
@@ -54,4 +52,3 @@ Who and when, if somebody edits a knowledge base folder
 ## Security Flags
 
 * No access control via user's Role.
-

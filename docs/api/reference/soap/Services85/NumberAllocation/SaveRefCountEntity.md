@@ -17,7 +17,6 @@ Updates the existing RefCountEntity or creates a new RefCountEntity if the id pa
 
 **Returns:** New or updated RefCountEntity
 
-
 [WSDL file for Services85/NumberAllocation](../Services85-NumberAllocation.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -92,7 +91,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SaveRefCountEntity Response
 
@@ -170,4 +168,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

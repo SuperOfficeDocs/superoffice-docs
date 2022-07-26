@@ -10,7 +10,7 @@ so.envir: cloud
 so.client: online
 ---
 
-
+<!-- markdownlint-disable-file MD033 -->
 # Appointment table
 
 Appointment fields. Key constants are in `BulkUpdateSystem.AppointmentFieldValueKeys`.

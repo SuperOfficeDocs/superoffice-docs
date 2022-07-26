@@ -33,7 +33,6 @@ The `RootItems` are defined by the records in the `category` table only if the M
 <!-- Referenced links -->
 [1]: ../../../api/lists/entity/typed-list.md
 [2]: ../../category-list.md
-[3]: ../../../database/tables/history.md
 [4]: ../../../database/tables/category.md
 [5]: ../../../database/tables/heading.md
 

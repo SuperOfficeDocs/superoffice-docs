@@ -32,7 +32,6 @@ This table contains actions for the tickets.
 |description|Action description, only used by customer actions like ejscript|String(255)| |
 |details|Field for storing details of the log action as e.g. JSON|Clob|&#x25CF;|
 
-
 ![ticket_log_action table relationship diagram](./media/ticket_log_action.png)
 
 [!include[details](./includes/ticket-log-action.md)]
@@ -58,7 +57,6 @@ This table contains actions for the tickets.
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
 
-
 ## Replication Flags
 
 * None
@@ -66,4 +64,3 @@ This table contains actions for the tickets.
 ## Security Flags
 
 * No access control via user's Role.
-

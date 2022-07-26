@@ -22,7 +22,7 @@ The ID is the table ID + 10 (the first 10 tables are used for storing the dictio
 
 The `contact` table is table number 5, so the next available `contact_id` is the row with ID = 15.
 
-If you are adding your own records to the database, you must update the sequence table as well, otherwise, Superoffice will trample your records.
+If you are adding your own records to the database, you must update the sequence table as well, otherwise, SuperOffice will trample your records.
 
 ## Number ranges
 

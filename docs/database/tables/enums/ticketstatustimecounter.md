@@ -14,7 +14,7 @@ so.envir:
 
 # TicketStatusTimeCounter Enum
 
-Which field in ticket we count time spent on (queue, internal, external) 
+Which field in ticket we count time spent on (queue, internal, external)
 
 | Name | Value | Description |
 |------|-------|-------------|

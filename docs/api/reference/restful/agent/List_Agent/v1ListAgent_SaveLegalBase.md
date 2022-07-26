@@ -9,14 +9,6 @@ id: v1ListAgent_SaveLegalBase
 POST /api/v1/Agents/List/SaveLegalBase
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/List/SaveLegalBase
 ```http
 POST /api/v1/Agents/List/SaveLegalBase?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +33,13 @@ POST /api/v1/Agents/List/SaveLegalBase?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-LegalBase 
+LegalBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LegalBase |  | Carrier object for LegalBase. Services for the LegalBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
-
 
 ## Response: object
 

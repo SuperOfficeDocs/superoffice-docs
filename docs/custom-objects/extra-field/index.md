@@ -130,5 +130,6 @@ To make the field visible to others than yourself, you'll need to create a profi
 All users who have this role will now be able to see the extra field in the **Details** tab in all their requests.
 
 <!-- Referenced links -->
+[4]: ../../database/tables/ticket.md
 [6]: ../extra-table/index.md
 [7]: ../../database/tables/extra-fields.md

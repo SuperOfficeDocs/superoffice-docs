@@ -13,15 +13,10 @@ Check if consent has been given by a specified person, for a specific purpose.
 
 Withdraw consents return FALSE.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id **Required** |
 | purpose | string | The key of the purpose to check. (e.g. 'STORE' or 'EMARKETING') **Required** |
-
-
 
 ## Request Headers
 
@@ -36,17 +31,13 @@ Withdraw consents return FALSE.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

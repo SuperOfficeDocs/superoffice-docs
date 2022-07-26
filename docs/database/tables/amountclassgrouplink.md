@@ -30,7 +30,6 @@ User group link table for AmountClass, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![AmountClassGroupLink table relationship diagram](./media/AmountClassGroupLink.png)
 
 [!include[details](./includes/amountclassgrouplink.md)]
@@ -47,10 +46,9 @@ User group link table for AmountClass, for MDO item hiding
 
 | Table|  Description |
 |------|-------------|
-|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[UserGroup](usergroup.md)  |Secondary user groups |
-
 
 ## Replication Flags
 
@@ -61,4 +59,3 @@ User group link table for AmountClass, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

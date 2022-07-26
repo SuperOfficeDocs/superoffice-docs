@@ -13,14 +13,9 @@ Deletes the SelectionEntity
 
 Calls the Selection agent service DeleteSelectionEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SelectionEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -30,9 +25,7 @@ Calls the Selection agent service DeleteSelectionEntity.
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -33,7 +33,6 @@ Tray application presence. SuperOffice CRM web extensions.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![TrayApp table relationship diagram](./media/TrayApp.png)
 
 [!include[details](./includes/trayapp.md)]
@@ -52,12 +51,8 @@ Tray application presence. SuperOffice CRM web extensions.
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
 
 ## Security Flags
-
-* No access control via user's Role.
-

@@ -6,9 +6,6 @@ title: Pocket_Agent
 /api/v1/Pocket/Agent
 ```
 
-
-
-
 * [POST Agents/Pocket/GetPocketStartupData](v1PocketAgent_GetPocketStartupData.md)
 
 * [POST Agents/Pocket/RegisterDeviceForPushNotification](v1PocketAgent_RegisterDeviceForPushNotification.md)

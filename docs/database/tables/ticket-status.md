@@ -29,7 +29,6 @@ This table user defined ticket status values.
 |deleted|Whether the status is deleted (unavailable) or not|Bool|&#x25CF;|
 |no\_email\_reopen|Whether inbound emails can reopen requests with this status or not|Bool|&#x25CF;|
 
-
 ![ticket_status table relationship diagram](./media/ticket_status.png)
 
 [!include[details](./includes/ticket-status.md)]
@@ -50,7 +49,6 @@ This table user defined ticket status values.
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ This table user defined ticket status values.
 ## Security Flags
 
 * No access control via user's Role.
-

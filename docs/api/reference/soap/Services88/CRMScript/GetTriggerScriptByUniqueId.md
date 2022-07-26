@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.GetTrigge
 ## GetTriggerScriptByUniqueId
 
 Get a trigger CRMScript.
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **triggerScriptUniqueId:** The unique id of the CRMScript to validate
 
 **Returns:** Trigger script details and source code.
-
 
 [WSDL file for Services88/CRMScript](../Services88-CRMScript.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetTriggerScriptByUniqueId Response
 
 ```xml
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

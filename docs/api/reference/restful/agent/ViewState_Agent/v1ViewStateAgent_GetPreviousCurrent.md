@@ -13,10 +13,6 @@ Returns the previous current item.
 
 If no item exists a default value is returned. This is usually the first item in the table representing the history list.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ If no item exists a default value is returned. This is usually the first item in
 ```http
 POST /api/v1/Agents/ViewState/GetPreviousCurrent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/ViewState/GetPreviousCurrent?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-HistoryName, Id 
+HistoryName, Id
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 | Id | int32 |  |
 
-
 ## Response: object
 
 The usage history of the currently logged in user is represented as History objects.
-
-
 
 Carrier object for History.
 Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>.

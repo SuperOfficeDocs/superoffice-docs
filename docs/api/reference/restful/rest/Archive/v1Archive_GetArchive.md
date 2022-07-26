@@ -13,11 +13,6 @@ Returns list of archive providers supported by the OData endpoint at api/Service
 
 Use the "$metadata" archive to get a list of all columns supported by the archive providers in XML format.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,17 +26,13 @@ Use the "$metadata" archive to get a list of all columns supported by the archiv
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample Request
 

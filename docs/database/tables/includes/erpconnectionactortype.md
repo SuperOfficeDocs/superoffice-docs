@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 Actor type within the ERP system, related but not identitcal to SuperOffice Entity type
 
 This enumeration is used in: ErpConnectionActorType.ActorTypeErp; ErpExternalKey.ActorType

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetMyPu
 
 Get published appointments from the logged in user.
 
-
 **Returns:** Appointments
-
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyPublishedAppointments Response
 
@@ -119,4 +116,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

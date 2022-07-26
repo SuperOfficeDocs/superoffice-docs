@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand
 
 Execute a custom command on a particular document, optionally a particular version
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Execute a custom command on a particular document, optionally a particular versi
 ```http
 POST /api/v1/Agents/Document/ExecuteDocumentCommand?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData 
+DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +47,7 @@ DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData
 | Command | string |  |
 | AdditionalData | array |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

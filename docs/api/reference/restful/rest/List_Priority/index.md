@@ -6,9 +6,6 @@ title: List_Priority
 /api/v1/List/Priority
 ```
 
-
-
-
 * [GET List/Priority](v1PriorityList_GetListDefinition.md)
 
 * [PUT List/Priority](v1PriorityList_SetListDefinition.md)

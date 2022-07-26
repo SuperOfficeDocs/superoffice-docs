@@ -11,11 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.AddOwnerContac
 
 ## AddOwnerContact
 
-
-
 * **contactId:** Id of the contact to add as a owner contact
-
-
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddOwnerContact Response
 
 ```xml
@@ -69,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

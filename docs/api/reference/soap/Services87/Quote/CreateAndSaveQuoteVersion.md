@@ -17,7 +17,6 @@ Created a new QuoteVersion based on another QuoteVersion on the same Quote.
 
 **Returns:** The Quote version
 
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateAndSaveQuoteVersion Response
 
@@ -135,4 +133,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

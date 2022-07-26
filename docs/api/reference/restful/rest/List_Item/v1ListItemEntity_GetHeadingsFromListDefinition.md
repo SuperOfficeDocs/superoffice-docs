@@ -11,16 +11,9 @@ GET /api/v1/List/{id}/Headings
 
 Gets headings for list resolved by the provided id.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the list to look up. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Gets headings for list resolved by the provided id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

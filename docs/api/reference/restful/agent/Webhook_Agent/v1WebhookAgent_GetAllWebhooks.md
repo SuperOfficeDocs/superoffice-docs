@@ -11,13 +11,7 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks
 
 Returns all webhooks, according to filter criteria
 
-
-
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Returns all webhooks, according to filter criteria
 ```http
 POST /api/v1/Agents/Webhook/GetAllWebhooks?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-NameFilter, EventFilter, StatusFilter 
+NameFilter, EventFilter, StatusFilter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +47,7 @@ NameFilter, EventFilter, StatusFilter
 | EventFilter | string |  |
 | StatusFilter | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

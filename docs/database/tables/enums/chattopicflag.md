@@ -16,7 +16,6 @@ so.envir:
 
 Flags for this topic: show popup alert?, collect consent first?, use custom message?
 
-
 ## Usage
 
 * [chat_topic](../chat-topic.md).flags - This table contains chat topics.

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetInUseQuote
 
 Returns the configuration fields that should be visible in the GUI.
 
-
 **Returns:** Array of QuoteLineConfigurations
-
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetInUseQuoteLineConfigurations Response
 
@@ -81,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/SetPersonImage
 
 Stores the person image that is displayed in the CRM application.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Stores the person image that is displayed in the CRM application.
 POST /api/v1/Agents/Person/SetPersonImage?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Person/SetPersonImage?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, Image 
+PersonId, Image
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Image | byte |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,13 +13,9 @@ Gets a PriceList object.
 
 Calls the Quote agent service GetPriceList.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PriceList to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the Quote agent service GetPriceList.
 ```http
 GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +40,9 @@ GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
-
-
 
 PriceList entity with API _Links added.
 

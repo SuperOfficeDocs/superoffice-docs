@@ -56,7 +56,6 @@ The second control group determines where the interest data should be shown on t
 ![04][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image004.jpg

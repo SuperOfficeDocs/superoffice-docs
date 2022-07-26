@@ -13,7 +13,7 @@ so.client: online
 
 Centralized deployment can be performed either via Microsoft 365 Admin GUI or via PowerShell.
 
-The Centralized Deployment service lets you deploy ‎Office‎ Web add-ins to users of ‎Excel‎, ‎Outlook‎, ‎PowerPoint‎, and ‎Word‎.
+The Centralized Deployment service lets you deploy Office Web add-ins to users of Excel, Outlook, PowerPoint, and Word.
 
 > [!TIP]
 > Deploy for a single user instead? [Go to guide][2].

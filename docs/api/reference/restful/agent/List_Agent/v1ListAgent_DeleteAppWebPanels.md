@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/DeleteAppWebPanels
 
 Permanentely delete all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken; otherwise nothing happens
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Permanentely delete all web panels owned by your app; works in Online only, for 
 POST /api/v1/Agents/List/DeleteAppWebPanels?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -36,9 +29,7 @@ POST /api/v1/Agents/List/DeleteAppWebPanels?$select=name,department,category/id
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

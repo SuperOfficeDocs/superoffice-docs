@@ -11,16 +11,9 @@ GET /api/v1/Person/{id}/ForeignKey
 
 Foreign keys on the PersonEntity.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | PersonEntity id/primary key. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Foreign keys on the PersonEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|
@@ -46,7 +36,6 @@ Foreign keys on the PersonEntity.
 | 404 | Not Found. |
 
 Response body: object
-
 
 ## Sample Request
 

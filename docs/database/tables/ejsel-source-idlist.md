@@ -24,7 +24,6 @@ This table stores id list source for selections
 |id|Primary key|PK| |
 |name|The name of this id list|String(255)|&#x25CF;|
 
-
 ![ejsel_source_idlist table relationship diagram](./media/ejsel_source_idlist.png)
 
 [!include[details](./includes/ejsel-source-idlist.md)]
@@ -42,4 +41,3 @@ This table stores id list source for selections
 ## Security Flags
 
 * No access control via user's Role.
-

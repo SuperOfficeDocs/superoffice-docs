@@ -6,9 +6,6 @@ title: Script
 /api/v1/Script
 ```
 
-
-
-
 * [GET Script](v1Script_GetAll.md)
 
 * [GET Script/{uniqueIdentifier}](v1Script_GetCRMScriptByUniqueIdentifier.md)

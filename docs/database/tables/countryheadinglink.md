@@ -30,7 +30,6 @@ Heading link table for Country, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![CountryHeadingLink table relationship diagram](./media/CountryHeadingLink.png)
 
 [!include[details](./includes/countryheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for Country, for MDO headers
 |[country](country.md)  |Country information |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for Country, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

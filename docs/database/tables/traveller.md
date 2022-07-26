@@ -40,7 +40,6 @@ Associates traveling out from this database
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![traveller table relationship diagram](./media/traveller.png)
 
 [!include[details](./includes/traveller.md)]
@@ -59,7 +58,6 @@ Associates traveling out from this database
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[traveltransactionlog](traveltransactionlog.md)  |Log of all updates made to the database, that need to be replicated. |
 
-
 ## Replication Flags
 
 * None
@@ -67,4 +65,3 @@ Associates traveling out from this database
 ## Security Flags
 
 * No access control via user's Role.
-

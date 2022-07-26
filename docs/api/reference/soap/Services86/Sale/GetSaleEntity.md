@@ -17,7 +17,6 @@ Gets a SaleEntity object.
 
 **Returns:** SaleEntity
 
-
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSaleEntity Response
 
@@ -401,4 +399,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

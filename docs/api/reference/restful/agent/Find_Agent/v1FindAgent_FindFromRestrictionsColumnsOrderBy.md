@@ -13,10 +13,6 @@ Execute a Find operation and return a page of results.
 
 &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Execute a Find operation and return a page of results.
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber 
+Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,12 +50,9 @@ Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-
 ## Response: object
 
 Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
-
-
 
 Carrier object for FindResults.
 Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.

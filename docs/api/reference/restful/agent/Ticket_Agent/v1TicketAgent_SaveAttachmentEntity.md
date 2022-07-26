@@ -11,13 +11,6 @@ POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 
 Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing AttachmentEntity or creates a new AttachmentEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The AttachmentEntity to be saved. 
+The AttachmentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,12 +38,9 @@ The AttachmentEntity to be saved.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 
-
 ## Response: object
 
 The Attachment carrier represent meta data for a Service attachment
-
-
 
 Carrier object for AttachmentEntity.
 Services for the AttachmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.

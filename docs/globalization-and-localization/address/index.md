@@ -148,6 +148,7 @@ For example, the address format of Norway defines 4 lines total. The first and t
 
 France, however, has 3 lines total, with the first and second lines containing just one field element and the third line containing two field elements.
 
+<!-- markdownlint-disable MD051 -->
 ### [NetServer Core](#tab/fieldarray-1)
 
 ![Field array elements][img4]
@@ -161,6 +162,7 @@ France, however, has 3 lines total, with the first and second lines containing j
 ![Field array elements][img7]
 
 ***
+<!-- markdownlint-restore -->
 
 It is important to understand that some company addresses contain only a postal address while others contain both a postal and street address.
 

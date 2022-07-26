@@ -64,7 +64,6 @@ The authorization process will grant rights to an app registered with Microsoft 
 **Step 4** is needed for enabling your SuperOffice tenant to store templates and documents in SharePoint.
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
 [2]: ../../../identity-management/overview.md
 [3]: ../overview.md
 

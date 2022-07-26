@@ -17,7 +17,6 @@ Updates the existing SaintConfiguration or creates a new SaintConfiguration if t
 
 **Returns:** New or updated SaintConfiguration
 
-
 [WSDL file for Services87/Saint](../Services87-Saint.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveSaintConfiguration Response
 
 ```xml
@@ -89,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

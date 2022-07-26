@@ -11,16 +11,10 @@ GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 
 Gets a selectable MDO list of the headings for this list item
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Gets a selectable MDO list of the headings for this list item
 ```http
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
-
 
 ## Request Headers
 
@@ -46,10 +39,7 @@ GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=Tr
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

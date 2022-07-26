@@ -34,7 +34,6 @@ System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcast
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SystemEvent table relationship diagram](./media/SystemEvent.png)
 
 [!include[details](./includes/systemevent.md)]
@@ -52,7 +51,6 @@ System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcast
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcast
 ## Security Flags
 
 * No access control via user's Role.
-

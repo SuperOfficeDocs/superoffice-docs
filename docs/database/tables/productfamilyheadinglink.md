@@ -30,7 +30,6 @@ Heading link table for ProductFamily, for MDO item headings
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ProductFamilyHeadingLink table relationship diagram](./media/ProductFamilyHeadingLink.png)
 
 [!include[details](./includes/productfamilyheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for ProductFamily, for MDO item headings
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[ProductFamily](productfamily.md)  |List for the ProductFamily field of the Product table (Quote Management) |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for ProductFamily, for MDO item headings
 ## Security Flags
 
 * No access control via user's Role.
-

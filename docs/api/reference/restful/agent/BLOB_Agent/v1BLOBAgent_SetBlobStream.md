@@ -11,12 +11,6 @@ POST /api/v1/Agents/BLOB/SetBlobStream
 
 Store a binary object from it's stream
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Store a binary object from it's stream
 POST /api/v1/Agents/BLOB/SetBlobStream?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/BLOB/SetBlobStream?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-BlobEntityId, Stream 
+BlobEntityId, Stream
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | BlobEntityId | int32 |  |
 | Stream | byte |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -27,22 +27,14 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
-
-
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
-
-
 Calls the {SuperOffice.CRM.Services.ISaleAgent} service SaveSaleEntity.
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleEntity  id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -53,7 +45,6 @@ Calls the {SuperOffice.CRM.Services.ISaleAgent} service SaveSaleEntity.
 ```http
 PATCH /api/v1/Sale/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -69,9 +60,9 @@ PATCH /api/v1/Sale/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,12 +70,9 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-
 ## Response: object
 
 The Sale Entity contains the sale amount, currency, and sale members. Sales are linked to contacts, persons, and/or projects.
-
-
 
 SaleEntity entity with API _Links added.
 
@@ -99,20 +87,20 @@ Response body: object
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment |  | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
-| Associate |  | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
+| Appointment |  | Simple read-only appointment data. <br /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
+| Associate |  | The sale owner  <br />Use MDO List name "associate" to get list items. |
 | UpdatedBy |  | Who updated the sale |
 | CreatedBy |  | Who created to sale |
-| Contact |  | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project |  | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Contact |  | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <br />Use MDO List name "contact" to get list items. |
+| Project |  | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <br />Use MDO List name "project" to get list items. |
 | SaleText | string | Text describing the sale |
-| Person |  | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Currency |  | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
-| Competitor |  | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
-| Credited |  | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
-| Rating |  | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
-| Reason |  | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
-| Source |  | The sale source  <para>Use MDO List name "source" to get list items.</para> |
+| Person |  | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <br />Use MDO List name "person" to get list items. |
+| Currency |  | The currency the sale object was sold in  <br />Use MDO List name "currency" to get list items. |
+| Competitor |  | List of all possible competitors.   <br />Use MDO List name "comptr" to get list items. |
+| Credited |  | List of who is to be credited for the sale.  <br />Use MDO List name "credited" to get list items. |
+| Rating |  | The sale rating  <br />Use MDO List name "prob" to get list items. |
+| Reason |  | The sale reason  <br />Use MDO List name "reason" to get list items. |
+| Source |  | The sale source  <br />Use MDO List name "source" to get list items. |
 | Status | string | The state of the Sale: Open / Sold / Lost / Stalled |
 | Saledate | date-time | (expected / lost / won) sales date |
 | Amount | double | Total sale amount |
@@ -129,9 +117,9 @@ Response body: object
 | Links | array | List of all elements linked to the sale. |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| SaleType |  | <para>Use MDO List name "saletype" to get list items.</para> |
-| ReasonSold |  | <para>Use MDO List name "reasonsold" to get list items.</para> |
-| ReasonStalled |  | <para>Use MDO List name "reasonstalled" to get list items.</para> |
+| SaleType |  | <br />Use MDO List name "saletype" to get list items. |
+| ReasonSold |  | <br />Use MDO List name "reasonsold" to get list items. |
+| ReasonStalled |  | <br />Use MDO List name "reasonstalled" to get list items. |
 | ReopenDate | date-time | Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate. |
 | SaleStakeholders | array |  |
 | ActiveErpLinks | int32 | The number of active erp links |

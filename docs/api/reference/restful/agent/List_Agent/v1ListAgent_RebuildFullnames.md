@@ -13,10 +13,6 @@ Update the fullname field of all categories.
 
 Use this e.g. when changing parentId or renaming a category with children.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ Use this e.g. when changing parentId or renaming a category with children.
 POST /api/v1/Agents/List/RebuildFullnames?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -36,9 +31,7 @@ POST /api/v1/Agents/List/RebuildFullnames?$select=name,department,category/id
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

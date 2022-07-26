@@ -11,13 +11,6 @@ GET /api/v1/License
 
 Get all licenses, with usage, from all module owners as they are stored in the database
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +24,7 @@ Get all licenses, with usage, from all module owners as they are stored in the d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

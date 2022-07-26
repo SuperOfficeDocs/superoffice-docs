@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 The iCal page does the same login check as the Result page, but it reads the user's appointments and outputs the iCal. The search limits the number of appointments to about 2 months worth of appointments, weighted towards future/planned appointments.
 
 [!code-csharp[CS](../ical-write-results.cs?range=1-5)]

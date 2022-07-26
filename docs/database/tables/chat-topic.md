@@ -99,7 +99,6 @@ This table contains chat topics.
 |widget\_enable\_rating|Setting this to true will enable rating support in the chat widget|Bool|&#x25CF;|
 |widget\_rating\_text|The text to be displayed in the widget next to the rating stars|String(1024)|&#x25CF;|
 
-
 ![chat_topic table relationship diagram](./media/chat_topic.png)
 
 [!include[details](./includes/chat-topic.md)]
@@ -125,7 +124,6 @@ This table contains chat topics.
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
 |[TZLocation](tzlocation.md)  |Time zone location |
 
-
 ## Replication Flags
 
 * None
@@ -133,4 +131,3 @@ This table contains chat topics.
 ## Security Flags
 
 * No access control via user's Role.
-

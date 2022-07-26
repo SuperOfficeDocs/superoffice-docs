@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.GetMailFromIn
 ## GetMailFromInReplyTo
 
 Get email from db based on In-Reply-To Message Id
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **messageId:** The message id
 
 **Returns:** EMailEntity that is in reply to the provided messageId
-
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMailFromInReplyTo Response
 
@@ -223,4 +221,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

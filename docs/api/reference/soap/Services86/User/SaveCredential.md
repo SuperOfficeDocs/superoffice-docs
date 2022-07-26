@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SaveCredential
 ## SaveCredential
 
 Save (adds/replaces) current credential of the same type for the user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userId:** Primary key of the user (i.e. associate)
 * **credential:** Credentials supported for authentication
 
 **Returns:** True if the credential was successfully saved.
-
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -64,7 +63,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveCredential Response
 
 ```xml
@@ -85,4 +83,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

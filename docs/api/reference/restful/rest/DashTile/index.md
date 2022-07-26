@@ -6,9 +6,6 @@ title: DashTile
 /api/v1/DashTile
 ```
 
-
-
-
 * [GET DashTile/default](v1DashTile_DefaultDashTile.md)
 
 * [POST DashTile](v1DashTile_PostDashTile.md)

@@ -8,6 +8,7 @@ version: 9.2 R04
 so.topic: howto
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Working with Delete
 
 Used to remove multiple records from a table, delete requires a table name and an array of primary key values. To avoid any unnecessary database server side-effects (long locks), NetServer internally processes the array of primary keys in batches of 1000.

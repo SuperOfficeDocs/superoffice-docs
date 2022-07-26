@@ -11,13 +11,6 @@ POST /api/v1/Agents/Saint/SaveSaintConfiguration
 
 Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SaintConfiguration or creates a new SaintConfiguration if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SaintConfiguration to be saved. 
+The SaintConfiguration to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,12 +40,9 @@ The SaintConfiguration to be saved.
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
 
-
 ## Response: object
 
 Definition of the three perionds for status monitors and some other settings per saint entity
-
-
 
 Carrier object for SaintConfiguration.
 Services for the SaintConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.

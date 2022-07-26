@@ -11,16 +11,10 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}
 
 Set a specified type of consent on the person.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id **Required** |
 | purpose | string | The Key of the purpose this affects. e.g. 'STORE' or 'EMARKETING'. **Required** |
-
 
 ## Query String Parameters
 
@@ -36,7 +30,6 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=maxime
 PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=excepturi
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -45,9 +38,7 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=excepturi
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -31,7 +31,6 @@ The HTML code segment below shows how we can configure a SoListBox. This code se
 ![02][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

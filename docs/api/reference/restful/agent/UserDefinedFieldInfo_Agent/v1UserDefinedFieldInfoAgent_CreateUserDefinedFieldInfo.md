@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 
 Create a UserDefinedFieldInfo based on a owner-entity id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Create a UserDefinedFieldInfo based on a owner-entity id
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerType, FieldType 
+OwnerType, FieldType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | FieldType | string |  |
 
-
 ## Response: object
 
 Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
-
-
 
 Carrier object for UserDefinedFieldInfo.
 Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.

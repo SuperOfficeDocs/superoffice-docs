@@ -234,7 +234,7 @@ To add a new button on the left menu, we add a new `control` element in the "But
 </control>
 ```
 
-All the properties above should be pretty self-explanatory. The most important setting is the `onclick element, which defines the javascript call to open the dialog using the page ID, in our case "devnetcontact".
+All the properties above should be pretty self-explanatory. The most important setting is the `onclick element, which defines the JavaScript call to open the dialog using the page ID, in our case "devnetcontact".
 
 You should restart IIS to have all your changes take effect before you refresh SuperOffice. The new link icon should now be visible in the left side menu, and by clicking it our new page should open, showing the name of the current contact, in addition to the list of all persons for that contact.
 

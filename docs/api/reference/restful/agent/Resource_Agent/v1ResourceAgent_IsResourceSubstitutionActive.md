@@ -11,12 +11,6 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 
 Determine if resource substitution/override is active, globally or for a subset of resources/cultures
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Determine if resource substitution/override is active, globally or for a subset 
 ```http
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ResourceNames, Culture 
+ResourceNames, Culture
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ResourceNames | array |  |
 | Culture | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

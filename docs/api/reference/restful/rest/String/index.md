@@ -2,12 +2,11 @@
 title: String
 ---
 
+# String
+
 ```http
 /api/v1/String
 ```
-
-
-
 
 * [GET String](v1String_GetStringNames.md)
 

@@ -11,4 +11,3 @@ so.date: 04.30.2021
 
 <!-- Referenced links-->
 [1]: validation.md
-[2]: validate-fields.md

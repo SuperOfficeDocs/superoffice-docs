@@ -13,10 +13,6 @@ Method that returns a specified number of appointments of a specific appointment
 
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, StartTime, EndTime, Count, TaskId 
+ContactId, StartTime, EndTime, Count, TaskId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +49,7 @@ ContactId, StartTime, EndTime, Count, TaskId
 | Count | int32 |  |
 | TaskId | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

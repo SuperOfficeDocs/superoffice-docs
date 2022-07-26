@@ -24,7 +24,6 @@ This table stores a selection script source
 |id|Primary key|PK| |
 |body|The script body|Clob|&#x25CF;|
 
-
 ![ejsel_source_script table relationship diagram](./media/ejsel_source_script.png)
 
 [!include[details](./includes/ejsel-source-script.md)]
@@ -42,4 +41,3 @@ This table stores a selection script source
 ## Security Flags
 
 * No access control via user's Role.
-

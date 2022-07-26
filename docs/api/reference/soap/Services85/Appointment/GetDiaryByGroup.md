@@ -11,15 +11,11 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.GetDiar
 
 ## GetDiaryByGroup
 
-
-
-* **groupId:** 
-* **groupType:** 
-* **startTime:** 
-* **endTime:** 
-* **count:** 
-
-
+* **groupId:**
+* **groupType:**
+* **startTime:**
+* **endTime:**
+* **count:**
 
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
@@ -56,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetDiaryByGroup Response
 
@@ -128,4 +123,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

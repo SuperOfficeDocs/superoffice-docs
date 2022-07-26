@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IFavouriteAgent.GetFavour
 Get all favourites for a table and associate
 
 * **tableName:** Table name, transformed to and from numeric table id by the service layer.
-* **associateId:** 
-
-
+* **associateId:**
 
 [WSDL file for Services86/Favourite](../Services86-Favourite.md)
 
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetFavourites Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

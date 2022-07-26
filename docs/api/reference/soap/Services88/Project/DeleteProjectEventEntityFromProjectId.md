@@ -17,7 +17,6 @@ Delete a project event based on a project id. Does not delete the project, but d
 
 **Returns:** Nothing
 
-
 [WSDL file for Services88/Project](../Services88-Project.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteProjectEventEntityFromProjectId Response
 
 ```xml
@@ -70,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -31,7 +31,6 @@ Field label override table, makes it possible to override internal string resour
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![FieldLabel table relationship diagram](./media/FieldLabel.png)
 
 [!include[details](./includes/fieldlabel.md)]
@@ -49,7 +48,6 @@ Field label override table, makes it possible to override internal string resour
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,4 +57,3 @@ Field label override table, makes it possible to override internal string resour
 ## Security Flags
 
 * No access control via user's Role.
-

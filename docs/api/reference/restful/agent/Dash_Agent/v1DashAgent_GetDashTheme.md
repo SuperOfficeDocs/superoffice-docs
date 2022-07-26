@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/GetDashTheme
 
 Gets a DashTheme object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a DashTheme object.
 POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=561
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Dashboard theme configuration
-
-
 
 Carrier object for DashTheme.
 Services for the DashTheme Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

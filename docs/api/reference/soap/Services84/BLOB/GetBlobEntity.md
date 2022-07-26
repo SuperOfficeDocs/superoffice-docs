@@ -17,7 +17,6 @@ Gets a BlobEntity object.
 
 **Returns:** BlobEntity
 
-
 [WSDL file for Services84/BLOB](../Services84-BLOB.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetBlobEntity Response
 
@@ -107,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

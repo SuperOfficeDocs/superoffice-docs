@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "priority" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'priority'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("priority", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |2|1 Høy|||
 |1|2 Middels|||
 |3|3 Lav|||
-
 
 ## Related MDO Lists
 

@@ -10,7 +10,7 @@ so.topic: reference
 
 # Panes
 
-The `Panes` element is a container for 1 or more [`Pane`][2] elements.
+The `Panes` element is a container for 1 or more [`Pane`][1] elements.
 
 This is a **group element**. It defines the beginning of a group of elements and requires a matching group end element.
 

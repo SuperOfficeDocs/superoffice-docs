@@ -24,7 +24,6 @@ Create a new document content based on a document template and store it in the d
 
 **Returns:** The updated document entity, after creating the document content from the template.
 
-
 [WSDL file for Services88/Document](../Services88-Document.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -63,7 +62,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateNewPhysicalDocumentFromTemplate Response
 
@@ -347,4 +345,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

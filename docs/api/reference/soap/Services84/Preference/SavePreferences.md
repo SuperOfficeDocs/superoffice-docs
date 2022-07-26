@@ -15,8 +15,6 @@ Save this set of preferences all the way to the database.
 
 * **preferences:** Preferences to be saved. Note that all fields must be filled in, and the preference will be saved on the Associate level only! Setting for other levels is an administrative task and not available through this service.
 
-
-
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -71,7 +69,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SavePreferences Response
 
 ```xml
@@ -91,4 +88,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

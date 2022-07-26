@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetNewMail">S
 ## GetNewMail
 
 Get new email in folder(s) for current associate
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **folders:** List of folder ids to check for new email
 
 **Returns:** The downloaded email envelopes
-
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetNewMail Response
 
@@ -122,4 +120,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

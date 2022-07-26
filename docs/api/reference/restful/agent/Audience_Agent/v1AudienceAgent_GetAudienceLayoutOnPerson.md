@@ -11,12 +11,6 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 
 Gets the Audience layout belonging to the person specified.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets the Audience layout belonging to the person specified.
 ```http
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId 
+PersonId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-
 ## Response: object
 
 Audience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it's instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout
-
-
 
 Carrier object for AudienceLayoutEntity.
 Services for the AudienceLayoutEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.

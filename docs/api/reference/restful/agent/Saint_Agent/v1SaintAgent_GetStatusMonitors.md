@@ -11,12 +11,6 @@ POST /api/v1/Agents/Saint/GetStatusMonitors
 
 Get all active status monitors for a specified target
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all active status monitors for a specified target
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitors?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/Saint/GetStatusMonitors?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Id, Type 
+Id, Type
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Type | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

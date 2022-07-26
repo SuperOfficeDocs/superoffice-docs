@@ -18,7 +18,6 @@ Read specific a set of data rights at the given row in the rights matrix. An exc
 
 **Returns:** The data right values for all the defined relationships (C, CR, CRU, or CRUD)
 
-
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDataRights Response
 
 ```xml
@@ -78,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

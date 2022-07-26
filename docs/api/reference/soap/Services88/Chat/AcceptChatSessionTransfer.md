@@ -17,7 +17,6 @@ Accept the transfer: assign the session to the user. If the session is not being
 
 **Returns:** The updated chat session
 
-
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AcceptChatSessionTransfer Response
 
@@ -328,4 +326,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 **SuperOffice 10** – a new version of SuperOffice CRM – is now ready to offer you brand new & improved features that are designed to help you turn relationships into revenue.
 
 Adding flexibility are keywords for this first release of SuperOffice 10: To start, this version brings a new price and packaging model that increases the flexibility where customers can choose the products that fit their business best. The new model includes new product names, several editions of our solutions, and introduces new add-on products.

@@ -58,7 +58,7 @@ A quick-start guide for getting you up and running with a native console applica
 
     ![imageppiks.png][img7]
 
-8. The browser callback is shown and eventually navigates to the SuperOffice community website. This default behavior is defined in the console application code.  
+8. The browser callback is shown and eventually navigates to the SuperOffice community website. This default behavior is defined in the console application code.
 
     ![x][img8]
 

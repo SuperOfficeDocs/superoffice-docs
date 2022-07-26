@@ -77,7 +77,7 @@ You may also check the domain name via Google Workspace Toolbox Dig (Google MX 
 
 ## How to log in to CRM Online with Google authentication activated
 
-1. Go to [online.superoffice.com][6].
+1. Go to [online.SuperOffice.com][6].
 2. Type in the email address, click **Next**.
 
 * If your browser already has an active Google session - it will re-use this session to log you automatically in.

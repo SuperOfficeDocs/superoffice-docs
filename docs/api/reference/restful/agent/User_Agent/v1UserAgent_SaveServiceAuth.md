@@ -11,14 +11,7 @@ POST /api/v1/Agents/User/SaveServiceAuth
 
 Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is empty
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Updates the existing ServiceAuth or creates a new ServiceAuth if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ServiceAuth to be saved. 
+The ServiceAuth to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,12 +40,9 @@ The ServiceAuth to be saved.
 | Username | string | The username |
 | Password | string | The (decrypted) password or token |
 
-
 ## Response: object
 
 Properties for service authentication
-
-
 
 Carrier object for ServiceAuth.
 Services for the ServiceAuth Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

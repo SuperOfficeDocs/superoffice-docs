@@ -68,6 +68,7 @@ alt.SetQuoteVersionId(1);
 alt = qa.SaveQuoteAlternative(alt);
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### NSQuoteAlternative CreateQuoteAlternative(Integer quoteVersionId, String quoteAlternativeName, String quoteAlternativeDescription)
 
 Creates an alternative for a specific version.
@@ -81,6 +82,7 @@ NSQuoteAlternative alt = qa.CreateQuoteAlternative(1,"plan b","optimized for hom
 alt = qa.SaveQuoteAlternative(alt);
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### NSQuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer quoteAlternativeId, String quoteAlternativeName)
 
 A variant of `CreateQuoteAlternative()` that clones an alternative into the new one. This is an efficient way of creating multiple alternatives with small variations.

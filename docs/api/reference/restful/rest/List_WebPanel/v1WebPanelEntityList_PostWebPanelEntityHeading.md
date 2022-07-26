@@ -13,11 +13,6 @@ Saves a new heading for the WebPanelEntity list.
 
 Calls the List agent service SaveHeadingFromListDefinition.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The heading to be added. 
+The heading to be added.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,12 +40,9 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-
 ## Response: object
 
 The heading entity contains generic list item information
-
-
 
 Carrier object for HeadingEntity.
 Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

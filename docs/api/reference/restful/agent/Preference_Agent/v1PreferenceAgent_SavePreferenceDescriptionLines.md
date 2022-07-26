@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 
 Saves the PreferenceDescriptionLine array in the SuperOffice database
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Saves the PreferenceDescriptionLine array in the SuperOffice database
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PreferenceDescriptionLines 
+PreferenceDescriptionLines
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PreferenceDescriptionLines | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

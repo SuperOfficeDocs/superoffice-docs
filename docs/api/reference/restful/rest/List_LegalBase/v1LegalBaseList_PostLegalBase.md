@@ -13,11 +13,6 @@ Create a new LegalBase list item
 
 Calls the List agent service SaveLegalBase.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveLegalBase.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The LegalBase to be created. 
+The LegalBase to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +39,6 @@ The LegalBase to be created.
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
-
 
 ## Response: object
 

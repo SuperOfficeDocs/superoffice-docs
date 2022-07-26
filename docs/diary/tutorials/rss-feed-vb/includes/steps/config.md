@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 ### Configure the feed in Outlook
 
 RSS feeds can be subscribed through Microsoft Office Outlook 2007. The RSS subscriptions are kept in a separate folder along with the mail folders in Outlook 2007. Once subscribed, RSS feeds can be read the same way emails are read. When you click a particular feed all the posts appear in the same format as regular email in the mail reader pane.

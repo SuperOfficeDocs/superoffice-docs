@@ -15,10 +15,9 @@ so.envir:
 ---
 
 # "functionrights" MDO List
+
 FunctionRightsListProvider returns a MDO list of function rights in the database.
 Additional Info = "role=123;languageId=1024;roleType=1"
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FunctionRightsListProvider">FunctionRightsListProvider</see> class.
 The name of the MDO list is 'functionrights'.
@@ -33,10 +32,6 @@ The name of the MDO list is 'functionrights'.
 
 Separator: ;
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -48,6 +43,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("functionrights", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -81,7 +77,6 @@ foreach (var item in listProvider.RootItems) {
 |23|Can run custom tasks on selections||allow-bulk-user-applications|
 |24|Can see users belonging to other companies||see-other-companies-associates|
 |26|Status Monitor Administrator (counters)||admin-saint-regeneration|
-
 
 ## Related MDO Lists
 

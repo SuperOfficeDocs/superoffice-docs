@@ -6,9 +6,6 @@ title: Replication_Agent
 /api/v1/Replication/Agent
 ```
 
-
-
-
 * [POST Agents/Replication/CreateDefaultSatellite](v1ReplicationAgent_CreateDefaultSatellite.md)
 
 * [POST Agents/Replication/SaveSatellite](v1ReplicationAgent_SaveSatellite.md)

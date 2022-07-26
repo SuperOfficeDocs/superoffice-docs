@@ -18,7 +18,6 @@ Determine if resource substitution/override is active, globally or for a subset 
 
 **Returns:** Array of override objects, empty if there are none; the ResourceValue member is not set by this call
 
-
 [WSDL file for Services87/Resource](../Services87-Resource.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## IsResourceSubstitutionActive Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

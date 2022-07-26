@@ -25,7 +25,6 @@ Users linked to a role. Deprecated.
 |role|The id of the group.|FK [ej_role](ej-role.md)| |
 |ejuser|The id of the user.|FK [ejuser](ejuser.md)| |
 
-
 ![role_member table relationship diagram](./media/role_member.png)
 
 [!include[details](./includes/role-member.md)]
@@ -45,7 +44,6 @@ Users linked to a role. Deprecated.
 |[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
-
 ## Replication Flags
 
 * None
@@ -53,4 +51,3 @@ Users linked to a role. Deprecated.
 ## Security Flags
 
 * No access control via user's Role.
-

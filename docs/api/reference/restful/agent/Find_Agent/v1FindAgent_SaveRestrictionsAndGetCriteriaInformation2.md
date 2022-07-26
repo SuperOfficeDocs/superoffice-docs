@@ -13,10 +13,6 @@ Save an array of restrictions for later use as search criteria (including as dyn
 
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Then, return the same result as a call to GetCriteriaInformation would have done
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, Restrictions, StaticColumns 
+StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +49,9 @@ StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
 | Restrictions | string |  |
 | StaticColumns | string |  |
 
-
 ## Response: object
 
 Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
-
-
 
 Carrier object for CriteriaInformation.
 Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.

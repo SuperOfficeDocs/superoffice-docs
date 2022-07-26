@@ -48,7 +48,6 @@ This table contains entries for the mailboxes the eJournal system is fetching ma
 |ai\_suggest\_category|If this is set to 0 (false), then there will be no AI for suggesting categories on incoming emails|Bool| |
 |ai\_text\_analysis|If this is set to 0 (false), then there will be no AI text analysis on incoming emails|Bool| |
 
-
 ![mail_in_filter table relationship diagram](./media/mail_in_filter.png)
 
 [!include[details](./includes/mail-in-filter.md)]
@@ -79,7 +78,6 @@ This table contains entries for the mailboxes the eJournal system is fetching ma
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
 
-
 ## Replication Flags
 
 * None
@@ -87,4 +85,3 @@ This table contains entries for the mailboxes the eJournal system is fetching ma
 ## Security Flags
 
 * No access control via user's Role.
-

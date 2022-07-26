@@ -9,6 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # How to sign system user token
 
 Before requesting a new system user ticket, you have to sign your system user token with your RSA private key. The timestamp is also updated.
@@ -90,9 +91,3 @@ $signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
 <!-- Referenced links -->
 [1]: index.md
 [2]: ../validate-security-tokens.md
-[4]: http://www.platanus.cz/blog/converting-rsa-xml-key-to-pem
-[5]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[6]: ../../../../assets/downloads/api/superofficeonlinecertificates.zip
-[7]: https://sod.superoffice.com/login/.well-known/openid-configuration
-[8]: https://qaonline.superoffice.com/login/.well-known/openid-configuration
-[9]: https://online.superoffice.com/login/.well-known/openid-configuration

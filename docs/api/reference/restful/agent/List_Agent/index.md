@@ -6,9 +6,6 @@ title: List_Agent
 /api/v1/List/Agent
 ```
 
-
-
-
 * [POST Agents/List/SetTicketPrioritySortOrder](v1ListAgent_SetTicketPrioritySortOrder.md)
 
 * [POST Agents/List/GetTicketPriorityList](v1ListAgent_GetTicketPriorityList.md)

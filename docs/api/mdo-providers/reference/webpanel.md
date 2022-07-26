@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "webpanel" MDO List
+
 List of WebPanels visible possible for use with groups and headings.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.WebPanelProvider">WebPanelProvider</see> class.
 The name of the MDO list is 'webpanel'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("webpanel", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +46,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |2|Echo||navigation=5&encoding=0&Statusbar=true|
-
 
 ## Related MDO Lists
 

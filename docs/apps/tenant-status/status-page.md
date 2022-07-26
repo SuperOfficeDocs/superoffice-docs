@@ -90,5 +90,4 @@ Link to more information about API version details. Example:
 ```
 
 <!-- Referenced links -->
-[1]: ../terminology.md
 [2]: check-status.md

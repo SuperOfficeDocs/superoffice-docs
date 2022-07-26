@@ -29,6 +29,7 @@ the checkbox, and performs filtering if the entity is chosen. It also ensures th
 inner participants provider, so that the conflict checking is performed.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"associate"|Associate|
@@ -37,6 +38,7 @@ inner participants provider, so that the conflict checking is performed.
 |"hideConflict"|Hide conflict|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |ownerAssociateIdInformation|associate|Owner's Associate ID: Associate ID of the user specified as owner of the follow-up|  |
@@ -176,7 +178,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

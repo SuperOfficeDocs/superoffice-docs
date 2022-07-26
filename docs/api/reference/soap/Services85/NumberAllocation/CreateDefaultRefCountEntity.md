@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.INumberAllocationAgent.Cr
 Loading default values into a new RefCountEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New RefCountEntity with default values
-
 
 [WSDL file for Services85/NumberAllocation](../Services85-NumberAllocation.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultRefCountEntity Response
 
@@ -125,4 +122,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

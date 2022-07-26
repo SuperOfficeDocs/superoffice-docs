@@ -17,7 +17,6 @@ Returns the top used words in the freetext index table, sorted as most used firs
 
 **Returns:** The most used words
 
-
 [WSDL file for Services87/FreeText](../Services87-FreeText.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSuggestedStopWords Response
 
@@ -118,4 +116,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

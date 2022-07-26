@@ -17,7 +17,6 @@ Gets a Sale object.
 
 **Returns:** Sale
 
-
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSale Response
 
@@ -96,4 +94,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

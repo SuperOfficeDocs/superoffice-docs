@@ -33,13 +33,13 @@ As stated before, there are several helper classes to make things easier. An imp
 
 The web application must then validated the new server token, then extract the system user ticket.
 
-[!include[ALT](./includes/system-user-helper-class.md)]
+[!code-xml[PHP](includes/system-user-helper-class.php)]
 
 The application must validate the new JWT token using the public SuperOffice certificates. Once validated as an authentic token, the application uses another helper class, **ClaimNames**, to convert the token into an SoContext class – containing properties such as name, company, ticket, and NetServerUrl.
 
 With the new **SoContext** available, containing the ticket credentials for a system user, the application proceeds to call the **ContactEnitityHelper** to create a new company.
 
-[!include[ALT](./includes/create-contact-entity.md)]
+[!code-xml[PHP](includes/create-contact-entity.php)]
 
 ## More advanced scenario
 

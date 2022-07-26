@@ -13,10 +13,6 @@ Creates a new SystemEventEntity
 
 Calls the Configuration agent service SaveSystemEventEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Configuration agent service SaveSystemEventEntity.
 ```http
 POST /api/v1/SystemEvent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/SystemEvent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The SystemEventEntity to be saved. 
+The SystemEventEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,12 +54,9 @@ The SystemEventEntity to be saved.
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy |  | The associate that first created the SystemEvent. |
 
-
 ## Response: object
 
 Entity for system events
-
-
 
 SystemEventEntity entity with API _Links added.
 

@@ -21,7 +21,6 @@ Return the restriction group with given rank or a blank carrier.
 
 **Returns:** The new restriction group.
 
-
 [WSDL file for Services88/Find](../Services88-Find.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetRestrictionGroup Response
 
@@ -159,4 +157,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

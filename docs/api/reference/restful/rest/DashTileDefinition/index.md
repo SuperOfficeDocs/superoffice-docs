@@ -6,9 +6,6 @@ title: DashTileDefinition
 /api/v1/DashTileDefinition
 ```
 
-
-
-
 * [GET DashTileDefinition/default](v1DashTileDefinition_DefaultDashTileDefinition.md)
 
 * [POST DashTileDefinition](v1DashTileDefinition_PostDashTileDefinition.md)

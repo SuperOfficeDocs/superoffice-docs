@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/StartMailMerge
 
 Start a mailmerge operation with specified settings.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Start a mailmerge operation with specified settings.
 POST /api/v1/Agents/Selection/StartMailMerge?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/Selection/StartMailMerge?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Settings 
+Settings
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Settings |  | Settings specifying what selection to perform the mailmerge on, what merge document to use etc. <para /> Carrier object for MailMergeSettings. Services for the MailMergeSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>. |
-
+| Settings |  | Settings specifying what selection to perform the mailmerge on, what merge document to use etc. <br /> Carrier object for MailMergeSettings. Services for the MailMergeSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>. |
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

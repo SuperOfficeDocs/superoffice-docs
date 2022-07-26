@@ -60,7 +60,7 @@ For the built-in mail client, the following ports must be opened between the Sal
 * Windows communication foundation (on both the server running Sales & Marketing web and the server running NetServer web services)
 * Local administrator rights (installation)
 
-> [!Note]
+> [!NOTE]
 > Audience does not support remote web services and must use the web services installed with the product.
 
 [Read more about Microsoft .NET requirements][1]

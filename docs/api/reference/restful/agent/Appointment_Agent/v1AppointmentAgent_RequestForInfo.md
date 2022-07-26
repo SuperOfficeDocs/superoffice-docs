@@ -13,10 +13,6 @@ Submits a request for information.
 
 The request is added to the task list of the user that is responsible for this contact. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The request is added to the task list of the user that is responsible for this c
 ```http
 POST /api/v1/Agents/Appointment/RequestForInfo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Appointment/RequestForInfo?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateIdForNewContact, Channel, Regarding, ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber 
+AssociateIdForNewContact, Channel, Regarding, ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +51,6 @@ AssociateIdForNewContact, Channel, Regarding, ContactName, PersonFirstname, Pers
 | PersonLastname | string |  |
 | EmailAddress | string |  |
 | PhoneNumber | string |  |
-
 
 ## Response: object
 

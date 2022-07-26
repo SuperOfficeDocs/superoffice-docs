@@ -101,7 +101,7 @@ The *user context* will be used by the web application for all successive calls 
 5. The user is redirected to the application default page after completion.
 
 > [!NOTE]
-> The redirect URL can be changed if requested. Future capabilities will enable you to change it yourself, but for now, you must send an email to have it changed for you. Redirect URL change requests can be sent to sdk@superoffice.com.
+> The redirect URL can be changed if requested. Future capabilities will enable you to change it yourself, but for now, you must send an email to have it changed for you. Redirect URL change requests can be sent to sdk@SuperOffice.com.
 
 ### ContactEntityController
 

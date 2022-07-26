@@ -34,7 +34,6 @@ This table describes each picture in the database
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
-
 ![s_picture_entry table relationship diagram](./media/s_picture_entry.png)
 
 [!include[details](./includes/s-picture-entry.md)]
@@ -53,7 +52,6 @@ This table describes each picture in the database
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
 
-
 ## Replication Flags
 
 * None
@@ -61,4 +59,3 @@ This table describes each picture in the database
 ## Security Flags
 
 * No access control via user's Role.
-

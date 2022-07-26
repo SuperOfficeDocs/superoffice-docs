@@ -13,13 +13,7 @@ Set default values into a new Satellite.
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
-
-
-
-
-
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
 
 ## Request Headers
 
@@ -33,7 +27,6 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

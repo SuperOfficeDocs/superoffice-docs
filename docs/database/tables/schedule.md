@@ -48,7 +48,6 @@ Generic scheduled tasked handling time scheduling, locking and error messages
 |retries|Number of retries since last successfull execution|Int| |
 |retry\_interval|Number of minutes between each retry|Int|&#x25CF;|
 
-
 ![schedule table relationship diagram](./media/schedule.png)
 
 [!include[details](./includes/schedule.md)]
@@ -68,7 +67,6 @@ Generic scheduled tasked handling time scheduling, locking and error messages
 |[schedule](schedule.md)  |Generic scheduled tasked handling time scheduling, locking and error messages |
 |[scheduled\_task](scheduled-task.md)  |A scheduled entry executing a script at certain times |
 
-
 ## Replication Flags
 
 * None
@@ -76,4 +74,3 @@ Generic scheduled tasked handling time scheduling, locking and error messages
 ## Security Flags
 
 * No access control via user's Role.
-

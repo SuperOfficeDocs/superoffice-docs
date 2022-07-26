@@ -43,7 +43,6 @@ This table contains FAQ entries.
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 
-
 ![kb_entry table relationship diagram](./media/kb_entry.png)
 
 [!include[details](./includes/kb-entry.md)]
@@ -80,7 +79,6 @@ This table contains FAQ entries.
 |[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
 |[word\_relations](word-relations.md)  |This table shows which word are used in which FAQ entry, and how many times            they are used in each |
 
-
 ## Replication Flags
 
 * None
@@ -88,4 +86,3 @@ This table contains FAQ entries.
 ## Security Flags
 
 * No access control via user's Role.
-

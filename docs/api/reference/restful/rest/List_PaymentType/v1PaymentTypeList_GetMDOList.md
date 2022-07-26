@@ -11,12 +11,6 @@ GET /api/v1/List/PaymentType/MDOItems
 
 Get the MDO list items for "PaymentType" - with headings and filtering by user group.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 GET /api/v1/List/PaymentType/MDOItems?flat=False
 GET /api/v1/List/PaymentType/MDOItems?query=nulla
 ```
-
 
 ## Request Headers
 
@@ -43,10 +36,7 @@ GET /api/v1/List/PaymentType/MDOItems?query=nulla
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

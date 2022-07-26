@@ -11,12 +11,6 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get license assignments for an associate for licenses belonging to an other modu
 ```http
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId, ModuleOwner 
+AssociateId, ModuleOwner
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | ModuleOwner | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

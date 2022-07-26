@@ -12,11 +12,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.CacheFolderLi
 ## CacheFolderList
 
 Fetch list of folders from email server for the current account, and cache in DB
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 **Returns:** List of folders from mail server
-
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CacheFolderList Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

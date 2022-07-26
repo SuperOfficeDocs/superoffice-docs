@@ -30,7 +30,6 @@ Describes the contents of a tile field
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![dashboard_tile_field table relationship diagram](./media/dashboard_tile_field.png)
 
 [!include[details](./includes/dashboard-tile-field.md)]
@@ -49,7 +48,6 @@ Describes the contents of a tile field
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[dashboard\_tile\_definition](dashboard-tile-definition.md)  |Describes the contents of a tile |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ Describes the contents of a tile field
 ## Security Flags
 
 * No access control via user's Role.
-

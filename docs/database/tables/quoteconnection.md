@@ -37,7 +37,6 @@ Primary key in the CRM database. Definition of a connection to an external syste
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![QuoteConnection table relationship diagram](./media/QuoteConnection.png)
 
 [!include[details](./includes/quoteconnection.md)]
@@ -59,7 +58,6 @@ Primary key in the CRM database. Definition of a connection to an external syste
 |[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
 |[QuoteConnectionAccess](quoteconnectionaccess.md)  |Access control for Quote Connections |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -68,4 +66,3 @@ Primary key in the CRM database. Definition of a connection to an external syste
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -29,7 +29,6 @@ History lists for lists and searchable controls. Maintains history for Navigator
 |rank|Sort order, indexed so it can used for sorting in the query|UShort| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![History table relationship diagram](./media/History.png)
 
 [!include[details](./includes/history.md)]
@@ -48,7 +47,6 @@ History lists for lists and searchable controls. Maintains history for Navigator
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Copy to satellite and travel prototypes.
@@ -56,4 +54,3 @@ History lists for lists and searchable controls. Maintains history for Navigator
 ## Security Flags
 
 * No access control via user's Role.
-

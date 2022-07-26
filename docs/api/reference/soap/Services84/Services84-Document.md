@@ -4,6 +4,7 @@ uid: wsdl-Services84-Document
 title: Services84.DocumentAgent WSDL
 ---
 
+<!-- markdownlint-disable-file -->
 # Services84.DocumentAgent WSDL
 
 ```xml

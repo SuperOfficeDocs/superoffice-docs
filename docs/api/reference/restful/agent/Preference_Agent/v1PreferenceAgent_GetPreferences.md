@@ -13,10 +13,6 @@ Get one or more preferences based on a set of specifications.
 
 &lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Get one or more preferences based on a set of specifications.
 ```http
 POST /api/v1/Agents/Preference/GetPreferences?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +37,15 @@ POST /api/v1/Agents/Preference/GetPreferences?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Specifications 
+Specifications
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Specifications | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

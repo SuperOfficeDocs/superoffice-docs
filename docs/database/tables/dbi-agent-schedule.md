@@ -29,7 +29,6 @@ DBI agent schedule settings
 |received\_objects|Number of objects received during the last syncronization|Int| |
 |id\_string|A field for an id_string which may be used to access the agent schedule|String(255)| |
 
-
 ![dbi_agent_schedule table relationship diagram](./media/dbi_agent_schedule.png)
 
 [!include[details](./includes/dbi-agent-schedule.md)]
@@ -51,7 +50,6 @@ DBI agent schedule settings
 |[ejscript](ejscript.md)  |ejscript |
 |[schedule](schedule.md)  |Generic scheduled tasked handling time scheduling, locking and error messages |
 
-
 ## Replication Flags
 
 * None
@@ -59,4 +57,3 @@ DBI agent schedule settings
 ## Security Flags
 
 * No access control via user's Role.
-

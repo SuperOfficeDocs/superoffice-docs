@@ -17,7 +17,6 @@ Gets the blob entity that represents the person image binary object.
 
 **Returns:** BlobEntity object
 
-
 [WSDL file for Services87/BLOB](../Services87-BLOB.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetBlobEntityOnPerson Response
 
@@ -109,4 +107,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

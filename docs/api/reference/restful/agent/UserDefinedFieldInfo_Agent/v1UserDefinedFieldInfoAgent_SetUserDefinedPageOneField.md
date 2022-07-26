@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField
 
 Sets a user defined fields as page one field.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Sets a user defined fields as page one field.
 POST /api/v1/Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField?$select=name
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerType, UdefFieldId, UserGroupId, FieldLineNo 
+OwnerType, UdefFieldId, UserGroupId, FieldLineNo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,9 +41,7 @@ OwnerType, UdefFieldId, UserGroupId, FieldLineNo
 | UserGroupId | int32 |  |
 | FieldLineNo | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

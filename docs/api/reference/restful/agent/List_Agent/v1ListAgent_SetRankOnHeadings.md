@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SetRankOnHeadings
 
 Set rank order on headings
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Set rank order on headings
 POST /api/v1/Agents/List/SetRankOnHeadings?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/List/SetRankOnHeadings?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionId, HeadingIds 
+UdListDefinitionId, HeadingIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | HeadingIds | array |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

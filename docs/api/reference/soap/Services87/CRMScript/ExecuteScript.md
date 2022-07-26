@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.ExecuteSc
 ## ExecuteScript
 
 Execute a CRMScript with parameters
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptId:** The id of the CRMScript to execute
 * **parameters:** Parameters passed as variables to the CRMScript
 
 **Returns:** The output produced by the CRMScript
-
 
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ExecuteScript Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

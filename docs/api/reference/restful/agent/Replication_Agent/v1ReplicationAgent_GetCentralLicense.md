@@ -9,13 +9,9 @@ id: v1ReplicationAgent_GetCentralLicense
 POST /api/v1/Agents/Replication/GetCentralLicense
 ```
 
-<para />
+<br />
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
-
-
-
-
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
 
 ## Query String Parameters
 
@@ -26,7 +22,6 @@ POST /api/v1/Agents/Replication/GetCentralLicense
 ```http
 POST /api/v1/Agents/Replication/GetCentralLicense?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,10 +36,7 @@ POST /api/v1/Agents/Replication/GetCentralLicense?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

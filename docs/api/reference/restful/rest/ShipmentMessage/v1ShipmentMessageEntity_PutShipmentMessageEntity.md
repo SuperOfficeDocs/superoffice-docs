@@ -11,15 +11,9 @@ PUT /api/v1/ShipmentMessage/{id}
 
 Updates the existing ShipmentMessageEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ShipmentMessageEntity
 ```http
 PUT /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ShipmentMessageEntity to be saved. 
+The ShipmentMessageEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,12 +67,9 @@ The ShipmentMessageEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-
 ## Response: object
 
 A shipment message, that contains the actual message being sent out in a mailing
-
-
 
 ShipmentMessageEntity entity with API _Links added.
 

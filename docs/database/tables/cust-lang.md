@@ -32,7 +32,6 @@ This table contains entries for customer languages.
 |is\_default|Bool indicating whether this language is the default (fallback) language.|Bool|&#x25CF;|
 |iso\_code|A two letter iso code for this customer language|String(63)|&#x25CF;|
 
-
 ![cust_lang table relationship diagram](./media/cust_lang.png)
 
 [!include[details](./includes/cust-lang.md)]
@@ -57,7 +56,6 @@ This table contains entries for customer languages.
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[reply\_template\_body](reply-template-body.md)  |Contains the body of the reply templates in different languages |
 
-
 ## Replication Flags
 
 * None
@@ -65,4 +63,3 @@ This table contains entries for customer languages.
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -32,7 +32,6 @@ The new (4.0) profile table. Contains profile for a single Html-element. Connect
 |filter\_field|Name of field, if any, that is used to filter which profiles should be shown|String(254)|&#x25CF;|
 |filter\_value|If filter_field is set, then this field is the value that is used to filter which profiles should be shown|String(254)|&#x25CF;|
 
-
 ![element_profile table relationship diagram](./media/element_profile.png)
 
 [!include[details](./includes/element-profile.md)]
@@ -53,7 +52,6 @@ The new (4.0) profile table. Contains profile for a single Html-element. Connect
 |[role\_element](role-element.md)  |Profiles associated with a role |
 |[screen\_definition\_element](screen-definition-element.md)  |An element in a configurable screen |
 
-
 ## Replication Flags
 
 * None
@@ -61,4 +59,3 @@ The new (4.0) profile table. Contains profile for a single Html-element. Connect
 ## Security Flags
 
 * No access control via user's Role.
-

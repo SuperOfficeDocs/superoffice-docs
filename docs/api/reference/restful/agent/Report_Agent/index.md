@@ -6,9 +6,6 @@ title: Report_Agent
 /api/v1/Report/Agent
 ```
 
-
-
-
 * [POST Agents/Report/CreateDefaultReportEntity](v1ReportAgent_CreateDefaultReportEntity.md)
 
 * [POST Agents/Report/SaveReportEntity](v1ReportAgent_SaveReportEntity.md)

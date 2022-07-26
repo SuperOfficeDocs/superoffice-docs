@@ -38,7 +38,6 @@ Time zone location
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![TZLocation table relationship diagram](./media/TZLocation.png)
 
 [!include[details](./includes/tzlocation.md)]
@@ -66,7 +65,6 @@ Time zone location
 |[TZDstRule](tzdstrule.md)  |Time zone rule for daylight saving time |
 |[TZStdRule](tzstdrule.md)  |Time zone rule for standard time |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -76,4 +74,3 @@ Time zone location
 ## Security Flags
 
 * No access control via user's Role.
-

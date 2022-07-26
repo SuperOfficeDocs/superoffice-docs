@@ -30,7 +30,6 @@ This table contains log entries for the tickets.
 |to\_value|A the &amp;apos;to&amp;apos; value|String(255)| |
 |from\_value|A the &amp;apos;from&amp;apos; value|String(255)| |
 
-
 ![ticket_log_change table relationship diagram](./media/ticket_log_change.png)
 
 [!include[details](./includes/ticket-log-change.md)]
@@ -54,7 +53,6 @@ This table contains log entries for the tickets.
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ This table contains log entries for the tickets.
 ## Security Flags
 
 * No access control via user's Role.
-

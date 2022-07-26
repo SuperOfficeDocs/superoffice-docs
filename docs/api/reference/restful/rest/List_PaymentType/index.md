@@ -6,9 +6,6 @@ title: List_PaymentType
 /api/v1/List/PaymentType
 ```
 
-
-
-
 * [GET List/PaymentType](v1PaymentTypeList_GetListDefinition.md)
 
 * [PUT List/PaymentType](v1PaymentTypeList_SetListDefinition.md)

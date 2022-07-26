@@ -17,7 +17,6 @@ Get the appointment that corresponds to the given UID.
 
 **Returns:** The corresponding AppointmentEntity if exists or a default appointment entity.
 
-
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAppointmentFromUID Response
 
@@ -475,4 +473,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

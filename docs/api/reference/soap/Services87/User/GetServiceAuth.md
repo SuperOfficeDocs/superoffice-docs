@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetServiceAuth
 ## GetServiceAuth
 
 Gets a ServiceAuth object.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **serviceAuthId:** The identifier of the ServiceAuth object
 
 **Returns:** ServiceAuth
-
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetServiceAuth Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "mailingtype" MDO List
+
 Mailing types: Html mail, SMS, Word Document
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.MailingTypeProvider">MailingTypeProvider</see> class.
 The name of the MDO list is 'mailingtype'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("mailingtype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |1|E-mail|||
 |2|SMS|||
 |3|Document|||
-
 
 ## Related MDO Lists
 

@@ -36,7 +36,6 @@ Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.Batc
 |updated\_associate\_id|&apos;heartbeat&apos; that is updated once a minute by the batch task process|FK [associate](associate.md)| |
 |updatedCount|heartbeat&apos; that is updated once a minute by the batch task process|UShort| |
 
-
 ![BatchTaskDefinition table relationship diagram](./media/BatchTaskDefinition.png)
 
 [!include[details](./includes/batchtaskdefinition.md)]
@@ -56,7 +55,6 @@ Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.Batc
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[BatchTask](batchtask.md)  |Batch task request details, corresponding to the message body of a batch request message |
 
-
 ## Replication Flags
 
 * None
@@ -64,4 +62,3 @@ Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.Batc
 ## Security Flags
 
 * No access control via user's Role.
-

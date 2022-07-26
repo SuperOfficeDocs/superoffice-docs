@@ -16,6 +16,7 @@ Whether you're a sales rep who wants to see whether you have enough ongoing sale
 > [!TIP]
 > You can only retrieve sales for persons that are SuperOffice users ([associates][1]. The signed-in user must also have permission to view those sales. Otherwise, an exception is thrown.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### NSSale[] GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
 
 Fetch all sales within a time period. Optionally limit the result by amount and/or status.

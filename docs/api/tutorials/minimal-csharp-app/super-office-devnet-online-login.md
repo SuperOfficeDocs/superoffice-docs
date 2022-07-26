@@ -9,7 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# superoffice.devnet.online.login
+# SuperOffice.devnet.online.login
 
 This project has several helper classes that facilitate common operations such as hosting and providing models for user context and securing access.
 

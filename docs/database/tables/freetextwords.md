@@ -25,7 +25,6 @@ This table contains the word list (automatically updated by the indexer) for the
 |word|Indexed word|String(19)| |
 |soundEx|Soundex form of word using Metaphone algorithm, for sounds-like searching|String(9)| |
 
-
 ![freetextwords table relationship diagram](./media/freetextwords.png)
 
 [!include[details](./includes/freetextwords.md)]
@@ -44,7 +43,6 @@ This table contains the word list (automatically updated by the indexer) for the
 |------|-------------|
 |[freetextindex](freetextindex.md)  |This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale).  |
 
-
 ## Replication Flags
 
 * Copy to satellite and travel prototypes.
@@ -52,4 +50,3 @@ This table contains the word list (automatically updated by the indexer) for the
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -46,7 +46,7 @@ Nearly all customizations involve changing at least one of the configuration fil
 
 * [Custom Archive controls][9] - create controls that display rows of information from built-in or custom archive providers
 
-* [Custom AJAX methods][10] - how to call server-side methods both asynchronously and synchronously from client-side Javascript
+* [Custom AJAX methods][10] - how to call server-side methods both asynchronously and synchronously from client-side JavaScript
 
 ## Troubleshooting
 
@@ -64,7 +64,6 @@ To debug, use the developer tools of your browser and the SuperOffice [Diagnosti
 [9]: ../tutorials/custom-archive-control/index.md
 [10]: ../custom-ajax-methods.md
 [11]: change-system-config.md
-[12]: change-page-config.md
 
 <!-- Referenced images -->
 [img6]: media/web-client-custom-code.png

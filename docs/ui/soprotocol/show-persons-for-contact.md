@@ -16,7 +16,7 @@ In SuperOffice, a place where a list of persons is shown using the PersonArchive
 
 `http://localhost/SuperOfficeWeb/Default.aspx?contact.main.minimonth.personarchive?contact_id=2&person_id=10`
 
-* **http://localhost/SuperOfficeWeb/Default.aspx** - This is the default URL for all SuperOffice pages.
+* **`http://localhost/SuperOfficeWeb/Default.aspx`** - This is the default URL for all SuperOffice pages.
 
 * **contact.main.minimoth.personarchive** – This indicates that the page consists of 4 panels. Since the Contact Card consists of four views we have identified the main view to be shown. `udef`, `interest`, and `www` can be used to replace main since these are the other views available on the Contact page. Similarly, minimonth indicates the card to the right of the Contact card and there also we can call the page using the different views available under this card. "personarchive" refers to the card below the Contact card and the minimonth card. Here also we could replace the personarchive with the names of the other views available under this card.
 
@@ -27,7 +27,6 @@ Following is a screenshot of the web page that will be shown when the above URL 
 ![12][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

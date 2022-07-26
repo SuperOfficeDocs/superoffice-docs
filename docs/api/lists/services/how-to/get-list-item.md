@@ -9,9 +9,10 @@ so.category: list
 so.area: api-services
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # How to get a specific list item
 
-The List endpoint provides methods that we can use to retrieve a single entry of a given list by providing the unique identifier of the list as a parameter. For example, we can get a specific country by using the method `GetCountry` and providing the country ID as the parameter. 
+The List endpoint provides methods that we can use to retrieve a single entry of a given list by providing the unique identifier of the list as a parameter. For example, we can get a specific country by using the method `GetCountry` and providing the country ID as the parameter.
 
 The following list contains **a few** of the many methods available.
 
@@ -21,7 +22,7 @@ The following list contains **a few** of the many methods available.
 * GetCredited
 * GetCurrency
 
-# [RESTful REST API](#tab/list-item-restful-rest)
+## [RESTful REST API](#tab/list-item-restful-rest)
 
 ```http
 GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/List/Category/Items/3 HTTP/1.1
@@ -29,7 +30,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-# [RESTful Agent API](#tab/list-item-agent-rest)
+## [RESTful Agent API](#tab/list-item-agent-rest)
 
 Specify which category Id by using the `categoryId` query string parameter.
 
@@ -39,7 +40,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-# [WebApi Proxy API](#tab/list-item-webapi-proxy)
+## [WebApi Proxy API](#tab/list-item-webapi-proxy)
 
 Get a list item using the [SuperOffice.WebApi][1] proxy client.
 

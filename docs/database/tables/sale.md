@@ -64,7 +64,6 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |saleTypeCat\_id|Category of sale type, slaved from saletype|FK [SaleTypeCat](saletypecat.md)|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 
-
 ![sale table relationship diagram](./media/sale.png)
 
 [!include[details](./includes/sale.md)]
@@ -119,7 +118,6 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -131,4 +129,3 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
 * Visibility controlled via matching [VisibleFor](VisibleFor.md) row.
-

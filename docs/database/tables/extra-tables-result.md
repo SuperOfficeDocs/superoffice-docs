@@ -27,7 +27,6 @@ Result set of executed search in ejournal extra tables
 |num\_entries|The number of results.|Int|&#x25CF;|
 |active\_page|The current active page.|Int|&#x25CF;|
 
-
 ![extra_tables_result table relationship diagram](./media/extra_tables_result.png)
 
 [!include[details](./includes/extra-tables-result.md)]
@@ -48,7 +47,6 @@ Result set of executed search in ejournal extra tables
 |[extra\_tables\_entry](extra-tables-entry.md)  |Hits/entries in result set of executed search in ejournal extra tables |
 |[login](login.md)  |This table contains entries for the user sessions.  |
 
-
 ## Replication Flags
 
 * None
@@ -56,4 +54,3 @@ Result set of executed search in ejournal extra tables
 ## Security Flags
 
 * No access control via user's Role.
-

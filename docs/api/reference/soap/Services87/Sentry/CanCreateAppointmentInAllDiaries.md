@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISentryAgent.CanCreateApp
 
 CanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.
 
-
 **Returns:** Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
-
 
 [WSDL file for Services87/Sentry](../Services87-Sentry.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CanCreateAppointmentInAllDiaries Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

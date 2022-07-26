@@ -9,6 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Validating security tokens
 
 There are a few of scenarios when applications must perform JSON Web Token (JWT) validation.
@@ -21,9 +22,9 @@ There are a few of scenarios when applications must perform JSON Web Token (JWT)
 
 Token validation establishes **trust** by the authentication mechanism. It ensures that:
 
-- The token was issued by SuperOffice
-- The token was issued to this user
-- The user has granted the application access to the listed operation
+* The token was issued by SuperOffice
+* The token was issued to this user
+* The user has granted the application access to the listed operation
 
 ## What is a JWT anyway?
 
@@ -104,7 +105,6 @@ SuperOffice offers the following in addition to the standard OAuth claims. The F
 | `upn` | X | X | Specifies a user principal name (UPN). |
 | `webapi_url` | X | X | The URL to a tenant REST web services. |
 
-
 ### JWT signature
 
 **Signatures** verify that the information was sent from the sender and that the information **has not been altered**.
@@ -131,23 +131,23 @@ There are a couple of options to perform the actual validation:
 
 1. Use explicit validation.
 
-   - Use physical [SuperOffice certificates][4].
-   - Use the [OpenID Connect metadata endpoint][8] to get the public certificate information from the `jwks_uri` endpoint.
+   * Use physical [SuperOffice certificates][4].
+   * Use the [OpenID Connect metadata endpoint][8] to get the public certificate information from the `jwks_uri` endpoint.
 
 2. Use [SuperOffice.WebApi][9] NuGet package written for .NET Standard 2.0.
-   - This uses the [OpenID Connect metadata endpoint][8].
+   * This uses the [OpenID Connect metadata endpoint][8].
 
 3. Use [SuperOffice.Online.Core][6] NuGet package for .NET Framework.
 
-   - This requires [SuperOffice certificates][4].
+   * This requires [SuperOffice certificates][4].
 
 ## Explicit validation
 
 This option eliminates any dependency on third party libraries to perform validation. There are three components necessary to perform token validation:
 
-- Issuer
-- Audience
-- Certificate
+* Issuer
+* Audience
+* Certificate
 
 The values used to populate validation parameters will vary depending on which SuperOffice token is validated. The table below will help guide you.
 
@@ -155,14 +155,14 @@ The values used to populate validation parameters will vary depending on which S
 
 | Scenario                   | Issuer                        | Audience                 | SigningKey         |
 | -------------------------- | ----------------------------- | ------------------------ | ------------------ |
-| OAuth 2.0 / OpenID Connect | https://{env}.superoffice.com | Application ID           | Public certificate |
+| OAuth 2.0 / OpenID Connect | <https://{env}.superoffice.com> | Application ID           | Public certificate |
 | System User                | SuperOffice AS                | spn:{serial claim value} | Public certificate |
 | Connectors                 | SuperOffice AS                | spn:Application ID       | Public certificate |
 | Database Mirroring         | SuperOffice AS                | spn:Application ID       | Public certificate |
 
 For ease of understanding, rather than hard-code these values in the code sample below, the issue and audience values are extracted from the token itself, then used to set the appropriate `TokenValidationParameters` properties.
 
-# [Sample C# Validator](#tab/dotnet)
+### [Sample C# Validator](#tab/dotnet)
 
 This sample code has a System.IdentityModel.Tokens.Jwt NuGet package dependency.
 
@@ -237,7 +237,7 @@ namespace Example
 }
 ```
 
-# [Sample Javascript# Validator](#tab/js)
+### [Sample JavaScript# Validator](#tab/js)
 
 This sample code depends on jsonwebtoken and jwks-rsa npm packages.
 
@@ -290,8 +290,8 @@ validateToken('sod', myToken)
 
 This NuGet package contains 2 validation classes, one for each of the 2 main validation case:
 
-- OpenID Connect validation: `JwtTokenHandler`
-- SystemUser Flow validation: `SystemUserTokenHandler`
+* OpenID Connect validation: `JwtTokenHandler`
+* SystemUser Flow validation: `SystemUserTokenHandler`
 
 There are 2 different token handlers because they slightly different implementations. The difference is that the `JwtTokenHandler` uses the client_id for a ValidAudience, whereas the `SystemUserTokenHandler` uses the database serial number as the ValidAudience. The latter requires additional processing to extract the database serial number from the token.
 
@@ -313,7 +313,7 @@ TokenValidationResult result = await tokenHandler.ValidateAsync("{system_user_re
 
 Legacy security tokens are either a [JWT][2] or [SAML][1] token. We **strongly recommend that you use JWT** tokens! SAML token support is deprecated.
 
-The main class for processing tokens is `SuperIdTokenHandler` in the _SuperOffice.SuperID.Client_ DLL.
+The main class for processing tokens is `SuperIdTokenHandler` in the *SuperOffice.SuperID.Client* DLL.
 
 <a href="../../../assets/downloads/api/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
 
@@ -322,8 +322,8 @@ The main class for processing tokens is `SuperIdTokenHandler` in the _SuperOffic
 
 ### Pre-requisites
 
-- Either all [3 certificates][4] are installed correctly, or you override the default certificate chain used to perform validation.
-- A correct thumbprint is defined in the **SuperIdCertificate** appSettings section.
+* Either all [3 certificates][4] are installed correctly, or you override the default certificate chain used to perform validation.
+* A correct thumbprint is defined in the **SuperIdCertificate** appSettings section.
 
 ### Procedure
 
@@ -336,7 +336,7 @@ The main class for processing tokens is `SuperIdTokenHandler` in the _SuperOffic
 
 3. If and only if the token is valid, accept the claims and proceed accordingly:
 
-   - Receive a **SuperIdToken** populated with the resulting claims.
+   * Receive a **SuperIdToken** populated with the resulting claims.
 
 ```csharp
 public SuperIdToken ValidateToken(string token)
@@ -388,8 +388,8 @@ The `SuperIdToken` class is a container for security claims. It is returned afte
 
 `SuperIdToken` contains:
 
-- individual properties for common claims
-- a complete list of claims returned by SuperOffice CRM Online
+* individual properties for common claims
+* a complete list of claims returned by SuperOffice CRM Online
 
 ```csharp
 public class SuperIdToken
@@ -404,17 +404,17 @@ public class SuperIdToken
 }
 ```
 
-- **Ticket:** a SuperOffice ticket, representing the current user credential on this particular customer; not included in [OAuth flows][14]
+* **Ticket:** a SuperOffice ticket, representing the current user credential on this particular customer; not included in [OAuth flows][14]
 
-- **NetServer_URL:** the SOAP web service endpoint for the current customer site
+* **NetServer_URL:** the SOAP web service endpoint for the current customer site
 
-- **WebAPI_URL:** the RESTful endpoints for the current customer site (replaces `NetServer_URL` in class `SuperIdToken`)
+* **WebAPI_URL:** the RESTful endpoints for the current customer site (replaces `NetServer_URL` in class `SuperIdToken`)
 
-- **Email:** the current user’s email address
+* **Email:** the current user’s email address
 
-- **ContextIdentifier (CTX):** context value (current customer ID).
+* **ContextIdentifier (CTX):** context value (current customer ID).
 
-- **System User Token:** a string used to exchange for a system user ticket credential
+* **System User Token:** a string used to exchange for a system user ticket credential
 
 The **SuperIdToken** data type is located in the `SuperOffice.SuperID.Client.Tokens` namespace in the SuperOffice.Online.Core assembly.
 
@@ -422,13 +422,11 @@ The **SuperIdToken** data type is located in the `SuperOffice.SuperID.Client.Tok
 
 SuperOffice provides the [SuperOffice.Crm.Online.Core][6] NuGet for processing online requests. It contains the following assemblies:
 
-- SuperOffice.Online.Core
-- SuperOffice.SuperID.Client
-- SuperOffice.SuperID.Contracts
+* SuperOffice.Online.Core
+* SuperOffice.SuperID.Client
+* SuperOffice.SuperID.Contracts
 
 We also provide [.NET helper libraries][7], which you can download.
-
-
 
 <!-- Referenced links -->
 
@@ -444,7 +442,6 @@ We also provide [.NET helper libraries][7], which you can download.
 [11]: sign-in-user/legacy.md
 [12]: sign-in-user/index.md
 [14]: index.md
-
 
 <!-- Referenced images -->
 

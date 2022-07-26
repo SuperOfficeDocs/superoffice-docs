@@ -20,7 +20,7 @@ By *work with* we mean CRUD operations: create, read, update, and delete. A **se
 
 When using NetServer, the SCMScript runs as the **currently signed in user**.
 
-For background tasks such as email import, scheduled tasks and data exchange (DBI), the script runs as a **system user**. 
+For background tasks such as email import, scheduled tasks and data exchange (DBI), the script runs as a **system user**.
 
 > [!NOTE]
 > Sentry will apply to your CRMScripts.

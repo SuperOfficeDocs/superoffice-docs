@@ -11,12 +11,6 @@ POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 
 Change NetServer log settings.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Change NetServer log settings.
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Diagnostics/ChangeLogSettings?$select=name,department,catego
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-LogWarning, LogInformation, LogSuccessAudit, LogFailureAudit, LogToEventLog, LogToSuperOffice, LogToFile, LogToTrace 
+LogWarning, LogInformation, LogSuccessAudit, LogFailureAudit, LogToEventLog, LogToSuperOffice, LogToFile, LogToTrace
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,9 +45,7 @@ LogWarning, LogInformation, LogSuccessAudit, LogFailureAudit, LogToEventLog, Log
 | LogToFile | bool |  |
 | LogToTrace | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

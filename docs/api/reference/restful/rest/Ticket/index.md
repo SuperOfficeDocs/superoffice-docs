@@ -2,12 +2,11 @@
 title: Ticket
 ---
 
+# Ticket
+
 ```http
 /api/v1/Ticket
 ```
-
-
-
 
 * [GET Ticket/default](v1TicketEntity_DefaultTicketEntity.md)
 

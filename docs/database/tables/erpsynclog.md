@@ -34,7 +34,6 @@ Record all field changes done by the Erp Sync
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpSyncLog table relationship diagram](./media/ErpSyncLog.png)
 
 [!include[details](./includes/erpsynclog.md)]
@@ -52,7 +51,6 @@ Record all field changes done by the Erp Sync
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ Record all field changes done by the Erp Sync
 ## Security Flags
 
 * No access control via user's Role.
-

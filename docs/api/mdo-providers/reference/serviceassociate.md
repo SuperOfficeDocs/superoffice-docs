@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "serviceassociate" MDO List
+
 MDO provider for associates that are allowed to approve a quote.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ServiceAssociateMDOProvider">ServiceAssociateMDOProvider</see> class.
 The name of the MDO list is 'serviceassociate'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("serviceassociate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,7 +52,6 @@ foreach (var item in listProvider.RootItems) {
 |26|Tje3|||
 |27|Tje4|||
 |28|Tje5|||
-
 
 ## Related MDO Lists
 

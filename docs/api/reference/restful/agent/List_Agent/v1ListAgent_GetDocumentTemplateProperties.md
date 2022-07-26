@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetDocumentTemplateProperties
 
 Get document template properties
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get document template properties
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateProperties?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,26 +35,22 @@ POST /api/v1/Agents/List/GetDocumentTemplateProperties?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentTemplateId, RequestedProperties 
+DocumentTemplateId, RequestedProperties
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 | RequestedProperties | array |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample Request
 

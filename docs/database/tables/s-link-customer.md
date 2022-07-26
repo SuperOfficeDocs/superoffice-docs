@@ -30,7 +30,6 @@ A connection between a customer and a link. Registered customers are identified 
 |page|Indicates the page number for this gif link|Int| |
 |http\_user\_agent|The HTTP_USER_AGENT reported when the customer opened this link|String(1024)|&#x25CF;|
 
-
 ![s_link_customer table relationship diagram](./media/s_link_customer.png)
 
 [!include[details](./includes/s-link-customer.md)]
@@ -54,7 +53,6 @@ A connection between a customer and a link. Registered customers are identified 
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ A connection between a customer and a link. Registered customers are identified 
 ## Security Flags
 
 * No access control via user's Role.
-

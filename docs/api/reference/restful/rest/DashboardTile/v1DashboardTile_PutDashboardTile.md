@@ -11,15 +11,9 @@ PUT /api/v1/DashboardTile/{id}
 
 Updates the existing DashboardTile
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashboardTile id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing DashboardTile
 ```http
 PUT /api/v1/DashboardTile/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashboardTile to be saved. 
+The DashboardTile to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,12 +60,9 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
 
 Dashboard Tile configuration
-
-
 
 DashboardTile entity with API _Links added.
 

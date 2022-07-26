@@ -36,7 +36,6 @@ Knowledge base folder hierarchy
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 
-
 ![kb_category table relationship diagram](./media/kb_category.png)
 
 [!include[details](./includes/kb-category.md)]
@@ -68,7 +67,6 @@ Knowledge base folder hierarchy
 |[kb\_group](kb-group.md)  |This table contains FAQ groups. A group is a cluster of entries (potentially located anywhere in the FAQ hierarchy). A group is located in a certain category. |
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
 
-
 ## Replication Flags
 
 * None
@@ -76,4 +74,3 @@ Knowledge base folder hierarchy
 ## Security Flags
 
 * No access control via user's Role.
-

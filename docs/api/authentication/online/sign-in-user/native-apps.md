@@ -17,6 +17,7 @@ With regards to the [OAuth2 native app flow][1], the application must establish
 
 > ...the use of localhost is NOT RECOMMENDED. Specifying a redirect URI with the loopback IP literal rather than localhost avoids inadvertently listening on network interfaces other than the loopback interface. It is also less susceptible to client-side firewalls and misconfigured hostname resolution on the user's device.
 
+<!-- markdownlint-disable-next-line MD028 -->
 > [!NOTE]
 > All Windows and mobile applications for SuperOffice must adhere to the specification. When registering, you can define any redirection endpoint for the application, but the URL must start with `http://127.0.0.1:{port}/{path}` for IPv4, and `http://[::1]:{port}/{path}` for IPv6.
 

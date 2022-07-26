@@ -26,4 +26,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IFreeTextAgent'
 * [SetEnabled](setenabled.md)
 * [SetMultiWordOperator](setmultiwordoperator.md)
 * [SetSingleWordOperator](setsinglewordoperator.md)
-

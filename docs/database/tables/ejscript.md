@@ -37,7 +37,6 @@ ejscript
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ejscript table relationship diagram](./media/ejscript.png)
 
 [!include[details](./includes/ejscript.md)]
@@ -68,7 +67,6 @@ ejscript
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 |[ticket\_relation\_action](ticket-relation-action.md)  |Contains ticket relation actions, used to drive processing logic together with ticket relations |
 
-
 ## Replication Flags
 
 * None
@@ -76,4 +74,3 @@ ejscript
 ## Security Flags
 
 * No access control via user's Role.
-

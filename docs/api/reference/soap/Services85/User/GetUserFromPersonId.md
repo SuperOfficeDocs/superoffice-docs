@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetUserFromPer
 
 Returns the user associated with the supplied person id
 
-* **personId:** 
-
-
+* **personId:**
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetUserFromPersonId Response
 
@@ -207,4 +204,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

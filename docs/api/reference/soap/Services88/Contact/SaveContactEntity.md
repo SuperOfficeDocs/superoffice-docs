@@ -17,7 +17,6 @@ Updates the existing ContactEntity or creates a new ContactEntity if the id para
 
 **Returns:** New or updated ContactEntity
 
-
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -384,7 +383,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SaveContactEntity Response
 
@@ -757,4 +755,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -64,7 +64,6 @@ Mirror image of the Sale table, providing a full transaction history. Every time
 |reasonSold\_id|Reason why we made the sale|FK [ReasonSold](reasonsold.md)|&#x25CF;|
 |saleTypeCat\_id|Category of sale type, slaved from saletype|FK [SaleTypeCat](saletypecat.md)|&#x25CF;|
 
-
 ![SaleHist table relationship diagram](./media/SaleHist.png)
 
 [!include[details](./includes/salehist.md)]
@@ -113,7 +112,6 @@ Mirror image of the Sale table, providing a full transaction history. Every time
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -123,4 +121,3 @@ Mirror image of the Sale table, providing a full transaction history. Every time
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

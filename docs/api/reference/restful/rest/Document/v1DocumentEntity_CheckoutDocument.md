@@ -11,15 +11,9 @@ POST /api/v1/Document/{documentId}/Lock
 
 Check out a document for editing by the current user.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Check out a document for editing by the current user.
 ```http
 POST /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 ```
-
 
 ## Request Headers
 
@@ -45,10 +38,7 @@ POST /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,10 +13,6 @@ Update the criteria for this dynamic selection.
 
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Replaces existing criteria with the new values. This call supports multiple crit
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, Criteria 
+SelectionId, Criteria
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Criteria | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

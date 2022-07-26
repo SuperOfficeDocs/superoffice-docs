@@ -9,12 +9,15 @@ so.category: list
 so.area: api-services
 ---
 
-## How to get list entity by name
+# How to get list entity by name
+
+<!-- markdownlint-disable-file MD051 -->
 
 The List endpoint, as exposed by the Agent API and proxy clients, uses Named lists, or methods, to obtain a list entity and list items.
 
 The follow examples demonstrate how to get the Category list entity.
-# [RESTful REST API](#tab/list-entity-restful-rest)
+
+## [RESTful REST API](#tab/list-entity-restful-rest)
 
 ```http
 GET https://{{env}}.superoffice.com/{{tenant}}/api/v1/List/Category
@@ -22,7 +25,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-# [RESTful Agent API](#tab/list-entity-agent-rest)
+## [RESTful Agent API](#tab/list-entity-agent-rest)
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/List/GetListEntityByName HTTP/1.1
@@ -35,7 +38,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [WebApi Proxy API](#tab/list-entity-webapi-proxy)
+## [WebApi Proxy API](#tab/list-entity-webapi-proxy)
 
 Get a list entity using the [SuperOffice.WebApi][1] proxy client.
 

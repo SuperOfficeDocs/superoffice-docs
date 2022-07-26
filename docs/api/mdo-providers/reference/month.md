@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "month" MDO List
+
 MDO provider for the hard-coded list of "of" months in the recurrence dialog.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.MonthProvider">MonthProvider</see> class.
 The name of the MDO list is 'month'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("month", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,7 +57,6 @@ foreach (var item in listProvider.RootItems) {
 |10|October|||
 |11|November|||
 |12|December|||
-
 
 ## Related MDO Lists
 

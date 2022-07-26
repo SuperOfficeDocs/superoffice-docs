@@ -13,11 +13,6 @@ Publish the ContactEntity user-defined field layout.
 
 This will trigger movement of field data etc.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,17 +26,13 @@ This will trigger movement of field data etc.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

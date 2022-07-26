@@ -51,4 +51,3 @@ Download [WSDL file for Services84/Sale](../Services84-Sale.md) if you need to g
 * [SetAsLost](SetAsLost.md)
 * [SetAsSold](SetAsSold.md)
 * [UpdateSaleStakeholders](UpdateSaleStakeholders.md)
-

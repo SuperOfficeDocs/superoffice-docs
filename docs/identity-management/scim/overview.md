@@ -124,7 +124,7 @@ HTTP/1.1 201 Created
    }
 ```
 
-*Source: RFC 7844, section 3,3*
+*Source: RFC 7844, section 3,3.*
 
 ## Why use SCIM?
 

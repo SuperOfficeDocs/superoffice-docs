@@ -52,8 +52,6 @@ The main point to take away from this tutorial is that you can extend and use th
 
 <!-- Referenced links -->
 [1]: 1-add-fk-datagrid-to-sale-page.md
-[2]: 2-create-sale-datahandler.md
-[3]: 3-create-custom-mdo-control.md
 
 <!-- Referenced images -->
 [img1]: media/image018.jpg

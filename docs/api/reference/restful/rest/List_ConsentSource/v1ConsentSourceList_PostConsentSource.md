@@ -13,11 +13,6 @@ Create a new ConsentSource list item
 
 Calls the List agent service SaveConsentSource.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveConsentSource.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ConsentSource to be created. 
+The ConsentSource to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +40,6 @@ The ConsentSource to be created.
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-
 
 ## Response: object
 

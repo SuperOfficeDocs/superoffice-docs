@@ -13,11 +13,6 @@ Set default values into a new SaintConfiguration.
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +26,9 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Definition of the three perionds for status monitors and some other settings per saint entity
-
-
 
 Carrier object for SaintConfiguration.
 Services for the SaintConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.

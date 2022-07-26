@@ -32,7 +32,6 @@ Usage statistics
 |data4|Data field|Int|&#x25CF;|
 |data5|Data field|Int|&#x25CF;|
 
-
 ![UsageStats table relationship diagram](./media/UsageStats.png)
 
 [!include[details](./includes/usagestats.md)]
@@ -50,7 +49,6 @@ Usage statistics
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ Usage statistics
 ## Security Flags
 
 * No access control via user's Role.
-

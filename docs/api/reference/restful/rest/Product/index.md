@@ -6,9 +6,6 @@ title: Product
 /api/v1/Product
 ```
 
-
-
-
 * [GET Product/default](v1Product_DefaultProduct.md)
 
 * [GET Product](v1Product_GetAll.md)

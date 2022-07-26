@@ -13,17 +13,11 @@ Validate a Trigger CRMScript.
 
 This will check that the syntax is correct, but not execute the script.
 
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | triggerScriptUniqueId | string | The unique id of the CRMScript to validate **Required** |
-
-
 
 ## Request Headers
 
@@ -38,12 +32,9 @@ This will check that the syntax is correct, but not execute the script.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Object for returning information when validating a CRMScript
-
-
 
 Carrier object for CRMScriptResult.
 Services for the CRMScriptResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.

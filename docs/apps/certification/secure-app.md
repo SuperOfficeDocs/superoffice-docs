@@ -31,7 +31,7 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 
 4. We run a quick verification to confirm that you are ready for Watchcom.
 
-5. We prepare a _Handover_ document and send it to Watchcom. It explains:
+5. We prepare a **Handover document** and send it to Watchcom. It explains:
 
     * What does the application add?
     * How does the application work with SuperOffice?

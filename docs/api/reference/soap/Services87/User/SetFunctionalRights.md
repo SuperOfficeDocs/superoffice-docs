@@ -12,12 +12,10 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SetFunctionalR
 ## SetFunctionalRights
 
 Set all functional rights for the given role. Functional rights not specified here will be removed from the role.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleId:** The role id to set the functional rights for
 * **functionalRightIds:** An array of functional rights ids to set for this role. Rights not included here are removed from the role.
-
-
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -54,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetFunctionalRights Response
 
 ```xml
@@ -74,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

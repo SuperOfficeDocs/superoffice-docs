@@ -31,7 +31,6 @@ One batch of changes made to targets
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![target_revision table relationship diagram](./media/target_revision.png)
 
 [!include[details](./includes/target-revision.md)]
@@ -52,7 +51,6 @@ One batch of changes made to targets
 |[target\_change](target-change.md)  |A single field change. |
 |[target\_revision\_history](target-revision-history.md)  |Revision history info in case the original target group or assignment info was deleted |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ One batch of changes made to targets
 ## Security Flags
 
 * No access control via user's Role.
-

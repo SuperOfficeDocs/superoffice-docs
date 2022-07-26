@@ -35,7 +35,6 @@ Publishing system for external users
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![Publish table relationship diagram](./media/Publish.png)
 
 [!include[details](./includes/publish.md)]
@@ -54,7 +53,6 @@ Publishing system for external users
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Publishing system for external users
 ## Security Flags
 
 * No access control via user's Role.
-

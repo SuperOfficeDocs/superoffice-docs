@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetTicketStatusEntity
 
 Gets a TicketStatusEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a TicketStatusEntity object.
 POST /api/v1/Agents/List/GetTicketStatusEntity?ticketStatusEntityId=599
 POST /api/v1/Agents/List/GetTicketStatusEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetTicketStatusEntity?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Entity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.
-
-
 
 Carrier object for TicketStatusEntity.
 Services for the TicketStatusEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

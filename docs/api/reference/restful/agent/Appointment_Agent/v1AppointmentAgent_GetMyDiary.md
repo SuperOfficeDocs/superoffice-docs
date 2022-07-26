@@ -13,10 +13,6 @@ Method that returns a specified number of appointments within a time range.
 
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the currently logged on user.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ It only returns appointments that would be displayed in the user's diary. The ap
 ```http
 POST /api/v1/Agents/Appointment/GetMyDiary?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Appointment/GetMyDiary?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StartTime, EndTime, Count 
+StartTime, EndTime, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +47,7 @@ StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

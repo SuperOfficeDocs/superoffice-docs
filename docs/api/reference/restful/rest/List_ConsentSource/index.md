@@ -6,9 +6,6 @@ title: List_ConsentSource
 /api/v1/List/ConsentSource
 ```
 
-
-
-
 * [GET List/ConsentSource](v1ConsentSourceList_GetListDefinition.md)
 
 * [PUT List/ConsentSource](v1ConsentSourceList_SetListDefinition.md)

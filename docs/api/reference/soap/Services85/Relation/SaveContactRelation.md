@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IRelationAgent.SaveContac
 
 Creates a new or updates an existing contact relation.
 
-* **contactRelationEntity:** 
-
-
+* **contactRelationEntity:**
 
 [WSDL file for Services85/Relation](../Services85-Relation.md)
 
@@ -91,7 +89,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveContactRelation Response
 
 ```xml
@@ -154,4 +151,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

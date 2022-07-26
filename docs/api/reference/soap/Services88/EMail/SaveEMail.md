@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.SaveEMail">Su
 ## SaveEMail
 
 Save the passed e-mail back to the server
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **email:** The e-mail to save
 
 **Returns:** The updated saved entity
-
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -213,7 +212,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveEMail Response
 
 ```xml
@@ -388,4 +386,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

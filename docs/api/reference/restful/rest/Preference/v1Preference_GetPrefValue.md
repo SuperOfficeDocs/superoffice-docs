@@ -13,15 +13,10 @@ Gets the preference value for specific section + key.
 
 Returns the value defined closest to the user. Calls the Preference agent service GetPreferenceByName.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
 | key | string | The name of the preference key. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,12 +31,9 @@ Returns the value defined closest to the user. Calls the Preference agent servic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.
-
-
 
 Carrier object for Preference.
 Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.

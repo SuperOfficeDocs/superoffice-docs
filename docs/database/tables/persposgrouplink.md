@@ -30,7 +30,6 @@ User group link table for PersPos, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PersPosGroupLink table relationship diagram](./media/PersPosGroupLink.png)
 
 [!include[details](./includes/persposgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for PersPos, for MDO item hiding
 |[PersPos](perspos.md)  |PersPos list table. Contact person position list |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for PersPos, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

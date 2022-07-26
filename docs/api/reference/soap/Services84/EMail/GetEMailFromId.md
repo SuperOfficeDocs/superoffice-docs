@@ -15,12 +15,11 @@ Get en e-mail based on its unique id
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **messageServerId:** Unique ID for the e-mail to retrieve
-* **lookupAddresses:** If true try to look up e-mail addresses in from/to/cc/bcc fields against superoffice contacts
+* **lookupAddresses:** If true try to look up e-mail addresses in from/to/cc/bcc fields against SuperOffice contacts
 * **flags:** Any flags to apply to the fetched item. Ex: Seen/Answered
 * **includeAttachments:** Should we retrieve attachments embedded in the e-mail from the server
 
 **Returns:** The e-mail
-
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -63,7 +62,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetEMailFromId Response
 
@@ -236,4 +234,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

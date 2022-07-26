@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetLink
 
 Gets a Link object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a Link object.
 POST /api/v1/Agents/List/GetLink?linkId=398
 POST /api/v1/Agents/List/GetLink?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetLink?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Links two entities (contacts/projects/sales/URLs) together.
-
-
 
 Carrier object for Link.
 Services for the Link Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

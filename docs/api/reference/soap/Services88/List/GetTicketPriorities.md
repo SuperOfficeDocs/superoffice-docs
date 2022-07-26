@@ -11,11 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetTicketPrior
 
 ## GetTicketPriorities
 
-
-
-
-
-
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetTicketPriorities Response
 
 ```xml
@@ -74,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/SaveDraft
 
 Save the Email entity to the drafts folder
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Save the Email entity to the drafts folder
 ```http
 POST /api/v1/Agents/EMail/SaveDraft?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,20 +37,17 @@ POST /api/v1/Agents/EMail/SaveDraft?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Entity 
+Entity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Entity |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-
+| Entity |  | All information about an e-mail <br /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
 ## Response: object
 
 All information about an e-mail
-
-
 
 Carrier object for EMailEntity.
 Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

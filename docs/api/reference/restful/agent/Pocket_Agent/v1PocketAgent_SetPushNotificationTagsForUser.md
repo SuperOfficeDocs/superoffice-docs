@@ -13,10 +13,6 @@ Specify what kind of notification events a user should receive push notification
 
 This will update all registerred devices for this user.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ This will update all registerred devices for this user.
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForUser?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +32,16 @@ POST /api/v1/Agents/Pocket/SetPushNotificationTagsForUser?$select=name,departmen
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId, Tags 
+AssociateId, Tags
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | Tags | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

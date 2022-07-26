@@ -30,7 +30,6 @@ User group link table for ReasonSold, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ReasonSoldGroupLink table relationship diagram](./media/ReasonSoldGroupLink.png)
 
 [!include[details](./includes/reasonsoldgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for ReasonSold, for MDO item hiding
 |[ReasonSold](reasonsold.md)  |Why was the sale marked as sold (why did we succeed) |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for ReasonSold, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -17,7 +17,6 @@ Updates the existing AppointmentEntity or creates a new AppointmentEntity if the
 
 **Returns:** New or updated AppointmentEntity
 
-
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -454,7 +453,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveAppointmentEntity Response
 
 ```xml
@@ -879,4 +877,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Communication channel leading to ticket being created
 
 | Origin | Comment |

@@ -32,7 +32,6 @@ Personal quick reply text fragments
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![quick_reply table relationship diagram](./media/quick_reply.png)
 
 [!include[details](./includes/quick-reply.md)]
@@ -50,7 +49,6 @@ Personal quick reply text fragments
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ Personal quick reply text fragments
 ## Security Flags
 
 * No access control via user's Role.
-

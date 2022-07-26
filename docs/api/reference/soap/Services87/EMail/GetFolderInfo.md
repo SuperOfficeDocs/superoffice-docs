@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetFolderInfo
 ## GetFolderInfo
 
 Retrieve information about folders.  If folders parameter is not specified(null), information about all subscribed folders will be returned.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **folders:** Folders to get information about.
 
 **Returns:** Folder information
-
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetFolderInfo Response
 
 ```xml
@@ -92,4 +90,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

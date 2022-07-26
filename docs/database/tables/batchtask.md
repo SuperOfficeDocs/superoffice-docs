@@ -41,7 +41,6 @@ Batch task request details, corresponding to the message body of a batch request
 |updatedCount|&apos;heartbeat&apos; that is updated once a minute by the batch task process|UShort| |
 |FileName|The filename related to the batchtask.|String(260)|&#x25CF;|
 
-
 ![BatchTask table relationship diagram](./media/BatchTask.png)
 
 [!include[details](./includes/batchtask.md)]
@@ -61,7 +60,6 @@ Batch task request details, corresponding to the message body of a batch request
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[BatchTaskDefinition](batchtaskdefinition.md)  |Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute |
 
-
 ## Replication Flags
 
 * None
@@ -69,4 +67,3 @@ Batch task request details, corresponding to the message body of a batch request
 ## Security Flags
 
 * No access control via user's Role.
-

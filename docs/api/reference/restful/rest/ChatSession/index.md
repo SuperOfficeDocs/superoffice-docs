@@ -6,9 +6,6 @@ title: ChatSession
 /api/v1/ChatSession
 ```
 
-
-
-
 * [GET ChatSession/default](v1ChatSessionEntity_DefaultChatSessionEntity.md)
 
 * [GET ChatSession](v1ChatSessionEntity_GetAll.md)

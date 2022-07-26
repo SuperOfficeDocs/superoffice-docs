@@ -11,12 +11,6 @@ POST /api/v1/Agents/Ticket/GetAttachmentEntity
 
 Gets a AttachmentEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a AttachmentEntity object.
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=261
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The Attachment carrier represent meta data for a Service attachment
-
-
 
 Carrier object for AttachmentEntity.
 Services for the AttachmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.

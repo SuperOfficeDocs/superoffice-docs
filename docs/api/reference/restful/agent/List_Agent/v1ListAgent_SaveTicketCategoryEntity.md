@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveTicketCategoryEntity
 
 Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The TicketCategoryEntity to be saved. 
+The TicketCategoryEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,12 +49,9 @@ The TicketCategoryEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
 ## Response: object
 
 This entity describes the meta data for a ticket category, and provides special operations on it.
-
-
 
 Carrier object for TicketCategoryEntity.
 Services for the TicketCategoryEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

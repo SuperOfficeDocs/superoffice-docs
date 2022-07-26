@@ -13,11 +13,6 @@ POST /api/v1/ChatSession/Pickup
 
 The welcome message is sent to the customer.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +26,9 @@ The welcome message is sent to the customer.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Chat sessions belong to a chat topic, and contain messages to/from users
-
-
 
 Carrier object for ChatSessionEntity.
 Services for the ChatSessionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

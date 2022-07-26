@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 Has a pre-calculated value been overriden in a QuoteAlternative or QuoteLine, and in that case what & how?
 
 used in: QuoteAlternative.UserValueOverride; QuoteLine.UserValueOverride

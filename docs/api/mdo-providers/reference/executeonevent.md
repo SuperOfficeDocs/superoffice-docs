@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "executeonevent" MDO List
+
 List of windows client events to execute tasks on: Logon, Logoff, LocalUpdate
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ExecuteOnEventProvider">ExecuteOnEventProvider</see> class.
 The name of the MDO list is 'executeonevent'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("executeonevent", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |1|SuperOffice CRM starts|||
 |2|SuperOffice CRM exits|||
 |3|Local Update|||
-
 
 ## Related MDO Lists
 

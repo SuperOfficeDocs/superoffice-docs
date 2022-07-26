@@ -32,7 +32,6 @@ User-defined fields for contact (long strings)
 |string48|string value 48, not indexed|String(199)|&#x25CF;|
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
-
 ![udcontactLarge table relationship diagram](./media/udcontactLarge.png)
 
 [!include[details](./includes/udcontactlarge.md)]
@@ -53,7 +52,6 @@ User-defined fields for contact (long strings)
 |------|-------------|
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -63,4 +61,3 @@ User-defined fields for contact (long strings)
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

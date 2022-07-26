@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SaveFromListName
 
 Save a list item for the specified list defintion
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save a list item for the specified list defintion
 ```http
 POST /api/v1/Agents/List/SaveFromListName?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,22 +35,19 @@ POST /api/v1/Agents/List/SaveFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Id, UdListDefinitionName, Item 
+Id, UdListDefinitionName, Item
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | UdListDefinitionName | string |  |
-| Item |  | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
-
+| Item |  | The list item entity contains generic list item information <br /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
 ## Response: object
 
 The list item entity contains generic list item information
-
-
 
 Carrier object for ListItemEntity.
 Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

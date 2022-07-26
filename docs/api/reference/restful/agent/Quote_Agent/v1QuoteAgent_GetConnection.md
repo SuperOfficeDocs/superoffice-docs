@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetConnection
 
 Returns the specified connection.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns the specified connection.
 ```http
 POST /api/v1/Agents/Quote/GetConnection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Quote/GetConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteConnectionId 
+QuoteConnectionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 
-
 ## Response: object
 
 Information about a connection to the ERP system.
-
-
 
 Carrier object for QuoteConnection.
 Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

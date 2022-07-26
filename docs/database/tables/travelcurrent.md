@@ -46,7 +46,6 @@ Information about this database and its place in the hierarchy
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![travelcurrent table relationship diagram](./media/travelcurrent.png)
 
 [!include[details](./includes/travelcurrent.md)]
@@ -64,7 +63,6 @@ Information about this database and its place in the hierarchy
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[traveltransactionlog](traveltransactionlog.md)  |Log of all updates made to the database, that need to be replicated. |
 
-
 ## Replication Flags
 
 * None
@@ -72,4 +70,3 @@ Information about this database and its place in the hierarchy
 ## Security Flags
 
 * No access control via user's Role.
-

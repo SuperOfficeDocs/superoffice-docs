@@ -23,6 +23,7 @@ Data provider class for the 'Relation' archive under the person card. This class
 the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) into one data stream.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"relation"|[Relation]|
@@ -30,6 +31,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |"stop"|Companies flagged with Stop|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -491,7 +493,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

@@ -33,7 +33,6 @@ Priority list table. Used with appointments; low, high.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![Priority table relationship diagram](./media/Priority.png)
 
 [!include[details](./includes/priority.md)]
@@ -54,7 +53,6 @@ Priority list table. Used with appointments; low, high.
 |[PriorityGroupLink](prioritygrouplink.md)  |User group link table for Priority, for MDO item hiding |
 |[PriorityHeadingLink](priorityheadinglink.md)  |Heading link table for Priority, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Priority list table. Used with appointments; low, high.
 ## Security Flags
 
 * No access control via user's Role.
-

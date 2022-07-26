@@ -44,7 +44,7 @@ so.topic: reference
 | snum | Ascending serial number (different for every template) |
 | time | Time in short format, for example, 12:10 |
 | ver# | SuperOffice CRM's version number |
-| vern | NetServer full name "Netserver 7.1 (Debug) 7.1.200.300" |
+| vern | NetServer full name "NetServer 7.1 (Debug) 7.1.200.300" |
 | yref | Your reference |
 
 > [!NOTE]

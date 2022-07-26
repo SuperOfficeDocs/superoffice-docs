@@ -18,7 +18,6 @@ Set rank order on status monitors
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services85/Saint](../Services85-Saint.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetRankOnStatusMonitors Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

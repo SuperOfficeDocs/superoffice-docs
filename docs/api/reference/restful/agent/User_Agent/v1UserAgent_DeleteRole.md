@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/DeleteRole
 
 Delete the specified role and move all users associated with the role to the replacingRoleId
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ Delete the specified role and move all users associated with the role to the rep
 POST /api/v1/Agents/User/DeleteRole?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -39,18 +32,16 @@ POST /api/v1/Agents/User/DeleteRole?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-RoleIdToDelete, ReplacingRoleId 
+RoleIdToDelete, ReplacingRoleId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleIdToDelete | int32 |  |
 | ReplacingRoleId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

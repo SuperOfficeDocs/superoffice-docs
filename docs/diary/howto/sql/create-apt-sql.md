@@ -14,6 +14,7 @@ so.topic: howto
 2. Insert a text record for the appointment text.
 3. Insert a VisibleFor record that points to the appointment record.
 
+<!-- markdownlint-disable-file MD013 -->
 ## Create the appointment
 
 ```SQL

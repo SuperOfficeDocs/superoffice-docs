@@ -9,11 +9,12 @@ so.category: list
 so.area: api-services
 ---
 
-## How to create a list
+<!-- markdownlint-disable-file MD051 -->
+# How to create a list
 
 To create a list, use the `Lists` endpoint.
 
-# [RESTful REST API](#tab/lists-restful-rest)
+## [RESTful REST API](#tab/lists-restful-rest)
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/List HTTP/1.1
@@ -28,7 +29,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-**Response**
+**Response:**
 
 ```json
 {
@@ -50,7 +51,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [RESTful Agent API](#tab/lists-restful-agent)
+## [RESTful Agent API](#tab/lists-restful-agent)
 
 Use the `CreateDefaultListEntity` to get the default list JSON structure, then use the SaveListEntity endpoint to persist the new list.
 
@@ -60,7 +61,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-**Response**
+**Response:**
 
 ```json
 {
@@ -93,7 +94,7 @@ Content-Type: application/json
 }
 ```
 
-**Response**
+**Response:**
 
 ```json
 Response
@@ -113,7 +114,7 @@ Response
 }
 ```
 
-# [WebApi Proxy API](#tab/lists-webapi-proxy)
+## [WebApi Proxy API](#tab/lists-webapi-proxy)
 
 Create a list entity using the [SuperOffice.WebApi][1] proxy client.
 

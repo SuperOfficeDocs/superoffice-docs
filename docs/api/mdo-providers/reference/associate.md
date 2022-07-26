@@ -15,10 +15,8 @@ so.envir:
 ---
 
 # "associate" MDO List
+
 The name of the MDO list is 'associate'.
-
-
-
 
 ## Sample Request
 
@@ -31,6 +29,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("associate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -64,7 +63,6 @@ foreach (var item in listProvider.RootItems) {
 |87|Kjell Jensen|||
 |81|Listadm Listadm|||
 |84|Localuser2 Localuser2|||
-
 
 ## Related MDO Lists
 

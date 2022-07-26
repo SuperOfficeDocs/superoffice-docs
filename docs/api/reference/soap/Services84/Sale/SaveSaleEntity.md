@@ -17,7 +17,6 @@ Updates the existing SaleEntity or creates a new SaleEntity if the id parameter 
 
 **Returns:** New or updated SaleEntity
 
-
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -356,7 +355,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveSaleEntity Response
 
 ```xml
@@ -683,4 +681,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

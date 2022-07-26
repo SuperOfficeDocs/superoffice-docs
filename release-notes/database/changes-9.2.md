@@ -11,6 +11,7 @@ so.envir:
   - "onsite"
   - "online"
 ---
+<!-- markdownlint-disable-file MD036 -->
 
 # Released database changes in version 9.8.7717.1401
 
@@ -57,7 +58,6 @@ userName
 
 Minor update in ZipCity; update of preference descriptions; update of FI address layout; update of SuperOffice data for SW, DA, GE
 
-
 **Step 27**
 
 Preference Description update with Service mappings and new rank/group fields; also cleanup of obsolete Counter preferences (#63450)
@@ -77,7 +77,6 @@ Add the Tags MDO list, a new Function Right to directly define tags, and assign 
 
 Reload the CacheTabs table, to add new lists
 
-
 **Step 30**
 
 It is now possible to turn off trailing-whitespace trimming of string fields in the database; and specify this and TimeZone processing in a generic manner
@@ -93,11 +92,9 @@ name
 
 Preference descriptions for the R project
 
-
 **Step 32**
 
 Transfer any password rules set in the now-obsolete preference System/PasswordPolicy into the password_rules table with id=1
-
 
 **Step 33**
 
@@ -110,11 +107,9 @@ includeSignature, showCurrents, senderEmailMode, senderEmailAddress
 
 Re-add the Tags MDO list in UdListDefinition table.
 
-
 **Step 35**
 
 Preference descriptions for the R project
-
 
 **Step 36**
 
@@ -127,36 +122,29 @@ ownerTable, ownerRecord, group\_id, configurationName
 
 Preference descriptions for invitation support
 
-
 **Step 38**
 
 Preference descriptions for invitation support and cleanup of UserPreference table
-
 
 **Step 39**
 
 New preference: default appointment type for incoming invitations
 
-
 **Step 40**
 
 This step has been made obsolete by later changes
-
 
 **Step 41**
 
 This step has been made obsolete by later changes
 
-
 **Step 42**
 
 Updated preferences, and translated name of functional right to create Tags
 
-
 **Step 43**
 
 Updated ZipCity for Norway
-
 
 **Step 44**
 
@@ -176,7 +164,6 @@ cautionWarning
 **Step 46**
 
 Updated preferences
-
 
 **Step 47**
 
@@ -204,7 +191,6 @@ suggestedCategory\_id
 
 Fix inconsistent Main Contact (supportPersonId) after bug in Sales.Web GUI
 
-
 **Step 51**
 
 Add a virtual field on contact (dotsyntax)
@@ -223,7 +209,6 @@ invitationDocType, privacyDocType
 
 Update Red Letter Days, table is overwritten, adding Red days for 2005-2030 for 23 countries
 
-
 **Step 54**
 
 Add a virtual field on person and contact (dotsyntax): emailLastBounce
@@ -237,10 +222,9 @@ emailLastBounce
 
 Reset bounceCount and lastBounce on the Email table for rows where lastBounce is before the start of year 2020
 
-
 **Step 56**
 
-Remove several sections and some individual preferences, that were only relevant to the Windows client. 
+Remove several sections and some individual preferences, that were only relevant to the Windows client.
 Remove never-used fields in searchcriterionvalue and replace with a string field for valueType
 
 * [Modify table searchcriterionvalue](../../docs/database/tables/searchcriterionvalue.md)
@@ -270,7 +254,6 @@ updatedCount
 
 Update SOCompany information for new Online databases based on what is in the template and what data is wanted spring 2020
 
-
 **Step 60**
 
 Add mother_associate_id to appointments to optimize logic that depends on the owner of the mother appointment
@@ -291,36 +274,29 @@ contact\_id
 
 New preference for disabling Image editor in Unlayer mailings editor
 
-
 **Step 63**
 
 New functional right for hiding Service and Mailings button and screen
-
 
 **Step 64**
 
 New preference for invitations, no tentative appointments for others
 
-
 **Step 65**
 
 New preference for mailing, disable image library for royalty-free images
-
 
 **Step 66**
 
 Add starting 0 to german zipcodes where it missed. Update N_List for US, remove duplicate MrMrs.
 
-
 **Step 67**
 
 , Remove duplicate of LowerLimitsaletypecat, new preference for mailing, disable image library for royalty-free images, translations
 
-
 **Step 68**
 
 , New preference for document dialog in SOFO (and possible later OML, GmailLink and WEB)
-
 
 ## chat
 
@@ -464,21 +440,17 @@ ConsentSourceId, LegalBaseId
 
 Set the #STORE consent on all person records that do not already have it; we assume that all persons in the customers database are there for a legitimate reason
 
-
 **Step 16**
 
 As we now set the #STORE consent on all person records that do not already have it, we also set a default consent and legal base for new persons, thus we set the Default legal base preference.
-
 
 **Step 22**
 
 Remove confirmation mail links for consent sources where SuperOffice does not send privacy confirmation email by design.
 
-
 **Step 23**
 
 Update document template to sync emailmode with privacytype
-
 
 ## CRMScript
 
@@ -573,11 +545,9 @@ tags, contact\_id
 
 Transfer mobile phone from ticket to person if no phone on person
 
-
 **Step 10**
 
 Set ticket.contact_id to be consistent with ticket.cust_id.contact_id; and copy the person classifiers (associate_id, group_id, business_idx, category_idx) from contact to person unless person.contact_id = 0
-
 
 **Step 11**
 
@@ -597,7 +567,6 @@ attachment\_location\_id
 **Step 13**
 
 Create and enable password rules if they have not been changed from the default
-
 
 **Step 14**
 
@@ -646,7 +615,6 @@ Create new table for storing customer center styling and configuration options
 **Step 2**
 
 Prime in default Customer Center Config
-
 
 ## forms
 
@@ -767,7 +735,6 @@ cal\_data
 
 Ensure all email-IDs used as foreignkeys in the foreignkey-table are enclosed in tags. Update all rows as needed, in one operation
 
-
 ## invitation
 
 Adds support for invitations (iCal) leading to appointments
@@ -786,7 +753,6 @@ organizer\_email, organizer\_fullname, recurring\_end\_date
 **Step 3**
 
 Set preference "Diary sync active" if Infobridge synchronizer seem to be in use.
-
 
 **Step 4**
 
@@ -824,7 +790,6 @@ flags
 
 Remove the old SOEditor mailing templates for new Online installations
 
-
 **Step 4**
 
 Change type of S_Shipment.Status to a defined enum called ShipmentStatus and change type of (S_Link_Customer/S_Link_Customer_Statical).LinkType to ShipmentLinkType.
@@ -839,7 +804,6 @@ link\_type
 ## NewSelection
 
 The typical search table is an owner of a set of predefined selection criteria
-
 
 **Step 2**
 
@@ -871,11 +835,9 @@ chartKey, lastLoaded, lastLoadedBy, lastMembershipChange, lastMembershipChangeBy
 
 SelectionForFind creates a dynamic selection for each entity/associate as needed; they were missing the required VisibleFor row; those are added here
 
-
 **Step 7**
 
 Update targetTableNumber to 5 where it was 0, and reset membercounts to -1 where we have no recent data
-
 
 **Step 8**
 
@@ -900,7 +862,6 @@ Add table OnlineApp, to echo information about authorizations and usage. Optimiz
 **Step 2**
 
 Deleting obsolete counter-preferences
-
 
 ## Pocket
 
@@ -934,11 +895,9 @@ flags
 
 Change value of registry entry for maximum width of components
 
-
 **Step 3**
 
 Make sure the row with id=1 in ejuser contains the '(System)' user
-
 
 ## SubscriptionMgmt
 
@@ -990,4 +949,3 @@ waiting\_for\_approval
 The **Webhook** table keeps track of the **Target\_URL** where we will dispatch HTTP POST notificationsof events that happen in SuperOffice. The webhook state should be ACTIVE(1). If too many errors are received when we try to POST to the TargetUrl, then the webhook state is changed to TOO-MANY-ERRORS(3).
 
 * [Add table Webhook](../../docs/database/tables/webhook.md)
-

@@ -112,7 +112,7 @@ Load a text file and run SQL statements in it. Statements are separated/terminat
 Create or update the free-text index on an existing 8.1+ database. The same function is available in the Admin client.
 
 > [!NOTE]
-> To perform this task, the superoffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
+> To perform this task, the SuperOffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
 
 ## Rebuild SAINT counters and statuses (8.1+)
 
@@ -121,7 +121,7 @@ Perform a total rebuild of the SAINT counters, and subsequently the SAINT status
 This task may also be automated by using the Travel gateway service.
 
 > [!NOTE]
-> To perform this task, the superoffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
+> To perform this task, the SuperOffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
 
 ## Recalculate Next Due Date for all Sales (8.1+)
 

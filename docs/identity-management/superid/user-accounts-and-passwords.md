@@ -52,5 +52,5 @@ SuperID supports using **3rd-party federated sign-in** services as an add-on. 
 | Model | Password granularity | Password type | Password storage | Password management | Authentication |
 |-----------|-------------|-----------|-------------|-----------|-------------|
 | Standard (before) | one-to-one | text string or key phrase | in the database of a specific tenant | admin client of the tenant | email address or username + password for 1 specific tenant |
-| SuperID - basic | one-to-many | text string or key phrase | centrally | id.superoffice.com | SuperID user account |
+| SuperID - basic | one-to-many | text string or key phrase | centrally | id.SuperOffice.com | SuperID user account |
 | SuperID - federated | one-to-many | up to the identity provider | Microsoft or Google | identity provider | Microsoft or Google account |

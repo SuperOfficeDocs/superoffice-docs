@@ -13,11 +13,6 @@ Set default values into a new PreferenceDescription.
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Preference agent service CreateDefaultPreferenceDescription.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,12 +26,9 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
-
-
 
 Carrier object for PreferenceDescription.
 Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.

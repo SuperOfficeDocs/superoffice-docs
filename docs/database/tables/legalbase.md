@@ -33,7 +33,6 @@ Legal base for GDPR (Article 6)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![LegalBase table relationship diagram](./media/LegalBase.png)
 
 [!include[details](./includes/legalbase.md)]
@@ -52,7 +51,6 @@ Legal base for GDPR (Article 6)
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,4 +60,3 @@ Legal base for GDPR (Article 6)
 ## Security Flags
 
 * No access control via user's Role.
-

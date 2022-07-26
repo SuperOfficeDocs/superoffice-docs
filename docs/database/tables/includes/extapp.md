@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Value for the availableInState field in table ExtApp
 
 The enums here may be combined.

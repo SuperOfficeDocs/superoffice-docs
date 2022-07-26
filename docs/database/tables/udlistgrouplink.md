@@ -30,7 +30,6 @@ User group link table for UDList, for MDO item hiding. Note - MDO mode for userd
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![UDListGroupLink table relationship diagram](./media/UDListGroupLink.png)
 
 [!include[details](./includes/udlistgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for UDList, for MDO item hiding. Note - MDO mode for userd
 |[UDList](udlist.md)  |List table for user-defined lists, contains all user-defined lists. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for UDList, for MDO item hiding. Note - MDO mode for userd
 ## Security Flags
 
 * No access control via user's Role.
-

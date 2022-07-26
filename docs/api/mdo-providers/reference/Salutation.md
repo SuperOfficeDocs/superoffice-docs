@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "salutation" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'salutation'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("salutation", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -68,7 +65,6 @@ foreach (var item in listProvider.RootItems) {
 |34|Dr. Techn.|||
 |35|Dr. Theol.|||
 |41|Sivilingeniør|||
-
 
 ## Related MDO Lists
 

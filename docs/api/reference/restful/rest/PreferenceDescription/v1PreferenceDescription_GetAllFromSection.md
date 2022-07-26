@@ -11,16 +11,9 @@ GET /api/v1/PreferenceDescription/{section}
 
 Gets all PreferenceDescription-items in the specified section
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Gets all PreferenceDescription-items in the specified section
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

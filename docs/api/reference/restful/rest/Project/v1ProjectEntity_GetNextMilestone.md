@@ -11,16 +11,9 @@ GET /api/v1/Project/{projectId}/NextMilestone
 
 Next upcoming milestone appointment
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | projectId | int32 | Project id - primary key **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +28,9 @@ Next upcoming milestone appointment
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Simple read-only appointment data.
-
-
 
 Carrier object for Appointment.
 Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.

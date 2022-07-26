@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
 
 Gets a SuggestedDocumentEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a SuggestedDocumentEntity object.
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=468
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,7 +35,6 @@ POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

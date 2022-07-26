@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Value for field type in traveltransctionlog
 
 This is the type of update the log record refers to.  Valid types are:

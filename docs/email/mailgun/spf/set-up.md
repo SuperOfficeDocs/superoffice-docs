@@ -77,5 +77,4 @@ We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches
 [img1]: media/image.png
 [img2]: media/2a906f41-12d9-450b-b38f-9c6b62ed18ec.png
 [img3]: media/8e28749e-be90-498f-ad22-584bff9d37b5.png
-[img4]: media/image.png
 [img5]: media/image7mle8.png

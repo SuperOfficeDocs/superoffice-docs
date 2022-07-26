@@ -6,9 +6,6 @@ title: List_Item
 /api/v1/List/Item
 ```
 
-
-
-
 * [GET List/{id}/Items/{id}/UserGroups](v1ListItemEntity_GetVisibleForUserGroups.md)
 
 * [PUT List/{id}/Items/{id}/UserGroups](v1ListItemEntity_SetVisibleForUserGroups.md)

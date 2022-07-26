@@ -30,7 +30,6 @@ User group link table for Comptr, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ComptrGroupLink table relationship diagram](./media/ComptrGroupLink.png)
 
 [!include[details](./includes/comptrgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for Comptr, for MDO item hiding
 |[Comptr](comptr.md)  |Comptr list table. List of all possible competitors (sale). |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for Comptr, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

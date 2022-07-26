@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/CheckTemporaryKey
 
 Check a temporary key for validity, and in case it is valid, return its domain, targetId and personId
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Check a temporary key for validity, and in case it is valid, return its domain, 
 ```http
 POST /api/v1/Agents/Person/CheckTemporaryKey?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Person/CheckTemporaryKey?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TemporaryKey 
+TemporaryKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemporaryKey | string |  |
 
-
 ## Response: object
 
 The fields returned when checking a temporary key
-
-
 
 Carrier object for TemporaryKeyInfo.
 Services for the TemporaryKeyInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.

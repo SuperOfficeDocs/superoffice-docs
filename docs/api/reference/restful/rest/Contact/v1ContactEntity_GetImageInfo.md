@@ -13,14 +13,9 @@ Get the Blob that describes the given contact's picture.
 
 The actual bitmap is accessible via /api/v1/contact/123/image.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +29,6 @@ The actual bitmap is accessible via /api/v1/contact/123/image.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

@@ -13,10 +13,6 @@ Gets the persons working in the same company as the logged on user.
 
 The list of person could be retrieved from the history list, the diary view list, or from all sources.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The list of person could be retrieved from the history list, the diary view list
 ```http
 POST /api/v1/Agents/Person/GetColleaguesBySource?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Person/GetColleaguesBySource?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SourceType, Count 
+SourceType, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceType | string |  |
 | Count | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -38,7 +38,7 @@ The current system is one of the fundamental pieces used to drive the applicatio
 
 ## Getting started
 
-The general idea for this article is to demonstrate the fundamental concepts involved with the SuperOffice web client application design. I'll do this by building a new dialog, populating some controls in the dialog with data, and then demonstrate how to save the changes back to the database.  
+The general idea for this article is to demonstrate the fundamental concepts involved with the SuperOffice web client application design. I'll do this by building a new dialog, populating some controls in the dialog with data, and then demonstrate how to save the changes back to the database.
 I’ll discuss the different components that make up the architecture, seen in the above figure and attempt to show where and how each is used. I’ll discuss how they apply to the SuperOffice Web Client architecture, and introduce topics such as page configuration, built-in controls, custom controls, data handlers, and data carriers.
 
 ## Page Configuration – the Inevitable View

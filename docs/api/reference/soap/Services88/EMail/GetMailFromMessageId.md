@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetMailFromMe
 ## GetMailFromMessageId
 
 Get email from db based on Message Id
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **messageId:** The message id
 
 **Returns:** EMailEntity with the provided message id
-
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMailFromMessageId Response
 
@@ -226,4 +224,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

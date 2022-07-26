@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.GetFolderList
 ## GetFolderList
 
 Retrieve all folders for the mail account. String is separated in sections by the paragraph character.  First section contains the folder delimeter char. Next is folder name. Additional sections may be unread and total items.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **includeItemCount:** If true, unread and total items are added to the foldername separated by a comma
 
 **Returns:** List of available folders as a string array
-
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetFolderList Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

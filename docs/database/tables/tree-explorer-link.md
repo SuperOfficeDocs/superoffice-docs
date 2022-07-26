@@ -29,7 +29,6 @@ This table stores the link of entries in a tree-explorer
 |tooltip|The tooltip of the entry|Clob|&#x25CF;|
 |session\_key|The session this link belong to|String(255)|&#x25CF;|
 
-
 ![tree_explorer_link table relationship diagram](./media/tree_explorer_link.png)
 
 [!include[details](./includes/tree-explorer-link.md)]
@@ -48,7 +47,6 @@ This table stores the link of entries in a tree-explorer
 |------|-------------|
 |[tree\_explorer\_entry](tree-explorer-entry.md)  |This table stores the entries in a tree-explorer |
 
-
 ## Replication Flags
 
 * None
@@ -56,4 +54,3 @@ This table stores the link of entries in a tree-explorer
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -37,7 +37,6 @@ Historical information about associates that have been deleted. Most references 
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 
-
 ![AssociateHistory table relationship diagram](./media/AssociateHistory.png)
 
 [!include[details](./includes/associatehistory.md)]
@@ -54,7 +53,6 @@ Historical information about associates that have been deleted. Most references 
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ Historical information about associates that have been deleted. Most references 
 ## Security Flags
 
 * No access control via user's Role.
-

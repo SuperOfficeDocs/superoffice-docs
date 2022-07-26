@@ -13,10 +13,6 @@ Remove the license from a particular module owner from the database.
 
 It is not permitted to remove licenses from SuperOffice
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ It is not permitted to remove licenses from SuperOffice
 ```http
 POST /api/v1/Agents/License/RemoveLicenseFromDB?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +37,13 @@ POST /api/v1/Agents/License/RemoveLicenseFromDB?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ModuleOwner 
+ModuleOwner
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ModuleOwner | string |  |
-
 
 ## Response: object
 

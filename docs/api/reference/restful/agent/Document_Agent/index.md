@@ -6,9 +6,6 @@ title: Document_Agent
 /api/v1/Document/Agent
 ```
 
-
-
-
 * [POST Agents/Document/GetPublishedDocumentsByDate](v1DocumentAgent_GetPublishedDocumentsByDate.md)
 
 * [POST Agents/Document/GetContactDocumentsByTemplateTypes](v1DocumentAgent_GetContactDocumentsByTemplateTypes.md)

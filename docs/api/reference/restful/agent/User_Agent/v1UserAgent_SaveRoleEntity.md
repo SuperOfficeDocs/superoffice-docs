@@ -11,14 +11,7 @@ POST /api/v1/Agents/User/SaveRoleEntity
 
 Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Updates the existing RoleEntity or creates a new RoleEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The RoleEntity to be saved. 
+The RoleEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +45,6 @@ The RoleEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy |  | Last updated by user |
 | DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-
 
 ## Response: object
 

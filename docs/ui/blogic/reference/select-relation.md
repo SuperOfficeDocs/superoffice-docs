@@ -12,7 +12,7 @@ so.topic: reference
 
 This element is a general element used to select a relation to a table. That is, **the primary key of a row in a table**.
 
-It can be used to select, for example, a customer, a user, an entry from an extra table, or a ticket. Selecting the element is done by searching a column in the table with the supplied value. The name of the columns in the query are given with the [line-based query syntax]().
+It can be used to select, for example, a customer, a user, an entry from an extra table, or a ticket. Selecting the element is done by searching a column in the table with the supplied value. The name of the columns in the query are given with the [line-based query syntax][1].
 
 ## Configuration
 
@@ -52,4 +52,4 @@ Criteria constrain which data to have in the grid. This adds **where clauses**:
 | clear           |          | Clears the selected value of the element (v. 4.2.21)                  |
 
 <!-- Referenced links -->
-[1]: ../custom-screens/blogic_query_syntax.md
+[1]: ../custom-screens/blogic-query-syntax.md

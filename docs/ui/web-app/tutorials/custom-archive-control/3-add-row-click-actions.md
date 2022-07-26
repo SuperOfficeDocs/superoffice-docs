@@ -28,7 +28,7 @@ Each `linkinfo` element in the code below handles the click events for the perso
 
 * **type:** corresponds to the entity
 * **subtype:** corresponds to the click type
-* **baseurl:** defines the Javascript method for the corresponding click event
+* **baseurl:** defines the JavaScript method for the corresponding click event
 
 ```xml
 <linkinfos>
@@ -86,7 +86,6 @@ There is **no** override capability for the single-click event. Single click act
 ```
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/web-archive-row-click-action.png

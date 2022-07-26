@@ -22,8 +22,8 @@ so.envir:
 | [access\_script](access-script.md) |Scripts to implement row-based access rules (sentry light)| 406 |
 | [activeuser](activeuser.md) |Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use: for determining who is logged on, at what location, etc.| 28 |
 | [address](address.md) |Contact and Person addresses| 7 |
-| [AddressFormat](addressformat.md) |Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com| 57 |
-| [AmountClass](amountclass.md) |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com | 225 |
+| [AddressFormat](addressformat.md) |Address formats for GUI and labels.| 57 |
+| [AmountClass](amountclass.md) |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. | 225 |
 | [AmountClassGroupLink](amountclassgrouplink.md) |User group link table for AmountClass, for MDO item hiding| 226 |
 | [AmountClassHeadingLink](amountclassheadinglink.md) |Heading link table for AmountClass, for MDO headers| 227 |
 | [appointment](appointment.md) |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. | 9 |
@@ -147,7 +147,7 @@ so.envir:
 | [ErpConnector](erpconnector.md) |One ERP Connector, known by its URL| 417 |
 | [ErpExternalKey](erpexternalkey.md) |The external (ERP-facing) key related to a synchronized record / connection| 423 |
 | [ErpField](erpfield.md) |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector| 425 |
-| [ErpInternalKey](erpinternalkey.md) |The internal (superoffice-facing) key related to a synchronized record| 422 |
+| [ErpInternalKey](erpinternalkey.md) |The internal (SuperOffice-facing) key related to a synchronized record| 422 |
 | [ErpListItemMapping](erplistitemmapping.md) |Defines a mapping of ERP to CRM fields, per connection and actor type| 424 |
 | [ErpSyncLog](erpsynclog.md) |Record all field changes done by the Erp Sync| 426 |
 | [ext\_datasource](ext-datasource.md) |This table contains external datasources, used for databaseintegration of customers and companies.| 317 |
@@ -186,7 +186,7 @@ so.envir:
 | [ImportObject](importobject.md) |Import object types - see localetext for names.| 186 |
 | [ImportRelation](importrelation.md) |Relations between import objects| 188 |
 | [inbox](inbox.md) |Info and status for safe email import| 352 |
-| [Intent](intent.md) |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com | 216 |
+| [Intent](intent.md) |Intent list for SAINT. | 216 |
 | [IntentGroupLink](intentgrouplink.md) |User group link table for Intent, for MDO item hiding| 217 |
 | [IntentHeadingLink](intentheadinglink.md) |Heading link table for Intent, for MDO headers| 218 |
 | [invitation](invitation.md) |Invitations to events| 485 |
@@ -273,7 +273,7 @@ so.envir:
 | [PMembType](pmembtype.md) |PMembType list table. List text of titles (member types) for project members.| 91 |
 | [PMembTypeGroupLink](pmembtypegrouplink.md) |User group link table for PMembType, for MDO item hiding| 92 |
 | [PMembTypeHeadingLink](pmembtypeheadinglink.md) |Heading link table for PMembType, for MDO headers| 93 |
-| [PrefDesc](prefdesc.md) |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. | 184 |
+| [PrefDesc](prefdesc.md) |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. | 184 |
 | [PrefDescLine](prefdescline.md) |Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.| 185 |
 | [preference](preference.md) |Not quite obsolete preference table; historical info mostly. From 6.1 this table now holds an upgrade stamp.| 22 |
 | [PriceList](pricelist.md) |List of prices, cached from an ERP system| 128 |
@@ -346,7 +346,7 @@ so.envir:
 | [reply\_template\_folder](reply-template-folder.md) |This table contains entries for folders for reply templates.| 276 |
 | [ReporterListDef](reporterlistdef.md) |Reporter definitions| 170 |
 | [ResourceOverride](resourceoverride.md) |Generic mechanism for overriding (or even defining new) text resources, in multiple languages| 448 |
-| [Role](role.md) |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com| 191 |
+| [Role](role.md) |User roles for role-based security, names and tooltips are in LocaleText. | 191 |
 | [role\_category](role-category.md) |Category membership associated with a role| 325 |
 | [role\_element](role-element.md) |Profiles associated with a role| 326 |
 | [role\_member](role-member.md) |Users linked to a role. Deprecated.| 324 |
@@ -475,7 +475,7 @@ so.envir:
 | [timestamps](timestamps.md) |Timestamp information| 300 |
 | [travelcurrent](travelcurrent.md) |Information about this database and its place in the hierarchy| 32 |
 | [travelgenerateddatabase](travelgenerateddatabase.md) |Information about all databases generated from this database| 33 |
-| [travelgeneratedtransaction](travelgeneratedtransaction.md) |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother)| 30 |
+| [travelgeneratedtransaction](travelgeneratedtransaction.md) |Record of all generated replication data files from this database (\*.dwn files from mother database to child, \*.up from child database to mother)| 30 |
 | [travelidmapping](travelidmapping.md) |Mapping of primary keys between Travel databases and the mother database  All travel database transactions get a high id to be able to see that this entry came from a database outside the central database. When update files are read into the central database, they get a normal low id. This table remembers the high travel id to map it to the low central id as long as this travel user is travelling. | 43 |
 | [traveller](traveller.md) |Associates traveling out from this database| 31 |
 | [traveltransactionlog](traveltransactionlog.md) |Log of all updates made to the database, that need to be replicated.| 29 |
@@ -511,7 +511,7 @@ so.envir:
 | [user\_attribute](user-attribute.md) |This table is used for storing various attributes for users.| 403 |
 | [user\_candidate](user-candidate.md) |This table will hold user candidate secrets| 389 |
 | [UserGroup](usergroup.md) |Secondary user groups| 59 |
-| [UserGroupLink](usergrouplink.md) |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented.| 60 |
+| [UserGroupLink](usergrouplink.md) |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. | 60 |
 | [UserPreference](userpreference.md) |Preference system. If deflevel is set to 5; the user may change the preferences| 56 |
 | [UserRoleLink](userrolelink.md) |Link between user role and user| 192 |
 | [VisibleFor](visiblefor.md) |Visible for rights, who may see this appointment/document, sale,  salehist or selection| 196 |
@@ -521,5 +521,4 @@ so.envir:
 | [WinPosSize](winpossize.md) |Stores the position and size of each window, so they can be shown in the same place again| 208 |
 | [word\_relations](word-relations.md) |This table shows which word are used in which FAQ entry, and how many times            they are used in each| 355 |
 | [wsdl\_description](wsdl-description.md) |Soap wsdl files| 357 |
-| [ziptocity](ziptocity.md) |Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http://techdoc.superoffice.com | 16 |
-
+| [ziptocity](ziptocity.md) |Zip codes and city names. Zip codes used during address entry. | 16 |

@@ -11,14 +11,9 @@ POST /api/v1/Agents/User/SetFunctionalRights
 
 Set all functional rights for the given role.
 
-Functional rights not specified here will be removed from the role. 
+Functional rights not specified here will be removed from the role.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -30,7 +25,6 @@ Functional rights not specified here will be removed from the role.
 POST /api/v1/Agents/User/SetFunctionalRights?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,18 +34,16 @@ POST /api/v1/Agents/User/SetFunctionalRights?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-RoleId, FunctionalRightIds 
+RoleId, FunctionalRightIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleId | int32 |  |
 | FunctionalRightIds | array |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

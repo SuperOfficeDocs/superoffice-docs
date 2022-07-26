@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 Bitmask defininig what action should be taken. This enumeration consists of flag values that can be combined.
 
 | `action_flags` | Comment |

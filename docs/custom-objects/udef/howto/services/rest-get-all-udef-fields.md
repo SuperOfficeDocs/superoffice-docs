@@ -16,7 +16,8 @@ This guide describes how to get all user-defined fields using the web services A
 
 [!include[ALT](includes/how-to-guide-steps-intro.md)]
 
-# [RESTful REST API](#tab/get-all-rest)
+<!-- markdownlint-disable MD051 -->
+### [RESTful REST API](#tab/get-all-rest)
 
 The following examples demonstrate how to get all user-defined fields for a company, using the api/v1/Contact/UdefLayout endpoint.
 To get the all user-defined fields for a different entity, use the `api/v1/{entity}/UdefLayout` entity endpoint,
@@ -28,7 +29,7 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-# [RESTful Agent API](#tab/get-all-agent)
+### [RESTful Agent API](#tab/get-all-agent)
 
 The following examples demonstrate how to get all user-defined fields for a company, using the `OwnerType` parameter.
 To get the all user-defined fields for a different entity, use the appropriate [OwnerType][1] value.
@@ -44,7 +45,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-# [SuperOffice.WebApi](#tab/get-all-webapi)
+### [SuperOffice.WebApi](#tab/get-all-webapi)
 
 The following examples demonstrate how to get all user-defined fields for a company, using the `OwnerType` parameter.
 To get the all user-defined fields for a different entity, use the appropriate [OwnerType][1] value.
@@ -59,7 +60,7 @@ return await udefAgent.GetPublishedUserDefinedFieldListAsync(UDefType.Contact);
 ```
 
 ***
-
+<!-- markdownlint-restore -->
 
 <!-- 
 How to write good how-to guides 

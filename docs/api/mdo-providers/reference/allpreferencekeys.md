@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "allpreferencekeys" MDO List
+
 MDO Provider that retrieves all preference keys
 
 All preferences that are not sections are returned, grouped alphabetically.
@@ -23,9 +24,6 @@ Preferences that have list of values are bolded.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AllPreferenceKeysProvider">AllPreferenceKeysProvider</see> class.
 The name of the MDO list is 'allpreferencekeys'.
-
-
-
 
 ## Sample Request
 
@@ -38,6 +36,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("allpreferencekeys", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -71,7 +70,6 @@ foreach (var item in listProvider.RootItems) {
 |5799|autoQuoteLastmessage (request)|||
 |5500|AutoRefreshTime (DiaryView)|||
 |5537|BackgroundDocumentCheckTimer (Functions)|||
-
 
 ## Related MDO Lists
 

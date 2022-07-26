@@ -6,9 +6,6 @@ title: Selection_Agent
 /api/v1/Selection/Agent
 ```
 
-
-
-
 * [POST Agents/Selection/DeleteContacts](v1SelectionAgent_DeleteContacts.md)
 
 * [POST Agents/Selection/AddSelectionMembers](v1SelectionAgent_AddSelectionMembers.md)

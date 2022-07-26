@@ -13,10 +13,6 @@ Delete a project event based on a project id.
 
 Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ Does not delete the project, but does delete the published and ExternalEvent and
 POST /api/v1/Agents/Project/DeleteProjectEventEntityFromProjectId?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +32,15 @@ POST /api/v1/Agents/Project/DeleteProjectEventEntityFromProjectId?$select=name,d
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId 
+ProjectId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

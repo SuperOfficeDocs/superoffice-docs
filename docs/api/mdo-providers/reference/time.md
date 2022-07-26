@@ -15,20 +15,15 @@ so.envir:
 ---
 
 # "time" MDO List
+
 MDO provider for the hard-coded list of time alternatives in the appointment dialog and in edit/preferences
 
 The type field contains seconds past midnight for the items' hour/minute value; extrainfo contains hh:mm
 (always 2 + 2 digits and colon, regardless of culture); and name/tooltip contain a time value encoded
 with CultureDataFormatter.<see cref="M:SuperOffice.CRM.Globalization.CultureDataFormatter.EncodeTime(System.DateTime)" />.
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TimeListProvider">TimeListProvider</see> class.
 The name of the MDO list is 'time'.
-
-
-
 
 ## Sample Request
 
@@ -41,6 +36,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("time", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -74,7 +70,6 @@ foreach (var item in listProvider.RootItems) {
 |16200|4:30 AM||04:30|
 |17100|4:45 AM||04:45|
 |18000|5:00 AM||05:00|
-
 
 ## Related MDO Lists
 

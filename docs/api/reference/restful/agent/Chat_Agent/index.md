@@ -6,9 +6,6 @@ title: Chat_Agent
 /api/v1/Chat/Agent
 ```
 
-
-
-
 * [POST Agents/Chat/CreateDefaultChatSessionEntity](v1ChatAgent_CreateDefaultChatSessionEntity.md)
 
 * [POST Agents/Chat/SaveChatSessionEntity](v1ChatAgent_SaveChatSessionEntity.md)

@@ -6,9 +6,6 @@ title: ChatTopic
 /api/v1/ChatTopic
 ```
 
-
-
-
 * [GET ChatTopic/default](v1ChatTopicEntity_DefaultChatTopicEntity.md)
 
 * [POST ChatTopic](v1ChatTopicEntity_PostChatTopicEntity.md)

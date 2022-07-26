@@ -20,6 +20,7 @@ You can check which customers that have authorized a specific app and get a list
 
 ## Who has authorized this app?
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Overview** and locate the **Customers** section.
@@ -27,6 +28,7 @@ You can check which customers that have authorized a specific app and get a list
     ![List of customers -screenshot][img1]
 
 3. Click through the environment specific tabs.
+<!-- markdownlint-restore -->
 
 ## Who are my customers?
 

@@ -42,7 +42,6 @@ Just the appointment ID, which tells us where to get the rest of the information
 <!-- **See Also:** AppointmentEntity -->
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image011.jpg

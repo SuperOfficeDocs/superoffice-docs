@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.CreateDef
 Loading default values into a new SelectionEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New SelectionEntity with default values
-
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultSelectionEntity Response
 
@@ -187,4 +184,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

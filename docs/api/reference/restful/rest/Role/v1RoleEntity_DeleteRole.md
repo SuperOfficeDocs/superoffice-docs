@@ -11,17 +11,11 @@ DELETE /api/v1/Role/{roleIdToDelete}
 
 Delete the specified role and move all users associated with the role to the replacingRoleId
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleIdToDelete | int32 | The roleId to delete **Required** |
-
 
 ## Query String Parameters
 
@@ -33,7 +27,6 @@ Delete the specified role and move all users associated with the role to the rep
 DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=567
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,9 +35,7 @@ DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=567
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

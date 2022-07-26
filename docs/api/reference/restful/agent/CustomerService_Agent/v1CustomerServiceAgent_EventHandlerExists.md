@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/EventHandlerExists
 
 Check if an eventhandler exists for a given enum
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Check if an eventhandler exists for a given enum
 ```http
 POST /api/v1/Agents/CustomerService/EventHandlerExists?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/CustomerService/EventHandlerExists?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EventHandlerType 
+EventHandlerType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EventHandlerType | string |  |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

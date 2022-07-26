@@ -11,16 +11,9 @@ GET /api/v1/Sale/{saleId}/HasGuide
 
 Does this sale have a sale guide associated with its sale type?
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | saleId | int32 | Sale id **Required** |
-
-
 
 ## Request Headers
 
@@ -35,17 +28,13 @@ Does this sale have a sale guide associated with its sale type?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

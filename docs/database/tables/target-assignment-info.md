@@ -33,7 +33,6 @@ Linking associate, company or user group target and other information with targe
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![target_assignment_info table relationship diagram](./media/target_assignment_info.png)
 
 [!include[details](./includes/target-assignment-info.md)]
@@ -59,7 +58,6 @@ Linking associate, company or user group target and other information with targe
 |[target\_revision\_history](target-revision-history.md)  |Revision history info in case the original target group or assignment info was deleted |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * None
@@ -67,4 +65,3 @@ Linking associate, company or user group target and other information with targe
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

@@ -13,14 +13,9 @@ Connect existing attachments with this TicketMessage.
 
 Can connect multiple attachments
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to connect the attachments to **Required** |
-
-
 
 ## Request Headers
 
@@ -31,14 +26,11 @@ Can connect multiple attachments
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: attachmentIds  
+## Request Body: attachmentIds
 
-An array of attachments to connect to this TicketMessage 
-
-
+An array of attachments to connect to this TicketMessage
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

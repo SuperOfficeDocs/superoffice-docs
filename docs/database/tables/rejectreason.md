@@ -33,7 +33,6 @@ Rejection reason (suggested) for bookings
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![RejectReason table relationship diagram](./media/RejectReason.png)
 
 [!include[details](./includes/rejectreason.md)]
@@ -53,7 +52,6 @@ Rejection reason (suggested) for bookings
 |[RejectReasonGroupLink](rejectreasongrouplink.md)  |User group link table for Comptr, for MDO item hiding |
 |[RejectReasonHeadingLink](rejectreasonheadinglink.md)  |Heading link table for RejectReason, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ Rejection reason (suggested) for bookings
 ## Security Flags
 
 * No access control via user's Role.
-

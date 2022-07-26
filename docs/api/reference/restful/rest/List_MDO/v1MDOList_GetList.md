@@ -11,15 +11,9 @@ GET /api/v1/MDOList/{listname}
 
 Get the list items in a named list.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | listname | string | "category", "business" etc **Required** |
-
 
 ## Query String Parameters
 
@@ -35,7 +29,6 @@ GET /api/v1/MDOList/{listname}?additional=consequuntur
 GET /api/v1/MDOList/{listname}?query=autem
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -49,10 +42,7 @@ GET /api/v1/MDOList/{listname}?query=autem
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,13 +11,6 @@ POST /api/v1/Agents/CustomerService/SaveSmsConfig
 
 Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SmsConfig to be saved. 
+The SmsConfig to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,12 +36,9 @@ The SmsConfig to be saved.
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
 
-
 ## Response: object
 
 Sms settings for Customer Service sms providers.
-
-
 
 Carrier object for SmsConfig.
 Services for the SmsConfig Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

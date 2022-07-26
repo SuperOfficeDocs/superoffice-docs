@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dashboard/GetData
 
 Get data for this tile
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get data for this tile
 ```http
 POST /api/v1/Agents/Dashboard/GetData?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/Dashboard/GetData?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DashboardTileId, Restrictions 
+DashboardTileId, Restrictions
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileId | int32 |  |
 | Restrictions | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

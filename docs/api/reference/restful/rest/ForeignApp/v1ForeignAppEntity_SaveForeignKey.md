@@ -11,18 +11,11 @@ PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 
 Saves a key belonging to the ForeignApp and ForeignDevice specified.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Saves a key belonging to the ForeignApp and ForeignDevice specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignKey  
+## Request Body: foreignKey
 
-Foreign key to save 
+Foreign key to save
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +45,6 @@ Foreign key to save
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-
 
 ## Response: object
 

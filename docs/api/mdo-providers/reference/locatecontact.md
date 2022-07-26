@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "locatecontact" MDO List
+
 Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will
 return contact records.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LocateContactProviderOrg">LocateContactProviderOrg</see> class.
 The name of the MDO list is 'locatecontact'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("locatecontact", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -70,7 +67,6 @@ foreach (var item in listProvider.RootItems) {
 |8358| Benjamin Rose & Partners||8358|
 |8527| Betty Henderson & Partners, Legal||8527|
 |8657| Beverly Alvarez & Partners, Accounting||8657|
-
 
 ## Related MDO Lists
 

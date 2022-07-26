@@ -52,7 +52,7 @@ Each time you create a new contact, you can set up your SuperOffice CRM to send 
 
 ### SuperOffice Forms
 
-You can create special forms on your website or in your mailings that will not only provide links to your privacy statements but will also automatically update the consents stored inside SuperOffice CRM. 
+You can create special forms on your website or in your mailings that will not only provide links to your privacy statements but will also automatically update the consents stored inside SuperOffice CRM.
 
 ## Be transparent
 

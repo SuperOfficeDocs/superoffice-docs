@@ -6,9 +6,6 @@ title: List_Task
 /api/v1/List/Task
 ```
 
-
-
-
 * [GET List/Task](v1TaskList_GetListDefinition.md)
 
 * [PUT List/Task](v1TaskList_SetListDefinition.md)

@@ -17,7 +17,6 @@ Delete a ticket
 
 **Returns:** returns void
 
-
 [WSDL file for Services86/Ticket](../Services86-Ticket.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteTicketEntity Response
 
 ```xml
@@ -70,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

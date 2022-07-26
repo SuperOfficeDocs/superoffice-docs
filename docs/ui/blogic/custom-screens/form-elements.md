@@ -485,7 +485,6 @@ verticalSpace = rest
 [10]: ../reference/tree-explorer.md
 [11]: ../reference/text.md
 [12]: ../reference/textarea.md
-[13]: ../reference/language-menu.md
 [14]: ../reference/ck-editor.md
 
 <!-- Referenced images -->

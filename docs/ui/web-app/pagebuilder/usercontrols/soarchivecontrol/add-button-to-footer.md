@@ -35,7 +35,6 @@ Here we have created a button and assigned properties such as the caption, toolt
 ![05][img2]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image004.jpg

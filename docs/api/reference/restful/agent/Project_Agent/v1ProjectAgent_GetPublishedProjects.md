@@ -11,12 +11,6 @@ POST /api/v1/Agents/Project/GetPublishedProjects
 
 Get published projects by project ids.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get published projects by project ids.
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjects?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Project/GetPublishedProjects?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectIds 
+ProjectIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectIds | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

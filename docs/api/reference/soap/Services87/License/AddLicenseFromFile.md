@@ -17,7 +17,6 @@ Load and activate a new license from file/string if the new license is valid.
 
 **Returns:** Activated license
 
-
 [WSDL file for Services87/License](../Services87-License.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AddLicenseFromFile Response
 
@@ -225,4 +223,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

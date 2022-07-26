@@ -13,14 +13,9 @@ Gets a SaleStageEntity list item.
 
 Calls the List agent service GetSaleStageEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Rating to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +30,9 @@ Calls the List agent service GetSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 This entity represents a sale stage with a default percentage rating.
-
-
 
 Carrier object for SaleStageEntity.
 Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

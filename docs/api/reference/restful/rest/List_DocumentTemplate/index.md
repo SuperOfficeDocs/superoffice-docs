@@ -6,9 +6,6 @@ title: List_DocumentTemplate
 /api/v1/List/DocumentTemplate
 ```
 
-
-
-
 * [GET List/DocumentTemplate](v1DocumentTemplateList_GetListDefinition.md)
 
 * [PUT List/DocumentTemplate](v1DocumentTemplateList_SetListDefinition.md)

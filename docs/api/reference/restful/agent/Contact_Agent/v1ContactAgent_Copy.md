@@ -13,10 +13,6 @@ Copy a contact.
 
 Activities and related data will be ignored
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Activities and related data will be ignored
 ```http
 POST /api/v1/Agents/Contact/Copy?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Contact/Copy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SourceContactId, DestinationContactName, DestinationContactDepartment, CopyPersons 
+SourceContactId, DestinationContactName, DestinationContactDepartment, CopyPersons
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,17 +48,13 @@ SourceContactId, DestinationContactName, DestinationContactDepartment, CopyPerso
 | DestinationContactDepartment | string |  |
 | CopyPersons | bool |  |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

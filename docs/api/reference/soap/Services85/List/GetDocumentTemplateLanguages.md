@@ -17,7 +17,6 @@ Get the supported language variations for a document template
 
 **Returns:** Returns the list of languages as ISO cultures (en-US, no, sv, etc)
 
-
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDocumentTemplateLanguages Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -17,7 +17,6 @@ Sets freetext search to enabled (true) or disabled (false)
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services88/FreeText](../Services88-FreeText.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetEnabled Response
 
 ```xml
@@ -70,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

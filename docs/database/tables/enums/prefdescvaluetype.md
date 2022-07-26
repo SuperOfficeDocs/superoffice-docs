@@ -23,7 +23,7 @@ so.envir:
 |Text|2|Preference value is a text (max len 99 characters)|
 |Bool|3|Preference value is Boolean|
 |ListOfValues|4|Preference value is a list of separate value|
-|ListTableRef|5|Preference value is a record ID in the given MDO list table; maxValue contains the tablenumberø|
+|ListTableRef|5|Preference value is a record ID in the given MDO list table; maxValue contains the tablenumber|
 |TimeList|6|Preference value is a time, value is seconds since midnight (28800 = 08:00)|
 |ContactID|7|Preference value is a contact ID|
 |PersonID|8|Preference value is a person ID|
@@ -37,4 +37,4 @@ so.envir:
 
 ## Usage
 
-* [PrefDesc](../prefdesc.md).valueType - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
+* [PrefDesc](../prefdesc.md).valueType - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.

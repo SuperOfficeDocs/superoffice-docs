@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "satellites" MDO List
+
 SatelliteProvider creates a MDO list of satellites.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SatellitesProvider">SatellitesProvider</see> class.
 The name of the MDO list is 'satellites'.
@@ -27,10 +26,6 @@ The name of the MDO list is 'satellites'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |add a the central satellite to list| addcentral|1|
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("satellites", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +52,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

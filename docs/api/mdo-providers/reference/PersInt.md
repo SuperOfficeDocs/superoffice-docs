@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "persint" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'persint'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("persint", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +51,6 @@ foreach (var item in listProvider.RootItems) {
 |1|Referanse person|||
 |9|Teknisk informasjon|||
 |2|Teknisk kontakt|||
-
 
 ## Related MDO Lists
 

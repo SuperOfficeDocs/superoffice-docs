@@ -11,15 +11,9 @@ PUT /api/v1/Relation/{id}
 
 Updates the existing ContactRelationEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ContactRelationEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ContactRelationEntity
 ```http
 PUT /api/v1/Relation/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ContactRelationEntity to be saved. 
+The ContactRelationEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +64,9 @@ The ContactRelationEntity to be saved.
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
 
-
 ## Response: object
 
 Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
-
-
 
 ContactRelationEntity entity with API _Links added.
 

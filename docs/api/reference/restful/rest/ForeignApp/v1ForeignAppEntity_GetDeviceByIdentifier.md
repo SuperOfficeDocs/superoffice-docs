@@ -11,18 +11,11 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Optional unique id of device (Palm pilot device ID, version number, etc) **Required** |
-
-
 
 ## Request Headers
 
@@ -37,12 +30,9 @@ Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Saves a foreign device belonging to the ForeignDevice and application name specified.
-
-
 
 Carrier object for ForeignDevice.
 Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.

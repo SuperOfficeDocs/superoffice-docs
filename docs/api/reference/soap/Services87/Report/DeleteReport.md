@@ -17,7 +17,6 @@ Delete the report with the given id
 
 **Returns:** Delete ok?
 
-
 [WSDL file for Services87/Report](../Services87-Report.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteReport Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

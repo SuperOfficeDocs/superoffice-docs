@@ -16,8 +16,6 @@ Stores the default country flag image that is displayed in Audience when no pers
 * **layoutName:** Name of the Audience layout instance
 * **image:** The default country image to be stored for this Audience layout instance (System.Drawing.Image)
 
-
-
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetDefaultCountryFlag Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

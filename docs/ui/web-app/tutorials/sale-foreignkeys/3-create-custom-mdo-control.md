@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Create custom MDO controls
 
-You can create your own MDOs containing anything, whether that would be static data, data from another system, or specific data from Superoffice.
+You can create your own MDOs containing anything, whether that would be static data, data from another system, or specific data from SuperOffice.
 
 This is step 3 of the SaleForeignKey tutorial and builds on the [sale data handler we created in part 2][2].
 

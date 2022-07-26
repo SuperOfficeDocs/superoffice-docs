@@ -11,15 +11,9 @@ PUT /api/v1/Dashboard/{id}
 
 Updates the existing Dashboard
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dashboard id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing Dashboard
 ```http
 PUT /api/v1/Dashboard/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The Dashboard to be saved. 
+The Dashboard to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,12 +51,9 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-
 ## Response: object
 
 Dashboard configuration
-
-
 
 Dashboard entity with API _Links added.
 

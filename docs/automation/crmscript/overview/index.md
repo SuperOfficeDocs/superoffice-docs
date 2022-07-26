@@ -29,7 +29,7 @@ You can still build custom data structures by defining [structs][1].
 
 ## A statically and strongly typed language
 
-Unlike most other scripting languages, including JavaScript and Python, CRMSCript is **statically typed**. This means that you can't change the type of a variable after it has been declared. CRMScript associates the type with the variable's name, not its value.
+Unlike most other scripting languages, including JavaScript and Python, CRMScript is **statically typed**. This means that you can't change the type of a variable after it has been declared. CRMScript associates the type with the variable's name, not its value.
 
 The language is also **strongly typed**, meaning there are restrictions to mixing values of different data types. For example, the `print()` function expects a String - if you pass an Integer as-is, you will get a type error.
 

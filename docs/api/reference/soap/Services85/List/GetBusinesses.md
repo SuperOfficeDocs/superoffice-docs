@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetBusinesses"
 
 Returns all available businesses that a contact could have.
 
-
 **Returns:** An array of all available businesses
-
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetBusinesses Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

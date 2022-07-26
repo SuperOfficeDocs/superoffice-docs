@@ -6,9 +6,6 @@ title: List_TicketStatus
 /api/v1/List/TicketStatus
 ```
 
-
-
-
 * [GET List/TicketStatus](v1TicketStatusList_GetListDefinition.md)
 
 * [PUT List/TicketStatus](v1TicketStatusList_SetListDefinition.md)

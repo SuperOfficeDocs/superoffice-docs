@@ -289,7 +289,7 @@ This generates an almost empty page for us. We need to render some information t
 @{
     ViewBag.Title = "App";
 }
- 
+
 <h2>App</h2>
 @if (Model.Error != null)
 {<h1>@Model.Error</h1> }
@@ -299,7 +299,7 @@ else
 <p><a href="@Model.BaseUrl">@Model.BaseUrl</a></p>
 <p>Access token: @Model.AccessToken </p>
 <p>Token expires: @Model.TimeLeft </p>
- 
+
 <table>
   <tr>
     <th>Name</th>

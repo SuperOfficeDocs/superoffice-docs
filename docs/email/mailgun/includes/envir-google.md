@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 In this tutorial, the record will be set up for Google Apps. We will use:
 
 * Mailgun as our mail service (the email service to use to send the email - permitted to send email on behalf of your domain).

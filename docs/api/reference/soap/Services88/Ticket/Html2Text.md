@@ -17,7 +17,6 @@ Create a plain text version of the html, suitable for email
 
 **Returns:** The plain text version
 
-
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Html2Text Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

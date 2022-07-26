@@ -6,9 +6,6 @@ title: CRMScript_Agent
 /api/v1/CRMScript/Agent
 ```
 
-
-
-
 * [POST Agents/CRMScript/CreateDefaultCRMScriptEntity](v1CRMScriptAgent_CreateDefaultCRMScriptEntity.md)
 
 * [POST Agents/CRMScript/SaveCRMScriptEntity](v1CRMScriptAgent_SaveCRMScriptEntity.md)

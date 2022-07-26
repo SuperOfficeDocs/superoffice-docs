@@ -13,13 +13,9 @@ Gets a ContactRelationEntity object.
 
 Calls the Relation agent service GetContactRelationEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ContactRelationEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the Relation agent service GetContactRelationEntity.
 ```http
 GET /api/v1/Relation/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +40,9 @@ GET /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
-
-
 
 ContactRelationEntity entity with API _Links added.
 

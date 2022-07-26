@@ -13,10 +13,6 @@ Calculate the default orderby columns for a given provider and a search.
 
 The search is specified by a storage type, provider name and storage key, and is fetched from the database. Default desired columns are then calculated for the search, and those columns are then used as the basis for calculating an order by. If you want to specify the desired columns directly, use the GetDefaultOrderByFromDesiredColumns method instead.  This is the same algorithm that is used by the Find service method.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The search is specified by a storage type, provider name and storage key, and is
 ```http
 POST /api/v1/Agents/Find/GetDefaultOrderBy?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Find/GetDefaultOrderBy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey 
+StorageType, ProviderName, StorageKey
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +47,7 @@ StorageType, ProviderName, StorageKey
 | ProviderName | string |  |
 | StorageKey | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

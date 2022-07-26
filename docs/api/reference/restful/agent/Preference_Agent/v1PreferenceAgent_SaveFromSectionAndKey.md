@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 
 Update a PreferenceDescription based on the section and key
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Update a PreferenceDescription based on the section and key
 ```http
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,22 +35,19 @@ POST /api/v1/Agents/Preference/SaveFromSectionAndKey?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Section, Key, PreferenceDescription 
+Section, Key, PreferenceDescription
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Section | string |  |
 | Key | string |  |
-| PreferenceDescription |  | Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. <para /> Carrier object for PreferenceDescription. Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
-
+| PreferenceDescription |  | Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. <br /> Carrier object for PreferenceDescription. Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 
 ## Response: object
 
 Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
-
-
 
 Carrier object for PreferenceDescription.
 Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.

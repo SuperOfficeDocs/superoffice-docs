@@ -21,7 +21,6 @@ Send the quote to the user's customer. More parameters to be added later...
 
 **Returns:** Response of the operation
 
-
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SendQuoteVersion Response
 
@@ -105,4 +103,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -109,4 +109,3 @@ Download [WSDL file for Services87/Appointment](../Services87-Appointment.md) if
 * [UpdateAppointment](UpdateAppointment.md)
 * [UpdateAppointmentFromIcsResponse](UpdateAppointmentFromIcsResponse.md)
 * [ValidateDays](ValidateDays.md)
-

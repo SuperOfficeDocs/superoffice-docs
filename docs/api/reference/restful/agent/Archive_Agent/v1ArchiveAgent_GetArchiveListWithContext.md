@@ -11,37 +11,17 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext
 
 Get a page of data for an archive, with context parameter.
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
 Archive Restriction Info objects represent search terms.
 
-
 Column names and operator strings are defined elsewhere.
-
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-
-
-
-
-
-```
-
+```csharp
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
-
 ```
-
-
-
-
-
-
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -52,7 +32,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListWithContext?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -68,9 +47,9 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context 
+GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,10 +62,7 @@ GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context
 | PageSize | int32 |  |
 | Context | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

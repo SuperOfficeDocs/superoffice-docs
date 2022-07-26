@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.CreateDefaultB
 Loading default values into a new BlobEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New BlobEntity with default values
-
 
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultBlobEntity Response
 
@@ -106,4 +103,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

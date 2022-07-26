@@ -1,17 +1,14 @@
-<properties date="2016-05-11"
-SortOrder="10"
-/>
+---
+so.date: 05.11.2016
+---
 
-Ranking Fields
---------------
-
-
+# Ranking Fields
 
 Ranking fields. This will affect the order fields are displayed in search results and/or the SuperOffice GUI (for “Show In ERP Tab” fields).
 
 ![search][img1]
 
-### In the SuperOffice Client
+## In the SuperOffice Client
 
 ![search][img2]
 

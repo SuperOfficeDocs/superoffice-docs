@@ -36,7 +36,6 @@ You can turn on automatic analysis of incoming email requests to determine if th
 When enabled, an emoticon below the message indicates the detected sentiment or "mood".
 
 <!-- Referenced links -->
-[1]: ../index.md
 
 <!-- Referenced image -->
 [img1]: media/text-analysis-ai-options.png

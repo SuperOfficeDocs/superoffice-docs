@@ -29,4 +29,3 @@ Download [WSDL file for Services87/ViewState](../Services87-ViewState.md) if you
 * [SaveCurrents](SaveCurrents.md)
 * [SaveHistories](SaveHistories.md)
 * [SetHistoryLengthPrefValue](SetHistoryLengthPrefValue.md)
-

@@ -82,7 +82,6 @@ Then, **uninstall** the Zoom video meeting service:
 4. Confirm the dialog and click **Uninstall**.
 
 <!-- Referenced links -->
-[1]: https://meetings.superoffice.com/meet/DisconnectUser
 [4]: http://marketplace.zoom.us/
 
 <!-- Referenced images -->

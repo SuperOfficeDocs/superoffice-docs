@@ -17,7 +17,6 @@ Gets a ConfigurableScreenDelta object.
 
 **Returns:** ConfigurableScreenDelta
 
-
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetConfigurableScreenDelta Response
 
@@ -112,4 +110,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -26,7 +26,6 @@ Knowledge base workflow steps
 |previous|The previous workflow phase.|FK [kb_workflow](kb-workflow.md)| |
 |name||String(255)|&#x25CF;|
 
-
 ![kb_workflow table relationship diagram](./media/kb_workflow.png)
 
 [!include[details](./includes/kb-workflow.md)]
@@ -48,7 +47,6 @@ Knowledge base workflow steps
 |[kb\_workflow\_access](kb-workflow-access.md)  |Control of who can do what in a knowledge base workflow step |
 |[role\_workflow](role-workflow.md)  |Knowledge base workflow access rights associated with a role |
 
-
 ## Replication Flags
 
 * None
@@ -56,4 +54,3 @@ Knowledge base workflow steps
 ## Security Flags
 
 * No access control via user's Role.
-

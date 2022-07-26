@@ -24,6 +24,7 @@ There are subtle differences between core and web services APIs, but for the mos
 
 Both examples represent a query that selects all sales where the sale project ID is set to 47.
 
+<!-- markdownlint-disable MD051 -->
 ### [NetServer Core](#tab/query-ns-core)
 
 [!code-csharp[NetServer Core](includes/query-ns-core.cs)]
@@ -33,6 +34,7 @@ Both examples represent a query that selects all sales where the sale project ID
 [!code-csharp[NetServer Web Services](includes/query-ns-ws.cs)]
 
 ***
+<!-- markdownlint-restore -->
 
 ## Example
 

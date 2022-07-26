@@ -6,9 +6,6 @@ title: Favourite_Agent
 /api/v1/Favourite/Agent
 ```
 
-
-
-
 * [POST Agents/Favourite/IsFavourite](v1FavouriteAgent_IsFavourite.md)
 
 * [POST Agents/Favourite/AddFavourite](v1FavouriteAgent_AddFavourite.md)

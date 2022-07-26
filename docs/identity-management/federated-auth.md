@@ -12,7 +12,7 @@ so.client: online
 
 # Online authentication
 
-SuperOffice uses OAuth 2.0 / Open ID Connect for online authorization/authentication. 
+SuperOffice uses OAuth 2.0 / Open ID Connect for online authorization/authentication.
 
 SuperID is the authentication page that acts as a federation gateway towards the following identity providers:
 

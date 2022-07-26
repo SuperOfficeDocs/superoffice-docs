@@ -45,4 +45,3 @@ Download [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefin
 * [SetPublishStartSystemEvent](SetPublishStartSystemEvent.md)
 * [SetRankOnFields](SetRankOnFields.md)
 * [SetUserDefinedPageOneField](SetUserDefinedPageOneField.md)
-

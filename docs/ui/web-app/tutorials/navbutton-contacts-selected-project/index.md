@@ -26,7 +26,7 @@ The following tutorial shows how we can add a button to the Navigator panel by m
 
 ### Walk-through
 
-What we have done is added a code segment to the *SoNavigatorPanel.config* file so that a new button would be visible in the navigator panel. The most important element is `onclick`, which provides the navigation for the button. It defines the Javascript to be used to call the `page_id`. Here, the Javascript used is the `PageUpdate` and the `page_id` is *test*. Test is the SoProtocol of the panel created by us.
+What we have done is added a code segment to the *SoNavigatorPanel.config* file so that a new button would be visible in the navigator panel. The most important element is `onclick`, which provides the navigation for the button. It defines the JavaScript to be used to call the `page_id`. Here, the JavaScript used is the `PageUpdate` and the `page_id` is *test*. Test is the SoProtocol of the panel created by us.
 
 > [!NOTE]
 > IIS should be restarted to make all changes take effect before refreshing SuperOffice.

@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 
 Saves the headings for the list item.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Saves the headings for the list item.
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionName, ListItemId, Headings 
+UdListDefinitionName, ListItemId, Headings
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +45,7 @@ UdListDefinitionName, ListItemId, Headings
 | ListItemId | int32 |  |
 | Headings | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

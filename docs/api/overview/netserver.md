@@ -136,12 +136,7 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [3]: ../entities/index.md
 [4]: ../archive-providers/index.md
 [5]: ../web-services/index.md
-[6]: ../reference/soap/index.md
-[7]: ../reference/netserver/services/index.md
-[8]: ../reference/netserver/core/index.md
 [9]: ../../automation/webhook/index.md
-[10]: ../reference/webapi/index.md
-[11]: ../../automation/crmscript/overview/index.md
 [12]: ../config/index.md
 [13]: ../authentication/overview.md
 [14]: ../plugins/document/soarc-document-plugin.md
@@ -155,9 +150,7 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [22]: https://www.nuget.org/packages/superoffice.netserver.core
 [23]: https://www.nuget.org/packages/superoffice.netserver.services
 
-
 <!-- Referenced images -->
-[img1]: media/netserverhilevelview.png
 [img3]: media/netserver-components-overview.png
 [img4]: media/superoffice-api-architecture.png
 [nsfunc]: media/netserver-main-components.png

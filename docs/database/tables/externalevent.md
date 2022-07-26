@@ -46,7 +46,6 @@ The definition of projects as events in Audience (or other Collaborative apps)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ExternalEvent table relationship diagram](./media/ExternalEvent.png)
 
 [!include[details](./includes/externalevent.md)]
@@ -69,7 +68,6 @@ The definition of projects as events in Audience (or other Collaborative apps)
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 |[text](text.md)  |Long text fields from all over the system |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -79,4 +77,3 @@ The definition of projects as events in Audience (or other Collaborative apps)
 ## Security Flags
 
 * No access control via user's Role.
-

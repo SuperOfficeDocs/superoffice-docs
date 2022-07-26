@@ -13,7 +13,7 @@ so.client: online
 
 Database mirroring only works with **Microsoft SQL Server** database server. Customers who want to use the [database mirroring application][2] must have a valid mirroring subscription. Standard applications that incorporate database mirroring don't require a mirroring subscription.
 
-### Stand-alone server
+## Stand-alone server
 
 * 8 gigabytes of RAM (minimum 4)
 * 100 gigabytes of available hard-drive space (minimum 50)
@@ -28,5 +28,4 @@ Database mirroring only works with **Microsoft SQL Server** database server. Cus
 Databases and applications of the interface usually don't need any special backup, because the data is transient and kept primarily in the cloud (SuperOffice CRM Online).
 
 <!-- Referenced links -->
-[1]: overview.md
 [2]: https://online.superoffice.com/appstore/superoffice-as/database-mirroring-service

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 ![yes][1] **Tested successful**
 
 The product is part of our test procedures and you may obtain support for this configuration.

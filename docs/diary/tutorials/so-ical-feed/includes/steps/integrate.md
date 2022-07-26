@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 The non-XML format shown in the previous step is what Outlook, Google, and Apple's calendar can use to integrate external calendar events.
 
 ### Outlook

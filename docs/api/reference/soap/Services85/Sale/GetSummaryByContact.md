@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.GetSummaryByCo
 
 ## GetSummaryByContact
 
-
-
-* **contactId:** 
-* **fromDate:** 
-* **toDate:** 
-
-
+* **contactId:**
+* **fromDate:**
+* **toDate:**
 
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
@@ -52,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSummaryByContact Response
 
@@ -103,4 +98,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

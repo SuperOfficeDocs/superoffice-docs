@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 
 Get a Quote for a sale
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a Quote for a sale
 ```http
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SaleId 
+SaleId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
-
 ## Response: object
 
 Quote carrier with the active quote version and favorite alternative.
-
-
 
 Carrier object for Quote.
 Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

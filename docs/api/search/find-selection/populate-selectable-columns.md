@@ -9,6 +9,7 @@ so.envir: cloud, onsite
 so.client: web
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Archive columns - column names
 
 While it's possible to look up archive provider columns using the NetServer [documentation reference][1], it's recommended to get **and cache** the columns using the API.
@@ -39,7 +40,7 @@ Selection criteria should be fetched and stored using the `GetDynamicSelectionCr
 
 ## Get archive columns
 
-These columns are useful when specifying the desired columns when calling the Archive endpoint. The `ExtraInfo` property indicates whether a field can be used in the ORDER BY clause in an [ArchiveOrderByInfo][3].
+These columns are useful when specifying the desired columns when calling the Archive endpoint. The `ExtraInfo` property indicates whether a field can be used in the ORDER BY clause in an [ArchiveOrderByInfo][2].
 
 ### [REST](#tab/get-archive-columns-1)
 
@@ -81,7 +82,7 @@ var mdoAgent = new MDOAgent(options);
 MDOListItem[] listItems = await mdoAgent.GetList("archiveColumns:ContactPersonDynamicSelectionV2","true","",false);
 ```
 
-___
+***
 
 Selecting archive columns as such is only necessary when defining SELECT columns towards the Archive endpoint.
 
@@ -132,7 +133,7 @@ var mdoAgent = new MDOAgent(options);
 MDOListItem[] listItems = await mdoAgent.GetList("archiveRestrictionColumns:ContactPersonDynamicSelectionV2","true","",false);
 ```
 
-___
+***
 
 ### Get archive RestrictionColmns result
 
@@ -189,7 +190,7 @@ var mdoAgent = new MDOAgent(options);
 MDOListItem[] listItems = await mdoAgent.GetList("archiveEntities:ContactPersonDynamicSelectionV2","true","",false);
 ```
 
-___
+***
 
 ### REST JSON results
 

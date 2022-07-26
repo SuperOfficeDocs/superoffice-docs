@@ -15,8 +15,6 @@ Delete batch tasks from the database.
 
 * **batchTaskIds:** Array of batchTask ids to delete.
 
-
-
 [WSDL file for Services86/Batch](../Services86-Batch.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteBatchTasks Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

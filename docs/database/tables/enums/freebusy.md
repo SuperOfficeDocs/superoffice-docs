@@ -23,5 +23,5 @@ Default value for Free/Busy indicator
 
 ## Usage
 
-* [appointment](../appointment.md).freeBusy - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
+* [appointment](../appointment.md).freeBusy - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.
 * [Task](../task.md).defaultFreeBusy - Task list table, activity types, like Phone, Meeting

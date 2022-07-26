@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetUserCommand
 ## GetUserCommands
 
 Get registered custom commands for User
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **user:** The User
 
 **Returns:** Custom commands for the User
-
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -239,7 +238,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetUserCommands Response
 
 ```xml
@@ -269,4 +267,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

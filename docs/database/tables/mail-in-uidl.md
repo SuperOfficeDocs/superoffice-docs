@@ -28,7 +28,6 @@ This table is used to avoid spamming the system by importing the same message se
 |status|The status of this UIDL entry (enum).|status|&#x25CF;|
 |retries|The number of attempts for importing this message.|Int|&#x25CF;|
 
-
 ![mail_in_uidl table relationship diagram](./media/mail_in_uidl.png)
 
 [!include[details](./includes/mail-in-uidl.md)]
@@ -46,7 +45,6 @@ This table is used to avoid spamming the system by importing the same message se
 |------|-------------|
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
 
-
 ## Replication Flags
 
 * None
@@ -54,4 +52,3 @@ This table is used to avoid spamming the system by importing the same message se
 ## Security Flags
 
 * No access control via user's Role.
-

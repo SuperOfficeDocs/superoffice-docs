@@ -29,7 +29,7 @@ The following table maps which element relies on which identifiers to ensure uni
 | jsincludes | jsinclude | path | SoApplicationConfiguration |
 | cssincludes | cssinclude | path | SoApplicationConfiguration |
 | consts | const | id | SoApplicationConfiguration |
-| pages | page | id | So[_abc_]Page |
+| pages | page | id | So[*abc*]Page |
 | archives | archive | providername, guiname | SoArchiveColumnList |
 | linkinfos | linkinfo | type, subtype | SoArchiveControlLinkInfoTypes |
 | filters** | filter | name | SoFilterList |

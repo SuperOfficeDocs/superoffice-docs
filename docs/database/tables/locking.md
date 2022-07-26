@@ -33,7 +33,6 @@ Generic locking and error messages
 |last\_error|Time of last error|DateTime|&#x25CF;|
 |retries|Number of retries since last successfull execution|Int| |
 
-
 ![locking table relationship diagram](./media/locking.png)
 
 [!include[details](./includes/locking.md)]
@@ -50,7 +49,6 @@ Generic locking and error messages
 |------|-------------|
 |[inbox](inbox.md)  |Info and status for safe email import |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ Generic locking and error messages
 ## Security Flags
 
 * No access control via user's Role.
-

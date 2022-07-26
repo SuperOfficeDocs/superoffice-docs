@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IFavouriteAgent.RemoveAll
 Remove all favourites for a table and associate
 
 * **tableName:** Table name, transformed to and from numeric table id by the service layer.
-* **associateId:** 
-
-
+* **associateId:**
 
 [WSDL file for Services88/Favourite](../Services88-Favourite.md)
 
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveAllFavourites Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

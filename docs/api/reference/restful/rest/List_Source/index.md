@@ -6,9 +6,6 @@ title: List_Source
 /api/v1/List/Source
 ```
 
-
-
-
 * [GET List/Source](v1SourceList_GetListDefinition.md)
 
 * [PUT List/Source](v1SourceList_SetListDefinition.md)

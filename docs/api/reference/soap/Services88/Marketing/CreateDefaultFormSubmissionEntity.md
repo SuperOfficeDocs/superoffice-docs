@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.CreateDef
 Loading default values into a new FormSubmissionEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New FormSubmissionEntity with default values
-
 
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultFormSubmissionEntity Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

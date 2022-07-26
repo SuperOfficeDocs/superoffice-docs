@@ -13,15 +13,10 @@ Request to send the session to another user.
 
 If the session does not belong to the user, nothing happens.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to send **Required** |
 | toAssociate | string | Associate username or associate id to send session to. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,12 +31,9 @@ If the session does not belong to the user, nothing happens.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Chat sessions belong to a chat topic, and contain messages to/from users
-
-
 
 Carrier object for ChatSessionEntity.
 Services for the ChatSessionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

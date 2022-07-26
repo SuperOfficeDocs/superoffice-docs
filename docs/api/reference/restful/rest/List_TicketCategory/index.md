@@ -6,9 +6,6 @@ title: List_TicketCategory
 /api/v1/List/TicketCategory
 ```
 
-
-
-
 * [GET List/TicketCategory](v1TicketCategoryList_GetListDefinition.md)
 
 * [PUT List/TicketCategory](v1TicketCategoryList_SetListDefinition.md)

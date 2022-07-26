@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Value for field 'accessflags' in table 'prefdesc'
 
 This enumeration consists of flag values that can be combined

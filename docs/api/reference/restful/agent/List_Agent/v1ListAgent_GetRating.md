@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetRating
 
 Gets a Rating object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a Rating object.
 POST /api/v1/Agents/List/GetRating?ratingId=748
 POST /api/v1/Agents/List/GetRating?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetRating?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Sale Stage with probability percent.
-
-
 
 Carrier object for Rating.
 Services for the Rating Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

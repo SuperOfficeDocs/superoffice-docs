@@ -6,9 +6,6 @@ title: List_SaleType
 /api/v1/List/SaleType
 ```
 
-
-
-
 * [GET List/SaleType](v1SaleTypeList_GetListDefinition.md)
 
 * [PUT List/SaleType](v1SaleTypeList_SetListDefinition.md)

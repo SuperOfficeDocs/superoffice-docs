@@ -17,7 +17,6 @@ Returns an array of phone list items with the in-parameter as restriction. The i
 
 **Returns:** The department phone list
 
-
 [WSDL file for Services87/PhoneList](../Services87-PhoneList.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetDepartmentPhones Response
 
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

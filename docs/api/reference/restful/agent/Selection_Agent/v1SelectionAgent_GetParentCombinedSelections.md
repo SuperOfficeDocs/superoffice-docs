@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/GetParentCombinedSelections
 
 Get a list of all selection ids where the given selection is used to create a combined selection.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a list of all selection ids where the given selection is used to create a co
 ```http
 POST /api/v1/Agents/Selection/GetParentCombinedSelections?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Selection/GetParentCombinedSelections?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId 
+SelectionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample Request
 

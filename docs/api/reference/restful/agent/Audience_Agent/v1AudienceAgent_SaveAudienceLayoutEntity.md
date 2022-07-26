@@ -11,13 +11,6 @@ POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 
 Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The AudienceLayoutEntity to be saved. 
+The AudienceLayoutEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,12 +39,9 @@ The AudienceLayoutEntity to be saved.
 | CreatedBy |  | Name of the person that created the Audience layout |
 | UpdatedBy |  | Name of the person that last updated the Audience layout |
 
-
 ## Response: object
 
 Audience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it's instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout
-
-
 
 Carrier object for AudienceLayoutEntity.
 Services for the AudienceLayoutEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.

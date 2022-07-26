@@ -52,4 +52,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IFindAgent'>IFi
 * [SaveRestrictionsAndGetCriteriaInformation2](saverestrictionsandgetcriteriainformation2.md)
 * [SaveRestrictionsWithContext](saverestrictionswithcontext.md)
 * [SaveRestrictionsWithContext2](saverestrictionswithcontext2.md)
-

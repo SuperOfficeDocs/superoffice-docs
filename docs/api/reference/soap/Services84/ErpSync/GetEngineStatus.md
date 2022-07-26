@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetEngineSt
 
 Get the current status of the Sync engine
 
-
 **Returns:** The current status of the engine
-
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetEngineStatus Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

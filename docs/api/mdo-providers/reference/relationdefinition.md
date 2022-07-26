@@ -15,10 +15,8 @@ so.envir:
 ---
 
 # "relationdefinition" MDO List
+
 The name of the MDO list is 'relationdefinition'.
-
-
-
 
 ## Sample Request
 
@@ -31,6 +29,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("relationdefinition", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -53,7 +52,6 @@ foreach (var item in listProvider.RootItems) {
 |8|Link to follow-up|||
 |10|Link to sale|||
 |5|sitter i styret hos|||
-
 
 ## Related MDO Lists
 

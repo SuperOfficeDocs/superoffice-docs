@@ -11,12 +11,6 @@ POST /api/v1/Agents/Report/GenerateReport
 
 Generates the report in PDF format
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Generates the report in PDF format
 ```http
 POST /api/v1/Agents/Report/GenerateReport?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Report/GenerateReport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions 
+ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,17 +48,13 @@ ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions
 | FileType | string |  |
 | Restrictions | array |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

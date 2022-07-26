@@ -13,10 +13,6 @@ Gets the value of the string(s) with a given name in all known languages.
 
 Post the array of strings to get translations for all the strings.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +24,6 @@ Post the array of strings to get translations for all the strings.
 POST /api/v1/String?isoLangCode=omnis
 POST /api/v1/String?ignoreOverrides=False
 ```
-
 
 ## Request Headers
 
@@ -44,22 +39,17 @@ POST /api/v1/String?ignoreOverrides=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: sr_ids  
+## Request Body: sr_ids
 
-The string names: ['SR_YES', 'SR_NO' etc]. You can specify multiple string ids in the array. 
-
-
+The string names: ['SR_YES', 'SR_NO' etc]. You can specify multiple string ids in the array.
 
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample Request
 

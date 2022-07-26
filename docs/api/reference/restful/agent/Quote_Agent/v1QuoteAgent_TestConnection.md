@@ -13,10 +13,6 @@ Used by the Admin clients.
 
 Testing if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection is called without InitializeConnector being called first.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Testing if the connection data is sufficient to get a connection with the ERP sy
 ```http
 POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ConnectorName, ConnectionData 
+ConnectorName, ConnectionData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectorName | string |  |
 | ConnectionData | object |  |
 
-
 ## Response: object
 
 PluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.
-
-
 
 Carrier object for PluginResponse.
 Services for the PluginResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

@@ -32,7 +32,6 @@ User-defined fields. During conversion of user defined fields the data is stored
 |string48|string value 48, not indexed|String(199)|&#x25CF;|
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
-
 ![udprojectLarge table relationship diagram](./media/udprojectLarge.png)
 
 [!include[details](./includes/udprojectlarge.md)]
@@ -53,7 +52,6 @@ User-defined fields. During conversion of user defined fields the data is stored
 |------|-------------|
 |[project](project.md)  |Projects |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -63,4 +61,3 @@ User-defined fields. During conversion of user defined fields the data is stored
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

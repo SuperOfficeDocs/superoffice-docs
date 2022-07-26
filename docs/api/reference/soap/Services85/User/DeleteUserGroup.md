@@ -16,8 +16,6 @@ Delete a usergroup and move its members to another usergroup
 * **userGroupToDelete:** The id of the userGroup to delete
 * **userGroupToMoveTo:** The id of the userGroup to move the members to
 
-
-
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteUserGroup Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

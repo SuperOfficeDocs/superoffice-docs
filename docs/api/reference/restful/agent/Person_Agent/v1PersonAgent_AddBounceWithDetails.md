@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/AddBounceWithDetails
 
 Add a number of bounce counts on the email address if it exists, and with possible bounce code and reason
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Add a number of bounce counts on the email address if it exists, and with possib
 POST /api/v1/Agents/Person/AddBounceWithDetails?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Person/AddBounceWithDetails?$select=name,department,category
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EmailAddress, Counts, Code, Reason 
+EmailAddress, Counts, Code, Reason
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,9 +41,7 @@ EmailAddress, Counts, Code, Reason
 | Code | int32 |  |
 | Reason | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,10 +13,6 @@ Gets the available active PriceLists in a specific currency.
 
 Will return empty array if there is no PriceList with the stated currency available.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Will return empty array if there is no PriceList with the stated currency availa
 ```http
 POST /api/v1/Agents/Quote/GetActivePriceLists?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Quote/GetActivePriceLists?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteConnectionId, Currency 
+QuoteConnectionId, Currency
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | Currency | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

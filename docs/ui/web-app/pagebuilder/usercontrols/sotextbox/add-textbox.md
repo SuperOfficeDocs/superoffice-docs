@@ -57,7 +57,6 @@ Once the code segment is added to the *SoContactPanel.config* file, the **Intere
 ![03][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image003.jpg

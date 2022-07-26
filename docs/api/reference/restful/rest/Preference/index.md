@@ -6,9 +6,6 @@ title: Preference
 /api/v1/Preference
 ```
 
-
-
-
 * [GET Preference](v1Preference_GetSections.md)
 
 * [GET Preference/{section}](v1Preference_GetKeysInSection.md)

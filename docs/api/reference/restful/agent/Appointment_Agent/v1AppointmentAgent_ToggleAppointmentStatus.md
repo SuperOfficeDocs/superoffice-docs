@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/ToggleAppointmentStatus
 
 Sets an appointment's status to Completed if the appointment had a different status, or sets the status to started if already set to completed.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Sets an appointment's status to Completed if the appointment had a different sta
 ```http
 POST /api/v1/Agents/Appointment/ToggleAppointmentStatus?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Appointment/ToggleAppointmentStatus?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentId 
+AppointmentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

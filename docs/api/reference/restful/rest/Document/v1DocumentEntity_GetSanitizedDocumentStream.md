@@ -13,14 +13,9 @@ Get the document content as a stream.
 
 Retrieves a sanitized version if possible
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document id **Required** |
-
-
 
 ## Request Headers
 
@@ -35,17 +30,13 @@ Retrieves a sanitized version if possible
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
-
-
+## Response
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
-
+Response body:
 
 ## Sample Request
 

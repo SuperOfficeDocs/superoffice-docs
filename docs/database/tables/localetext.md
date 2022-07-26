@@ -33,7 +33,6 @@ Multi-language text items. Used for user-defined field labels. Must be assigned 
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltin|1 = this row is populated and maintained by SuperOffice|UShort|&#x25CF;|
 
-
 ![LocaleText table relationship diagram](./media/LocaleText.png)
 
 [!include[details](./includes/localetext.md)]
@@ -52,7 +51,6 @@ Multi-language text items. Used for user-defined field labels. Must be assigned 
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,4 +60,3 @@ Multi-language text items. Used for user-defined field labels. Must be assigned 
 ## Security Flags
 
 * No access control via user's Role.
-

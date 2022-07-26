@@ -6,9 +6,6 @@ title: List_ProductType
 /api/v1/List/ProductType
 ```
 
-
-
-
 * [GET List/ProductType](v1ProductTypeList_GetListDefinition.md)
 
 * [PUT List/ProductType](v1ProductTypeList_SetListDefinition.md)

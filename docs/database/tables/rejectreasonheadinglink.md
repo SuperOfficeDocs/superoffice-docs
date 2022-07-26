@@ -30,7 +30,6 @@ Heading link table for RejectReason, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![RejectReasonHeadingLink table relationship diagram](./media/RejectReasonHeadingLink.png)
 
 [!include[details](./includes/rejectreasonheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for RejectReason, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[RejectReason](rejectreason.md)  |Rejection reason (suggested) for bookings |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for RejectReason, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

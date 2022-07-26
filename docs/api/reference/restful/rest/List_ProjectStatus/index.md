@@ -6,9 +6,6 @@ title: List_ProjectStatus
 /api/v1/List/ProjectStatus
 ```
 
-
-
-
 * [GET List/ProjectStatus](v1ProjectStatusList_GetListDefinition.md)
 
 * [PUT List/ProjectStatus](v1ProjectStatusList_SetListDefinition.md)

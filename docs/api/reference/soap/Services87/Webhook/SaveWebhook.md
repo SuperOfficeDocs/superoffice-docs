@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IWebhookAgent.SaveWebhook
 ## SaveWebhook
 
 Updates the existing Webhook or creates a new Webhook if the id parameter is 0.
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **webhook:** The Webhook that is saved.
 
 **Returns:** New or updated Webhook
-
 
 [WSDL file for Services87/Webhook](../Services87-Webhook.md)
 
@@ -103,7 +102,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveWebhook Response
 
 ```xml
@@ -176,4 +174,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

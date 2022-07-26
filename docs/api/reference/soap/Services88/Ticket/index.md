@@ -43,4 +43,3 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [SetTicketMessageImportant](SetTicketMessageImportant.md)
 * [SetTicketReadByOwner](SetTicketReadByOwner.md)
 * [UploadAttachment](UploadAttachment.md)
-

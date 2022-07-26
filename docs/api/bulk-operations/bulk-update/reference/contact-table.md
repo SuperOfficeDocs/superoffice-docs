@@ -14,6 +14,7 @@ so.client: online
 
 Contact fields. Key constants are in `BulkUpdateSystem.ContactFieldValueKeys`.
 
+<!-- markdownlint-disable-file MD033 -->
 <table>
     <title>Contact</title>
     <thead>

@@ -30,7 +30,6 @@ User group link table for ProjType, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ProjTypeGroupLink table relationship diagram](./media/ProjTypeGroupLink.png)
 
 [!include[details](./includes/projtypegrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for ProjType, for MDO item hiding
 |[ProjType](projtype.md)  |ProjType list table. List of valid Project types. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for ProjType, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

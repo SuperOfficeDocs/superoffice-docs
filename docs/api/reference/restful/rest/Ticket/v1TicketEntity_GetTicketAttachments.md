@@ -11,16 +11,9 @@ GET /api/v1/Ticket/{ticketEntityId}/Attachments
 
 Get attachment infos for all attachments connected to messages in specified ticket
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketEntityId | int32 | The id of the ticket to get attachment infos from **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Get attachment infos for all attachments connected to messages in specified tick
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

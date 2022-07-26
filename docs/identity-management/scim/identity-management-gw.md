@@ -27,7 +27,7 @@ The Identity Manager is a clean, web-based user interface for SCIM identity mana
 ### Configurations tab
 
 * **User Sync Rules** pane - the rules wizard
-* **SCIM users** pane - a list of users that _can_ be synchronized
+* **SCIM users** pane - a list of users that **can** be synchronized
 * **Preview** pane - details for the currently selected user
 
 ![SCIM UI configurations tab -screenshot][img2]

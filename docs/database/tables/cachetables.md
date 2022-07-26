@@ -27,7 +27,6 @@ Specifies which tables should be cached to local files (or otherwise), generally
 |subKeyValue|Value of given subkey|Id| |
 |checkSum|Checksum after last update of that table|Int| |
 
-
 ![CacheTables table relationship diagram](./media/CacheTables.png)
 
 [!include[details](./includes/cachetables.md)]
@@ -46,4 +45,3 @@ Specifies which tables should be cached to local files (or otherwise), generally
 ## Security Flags
 
 * No access control via user's Role.
-

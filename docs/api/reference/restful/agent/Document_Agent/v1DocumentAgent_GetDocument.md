@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/GetDocument
 
 Gets a Document object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a Document object.
 POST /api/v1/Agents/Document/GetDocument?documentId=383
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,7 +35,6 @@ POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

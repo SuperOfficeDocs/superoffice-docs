@@ -15,8 +15,6 @@ Deletes the SaleEntity
 
 * **saleEntityId:** The identity of the SaleEntity
 
-
-
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteSaleEntity Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

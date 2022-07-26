@@ -21,4 +21,3 @@ Download [WSDL file for Services86/Sentry](../Services86-Sentry.md) if you need 
 * [GetNewTableRight](GetNewTableRight.md)
 * [GetTableRightByOwnership](GetTableRightByOwnership.md)
 * [HasFunctionRight](HasFunctionRight.md)
-

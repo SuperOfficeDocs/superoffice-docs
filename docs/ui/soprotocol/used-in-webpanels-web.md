@@ -14,7 +14,7 @@ so.topic: reference
 
 [dialog=stop]
 
-[mode=display|edit] (issues via crossmessaging, in app javascript)
+[mode=display|edit] (issues via crossmessaging, in app JavaScript)
 
 * info[mode=edit]
 

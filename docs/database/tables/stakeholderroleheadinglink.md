@@ -30,7 +30,6 @@ Heading link table for StakeholderRole, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![StakeholderRoleHeadingLink table relationship diagram](./media/StakeholderRoleHeadingLink.png)
 
 [!include[details](./includes/stakeholderroleheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for StakeholderRole, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[StakeholderRole](stakeholderrole.md)  |Role a stakeholder has in a sale |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for StakeholderRole, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

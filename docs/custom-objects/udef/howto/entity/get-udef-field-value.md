@@ -19,6 +19,7 @@ All that is required to gain access to any user-defined value for a given field 
 
 ## Table identity
 
+<!-- markdownlint-disable MD051 -->
 ### [C#](#tab/csharp)
 
 ```csharp
@@ -32,6 +33,7 @@ TableId = System.Convert.ToInt32(Machine.Shift.Right, 8)
 ```
 
 ***
+<!-- markdownlint-restore -->
 
 ## Field offset
 

@@ -13,10 +13,6 @@ Creates a new Dashboard
 
 Calls the Dashboard agent service SaveDashboard.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Dashboard agent service SaveDashboard.
 ```http
 POST /api/v1/Dashboard?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Dashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The Dashboard to be saved. 
+The Dashboard to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +49,9 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-
 ## Response: object
 
 Dashboard configuration
-
-
 
 Dashboard entity with API _Links added.
 

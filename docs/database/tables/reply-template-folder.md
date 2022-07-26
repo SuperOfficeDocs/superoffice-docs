@@ -28,7 +28,6 @@ This table contains entries for folders for reply templates.
 |flags|A bitmap for this folder.|Int|&#x25CF;|
 |fullname|The full name of this folder , i.e. Foo/bar/test.|Clob|&#x25CF;|
 
-
 ![reply_template_folder table relationship diagram](./media/reply_template_folder.png)
 
 [!include[details](./includes/reply-template-folder.md)]
@@ -49,7 +48,6 @@ This table contains entries for folders for reply templates.
 |[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
 |[reply\_template\_folder](reply-template-folder.md)  |This table contains entries for folders for reply templates. |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ This table contains entries for folders for reply templates.
 ## Security Flags
 
 * No access control via user's Role.
-
