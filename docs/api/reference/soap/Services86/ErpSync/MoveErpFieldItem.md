@@ -12,14 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.MoveErpFiel
 ## MoveErpFieldItem
 
 Moves the rank of the erp field up or down
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpFieldId:** The id of the erp field to move
 * **direction:** Positive value to increase rank, negative to decrease.
 * **erpConnectionId:** The id of the connection
 * **erpActorType:** The actor type for which we want to rank fields
-
-
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -56,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## MoveErpFieldItem Response
 
 ```xml
@@ -76,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

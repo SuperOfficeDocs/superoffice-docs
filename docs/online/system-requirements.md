@@ -22,8 +22,6 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 * MacOS Big Sur
 * MacOS Catalina
 
-
-
 ## Browsers
 
 * Microsoft Edge

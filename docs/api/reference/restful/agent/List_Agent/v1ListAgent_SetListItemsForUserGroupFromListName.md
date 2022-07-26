@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 
 Update listItems that will be visible for this usergroup
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Update listItems that will be visible for this usergroup
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName?$select=name,depar
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionName, UsergroupId, ListItemsID, Enable 
+UdListDefinitionName, UsergroupId, ListItemsID, Enable
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,9 +41,7 @@ UdListDefinitionName, UsergroupId, ListItemsID, Enable
 | ListItemsID | array |  |
 | Enable | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

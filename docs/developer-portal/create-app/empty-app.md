@@ -60,7 +60,6 @@ This template creates an app configuration where you just need to add in the app
 <!-- Referenced links -->
 [1]: ../reference/app-config.md
 [2]: ../howto/notifications.md
-[4]: ../../api/reference/restful/index.md
 [5]: ../../api/reference/restful/agent/Webhook_Agent/index.md
 [6]: ../../api/reference/soap/Services88/index.md
 [7]: ../security/find-clientid.md
@@ -71,5 +70,4 @@ This template creates an app configuration where you just need to add in the app
 [18]: ../howto/request-to-publish.md
 
 <!-- Referenced images -->
-[img4]: media/enter-redirect-urls.png
 [img5]: media/select-technical-contact.png

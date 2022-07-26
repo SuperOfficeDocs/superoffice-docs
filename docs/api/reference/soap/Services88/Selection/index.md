@@ -69,4 +69,3 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [SetDynamicSelectionCriteriaGroups](SetDynamicSelectionCriteriaGroups.md)
 * [StartMailMerge](StartMailMerge.md)
 * [UpdateTypicalSearch](UpdateTypicalSearch.md)
-

@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.FindAddress">
 ## FindAddress
 
 Search for contacts and persons with the specified e-mail address (exact match on the email address string required)
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **address:** E-mail address to look for
 
 **Returns:** All resolved contacts/persons
-
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## FindAddress Response
 
@@ -86,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

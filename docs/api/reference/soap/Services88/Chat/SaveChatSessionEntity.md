@@ -17,7 +17,6 @@ Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the
 
 **Returns:** New or updated ChatSessionEntity
 
-
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -307,7 +306,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveChatSessionEntity Response
 
 ```xml
@@ -585,4 +583,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

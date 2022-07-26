@@ -29,7 +29,7 @@ Logpath=c:\SO_arc\data\SOError.log
 
 * **Logpath**: make sure the path is accessible for the client you want to make the log file for. For debugging, it is most useful if this location is used only for the client with problems, so a local folder where the user has a write-permission is ideal.
 
-See the [superOffice.ini reference][1] for details.
+See the [SuperOffice.ini reference][1] for details.
 
 > [!CAUTION]
 > If you enable the comprehensive error logging function, you must remember to disable it (set `EnableDebug=0`) afterward. Otherwise, the hard disk will fill up.
@@ -50,5 +50,4 @@ If asked for even more extended logging, you may turn this on by adding:
 
 <!-- Referenced links -->
 [1]: ../install/win-client/superoffice-ini.md
-[2]: ../install/win-client/superoffice-config.md
 [3]: index.md

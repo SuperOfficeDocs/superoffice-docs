@@ -17,7 +17,6 @@ Updates the existing QuoteAlternative or creates a new QuoteAlternative if the i
 
 **Returns:** New or updated QuoteAlternative
 
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -74,7 +73,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveQuoteAlternative Response
 
 ```xml
@@ -119,4 +117,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

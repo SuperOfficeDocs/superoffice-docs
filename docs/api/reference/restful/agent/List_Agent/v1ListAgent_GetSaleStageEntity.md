@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetSaleStageEntity
 
 Gets a SaleStageEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a SaleStageEntity object.
 POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=117
 POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 This entity represents a sale stage with a default percentage rating.
-
-
 
 Carrier object for SaleStageEntity.
 Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

@@ -17,7 +17,6 @@ A re-open appointment should be created as a reminder to re-open the sale at a c
 
 **Returns:** The re-open appointment with start date = the re-open date of the sale and a description matching the sales stalled reason.
 
-
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultReOpenAppointment Response
 
@@ -475,4 +473,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

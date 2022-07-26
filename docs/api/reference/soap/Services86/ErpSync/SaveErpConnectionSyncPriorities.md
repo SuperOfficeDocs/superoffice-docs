@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.SaveErpConn
 ## SaveErpConnectionSyncPriorities
 
 Takes an array of the ErpConnection ids and saves these as ordered sync priorities
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionIds:** The id put in array in the same order as the priorities
 
 **Returns:** Returns true if new sync priorities is saved
-
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveErpConnectionSyncPriorities Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -9,11 +9,12 @@ so.category: list
 so.area: api-services
 ---
 
-## How to delete a list item
+# How to delete a list item
 
 To delete a list item, use the `Lists` endpoint. These examples use the Category list for demonstration purposes.
 
-# [RESTful REST API](#tab/lists-restful-rest)
+<!-- markdownlint-disable-file MD051 -->
+## [RESTful REST API](#tab/lists-restful-rest)
 
 ```http
 DELETE https://{{env}}.superoffice.com/{{tenant}}/api/v1/List/Category/Items/5 HTTP/1.1
@@ -21,13 +22,13 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
 
-**Response**
+**Response:**
 
 HTTP Status 204
 
-# [RESTful Agent API](#tab/lists-restful-agent)
+## [RESTful Agent API](#tab/lists-restful-agent)
 
-### For build-in lists use the list name. See example below to use list Id.
+### For build-in lists use the list name. See example below to use list Id
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/List/DeleteFromListName HTTP/1.1
@@ -41,7 +42,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-### For user-defined lists, use the list Id and list item Id.
+### For user-defined lists, use the list ID and list item ID
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/List/DeleteFromListDefinition HTTP/1.1
@@ -55,15 +56,15 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-**Response**
+**Response:**
 
 HTTP Status 204
 
-# [WebApi Proxy API](#tab/lists-webapi-proxy)
+## [WebApi Proxy API](#tab/lists-webapi-proxy)
 
 How to delete a list item using the [SuperOffice.WebApi][1] proxy client.
 
-### For build-in lists use the list name. See example below to use list Id.
+### For build-in lists use the list name. See example below to use list Id
 
 ```csharp
 var config = new WebApiOptions(tenant.WebApiUrl);
@@ -73,7 +74,7 @@ var listAgent = new ListAgent(config);
 await listAgent.DeleteFromListNameAsync(34, "Category");
 ```
 
-### For user-defined lists, use the list Id and list item Id.
+### For user-defined lists, use the list Id and list item Id
 
 ```csharp
 var config = new WebApiOptions(tenant.WebApiUrl);

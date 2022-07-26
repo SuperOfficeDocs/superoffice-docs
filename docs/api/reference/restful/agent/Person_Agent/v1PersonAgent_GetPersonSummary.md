@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/GetPersonSummary
 
 Get summary of person and recent activity.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get summary of person and recent activity.
 ```http
 POST /api/v1/Agents/Person/GetPersonSummary?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/Person/GetPersonSummary?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, Limit 
+PersonId, Limit
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Limit | int32 |  |
 
-
 ## Response: object
 
 Summary of person, with recent activities, chats, and requests included.
-
-
 
 Carrier object for PersonSummary.
 Services for the PersonSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.

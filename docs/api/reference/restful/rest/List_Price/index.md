@@ -6,9 +6,6 @@ title: List_Price
 /api/v1/List/Price
 ```
 
-
-
-
 * [GET Pricelist/default](v1PriceList_DefaultPriceList.md)
 
 * [GET Pricelist](v1PriceList_GetAll.md)

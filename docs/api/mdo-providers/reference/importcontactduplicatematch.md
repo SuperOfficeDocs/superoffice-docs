@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "importcontactduplicatematch" MDO List
+
 List of fields to match contact imports.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ImportContactDuplicateMatchProvider">ImportContactDuplicateMatchProvider</see> class.
 The name of the MDO list is 'importcontactduplicatematch'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("importcontactduplicatematch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +51,6 @@ foreach (var item in listProvider.RootItems) {
 |4|Code|||
 |5|VAT number|||
 |6|ID|||
-
 
 ## Related MDO Lists
 

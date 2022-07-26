@@ -11,12 +11,6 @@ POST /api/v1/Agents/PhoneList/SetPreferences
 
 Setting Phone List Preferences to the CRM 5 user preferences
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Setting Phone List Preferences to the CRM 5 user preferences
 POST /api/v1/Agents/PhoneList/SetPreferences?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/PhoneList/SetPreferences?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Preferences 
+Preferences
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Preferences |  | Search preferences for a phone list search <para /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
-
+| Preferences |  | Search preferences for a phone list search <br /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

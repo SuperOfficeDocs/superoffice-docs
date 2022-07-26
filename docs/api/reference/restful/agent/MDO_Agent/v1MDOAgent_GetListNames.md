@@ -13,10 +13,6 @@ Returns a list of all MDO List names.
 
 These names can also be used with the Archive agent as ProviderNames.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ These names can also be used with the Archive agent as ProviderNames.
 ```http
 POST /api/v1/Agents/MDO/GetListNames?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,17 +36,13 @@ POST /api/v1/Agents/MDO/GetListNames?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample Request
 

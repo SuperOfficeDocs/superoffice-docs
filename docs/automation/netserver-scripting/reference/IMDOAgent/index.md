@@ -28,4 +28,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IMDOAgent'>IMDO
 * [GetSelectableSimpleList](getselectablesimplelist.md)
 * [GetSimpleList](getsimplelist.md)
 * [SetSelected](setselected.md)
-

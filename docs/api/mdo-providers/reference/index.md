@@ -110,7 +110,7 @@ so.envir:
 | [createdocumenttemplateplugin](createdocumenttemplateplugin.md) |List of document plugins that can create document templates.|
 | [credentialgroup](credentialgroup.md) |List of user groups supported by a named creditial plugin, sorted by group name.|
 | [credited](credited.md) |GenericMDOProvider reads MDO lists with default settings|
-| [crmscript](crmscript.md) |Archive of CRMScripts. Returns script id + name of script as hierarchy.|
+| [CRMScript](crmscript.md) |Archive of CRMScripts. Returns script id + name of script as hierarchy.|
 | [culture](culture.md) ||
 | [culturesolanguage](culturesolanguage.md) |List of SuperOffice cultures with old-style SO Culture name in ExtraInfo|
 | [currency](currency.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -398,4 +398,3 @@ so.envir:
 | [webpanelgroup](webpanelgroup.md) |List of WebPanels with visible for groups as commaseperated ids in extrainfo field|
 | [weekday](weekday.md) |MDO provider for the hard-coded list of week days.|
 | [weeknumber](weeknumber.md) |MDO provider for the hard-coded list of numbered weeks in the recurrence dialog.|
-

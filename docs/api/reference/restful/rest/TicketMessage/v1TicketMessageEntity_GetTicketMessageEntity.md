@@ -13,13 +13,9 @@ Gets a TicketMessageEntity object.
 
 Calls the Ticket agent service GetTicketMessageEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketMessageEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +28,6 @@ Calls the Ticket agent service GetTicketMessageEntity.
 GET /api/v1/TicketMessage/{id}?$select=name,department,category/id
 GET /api/v1/TicketMessage/{id}?fk=False
 ```
-
 
 ## Request Headers
 
@@ -47,12 +42,9 @@ GET /api/v1/TicketMessage/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request).
-
-
 
 TicketMessageEntity entity with API _Links added.
 
@@ -80,7 +72,7 @@ Response body: object
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person |  | If this is an incoming message, this will contain the person  <br />Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |

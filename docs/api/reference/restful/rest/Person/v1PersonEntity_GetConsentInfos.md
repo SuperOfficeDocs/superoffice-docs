@@ -13,14 +13,9 @@ Get all consent information for a given person.
 
 May include withdrawn consents (check
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id to get consents for **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +30,7 @@ May include withdrawn consents (check
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,14 +11,9 @@ POST /api/v1/Agents/User/GetAllRoles
 
 Get a list of all roles for the given type of role.
 
-MDO List name = 'Roles', extra='0' (roleType) 
+MDO List name = 'Roles', extra='0' (roleType)
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -29,7 +24,6 @@ MDO List name = 'Roles', extra='0' (roleType)
 ```http
 POST /api/v1/Agents/User/GetAllRoles?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,18 +39,15 @@ POST /api/v1/Agents/User/GetAllRoles?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-RoleType 
+RoleType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleType | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -32,7 +32,6 @@ Link between an audience layout and some target grouping table - might be Role o
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![AudienceLayoutLink table relationship diagram](./media/AudienceLayoutLink.png)
 
 [!include[details](./includes/audiencelayoutlink.md)]
@@ -52,7 +51,6 @@ Link between an audience layout and some target grouping table - might be Role o
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[AudienceLayout](audiencelayout.md)  |One layout (of webparts and other stuff) for an audience instance |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ Link between an audience layout and some target grouping table - might be Role o
 ## Security Flags
 
 * No access control via user's Role.
-

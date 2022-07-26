@@ -9,6 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # System user flow
 
 The system user flow is how to obtain a Ticket credential to perform **non-interactive server-to-server** communications.
@@ -52,14 +53,14 @@ The following procedure outline the steps necessary to use the system user **tok
 
 An application can use the system user ticket credential in:
 
-* an Authorization header in HTTP requests 
+* an Authorization header in HTTP requests
   * Instead of `Authorization Bearer <access_token>`, use
     `Authorization SOTicket <ticket>`
-  * The **SO-AppToken** header _must_ be included in the headers with the request.
+  * The **SO-AppToken** header *must* be included in the headers with the request.
     * The SO-AppToken value is the OAuth 2.0 client_secret.
 * an **SoCredential** ticket property in SOAP API
 
-# [REST](#tab/rest)
+### [REST](#tab/rest)
 
 See the Authorization header:
 
@@ -70,7 +71,7 @@ SO-AppToken: {{client_secret}}
 Accept: application/json
 ```
 
-# [SOAP](#tab/soap)
+### [SOAP](#tab/soap)
 
 See the `<User:Credentials>` and `<User:ApplicationToken>` elements:
 
@@ -101,17 +102,9 @@ See the `<User:Credentials>` and `<User:ApplicationToken>` elements:
 With a valid credential set, the application can send authenticated requests to the customer tenant.
 
 <!-- Referenced links -->
-[1]: ../../../../apps/provisioning/consent.md
-[2]: ../../../../apps/redirects/index.md
 [3]: ../validate-security-tokens.md
-[4]: ../api.md
-[5]: ../index.md
-[6]: ../../../../apps/tenant-status/index.md
 [8]: get-system-user-ticket.md
-[9]: ../../../../apps/best-practices.md#credential-management
 [10]: ../sign-in-user/index.md
 [11]: sign-system-user-token.md
 <!-- Referenced images -->
-[img1]: media/system-user-flow.jpg
-[img2]: media/non-interactive-token-flow.jpg
 [img3]: media/imagecxe1.png

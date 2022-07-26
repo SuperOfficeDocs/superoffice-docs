@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetExtraInfo
 
 Converts an xml string into an object representation.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Converts an xml string into an object representation.
 ```http
 POST /api/v1/Agents/Quote/GetExtraInfo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Quote/GetExtraInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteLineExtraData 
+QuoteLineExtraData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineExtraData | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

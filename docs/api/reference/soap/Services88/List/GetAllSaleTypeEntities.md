@@ -17,7 +17,6 @@ Returns all sale types as entities with stakeholders, guide and quote properties
 
 **Returns:** Array of sale type entities with stakeholders, guide and quote properties
 
-
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAllSaleTypeEntities Response
 
@@ -134,4 +132,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

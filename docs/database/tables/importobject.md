@@ -33,7 +33,6 @@ Import object types - see localetext for names.
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
 
-
 ![ImportObject table relationship diagram](./media/ImportObject.png)
 
 [!include[details](./includes/importobject.md)]
@@ -53,7 +52,6 @@ Import object types - see localetext for names.
 |[ImportField](importfield.md)  |Import object types - see localetext for names |
 |[ImportRelation](importrelation.md)  |Relations between import objects |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ Import object types - see localetext for names.
 ## Security Flags
 
 * No access control via user's Role.
-

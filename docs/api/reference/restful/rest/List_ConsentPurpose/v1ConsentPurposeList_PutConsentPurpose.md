@@ -13,14 +13,9 @@ Updates the existing ConsentPurpose
 
 Calls the List agent service SaveConsentPurpose.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ConsentPurpose to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ Calls the List agent service SaveConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of ConsentPurpose to be saved. 
+The details of ConsentPurpose to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +50,6 @@ The details of ConsentPurpose to be saved.
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-
 
 ## Response: object
 

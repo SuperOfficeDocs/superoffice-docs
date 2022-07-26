@@ -11,13 +11,6 @@ POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 
 Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DiaryViewEntity to be saved. 
+The DiaryViewEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,10 +40,7 @@ The DiaryViewEntity to be saved.
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -30,7 +30,6 @@ Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![UDListHeadingLink table relationship diagram](./media/UDListHeadingLink.png)
 
 [!include[details](./includes/udlistheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[UDList](udlist.md)  |List table for user-defined lists, contains all user-defined lists. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede
 ## Security Flags
 
 * No access control via user's Role.
-

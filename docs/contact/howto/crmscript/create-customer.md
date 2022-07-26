@@ -84,4 +84,4 @@ For a complete list of fields, see the [database reference][2].
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Customer.setValue(String,String)>
-[3]: ../../../database/tables/person.md
+[2]: ../../../database/tables/person.md

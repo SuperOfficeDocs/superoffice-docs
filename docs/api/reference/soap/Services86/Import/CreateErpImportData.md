@@ -20,7 +20,6 @@ Populates the ImportLines and columnDefs basedfrom erp system
 
 **Returns:** The ImportLines and ColumnDefs
 
-
 [WSDL file for Services86/Import](../Services86-Import.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -131,7 +130,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateErpImportData Response
 
 ```xml
@@ -171,4 +169,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

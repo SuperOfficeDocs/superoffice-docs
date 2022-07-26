@@ -29,4 +29,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IReportAgent'>I
 * [SaveReportEntity](savereportentity.md)
 * [SaveReportLabelLayoutEntity](savereportlabellayoutentity.md)
 * [UpdateFavorite](updatefavorite.md)
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/SaveQuoteLineImage
 
 Saves the image connected to a quoteline in the SuperOffice database
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Saves the image connected to a quoteline in the SuperOffice database
 POST /api/v1/Agents/Quote/SaveQuoteLineImage?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Quote/SaveQuoteLineImage?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteLineId, Image, Rank 
+QuoteLineId, Image, Rank
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,9 +40,7 @@ QuoteLineId, Image, Rank
 | Image | byte |  |
 | Rank | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

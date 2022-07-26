@@ -6,9 +6,6 @@ title: UserDefinedFieldInfo_Agent
 /api/v1/UserDefinedFieldInfo/Agent
 ```
 
-
-
-
 * [POST Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent](v1UserDefinedFieldInfoAgent_SetPublishStartSystemEvent.md)
 
 * [POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo](v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo.md)

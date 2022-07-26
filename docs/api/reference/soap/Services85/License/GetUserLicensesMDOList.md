@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.ILicenseAgent.GetUserLice
 
 Get all licenses in a MDOListItem structure.
 
-
 **Returns:** Hierarchical structure of user licenses.
-
 
 [WSDL file for Services85/License](../Services85-License.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetUserLicensesMDOList Response
 
@@ -127,4 +124,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

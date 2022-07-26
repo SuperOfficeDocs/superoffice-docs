@@ -13,11 +13,6 @@ Custom fields meta-data (published user defined + extra fields) on PersonEntity.
 
 Excludes standard fields.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +26,7 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

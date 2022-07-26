@@ -11,13 +11,7 @@ POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
 
 Indicates if the connection supports advanced search for the given erp actor
 
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Indicates if the connection supports advanced search for the given erp actor
 ```http
 POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,26 +37,22 @@ POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ErpConnectionId, ErpActorType 
+ErpConnectionId, ErpActorType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ErpActorType | string |  |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

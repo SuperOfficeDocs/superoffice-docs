@@ -15,10 +15,9 @@ so.envir:
 ---
 
 # "documenttypes" MDO List
+
 List of document types for the given plugin.
 ExtraInfo = document plugin-id.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DocumentTypesListProvider">DocumentTypesListProvider</see> class.
 The name of the MDO list is 'documenttypes'.
@@ -28,10 +27,6 @@ The name of the MDO list is 'documenttypes'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Document plugin id to get types from| |0|
-
-
-
-
 
 ## Sample Request
 
@@ -44,6 +39,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("documenttypes", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,7 +53,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

@@ -26,7 +26,6 @@ Knowledge base problem solving wizard, categories and subcategories for drilling
 |name||String(255)|&#x25CF;|
 |body|The body for the solution finder. HTML format.|Clob|&#x25CF;|
 
-
 ![kb_solution_finder table relationship diagram](./media/kb_solution_finder.png)
 
 [!include[details](./includes/kb-solution-finder.md)]
@@ -45,7 +44,6 @@ Knowledge base problem solving wizard, categories and subcategories for drilling
 |[kb\_solution\_finder](kb-solution-finder.md)  |Knowledge base problem solving wizard, categories and subcategories for drilling down |
 |[kb\_solution\_finder\_entry](kb-solution-finder-entry.md)  |Knowledge base problem solving wizard, items in a category linking to a knowledge base entry |
 
-
 ## Replication Flags
 
 * None
@@ -53,4 +51,3 @@ Knowledge base problem solving wizard, categories and subcategories for drilling
 ## Security Flags
 
 * No access control via user's Role.
-

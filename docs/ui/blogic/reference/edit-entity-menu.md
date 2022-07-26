@@ -46,7 +46,7 @@ To create a new menu, exclude the simple values from the configuration.
 
 | Action         | Map keys                                                       | Description           |
 |:---------------|:---------------------------------------------------------------|:----------------------|
-| addMenu        | label<br>iconUrl<br>url<br>target<be/>appendId (true/false)                      |  |
+| addMenu        | label<br>iconUrl<br>url<br>target<br/>appendId (true/false)                      |  |
 | addAnchor      | label<br>iconUrl<br>url<br>target<br>appendId (true/false)                      |  |
 | addModificator | label<br>field<br>width<br>options.length<br>options.n.name<br>options.n.value |  |
 

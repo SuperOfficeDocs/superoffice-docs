@@ -13,9 +13,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgen
 
 Check if any publish events are active
 
-
-
-
 [WSDL file for Services86/UserDefinedFieldInfo](../Services86-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## IsAnyPublishEventActive Response
 
 ```xml
@@ -68,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

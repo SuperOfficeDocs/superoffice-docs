@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/GetDashTileDefinition
 
 Gets a DashTileDefinition object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a DashTileDefinition object.
 POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=908
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Dashboard Tile definition
-
-
 
 Carrier object for DashTileDefinition.
 Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

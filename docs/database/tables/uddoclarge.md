@@ -32,7 +32,6 @@ User-defined fields
 |string48|string value 48, not indexed|String(199)|&#x25CF;|
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
-
 ![uddoclarge table relationship diagram](./media/uddoclarge.png)
 
 [!include[details](./includes/uddoclarge.md)]
@@ -53,7 +52,6 @@ User-defined fields
 |------|-------------|
 |[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -63,4 +61,3 @@ User-defined fields
 ## Security Flags
 
 * No access control via user's Role.
-

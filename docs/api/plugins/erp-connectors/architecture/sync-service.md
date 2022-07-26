@@ -14,7 +14,7 @@ so.topic: concept
 
 ![x][img1]
 
-SuperOffice clients will all talk to the ERP system via an **ERP Sync Connector** over SOAP. There can be many Superoffice clients, spread over many different companies, all talking to the same SOAP endpoint.
+SuperOffice clients will all talk to the ERP system via an **ERP Sync Connector** over SOAP. There can be many SuperOffice clients, spread over many different companies, all talking to the same SOAP endpoint.
 
 The SOAP endpoint must keep track of which client is connected to which ERP system. Each connection is identified by a globally unique ID (GUID), which is generated when the connection is created. The GUID is created by NetServer - the web service has no say in what it is.
 

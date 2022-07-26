@@ -48,7 +48,6 @@ ExtApp list table. Applications startable from SuperOffice
 |url2|Obsolete - do not use this field|String(254)|&#x25CF;|
 |configInfo|Extra configuration information|String(2047)|&#x25CF;|
 
-
 ![ExtApp table relationship diagram](./media/ExtApp.png)
 
 [!include[details](./includes/extapp.md)]
@@ -69,7 +68,6 @@ ExtApp list table. Applications startable from SuperOffice
 |[ExtAppGroupLink](extappgrouplink.md)  |User group link table for ExtApp, for MDO item hiding |
 |[ExtAppHeadingLink](extappheadinglink.md)  |Heading link table for ExtApp, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -79,4 +77,3 @@ ExtApp list table. Applications startable from SuperOffice
 ## Security Flags
 
 * No access control via user's Role.
-

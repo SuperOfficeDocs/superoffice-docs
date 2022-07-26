@@ -77,9 +77,9 @@ To avoid any serialization problems, or database data type conflicts, it's recom
 
 | *Columns* :| x_field_id | x_name       | x_description | x_height   | x_width    |
 |----------|-----------|-------------|-------------|-----------|-----------|
-| _**Row**_ | "[I:0]"    | "cat"        | "in a hat"   | "[I:123]"  | "[F:321.4] "|
-| _**Row**_ | "[I:0]"    | "Foozle"     | "Not woozels" | "[I:69]"   | "[F:123.5] "|
-| _**Row**_ | "[I:0]"    | "Screwdriver" | "Philips head" | "[I:54]"   | "[F:345.3] "|
+| **Row** | "[I:0]"    | "cat"        | "in a hat"   | "[I:123]"  | "[F:321.4] "|
+| **Row** | "[I:0]"    | "Foozle"     | "Not woozels" | "[I:69]"   | "[F:123.5] "|
+| **Row** | "[I:0]"    | "Screwdriver" | "Philips head" | "[I:54]"   | "[F:345.3] "|
 
 You don't *have* to encode every value. Internally, NetServer does accept un-encoded values, however, DateTime-related data types are often the source of problems and it is therefore recommended to use `CultureDataFormatter.Encode(object)` to format all non-string values. This, of course, assumes you are using one of our NetServer libraries.
 

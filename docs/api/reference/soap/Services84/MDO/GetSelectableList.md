@@ -20,7 +20,6 @@ Method to get a Selectable MDO list.
 
 **Returns:** Array of SelectableMDOListItem
 
-
 [WSDL file for Services84/MDO](../Services84-MDO.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSelectableList Response
 
@@ -133,4 +131,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

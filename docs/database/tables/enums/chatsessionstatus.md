@@ -16,7 +16,6 @@ so.envir:
 
 Enum indicating the status for the session (pending, active, closed, etc).
 
-
 ## Usage
 
 * [chat_session](../chat-session.md).status - This table contains chat sessions.

@@ -17,11 +17,14 @@ Deletes all specified occurrences of a key, belonging to the ForeignApp and Fore
 * **applicationName:** The name of the foreign application.
 * **deviceName:** The name of the foreign device.
 * **deviceIdentifier:** The device identifier. Optional if device identifier is not used.
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
-* **recordId:** Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/&gt;Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
+* **tableName:** Table name, transformed to and from numeric table id by the service layer.
+
+  Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
+* **recordId:** Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+
+Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
 
 **Returns:** This method has no return value
-
 
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
@@ -68,7 +71,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteForeignKey Response
 
 ```xml
@@ -87,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

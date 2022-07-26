@@ -6,9 +6,6 @@ title: ViewState_Agent
 /api/v1/ViewState/Agent
 ```
 
-
-
-
 * [POST Agents/ViewState/GetHistory](v1ViewStateAgent_GetHistory.md)
 
 * [POST Agents/ViewState/GetCurrent](v1ViewStateAgent_GetCurrent.md)

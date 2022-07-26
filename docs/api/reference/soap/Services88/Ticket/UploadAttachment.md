@@ -16,8 +16,6 @@ Upload an attachment and return the attachment id
 * **attachmentId:** The id of the attachment row, for which to attach the upload data
 * **content:** A stream to the content to be uploaded
 
-
-
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## UploadAttachment Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

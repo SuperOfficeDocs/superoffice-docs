@@ -94,7 +94,6 @@ We also have samples that demonstrate how to exchange a system user token for a 
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.SystemUser.ServiceConsole
 [4]: https://github.com/SuperOffice/SuperOffice.DevNet.Online.SystemUser.NetCore.Console
 [5]: https://github.com/SuperOffice/devnet-php-oidc-soap
-[6]: https://github.com/SuperOffice/devnet-python-system-user
 
 <!-- Referenced images -->
 [img1]: media/allowscreen.png

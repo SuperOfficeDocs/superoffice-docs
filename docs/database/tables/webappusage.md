@@ -29,7 +29,6 @@ Usage statistics for web applications
 |aggregateBin|Bin no. If this is aggregated data|UInt|&#x25CF;|
 |aggregateCount|Bin count, if this is aggregated data|UInt|&#x25CF;|
 
-
 ![WebAppUsage table relationship diagram](./media/WebAppUsage.png)
 
 [!include[details](./includes/webappusage.md)]
@@ -47,7 +46,6 @@ Usage statistics for web applications
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -55,4 +53,3 @@ Usage statistics for web applications
 ## Security Flags
 
 * No access control via user's Role.
-

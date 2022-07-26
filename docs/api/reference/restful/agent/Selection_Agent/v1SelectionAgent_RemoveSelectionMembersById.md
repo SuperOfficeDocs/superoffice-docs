@@ -13,10 +13,6 @@ Removes members from the selection as specified in the collection of entity ids.
 
 The ids can be a collection of sale ids, or other supported types.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ The ids can be a collection of sale ids, or other supported types.
 POST /api/v1/Agents/Selection/RemoveSelectionMembersById?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +32,16 @@ POST /api/v1/Agents/Selection/RemoveSelectionMembersById?$select=name,department
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, Ids 
+SelectionId, Ids
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Ids | array |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

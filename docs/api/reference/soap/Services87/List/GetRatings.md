@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetRatings">Su
 
 Returns all ratings
 
-
 **Returns:** Array of ratings
-
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetRatings Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

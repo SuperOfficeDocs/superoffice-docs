@@ -11,13 +11,6 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 
 Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescri
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The PreferenceDescriptionLine to be saved. 
+The PreferenceDescriptionLine to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,12 +38,9 @@ The PreferenceDescriptionLine to be saved.
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
 
-
 ## Response: object
 
 Preference description line, contains information about a single item in a preference description list.
-
-
 
 Carrier object for PreferenceDescriptionLine.
 Services for the PreferenceDescriptionLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.

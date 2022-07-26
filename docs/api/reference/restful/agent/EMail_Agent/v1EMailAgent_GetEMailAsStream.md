@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/GetEMailAsStream
 
 Retrieve an e-mail optionally stripping attachments as a stream
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Retrieve an e-mail optionally stripping attachments as a stream
 ```http
 POST /api/v1/Agents/EMail/GetEMailAsStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,27 +37,23 @@ POST /api/v1/Agents/EMail/GetEMailAsStream?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ConnectionInfo, MessageServerId, StripAttachments 
+ConnectionInfo, MessageServerId, StripAttachments
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | MessageServerId | int32 |  |
 | StripAttachments | bool |  |
 
-
-## Response: 
-
-
+## Response
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
-
+Response body:
 
 ## Sample Request
 

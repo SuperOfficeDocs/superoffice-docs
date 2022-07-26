@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/RemoveConsent
 
 Turn off consent for a specified person and purpose.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Turn off consent for a specified person and purpose.
 POST /api/v1/Agents/Person/RemoveConsent?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Person/RemoveConsent?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, Purpose 
+PersonId, Purpose
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Purpose | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

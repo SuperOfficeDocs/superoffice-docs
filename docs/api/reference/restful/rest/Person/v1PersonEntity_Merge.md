@@ -13,14 +13,10 @@ Merge two persons.
 
 The destination person will remain. You must specify the date after which activities will be moved along with the person.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sourcePersonId | int32 | The identifier for the person which will be merged into the destination person. The source person is deleted/marked retired after the merge. **Required** |
 | destinationPersonId | int32 | The identifier for the person which will remain after the merge. The target person is updated. **Required** |
-
 
 ## Query String Parameters
 
@@ -36,7 +32,6 @@ POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=
 POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyFieldsOnDestination=True
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -45,9 +40,7 @@ POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyF
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -6,9 +6,6 @@ title: List_PaymentTerms
 /api/v1/List/PaymentTerms
 ```
 
-
-
-
 * [GET List/PaymentTerm](v1PaymentTermsList_GetListDefinition.md)
 
 * [PUT List/PaymentTerm](v1PaymentTermsList_SetListDefinition.md)

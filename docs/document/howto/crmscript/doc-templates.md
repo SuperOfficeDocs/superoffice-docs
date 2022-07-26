@@ -102,6 +102,7 @@ NSDocumentAgent docAgent;
 NSDocument[] docList = docAgent.GetDocumentsByTemplateHeading(templateHeadingId);
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### NSDocument[] GetContactDocumentsByTemplateHeading(Integer contactId, DateTime start, DateTime end, Integer count, Integer templateHeadingId)
 
 Fetches a limited number of documents within a time range for the given **contact** - filtered by template heading.
@@ -114,6 +115,7 @@ DateTime end;
 NSDocument[] docList = docAgent.GetContactDocumentsByTemplateHeading(4, start.addMonth(-6), end, 10, 4);
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### NSDocument[] GetContactDocumentsByTemplateType(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
 
 Fetches a limited number of documents within a time range for the given **contact** - filtered by template ID.

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/GetPublishedDocuments
 
 Get the published documents from an array of doucment ids.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get the published documents from an array of doucment ids.
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocuments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Document/GetPublishedDocuments?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentIds 
+DocumentIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentIds | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "saintintention" MDO List
+
 This SoList provider generates the Intent list for the Saint criteria. This list is an extension of the basic
 Intent MDO list, with the addition of an ALL choice with ID 0.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.ArchiveLists.SaintIntentionProvider">SaintIntentionProvider</see> class.
 The name of the MDO list is 'saintintention'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saintintention", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +53,6 @@ foreach (var item in listProvider.RootItems) {
 |5|Goodwill|||
 |6|Marketing|||
 |4|Sale|||
-
 
 ## Related MDO Lists
 

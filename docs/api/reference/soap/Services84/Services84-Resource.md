@@ -517,4 +517,3 @@ title: Services84.ResourceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
-

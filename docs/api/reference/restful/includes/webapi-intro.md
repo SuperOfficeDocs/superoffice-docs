@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 ## Getting started
 
 * Get the version number and build-date from the **API endpoint**: `/api`

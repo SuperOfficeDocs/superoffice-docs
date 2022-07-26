@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IReplicationAgent.GetSate
 ## GetSatellite
 
 Gets a Satellite object.
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+<br />**Online Restricted:** The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 * **satelliteId:** The identifier of the Satellite object
 
 **Returns:** Satellite
-
 
 [WSDL file for Services87/Replication](../Services87-Replication.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSatellite Response
 
@@ -214,4 +212,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

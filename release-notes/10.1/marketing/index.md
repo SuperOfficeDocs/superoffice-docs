@@ -11,7 +11,7 @@ so.topic: reference
 
 # New and improved marketing
 
-* [Form – Set up Our contact with a default on form submissions (10.1.3)][1]
+* [Form – Set up Our contact with a default on form submissions (10.1.3)][3]
 
 <!-- Referenced links-->
 [3]: 10.1.3-update.md

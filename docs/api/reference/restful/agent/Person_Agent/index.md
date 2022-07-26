@@ -6,9 +6,6 @@ title: Person_Agent
 /api/v1/Person/Agent
 ```
 
-
-
-
 * [POST Agents/Person/CheckTemporaryKey](v1PersonAgent_CheckTemporaryKey.md)
 
 * [POST Agents/Person/DeleteTemporaryKeysOfDomain](v1PersonAgent_DeleteTemporaryKeysOfDomain.md)

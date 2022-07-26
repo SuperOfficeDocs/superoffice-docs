@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "quoteapprovers" MDO List
+
 Retrieve the list of all users that can approve quotes
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteApprovers">QuoteApprovers</see> class.
 The name of the MDO list is 'quoteapprovers'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quoteapprovers", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,7 +54,6 @@ foreach (var item in listProvider.RootItems) {
 |61|SalNS00 NetServer|||
 |29|Ser0|||
 |23|Tje0|||
-
 
 ## Related MDO Lists
 

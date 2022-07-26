@@ -13,11 +13,6 @@ Revert all un-published AppointmentEntity udef layout changes.
 
 Reset to the currently published layout.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -26,9 +21,7 @@ Reset to the currently published layout.
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

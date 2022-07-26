@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.GetCRMScr
 ## GetCRMScriptEntity
 
 Gets a CRMScriptEntity object.
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptEntityId:** The identifier of the CRMScriptEntity object
 
 **Returns:** CRMScriptEntity
-
 
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCRMScriptEntity Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

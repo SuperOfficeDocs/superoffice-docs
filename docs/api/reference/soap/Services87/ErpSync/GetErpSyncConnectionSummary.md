@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.GetErpSyncC
 ## GetErpSyncConnectionSummary
 
 Get a summary of the current ErpSync configuration/setup
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpSyncConnectionId:** The ID of the ErpSync connection for which information is sought
 
 **Returns:** Summary of connection information, and one summary element per configured actor type
-
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetErpSyncConnectionSummary Response
 
@@ -86,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

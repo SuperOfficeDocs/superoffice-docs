@@ -17,7 +17,6 @@ Gets an array of dashboard tiles for the provided ids
 
 **Returns:** Dashboard tiles
 
-
 [WSDL file for Services88/Dashboard](../Services88-Dashboard.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetDashboardTiles Response
 
@@ -123,4 +121,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dash/SaveDashTheme
 
 Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DashTheme or creates a new DashTheme if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashTheme to be saved. 
+The DashTheme to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,12 +37,9 @@ The DashTheme to be saved.
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 
-
 ## Response: object
 
 Dashboard theme configuration
-
-
 
 Carrier object for DashTheme.
 Services for the DashTheme Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

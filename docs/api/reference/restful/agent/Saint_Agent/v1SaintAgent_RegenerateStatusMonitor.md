@@ -11,12 +11,6 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitor
 
 Regenerate the given status monitor
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Regenerate the given status monitor
 POST /api/v1/Agents/Saint/RegenerateStatusMonitor?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitor?$select=name,department,catego
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StatusMonitorId 
+StatusMonitorId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StatusMonitorId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

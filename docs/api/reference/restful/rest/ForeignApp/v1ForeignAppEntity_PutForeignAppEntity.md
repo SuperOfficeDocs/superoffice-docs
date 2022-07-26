@@ -11,15 +11,9 @@ PUT /api/v1/ForeignApp/{id}
 
 Updates the existing ForeignAppEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ForeignAppEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ForeignAppEntity
 ```http
 PUT /api/v1/ForeignApp/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ForeignAppEntity to be saved. 
+The ForeignAppEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,11 +53,7 @@ The ForeignAppEntity to be saved.
 | UpdatedBy |  | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
 
-
 ## Response: object
-
-
-
 
 ForeignAppEntity entity with API _Links added.
 

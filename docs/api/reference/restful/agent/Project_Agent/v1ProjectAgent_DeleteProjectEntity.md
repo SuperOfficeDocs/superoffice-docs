@@ -11,12 +11,6 @@ POST /api/v1/Agents/Project/DeleteProjectEntity
 
 Deletes the ProjectEntity
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes the ProjectEntity
 POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=253
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -36,9 +29,7 @@ POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=253
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,13 +13,9 @@ Gets a ShipmentMessageEntity object.
 
 Calls the Marketing agent service GetShipmentMessageEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ShipmentMessageEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the Marketing agent service GetShipmentMessageEntity.
 ```http
 GET /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +40,9 @@ GET /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 A shipment message, that contains the actual message being sent out in a mailing
-
-
 
 ShipmentMessageEntity entity with API _Links added.
 

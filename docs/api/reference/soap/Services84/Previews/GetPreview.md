@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPreviewsAgent.GetPreview
 
 Parse a Preview hint and return a Preview. The returned Preview string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The Preview hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical Preview hint could be {contact\_id=123} or {appointment\_id=222&amp;amp;mode=simple}
 
-* **previewHint:** 
-
-
+* **previewHint:**
 
 [WSDL file for Services84/Previews](../Services84-Previews.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPreview Response
 
 ```xml
@@ -68,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

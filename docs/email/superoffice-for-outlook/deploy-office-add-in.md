@@ -14,7 +14,7 @@ so.client: online
 This will deploy SuperOffice for Outlook for a single user.
 
 > [!TIP]
-> Deploy centrally for all users instead? <a href="../../assets/downloads/quick-start-guide---superoffice-for-outlook.pdf" download>Click to download PDF guide</a>
+> Deploy centrally for all users instead? <a href="../../assets/downloads/quick-start-guide---SuperOffice-for-outlook.pdf" download>Click to download PDF guide</a>
 
 1. Go to [SuperOffice for Outlook at https://appsource.microsoft.com/][1].
 2. Click **Get it now**.
@@ -28,7 +28,7 @@ The deployment is now complete. The SuperOffice add-in for Outlook should now be
 
 **Read more:**
 
-* The SuperOffice for Outlook [quick-start guide][2]
+* The SuperOffice for Outlook quick-start guide (PDF)
 * [Deploy an Office add-in][3] (Microsoft docs)
 * [Get an Office Add-in for Outlook][4] (Office support article)
 
@@ -36,7 +36,6 @@ The deployment is now complete. The SuperOffice add-in for Outlook should now be
 [1]: https://appsource.microsoft.com/en-us/product/office/WA200001597?src=office&tab=Overview
 [3]: https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide
 [4]: https://support.office.com/en-us/article/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8
-[5]: deploy-centrally.md
 
 <!-- Referenced images -->
 [img2]: media/image1ya58.png

@@ -17,7 +17,6 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 
 **Returns:** New or updated WebPanelEntity
 
-
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -71,7 +70,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveWebPanelEntity Response
 
 ```xml
@@ -113,4 +111,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

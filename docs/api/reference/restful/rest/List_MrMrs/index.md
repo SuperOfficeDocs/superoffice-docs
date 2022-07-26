@@ -6,9 +6,6 @@ title: List_MrMrs
 /api/v1/List/MrMrs
 ```
 
-
-
-
 * [GET List/MrMrs](v1MrMrsList_GetListDefinition.md)
 
 * [PUT List/MrMrs](v1MrMrsList_SetListDefinition.md)

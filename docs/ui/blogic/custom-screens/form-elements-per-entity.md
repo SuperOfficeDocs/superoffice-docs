@@ -229,6 +229,7 @@ noHardDelete = true
 ### Invoice rows element
 
 [Invoice rows][32]
+
 ## Security and database
 
 **Selection drop-downs:**

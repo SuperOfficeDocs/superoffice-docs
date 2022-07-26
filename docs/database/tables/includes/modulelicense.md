@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Types of module licenses
 
 | licenceType | ID | Comment |

@@ -13,10 +13,6 @@ Gets a list of all TaskListItem list items.
 
 Calls the Appointment agent service GetAllTaskListItem.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Appointment agent service GetAllTaskListItem.
 ```http
 GET /api/v1/List/Task/Items?includeDeleted=True
 ```
-
 
 ## Request Headers
 
@@ -41,10 +36,7 @@ GET /api/v1/List/Task/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

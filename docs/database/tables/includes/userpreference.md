@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Values needed to access the UserPreference tables
 
 This table must have special values that are not easy to guess correctly. They are listed below with a description of how to use them.

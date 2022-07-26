@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "task" MDO List
+
 Task table MDO list. Optional include "None" as first value.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TaskProvider">TaskProvider</see> class.
 The name of the MDO list is 'task'.
@@ -27,10 +26,6 @@ The name of the MDO list is 'task'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Include a NO-SELECTION item first| includeNone|True|
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("task", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +65,6 @@ foreach (var item in listProvider.RootItems) {
 |12|Annet|||
 |13|Messe|||
 |14|Kampanje|||
-
 
 ## Related MDO Lists
 

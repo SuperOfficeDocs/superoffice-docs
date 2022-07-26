@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/GetAllUserGroups
 
 Get all user groups
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get all user groups
 ```http
 POST /api/v1/Agents/User/GetAllUserGroups?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,18 +37,15 @@ POST /api/v1/Agents/User/GetAllUserGroups?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-IncludeDeleted 
+IncludeDeleted
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

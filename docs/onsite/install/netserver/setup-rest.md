@@ -178,31 +178,12 @@ SuperOffice REST services add another API surface to the NetServer real estate. 
 <!-- Referenced links -->
 [1]: ../../../api/config/webapi.md
 [2]: https://www.getpostman.com/
-[3]: http://www.w3schools.com/jsref/met_win_btoa.asp
 [5]: ../../../api/config/security.md
-[6]: ../../../api/web-services/endpoints/agents-webapi/index.md
-[7]: https://en.wikipedia.org/wiki/Open_Data_Protocol
-[8]: ../../../api/search/odata/index.md
-[9]: ../../../api/web-services/endpoints/http-headers.md#accept-language
-[10]: ../../../api/web-services/endpoints/http-headers.md#content-type
-[11]: ../../../api/web-services/index.md
 
 <!-- Referenced images -->
 [img1]: media/iis-configuration.png
 [img2]: media/websiteauthentication.png
 [img3]: media/soapplicationauthentication.png
-[img4]: media/rest-layers.png
-[img5]: media/imagebr9pi.png
-[img6]: media/rest-docs.png
-[img7]: media/rest-person-docs.png
-[img8]: media/image12qvq.png
-[img9]: media/rest-1.png
-[img10]: media/rest-2.png
-[img11]: media/rest-3.png
-[img12]: media/rest-4.png
-[img14]: media/rest-6.png
-[img15]: media/imagesupload.png
-[img16]: media/rest-7.png
 [img17]: media/iis-authentication-windows.png
 [img18]: media/iis-kernel-mode-auth.png
 [img19]: media/iis-auth-providers.png

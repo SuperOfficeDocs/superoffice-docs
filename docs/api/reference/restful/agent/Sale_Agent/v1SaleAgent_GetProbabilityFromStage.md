@@ -11,12 +11,6 @@ POST /api/v1/Agents/Sale/GetProbabilityFromStage
 
 Get the probability percentage for a given sale stage
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get the probability percentage for a given sale stage
 ```http
 POST /api/v1/Agents/Sale/GetProbabilityFromStage?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Sale/GetProbabilityFromStage?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StageId 
+StageId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StageId | int32 |  |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

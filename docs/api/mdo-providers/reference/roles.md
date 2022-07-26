@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "roles" MDO List
+
 RoleListProvider creates a MDO list of roles in the database.
 Default list are the employee roles.
 Use ExtraInfo to get other RoleTypes.
@@ -22,8 +23,6 @@ ExtraInfo : "0" Default, to get employee roles
 ExtraInfo : "1" to get external users roles
 ExtraInfo : "2" to get anonymous roles.
 ExtraInfo : "3" to get system user roles.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.RolesListProvider">RolesListProvider</see> class.
 The name of the MDO list is 'roles'.
@@ -36,10 +35,6 @@ The name of the MDO list is 'roles'.
 
 Separator: ;
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -51,6 +46,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("roles", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -76,7 +72,6 @@ foreach (var item in listProvider.RootItems) {
 |14|eJournal User|||
 |15|CRM Administrator|||
 |16|CRM User|||
-
 
 ## Related MDO Lists
 

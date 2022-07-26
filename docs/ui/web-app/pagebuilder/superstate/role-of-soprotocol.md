@@ -12,7 +12,7 @@ so.envir: onsite
 
 # The role of SoProtocol
 
-The SuperState depends on the [SoProtocol][2], which allows you to control the user interface without using scripts. The protocol is defined by SuperOffice to interpret what should be shown on a page and gives you the possibility of sending a link to the user that will open another specific panel based on the information sent. If no SoProtocol is given, the last valid SuperState will be used.
+The SuperState depends on the [SoProtocol][1], which allows you to control the user interface without using scripts. The protocol is defined by SuperOffice to interpret what should be shown on a page and gives you the possibility of sending a link to the user that will open another specific panel based on the information sent. If no SoProtocol is given, the last valid SuperState will be used.
 
 Configuration files use a tag called `soprotocol` inside the panels and views. For example, the following code segments in SoContactPanel.config shows how we can set the values to soprotocol tag.
 
@@ -79,4 +79,4 @@ SuperOffice uses the *SoUdefConfiuration.config* file to determine which set of 
 [!code-xml[xml](includes/soudefconfiuration.xml)]
 
 <!-- Referenced links -->
-[1]: ../../../soprotocol.md
+[1]: ../../../soprotocol/index.md

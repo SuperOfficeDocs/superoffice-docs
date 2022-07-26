@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "usertype" MDO List
+
 Simple, hard-coded provider for the associate type: Employee, ExternalPerson, Resource, Anonymous, System, Invalid User Type
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AssociateTypeListProvider">AssociateTypeListProvider</see> class.
 The name of the MDO list is 'usertype'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("usertype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +51,6 @@ foreach (var item in listProvider.RootItems) {
 |7|Anonymous|||
 |13|System|||
 |-1|Not a user|||
-
 
 ## Related MDO Lists
 

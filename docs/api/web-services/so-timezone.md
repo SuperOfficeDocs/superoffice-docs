@@ -121,9 +121,9 @@ SO-TimeZone: US-NY
 The client gets back the time in the requested time zone.
 
 > [!NOTE]
-> Javascript and C# will parse the returned value, and treat it as a datetime and apply its own time zone logic.
+> JavaScript and C# will parse the returned value, and treat it as a datetime and apply its own time zone logic.
 
-Javascript will assume it is in the local time zone (since it does not specify a time zone), and convert it to UTC internally.
+JavaScript will assume it is in the local time zone (since it does not specify a time zone), and convert it to UTC internally.
 
 ```javascript
 x = new Date("2018-12-24T12:34:45")
@@ -157,7 +157,7 @@ JSON and WebAPIs have another time zone value baked into every date object.
 
 `2018-12-24T12:34:45+0100` is one hour after UTC, i.e. in the euro time zone (aka the Romance zone on Windows).
 
-These time zone specifiers are added by Javascript (and C#/Newtonsoft) when the date is either UTC or has a known time zone offset (i.e. is local).
+These time zone specifiers are added by JavaScript (and C#/Newtonsoft) when the date is either UTC or has a known time zone offset (i.e. is local).
 
 So you can specify one [time zone in the header][1], while the dates actually belong to a different zone.
 

@@ -16,8 +16,6 @@ Stores the default project or event image that is displayed in Audience when no 
 * **layoutName:** Name of the Audience layout instance
 * **image:** The default project/event image to be stored for this Audience layout instance (System.Drawing.Image)
 
-
-
 [WSDL file for Services88/Audience](../Services88-Audience.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetDefaultProjectImage Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

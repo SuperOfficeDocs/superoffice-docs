@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 Discover the new features, functionality, and design of a **brand new generation** of SuperOffice CRM – SuperOffice G9.
 
 The next generation comes with big changes to the entire CRM platform, employing new technologies, as well as introducing changes to the UI and UX design – all to improve the overall user experience and meet evolving business needs and challenges.

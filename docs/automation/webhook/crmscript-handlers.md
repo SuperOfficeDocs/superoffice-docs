@@ -10,7 +10,7 @@ so.topic: reference
 # so.client:
 ---
 
-# CrmScript webhooks event handlers
+# CRMScript webhooks event handlers
 
 Webhooks can also target CRMScripts, not just URLs on the internet. The webhook will call your CRMScript directly, passing the ID and changed values to the script as parameters.
 
@@ -31,7 +31,8 @@ Save the script with a unique include name, `ScriptHook1`.
 
 We then need to create a hook that will call this script:
 
-# [CRMScript API](#tab/Webhook-CRMScript)
+<!-- markdownlint-disable MD051 -->
+## [CRMScript API](#tab/Webhook-CRMScript)
 
 ## Create a webhook using CRMScript
 
@@ -59,7 +60,8 @@ webhook = webhookAgent.SaveWebhook(webhook);
 
 printLine("Webhook succeeded with ID: " + webhook.GetWebhookId().toString());
 ```
-# [REST API](#tab/Webhook-REST)
+
+## [REST API](#tab/Webhook-REST)
 
 ## Create a webhook using the REST API
 
@@ -85,12 +87,13 @@ Authorization: Bearer {{token}}
 ```
 
 ***
+<!-- markdownlint-restore -->
 
 The webhook must have a name, a list of events to subscribe to and must be set to `crmscript`.
 
-This example above adds a webhook that will call the `ScriptHook1` script whenever a new contact is created or changed. The script is identified using the unique _include name_ as the `TargetUrl` value.
+This example above adds a webhook that will call the `ScriptHook1` script whenever a new contact is created or changed. The script is identified using the unique *include name* as the `TargetUrl` value.
 
-Unlike webhooks of type _webhook_, a _crmscript_ webhook gets the values of the changed fields, not just the names of the changed fields as parameters.
+Unlike webhooks of type *webhook*, a *CRMScript* webhook gets the values of the changed fields, not just the names of the changed fields as parameters.
 
 Parameters passed to the CRMScript:
 

@@ -55,9 +55,9 @@ The following example is an excerpt of the `ConactPersonArchive` control. It dem
 </control>
 ```
 
-The **Add** button explicitly defines a Javascript routine that will open the **Person** dialog. The idea that the `person_id` set to 0 indicates the person dialog will create a new person.
+The **Add** button explicitly defines a JavaScript routine that will open the **Person** dialog. The idea that the `person_id` set to 0 indicates the person dialog will create a new person.
 
-The delete button is more discrete and uses the `linkhint` attribute to specify which action to perform. The linkhint value of "nav=deletePerson" means execute the javascript code defined in the *SoArchiveControlLinkInfoTypes.config* where the `linkinfo` element with a `type` value equal to *deletePerson* and `subtype` value equal to *click*.
+The delete button is more discrete and uses the `linkhint` attribute to specify which action to perform. The linkhint value of "nav=deletePerson" means execute the JavaScript code defined in the *SoArchiveControlLinkInfoTypes.config* where the `linkinfo` element with a `type` value equal to *deletePerson* and `subtype` value equal to *click*.
 
 ``` xml
 <linkinfo type="deletePerson" subtype="click">
@@ -67,7 +67,6 @@ The delete button is more discrete and uses the `linkhint` attribute to specify 
 ```
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/web-archive-control-action-buttons.png

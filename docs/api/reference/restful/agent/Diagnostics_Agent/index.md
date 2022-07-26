@@ -6,9 +6,6 @@ title: Diagnostics_Agent
 /api/v1/Diagnostics/Agent
 ```
 
-
-
-
 * [POST Agents/Diagnostics/FlushCaches](v1DiagnosticsAgent_FlushCaches.md)
 
 * [POST Agents/Diagnostics/GetCacheNames](v1DiagnosticsAgent_GetCacheNames.md)

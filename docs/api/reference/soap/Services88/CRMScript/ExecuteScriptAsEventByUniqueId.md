@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICRMScriptAgent.ExecuteSc
 ## ExecuteScriptAsEventByUniqueId
 
 Execute a CRMScript with event data as input. Returns event data with output variable values.
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptUniqueId:** The unique id of the CRMScript to execute
-* **eventData:** The EventData instance sent to the crmscript with input values
+* **eventData:** The EventData instance sent to the CRMScript with input values
 
 **Returns:** The EventData instance after script execution with output values
-
 
 [WSDL file for Services88/CRMScript](../Services88-CRMScript.md)
 
@@ -76,7 +75,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ExecuteScriptAsEventByUniqueId Response
 
 ```xml
@@ -120,4 +118,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -13,14 +13,9 @@ Gets a UserGroup list item.
 
 Calls the User agent service GetUserGroup.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the UserGroup to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +30,9 @@ Calls the User agent service GetUserGroup.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The main user group that this user belongs to
-
-
 
 Carrier object for UserGroup.
 Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

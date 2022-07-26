@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetFunctionalR
 ## GetFunctionalRights
 
 Get all functional rights for the given role. Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleId:** The role id to get the functional rights for.
 
 **Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
-
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetFunctionalRights Response
 
@@ -128,4 +126,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

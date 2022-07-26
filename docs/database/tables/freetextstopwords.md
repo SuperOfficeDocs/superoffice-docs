@@ -24,7 +24,6 @@ Here are the words that can be excluded from Free Text Search by using the FreeT
 |freetextwords\_id|Primary key|PK| |
 |word|Stop word, not to be indexed|String(19)| |
 
-
 ![freetextstopwords table relationship diagram](./media/freetextstopwords.png)
 
 [!include[details](./includes/freetextstopwords.md)]
@@ -43,4 +42,3 @@ Here are the words that can be excluded from Free Text Search by using the FreeT
 ## Security Flags
 
 * No access control via user's Role.
-

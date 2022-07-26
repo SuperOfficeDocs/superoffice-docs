@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "associaterestrictions" MDO List
+
 Public MDO provider based on the AssociateRestrictionsMDOProviderBase.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AssociateRestrictionsMDOProvider">AssociateRestrictionsMDOProvider</see> class.
 The name of the MDO list is 'associaterestrictions'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("associaterestrictions", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |87|Kjell Jensen|||
 |81|Listadm Listadm|||
 |84|Localuser2 Localuser2|||
-
 
 ## Related MDO Lists
 

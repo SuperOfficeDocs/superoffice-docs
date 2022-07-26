@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/UpdateNetServicesStatus
 
 Update the NetServices preferences with values contained in the content from the Status URL
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Update the NetServices preferences with values contained in the content from the
 POST /api/v1/Agents/Preference/UpdateNetServicesStatus?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/Preference/UpdateNetServicesStatus?$select=name,department,c
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-XmlOrJson 
+XmlOrJson
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | XmlOrJson | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,14 +13,9 @@ Get the Blob that describes the given products picture.
 
 The actual bitmap is accessible via /api/Services80/pricelist/1/product/123/image.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +29,6 @@ The actual bitmap is accessible via /api/Services80/pricelist/1/product/123/imag
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

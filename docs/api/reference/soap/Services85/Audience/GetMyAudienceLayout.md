@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.GetMyAudie
 
 Gets the Audience layout belonging to the currently logged on user.
 
-
 **Returns:** Audience layout entity
-
 
 [WSDL file for Services85/Audience](../Services85-Audience.md)
 
@@ -46,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyAudienceLayout Response
 
@@ -99,4 +96,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -6,9 +6,6 @@ title: ForeignSystem_Agent
 /api/v1/ForeignSystem/Agent
 ```
 
-
-
-
 * [POST Agents/ForeignSystem/CreateDefaultForeignAppEntity](v1ForeignSystemAgent_CreateDefaultForeignAppEntity.md)
 
 * [POST Agents/ForeignSystem/SaveForeignAppEntity](v1ForeignSystemAgent_SaveForeignAppEntity.md)

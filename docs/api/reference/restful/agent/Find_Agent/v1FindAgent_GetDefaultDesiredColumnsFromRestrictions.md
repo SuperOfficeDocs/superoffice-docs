@@ -13,10 +13,6 @@ Calculate the default desired columns, i.
 
 e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ e., the result columns for a given search. The search is defined by a provider n
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProviderName, Restrictions 
+ProviderName, Restrictions
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Restrictions | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

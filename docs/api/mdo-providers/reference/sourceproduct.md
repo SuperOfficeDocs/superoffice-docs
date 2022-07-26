@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "sourceproduct" MDO List
+
 Products: Sales &amp; Marketing, Customer Service
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SourceListProvider">SourceListProvider</see> class.
 The name of the MDO list is 'sourceproduct'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("sourceproduct", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,7 +47,6 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |0|Sales & Marketing|||
 |1|Customer Service|||
-
 
 ## Related MDO Lists
 

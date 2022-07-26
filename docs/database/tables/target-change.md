@@ -32,7 +32,6 @@ A single field change.
 |value\_change\_from|Previous value|Double|&#x25CF;|
 |value\_change\_to|New value|Double|&#x25CF;|
 
-
 ![target_change table relationship diagram](./media/target_change.png)
 
 [!include[details](./includes/target-change.md)]
@@ -51,7 +50,6 @@ A single field change.
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[target\_revision](target-revision.md)  |One batch of changes made to targets |
 
-
 ## Replication Flags
 
 * None
@@ -59,4 +57,3 @@ A single field change.
 ## Security Flags
 
 * No access control via user's Role.
-

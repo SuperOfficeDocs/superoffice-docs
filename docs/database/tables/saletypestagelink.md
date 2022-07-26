@@ -32,7 +32,6 @@ Many-many link table between sale type and stage; and an anchor point for guide 
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SaleTypeStageLink table relationship diagram](./media/SaleTypeStageLink.png)
 
 [!include[details](./includes/saletypestagelink.md)]
@@ -54,7 +53,6 @@ Many-many link table between sale type and stage; and an anchor point for guide 
 |[SuggestedAppointment](suggestedappointment.md)  |Defines a suggested appointment for use in a Sale Guide or Project Guide |
 |[SuggestedDocument](suggesteddocument.md)  |Unique owner of a set of licensed modules |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Many-many link table between sale type and stage; and an anchor point for guide 
 ## Security Flags
 
 * No access control via user's Role.
-

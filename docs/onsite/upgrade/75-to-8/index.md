@@ -89,7 +89,7 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, SuperOffice 7.5 Web, a
 4. [Upgrade SuperOffice 7 CS to SuperOffice 8 Service][6]
 5. [Upgrade CRM Web][3]
 
-## Upgrade SuperOffice 7.0 or 7.1 
+## Upgrade SuperOffice 7.0 or 7.1
 
 **For:**
 

@@ -49,7 +49,6 @@ Store the metadata describing the fields that belong to an actor/connection comb
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpField table relationship diagram](./media/ErpField.png)
 
 [!include[details](./includes/erpfield.md)]
@@ -69,7 +68,6 @@ Store the metadata describing the fields that belong to an actor/connection comb
 |[ErpConnectionActorType](erpconnectionactortype.md)  |Data about the configuration of one Erp Actor on one ErpConnection |
 |[ErpListItemMapping](erplistitemmapping.md)  |Defines a mapping of ERP to CRM fields, per connection and actor type |
 
-
 ## Replication Flags
 
 * None
@@ -77,4 +75,3 @@ Store the metadata describing the fields that belong to an actor/connection comb
 ## Security Flags
 
 * No access control via user's Role.
-

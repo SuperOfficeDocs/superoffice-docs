@@ -34,7 +34,6 @@ Consent source for GDPR
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ConsentSource table relationship diagram](./media/ConsentSource.png)
 
 [!include[details](./includes/consentsource.md)]
@@ -54,7 +53,6 @@ Consent source for GDPR
 |[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
 |[DocTmpl](doctmpl.md)  |DocTmpl list table. Describes templates available for writing new documents. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Consent source for GDPR
 ## Security Flags
 
 * No access control via user's Role.
-

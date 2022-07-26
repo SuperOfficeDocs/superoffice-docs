@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### State of a Quote Version
 
 used in: QuoteVersion.State; QuoteVersion.ArchivedState

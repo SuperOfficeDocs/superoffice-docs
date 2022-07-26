@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.CreateDefaultU
 ## CreateDefaultUserFromUserTypeAndPersonId
 
 Create default User providing the associate type and person id.  System and Anonymous users can be created without an exsisting person and permitts person id to be 0.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userType:** Type of associate for the user
 * **personId:** Primary key of the person to become a user.
 
 **Returns:** New user object with defalt values set.
-
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultUserFromUserTypeAndPersonId Response
 
@@ -211,4 +209,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 
 Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Updates a ForeignDevice with deviceName that belongs to the application with app
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,23 +35,20 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice 
+ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
-| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
-
+| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <br /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 
 ## Response: object
 
 Saves a foreign device belonging to the ForeignDevice and application name specified.
-
-
 
 Carrier object for ForeignDevice.
 Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.

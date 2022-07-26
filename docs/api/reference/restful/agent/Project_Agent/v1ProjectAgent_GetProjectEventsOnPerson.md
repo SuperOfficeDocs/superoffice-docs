@@ -13,10 +13,6 @@ Gets all project events that belongs to the person specified.
 
 The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The list of events are filtered by the Audience Visibility restrictions set when
 ```http
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +37,15 @@ POST /api/v1/Agents/Project/GetProjectEventsOnPerson?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId 
+PersonId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -26,7 +26,7 @@ All SuperOffice CRM Online applications depend on NetServer web services for dat
 
 Each SuperOffice installation exposes web services for all clients, including SuperOffice Web, SuperOffice Mobile, and partner application clients.
 
-Each web service 
+Each web service
 
 ![NetServer Architecture][netserver-architecture]
 
@@ -52,7 +52,7 @@ SuperOffice NetServer supports two distinct web services protocols:
 
 The SOAP APIs use Windows Communication Foundation service models for communication and are considered legacy.
 
-The RESTful APIs use Microsoft AspNet WebApi for communication, and come in two _flavors_:
+The RESTful APIs use Microsoft AspNet WebApi for communication, and come in two **flavors**:
 
 * RESTful endpoints
 * RESTful Agent endpoints
@@ -235,11 +235,11 @@ There is one nuget package for .NET developers. This package exposes the same Ag
 
 WSDL files for all versioned endpoints are [available for download][12] in the reference section, or as individual files on each endpoint reference page.
 
-**Download All**
+**Download All:**
 
 ![Download all WSDLs][wsdl-all]
 
-**Download Single**
+**Download Single:**
 
 ![Download all WSDLs][wsdl-single]
 
@@ -276,12 +276,10 @@ Access to the web services is included in your [Development Tools][4] subscripti
 [2]: endpoints/soap/index.md
 [3]: ../overview/netserver.md
 [4]: ../../api/config/webapi.md
-[5]: proxies/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [7]: ../reference/restful/rest/index.md
 [8]: ../reference/restful/agent/index.md
 [9]: ../reference/webapi/index.md
-[10]: ../rows/index.md
 [11]: https://www.nuget.org/packages/SuperOffice.WebApi
 [12]: ../reference/soap/index.md
 [13]: ../reference/restful/index.md

@@ -11,11 +11,7 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
-&lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
-
-
-
-
+This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
 
 ## Query String Parameters
 
@@ -26,7 +22,6 @@ Parse the source string, and replace any template variable tags with their value
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Source, GeneratorEncoding, CustomTags, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
+Source, GeneratorEncoding, CustomTags, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,17 +55,13 @@ Source, GeneratorEncoding, CustomTags, ContactId, PersonId, AppointmentId, Docum
 | ProjectId | int32 |  |
 | CultureName | string |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

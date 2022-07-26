@@ -13,10 +13,6 @@ Detect the sentiment of a (reasonably short) text.
 
 Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Sentiment analysis may cause a translation to be made, since sentiment analysis 
 ```http
 POST /api/v1/Agents/AI/DetectSentiment?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/AI/DetectSentiment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Text 
+Text
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Text | string |  |
 
-
 ## Response: object
 
 Sentiment information: Score (-100 to 100) and Confidence (0 to 100)
-
-
 
 Carrier object for Sentiment.
 Services for the Sentiment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAIAgent">AI Agent</see>.

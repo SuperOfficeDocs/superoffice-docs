@@ -17,11 +17,10 @@ Generates the report in PDF format
 * **labelLayoutId:** The id of the labellayout. Use 0 if the report isn't of type label.
 * **filename:** Filename of the report.
 * **language:** Language to use when generating the report.
-* **fileType:** 
+* **fileType:**
 * **restrictions:** Use restrictions to provide additional restrictions when generating the report.
 
 **Returns:** Batch task id, as string. Used to be path to the generated report, but no more.
-
 
 [WSDL file for Services88/Report](../Services88-Report.md)
 
@@ -135,7 +134,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GenerateReport Response
 
 ```xml
@@ -156,4 +154,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

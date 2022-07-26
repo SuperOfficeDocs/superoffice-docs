@@ -26,7 +26,6 @@ This table contains all the words and how many times the are refered            
 |score|Indicates how many occurences of this word we have|Int|&#x25CF;|
 |origin|Indicates if it is an entry word (0) or a category word (1).|Short| |
 
-
 ![kb_entry_words table relationship diagram](./media/kb_entry_words.png)
 
 [!include[details](./includes/kb-entry-words.md)]
@@ -44,7 +43,6 @@ This table contains all the words and how many times the are refered            
 |------|-------------|
 |[word\_relations](word-relations.md)  |This table shows which word are used in which FAQ entry, and how many times            they are used in each |
 
-
 ## Replication Flags
 
 * None
@@ -52,4 +50,3 @@ This table contains all the words and how many times the are refered            
 ## Security Flags
 
 * No access control via user's Role.
-

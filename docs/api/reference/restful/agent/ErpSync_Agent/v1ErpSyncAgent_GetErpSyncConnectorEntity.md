@@ -11,13 +11,7 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity
 
 Gets a ErpSyncConnectorEntity object.
 
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Gets a ErpSyncConnectorEntity object.
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?erpSyncConnectorEntityId=146
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +38,9 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Erp connector information
-
-
 
 Carrier object for ErpSyncConnectorEntity.
 Services for the ErpSyncConnectorEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.

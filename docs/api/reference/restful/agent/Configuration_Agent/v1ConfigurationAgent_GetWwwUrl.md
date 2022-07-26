@@ -11,12 +11,6 @@ POST /api/v1/Agents/Configuration/GetWwwUrl
 
 Will get the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Will get the default URL used for the logo, from the [NetServices] PageUrl prefe
 ```http
 POST /api/v1/Agents/Configuration/GetWwwUrl?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Configuration/GetWwwUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Client 
+Client
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Client | string |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

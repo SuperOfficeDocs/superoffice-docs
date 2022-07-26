@@ -25,4 +25,4 @@ so.envir:
 
 ## Usage
 
-* [Role](../role.md).roleType - User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com
+* [Role](../role.md).roleType - User roles for role-based security, names and tooltips are in LocaleText.

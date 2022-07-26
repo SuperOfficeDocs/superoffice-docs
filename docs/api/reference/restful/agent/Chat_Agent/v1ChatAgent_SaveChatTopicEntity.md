@@ -11,13 +11,6 @@ POST /api/v1/Agents/Chat/SaveChatTopicEntity
 
 Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ChatTopicEntity to be saved. 
+The ChatTopicEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,12 +61,9 @@ The ChatTopicEntity to be saved.
 | OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 
-
 ## Response: object
 
 Chat topics define who is assigned, when the channel is open for business, and look of the chat widget.
-
-
 
 Carrier object for ChatTopicEntity.
 Services for the ChatTopicEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

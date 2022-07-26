@@ -11,16 +11,9 @@ POST /api/v1/ChatTopic/{chatTopicId}/UserAgent
 
 Add a user to a chat topic
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,9 @@ Add a user to a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragent  
+## Request Body: useragent
 
-User's role within the chat topic to add to topic. 
+User's role within the chat topic to add to topic.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,12 +42,9 @@ User's role within the chat topic to add to topic.
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-
 ## Response: object
 
 User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
-
-
 
 Carrier object for ChatTopicAgent.
 Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

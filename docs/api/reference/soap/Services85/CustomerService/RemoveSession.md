@@ -15,8 +15,6 @@ Remove a login session for a CS user
 
 * **loginId:** The login id to remove
 
-
-
 [WSDL file for Services85/CustomerService](../Services85-CustomerService.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveSession Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

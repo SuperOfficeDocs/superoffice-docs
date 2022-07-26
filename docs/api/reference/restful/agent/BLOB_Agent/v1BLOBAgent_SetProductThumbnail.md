@@ -13,10 +13,6 @@ Stores the product thumbnail that is displayed in the CRM application.
 
 The image is scaled down to max 200x200 pixels.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ The image is scaled down to max 200x200 pixels.
 POST /api/v1/Agents/BLOB/SetProductThumbnail?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +32,16 @@ POST /api/v1/Agents/BLOB/SetProductThumbnail?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProductId, Image 
+ProductId, Image
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProductId | int32 |  |
 | Image | byte |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

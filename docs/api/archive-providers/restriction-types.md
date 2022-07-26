@@ -9,10 +9,11 @@ so.topic: reference
 ---
 
 # Archive Provider Restriction Types
-The fields in an archive provider's restriction are constrained using operators. 
+
+The fields in an archive provider's restriction are constrained using operators.
 The restrictions used vary according to the ArchiveColumnInfo.RestrictionType specified by the archive provider in its available columns.
 
-You would use the the RestrictionOperations.GetOperatorsForType to find out these values at run-time, but here are the default values 
+You would use the the RestrictionOperations.GetOperatorsForType to find out these values at run-time, but here are the default values
 provided by SuperOffice.
 
 * **Name**: the programmatic name you use in the ArchiveRestrictionInfo operator property.
@@ -20,12 +21,14 @@ provided by SuperOffice.
     R=Read Only, W=Writeable, +=one or more values (multi-select)
 * **Display Name**: the english name you would show in the GUI if you converted the resource id to a string.
 
-## RestrictionType 'bool' 
+## RestrictionType 'bool'
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 | set | W |  Is |
 
-## RestrictionType 'int' 
+## RestrictionType 'int'
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 | equals | W | (=)|
@@ -35,6 +38,7 @@ provided by SuperOffice.
 | between | W;W| Between|
 
 ## RestrictionType 'decimal'
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 |equals|W|(=)|
@@ -44,6 +48,7 @@ provided by SuperOffice.
 |between|W;W|Between|
 
 ## RestrictionType 'string'
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 |begins|W|Starts with|
@@ -54,6 +59,7 @@ provided by SuperOffice.
 |isNot|W|Is not|
 
 ## RestrictionType 'associate'
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 |currentAssociate|R|Current user|
@@ -61,19 +67,22 @@ provided by SuperOffice.
 |associateIsNotOneOf|W+|Is not one of|
 
 ## RestrictionType 'listAny'
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 |oneOf |W+|Is one of|
 |notOneOf|W+|Is not one of|
 
-## RestrictionType 'datetime' – both the date and time are used.
+## RestrictionType 'datetime' – both the date and time are used
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 |afterTime|W|After or equal to Datetime|
 |beforeTime|W|Before Datetime|
 |dateTime|W|Exact Datetime|
 
-## RestrictionType 'date' – only the date part is used. 
+## RestrictionType 'date' – only the date part is used
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 |before|W|Before|
@@ -96,6 +105,7 @@ provided by SuperOffice.
 |thisYear|R;R|This year|
 
 ## RestrictionType 'unlimitedDate'
+
 | Name | ValueHint | Display Name |
 | ---- | ------ | ------ |
 |before|W|Before|
@@ -116,4 +126,3 @@ provided by SuperOffice.
 |nextQuarter|R;R|Next quarter|
 |thisHalf|R;R|This half|
 |thisYear|R;R|This year|
-

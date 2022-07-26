@@ -11,15 +11,9 @@ GET /api/v1/MDOList/{listname}/selectable
 
 Return the selectable list items
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | listname | string | "category", "business" etc **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Return the selectable list items
 GET /api/v1/MDOList/{listname}/selectable?additional=nam
 GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
-
 
 ## Request Headers
 
@@ -47,10 +40,7 @@ GET /api/v1/MDOList/{listname}/selectable?flat=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

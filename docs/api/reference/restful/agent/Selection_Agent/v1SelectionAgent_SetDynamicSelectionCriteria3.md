@@ -13,10 +13,6 @@ Update the criteria for this dynamic selection.
 
 Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Use criteria as either restriction objects or OData string format. Criteria are 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, Criteria, Filter 
+SelectionId, Criteria, Filter
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +47,7 @@ SelectionId, Criteria, Filter
 | Criteria | array |  |
 | Filter | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,15 +11,9 @@ GET /api/v1/Schema/{tableName}
 
 Return information about all the custom fields (user-defined + extra) on a particular table
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Return information about all the custom fields (user-defined + extra) on a parti
 ```http
 GET /api/v1/Schema/{tableName}?includeStandard=False
 ```
-
 
 ## Request Headers
 
@@ -45,10 +38,7 @@ GET /api/v1/Schema/{tableName}?includeStandard=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

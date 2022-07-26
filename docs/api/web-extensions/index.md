@@ -13,9 +13,9 @@ so.envir: onsite
 
 The **SuperOffice Web Extensions** is a local client that can be installed on the user's machine (without admin rights). It registers a couple of protocol handlers:
 
-* **superoffice:** - used to display a particular soprotocol in the Windows or web client.
+* **SuperOffice:** - used to display a particular soprotocol in the Windows or web client.
 * **somail:** - used to display mail messages with the local viewer
-* **superoffice-extensions:** - for communicating with the local client (trayapp). Used when downloading and uploading documents, displaying alarm popups.
+* **SuperOffice-extensions:** - for communicating with the local client (trayapp). Used when downloading and uploading documents, displaying alarm popups.
 
 The SuperOffice 7 Web Extensions, also referred to as **TrayApp**, is the tool that is responsible for downloading documents and showing off alarms to users.
 
@@ -23,7 +23,7 @@ The challenge is that web applications live inside a sand-box (Browser). Yet, we
 
 The TrayApp receives events similar to the famous SoProtocol. All URLs starting with *superoffiece-extensions:* are routed directly to the TrayApp.
 
-The TrayAppManager of SuperOffice.CRMWeb.dll is responsible for compiling superoffice-extensions protocols to TrayApp.
+The TrayAppManager of SuperOffice.CRMWeb.dll is responsible for compiling SuperOffice-extensions protocols to TrayApp.
 
 A request looks like this:
 

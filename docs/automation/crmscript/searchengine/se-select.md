@@ -77,6 +77,7 @@ SearchEngine se;
 se.addCriteria("associate.type", "OperatorEquals", "0");
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Void addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
 
 This variant of `addCriteria()` extends the condition by also adding a priority and a logical operator. It is typically used when another criterion follows this one.
@@ -90,6 +91,7 @@ se.addCriteria("ticket.status", "OperatorEquals", "1", "OperatorAnd", 0);
 
 Notice that the **priority is a number** and not a string.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Void addCriteria(String field, String function, String compOperator, String value, String rowOperator, Integer priority)
 
 Same as above while also specifying a function to use on the field.
@@ -101,10 +103,12 @@ SearchEngine se;
 se.addCriteria("ticket.status", "FuncCount", "OperatorEquals", "1", "OperatorAnd", 0);
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Void addComparison(String field1, String compOperator, String field2, String rowOperator, Integer priority)
 
 Similar to `addCriteria()`, but `addComparison()` will compare 2 fields to each other rather than compare a field to a set value.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Void addComparison(String field1, String func1, String compOperator, String field2, String func2, String rowOperator, Integer priority)
 
 Same as above while also specifying a function to use on each field.
@@ -139,11 +143,13 @@ se.bypassNetServer(true);
 se.setGroup(true);
 ```
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Void addHaving(String field, String compOperator, String value, String rowOperator, Integer priority)
 
 A having clause filters the search result by setting a condition similar to `addCriteria()`.
 The field you want to place a restriction on must also be in the group-by clause.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### Void addHaving(String field, String func, String compOperator, String value, String rowOperator, Integer priority)
 
 Same as above while also specifying a function to use the field.

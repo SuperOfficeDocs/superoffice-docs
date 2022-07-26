@@ -17,7 +17,6 @@ Get a FAQ entry, ment to be displayed for a customer. This can either be a link 
 
 **Returns:** The FAQ to show to the customer. Either a clickable link or the question/answer itself.
 
-
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetFaqForCustomer Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.SaveSat
 ## SaveSatellite
 
 Updates the existing Satellite or creates a new Satellite if the id parameter is 0.
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+<br />**Online Restricted:** The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 * **satellite:** The Satellite that is saved.
 
 **Returns:** New or updated Satellite
-
 
 [WSDL file for Services88/Replication](../Services88-Replication.md)
 
@@ -195,7 +194,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveSatellite Response
 
 ```xml
@@ -360,4 +358,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

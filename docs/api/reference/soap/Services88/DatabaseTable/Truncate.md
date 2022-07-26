@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Trunc
 ## Truncate
 
 Drop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
-<para /><b>Online Restricted:</b> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** Name of table to be truncated
 
 **Returns:** Summary of results
-
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## Truncate Response
 
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

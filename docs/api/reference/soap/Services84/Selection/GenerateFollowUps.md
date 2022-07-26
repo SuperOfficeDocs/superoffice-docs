@@ -19,8 +19,6 @@ Generate follow-ups for members in the selection.
 * **saveOnContactOwner:** If true, the appointments will be saved on contact owner (Our contact). This parameter will override associateId if true.
 * **uniqueContact:** If true, only one appointment will be created for each contact.
 
-
-
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -418,7 +416,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GenerateFollowUps Response
 
 ```xml
@@ -438,4 +435,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

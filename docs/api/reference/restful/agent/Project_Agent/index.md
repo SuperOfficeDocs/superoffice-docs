@@ -6,9 +6,6 @@ title: Project_Agent
 /api/v1/Project/Agent
 ```
 
-
-
-
 * [POST Agents/Project/GetProjectEventEntityFromProjectId](v1ProjectAgent_GetProjectEventEntityFromProjectId.md)
 
 * [POST Agents/Project/DeleteProjectEventEntityFromProjectId](v1ProjectAgent_DeleteProjectEventEntityFromProjectId.md)

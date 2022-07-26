@@ -13,12 +13,7 @@ Retiring a user means to remove all licenses, setting person.
 
 retired=1 and associate.deleted=1. Unretiering a user means setting  person.retired=0 and associate.deleted=0
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -30,7 +25,6 @@ retired=1 and associate.deleted=1. Unretiering a user means setting  person.reti
 POST /api/v1/Agents/User/MakeRetired?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,18 +34,16 @@ POST /api/v1/Agents/User/MakeRetired?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId, Retired 
+AssociateId, Retired
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | Retired | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -30,7 +30,6 @@ Heading link table for Currency, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![CurrencyHeadingLink table relationship diagram](./media/CurrencyHeadingLink.png)
 
 [!include[details](./includes/currencyheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for Currency, for MDO headers
 |[Currency](currency.md)  |Currency list table |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for Currency, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

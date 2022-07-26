@@ -103,7 +103,7 @@ The first example is a **view** with `id` value MainView. The `reference` attrib
 
 Looking further down in the file, there are more fragments declared using both `reference` and `referenceWithIdUpdate` attribute.
 
-The difference between the 2 is that `reference` is used when the element ID is unique and the contents of the element reside in the file that follows the naming convention *So[id][Element].config*.
+The difference between the 2 is that `reference` is used when the element ID is unique and the contents of the element reside in the file that follows the naming convention *So\[id\]\[Element\].config*.
 
 Because no elements of the same type can have the same ID, the `referenceWithIdUpdate`attribute is used when **more than one element of the same type** wants to reference the same content. To avoid creating duplicate content in files *SoMoreMainHeaderGroupControlGroup.config* and *SoInterestMainHeaderGroupControlGroup.config*, using `referenceWithIdUpdate` means reference this file instead of using my ID as the link.
 

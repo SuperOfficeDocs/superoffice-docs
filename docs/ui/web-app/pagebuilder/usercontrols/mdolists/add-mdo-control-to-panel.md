@@ -60,7 +60,6 @@ Important settings:
 We can observe that we have adhered to all the rules given above and the controls appear smoothly on the page.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

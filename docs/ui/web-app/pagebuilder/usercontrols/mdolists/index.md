@@ -12,6 +12,7 @@ so.envir: onsite
 
 # MDO list control
 
+<!-- markdownlint-disable MD051 -->
 ## [Typical config](#tab/typical)
 
 [!code-xml[XML](includes/projtemp5-4.xml)]
@@ -21,6 +22,7 @@ so.envir: onsite
 [!code-xml[XML](includes/projtemp5-3.xml)]
 
 ***
+<!-- markdownlint-restore -->
 
 ## Control element
 

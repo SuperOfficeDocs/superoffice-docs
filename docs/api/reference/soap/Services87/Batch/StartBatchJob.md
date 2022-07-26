@@ -17,7 +17,6 @@ Start a batch job based on BatchTaskInfo.
 
 **Returns:** Returns the id of the created batch job.
 
-
 [WSDL file for Services87/Batch](../Services87-Batch.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -76,7 +75,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## StartBatchJob Response
 
 ```xml
@@ -97,4 +95,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

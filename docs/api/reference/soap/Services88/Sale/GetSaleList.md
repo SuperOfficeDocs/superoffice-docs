@@ -17,7 +17,6 @@ Gets an array of Sale objects.
 
 **Returns:** Array of Sale objects
 
-
 [WSDL file for Services88/Sale](../Services88-Sale.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSaleList Response
 
@@ -101,4 +99,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

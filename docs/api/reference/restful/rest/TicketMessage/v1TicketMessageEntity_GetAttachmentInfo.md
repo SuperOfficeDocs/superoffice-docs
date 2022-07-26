@@ -11,16 +11,9 @@ GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 
 Get a list with meta data for all attached attachments
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to get attachment infos **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Get a list with meta data for all attached attachments
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

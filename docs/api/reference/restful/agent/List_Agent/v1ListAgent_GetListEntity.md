@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetListEntity
 
 Gets a ListEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a ListEntity object.
 POST /api/v1/Agents/List/GetListEntity?listEntityId=291
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The list entity contains information about a specific list
-
-
 
 Carrier object for ListEntity.
 Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

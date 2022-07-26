@@ -16,7 +16,7 @@ This method will search for customers and return information about the customers
 
 If you specify an illegal search field, the field will be dropped in the output.
 
-All fields that are reachable by the SuperOffice dot syntax can be used. Refer to CRMScript documentation for an explanation of this format. 
+All fields that are reachable by the SuperOffice dot syntax can be used. Refer to CRMScript documentation for an explanation of this format.
 
 Examples of valid fields for search criteria and search fields:
 

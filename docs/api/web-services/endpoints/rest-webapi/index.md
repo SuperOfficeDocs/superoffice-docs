@@ -19,7 +19,7 @@ GET /api/v1/Contact/123
 ```
 
 Returns a JSON object representing Contact 123. This object can be PUT to update it or DELETEd - subject to the usual [sentry restrictions][10]. Attempting to GET an object that doesn't exist will return an HTTP 404 error.
-​
+
 ```http
 POST api/v1/List/Category/Items
 ```

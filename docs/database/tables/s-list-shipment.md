@@ -27,7 +27,6 @@ A connector between shipment and list so that one shipment can have many lists, 
 |type|Indicates if this is a static/dynamic spmlist or a selection|Int|&#x25CF;|
 |status|Status of shipment list|Enum [ShipmentListStatus](enums/shipmentliststatus.md)|&#x25CF;|
 
-
 ![s_list_shipment table relationship diagram](./media/s_list_shipment.png)
 
 [!include[details](./includes/s-list-shipment.md)]
@@ -47,7 +46,6 @@ A connector between shipment and list so that one shipment can have many lists, 
 |[s\_list](s-list.md)  |A list, dynamic or static |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
-
 ## Replication Flags
 
 * None
@@ -55,4 +53,3 @@ A connector between shipment and list so that one shipment can have many lists, 
 ## Security Flags
 
 * No access control via user's Role.
-

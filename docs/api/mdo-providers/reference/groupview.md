@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "groupview" MDO List
+
 GroupViewMDOProvider uses the AssociateMDOProvider + DiaryView to create the MDOlist for Groupview in Diary view.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GroupViewMDOProvider">GroupViewMDOProvider</see> class.
 The name of the MDO list is 'groupview'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("groupview", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +46,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

@@ -30,7 +30,6 @@ Link table for ReasonStalled, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ReasonStalledGroupLink table relationship diagram](./media/ReasonStalledGroupLink.png)
 
 [!include[details](./includes/reasonstalledgrouplink.md)]
@@ -51,7 +50,6 @@ Link table for ReasonStalled, for MDO item hiding
 |[ReasonStalled](reasonstalled.md)  |Why was the sale marked as stalled |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Link table for ReasonStalled, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

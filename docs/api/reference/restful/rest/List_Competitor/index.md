@@ -6,9 +6,6 @@ title: List_Competitor
 /api/v1/List/Competitor
 ```
 
-
-
-
 * [GET List/Competitor](v1CompetitorList_GetListDefinition.md)
 
 * [PUT List/Competitor](v1CompetitorList_SetListDefinition.md)

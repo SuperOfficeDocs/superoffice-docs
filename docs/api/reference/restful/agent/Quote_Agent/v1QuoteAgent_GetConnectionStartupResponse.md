@@ -13,10 +13,6 @@ Returns the PluginResponseInfo for the connection initialization.
 
 Does not initialize the connection, just returns what happened when initialize was called.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Does not initialize the connection, just returns what happened when initialize w
 ```http
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/Quote/GetConnectionStartupResponse?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteConnectionId 
+QuoteConnectionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 
-
 ## Response: object
 
 PluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.
-
-
 
 Carrier object for PluginResponse.
 Services for the PluginResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

@@ -17,8 +17,6 @@ Save credentials for a specified user.
 * **type:** Type of credential(Ex: "imap", "smtp")
 * **credentials:** Credentials to save.
 
-
-
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -60,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveUntrustedCredentialsForAssociate Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

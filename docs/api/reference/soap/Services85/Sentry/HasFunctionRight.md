@@ -15,8 +15,6 @@ Get a boolean value indicating if the current user has the functional right.
 
 * **functionRight:** Function right to check.
 
-
-
 [WSDL file for Services85/Sentry](../Services85-Sentry.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## HasFunctionRight Response
 
 ```xml
@@ -70,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

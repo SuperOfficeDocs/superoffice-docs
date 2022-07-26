@@ -6,9 +6,6 @@ title: BLOB_Agent
 /api/v1/BLOB/Agent
 ```
 
-
-
-
 * [POST Agents/BLOB/ChangeContactImage](v1BLOBAgent_ChangeContactImage.md)
 
 * [POST Agents/BLOB/GetBlobEntityOnContact](v1BLOBAgent_GetBlobEntityOnContact.md)

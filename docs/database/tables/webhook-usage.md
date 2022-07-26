@@ -32,7 +32,6 @@ Webhook usage statistics - tracks call+error statistics. Same primary key as the
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![Webhook_usage table relationship diagram](./media/Webhook_usage.png)
 
 [!include[details](./includes/webhook-usage.md)]
@@ -49,7 +48,6 @@ Webhook usage statistics - tracks call+error statistics. Same primary key as the
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ Webhook usage statistics - tracks call+error statistics. Same primary key as the
 ## Security Flags
 
 * No access control via user's Role.
-

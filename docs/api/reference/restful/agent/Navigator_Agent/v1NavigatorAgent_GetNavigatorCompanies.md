@@ -9,14 +9,6 @@ id: v1NavigatorAgent_GetNavigatorCompanies
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +33,15 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanies?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name 
+Name
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

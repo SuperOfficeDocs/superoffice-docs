@@ -17,7 +17,6 @@ Returns an array of project members
 
 **Returns:** An array of project members
 
-
 [WSDL file for Services85/Project](../Services85-Project.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetProjectMembers Response
 
@@ -93,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

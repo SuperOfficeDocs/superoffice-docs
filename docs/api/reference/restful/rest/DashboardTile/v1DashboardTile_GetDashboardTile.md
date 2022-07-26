@@ -13,13 +13,9 @@ Gets a DashboardTile object.
 
 Calls the Dashboard agent service GetDashboardTile.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashboardTile to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the Dashboard agent service GetDashboardTile.
 ```http
 GET /api/v1/DashboardTile/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +40,9 @@ GET /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Dashboard Tile configuration
-
-
 
 DashboardTile entity with API _Links added.
 

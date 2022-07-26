@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/SavePreferenceEntities
 
 Save this set of preferences.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Save this set of preferences.
 POST /api/v1/Agents/Preference/SavePreferenceEntities?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Preference/SavePreferenceEntities?$select=name,department,ca
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Preferences, RemoveLowerLevels 
+Preferences, RemoveLowerLevels
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Preferences | array |  |
 | RemoveLowerLevels | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

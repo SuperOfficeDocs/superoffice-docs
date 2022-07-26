@@ -43,6 +43,7 @@ String[5] s2;
 If you don't initialize the array, you won't be able to use the indexes when adding elements.
 
 ### Void fromJsonString(String json)
+
 This function will append to the array the contents of the supplied JSON formatted string. Same functionality as fromXMLNode(XMLNode n), but it will parse the provided string directly without having to use parseJSON() yourself. Please note, this function will not clear the array, but rather append to it.
 
 Introduced or updated in version: 10.1.4
@@ -140,9 +141,11 @@ for(Integer i = 0; i < userPlans.length(); i++) {
 ```
 
 ### Void sort()
+
 This function will sort the array. It will only work on one-dimensional arrays. Arrays of basic types (Integer, String, Date, etc) will be sorted according to standard behavior. Arrays of complex types (SearchEngine, HTTP, etc) will not be sorted. Arrays of structs will be sorted if the struct has a function with the following signature: "Boolean compare(sameStruct other)".
 
 Introduced or updated in version: 10.1.4
+
 ```crmscript!
 Integer[] ints;
 ints.pushBack(8);
@@ -313,6 +316,7 @@ If you want to do something with these elements before deletion, you should loop
 To repopulate, you must use push since it is now uninitialized.
 
 ### String toJsonString()
+
 This function will return a JSON formatted string of the array's contents. Same functionality as toJson(JSONBuilder), but it will return a string directly without having to instantiate a JSONbuilder.
 
 ```crmscript!
@@ -324,6 +328,7 @@ printLine(strings.toJsonString());
 ```
 
 ### String buildString(String delimiter)
+
 This function will return a string containing the contents of the array, separated by the delimiter string.
 
 ```crmscript!

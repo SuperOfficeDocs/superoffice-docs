@@ -32,7 +32,6 @@ Deprecated. This table contains entries for the user profiles.
 |list\_customers\_header2|The fields for listing customers. Encoded as CSV string.|Clob|&#x25CF;|
 |list\_companies\_header2|The fields for listing companies. Encoded as CSV string.|Clob|&#x25CF;|
 
-
 ![profile table relationship diagram](./media/profile.png)
 
 [!include[details](./includes/profile.md)]
@@ -50,7 +49,6 @@ Deprecated. This table contains entries for the user profiles.
 |------|-------------|
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ Deprecated. This table contains entries for the user profiles.
 ## Security Flags
 
 * No access control via user's Role.
-

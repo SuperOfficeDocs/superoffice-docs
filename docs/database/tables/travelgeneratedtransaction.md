@@ -15,7 +15,7 @@ so.envir:
 
 # travelgeneratedtransaction Table (30)
 
-Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother)
+Record of all generated replication data files from this database (\*.dwn files from mother database to child, \*.up from child database to mother)
 
 ## Fields
 
@@ -33,7 +33,6 @@ Record of all generated replication data files from this database (*.dwn files f
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-
 
 ![travelgeneratedtransaction table relationship diagram](./media/travelgeneratedtransaction.png)
 
@@ -54,12 +53,8 @@ Record of all generated replication data files from this database (*.dwn files f
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[traveltransactionlog](traveltransactionlog.md)  |Log of all updates made to the database, that need to be replicated. |
 
-
 ## Replication Flags
 
 * None
 
 ## Security Flags
-
-* No access control via user's Role.
-

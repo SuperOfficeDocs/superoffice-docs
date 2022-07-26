@@ -76,7 +76,6 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 |DeletedDate|Datetime (utc) when this record was soft-deleted; if this value is set then the record should not be shown|UtcDateTime|&#x25CF;|
 
-
 ![person table relationship diagram](./media/person.png)
 
 [!include[details](./includes/person.md)]
@@ -159,7 +158,6 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[user\_candidate](user-candidate.md)  |This table will hold user candidate secrets |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -170,4 +168,3 @@ Persons in a company or an organizations. All associates have a corresponding pe
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
-

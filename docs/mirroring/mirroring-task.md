@@ -49,7 +49,7 @@ Mirroring does not run during server maintenance, such as SuperOffice CRM Online
 
 ## Options
 
-Customers can add custom user preferences to control database mirroring behaviors. 
+Customers can add custom user preferences to control database mirroring behaviors.
 
 | Preference Name   | Preference description                                      | Default value   |
 |:---               |:---                                                         |:---:             |

@@ -47,7 +47,7 @@ When the configuration is done and the class is ready, use the `AjaxMethodDispat
 > [!NOTE]
 > Make sure the `CacheConfigurations` key in the [ClientConfigurationProvider section][2] of *web.config* is set to false for any configuration file changes to take effect immediately. If you do not have that set to true, you must restart IIS (do an iisreset) for your changes to take effect and be observed.
 
-Since we wanted to create a follow-up appointment for a sale, we'll add a new button to the Sale page that calls our new server-side method from Javascript.
+Since we wanted to create a follow-up appointment for a sale, we'll add a new button to the Sale page that calls our new server-side method from JavaScript.
 
 Here is the declaration of the button in *SoSalePage.config*:
 
@@ -67,14 +67,14 @@ Here you can see the new button added to the **Sale** page;
 
 ![Sale dialog][img1]
 
-The Javascript inside the onclick property is what performs the magic here; it uses the CallSync Javascript function of the AjaxMethodDispatcher object to call the CreateFollowUp method of our server-side class.
+The JavaScript inside the onclick property is what performs the magic here; it uses the CallSync JavaScript function of the AjaxMethodDispatcher object to call the CreateFollowUp method of our server-side class.
 
 > [!NOTE]
 > You need to supply the fully-qualified name. You cannot use the `MappingName` as supplied in *SoObjectMapping* directly.
 
-The Javascript stores the value returned from the `CallSync` method in a local variable. Depending on that value, either the appointment dialog will be opened with the new appointment, or if the method fails for some reason, an error message will be displayed in a SuperOffice message box.
+The JavaScript stores the value returned from the `CallSync` method in a local variable. Depending on that value, either the appointment dialog will be opened with the new appointment, or if the method fails for some reason, an error message will be displayed in a SuperOffice message box.
 
-Here are both results as displayed by the Display Javascript object;
+Here are both results as displayed by the Display JavaScript object;
 
 ![Sale dialog][img2]
 
@@ -86,9 +86,9 @@ And finally, here's the appointment shown in the activity archive of the contact
 
 ## Conclusion
 
-In this tutorial, we have gone through how you can call your own server-side classes from Javascript using the `AjaxMethodDispatcher` Javascript object.
+In this tutorial, we have gone through how you can call your own server-side classes from JavaScript using the `AjaxMethodDispatcher` JavaScript object.
 
-The use of the display Javascript object was there mainly to show you more of the Javascript objects that are available to you in SuperOffice.
+The use of the display JavaScript object was there mainly to show you more of the JavaScript objects that are available to you in SuperOffice.
 
 Take a look inside the Scripts folder of your installation, it's a huge library there ready for you to use and also extend to your own purpose!
 

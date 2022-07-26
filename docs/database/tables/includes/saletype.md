@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Units of duration - from seconds to centuries. Used by both SaleType and ProjectType
 
 | surationUnit | ID | Comment |

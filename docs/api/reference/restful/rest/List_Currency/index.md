@@ -6,9 +6,6 @@ title: List_Currency
 /api/v1/List/Currency
 ```
 
-
-
-
 * [GET List/Currency](v1CurrencyList_GetListDefinition.md)
 
 * [PUT List/Currency](v1CurrencyList_SetListDefinition.md)

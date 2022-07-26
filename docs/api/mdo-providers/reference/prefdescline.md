@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "prefdescline" MDO List
+
 PrefDesc creates a MDO list of prefdesclines for a given prefdesc id.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PrefDescLineProvider">PrefDescLineProvider</see> class.
 The name of the MDO list is 'prefdescline'.
@@ -27,10 +26,6 @@ The name of the MDO list is 'prefdescline'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Pref desc id (required)| |123|
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("prefdescline", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +52,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

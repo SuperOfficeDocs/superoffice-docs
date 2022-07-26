@@ -11,12 +11,6 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 
 Gets a ShipmentMessageEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a ShipmentMessageEntity object.
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=914
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 A shipment message, that contains the actual message being sent out in a mailing
-
-
 
 Carrier object for ShipmentMessageEntity.
 Services for the ShipmentMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.

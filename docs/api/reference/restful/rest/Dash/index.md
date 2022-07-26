@@ -6,9 +6,6 @@ title: Dash
 /api/v1/Dash
 ```
 
-
-
-
 * [GET Dash/default](v1Dash_DefaultDash.md)
 
 * [POST Dash](v1Dash_PostDash.md)

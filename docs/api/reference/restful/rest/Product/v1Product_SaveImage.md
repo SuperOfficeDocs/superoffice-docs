@@ -13,14 +13,9 @@ Save an image to a product
 
 Updating the image will update the ImageInfo automatically.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
-
-
 
 ## Request Headers
 
@@ -36,15 +31,11 @@ Updating the image will update the ImageInfo automatically.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: image binary 
+## Request Body: image binary
 
-Bitmap for the product (PNG, JPEG, GIF or TIFF format) 
-
-
+Bitmap for the product (PNG, JPEG, GIF or TIFF format)
 
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
@@ -52,7 +43,6 @@ Bitmap for the product (PNG, JPEG, GIF or TIFF format)
 | 400 | Image bitmap is missing from body. |
 
 Response body: int32
-
 
 ## Sample Request
 

@@ -13,10 +13,6 @@ Change the new serial number for the installation.
 
 Requests a new license from SuperLicense, checks if change is authorized.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +24,6 @@ Requests a new license from SuperLicense, checks if change is authorized.
 POST /api/v1/License/ChangeSerialNumber?newCompanyName=Farrell, Torp and Wiza
 POST /api/v1/License/ChangeSerialNumber?newSerialNumber=362146
 ```
-
 
 ## Request Headers
 
@@ -42,7 +37,6 @@ POST /api/v1/License/ChangeSerialNumber?newSerialNumber=362146
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

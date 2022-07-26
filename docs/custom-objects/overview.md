@@ -32,7 +32,7 @@ The remainder of this document only details custom fields. To read more about cu
 
 SuperOffice CRM and Service were once 2 separate applications, with different custom field extensibility options. When discussed today, custom fields represent both user-defined fields and extra fields, and is therefore considered best practice to be explicit about which one is the focus when discussed.
 
-User-defined fields (udefs for short) belong in SuperOFfice CRM, while extra tables and extra fields belong in Service.
+User-defined fields (udefs for short) belong in SuperOffice CRM, while extra tables and extra fields belong in Service.
 
 Each CRM entity allows user-defined fields: appointment, contact, document, person, project, sale, however only CRM contact and person allow extra fields.
 

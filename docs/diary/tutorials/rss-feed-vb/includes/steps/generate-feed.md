@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 [!code-vb[VB](../rss-page.vb?range=71-174)]
 
 [!code-vb[VB](../rss-page.vb?range=199-208)]

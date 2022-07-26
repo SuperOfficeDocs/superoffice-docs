@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.GetActivity
 
 Get activity filter for the specified list.
 
-
 **Returns:** The activity filter for the specified list
-
 
 [WSDL file for Services86/Archive](../Services86-Archive.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetActivityFilter Response
 
@@ -228,4 +225,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

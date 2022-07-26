@@ -84,7 +84,6 @@ Depending on the place we use the control we can change the position of the disp
 ![02][img2]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

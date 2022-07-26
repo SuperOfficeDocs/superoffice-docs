@@ -11,13 +11,7 @@ POST /api/v1/Agents/Webhook/GetWebhook
 
 Gets a Webhook object.
 
-
-
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Gets a Webhook object.
 POST /api/v1/Agents/Webhook/GetWebhook?webhookId=935
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +38,9 @@ POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
-
-
 
 Carrier object for Webhook.
 Services for the Webhook Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>.

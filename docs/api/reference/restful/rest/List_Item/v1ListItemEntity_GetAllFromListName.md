@@ -11,15 +11,9 @@ GET /api/v1/List/{udListDefinitionName}/Items
 
 Get all list items for the specified list defintion
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to get the item from. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get all list items for the specified list defintion
 ```http
 GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 ```
-
 
 ## Request Headers
 
@@ -45,10 +38,7 @@ GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

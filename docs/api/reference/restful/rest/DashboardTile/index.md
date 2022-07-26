@@ -6,9 +6,6 @@ title: DashboardTile
 /api/v1/DashboardTile
 ```
 
-
-
-
 * [GET DashboardTile/default](v1DashboardTile_DefaultDashboardTile.md)
 
 * [POST DashboardTile](v1DashboardTile_PostDashboardTile.md)

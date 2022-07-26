@@ -13,10 +13,6 @@ Return an given array user defined field identified by the owner and the prog-id
 
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The prog-id is used as the key in the entity carriers. Note this may be differen
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProgIds, OwnerType 
+ProgIds, OwnerType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgIds | array |  |
 | OwnerType | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

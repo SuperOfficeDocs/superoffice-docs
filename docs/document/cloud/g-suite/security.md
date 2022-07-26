@@ -32,6 +32,9 @@ This is not a bug. This is by design.
 
 ## Set access permission on document archive for cross-domain access
 
+> [!WARNING]
+> Items with any link sharing option can be published on the web, and potentially be a risk that other people can get access to it.
+
 Documents are created in Google Drive by the service-account (owner), but users of other domains will by default not have access to open it.
 
 * This can be achieved by either sharing the Google Drive folder with specific users or using Google Group (for easier management).
@@ -40,9 +43,6 @@ Documents are created in Google Drive by the service-account (owner), but users 
 
 > [!NOTE]
 > This is an example of custom setup and is not supported by SuperOffice, but can be achieved by configuring your Google Workspace access permissions and is supervised and managed by the customer themselves.
-
-> [!WARNING]
-> Items with any link sharing option can be published on the web, and potentially be a risk that other people can get access to it.
 
 Documents created via SuperOffice that are hosted in Google Drive will be given a default-permission that is "accessible to anyone in the Google Workspace" domain.
 If your company and business structure use/cross multiple Google Workspace domains (ie. companyA.com, companyB.com, companyC.com) - users belonging to other domains than the domain the service-account belongs to, will get a "You need permission" page, by default.

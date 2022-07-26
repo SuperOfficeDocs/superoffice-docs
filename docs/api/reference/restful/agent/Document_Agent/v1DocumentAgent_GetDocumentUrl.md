@@ -13,10 +13,6 @@ Get a URL referring to the given document content.
 
 &lt;para/&gt;This URL may be passed to the ultimate client (text editor of some kind?), which is then responsible for all further operations.&lt;para/&gt;The returned string is a fully qualified URL.&lt;para/&gt;Not all documents and document plugins support this feature.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Get a URL referring to the given document content.
 ```http
 POST /api/v1/Agents/Document/GetDocumentUrl?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Document/GetDocumentUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId, VersionId, WriteableUrl 
+DocumentId, VersionId, WriteableUrl
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +47,13 @@ DocumentId, VersionId, WriteableUrl
 | VersionId | string |  |
 | WriteableUrl | bool |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

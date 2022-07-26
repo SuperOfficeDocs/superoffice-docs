@@ -6,9 +6,6 @@ title: PreferenceDescription
 /api/v1/PreferenceDescription
 ```
 
-
-
-
 * [GET PreferenceDescription/default](v1PreferenceDescription_DefaultPreferenceDescription.md)
 
 * [GET PreferenceDescription](v1PreferenceDescription_GetAll.md)

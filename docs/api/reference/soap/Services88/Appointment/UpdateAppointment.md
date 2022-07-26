@@ -13,14 +13,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.UpdateA
 
 Updates an appointment record.
 
-* **id:** 
-* **startTime:** 
-* **endTime:** 
-* **status:** 
-* **type:** 
+* **id:**
+* **startTime:**
+* **endTime:**
+* **status:**
+* **type:**
 * **associateId:** The appointment owner's id (associate id)
-
-
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -58,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## UpdateAppointment Response
 
@@ -130,4 +127,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

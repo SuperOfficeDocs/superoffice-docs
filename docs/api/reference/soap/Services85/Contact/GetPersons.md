@@ -13,10 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.GetPersons"
 
 Returns an array of all the contact persons for the company card.
 
-* **contactId:** 
+* **contactId:**
 
 **Returns:** Array of Persons
-
 
 [WSDL file for Services85/Contact](../Services85-Contact.md)
 
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetPersons Response
 
@@ -113,4 +111,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

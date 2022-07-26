@@ -11,13 +11,6 @@ GET /api/v1/PreferenceDescription
 
 Gets a list of all PreferenceDescriptions in the system.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +24,7 @@ Gets a list of all PreferenceDescriptions in the system.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

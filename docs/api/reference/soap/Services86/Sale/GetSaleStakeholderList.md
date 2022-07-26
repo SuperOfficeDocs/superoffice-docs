@@ -17,7 +17,6 @@ Gets an array of SaleStakeholder objects.
 
 **Returns:** Array of SaleStakeholder objects
 
-
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSaleStakeholderList Response
 
@@ -95,4 +93,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

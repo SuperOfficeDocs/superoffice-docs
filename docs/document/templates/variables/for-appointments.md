@@ -20,7 +20,7 @@ so.topic: reference
 | bcon | The appointment's company, name |
 | bcrd | The appointment's creation date, in PC's local time, formatted YYYYMMdd |
 | bcrt | The appointment's creation time, in PC's local time, formatted HHmmss |
-| bdlg | The "superoffice:invitations" link to the invitation dialog |
+| bdlg | The "SuperOffice:invitations" link to the invitation dialog |
 | bdll | The "Use this link to open the Invitation dialog in SuperOffice CRM" link displayed for registered contacts. Blank if recipient is not a registered contact |
 | beda | The appointment's end date, formatted as YYYYMMdd |
 | bema | The appointment's owner, email address |
@@ -60,7 +60,7 @@ so.topic: reference
 | btzd | The time zone offset for summer time, for the PC's local time. Formatted as +0200 or -1200 |
 | btze | The appointment's end time, converted into the PC's local time. Formatted as YYYYMMdd |
 | btzf | The appointment's end time, converted into the PC's local time. Formatted as HHmmss |
-| btzk | The time zone key, from the appointment's start date. (AR-CN means the Argentina-Corrientes time zone -0300.) | 
+| btzk | The time zone key, from the appointment's start date. (AR-CN means the Argentina-Corrientes time zone -0300.) |
 | btzl | The time zone ID of the appointment |
 | btzn | The appointment's date and time converted to UTC if time zones are enabled. For example, 30.03.2005 (17:00)-(18:00) |
 | btzm | Time zone formatted as Norway (GMT +1:00) if time zones are enabled |

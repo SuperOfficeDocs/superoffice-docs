@@ -10,6 +10,7 @@ so.envir: cloud
 so.client: online
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # How to get a system user ticket credential
 
 To get the ticket, you must send a request containing a signed version of your system user token to the `partner system user service` endpoint.
@@ -98,7 +99,6 @@ We provide the following .NET nuget packages to help perform the task.
 
 * [SuperOffice.Crm.Online.Core][11]
 * [Sample Code on GitHub][12]
-  
 
 ## How to get system user ticket
 
@@ -111,9 +111,9 @@ The following example code has an extensive amount of logging to the console. Th
 5. [Validate JWT token][3].
 6. Extract the system user ticket.
 
----
+***
 
-# [REST](#tab/rest-sut)
+### [REST](#tab/rest-sut)
 
 <details>
   <summary>NPM package.json file for NodeJS REST example.</summary>
@@ -126,10 +126,9 @@ The following example code has an extensive amount of logging to the console. Th
 
 ### index.js code
 
-[!code-javascript[index.js](includes/index.js)]
+[!code-JavaScript[index.js](includes/index.js)]
 
-
-# [SOAP](#tab/soap-sut)
+### [SOAP](#tab/soap-sut)
 
 <details>
   <summary>NPM package.soap.json file for NodeJS SOAP example.</summary>
@@ -142,19 +141,15 @@ The following example code has an extensive amount of logging to the console. Th
 
 ### index.soap.js code
 
-[!code-javascript[index.js](includes/index.soap.js)]
+[!code-JavaScript[index.js](includes/index.soap.js)]
 
 ***
-
-
-
 
 <!-- Referenced links -->
 [1]: index.md
 [2]: ~/assets/downloads/api/partnersystemuserservice.zip
 [3]: ../validate-security-tokens.md
 [5]: ../../../../apps/terminology.md
-[6]: ../../../../apps/provisioning/get-consent.md
 [8]: sign-system-user-token.md
 [9]: https://www.nuget.org/packages/SuperOffice.WebApi
 [10]: https://github.com/SuperOffice/SuperOffice.WebApi-Samples

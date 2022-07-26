@@ -13,10 +13,6 @@ Saves a complete preference object, on any level and any target.
 
 Preference administrator rights are required to use this
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Preference administrator rights are required to use this
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/Preference/SavePreferenceEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Preference, RemoveLowerLevels 
+Preference, RemoveLowerLevels
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Preference |  | One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found. <para /> Carrier object for Preference. Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| Preference |  | One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found. <br /> Carrier object for Preference. Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 | RemoveLowerLevels | bool |  |
-
 
 ## Response: object
 
 One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.
-
-
 
 Carrier object for Preference.
 Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.

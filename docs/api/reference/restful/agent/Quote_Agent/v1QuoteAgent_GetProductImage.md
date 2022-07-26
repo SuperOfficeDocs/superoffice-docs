@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetProductImage
 
 Gets an image connected to a product, from the ProductProvider
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets an image connected to a product, from the ProductProvider
 ```http
 POST /api/v1/Agents/Quote/GetProductImage?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Quote/GetProductImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteConnectionId, ERPProductKey, Rank 
+QuoteConnectionId, ERPProductKey, Rank
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +45,13 @@ QuoteConnectionId, ERPProductKey, Rank
 | ERPProductKey | string |  |
 | Rank | int32 |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

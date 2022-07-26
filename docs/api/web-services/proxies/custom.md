@@ -106,4 +106,3 @@ When it comes to authentication and authorization, each web request requires an 
 [1]: https://www.oracle.com/technical-resources/articles/javaee/j2ee-ws.html#use
 
 <!-- Referenced images -->
-[img2]: media/add-service-reference.png

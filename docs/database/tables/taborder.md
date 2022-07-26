@@ -31,7 +31,6 @@ Order of tabs within a tab control, if configured by a user
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![TabOrder table relationship diagram](./media/TabOrder.png)
 
 [!include[details](./includes/taborder.md)]
@@ -49,7 +48,6 @@ Order of tabs within a tab control, if configured by a user
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -59,4 +57,3 @@ Order of tabs within a tab control, if configured by a user
 ## Security Flags
 
 * No access control via user's Role.
-

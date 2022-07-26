@@ -36,7 +36,6 @@ The recurrency pattern for a recurring event. Each recurring event has an appoin
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![RecurrenceRule table relationship diagram](./media/RecurrenceRule.png)
 
 [!include[details](./includes/recurrencerule.md)]
@@ -54,7 +53,6 @@ The recurrency pattern for a recurring event. Each recurring event has an appoin
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -64,4 +62,3 @@ The recurrency pattern for a recurring event. Each recurring event has an appoin
 ## Security Flags
 
 * No access control via user's Role.
-

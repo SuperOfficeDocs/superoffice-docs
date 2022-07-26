@@ -33,7 +33,6 @@ MDO List of tags for Service entities
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![Tags table relationship diagram](./media/Tags.png)
 
 [!include[details](./includes/tags.md)]
@@ -55,7 +54,6 @@ MDO List of tags for Service entities
 |[TagsHeadingLink](tagsheadinglink.md)  |Heading link table for Source, for MDO headers |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ MDO List of tags for Service entities
 ## Security Flags
 
 * No access control via user's Role.
-

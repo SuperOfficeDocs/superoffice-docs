@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Values for the 'done' field in the sale table
 
 | done | ID | Comment |

@@ -13,13 +13,9 @@ Update the Blob that describes the given project's picture.
 
 The actual bitmap is accessible via /api/Services80/project/123/image/content.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | string |  **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 ```http
 PUT /api/v1/Project/{id}/ImageInfo?projectId=774
 ```
-
 
 ## Request Headers
 
@@ -46,9 +41,9 @@ PUT /api/v1/Project/{id}/ImageInfo?projectId=774
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo  
+## Request Body: imageInfo
 
-New or Updated information about the image. 
+New or Updated information about the image.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +60,6 @@ New or Updated information about the image.
 | CreatedBy |  | The person that first created the document. The property is read-only. |
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-
 
 ## Response: object
 

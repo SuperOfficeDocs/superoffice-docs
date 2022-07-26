@@ -57,4 +57,3 @@ Download [WSDL file for Services84/Person](../Services84-Person.md) if you need 
 * [SetConsent](SetConsent.md)
 * [SetPersonImage](SetPersonImage.md)
 * [SetPersonRank](SetPersonRank.md)
-

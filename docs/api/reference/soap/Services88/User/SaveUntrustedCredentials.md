@@ -12,12 +12,10 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SaveUntrustedC
 ## SaveUntrustedCredentials
 
 Save credentials for authenticated user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **type:** Type of credential(Ex: "imap", "smtp")
 * **credentials:** Credentials to save.
-
-
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -59,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveUntrustedCredentials Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

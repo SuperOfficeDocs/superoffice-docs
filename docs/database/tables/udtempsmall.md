@@ -133,7 +133,6 @@ User-defined fields. During conversion of user defined fields the data is stored
 |double09|double value 9, not indexed|Double|&#x25CF;|
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
-
 ![udtempSmall table relationship diagram](./media/udtempSmall.png)
 
 [!include[details](./includes/udtempsmall.md)]
@@ -151,4 +150,3 @@ User-defined fields. During conversion of user defined fields the data is stored
 ## Security Flags
 
 * No access control via user's Role.
-

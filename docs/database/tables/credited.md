@@ -33,7 +33,6 @@ Credited list table. List of who is to be credited for the sale.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![Credited table relationship diagram](./media/Credited.png)
 
 [!include[details](./includes/credited.md)]
@@ -55,7 +54,6 @@ Credited list table. List of who is to be credited for the sale.
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ Credited list table. List of who is to be credited for the sale.
 ## Security Flags
 
 * No access control via user's Role.
-

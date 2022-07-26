@@ -11,17 +11,10 @@ DELETE /api/v1/Hierarchy/{domain}/{path}
 
 Remove a hierarchy item and its children from a path
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
 | path | string | Hierarchy path to item to delete **Required** |
-
-
 
 ## Request Headers
 
@@ -31,9 +24,7 @@ Remove a hierarchy item and its children from a path
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

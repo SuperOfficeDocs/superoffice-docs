@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/GetParsedTemplate
 
 Get a specific langauge version of the reply template, and run this trough the parser
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a specific langauge version of the reply template, and run this trough the p
 ```http
 POST /api/v1/Agents/CustomerService/GetParsedTemplate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/CustomerService/GetParsedTemplate?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ReplyTemplateId, LanguageId, PersonId, TicketId 
+ReplyTemplateId, LanguageId, PersonId, TicketId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,12 +46,9 @@ ReplyTemplateId, LanguageId, PersonId, TicketId
 | PersonId | int32 |  |
 | TicketId | int32 |  |
 
-
 ## Response: object
 
 Reply template with parsed text. Represent one language version of reply template
-
-
 
 Carrier object for ReplyTemplateParsed.
 Services for the ReplyTemplateParsed Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

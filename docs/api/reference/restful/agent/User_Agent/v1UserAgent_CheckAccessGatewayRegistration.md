@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/CheckAccessGatewayRegistration
 
 Checks if AccessGatewayRegistration is valid
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Checks if AccessGatewayRegistration is valid
 ```http
 POST /api/v1/Agents/User/CheckAccessGatewayRegistration?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,17 +36,13 @@ POST /api/v1/Agents/User/CheckAccessGatewayRegistration?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

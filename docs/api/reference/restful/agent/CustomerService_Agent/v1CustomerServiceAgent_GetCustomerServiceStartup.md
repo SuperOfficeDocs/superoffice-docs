@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 
 Get the carrier with data that Service needs when starting up
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get the carrier with data that Service needs when starting up
 ```http
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 This carrier contains various data needed by Service for startup. Do not use this API, as it is for internal use and might change without notice
-
-
 
 Carrier object for CustomerServiceStartup.
 Services for the CustomerServiceStartup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

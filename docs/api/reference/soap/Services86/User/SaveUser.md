@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SaveUser">Supe
 ## SaveUser
 
 Updates the existing User or creates a new User if the id parameter is 0.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **user:** The User that is saved.
 
 **Returns:** New or updated User
-
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -188,7 +187,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveUser Response
 
 ```xml
@@ -346,4 +344,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

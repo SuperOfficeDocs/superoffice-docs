@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "saletypecategories" MDO List
+
 SaleTypeCategories creates a MDO list of sale type categories in the database.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleTypeCategoryListProvider">SaleTypeCategoryListProvider</see> class.
 The name of the MDO list is 'saletypecategories'.
@@ -27,10 +26,6 @@ The name of the MDO list is 'saletypecategories'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |add a blank line to list| addblankstring|1|
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saletypecategories", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +52,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1|General sales|||
-
 
 ## Related MDO Lists
 

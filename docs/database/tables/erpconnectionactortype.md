@@ -32,7 +32,6 @@ Data about the configuration of one Erp Actor on one ErpConnection
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpConnectionActorType table relationship diagram](./media/ErpConnectionActorType.png)
 
 [!include[details](./includes/erpconnectionactortype.md)]
@@ -53,7 +52,6 @@ Data about the configuration of one Erp Actor on one ErpConnection
 |[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
 |[ErpField](erpfield.md)  |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector |
 
-
 ## Replication Flags
 
 * None
@@ -61,4 +59,3 @@ Data about the configuration of one Erp Actor on one ErpConnection
 ## Security Flags
 
 * No access control via user's Role.
-

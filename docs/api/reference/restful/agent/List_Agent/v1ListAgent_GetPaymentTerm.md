@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetPaymentTerm
 
 Gets a PaymentTerm object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a PaymentTerm object.
 POST /api/v1/Agents/List/GetPaymentTerm?paymentTermId=121
 POST /api/v1/Agents/List/GetPaymentTerm?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetPaymentTerm?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The built-in payment terms list. Used by the SuperOffice Quote Connector to categorize quote versions.
-
-
 
 Carrier object for PaymentTerm.
 Services for the PaymentTerm Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

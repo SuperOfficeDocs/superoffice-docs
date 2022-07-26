@@ -6,9 +6,6 @@ title: List_Country
 /api/v1/List/Country
 ```
 
-
-
-
 * [GET List/Country](v1CountryList_GetListDefinition.md)
 
 * [PUT List/Country](v1CountryList_SetListDefinition.md)

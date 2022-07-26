@@ -6,9 +6,6 @@ title: Sentry_Agent
 /api/v1/Sentry/Agent
 ```
 
-
-
-
 * [POST Agents/Sentry/GetNewTableRight](v1SentryAgent_GetNewTableRight.md)
 
 * [POST Agents/Sentry/GetTableRightByOwnership](v1SentryAgent_GetTableRightByOwnership.md)

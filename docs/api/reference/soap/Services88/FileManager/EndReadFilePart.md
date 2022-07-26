@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.IFileManagerAgent.EndRead
 
 ## EndReadFilePart
 
-
-
-
-
 [WSDL file for Services88/FileManager](../Services88-FileManager.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## EndReadFilePart Response
 
 ```xml
@@ -65,4 +60,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

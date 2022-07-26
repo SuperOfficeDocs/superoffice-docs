@@ -30,7 +30,6 @@ Heading link table for PMembType, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PMembTypeHeadingLink table relationship diagram](./media/PMembTypeHeadingLink.png)
 
 [!include[details](./includes/pmembtypeheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for PMembType, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[PMembType](pmembtype.md)  |PMembType list table. List text of titles (member types) for project members. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for PMembType, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

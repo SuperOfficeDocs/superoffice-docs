@@ -6,9 +6,6 @@ title: MDO_Agent
 /api/v1/MDO/Agent
 ```
 
-
-
-
 * [POST Agents/MDO/GetList](v1MDOAgent_GetList.md)
 
 * [POST Agents/MDO/GetListWithHistory](v1MDOAgent_GetListWithHistory.md)

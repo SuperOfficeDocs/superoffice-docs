@@ -11,17 +11,10 @@ DELETE /api/v1/License/{moduleOwner}/{associateId}
 
 Unassign (remove) third party licenses
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to unassign third party licenses for **Required** |
 | moduleOwner | string | Name of the module owner to unassign license for **Required** |
-
-
 
 ## Request Headers
 
@@ -33,15 +26,11 @@ Unassign (remove) third party licenses
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames  
+## Request Body: moduleLicenseNames
 
-Name of module licenses to unassign (remove) 
-
-
+Name of module licenses to unassign (remove)
 
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

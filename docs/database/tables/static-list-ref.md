@@ -25,7 +25,6 @@ This table stores id references for selections id lists
 |ref\_id|The id of the element which this item points to|Int| |
 |list\_id|The id of the list we link to|Int| |
 
-
 ![static_list_ref table relationship diagram](./media/static_list_ref.png)
 
 [!include[details](./includes/static-list-ref.md)]
@@ -45,4 +44,3 @@ This table stores id references for selections id lists
 ## Security Flags
 
 * No access control via user's Role.
-

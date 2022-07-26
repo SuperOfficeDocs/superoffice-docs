@@ -27,7 +27,6 @@ This table is a generic table for storing item configuration. It is only used by
 |item\_name|The name for this config item|String(255)|&#x25CF;|
 |item\_value|The value for this config item|Clob|&#x25CF;|
 
-
 ![item_config table relationship diagram](./media/item_config.png)
 
 [!include[details](./includes/item-config.md)]
@@ -47,4 +46,3 @@ This table is a generic table for storing item configuration. It is only used by
 ## Security Flags
 
 * No access control via user's Role.
-

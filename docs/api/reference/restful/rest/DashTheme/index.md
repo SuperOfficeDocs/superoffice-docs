@@ -6,9 +6,6 @@ title: DashTheme
 /api/v1/DashTheme
 ```
 
-
-
-
 * [GET DashTheme/default](v1DashTheme_DefaultDashTheme.md)
 
 * [POST DashTheme](v1DashTheme_PostDashTheme.md)

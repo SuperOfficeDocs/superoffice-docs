@@ -19,7 +19,6 @@ The following example shows how we can open an Appointment dialog based on a giv
 ![05][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image005.jpg

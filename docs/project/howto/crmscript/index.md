@@ -4,7 +4,7 @@ title: Projects
 description: Working with projects in CRMScript
 author: Bergfrid Dias
 so.date: 10.27.2021
-keywords: project, project management, CRMSCript
+keywords: project, project management, CRMScript
 so.topic: howto
 ---
 
@@ -48,7 +48,7 @@ print(se.executeTextTable());
 
 ## Project guides
 
-Using a [guide][1] will simplify and structure the process for the project manager with suggestions for which [follow-ups][3] to do and which [documents][2] to create at each stage.
+Using a [guide][1] will simplify and structure the process for the project manager with suggestions for which follow-ups to do and which documents to create at each stage.
 
 ## Status of a project
 

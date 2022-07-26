@@ -13,10 +13,6 @@ Flush and rebuild userdefined field deltas.
 
 Mostly used after publishing udefs or adding/editing Customer Service extrafields
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ Mostly used after publishing udefs or adding/editing Customer Service extrafield
 POST /api/v1/Agents/Configuration/RebuildUdefDeltas?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -36,9 +31,7 @@ POST /api/v1/Agents/Configuration/RebuildUdefDeltas?$select=name,department,cate
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

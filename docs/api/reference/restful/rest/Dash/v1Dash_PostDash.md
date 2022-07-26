@@ -13,10 +13,6 @@ Creates a new Dash
 
 Calls the Dash agent service SaveDash.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Dash agent service SaveDash.
 ```http
 POST /api/v1/Dash?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Dash?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The Dash to be saved. 
+The Dash to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,12 +57,9 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-
 ## Response: object
 
 Dashboard configuration
-
-
 
 Dash entity with API _Links added.
 

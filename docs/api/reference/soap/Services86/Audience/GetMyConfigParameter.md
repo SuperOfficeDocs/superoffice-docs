@@ -17,7 +17,6 @@ Gets an Audience configuration parameter belonging to the currently logged on us
 
 **Returns:** The Audience configuration parameter.
 
-
 [WSDL file for Services86/Audience](../Services86-Audience.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetMyConfigParameter Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

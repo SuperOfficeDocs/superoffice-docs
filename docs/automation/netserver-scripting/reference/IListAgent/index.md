@@ -289,4 +289,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>ILi
 * [SetVisibleForUserGroupsFromListName](setvisibleforusergroupsfromlistname.md)
 * [SortListItems](sortlistitems.md)
 * [UpdateHierarchyFromPath](updatehierarchyfrompath.md)
-

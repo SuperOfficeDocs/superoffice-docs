@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDatabaseTableAgent.ReadR
 ## ReadRow
 
 Read a row from a table
-<para /><b>Online Restricted:</b> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y\_aTable
 * **id:** The id of the row to fetch
 
 **Returns:** The row from the table
-
 
 [WSDL file for Services87/DatabaseTable](../Services87-DatabaseTable.md)
 
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ReadRow Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

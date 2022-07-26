@@ -17,10 +17,11 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 * **deviceName:** The name of the foreign device.
 * **keyName:** The name of the foreign key.
 * **keyValue:** Foreignkey value
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.<p />Use an empty string to indicate that your key is not bound to any specific table.
+* **tableName:** Table name, transformed to and from numeric table id by the service layer.
+
+  Use an empty string to indicate that your key is not bound to any specific table.
 
 **Returns:** The ForeignKey.
-
 
 [WSDL file for Services85/ForeignSystem](../Services85-ForeignSystem.md)
 
@@ -57,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetKeyByValue Response
 
 ```xml
@@ -86,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

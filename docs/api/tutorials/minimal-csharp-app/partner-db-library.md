@@ -19,13 +19,13 @@ The SuperOffice.DevNet.Online.SystemUser.PartnerDBLibrary project contains one c
 
 The customer model CustomerInfo contains 6 properties that represent a single customer tenant.
 
-[!include[ALT](./includes/customer-info.md)]
+[!code-csharp[CS](includes/customer-info.cs)]
 
 ## CustomerDataSource class
 
 The `CustomerDataSource` class could not be more simple. Its sole responsibility is to read CustomerInfo data from and save new CustomerInfo data to, an XML file. This project and data source classes are used by both the MVC website and the console application.
 
-[!include[ALT](./includes/customer-data-source.md)]
+[!code-csharp[CS](includes/customer-data-source.cs)]
 
 ## Earlier versions of this example
 

@@ -32,7 +32,6 @@ Configuration data for Audience core and webparts
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![AudienceConfig table relationship diagram](./media/AudienceConfig.png)
 
 [!include[details](./includes/audienceconfig.md)]
@@ -51,7 +50,6 @@ Configuration data for Audience core and webparts
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[AudienceLayout](audiencelayout.md)  |One layout (of webparts and other stuff) for an audience instance |
 
-
 ## Replication Flags
 
 * None
@@ -59,4 +57,3 @@ Configuration data for Audience core and webparts
 ## Security Flags
 
 * No access control via user's Role.
-

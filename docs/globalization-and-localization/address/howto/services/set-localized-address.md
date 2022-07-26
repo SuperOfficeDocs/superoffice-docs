@@ -10,7 +10,7 @@ so.topic: howto
 # so.client:
 ---
 
-## Set LocalizedAddress
+# Set LocalizedAddress
 
 Writing address information back to this data structure is often complex when the consumer application does not share the same dynamic address structure as SuperOffice. In that case, the application must develop a strategy to format their address data structure into one SuperOffice understands.
 

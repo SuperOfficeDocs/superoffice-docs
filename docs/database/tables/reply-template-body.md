@@ -31,7 +31,6 @@ Contains the body of the reply templates in different languages
 |headers|Additional headers. Optional|Clob|&#x25CF;|
 |body\_sms|The sms version of the body.|Clob|&#x25CF;|
 
-
 ![reply_template_body table relationship diagram](./media/reply_template_body.png)
 
 [!include[details](./includes/reply-template-body.md)]
@@ -51,7 +50,6 @@ Contains the body of the reply templates in different languages
 |[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
 |[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
 
-
 ## Replication Flags
 
 * None
@@ -59,4 +57,3 @@ Contains the body of the reply templates in different languages
 ## Security Flags
 
 * No access control via user's Role.
-

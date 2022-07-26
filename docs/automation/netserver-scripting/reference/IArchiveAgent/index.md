@@ -45,4 +45,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IArchiveAgent'>
 * [SetChosenEntitiesV2](setchosenentitiesv2.md)
 * [SetColumnWidths](setcolumnwidths.md)
 * [SetColumnWidthsV2](setcolumnwidthsv2.md)
-

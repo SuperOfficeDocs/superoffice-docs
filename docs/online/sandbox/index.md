@@ -42,7 +42,7 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 
 * We closed any open ticket in Service.
 
-* Any web panel referring to Service functionality using full path like *online**X**.superoffice.com/custXXX/CS/Scripts/xxxx* was replaced with a template variable:
+* Any web panel referring to Service functionality using full path like *online**X**.SuperOffice.com/custXXX/CS/Scripts/xxxx* was replaced with a template variable:
 
     ![imageu533bo.png -screenshot][img12]
 

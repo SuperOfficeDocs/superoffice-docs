@@ -125,7 +125,7 @@ C:\Thirdparty\MyFiles\WebClient\Web\Scripts\CustomScripts.js
 
 ## Custom config files
 
-You can now place your customized config files into this folder, and SuperOFfice will load the custom config files instead of the standard config files **if they are present**.
+You can now place your customized config files into this folder, and SuperOffice will load the custom config files instead of the standard config files **if they are present**.
 
 The files placed in the custom folder will automatically be preferred by the web-client over the standard configuration files. All ".config" files will override existing files in the client. All ".merge" files will be merged into the standard configuration files specified within the merge file.
 

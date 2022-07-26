@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/SavePrivacyReport
 
 Generates a Pdf from HTML and makes a document
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Generates a Pdf from HTML and makes a document
 ```http
 POST /api/v1/Agents/Document/SavePrivacyReport?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Document/SavePrivacyReport?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-HtmlReport, Title, PersonId 
+HtmlReport, Title, PersonId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +45,13 @@ HtmlReport, Title, PersonId
 | Title | string |  |
 | PersonId | int32 |  |
 
-
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

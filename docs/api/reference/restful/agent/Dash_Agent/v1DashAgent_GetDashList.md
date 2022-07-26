@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/GetDashList
 
 Gets the ordered list of dashboards
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets the ordered list of dashboards
 ```http
 POST /api/v1/Agents/Dash/GetDashList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Dash/GetDashList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Dashboards 
+Dashboards
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Dashboards | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

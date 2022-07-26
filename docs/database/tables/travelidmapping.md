@@ -34,7 +34,6 @@ Mapping of primary keys between Travel databases and the mother database  All tr
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![travelidmapping table relationship diagram](./media/travelidmapping.png)
 
 [!include[details](./includes/travelidmapping.md)]
@@ -53,7 +52,6 @@ Mapping of primary keys between Travel databases and the mother database  All tr
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -61,4 +59,3 @@ Mapping of primary keys between Travel databases and the mother database  All tr
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -14,7 +14,7 @@ so.topic: concept
 SuperOffice Inbox (the integrated email client)
 How to configure your email setup in SuperOffice Inbox: [Helpfile][5]
 
-# MailKit
+## MailKit
 
 MailKit is a cross-platform .NET library for IMAP, POP3, and SMTP.
 
@@ -71,7 +71,8 @@ Now the Inbox will download emails younger than 30 days only. If no value is set
 
 #### OAuth 2.0
 
-**Requirements**
+**Requirements:**
+
 * CRM Online or Onsite customers who use SuperOffice G9 9.2 R10 or newer
 * Microsoft 365 (Microsoft® Exchange Online)
 * MX Record pointing to the Microsoft® Exchange Online server
@@ -91,6 +92,7 @@ For versions between G9 9.2 R10 and 10.0.3 you can add the feature via adding:
 * in the web.config file (ask your technical installation partner for assistance if needed)
 
 a)
+
 ```xml
 <configuration>
 <configSections>
@@ -103,6 +105,7 @@ a)
 ```
 
 b)
+
 ```xml
 <FeatureToggles>
   <State>
@@ -111,26 +114,29 @@ b)
 </FeatureToggles>
 ```
 
-**How to log in**
+**How to log in:**
 
-Log in to your Microsoft email account in SuperOffice Inbox
-1) Fill inn your Microsoft365 'User Princpal Name' (UPN) in the field "Email account".
-2) Click "Next".
-* If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication. 
-3) Authenticate towards Microsoft and complete the login
-* You will then be taken to the SuperOffice Inbox. Your email account is now set up to use OAuth 2.0 authentication
+1. Log in to your Microsoft email account in SuperOffice Inbox
+    Fill inn your Microsoft365 'User Princpal Name' (UPN) in the field "Email account".
+2. Click**Next**.
+    If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
+3. Authenticate towards Microsoft and complete the login
+    You will then be taken to the SuperOffice Inbox. Your email account is now set up to use OAuth 2.0 authentication
 
 ##### What is UPN (User Principal Name)?
+
 In Windows Active Directory, a User Principal Name (UPN) is the name of a system user in an email address format. A UPN (for example: john.doe@domain.com) consists of the user name (logon name), separator (the @ symbol), and domain name (UPN suffix).
-A UPN is not the same as an email address. Sometimes, a UPN can match a user's email address, but this is not a general rule. 
+
+A UPN is not the same as an email address. Sometimes, a UPN can match a user's email address, but this is not a general rule.
 
 ###### How to check or modify the UPN of a user
 
 Use the links below to learn how to check and change UPNs in various environments.
+
 * [Microsoft Exchange Server][6]
 * [Office 365][7]
 
-#### Encrypted connection 
+#### Encrypted connection
 
 **Outgoing:**
 

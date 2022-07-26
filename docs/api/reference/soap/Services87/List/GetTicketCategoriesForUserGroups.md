@@ -15,8 +15,6 @@ Ticket categories for user groups
 
 * **userGroupIds:** The ids of the user groups we want tickets categories from
 
-
-
 [WSDL file for Services87/List](../Services87-List.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetTicketCategoriesForUserGroups Response
 
@@ -119,4 +116,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

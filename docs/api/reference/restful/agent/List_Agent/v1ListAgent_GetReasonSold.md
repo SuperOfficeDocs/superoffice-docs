@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetReasonSold
 
 Gets a ReasonSold object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a ReasonSold object.
 POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=907
 POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Reason for a succesfully sold sale
-
-
 
 Carrier object for ReasonSold.
 Services for the ReasonSold Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

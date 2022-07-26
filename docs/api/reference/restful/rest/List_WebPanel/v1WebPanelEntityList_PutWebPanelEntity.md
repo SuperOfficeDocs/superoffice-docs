@@ -13,14 +13,9 @@ Updates the existing WebPanelEntity
 
 Calls the List agent service SaveWebPanelEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of WebPanelEntity to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of WebPanelEntity to be saved. 
+The details of WebPanelEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,12 +58,9 @@ The details of WebPanelEntity to be saved.
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 
-
 ## Response: object
 
 The web panel entity contains information on a web panel
-
-
 
 Carrier object for WebPanelEntity.
 Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

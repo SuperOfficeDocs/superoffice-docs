@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.AddOwnerContac
 
 ## AddOwnerContact
 
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **contactId:** Id of the contact to add as a owner contact
-
-
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddOwnerContact Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

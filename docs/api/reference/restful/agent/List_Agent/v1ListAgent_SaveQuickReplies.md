@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SaveQuickReplies
 
 Method to save all quick replies for a given associate
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Method to save all quick replies for a given associate
 POST /api/v1/Agents/List/SaveQuickReplies?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/List/SaveQuickReplies?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuickReplies 
+QuickReplies
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuickReplies | array |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,7 +13,7 @@ so.envir: onsite
 
 The SuperOffice Web client (as well as remote web services and Service) uses **web.config** to specify database connection details.
 
-SuperOffice Windows client uses **superoffice.config**, in addition to **superoffice.ini**.
+SuperOffice Windows client uses **SuperOffice.config**, in addition to **SuperOffice.ini**.
 
 > [!NOTE]
 > The *web.config* file is an XML file that can be changed as needed, but we recommend [running the SuperOffice Web Configurator][5]. Administrators can use configuration files to set policies that affect how applications run on their computers.
@@ -40,15 +40,15 @@ SuperOffice Windows client uses **superoffice.config**, in addition to **superof
 
 ### .ini versus .config (Windows)
 
-**superoffice.config** is a NetServer config file in the same place as *superoffice.ini* (also found in the same way, if you come in via COM).
+**SuperOffice.config** is a NetServer config file in the same place as *SuperOffice.ini* (also found in the same way, if you come in via COM).
 
-The database user and password are stored in *superoffice.config* - encrypted and set by the MSI installer.
+The database user and password are stored in *SuperOffice.config* - encrypted and set by the MSI installer.
 
-**ODBC data source** and **archive path** are taken from *superoffice.ini* automatically. The *superoffice.config* file doesn't need to specify the database server/type unless the ODBC source is non-standard.
+**ODBC data source** and **archive path** are taken from *SuperOffice.ini* automatically. The *SuperOffice.config* file doesn't need to specify the database server/type unless the ODBC source is non-standard.
 
-The SERVER and DATABASE are dictated by the ODBC source in the *superoffice.ini* file. We look up in the Registry and transfer database and server settings to NetServer (not *superoffice.config*, but directly to NetServer without writing to the .config file).
+The SERVER and DATABASE are dictated by the ODBC source in the *SuperOffice.ini* file. We look up in the Registry and transfer database and server settings to NetServer (not *SuperOffice.config*, but directly to NetServer without writing to the .config file).
 
-The database user and password go the other way, from superoffice.config to both NetServer and the C++ code.
+The database user and password go the other way, from SuperOffice.config to both NetServer and the C++ code.
 
 ### How to find SuperOffice.ini
 

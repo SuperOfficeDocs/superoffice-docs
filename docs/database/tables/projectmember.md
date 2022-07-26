@@ -34,7 +34,6 @@ Project members. Link-table between person and project
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![projectmember table relationship diagram](./media/projectmember.png)
 
 [!include[details](./includes/projectmember.md)]
@@ -59,7 +58,6 @@ Project members. Link-table between person and project
 |[project](project.md)  |Projects |
 |[text](text.md)  |Long text fields from all over the system |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -70,4 +68,3 @@ Project members. Link-table between person and project
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

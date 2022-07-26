@@ -11,13 +11,6 @@ POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 
 Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The FormSubmissionEntity to be saved. 
+The FormSubmissionEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,12 +42,9 @@ The FormSubmissionEntity to be saved.
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
 
-
 ## Response: object
 
 Content of a Form submission
-
-
 
 Carrier object for FormSubmissionEntity.
 Services for the FormSubmissionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.

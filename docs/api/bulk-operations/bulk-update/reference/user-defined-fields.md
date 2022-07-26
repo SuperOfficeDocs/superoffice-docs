@@ -14,6 +14,7 @@ so.client: online
 
 User-Defined fields. Key constants are the user-defined field `progId`.
 
+<!-- markdownlint-disable-file MD033 -->
 <table>
     <title>User-Defined Fields</title>
     <thead>

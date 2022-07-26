@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.SaveActorTy
 ## SaveActorTypeMapping
 
 Save mappings for a connection/actor
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **mapping:** The mapping to be saved; new mapping rows will be created in the database if needed
 
 **Returns:** The current mapping from the database
-
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -77,7 +76,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveActorTypeMapping Response
 
 ```xml
@@ -124,4 +122,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

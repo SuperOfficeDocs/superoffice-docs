@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveTicketPriorityEntity
 
 Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The TicketPriorityEntity to be saved. 
+The TicketPriorityEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,12 +60,9 @@ The TicketPriorityEntity to be saved.
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 
-
 ## Response: object
 
 Entity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.
-
-
 
 Carrier object for TicketPriorityEntity.
 Services for the TicketPriorityEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

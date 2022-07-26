@@ -11,12 +11,6 @@ POST /api/v1/Agents/FreeText/AddWords
 
 Adds the words in the string to the stop word list
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Adds the words in the string to the stop word list
 POST /api/v1/Agents/FreeText/AddWords?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/FreeText/AddWords?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StopWords 
+StopWords
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StopWords | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

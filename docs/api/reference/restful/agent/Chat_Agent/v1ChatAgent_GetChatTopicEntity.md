@@ -11,12 +11,6 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity
 
 Gets a ChatTopicEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a ChatTopicEntity object.
 POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=351
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Chat topics define who is assigned, when the channel is open for business, and look of the chat widget.
-
-
 
 Carrier object for ChatTopicEntity.
 Services for the ChatTopicEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

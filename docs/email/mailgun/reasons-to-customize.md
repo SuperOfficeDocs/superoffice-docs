@@ -10,17 +10,20 @@ so.topic:
 # so.client:
 ---
 
+<!-- markdownlint-disable-file MD013 -->
+
 # Reasons to customize Mailgun
 
 Feedback from customers that leads to the need for customization is related mainly to these issues:
 
-## Some customers question the fact that data (emails) are stored temporarily in the US
+## Some customers question that data (emails) are stored temporarily in the US
 
 Most of our customers are located in Europe, and we use mailservers located in Europe when sending from the domain smtp.eu.mailgun.org.
 The default Mailgun service for customers is located in EU.
-> [!Note]
+
+> [!NOTE]
 > If you checked the mails that are sent and noticed the IP address in the header, ie.  141.193.32.154.
-> Using https://www.iplocation.net/ip-lookup to lookup the IP it reports it to be located in US. They expected it to be located in Germany, what is the reason for this?
+> Using `https://www.iplocation.net/ip-lookup` to lookup the IP it reports it to be located in US. They expected it to be located in Germany, what is the reason for this?
 >
 > Our EU infrastructure is located at the AWS datacenter in Frankfurt, Germany (including the dedicated IPs). However, AWS advertises all their IPs from the same two ASNs. BYOIP process does all the registration of those IPs in the US, but the IPs themselves are advertised on border devices in Frankfurt. As a result, many lookups will only show this US registration data, leading to the false assumption that the IPs themselves are located in the EU. So, while the DNS may show the registration within the US, the actual turrets are housed within the EU.
 
@@ -37,7 +40,6 @@ Data is processed and stored outside EU and even if Mailgun Inc is Privacy Shiel
 If you need more information about the Schrems II ruling, we suggest you search your national Data Protection authority website for additional information.
 >
 > For those customers who have set up a DKIM towards Mailgun's datacenter located in US, to be GDPR compliant you need to set up a new DKIM towards the datacenter located in EU as soon as possible.
-
 
 ## Some customers are not happy with some security risk involved in using this kind of mailing service (SPF, DKIM)
 

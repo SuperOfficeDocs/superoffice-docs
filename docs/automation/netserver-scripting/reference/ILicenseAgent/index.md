@@ -35,4 +35,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ILicenseAgent'>
 * [RemoveLicenseFromDB](removelicensefromdb.md)
 * [UnassignThirdPartyLicenses](unassignthirdpartylicenses.md)
 * [ValidateLicenseInfo](validatelicenseinfo.md)
-

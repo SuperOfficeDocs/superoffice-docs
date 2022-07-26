@@ -11,13 +11,6 @@ POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 
 Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SuggestedDocumentEntity to be saved. 
+The SuggestedDocumentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +42,6 @@ The SuggestedDocumentEntity to be saved.
 | DocTmpl |  | Document template |
 | ProjectTypeStatusLink |  | Project type and project status link info |
 | SaleTypeStageLink |  | Sale type and stage link info. |
-
 
 ## Response: object
 

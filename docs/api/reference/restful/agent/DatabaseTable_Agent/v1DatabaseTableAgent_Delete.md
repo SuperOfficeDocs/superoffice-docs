@@ -11,13 +11,7 @@ POST /api/v1/Agents/DatabaseTable/Delete
 
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
-
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 ```http
 POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,21 +37,18 @@ POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, IDs 
+TableName, IDs
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | IDs | array |  |
 
-
 ## Response: object
 
 Information about the results of a mass-update operation
-
-
 
 Carrier object for MassOperationResult.
 Services for the MassOperationResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.

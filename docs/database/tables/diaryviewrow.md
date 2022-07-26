@@ -31,7 +31,6 @@ Configuration of a multi-user diary view
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![DiaryViewRow table relationship diagram](./media/DiaryViewRow.png)
 
 [!include[details](./includes/diaryviewrow.md)]
@@ -50,7 +49,6 @@ Configuration of a multi-user diary view
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[DiaryView](diaryview.md)  |Configuration of a multi-user diary view |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,4 +58,3 @@ Configuration of a multi-user diary view
 ## Security Flags
 
 * No access control via user's Role.
-

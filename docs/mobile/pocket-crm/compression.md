@@ -18,7 +18,7 @@ This can be utilized by Pocket CRM client, which has now support for REST to be 
 To be able to use IIS dynamic compression, you will need:
 
 * Pocket client >= 9.0.4
-* Netserver >= 8.5.7066 (8.5 R01)
+* NetServer >= 8.5.7066 (8.5 R01)
 
 Basic Authentication needs to be disabled on the IIS website. SuperOffice Web installer will do it for you since 8.1 R02.
 

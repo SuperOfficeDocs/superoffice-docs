@@ -54,7 +54,6 @@ Before a new application gets listed in the App Store:
 <!-- Referenced links -->
 [1]: ../../apps/app-store.md
 [5]: ../../apps/certification/certify-app.md
-[6]: ../../apps/requirements/marketing.md
 [7]: ../../apps/publish/index.md
 [8]: ../howto/update-app.md
 [9]: images-and-videos.md

@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/GetRole
 
 Gets a Role object.
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Gets a Role object.
 POST /api/v1/Agents/User/GetRole?roleId=276
 POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +38,9 @@ POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Users role for role-based security
-
-
 
 Carrier object for Role.
 Services for the Role Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

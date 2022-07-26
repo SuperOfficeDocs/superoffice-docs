@@ -21,11 +21,11 @@ Installing SuperOffice Web client and Service on the same domain under different
 
 If the IIS website is not created, first run the installer for Service (SuperOffice.CustomerService.exe) which is the only installer from SuperOffice that will also create the IIS websites.
 
-If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:superoffice*
+If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:SuperOffice*
 
 ![x -screenshot][img1]
 
-Run **SuperOffice.CustomerService.exe** to install the software on the server, the default location is *c:\superoffice*.
+Run **SuperOffice.CustomerService.exe** to install the software on the server, the default location is *c:\SuperOffice*.
 
 ![x -screenshot][img2]
 
@@ -47,7 +47,7 @@ And one application for csplugins pointing to *\customer service\www\csplugins*
 
 ## Make sure NetServer is available first
 
-You need remote web services / NetServer installed on the same domain, in this example, we have used `socrm.myorganization.com/netserver`. This is installed by using the [web installer][1] to the Sales web client, and in the product configurator, tick the **Expose Netserver web services** on the Security chapter.
+You need remote web services / NetServer installed on the same domain, in this example, we have used `socrm.myorganization.com/netserver`. This is installed by using the [web installer][1] to the Sales web client, and in the product configurator, tick the **Expose NetServer web services** on the Security chapter.
 
 Browse to `http://socrm.myorganization.com/Sales/Remote/Services84/Contact.svc` to verify before the ejTermSetup.exe is run to prime the database for Service.
 

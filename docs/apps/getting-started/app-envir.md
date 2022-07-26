@@ -41,7 +41,7 @@ Our production environment has some windows where we may upgrade and maintain ou
 We upgrade our customers on Tuesdays and Fridays every third week. Info regarding this will be given on the login page only. The window here is from 20.00 (UTC+1) and may last until 05:00 (UTC+1).
 
 > [!TIP]
-> Sign up for updates at [status.superoffice.com][6].
+> Sign up for updates at [status.SuperOffice.com][6].
 
 ## Why different environments?
 

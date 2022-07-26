@@ -13,11 +13,6 @@ Gets the currently logged in user's information, even in Online.
 
 Does not call an agent - just returns the current session info.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +26,7 @@ Does not call an agent - just returns the current session info.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

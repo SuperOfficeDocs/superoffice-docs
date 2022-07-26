@@ -13,14 +13,9 @@ Gets a list of the preference keys in a section
 
 Calls the MDO agent service GetList('preferenceKey').
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +30,7 @@ Calls the MDO agent service GetList('preferenceKey').
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

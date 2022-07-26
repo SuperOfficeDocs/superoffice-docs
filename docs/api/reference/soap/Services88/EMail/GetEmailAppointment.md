@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEmailAppoi
 ## GetEmailAppointment
 
 Get appointment data contained in the emails iCal attachment
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **mailItemId:** Id identifying the email
 
 **Returns:** Appointment data
-
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetEmailAppointment Response
 
@@ -133,4 +131,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

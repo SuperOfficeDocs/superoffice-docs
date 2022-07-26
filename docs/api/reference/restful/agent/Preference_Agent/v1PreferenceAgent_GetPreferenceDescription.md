@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription
 
 Gets a PreferenceDescription object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a PreferenceDescription object.
 POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=694
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
-
-
 
 Carrier object for PreferenceDescription.
 Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.

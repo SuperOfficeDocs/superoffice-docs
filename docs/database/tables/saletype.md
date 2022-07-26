@@ -49,7 +49,6 @@ Type of sale - large solution, incremental, whatever fits the organization
 |documentGroupingFields|Comma-separated names of grouping fields for quote lines, when generating the documents|String(59)|&#x25CF;|
 |archiveGroupingFields|Comma-separated names of grouping fields for quote lines, in the quote lines archive|String(59)|&#x25CF;|
 
-
 ![SaleType table relationship diagram](./media/SaleType.png)
 
 [!include[details](./includes/saletype.md)]
@@ -75,7 +74,6 @@ Type of sale - large solution, incremental, whatever fits the organization
 |[SaleTypeQuoteAttachment](saletypequoteattachment.md)  |Default attachments to quotes linked to sales of this type |
 |[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -85,4 +83,3 @@ Type of sale - large solution, incremental, whatever fits the organization
 ## Security Flags
 
 * No access control via user's Role.
-

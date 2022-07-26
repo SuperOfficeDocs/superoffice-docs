@@ -27,7 +27,6 @@ Names and generation numbers for distributed invalidation of caches
 |LastChange|The UTC datetime of the last change; for information only|UtcDateTime|&#x25CF;|
 |LastChangeMachine|The name of the machine where the last change occurred|String(255)|&#x25CF;|
 
-
 ![CacheInvalidation table relationship diagram](./media/CacheInvalidation.png)
 
 [!include[details](./includes/cacheinvalidation.md)]
@@ -46,4 +45,3 @@ Names and generation numbers for distributed invalidation of caches
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -27,7 +27,6 @@ A invoiceable item category (a product or service) that provides default invoice
 |price\_pr\_unit|Price per unit|Int| |
 |flags|Various flags|UInt|&#x25CF;|
 
-
 ![invoice_type table relationship diagram](./media/invoice_type.png)
 
 [!include[details](./includes/invoice-type.md)]
@@ -44,7 +43,6 @@ A invoiceable item category (a product or service) that provides default invoice
 |------|-------------|
 |[invoice\_entry](invoice-entry.md)  |This table contain all invoices, connected to a message |
 
-
 ## Replication Flags
 
 * None
@@ -52,4 +50,3 @@ A invoiceable item category (a product or service) that provides default invoice
 ## Security Flags
 
 * No access control via user's Role.
-

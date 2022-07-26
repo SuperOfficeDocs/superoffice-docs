@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CanChangePassw
 ## CanChangePassword
 
 Check if the current assoicate can change the password for an associate
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateId:** AssociateId of the user to check if password can be changed
 
 **Returns:** True if the associate can change the password
-
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CanChangePassword Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

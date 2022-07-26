@@ -33,7 +33,6 @@ The list of payment terms, in the internal product register
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PaymentTerms table relationship diagram](./media/PaymentTerms.png)
 
 [!include[details](./includes/paymentterms.md)]
@@ -53,7 +52,6 @@ The list of payment terms, in the internal product register
 |[PaymentTermsGroupLink](paymenttermsgrouplink.md)  |User group link table for PaymentTerms, for MDO item hiding |
 |[PaymentTermsHeadingLink](paymenttermsheadinglink.md)  |Heading link table for PaymentTerms, for MDO item headings |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ The list of payment terms, in the internal product register
 ## Security Flags
 
 * No access control via user's Role.
-

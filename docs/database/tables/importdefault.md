@@ -34,7 +34,6 @@ Defaults for import fields/objects
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
 
-
 ![ImportDefault table relationship diagram](./media/ImportDefault.png)
 
 [!include[details](./includes/importdefault.md)]
@@ -53,7 +52,6 @@ Defaults for import fields/objects
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ImportObject](importobject.md)  |Import object types - see localetext for names. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ Defaults for import fields/objects
 ## Security Flags
 
 * No access control via user's Role.
-

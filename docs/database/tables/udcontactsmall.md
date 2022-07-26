@@ -133,7 +133,6 @@ User-defined fields for contact
 |double09|double value 9, not indexed|Double|&#x25CF;|
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
-
 ![udcontactSmall table relationship diagram](./media/udcontactSmall.png)
 
 [!include[details](./includes/udcontactsmall.md)]
@@ -162,7 +161,6 @@ User-defined fields for contact
 |------|-------------|
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -172,4 +170,3 @@ User-defined fields for contact
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

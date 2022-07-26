@@ -16,7 +16,6 @@ so.envir:
 
 Status for the statical list element
 
-
 ## Usage
 
 * [s_list_element](../s-list-element.md).status - Elements in a static list.

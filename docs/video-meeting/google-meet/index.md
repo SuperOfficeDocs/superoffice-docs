@@ -78,7 +78,7 @@ This might happen when you create a meeting in your CRM diary:
 2. Find SuperOffice Video Meetings in the list.
 3. Click the button to Revoke access for this app.
 4. Close the tab.
-5. Go to [meetings.superoffice.com/Error/GoogleAuthenticationFailure][6] and click **Click here to restart the authorization process** again on that page.
+5. Go to [meetings.SuperOffice.com/Error/GoogleAuthenticationFailure][6] and click **Click here to restart the authorization process** again on that page.
 
 You will be asked to authenticate and everything should work after that.
 
@@ -111,7 +111,6 @@ Then, **uninstall** the Google Meet video meeting service:
     ![imagef35lq.png -screenshot][img5]
 
 <!-- Referenced links -->
-[1]: https://meetings.superoffice.com/meet/DisconnectUser
 [4]: https://myaccount.google.com/security
 [5]: https://myaccount.google.com/permissions
 [6]: https://meetings.superoffice.com/Error/GoogleAuthenticationFailure

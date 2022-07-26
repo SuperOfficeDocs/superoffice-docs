@@ -67,7 +67,6 @@ Contains info about one shipment. The addresses are stored in s_shipment_addr
 |are\_statistics\_dirty|Indicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens|Bool| |
 |shipmenttype\_id|Id of subscriptionType that this shipment has, so we may check for reservations|FK [ShipmentType](shipmenttype.md)|&#x25CF;|
 
-
 ![s_shipment table relationship diagram](./media/s_shipment.png)
 
 [!include[details](./includes/s-shipment.md)]
@@ -100,7 +99,6 @@ Contains info about one shipment. The addresses are stored in s_shipment_addr
 |[ShipmentType](shipmenttype.md)  |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists |
 |[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
 
-
 ## Replication Flags
 
 * None
@@ -108,4 +106,3 @@ Contains info about one shipment. The addresses are stored in s_shipment_addr
 ## Security Flags
 
 * No access control via user's Role.
-

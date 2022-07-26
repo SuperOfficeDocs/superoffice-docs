@@ -48,7 +48,6 @@ This table contains the messages listed under tickets.
 |sentiment|Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea|Int|&#x25CF;|
 |sentimentConfidence|Confidence of sentiment index, 0 = no idea, 100 = completely sure|Int|&#x25CF;|
 
-
 ![ej_message table relationship diagram](./media/ej_message.png)
 
 [!include[details](./includes/ej-message.md)]
@@ -85,7 +84,6 @@ This table contains the messages listed under tickets.
 |[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
 |[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
 
-
 ## Replication Flags
 
 * None
@@ -93,4 +91,3 @@ This table contains the messages listed under tickets.
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

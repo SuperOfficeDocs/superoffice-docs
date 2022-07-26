@@ -52,4 +52,3 @@ Download [WSDL file for Services88/Preference](../Services88-Preference.md) if y
 * [SaveTabOrder](SaveTabOrder.md)
 * [SaveTabOrders](SaveTabOrders.md)
 * [UpdateNetServicesStatus](UpdateNetServicesStatus.md)
-

@@ -10,6 +10,7 @@ so.envir: onsite
 # so.client:
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # NetServer web service custom proxies
 
 If you are not developing solutions using Microsoft .NET and can't reference the SuperOffice assemblies, you must rely on your technology stack to either generate SOAP proxies or roll your own.

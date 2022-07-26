@@ -16,8 +16,6 @@ Change rank of user defined fields
 * **ownerType:** The user-defined field owner-entity.
 * **rankedFieldsIds:** All IDs of this owner-entity in desired rank order
 
-
-
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetRankOnFields Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

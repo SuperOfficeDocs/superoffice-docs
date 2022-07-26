@@ -122,6 +122,7 @@ For more information, see the [NetServer configuration][1] section.
 
 <!-- Referenced links -->
 [1]: ../../config/services.md
+[2]: ../../authentication/overview.md
 
 <!-- Referenced images -->
 [img1]: media/image003.gif

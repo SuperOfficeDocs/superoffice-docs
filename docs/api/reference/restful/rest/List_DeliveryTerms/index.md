@@ -6,9 +6,6 @@ title: List_DeliveryTerms
 /api/v1/List/DeliveryTerms
 ```
 
-
-
-
 * [GET List/DeliveryTerm](v1DeliveryTermsList_GetListDefinition.md)
 
 * [PUT List/DeliveryTerm](v1DeliveryTermsList_SetListDefinition.md)

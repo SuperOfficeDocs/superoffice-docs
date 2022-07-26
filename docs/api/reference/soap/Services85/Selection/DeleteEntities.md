@@ -15,8 +15,6 @@ Deletes all entities from a selection. If an entity does not have delete rights,
 
 * **selectionId:** Id of the selection the delete operation will be performed.
 
-
-
 [WSDL file for Services85/Selection](../Services85-Selection.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteEntities Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

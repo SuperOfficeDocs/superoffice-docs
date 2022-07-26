@@ -32,7 +32,6 @@ Grouping table so that multiple company categories can be grouped under one term
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![CategoryFamily table relationship diagram](./media/CategoryFamily.png)
 
 [!include[details](./includes/categoryfamily.md)]
@@ -51,7 +50,6 @@ Grouping table so that multiple company categories can be grouped under one term
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Category](category.md)  |Category list table |
 
-
 ## Replication Flags
 
 * None
@@ -59,4 +57,3 @@ Grouping table so that multiple company categories can be grouped under one term
 ## Security Flags
 
 * No access control via user's Role.
-

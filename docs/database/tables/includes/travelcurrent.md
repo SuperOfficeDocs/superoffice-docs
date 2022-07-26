@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Value for the encryptedComm field in travelcurrent
 
 | encryptedComm | ID | Comment |

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails
 
 Edit company and contact details in a selection based on contents in selectionMemberEditValues.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Edit company and contact details in a selection based on contents in selectionMe
 POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails?$select=name,dep
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, SelectionMemberEditValues 
+SelectionId, SelectionMemberEditValues
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
-| SelectionMemberEditValues |  | A class representing values to change when changing company and contact details from the Edit Company Details task for selections. <para /> Carrier object for SelectionMemberEditValues. |
-
+| SelectionMemberEditValues |  | A class representing values to change when changing company and contact details from the Edit Company Details task for selections. <br /> Carrier object for SelectionMemberEditValues. |
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

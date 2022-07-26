@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetAllRoles">S
 ## GetAllRoles
 
 Get a list of all roles for the given type of role. MDO List name = 'Roles', extra='0' (roleType)
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleType:** Type of role (Employee/External/Anonymous/System)
 
 **Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
-
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAllRoles Response
 
@@ -128,4 +126,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

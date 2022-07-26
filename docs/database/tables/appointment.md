@@ -73,7 +73,6 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [AppointmentCautionWarning](enums/appointmentcautionwarning.md)|&#x25CF;|
 |mother\_associate\_id|Associate/owner of the mother appointment|FK [associate](associate.md)|&#x25CF;|
 
-
 ![appointment table relationship diagram](./media/appointment.png)
 
 [!include[details](./includes/appointment.md)]
@@ -139,7 +138,6 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -151,4 +149,3 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
 * Visibility controlled via matching [VisibleFor](VisibleFor.md) row.
-

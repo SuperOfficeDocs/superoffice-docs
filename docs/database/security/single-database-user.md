@@ -19,7 +19,7 @@ We used to have:
 
 No more! Now there is a single, common database user, separate from the application user concept. NetServer will log on using this (and now NetServer is always started first, by all applications). Other code (C++) will "inherit" the settings.
 
-The database user/password is specified in the .config file. We will come up with a system for maintaining and distributing this information in a reasonable and safe manner. What you type into ServerSetup goes (via an MST transform) into the MSI client installer and *superoffice.config*.
+The database user/password is specified in the .config file. We will come up with a system for maintaining and distributing this information in a reasonable and safe manner. What you type into ServerSetup goes (via an MST transform) into the MSI client installer and *SuperOffice.config*.
 
 > [!NOTE]
 > The upgrade neither creates nor deletes any database users. The code to do so is completely disabled in SuperOffice v.7. Database users and their settings and rights are the responsibility of the customer.

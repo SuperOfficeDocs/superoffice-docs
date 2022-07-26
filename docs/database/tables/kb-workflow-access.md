@@ -26,7 +26,6 @@ Control of who can do what in a knowledge base workflow step
 |user\_id|The user with access.|FK [ejuser](ejuser.md)| |
 |kb\_access|The access given to a user for entries in a given workflow phase. 1 for viewing entries, 2 for moving entries between workflow phases, 3 for editing entries|kb_access| |
 
-
 ![kb_workflow_access table relationship diagram](./media/kb_workflow_access.png)
 
 [!include[details](./includes/kb-workflow-access.md)]
@@ -46,7 +45,6 @@ Control of who can do what in a knowledge base workflow step
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
 
-
 ## Replication Flags
 
 * None
@@ -54,4 +52,3 @@ Control of who can do what in a knowledge base workflow step
 ## Security Flags
 
 * No access control via user's Role.
-

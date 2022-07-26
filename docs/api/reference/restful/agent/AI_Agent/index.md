@@ -6,9 +6,6 @@ title: AI_Agent
 /api/v1/AI/Agent
 ```
 
-
-
-
 * [POST Agents/AI/GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
 
 * [POST Agents/AI/GuessCategory](v1AIAgent_GuessCategory.md)

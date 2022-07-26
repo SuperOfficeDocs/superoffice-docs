@@ -31,7 +31,6 @@ This table contains JSON structures used for customizing the customer center
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![cust_config table relationship diagram](./media/cust_config.png)
 
 [!include[details](./includes/cust-config.md)]
@@ -49,7 +48,6 @@ This table contains JSON structures used for customizing the customer center
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ This table contains JSON structures used for customizing the customer center
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -30,7 +30,6 @@ Heading link table for SearchCat, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SearchCatHeadingLink table relationship diagram](./media/SearchCatHeadingLink.png)
 
 [!include[details](./includes/searchcatheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for SearchCat, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[SearchCat](searchcat.md)  |SearchCat list table |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for SearchCat, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

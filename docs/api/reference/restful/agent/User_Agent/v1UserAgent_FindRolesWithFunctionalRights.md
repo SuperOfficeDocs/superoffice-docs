@@ -11,14 +11,9 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 
 Find all roles with a given set of functional rights.
 
-The roles matched must contain one or more of the specified functional rights. 
+The roles matched must contain one or more of the specified functional rights.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -29,7 +24,6 @@ The roles matched must contain one or more of the specified functional rights.
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,25 +39,21 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRights?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FunctionalRightNames 
+FunctionalRightNames
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FunctionalRightNames | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample Request
 

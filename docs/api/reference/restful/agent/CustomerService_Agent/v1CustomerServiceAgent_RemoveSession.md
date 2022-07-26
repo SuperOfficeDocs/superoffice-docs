@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/RemoveSession
 
 Remove a login session for a CS user
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Remove a login session for a CS user
 POST /api/v1/Agents/CustomerService/RemoveSession?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/CustomerService/RemoveSession?$select=name,department,catego
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-LoginId 
+LoginId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LoginId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

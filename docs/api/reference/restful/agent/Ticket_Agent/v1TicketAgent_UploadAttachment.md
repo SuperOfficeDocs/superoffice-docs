@@ -11,12 +11,6 @@ POST /api/v1/Agents/Ticket/UploadAttachment
 
 Upload an attachment and return the attachment id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Upload an attachment and return the attachment id
 POST /api/v1/Agents/Ticket/UploadAttachment?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Ticket/UploadAttachment?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AttachmentId, Content 
+AttachmentId, Content
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AttachmentId | int32 |  |
 | Content | byte |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

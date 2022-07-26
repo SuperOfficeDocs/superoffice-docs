@@ -36,5 +36,4 @@ Want to know if a newly released Office version is compatible? Check the [compat
 
 <!--Referenced icons-->
 [img1]: ../../media/icons/testedyes.png
-[img2]: ../../media/icons/testedno.png
 [img3]: ../../media/icons/testednotyet.png

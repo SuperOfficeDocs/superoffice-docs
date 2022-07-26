@@ -2,12 +2,11 @@
 title: TimeZone
 ---
 
+# TimeZone
+
 ```http
 /api/v1/TimeZone
 ```
-
-
-
 
 * [GET TimeZone](v1TimeZone_GetTimeZonesArchive.md)
 

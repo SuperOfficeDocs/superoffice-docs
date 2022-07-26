@@ -49,6 +49,7 @@ A variant of `GetQuoteEntity()` that uses a sale ID to find the quote.
 
 You can either create a quote **from scratch or copy** an existing quote from another sale.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ### NSQuoteEntity CreateAndSaveQuote(Integer saleId, Integer connectionId, String firstAlternativeName)
 
 ```crmscript!

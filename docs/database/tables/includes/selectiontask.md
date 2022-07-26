@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Values needed to access the SelectionTask table
 
 This table must contain special values that would be difficult to guess correctly. These are listed below with a description of how to use them.

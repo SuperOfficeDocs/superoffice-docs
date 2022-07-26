@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.DeleteConne
 ## DeleteConnection
 
 Deletes a connection from the database.
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** Primary key of the connection
 
 **Returns:** A void return
-
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteConnection Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

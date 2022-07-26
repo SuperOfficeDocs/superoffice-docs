@@ -27,22 +27,14 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
-
-
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
-
-
 Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectEntity.
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectEntity  id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -53,7 +45,6 @@ Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectEntity.
 ```http
 PATCH /api/v1/Project/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -69,9 +60,9 @@ PATCH /api/v1/Project/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string 
+## Request Body: changes string
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,12 +70,9 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-
 ## Response: object
 
 The Project Service. The service implements all services working with the Project object
-
-
 
 ProjectEntity entity with API _Links added.
 
@@ -110,9 +98,9 @@ Response body: object
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |

@@ -12,7 +12,7 @@ so.client: Web
 
 # SuperOffice WebApi
 
-NetServer web services proide both SOAP and RESTful endpoints. SuperOffice.WebApi represents the RESTful side and comes in two _flavors_:
+NetServer web services proide both SOAP and RESTful endpoints. SuperOffice.WebApi represents the RESTful side and comes in two **flavors**:
 
 * RESTful endpoints
 * RESTful Agent endpoints
@@ -52,7 +52,6 @@ This Authorization header is a key entry of "Basic ", and a value equal to a bas
 > Basic is not allowed in **Online**, since all usernames and passwords must flow through SuperID to get a bearer access token.
 
 ### Bearer
-
 
 ### SOTicket
 
@@ -99,4 +98,3 @@ will work, and use the current user's session to read the data.
 [4]: ../../config/webapi.md
 
 <!-- Referenced images -->
-[img1]: media/simple-rest-page.png

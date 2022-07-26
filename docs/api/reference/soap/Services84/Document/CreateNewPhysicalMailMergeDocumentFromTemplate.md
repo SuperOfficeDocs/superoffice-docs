@@ -18,7 +18,6 @@ Create a new physical document based on the documents template. Do not replace t
 
 **Returns:** The document object with updated info after creating the document.
 
-
 [WSDL file for Services84/Document](../Services84-Document.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateNewPhysicalMailMergeDocumentFromTemplate Response
 
@@ -299,4 +297,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

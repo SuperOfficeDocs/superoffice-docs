@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 
 Gets a ForeignDevice object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a ForeignDevice object.
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=982
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Saves a foreign device belonging to the ForeignDevice and application name specified.
-
-
 
 Carrier object for ForeignDevice.
 Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.

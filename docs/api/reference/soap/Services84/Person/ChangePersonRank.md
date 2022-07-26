@@ -16,8 +16,7 @@ Move one person up or down in the ranking in the Person Archive, if possible.&lt
 * **personId:** Primary key of person record to move up or down. You must have write access both to this record AND to whatever record is adjacent in the direction you want to move.
 * **moveUp:** If true, the given person is moved to an earlier rank (lower numeric rank value, down to a limit of 1; up in the GUI if sorted by ascending rank). If false, movement is to later priority (higher numeric rank value).
 
-**Returns:** If movement occurred, the return value will be the ID of the OTHER person that got moved. A GUI should switch the positions of the original person ID and this return value.<para />If no movement occurred, for any reason,  0 is returned.
-
+**Returns:** If movement occurred, the return value will be the ID of the OTHER person that got moved. A GUI should switch the positions of the original person ID and this return value.<br />If no movement occurred, for any reason,  0 is returned.
 
 [WSDL file for Services84/Person](../Services84-Person.md)
 
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ChangePersonRank Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

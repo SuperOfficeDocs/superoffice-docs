@@ -30,7 +30,6 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 |access\_level|The access level (enum) for this reply template.|access_level|&#x25CF;|
 |flags|A bitmap for flags.not used for anything [snarum 29 aug 2001]|Int|&#x25CF;|
 
-
 ![reply_template table relationship diagram](./media/reply_template.png)
 
 [!include[details](./includes/reply-template.md)]
@@ -57,7 +56,6 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 |[reply\_template\_folder](reply-template-folder.md)  |This table contains entries for folders for reply templates. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 
-
 ## Replication Flags
 
 * None
@@ -65,4 +63,3 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 ## Security Flags
 
 * No access control via user's Role.
-

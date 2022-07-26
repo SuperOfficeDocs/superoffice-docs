@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 **32-bit environment:**
 
 ```text

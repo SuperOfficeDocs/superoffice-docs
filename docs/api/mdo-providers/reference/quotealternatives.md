@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "quotealternatives" MDO List
+
 Quote alternative selector for one Quote Version. Send QuoteVersionId=&lt;id&gt; in ExtraInfo to specify quote version id
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteAlternativeProvider">QuoteAlternativeProvider</see> class.
 The name of the MDO list is 'quotealternatives'.
@@ -27,10 +26,6 @@ The name of the MDO list is 'quotealternatives'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |The quote version we want to list the alternatives for.| QuoteVersionId|321|
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quotealternatives", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +52,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

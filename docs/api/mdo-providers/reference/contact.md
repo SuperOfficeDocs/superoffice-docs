@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "contact" MDO List
+
 Provider for selecting a Contact - without person search
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactListProviderOrg">ContactListProviderOrg</see> class.
 The name of the MDO list is 'contact'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("contact", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |8358| Benjamin Rose & Partners||8358|
 |8527| Betty Henderson & Partners, Legal||8527|
 |8657| Beverly Alvarez & Partners, Accounting||8657|
-
 
 ## Related MDO Lists
 

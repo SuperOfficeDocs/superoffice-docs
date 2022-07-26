@@ -11,12 +11,6 @@ POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering
 
 Saves default numbering values in preferences
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Saves default numbering values in preferences
 POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering?$select=name,departmen
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-RefCountEntity 
+RefCountEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RefCountEntity |  | A refcount entity for a number allocation <para /> Carrier object for RefCountEntity. Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>. |
-
+| RefCountEntity |  | A refcount entity for a number allocation <br /> Carrier object for RefCountEntity. Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>. |
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

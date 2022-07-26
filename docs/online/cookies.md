@@ -73,7 +73,7 @@ Cookies used by the Service client both in Online and Onsite deployment.
 | debug.searchEngine | boolean | Service | Used for debugging option in Service |
 | debug.dbTimeAll | boolean | Service | Used for debugging option in Service |
 | debug.slowdb | boolean | Service | Used for debugging option in Service |
-| debug.netserver | boolean | Service | Used for debugging option in Service |
+| debug.NetServer | boolean | Service | Used for debugging option in Service |
 | debug.performance | boolean | Service | Used for debugging option in Service |
 | debug.ext | boolean | Service | Used for debugging option in Service |
 | debug.smtp | boolean | Service | Used for debugging option in Service |

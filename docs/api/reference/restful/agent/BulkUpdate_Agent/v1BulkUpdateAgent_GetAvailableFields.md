@@ -11,12 +11,6 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 
 Get all available fields for a given tablename/entity
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all available fields for a given tablename/entity
 ```http
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Tablename 
+Tablename
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tablename | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

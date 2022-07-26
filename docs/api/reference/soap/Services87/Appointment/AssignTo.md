@@ -14,11 +14,10 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.AssignT
 Assigning an appointment to another person.
 
 * **appointmentId:** The appointmentId. Both master and child record ids are accepted.
-* **participant:** 
+* **participant:**
 * **updateMode:** Update mode for a recurring appointment.
 
 **Returns:** Updated AppointmentEntity
-
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -60,7 +59,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AssignTo Response
 
@@ -482,4 +480,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

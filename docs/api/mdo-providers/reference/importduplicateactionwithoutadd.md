@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "importduplicateactionwithoutadd" MDO List
+
 Import duplicate; Merge, Replace, Skip
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ImportDuplicateActionWithoutAddProvider">ImportDuplicateActionWithoutAddProvider</see> class.
 The name of the MDO list is 'importduplicateactionwithoutadd'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("importduplicateactionwithoutadd", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |2|Merge - update empty fields|||
 |3|Replace - overwrite existing|||
 |4|Skip - do not import|||
-
 
 ## Related MDO Lists
 

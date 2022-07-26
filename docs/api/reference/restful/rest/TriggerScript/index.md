@@ -2,12 +2,11 @@
 title: TriggerScript
 ---
 
+# TriggerScript
+
 ```http
 /api/v1/TriggerScript
 ```
-
-
-
 
 * [GET TriggerScript/default](v1TriggerScriptEntity_DefaultTriggerScriptEntity.md)
 

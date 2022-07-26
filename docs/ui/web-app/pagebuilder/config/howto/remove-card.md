@@ -94,7 +94,6 @@ There is one limitation since we are only removing the card and not replacing th
 As we can see above, the company exists on the project page. Except for the company card, all the other cards that appear on the page belong to the project page. This is a scenario we have to avoid in a real-life situation if we are removing a card we must a have card that will replace it.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image011.jpg

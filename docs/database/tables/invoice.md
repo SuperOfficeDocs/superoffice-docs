@@ -29,7 +29,6 @@ This table contains invoice entries, normally created when an invoice is sent to
 |created\_at|When the invoice entry was created.|DateTime|&#x25CF;|
 |description|A string describing the invoice entry.|String(255)|&#x25CF;|
 
-
 ![invoice table relationship diagram](./media/invoice.png)
 
 [!include[details](./includes/invoice.md)]
@@ -49,7 +48,6 @@ This table contains invoice entries, normally created when an invoice is sent to
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ This table contains invoice entries, normally created when an invoice is sent to
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -12,14 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.SendEMails">S
 ## SendEMails
 
 Send the provided e-mails
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **outgoingConnectionInfo:** All information needed to connect to the mailserver
 * **emails:** The e-mails to send
 * **sentItemsConnectionInfo:** If provided, save sent item(s) in the folder specified.  May be null.
 
 **Returns:** The sent e-mails (updated with message id etc.)
-
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -223,7 +222,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendEMails Response
 
 ```xml
@@ -400,4 +398,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

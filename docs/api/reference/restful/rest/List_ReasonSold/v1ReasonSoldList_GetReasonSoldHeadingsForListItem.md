@@ -13,13 +13,9 @@ Gets headings for the ReasonSold list's item.
 
 Calls the List agent service GetHeadings.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
-
 
 ## Request Headers
 
@@ -45,10 +40,7 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

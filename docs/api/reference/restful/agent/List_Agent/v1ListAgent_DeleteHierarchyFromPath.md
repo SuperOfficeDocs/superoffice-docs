@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/DeleteHierarchyFromPath
 
 Remove a hierarchy item and its children from a path
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Remove a hierarchy item and its children from a path
 POST /api/v1/Agents/List/DeleteHierarchyFromPath?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/List/DeleteHierarchyFromPath?$select=name,department,categor
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Domain, Path 
+Domain, Path
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Domain | string |  |
 | Path | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

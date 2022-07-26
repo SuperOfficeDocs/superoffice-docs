@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 
 Return an given array of user defined field identified by the ids.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Return an given array of user defined field identified by the ids.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Ids 
+Ids
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

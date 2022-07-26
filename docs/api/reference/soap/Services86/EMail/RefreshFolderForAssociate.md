@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.RefreshFolder
 ## RefreshFolderForAssociate
 
 Get all emails in folder(s) from current associate
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **folders:** List of folder names to refresh
 
 **Returns:** JSON serialized string containing array of data about each folder
-
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RefreshFolderForAssociate Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

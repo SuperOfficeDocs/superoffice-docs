@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "period" MDO List
+
 Period values: Day, Week, Month, Quarter, Year
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PeriodProvider">PeriodProvider</see> class.
 The name of the MDO list is 'period'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("period", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +51,6 @@ foreach (var item in listProvider.RootItems) {
 |4|Quarter|||
 |5|Half year|||
 |6|Year|||
-
 
 ## Related MDO Lists
 

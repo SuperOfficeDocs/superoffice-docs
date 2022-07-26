@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 What kind of usage is this credential for
 
  | Credential type | ID | Comment |

@@ -6,9 +6,6 @@ title: ContactRelation
 /api/v1/ContactRelation
 ```
 
-
-
-
 * [GET Relation/default](v1ContactRelationEntity_DefaultContactRelationEntity.md)
 
 * [GET Relation](v1ContactRelationEntity_GetAll.md)

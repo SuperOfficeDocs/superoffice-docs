@@ -26,6 +26,7 @@ The reality is a bit more detailed. Below is a transcript of the database update
 >
 > The ID and string values used here are just examples. The actual values on your database will be different.
 
+<!-- markdownlint-disable MD013 -->
 ## Address records
 
 ```SQL

@@ -11,18 +11,11 @@ GET /api/v1/User/{id}/CustomCommand
 
 Get registered custom commands for User
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The User to get commands for. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,7 @@ Get registered custom commands for User
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

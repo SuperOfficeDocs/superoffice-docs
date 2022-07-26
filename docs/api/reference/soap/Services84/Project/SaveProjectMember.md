@@ -17,7 +17,6 @@ Updates the existing ProjectMember or creates a new ProjectMember if the id para
 
 **Returns:** New or updated ProjectMember
 
-
 [WSDL file for Services84/Project](../Services84-Project.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -70,7 +69,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveProjectMember Response
 
 ```xml
@@ -111,4 +109,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -15,8 +15,6 @@ Deletes the AudienceLayoutEntity
 
 * **audienceLayoutEntityId:** The identity of the AudienceLayoutEntity
 
-
-
 [WSDL file for Services86/Audience](../Services86-Audience.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteAudienceLayoutEntity Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

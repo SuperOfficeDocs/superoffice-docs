@@ -13,10 +13,6 @@ Rename the physical document, i.
 
 e., change the file name or equivalent concept in the document archive.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ e., change the file name or equivalent concept in the document archive.
 ```http
 POST /api/v1/Agents/Document/RenameDocument?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,26 +37,22 @@ POST /api/v1/Agents/Document/RenameDocument?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId, NewFilename 
+DocumentId, NewFilename
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | NewFilename | string |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

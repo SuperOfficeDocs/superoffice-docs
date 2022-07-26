@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetUntrustedCr
 ## GetUntrustedCredentialsForAssociate
 
 Get a set of credentials of a specified type for a specified user. SecretValue is only populated for authenticated user, and system users.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateId:** Id of user to retrieve credentials for.
 * **type:** Type of credential(Ex: "imap", "smtp").
 
 **Returns:** Array of credentials of the specified type.
-
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetUntrustedCredentialsForAssociate Response
 
 ```xml
@@ -83,4 +81,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

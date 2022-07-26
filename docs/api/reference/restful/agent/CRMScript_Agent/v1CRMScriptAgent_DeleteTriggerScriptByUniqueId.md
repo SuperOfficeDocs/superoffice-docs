@@ -11,13 +11,7 @@ POST /api/v1/Agents/CRMScript/DeleteTriggerScriptByUniqueId
 
 Delete a trigger CRMScript.
 
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ Delete a trigger CRMScript.
 POST /api/v1/Agents/CRMScript/DeleteTriggerScriptByUniqueId?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -39,17 +32,15 @@ POST /api/v1/Agents/CRMScript/DeleteTriggerScriptByUniqueId?$select=name,departm
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TriggerScriptUniqueId 
+TriggerScriptUniqueId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TriggerScriptUniqueId | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

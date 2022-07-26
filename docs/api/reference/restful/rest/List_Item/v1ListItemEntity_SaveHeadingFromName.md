@@ -11,16 +11,9 @@ POST /api/v1/List/{name}/Headings
 
 Save new heading for list resolved by the provided name.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to look up. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,9 @@ Save new heading for list resolved by the provided name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The new heading to save 
+The new heading to save
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,12 +42,9 @@ The new heading to save
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-
 ## Response: object
 
 The heading entity contains generic list item information
-
-
 
 Carrier object for HeadingEntity.
 Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

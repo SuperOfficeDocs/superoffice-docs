@@ -37,7 +37,7 @@ In the `currents` section, it gives details about where the application has stor
 
 ## Example merge file
 
-The following example demonstrates how to add a page, current, Javascript, and CSS file.
+The following example demonstrates how to add a page, current, JavaScript, and CSS file.
 
 To override *SoApplicationConfiguration*, create a new file named *MyApplicationConfiguration.merge* and place it in your custom path directory.
 
@@ -85,7 +85,7 @@ PageUpdate('soprotocol:?customfeature_id=' + id,'');
 SuperOffice.PageBuilder.setCurrent("customfeature", id);
 ```
 
-**To get a current value, use the *SuperOffice.Util.getCurrentId* Javascript method:**
+**To get a current value, use the *SuperOffice.Util.getCurrentId* JavaScript method:**
 
 ``` javascript
 id = SuperOffice.Util.getCurrentId("customfeature");

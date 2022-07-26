@@ -17,7 +17,6 @@ Gets the blob entity that represents the country flag binary object.
 
 **Returns:** BlobEntity object
 
-
 [WSDL file for Services86/BLOB](../Services86-BLOB.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetBlobEntityOnCountry Response
 
@@ -109,4 +107,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 
 Saves a foreign device for an foreign application
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Saves a foreign device for an foreign application
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ForeignDevice, ApplicationName 
+ForeignDevice, ApplicationName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <br /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 | ApplicationName | string |  |
-
 
 ## Response: object
 
 Saves a foreign device belonging to the ForeignDevice and application name specified.
-
-
 
 Carrier object for ForeignDevice.
 Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.

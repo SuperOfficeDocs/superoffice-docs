@@ -11,19 +11,13 @@ PUT /api/v1/Role/{roleId}/FunctionRight
 
 Set all functional rights for the given role.
 
-Functional rights not specified here will be removed from the role. 
+Functional rights not specified here will be removed from the role.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleId | int32 | The role id to set the functional rights for **Required** |
-
-
 
 ## Request Headers
 
@@ -34,14 +28,11 @@ Functional rights not specified here will be removed from the role.
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: functionalRightIds  
+## Request Body: functionalRightIds
 
-An array of functional rights ids to set for this role. Rights not included here are removed from the role. 
-
-
+An array of functional rights ids to set for this role. Rights not included here are removed from the role.
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

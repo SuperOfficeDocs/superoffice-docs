@@ -11,14 +11,7 @@ POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 
 Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty
 
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEnt
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ErpSyncConnectorEntity to be saved. 
+The ErpSyncConnectorEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,12 +38,9 @@ The ErpSyncConnectorEntity to be saved.
 | URL | string | The URL where the connector is located and can be called |
 | Deleted | bool | True if the connector is deleted |
 
-
 ## Response: object
 
 Erp connector information
-
-
 
 Carrier object for ErpSyncConnectorEntity.
 Services for the ErpSyncConnectorEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.

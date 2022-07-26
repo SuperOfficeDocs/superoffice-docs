@@ -16,6 +16,7 @@ so.envir:
 Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2'>GetArchiveListWithContext2</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeGetArchiveListWithContext2
+
 ```cs
     static void BeforeGetArchiveListWithContext2(
        String  guiName,
@@ -29,11 +30,14 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAge
        ref object  eventState
       );
 ```
+
 Executes before the service method is invoked.
 The return value is not calculated yet, so this method can't affect the result.
 It can store some state in the *eventState* parameter, that is passed to the **After** and **AfterAsync** methods in this service call.
 Event state is not preserved between different service calls. It is set to null at the start of each service call.
+
 ## AfterGetArchiveListWithContext2
+
 ```cs
     static void AfterGetArchiveListWithContext2(
        String  guiName,
@@ -48,10 +52,13 @@ Event state is not preserved between different service calls. It is set to null 
        ref object  eventState
       );
 ```
+
 Executes after the service method has been invoked. The service waits for this method to complete before returning the result to the caller.
 The return value has been set. The script may modify the return value by altering the **returnValue** parameter.
 Any state you set in the **Before** method is passed in through the *eventState* parameter.
+
 ## AfterGetArchiveListWithContext2Async
+
 ```cs
     static void AfterGetArchiveListWithContext2Async(
        String  guiName,
@@ -66,8 +73,8 @@ Any state you set in the **Before** method is passed in through the *eventState*
        ref object  eventState
       );
 ```
+
 Executes after the service method is invoked, without waiting for the call to return.
 The service call is not blocked waiting for this method to complete.
 The async event handler cannot modify the return value of the service call.
 Any state you set in the **Before** method is passed in through the *eventState* parameter.
-

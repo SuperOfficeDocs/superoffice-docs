@@ -15,10 +15,8 @@ so.envir:
 ---
 
 # "country" MDO List
+
 The name of the MDO list is 'country'.
-
-
-
 
 ## Sample Request
 
@@ -31,6 +29,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("country", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -64,7 +63,6 @@ foreach (var item in listProvider.RootItems) {
 |50|Bangladesh|||
 |52|Barbados|||
 |112|Belarus|||
-
 
 ## Related MDO Lists
 
