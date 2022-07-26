@@ -155,6 +155,6 @@ To add documents to a stage:
 9. Repeat this procedure to add more documents in this or other stages.
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/diary/template-variables.md#variables-for-sales
+[1]: ../../user/diary/template-variables.md#variables-for-sales
 
 <!-- Referenced images -->

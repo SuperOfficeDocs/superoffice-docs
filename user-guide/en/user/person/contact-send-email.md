@@ -26,7 +26,7 @@ language: en
 6. Click **Create** in the **Document** dialog.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/diary/document-dialog.md
+[1]: ../diary/document-dialog.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

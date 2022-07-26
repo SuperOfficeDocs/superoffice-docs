@@ -55,7 +55,7 @@ Sale
 
 Enter the name of the sale that the email should be linked to.
 
-**Visible for**
+**Visible for:**
 
 Click the **Visible for** field to display a list that allows you to choose whether the email will be visible to all users, only yourself, or visible to all users in one of the user groups that the owner belongs to.
 
@@ -64,7 +64,7 @@ Language
 If the selected template includes translated versions, you can select a language for the template.
 
 <!-- Referenced links -->
-[1]: ../../standardcrm/diary/creating-new-documents.md
+[1]: ../../diary/creating-new-documents.md
 [2]: archive-buttons.md
 
 <!-- Referenced images -->

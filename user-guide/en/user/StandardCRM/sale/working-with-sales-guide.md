@@ -20,7 +20,7 @@ This is how you perform the sales process:
 
 1. Click the **Create** button in front of the follow-up/document name.
 
-2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog](../diary/Document-dialog.md) and [The dialog for follow-ups](../diary/Dialog-for-followups.md).
+2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog](../../diary/document-dialog.md) and [The dialog for follow-ups](../../diary/dialog-for-followups.md).
 
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Sales guide** section tab. By default, documents are marked as completed.
 
@@ -38,9 +38,9 @@ This is how you perform the sales process:
     > If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
 
     > [!TIP]
-    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog](../diary/Dialog-for-followups.md) then opens.
+    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog](../../diary/dialog-for-followups.md) then opens.
 
-4. Once all follow-ups and documents for a stage have been completed, go to the next stage on the main **Sale** card.  
+4. Once all follow-ups and documents for a stage have been completed, go to the next stage on the main **Sale** card.
     <!-- Fix reuse ID=a1 -->
 
     You can move the project to the next status in two ways:

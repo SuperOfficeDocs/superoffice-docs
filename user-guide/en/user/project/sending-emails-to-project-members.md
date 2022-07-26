@@ -36,6 +36,6 @@ language: en
 > You can also send an e-mail to a stakeholder / project member by clicking directly on their e-mail address in the **Stakeholders** or **Project Members** section tab.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/diary/document-dialog.md
+[1]: ../diary/document-dialog.md
 
 <!-- Referenced images -->

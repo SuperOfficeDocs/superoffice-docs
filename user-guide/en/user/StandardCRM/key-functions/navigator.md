@@ -47,7 +47,7 @@ The navigator contains the following buttons:
 [1]: ../../dashboard/index.md
 [2]: ../../company/index.md
 [3]: ../../person/index.md
-[4]: ../diary/diary.md
+[4]: ../../diary/index.md
 [5]: ../sale/sale.md
 [6]: ../../project/index.md
 [7]: ../../selections/index.md

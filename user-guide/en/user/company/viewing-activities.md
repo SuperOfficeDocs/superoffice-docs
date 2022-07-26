@@ -28,8 +28,8 @@ You can show all activities, or just one of the types. For more details about th
 * [Move between activities in the activities list][2]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/diary/index.md
-[2]: ../standardcrm/diary/moving-between-activities-in-activities-list.md
+[1]: ../diary/index.md
+[2]: ../diary/moving-between-activities-in-activities-list.md
 [3]: using-filter-function-contact.md
 
 <!-- Referenced images -->

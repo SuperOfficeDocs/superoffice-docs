@@ -56,7 +56,7 @@ A message is also displayed to explain the cause of the error.
 * Double-click a product to edit it. See [Add/edit a product in the quote](quote-add-edit-product.md).
 * **Delete**: Click here to delete the selected product(s).
 * **Export**: Click here to export the list to a spreadsheet. See [Export section tabs](../key-functions/Export-archives.md).
-* Sort: Use the arrow keys ( ![icon](../media/Pil-opp.bmp) / ![icon](../media/Pil-ned.bmp) ) to change the order of the products.
+* Sort: Use the arrow keys ( ![icon](../../../../media/icons/pil-opp.bmp) / ![icon](../../../../media/icons/pil-ned.bmp) ) to change the order of the products.
 
 > [!TIP]
 > You can double-click the tabs to change the names of the alternatives in the quote.

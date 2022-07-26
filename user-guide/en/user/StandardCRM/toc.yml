@@ -3,8 +3,6 @@ items:
   href: index.md
 - name: Key functions in SuperOffice CRM
   href: key-functions/toc.yml
-- name: Diary
-  href: diary/toc.yml
 - name: Sale
   href: sale/toc.yml
   items:

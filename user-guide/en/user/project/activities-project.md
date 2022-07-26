@@ -57,8 +57,8 @@ The second column contains icons that indicate the type of activity, for example
 * [Filter activities][7]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/diary/index.md
-[2]: ../standardcrm/diary/marking-activities-as-completed-not-completed.md
+[1]: ../diary/index.md
+[2]: ../diary/marking-activities-as-completed-not-completed.md
 [3]: ../company/viewing-activities.md
 [4]: ../company/deleting-activities-contact.md
 [5]: ../company/replying-to-email-from-activities-section-tab.md

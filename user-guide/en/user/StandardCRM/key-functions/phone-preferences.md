@@ -14,10 +14,10 @@ language: en
 You can dial out from SuperOffice CRM in one of the following ways:
 
 * Clicking a telephone number in the **Company** screen
-* Clicking ![icon](../media/Dialogboksknapper-Telefon.bmp) in a dialog.
+* Clicking ![icon][img1] in a dialog.
 * Right-clicking a person in a section tab and selecting **Call *****name***.
 
-See also [Dial contacts](../diary/Dialling-Contacts.md).
+See also [Dial contacts](../../diary/dialling-contacts.md).
 
 Phone preferences are handled differently in the Windows and Web clients. Learn about phone preferences for Windows and Web below.
 
@@ -43,4 +43,10 @@ The available parameters are as follows:
 
 **Facetime**: facetime:%p
 
-[Template variables](../diary/Template-variables.md) can also be used in the phone parameters.
+[Template variables](../../diary/template-variables.md) can also be used in the phone parameters.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/dialogboksknapper-telefon.bmp

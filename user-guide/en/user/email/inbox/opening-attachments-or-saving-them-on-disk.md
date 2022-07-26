@@ -28,7 +28,7 @@ To open an attachment or archive an attachment in SuperOffice:
         If you do not want to register this email address in SuperOffice CRM, click **Do not add contact to SuperOffice** to go to the **Document** dialog.
 
 <!-- Referenced links -->
-[1]: ../../standardcrm/diary/document-dialog.md
+[1]: ../../diary/document-dialog.md
 [2]: adding-email-addresses-in-crm.md
 
 <!-- Referenced images -->

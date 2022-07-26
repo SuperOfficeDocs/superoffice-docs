@@ -166,6 +166,6 @@ To add documents to a status:
 9. Repeat this procedure to add more documents in this or other statuses.
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/diary/template-variables.md#variables-from-the-project-card
+[1]: ../../user/diary/template-variables.md#variables-from-the-project-card
 
 <!-- Referenced images -->

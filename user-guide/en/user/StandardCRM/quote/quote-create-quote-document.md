@@ -30,12 +30,12 @@ To do this:
 
 1. Open an existing quote, or create a new one. See [Create a quote](quote-create.md).
 2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab. The **Document** dialog opens.
-3. Complete the fields with the required information. See [The Document dialog](../diary/Document-dialog.md) for an explanation of what to enter here.
+3. Complete the fields with the required information. See [The Document dialog](../../diary/document-dialog.md) for an explanation of what to enter here.
 4. Click the **Create** button to create a new document based on the selected document template.
 5. Type in the document content, and save and close it in the usual way in the program. The document is then displayed on the **Activities** section tab in the **Sale** screen (and in the **Company** and **Diary** screens).
 
 > [!TIP]
-> There is a list of the variables you can insert into documents you create. You can find the variables in [Template variables](../diary/Template-variables.md).
+> There is a list of the variables you can insert into documents you create. You can find the variables in [Template variables](../../diary/template-variables.md).
 
 ## See also
 

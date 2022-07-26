@@ -36,7 +36,7 @@ language: en
 > You can also send email to a contact by clicking directly on the email address for this person in the **Contacts** section tab (see [Columns in the Contacts section tab][2]).
 
 <!-- Referenced links -->
-[1]: ../standardcrm/diary/document-dialog.md
+[1]: ../diary/document-dialog.md
 [2]: columns-in-contacts-section-tab.md
 
 <!-- Referenced images -->

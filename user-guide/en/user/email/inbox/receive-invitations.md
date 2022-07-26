@@ -38,7 +38,7 @@ Select one of the following options:
 The message is removed from the inbox, and the appointment is added to you diary.
 
 <!-- Referenced links -->
-[1]: ../../standardcrm/diary/document-dialog.md
+[1]: ../../diary/document-dialog.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/inbox/attachment.png

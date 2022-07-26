@@ -25,6 +25,6 @@ To create a template document:
 After you have defined a template and saved it in the template folder, you must link it to SuperOffice CRM in order to be able to use it when you create documents. For more details, see [Add a document template](Adding-template-web.md).
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/diary/template-variables.md
+[1]: ../../user/diary/template-variables.md
 
 <!-- Referenced images -->

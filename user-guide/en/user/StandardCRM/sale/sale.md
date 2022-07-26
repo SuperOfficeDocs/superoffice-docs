@@ -19,7 +19,7 @@ In addition to the **Sale** screen, sales can be displayed in the following plac
 
 * On the **Sales** section tab in the **Company** screen.
 * On the **Sales** section tab in the **Contact** screen.
-* On the **Sales** section tab in the **Diary** screen. See [The Sales secretary](../diary/Sales-secretary.md).
+* On the **Sales** section tab in the **Diary** screen. See [The Sales secretary](../../diary/sales-secretary.md).
 * On the **Sales** section tab in the **Project** screen.
 
 > [!TIP]

@@ -58,8 +58,8 @@ This is how you perform the project:
 [Click here for an example of a project guide.][3]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/diary/document-dialog.md
-[2]: ../standardcrm/diary/dialog-for-followups.md
+[1]: ../diary/document-dialog.md
+[2]: ../diary/dialog-for-followups.md
 [3]: example-projectguide.md
 
 <!-- Referenced images -->

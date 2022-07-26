@@ -2,4 +2,4 @@ There are different types of activities: (including reports and email), (appoint
 
 <!-- Referenced links -->
 [1]: ../standardcrm/key-functions/buttons-in-menu-bar.md
-[2]: ../standardcrm/diary/index.md
+[2]: ../diary/index.md

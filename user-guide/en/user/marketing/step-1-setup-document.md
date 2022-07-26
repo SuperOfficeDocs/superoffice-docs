@@ -53,7 +53,7 @@ In order to do this:
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/diary/Template-variables.md
+[1]: ../diary/template-variables.md
 [2]: Step-2-Layout-Document.md
 
 <!-- Referenced images -->

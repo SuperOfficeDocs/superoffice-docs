@@ -87,7 +87,7 @@ Here you can add translated versions of the document template. To do this:
 
 <!-- Referenced links -->
 [1]: ../../user/standardcrm/translate-fields.md
-[2]: ../../user/standardcrm/diary/template-variables.md
+[2]: ../../user/diary/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

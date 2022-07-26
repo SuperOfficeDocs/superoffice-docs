@@ -56,7 +56,7 @@ To add a new status:
 [Manage status monitors](Manage-status-monitors.md)
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/diary/template-variables.md
+[1]: ../../user/diary/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

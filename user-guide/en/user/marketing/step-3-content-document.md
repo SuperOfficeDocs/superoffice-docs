@@ -33,7 +33,7 @@ You can use SuperOffice CRM template variables in your document to insert custom
 
 <!-- Referenced links -->
 [1]: Step-4-Recipients-Document.md
-[2]: ../standardcrm/diary/Template-variables.md
+[2]: ../diary/template-variables.md
 
 <!-- Referenced images -->
 [img1]:

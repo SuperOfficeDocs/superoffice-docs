@@ -7,6 +7,8 @@ items:
   href: person/toc.yml
 - name: Dashboard
   href: dashboard/toc.yml
+- name: Diary
+  href: diary/toc.yml
 - name: Email
   href: email/toc.yml
 - name: Mailing

@@ -16,7 +16,7 @@ You can save generated reports as documents, so they can later be opened from th
 > [!NOTE]
 > Saving reports as files is managed slightly differently for cross table reports than for other types. See [Save cross table reports as files](Saving-cross-table-reports-as-files.md).
 
-1. Open the **Reports** screen.  
+1. Open the **Reports** screen.
     <!-- Fix reuse ID=a2 -->
     [!include[How to-goto-reports](../../includes/goto-reports.md
 )]
@@ -30,5 +30,5 @@ You can save generated reports as documents, so they can later be opened from th
 > [!NOTE]
 > If the report is of the type label, you need to specify a label layout in the **Choose label** dialog before the **Document** dialog is displayed.
 
-1. Enter the required information about the report. See [The Document dialog](../diary/Document-dialog.md).
+1. Enter the required information about the report. See [The Document dialog](../../diary/document-dialog.md).
 2. Click **Create**. The file is opened in the default PDF viewer and simultaneously saved in SuperOffice CRM.
