@@ -28,7 +28,7 @@ To delete a company and associated data:
 <!-- Referenced links -->
 [1]: ../standardcrm/key-functions/deleting-elements-in-crm.md
 [2]: ../standardcrm/key-functions/restore-deleted-companies-and-contacts.md
-[3]: ../standardcrm/selections/deleting-companies-permanently.md
+[3]: ../selections/deleting-companies-permanently.md
 [4]: merge-companies.md
 
 <!-- Referenced images -->

@@ -20,13 +20,13 @@ You can filter the content of section tabs by adding criteria to one or more col
 
 ## Activate the column filter
 
-To activate the column filter, click ![icon](../../media/btn-columnheaderoptions.png) on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon](../../media/btn-columnheaderfilter.png)) is now displayed on column which can be filtered.
+To activate the column filter, click ![icon][img1] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img2]) is now displayed on column which can be filtered.
 
 ## Apply filters on column
 
 To do this:
 
-1. Click the column filter button ( ![icon](../../media/btn-columnheaderfilter.png) ) next to a column header.
+1. Click the column filter button ( ![icon][img2] ) next to a column header.
 2. Depending on the type of data in the column, do one of the following:
     * Enter text and click **ENTER**. The default filter type is "starts with".
     * Select an item from the list.
@@ -36,12 +36,19 @@ To do this:
 
 ## Reset the column filter
 
-Click ![icon](../../media/btn-columnheaderoptions.png) and **Reset** to reset the filter.
+Click ![icon][img1] and **Reset** to reset the filter.
 
 ## Related topics
 
-To filter the list of members in the **Selection** screen, see [Filtering the List of Members](../selections/List-of-Members.md#filtering-the-list-of-members).
+To filter the list of members in the **Selection** screen, see [Filtering the List of Members](../../selections/List-of-Members.md#filtering-the-list-of-members).
 
 To filter the **Documents** section tab in the **Reports** screen, see [Use the Filter function in the Reports screen](../reports/Using-Filter-function-Reports.md).
 
 [Grouping lists](Sections-tabs-Grouping-lists.md)
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-columnheaderoptions.png
+[img2]: ../../../../media/icons/btn-columnheaderfilter.png

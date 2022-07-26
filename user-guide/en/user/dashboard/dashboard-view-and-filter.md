@@ -25,6 +25,6 @@ To do this:
 5. Click **Close** when you are done.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/selections/adding-members-to-static-selections.md
+[1]: ../selections/adding-members-to-static-selections.md
 
 <!-- Referenced images -->

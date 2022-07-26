@@ -23,7 +23,7 @@ Some lists may contain hundreds of records. To prevent slow loading of long list
 To change the default number of records, do as follows:
 
 1. Go to the section tab you want to edit.
-2. Click ![icon](../../media/btn-columnheaderoptions.png) on the far right of the column headers in a section tab. A dialog is displayed.
+2. Click ![icon](../../../../media/icons/btn-columnheaderoptions.png) on the far right of the column headers in a section tab. A dialog is displayed.
 3. Click the **Page size** list and select a value.
 4. Click **OK**.
 
@@ -44,4 +44,4 @@ To change the default number of records, do as follows:
 * [Section tabs in the Diary screen](../diary/Section-tabs-in-Diary-screen.md)
 * [Section tabs in the Sale screen](../sale/sale-screen-section-tabs.md)
 * [Section tabs in the Project screen](../../project/Project-screen-section-tabs.md)
-* [Section tabs in the Selection screen](../selections/Section-tabs-in-Selection-screen.md)
+* [Section tabs in the Selection screen](../../selections/Section-tabs-in-Selection-screen.md)

@@ -10,8 +10,6 @@ items:
   items:
   - name: Quote
     href: quote/toc.yml
-- name: Selection
-  href: selections/toc.yml
 - name: Reports
   href: reports/toc.yml
 - name: ERP

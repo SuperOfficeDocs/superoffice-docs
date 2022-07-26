@@ -5,4 +5,4 @@ Now you can quickly access the record by clicking ![icon][img3] from the Navigat
 <!-- Referenced images -->
 [img1]: ../../../media/icons/favorite-inactive.png
 [img2]: ../../../media/icons/favorite-active.png
-[img3]: ../media/navmenu-favourites.png
+[img3]: ../../../media/icons/navmenu-favourites.png

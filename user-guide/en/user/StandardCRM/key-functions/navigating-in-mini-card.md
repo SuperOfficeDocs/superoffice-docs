@@ -40,7 +40,7 @@ You can choose from the following views. Click the views for more information.
 
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
 
-    In a dynamic selection, you can choose to show companies only, without specifying a contact. If **Include main contact** is not checked in the dynamic selection (see [Creating dynamic selections](../selections/Creating-dynamic-selections.md)), no information will be displayed in the **Contact** view for the side panel, even if you have selected a contact.
+    In a dynamic selection, you can choose to show companies only, without specifying a contact. If **Include main contact** is not checked in the dynamic selection (see [Creating dynamic selections](../../selections/Creating-dynamic-selections.md)), no information will be displayed in the **Contact** view for the side panel, even if you have selected a contact.
 * <!-- Fix reuse ID=a3 -->
     Shows a day's agenda which works in the same way as the [Day](../diary/Day-tab.md) tab in the [Diary](../diary/Diary.md) screen
 

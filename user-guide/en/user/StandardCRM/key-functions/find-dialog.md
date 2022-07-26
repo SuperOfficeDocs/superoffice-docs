@@ -53,13 +53,13 @@ Perform tasks on the search results
 
 The **Task** button contains tasks such as sending e-mails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed.
 
-See [Perform tasks using selections](../selections/Performing-tasks-using-selections.md).
+See [Perform tasks using selections](../../selections/Performing-tasks-using-selections.md).
 
 Add records to a selection
 
-Click the **Save as selection** button. See [Create selections](../selections/Create-selections.md).
+Click the **Save as selection** button. See [Create selections](../../selections/Create-selections.md).
 
-Select records, right-click, and select **Add to selection**. See [Add members to static selections](../selections/Adding-members-to-static-selections.md).
+Select records, right-click, and select **Add to selection**. See [Add members to static selections](../../selections/Adding-members-to-static-selections.md).
 
 ## The search facility in SuperOffice CRM
 
@@ -130,7 +130,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
     * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
-    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
+    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../../selections/Create-selections.md).
 
 ## <a id="ex2" />Example 2: search for customers in Denmark who you are responsible for
 
@@ -173,7 +173,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
     * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
-    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
+    * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections](../../selections/Create-selections.md).
 
 ## <a id="ex3" />Example 3: search for sold sales
 
@@ -202,7 +202,7 @@ Let's assume you are the manager of a company and want to find out what types of
 
     * Preview each sale in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
-    * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
+    * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections](../../selections/Create-selections.md).
 
 ## <a id="ex4" />Example 4: search for projects you have participated in during the last year
 
@@ -247,7 +247,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
     * Preview each project in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
-    * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
+    * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections](../../selections/Create-selections.md).
 
 ## <a id="ex5" />Example 5: search for marketing initiatives undertaken
 
@@ -300,11 +300,11 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
     * Preview each follow-up in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them. See [The side panel](Navigating-in-mini-card.md).
 
-    * You can create a selection containing these follow-ups, by clicking **Save as selection** and following the procedure under [Create selections](../selections/Create-selections.md).
+    * You can create a selection containing these follow-ups, by clicking **Save as selection** and following the procedure under [Create selections](../../selections/Create-selections.md).
 
 ## What would you like to do now?
 
-* [Perform tasks](../selections/Performing-tasks-using-selections.md)
+* [Perform tasks](../../selections/Performing-tasks-using-selections.md)
 * [Use freetext search](Freetext-search.md)
 * [Use FastSearcher](Using-FastSearcher.md)
 * [Use the history list](Using-history-list.md)

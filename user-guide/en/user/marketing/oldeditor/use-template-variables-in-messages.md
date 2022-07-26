@@ -45,11 +45,11 @@ There are several types of template variables:
 8. **Continue entering text and inserting the template variables you require.**
 
 > [!TIP]
-> Before you send out a mailing, you should test that the customer data is correctly inserted in the message. See [Test mailing][1].**
+> Before you send out a mailing, you should test that the customer data is correctly inserted in the message. See [Test mailing][1].
 
 ## What would you like to find out more about?
 
-* [Template variables]([2])
+* [Template variables][2]
 
 <!-- Referenced links -->
 [1]: ../test-mailing.md

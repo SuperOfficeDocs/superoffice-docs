@@ -30,7 +30,7 @@ You can access your favourites from the following places in the application:
 
 * <!-- Fix reuse ID=a1 -->
     1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator.
-    2. Click ![icon](../../media/navmenu-favourites.png).
+    2. Click ![icon](../../../../media/icons/navmenu-favourites.png).
     3. Click the item you want to view.
 * In the side panel.
 

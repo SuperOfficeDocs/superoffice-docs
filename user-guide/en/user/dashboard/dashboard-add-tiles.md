@@ -48,7 +48,7 @@ Click **Done** when you have completed the dashboard.
 
 <!-- Referenced links -->
 [1]: dashboard-tiles-edit.md
-[2]: ../standardcrm/selections/display-selections-as-charts.md
+[2]: ../selections/display-selections-as-charts.md
 [3]: dashboard-tiles-delete.md
 
 <!-- Referenced images -->

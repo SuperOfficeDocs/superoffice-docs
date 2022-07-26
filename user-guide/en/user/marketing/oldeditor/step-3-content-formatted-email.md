@@ -13,7 +13,7 @@ language: en
 
 In the **Content** step you can edit the layout and content of the e-mail, and add links and images.
 
-![icon](img1)
+![icon][img1]
 (click to see a screenshot of the old version)
 
 To check if you are using the new version or the old version, see [Differences between the Drag &amp; drop editor and the Editor][1].

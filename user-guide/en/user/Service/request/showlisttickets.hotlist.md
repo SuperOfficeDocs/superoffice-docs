@@ -14,7 +14,7 @@ language: en
 In SuperOffice Service there is a favourites list, to which you can add requests you want to remind yourself to follow up.
 
 > [!TIP]
-> You can also add contacts, companies, selections and mailings to your favourites. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon](../../media/navmenu-favourites.png). See [Favourites](../getting-started/favorites.md).
+> You can also add contacts, companies, selections and mailings to your favourites. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon][img4]. See [Favourites](../getting-started/favorites.md).
 
 ## Add requests to the favourites list
 
@@ -35,7 +35,7 @@ In SuperOffice Service there is a favourites list, to which you can add requests
 
 To view the favourites list, do one of the following:
 
-* Select **Requests** in the Navigator, and click ![icon](../../media/navmenu-favourites.png).
+* Select **Requests** in the Navigator, and click ![icon][img4].
 * Select **Requests** in the Navigator, and select **My favourites**.
 * Go to **Dashboard**, click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ) next to the title of a panel, and select **My favourites**.
 
@@ -54,3 +54,4 @@ To view the favourites list, do one of the following:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/favorite-inactive.png
 [img2]: ../../../../media/icons/favorite-active.png
+[img3]: ../../../media/icons/navmenu-favourites.png

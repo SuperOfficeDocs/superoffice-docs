@@ -85,7 +85,7 @@ To add fields to the form:
     * Select the **Mandatory** check box if this field must be filled in. The form cannot be submitted if mandatory fields are not filled in.
     * Click **Advanced options** (![icon][img5]) to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
     * Click the check box **Full width** if you want the selected field to be the same width as the form.
-9. Edit any other options in the field as relevant. These options are described in more detail [here](4).
+9. Edit any other options in the field as relevant. These options are described in more detail [here][4].
 10. Click **Apply now** when you are done.
 11. Repeat steps 2-12 to add another field. You can also click **Duplicate field** (![icon][img6]) to create a copy of a field.
 
