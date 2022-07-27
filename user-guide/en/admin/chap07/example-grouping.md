@@ -1,5 +1,5 @@
 Settings and maintenance
 
-Joe Johnson works in the sales department of a large company. The primary group is set to "Sales" so that Joe has access rights to data created by users in the sales department. The access rights to the primary group are defined in the role to which Joe belongs. This role determines whether Joe can edit or delete data created by other users in the sales department (see [Define data rights for a role](../Rolle/Set-data-rights-for-role.md)).
+Joe Johnson works in the sales department of a large company. The primary group is set to "Sales" so that Joe has access rights to data created by users in the sales department. The access rights to the primary group are defined in the role to which Joe belongs. This role determines whether Joe can edit or delete data created by other users in the sales department (see [Define data rights for a role](../role/Set-data-rights-for-role.md)).
 
 He also needs limited rights to documents from the marketing department and development department. These two departments are added under **Other groups**. In the role Joe belongs to it is specified that he only has read access to these data.

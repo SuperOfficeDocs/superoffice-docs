@@ -38,13 +38,13 @@ In the **Details** tab, you have the following options:
 
 * **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your e-mail address. Make sure the e-mail address is valid, since it will be used for account confirmation.
 
-* **Role**: Specify the role the user should have in the **Role** list box. The role determines the user's data access and functional rights. For more details, see [Role](../Rolle/Role.md). You cannot change your own role.
+* **Role**: Specify the role the user should have in the **Role** list box. The role determines the user's data access and functional rights. For more details, see [Role](../role/Role.md). You cannot change your own role.
 
 * **User plan**: Select the relevant user plan for the user. This determines which SuperOffice features the user can access.
 
 * **Former employee**: If a user should no longer have access to SuperOffice, select this option to remove the user plan and login rights of the user.
 
-* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role](../Rolle/Role.md) the user belongs to. <!-- Fix reuse ID=a11 -->Click here for an example. See also [Visibility](Visibility.md) for more information on sharing data with your primary group.
+* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role](../role/Role.md) the user belongs to. <!-- Fix reuse ID=a11 -->Click here for an example. See also [Visibility](Visibility.md) for more information on sharing data with your primary group.
 
 * **Other groups**: Click in the **Other groups** field and select which other groups the user should belong to. If the list contains many groups, start typing a group name in the search field to filter the list.
 

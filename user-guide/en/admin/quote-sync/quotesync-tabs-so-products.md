@@ -31,7 +31,7 @@ You can export an open price list by clicking ![icon](../../../media/icons/excel
 
 <!-- Fix reuse ID=a1 -->
 
-Either you do not have access rights to the export function (see [Roles](../Rolle/Role.md)), or this preference is not enabled (see [Preferences](../chap05/Preferences.md)).
+Either you do not have access rights to the export function (see [Roles](../role/Role.md)), or this preference is not enabled (see [Preferences](../chap05/Preferences.md)).
 
 > [!TIP]
 > Before you export the price list, it may be useful to select which columns you want and their order. See [Edit column view](../chap01/Adjusting-views.md#change-the-column-view).

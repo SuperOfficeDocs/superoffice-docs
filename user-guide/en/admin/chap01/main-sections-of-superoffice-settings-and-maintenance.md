@@ -17,10 +17,10 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 |:-:|---|
 | [![icon](../media/Knapp-Lisenser.bmp)](../chap03/Licences-screen.md) | [Licences](../chap03/Licences-screen.md) |
 | [![icon](../media/Knapp-Brukere.bmp)](../chap07/Users.md) | [Users](../chap07/Users.md) |
-| [![icon](../media/Knapp-rolle.bmp)](../Rolle/Role.md) | [Roles](../Rolle/Role.md) |
+| [![icon](../media/Knapp-rolle.bmp)](../role/Role.md) | [Roles](../role/Role.md) |
 | [![icon](../media/Knapp-Privacy.png)](../privacy/privacy.md) | [Privacy](../privacy/privacy.md) |
 | [![icon](../media/Knapp-SAINT.bmp)](../chap06/Status-monitor.md) | [Status monitoring/SAINT](../chap06/Status-monitor.md) |
-| [![icon](../media/Knapp-AI.png)](../AIservices/AI-services.md) | [AI services](../AIservices/AI-services.md) |
+| [![icon](../media/Knapp-AI.png)](../ai/AI-services.md) | [AI services](../ai/AI-services.md) |
 | [![icon](../media/Knapp-Lister.bmp)](../chap08/Lists-web.md) | [Lists](../chap08/Lists-web.md) |
 | [![icon](../media/Knapp-QuoteSync.bmp)](../quote-sync/quote-sync.md) | [Quote/Sync](../quote-sync/quote-sync.md) |
 | [![icon](../media/Knapp-Arbeidsflyt.bmp)](../Sale/Workflow.md) | [Workflow](../Sale/Workflow.md) |
