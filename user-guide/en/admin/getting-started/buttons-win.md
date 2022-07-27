@@ -19,5 +19,5 @@ The Navigator on the far left of the main screen contains the following buttons:
 
 | Button | Function |
 |:-:|---|
-| [![icon](../media/Knapp-Status.bmp)](Status-screen.md) | **Status**: opens the **Status** screen, which displays updated information about the system. |
-| [![icon](../media/Knapp-Import.bmp)](../chap04/Import.md) | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. |
+| [![icon](../../../media/icons/admin/Knapp-Status.bmp)](Status-screen.md) | **Status**: opens the **Status** screen, which displays updated information about the system. |
+| [![icon](../../../media/icons/admin/Knapp-Import.bmp)](../chap04/Import.md) | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. |

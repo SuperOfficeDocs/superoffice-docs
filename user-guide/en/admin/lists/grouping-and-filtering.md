@@ -23,8 +23,8 @@ In Settings and maintenance, you can specify for most predefined and all user-de
 
 To specify that a list should be grouped:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
-2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list.
+1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
+2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list.
 3. Check **Use grouping and user group filtering for this list** at the top right.
 
 > [!NOTE]

@@ -17,12 +17,12 @@ You can set rights for <!-- Fix reuse ID=a1 -->(companies, contacts, projects, p
 
 To set data rights for a role:
 
-1. Click the **Roles** button in the Navigator (![icon](../media/Knapp-rolle-liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon](../../../media/icons/admin/Knapp-rolle-liten.bmp)).
 2. Choose the **Associates** tab or the **External** tab (<!-- onsite-->).
-    ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
+    ![icon](../../../media/icons/admin/question.bmp) <!-- Fix reuse ID=a2 -->
     See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
 3. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
-4. Click the arrow (![icon](../media/pil-ned.bmp) ) next to the right you want to change, and select the required right.
+4. Click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) next to the right you want to change, and select the required right.
     <!-- Fix reuse ID=a3 -->
     <!-- Fix reuse ID=a4 -->
 

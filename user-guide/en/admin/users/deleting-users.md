@@ -13,7 +13,7 @@ language: en
 
 To delete an existing user:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
 
 2. Select the **Associates** tab.
 

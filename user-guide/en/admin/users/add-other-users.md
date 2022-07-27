@@ -15,7 +15,7 @@ language: en
 
 To add anonymous users or system users:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
 2. Select the **Other users** tab. The list displays existing anonymous users and system users.
 3. Click **Add** below the list.
 4. Enter an ID in the **User ID** field.

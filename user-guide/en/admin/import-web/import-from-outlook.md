@@ -17,8 +17,8 @@ To import your Outlook companies into the SuperOffice database:
 
 ## A. Import companies/contacts from Outlook
 
-1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
-2. Click the Outlook icon ( ![icon](../media/import-outlook-small.bmp) ) under **Select an import source**. Outlook will open and a dialog will be displayed while the export from Outlook is in progress. <!-- Fix reuse ID=a1 -->
+1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Import-liten.bmp) ).
+2. Click the Outlook icon ( ![icon](../../../media/icons/admin/import-outlook-small.bmp) ) under **Select an import source**. Outlook will open and a dialog will be displayed while the export from Outlook is in progress. <!-- Fix reuse ID=a1 -->
     You must install and configure SuperOffice Web Tools in order to import companies from Outlook. In SuperOffice CRM, go to **File &gt; Download &gt; SuperOffice Web Tools**. Contact user support if you experience problems.
 
 > [!NOTE]

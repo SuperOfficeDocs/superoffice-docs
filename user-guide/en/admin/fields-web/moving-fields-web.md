@@ -20,7 +20,7 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 * Click and drag using the mouse. The field(s) will automatically be adjusted to fit the grid.
 * Click a field and use the arrow keys on the keyboard.
-* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon][img2] ![icon][img1] ![icon](../media/pil-flyttned.bmp) ![icon](../media/pil-flyttopp.bmp) ).
+* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon][img2] ![icon][img1] ![icon](../../../media/icons/admin/pil-flyttned.bmp) ![icon](../../../media/icons/admin/pil-flyttopp.bmp) ).
 * Double-click a field and specify position values **X** and **Y** in the **Fields** dialog. <!-- Fix reuse ID=a1 -->
     1. Specify the following in the fields to the right of **Label**:
 
@@ -42,7 +42,7 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 ## How do I right-/left-align fields?
 
-Select the fields you want to adjust and click left-align ( ![icon](../media/align-left.bmp) ) or right-align ( ![icon](../media/align-right.bmp) ) below the grid.
+Select the fields you want to adjust and click left-align ( ![icon](../../../media/icons/admin/align-left.bmp) ) or right-align ( ![icon](../../../media/icons/admin/align-right.bmp) ) below the grid.
 
 ## How do I change the width of a field?
 

@@ -31,10 +31,10 @@ You can filter the list of users by any of the column headers.
 > Right-click a column to add any additional columns you want to filter by.
 
 1. Go to the **Associates** tab.
-2. Right-click a column heading or click ![icon](../media/btn-settings.png) in the top-right corner of the list.
+2. Right-click a column heading or click ![icon](../../../media/icons/admin/btn-settings.png) in the top-right corner of the list.
 3. Select **Enable filter**.
-4. Click **OK**.Filter buttons (![icon](../media/btn-columnfilter.png)) are added to each column header.
-5. Click ![icon](../media/btn-columnfilter.png) on the column you want to filter.
+4. Click **OK**.Filter buttons (![icon](../../../media/icons/admin/btn-columnfilter.png)) are added to each column header.
+5. Click ![icon](../../../media/icons/admin/btn-columnfilter.png) on the column you want to filter.
 6. Select the relevant values in the list. Use the search function if the list is long.
 7. Click **Filter**.
 8. Repeat steps 5-7 to filter on additional columns.
@@ -47,7 +47,7 @@ You can group the list of users by role, user plan, primary group etc. In additi
 > Right-click a column to add any additional columns you want to group by (see also [Adjust views](../getting-started/Adjusting-views.md)).
 
 1. Go to the **Associates** tab.
-2. Right-click a column heading or click ![icon](../media/btn-settings.png) in the top-right corner of the list.
+2. Right-click a column heading or click ![icon](../../../media/icons/admin/btn-settings.png) in the top-right corner of the list.
 3. Select **Enable grouping**.
 4. Click **OK**.
 5. Click the column header for the value by which you want to group and drag it to the area above the columns ("Drag a column header and ..."). The list is now grouped by that value.

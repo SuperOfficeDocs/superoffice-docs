@@ -37,11 +37,11 @@ To do this:
 
         | Icon | Explanation |
         |---|---|
-        | ![icon](../media/sync-direction-none.bmp) | No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction. |
-        | ![icon](../media/sync-direction-2way.bmp) | Sync both ways. |
-        | ![icon](../media/sync-direction-toERP.bmp) | Sync from SuperOffice to the ERP system. |
-        | ![icon](../media/sync-direction-toSO.bmp) | Sync from the ERP system to SuperOffice. |
-        | ![icon](../media/sync-direction-deactivated.bmp) | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details. |
+        | ![icon](../../../media/icons/admin/sync-direction-none.bmp) | No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction. |
+        | ![icon](../../../media/icons/admin/sync-direction-2way.bmp) | Sync both ways. |
+        | ![icon](../../../media/icons/admin/sync-direction-toERP.bmp) | Sync from SuperOffice to the ERP system. |
+        | ![icon](../../../media/icons/admin/sync-direction-toSO.bmp) | Sync from the ERP system to SuperOffice. |
+        | ![icon](../../../media/icons/admin/sync-direction-deactivated.bmp) | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details. |
 
     > [!NOTE]
     > The arrows are disabled until you have selected a SuperOffice field.

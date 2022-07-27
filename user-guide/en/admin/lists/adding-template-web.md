@@ -42,13 +42,13 @@ To complete the fields in the **Edit list item** dialog when the items are docum
 
 Enter the following information in the **Details** tab:
 
-1. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon](../media/pil-ned.bmp) ) and choosing from the list box.
+1. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) and choosing from the list box.
 
-2. In the **Document type** field, specify the type of template by clicking the arrow (![icon](../media/pil-ned.bmp) ). You can choose from **Document** and **Fax**.
+2. In the **Document type** field, specify the type of template by clicking the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ). You can choose from **Document** and **Fax**.
 
 3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-4. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../options/Status-monitor.md)).
+4. In the **Intention** field, click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../options/Status-monitor.md)).
 
     > [!TIP]
     >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.

@@ -15,7 +15,7 @@ language: en
 
 To edit existing users in the **Other users** tab:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
 2. Select the **Other users** tab. The list displays existing anonymous users and system users.
 3. In the list, double-click the user you want to edit.
 4. Make the required changes in the dialog that appears (see [Add other users](Add-other-users.md) for information on completing the fields).

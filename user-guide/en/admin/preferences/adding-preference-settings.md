@@ -13,7 +13,7 @@ language: en
 
 You can add new settings for each of the preferences in the **Preferences** list.
 
-1. Click the **Preferences** button in the Navigator ( ![icon](../media/Knapp-Preferanser-liten.bmp) ).
+1. Click the **Preferences** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Preferanser-liten.bmp) ).
 
 2. Select the required preference group in the list box at the top.
 

@@ -17,7 +17,7 @@ To specify field mapping:
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a file in the dialog which opens.
+2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import file** field and select a file in the dialog which opens.
 
 3. The contents of the first record in the import file are displayed in the **Field in file** column under **Field mapping**. Select a field you want to import into the database.
 

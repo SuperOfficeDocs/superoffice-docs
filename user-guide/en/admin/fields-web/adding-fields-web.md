@@ -52,7 +52,7 @@ To add a new user-defined field:
 > In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code. This is the "ID" of the field you are creating and can be used to reuse the information you enter in this field, e.g. in documents and e-mails. For more information, see [Template variables][2].
 
 1. Adjust the position of the field as described in [Place fields](Moving-fields-web.md).
-2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon](../media/fields-unpubl-new.png) ) and fields with unpublished changes ( ![icon](../media/fields-unpubl-changed.png) ) are displayed in bold text in the **Fields** list.
+2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon](../../../media/icons/admin/fields-unpubl-new.png) ) and fields with unpublished changes ( ![icon](../../../media/icons/admin/fields-unpubl-changed.png) ) are displayed in bold text in the **Fields** list.
 
 If you find you are not allowed to create a new field, this may be because you have already reached the maximum number of permitted fields of this type (see [Maximum number of fields][1]). You must then delete an existing field before you can insert a new one. Note also that four of each type of field (Short text, Long text, Number, Decimal) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six Decimal fields.
 

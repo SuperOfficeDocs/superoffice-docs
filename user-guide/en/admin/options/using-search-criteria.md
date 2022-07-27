@@ -105,13 +105,13 @@ In the list box, select the field you want to search for information in. The fie
 
     To add all values:
 
-    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon][img1] ). The values are displayed under **Selected values** in the pane on the right.
+    Click **Select all** ( ![icon](../../../media/icons/admin/velg-alle.bmp) ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon][img1] ). The values are displayed under **Selected values** in the pane on the right.
 
     To remove all selected values:
 
-    Click **Select all** ( ![icon](../media/velg-alle.bmp) ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
+    Click **Select all** ( ![icon](../../../media/icons/admin/velg-alle.bmp) ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
 
-* <!-- Fix reuse ID=a7 --> ( ![icon](../media/Status-aktiv.bmp) )
+* <!-- Fix reuse ID=a7 --> ( ![icon](../../../media/icons/admin/Status-aktiv.bmp) )
 
     > [!NOTE]
     > This option does not apply to status monitors.
@@ -120,21 +120,21 @@ In the list box, select the field you want to search for information in. The fie
 
     A status field may be displayed with two different icons:
 
-    ![icon](../media/Status-aktiv.bmp) (updated) – the status is updated.
+    ![icon](../../../media/icons/admin/Status-aktiv.bmp) (updated) – the status is updated.
 
-    ![icon](../media/Status-inaktiv.bmp) (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
+    ![icon](../../../media/icons/admin/Status-inaktiv.bmp) (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
 
   * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
-* <!-- Fix reuse ID=a1 --> ( ![icon](../media/Saint-Counter-Company.bmp) ![icon](../media/Saint-Counter-Project.bmp) )
+* <!-- Fix reuse ID=a1 --> ( ![icon](../../../media/icons/admin/Saint-Counter-Company.bmp) ![icon](../../../media/icons/admin/Saint-Counter-Project.bmp) )
 
     Counters can be, for example, the number of sales in a period or the date of the last completed sale. <!-- Fix reuse ID=a11 -->Click here to see examples of the use of counters in a search.
 
     Each counter field may be shown with two different icons, depending on whether or not the counter values are updated.
 
     | Entity | Updated | Not updated* |
-    | Company | ![icon](../media/Saint-Counter-Company.bmp) | ![icon](../media/Saint-Counter-Company-dis.bmp) |
-    | Project | ![icon](../media/Saint-Counter-Project.bmp) | ![icon](../media/Saint-Counter-Project-dis.bmp) |
+    | Company | ![icon](../../../media/icons/admin/Saint-Counter-Company.bmp) | ![icon](../../../media/icons/admin/Saint-Counter-Company-dis.bmp) |
+    | Project | ![icon](../../../media/icons/admin/Saint-Counter-Project.bmp) | ![icon](../../../media/icons/admin/Saint-Counter-Project-dis.bmp) |
 
     \*the counter values are not updated, but can still be used in the search. A search on counter values that are not updated will however return data that are not updated. The counter values should be regenerated in Settings and maintenance before they are used in a search.
 

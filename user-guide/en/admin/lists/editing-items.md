@@ -18,9 +18,9 @@ You can change the name or description of an item previously set up in Settings 
 
 To edit the name and/or description of an item:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
 
-2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
+2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
 
 3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.  
     <!-- Fix reuse ID=a1 -->

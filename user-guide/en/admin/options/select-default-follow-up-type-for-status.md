@@ -21,7 +21,7 @@ To do this:
 2. Select the **Company**, **Project** or **Contact** tab.
 3. Select the required status in the status list on the left of the screen.
 4. Click the **Create follow-up** tab.
-5. Click the arrow button (![icon](../media/pil-ned.bmp) ) to the right of the **Type** field, and select a follow-up.
+5. Click the arrow button (![icon](../../../media/icons/admin/pil-ned.bmp) ) to the right of the **Type** field, and select a follow-up.
 6. Enter the required description in the text field underneath. <!-- Fix reuse ID=a11 -->Click here for an example.
 
 ## What would you like to do now?

@@ -20,7 +20,7 @@ You must have the consent (permission) of a person to (among other things)
 
 These are two different purposes for obtaining a person's consent. In SuperOffice, these purposes are called **Sales and service** and **E-marketing**. There may also be other purposes relevant for you business.
 
-In the **Consent** tab in the **Privacy** screen (![icon](../media/Knapp-Privacy-small.png)) you can create and edit purposes. See [Add purpose](Add-consent-purpose.md).
+In the **Consent** tab in the **Privacy** screen (![icon](../../../media/icons/admin/Knapp-Privacy-small.png)) you can create and edit purposes. See [Add purpose](Add-consent-purpose.md).
 
 For each purpose, a legal basis and source of consent must be documented (this is done during import or in SuperOffice CRM for individual or multiple users). See [Privacy - Legal basis](../lists/Privacy-Legal-base.md) and [Privacy - Source](../lists/Privacy-Source.md).
 

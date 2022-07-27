@@ -15,7 +15,7 @@ language: en
 
 To delete anonymous users or system users:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
 2. Select the **Other users** tab. The list displays existing anonymous users and system users.
 3. Select the user you want to delete.
 4. Click the **Delete** button. The user will be removed from the list.

@@ -18,12 +18,12 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 3. Click the **Add** button below the company list.
 4. The **Find** dialog opens. If there are already search criteria entered in this dialog, but they are not ones you want to use, click the **Deactivate all** button to remove them or remove the checks from the checkboxes for the relevant criteria.
 5. Search for a company.  
-    ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
+    ![icon](../../../media/icons/admin/question.bmp) <!-- Fix reuse ID=a2 -->
     1. In the list box to the right of the field you want to search on, choose whether you want to search for a company that **Starts with**, **Contains** or **Equals** the search criteria you enter.
 
     2. You can specify several different search criteria, for example name, code, telephone number or e-mail address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
 
-        ![icon](../media/question.bmp) <!-- Fix reuse ID=a3 -->.
+        ![icon](../../../media/icons/admin/question.bmp) <!-- Fix reuse ID=a3 -->.
 
         The fields below correspond to the fields on the company card. These are described in detail in the SuperOffice CRM help.
 

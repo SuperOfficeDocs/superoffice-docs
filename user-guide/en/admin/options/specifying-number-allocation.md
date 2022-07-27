@@ -13,7 +13,7 @@ language: en
 
 To specify number allocation for a field:
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 
 2. Select the **Number allocation** tab.
 

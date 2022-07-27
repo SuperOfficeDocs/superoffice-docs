@@ -22,9 +22,9 @@ To import a data file into the SuperOffice database:
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and select an import description file (file type: **DSC**) in the dialog which opens. For more details, see [Import descriptions](Import-descriptions.md).
+2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import description file** field and select an import description file (file type: **DSC**) in the dialog which opens. For more details, see [Import descriptions](Import-descriptions.md).
 
-3. The import description file contains information about which data file is to be imported, and this file is then shown automatically in the **Import file** field. If no file is shown here, you can click ![icon](../media/Soek.bmp) next to the field and navigate to the required import file.
+3. The import description file contains information about which data file is to be imported, and this file is then shown automatically in the **Import file** field. If no file is shown here, you can click ![icon](../../../media/icons/admin/Soek.bmp) next to the field and navigate to the required import file.
 
     > [!NOTE]
     > The import description and import file must contain the same number of columns. You cannot insert any file at will into the **Import file** field.

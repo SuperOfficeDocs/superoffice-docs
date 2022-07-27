@@ -30,8 +30,8 @@ To import an Excel spreadsheet into the SuperOffice database:
 * The Excel spreadsheet should as a minimum contain columns with company names and contact names (first name and last name).
 * You should check that the data is up-to-date (e.g. that postal addresses, telephone numbers and sector are correct).
 
-1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
-2. Make sure that **Contacts** is selected under **Select an import source** and then click the Excel icon ( ![icon](../media/import-excel-small.bmp) ). The **Upload file** dialog opens.
+1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Import-liten.bmp) ).
+2. Make sure that **Contacts** is selected under **Select an import source** and then click the Excel icon ( ![icon](../../../media/icons/admin/import-excel-small.bmp) ). The **Upload file** dialog opens.
 3. Click **Upload file** to select the Excel spreadsheet you want to import.
 4. Browse to the required Excel spreadsheet and click **Open**. The data from the spreadsheet will be displayed in the table.
 

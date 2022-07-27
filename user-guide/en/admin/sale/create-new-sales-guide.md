@@ -45,7 +45,7 @@ Once you have created stages and specified a sale type for the sales guide, you 
 
 Do as follows:
 
-1. Click the **Workflow** button in the Navigator (![icon](../media/knapp-arbeidsflyt-liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon](../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp)).
 
 2. Select the **Sales guide** tab.
 

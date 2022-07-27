@@ -15,7 +15,7 @@ You can specify search criteria for both individual words (for example *Peter*) 
 
 To specify the search criteria for a freetext search:
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 
 2. Select the **Free text search** tab.
 

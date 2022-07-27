@@ -14,7 +14,7 @@ language: en
 The **Lists** screen contains descriptions and definitions of the lists in SuperOffice CRM. Here you can customise the predefined lists supplied with SuperOffice CRM.
 
 > [!TIP]
-> To quickly go to a list, click **Lists** in the navigator and start typing in the search field ( ![icon](../media/Soek.bmp) ). The search results are updated while you type.
+> To quickly go to a list, click **Lists** in the navigator and start typing in the search field ( ![icon](../../../media/icons/admin/Soek.bmp) ). The search results are updated while you type.
 
 You can also add your own user-defined lists which are displayed on the **More** tabs in SuperOffice CRM. You specify what is displayed in the **More** tabs in the **Fields** screen (see [Fields](../fields-web/Fields-web.md)).
 

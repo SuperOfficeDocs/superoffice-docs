@@ -11,7 +11,7 @@ language: en
 
 # Import
 
-![icon](../media/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data. See [Import](../chap04/Import.md) (Windows Client settings).
+![icon](../../../media/icons/admin/utropstegn.bmp) We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data. See [Import](../chap04/Import.md) (Windows Client settings).
 
 In the **Import** screen, you can import companies, contacts and products into SuperOffice. You can import both new companies/contacts and existing companies/contacts with updated data.
 

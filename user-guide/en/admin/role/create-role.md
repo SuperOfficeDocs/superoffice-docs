@@ -15,12 +15,12 @@ language: en
 
 To create a role for associates in the company or for external users:
 
-1. Click the **Roles** button in the Navigator (![icon](../media/Knapp-rolle-liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon](../../../media/icons/admin/Knapp-rolle-liten.bmp)).
 
 2. Select one of the following tabs:
     * **Associates**: Here you can add roles for employees in your company.
     * <!-- onsite-->**External**: Here you can add roles for external users.
-    * ![icon](../media/question.bmp) <!-- Fix reuse ID=a3 -->
+    * ![icon](../../../media/icons/admin/question.bmp) <!-- Fix reuse ID=a3 -->
         <!-- onsite--> There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
 
 3. Click **Add** under the list. The **Create New Role** dialog opens.
@@ -30,9 +30,9 @@ To create a role for associates in the company or for external users:
 5. Enter a description of the role in the **Description** field.
 
 6. Select one of the following options:
-    * Click the arrow (![icon](../media/pil-ned.bmp) ) next to the **Copy rights from**, and select the role you want to base the new role on.
+    * Click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) next to the **Copy rights from**, and select the role you want to base the new role on.
     * Or
-    * Click the arrow (![icon](../media/pil-ned.bmp) ) and select **Start with blank rights** to create the role from scratch.
+    * Click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) and select **Start with blank rights** to create the role from scratch.
 
 7. Click **Save**. The new role is displayed in the **Roles** list.
 

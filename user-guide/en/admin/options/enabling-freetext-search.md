@@ -13,7 +13,7 @@ language: en
 
 To enable the freetext search function:
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 2. Select the **Free text search** tab.
 3. Check **Enable freetext search**.
 

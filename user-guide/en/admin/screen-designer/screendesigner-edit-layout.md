@@ -209,7 +209,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png
-[img2]: ../media/btn-delete-admin.png
-[img3]: ../media/knapp-screendesigner-small.png
-[img4]: ../media/btn-move.png
-[img5]: ../media/btn-add2.png
+[img2]: ../../../media/icons/admin/btn-delete-admin.png
+[img3]: ../../../media/icons/admin/knapp-screendesigner-small.png
+[img4]: ../../../media/icons/admin/btn-move.png
+[img5]: ../../../media/icons/admin/btn-add2.png

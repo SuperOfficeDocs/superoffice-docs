@@ -52,7 +52,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
     * **Task**: select this option to make the URL address accessible from the **Task** button in the **Contact** screen.
 
     * **Menu**: select an option in this list box to make the URL accessible on one of the menus in SuperOffice CRM. <!-- Fix reuse ID=a5 -->
-      * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ( ![icon](../media/knapp-verktoey-liten.bmp) ) in the Navigator or selects **Other Applications** in SuperOffice CRM.
+      * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button ( ![icon](../../../media/icons/admin/knapp-verktoey-liten.bmp) ) in the Navigator or selects **Other Applications** in SuperOffice CRM.
       * **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.
 
 <!-- -->

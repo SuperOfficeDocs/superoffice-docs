@@ -19,7 +19,7 @@ Example: The internal category "Support" can then have an external category for 
 
 To create a new external category:
 
-1. Click the **Options** button in the Navigator (![icon](../../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 2. Select the **Customer languages** tab.
 3. Click the required language. The **Customer language** screen opens, containing information about that language.
 4. Click the **New external category** button. The **Edit external category** screen appears.
@@ -35,7 +35,7 @@ To create a new external category:
 
 To delete an external category, do as follows:
 
-1. Click the **Options** button in the Navigator (![icon](../../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 2. Select the **Customer languages** tab.
 3. Click the required language. The **Customer language** screen opens, containing information about that language.
 4. Click the required category name under **External categories**. The **Edit external category** screen appears.

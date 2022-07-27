@@ -18,8 +18,8 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 
 To change a standard template:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
-2. Click the arrow (![icon](../media/pil-ned.bmp)) and select **Document - Template**.  
+1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
+2. Click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp)) and select **Document - Template**.  
     All previously defined items for the selected list are displayed in the **Items** list.
 3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.
 4. Click the **Edit** button. The document opens in the correct application.

@@ -17,9 +17,9 @@ You always need to specify rules for handling duplicates during importing. You d
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.  
+2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.  
     Or:  
-    Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field-mapping.md)).
+    Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field-mapping.md)).
 
 3. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 

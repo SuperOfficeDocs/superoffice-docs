@@ -33,4 +33,4 @@ To add an IP address range:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../media/btn-delete-admin.png
+[img1]: ../../../media/icons/admin/btn-delete-admin.png

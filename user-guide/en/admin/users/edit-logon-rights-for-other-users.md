@@ -19,7 +19,7 @@ If an anonymous user or a system user is no longer to have the option of logging
 
 To do this:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
 2. Select the **Other users** tab. The list displays anonymous users and system users.
 3. In the list, select the active user who you want to remove login rights for, and click **Remove login** below the list. This user can then no longer log in to the system.
 
@@ -27,7 +27,7 @@ To do this:
 
 To do this:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
 2. Select the **Other users** tab. The list displays anonymous users and system users.
 3. In the list, double-click the user you want to activate.
 4. Select **Active** to the right of **Login** to activate the user.

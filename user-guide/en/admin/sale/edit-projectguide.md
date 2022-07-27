@@ -13,7 +13,7 @@ language: en
 
 To edit an existing project guide:
 
-1. Click the **Workflow** button in the Navigator (![icon](../media/knapp-arbeidsflyt-liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon](../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp)).
 2. Select the **Project guide** tab.
 3. Select the required project type in the list box at the top.
 4. You can also edit information on the project type and its statuses by clicking **Edit**. See [Add items to the Project - Status list](../lists/Adding-items-to-Project-Status-list.md).

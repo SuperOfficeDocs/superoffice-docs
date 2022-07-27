@@ -13,7 +13,7 @@ language: en
 
 The object of deleting stopwords is to include them in freetext searches after having excluded them. To delete a stopword from the list:
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 
 2. Select the **Free text search** tab.
 

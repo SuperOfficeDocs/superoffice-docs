@@ -24,10 +24,10 @@ To import an Excel spreadsheet with products into the SuperOffice database:
 * You can for instance contains these columns of data: In assortment, product code, name, description, product category, unit, list price, unit minimum price, cost, product name.
 * Make sure to add a unique product code for each row as a duplicate key.
 
-1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
+1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Import-liten.bmp) ).
 2. Click **Products** under **Select an import source**.
 3. In the **Import to price list**, select the price list to which you want to import the products.
-4. Click the Excel icon ( ![icon](../media/import-excel-small.bmp) ) under **Select an import source**. The **Upload file** dialog opens.
+4. Click the Excel icon ( ![icon](../../../media/icons/admin/import-excel-small.bmp) ) under **Select an import source**. The **Upload file** dialog opens.
 5. Click **Upload file** to select the Excel spreadsheet you want to import.
 6. Browse to the required Excel spreadsheet and click **Open**. The **File name** field shows the position and name of the file you have selected.
 7. Click **Save**. The data from the spreadsheet will be displayed in the table and the name of the import file will be shown at the bottom.
@@ -53,9 +53,9 @@ To do this:
     <!-- Fix reuse ID=a3 -->
     | Icon | Description |
     |---|---|
-    | ![icon](../media/import-warning.png) | There is a problem with the data on this row. See the explanation text in the table header. |
-    | ![icon](../media/import-preview-icon-Product-New.bmp) | The product does not already exist and will be added. |
-    | ![icon](../media/import-preview-icon-Product-Changed.bmp) | The product already exists and will be updated. |
+    | ![icon](../../../media/icons/admin/import-warning.png) | There is a problem with the data on this row. See the explanation text in the table header. |
+    | ![icon](../../../media/icons/admin/import-preview-icon-Product-New.bmp) | The product does not already exist and will be added. |
+    | ![icon](../../../media/icons/admin/import-preview-icon-Product-Changed.bmp) | The product already exists and will be updated. |
     | empty | No updating. |
 
 7. Remove the checks for the rows you do NOT want to import. If the Excel spreadsheet contained a heading row, you can remove it here.

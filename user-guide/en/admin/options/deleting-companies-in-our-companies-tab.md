@@ -23,7 +23,7 @@ If these two criteria are satisfied, you can delete companies as follows:
 
     <!-- Fix reuse ID=a1 -->
 
-    Click the **Options** button in the Navigator ( ![icon](../media/Knapp-Systemvalg-liten.bmp) ).
+    Click the **Options** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp) ).
 
 2. Select the **Our companies** tab.
 

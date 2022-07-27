@@ -55,7 +55,7 @@ Once you have created statuses and specified a project type for the project guid
 
 Do as follows:
 
-1. Click the **Workflow** button in the Navigator (![icon](../media/knapp-arbeidsflyt-liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon](../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp)).
 
 2. Select the **Project guide** tab.
 

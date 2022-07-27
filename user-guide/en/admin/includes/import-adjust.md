@@ -36,4 +36,4 @@ Rows without an icon will not be imported. If you can see that many contacts wil
 [3]: ../privacy/privacy.md
 
 <!-- Referenced images -->
-[img1]: ../media/import-preview-icon-company-new.bmp
+[img1]: ../../../media/icons/admin/import-preview-icon-company-new.bmp

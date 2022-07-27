@@ -15,9 +15,9 @@ language: en
 
 To edit a role:
 
-1. Click the **Roles** button in the Navigator (![icon](../media/Knapp-rolle-liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon](../../../media/icons/admin/Knapp-rolle-liten.bmp)).
 2. Choose the **Associates** or **External** tab.  
-    ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
+    ![icon](../../../media/icons/admin/question.bmp) <!-- Fix reuse ID=a2 -->
     See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
 3. In the list, double-click the role you want to edit. For more information about the predefined roles, see [Role](index.md).
 4. In the **Create New Role** dialog, change the name and description of the role as required and then click **Save**.

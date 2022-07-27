@@ -15,7 +15,7 @@ You can move a user from one company to another, if your organization consists o
 
 To move a user:
 
-1. Click the **Users** button in the Navigator (![icon](../media/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
 
 2. Select the **Associates** tab.
 
@@ -32,6 +32,6 @@ To move a user:
     * **Move all activities starting from**: Select this option if you want to transfer activities and sales starting after a specific date.
 
     > [!NOTE]
-    > If you want to see the results before you move the contact, click**Show results**![icon](../media/show-results.png):
+    > If you want to see the results before you move the contact, click**Show results**![icon](../../../media/icons/admin/show-results.png):
 
 7. Click **Move**. The user is moved to the specified company.

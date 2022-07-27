@@ -15,7 +15,7 @@ With custom screen layouts for each of your teams, finding customer data will be
 
 To create a new screen layout:
 
-1. Click the **Screen designer** button in the Navigator (![icon](../media/Knapp-ScreenDesigner-small.png)).
+1. Click the **Screen designer** button in the Navigator (![icon](../../../media/icons/admin/Knapp-ScreenDesigner-small.png)).
 
 2. Click **Company** or **Contact** at the top.
 

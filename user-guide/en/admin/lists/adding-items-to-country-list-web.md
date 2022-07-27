@@ -26,7 +26,7 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 
 4. In the **Postal prefix** field, specify the letter(s) used in front of the postcode when you write to the selected country from another country, for example, *N* for Norway.
 
-5. For each of the next three fields, click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required address format from the list. The same format will usually apply for all three fields, but, for some countries, it may be useful to vary the formats, depending on what you are using the address for:
+5. For each of the next three fields, click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required address format from the list. The same format will usually apply for all three fields, but, for some countries, it may be useful to vary the formats, depending on what you are using the address for:
     * **Visual address format**:  
         This is the usual format as it appears on screen in the **Company** screen in SuperOffice CRM. As a rule, it is sufficient to select a format only here.
     * **Printed address format (local)** and **(intl)**:  
@@ -34,7 +34,7 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 
 6. The **Company** screen in SuperOffice CRM contains a field labelled **VAT No.**, for recording the company’s VAT number or similar number. You can change this field label in Settings and maintenance. Type in the desired text in the **Organisation number field label** field, for example, *Org. nr* for Norway. When you enter a Norwegian company in SuperOffice CRM, the label for the company’s organisation number will be *Org. nr* instead of *VAT No.*.
 
-7. Click the arrow ( ![icon](../media/pil-ned.bmp) ) next to the **Currency** field and select a currency from the list.
+7. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) next to the **Currency** field and select a currency from the list.
 
     > [!NOTE]
     > These options are defined in the **General - Currency** list (see [General - Currency](Currency.md)).

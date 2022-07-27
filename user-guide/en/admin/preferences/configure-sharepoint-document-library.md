@@ -22,7 +22,7 @@ It will be possible to change some of the settings in the Wizard later
 
 To configure SharePoint document library, do the following:
 
-1. Click the **Preferences** button in the Navigator ( ![icon](../media/Knapp-Preferanser-liten.bmp) ).
+1. Click the **Preferences** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Preferanser-liten.bmp) ).
 2. Select the **Document library** tab.
 3. Click **Change**. The page is updated with information about the connected SharePoint site. The change is not yet complete.
 4. Click **Complete the change** to confirm that you want to use SharePoint as the default document library. The change is now complete.

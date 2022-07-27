@@ -19,9 +19,9 @@ Therefore the deletions you make in these tabs are not permanent. You can displa
 
 If you have deleted an item or a heading and later decide you do not want to remove it from the list in Settings and maintenance, you can undo your deletion in Settings and maintenance as follows:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
 
-2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list.
+2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list.
 
 3. Check **Show deleted items and headings**.
 

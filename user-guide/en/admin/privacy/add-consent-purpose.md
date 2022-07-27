@@ -13,7 +13,7 @@ language: en
 
 To create a new purpose:
 
-Click the **Privacy** button in the Navigator (![icon](../media/Knapp-Privacy-small.png)).
+Click the **Privacy** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Privacy-small.png)).
 
 Click **Add** below the list of purposes. The **Add purpose** dialog opens.
 

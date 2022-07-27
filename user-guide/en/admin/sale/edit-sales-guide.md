@@ -13,7 +13,7 @@ language: en
 
 To edit an existing sales guide:
 
-1. Click the **Workflow** button in the Navigator (![icon](../media/knapp-arbeidsflyt-liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon](../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp)).
 2. Select the **Sales guide** tab.
 3. Select the required sale type in the **Sale type** list box.
 4. Edit the information about the sale type and its stages by clicking **Edit**. See [Add items to the Sale - Stage list](../lists/Adding-items-to-Sale-Stage-list.md).

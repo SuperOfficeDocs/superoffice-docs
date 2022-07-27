@@ -17,7 +17,7 @@ To edit import descriptions:
 
     [!include[How to open import](../includes/open-import.md)]
 
-1. Click ![icon](../media/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens.
+1. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens.
 1. Make the necessary changes in the **Import** screen. The fields that are relevant for import descriptions are explained under [Create import descriptions](Creating-import-descriptions.md).
 1. When you have made the necessary changes, click the **Save** button.
 1. In the dialog which opens, enter the name you want to give the import description file. If you want to overwrite the old import description, provide the new file with the same name and location as the old one.

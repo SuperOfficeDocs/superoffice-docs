@@ -48,4 +48,4 @@ Check here if the users are to be able to edit the field and/or to be obliged to
 
 Order
 
-Click the ![icon](../media/pil-flyttned.bmp)![icon](../media/pil-flyttopp.bmp) arrows on the far right to choose the position of the field. This order is also used in the **Add/Edit product** dialog.
+Click the ![icon](../../../media/icons/admin/pil-flyttned.bmp)![icon](../../../media/icons/admin/pil-flyttopp.bmp) arrows on the far right to choose the position of the field. This order is also used in the **Add/Edit product** dialog.

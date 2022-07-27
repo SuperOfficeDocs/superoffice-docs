@@ -13,7 +13,7 @@ language: en
 
 To add a new list in the **Lists** screen:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
 
 2. Click the **Create list** button in the top right of the screen.
 

@@ -16,7 +16,7 @@ To add a stopword manually:
 > [!NOTE]
 > Instead of entering stopwords manually, you can let the system suggest stopwords for you. See [Suggest stopwords](Suggesting-stopwords.md).
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 
 2. Select the **Free text search** tab.
 

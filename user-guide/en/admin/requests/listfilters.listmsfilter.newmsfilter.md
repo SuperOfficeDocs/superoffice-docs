@@ -80,4 +80,4 @@ To create a new e-mail filter:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../media/btn-delete-admin.png
+[img1]: ../../../media/icons/admin/btn-delete-admin.png

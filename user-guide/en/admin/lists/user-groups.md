@@ -17,9 +17,9 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 ## Specify user groups for an item
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
 
-2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list.
+2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
@@ -28,22 +28,22 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 4. Select the required item in the **Items** list.
 
-5. Select a user group in the **Visible for user groups** list. All the user groups in the organisation are displayed here. Click the box next to the required user group to specify that the item will be visible to that group. The box will then be marked with a tick (![icon](../media/valgtboks.bmp)).
+5. Select a user group in the **Visible for user groups** list. All the user groups in the organisation are displayed here. Click the box next to the required user group to specify that the item will be visible to that group. The box will then be marked with a tick (![icon](../../../media/icons/admin/valgtboks.bmp)).
 
 6. Repeat steps 4 and 5 for each item you want to make visible for particular user groups.
 
 > [!NOTE]
 > When you add an item to the **Items** list, it will automatically be visible to all the user groups listed under **Visible for user groups**. You can, if required, remove the checks for the user groups you do not want the items to be visible to.
 
-You can select several user groups for one item. Click **Select all** (![icon](../media/velg-alle.bmp)) to select all the groups, or **Unselect all** (![icon](../media/fjern-alle.bmp)) to remove all selections.
+You can select several user groups for one item. Click **Select all** (![icon](../../../media/icons/admin/velg-alle.bmp)) to select all the groups, or **Unselect all** (![icon](../../../media/icons/admin/fjern-alle.bmp)) to remove all selections.
 
 ## Specify items for a user group
 
 You can also specify available items for a user group:
 
-1. Click the **Lists** button in the Navigator (![icon](../media/Knapp-Lister-liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
 
-2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list.
+2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 

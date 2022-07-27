@@ -18,7 +18,7 @@ When you add or delete new stopwords (see [Add stopwords](Adding-stopwords.md), 
 
 To regenerate the freetext index:
 
-1. Click the **Options** button in the Navigator (![icon](../media/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
 2. Select the **Free text search** tab.
 3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search](Enabling-freetext-search.md)).
 4. Click the **Regenerate Freetext Index** button.

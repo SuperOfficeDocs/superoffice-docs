@@ -16,7 +16,7 @@ language: en
 
 To select and configure outgoing video meetings:
 
-1. Click the **Preferences** button in the Navigator ( ![icon](../media/Knapp-Preferanser-liten.bmp) ).
+1. Click the **Preferences** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Preferanser-liten.bmp) ).
 
 2. Select the **Video meetings** tab.
 

@@ -20,7 +20,7 @@ If you want a list with two levels, you need to select headings for each individ
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
     > If this field is empty, you need to add headings first. This is described under [Add headings](Adding-headings-web.md).
@@ -29,7 +29,7 @@ If you want a list with two levels, you need to select headings for each individ
 
 4. Check **Use grouping and user group filtering for this list** in the top right.
 
-5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon](../media/valgtboks.bmp)).
+5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon](../../../media/icons/admin/valgtboks.bmp)).
 
 The changes are saved automatically.
 
@@ -40,7 +40,7 @@ The changes are saved automatically.
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon](../media/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
     > If this field is empty, you need to add headings first. This is described under [Add headings](Adding-headings-web.md).

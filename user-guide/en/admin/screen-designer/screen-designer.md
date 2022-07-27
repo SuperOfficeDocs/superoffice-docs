@@ -11,7 +11,7 @@ language: en
 
 # Screen designer
 
- ![icon](../media/Knapp-ScreenDesigner.png)
+ ![icon](../../../media/icons/admin/Knapp-ScreenDesigner.png)
 
 Screen designer (configurable screens) requires the Developer Tools licence.
 

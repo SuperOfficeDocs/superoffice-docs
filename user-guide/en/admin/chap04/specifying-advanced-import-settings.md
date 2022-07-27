@@ -22,7 +22,7 @@ To specify advanced import settings:
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../media/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens.
+2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens.
 
 3. Click the **Advanced** button. The **Advanced options** dialog opens.
 

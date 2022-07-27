@@ -7,7 +7,7 @@
 | empty | No updating. |
 
 <!-- Referenced images -->
-[img1]: ../media/import-preview-icon-company-new.bmp
-[img2]: ../media/import-preview-icon-company-changed.bmp
-[img3]: ../media/import-preview-icon-person-new.bmp
-[img4]: ../media/import-preview-icon-person-changed.bmp
+[img1]: ../../../media/icons/admin/import-preview-icon-company-new.bmp
+[img2]: ../../../media/icons/admin/import-preview-icon-company-changed.bmp
+[img3]: ../../../media/icons/admin/import-preview-icon-person-new.bmp
+[img4]: ../../../media/icons/admin/import-preview-icon-person-changed.bmp

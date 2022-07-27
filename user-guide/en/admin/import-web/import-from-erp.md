@@ -18,10 +18,10 @@ This is how to proceed when importing actors (customers, suppliers and individua
 ## A. Select actors to be imported from the ERP system
 
 > [!NOTE]
-> If the **ERP Sync** icon ( ![icon](../media/import-ERP-small.bmp) ) is inactive, you must turn off synchronisation in **Quote/Sync** &gt; **Sync** tab.
+> If the **ERP Sync** icon ( ![icon](../../../media/icons/admin/import-ERP-small.bmp) ) is inactive, you must turn off synchronisation in **Quote/Sync** &gt; **Sync** tab.
 
-1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../media/Knapp-Import-liten.bmp) ).
-2. Click the **ERP Sync** icon ( ![icon](../media/import-ERP-small.bmp) ) under **Select an import source**. The **Select ERP connection** dialog opens.
+1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Import-liten.bmp) ).
+2. Click the **ERP Sync** icon ( ![icon](../../../media/icons/admin/import-ERP-small.bmp) ) under **Select an import source**. The **Select ERP connection** dialog opens.
 3. In the **ERP connection** list, select the connection you want to import from (see [Sync](../quote-sync/quotesync-tab-sync.md)).
 4. In the **Actor type** list, select what you want to import. These might, for example, be customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
