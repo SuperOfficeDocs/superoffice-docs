@@ -133,14 +133,14 @@ items:
     href: options/adding-stopwords.md
   - name: Adding system events
     href: options/adding-system-events.md
-  - name: Admin listCustLangs
-    href: options/admin.listcustlangs.md
-  - name: Admin listCustLangs editCustLang
-    href: options/admin.listcustlangs.editcustlang.md
-  - name: Admin listCustLangs selectlanguage
-    href: options/admin.listcustlangs.selectlanguage.md
-  - name: Admin listCustLangs workWithExternaCategories
-    href: options/admin.listcustlangs.workwithexternacategories.md
+  - name: Customer languages
+    href: options/custlangs/index.md
+  - name: editCustLang
+    href: options/custlangs/editcustlang.md
+  - name: selectlanguage
+    href: options/custlangs/selectlanguage.md
+  - name: workWithExternaCategories
+    href: options/custlangs/workwithexternacategories.md
   - name: Available time zones web
     href: options/available-time-zones-web.md
   - name: Changing labels web
@@ -176,7 +176,7 @@ items:
   - name: Number allocation
     href: options/number-allocation.md
   - name: Options
-    href: options/options.md
+    href: options/index.md
   - name: Our companies web
     href: options/our-companies-web.md
   - name: Regenerating a freetext index

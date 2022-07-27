@@ -27,7 +27,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | [![icon](../media/Knapp-ScreenDesigner.png)](../Screen-designer/Screen-designer.md) | [Screen designer](../Screen-designer/Screen-designer.md) |
 | [![icon](../media/Knapp-Preferanser.bmp)](../preferences/Preferences.md) | [Preferences](../preferences/Preferences.md) |
 | [![icon][img1]][2]] | [Chat][2] |
-| [![icon](../media/Knapp-Systemvalg.bmp)](../options/Options.md) | [Options](../options/Options.md) |
+| [![icon](../media/Knapp-Systemvalg.bmp)](../options/index.md) | [Options](../options/index.md) |
 | [![icon](../media/Knapp-Import.bmp)](../import-web/Import-web.md) | [Import](../import-web/Import-web.md) |
 | [![icon](../media/Knapp-Felt.bmp)](../fields-web/Fields-web.md) | [Fields](../fields-web/Fields-web.md) |
 | ![icon](../media/Knapp-CRMScript.bmp) | [CRMScript][1] |

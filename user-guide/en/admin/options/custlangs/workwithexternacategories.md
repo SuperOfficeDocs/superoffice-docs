@@ -43,4 +43,4 @@ To delete an external category, do as follows:
 
 ## What would you like to do now?
 
-[Work with customer languages](admin.listCustLangs.editCustLang.md)
+[Work with customer languages](custlangs/editcustlang.md)
