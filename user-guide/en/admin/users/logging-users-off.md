@@ -17,7 +17,7 @@ If a user is denied access to SuperOffice CRM, e.g. following a program crash, t
 2. Select the **Associates** tab.
 3. Select the required company in the **Company** list box.
 4. Select **Logged-on to Windows client** in the list box below the list of users.
-5. Select the required user in the list of users (see [Users](Users.md)).
+5. Select the required user in the list of users (see [Users](index.md)).
 6. Click the **Task** button and select **Log user off**. The user is logged off.
 
 > [!NOTE]

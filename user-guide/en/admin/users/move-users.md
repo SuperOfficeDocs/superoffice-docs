@@ -19,7 +19,7 @@ To move a user:
 
 2. Select the **Associates** tab.
 
-3. Select the required user in the list of users (see [Users](Users.md)). The user's information is displayed in the preview section on the right.
+3. Select the required user in the list of users (see [Users](index.md)). The user's information is displayed in the preview section on the right.
 
 4. Click **Task** and select **Move user**. The **Move user** dialog opens.
 

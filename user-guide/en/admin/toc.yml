@@ -249,7 +249,7 @@ items:
   - name: User licences
     href: users/user-licences.md
   - name: Users
-    href: users/users.md
+    href: users/index.md
   - name: Users associates filter group
     href: users/users-associates-filter-group.md
   - name: Visibility

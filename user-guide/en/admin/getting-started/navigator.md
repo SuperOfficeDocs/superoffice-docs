@@ -16,7 +16,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 | Button | Function |
 |:-:|---|
 | [![icon](../media/Knapp-Lisenser.bmp)](../licenses/Licences-screen.md) | **Licences**: On the **SUPEROFFICE** tab you can download new licence information for your version of SuperOffice CRM and associated modules. On the **Status** tab you can view database information and system notifications. |
-| [![icon](../media/Knapp-Brukere.bmp)](../users/Users.md) | **Users**: opens the **Users** screen, where you can define IDs, passwords, user groups, roles and various access options. On the **Our companies** tab you can add companies in addition to your main company. |
+| [![icon](../media/Knapp-Brukere.bmp)](../users/index.md) | **Users**: opens the **Users** screen, where you can define IDs, passwords, user groups, roles and various access options. On the **Our companies** tab you can add companies in addition to your main company. |
 | [![icon](../media/Knapp-rolle.bmp)](../role/Role.md) | **Roles**: opens the **Roles** screen, where you can define roles for accessing data and functions in SuperOffice CRM. The users' access levels are determined by the role they belong to. |
 | [![icon](../media/Knapp-Privacy.png)](../privacy/privacy.md) | **Privacy**: opens the **Privacy** screen, where you can define settings for privacy and consent in SuperOffice CRM. |
 | [![icon](../media/Knapp-SAINT.bmp)](../options/Status-monitor.md) | **SAINT**: opens the screen for status monitors (Sales Intelligence), where you can create statuses for companies and projects. |

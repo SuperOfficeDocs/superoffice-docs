@@ -16,7 +16,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | Icon | Section |
 |:-:|---|
 | [![icon](../media/Knapp-Lisenser.bmp)](../licenses/Licences-screen.md) | [Licences](../licenses/Licences-screen.md) |
-| [![icon](../media/Knapp-Brukere.bmp)](../users/Users.md) | [Users](../users/Users.md) |
+| [![icon](../media/Knapp-Brukere.bmp)](../users/index.md) | [Users](../users/index.md) |
 | [![icon](../media/Knapp-rolle.bmp)](../role/Role.md) | [Roles](../role/Role.md) |
 | [![icon](../media/Knapp-Privacy.png)](../privacy/privacy.md) | [Privacy](../privacy/privacy.md) |
 | [![icon](../media/Knapp-SAINT.bmp)](../options/Status-monitor.md) | [Status monitoring/SAINT](../options/Status-monitor.md) |

@@ -11,7 +11,7 @@ language: en
 
 # User group filtering
 
-SuperOffice CRM users belong to different user groups depending on what type of rights they have. This is defined in the [**Users** screen](../users/Users.md).
+SuperOffice CRM users belong to different user groups depending on what type of rights they have. This is defined in the [**Users** screen](../users/index.md).
 
 When you specify an item in a list in the **Lists** screen, you can also specify which user groups the item will be visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
 

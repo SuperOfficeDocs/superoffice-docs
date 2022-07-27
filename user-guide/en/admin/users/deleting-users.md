@@ -17,7 +17,7 @@ To delete an existing user:
 
 2. Select the **Associates** tab.
 
-3. Select the required user in the list of users (see [Users](Users.md)).
+3. Select the required user in the list of users (see [Users](index.md)).
 
 4. Click the **Delete** button. You cannot delete users who are logged on.
 
