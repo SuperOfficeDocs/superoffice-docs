@@ -7,8 +7,8 @@
 | ![icon][img5] | All | Shows only entries in selection 1 and selection 2. |
 
 <!-- Referenced images -->
-[img1]: ../standardcrm/media/selection-comb-onlyin1.png
-[img2]: ../standardcrm/media/selection-comb-onlyin2.png
-[img3]: ../standardcrm/media/selection-comb-common.png
-[img4]: ../standardcrm/media/selection-comb-diff.png
-[img5]: ../standardcrm/media/selection-comb-all.png
+[img1]: ../../../media/icons/selection-comb-onlyin1.png
+[img2]: ../../../media/icons/selection-comb-onlyin2.png
+[img3]: ../../../media/icons/selection-comb-common.png
+[img4]: ../../../media/icons/selection-comb-diff.png
+[img5]: ../../../media/icons/selection-comb-all.png

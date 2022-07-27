@@ -28,6 +28,8 @@ To change the **Completed** status of an activity:
 
 * Right-click the activity and choose **Completed**.
 
+    ![ Change Completed status of an activity -screenshot][img4]
+
 > [!NOTE]
 > You cannot edit completed activities until you have changed their **Completed** status.
 
@@ -39,3 +41,4 @@ To change the **Completed** status of an activity:
 [img1]: ../../../media/icons/utfoert.bmp
 [img2]: ../../../media/icons/salg-solgt-detaljkort.bmp
 [img3]: media/completed-activity.bmp
+[img4]: media/completed-activity-2.bmp
