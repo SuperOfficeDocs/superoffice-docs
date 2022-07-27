@@ -33,8 +33,8 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | ![icon](../media/Knapp-CRMScript.bmp) | [CRMScript][1] |
 | ![icon](../media/Knapp-requests.png) | [Requests](../requests/requests.md) |
 | ![icon](../media/Knapp-customercentre.png) | [Customer centre][3] |
-| ![icon](../media/Knapp-systemdesign.png) | [System design](../systemdesign/System-design.md) |
-| ![icon](../media/Knapp-AppStore.png)</a> | [App Store](https://online.superoffice.com/appstore) |
+| ![icon](../media/Knapp-systemdesign.png) | [System design][4] |
+| ![icon](../media/Knapp-AppStore.png) | [App Store](https://online.superoffice.com/appstore) |
 
 You can easily switch between these screens by clicking the buttons in the Navigator.
 
@@ -44,6 +44,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [1]: ../../user/service/automation/index.md
 [2]: ../../user/chat/index.md
 [3]: ../custcent/index.md
+[4]: ../systemdesign/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/chat-btn.png

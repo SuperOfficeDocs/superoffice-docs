@@ -570,23 +570,4 @@ items:
   - name: ScreenDesigner Edit layout
     href: screen-designer/screendesigner-edit-layout.md
 - name: Systemdesign
-  href: systemdesign/admin.listprofiles.md
-  items:
-  - name: Admin listProfiles
-    href: systemdesign/admin.listprofiles.md
-  - name: Blogic listDebugLog
-    href: systemdesign/blogic.listdebuglog.md
-  - name: Blogic listExtraMenus
-    href: systemdesign/blogic.listextramenus.md
-  - name: Blogic listExtraTables
-    href: systemdesign/blogic.listextratables.md
-  - name: Blogic listPackages
-    href: systemdesign/blogic.listpackages.md
-  - name: Blogic listScreenChoosers
-    href: systemdesign/blogic.listscreenchoosers.md
-  - name: Blogic listScreenDefinitions viewScreenDefinition
-    href: systemdesign/blogic.listscreendefinitions.viewscreendefinition.md
-  - name: Blogic listsWebpanels
-    href: systemdesign/blogic.listswebpanels.md
-  - name: System design
-    href: systemdesign/system-design.md
+  href: systemdesign/index.md
