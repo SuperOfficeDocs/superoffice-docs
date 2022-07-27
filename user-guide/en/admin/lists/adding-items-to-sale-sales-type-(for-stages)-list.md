@@ -44,7 +44,7 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 In the **Stages** tab, you do the following:
 
 1. In the **Stages used for this sale type** list, check off the stages you want to include for the sale type. This step is optional, but if you want to link the sale type to a sales guide, you should check at least two stages. For more details on how to create stages, see [Sale - Stage](Sale-Stage.md).
-2. Check **This sale type is linked to a guide** if you want all sales of this sale type to follow a [sales guide](../Sale/Sale.md).
+2. Check **This sale type is linked to a guide** if you want all sales of this sale type to follow a [sales guide](../Sale/index.md).
 3. If you wish, select **Suggest moving the sale into next stage automatically**. When all follow-ups and documents for a stage have been completed, you will be asked if you want to move to the next stage.
 4. Check **This sale type has stakeholders** if you want to allow linking of stakeholders to sales of this sale type. See [Sale - Stakeholder Role](Sale-Sales-role-(Stakeholders).md).
 

@@ -39,9 +39,9 @@ In the **Properties** tab, enter the following information:
 
 **Take ownership when replying**: If you check here, the user who replies to a request in this category, will be set as the owner of the request.
 
-**Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences](../preferences/Preferences.md), unless you select **User-defined**.
+**Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences](../preferences/index.md), unless you select **User-defined**.
 
-**Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences](../preferences/Preferences.md), unless you select **User-defined**.
+**Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences](../preferences/index.md), unless you select **User-defined**.
 
 **Merge outbound e-mails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
 

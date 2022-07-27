@@ -27,7 +27,7 @@ By default, the list in the **Associates** tab consists of the following columns
 * **First name**: The user’s first name.
 * **Last name**: The user’s last name.
 * **Primary group**: The primary group of the user.
-* **Role**: The role assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. See [Role](../role/Role.md).
+* **Role**: The role assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. See [Role](../role/index.md).
 * **User plan**: The user plan assigned to the user,
 * **Owning company**: The name of the organisation the user belongs to (defined as database owner).
 

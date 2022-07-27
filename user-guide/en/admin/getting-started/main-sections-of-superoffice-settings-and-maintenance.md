@@ -17,7 +17,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 |:-:|---|
 | [![icon](../media/Knapp-Lisenser.bmp)](../licenses/Licences-screen.md) | [Licences](../licenses/Licences-screen.md) |
 | [![icon](../media/Knapp-Brukere.bmp)](../users/index.md) | [Users](../users/index.md) |
-| [![icon](../media/Knapp-rolle.bmp)](../role/Role.md) | [Roles](../role/Role.md) |
+| [![icon](../media/Knapp-rolle.bmp)](../role/index.md) | [Roles](../role/index.md) |
 | [![icon](../media/Knapp-Privacy.png)](../privacy/privacy.md) | [Privacy](../privacy/privacy.md) |
 | [![icon](../media/Knapp-SAINT.bmp)](../options/Status-monitor.md) | [Status monitoring/SAINT](../options/Status-monitor.md) |
 | [![icon](../media/Knapp-AI.png)](../ai/AI-services.md) | [AI services](../ai/AI-services.md) |
@@ -25,7 +25,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | [![icon](../media/Knapp-QuoteSync.bmp)](../quote-sync/quote-sync.md) | [Quote/Sync](../quote-sync/quote-sync.md) |
 | [![icon](../media/Knapp-Arbeidsflyt.bmp)](../Sale/Workflow.md) | [Workflow](../Sale/Workflow.md) |
 | [![icon](../media/Knapp-ScreenDesigner.png)](../Screen-designer/Screen-designer.md) | [Screen designer](../Screen-designer/Screen-designer.md) |
-| [![icon](../media/Knapp-Preferanser.bmp)](../preferences/Preferences.md) | [Preferences](../preferences/Preferences.md) |
+| [![icon](../media/Knapp-Preferanser.bmp)](../preferences/index.md) | [Preferences](../preferences/index.md) |
 | [![icon][img1]][2]] | [Chat][2] |
 | [![icon](../media/Knapp-Systemvalg.bmp)](../options/index.md) | [Options](../options/index.md) |
 | [![icon](../media/Knapp-Import.bmp)](../import-web/Import-web.md) | [Import](../import-web/Import-web.md) |

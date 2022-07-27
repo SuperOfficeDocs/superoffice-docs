@@ -47,7 +47,7 @@ Access to other useful functions is also just a click away thanks to the **New**
 [8]: ../company/index.md
 [9]: ../person/index.md
 [10]: ../diary/index.md
-[11]: ../standardcrm/sale/sale.md
+[11]: ../standardcrm/sale/index.md
 [12]: ../standardcrm/quote/quote-main.md
 [13]: ../project/index.md
 [14]: ../selections/index.md

@@ -113,7 +113,7 @@ items:
   - name: Levels for preference settings
     href: preferences/levels-for-preference-settings.md
   - name: Preferences
-    href: preferences/preferences.md
+    href: preferences/index.md
   - name: Preferences tab
     href: preferences/preferences-tab.md
   - name: Setup 1 configure e mail setup in superoffice
@@ -254,7 +254,7 @@ items:
     href: users/users-associates-filter-group.md
   - name: Visibility
     href: users/visibility.md
-- name: Chap08
+- name: Lists
   href: lists/add-email-template.md
   items:
   - name: Add e mail template
@@ -520,8 +520,8 @@ items:
     href: requests/soapconf.md
   - name: Requests
     href: requests/requests.md
-- name: Rolle
-  href: role/create-role.md
+- name: Role
+  href: role/index.md
   items:
   - name: Create role
     href: role/create-role.md
@@ -531,12 +531,10 @@ items:
     href: role/edit-rights-for-anonymous-users.md
   - name: Editing a role
     href: role/editing-role.md
-  - name: Role
-    href: role/role.md
   - name: Set data rights for role
     href: role/set-data-rights-for-role.md
 - name: Sale
-  href: sale/create-new-project-guide.md
+  href: sale/index.md
   items:
   - name: Create new project guide
     href: sale/create-new-project-guide.md
@@ -552,8 +550,6 @@ items:
     href: sale/edit-sales-guide.md
   - name: Project
     href: sale/project.md
-  - name: Sale
-    href: sale/sale.md
   - name: Using document templates for multiple languages
     href: sale/using-document-templates-for-multiple-languages.md
   - name: Workflow

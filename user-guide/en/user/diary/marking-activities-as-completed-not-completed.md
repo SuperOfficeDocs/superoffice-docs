@@ -19,7 +19,7 @@ To change the **Completed** status of an activity:
 
 * Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
 
-    ![ Change Completed status of an activity -screenshot][img3]
+    ![Change Completed status of an activity -screenshot][img3]
 
 > [!TIP]
 > For more information about how to open activities, see the [Open follow-ups][1] and [Open documents][2] topics.
