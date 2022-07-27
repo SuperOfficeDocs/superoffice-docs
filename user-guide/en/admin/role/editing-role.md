@@ -19,7 +19,7 @@ To edit a role:
 2. Choose the **Associates** or **External** tab.  
     ![icon](../media/question.bmp) <!-- Fix reuse ID=a2 -->
     See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
-3. In the list, double-click the role you want to edit. For more information about the predefined roles, see [Role](Role.md).
+3. In the list, double-click the role you want to edit. For more information about the predefined roles, see [Role](index.md).
 4. In the **Create New Role** dialog, change the name and description of the role as required and then click **Save**.
 5. Edit the role's rights.  
     <!-- Fix reuse ID=a4 -->

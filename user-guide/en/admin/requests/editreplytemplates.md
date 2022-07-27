@@ -46,7 +46,7 @@ In the **Customers** tab, you have the following options:
 
 * **Reply template for new contacts**: Shows the reply template to send to new contacts at customers when they are first registered.
 
-* **Reply template for auto-reply**: Shows the reply template to be used to send standard auto-replies to contacts when e-mail from them is received. This value is overridden for individual mailboxes. See [Mailboxes](admin.listFilters.listFilters.md).
+* **Reply template for auto-reply**: Shows the reply template to be used to send standard auto-replies to contacts when e-mail from them is received. This value is overridden for individual mailboxes. See [Mailboxes](listFilters.listFilters.md).
 
 * **Reply template for sending password to contacts**: Shows the reply template to send to contacts when they ask to have their password sent to them.
 

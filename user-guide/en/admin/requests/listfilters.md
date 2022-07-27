@@ -17,12 +17,12 @@ In the **E-mail** screen, you control the mechanisms that manage inbound and out
 
 ## What would you like to find out more about?
 
-[Mailboxes](admin.listFilters.listFilters.md)
+[Mailboxes](listFilters.listFilters.md)
 
-[E-mail filter](admin.listFilters.listMSFilter.md)
+[E-mail filter](listFilters.listMSFilter.md)
 
-[Inbox for e-mail](admin.listFilters.viewInbox.md)
+[Inbox for e-mail](listFilters.viewInbox.md)
 
-[Outbox for e-mail](admin.listFilters.viewOutbox.md)
+[Outbox for e-mail](listFilters.viewOutbox.md)
 
-[Blocked e-mail](admin.listFilters.viewBlocked.md)
+[Blocked e-mail](listFilters.viewBlocked.md)

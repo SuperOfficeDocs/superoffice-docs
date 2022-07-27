@@ -22,7 +22,7 @@ items:
 - name: Quote detailcard
   href: quote-detailcard.md
 - name: Sale
-  href: sale.md
+  href: index.md
 - name: Salecard tab note
   href: salecard-tab-note.md
 - name: Sale screen section tabs

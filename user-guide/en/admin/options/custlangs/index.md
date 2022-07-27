@@ -11,7 +11,7 @@ language: en
 
 # Customer languages
 
-[!include[Requirement](../../includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 In the **Customer languages** screen is a list of the installed customer languages. From this screen you can configure the customer languages, making it easy to communicate with customers in different languages.
 
@@ -30,9 +30,9 @@ On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were pl
 * [Work with external categories][3]
 
 <!-- Referenced links -->
-[1]: custlangs/editcustlang.md
-[2]: custlangs/selectlanguage.md
-[3]: custlangs/workwithexternacategories.md
+[1]: editcustlang.md
+[2]: selectlanguage.md
+[3]: workwithexternacategories.md
 
 <!-- Referenced images -->
 [img1]: media/

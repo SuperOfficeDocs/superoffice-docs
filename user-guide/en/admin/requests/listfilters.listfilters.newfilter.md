@@ -54,7 +54,7 @@ To create a new mailbox:
 
 ## What would you like to do now?
 
-[Delete mailboxes](admin.listFilters.listFilters.deleteMailbox.md)
+[Delete mailboxes](listFilters.listFilters.deleteMailbox.md)
 
 <!-- Referenced links -->
 [1]:

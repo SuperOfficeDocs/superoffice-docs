@@ -13,14 +13,14 @@ language: en
 
 In this screen you can find various functions related to requests in SuperOffice Service. See the following topics:
 
-[Categories](admin.listCategories.md)
+[Categories](listCategories.md)
 
-[Priorities](admin.listPriorities.md)
+[Priorities](listPriorities.md)
 
-[Request status](admin.listTicketStatuses.md)
+[Request status](listTicketStatuses.md)
 
-[E-mail](admin.listFilters.md)
+[E-mail](listFilters.md)
 
-[System templates](admin.editReplyTemplates.md)
+[System templates](editReplyTemplates.md)
 
-[SOAP](admin.soapConf.md)
+[SOAP](soapConf.md)

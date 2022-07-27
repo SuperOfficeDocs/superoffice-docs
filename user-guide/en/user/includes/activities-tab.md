@@ -16,4 +16,4 @@ The columns of the **Activities** section tab contain the following information:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/utfoert.bmp
-[img2]: ../standardcrm/media/type-samtale.bmp
+[img2]: ../../../media/icons/type-samtale.bmp

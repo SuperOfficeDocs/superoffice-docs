@@ -21,8 +21,8 @@ Selecting **Requests** in the navigator and then the **Categories** tab, takes y
 
 ## What would you like to do now?
 
-[Create categories](admin.listCategories.newCategory.md)
+[Create categories](listCategories.newCategory.md)
 
-[Delete categories](admin.listCategories.deleteCategory.md)
+[Delete categories](listCategories.deleteCategory.md)
 
 [How to set up Get next request in queue](../../user/service/request/get-next-request-in-queue.md)
