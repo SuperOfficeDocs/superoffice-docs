@@ -31,6 +31,6 @@ To edit an existing selection:
 6. When you have made the required changes, click **Save** to close and save the changes. Click **Cancel** if you want to reject your changes.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
+[1]: ../getting-started/find-dialog.md
 
 <!-- Referenced images -->

@@ -16,6 +16,6 @@ If you have purchased a licence for SAINT, you can use statuses defined in Super
 [!include[Requirement](../includes/req-saint.md)]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/using-search-criteria.md
+[1]: ../getting-started/using-search-criteria.md
 
 <!-- Referenced images -->

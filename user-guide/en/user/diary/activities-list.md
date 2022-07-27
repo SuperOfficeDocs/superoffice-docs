@@ -60,7 +60,7 @@ If an activity is highlighted in red type, this means that its provisional date 
 [5]: creating-follow-ups-in-activities-list.md
 [6]: moving-between-activities-in-activities-list.md
 [7]: deleting-activities-in-activities-list.md
-[8]: ../standardcrm/key-functions/preferences.md
+[8]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png

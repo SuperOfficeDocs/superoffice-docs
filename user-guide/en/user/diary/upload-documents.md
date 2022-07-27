@@ -37,7 +37,7 @@ To quickly upload a document to SuperOffice CRM, do as follows:
 [3]: opening-documents.md
 [4]: editing-documents.md
 [5]: doc-checkoutin.md
-[6]: ../standardcrm/key-functions/web-tools.md
+[6]: ../getting-started/web-tools.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-notcompleted-small.png

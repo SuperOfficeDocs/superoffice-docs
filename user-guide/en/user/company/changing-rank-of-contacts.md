@@ -31,7 +31,7 @@ The changes you make here define the default ranking, which means that they will
 * [Configure columns][1]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/Changing-column-view.md
-[2]: ../standardcrm/key-functions/Sorting-lists.md
+[1]: ../getting-started/Changing-column-view.md
+[2]: ../getting-started/Sorting-lists.md
 
 <!-- Referenced images -->

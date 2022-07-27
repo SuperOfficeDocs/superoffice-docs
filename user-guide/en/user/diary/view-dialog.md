@@ -83,8 +83,8 @@ Closes the dialog without saving changes.
 [2]: viewing-views-for-entire-user-group.md
 [3]: using-group-view.md
 [4]: creating-appointments-for-associates.md
-[5]: ../standardcrm/key-functions/using-history-list.md
-[6]: ../standardcrm/key-functions/using-fastsearcher.md
+[5]: ../getting-started/using-history-list.md
+[6]: ../getting-started/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

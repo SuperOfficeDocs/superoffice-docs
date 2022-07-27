@@ -57,9 +57,9 @@ Click **Show count** at the bottom right of the section tab, to see how many rec
 * [Grouping lists][3]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
-[2]: ../standardcrm/key-functions/use-filters-in-section-tabs.md
-[3]: ../standardcrm/key-functions/sections-tabs-grouping-lists.md
+[1]: ../getting-started/find-dialog.md
+[2]: ../getting-started/use-filters-in-section-tabs.md
+[3]: ../getting-started/sections-tabs-grouping-lists.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/filter.bmp

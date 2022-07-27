@@ -31,7 +31,7 @@ Appointments can be displayed in the following places in SuperOffice CRM:
 The [Create appointments][2] topic describes how to create an appointment. Other aspects of appointments are explained in general under [Activities in SuperOffice CRM][4] and [Work with follow-ups][3].
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/preferences.md
+[1]: ../getting-started/preferences.md
 [2]: creating-appointments.md
 [3]: follow-ups-in-superoffice-crm.md
 [4]: index.md

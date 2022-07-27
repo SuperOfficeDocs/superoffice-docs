@@ -44,8 +44,8 @@ To delete a contact:
 [1]: ../person/contact-delete.md
 [2]: create-new-contacts.md
 [3]: merge-contacts.md
-[4]: ../standardcrm/key-functions/bulk-update.md
-[5]: ../standardcrm/key-functions/deleting-elements-in-crm.md
-[6]: ../standardcrm/key-functions/restore-deleted-companies-and-contacts.md
+[4]: ../getting-started/bulk-update.md
+[5]: ../getting-started/deleting-elements-in-crm.md
+[6]: ../getting-started/restore-deleted-companies-and-contacts.md
 
 <!-- Referenced images -->

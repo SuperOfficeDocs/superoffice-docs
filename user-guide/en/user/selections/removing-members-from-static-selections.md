@@ -38,8 +38,8 @@ If you only want to remove a specific members, do as follows:
 * [Add members to static selections][3]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
-[2]: ../standardcrm/key-functions/using-search-criteria.md
+[1]: ../getting-started/find-dialog.md
+[2]: ../getting-started/using-search-criteria.md
 [3]: adding-members-to-static-selections.md
 
 <!-- Referenced images -->

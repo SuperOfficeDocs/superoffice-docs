@@ -79,7 +79,7 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../standardcrm/media/question.bmp
+[img1]: ../../../media/icons/question.bmp
 [img2]: ../../../media/icons/pil-hoeyre.bmp
 [img3]: ../../../media/icons/pil-ned.bmp
 [img4]: ../../../media/icons/pil-opp.bmp

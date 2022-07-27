@@ -68,9 +68,9 @@ To create a new static or dynamic selection:
 
 <!-- Referenced links -->
 [1]: creating-combined-selections.md
-[2]: ../standardcrm/key-functions/using-search-criteria.md
+[2]: ../getting-started/using-search-criteria.md
 [3]: editing-selections.md
-[4]: ../standardcrm/key-functions/section-tabs.md
+[4]: ../getting-started/section-tabs.md
 [5]: performing-tasks-using-selections.md
 
 <!-- Referenced images -->

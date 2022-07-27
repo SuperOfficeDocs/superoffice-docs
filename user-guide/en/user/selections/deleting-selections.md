@@ -21,6 +21,6 @@ To delete an existing selection:
 4. When you are asked if you really want to delete the selection, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM][1].)
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/deleting-elements-in-crm.md
+[1]: ../getting-started/deleting-elements-in-crm.md
 
 <!-- Referenced images -->

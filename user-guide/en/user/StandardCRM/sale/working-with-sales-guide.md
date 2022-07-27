@@ -70,4 +70,4 @@ This is how you perform the sales process:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../media/question.bmp
+[img2]: ../../../../media/icons/question.bmp

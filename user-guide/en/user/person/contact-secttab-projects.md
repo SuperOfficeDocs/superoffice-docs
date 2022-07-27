@@ -29,7 +29,7 @@ For more details on how to manage projects, see [Project][2].
 * [Create projects][3]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/changing-column-view.md
+[1]: ../getting-started/changing-column-view.md
 [2]: ../project/index.md
 [3]: ../project/creating-projects.md
 

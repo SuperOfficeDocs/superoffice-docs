@@ -40,5 +40,5 @@ To add a project image:
     > To remove an active project image, click **Delete** to the left of the description.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/using-history-list.md
-[2]: ../standardcrm/key-functions/using-fastsearcher.md
+[1]: ../getting-started/using-history-list.md
+[2]: ../getting-started/using-fastsearcher.md

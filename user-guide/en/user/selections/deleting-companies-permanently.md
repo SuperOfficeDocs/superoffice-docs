@@ -28,6 +28,6 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
 [!include[Note about restore](../includes/note-restore.md)]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
+[1]: ../getting-started/find-dialog.md
 
 <!-- Referenced images -->

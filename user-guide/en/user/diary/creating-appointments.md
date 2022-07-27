@@ -27,7 +27,7 @@ Regardless of which method you use, the **Appointment** dialog opens and this is
 <!-- Referenced links -->
 [1]: creating-appointments-using-diary.md
 [2]: dialog-for-followups.md
-[3]: ../standardcrm/key-functions/buttons-in-menu-bar.md
+[3]: ../getting-started/buttons-in-menu-bar.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

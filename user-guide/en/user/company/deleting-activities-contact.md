@@ -20,6 +20,6 @@ To delete an activity in the **Activities** section tab:
 5. When asked if you really want to delete the activity, click **Yes**. (For more details, see [Delete items in SuperOffice CRM][1].)
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/deleting-elements-in-crm.md
+[1]: ../getting-started/deleting-elements-in-crm.md
 
 <!-- Referenced images -->

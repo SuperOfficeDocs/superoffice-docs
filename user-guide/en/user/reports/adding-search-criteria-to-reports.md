@@ -34,6 +34,6 @@ To add search criteria to reports:
 
 <!-- Referenced links -->
 [1]: adding-favourite-reports.md
-[2]: ../standardcrm/key-functions/using-search-criteria.md
+[2]: ../getting-started/using-search-criteria.md
 
 <!-- Referenced images -->

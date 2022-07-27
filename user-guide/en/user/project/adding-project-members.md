@@ -31,6 +31,6 @@ You do this as follows:
 6. Click **Save**. The contacts are added to the sale/project you have specified.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
+[1]: ../getting-started/find-dialog.md
 
 <!-- Referenced images -->

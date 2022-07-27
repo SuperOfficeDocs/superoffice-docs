@@ -33,7 +33,7 @@ For more details on how to manage projects, see [Project][1].
 <!-- Referenced links -->
 [1]: ../project/index.md
 [2]: ../project/creating-projects.md
-[3]: ../standardcrm/key-functions/changing-column-view.md
+[3]: ../getting-started/changing-column-view.md
 
 <!-- Referenced images -->
 [img1]: media/projects-detail.bmp

@@ -50,7 +50,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 <!-- Referenced links -->
 [1]: selection-tab-company-contact.md
-[2]: ../standardcrm/key-functions/use-column-filters-in-section-tabs.md
+[2]: ../getting-started/use-column-filters-in-section-tabs.md
 [3]: removing-members-from-static-selections.md
 [4]: create-selections.md
 

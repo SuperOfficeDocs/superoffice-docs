@@ -21,8 +21,8 @@ Do as follows:
 4. Double-click a product to change the quantity, discounts, etc. For more details, see [Add/edit a product in the quote][2].
 
 <!-- Referenced links -->
-[1]: ../key-functions/Find-dialog.md
+[1]: ../../getting-started/Find-dialog.md
 [2]: quote-add-edit-product.md
 
 <!-- Referenced images -->
-[img1]: ../../media/globalmenu-search.png
+[img1]: ../../../../media/icons/globalmenu-search.png

@@ -42,7 +42,7 @@ To see an example of how to edit and delete search criteria in a report, see [Ed
 
 <!-- Referenced links -->
 [1]: adding-favourite-reports.md
-[2]: ../standardcrm/key-functions/using-search-criteria.md
+[2]: ../getting-started/using-search-criteria.md
 [3]: example-change-search-criteria.md
 
 <!-- Referenced images -->

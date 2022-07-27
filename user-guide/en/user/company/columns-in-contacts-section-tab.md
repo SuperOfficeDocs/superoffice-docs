@@ -49,7 +49,7 @@ They will then be shown in a different colour. They are also shown in this way o
 <!-- Referenced links -->
 [1]: ../person/contact-create-contacts.md
 [2]: sending-email-to-contacts.md
-[3]: ../standardcrm/key-functions/changing-column-view.md
+[3]: ../getting-started/changing-column-view.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/binders.bmp

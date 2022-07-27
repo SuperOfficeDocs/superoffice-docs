@@ -38,7 +38,7 @@ The bottom of the **Contact** screen contains five default section tabs: **Activ
 [5]: ../company/merge-contacts.md
 [6]: contact-delete.md
 [7]: contact-send-email.md
-[8]: ../standardcrm/key-functions/search-options-in-crm.md
+[8]: ../getting-started/search-options-in-crm.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/pil-hoeyre.bmp

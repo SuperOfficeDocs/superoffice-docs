@@ -80,7 +80,7 @@ The bottom section of the dialog
 [4]: quote-create-order.md
 [5]: quote-approve.md
 [6]: quote-add-edit-product.md
-[7]: ../key-functions/Export-archives.md
+[7]: ../../getting-started/Export-archives.md
 
 <!-- Referenced images -->
 [img1]: ../media/quote-favorite-active.png

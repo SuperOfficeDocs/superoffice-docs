@@ -46,9 +46,9 @@ To do this:
 * [Disable synchronisation][3]
 
 <!-- Referenced links -->
-[1]: ../key-functions/Find-dialog.md
+[1]: ../../getting-started/Find-dialog.md
 [2]: ERP-create-new-actor.md
 [3]: ERP-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]: ../../media/globalmenu-search.png
+[img1]: ../../../../media/icons/globalmenu-search.png

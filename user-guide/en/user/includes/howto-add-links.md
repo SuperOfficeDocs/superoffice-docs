@@ -10,4 +10,4 @@
 A dot on the **Link** tab header indicates that a link has been added to the sale.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/using-history-list.md
+[1]: ../getting-started/using-history-list.md

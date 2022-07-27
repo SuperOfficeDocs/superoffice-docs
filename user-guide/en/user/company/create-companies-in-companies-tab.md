@@ -47,7 +47,7 @@ language: en
 If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, asking you if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog. This is to prevent you from unintentionally registering an existing company. See [Duplicates][1].
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/duplicates.md
+[1]: ../getting-started/duplicates.md
 
 <!-- Referenced images -->
 [img1]: media/newcompany.bmp

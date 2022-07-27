@@ -21,6 +21,6 @@ See [Bulk update][2] for the rest of this procedure.
 
 <!-- Referenced links -->
 [1]: performing-tasks-using-selections.md
-[2]: ../standardcrm/key-functions/bulk-update.md
+[2]: ../getting-started/bulk-update.md
 
 <!-- Referenced images -->

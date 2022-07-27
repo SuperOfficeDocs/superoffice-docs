@@ -35,7 +35,7 @@ You do this as follows:
 To remove one or more stakeholders from the sale, select them and click the **Remove** button below the section tab. In the dialog that appears, click **Yes**.
 
 <!-- Referenced links -->
-[1]: ../key-functions/Find-dialog.md
+[1]: ../../getting-started/Find-dialog.md
 [2]: Create-stakeholders.md
 
 <!-- Referenced images -->

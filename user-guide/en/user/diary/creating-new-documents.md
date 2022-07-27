@@ -98,7 +98,7 @@ To do this:
 <!-- Referenced links -->
 [1]: upload-documents.md
 [2]: document-dialog.md
-[3]: ../standardcrm/key-functions/web-tools.md
+[3]: ../getting-started/web-tools.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png

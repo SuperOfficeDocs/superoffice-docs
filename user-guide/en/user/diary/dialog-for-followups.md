@@ -107,8 +107,8 @@ These fields show the date when the follow-up was first created and when it was 
 [9]: video-meetings.md
 [10]: time-zones.md
 [11]: marking-activities-as-completed-not-completed.md
-[12]: ../standardcrm/key-functions/using-fastsearcher.md
-[13]: ../standardcrm/key-functions/preferences.md
+[12]: ../getting-started/using-fastsearcher.md
+[13]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

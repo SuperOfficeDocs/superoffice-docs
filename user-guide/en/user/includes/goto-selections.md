@@ -5,5 +5,5 @@ There are several ways to open the **Selection** screen:
 * By double-clicking on a selection in a search result.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/using-history-list.md
-[2]: ../standardcrm/key-functions/using-fastsearcher.md
+[1]: ../getting-started/using-history-list.md
+[2]: ../getting-started/using-fastsearcher.md

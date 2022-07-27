@@ -42,7 +42,7 @@ To copy the company:
 > Activities, sales, interests, project membership and selection membership are not copied.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
+[1]: ../getting-started/find-dialog.md
 [2]: editing-companies.md
 
 <!-- Referenced images -->

@@ -65,7 +65,7 @@ There are simple rules for members of selections.
 
 <!-- Referenced links -->
 [1]: creating-static-selections.md
-[2]: ../standardcrm/key-functions/find-dialog.md
+[2]: ../getting-started/find-dialog.md
 [3]: copying-into-selections.md
 [4]: performing-tasks-using-selections.md
 

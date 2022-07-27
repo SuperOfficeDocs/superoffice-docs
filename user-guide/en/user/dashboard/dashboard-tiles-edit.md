@@ -22,7 +22,7 @@ To edit an existing tile:
 7. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/using-search-criteria.md
+[1]: ../getting-started/using-search-criteria.md
 [2]: ../standardcrm/translate-fields.md
 
 <!-- Referenced images -->

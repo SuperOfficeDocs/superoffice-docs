@@ -27,7 +27,7 @@ In the view, you have these options:
 
 ## Export a price list
 
-You can export an open price list by clicking ![icon](../media/Excel-export.bmp) **Export** at the bottom of the **SuperOffice products** tab. If you only want to export some products, you can select them in the price list. If you do not select any products, all the products in the price list are exported.
+You can export an open price list by clicking ![icon](../../../media/icons/excel-export.bmp) **Export** at the bottom of the **SuperOffice products** tab. If you only want to export some products, you can select them in the price list. If you do not select any products, all the products in the price list are exported.
 
 <!-- Fix reuse ID=a1 -->
 

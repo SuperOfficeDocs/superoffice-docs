@@ -30,6 +30,6 @@ The **Activities** section tab in the **Company** screen contains all the activi
 [2]: deleting-activities-contact.md
 [3]: replying-to-email-from-activities-section-tab.md
 [4]: forwarding-email-from-activities-section-tab.md
-[5]: ../standardcrm/key-functions/use-filters-in-section-tabs.md
+[5]: ../getting-started/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->

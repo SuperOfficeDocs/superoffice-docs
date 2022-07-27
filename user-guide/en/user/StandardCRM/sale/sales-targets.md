@@ -68,7 +68,7 @@ Click the **Task** button to export the sales target for the selected year to Ex
 <!-- Referenced links -->
 [1]: ../../dashboard/index.md
 [2]: ../../dashboard/dashboard-tiles-sales-targets.md
-[3]: ../key-functions/Freetext-search.md
+[3]: ../../getting-started/Freetext-search.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-mainmenu-small.png

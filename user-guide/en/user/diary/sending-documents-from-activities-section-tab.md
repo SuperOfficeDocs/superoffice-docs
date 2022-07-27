@@ -40,7 +40,7 @@ language: en
 3. Click **Send** to send the message.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/using-fastsearcher.md
-[2]: ../standardcrm/key-functions/using-history-list.md
+[1]: ../getting-started/using-fastsearcher.md
+[2]: ../getting-started/using-history-list.md
 
 <!-- Referenced images -->

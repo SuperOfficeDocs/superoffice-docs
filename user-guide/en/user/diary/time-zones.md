@@ -46,7 +46,7 @@ The time zone list is sorted by country. At the top of the list is the name of t
 
 <!-- Referenced links -->
 [1]: diary.md
-[2]: ../standardcrm/key-functions/using-fastsearcher.md
+[2]: ../getting-started/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/time-zone-local.bmp

@@ -47,7 +47,7 @@ To do this:
 * [Merge companies][2]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
+[1]: ../getting-started/find-dialog.md
 [2]: ../company/merge-companies.md
 [3]: editing-projects.md
 

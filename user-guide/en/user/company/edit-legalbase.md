@@ -48,6 +48,6 @@ To edit the privacy settings for a contact, do as follows:
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/customer/inspiration?category=GDPR
-[2]: ../standardcrm/key-functions/bulk-update.md
+[2]: ../getting-started/bulk-update.md
 
 <!-- Referenced images -->

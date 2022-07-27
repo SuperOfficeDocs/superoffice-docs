@@ -21,7 +21,7 @@ To do this:
 4. When you are asked if you really want to delete the sale, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM][1].)
 
 <!-- Referenced links -->
-[1]: ../key-functions/Deleting-elements-in-CRM.md
+[1]: ../../getting-started/deleting-elements-in-crm.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

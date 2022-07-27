@@ -43,7 +43,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 [1]: removing-members-from-static-selections.md
 [2]: performing-tasks-using-selections.md
 [3]: create-selections.md
-[4]: ../standardcrm/key-functions/use-filters-in-section-tabs.md
+[4]: ../getting-started/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png

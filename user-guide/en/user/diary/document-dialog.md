@@ -119,7 +119,7 @@ Below these options are shortcuts to other relevant tasks that can be performed 
 [3]: links-tab-document.md
 [4]: more-tab-document.md
 [5]: creating-new-documents.md
-[6]: ../standardcrm/key-functions/using-fastsearcher.md
+[6]: ../getting-started/using-fastsearcher.md
 [7]: marking-activities-as-completed-not-completed.md
 [8]: doc-checkoutin.md
 [9]: ../company/creating-shortcuts-to-entries-in-crm.md

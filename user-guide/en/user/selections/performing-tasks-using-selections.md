@@ -63,11 +63,11 @@ The following tasks are available under these categories:
 * [Delete selections][14]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/find-dialog.md
+[1]: ../getting-started/find-dialog.md
 [2]: create-mailings.md
 [3]: sending-email-to-several-recipients-simultaneously.md
 [4]: generating-follow-ups.md
-[5]: ../standardcrm/key-functions/bulk-update.md
+[5]: ../getting-started/bulk-update.md
 [6]: copying-selections.md
 [7]: copying-into-selections.md
 [8]: creating-combined-selections.md

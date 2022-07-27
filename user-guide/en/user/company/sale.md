@@ -29,7 +29,7 @@ Click the **Filter** button ( ![icon][img2] ) to filter the list by date, users 
 If you check **Include stakeholders** at the bottom of the section tab, sales where the company is involved as a stakeholder are also displayed. See [Stakeholders][3].
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/changing-column-view.md
+[1]: ../getting-started/changing-column-view.md
 [2]: ../standardcrm/sale/sale.md
 [3]: ../standardcrm/sale/stakeholders.md
 [4]: using-filter-function-contact.md

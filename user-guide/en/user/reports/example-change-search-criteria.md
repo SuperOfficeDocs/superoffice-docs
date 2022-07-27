@@ -41,7 +41,7 @@ Now we are going to amend slightly the standard report criteria, so that you can
 For more information about search criteria and field types, see [Use search criteria][1].
 
 <!-- Referenced links -->
-[1]: ../standardcrm/key-functions/using-search-criteria.md
+[1]: ../getting-started/using-search-criteria.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/pil-hoeyre.bmp

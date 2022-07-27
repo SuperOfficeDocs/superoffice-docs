@@ -42,7 +42,7 @@ You can create a follow-up to appear, for example, on the activities list of all
 
 <!-- Referenced links -->
 [1]: performing-tasks-using-selections.md
-[2]: ../standardcrm/key-functions/using-history-list.md
-[3]: ../standardcrm/key-functions/using-fastsearcher.md
+[2]: ../getting-started/using-history-list.md
+[3]: ../getting-started/using-fastsearcher.md
 
 <!-- Referenced images -->
