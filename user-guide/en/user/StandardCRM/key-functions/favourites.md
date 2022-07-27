@@ -16,7 +16,7 @@ The Favourites function provides easy access to your favourite records, such as 
 > [!NOTE]
 > You can also add requests as favourites, and they will be available in the side panel.
 
-To add reports as favourites, see [Favourite reports](../reports/Favourite-reports.md).
+To add reports as favourites, see [Favourite reports](../../reports/Favourite-reports.md).
 
 ## Add record as a favourite
 

@@ -42,7 +42,7 @@ Click ![icon][img1] and **Reset** to reset the filter.
 
 To filter the list of members in the **Selection** screen, see [Filtering the List of Members](../../selections/List-of-Members.md#filtering-the-list-of-members).
 
-To filter the **Documents** section tab in the **Reports** screen, see [Use the Filter function in the Reports screen](../reports/Using-Filter-function-Reports.md).
+To filter the **Documents** section tab in the **Reports** screen, see [Use the Filter function in the Reports screen](../../reports/Using-Filter-function-Reports.md).
 
 [Grouping lists](Sections-tabs-Grouping-lists.md)
 

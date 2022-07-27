@@ -26,8 +26,8 @@ Label printing will come in handy, for example, when you have to send out letter
 
 <!-- Referenced links -->
 [1]: performing-tasks-using-selections.md
-[2]: ../standardcrm/reports/adding-label-formats.md
-[3]: ../standardcrm/reports/editing-label-formats.md
-[4]: ../standardcrm/reports/removing-label-formats.md
+[2]: ../reports/adding-label-formats.md
+[3]: ../reports/editing-label-formats.md
+[4]: ../reports/removing-label-formats.md
 
 <!-- Referenced images -->
