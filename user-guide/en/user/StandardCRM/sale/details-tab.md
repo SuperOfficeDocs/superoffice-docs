@@ -50,4 +50,4 @@ In the user-defined fields you can enter further information about the sale.
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../media/Chap07-sale/55-chap7-sale-new-details.bmp
+[img1]: ../media/chap07-sale/55-chap7-sale-new-details.bmp

@@ -55,7 +55,7 @@ The changes are saved automatically.
 
 ## What would you like to do now?
 
-[Add users](../chap07/Adding-users-web.md)
+[Add users](../users/Adding-users-web.md)
 
 <!-- Referenced links -->
 [1]:

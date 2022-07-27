@@ -14,7 +14,7 @@ language: en
 If you want a list with two levels, you need to select headings for each individual item in the **Items** list in the **Lists** screen. Alternatively, you can go to the **Headings** tab to specify available items for specific headings. Both methods are described below.
 
 > [!NOTE]
-> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences](../chap05/Preferences.md)).
+> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences](../preferences/Preferences.md)).
 
 ## Choose headings for a list item
 

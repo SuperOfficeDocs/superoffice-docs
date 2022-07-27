@@ -44,7 +44,7 @@ In the list on the right you can add product information. This can include:
 
 * Text field: Here you enter text and numbers, such as a product name, product code and VAT information.
 * Number field: Here you enter a number, such as cost price, minimum price and quantity.
-* Lists: Here you select alternatives from the list such as units, product type and product group. You can add more alternatives to these lists in the **Lists** screen [Add items to a list](../chap08/Adding-items.md)).
+* Lists: Here you select alternatives from the list such as units, product type and product group. You can add more alternatives to these lists in the **Lists** screen [Add items to a list](../lists/Adding-items.md)).
 * Lists with search options ( ![icon](../media/Soek.bmp) ): Here you can choose from list of recent records, enter text to start a search, or click the search button ![icon](../media/Soek.bmp) to initiate an advanced search.
 
 <!-- Fix reuse ID=a2 -->

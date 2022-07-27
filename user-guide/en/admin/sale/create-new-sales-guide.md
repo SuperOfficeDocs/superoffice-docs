@@ -22,7 +22,7 @@ Once you have done that, you can start designing the [sales guide](#create-guide
 
 ## <a id="create-stages" />A. Create stages for the sales guide
 
-A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../chap08/Adding-items-to-Sale-Stage-list.md).
+A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../lists/Adding-items-to-Sale-Stage-list.md).
 
 A sales guide for sales to new customers might include, for example, the stages "First meeting", "Quotation" and "Signing of contract".
 
@@ -30,7 +30,7 @@ Go to the next procedure to link the stages to a sale type.
 
 ## <a id="create-type" />B. Create a sale type for the sales guide
 
-A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../chap08/Adding-items-to-Sale-Sales-type-(for-stages)-list.md).
+A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../lists/Adding-items-to-Sale-Sales-type-(for-stages)-list.md).
 
 Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cross-sale to existing customer".
 
@@ -148,7 +148,7 @@ To add documents to a stage:
 2. Click **Add** under **Suggested documents in stage**. The **Suggested document** dialog opens.
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Sales guide** section tab in SuperOffice CRM.
-5. Select the required template in the **Template** field (see also [Document - Template](../chap08/Document-template.md)).
+5. Select the required template in the **Template** field (see also [Document - Template](../lists/Document-template.md)).
 6. Enter the subject to be used in the document in the **Default subject** field.
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for sales number, sales title or another field relating to the sale.
 8. Click **Save** to save your changes in Settings and maintenance.

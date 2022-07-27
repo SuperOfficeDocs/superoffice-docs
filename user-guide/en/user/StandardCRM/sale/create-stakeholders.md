@@ -15,7 +15,7 @@ To link the sale to stakeholders:
 
 1. Go to the required sale in the **Sale** screen. (See [Use the Find screen][1].)
 
-2. Select the **Stakeholders** section tab.  
+2. Select the **Stakeholders** section tab.
     <!-- Fix reuse ID=a1 -->
     If this section tab is not displayed, it needs to be specified in SuperOffice Settings and maintenance that this sales type has stakeholders.
 
@@ -41,7 +41,7 @@ To link the sale to stakeholders:
     > [!NOTE]
     > If the required name is not in the list, you must first create the contact. See [Create new contacts][3].
 
-8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.  
+8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
     A company/contact can be added as a stakeholder multiple times if different roles are specified in each case.
 
 9. In the large text box under **Comments**, enter a more detailed description of the company’s or contact's function within the sale, if required.
@@ -64,4 +64,4 @@ To link the sale to stakeholders:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp
 [img2]: ../../../../media/icons/pil-hoeyre.bmp
-[img3]: ../media/Chap07-sale/chap7-add-stakeholders.bmp
+[img3]: ../media/chap07-sale/chap7-add-stakeholders.bmp

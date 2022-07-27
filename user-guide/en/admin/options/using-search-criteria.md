@@ -145,7 +145,7 @@ In the list box, select the field you want to search for information in. The fie
     **SAINT type**: Here you choose the activity type you want to search for.
     **With status**: Here you choose the status of the sale you want to search for.
     **Direction**: Here you can choose whether the activity is incoming or outgoing.
-    **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class](../chap08/Sale-Amount-class.md).
+    **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class](../lists/Sale-Amount-class.md).
     **Intention**: Here you choose the intention of the activity.
 
     Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.

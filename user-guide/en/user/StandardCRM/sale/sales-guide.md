@@ -31,4 +31,4 @@ You can preview documents and activities in the **Preview** view in the side pan
 [3]: Example-salesguide.md
 
 <!-- Referenced images -->
-[img1]: ../media/Chap07-sale/60-chap7-salesguide-first-meeting.bmp
+[img1]: ../media/chap07-sale/60-chap7-salesguide-first-meeting.bmp

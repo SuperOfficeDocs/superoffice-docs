@@ -80,4 +80,4 @@ language: en
 [4]: CreateSale-LinksTab.md
 
 <!-- Referenced images -->
-[img1]: ../media/Chap07-sale/54-chap7-sale-new.bmp
+[img1]: ../media/chap07-sale/54-chap7-sale-new.bmp

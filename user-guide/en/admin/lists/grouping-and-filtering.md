@@ -19,7 +19,7 @@ SuperOffice CRM contains many default lists with even more list items. As you ad
 In Settings and maintenance, you can specify for most predefined and all user-defined lists that they should be grouped.
 
 > [!NOTE]
-> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences](../chap05/Preferences.md)).
+> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences](../preferences/Preferences.md)).
 
 To specify that a list should be grouped:
 

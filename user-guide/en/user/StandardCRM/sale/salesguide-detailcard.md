@@ -42,8 +42,8 @@ Once a follow-up or document has been created, you can subsequently delete or ed
 [1]: Working-with-sales-guide.md
 
 <!-- Referenced images -->
-[img1]: ../media/Chap07-sale/58-chap7-completed-salestage.bmp
-[img2]: ../media/Chap07-sale/57-chap7-current-salestage.bmp
-[img3]: ../media/Chap07-sale/59-chap7-future-salestage.bmp
-[img4]: ../media/Chap07-sale/77-chap7-create-button.bmp
-[img5]: ../media/Chap07-sale/78-chap7-right-click.bmp
+[img1]: ../media/chap07-sale/58-chap7-completed-salestage.bmp
+[img2]: ../media/chap07-sale/57-chap7-current-salestage.bmp
+[img3]: ../media/chap07-sale/59-chap7-future-salestage.bmp
+[img4]: ../media/chap07-sale/77-chap7-create-button.bmp
+[img5]: ../media/chap07-sale/78-chap7-right-click.bmp

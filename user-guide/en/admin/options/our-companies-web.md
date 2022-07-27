@@ -21,7 +21,7 @@ The company list consists of the following columns:
 * **Company name**: shows the company’s name.
 * **Department**: shows the name of the department in the company.
 * **City**: shows where the company is located.
-* **Associates**: shows how many associates have been created for the company. Associates are added in the **Users** screen. For more details, see the main [Users](../chap07/Users.md) topic.
+* **Associates**: shows how many associates have been created for the company. Associates are added in the **Users** screen. For more details, see the main [Users](../users/Users.md) topic.
 * **Active satellite**: shows whether the company is recorded as an active satellite.
 
 ## What would you like to do now?

@@ -26,7 +26,7 @@ To complete the fields in the **Edit list item** dialog when the items are follo
 
 4. In the **Colour** field, choose which background colour this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organisation.
 
-5. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT](../chap06/Status-monitor.md)).
+5. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT](../options/Status-monitor.md)).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance. Follow the procedure under [Add items](Adding-items.md).

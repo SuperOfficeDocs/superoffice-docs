@@ -11,7 +11,7 @@ language: en
 
 # Licences
 
-[Click here for more information about the **Status** tab in the **Licences** screen](../chap01/Status-tab.md).
+[Click here for more information about the **Status** tab in the **Licences** screen](../getting-started/Status-tab.md).
 
 In the **SUPEROFFICE** tab in the **Licences** screen, you can display and update the licence information for your version of SuperOffice CRM and associated modules.
 

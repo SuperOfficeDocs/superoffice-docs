@@ -48,8 +48,8 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 [img1]: ../../../../media/icons/salg-utsatt.bmp
 [img2]: ../../../../media/icons/salg-tapt.bmp
 [img3]: ../media/salg-apent.bmp
-[img4]: ../media/Chap07-sale/72-chap7-sale-open.bmp
-[img5]: ../media/Chap07-sale/73-chap7-sale-stalled.bmp
-[img6]: ../media/Chap07-sale/74-chap7-sale-lost.bmp
+[img4]: ../media/chap07-sale/72-chap7-sale-open.bmp
+[img5]: ../media/chap07-sale/73-chap7-sale-stalled.bmp
+[img6]: ../media/chap07-sale/74-chap7-sale-lost.bmp
 [img7]: ../media/Salg-solgt.bmp
-[img8]: ../media/Chap07-sale/75-chap7-sale-sold.bmp
+[img8]: ../media/chap07-sale/75-chap7-sale-sold.bmp

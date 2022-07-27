@@ -50,7 +50,7 @@ You can then add these fields to the **Company** screen:
 |---|---|---|
 | Number of PCs | Number | A number field in which you can register the number of PCs. |
 | Number of employees | Number | A number field in which you can register the number of employees. |
-| Maintenance agreement | List | A list of the various types of maintenance agreement you offer. The list must [be created in the Lists screen](../chap08/Adding-user-defined-lists-web.md). |
+| Maintenance agreement | List | A list of the various types of maintenance agreement you offer. The list must [be created in the Lists screen](../lists/Adding-user-defined-lists-web.md). |
 | The contract expires | Date | A date field in which you can register the expiry date for the contract. |
 | Application A; Application B; Application C | Checkbox | Three checkboxes where you can check the applications that the customer has purchased. |
 

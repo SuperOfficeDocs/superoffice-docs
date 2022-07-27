@@ -44,7 +44,7 @@ You can filter the list of users by any of the column headers.
 You can group the list of users by role, user plan, primary group etc. In addition, you can group on multiple levels.
 
 > [!NOTE]
-> Right-click a column to add any additional columns you want to group by (see also [Adjust views](../chap01/Adjusting-views.md)).
+> Right-click a column to add any additional columns you want to group by (see also [Adjust views](../getting-started/Adjusting-views.md)).
 
 1. Go to the **Associates** tab.
 2. Right-click a column heading or click ![icon](../media/btn-settings.png) in the top-right corner of the list.
@@ -60,4 +60,4 @@ You can group the list of users by role, user plan, primary group etc. In additi
 
 ## Related topics
 
-[Adjust views](../chap01/Adjusting-views.md)
+[Adjust views](../getting-started/Adjusting-views.md)

@@ -32,7 +32,7 @@ Once you have done that, you can start designing the [project guide](#create-gui
 
 ## <a id="create-stage" /> A. Create statuses for the project guide
 
-A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../chap08/Adding-items-to-Project-Status-list.md).
+A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../lists/Adding-items-to-Project-Status-list.md).
 
 A project guide for a project of the Conference type might, for example, comprise the "Planned", "In progress" and "Closing" statuses.
 
@@ -40,7 +40,7 @@ Go to the next procedure to link the statuses to a project type.
 
 ## <a id="create-type" /> B. Create a project type for the project guide
 
-A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../chap08/Adding-items-to-Project-Type-list.md).
+A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../lists/Adding-items-to-Project-Type-list.md).
 
 Examples of project types: "Conference", "Campaign", "Internal".
 
@@ -159,7 +159,7 @@ To add documents to a status:
 2. Click **Add** under **Suggested documents in status**. The **Suggested document** dialog opens.
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Project guide** section tab in SuperOffice CRM.
-5. Select the required template in the **Template** field (see also [Document - Template](../chap08/Document-template.md)).
+5. Select the required template in the **Template** field (see also [Document - Template](../lists/Document-template.md)).
 6. Enter the subject to be used in the document in the **Default subject** field.
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for a project number, project title or another field relating to the project.
 8. Click **Save** to save your changes in Settings and maintenance.

@@ -11,7 +11,7 @@ language: en
 
 # Status monitors
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../chap03/Licences-screen.md).
+Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../licenses/Licences-screen.md).
 
 Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. <!-- Fix reuse ID=a11 -->Click here to see some examples of statuses. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
 

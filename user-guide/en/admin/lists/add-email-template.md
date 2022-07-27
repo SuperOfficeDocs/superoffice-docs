@@ -60,7 +60,7 @@ Enter the following information in the **Details** tab:
 
 6. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon](../media/pil-ned.bmp) ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
-7. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../chap06/Status-monitor.md)).
+7. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../options/Status-monitor.md)).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.

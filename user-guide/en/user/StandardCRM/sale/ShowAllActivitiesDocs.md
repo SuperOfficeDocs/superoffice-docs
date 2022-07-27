@@ -27,5 +27,5 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 [1]:
 
 <!-- Referenced images -->
-[img1]: ../media/Chap07-sale/79-chap7-activities-CurrentStage.bmp
-[img2]: ../media/Chap07-sale/80-chap7-activities-AllStages.bmp
+[img1]: ../media/chap07-sale/79-chap7-activities-CurrentStage.bmp
+[img2]: ../media/chap07-sale/80-chap7-activities-AllStages.bmp

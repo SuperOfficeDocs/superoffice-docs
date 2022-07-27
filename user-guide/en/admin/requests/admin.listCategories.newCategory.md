@@ -39,9 +39,9 @@ In the **Properties** tab, enter the following information:
 
 **Take ownership when replying**: If you check here, the user who replies to a request in this category, will be set as the owner of the request.
 
-**Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences](../chap05/Preferences.md), unless you select **User-defined**.
+**Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences](../preferences/Preferences.md), unless you select **User-defined**.
 
-**Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences](../chap05/Preferences.md), unless you select **User-defined**.
+**Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences](../preferences/Preferences.md), unless you select **User-defined**.
 
 **Merge outbound e-mails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
 
@@ -50,7 +50,7 @@ In the **Properties** tab, enter the following information:
 In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click **Add**.
 
 > [!TIP]
-> If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](../chap07/User-groups.md).
+> If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](../users/User-groups.md).
 
 In the **Assignment method** tab, enter the following information:
 

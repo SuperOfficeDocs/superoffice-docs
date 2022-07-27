@@ -46,9 +46,9 @@ Click **Save** when you are done.
 
 ## See also
 
-[Privacy - Legal basis](../chap08/Privacy-Legal-base.md)
+[Privacy - Legal basis](../lists/Privacy-Legal-base.md)
 
-[Privacy - Source](../chap08/Privacy-Source.md)
+[Privacy - Source](../lists/Privacy-Source.md)
 
 <!-- Referenced links -->
 [1]: ../../user/standardcrm/translate-fields.md

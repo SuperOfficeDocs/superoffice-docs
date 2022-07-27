@@ -1,57 +1,57 @@
 items:
-- name: Aiservices
-  href: aiservices/ai-services.md
+- name: ai
+  href: ai/ai-services.md
   items:
   - name: AI services
-    href: aiservices/ai-services.md
+    href: ai/ai-services.md
   - name: Categorization
-    href: aiservices/categorization.md
+    href: ai/categorization.md
   - name: Text analysis
-    href: aiservices/text-analysis.md
-- name: Chap01
-  href: chap01/adjusting-views.md
+    href: ai/text-analysis.md
+- name: Getting started
+  href: getting-started/adjusting-views.md
   items:
   - name: Adjusting views
-    href: chap01/adjusting-views.md
+    href: getting-started/adjusting-views.md
   - name: Admin web
-    href: chap01/admin-web.md
+    href: getting-started/admin-web.md
   - name: Admin win
-    href: chap01/admin-win.md
+    href: getting-started/admin-win.md
   - name: Backup routines
-    href: chap01/backup-routines.md
+    href: getting-started/backup-routines.md
   - name: Buttons web
-    href: chap01/buttons-web.md
+    href: getting-started/buttons-web.md
   - name: Buttons win
-    href: chap01/buttons-win.md
+    href: getting-started/buttons-win.md
   - name: Changing the language version web
-    href: chap01/changing-language-version-web.md
+    href: getting-started/changing-language-version-web.md
   - name: Log in to Windows Client settings
-    href: chap01/log-in-to-windows-client-settings.md
+    href: getting-started/log-in-to-windows-client-settings.md
   - name: Logging in to the Maintenance client
-    href: chap01/logging-in-to-maintenance-client.md
+    href: getting-started/logging-in-to-maintenance-client.md
   - name: Main sections of the Maintenance client
-    href: chap01/main-sections-of-maintenance-client.md
+    href: getting-started/main-sections-of-maintenance-client.md
   - name: Navigator
-    href: chap01/navigator.md
+    href: getting-started/navigator.md
   - name: Parameter examples
-    href: chap01/parameter-examples.md
+    href: getting-started/parameter-examples.md
   - name: Status screen
-    href: chap01/status-screen.md
+    href: getting-started/status-screen.md
   - name: The main sections of SuperOffice Settings and maintenance
-    href: chap01/main-sections-of-superoffice-settings-and-maintenance.md
+    href: getting-started/main-sections-of-superoffice-settings-and-maintenance.md
   - name: The Status tab
-    href: chap01/status-tab.md
+    href: getting-started/status-tab.md
   - name: Top bar
-    href: chap01/top-bar.md
-- name: Chap03
-  href: chap03/crm-and-licences.md
+    href: getting-started/top-bar.md
+- name: Licenses
+  href: licenses/crm-and-licences.md
   items:
   - name: CRM and licences
-    href: chap03/crm-and-licences.md
+    href: licenses/crm-and-licences.md
   - name: Editing licence information web
-    href: chap03/editing-licence-information-web.md
+    href: licenses/editing-licence-information-web.md
   - name: Licences screen
-    href: chap03/licences-screen.md
+    href: licenses/licences-screen.md
 - name: Chap04
   href: chap04/ansi-files.md
   items:
@@ -89,282 +89,282 @@ items:
     href: chap04/updating-rules-for-duplicate-handling.md
   - name: Updating the database
     href: chap04/updating-database.md
-- name: Chap05
-  href: chap05/active-settings.md
+- name: Preferences
+  href: preferences/active-settings.md
   items:
   - name: Active settings
-    href: chap05/active-settings.md
+    href: preferences/active-settings.md
   - name: Adding preference settings
-    href: chap05/adding-preference-settings.md
+    href: preferences/adding-preference-settings.md
   - name: Configure SharePoint document library
-    href: chap05/configure-sharepoint-document-library.md
+    href: preferences/configure-sharepoint-document-library.md
   - name: Configure video meetings
-    href: chap05/configure-video-meetings.md
+    href: preferences/configure-video-meetings.md
   - name: Deleting preference settings
-    href: chap05/deleting-preference-settings.md
+    href: preferences/deleting-preference-settings.md
   - name: Displaying different levels
-    href: chap05/displaying-different-levels.md
+    href: preferences/displaying-different-levels.md
   - name: Document library
-    href: chap05/document-library.md
+    href: preferences/document-library.md
   - name: Editing preference settings
-    href: chap05/editing-preference-settings.md
+    href: preferences/editing-preference-settings.md
   - name: Global preferences
-    href: chap05/global-preferences.md
+    href: preferences/global-preferences.md
   - name: Levels for preference settings
-    href: chap05/levels-for-preference-settings.md
+    href: preferences/levels-for-preference-settings.md
   - name: Preferences
-    href: chap05/preferences.md
+    href: preferences/preferences.md
   - name: Preferences tab
-    href: chap05/preferences-tab.md
+    href: preferences/preferences-tab.md
   - name: Setup 1 configure e mail setup in superoffice
-    href: chap05/setup-1-configure-email-setup-in-superoffice.md
+    href: preferences/setup-1-configure-email-setup-in-superoffice.md
   - name: Video meetings
-    href: chap05/video-meetings.md
+    href: preferences/video-meetings.md
   - name: Viewing preferences in SuperOffice CRM
-    href: chap05/viewing-preferences-in-superoffice-crm.md
-- name: Chap06
-  href: chap06/activating-time-zones-web.md
+    href: preferences/viewing-preferences-in-superoffice-crm.md
+- name: Options
+  href: options/activating-time-zones-web.md
   items:
   - name: Activating time zones web
-    href: chap06/activating-time-zones-web.md
+    href: options/activating-time-zones-web.md
   - name: Adding companies in the Our companies tab web
-    href: chap06/adding-companies-in-our-companies-tab-web.md
+    href: options/adding-companies-in-our-companies-tab-web.md
   - name: Adding stopwords
-    href: chap06/adding-stopwords.md
+    href: options/adding-stopwords.md
   - name: Adding system events
-    href: chap06/adding-system-events.md
+    href: options/adding-system-events.md
   - name: Admin listCustLangs
-    href: chap06/admin.listcustlangs.md
+    href: options/admin.listcustlangs.md
   - name: Admin listCustLangs editCustLang
-    href: chap06/admin.listcustlangs.editcustlang.md
+    href: options/admin.listcustlangs.editcustlang.md
   - name: Admin listCustLangs selectlanguage
-    href: chap06/admin.listcustlangs.selectlanguage.md
+    href: options/admin.listcustlangs.selectlanguage.md
   - name: Admin listCustLangs workWithExternaCategories
-    href: chap06/admin.listcustlangs.workwithexternacategories.md
+    href: options/admin.listcustlangs.workwithexternacategories.md
   - name: Available time zones web
-    href: chap06/available-time-zones-web.md
+    href: options/available-time-zones-web.md
   - name: Changing labels web
-    href: chap06/changing-labels-web.md
+    href: options/changing-labels-web.md
   - name: Create new status web
-    href: chap06/create-new-status-web.md
+    href: options/create-new-status-web.md
   - name: Default values for new document templates web
-    href: chap06/default-values-for-new-document-templates-web.md
+    href: options/default-values-for-new-document-templates-web.md
   - name: Deleting companies in the Our companies tab
-    href: chap06/deleting-companies-in-our-companies-tab.md
+    href: options/deleting-companies-in-our-companies-tab.md
   - name: Deleting companies in the Our companies tab web
-    href: chap06/deleting-companies-in-our-companies-tab-web.md
+    href: options/deleting-companies-in-our-companies-tab-web.md
   - name: Deleting stopwords
-    href: chap06/deleting-stopwords.md
+    href: options/deleting-stopwords.md
   - name: Edit description for status
-    href: chap06/edit-description-for-status.md
+    href: options/edit-description-for-status.md
   - name: Enabling freetext search
-    href: chap06/enabling-freetext-search.md
+    href: options/enabling-freetext-search.md
   - name: Example follow up description
-    href: chap06/example-follow-up-description.md
+    href: options/example-follow-up-description.md
   - name: Example status description
-    href: chap06/example-status-description.md
+    href: options/example-status-description.md
   - name: Example status monitors
-    href: chap06/example-status-monitors.md
+    href: options/example-status-monitors.md
   - name: Freetext search
-    href: chap06/freetext-search.md
+    href: options/freetext-search.md
   - name: Freetext search and Travel
-    href: chap06/freetext-search-and-travel.md
+    href: options/freetext-search-and-travel.md
   - name: Labels
-    href: chap06/labels.md
+    href: options/labels.md
   - name: Manage status monitors
-    href: chap06/manage-status-monitors.md
+    href: options/manage-status-monitors.md
   - name: Number allocation
-    href: chap06/number-allocation.md
+    href: options/number-allocation.md
   - name: Options
-    href: chap06/options.md
+    href: options/options.md
   - name: Our companies web
-    href: chap06/our-companies-web.md
+    href: options/our-companies-web.md
   - name: Regenerating a freetext index
-    href: chap06/regenerating-freetext-index.md
+    href: options/regenerating-freetext-index.md
   - name: Reports
-    href: chap06/reports.md
+    href: options/reports.md
   - name: Resetting labels
-    href: chap06/resetting-labels.md
+    href: options/resetting-labels.md
   - name: Restore deleted status web
-    href: chap06/restore-deleted-status-web.md
+    href: options/restore-deleted-status-web.md
   - name: Results of number allocation
-    href: chap06/results-of-number-allocation.md
+    href: options/results-of-number-allocation.md
   - name: Select default follow up type for status
-    href: chap06/select-default-follow-up-type-for-status.md
+    href: options/select-default-follow-up-type-for-status.md
   - name: Select image for status
-    href: chap06/select-image-for-status.md
+    href: options/select-image-for-status.md
   - name: Select period length
-    href: chap06/select-period-length.md
+    href: options/select-period-length.md
   - name: Select status criteria
-    href: chap06/select-status-criteria.md
+    href: options/select-status-criteria.md
   - name: Specifying number allocation
-    href: chap06/specifying-number-allocation.md
+    href: options/specifying-number-allocation.md
   - name: Specifying search criteria
-    href: chap06/specifying-search-criteria.md
+    href: options/specifying-search-criteria.md
   - name: Status monitor
-    href: chap06/status-monitor.md
+    href: options/status-monitor.md
   - name: Stopwords
-    href: chap06/stopwords.md
+    href: options/stopwords.md
   - name: Suggesting stopwords
-    href: chap06/suggesting-stopwords.md
+    href: options/suggesting-stopwords.md
   - name: System events
-    href: chap06/system-events.md
+    href: options/system-events.md
   - name: Timezones
-    href: chap06/timezones.md
+    href: options/timezones.md
   - name: Using search criteria
-    href: chap06/using-search-criteria.md
+    href: options/using-search-criteria.md
   - name: Viewing number allocation
-    href: chap06/viewing-number-allocation.md
-- name: Chap07
-  href: chap07/add-other-users.md
+    href: options/viewing-number-allocation.md
+- name: Users
+  href: users/add-other-users.md
   items:
   - name: Add other users
-    href: chap07/add-other-users.md
+    href: users/add-other-users.md
   - name: Adding users web
-    href: chap07/adding-users-web.md
+    href: users/adding-users-web.md
   - name: Associates
-    href: chap07/associates.md
+    href: users/associates.md
   - name: Delete other users
-    href: chap07/delete-other-users.md
+    href: users/delete-other-users.md
   - name: Deleting users
-    href: chap07/deleting-users.md
+    href: users/deleting-users.md
   - name: Edit logon rights for other users
-    href: chap07/edit-logon-rights-for-other-users.md
+    href: users/edit-logon-rights-for-other-users.md
   - name: Edit other users
-    href: chap07/edit-other-users.md
+    href: users/edit-other-users.md
   - name: Example grouping
-    href: chap07/example-grouping.md
+    href: users/example-grouping.md
   - name: Import users web
-    href: chap07/import-users-web.md
+    href: users/import-users-web.md
   - name: Logging users off
-    href: chap07/logging-users-off.md
+    href: users/logging-users-off.md
   - name: Move users
-    href: chap07/move-users.md
+    href: users/move-users.md
   - name: Other users
-    href: chap07/other-users.md
+    href: users/other-users.md
   - name: SuperOffice reports access rights
-    href: chap07/superoffice-reports-access-rights.md
+    href: users/superoffice-reports-access-rights.md
   - name: User groups
-    href: chap07/user-groups.md
+    href: users/user-groups.md
   - name: User licences
-    href: chap07/user-licences.md
+    href: users/user-licences.md
   - name: Users
-    href: chap07/users.md
+    href: users/users.md
   - name: Users associates filter group
-    href: chap07/users-associates-filter-group.md
+    href: users/users-associates-filter-group.md
   - name: Visibility
-    href: chap07/visibility.md
+    href: users/visibility.md
 - name: Chap08
-  href: chap08/add-email-template.md
+  href: lists/add-email-template.md
   items:
   - name: Add e mail template
-    href: chap08/add-email-template.md
+    href: lists/add-email-template.md
   - name: Adding a template web
-    href: chap08/adding-template-web.md
+    href: lists/adding-template-web.md
   - name: Adding external applications to the Application list
-    href: chap08/adding-external-applications-to-application-list.md
+    href: lists/adding-external-applications-to-application-list.md
   - name: Adding headings web
-    href: chap08/adding-headings-web.md
+    href: lists/adding-headings-web.md
   - name: Adding items
-    href: chap08/adding-items.md
+    href: lists/adding-items.md
   - name: Adding items to the Country list web
-    href: chap08/adding-items-to-country-list-web.md
+    href: lists/adding-items-to-country-list-web.md
   - name: Adding items to the Currency list
-    href: chap08/adding-items-to-currency-list.md
+    href: lists/adding-items-to-currency-list.md
   - name: Adding items to the Follow up   Type list
-    href: chap08/adding-items-to-follow-up-type-list.md
+    href: lists/adding-items-to-follow-up-type-list.md
   - name: Adding items to the Project   Status list
-    href: chap08/adding-items-to-project-status-list.md
+    href: lists/adding-items-to-project-status-list.md
   - name: Adding items to the Project   Type list
-    href: chap08/adding-items-to-project-type-list.md
+    href: lists/adding-items-to-project-type-list.md
   - name: Adding items to the Relation list
-    href: chap08/adding-items-to-relation-list.md
+    href: lists/adding-items-to-relation-list.md
   - name: Adding items to the Resource list
-    href: chap08/adding-items-to-resource-list.md
+    href: lists/adding-items-to-resource-list.md
   - name: Adding items to the Sale   Amount class list
-    href: chap08/adding-items-to-sale-amount-class-list.md
+    href: lists/adding-items-to-sale-amount-class-list.md
   - name: Adding items to the Sale   Sales type (for stages) list
-    href: chap08/adding-items-to-sale-sales-type-(for-stages)-list.md
+    href: lists/adding-items-to-sale-sales-type-(for-stages)-list.md
   - name: Adding items to the Sale   Stage list
-    href: chap08/adding-items-to-sale-stage-list.md
+    href: lists/adding-items-to-sale-stage-list.md
   - name: Adding items to the Webpanel list
-    href: chap08/adding-items-to-webpanel-list.md
+    href: lists/adding-items-to-webpanel-list.md
   - name: Adding user defined lists web
-    href: chap08/adding-user-defined-lists-web.md
+    href: lists/adding-user-defined-lists-web.md
   - name: Application
-    href: chap08/application.md
+    href: lists/application.md
   - name: Country
-    href: chap08/country.md
+    href: lists/country.md
   - name: Creating a template document
-    href: chap08/creating-template-document.md
+    href: lists/creating-template-document.md
   - name: Currency
-    href: chap08/currency.md
+    href: lists/currency.md
   - name: Deleted items and headings
-    href: chap08/deleted-items-and-headings.md
+    href: lists/deleted-items-and-headings.md
   - name: Deleting items
-    href: chap08/deleting-items.md
+    href: lists/deleting-items.md
   - name: Deleting user defined lists web
-    href: chap08/deleting-user-defined-lists-web.md
+    href: lists/deleting-user-defined-lists-web.md
   - name: Document template
-    href: chap08/document-template.md
+    href: lists/document-template.md
   - name: Duplicates
-    href: chap08/duplicates.md
+    href: lists/duplicates.md
   - name: Editing a list s name and description web
-    href: chap08/editing-list-s-name-and-description-web.md
+    href: lists/editing-list-s-name-and-description-web.md
   - name: Editing items
-    href: chap08/editing-items.md
+    href: lists/editing-items.md
   - name: Editing standard templates
-    href: chap08/editing-standard-templates.md
+    href: lists/editing-standard-templates.md
   - name: Email Template
-    href: chap08/email-template.md
+    href: lists/email-template.md
   - name: Follow up   Type
-    href: chap08/follow-up-type.md
+    href: lists/follow-up-type.md
   - name: Grouping and filtering
-    href: chap08/grouping-and-filtering.md
+    href: lists/grouping-and-filtering.md
   - name: Grouping items under headings
-    href: chap08/grouping-items-under-headings.md
+    href: lists/grouping-items-under-headings.md
   - name: Headings editing and deleting
-    href: chap08/headings-editing-and-deleting.md
+    href: lists/headings-editing-and-deleting.md
   - name: Headings web
-    href: chap08/headings-web.md
+    href: lists/headings-web.md
   - name: Items
-    href: chap08/items.md
+    href: lists/items.md
   - name: Lists web
-    href: chap08/lists-web.md
+    href: lists/lists-web.md
   - name: Privacy Legal base
-    href: chap08/privacy-legal-base.md
+    href: lists/privacy-legal-base.md
   - name: Privacy Legal base add
-    href: chap08/privacy-legal-base-add.md
+    href: lists/privacy-legal-base-add.md
   - name: Privacy Source
-    href: chap08/privacy-source.md
+    href: lists/privacy-source.md
   - name: Privacy Source add
-    href: chap08/privacy-source-add.md
+    href: lists/privacy-source-add.md
   - name: Project   Status
-    href: chap08/project-status.md
+    href: lists/project-status.md
   - name: Project   Type
-    href: chap08/project-type.md
+    href: lists/project-type.md
   - name: Relation
-    href: chap08/relation.md
+    href: lists/relation.md
   - name: Replace existing template
-    href: chap08/replace-existing-template.md
+    href: lists/replace-existing-template.md
   - name: Resource
-    href: chap08/resource.md
+    href: lists/resource.md
   - name: Sale   Amount class
-    href: chap08/sale-amount-class.md
+    href: lists/sale-amount-class.md
   - name: Sale   Sales role (Stakeholders)
-    href: chap08/sale-sales-role-(stakeholders).md
+    href: lists/sale-sales-role-(stakeholders).md
   - name: Sale   Sales type (for stages)
-    href: chap08/sale-sales-type-(for-stages).md
+    href: lists/sale-sales-type-(for-stages).md
   - name: Sale   Stage
-    href: chap08/sale-stage.md
+    href: lists/sale-stage.md
   - name: Specialized lists
-    href: chap08/specialized-lists.md
+    href: lists/specialized-lists.md
   - name: User groups
-    href: chap08/user-groups.md
+    href: lists/user-groups.md
   - name: Using standard templates
-    href: chap08/using-standard-templates.md
+    href: lists/using-standard-templates.md
   - name: Webpanel
-    href: chap08/webpanel.md
+    href: lists/webpanel.md
 - name: Chap09
   href: chap09/maximum-number-of-fields.md
   items:
@@ -523,20 +523,20 @@ items:
   - name: Requests
     href: requests/requests.md
 - name: Rolle
-  href: rolle/create-role.md
+  href: role/create-role.md
   items:
   - name: Create role
-    href: rolle/create-role.md
+    href: role/create-role.md
   - name: Deleting a role
-    href: rolle/deleting-role.md
+    href: role/deleting-role.md
   - name: Edit rights for anonymous users
-    href: rolle/edit-rights-for-anonymous-users.md
+    href: role/edit-rights-for-anonymous-users.md
   - name: Editing a role
-    href: rolle/editing-role.md
+    href: role/editing-role.md
   - name: Role
-    href: rolle/role.md
+    href: role/role.md
   - name: Set data rights for role
-    href: rolle/set-data-rights-for-role.md
+    href: role/set-data-rights-for-role.md
 - name: Sale
   href: sale/create-new-project-guide.md
   items:

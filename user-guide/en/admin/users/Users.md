@@ -21,7 +21,7 @@ In the **Users** screen you can add and edit different types of users:
 
 * **System users**: System users can log in to the system via third-party applications and have all rights. This user type is intended for integration purposes. The system user can be used to allow processes full access to the SuperOffice database for replicating diaries, for example.
 
-* **Our companies**: For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab. See [Our companies](../chap06/Our-companies-web.md).
+* **Our companies**: For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab. See [Our companies](../options/Our-companies-web.md).
 
 * In the **User licences** tab, you can see how many user licences are in use, and which users are using the various licences.
 
@@ -34,6 +34,6 @@ In the **Users** screen you can add and edit different types of users:
 
 [Look at associates](Associates.md)
 
-[Look at Our companies](../chap06/Our-companies-web.md)
+[Look at Our companies](../options/Our-companies-web.md)
 
 [Look at other users](Other-users.md)

@@ -15,7 +15,7 @@ In the **SuperOffice products** tab in the **Quote/Sync** screen, you can add pr
 
 In the **Price list** list, select the required price list. The products in the price list are shown at the bottom of the view.
 
-You can adjust this view as described in [Adjust views](../chap01/Adjusting-views.md).
+You can adjust this view as described in [Adjust views](../getting-started/Adjusting-views.md).
 
 In the view, you have these options:
 
@@ -31,10 +31,10 @@ You can export an open price list by clicking ![icon](../../../media/icons/excel
 
 <!-- Fix reuse ID=a1 -->
 
-Either you do not have access rights to the export function (see [Roles](../role/Role.md)), or this preference is not enabled (see [Preferences](../chap05/Preferences.md)).
+Either you do not have access rights to the export function (see [Roles](../role/Role.md)), or this preference is not enabled (see [Preferences](../preferences/Preferences.md)).
 
 > [!TIP]
-> Before you export the price list, it may be useful to select which columns you want and their order. See [Edit column view](../chap01/Adjusting-views.md#change-the-column-view).
+> Before you export the price list, it may be useful to select which columns you want and their order. See [Edit column view](../getting-started/Adjusting-views.md#change-the-column-view).
 
 ## What would you like to do now?
 

@@ -58,7 +58,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 To add quote attachments:
 
 1. Click **Add**. The **Find** dialog opens.
-2. Search for the document(s) you want to add. See [Use search criteria](../chap06/using-search-criteria.md).
+2. Search for the document(s) you want to add. See [Use search criteria](../options/using-search-criteria.md).
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 

@@ -25,7 +25,7 @@ This is how to proceed when importing actors (customers, suppliers and individua
 3. In the **ERP connection** list, select the connection you want to import from (see [Sync](../quote-sync/quotesync-tab-sync.md)).
 4. In the **Actor type** list, select what you want to import. These might, for example, be customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
-6. Search for the actors you want to import, such as all suppliers in a specific town. For more about search options, see [Use search criteria](../chap06/using-search-criteria.md).
+6. Search for the actors you want to import, such as all suppliers in a specific town. For more about search options, see [Use search criteria](../options/using-search-criteria.md).
 7. In the list of search results, select the rows you want to import.
 8. Click **Add Import**. The actors are displayed in Settings and maintenance.
 

@@ -40,7 +40,7 @@ To create a new mailbox:
 10. In the **Category** list box, select to which category the messages in this mailbox should belong.
 11. In the **Priority** list box, select which priority that requests from this mailbox should be given.
 12. <!-- onsite--> In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
-13. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer languages](../chap06/admin.listCustLangs.md).
+13. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer languages](../options/admin.listCustLangs.md).
 14. Check **Do not auto-reply** to disable the auto-reply function. See the note at the top of this topic.
 15. In the **E-mail fields** field, you can enter a comma-separated list of e-mail fields (headers) to be displayed in the request message, for example, To and Cc.
 16. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer.

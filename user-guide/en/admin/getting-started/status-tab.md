@@ -33,4 +33,4 @@ Administrators can keep track of exactly how much of each service has been used 
 
 ## System notifications
 
-This list shows status messages from the system and events that have been added (see below). Notifications of active imports, SAINT or freetext indexing, etc. Select a notification in the list to display a description. See [System events](../chap06/System-events.md).
+This list shows status messages from the system and events that have been added (see below). Notifications of active imports, SAINT or freetext indexing, etc. Select a notification in the list to display a description. See [System events](../options/System-events.md).

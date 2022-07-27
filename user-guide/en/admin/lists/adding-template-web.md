@@ -48,7 +48,7 @@ Enter the following information in the **Details** tab:
 
 3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-4. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../chap06/Status-monitor.md)).
+4. In the **Intention** field, click the arrow (![icon](../media/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../options/Status-monitor.md)).
 
     > [!TIP]
     >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.

@@ -11,7 +11,7 @@ language: en
 
 # Move users
 
-You can move a user from one company to another, if your organization consists of multiple companies registered in the [Our companies](../chap06/Our-companies-web.md) tab.If a user has been set up under the wrong company, or if they have changed positions/jobs within your organization, they can be moved, including their activities and sales.
+You can move a user from one company to another, if your organization consists of multiple companies registered in the [Our companies](../options/Our-companies-web.md) tab.If a user has been set up under the wrong company, or if they have changed positions/jobs within your organization, they can be moved, including their activities and sales.
 
 To move a user:
 

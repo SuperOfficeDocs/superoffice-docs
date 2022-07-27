@@ -22,7 +22,7 @@ These are two different purposes for obtaining a person's consent. In SuperOffic
 
 In the **Consent** tab in the **Privacy** screen (![icon](../media/Knapp-Privacy-small.png)) you can create and edit purposes. See [Add purpose](Add-consent-purpose.md).
 
-For each purpose, a legal basis and source of consent must be documented (this is done during import or in SuperOffice CRM for individual or multiple users). See [Privacy - Legal basis](../chap08/Privacy-Legal-base.md) and [Privacy - Source](../chap08/Privacy-Source.md).
+For each purpose, a legal basis and source of consent must be documented (this is done during import or in SuperOffice CRM for individual or multiple users). See [Privacy - Legal basis](../lists/Privacy-Legal-base.md) and [Privacy - Source](../lists/Privacy-Source.md).
 
 [Click here to learn more about GDPR, privacy and consent management in SuperOffice][1]
 
@@ -44,7 +44,7 @@ When a person is created in SuperOffice CRM, the legal basis for the purpose **S
 
 Select the option **Set default legal basis**, and select a legal basis in the list. All new persons will have this legal basis for the purpose **Sales and service**.
 
-[Add items to the Privacy - Legal basis list](../chap08/Privacy-Legal-base-add.md)
+[Add items to the Privacy - Legal basis list](../lists/Privacy-Legal-base-add.md)
 
 ## Filter recipients based on e-marketing consent and active subscriptions
 

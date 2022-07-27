@@ -31,4 +31,4 @@ For each stakeholder, information about company, contact name, role in the sale,
 [4]: ../../project/Sending-emails-to-project-members.md
 
 <!-- Referenced images -->
-[img1]: ../media/Chap07-sale/chap7-stakeholders.bmp
+[img1]: ../media/chap07-sale/chap7-stakeholders.bmp
