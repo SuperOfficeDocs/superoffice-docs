@@ -372,15 +372,13 @@ items:
     href: chap09/maximum-number-of-fields.md
   - name: User groups
     href: chap09/user-groups.md
-- name: Custcent
-  href: custcent/admin.listcustcenter.config.md
+- name: Customer centre
+  href: custcent/index.md
   items:
   - name: Admin listCustCenter config
-    href: custcent/admin.listcustcenter.config.md
+    href: custcent/config.md
   - name: Admin listCustCenter edit
-    href: custcent/admin.listcustcenter.edit.md
-  - name: Customer centre
-    href: custcent/customer-centre.md
+    href: custcent/edit.md
 - name: Fields web
   href: fields-web/adding-fields-web.md
   items:
