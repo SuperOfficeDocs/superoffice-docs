@@ -13,8 +13,12 @@ language: en
 
 Specific features of SuperOffice CRM are maintained via Windows Client settings. It consists of the following main parts, which you will quickly become familiar with:
 
-[The Status screen](Status-screen.md)
+[The Status screen][1]
+[Import][2]
 
-[Import](../chap04/Import.md)
+To read more about the features/modules available in the web-based maintenance client, see [The main sections of SuperOffice Settings and maintenance][3].
 
-To read more about the features/modules available in the web-based maintenance client, see [The main sections of SuperOffice Settings and maintenance](main-sections-of-SuperOffice-Settings-and-maintenance.md).
+<!-- Referenced links -->
+[1]: status-screen.md
+[2]: ../chap04/import.md
+[3]: main-sections-of-superoffice-settings-and-maintenance.md

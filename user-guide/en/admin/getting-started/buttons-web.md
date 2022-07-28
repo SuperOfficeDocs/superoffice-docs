@@ -15,6 +15,11 @@ The buttons in Settings and maintenance activate their associated functions with
 
 ## See also
 
-[The Navigator](navigator.md)
+* [The Navigator][1]
+* [The Top bar][2]
 
-[The Top bar](top-bar.md)
+<!-- Referenced links -->
+[1]: navigator.md
+[2]: top-bar.md
+
+<!-- Referenced images -->

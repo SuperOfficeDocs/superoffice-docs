@@ -13,7 +13,9 @@ language: en
 
 The following gives you examples of how to use the parameters.
 
-## Example with a central ODBC database with Data Source Name SuperOffice, not Travel
+## Example 1
+
+Example with a central ODBC database with Data Source Name SuperOffice, not Travel
 
 **SuperOffice.ini:**
 
@@ -23,7 +25,9 @@ Archivepath=\\Server\SuperOffice\SO-ARC
 Datapath=ODBC:SuperOffice
 ```
 
-## Example with a central ODBC database, Data Source Name Saleserver, document archive and templates in different locations and Travel installed with a local ODBC database (MSDE or Sybase)
+## Example 2
+
+Example with a central ODBC database, Data Source Name Saleserver, document archive and templates in different locations and Travel installed with a local ODBC database (MSDE or Sybase)
 
 **SuperOffice.ini:**
 
@@ -44,4 +48,9 @@ Local-datapath=ODBC:SuperOfficeLocal
 ```
 
 > [!TIP]
-> You can find the latest information about, among other things, settings in **SuperOffice.ini** and **SOUSER.INI** [in the onsite section](../../../../docs/onsite/travel/index.md).
+> You can find the latest information about, among other things, settings in **SuperOffice.ini** and **SOUSER.INI** [in the onsite section][1].
+
+<!-- Referenced links -->
+[1]: ../../../../docs/onsite/travel/index.md
+
+<!-- Referenced images -->

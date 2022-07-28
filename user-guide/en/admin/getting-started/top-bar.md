@@ -32,7 +32,6 @@ Wherever you are in the system, these options will appear at the top of the scre
 * **SuperOffice® CRM**: Click here to open SuperOffice CRM for Web.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-mainmenu.png

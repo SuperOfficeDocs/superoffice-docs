@@ -15,36 +15,72 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 
 | Icon | Section |
 |:-:|---|
-| [![icon](../../../media/icons/admin/Knapp-Lisenser.bmp)](../licenses/Licences-screen.md) | [Licences](../licenses/Licences-screen.md) |
-| [![icon](../../../media/icons/admin/Knapp-Brukere.bmp)](../users/index.md) | [Users](../users/index.md) |
-| [![icon](../../../media/icons/admin/Knapp-rolle.bmp)](../role/index.md) | [Roles](../role/index.md) |
-| [![icon](../../../media/icons/admin/Knapp-Privacy.png)](../privacy/index.md) | [Privacy](../privacy/index.md) |
-| [![icon](../../../media/icons/admin/Knapp-SAINT.bmp)](../options/Status-monitor.md) | [Status monitoring/SAINT](../options/Status-monitor.md) |
-| [![icon](../../../media/icons/admin/Knapp-AI.png)](../ai/index.md) | [AI services](../ai/index.md) |
-| [![icon](../../../media/icons/admin/Knapp-Lister.bmp)](../lists/Lists-web.md) | [Lists](../lists/Lists-web.md) |
-| [![icon](../../../media/icons/admin/Knapp-QuoteSync.bmp)](../quote-sync/quote-sync.md) | [Quote/Sync](../quote-sync/quote-sync.md) |
-| [![icon](../../../media/icons/admin/Knapp-Arbeidsflyt.bmp)](../Sale/Workflow.md) | [Workflow](../Sale/Workflow.md) |
-| [![icon](../../../media/icons/admin/Knapp-ScreenDesigner.png)](../Screen-designer/index.md) | [Screen designer](../Screen-designer/index.md) |
-| [![icon](../../../media/icons/admin/Knapp-Preferanser.bmp)](../preferences/index.md) | [Preferences](../preferences/index.md) |
-| [![icon][img1]][2]] | [Chat][2] |
-| [![icon](../../../media/icons/admin/Knapp-Systemvalg.bmp)](../options/index.md) | [Options](../options/index.md) |
-| [![icon](../../../media/icons/admin/Knapp-Import.bmp)](../import-web/Import-web.md) | [Import](../import-web/Import-web.md) |
-| [![icon](../../../media/icons/admin/Knapp-Felt.bmp)](../fields/index.md) | [Fields](../fields/index.md) |
-| ![icon](../../../media/icons/admin/Knapp-CRMScript.bmp) | [CRMScript][1] |
-| ![icon](../../../media/icons/admin/Knapp-requests.png) | [Requests](../requests/requests.md) |
-| ![icon](../../../media/icons/admin/Knapp-customercentre.png) | [Customer centre][3] |
-| ![icon](../../../media/icons/admin/Knapp-systemdesign.png) | [System design][4] |
-| ![icon](../../../media/icons/admin/Knapp-AppStore.png) | [App Store](https://online.superoffice.com/appstore) |
+| ![icon][img2] | [Licences][5] |
+| ![icon][img3] | [Users][6] |
+| ![icon][img4] | [Roles][7] |
+| ![icon][img5] | [Privacy][8] |
+| ![icon][img6] | [Status monitoring/SAINT][9] |
+| ![icon][img7] | [AI services][10] |
+| ![icon][img8] | [Lists][11] |
+| ![icon][img9] | [Quote/Sync][12] |
+| ![icon][img10] | [Workflow][13] |
+| ![icon][img11] | [Screen designer][14] |
+| ![icon][img12] | [Preferences][15] |
+| ![icon][img1]][2]] | [Chat][2] |
+| ![icon][img13] | [Options][16] |
+| ![icon][img14] | [Import][17] |
+| ![icon][img15] | [Fields][18] |
+| ![icon][img16] | [CRMScript][1] |
+| ![icon][img17] | [Requests][19] |
+| ![icon][img18] | [Customer centre][3] |
+| ![icon][img19] | [System design][4] |
+| ![icon][img20] | [App Store][21] |
 
 You can easily switch between these screens by clicking the buttons in the Navigator.
 
-To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings](Main-sections-of-Maintenance-client.md).
+To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings][20].
 
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md
 [2]: ../../user/chat/index.md
 [3]: ../custcent/index.md
 [4]: ../systemdesign/index.md
+[5]: ../licenses/licences-screen.md
+[6]: ../users/index.md
+[7]: ../role/index.md
+[8]: ../privacy/index.md
+[9]: ../options/status-monitor.md
+[10]: ../ai/index.md
+[11]: ../lists/lists-web.md
+[12]: ../quote-sync/quote-sync.md
+[13]: ../sale/workflow.md
+[14]: ../screen-designer/index.md
+[15]: ../preferences/index.md
+[16]: ../options/index.md
+[17]: ../import-web/import-web.md
+[18]: ../fields/index.md
+[19]: ../requests/requests.md
+[20]: main-sections-of-maintenance-client.md
+[21]: https://online.superoffice.com/appstore
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/chat-btn.png
+[img2]: ../../../media/icons/admin/knapp-lisenser.bmp
+[img3]: ../../../media/icons/admin/knapp-brukere.bmp
+[img4]: ../../../media/icons/admin/knapp-rolle.bmp
+[img5]: ../../../media/icons/admin/knapp-privacy.png
+[img6]: ../../../media/icons/admin/knapp-saint.bmp
+[img7]: ../../../media/icons/admin/knapp-ai.png
+[img8]: ../../../media/icons/admin/knapp-lister.bmp
+[img9]: ../../../media/icons/admin/knapp-quotesync.bmp
+[img10]: ../../../media/icons/admin/knapp-arbeidsflyt.bmp
+[img11]: ../../../media/icons/admin/knapp-screendesigner.png
+[img12]: ../../../media/icons/admin/knapp-preferanser.bmp
+[img13]: ../../../media/icons/admin/knapp-systemvalg.bmp
+[img14]: ../../../media/icons/admin/knapp-import.bmp
+[img15]: ../../../media/icons/admin/knapp-felt.bmp
+[img16]: ../../../media/icons/admin/knapp-crmscript.bmp
+[img17]: ../../../media/icons/admin/knapp-requests.png
+[img18]: ../../../media/icons/admin/knapp-customercentre.png
+[img19]: ../../../media/icons/admin/knapp-systemdesign.png
+[img20]: ../../../media/icons/admin/knapp-appstore.png
