@@ -15,4 +15,9 @@ In SuperOffice CRM, follow-ups is a collective term for the appointment, task an
 
 ## What would you like to do now?
 
-[Add items to the Follow-up - Type list](Adding-items-to-Follow-up-Type-list.md)
+* [Add items to the Follow-up - Type list][1]
+
+<!-- Referenced links -->
+[1]: adding-items-to-follow-up-type-list.md
+
+<!-- Referenced images -->

@@ -284,7 +284,7 @@ items:
   - name: Adding items to the Sale   Amount class list
     href: lists/adding-items-to-sale-amount-class-list.md
   - name: Adding items to the Sale   Sales type (for stages) list
-    href: lists/adding-items-to-sale-sales-type-(for-stages)-list.md
+    href: lists/sale-type-stages-quote.md
   - name: Adding items to the Sale   Stage list
     href: lists/adding-items-to-sale-stage-list.md
   - name: Adding items to the Webpanel list
@@ -310,7 +310,7 @@ items:
   - name: Duplicates
     href: lists/duplicates.md
   - name: Editing a list s name and description web
-    href: lists/editing-list-s-name-and-description-web.md
+    href: lists/editing-lists-name-and-description-web.md
   - name: Editing items
     href: lists/editing-items.md
   - name: Editing standard templates
@@ -352,9 +352,9 @@ items:
   - name: Sale   Amount class
     href: lists/sale-amount-class.md
   - name: Sale   Sales role (Stakeholders)
-    href: lists/sale-sales-role-(stakeholders).md
+    href: lists/sales-role-stakeholders.md
   - name: Sale   Sales type (for stages)
-    href: lists/sale-sales-type-(for-stages).md
+    href: lists/sales-type-for-stages.md
   - name: Sale   Stage
     href: lists/sale-stage.md
   - name: Specialized lists

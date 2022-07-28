@@ -22,9 +22,10 @@ To create a template document:
 3. Insert the template variables you want to use in the template, e.g. variables for name, address and telephone number, as described under [Template variables][1].
 4. Save the template document somewhere where you will be able to find it easily again.
 
-After you have defined a template and saved it in the template folder, you must link it to SuperOffice CRM in order to be able to use it when you create documents. For more details, see [Add a document template](Adding-template-web.md).
+After you have defined a template and saved it in the template folder, you must link it to SuperOffice CRM in order to be able to use it when you create documents. For more details, see [Add a document template][2].
 
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md
+[2]: adding-template-web.md
 
 <!-- Referenced images -->

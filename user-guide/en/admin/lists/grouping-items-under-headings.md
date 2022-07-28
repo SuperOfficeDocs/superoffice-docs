@@ -14,22 +14,22 @@ language: en
 If you want a list with two levels, you need to select headings for each individual item in the **Items** list in the **Lists** screen. Alternatively, you can go to the **Headings** tab to specify available items for specific headings. Both methods are described below.
 
 > [!NOTE]
-> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences](../preferences/index.md)).
+> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences][3]).
 
 ## Choose headings for a list item
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. Click the arrow ( ![icon][img2] ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
-    > If this field is empty, you need to add headings first. This is described under [Add headings](Adding-headings-web.md).
+    > If this field is empty, you need to add headings first. This is described under [Add headings][1].
 
 3. Select the required item in the **Items** list.
 
 4. Check **Use grouping and user group filtering for this list** in the top right.
 
-5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon](../../../media/icons/admin/valgtboks.bmp)).
+5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon][img4]).
 
 The changes are saved automatically.
 
@@ -40,10 +40,10 @@ The changes are saved automatically.
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. Click the arrow ( ![icon][img2] ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
-    > If this field is empty, you need to add headings first. This is described under [Add headings](Adding-headings-web.md).
+    > If this field is empty, you need to add headings first. This is described under [Add headings][1].
 
 3. Check **Use grouping and user group filtering for this list** in the top right.
 
@@ -59,4 +59,13 @@ The changes are saved automatically.
 
 ## See also
 
-[Organizing lists](Grouping-and-filtering.md).
+* [Organizing lists][2].
+
+<!-- Referenced links -->
+[1]: adding-headings-web.md
+[2]: grouping-and-filtering.md
+[3]: ../preferences/index.md
+
+<!-- Referenced images -->
+[img2]: ../../../media/icons/admin/pil-ned.bmp
+[img4]: ../../../media/icons/admin/valgtboks.bmp

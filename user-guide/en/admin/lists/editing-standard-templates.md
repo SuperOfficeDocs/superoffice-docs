@@ -18,16 +18,24 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 
 To change a standard template:
 
-1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
-2. Click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp)) and select **Document - Template**.  
+1. Click the **Lists** button in the Navigator (![icon][img1]).
+2. Click the arrow (![icon][img2]) and select **Document - Template**.
     All previously defined items for the selected list are displayed in the **Items** list.
 3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.
 4. Click the **Edit** button. The document opens in the correct application.
 5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
 
 > [!NOTE]
-> If you save a standard template with a new name, you have created a new template. You must link this template to SuperOffice CRM. For more details, see [Add a document template](Adding-template-web.md).
+> If you save a standard template with a new name, you have created a new template. You must link this template to SuperOffice CRM. For more details, see [Add a document template][1].
 
 ## What would you like to do now?
 
-[Create a template document](Creating-template-document.md)
+* [Create a template document][2]
+
+<!-- Referenced links -->
+[1]: adding-template-web.md
+[2]: creating-template-document.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
+[img2]: ../../../media/icons/admin/pil-ned.bmp

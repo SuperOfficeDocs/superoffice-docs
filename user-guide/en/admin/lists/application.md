@@ -18,13 +18,22 @@ You define which URL addresses will be available to users in the **Lists** scree
 > [!NOTE]
 > Files or applications that have to be run locally (for example exe files) are not accessible in SuperOffice CRM for Web.
 
-The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons to the left of the list ( ![icon](../../../media/icons/admin/pil-flyttopp.bmp) ![icon](../../../media/icons/admin/pil-flyttned.bmp) ).
+The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons to the left of the list ( ![icon][img1] ![icon][img2] ).
 
 After you have added items, you can specify details for each individual item. You can specify:
 
-* Which user groups the item will be visible for (see [User group filtering](User-groups.md)).
-* Which heading it will be displayed under (see [Headings](Headings-web.md)).
+* Which user groups the item will be visible for (see [User group filtering][2]).
+* Which heading it will be displayed under (see [Headings][1]).
 
 ## What would you like to do now?
 
-[Add items to the GUI - Application list](Adding-external-applications-to-Application-list.md)
+* [Add items to the GUI - Application list][3]
+
+<!-- Referenced links -->
+[1]: headings-web.md
+[2]: user-groups.md
+[3]: adding-external-applications-to-application-list.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/pil-flyttopp.bmp
+[img2]: ../../../media/icons/admin/pil-flyttned.bmp

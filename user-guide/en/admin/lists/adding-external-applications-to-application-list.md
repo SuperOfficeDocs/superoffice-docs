@@ -11,7 +11,7 @@ language: en
 
 # Add items to the GUI - Application list
 
-When you add an item to the **GUI - Application** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items](Adding-items.md).
+When you add an item to the **GUI - Application** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
 
 To complete the fields in the **Edit list item** dialog when the items are applications or similar:
 
@@ -28,7 +28,7 @@ To complete the fields in the **Edit list item** dialog when the items are appli
 <!-- -->
 
 1. **Button**: the application icon is displayed in the Navigator in SuperOffice CRM. Users can then open the application directly by clicking the icon in the Navigator.
-    * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon](../../../media/icons/admin/knapp-verktoey-liten.bmp) ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
+    * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon][img2] ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
     * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See step 8. You could, for example, run a synchronisation program for a PDA when SuperOffice CRM closes.
     * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the **Selection** screen or the **Task** buttons in various locations in SuperOffice CRM. <!-- Fix reuse ID=a2 -->
         The names in parenthesis indicate in which section tab the application is available.
@@ -66,7 +66,7 @@ To complete the fields in the **Edit list item** dialog when the items are appli
 
 <!-- -->
 
-1. **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon](../../../media/icons/admin/knapp-verktoey-liten.bmp)) in the Navigator or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
+1. **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon][img2]) in the Navigator or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
     * **View menu**: the user can access the application using the **Other Applications** option on the **View** menu in SuperOffice CRM.
 
 In the **Run when** list box, choose how the application will be run. This list box only appears if you have selected **Event** under **Add as**.
@@ -92,6 +92,8 @@ Click **Save**. The item is added to the **Items** list. Repeat this procedure t
 > Users must log in to SuperOffice CRM again to display the application.
 
 <!-- Referenced links -->
+[1]: adding-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
+[img2]: ../../../media/icons/admin/knapp-verktoey-liten.bmp

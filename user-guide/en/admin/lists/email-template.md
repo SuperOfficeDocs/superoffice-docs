@@ -21,15 +21,18 @@ You can also create your own templates. You do this by entering template variabl
 
 Adding an e-mail template involves following steps:
 
-* You need to create the e-mail template in Settings and maintenance. See [Add a document template](Adding-template-web.md).
-* You need to make the e-mail template available to the requisite user groups. See [User group filtering](User-groups.md).
+* You need to create the e-mail template in Settings and maintenance. See [Add a document template][3].
+* You need to make the e-mail template available to the requisite user groups. See [User group filtering][5].
 
 ## What would you like to do now?
 
-[Add an e-mail template](Add-email-template.md)
+* [Add an email template][4]
 
 <!-- Referenced links -->
 [1]: ../../../../docs/document/templates/quote/index.md
 [2]: ../../user/diary/template-variables.md
+[3]: adding-template-web.md
+[4]: add-email-template.md
+[5]: user-groups.md
 
 <!-- Referenced images -->

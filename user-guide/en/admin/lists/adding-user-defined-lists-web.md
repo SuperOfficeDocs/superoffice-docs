@@ -13,7 +13,7 @@ language: en
 
 To add a new list in the **Lists** screen:
 
-1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
+1. Click the **Lists** button in the Navigator (![icon][img1]).
 
 2. Click the **Create list** button in the top right of the screen.
 
@@ -28,4 +28,10 @@ To add a new list in the **Lists** screen:
 
 The list is added to the **Lists** list. If you check the list in the list, the description will be displayed at the top of the **Lists** screen.
 
-As well as specifying a name and description for the list, you need to add items to it. This described under [Add items](Adding-items.md).
+As well as specifying a name and description for the list, you need to add items to it. This described under [Add items][1].
+
+<!-- Referenced links -->
+[1]: adding-items.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-lister-liten.bmp

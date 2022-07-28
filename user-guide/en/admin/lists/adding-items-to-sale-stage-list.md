@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Sale - Stage list
 
-When you add an item to the **Sale - Stage** list, the **Edit list item** dialog is not the same as described under [Add items](Adding-items.md).
+When you add an item to the **Sale - Stage** list, the **Edit list item** dialog is not the same as described under [Add items][1].
 
 To complete the fields in the **Edit list item** dialog when the list items are sale stages:
 
@@ -28,3 +28,8 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 
 > [!NOTE]
 > If you delete a stage that is linked to a sales guide (via a sale type), this may have consequences for using the sales guide.
+
+<!-- Referenced links -->
+[1]: adding-items.md
+
+<!-- Referenced images -->

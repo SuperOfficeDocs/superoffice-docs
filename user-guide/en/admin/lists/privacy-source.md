@@ -15,4 +15,10 @@ Where and how did you obtain the consent from a contact? Examples: E-mail, chat,
 
 ## What would you like to do now?
 
-[Add items to the Privacy - Source list](Privacy-Source-add.md)
+* [Add items to the Privacy - Source list][1]
+
+<!-- Referenced links -->
+[1]: privacy-source-add.md
+
+<!-- Referenced images -->
+

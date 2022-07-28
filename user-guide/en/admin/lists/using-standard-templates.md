@@ -17,8 +17,13 @@ These templates are used when you create documents from SuperOffice CRM. For mor
 
 The templates contain variables which extract information from the SuperOffice database and enter it into the document automatically.
 
-You can edit the templates that are supplied with SuperOffice CRM. For more details, see [Edit standard templates](Editing-standard-templates.md).
+You can edit the templates that are supplied with SuperOffice CRM. For more details, see [Edit standard templates][1].
 
 ## What would you like to do now?
 
-[Edit standard templates](Editing-standard-templates.md)
+* [Edit standard templates][1]
+
+<!-- Referenced links -->
+[1]: Editing-standard-templates.md
+
+<!-- Referenced images -->

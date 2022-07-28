@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Sale – Type, Stages, Quote list
 
-When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit list item** dialog is not the same as described under [Add items](Adding-items.md).
+When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit list item** dialog is not the same as described under [Add items][2].
 
 > [!NOTE]
 > A quote belongs to a sale, and all sales have a sale type. In each sale type, you can define many of the properties of a quote, such as attachments, settings for approval, use of alternatives and templates.
@@ -26,7 +26,7 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 2. Select the required category for the sale type in the **Sale type category** list box.
 
     > [!TIP]
-    > You can create new options in addition to the predefined ones by adding items to the **Sale - Category (for sale type)** list in Settings and maintenance. Follow the procedure under [Add items](Adding-items.md).
+    > You can create new options in addition to the predefined ones by adding items to the **Sale - Category (for sale type)** list in Settings and maintenance. Follow the procedure under [Add items][2]
 
 3. In the **Estimated time for this sale process**, enter a duration for the sale type (number of weeks, days or months). When you create a new sale of this sale type, the sale date will be set relative to the time you enter here (today's date + estimated time).
 
@@ -43,10 +43,10 @@ To complete the fields in the **Edit list item** dialog when the list items are 
 
 In the **Stages** tab, you do the following:
 
-1. In the **Stages used for this sale type** list, check off the stages you want to include for the sale type. This step is optional, but if you want to link the sale type to a sales guide, you should check at least two stages. For more details on how to create stages, see [Sale - Stage](Sale-Stage.md).
-2. Check **This sale type is linked to a guide** if you want all sales of this sale type to follow a [sales guide](../sale/index.md).
+1. In the **Stages used for this sale type** list, check off the stages you want to include for the sale type. This step is optional, but if you want to link the sale type to a sales guide, you should check at least two stages. For more details on how to create stages, see [Sale - Stage][3].
+2. Check **This sale type is linked to a guide** if you want all sales of this sale type to follow a [sales guide][5].
 3. If you wish, select **Suggest moving the sale into next stage automatically**. When all follow-ups and documents for a stage have been completed, you will be asked if you want to move to the next stage.
-4. Check **This sale type has stakeholders** if you want to allow linking of stakeholders to sales of this sale type. See [Sale - Stakeholder Role](Sale-Sales-role-(Stakeholders).md).
+4. Check **This sale type has stakeholders** if you want to allow linking of stakeholders to sales of this sale type. See [Sale - Stakeholder Role][4].
 
 Quote attachments tab
 
@@ -58,7 +58,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 To add quote attachments:
 
 1. Click **Add**. The **Find** dialog opens.
-2. Search for the document(s) you want to add. See [Use search criteria](../options/using-search-criteria.md).
+2. Search for the document(s) you want to add. See [Use search criteria][6].
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 
@@ -85,6 +85,11 @@ Here you can choose whether the quote must be approved if the total discount is 
 * **Total earning is below limit**. Enter a percentage value.
 
 <!-- Referenced links -->
-[1]: ../Quote-templates.pdf
+[1]: ../quote-templates.pdf
+[2]: adding-items.md
+[3]: sale-stage.md
+[4]: sales-role-stakeholders.md
+[5]: ../sale/index.md
+[6]: ../options/using-search-criteria.md
 
 <!-- Referenced images -->

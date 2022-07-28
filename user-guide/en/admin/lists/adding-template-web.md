@@ -13,7 +13,7 @@ language: en
 
 Before you can use templates you have created, you need to link them to SuperOffice CRM. Once you have linked the templates, it is very easy to write letters, faxes and other documents you have created templates using the **Document** function in SuperOffice CRM. More information about the **Document** function is available in the user help.
 
-[Do you want to replace existing template](Replace-existing-template.md)
+[Do you want to replace existing template][1]
 
 If you have created new templates or have changed a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM.
 
@@ -23,12 +23,12 @@ To complete the fields in the **Edit list item** dialog when the items are docum
 
 1. Enter the required name of the item in the **Name** field.
 2. If you wish, you can choose where to store the document template, in the **Store template in** list.
-3. You now have two options:  
-    <!-- Fix reuse ID=a1 --> | <!-- Fix reuse ID=a2 -->
+3. You now have two options:
+    <!-- Fix reuse ID=a1 -->
     1. Click **Copy an existing document template file**.
     2. Click the **Copy template** list.
     3. Select the required template from the list.
-
+    <!-- Fix reuse ID=a2 -->
     1. Select **Upload a new document template from disk**.
     2. Click the **Upload** button.
     3. Click **Upload file** in the **Upload file** dialog.
@@ -42,13 +42,13 @@ To complete the fields in the **Edit list item** dialog when the items are docum
 
 Enter the following information in the **Details** tab:
 
-1. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) and choosing from the list box.
+1. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon][img1] ) and choosing from the list box.
 
-2. In the **Document type** field, specify the type of template by clicking the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ). You can choose from **Document** and **Fax**.
+2. In the **Document type** field, specify the type of template by clicking the arrow (![icon][img1] ). You can choose from **Document** and **Fax**.
 
 3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-4. In the **Intention** field, click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../options/Status-monitor.md)).
+4. In the **Intention** field, click the arrow (![icon][img1] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][4]).
 
     > [!TIP]
     >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
@@ -79,7 +79,10 @@ Here you can add translated versions of the document template. To do this:
 5. Repeat the steps above to add additional languages.
 
 <!-- Referenced links -->
-[1]: ../Quote-templates.pdf
+[1]: ../quote-templates.pdf
 [2]: ../../user/diary/template-variables.md
+[3]: replace-existing-template.md
+[4]: ../options/status-monitor.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/admin/pil-ned.bmp

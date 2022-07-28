@@ -24,8 +24,13 @@ The **Headings** list (in the bottom right of the **Lists** screen) shows which 
 
 ## What would you like to do now?
 
-[Group items under headings](Grouping-items-under-headings.md)
+* [Group items under headings][2]
+* [Add headings][1]
+* [Change and delete headings][3]
 
-[Add headings](Adding-headings-web.md)
+<!-- Referenced links -->
+[1]: adding-headings-web.md
+[2]: grouping-items-under-headings.md
+[3]: headings-editing-and-deleting.md
 
-[Change and delete headings](Headings-editing-and-deleting.md)
+<!-- Referenced images -->

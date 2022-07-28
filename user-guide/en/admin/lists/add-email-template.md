@@ -19,7 +19,7 @@ To complete the fields in the **Edit list item** dialog when the items are e-mai
 
 1. Enter the required name of the item in the **Template name** field.
 
-2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template](Adding-items-to-Sale-Sales-type-(for-stages)-list.md), or a [privacy confirmation template](Privacy-Source-add.md).
+2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template]][3], or a [privacy confirmation template][4].
 
 3. If you wish, you can choose where to store the document template, in the **Store template in** list.
 
@@ -58,9 +58,9 @@ Enter the following information in the **Details** tab:
 
 5. Optionally, type in a description of the template in the **Description** field.
 
-6. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
+6. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
-7. In the **Intention** field, click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence](../options/Status-monitor.md)).
+7. In the **Intention** field, click the arrow (![icon][img2] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][5]).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
@@ -88,6 +88,10 @@ Here you can add translated versions of the document template. To do this:
 <!-- Referenced links -->
 [1]: ../../user/standardcrm/translate-fields.md
 [2]: ../../user/diary/template-variables.md
+[3]: sale-type-stages-quote.md
+[4]: privacy-source-add.md
+[5]: ../options/status-monitor.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png
+[img2]: ../../../media/icons/admin/pil-ned.bmp

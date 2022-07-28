@@ -143,7 +143,7 @@ To add documents to a stage:
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md#variables-for-sales
 [2]: ../lists/adding-items-to-sale-stage-list.md
-[3]: ../lists/adding-items-to-sale-sales-type-(for-stages)-list.md
+[3]: ../lists/sale-type-stages-quote.md
 [4]: ../lists/document-template.md
 
 <!-- Referenced images -->

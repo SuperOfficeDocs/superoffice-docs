@@ -13,21 +13,30 @@ language: en
 
 SuperOffice CRM contains many default lists with even more list items. As you add your own (user-defined) lists and list items, it is a good idea to organize your lists. There are two main ways to organize lists in SuperOffice CRM:
 
-* Grouping: Using headings in lists to categorize list items in 2 levels. Example: The **General - Resource** list can be grouped using two headings; *Equipment* and *Rooms*. See [Group items under headings](Grouping-items-under-headings.md).
-* User group filtering: Making list items visible only to the user groups who actually use them. Example: The **Document - Template** list can be filtered so that quote templates are not visible to user groups that never send quotes. See [User group filtering](User-groups.md).
+* Grouping: Using headings in lists to categorize list items in 2 levels. Example: The **General - Resource** list can be grouped using two headings; *Equipment* and *Rooms*. See [Group items under headings][1].
+* User group filtering: Making list items visible only to the user groups who actually use them. Example: The **Document - Template** list can be filtered so that quote templates are not visible to user groups that never send quotes. See [User group filtering][2].
 
 In Settings and maintenance, you can specify for most predefined and all user-defined lists that they should be grouped.
 
 > [!NOTE]
-> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences](../preferences/index.md)).
+> The list must consist of a certain minimum number of items in order to be displayed in this way. This number is defined in the **Preferences** screen (see [Preferences][3]).
 
 To specify that a list should be grouped:
 
-1. Click the **Lists** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Lister-liten.bmp)).
-2. Click the arrow ( ![icon](../../../media/icons/admin/pil-ned.bmp) ) and select the required list.
+1. Click the **Lists** button in the Navigator (![icon][img1]).
+2. Click the arrow ( ![icon][img2] ) and select the required list.
 3. Check **Use grouping and user group filtering for this list** at the top right.
 
 > [!NOTE]
 > The grouping function is not available for some of the predefined lists (for example, the **General - User group** list). If a list cannot be grouped, this checkbox is disabled.
 
-For more details on defining headings for grouped lists, see [Group items under headings](Grouping-items-under-headings.md).
+For more details on defining headings for grouped lists, see [Group items under headings][1].
+
+<!-- Referenced links -->
+[1]: grouping-items-under-headings.md
+[2]: user-groups.md
+[3]: ../preferences/index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
+[img2]: ../../../media/icons/admin/pil-ned.bmp

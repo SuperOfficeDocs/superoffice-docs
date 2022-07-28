@@ -15,8 +15,13 @@ In contrast to lists themselves, the items contained in both predefined and user
 
 ## What would you like to do now?
 
-[Add items](Adding-items.md)
+* [Add items][1]
+* [Edit items][2]
+* [Delete items][3]
 
-[Edit items](Editing-items.md)
+<!-- Referenced links -->
+[1]: adding-items.md
+[2]: editing-items.md
+[3]: deleting-items.md
 
-[Delete items](Deleting-items.md)
+<!-- Referenced images -->
