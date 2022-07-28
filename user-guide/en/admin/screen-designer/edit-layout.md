@@ -203,8 +203,8 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [1]: ../../../../docs/ui/soprotocol/index.md
 [2]: ../../user/standardcrm/translate-fields.md
 [3]: ../../user/diary/template-variables.md
-[4]: screendesigner-add-new-layout.md
-[5]: ../fields-web/fields-web.md
+[4]: add-new-layout.md
+[5]: ../fields/index.md
 [6]: ../../user/service/automation/index.md
 
 <!-- Referenced images -->

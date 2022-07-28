@@ -1,5 +1,5 @@
 ---
-uid: help-en-adding-fields-web
+uid: help-en-adding-fields
 title: Adding fields web
 description: Adding fields web
 author: SuperOffice RnD
@@ -51,21 +51,25 @@ To add a new user-defined field:
 > [!TIP]
 > In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code. This is the "ID" of the field you are creating and can be used to reuse the information you enter in this field, e.g. in documents and e-mails. For more information, see [Template variables][2].
 
-1. Adjust the position of the field as described in [Place fields](Moving-fields-web.md).
-2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon](../../../media/icons/admin/fields-unpubl-new.png) ) and fields with unpublished changes ( ![icon](../../../media/icons/admin/fields-unpubl-changed.png) ) are displayed in bold text in the **Fields** list.
+1. Adjust the position of the field as described in [Place fields][3].
+2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon][img1] ) and fields with unpublished changes ( ![icon][img2] ) are displayed in bold text in the **Fields** list.
 
 If you find you are not allowed to create a new field, this may be because you have already reached the maximum number of permitted fields of this type (see [Maximum number of fields][1]). You must then delete an existing field before you can insert a new one. Note also that four of each type of field (Short text, Long text, Number, Decimal) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six Decimal fields.
 
 ## Related topics
 
-[Place fields](Moving-fields-web.md)
-
-[Edit fields](Editing-fields-web.md)
-
-[Edit the TAB order of fields](Editing-TAB-order-of-fields-web.md)
-
-[Maximum number of fields](../chap09/Maximum-number-of-fields.md)
+* [Place fields][3]
+* [Edit fields][4]
+* [Edit the TAB order of fields][5]
+* [Maximum number of fields][1]
 
 <!-- Referenced links -->
-[1]: ../chap09/Maximum-number-of-fields.md
+[1]: ../chap09/maximum-number-of-fields.md
 [2]: ../../user/diary/template-variables.md
+[3]: moving-fields.md
+[4]: editing-fields.md
+[5]: editing-tab-order-of-fields.md
+
+<!-- Referenced links -->
+[img1]: ../../../media/icons/admin/fields-unpubl-new.png
+[img2]: ../../../media/icons/admin/fields-unpubl-changed.png

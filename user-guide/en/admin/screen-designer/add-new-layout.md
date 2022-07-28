@@ -15,7 +15,7 @@ With custom screen layouts for each of your teams, finding customer data will be
 
 To create a new screen layout:
 
-1. Click the **Screen designer** button in the Navigator (![icon](../../../media/icons/admin/Knapp-ScreenDesigner-small.png)).
+1. Click the **Screen designer** button in the Navigator (![icon][img1]).
 
 2. Click **Company** or **Contact** at the top.
 
@@ -34,7 +34,13 @@ To create a new screen layout:
     > [!TIP]
     >If you later want to edit the layout settings, double-click the layout in the list to open the **Edit layout settings** dialog. Please note that you cannot edit the settings for the default layout.
 
-9. With the new layout selected in the **Layouts** list, click the **Edit layout button** to customize the screen layout. See [Edit layout](ScreenDesigner-Edit-layout.md).
+9. With the new layout selected in the **Layouts** list, click the **Edit layout button** to customize the screen layout. See [Edit layout][1].
 
 > [!NOTE]
 > To delete a layout, select the layout in the **Layouts** list and click **Delete**. User groups that have been assigned to the deleted layout, will go back to the default layout.
+
+<!-- Referenced links -->
+[1]: edit-layout.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-screendesigner-small.png

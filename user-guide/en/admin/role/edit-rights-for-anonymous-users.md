@@ -18,14 +18,16 @@ There is only one role for anonymous users and only the data rights for this rol
 
 To do this:
 
-1. Click the **Roles** button in the Navigator (![icon](../../../media/icons/admin/Knapp-rolle-liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon][img1]).
 2. Select the **Anonymous** tab.
-3. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role](Set-data-rights-for-role.md).
+3. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role][1].
     <!-- Fix reuse ID=a2 -->
     [!include[Table showing rights per role](../includes/table-role-rights.md)]
 
 The changes are saved automatically.
 
 <!-- Referenced links -->
+[1]: Set-data-rights-for-role.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/admin/Knapp-rolle-liten.bmp

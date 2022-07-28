@@ -1,5 +1,5 @@
 ---
-uid: help-en-moving-fields-web
+uid: help-en-moving-fields
 title: Moving fields web
 description: Moving fields web
 author: SuperOffice RnD
@@ -12,7 +12,7 @@ language: en
 # Place fields
 
 > [!NOTE]
-> SuperOffice v10 (released October 2021) introduced [Screen designer](../Screen-designer/Screen-designer.md), which introduced customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
+> SuperOffice v10 (released October 2021) introduced [Screen designer][1], which introduced customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
 
 When you add new fields, they will be placed beneath each other by default. Each field consists of a label with a data field on the right. You can decide where in the grid these fields are to be placed.
 
@@ -20,7 +20,7 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 * Click and drag using the mouse. The field(s) will automatically be adjusted to fit the grid.
 * Click a field and use the arrow keys on the keyboard.
-* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon][img2] ![icon][img1] ![icon](../../../media/icons/admin/pil-flyttned.bmp) ![icon](../../../media/icons/admin/pil-flyttopp.bmp) ).
+* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
 * Double-click a field and specify position values **X** and **Y** in the **Fields** dialog. <!-- Fix reuse ID=a1 -->
     1. Specify the following in the fields to the right of **Label**:
 
@@ -42,7 +42,7 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 ## How do I right-/left-align fields?
 
-Select the fields you want to adjust and click left-align ( ![icon](../../../media/icons/admin/align-left.bmp) ) or right-align ( ![icon](../../../media/icons/admin/align-right.bmp) ) below the grid.
+Select the fields you want to adjust and click left-align ( ![icon][img5] ) or right-align ( ![icon][img6] ) below the grid.
 
 ## How do I change the width of a field?
 
@@ -51,8 +51,12 @@ Select the fields you want to adjust and click left-align ( ![icon](../../../med
 3. Specify the width of the data field in the field to the right of **Data**.
 
 <!-- Referenced links -->
-[1]:
+[1]: ../screen-designer/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/pil-hoeyre.bmp
 [img2]: ../../../media/icons/pil-venstre.bmp
+[img3]: ../../../media/icons/admin/pil-flyttopp.bmp
+[img4]: ../../../media/icons/admin/pil-flyttned.bmp
+[img5]: ../../../media/icons/admin/align-left.bmp
+[img6]: ../../../media/icons/admin/align-right.bmp

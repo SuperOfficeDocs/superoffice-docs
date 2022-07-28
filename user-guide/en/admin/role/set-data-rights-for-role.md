@@ -17,12 +17,12 @@ You can set rights for <!-- Fix reuse ID=a1 -->(companies, contacts, projects, p
 
 To set data rights for a role:
 
-1. Click the **Roles** button in the Navigator (![icon](../../../media/icons/admin/Knapp-rolle-liten.bmp)).
+1. Click the **Roles** button in the Navigator (![icon][img1]).
 2. Choose the **Associates** tab or the **External** tab (<!-- onsite-->).
-    ![icon](../../../media/icons/admin/question.bmp) <!-- Fix reuse ID=a2 -->
-    See [Edit rights for anonymous users](Edit-rights-for-anonymous-users.md).
+    ![icon][img2] <!-- Fix reuse ID=a2 -->
+    See [Edit rights for anonymous users][1].
 3. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
-4. Click the arrow (![icon](../../../media/icons/admin/pil-ned.bmp) ) next to the right you want to change, and select the required right.
+4. Click the arrow (![icon][img3] ) next to the right you want to change, and select the required right.
     <!-- Fix reuse ID=a3 -->
     <!-- Fix reuse ID=a4 -->
 
@@ -39,3 +39,11 @@ The changes are saved automatically.
 
 <!-- Fix reuse ID=a5 -->
 If the data objects (companies, projects, documents and so on) are to be made accessible to external users (Audience users), it is not enough just to assign the external users read (or higher) access. The data objects must also be published in SuperOffice CRM.
+
+<!-- Referenced links -->
+[1]: edit-rights-for-anonymous-users.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-rolle-liten.bmp
+[img2]: ../../../media/icons/admin/question.bmp
+[img3]: ../../../media/icons/admin/pil-ned.bmp

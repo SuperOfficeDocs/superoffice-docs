@@ -41,12 +41,17 @@ A number of predefined roles are included with SuperOffice CRM. The **User level
 
 ## What would you like to do now?
 
-[Create a role](Create-role.md)
+* [Create a role][1]
+* [Edit a role][2]
+* [Set data rights for a role][3]
+* [Edit rights for anonymous users][4]
+* [Delete a role][5]
 
-[Edit a role](Editing-role.md)
+<!-- Referenced links -->
+[1]: create-role.md
+[2]: editing-role.md
+[3]: set-data-rights-for-role.md
+[4]: edit-rights-for-anonymous-users.md
+[5]: deleting-role.md
 
-[Set data rights for a role](Set-data-rights-for-role.md)
-
-[Edit rights for anonymous users](Edit-rights-for-anonymous-users.md)
-
-[Delete a role](Deleting-role.md)
+<!-- Referenced images -->

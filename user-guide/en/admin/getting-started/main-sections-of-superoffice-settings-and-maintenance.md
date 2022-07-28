@@ -20,16 +20,16 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | [![icon](../../../media/icons/admin/Knapp-rolle.bmp)](../role/index.md) | [Roles](../role/index.md) |
 | [![icon](../../../media/icons/admin/Knapp-Privacy.png)](../privacy/privacy.md) | [Privacy](../privacy/privacy.md) |
 | [![icon](../../../media/icons/admin/Knapp-SAINT.bmp)](../options/Status-monitor.md) | [Status monitoring/SAINT](../options/Status-monitor.md) |
-| [![icon](../../../media/icons/admin/Knapp-AI.png)](../ai/AI-services.md) | [AI services](../ai/AI-services.md) |
+| [![icon](../../../media/icons/admin/Knapp-AI.png)](../ai/index.md) | [AI services](../ai/index.md) |
 | [![icon](../../../media/icons/admin/Knapp-Lister.bmp)](../lists/Lists-web.md) | [Lists](../lists/Lists-web.md) |
 | [![icon](../../../media/icons/admin/Knapp-QuoteSync.bmp)](../quote-sync/quote-sync.md) | [Quote/Sync](../quote-sync/quote-sync.md) |
 | [![icon](../../../media/icons/admin/Knapp-Arbeidsflyt.bmp)](../Sale/Workflow.md) | [Workflow](../Sale/Workflow.md) |
-| [![icon](../../../media/icons/admin/Knapp-ScreenDesigner.png)](../Screen-designer/Screen-designer.md) | [Screen designer](../Screen-designer/Screen-designer.md) |
+| [![icon](../../../media/icons/admin/Knapp-ScreenDesigner.png)](../Screen-designer/index.md) | [Screen designer](../Screen-designer/index.md) |
 | [![icon](../../../media/icons/admin/Knapp-Preferanser.bmp)](../preferences/index.md) | [Preferences](../preferences/index.md) |
 | [![icon][img1]][2]] | [Chat][2] |
 | [![icon](../../../media/icons/admin/Knapp-Systemvalg.bmp)](../options/index.md) | [Options](../options/index.md) |
 | [![icon](../../../media/icons/admin/Knapp-Import.bmp)](../import-web/Import-web.md) | [Import](../import-web/Import-web.md) |
-| [![icon](../../../media/icons/admin/Knapp-Felt.bmp)](../fields-web/Fields-web.md) | [Fields](../fields-web/Fields-web.md) |
+| [![icon](../../../media/icons/admin/Knapp-Felt.bmp)](../fields/index.md) | [Fields](../fields/index.md) |
 | ![icon](../../../media/icons/admin/Knapp-CRMScript.bmp) | [CRMScript][1] |
 | ![icon](../../../media/icons/admin/Knapp-requests.png) | [Requests](../requests/requests.md) |
 | ![icon](../../../media/icons/admin/Knapp-customercentre.png) | [Customer centre][3] |

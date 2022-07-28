@@ -1,9 +1,9 @@
 items:
 - name: ai
-  href: ai/ai-services.md
+  href: ai/index.md
   items:
   - name: AI services
-    href: ai/ai-services.md
+    href: ai/index.md
   - name: Categorization
     href: ai/categorization.md
   - name: Text analysis
@@ -380,20 +380,20 @@ items:
   - name: Admin listCustCenter edit
     href: custcent/edit.md
 - name: Fields web
-  href: fields-web/adding-fields-web.md
+  href: fields/adding-fields.md
   items:
   - name: Adding fields web
-    href: fields-web/adding-fields-web.md
+    href: fields/adding-fields.md
   - name: Editing fields web
-    href: fields-web/editing-fields-web.md
+    href: fields/editing-fields.md
   - name: Editing the TAB order of fields web
-    href: fields-web/editing-tab-order-of-fields-web.md
+    href: fields/editing-tab-order-of-fields.md
   - name: Fields web
-    href: fields-web/fields-web.md
+    href: fields/index.md
   - name: Moving fields web
-    href: fields-web/moving-fields-web.md
+    href: fields/moving-fields.md
   - name: Page 1 fields web
-    href: fields-web/page-1-fields-web.md
+    href: fields/page-1-fields.md
 - name: Import web
   href: import-web/configure-import-settings-(products).md
   items:
@@ -555,15 +555,15 @@ items:
   - name: Workflow
     href: sale/workflow.md
 - name: Screen designer
-  href: screen-designer/popup-screendesigner-boxes.md
+  href: screen-designer/index.md
   items:
   - name: Popup screendesigner boxes
     href: screen-designer/popup-screendesigner-boxes.md
   - name: Screen designer
-    href: screen-designer/screen-designer.md
+    href: screen-designer/index.md
   - name: ScreenDesigner Add new layout
-    href: screen-designer/screendesigner-add-new-layout.md
+    href: screen-designer/add-new-layout.md
   - name: ScreenDesigner Edit layout
-    href: screen-designer/screendesigner-edit-layout.md
+    href: screen-designer/edit-layout.md
 - name: Systemdesign
   href: systemdesign/index.md
