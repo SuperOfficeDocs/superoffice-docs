@@ -15,6 +15,11 @@ The **Workflow** screen consists of two tabs: **Project guide** and **Sales guid
 
 ## What would you like to do now?
 
-[Work with project guides](Project.md)
+* [Work with project guides][1]
+* [Work with sales guides][2]
 
-[Work with sales guides](index.md)
+<!-- Referenced links -->
+[1]: project.md
+[2]: index.md
+
+<!-- Referenced images -->

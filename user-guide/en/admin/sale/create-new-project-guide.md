@@ -32,7 +32,7 @@ Once you have done that, you can start designing the [project guide](#create-gui
 
 ## <a id="create-stage" /> A. Create statuses for the project guide
 
-A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list](../lists/Adding-items-to-Project-Status-list.md).
+A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list][2].
 
 A project guide for a project of the Conference type might, for example, comprise the "Planned", "In progress" and "Closing" statuses.
 
@@ -40,7 +40,7 @@ Go to the next procedure to link the statuses to a project type.
 
 ## <a id="create-type" /> B. Create a project type for the project guide
 
-A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list](../lists/Adding-items-to-Project-Type-list.md).
+A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list][3].
 
 Examples of project types: "Conference", "Campaign", "Internal".
 
@@ -55,7 +55,7 @@ Once you have created statuses and specified a project type for the project guid
 
 Do as follows:
 
-1. Click the **Workflow** button in the Navigator (![icon](../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon][img1]).
 
 2. Select the **Project guide** tab.
 
@@ -82,27 +82,18 @@ The changes are saved automatically. The project guide will now be displayed in 
 <!-- Fix reuse ID=a1 -->
 
 **Project type**: Conference
-
 **Status**: Planned
-
 **Name** of follow-up: Planning meeting
-
 **Purpose of this follow-up**: Hold a meeting to plan the conference and set out a conference programme.
-
 **Follow-up type**: Meeting (Internal)
-
 **Duration**: 1 hour
-
 **Default text**:
 
 Planning meeting:
 
 \- What should the conference cover?
-
 \- Participants?
-
 \- Speakers?
-
 \- Where?
 
 To add follow-ups to a status:
@@ -142,15 +133,10 @@ To add follow-ups to a status:
 <!-- Fix reuse ID=a2 -->
 
 **Project type**: Conference
-
 **Status**: Planned
-
 **Name** of document: Conference programme
-
 **Purpose of this project status**: Set out a programme for the conference.
-
 **Template**: Note
-
 **Default subject**: Conference programme
 
 To add documents to a status:
@@ -159,7 +145,7 @@ To add documents to a status:
 2. Click **Add** under **Suggested documents in status**. The **Suggested document** dialog opens.
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Project guide** section tab in SuperOffice CRM.
-5. Select the required template in the **Template** field (see also [Document - Template](../lists/Document-template.md)).
+5. Select the required template in the **Template** field (see also [Document - Template][4]).
 6. Enter the subject to be used in the document in the **Default subject** field.
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for a project number, project title or another field relating to the project.
 8. Click **Save** to save your changes in Settings and maintenance.
@@ -167,5 +153,9 @@ To add documents to a status:
 
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md#variables-from-the-project-card
+[2]: ../lists/adding-items-to-project-status-list.md
+[3]: ../lists/adding-items-to-project-type-list.md
+[4]: ../lists/document-template.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp

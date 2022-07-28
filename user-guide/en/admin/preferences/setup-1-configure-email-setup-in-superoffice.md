@@ -6,7 +6,7 @@ To be able to send and receive e-mail invitations to video meetings (to/from ext
 
 To be able to receive an invitation by e-mail from external users, you must:
 
-* configure your e-mail setup in SuperOffice Inbox  
+* configure your e-mail setup in SuperOffice Inbox
     or
 
 * (if you use SuperOffice Mail Link) set the preference under **Invitations** to **Add / update appointments in SuperOffice**

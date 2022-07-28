@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > "Associates" are SuperOffice users in your company (or a related company such as a subsidiary).
 
-In the **Associates** tab in the **Users** screen, you can add users of the type **Associate**, and assign them roles, groups and licences, edit existing users and [delete](Deleting-users.md) users as described below.
+In the **Associates** tab in the **Users** screen, you can add users of the type **Associate**, and assign them roles, groups and licences, edit existing users and [delete][1] users as described below.
 
 > [!NOTE]
 > In the **Users** screen you specify which licences you want different users to have. If you want to add new system licences or increase/reduce the number of licences for one or more modules, you need to contact SuperOffice to update the licence information.
@@ -27,7 +27,7 @@ By default, the list in the **Associates** tab consists of the following columns
 * **First name**: The user’s first name.
 * **Last name**: The user’s last name.
 * **Primary group**: The primary group of the user.
-* **Role**: The role assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. See [Role](../role/index.md).
+* **Role**: The role assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. See [Role][7].
 * **User plan**: The user plan assigned to the user,
 * **Owning company**: The name of the organisation the user belongs to (defined as database owner).
 
@@ -38,7 +38,7 @@ By default, the list in the **Associates** tab consists of the following columns
 
 If the list of associates contains many users, you can filter and group the list to make it more manageable.
 
-See [Filter and group users](users-associates-filter-group.md).
+See [Filter and group users][6].
 
 ## User information
 
@@ -46,17 +46,24 @@ On the right-hand side of the window, there is detailed information about the us
 
 The full name, e-mail address and owning company is displayed at the top. At the bottom of this section, you can activate/deactivate the user in SuperOffice using the **Can log in** button. Click the **Task** button to access functions such as **Move user** and for sending welcome e-mails and e-mails for resetting passwords.
 
-* In the **Detail** tab you can edit user information such as user name, role, user plan and groups. See [Add users](Adding-users-web.md)
+* In the **Detail** tab you can edit user information such as user name, role, user plan and groups. See [Add users][2]
 * In the **Licences** tab, you can select licences in addition to those defined by the selected user plan.
 
 ## What would you like to do now?
 
-[Add users](Adding-users-web.md)
+* [Add users][2]
+* [Move users][3]
+* [Delete users][1]
+* [Import users][4]
+* [Log users off][5]
 
-[Move users](Move-users.md)
+<!-- Referenced links -->
+[1]: deleting-users.md
+[2]: adding-users-web.md
+[3]: move-users.md
+[4]: import-users-web.md
+[5]: logging-users-off.md
+[6]: users-associates-filter-group.md
+[7]: ../role/index.md
 
-[Delete users](Deleting-users.md)
-
-[Import users](Import-users-web.md)
-
-[Log users off](Logging-users-off.md)
+<!-- Referenced images -->

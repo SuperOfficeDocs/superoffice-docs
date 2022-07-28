@@ -11,9 +11,9 @@ language: en
 
 # Licences
 
-[Click here for more information about the **Status** tab in the **Licences** screen](../getting-started/Status-tab.md).
+[Click here for more information about the **Status** tab in the **Licences** screen][1].
 
-In the **SUPEROFFICE** tab in the **Licences** screen, you can display and update the licence information for your version of SuperOffice CRM and associated modules.
+In the **SuperOffice** tab in the **Licences** screen, you can display and update the licence information for your version of SuperOffice CRM and associated modules.
 
 > [!NOTE]
 > If you have installed a third-party module or similar, several tabs will be displayed here.
@@ -29,9 +29,9 @@ Above the licence list is the update status of your licences. You can click the 
 The following statuses can be shown here:
 
 * **New licence activated** – the system has updated the licence automatically. You can click the link to view the changes.
-* **Activate new licence** – new licence is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licences.  
+* **Activate new licence** – new licence is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licences.
     <!-- Fix reuse ID=a1 -->
-    This may be because the total number of new licences is less than the number of licences in use. You will need to reduce the number of user licences in use. See [Edit licence information](Editing-licence-information-web.md).
+    This may be because the total number of new licences is less than the number of licences in use. You will need to reduce the number of user licences in use. See [Edit licence information][2].
 
 > [!NOTE]
 > If you are using a demo version of SuperOffice CRM, you may be asked to enter a new serial number and licence owner. You will be given this by SuperOffice when you purchase a SuperOffice licence.
@@ -46,6 +46,12 @@ Click the **Purchase new licences** button to go to SuperOffice's online store S
 
 ## Related topics
 
-[SuperOffice CRM and licences](CRM-and-licences.md)
+* [SuperOffice CRM and licences][3]
+* [Edit licence information][2]
 
-[Edit licence information](Editing-licence-information-web.md)
+<!-- Referenced links -->
+[1]: ../getting-started/status-tab.md
+[2]: editing-licence-information-web.md
+[3]: crm-and-licences.md
+
+<!-- Referenced images -->

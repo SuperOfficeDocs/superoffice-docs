@@ -11,7 +11,7 @@ language: en
 
 # Add users
 
-This procedure describes how to add one user at a time. To add multiple users, see [Import users](Import-users-web.md).
+This procedure describes how to add one user at a time. To add multiple users, see [Import users][1].
 
 To add a new SuperOffice CRM user:
 
@@ -38,13 +38,13 @@ In the **Details** tab, you have the following options:
 
 * **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your e-mail address. Make sure the e-mail address is valid, since it will be used for account confirmation.
 
-* **Role**: Specify the role the user should have in the **Role** list box. The role determines the user's data access and functional rights. For more details, see [Role](../role/index.md). You cannot change your own role.
+* **Role**: Specify the role the user should have in the **Role** list box. The role determines the user's data access and functional rights. For more details, see [Role][3]. You cannot change your own role.
 
 * **User plan**: Select the relevant user plan for the user. This determines which SuperOffice features the user can access.
 
 * **Former employee**: If a user should no longer have access to SuperOffice, select this option to remove the user plan and login rights of the user.
 
-* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role](../role/index.md) the user belongs to. <!-- Fix reuse ID=a11 -->Click here for an example. See also [Visibility](Visibility.md) for more information on sharing data with your primary group.
+* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role][3] the user belongs to. <!-- Fix reuse ID=a11 -->Click here for an example. See also [Visibility][2] for more information on sharing data with your primary group.
 
 * **Other groups**: Click in the **Other groups** field and select which other groups the user should belong to. If the list contains many groups, start typing a group name in the search field to filter the list.
 
@@ -56,8 +56,15 @@ In the **Details** tab, you have the following options:
 
 In the **Licences** tab, you can select licences in addition to those defined by the selected user plan.
 
-**Confidential activities**: activates the **Visible for** list for follow-ups, documents and sales, to make records visible only to the user, the user's primary group or everyone. See [Visibility](Visibility.md).
+**Confidential activities**: activates the **Visible for** list for follow-ups, documents and sales, to make records visible only to the user, the user's primary group or everyone. See [Visibility][2].
 
 ## Can log in
 
 In the lower part of the user card, you can activate or deactivate the login rights of the selected user by clicking the **Can log in** button. By default this option is activated when you select a user plan for the user.
+
+<!-- Referenced links -->
+[1]: import-users-web.md
+[2]: visibility.md
+[3]: ../role/index.md
+
+<!-- Referenced images -->

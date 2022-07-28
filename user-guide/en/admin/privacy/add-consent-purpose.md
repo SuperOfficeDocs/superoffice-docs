@@ -13,7 +13,7 @@ language: en
 
 To create a new purpose:
 
-Click the **Privacy** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Privacy-small.png)).
+Click the **Privacy** button in the Navigator (![icon][img2]).
 
 Click **Add** below the list of purposes. The **Add purpose** dialog opens.
 
@@ -46,12 +46,14 @@ Click **Save** when you are done.
 
 ## See also
 
-[Privacy - Legal basis](../lists/Privacy-Legal-base.md)
-
-[Privacy - Source](../lists/Privacy-Source.md)
+* [Privacy - Legal basis][2]
+* [Privacy - Source][3]
 
 <!-- Referenced links -->
 [1]: ../../user/standardcrm/translate-fields.md
+[2]: ../lists/privacy-legal-base.md
+[3]: ../lists/privacy-source.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png
+[img2]: ../../../media/icons/admin/knapp-privacy-small.png

@@ -20,7 +20,7 @@ If the total number of new licences is less than the number of licences in use, 
 
 To do this:
 
-1. Go to the **Licences** screen, and select the **SUPEROFFICE** tab. If you have installed a third-party module or similar, several tabs will be displayed here. The functionality is the same.
+1. Go to the **Licences** screen, and select the **SuperOffice** tab. If you have installed a third-party module or similar, several tabs will be displayed here. The functionality is the same.
 
 2. Click the **Activate new licence** link. The **Activate new licence** dialog shows the licences that have been changed. Licences shown in red or with negative numbers and a warning icon must be edited. The **Activate** button remains disabled until you have edited these licences.
 
@@ -35,7 +35,7 @@ To do this:
 
 6. Click the **Activate** button in the **Activate new licence** dialog.
 
-7. Go to the **Licences** screen, select the **SUPEROFFICE** tab, and check that the licence status is correct.
+7. Go to the **Licences** screen, select the **SuperOffice** tab, and check that the licence status is correct.
 
 > [!TIP]
 > Go to the **Users** screen, and select the **User licences** tab to see which users are using the different licences. In the **Associates** and **Other users** tabs, you can filter the list by licence type.

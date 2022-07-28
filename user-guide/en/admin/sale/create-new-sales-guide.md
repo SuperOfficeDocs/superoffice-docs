@@ -22,7 +22,7 @@ Once you have done that, you can start designing the [sales guide](#create-guide
 
 ## <a id="create-stages" />A. Create stages for the sales guide
 
-A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list](../lists/Adding-items-to-Sale-Stage-list.md).
+A sales guide must be linked to a sale type, which in turn consists of several stages. You can create stages by following the procedure under [Add items to the Sale - Stage list][2].
 
 A sales guide for sales to new customers might include, for example, the stages "First meeting", "Quotation" and "Signing of contract".
 
@@ -30,7 +30,7 @@ Go to the next procedure to link the stages to a sale type.
 
 ## <a id="create-type" />B. Create a sale type for the sales guide
 
-A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list](../lists/Adding-items-to-Sale-Sales-type-(for-stages)-list.md).
+A sales guide must be linked to a sale type. You can create a sale type by following the procedure under [Add items to the Sale - Type, Stages, Quote list][3].
 
 Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cross-sale to existing customer".
 
@@ -45,7 +45,7 @@ Once you have created stages and specified a sale type for the sales guide, you 
 
 Do as follows:
 
-1. Click the **Workflow** button in the Navigator (![icon](../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp)).
+1. Click the **Workflow** button in the Navigator (![icon][img1]).
 
 2. Select the **Sales guide** tab.
 
@@ -72,27 +72,18 @@ The changes are saved automatically. The sales guide will now be displayed in Su
 <!-- Fix reuse ID=a1 -->
 
 **Sale type**: Sale to new customer
-
 **Stage**: First meeting
-
 **Name** of follow-up: First meeting
-
 **Purpose of this follow-up**: Examine the potential customer's requirements and assess whether the product can meet their needs
-
 **Follow-up type**: Customer meeting
-
 **Duration**: 1 hour
-
 **Default text**:
 
 Agenda for first meeting:
 
 \- Information about the customer's business and organisation
-
 \- Needs, wants, problems
-
 \- Company presentation
-
 \- Other
 
 To add follow-ups to a stage:
@@ -131,15 +122,10 @@ To add follow-ups to a stage:
 <!-- Fix reuse ID=a2 -->
 
 **Sale type**: Sale to new customer
-
 **Stage**: First meeting
-
 **Name** of document: Meeting confirmation
-
 **Purpose of this sales step**: Send an e-mail with meeting confirmation and date/time to all participants for the first meeting.
-
 **Template**: E-mail
-
 **Default subject**: Meeting confirmation (first meeting)
 
 To add documents to a stage:
@@ -148,7 +134,7 @@ To add documents to a stage:
 2. Click **Add** under **Suggested documents in stage**. The **Suggested document** dialog opens.
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Sales guide** section tab in SuperOffice CRM.
-5. Select the required template in the **Template** field (see also [Document - Template](../lists/Document-template.md)).
+5. Select the required template in the **Template** field (see also [Document - Template][4]).
 6. Enter the subject to be used in the document in the **Default subject** field.
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for sales number, sales title or another field relating to the sale.
 8. Click **Save** to save your changes in Settings and maintenance.
@@ -156,5 +142,9 @@ To add documents to a stage:
 
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md#variables-for-sales
+[2]: ../lists/adding-items-to-sale-stage-list.md
+[3]: ../lists/adding-items-to-sale-sales-type-(for-stages)-list.md
+[4]: ../lists/document-template.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp

@@ -28,23 +28,24 @@ The rest of the **Preferences** tab is divided into three main sections:
 > Preferences with active individual settings are shown in bold text in the preferences list.
 
 * At the top right, the description field shows a description of the preference currently selected in the **Preferences** list.
-* Below, the **Active settings** field shows the settings specified for the preference currently selected in the **Preferences** list. See [Active settings](Active-settings.md).
+* Below, the **Active settings** field shows the settings specified for the preference currently selected in the **Preferences** list. See [Active settings][2].
 
 ## Related topics
 
-[Add preference settings](Adding-preference-settings.md)
-
-[Edit preference settings](Editing-preference-settings.md)
-
-[Delete preference settings](Deleting-preference-settings.md)
-
-[Display different levels](Displaying-different-levels.md)
-
-[View preferences in SuperOffice CRM](Viewing-preferences-in-SuperOffice-CRM.md)
-
-[Global preferences][1]
+* [Add preference settings][3]
+* [Edit preference settings][4]
+* [Delete preference settings][5]
+* [Display different levels][6]
+* [View preferences in SuperOffice CRM][7]
+* [Global preferences][1]
 
 <!-- Referenced links -->
 [1]: global-preferences.md
+[2]: active-settings.md
+[3]: adding-preference-settings.md
+[4]: editing-preference-settings.md
+[5]: deleting-preference-settings.md
+[6]: displaying-different-levels.md
+[7]: viewing-preferences-in-superoffice-crm.md
 
 <!-- Referenced images -->

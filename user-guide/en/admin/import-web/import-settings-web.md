@@ -109,7 +109,7 @@ If contacts in the import source are not listed with a company, you have three o
 
 When you import contacts, you must also set the legal basis and consent source for the purpose **Sales and service**:
 
-* **Legal basis**: Select a legal basis from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen (see [Privacy](../privacy/privacy.md)).
+* **Legal basis**: Select a legal basis from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen (see [Privacy](../privacy/index.md)).
 * **Consent source**: This value is by default set to **Import**, but you can select another value in the list.
 
 ## Manage list values that do not exist in SuperOffice

@@ -13,11 +13,11 @@ language: en
 
 To delete an existing user:
 
-1. Click the **Users** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Brukere-liten.bmp)).
+1. Click the **Users** button in the Navigator (![icon][img1]).
 
 2. Select the **Associates** tab.
 
-3. Select the required user in the list of users (see [Users](index.md)).
+3. Select the required user in the list of users (see [Users][1]).
 
 4. Click the **Delete** button. You cannot delete users who are logged on.
 
@@ -32,3 +32,9 @@ To delete an existing user:
     > These options are ranked according to their impact.
 
 6. Click **OK**.
+
+<!-- Referenced links -->
+[1]:  index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-brukere-liten.bmp

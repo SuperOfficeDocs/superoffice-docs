@@ -22,7 +22,7 @@ It will be possible to change some of the settings in the Wizard later
 
 To configure SharePoint document library, do the following:
 
-1. Click the **Preferences** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Preferanser-liten.bmp) ).
+1. Click the **Preferences** button in the Navigator ( ![icon][img1] ).
 2. Select the **Document library** tab.
 3. Click **Change**. The page is updated with information about the connected SharePoint site. The change is not yet complete.
 4. Click **Complete the change** to confirm that you want to use SharePoint as the default document library. The change is now complete.
@@ -36,19 +36,14 @@ In this step you must configure location, folders and file names for your SuperO
 ### SuperOffice documents - location, folders and filenames
 
 * **Site in SharePoint**: Select your site from the list.
-
 * **Document library**: Select the library from the list.
-
 * **Folder structure**: Select the preferred folder structure (folder names).
-
 * **Organize the folders in annual subfolders**: Select this option to add subfolders per year.
-
 * **Filename**: Select the preferred naming of files.
 
 ### SuperOffice document templates – Location
 
 * **Site in SharePoint**: Select your site from the list.
-
 * **Document library**: Select the library from the list.
 
 Click **Next step** to continue.
@@ -115,3 +110,8 @@ SuperOffice document templates
 * Document library
 
 Click **Confirm** when you are done.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-preferanser-liten.bmp

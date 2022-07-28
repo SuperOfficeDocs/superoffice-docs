@@ -33,7 +33,7 @@ Rows without an icon will not be imported. If you can see that many contacts wil
 
 <!-- Referenced links -->
 [1]: ../import-web/import-settings-web.md
-[3]: ../privacy/privacy.md
+[3]: ../privacy/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/import-preview-icon-company-new.bmp

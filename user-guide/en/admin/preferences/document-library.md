@@ -18,8 +18,13 @@ If your organization is using SharePoint, you can configure SuperOffice to use S
 > [!NOTE]
 > Before you can start this configuration, you need to set up site permissions and library permissions in SharePoint.
 
-See [Configure SharePoint document library](Configure-SharePoint-document-library.md)
+See [Configure SharePoint document library][1]
 
 ## Related topics
 
-[Configure SharePoint document library](Configure-SharePoint-document-library.md)
+* [Configure SharePoint document library][1]
+
+<!-- Referenced links -->
+[1]: configure-sharepoint-document-library.md
+
+<!-- Referenced images -->

@@ -421,7 +421,7 @@ items:
   - name: Add consent purpose
     href: privacy/add-consent-purpose.md
   - name: Privacy
-    href: privacy/privacy.md
+    href: privacy/index.md
 - name: Quote sync
   href: quote-sync/erp-connection-add.md
   items:

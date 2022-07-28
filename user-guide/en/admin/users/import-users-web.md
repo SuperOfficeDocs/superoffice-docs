@@ -26,4 +26,9 @@ If your organisation uses Active Directory or another authentication type, you c
 7. Select which company you want to add users to, in the **Add users to company** list.
 8. Select a role and primary group for the users.
 9. Click **OK**. The name of the new users will be displayed in the list.
-10. Enter information about the user as described in [Add users](Adding-users-web.md).
+10. Enter information about the user as described in [Add users][1].
+
+<!-- Referenced links -->
+[1]: adding-users-web.md
+
+<!-- Referenced images -->

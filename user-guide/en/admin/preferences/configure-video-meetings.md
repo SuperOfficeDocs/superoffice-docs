@@ -12,11 +12,11 @@ language: en
 # Configure video meetings
 
 > [!NOTE]
-> To be able to send and receive e-mail invitations to video meetings (to/from external users), you must have configured your e-mail setup in SuperOffice CRM (user client) or use SuperOffice Mail Link. See [E-mail setup for video meetings](Setup-1-Configure-email-setup-in-SuperOffice.md).
+> To be able to send and receive e-mail invitations to video meetings (to/from external users), you must have configured your e-mail setup in SuperOffice CRM (user client) or use SuperOffice Mail Link. See [E-mail setup for video meetings][2].
 
 To select and configure outgoing video meetings:
 
-1. Click the **Preferences** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Preferanser-liten.bmp) ).
+1. Click the **Preferences** button in the Navigator ( ![icon][img1] ).
 
 2. Select the **Video meetings** tab.
 
@@ -48,5 +48,7 @@ If you want to select another provider or change the configuration, click **Conf
 
 <!-- Referenced links -->
 [1]: ../../../../docs/video-meeting/index.md
+[2]: setup-1-configure-email-setup-in-superoffice.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-preferanser-liten.bmp

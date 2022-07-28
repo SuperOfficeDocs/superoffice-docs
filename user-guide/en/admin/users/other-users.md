@@ -16,7 +16,7 @@ so.envir: onsite
 
 On the **Other users** tab in the **Users** screen, you can edit login rights for and add the following user types:
 
-* **Anonymous**: Anonymous users have rights based on the role for anonymous users (see [Edit rights for anonymous users](../role/Edit-rights-for-anonymous-users.md)). It is not usually necessary to have more than one anonymous user set up.
+* **Anonymous**: Anonymous users have rights based on the role for anonymous users (see [Edit rights for anonymous users][5]). It is not usually necessary to have more than one anonymous user set up.
 
 <!-- -->
 
@@ -24,10 +24,16 @@ On the **Other users** tab in the **Users** screen, you can edit login rights fo
 
 ## What would you like to do now?
 
-[Add other users](Add-other-users.md)
+* [Add other users][1]
+* [Edit other users][2]
+* [Change login rights for other users][3]
+* [Delete other users][4]
 
-[Edit other users](Edit-other-users.md)
+<!-- Referenced links -->
+[1]: add-other-users.md
+[2]: edit-other-users.md
+[3]: edit-logon-rights-for-other-users.md
+[4]: delete-other-users.md
+[5]: ../role/edit-rights-for-anonymous-users.md
 
-[Change login rights for other users](Edit-logon-rights-for-other-users.md)
-
-[Delete other users](Delete-other-users.md)
+<!-- Referenced images -->
