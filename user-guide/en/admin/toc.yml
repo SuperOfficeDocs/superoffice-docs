@@ -460,7 +460,7 @@ items:
   - name: Sync edit ERP connection
     href: quote-sync/sync-edit-erp-connection.md
   - name: Sync import from erp(sync)
-    href: quote-sync/sync-import-from-erp(sync).md
+    href: quote-sync/sync-import-from-erp.md
   - name: Sync rank fields shown in the ERP tab
     href: quote-sync/sync-rank-fields-shown-in-erp-tab.md
   - name: Sync resync from CRM

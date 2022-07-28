@@ -11,7 +11,7 @@ language: en
 
 # Rank fields shown in the ERP tab
 
-You can set the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. (You determine which fields should be shown in the ERP tab in the [Allocations dialog](sync-configure-field-allocation.md).)
+You can set the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. (You determine which fields should be shown in the ERP tab in the [Allocations dialog][1].)
 
 To do this:
 
@@ -19,9 +19,17 @@ To do this:
 2. Uncheck the box in the **Active** column for the ERP connection you want to edit.
 3. Select the ERP connection, and click the **Rank Fields** button at the bottom. The **Rank fields shown in the ERP tab** dialog displays the tabs for the available actors in the ERP system.
 4. Select the tab for the actor you want to configure default values for. This tab shows all available fields for the actor (including both fields that are displayed in the **ERP** tab in SuperOffice CRM and those that are not).
-5. Select a field in the list, and use the arrows ![icon](../../../media/icons/admin/pil-flyttned.bmp)![icon](../../../media/icons/admin/pil-flyttopp.bmp) underneath to set the order you require.
+5. Select a field in the list, and use the arrows ![icon][img1] ![icon][img2] underneath to set the order you require.
 6. Repeat steps 4 and 5 to change the field ranking for other actors.
 7. Click **Done**.
 
 > [!TIP]
-> Double-click a field to edit the default value for that field. See [Configure default values for synchronisation](sync-configure-default-values.md).
+> Double-click a field to edit the default value for that field. See [Configure default values for synchronisation][2].
+
+<!-- Referenced links -->
+[1]: sync-configure-field-allocation.md
+[2]: sync-configure-default-values.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/pil-flyttned.bmp
+[img2]: ../../../media/icons/admin/pil-flyttopp.bmp

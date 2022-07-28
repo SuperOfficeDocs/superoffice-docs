@@ -28,7 +28,7 @@ To do this:
 
 5. Check **Sync ERP \[actor\] to SuperOffice \[entity\]**.
 
-6. In the list below, select the synchronisation direction and which SuperOffice field each ERP field should be allocated to (synchronised with). You can also choose whether the fields should be displayed in searched and the **ERP** tab.  
+6. In the list below, select the synchronisation direction and which SuperOffice field each ERP field should be allocated to (synchronised with). You can also choose whether the fields should be displayed in searched and the **ERP** tab.
     The list consists of the following columns:
 
     * **Show in Search**: Check here if this field is to be displayed in search results.
@@ -37,23 +37,21 @@ To do this:
 
         | Icon | Explanation |
         |---|---|
-        | ![icon](../../../media/icons/admin/sync-direction-none.bmp) | No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction. |
-        | ![icon](../../../media/icons/admin/sync-direction-2way.bmp) | Sync both ways. |
-        | ![icon](../../../media/icons/admin/sync-direction-toERP.bmp) | Sync from SuperOffice to the ERP system. |
-        | ![icon](../../../media/icons/admin/sync-direction-toSO.bmp) | Sync from the ERP system to SuperOffice. |
-        | ![icon](../../../media/icons/admin/sync-direction-deactivated.bmp) | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details. |
+        | ![icon][img1] | No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction. |
+        | ![icon][img2] | Sync both ways. |
+        | ![icon][img3] | Sync from SuperOffice to the ERP system. |
+        | ![icon][img4] | Sync from the ERP system to SuperOffice. |
+        | ![icon][img5] | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details. |
 
     > [!NOTE]
     > The arrows are disabled until you have selected a SuperOffice field.
 
     * **SuperOffice Field**: here you choose which SuperOffice field you want to synchronise. Some fields (such as customer and contact IDs) cannot be synchronised and the list will then be empty.
-    * **Show In ERP Tab**: check here if you want this field to be displayed in the **ERP** tab in SuperOffice CRM. <!-- Fix reuse ID=a3 -->  
+    * **Show In ERP Tab**: check here if you want this field to be displayed in the **ERP** tab in SuperOffice CRM. <!-- Fix reuse ID=a3 -->
         > [!NOTE]
         > If you have chosen to synchronise this field with a SuperOffice field, there is no point in displaying the field in the **ERP** tab.
         The **Company** screen
-
         The **Project** screen
-
         The **Contact** screen
 
 7. Repeat steps 4 to 6 to configure field allocations for other actors.
@@ -65,4 +63,14 @@ To do this:
 
 ## How to map/allocate list items
 
-If you have mapped any lists (for example category), you must also map the individual items on each list. See [Configure list mapping](sync-configure-list-mapping.md).
+If you have mapped any lists (for example category), you must also map the individual items on each list. See [Configure list mapping][1].
+
+<!-- Referenced links -->
+[1]: sync-configure-list-mapping.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/sync-direction-none.bmp
+[img2]: ../../../media/icons/admin/sync-direction-2way.bmp
+[img3]: ../../../media/icons/admin/sync-direction-toerp.bmp
+[img4]: ../../../media/icons/admin/sync-direction-toso.bmp
+[img5]: ../../../media/icons/admin/sync-direction-deactivated.bmp

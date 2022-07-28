@@ -25,14 +25,15 @@ Visible connectors are DLL files located on the server.
 
 Active ERP connections are displayed here.
 
-Double-click an ERP connection to edit it. The SuperOffice Standalone connector has different properties that can be adjusted. See [Add an ERP connection](ERP-connection-add.md).
+Double-click an ERP connection to edit it. The SuperOffice Standalone connector has different properties that can be adjusted. See [Add an ERP connection][1].
 
 Select an ERP connection in the list, and click **Test ERP connection** to verify that the connection is working correctly.
 
 ## What would you like to do now?
 
-[Add a new ERP connection](ERP-connection-add.md)
+* [Add a new ERP connection][1]
 
 <!-- Referenced links -->
+[1]: erp-connection-add.md
 
 <!-- Referenced images -->

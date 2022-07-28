@@ -38,8 +38,18 @@ Click **OK** when you have finished. The **OK** button is disabled until the ERP
 
 You must check the **Active** column to activate the connection, so that the **ERP** tab is displayed in SuperOffice CRM. But before you activate the ERP connection, you must make sure it is configured correctly:
 
-* Specify synchronisation settings, and choose which fields should be shown in the search window and in the **ERP** tab. See [Configure field mapping](sync-configure-field-allocation.md) and [Configure list mapping](sync-configure-list-mapping.md).
-* Define the required default values for fields which normally only have one relevant value, to save the user having to enter values in these fields. See [Configure default values for synchronisation](sync-configure-default-values.md).
-* Select the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. See [Rank fields shown in the ERP tab](sync-rank-fields-shown-in-ERP-tab.md).
-* If you use several ERP connections, you can choose which connections should be prioritised when synchronising. See [Set synchronisation priority](sync-set-sync-priority.md).
-* [Import data from the ERP system](../import-web/import-from-ERP.md)
+* Specify synchronisation settings, and choose which fields should be shown in the search window and in the **ERP** tab. See [Configure field mapping][1] and [Configure list mapping][2].
+* Define the required default values for fields which normally only have one relevant value, to save the user having to enter values in these fields. See [Configure default values for synchronisation][3].
+* Select the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. See [Rank fields shown in the ERP tab][4].
+* If you use several ERP connections, you can choose which connections should be prioritised when synchronising. See [Set synchronisation priority][5].
+* [Import data from the ERP system][6]
+
+<!-- Referenced links -->
+[1]: sync-configure-field-allocation.md
+[2]: sync-configure-list-mapping.md
+[3]: sync-configure-default-values.md
+[4]: sync-rank-fields-shown-in-erp-tab.md
+[5]: sync-set-sync-priority.md
+[6]: ../import-web/import-from-erp.md
+
+<!-- Referenced images -->

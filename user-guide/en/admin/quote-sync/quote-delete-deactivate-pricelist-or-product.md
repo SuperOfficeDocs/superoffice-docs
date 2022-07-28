@@ -20,8 +20,8 @@ In the **SuperOffice products** tab in the **Quote/Sync** screen, you can delete
 
 1. Select the price list you want to deactivate, in the **Price list** list.
 2. Click **Edit**.
-3. Uncheck the **Active** checkbox.  
-    or  
+3. Uncheck the **Active** checkbox.
+    or
     Check **Limited validity** and specify the deactivation date in the **Valid to** field.
 4. Click **OK**.
 

@@ -21,4 +21,9 @@ To add a Sync Connector:
 
 ## What would you like to do now?
 
-[Add an ERP connection](sync-add-erp-connection.md)
+* [Add an ERP connection][1]
+
+<!-- Referenced links -->
+[1]: sync-add-erp-connection.md
+
+<!-- Referenced images -->

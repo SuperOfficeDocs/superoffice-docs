@@ -21,6 +21,11 @@ To select a picture for a product in **SuperOffice products**:
 6. Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.
 7. Click **OK** to close the dialog. The image is added to the database and displayed in the field on the right.
 
-![icon](../../../media/icons/admin/question.bmp)<!-- Fix reuse ID=a7 -->
+![icon][img1]<!-- Fix reuse ID=a7 -->
 
 You can use files of the following types: .jpg, .png, .gif and .bmp. We recommend that you use an image size of 130 x 180 pixels. If the image is bigger than that, it will be cropped on the bottom and right-hand edges.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/question.bmp

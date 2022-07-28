@@ -18,20 +18,21 @@ The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associat
 
 ## What would you like to do now?
 
-[Add a Sync Connector](sync-connector-add.md)
-
-[Add an ERP connection](sync-add-erp-connection.md)
-
-[Set Sync Priority](sync-set-sync-priority.md)
-
-[Configure field allocation](sync-configure-field-allocation.md) (Here you specify synchronisation settings and which fields are displayed in the search window and in the **ERP** tab.)
-
-[Configure default values for synchronisation](sync-configure-default-values.md)
-
-[Rank fields shown in the ERP tab](sync-rank-fields-shown-in-ERP-tab.md)
-
-[Edit an ERP connection](sync-edit-ERP-connection.md)
+* [Add a Sync Connector][1]
+* [Add an ERP connection][2]
+* [Set Sync Priority][3]
+* [Configure field allocation][4] (Here you specify synchronisation settings and which fields are displayed in the search window and in the **ERP** tab.)
+* [Configure default values for synchronisation][5]
+* [Rank fields shown in the ERP tab][6]
+* [Edit an ERP connection][7]
 
 <!-- Referenced links -->
+[1]: sync-connector-add.md
+[2]: sync-add-erp-connection.md
+[3]: sync-set-sync-priority.md
+[4]: sync-configure-field-allocation.md
+[5]: sync-configure-default-values.md
+[6]: sync-rank-fields-shown-in-erp-tab.md
+[7]: sync-edit-erp-connection.md
 
 <!-- Referenced images -->
