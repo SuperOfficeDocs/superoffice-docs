@@ -11,7 +11,7 @@ language: en
 
 # Duplicates
 
-A duplicate occurs if you have the same record in the import file and in the database. You always need to specify rules for managing duplicates during an import in an import description (see [Import descriptions](Import-descriptions.md)). These rules will then be included in the import description when you save it. This applies to all data types. The **Handling of duplicates** table has the following columns:
+A duplicate occurs if you have the same record in the import file and in the database. You always need to specify rules for managing duplicates during an import in an import description (see [Import descriptions][1]). These rules will then be included in the import description when you save it. This applies to all data types. The **Handling of duplicates** table has the following columns:
 
 * **Table**: shows which data type this duplicate handling rule applies to. The contents of this column are based on what you specified in the **Field in SuperOffice CRM** column under **Field mapping**.
 * **Key**: shows an import key, i.e. which criteria must be satisfied for a record to be considered a duplicate.
@@ -19,6 +19,12 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 ## What would you like to do now?
 
-[Update rules for duplicate handling](Updating-rules-for-duplicate-handling.md)
+* [Update rules for duplicate handling][2]
+* [Reset rules for duplicate handling][3]
 
-[Reset rules for duplicate handling](Resetting-rules-for-duplicate-handling.md)
+<!-- Referenced links -->
+[1]: import-descriptions.md
+[2]: updating-rules-for-duplicate-handling.md
+[3]: resetting-rules-for-duplicate-handling.md
+
+<!-- Referenced images -->

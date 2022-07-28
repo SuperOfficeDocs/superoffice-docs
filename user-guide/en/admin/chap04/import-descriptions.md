@@ -15,6 +15,11 @@ If you perform the same type of import at regular intervals, it may be useful to
 
 ## What would you like to do now?
 
-[Create import descriptions](Creating-import-descriptions.md)
+* [Create import descriptions][1]
+* [Edit import descriptions][2]
 
-[Edit import descriptions](Editing-import-descriptions.md)
+<!-- Referenced links -->
+[1]: creating-import-descriptions.md
+[2]: editing-import-descriptions.md
+
+<!-- Referenced images -->

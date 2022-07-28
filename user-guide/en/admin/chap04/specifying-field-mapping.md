@@ -13,11 +13,11 @@ language: en
 
 To specify field mapping:
 
-1. Open the **Import** screen.  
+1. Open the **Import** screen.
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import file** field and select a file in the dialog which opens.
+2. Click ![icon][img1] next to the **Import file** field and select a file in the dialog which opens.
 
 3. The contents of the first record in the import file are displayed in the **Field in file** column under **Field mapping**. Select a field you want to import into the database.
 
@@ -35,6 +35,13 @@ To specify field mapping:
 8. Repeat the procedure to map additional fields. You can import several different data types. Remember that fields not mapped with a record in the SuperOffice database will not be imported at all.
 
 > [!NOTE]
-> If you have specified an import description file in the **Import description file** field, there may already be information in the **Field in SuperOffice CRM** column under **Field mapping**. If required, you can change this field mapping by deleting it (see [Delete field mapping](Deleting-field-mapping.md)) and then entering a new field mapping as described above.
+> If you have specified an import description file in the **Import description file** field, there may already be information in the **Field in SuperOffice CRM** column under **Field mapping**. If required, you can change this field mapping by deleting it (see [Delete field mapping][1]) and then entering a new field mapping as described above.
 
-The field mapping selections you make can be saved, so that the same configuration can be reused in future. This is what constitutes [Import descriptions](Import-descriptions.md).
+The field mapping selections you make can be saved, so that the same configuration can be reused in future. This is what constitutes [Import descriptions][2].
+
+<!-- Referenced links -->
+[1]: deleting-field-mapping.md
+[2]: import-descriptions.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/soek.bmp

@@ -17,9 +17,9 @@ You always need to specify rules for handling duplicates during importing. You d
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.  
-    Or:  
-    Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field-mapping.md)).
+2. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
+    Or:
+    Click ![icon][img1] next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping][1]).
 
 3. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 
@@ -45,8 +45,16 @@ You always need to specify rules for handling duplicates during importing. You d
 
 8. Click **OK**.
 
-The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions](Import-descriptions.md).
+The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions][2].
 
 ## What would you like to do now?
 
-[Reset rules for duplicate handling](Resetting-rules-for-duplicate-handling.md)
+* [Reset rules for duplicate handling][3]
+
+<!-- Referenced links -->
+[1]: field-mapping.md
+[2]: import-descriptions.md
+[3]: resetting-rules-for-duplicate-handling.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/soek.bmp

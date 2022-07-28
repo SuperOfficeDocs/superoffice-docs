@@ -16,13 +16,13 @@ language: en
 
 To create an import description:
 
-1. Open the **Import** screen.  
+1. Open the **Import** screen.
 
     [!include[How to open import](../includes/open-import.md)]
 
 2. Click the **New** button at the top right of the screen. The **Import** screen is cleared.
 3. Specify a data file in the **Import file** field.
-4. Under **Field mapping**, specify which fields in the import file will be mapped to which fields in the SuperOffice database. (See [Field mapping](Field-mapping.md).)
+4. Under **Field mapping**, specify which fields in the import file will be mapped to which fields in the SuperOffice database. (See [Field mapping][1].)
 5. Under **Import settings**, the following options are available:
 
 <!-- -->
@@ -36,9 +36,9 @@ To create an import description:
 
 <!-- -->
 
-1. To specify more advanced settings for the import, click the **Advanced** button. For more details, see [Specify advanced import settings](Specifying-advanced-import-settings.md).
+1. To specify more advanced settings for the import, click the **Advanced** button. For more details, see [Specify advanced import settings][2].
 
-2. Under **Handling of duplicates** you specify rules to cater for the existence of duplicates, i.e. if the same record exists in both the file you are importing and the database you are importing into. For more details, see [Duplicates](Duplicates-import.md).
+2. Under **Handling of duplicates** you specify rules to cater for the existence of duplicates, i.e. if the same record exists in both the file you are importing and the database you are importing into. For more details, see [Duplicates][3].
 
 3. When you have specified the required options, click the **Save** button.
 
@@ -48,4 +48,12 @@ To create an import description:
 4. Type the name for the new file in the dialog which opens, choose the folder you want to save it in and click **Save**.
 
 > [!NOTE]
-> You can also create a new import description by changing an existing description (see [Edit import descriptions](Editing-import-descriptions.md)) and saving it with a new name.
+> You can also create a new import description by changing an existing description (see [Edit import descriptions][4]) and saving it with a new name.
+
+<!-- Referenced links -->
+[1]: field-mapping.md
+[2]: specifying-advanced-import-settings.md
+[3]: duplicates-import.md
+[4]: editing-import-descriptions.md
+
+<!-- Referenced images -->

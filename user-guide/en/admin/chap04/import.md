@@ -25,24 +25,30 @@ The **Import** screen is where you incorporate important external data into the 
 * Post codes / ZIP codes
 * Red-letter days
 
-You can also import companies/contacts and products in Settings and maintenance. See [Import](../import-web/Import-web.md).
+You can also import companies/contacts and products in Settings and maintenance. See [Import][9].
 
-The fields in the **Import** screen and their use are described under [Import files](Importing-files.md). Before you start importing, you should also read [Import routines](Import-routines.md).
+The fields in the **Import** screen and their use are described under [Import files][2]. Before you start importing, you should also read [Import routines][1]
 
 ## What would you like to do now?
 
-[Look at import routines](Import-routines.md)
+* [Look at import routines][1]
+* [Import files][2]
+* [Specify field mapping][3]
+* [Specify advanced import settings][4]
+* [Look at duplicates][5]
+* [Look at import descriptions][6]
+* [Update information in the database][7]
+* [Look at exports][8]
 
-[Import files](Importing-files.md)
+<!-- Referenced links -->
+[1]: import-routines.md
+[2]: importing-files.md
+[3]: specifying-field-mapping.md
+[4]: specifying-advanced-import-settings.md
+[5]: duplicates-import.md
+[6]: import-descriptions.md
+[7]: updating-database.md
+[8]: export.md
+[9]: ../import-web/import-web.md
 
-[Specify field mapping](Specifying-field-mapping.md)
-
-[Specify advanced import settings](Specifying-advanced-import-settings.md)
-
-[Look at duplicates](Duplicates-import.md)
-
-[Look at import descriptions](Import-descriptions.md)
-
-[Update information in the database](Updating-database.md)
-
-[Look at exports](Export.md)
+<!-- Referenced images -->

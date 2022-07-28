@@ -22,7 +22,7 @@ To specify advanced import settings:
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens.
+2. Click ![icon][img1] next to the **Import file** field and select a data file in the dialog which opens.
 
 3. Click the **Advanced** button. The **Advanced options** dialog opens.
 
@@ -63,11 +63,18 @@ To specify advanced import settings:
 15. Check **Update freetext index** if you want to update the freetext index continuously during the import, so that it is completely updated when the import is finished.
 
     > [!NOTE]
-    > The import speed decreases if you check **Update freetext index**. If you want to import large quantities of data, an alternative is to run the import without checking this option and generate a new freetext index later from the **Options** screen. For more details, see [Regenerate a freetext index](../options/Regenerating-freetext-index.md).
+    > The import speed decreases if you check **Update freetext index**. If you want to import large quantities of data, an alternative is to run the import without checking this option and generate a new freetext index later from the **Options** screen. For more details, see [Regenerate a freetext index][2].
 
 16. When you have specified the required settings, click **OK**.
 
 > [!NOTE]
 > If you have specified an import description file in the **Import description file** field, information will already be entered in the **Advanced Options** dialog. However, you can change this information as described above. Remember that the import description file must be saved before it is updated with any new options.
 
-The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions](Import-descriptions.md).
+The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions][1].
+
+<!-- Referenced links -->
+[1]: import-descriptions.md
+[2]: ../options/regenerating-freetext-index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/soek.bmp

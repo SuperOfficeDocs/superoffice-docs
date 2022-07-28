@@ -17,9 +17,9 @@ To reset one or all of the defined rules for duplicate handling:
 
     [!include[How to open import](../includes/open-import.md)]
 
-2. Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
-    Or:  
-    Click ![icon](../../../media/icons/admin/Soek.bmp) next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping](Field-mapping.md)). The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
+2. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
+    Or:
+    Click ![icon][img1] next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping][1]). The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 3. <!-- Fix reuse ID=a2 -->
     1. Select the required row under **Handling of duplicates**.
     2. Click the **Reset** button. The selected row will then have nothing in the **Key** column, and the **Action** column will be changed to **Skip record**.
@@ -33,4 +33,11 @@ To reset one or all of the defined rules for duplicate handling:
 
 ## What would you like to do now?
 
-[Update rules for duplicate handling](Updating-rules-for-duplicate-handling.md)
+* [Update rules for duplicate handling][2]
+
+<!-- Referenced links -->
+[1]: field-mapping.md
+[2]: updating-rules-for-duplicate-handling.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/soek.bmp
