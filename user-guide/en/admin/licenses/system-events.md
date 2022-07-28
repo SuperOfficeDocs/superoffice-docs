@@ -15,27 +15,8 @@ In the **System notifications** list in the **Status** tab in the **Licences** s
 
 The **System events** tab consists of two parts:
 
-* **Events**. <!-- Fix reuse ID=a1 -->
-    Under **System notifications** you will find the following columns:
+* **Events**. [Click here to find out more about the different columns under Events.](#events)
 
-    Event
-    Shows the name of the event.
-    Status
-    Shows the status of the event.
-    Message
-    Shows the description of the event.
-    Activated
-    Shows when the event was initiated.
-    Activated by
-    Shows who initiated the event (user ID and portrait).
-    Finished
-    Shows when the event is expected to finish.
-
-    > [!NOTE]
-    > Events are not terminated automatically. You need to remove them from the **System events** tab to terminate them.
-
-    Type
-    Shows whether the event applies to the whole system.
 * **Description**, which shows detailed information about the event currently selected under **Events**.
 
 The following types of events are started from the various screens in Settings and maintenance:
@@ -63,13 +44,28 @@ You can start the following types of event from the **Status** tab:
 * **No Travel**: Select this event to deactivate Travel. This can be useful just before major system upgrades, to avoid synchronisation issues for returning Travel users.
 * **Message of the day**: Select this event to create important messages that are displayed to everyone who logs in to SuperOffice CRM (and, after a few minutes, the message is also shown to anyone already logged in).
 
+## Events
+
+Under **System notifications** you will find the following columns:
+
+| Column | Description |
+|---|---|
+| Event |Shows the name of the event. |
+| Status | Shows the status of the event. |
+| Message | Shows the description of the event. |
+| Activated | Shows when the event was initiated. |
+| Activated by | Shows who initiated the event (user ID and portrait). |
+| Finished | Shows when the event is expected to finish.
+| Type | Shows whether the event applies to the whole system. |
+
+[!include[Terminate events](../includes/note-terminate-event.md)]
+
 ## What would you like to do now?
 
 * [Add system events][1]
 
 <!-- Referenced links -->
-[1]: Adding-system-events.md
-[2]: ../licenses/Licences-screen.md
+[1]: adding-system-events.md
+[2]: index.md
 
 <!-- Referenced images -->
-

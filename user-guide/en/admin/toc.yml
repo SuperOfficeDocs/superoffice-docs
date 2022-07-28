@@ -14,16 +14,7 @@ items:
   - name: Text analysis
     href: ai/text-analysis.md
 - name: Licenses
-  href: licenses/crm-and-licences.md
-  items:
-  - name: CRM and licences
-    href: licenses/crm-and-licences.md
-  - name: Editing licence information web
-    href: licenses/editing-licence-information-web.md
-  - name: Licences screen
-    href: licenses/licences-screen.md
-  - name: The Status tab
-    href: licenses/status-tab.md
+  href: licenses/toc.yml
 - name: Preferences
   href: preferences/active-settings.md
   items:
@@ -66,8 +57,6 @@ items:
     href: options/adding-companies-in-our-companies-tab-web.md
   - name: Adding stopwords
     href: options/adding-stopwords.md
-  - name: Adding system events
-    href: options/adding-system-events.md
   - name: Customer languages
     href: options/custlangs/index.md
   - name: editCustLang
@@ -142,8 +131,6 @@ items:
     href: options/stopwords.md
   - name: Suggesting stopwords
     href: options/suggesting-stopwords.md
-  - name: System events
-    href: options/system-events.md
   - name: Timezones
     href: options/timezones.md
   - name: Using search criteria

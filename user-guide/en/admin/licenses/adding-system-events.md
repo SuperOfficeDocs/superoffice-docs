@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Add system events
 
-You can initiate some system events from **System notifications** list in the **Status** tab (see [System events][1]). You do this as follows:
+You can initiate some system events from **System notifications** list in the **Status** tab (see [System events][1]). [!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **Licences** screen.
 
@@ -24,8 +24,7 @@ You can initiate some system events from **System notifications** list in the **
 
 5. Specify the date and time when you expect the event to finish in the **Finished** fields.
 
-    > [!NOTE]
-    > Events are not terminated automatically. You need to remove them from the **System events** tab to terminate them.
+    [!include[Terminate events](../includes/note-terminate-event.md)]
 
 6. Enter more detailed information about the event in the **Description** field.
 
@@ -34,9 +33,10 @@ You can initiate some system events from **System notifications** list in the **
 
 7. Click **Save** to create the event. It will be displayed in the **System Notifications** list in the **Status** tab.
 
-To edit an event, double-click it in the list.
-
-To delete an event, select it in the list an click the **Delete** button.
+> [!TIP]
+> To edit an event, double-click it in the list.
+>
+> To delete an event, select it in the list an click the **Delete** button.
 
 <!-- Referenced links -->
 [1]: system-events.md

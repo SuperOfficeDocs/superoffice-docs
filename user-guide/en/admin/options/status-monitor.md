@@ -59,6 +59,6 @@ To create a status, you need to perform these steps:
 [6]: restore-deleted-status-web.md
 [7]: edit-description-for-status.md
 [8]: manage-status-monitors.md
-[9]: ../licenses/licences-screen.md
+[9]: ../licenses/index.md
 
 <!-- Referenced images -->

@@ -1,0 +1,14 @@
+  items:
+  - name: Licences screen
+    href: index.md
+  - name: The Status tab
+    href: status-tab.md
+  - name: System events
+    href: system-events.md
+    items:
+    - name: Adding system events
+      href: adding-system-events.md
+  - name: Editing licence information web
+    href: editing-licence-information-web.md
+  - name: CRM and licences
+    href: crm-and-licences.md

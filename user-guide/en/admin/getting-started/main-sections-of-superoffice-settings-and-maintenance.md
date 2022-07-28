@@ -45,7 +45,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [2]: ../../user/chat/index.md
 [3]: ../custcent/index.md
 [4]: ../systemdesign/index.md
-[5]: ../licenses/licences-screen.md
+[5]: ../licenses/index.md
 [6]: ../users/index.md
 [7]: ../role/index.md
 [8]: ../privacy/index.md

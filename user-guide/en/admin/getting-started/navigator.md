@@ -39,7 +39,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md
 [2]: ../../user/chat/index.md
-[5]: ../licenses/licences-screen.md
+[5]: ../licenses/index.md
 [6]: ../users/index.md
 [7]: ../role/index.md
 [8]: ../privacy/index.md

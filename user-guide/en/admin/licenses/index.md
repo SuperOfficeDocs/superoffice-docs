@@ -11,8 +11,6 @@ language: en
 
 # Licences
 
-[Click here for more information about the **Status** tab in the **Licences** screen][1].
-
 In the **SuperOffice** tab in the **Licences** screen, you can display and update the licence information for your version of SuperOffice CRM and associated modules.
 
 > [!NOTE]
@@ -30,7 +28,8 @@ The following statuses can be shown here:
 
 * **New licence activated** – the system has updated the licence automatically. You can click the link to view the changes.
 * **Activate new licence** – new licence is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licences.
-    <!-- Fix reuse ID=a1 -->
+
+    **Is the Activate button disabled? Is the licence name shown in red?**
     This may be because the total number of new licences is less than the number of licences in use. You will need to reduce the number of user licences in use. See [Edit licence information][2].
 
 > [!NOTE]
@@ -48,6 +47,7 @@ Click the **Purchase new licences** button to go to SuperOffice's online store S
 
 * [SuperOffice CRM and licences][3]
 * [Edit licence information][2]
+* [The **Status** tab in the **Licences** screen][1].
 
 <!-- Referenced links -->
 [1]: status-tab.md
