@@ -17,5 +17,11 @@ For example, you can create a new status called "Waiting for reply" as a more de
 
 ## What do you want to do now?
 
-* [Create request status](listTicketStatuses.newTicketStatus.md)
-* [Delete request status](listTicketStatuses.deleteTicketStatus.md)
+* [Create request status][1]
+* [Delete request status][2]
+
+<!-- Referenced links -->
+[1]: listticketstatuses.newticketstatus.md
+[2]: listticketstatuses.deleteticketstatus.md
+
+<!-- Referenced images -->

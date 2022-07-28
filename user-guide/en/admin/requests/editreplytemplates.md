@@ -46,7 +46,7 @@ In the **Customers** tab, you have the following options:
 
 * **Reply template for new contacts**: Shows the reply template to send to new contacts at customers when they are first registered.
 
-* **Reply template for auto-reply**: Shows the reply template to be used to send standard auto-replies to contacts when e-mail from them is received. This value is overridden for individual mailboxes. See [Mailboxes](listFilters.listFilters.md).
+* **Reply template for auto-reply**: Shows the reply template to be used to send standard auto-replies to contacts when e-mail from them is received. This value is overridden for individual mailboxes. See [Mailboxes][1].
 
 * **Reply template for sending password to contacts**: Shows the reply template to send to contacts when they ask to have their password sent to them.
 
@@ -78,3 +78,8 @@ In the **Weekly stats** tab, you have the following options:
 * **E-mail addresses for weekly statistics**: Here you can add one or more e-mail addresses (comma-separated) to which to send weekly statistics for SuperOffice Service in the last week or month.
 
 [!include[How to change template](../../includes/select-other-template.md)]
+
+<!-- Referenced links -->
+[1]: email/index.md
+
+<!-- Referenced images -->

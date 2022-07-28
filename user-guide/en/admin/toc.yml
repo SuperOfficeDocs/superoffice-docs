@@ -13,9 +13,9 @@ items:
   items:
   - name: Adjusting views
     href: getting-started/adjusting-views.md
-  - name: Admin web
+  - name: web
     href: getting-started/admin-web.md
-  - name: Admin win
+  - name: win
     href: getting-started/admin-win.md
   - name: Backup routines
     href: getting-started/backup-routines.md
@@ -375,9 +375,9 @@ items:
 - name: Customer centre
   href: custcent/index.md
   items:
-  - name: Admin listCustCenter config
+  - name: listCustCenter config
     href: custcent/config.md
-  - name: Admin listCustCenter edit
+  - name: listCustCenter edit
     href: custcent/edit.md
 - name: Fields web
   href: fields/adding-fields.md
@@ -470,53 +470,53 @@ items:
 - name: Requests
   href: requests/editreplytemplates.md
   items:
-  - name: Admin editReplyTemplates
+  - name: editReplyTemplates
     href: requests/editreplytemplates.md
-  - name: Admin listCategories
+  - name: listCategories
     href: requests/listcategories.md
-  - name: Admin listCategories deleteCategory
+  - name: listCategories deleteCategory
     href: requests/listcategories.deletecategory.md
-  - name: Admin listCategories newCategory
+  - name: listCategories newCategory
     href: requests/listcategories.newcategory.md
-  - name: Admin listFilters
-    href: requests/listfilters.md
-  - name: Admin listFilters listFilters
-    href: requests/listfilters.listfilters.md
-  - name: Admin listFilters listFilters deleteMailbox
-    href: requests/listfilters.listfilters.deletemailbox.md
-  - name: Admin listFilters listFilters editFacebookApplication
-    href: requests/listfilters.listfilters.editfacebookapplication.md
-  - name: Admin listFilters listFilters editSMSmailbox
-    href: requests/listfilters.listfilters.editsmsmailbox.md
-  - name: Admin listFilters listFilters newFilter
-    href: requests/listfilters.listfilters.newfilter.md
-  - name: Admin listFilters listMSFilter
-    href: requests/listfilters.listmsfilter.md
-  - name: Admin listFilters listMSFilter deleteMSFilter
-    href: requests/listfilters.listmsfilter.deletemsfilter.md
-  - name: Admin listFilters listMSFilter newMSFilter
-    href: requests/listfilters.listmsfilter.newmsfilter.md
-  - name: Admin listFilters viewBlocked
-    href: requests/listfilters.viewblocked.md
-  - name: Admin listFilters viewInbox
-    href: requests/listfilters.viewinbox.md
-  - name: Admin listFilters viewOutbox
-    href: requests/listfilters.viewoutbox.md
-  - name: Admin listPriorities
+  - name: listFilters
+    href: requests/email/listfilters.md
+  - name: listFilters
+    href: requests/email/index.md
+  - name: listFilters deleteMailbox
+    href: requests/email/listfilters.deletemailbox.md
+  - name: listFilters editFacebookApplication
+    href: requests/email/listfilters.editfacebookapplication.md
+  - name: listFilters editSMSmailbox
+    href: requests/email/listfilters.editsmsmailbox.md
+  - name: listFilters newFilter
+    href: requests/email/listfilters.newfilter.md
+  - name: listMSFilter
+    href: requests/email/listmsfilter.md
+  - name: listMSFilter deleteMSFilter
+    href: requests/email/listmsfilter.deletemsfilter.md
+  - name: listMSFilter newMSFilter
+    href: requests/email/listmsfilter.newmsfilter.md
+  - name: viewBlocked
+    href: requests/email/viewblocked.md
+  - name: viewInbox
+    href: requests/email/viewinbox.md
+  - name: viewOutbox
+    href: requests/email/viewoutbox.md
+  - name: listPriorities
     href: requests/listpriorities.md
-  - name: Admin listPriorities editAlert newAlert
+  - name: listPriorities editAlert newAlert
     href: requests/listpriorities.editalert.newalert.md
-  - name: Admin listPriorities listPriorities deletePriority
+  - name: listPriorities listPriorities deletePriority
     href: requests/listpriorities.listpriorities.deletepriority.md
-  - name: Admin listPriorities listPriorities editPriority
+  - name: listPriorities listPriorities editPriority
     href: requests/listpriorities.listpriorities.editpriority.md
-  - name: Admin listTicketStatuses
+  - name: listTicketStatuses
     href: requests/listticketstatuses.md
-  - name: Admin listTicketStatuses deleteTicketStatus
+  - name: listTicketStatuses deleteTicketStatus
     href: requests/listticketstatuses.deleteticketstatus.md
-  - name: Admin listTicketStatuses newTicketStatus
+  - name: listTicketStatuses newTicketStatus
     href: requests/listticketstatuses.newticketstatus.md
-  - name: Admin soapConf
+  - name: soapConf
     href: requests/soapconf.md
   - name: Requests
     href: requests/requests.md

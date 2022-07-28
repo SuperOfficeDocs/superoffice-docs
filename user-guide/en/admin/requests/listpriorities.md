@@ -41,5 +41,11 @@ An example of this is user-support and SLA agreements which specify that the sup
 
 ## What do you want to do now?
 
-* [Create priorities](listPriorities.listPriorities.editPriority.md)
-* [Create escalation levels](listPriorities.editAlert.newAlert.md)
+* [Create priorities][1]
+* [Create escalation levels][2]
+
+<!-- Referenced links -->
+[1]: listpriorities.listpriorities.editpriority.md
+[2]: listpriorities.editalert.newalert.md
+
+<!-- Referenced images -->

@@ -57,4 +57,9 @@ In the **Escalating events** tab, you specify how the escalation chain operates 
 
 * **Escalate requests according to time frame**: If you check here, requests that have this priority will only be escalated during the priority's defined time frame. In other words, outside of the periods defined in the **Time frame** tab, escalation will be "frozen".
 
-Click **Save**. The priority is created. Now you can, for example, link escalation levels to this priority. See [Create escalation levels](listPriorities.editAlert.newAlert.md)
+Click **Save**. The priority is created. Now you can, for example, link escalation levels to this priority. See [Create escalation levels][1]
+
+<!-- Referenced links -->
+[1]: listpriorities.editalert.newalert.md
+
+<!-- Referenced images -->

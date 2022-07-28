@@ -40,7 +40,7 @@ To create a new mailbox:
 10. In the **Category** list box, select to which category the messages in this mailbox should belong.
 11. In the **Priority** list box, select which priority that requests from this mailbox should be given.
 12. <!-- onsite--> In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
-13. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer languages](../options/custlangs/index.md).
+13. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer languages][4].
 14. Check **Do not auto-reply** to disable the auto-reply function. See the note at the top of this topic.
 15. In the **E-mail fields** field, you can enter a comma-separated list of e-mail fields (headers) to be displayed in the request message, for example, To and Cc.
 16. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer.
@@ -48,16 +48,19 @@ To create a new mailbox:
 18. <!-- onsite--> Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon][img1].
 19. **Import auto-replies and system messages**: By default, e-mails that contain out of office messages, system messages and other irrelevant messages are not imported. If you do want to import such e-mails, you can check this option.
 20. <!-- online--> **AI services**: Here you can select the following options for categorization and text analysis using AI (see [AI services](../ai/index.md)):
-    * **Use AI to suggest categories**: Select this option to let the AI suggest a category for requests based on the content of e-mail messages. See [Categorization](../ai/Categorization.md).
-    * **Use text analysis**: Select this option to let the AI analyse the text in e-mail messages to detect language (for translation) and perform sentiment analysis. See [Text analysis](../ai/Text-analysis.md).
+    * **Use AI to suggest categories**: Select this option to let the AI suggest a category for requests based on the content of e-mail messages. See [Categorization][3].
+    * **Use text analysis**: Select this option to let the AI analyse the text in e-mail messages to detect language (for translation) and perform sentiment analysis. See [Text analysis][2].
 21. Click **OK**. The mailbox is created.
 
 ## What would you like to do now?
 
-[Delete mailboxes](listFilters.listFilters.deleteMailbox.md)
+* [Delete mailboxes][1]
 
 <!-- Referenced links -->
-[1]:
+[1]: listfilters.deletemailbox.md
+[2]: ../../ai/text-analysis.md
+[3]: ../../ai/categorization.md
+[4]: ../../options/custlangs/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
+[img1]: ../../../../media/icons/btn-add.png

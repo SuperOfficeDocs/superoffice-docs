@@ -17,7 +17,7 @@ In the **E-mail** screen, you control the mechanisms that manage inbound and out
 
 ## What would you like to find out more about?
 
-[Mailboxes](listFilters.listFilters.md)
+[Mailboxes](listfilters.listfilters.md)
 
 [E-mail filter](listFilters.listMSFilter.md)
 

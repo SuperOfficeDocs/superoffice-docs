@@ -71,7 +71,7 @@ items:
   - name: Admin listFilters
     href: admin/listfilters.md
   - name: Admin listFilters listFilters
-    href: admin/listfilters.listfilters.md
+    href: admin/listFilters.listfilters.md
   - name: Admin listFilters listFilters deleteMailbox
     href: admin/listfilters.listfilters.deletemailbox.md
   - name: Admin listFilters listFilters editFacebookApplication

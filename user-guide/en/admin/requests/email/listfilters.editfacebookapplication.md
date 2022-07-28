@@ -46,7 +46,7 @@ To do this:
 6. In the **Category** list box, select to which category messages from the Facebook application should belong.
 7. In the **Priority** list box, select which priority to assign to requests from this Facebook application.
 8. In the **Interval** list box, select how often SuperOffice Service is to get messages from this Facebook application.
-9. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this Facebook application. For more details about this, see [Customer languages](../options/custlangs/index.md).
+9. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this Facebook application. For more details about this, see [Customer languages][3].
 10. In the **E-mail fields** field, enter a comma-separated list of e-mail fields (headers) to be displayed in the request message, for example, To and Cc.
 11. Click **OK**. The Facebook account is created.
 
@@ -57,5 +57,6 @@ To do this:
 <!-- Referenced links -->
 [1]: https://developers.facebook.com
 [2]: https://community.superoffice.com/en/technical/documentation/install-upgrade/service/Facebook-integration/
+[3]: ../../options/custlangs/index.md
 
 <!-- Referenced images -->

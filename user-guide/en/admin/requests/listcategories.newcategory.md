@@ -39,9 +39,9 @@ In the **Properties** tab, enter the following information:
 
 **Take ownership when replying**: If you check here, the user who replies to a request in this category, will be set as the owner of the request.
 
-**Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences](../preferences/index.md), unless you select **User-defined**.
+**Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
 
-**Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences](../preferences/index.md), unless you select **User-defined**.
+**Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences][1], unless you select **User-defined**.
 
 **Merge outbound e-mails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
 
@@ -50,7 +50,7 @@ In the **Properties** tab, enter the following information:
 In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click **Add**.
 
 > [!TIP]
-> If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups](../users/User-groups.md).
+> If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups][2].
 
 In the **Assignment method** tab, enter the following information:
 
@@ -59,7 +59,7 @@ In the **Assignment method** tab, enter the following information:
   * **Even**: Assigns requests evenly among the members of the category.
   * **Weighted**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
   * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
-  * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue](../../user/service/request/get-next-request-in-queue.md)).
+  * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests &gt; Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue][3]).
   * **Only assign to logged in users**: Assigns requests only to users who are logged in to SuperOffice Service.
   * **Assign to category administrator if no one is available**: Assigns requests to the category manager if no other users are available.
   * **Reassign requests on new message if user is not present**: Reassigns requests when a new message arrives on a request and the user is not available.
@@ -67,3 +67,10 @@ In the **Assignment method** tab, enter the following information:
   * **Duration of sticky request**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same e-mail address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
 
 Click **OK**. The category is created.
+
+<!-- Referenced links -->
+[1]: ../preferences/index.md
+[2]: ../users/user-groups.md
+[3]: ../../user/service/request/get-next-request-in-queue.md
+
+<!-- Referenced images -->
