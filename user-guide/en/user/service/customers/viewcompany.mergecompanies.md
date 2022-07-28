@@ -23,7 +23,7 @@ To merge companies:
 3. In the search field, start typing the company name. Enter **%** to display all companies.
 4. Select a company from the list of search results. The selected company opens in a new column in the table.
 5. To add more companies, repeat the previous steps.
-6. For each row (field) in the table, you must select which company data should be kept. Click ![icon](../media/btn-selectall.png) **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
+6. For each row (field) in the table, you must select which company data should be kept. Click ![icon](../../../../media/icons/service/btn-selectall.png) **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
     * Contacts (including requests) from all merged companies will be kept.
     * Registered domains from all merged companies will be kept.
     * Invoices registered on all merged companies will be kept.

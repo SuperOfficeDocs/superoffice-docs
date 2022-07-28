@@ -32,7 +32,7 @@ When you create or edit selections, you can adjust how many columns to display i
     > [!TIP]
     > It is also displayed on the far right under **Sample table**.
 
-8. If you want to move the column farther to the left of the table view, click the up arrow ( ![icon](../media/up.png) ) to the right of the relevant entry under **Columns**, until it is correctly positioned.
+8. If you want to move the column farther to the left of the table view, click the up arrow ( ![icon](../../../../media/icons/service/up.png) ) to the right of the relevant entry under **Columns**, until it is correctly positioned.
 
 9. Click **OK**. The column is added.
 
@@ -41,14 +41,14 @@ When you create or edit selections, you can adjust how many columns to display i
 You can also add functions, for example, a summary column in the selection. We will use a concrete example to explain how this works. In the example below, we assume that you already have a selection based on the **Request** source table and that you now want to add a column showing how long it took from a request being received to a request handler reading it.
 
 1. First follow the procedure above for adding a column called, for example, "Read by request handler", which gets information from the **Read by owner** field in the database.
-2. Use the up arrow ( ![icon](../media/btn-RankUp.png) ) to move this column until it is just below the **Created** (ticket.created\-at) column.
+2. Use the up arrow ( ![icon](../../../../media/icons/service/btn-RankUp.png) ) to move this column until it is just below the **Created** (ticket.created\-at) column.
 3. Click the **View functions** button.
 4. In the field on the far left below the list, enter the name you want to give the column that will contain the function.
 5. In the list box on the right of the name field, select the **Time difference** function.
 6. In the next list box, select **Column 3**, corresponding to the **Created** column.
 7. In the next list box, select **Column 4**, corresponding to the **Read by request handler** column.
 8. Click **Add column**. The new column containing the **Time difference** function is added at the bottom of the column list.
-9. If you want to move the column farther to the left of the table view, click the up arrow ( ![icon](../media/btn-RankUp.png) ) to the right of the relevant entry under **Columns**, until it is correctly positioned.
+9. If you want to move the column farther to the left of the table view, click the up arrow ( ![icon](../../../../media/icons/service/btn-RankUp.png) ) to the right of the relevant entry under **Columns**, until it is correctly positioned.
 10. Click **Execute**. The column containing the function is added in the **Result** tab.
 
 > [!TIP]
@@ -58,7 +58,7 @@ You can also add functions, for example, a summary column in the selection. We w
 
 1. Open the **Edit selection** screen. See [Create selection](newSelection.md) or [Edit selection](editSelection2.md).
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
-3. Use the arrow buttons ( ![icon](../media/btn-RankUp.png) and ![icon](../media/btn-RankDown.png) ) to the right of the columns to move the various columns where you want.
+3. Use the arrow buttons ( ![icon](../../../../media/icons/service/btn-RankUp.png) and ![icon](../../../../media/icons/service/btn-RankDown.png) ) to the right of the columns to move the various columns where you want.
 4. Click **OK**. The changes are saved.
 
 ## Edit columns

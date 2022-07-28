@@ -33,7 +33,7 @@ But you first need to register a company. To do this:
 7. In the **Our contact** list box, select the request handler who will be responsible for this company.
 
     > [!TIP]
-    > If you want to specify you yourself as the request handler responsible, simply click the person icon next to the **Our contact** list box ( ![icon](../media/btn-active-user.png) ).
+    > If you want to specify you yourself as the request handler responsible, simply click the person icon next to the **Our contact** list box ( ![icon](../../../../media/icons/service/btn-active-user.png) ).
 
 8. Click the **Category** list box, select the applicable category for the company. This list is maintained in SuperOffice Settings and maintenance.
 

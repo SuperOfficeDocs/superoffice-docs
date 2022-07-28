@@ -19,7 +19,7 @@ Once you have created an extra table, you need to set up fields in the table, to
 To create extra fields in tables:
 
 1. Select ![icon][img1] **System settings** &gt; **System design** &gt; **Tables**.
-2. Browse to the table you want, point at the table name and click ![icon](../media/btn-newfield.png). The **New extra field** screen opens.
+2. Browse to the table you want, point at the table name and click ![icon](../../../../media/icons/service/btn-newfield.png). The **New extra field** screen opens.
 3. Select a field type in the **Type** list box.
 4. Click **OK**. The **Field properties** screen appears.
 5. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
@@ -55,7 +55,7 @@ To create extra fields in tables:
     * **Use days** / **Use hours** / **Use minutes**: Select the time units you want to use in the time span field.
     * **Use default value**: If this option is checked, the field is assigned a default value unless otherwise specified.
     * **View in relational choosers**: If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You have created an extra table called "Products" with an extra table relation to the **Requests** table. In this way you can search for and add products in the **Extra fields** tab when creating new requests. By selecting **View in relational choosers** for specific fields in the "Products" table, these fields will be available as search fields in the **Extra fields** tab.
-6. Click **OK** to save, and then ![icon](../media/btn-restartNetserver.png)**Restart Netserver**.
+6. Click **OK** to save, and then ![icon](../../../../media/icons/service/btn-restartNetserver.png)**Restart Netserver**.
 
 <!-- Referenced links -->
 [1]:

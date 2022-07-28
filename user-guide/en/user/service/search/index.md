@@ -31,7 +31,7 @@ There are many different ways to bring up the search screen, depending on where 
 * You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests](../request/listTickets.findTickets.md).
 * You can use predefined lists to search for requests. See [Use lists](../request/listTickets.useLists.md).
 * You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
-* In the knowledge base, you can click the **Search** icon ( ![icon](../media/search.png) ) to the right of a folder name to search for different types of content.
+* In the knowledge base, you can click the **Search** icon ( ![icon](../../../../media/icons/service/search.png) ) to the right of a folder name to search for different types of content.
 * The search screen is used as the basis for creating some types of selection. See [Create a selection](../selections/newSelection.md).
 
 ## The Criteria screen
@@ -47,7 +47,7 @@ The list below explains how to use the different types of field that can be disp
 
 | Field | How is it used? |
 |:-----:|-----------------|
-| ![icon](../media/inputText.png) | In an ordinary text field, you simply enter what you are searching for. |
+| ![icon](../../../../media/icons/service/inputText.png) | In an ordinary text field, you simply enter what you are searching for. |
 | ![icon][img3] | If there is a list button next to the field, click the button and select an option from the list that appears. You can also start by typing text into the field and selecting from the list that appears. |
 | ![icon][img4] | If there is a **Add** button next to a field, this means that you can have more possible values for a field. For example, you can specify that you want to search for requests owned by request handler A or requests owned by request handler B. |
 | ![icon][img5] | You delete search criteria by clicking the delete icon to the right of the criterion in question. Click **Advanced view** to show this button. |
@@ -94,7 +94,7 @@ At the top right corner of the search results list are the following buttons:
 
 * **Update content** ( ![icon][img1] ): Clicking this button updates the search result with any new records that also match the criteria.
 * Click the ![icon][img2] menu button in the top right corner to access the change the view options.
-* **Edit element profile** ( ![icon](../media/btn-editelementprofile.png) ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results](searchResult.md).
+* **Edit element profile** ( ![icon](../../../../media/icons/service/btn-editelementprofile.png) ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results](searchResult.md).
 
 Under the list, you can click ![icon][img2] to access the following options:
 

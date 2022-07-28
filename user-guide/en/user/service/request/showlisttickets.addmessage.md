@@ -32,4 +32,4 @@ In request handling, your most important task is to respond to enquiries. Procee
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../media/msg-attachment.png
+[img2]: ../../../../media/icons/service/msg-attachment.png

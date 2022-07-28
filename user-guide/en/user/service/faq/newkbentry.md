@@ -70,7 +70,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 13. Enter the question that you want the FAQ entry to contain. By default, the first message in the request is pasted into the **Question** tab.
 
     > [!TIP]
-    > Click ![icon](../media/btn-spellcheck.png) and select a language to spell check the message in that language.
+    > Click ![icon](../../../../media/icons/service/btn-spellcheck.png) and select a language to spell check the message in that language.
 
 14. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
 

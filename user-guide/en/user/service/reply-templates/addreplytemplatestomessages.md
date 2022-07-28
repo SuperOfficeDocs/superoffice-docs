@@ -21,4 +21,4 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 6. Review the text and make any adjustments.
 
 > [!TIP]
-> You can also click ![icon](../media/btn-preview.png)**Preview** to display the selected item onscreen.
+> You can also click ![icon](../../../../media/icons/service/btn-preview.png)**Preview** to display the selected item onscreen.

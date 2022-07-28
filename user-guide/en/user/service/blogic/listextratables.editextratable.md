@@ -47,4 +47,4 @@ To create an extra table:
 [img1]: ../../../../media/icons/btn-add.png
 [img2]: ../../../../media/icons/globalmenu-settings-small.png
 [img3]: ../../../../media/icons/nav-request-small.png
-[img4]: ../media/btn-newtable.png
+[img4]: ../../../../media/icons/service/btn-newtable.png

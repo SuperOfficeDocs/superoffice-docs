@@ -25,7 +25,7 @@ To create a new request status:
     * at internal decision stage
     * at external decision stage
 9. Click **OK**. The request status is created.
-10. If required, adjust the position of the status using the arrow buttons ( ![icon](../media/btn-RankUp.png) and ![icon](../media/btn-RankDown.png) ) in the **Rank** column in the **Request status** screen. The rank here specifies the order in the **Status** list box when creating a new request.
+10. If required, adjust the position of the status using the arrow buttons ( ![icon](../../../../media/icons/service/btn-RankUp.png) and ![icon](../../../../media/icons/service/btn-RankDown.png) ) in the **Rank** column in the **Request status** screen. The rank here specifies the order in the **Status** list box when creating a new request.
 
 <!-- Referenced links -->
 [1]:

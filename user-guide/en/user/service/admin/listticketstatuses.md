@@ -24,7 +24,7 @@ The **Request status** screen displays all existing statuses in the system. The 
 * **Track time as**: This is used to report time usage in various phases of request management. See [Create request status](listTicketStatuses.newTicketStatus.md).
 * **Queue status**: Indicates if requests with this status should be placed in the queue. This is relevant if you use the **Get next request in queue** function. See [How to set up Get next request in queue](../request/get-next-request-in-queue.md).
 * **Default**: Indicates if this is a default status for the internal status.
-* **Rank**: The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the **Request** screen. You use the arrow buttons ( ![icon](../media/btn-RankUp.png) and ![icon](../media/btn-RankDown.png) ) to change the order.
+* **Rank**: The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the **Request** screen. You use the arrow buttons ( ![icon](../../../../media/icons/service/btn-RankUp.png) and ![icon](../../../../media/icons/service/btn-RankDown.png) ) to change the order.
 
 ## What would you like to do now?
 

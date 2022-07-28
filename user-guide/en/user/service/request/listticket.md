@@ -66,7 +66,7 @@ There are basically three types of messages:
 * internal notes about the request, such as questions to a colleague
 
 > [!TIP]
-> Internal messages are marked with ![icon](../media/message-internal.png).
+> Internal messages are marked with ![icon](../../../../media/icons/service/message-internal.png).
 
 Click ![icon][img1] on a message to access additional options for the message:
 

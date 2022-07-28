@@ -17,7 +17,7 @@ To display the contents of a document in the knowledge base:
 2. Go to the required folder.
 3. Do one of the following:
     * Click the document name to go to the **Document properties** screen. Here you can also view and edit the contents of certain document types, such as html, txt and the native ejr format.
-    * Click ![icon](../media/down.png)**Download** to download documents which cannot be viewed in the browser, such as PDF, Word and Excel files. An icon in the document list indicates the document type.
+    * Click ![icon](../../../../media/icons/service/down.png)**Download** to download documents which cannot be viewed in the browser, such as PDF, Word and Excel files. An icon in the document list indicates the document type.
 
 ## What would you like to do now?
 

@@ -20,7 +20,7 @@ To create a new escalation level:
 3. In the **Actions** tab, enter the following information:
     * **Priority**: In this list box, you choose the priority you want to link the escalation level to.
     * **Level**: In this list box, you select the position this escalation level will have in the escalation chain.
-    * **Occurs after**: Click ![icon](../media/calendar.png), and define the delay before this level is enabled. If the priority has been defined to have its escalation comply with the time frame, that will affect the time entered here. A priority with a time frame of Monday to Friday, 09.00 to 17.00 and first escalation level after 2 hours, would, for example, be escalated at 10.00 on Monday, if the request was registered at 16.00 on the preceding Friday.
+    * **Occurs after**: Click ![icon](../../../../media/icons/service/calendar.png), and define the delay before this level is enabled. If the priority has been defined to have its escalation comply with the time frame, that will affect the time entered here. A priority with a time frame of Monday to Friday, 09.00 to 17.00 and first escalation level after 2 hours, would, for example, be escalated at 10.00 on Monday, if the request was registered at 16.00 on the preceding Friday.
     * **Reassign to**: If you want the request to be forwarded to another user when this escalation level occurs, check here. Then select the user you require in the list.
     * **Run script**: If you want a script to be run when this escalation level occurs, check here. Then select the script you require in the list.
 

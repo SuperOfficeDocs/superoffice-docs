@@ -44,7 +44,7 @@ Normally, contacts are registered by the system when they send in mails, but the
     * In the **Business**field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 
 13. In the **Company** field, you can specify which company the contact is linked to. To search for a company, start typing its name, and select the company from the list of results.  
-    Click ![icon](../media/btn-add-company.png) to create a new company. See [Create companies](newCompany.md).
+    Click ![icon](../../../../media/icons/service/btn-add-company.png) to create a new company. See [Create companies](newCompany.md).
 
     > [!TIP]
     > You can also click **Automatic** to select a company automatically based on the domain in the e-mail address, i.e. what appears after "@". The domain must be registered on a company (see [Create companies](newCompany.md)).

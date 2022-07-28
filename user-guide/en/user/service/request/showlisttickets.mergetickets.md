@@ -23,7 +23,7 @@ To merge requests:
 3. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
 4. Select a request from the list of search results. The selected request opens in a new column in the table.
 5. To add more requests, repeat the previous steps.
-6. For each row (field) in the table, you must select which request data should be kept. Click ![icon](../media/btn-selectall.png) **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
+6. For each row (field) in the table, you must select which request data should be kept. Click ![icon](../../../../media/icons/service/btn-selectall.png) **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
     * Messages from all merged requests will be kept.
     * Contacts from all merged requests will be kept, and the main contact will be inherited from the selected request ID.
 7. Click **OK**. The requests are merged.

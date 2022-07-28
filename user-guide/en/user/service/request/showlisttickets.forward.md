@@ -32,4 +32,4 @@ As a request handler, you, even aided by your colleagues, are not always able to
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../media/msg-attachment.png
+[img2]: ../../../../media/icons/service/msg-attachment.png

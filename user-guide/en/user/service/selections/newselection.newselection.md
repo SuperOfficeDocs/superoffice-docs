@@ -20,7 +20,7 @@ Open the search screen. <!-- Fix reuse ID=a2 -->
 * You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests][1].
 * You can use predefined lists to search for requests. See [Use lists][2].
 * You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
-* In the knowledge base, you can click the **Search** icon ( ![icon](../media/search.png) ) to the right of a folder name to search for different types of content.
+* In the knowledge base, you can click the **Search** icon ( ![icon](../../../../media/icons/service/search.png) ) to the right of a folder name to search for different types of content.
 
 Enter or adjust the criteria as described under [Search in SuperOffice Service](../search/index.md).
 

@@ -35,4 +35,4 @@ In the request lists, you can forward multiple requests at the same time. To do 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../media/msg-attachment.png
+[img2]: ../../../../media/icons/service/msg-attachment.png
