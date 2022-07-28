@@ -4,7 +4,7 @@ title: Changing the language version web
 description: Changing the language version web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, language
 so.topic: help
 language: en
 ---

@@ -50,7 +50,7 @@ Click the **Purchase new licences** button to go to SuperOffice's online store S
 * [Edit licence information][2]
 
 <!-- Referenced links -->
-[1]: ../getting-started/status-tab.md
+[1]: status-tab.md
 [2]: editing-licence-information-web.md
 [3]: crm-and-licences.md
 

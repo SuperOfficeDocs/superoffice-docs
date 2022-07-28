@@ -22,6 +22,8 @@ items:
     href: licenses/editing-licence-information-web.md
   - name: Licences screen
     href: licenses/licences-screen.md
+  - name: The Status tab
+    href: licenses/status-tab.md
 - name: Preferences
   href: preferences/active-settings.md
   items:
@@ -503,3 +505,7 @@ items:
 - name: win-client
   href: win-client/toc.yml
   topicHref: win-client/index.md
+- name: Orphaned content
+  items:
+  - name: Parameter examples
+    href: orphans/parameter-examples.md

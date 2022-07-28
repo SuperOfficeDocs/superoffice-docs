@@ -1,4 +1,10 @@
   items:
+  - name: Main sections of the Maintenance client
+    href: main-sections-of-maintenance-client.md
+  - name: Log in to Windows Client settings
+    href: log-in-to-windows-client-settings.md
+  - name: Buttons win
+    href: buttons-win.md
   - name: ANSI files
     href: ansi-files.md
   - name: Creating import descriptions
@@ -33,3 +39,7 @@
     href: updating-rules-for-duplicate-handling.md
   - name: Updating the database
     href: updating-database.md
+  - name: Status screen
+    href: status-screen.md
+  - name: Backup routines
+    href: backup-routines.md

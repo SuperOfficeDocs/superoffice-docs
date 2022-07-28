@@ -30,7 +30,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 | [![icon][img13]][16] | **Options**: opens the **Options** screen, where you can define system-wide settings, i.e. settings for freetext search, time zones, number allocation, labels and reports. |
 | [![icon][img14]][17] | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. |
 | [![icon][img15]][18] | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. |
-| [![icon][img16]][1]] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. |
+| [![icon][img16]][1] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. |
 | ![icon][img17] | **Requests**: here you can find various settings for requests in SuperOffice Service. |
 | ![icon][img18] | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. |
 | ![icon][img19] | **System design**: here you can find various advanced settings for SuperOffice Service. |
@@ -54,7 +54,6 @@ The Navigator on the far left of the main screen contains the following buttons:
 [17]: ../import-web/index.md
 [18]: ../fields/index.md
 [19]: ../requests/requests.md
-[20]: main-sections-of-maintenance-client.md
 [21]: https://online.superoffice.com/appstore
 [22]: ../preferences/video-meetings.md
 [23]:  ../preferences/document-library.md
