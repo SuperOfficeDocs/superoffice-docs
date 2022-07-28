@@ -414,7 +414,7 @@ items:
   - name: Import settings web
     href: import-web/import-settings-web.md
   - name: Import web
-    href: import-web/import-web.md
+    href: import-web/index.md
 - name: Privacy
   href: privacy/add-consent-purpose.md
   items:

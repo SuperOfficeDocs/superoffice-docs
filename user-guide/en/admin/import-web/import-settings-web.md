@@ -28,16 +28,16 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 <!-- Fix reuse ID=a2 -->.
 
-* I want to import information that does not exist in the SuperOffice data, but I do not want to overwrite existing information.  
+* I want to import information that does not exist in the SuperOffice data, but I do not want to overwrite existing information.
     Select the **Merge - update empty fields** option. Only empty fields in SuperOffice will then be updated with imported information.
 
-* The data I want to import has been quality-assured and I want to update the SuperOffice database.  
+* The data I want to import has been quality-assured and I want to update the SuperOffice database.
     Select the **Replace - overwrite existing** option. The data from the import will overwrite existing fields in SuperOffice.
 
-* I only want to import new companies and contacts into SuperOffice.  
+* I only want to import new companies and contacts into SuperOffice.
     Select the **Skip record - do not import** option. Companies and contacts that already exist in SuperOffice will not be updated.
 
-* I want to import all companies and contacts into SuperOffice and manage any duplicates myself.  
+* I want to import all companies and contacts into SuperOffice and manage any duplicates myself.
     Select the **Always add** option.
 
 ## Existing data
@@ -56,7 +56,7 @@ Under **Company** and **Contact** in the **Import settings** dialog, specify how
 
 To do this:
 
-Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.  
+Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
 <!-- Fix reuse ID=a1 -->
 
 > [!NOTE]
@@ -65,29 +65,19 @@ Click the **Duplicate match** list box and select the field(s) that are to be us
 Company
 
 * **Name**: The company name must be identical.
-
 * **Name + Department**: Both the company name and the department must be identical.
-
 * **Number**: The company number must be identical.
-
 * **Code**: The company's code must be identical.
-
 * **VAT number**: The company's VAT number must be identical.
-
 * **ID**: The company's ID must be identical.
 
 Contact
 
 * **Name**: The contact's full name (first name+last name) must be identical.
-
 * **E-mail address**: The contact's e-mail address must be identical.
-
 * **Mobile phone**: The contact's mobile phone number must be identical.
-
 * **Number**: The contact number must be identical.
-
 * **None - do not import contact**: Select this option if you do not want to import contacts.
-
 * **ID**: The contact ID must be identical.
 
 Click the **Action** list box and choose how duplicate hits are to be managed:
@@ -109,7 +99,7 @@ If contacts in the import source are not listed with a company, you have three o
 
 When you import contacts, you must also set the legal basis and consent source for the purpose **Sales and service**:
 
-* **Legal basis**: Select a legal basis from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen (see [Privacy](../privacy/index.md)).
+* **Legal basis**: Select a legal basis from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen (see [Privacy][1]).
 * **Consent source**: This value is by default set to **Import**, but you can select another value in the list.
 
 ## Manage list values that do not exist in SuperOffice
@@ -129,6 +119,11 @@ The import source may, for example, contain businesses that are not registered i
 The import source may, for example, contain phone numbers, links and e-mail addresses that are not registered in SuperOffice. As is it possible to register several phone numbers, links and e-mail addresses for a single company/contact, you must specify how new values are to be managed. In the **Phone number** and **URLs + email** list boxes under **Lists**, you have the following options:
 
 * **Add new - keep existing**: New values will be added to SuperOffice and existing values will be retained.
-* **Replace - overwrite existing**: Existing values in SuperOffice will be overwritten by imported values.  
+* **Replace - overwrite existing**: Existing values in SuperOffice will be overwritten by imported values.
     For example: This may be relevant if you know that the import contains correct e-mail addresses for your contacts. If the e-mail addresses that are registered in SuperOffice are outdated, you can overwrite them to clean up the system.
 * **Ignore - keep existing**: No new values will be imported into SuperOffice.
+
+<!-- Referenced links -->
+[1]: ../privacy/index.md
+
+<!-- Referenced images -->

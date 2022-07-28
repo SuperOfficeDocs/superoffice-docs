@@ -57,7 +57,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [14]: ../screen-designer/index.md
 [15]: ../preferences/index.md
 [16]: ../options/index.md
-[17]: ../import-web/import-web.md
+[17]: ../import-web/index.md
 [18]: ../fields/index.md
 [19]: ../requests/requests.md
 [20]: main-sections-of-maintenance-client.md

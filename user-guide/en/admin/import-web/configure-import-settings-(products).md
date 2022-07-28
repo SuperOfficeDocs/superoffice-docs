@@ -26,23 +26,23 @@ A duplicate occurs if you have the same record in the import file and in the sel
 
 <!-- Fix reuse ID=a21 -->.
 
-* I want to import information that does not exist in the SuperOffice data, but I do not want to overwrite existing information.  
+* I want to import information that does not exist in the SuperOffice data, but I do not want to overwrite existing information.
     Select the **Merge - update empty fields** option. Only empty fields in the selected price list will then be updated with imported information.
 
-* The data I want to import has been quality-assured and I want to update the selected price list in SuperOffice.  
+* The data I want to import has been quality-assured and I want to update the selected price list in SuperOffice.
     Select the **Replace - overwrite existing** option. The data from the import will overwrite existing fields in selected price list.
 
-* I only want to import new products into the selected price list.  
+* I only want to import new products into the selected price list.
     Select the **Skip record - do not import** option. Products that already exist in the selected price list will not be updated.
 
-* I want to import all products into selected price list and manage any duplicates myself.  
+* I want to import all products into selected price list and manage any duplicates myself.
     Select the **Add always** option.
 
 Under **Product** in the **Import settings** dialog, specify how duplicate products are to be managed.
 
 To do this:
 
-Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate products.  
+Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate products.
 <!-- Fix reuse ID=a11 -->
 
 > [!NOTE]
@@ -62,7 +62,7 @@ Click the **Action** list box and choose how duplicate hits are to be managed:
 * **Replace - overwrite existing**: Import data will overwrite existing data in the selected price list.
 * **Skip - do not import**: If products already exist in the selected price list, they will not be imported.
 
-## Manage product categories, product families and product types that do not exist in SuperOffice
+## Manage product categories, product families and product types not in SuperOffice
 
 The import source may, for example, contain product categories that are not registered in SuperOffice. You must then choose how new product categories, product families and product types are to be managed. In the **New values for...** list boxes, you have the following options:
 

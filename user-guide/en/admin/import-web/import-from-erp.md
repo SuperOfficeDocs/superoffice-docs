@@ -18,14 +18,14 @@ This is how to proceed when importing actors (customers, suppliers and individua
 ## A. Select actors to be imported from the ERP system
 
 > [!NOTE]
-> If the **ERP Sync** icon ( ![icon](../../../media/icons/admin/import-ERP-small.bmp) ) is inactive, you must turn off synchronisation in **Quote/Sync** &gt; **Sync** tab.
+> If the **ERP Sync** icon ( ![icon][img1] ) is inactive, you must turn off synchronisation in **Quote/Sync** &gt; **Sync** tab.
 
-1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon](../../../media/icons/admin/Knapp-Import-liten.bmp) ).
-2. Click the **ERP Sync** icon ( ![icon](../../../media/icons/admin/import-ERP-small.bmp) ) under **Select an import source**. The **Select ERP connection** dialog opens.
-3. In the **ERP connection** list, select the connection you want to import from (see [Sync](../quote-sync/quotesync-tab-sync.md)).
+1. Open the **Import** screen by clicking the **Import** button in the Navigator ( ![icon][img1] ).
+2. Click the **ERP Sync** icon ( ![icon][img1] ) under **Select an import source**. The **Select ERP connection** dialog opens.
+3. In the **ERP connection** list, select the connection you want to import from (see [Sync][2]).
 4. In the **Actor type** list, select what you want to import. These might, for example, be customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
-6. Search for the actors you want to import, such as all suppliers in a specific town. For more about search options, see [Use search criteria](../options/using-search-criteria.md).
+6. Search for the actors you want to import, such as all suppliers in a specific town. For more about search options, see [Use search criteria][3].
 7. In the list of search results, select the rows you want to import.
 8. Click **Add Import**. The actors are displayed in Settings and maintenance.
 
@@ -34,7 +34,7 @@ This is how to proceed when importing actors (customers, suppliers and individua
 
 ## B. Configure the import
 
-1. Click **Configure import settings** and adjust the import settings as described in [Configure import settings](Import-settings-web.md).
+1. Click **Configure import settings** and adjust the import settings as described in [Configure import settings][1].
 
 <!-- -->
 
@@ -57,3 +57,12 @@ Above each list is a link to the selection containing the new/updated actors.
 
 > [!TIP]
 > If you have imported new actors, but want to delete them from SuperOffice, you can do this by using the selection.
+
+<!-- Referenced links -->
+[1]: import-settings-web.md
+[2]: ../quote-sync/quotesync-tab-sync.md
+[3] :../options/using-search-criteria.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/import-erp-small.bmp
+[img2]: ../../../media/icons/admin/knapp-import-liten.bmp
