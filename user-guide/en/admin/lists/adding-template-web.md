@@ -70,7 +70,7 @@ Enter the following information in the **Details** tab:
 
 ## Languages tab
 
-Here you can add translated versions of the document template. To do this:
+Here you can add translated versions of the document template. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Click **Add**. The **Edit list item** dialog opens.
 2. Select the language you require in the **Add language** list.

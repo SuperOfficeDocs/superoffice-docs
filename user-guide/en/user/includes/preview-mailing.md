@@ -3,7 +3,7 @@ When you have added recipients to the **Recipients** list, you can preview the m
 > [!NOTE]
 > The mailing will **not** be sent to the recipient.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 * Click a recipient in the **Recipients** list.
 * Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables have been replaced by actual contact data (name, company etc.).

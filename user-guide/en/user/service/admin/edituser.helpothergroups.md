@@ -13,7 +13,7 @@ language: en
 
 In the **Other groups** tab, you can select any secondary groups (in addition to the primary group stated in the tab **User information**) that the user should belong to.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select ![icon][img2] **Personal Settings &gt; Settings &gt; Other groups** tab.
 2. In the **Group** list, select a group.

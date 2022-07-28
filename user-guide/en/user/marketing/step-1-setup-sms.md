@@ -13,7 +13,7 @@ language: en
 
 The first step in creating an SMS mailing, is called **Setup**. Here you can set the name of the SMS mailing and the sender, and set archive options for the mailing.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Enter a name in the **Name of mailing** field.
 2. In the **From** field, enter the sender name or mobile phone number. If you want the recipients to be able to reply to the SMS, you must enter a phone number.

@@ -18,7 +18,7 @@ A dashboard can contain up to four tiles (panels) that provide an instant overvi
 
 ## Choose the content of the tiles
 
-If you or your role have sufficient rights, you can choose the content you want to have displayed in the tiles on the dashboard. To do this:
+If you or your role have sufficient rights, you can choose the content you want to have displayed in the tiles on the dashboard. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Click the title text of a tile, or click **Blank** if the tile is empty.
 2. Select the content you want from the list.

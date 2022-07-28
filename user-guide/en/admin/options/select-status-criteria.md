@@ -17,7 +17,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
 
 <!-- Fix reuse ID=a11 -->Click here to see some examples of criteria
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **SAINT** screen.
 

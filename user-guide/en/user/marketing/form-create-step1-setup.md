@@ -13,7 +13,7 @@ language: en
 
 The first step in creating a form response, is called **Setup**. Here you can set the e-mail header information such as sender, reply-to address and subject. You can also add attachments, set archive options for the mailing and select tracking options.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Enter a name in the **Name of mailing** field.
 2. Enter the subject of the e-mail in the **E-mail subject** field.

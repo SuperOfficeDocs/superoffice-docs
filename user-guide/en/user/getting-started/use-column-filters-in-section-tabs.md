@@ -24,7 +24,7 @@ To activate the column filter, click ![icon][img1] on the far right of the colum
 
 ## Apply filters on column
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the column filter button ( ![icon][img2] ) next to a column header.
 2. Depending on the type of data in the column, do one of the following:

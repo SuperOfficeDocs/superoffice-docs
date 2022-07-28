@@ -1,6 +1,6 @@
 In the second step, **Template**, you have to decide what your mailing should look like. You do this by selecting an existing template or a previous mailing.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Select a template in one of the following ways:
     * Select one of the available tabs (**Recent templates**, **All templates**, etc) to view available mailings or templates on which to base your new mailing.

@@ -13,7 +13,7 @@ language: en
 
 You can import companies, contacts and products from an ERP connection.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Go to the **Sync** tab in the **Quote/Sync** screen.
 2. Click the **Off** button to turn off automatic sync.

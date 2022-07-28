@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../../includes/req-integration-server.md)]
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Go to the **Company** screen, **Contact** screen or **Project** screen, and select the **ERP** tab.
 

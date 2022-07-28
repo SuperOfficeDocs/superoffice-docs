@@ -3,7 +3,7 @@ You can import recipients from an [external comma-separated file][1] (.txt, .csv
 > [!NOTE]
 > When you import a list of names and e-mail addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies will be listed in the **Company** column in the **Recipients** list. Any names/e-mail addresses that are **not** found in SuperOfffice, will be filtered out and not included in the mailing. This is due to GDPR regulations.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Click **Select file**.
 

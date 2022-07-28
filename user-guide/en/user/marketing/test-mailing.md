@@ -20,7 +20,7 @@ When you create a new mailing, you can also do a few tests to check that the mai
 
 In the **Content** step you can send a test e-mail.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Go to the **Content** step.
 2. Click the **Send test** button in the lower left corner.

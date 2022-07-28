@@ -15,7 +15,7 @@ language: en
 
 You can edit the details in the **Function** and **Comments** field for project members.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. [!include[Go to project](includes/goto-project.md)]
 2. Choose the **Project Members** section tab.

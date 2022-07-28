@@ -11,7 +11,7 @@ language: en
 
 # Ask another request handler for help
 
-As a request handler, you are not always able to answer the request on your own. You may sometimes need to ask for help from a colleague. To do this:
+As a request handler, you are not always able to answer the request on your own. You may sometimes need to ask for help from a colleague. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open the request. (See [Process requests](listTicket.md).)
 

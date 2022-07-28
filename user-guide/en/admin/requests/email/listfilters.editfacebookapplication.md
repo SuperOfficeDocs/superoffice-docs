@@ -25,7 +25,7 @@ To get developer access:
 2. Go to [https://developers.facebook.com][1].
 3. Click **Register** and follow the instructions.
 
-Firstly, you need to set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from. To do this:
+Firstly, you need to set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open a browser and log in to Facebook.
 2. Go to <https://developers.facebook.com>.
@@ -36,7 +36,7 @@ Firstly, you need to set up an application on Facebook in cooperation with the u
 
 Now you need to set up a Facebook account in SuperOffice Service.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Click the **Requests** button in the navigator and select the **E-mail** tab.
 2. Select the **Mailboxes** tab.

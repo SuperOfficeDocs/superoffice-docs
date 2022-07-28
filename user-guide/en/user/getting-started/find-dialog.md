@@ -131,7 +131,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex2" />Example 2: search for customers in Denmark who you are responsible for
 
-Imagine you are going to attend a conference in Denmark. When you are there, you also want to use the opportunity to visit some customers. You start your planning by searching for all customers in Denmark who you are responsible for. To do this:
+Imagine you are going to attend a conference in Denmark. When you are there, you also want to use the opportunity to visit some customers. You start your planning by searching for all customers in Denmark who you are responsible for. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the **Find** button.
 
@@ -174,7 +174,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 ## <a id="ex3" />Example 3: search for sold sales
 
-Let's assume you are the manager of a company and want to find out what types of sales work well for you, and why, with a view to achieving more of the same. You start by searching for sales with the status **Sold**. To do this:
+Let's assume you are the manager of a company and want to find out what types of sales work well for you, and why, with a view to achieving more of the same. You start by searching for sales with the status **Sold**. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the **Find** button.
 
@@ -249,7 +249,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 ## <a id="ex5" />Example 5: search for marketing initiatives undertaken
 
-Imagine that you are a marketing department manager and you want to brainstorm about future marketing initiatives. As a basis for this, you want to get an overview of the marketing-related follow-ups you have done in the previous quarter. To do this:
+Imagine that you are a marketing department manager and you want to brainstorm about future marketing initiatives. As a basis for this, you want to get an overview of the marketing-related follow-ups you have done in the previous quarter. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the **Find** button.
 

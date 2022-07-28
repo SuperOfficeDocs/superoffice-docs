@@ -11,7 +11,7 @@ language: en
 
 # Create a combined selection
 
-A combined selection is a combination of two or more existing selections. Here you can add records from one selection to another, or remove records in one selection from another. This is useful if, for example, you want a selection containing all customers based on specific criteria (dynamic selection), but excluding individual customers (static selection). To do this:
+A combined selection is a combination of two or more existing selections. Here you can add records from one selection to another, or remove records in one selection from another. This is useful if, for example, you want a selection containing all customers based on specific criteria (dynamic selection), but excluding individual customers (static selection). [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Selections** &gt; **New selection**. This takes you to the **New selection** screen.
 

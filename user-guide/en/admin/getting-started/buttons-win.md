@@ -24,7 +24,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 
 <!-- Referenced links -->
 [1]: status-screen.md
-[2]: ../chap04/import.md
+[2]: ../win-client/import.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-status.bmp

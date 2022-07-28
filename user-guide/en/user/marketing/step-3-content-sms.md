@@ -13,7 +13,7 @@ language: en
 
 In the **Content** step you enter the content of the SMS.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. In the **SMS text** field, enter the text. You can use [template variables for contacts][1] here. This works the same way as for e-mail mailings. See [Use template variables in messages][2].
 2. Click **Next** to go to the next step: [Step 4: Recipients][3].

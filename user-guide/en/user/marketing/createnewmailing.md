@@ -38,7 +38,7 @@ The first thing you must do, is to select what type of mailing you want to send.
 > [!NOTE]
 > If you initiated the mailing as a mail merge from SuperOffice CRM, you have already chosen the mailing type. You are automatically directed to the **Setup** step.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Select the **Mailings** tab.
 2. Select one of the following options under **Create new mailing** on the right side of the screen:

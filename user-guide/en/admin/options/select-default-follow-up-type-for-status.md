@@ -15,7 +15,7 @@ language: en
 
 You can specify a default follow-up type and descriptive text to be displayed in SuperOffice CRM when the user clicks **Create follow-up** in the status dialog.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **SAINT** screen.
 2. Select the **Company**, **Project** or **Contact** tab.

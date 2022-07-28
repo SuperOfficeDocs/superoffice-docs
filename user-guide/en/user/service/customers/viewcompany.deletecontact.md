@@ -11,7 +11,7 @@ language: en
 
 # Delete companies
 
-If you delete a company, it is not completely removed from the system. It is just marked as deleted. To do this:
+If you delete a company, it is not completely removed from the system. It is just marked as deleted. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open the **Company** screen as described under [View companies](viewCompany.md).
 2. Click the ![icon][img1] **Actions** button and select **Edit company**. The **Company properties** screen appears.

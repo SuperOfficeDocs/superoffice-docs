@@ -2,7 +2,7 @@
 
 You can add recipients from selections (from both SuperOffice CRM and SuperOffice Service) and projects (from SuperOffice CRM).
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Under **Add recipients**, click **Selection** or **Project**.
 2. Click in the field below and start typing the name of the selection or project you want to add. As you type, a dynamic list displays the matches.

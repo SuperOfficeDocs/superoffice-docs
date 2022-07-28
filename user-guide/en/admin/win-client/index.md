@@ -7,6 +7,8 @@ so.date: 06.29.2022
 keywords: Windows Client settings
 so.topic: help
 language: en
+so.client: win
+so.envir: onsite
 ---
 
 # Windows Client settings
@@ -16,6 +18,6 @@ Windows Client settings is the Windows-based administration client for SuperOffi
 The majority of the administration features are available in [Settings and maintenance][1].
 
 <!-- Referenced links -->
-[1]: admin-web.md
+[1]: ../getting-started/index.md
 
 <!-- Referenced images -->

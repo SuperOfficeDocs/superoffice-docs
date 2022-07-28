@@ -11,7 +11,7 @@ language: en
 
 # Delete priorities
 
-You cannot delete priorities from SuperOffice Service, but you can set the status of a priority to **Deleted**, to make it unavailable to users and customers. To do this:
+You cannot delete priorities from SuperOffice Service, but you can set the status of a priority to **Deleted**, to make it unavailable to users and customers. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select ![icon][img1] **System settings** &gt; **Priorities**. The **Priorities** screen appears.
 2. Click the required priority. The **Priority properties** screen appears.

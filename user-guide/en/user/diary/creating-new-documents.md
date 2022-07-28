@@ -79,7 +79,7 @@ Do as follows:
 
 With SuperOffice CRM, you can log in from any PC using a browser, but your documents will then be saved on the central server. Downloading and uploading of documents are handled automatically by SuperOffice Web Tools.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Click **New** &gt; **Document** on the top bar.
 

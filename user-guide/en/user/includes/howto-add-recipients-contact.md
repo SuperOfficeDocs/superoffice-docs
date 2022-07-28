@@ -1,6 +1,6 @@
 <!-- Add contacts from SuperOffice -->
 
-You can add individual contacts from SuperOffice. To do this:
+You can add individual contacts from SuperOffice. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Under **Add recipients**, click **Contact**.
 2. Click in the field below and start typing the name of the contact you want to add, in the field below. You can also enter a company name to display all contacts for a company.

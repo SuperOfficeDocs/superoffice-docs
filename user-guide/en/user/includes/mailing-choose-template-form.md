@@ -3,7 +3,7 @@ In the second step, **Template**, you have to decide what your mailing should lo
 > [!TIP]
 > Save yourself some time and create your mailing using one of the free templates in the **Online template library**. The Online template library in SuperOffice Marketing contains a wide selection of professionally designed message template. Free for use!
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Select a template in one of the following ways:
     * Select one of the available tabs (**Online template library**, **Recent templates**, **All templates**, etc) to view available mailings or templates on which to base your new mailing.

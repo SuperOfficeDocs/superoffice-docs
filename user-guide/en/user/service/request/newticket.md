@@ -14,7 +14,7 @@ language: en
 > [!TIP]
 > If you are very busy and just need to register a request fast, see [New quick request](newQuickTicket.md).
 
-A request can arrive in the system via an e-mail from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone. To do this:
+A request can arrive in the system via an e-mail from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Requests** &gt; **New request**.
 
@@ -82,7 +82,7 @@ Here you type in the message you want to add to the request. This works in the s
 The section at the bottom contains the following options:
 
 * ![icon](../../../../media/icons/service/msg-toolbar.png) – Click here to show or hide the toolbar in the message editor
-* ![icon](../../../../media/icons/service/msg-attachment.png) – Click here to show the attachments options. Here you can add relevant documents as attachments to the request. To do this:
+* ![icon](../../../../media/icons/service/msg-attachment.png) – Click here to show the attachments options. Here you can add relevant documents as attachments to the request. [!include[To do this](../../../includes/to-do-this.md)]
   * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
   * Drag and drop a file from Windows Explorer to the attachments field.
   * Click **Choose a CRM document** to select a document in SuperOffice CRM.
@@ -98,7 +98,7 @@ The section at the bottom contains the following options:
 > [!NOTE]
 > The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](../topics/../admin/listInvoiceTypes.md).
 
-Here you can add invoice lines as internal information for the request. To do this:
+Here you can add invoice lines as internal information for the request. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. In the list box at the top left, select the type of invoice. The price is updated in accordance with the invoice you select.
 2. In the **Description** field, enter a more detailed description of what the invoice line relates to.

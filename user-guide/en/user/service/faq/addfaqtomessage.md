@@ -11,7 +11,7 @@ language: en
 
 # Add FAQ entries to messages
 
-When you respond to a customer enquiry, you can save time by inserting a link to an FAQ entry in your reply. To do this:
+When you respond to a customer enquiry, you can save time by inserting a link to an FAQ entry in your reply. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Go to the **Message** tab, as described under [Reply to customer](../request/showListTickets.addMessage.md).
 2. Position the mouse pointer in the message where you want to insert the link.

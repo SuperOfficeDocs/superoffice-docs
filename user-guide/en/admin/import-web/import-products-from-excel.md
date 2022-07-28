@@ -42,7 +42,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 > [!NOTE]
 > The spreadsheet must at minimum contain the columns you select for duplicate check in the procedure below (name, code or name+code).
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Find the column containing the name of the products, click the **(No Selection)** column title and select **Product: Name**.
 2. Find the column containing the product code, click the **(No Selection)** column title and select **Product: Code**.

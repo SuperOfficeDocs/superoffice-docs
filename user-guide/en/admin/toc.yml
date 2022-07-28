@@ -1,4 +1,9 @@
 items:
+- name: Overview
+  href: index.md
+- name: Getting started
+  href: getting-started/toc.yml
+  topicHref: getting-started/index.md
 - name: ai
   href: ai/index.md
   items:
@@ -8,41 +13,6 @@ items:
     href: ai/categorization.md
   - name: Text analysis
     href: ai/text-analysis.md
-- name: Getting started
-  href: getting-started/adjusting-views.md
-  items:
-  - name: Adjusting views
-    href: getting-started/adjusting-views.md
-  - name: web
-    href: getting-started/admin-web.md
-  - name: win
-    href: getting-started/admin-win.md
-  - name: Backup routines
-    href: getting-started/backup-routines.md
-  - name: Buttons web
-    href: getting-started/buttons-web.md
-  - name: Buttons win
-    href: getting-started/buttons-win.md
-  - name: Changing the language version web
-    href: getting-started/changing-language-version-web.md
-  - name: Log in to Windows Client settings
-    href: getting-started/log-in-to-windows-client-settings.md
-  - name: Logging in to the Maintenance client
-    href: getting-started/logging-in-to-maintenance-client.md
-  - name: Main sections of the Maintenance client
-    href: getting-started/main-sections-of-maintenance-client.md
-  - name: Navigator
-    href: getting-started/navigator.md
-  - name: Parameter examples
-    href: getting-started/parameter-examples.md
-  - name: Status screen
-    href: getting-started/status-screen.md
-  - name: The main sections of SuperOffice Settings and maintenance
-    href: getting-started/main-sections-of-superoffice-settings-and-maintenance.md
-  - name: The Status tab
-    href: getting-started/status-tab.md
-  - name: Top bar
-    href: getting-started/top-bar.md
 - name: Licenses
   href: licenses/crm-and-licences.md
   items:
@@ -52,43 +22,6 @@ items:
     href: licenses/editing-licence-information-web.md
   - name: Licences screen
     href: licenses/licences-screen.md
-- name: Chap04
-  href: chap04/ansi-files.md
-  items:
-  - name: ANSI files
-    href: chap04/ansi-files.md
-  - name: Creating import descriptions
-    href: chap04/creating-import-descriptions.md
-  - name: Deleting field mapping
-    href: chap04/deleting-field-mapping.md
-  - name: Duplicates import
-    href: chap04/duplicates-import.md
-  - name: Editing import descriptions
-    href: chap04/editing-import-descriptions.md
-  - name: Export
-    href: chap04/export.md
-  - name: Field mapping
-    href: chap04/field-mapping.md
-  - name: Import
-    href: chap04/import.md
-  - name: Import descriptions
-    href: chap04/import-descriptions.md
-  - name: Import routines
-    href: chap04/import-routines.md
-  - name: Importing files
-    href: chap04/importing-files.md
-  - name: Resetting field mapping
-    href: chap04/resetting-field-mapping.md
-  - name: Resetting rules for duplicate handling
-    href: chap04/resetting-rules-for-duplicate-handling.md
-  - name: Specifying advanced import settings
-    href: chap04/specifying-advanced-import-settings.md
-  - name: Specifying field mapping
-    href: chap04/specifying-field-mapping.md
-  - name: Updating rules for duplicate handling
-    href: chap04/updating-rules-for-duplicate-handling.md
-  - name: Updating the database
-    href: chap04/updating-database.md
 - name: Preferences
   href: preferences/active-settings.md
   items:
@@ -567,3 +500,6 @@ items:
     href: screen-designer/edit-layout.md
 - name: Systemdesign
   href: systemdesign/index.md
+- name: win-client
+  href: win-client/toc.yml
+  topicHref: win-client/index.md

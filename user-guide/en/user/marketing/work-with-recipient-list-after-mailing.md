@@ -15,7 +15,7 @@ After the mailing has been sent, SuperOffice Marketing collects data about the s
 
 The selection may, for example, contain recipients who have read the mailing, so that salespersons can follow up on them. To improve your customer data, you can create a selection of recipients who have not received the mailing (return/bounce), so that the person who looks after this customer can ensure that the correct contact information is registered in SuperOffice CRM.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the mailing in the **Mailings** tab. The **View mailing** screen opens.
 2. Click the **Recipients** tab. The list shows the 100 first recipients, and you need to click ![icon][img1] to show the next 100.

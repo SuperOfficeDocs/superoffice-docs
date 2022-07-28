@@ -11,7 +11,7 @@ language: en
 
 # Add favourite reports
 
-Reports which you use a lot or have edited you can add to the list of favourite reports. (See [Favourite reports][1]). To do this:
+Reports which you use a lot or have edited you can add to the list of favourite reports. (See [Favourite reports][1]). [!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **Reports** screen.
     <!-- Fix reuse ID=a1 -->

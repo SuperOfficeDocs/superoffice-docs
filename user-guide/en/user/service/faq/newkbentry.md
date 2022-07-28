@@ -18,7 +18,7 @@ By creating FAQ entries, your organisation can build up a comprehensive collecti
 
 ## Create FAQ entries from a request
 
-If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers. To do this:
+If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open a request. See [Process requests](../request/listTicket.md).
 

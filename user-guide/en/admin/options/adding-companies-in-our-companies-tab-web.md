@@ -11,7 +11,7 @@ language: en
 
 # Add companies in the Our companies tab
 
-To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice CRM. Do this in SuperOffice CRM. To add a company in the **Our companies** tab, search for it first. To do this:
+To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice CRM. Do this in SuperOffice CRM. To add a company in the **Our companies** tab, search for it first. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the Users screen.
 2. Select the **Our companies** tab.

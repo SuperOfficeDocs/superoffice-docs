@@ -32,7 +32,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 
 ## Edit stage
 
-You can both change the name of a stage and alter which users are to have access to it. To do this:
+You can both change the name of a stage and alter which users are to have access to it. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Knowledge Base** &gt; **FAQ** and click the **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.

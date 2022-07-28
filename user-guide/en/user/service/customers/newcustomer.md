@@ -11,7 +11,7 @@ language: en
 
 # Create contacts
 
-Normally, contacts are registered by the system when they send in mails, but there may occasionally be a need to register a contact manually. This might be the case for instance if you are talking to a contact on the phone. To do this:
+Normally, contacts are registered by the system when they send in mails, but there may occasionally be a need to register a contact manually. This might be the case for instance if you are talking to a contact on the phone. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Customers** &gt; **New contact**. This takes you to the **Contact properties** screen.
 

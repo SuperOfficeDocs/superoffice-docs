@@ -51,7 +51,7 @@ Here you can specify that recipients who click the link will be added to or remo
 
 ## Follow-up (task/appointment)
 
-In the **Follow-up** tab, you can specify that a link click should generate tasks or appointments in SuperOffice CRM. To do this:
+In the **Follow-up** tab, you can specify that a link click should generate tasks or appointments in SuperOffice CRM. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Check **Follow-up** to activate this function.
 2. **Task/Appointment**: Choose whether you want to create a task or an appointment in SuperOffice CRM.
@@ -65,7 +65,7 @@ In the **Follow-up** tab, you can specify that a link click should generate task
 
 ## Request
 
-In the **Request** tab, you can specify that a SuperOffice Service request should be created for contacts who click a link. To do this:
+In the **Request** tab, you can specify that a SuperOffice Service request should be created for contacts who click a link. [!include[To do this](../../includes/to-do-this.md)]
 
 1. **Create new request**: Check here to register a new request when the customer clicks the link.
 2. **Title**: Enter the title you want to give the new request.
@@ -75,7 +75,7 @@ In the **Request** tab, you can specify that a SuperOffice Service request shoul
 
 ## Script
 
-In the **Script** tab, you can choose a script or macro to be run when the recipient clicks the link. To do this:
+In the **Script** tab, you can choose a script or macro to be run when the recipient clicks the link. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Select **Execute script** to activate this function.
 2. Click the **Script** list and select the required script from the list that appears. The following variables are available in the script: custId, linkId, shipmentId, linkUrl and linkHits. You can also use the returnUrl variable to override the specified link URL.

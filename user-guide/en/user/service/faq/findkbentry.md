@@ -11,7 +11,7 @@ language: en
 
 # Search for FAQ entries
 
-If there are lots of FAQ entries in a folder, it may be difficult to find the one you want. In that case, doing a search may be a good idea. To do this:
+If there are lots of FAQ entries in a folder, it may be difficult to find the one you want. In that case, doing a search may be a good idea. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Knowledge Base** &gt; **FAQ**.
 2. Click the **Search** button. This takes you to the **Criteria** screen.

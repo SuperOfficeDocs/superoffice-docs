@@ -13,7 +13,7 @@ language: en
 
 Once you have added products to the quote and created a quote document, you can send the quote to the customer.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open the quote in question.
 2. Click **Send**. The **Publish/send a quote** dialog appears.

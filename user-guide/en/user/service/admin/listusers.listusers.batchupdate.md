@@ -13,7 +13,7 @@ language: en
 
 In this screen you can update several users at the same time.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select ![icon][img1] **System settings &gt; Users**.
 2. Select the **Users** tab.

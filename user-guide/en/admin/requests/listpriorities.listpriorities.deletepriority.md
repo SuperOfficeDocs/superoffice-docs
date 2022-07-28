@@ -11,7 +11,7 @@ language: en
 
 # Delete priorities
 
-You cannot delete priorities, but you can set the status of a priority to **Deleted**, to make it unavailable to users and customers. To do this:
+You cannot delete priorities, but you can set the status of a priority to **Deleted**, to make it unavailable to users and customers. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the **Requests** button in the navigator.
 2. Select the **Priorities** tab.

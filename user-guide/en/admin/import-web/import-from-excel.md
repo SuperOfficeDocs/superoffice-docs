@@ -45,7 +45,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 > [!NOTE]
 > If the Excel spreadsheet had a title row at the top, this will also be displayed in the list. You can remove this when you preview the data in the next step.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Find the column containing the name of the companies, click the **(No Selection)** column title and select **Company: Name**.
 2. Find the column containing the first and last names of the contacts, click the **(No Selection)** column title and select **Contact: First name** and **Contact: Last name**. If there is a single column containing both first and last names, select **Contact: Full name**.

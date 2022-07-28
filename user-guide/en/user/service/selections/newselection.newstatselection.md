@@ -15,7 +15,7 @@ You can find records and add them all, or some of them at a time, to a static se
 
 A static selection contains only those records you have added to it manually, unlike a dynamic selection (see [Create a dynamic selection](newSelection.newDynamicSelection.md)). Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Selections** &gt; **New selection**. This takes you to the **New selection** screen.
 

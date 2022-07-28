@@ -1,0 +1,35 @@
+  items:
+  - name: ANSI files
+    href: ansi-files.md
+  - name: Creating import descriptions
+    href: creating-import-descriptions.md
+  - name: Deleting field mapping
+    href: deleting-field-mapping.md
+  - name: Duplicates import
+    href: duplicates-import.md
+  - name: Editing import descriptions
+    href: editing-import-descriptions.md
+  - name: Export
+    href: export.md
+  - name: Field mapping
+    href: field-mapping.md
+  - name: Import
+    href: import.md
+  - name: Import descriptions
+    href: import-descriptions.md
+  - name: Import routines
+    href: import-routines.md
+  - name: Importing files
+    href: importing-files.md
+  - name: Resetting field mapping
+    href: resetting-field-mapping.md
+  - name: Resetting rules for duplicate handling
+    href: resetting-rules-for-duplicate-handling.md
+  - name: Specifying advanced import settings
+    href: specifying-advanced-import-settings.md
+  - name: Specifying field mapping
+    href: specifying-field-mapping.md
+  - name: Updating rules for duplicate handling
+    href: updating-rules-for-duplicate-handling.md
+  - name: Updating the database
+    href: updating-database.md

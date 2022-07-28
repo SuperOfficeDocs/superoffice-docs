@@ -25,7 +25,7 @@ You can specify up to three different periods, so that you can choose between sh
 
 For more about counters, see **Counter fields** under [Use search criteria][1].
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **SAINT** screen.
 2. Select the **Counters** tab.

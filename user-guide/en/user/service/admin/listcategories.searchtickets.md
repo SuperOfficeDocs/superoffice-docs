@@ -11,7 +11,7 @@ language: en
 
 # Search for requests in categories
 
-From the **Categories** screen, it is also possible to search for requests in a specific category. To do this:
+From the **Categories** screen, it is also possible to search for requests in a specific category. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select ![icon](../../../../media/icons/globalmenu-settings-small.png)**System settings** &gt; **Categories**.
 

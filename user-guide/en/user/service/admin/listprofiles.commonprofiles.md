@@ -18,7 +18,7 @@ Common profiles are linked to a role and apply to all users who have that role (
 
 ## Create common profiles
 
-We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen. To do this:
+We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select ![icon][img1] **System settings &gt; Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.

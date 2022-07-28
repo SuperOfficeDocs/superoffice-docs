@@ -42,7 +42,7 @@ The columns will retain the specified widths the next time you run the program.
 
 You can select which columns are displayed in the lists, as well as their order.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Right-click a column heading, and select **Configure columns**. The **Columns** tab in the **Customise** dialog is displayed.
 2. Make the required changes in the columns as follows:
@@ -55,7 +55,6 @@ To do this:
 > To reset the column layout, click **Reset** at the bottom of the **Columns selected** pane.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/pil-hoeyre.bmp

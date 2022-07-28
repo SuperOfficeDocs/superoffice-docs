@@ -16,7 +16,7 @@ When synchronising data between SuperOffice and ERP systems, you have to specify
 > [!NOTE]
 > When editing an ERP connection, you first need to deactivate it.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Go to the **Sync** tab in the **Quote/Sync** screen. The **ERP connections** list shows existing ERP connections.
 

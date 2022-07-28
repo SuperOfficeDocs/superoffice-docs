@@ -26,7 +26,7 @@ If have created a quote document for a quote, but want to use another document, 
 
 Once you have created the quote and added the products you want, you can create the quote document to send to the customer. This will be the "letter" that is sent to the customer. The list of products that are being offered will be added when the quote is sent to the customer.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open an existing quote, or create a new one. See [Create a quote][1].
 2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab. The **Document** dialog opens.

@@ -13,7 +13,7 @@ language: en
 
 You can click on data in a tile (for instance a sector in a pie chart) to display the underlying data, open individual records, and copy them to a selection.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **Dashboard** screen.
 2. Select the relevant dashboard.

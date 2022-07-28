@@ -54,7 +54,7 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 Under **Company** and **Contact** in the **Import settings** dialog, specify how duplicate companies and contacts are to be managed.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
 <!-- Fix reuse ID=a1 -->

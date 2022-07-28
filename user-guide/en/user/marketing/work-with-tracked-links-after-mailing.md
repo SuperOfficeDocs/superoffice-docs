@@ -29,7 +29,7 @@ To view the links for all mailings, click the **Tracked links** tab in the main 
 > [!NOTE]
 > Only registered links (see [Create tracked links][2]) are displayed here. If you have added "regular" links in the mailing, you need to select the **Track all links** option in [Step 1: Setup][3].
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. In the active mailing, select the **Tracked links** tab.
 2. Click the relevant link from the link list. The **View link** screen displays.  
@@ -42,7 +42,7 @@ To edit the link, click the **Edit** button. See [Create tracked links][2].
 
 Reset counters for links
 
-Sometimes you need to reset the number of clicks back to zero. This would be the case, for example, after you have sent out a test message (see [Test the mailing][6]), so that your own and others' clicking of links during testing are not included in your results. To do this:
+Sometimes you need to reset the number of clicks back to zero. This would be the case, for example, after you have sent out a test message (see [Test the mailing][6]), so that your own and others' clicking of links during testing are not included in your results. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Select the **Tracked links** tab.
 2. Click **All links** if your link is not displayed in the list. If you have organised the links in folders, first go to the folder the link is in.

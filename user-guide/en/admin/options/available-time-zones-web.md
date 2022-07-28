@@ -13,7 +13,7 @@ language: en
 
 SuperOffice CRM is supplied with a list containing all available time zones. You can select which time zones you want to be available in SuperOffice CRM.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **Options** screen.
 2. Select the **Time zones** tab. This contains the names of all available time zones.

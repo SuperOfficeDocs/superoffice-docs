@@ -16,7 +16,7 @@ Contacts can be linked to companies:
 * The system searches for the domain name registered for the company, so that all contacts with this domain in their e-mail address are automatically linked to the company.
 * You can specify contacts' links to companies manually when you create them. See [Create contacts](newCustomer.md).
 
-But you first need to register a company. To do this:
+But you first need to register a company. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Customers** &gt; **New company**. This takes you to the **Company properties** screen.
 

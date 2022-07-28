@@ -28,7 +28,7 @@ Before you start using the sales targets feature, you must set up a few things i
 
 ## Add sales targets for a year
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Click ![icon][img1] **Main menu** and select **Targets**. The **Sales targets** screen opens. If no sales targets have been created yet, the list is empty.
 2. In the **Select year** list, select the year for which you want to create a sales target. Your can also set up targets for previous years, to create budget statistics back in time.

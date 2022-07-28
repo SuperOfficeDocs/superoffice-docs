@@ -13,7 +13,7 @@ language: en
 
 If a message contains two issues that should be handled separately, you can split the message in two and create a new request with one of the messages. This can be relevant if a message contains both a technical question and an invoice question, since these two issues are handled by two different departments.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open the request. (See [Process requests](listTicket.md).)
 2. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split. The **Split message** screen opens.

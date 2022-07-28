@@ -11,7 +11,7 @@ language: en
 
 # Add reply templates to messages
 
-When you respond to an customer enquiry, you can save time by using a reply template as your basis. To do this:
+When you respond to an customer enquiry, you can save time by using a reply template as your basis. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Go to the **Message** tab, as described under [Reply to customer](../request/showListTickets.addMessage.md).
 2. Position the mouse pointer in the message where you want to insert the reply template.

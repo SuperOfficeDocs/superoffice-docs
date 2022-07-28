@@ -15,7 +15,7 @@ To save your customers the time and trouble of filling in their name, e-mail add
 
 This is done by adding field identifiers and template variables to the form links/URLs.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. [Create a new form][1].
 2. For each field you want to be pre-filled: Click **Advanced options** (![icon][img1]) to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.

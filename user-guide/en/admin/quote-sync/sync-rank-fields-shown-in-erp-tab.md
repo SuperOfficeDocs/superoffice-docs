@@ -13,7 +13,7 @@ language: en
 
 You can set the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. (You determine which fields should be shown in the ERP tab in the [Allocations dialog][1].)
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Go to the **Sync** tab in the **Quote/Sync** screen. The **ERP connections** list shows existing ERP connections.
 2. Uncheck the box in the **Active** column for the ERP connection you want to edit.

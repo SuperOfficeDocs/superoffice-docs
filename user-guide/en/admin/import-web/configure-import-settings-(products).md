@@ -40,7 +40,7 @@ A duplicate occurs if you have the same record in the import file and in the sel
 
 Under **Product** in the **Import settings** dialog, specify how duplicate products are to be managed.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate products.
 <!-- Fix reuse ID=a11 -->

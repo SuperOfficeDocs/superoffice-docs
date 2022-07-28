@@ -18,7 +18,7 @@ If you wish to increase or reduce the number of licences for one or more modules
 
 If the total number of new licences is less than the number of licences in use, you must reduce the number of user licences in use.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Go to the **Licences** screen, and select the **SuperOffice** tab. If you have installed a third-party module or similar, several tabs will be displayed here. The functionality is the same.
 

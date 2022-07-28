@@ -1,0 +1,31 @@
+items:
+  - name: Adjusting views
+    href: adjusting-views.md
+  - name: web
+    href: index.md
+  - name: Backup routines
+    href: backup-routines.md
+  - name: Buttons web
+    href: buttons-web.md
+  - name: Buttons win
+    href: buttons-win.md
+  - name: Changing the language version web
+    href: changing-language-version-web.md
+  - name: Log in to Windows Client settings
+    href: log-in-to-windows-client-settings.md
+  - name: Logging in to the Maintenance client
+    href: logging-in-to-maintenance-client.md
+  - name: Main sections of the Maintenance client
+    href: main-sections-of-maintenance-client.md
+  - name: Navigator
+    href: navigator.md
+  - name: Parameter examples
+    href: parameter-examples.md
+  - name: Status screen
+    href: status-screen.md
+  - name: The main sections of SuperOffice Settings and maintenance
+    href: main-sections-of-superoffice-settings-and-maintenance.md
+  - name: The Status tab
+    href: status-tab.md
+  - name: Top bar
+    href: top-bar.md

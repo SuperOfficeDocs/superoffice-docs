@@ -21,7 +21,7 @@ See [Create reply templates](newReplyTemplate.md).
 
 ## Copy reply templates
 
-If you want to create a new reply template based on an existing reply template, you can copy it. To do this:
+If you want to create a new reply template based on an existing reply template, you can copy it. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select **Knowledge Base &gt; Reply templates**.
 2. Go to the folder where the reply template is located.

@@ -13,7 +13,7 @@ language: en
 
 You may find that you want to delete a sale, if it is no longer appropriate to store it in the database.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Go to the required sale.
 2. Click the **Task** button (![icon][img1]).

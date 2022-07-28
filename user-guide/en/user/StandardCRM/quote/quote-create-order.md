@@ -16,7 +16,7 @@ Once the customer has accepted the quote, you can place the order, so that it is
 > [!TIP]
 > If you want to place an order for an archived version of the quote, you need to select this version in the **Version** field and click **Make active**. The archived quote will then be copied and made into the current version. Previous versions of the quote will be archived.
 
-To do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Click **Place order** in the **Edit quote** dialog. The **Create order based on quote version** dialog appears. The dialog title shows the quote version that the order is based on.
 

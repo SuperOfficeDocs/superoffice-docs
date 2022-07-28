@@ -16,7 +16,7 @@ language: en
 
 Using the document mailing workflow you can generate a PDF document to print and send to your customers. The first step in creating a document mailing, is called **Setup**. Here you can set the name of the mailing, the heading and attention text in the document, and set archive options for the mailing.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Enter a name in the **Name of mailing** field.
 

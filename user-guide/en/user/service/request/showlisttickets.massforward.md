@@ -11,7 +11,7 @@ language: en
 
 # Forward multiple requests to external parties
 
-In the request lists, you can forward multiple requests at the same time. To do this:
+In the request lists, you can forward multiple requests at the same time. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Select the requests you want to forward in the request list.
 2. Click the ![icon][img1] menu button in the lower left corner of the request list.

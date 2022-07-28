@@ -11,7 +11,7 @@ language: en
 
 # Personal profiles
 
-Personal profiles apply to a single user. You configure personal profiles by clicking ![icon](../../../../media/icons/service/btn-editelementprofile.png) (the "spanner" icon) available in different screens, for example, the list of requests in the **Contact** screen, the request properties section in the **Request** screen or the search results screen. We will use a concrete example to explain how this works. In the example below, we assume that you want to add a field in the **Request** screen. To do this:
+Personal profiles apply to a single user. You configure personal profiles by clicking ![icon](../../../../media/icons/service/btn-editelementprofile.png) (the "spanner" icon) available in different screens, for example, the list of requests in the **Contact** screen, the request properties section in the **Request** screen or the search results screen. We will use a concrete example to explain how this works. In the example below, we assume that you want to add a field in the **Request** screen. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open the **Request** screen and select the **Details** tab (see [Process requests](../request/listTicket.md)).
 2. Click ![icon](../../../../media/icons/service/btn-editelementprofile.png) on the far right of the request's properties. The **Edit element profile** screen appears.

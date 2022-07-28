@@ -13,7 +13,7 @@ language: en
 
 If the recipient has problems displaying the entire message in his or her e-mail program (maybe images aren't displayed, for example), or prefers to read the message in a browser, you can add a link to display the message as a web page. Links of this type are normally placed at the top of the message.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Go to the contents of the message and click the section where you want to insert the link..
 

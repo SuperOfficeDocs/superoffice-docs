@@ -11,7 +11,7 @@ language: en
 
 # Add label formats
 
-To print labels in a format different from those already available, you can define your own new format. To do this:
+To print labels in a format different from those already available, you can define your own new format. [!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **Reports** screen.
     <!-- Fix reuse ID=a1 -->

@@ -17,7 +17,7 @@ If an anonymous user or a system user is no longer to have the option of logging
 
 ## Deactivate a user
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the **Users** button in the Navigator (![icon][img1]).
 2. Select the **Other users** tab. The list displays anonymous users and system users.
@@ -25,7 +25,7 @@ To do this:
 
 ## Activate a user
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the **Users** button in the Navigator (![icon][img1]).
 2. Select the **Other users** tab. The list displays anonymous users and system users.

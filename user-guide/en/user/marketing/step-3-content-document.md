@@ -13,7 +13,7 @@ language: en
 
 In the **Content** step you can edit the appearance and content of the document.
 
-In order to do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Click the **Edit** button.
 2. Click **Download document** in the dialog box that appears. The file is downloaded to your browser.

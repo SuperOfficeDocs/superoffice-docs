@@ -13,7 +13,7 @@ language: en
 
 When you send a newsletter, for example, you must give the recipients the option of unsubscribing or changing their subscription preferences. You can do this by inserting a link for the recipients to click. Such links are normally placed at the bottom of a message.
 
-In order to do this:
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Go to the contents of the message and edit a paragraph (see [Edit a paragraph][1]) to open the editing view.  
     Or click the **Add a new paragraph** ( ![icon][img1] ) button to add a paragraph at the bottom.

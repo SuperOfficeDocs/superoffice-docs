@@ -11,7 +11,7 @@ language: en
 
 # Take responsibility for requests
 
-This is particularly relevant for unassigned requests, i.e. those without a defined owner. If you want to take over a request, it is important to follow the procedure below to identify that you have taken it over. Otherwise there is a risk of others answering the request at the same time. To do this:
+This is particularly relevant for unassigned requests, i.e. those without a defined owner. If you want to take over a request, it is important to follow the procedure below to identify that you have taken it over. Otherwise there is a risk of others answering the request at the same time. [!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open the request. (See [Process requests](listTicket.md).)
 2. Click the ![icon][img1] **Actions** button and select **Accept request**.  

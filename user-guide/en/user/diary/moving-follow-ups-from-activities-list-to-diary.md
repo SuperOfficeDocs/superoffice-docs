@@ -13,7 +13,7 @@ language: en
 
 You can move a follow-up from the activities list to the Diary. This can be useful if you have moved a follow-up from the Diary to the activities list and want it back in the Diary, e.g. on a different date.
 
-To do this:
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Select the required tab in the **Diary** screen (**Day**, **Week**, **Month** or **View**).
 2. Grab the follow-up in the activities list by clicking down on it with the mouse button.

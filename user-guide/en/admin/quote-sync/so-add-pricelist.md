@@ -31,7 +31,7 @@ Fill in the following fields :
 * **Limited validity**: Check here if the price list will only remain valid for a limited period. This might apply to a time-limited sales campaign, for example. You can choose a start and end date *OR* just an end date.
 
 Select **Add empty price list** if you want to start with a blank price list and enter all the products manually.
-*Or* Select **Copy existing price list** to copy a price list and all its products. To do this:
+*Or* Select **Copy existing price list** to copy a price list and all its products. [!include[To do this](../../includes/to-do-this.md)]
 
 Select the required price list in the list below.
 
