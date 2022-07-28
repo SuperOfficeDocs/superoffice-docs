@@ -24,6 +24,11 @@ To restore a deleted status:
 
 ## What would you like to do now?
 
-[Edit a status description](Edit-description-for-status.md)
+* [Edit a status description][1]
+* [Manage status monitors][2]
 
-[Manage status monitors](Manage-status-monitors.md)
+<!-- Referenced links -->
+[1]: edit-description-for-status.md
+[2]: manage-status-monitors.md
+
+<!-- Referenced images -->

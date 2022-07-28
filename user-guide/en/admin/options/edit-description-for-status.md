@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-The **Description** tab shows the description you entered when you created the status (see [Creating a new status](Create-new-status-web.md)).
+The **Description** tab shows the description you entered when you created the status (see [Creating a new status][1]).
 
 To change the description of an existing status:
 
@@ -21,3 +21,8 @@ To change the description of an existing status:
 2. Select the **Company** or **Project** tab.
 3. In the status list, select the status for which you want to edit the description.
 4. Edit the text in the **Description** tab.
+
+<!-- Referenced links -->
+[1]: create-new-status-web.md
+
+<!-- Referenced images -->

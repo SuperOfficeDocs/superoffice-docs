@@ -11,7 +11,7 @@ language: en
 
 # Status monitors
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences](../licenses/Licences-screen.md).
+Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences][9].
 
 Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. <!-- Fix reuse ID=a11 -->Click here to see some examples of statuses. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
 
@@ -35,22 +35,30 @@ You can specify up to three different periods for counters, so that the SAINT cr
 
 To create a status, you need to perform these steps:
 
-[Create a new status](Create-new-status-web.md)
-
-[Select an image for a status](Select-image-for-status.md)
-
-[Select a default follow-up type for a status](Select-default-follow-up-type-for-status.md)
-
-[Specify status criteria](Select-status-criteria.md)
-
-[Specify a period length](Select-period-length.md)
+* [Create a new status][1]
+* [Select an image for a status][2]
+* [Select a default follow-up type for a status][3]
+* [Specify status criteria][4]
+* [Specify a period length][5]
 
 ## Restore and edit statuses
 
-[Restore a deleted status](Restore-deleted-status-web.md)
-
-[Edit a status description](Edit-description-for-status.md)
+* [Restore a deleted status][6]
+* [Edit a status description][7]
 
 ## Administrate and maintain status monitors
 
-[Manage status monitors](Manage-status-monitors.md)
+* [Manage status monitors][8]
+
+<!-- Referenced links -->
+[1]: create-new-status-web.md
+[2]: select-image-for-status.md
+[3]: select-default-follow-up-type-for-status.md
+[4]: select-status-criteria.md
+[5]: select-period-length.md
+[6]: restore-deleted-status-web.md
+[7]: edit-description-for-status.md
+[8]: manage-status-monitors.md
+[9]: ../licenses/licences-screen.md
+
+<!-- Referenced images -->

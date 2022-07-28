@@ -17,8 +17,13 @@ The words defined as stopwords for freetext searches are listed in the **Stopwor
 
 ## What would you like to do now?
 
-[Add stopwords](Adding-stopwords.md)
+* [Add stopwords][1]
+* [Suggest stopwords][2]
+* [Delete stopwords][3]
 
-[Suggest stopwords](Suggesting-stopwords.md)
+<!-- Referenced links -->
+[1]: adding-stopwords.md
+[2]: suggesting-stopwords.md
+[3]: deleting-stopwords.md
 
-[Delete stopwords](Deleting-stopwords.md)
+<!-- Referenced images -->

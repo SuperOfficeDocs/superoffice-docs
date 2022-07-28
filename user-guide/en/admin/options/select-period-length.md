@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-You can specify the period (duration in days) for the following 
+You can specify the period (duration in days) for the following
 
 * Number of completed/non-completed activities in period
 * Number of completed/non-completed sales in period
@@ -23,7 +23,7 @@ You can specify the period (duration in days) for the following
 
 You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you will for example be able to choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
 
-For more about counters, see **Counter fields** under [Use search criteria](using-search-criteria.md).
+For more about counters, see **Counter fields** under [Use search criteria][1].
 
 To do this:
 
@@ -34,8 +34,14 @@ To do this:
 The changes are automatically saved.
 
 > [!NOTE]
-> If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore regenerate the counters frequently (preferably each night), so that the counters are as up-to-date as possible. See [Manage status monitors](Manage-status-monitors.md).
+> If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore regenerate the counters frequently (preferably each night), so that the counters are as up-to-date as possible. See [Manage status monitors][2].
 
 ## What would you like to do now?
 
-[Manage status monitors](Manage-status-monitors.md)
+* [Manage status monitors][2]
+
+<!-- Referenced links -->
+[1]: using-search-criteria.md
+[2]: manage-status-monitors.md
+
+<!-- Referenced images -->

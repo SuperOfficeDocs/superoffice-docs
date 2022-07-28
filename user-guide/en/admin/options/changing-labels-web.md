@@ -45,4 +45,9 @@ To change labels in SuperOffice CRM:
 
 ## What would you like to do now?
 
-[Reset labels](Resetting-labels.md)
+* [Reset labels][1]
+
+<!-- Referenced links -->
+[1]: resetting-labels.md
+
+<!-- Referenced images -->

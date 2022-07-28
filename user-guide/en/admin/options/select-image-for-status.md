@@ -15,7 +15,7 @@ language: en
 
 You can select an image to be displayed in SuperOffice CRM on a company card, contact card or project card that fulfils the criteria set for a specific status. The images are displayed as watermarks, so as not to hide the contents of the card.
 
-![icon](../../../media/icons/admin/question.bmp) <!-- Fix reuse ID=a9 -->
+![icon][img1] <!-- Fix reuse ID=a9 -->
 
 No, you do not need to have an image for a status. If you just want to create reports or use status monitors to search for and create selections of companies, contacts or projects that fulfil the status criteria, you do not need to assign an image to the statuses.
 
@@ -29,12 +29,12 @@ To select an image for the status:
 
     If you only want to use statuses for searching, you can uncheck **Visualise**, so that the status image is not shown on the company card, contact card or project card.
 5. Click the **Change image** button.
-6. Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.  
-    Or  
+6. Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.
+    Or
     Click **Add**, click **Upload** file, browse to the image you require and click **Open**. Enter a description of the image. Click **Save**.
 7. Click **OK** to close the dialog.
-8. The image is added to the database and displayed in the field on the right.  
-    ![icon](../../../media/icons/admin/question.bmp)<!-- Fix reuse ID=a7 -->
+8. The image is added to the database and displayed in the field on the right.
+    ![icon][img1]<!-- Fix reuse ID=a7 -->
     The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time might, for example, be a spider's web.
 
     You can use files of the following types: .jpg, .png, .gif and .bmp. We recommend that you use an image size of 130 x 180 pixels. If the image is bigger than that, it will be cropped on the bottom and right-hand edges.
@@ -43,10 +43,16 @@ To select an image for the status:
 
 ## What would you like to do now?
 
-[Select a default follow-up type for a status](Select-default-follow-up-type-for-status.md)
+* [Select a default follow-up type for a status][1]
+* [Specify status criteria][2]
+* [Specify a period length][3]
+* [Manage status monitors][4]
 
-[Specify status criteria](Select-status-criteria.md)
+<!-- Referenced links -->
+[1]: select-default-follow-up-type-for-status.md
+[2]: select-status-criteria.md
+[3]: select-period-length.md
+[4]: manage-status-monitors.md
 
-[Specify a period length](Select-period-length.md)
-
-[Manage status monitors](Manage-status-monitors.md)
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/question.bmp

@@ -15,12 +15,23 @@ In the **Options** screen, you define settings that are valid for the whole syst
 
 The **Options** screen is divided into the following tabs:
 
-* **Freetext search**: Here you can manage how the freetext search function works in SuperOffice CRM. See [Freetext search](Freetext-search.md).
-* **Time zones**: Here you can manage time zone functionality. See [Time zones](timezones.md):
-* **Number allocation**: Specify here a start number for the **Number** fields in the **Company** screen, **Project** screen, **Sale** screen and the contact card, and for document templates. See [Number allocation](Number-allocation.md).
-* **Labels**: Here you can change the name of specific fields in SuperOffice CRM. See [Labels](Labels.md).
-* **Reports**: Here you can edit information about standard reports and import new report templates. See [Reports](reports.md).
-* **Customer languages**: Here you can configure the customer languages, making it easy to communicate with customers in different languages. You can also set up category names in SuperOffice Customer Centre. See [Customer languages](custlangs/index.md).
+* **Freetext search**: Here you can manage how the freetext search function works in SuperOffice CRM. See [Freetext search][1].
+* **Time zones**: Here you can manage time zone functionality. See [Time zones][2]:
+* **Number allocation**: Specify here a start number for the **Number** fields in the **Company** screen, **Project** screen, **Sale** screen and the contact card, and for document templates. See [Number allocation][3].
+* **Labels**: Here you can change the name of specific fields in SuperOffice CRM. See [Labels][4].
+* **Reports**: Here you can edit information about standard reports and import new report templates. See [Reports][5].
+* **Customer languages**: Here you can configure the customer languages, making it easy to communicate with customers in different languages. You can also set up category names in SuperOffice Customer Centre. See [Customer languages][6].
 
 > [!NOTE]
-> If your organisation has a licence for SAINT, the **Options** screen also contains the **Status monitors** tab. For more details, see [Status monitors](Status-monitor.md).
+> If your organisation has a licence for SAINT, the **Options** screen also contains the **Status monitors** tab. For more details, see [Status monitors][7].
+
+<!-- Referenced links -->
+[1]: freetext-search.md
+[2]: timezones.md
+[3]: number-allocation.md
+[4]: labels.md
+[5]: reports.md
+[6]: custlangs/index.md
+[7]: status-monitor.md
+
+<!-- Referenced images -->

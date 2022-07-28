@@ -14,13 +14,13 @@ language: en
 To ask the system to suggest which stopwords to add:
 
 > [!NOTE]
-> You can also choose the stopwords manually. See [Add stopwords](Adding-stopwords.md).
+> You can also choose the stopwords manually. See [Add stopwords][1].
 
-1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon][img1]).
 
 2. Select the **Free text search** tab.
 
-3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search](Enabling-freetext-search.md)).
+3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search][2]).
 
 4. Click the **Suggest** button below the stopword list.
 
@@ -33,4 +33,12 @@ To ask the system to suggest which stopwords to add:
 8. A message is displayed to remind you that changes in the stopword list do not have a retroactive effect, which means that new stopwords will not apply to fields that were created before the stopwords were defined. Click **OK**.
 
     > [!TIP]
-    > If you want your changes to apply retroactively, you can generate a new freetext index. See [Regenerate a freetext index](Regenerating-freetext-index.md).
+    > If you want your changes to apply retroactively, you can generate a new freetext index. See [Regenerate a freetext index][3].
+
+<!-- Referenced links -->
+[1]: adding-stopwords.md
+[2]: enabling-freetext-search.md
+[3]: regenerating-freetext-index.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-systemvalg-liten.bmp

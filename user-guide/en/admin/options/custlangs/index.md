@@ -35,4 +35,3 @@ On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were pl
 [3]: workwithexternacategories.md
 
 <!-- Referenced images -->
-[img1]: media/

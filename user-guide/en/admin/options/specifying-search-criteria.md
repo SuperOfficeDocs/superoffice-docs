@@ -15,11 +15,11 @@ You can specify search criteria for both individual words (for example *Peter*) 
 
 To specify the search criteria for a freetext search:
 
-1. Click the **Options** button in the Navigator (![icon](../../../media/icons/admin/Knapp-Systemvalg-liten.bmp)).
+1. Click the **Options** button in the Navigator (![icon][img1]).
 
 2. Select the **Free text search** tab.
 
-3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search](Enabling-freetext-search.md)).
+3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search][1]).
 
 4. Choose one of the following for **Single-word search operator**:
 
@@ -37,3 +37,9 @@ To specify the search criteria for a freetext search:
 
     > [!NOTE]
     > When searching for phrases consisting of several words, a search is made for all the words together.
+
+<!-- Referenced links -->
+[1]: enabling-freetext-search.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/knapp-systemvalg-liten.bmp

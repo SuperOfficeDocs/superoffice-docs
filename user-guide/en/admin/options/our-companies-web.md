@@ -21,11 +21,17 @@ The company list consists of the following columns:
 * **Company name**: shows the company’s name.
 * **Department**: shows the name of the department in the company.
 * **City**: shows where the company is located.
-* **Associates**: shows how many associates have been created for the company. Associates are added in the **Users** screen. For more details, see the main [Users](../users/index.md) topic.
+* **Associates**: shows how many associates have been created for the company. Associates are added in the **Users** screen. For more details, see the main [Users][3] topic.
 * **Active satellite**: shows whether the company is recorded as an active satellite.
 
 ## What would you like to do now?
 
-[Add companies in the Our companies tab](Adding-companies-in-Our-companies-tab-web.md)
+* [Add companies in the Our companies tab][1]
+* [Delete companies in the Our companies tab][2]
 
-[Delete companies in the Our companies tab](Deleting-companies-in-Our-companies-tab-web.md)
+<!-- Referenced links -->
+[1]: adding-companies-in-our-companies-tab-web.md
+[2]: deleting-companies-in-our-companies-tab-web.md
+[4]: ../users/index.md
+
+<!-- Referenced images -->

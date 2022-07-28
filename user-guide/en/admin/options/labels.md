@@ -15,6 +15,11 @@ Using the **Labels** tab in the **Options** screen, you can change the name of a
 
 ## What would you like to do now?
 
-[Change labels](Changing-labels-web.md)
+* [Change labels][1]
+* [Reset labels][2]
 
-[Reset labels](Resetting-labels.md)
+<!-- Referenced links -->
+[1]: changing-labels-web.md
+[2]: resetting-labels.md
+
+<!-- Referenced images -->

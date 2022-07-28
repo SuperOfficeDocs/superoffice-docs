@@ -19,34 +19,22 @@ The **System events** tab consists of two parts:
     Under **System notifications** you will find the following columns:
 
     Event
-
     Shows the name of the event.
-
     Status
-
     Shows the status of the event.
-
     Message
-
     Shows the description of the event.
-
     Activated
-
     Shows when the event was initiated.
-
     Activated by
-
     Shows who initiated the event (user ID and portrait).
-
     Finished
-
     Shows when the event is expected to finish.
 
     > [!NOTE]
     > Events are not terminated automatically. You need to remove them from the **System events** tab to terminate them.
 
     Type
-
     Shows whether the event applies to the whole system.
 * **Description**, which shows detailed information about the event currently selected under **Events**.
 
@@ -66,7 +54,7 @@ The following types of events are started from the various screens in Settings a
 
 <!-- -->
 
-* **ROURebuild**: counters or status monitors are being regenerated. Status images, the **Statistics** tab and counters are unavailable while the event is underway. (Status monitors require a separate licence. See [Licences](../licenses/Licences-screen.md).)
+* **ROURebuild**: counters or status monitors are being regenerated. Status images, the **Statistics** tab and counters are unavailable while the event is underway. (Status monitors require a separate licence. See [Licences][2].)
 
 You can start the following types of event from the **Status** tab:
 
@@ -77,4 +65,11 @@ You can start the following types of event from the **Status** tab:
 
 ## What would you like to do now?
 
-[Add system events](Adding-system-events.md)
+* [Add system events][1]
+
+<!-- Referenced links -->
+[1]: Adding-system-events.md
+[2]: ../licenses/Licences-screen.md
+
+<!-- Referenced images -->
+

@@ -11,11 +11,11 @@ language: en
 
 # View number allocation
 
-In the top part of the **Number allocation** tab is a table showing the counters defined for SuperOffice CRM (see also [Number allocation](Number-allocation.md)).
+In the top part of the **Number allocation** tab is a table showing the counters defined for SuperOffice CRM (see also [Number allocation][1]).
 
 The table consists of the following columns:
 
-* **\[Icon\]**: Shows where in SuperOffice CRM the counter will be used, for example, ![icon](../../../media/icons/admin/Ikon-KONTAKT.bmp) for the **Company** screen.
+* **\[Icon\]**: Shows where in SuperOffice CRM the counter will be used, for example, ![icon][img1] for the **Company** screen.
 * **Counter**: shows the name of the counter, for example, **Company number**, which applies to the **Number** field in the **Company** screen.
 * **Next**: shows the next value for the counter.
 * **Allocate**: specifies whether the automatic counter function will be used, so that the system enters values for you.
@@ -28,4 +28,11 @@ The table consists of the following columns:
 
 ## What would you like to do now?
 
-[Specify number allocation](Specifying-number-allocation.md)
+* [Specify number allocation][2]
+
+<!-- Referenced links -->
+[1]: number-allocation.md
+[2]: specifying-number-allocation.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/icons/admin/ikon-kontakt.bmp

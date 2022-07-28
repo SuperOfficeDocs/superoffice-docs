@@ -63,7 +63,7 @@ In the list box, select the field you want to search for information in. The fie
   * This half
   * This year
 
-    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon](../../../media/icons/dialogboksknapper-pil-ned.bmp) ) to the right of the date field.
+    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon][img3] ) to the right of the date field.
 
 * <!-- Fix reuse ID=a4 -->
 
@@ -105,13 +105,13 @@ In the list box, select the field you want to search for information in. The fie
 
     To add all values:
 
-    Click **Select all** ( ![icon](../../../media/icons/admin/velg-alle.bmp) ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon][img1] ). The values are displayed under **Selected values** in the pane on the right.
+    Click **Select all** ( ![icon][img4] ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon][img1] ). The values are displayed under **Selected values** in the pane on the right.
 
     To remove all selected values:
 
-    Click **Select all** ( ![icon](../../../media/icons/admin/velg-alle.bmp) ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
+    Click **Select all** ( ![icon][img4] ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
 
-* <!-- Fix reuse ID=a7 --> ( ![icon](../../../media/icons/admin/Status-aktiv.bmp) )
+* <!-- Fix reuse ID=a7 --> ( ![icon][img5] )
 
     > [!NOTE]
     > This option does not apply to status monitors.
@@ -120,21 +120,21 @@ In the list box, select the field you want to search for information in. The fie
 
     A status field may be displayed with two different icons:
 
-    ![icon](../../../media/icons/admin/Status-aktiv.bmp) (updated) – the status is updated.
+    ![icon][img5] (updated) – the status is updated.
 
-    ![icon](../../../media/icons/admin/Status-inaktiv.bmp) (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
+    ![icon][img6] (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
 
   * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
-* <!-- Fix reuse ID=a1 --> ( ![icon](../../../media/icons/admin/Saint-Counter-Company.bmp) ![icon](../../../media/icons/admin/Saint-Counter-Project.bmp) )
+* <!-- Fix reuse ID=a1 --> ( ![icon][img7] ![icon][img8] )
 
     Counters can be, for example, the number of sales in a period or the date of the last completed sale. <!-- Fix reuse ID=a11 -->Click here to see examples of the use of counters in a search.
 
     Each counter field may be shown with two different icons, depending on whether or not the counter values are updated.
 
     | Entity | Updated | Not updated* |
-    | Company | ![icon](../../../media/icons/admin/Saint-Counter-Company.bmp) | ![icon](../../../media/icons/admin/Saint-Counter-Company-dis.bmp) |
-    | Project | ![icon](../../../media/icons/admin/Saint-Counter-Project.bmp) | ![icon](../../../media/icons/admin/Saint-Counter-Project-dis.bmp) |
+    | Company | ![icon][img7] | ![icon][img10] |
+    | Project | ![icon][img8] | ![icon][img9] |
 
     \*the counter values are not updated, but can still be used in the search. A search on counter values that are not updated will however return data that are not updated. The counter values should be regenerated in Settings and maintenance before they are used in a search.
 
@@ -145,7 +145,7 @@ In the list box, select the field you want to search for information in. The fie
     **SAINT type**: Here you choose the activity type you want to search for.
     **With status**: Here you choose the status of the sale you want to search for.
     **Direction**: Here you can choose whether the activity is incoming or outgoing.
-    **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class](../lists/Sale-Amount-class.md).
+    **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class][1].
     **Intention**: Here you choose the intention of the activity.
 
     Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
@@ -155,8 +155,16 @@ In the list box, select the field you want to search for information in. The fie
 If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears, as described above.
 
 <!-- Referenced links -->
-[1]:
+[1]: ../lists/sale-amount-class.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/pil-hoeyre.bmp
 [img2]: ../../../media/icons/pil-venstre.bmp
+[img3]: ../../../media/icons/dialogboksknapper-pil-ned.bmp
+[img4]: ../../../media/icons/admin/velg-alle.bmp
+[img5]: ../../../media/icons/admin/status-aktiv.bmp
+[img6]: ../../../media/icons/admin/status-inaktiv.bmp
+[img7]: ../../../media/icons/admin/saint-counter-company.bmp
+[img8]: ../../../media/icons/admin/saint-counter-project.bmp
+[img9]: ../../../media/icons/admin/saint-counter-project-dis.bmp
+[img10]: ../../../media/icons/admin/saint-counter-company-dis.bmp
