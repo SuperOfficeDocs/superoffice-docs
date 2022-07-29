@@ -24,7 +24,7 @@ In Settings and maintenance, you can specify for most predefined and all user-de
 To specify that a list should be grouped:
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
-2. Click the arrow ( ![icon][img2] ) and select the required list.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 3. Check **Use grouping and user group filtering for this list** at the top right.
 
 > [!NOTE]
@@ -39,4 +39,3 @@ For more details on defining headings for grouped lists, see [Group items under 
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img2]: ../../../media/icons/admin/pil-ned.bmp

@@ -17,7 +17,7 @@ To edit the name and/or description of a user-defined list:
 > To quickly go to a list, click **Lists** in the navigator and start typing in the search field ( ![icon][img3] ). The search results are updated while you type.
 
 1. Open the **Lists** screen.
-2. Click the arrow (![icon][img2]) and select the required list.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 3. Click the **Edit list** button.
 4. Type a new name for the list in the **Name** field.
 5. Edit the description of the list, as required, in the **Description** field.
@@ -26,5 +26,4 @@ To edit the name and/or description of a user-defined list:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/admin/pil-ned.bmp
 [img3]: ../../../media/icons/admin/soek.bmp

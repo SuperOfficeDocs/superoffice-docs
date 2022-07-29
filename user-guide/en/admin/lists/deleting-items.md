@@ -14,7 +14,7 @@ language: en
 To delete both predefined and user-defined list items:
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
-2. Click the arrow ( ![icon][img2]) and select the required list.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 3. Select the item to delete in the **Items** list.
 4. Click the **Delete** button at the bottom of the screen. The item will be deleted from the list and will also no longer be displayed in the relevant list in SuperOffice CRM.
 5. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
@@ -30,5 +30,4 @@ To delete both predefined and user-defined list items:
 [1]: deleted-items-and-headings.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
 [img2]: ../../../media/icons/admin/pil-ned.bmp

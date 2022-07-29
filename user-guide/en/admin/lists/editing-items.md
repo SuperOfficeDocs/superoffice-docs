@@ -20,7 +20,7 @@ To edit the name and/or description of an item:
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
 
-2. Click the arrow ( ![icon][img2] ) and select the required list. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
 
 3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.
     <!-- Fix reuse ID=a1 -->
@@ -41,4 +41,3 @@ To edit the name and/or description of an item:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img2]: ../../../media/icons/admin/pil-ned.bmp

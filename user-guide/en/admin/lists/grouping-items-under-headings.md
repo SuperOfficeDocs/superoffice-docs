@@ -20,7 +20,7 @@ If you want a list with two levels, you need to select headings for each individ
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon][img2] ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
     > If this field is empty, you need to add headings first. This is described under [Add headings][1].
@@ -40,7 +40,7 @@ The changes are saved automatically.
 
 1. Open the **Lists** screen.
 
-2. Click the arrow ( ![icon][img2] ) and select the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
     > If this field is empty, you need to add headings first. This is described under [Add headings][1].
@@ -67,5 +67,4 @@ The changes are saved automatically.
 [3]: ../preferences/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/admin/pil-ned.bmp
 [img4]: ../../../media/icons/admin/valgtboks.bmp

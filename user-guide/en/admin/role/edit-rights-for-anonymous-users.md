@@ -4,7 +4,7 @@ title: Edit rights for anonymous users
 description: Edit rights for anonymous users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, role
 so.topic: help
 language: en
 so.envir: onsite
@@ -18,16 +18,18 @@ There is only one role for anonymous users and only the data rights for this rol
 
 [!include[To do this](../../includes/to-do-this.md)]
 
-1. Click the **Roles** button in the Navigator (![icon][img1]).
+1. [!include[Open Roles](includes/open-roles.md)]
+
 2. Select the **Anonymous** tab.
-3. Enter the data rights in the **Data rights** tab as described under [Set data rights for a role][1].
-    <!-- Fix reuse ID=a2 -->
-    [!include[Table showing rights per role](../includes/table-role-rights.md)]
+
+3. [!include[How to set data rights](includes/enter-data-rights.md)]
+
+    <details><summary>What do the different rights mean?</summary>
+    [!include[Table showing rights per role](includes/table-role-rights.md)]
+    </details>
 
 The changes are saved automatically.
 
 <!-- Referenced links -->
-[1]: Set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/Knapp-rolle-liten.bmp

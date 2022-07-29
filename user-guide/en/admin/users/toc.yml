@@ -1,5 +1,5 @@
 items:
-  - name: Users
+  - name: Overview
     href: index.md
   - name: Associates
     href: associates.md

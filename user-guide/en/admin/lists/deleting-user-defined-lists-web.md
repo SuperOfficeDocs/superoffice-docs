@@ -20,7 +20,7 @@ language: en
 To delete a user-defined list:
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
-2. Click the arrow (![icon][img2]) and select the required list from the list box at the top.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top.
 3. Click the **Delete list** button.
 4. In the dialog which opens, click **Yes** to confirm that you want to delete this list. The list will be deleted.
 
@@ -28,5 +28,4 @@ To delete a user-defined list:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img2]: ../../../media/icons/admin/pil-ned.bmp
 [img3]: ../../../media/icons/admin/soek.bmp

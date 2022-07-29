@@ -19,7 +19,7 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
 
-2. Click the arrow ( ![icon][img2] ) and select the required list.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
@@ -43,7 +43,7 @@ You can also specify available items for a user group:
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
 
-2. Click the arrow ( ![icon][img2] ) and select the required list.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
@@ -68,7 +68,6 @@ You can also specify available items for a user group:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img2]: ../../../media/icons/admin/pil-ned.bmp
 [img3]: ../../../media/icons/admin/velg-alle.bmp
 [img4]: ../../../media/icons/admin/valgtboks.bmp
 [img5]: ../../../media/icons/admin/fjern-alle.bmp

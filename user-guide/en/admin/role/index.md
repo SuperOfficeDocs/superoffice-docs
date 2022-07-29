@@ -4,7 +4,7 @@ title: Role
 description: Role
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, role
 so.topic: help
 language: en
 ---
@@ -17,12 +17,19 @@ Using role-based security in SuperOffice CRM, you can customise roles for differ
 
 A role describes two things:
 
-* Which <!-- Fix reuse ID=a2 -->(companies, contacts, projects, project members, selections, sales, follow-ups, documents, relations, stakeholders and dashboards) are to be made <!-- Fix reuse ID=a3 -->(accessibility is specified using rights: none, read, create, update and delete) for the users who have this role.
-* Which <!-- Fix reuse ID=a4 -->(e.g. administrator access in Settings and maintenance, allow bulk update, quote approval, mail merge, exporting selections and publishing)  are to be made accessible to users with this role.
+* Which **data objects** are to be made accessible for the users who have this role for the users who have this role.
+
+    Accessibility is specified using rights: none, read, create, update and delete.
+
+    <details><summary>What are data objects?</summary>
+    [!include[List of data objects](includes/list-of-data-objects.md)]
+    </details>
+
+* Which **functions** (e.g. administrator access in Settings and maintenance, allow bulk update, quote approval, mail merge, exporting selections and publishing)  are to be made accessible to users with this role.
+
+## Predefined roles
 
 A number of predefined roles are included with SuperOffice CRM. The **User levels 0–5** roles correspond to the user levels from previous versions of SuperOffice, where user level 0 is an administrator. You can edit these roles at will.
-
-<!-- Fix reuse ID=a1 -->
 
 | Role | Explanation |
 |---|---|

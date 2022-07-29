@@ -8,6 +8,8 @@ items:
   href: licenses/toc.yml
 - name: Users
   href: users/toc.yml
+- name: Role
+  href: role/toc.yml
 - name: ai
   href: ai/index.md
   items:
@@ -397,19 +399,6 @@ items:
     href: requests/soapconf.md
   - name: Requests
     href: requests/requests.md
-- name: Role
-  href: role/index.md
-  items:
-  - name: Create role
-    href: role/create-role.md
-  - name: Deleting a role
-    href: role/deleting-role.md
-  - name: Edit rights for anonymous users
-    href: role/edit-rights-for-anonymous-users.md
-  - name: Editing a role
-    href: role/editing-role.md
-  - name: Set data rights for role
-    href: role/set-data-rights-for-role.md
 - name: Sale
   href: sale/index.md
   items:

@@ -21,7 +21,7 @@ If you have deleted an item or a heading and later decide you do not want to rem
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
 
-2. Click the arrow ( ![icon][img2] ) and select the required list.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 
 3. Check **Show deleted items and headings**.
 
@@ -38,4 +38,3 @@ If you have deleted an item or a heading and later decide you do not want to rem
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img2]: ../../../media/icons/admin/pil-ned.bmp

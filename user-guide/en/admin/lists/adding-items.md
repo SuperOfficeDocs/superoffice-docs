@@ -15,7 +15,7 @@ To add items to both predefined and user-defined lists:
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
 
-2. Click the arrow (![icon][img2]) and select the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
 
 3. Click the **Add** button below the **Items** list. The **Edit list item** dialog opens.
     <!-- Fix reuse ID=a1 -->
@@ -44,6 +44,5 @@ After you have added items, you can specify details for each individual item. Yo
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img2]: ../../../media/icons/admin/pil-ned.bmp
 [img3]: ../../../media/icons/admin/pil-flyttopp.bmp
 [img4]: ../../../media/icons/admin/pil-flyttned.bmp

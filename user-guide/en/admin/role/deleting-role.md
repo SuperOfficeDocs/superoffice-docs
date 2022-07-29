@@ -4,7 +4,7 @@ title: Deleting a role
 description: Deleting a role
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, role
 so.topic: help
 language: en
 ---
@@ -17,20 +17,26 @@ When you delete a role, you need to move the users with this role to another rol
 
 To delete a role:
 
-1. Click the **Roles** button in the Navigator (![icon][img1]).
+1. [!include[Open Roles](includes/open-roles.md)]
+
 2. Choose the **Associates** or **External** tab.
-    ![icon][img2] <!-- Fix reuse ID=a3 -->
-    You cannot delete the role for anonymous users.
+
+    > [!NOTE]
+    > You cannot delete the role for anonymous users.
+
 3. Select the required role in the **Roles** list.
+
 4. Click **Delete**. The **Delete Role** dialog opens.
-    ![icon][img2] <!-- Fix reuse ID=a2 -->
+
+    <details><summary>Is the Delete button disabled (greyed out)?</summary>
     It is not possible to delete the role you yourself belong to or the system user role (**User level 0**). If there is only a single role, you will not be able to delete it.
+    </details>
+
 5. Click the arrow (![icon][img3] ) next to the **Assign all users with this role to** field, and select another role for the users of the role you want to delete.
+
 6. Click **Delete**. The role is removed from the list. You cannot undo deletion of a role.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-rolle-liten.bmp
-[img2]: ../../../media/icons/admin/question.bmp
 [img3]: ../../../media/icons/admin/pil-ned.bmp

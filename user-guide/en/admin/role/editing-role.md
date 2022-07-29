@@ -4,7 +4,7 @@ title: Editing a role
 description: Editing a role
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, role
 so.topic: help
 language: en
 ---
@@ -15,29 +15,33 @@ language: en
 
 To edit a role:
 
-1. Click the **Roles** button in the Navigator (![icon][img3]).
-2. Choose the **Associates** or **External** tab.
-    ![icon][img4] <!-- Fix reuse ID=a2 -->
-    See [Edit rights for anonymous users][1].
-3. In the list, double-click the role you want to edit. For more information about the predefined roles, see [Role][3].
-4. In the **Create New Role** dialog, change the name and description of the role as required and then click **Save**.
-5. Edit the role's rights.
-    <!-- Fix reuse ID=a4 -->
-    Enter the data rights in the **Data rights** tab as described under [Set data rights for a role][2].
-6. If you are editing roles for associates: Go to the **Functional rights** tab and edit the role's functional rights.
-    <!-- Fix reuse ID=a5 -->
-    * To add a right: Select one or more rights in the **This role CANNOT** field, and click the right arrow ( ![icon][img1] ).
-    * To remove a right: Select one or more rights in the **This role can** field, and click the left arrow ( ![icon][img2] ).
+1. [!include[Open Roles](includes/open-roles.md)]
 
-The changes are saved automatically.
+2. Choose the **Associates** or **External** tab.
+
+    <details><summary>Do you want to edit the role for anonymous users?</details>
+    See [Edit rights for anonymous users][1].
+    </details>
+
+3. In the list, double-click the role you want to edit. For more information about the predefined roles, see [Role][3].
+
+4. In the **Create New Role** dialog, change the name and description of the role as required and then click **Save**.
+
+5. Edit the role's rights.
+
+    <details><summary>How?</summary>
+    [!include[How to set data rights](includes/enter-data-rights.md)]
+    </details>
+
+6. If you are editing roles for associates: Go to the **Functional rights** tab and edit the role's functional rights.
+
+    [!include[How to set functional rights](includes/add-remove-right.md)]
+
+    The changes are saved automatically.
 
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
-[2]: set-data-rights-for-role.md
 [3]: index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/pil-hoeyre.bmp
-[img2]: ../../../media/icons/pil-venstre.bmp
-[img3]: ../../../media/icons/admin/knapp-rolle-liten.bmp
 [img4]: ../../../media/icons/admin/question.bmp

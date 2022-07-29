@@ -19,7 +19,7 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 To change a standard template:
 
 1. Click the **Lists** button in the Navigator (![icon][img1]).
-2. Click the arrow (![icon][img2]) and select **Document - Template**.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] **Document - Template**.
     All previously defined items for the selected list are displayed in the **Items** list.
 3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.
 4. Click the **Edit** button. The document opens in the correct application.
@@ -38,4 +38,3 @@ To change a standard template:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img2]: ../../../media/icons/admin/pil-ned.bmp
