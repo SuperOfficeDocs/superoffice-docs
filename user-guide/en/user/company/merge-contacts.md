@@ -32,16 +32,12 @@ Proceed as follows:
     * **Delete...**: If you select this option, the source contact is deleted after the merge. This may be appropriate if you have registered the same contact twice under the same company.
     * **Mark as former employee**: If you select this option, the source contact is marked as a former employee after the merge. This may be appropriate if a person has changed jobs, but you still want them registered under the old company.
 
-4. Select one of the following under **Action on all existing activities and sales**:
+[!include[Select action](../../includes/select-action-on-activity.md)]
 
-    * **Leave all on...**. If you select this option, no activities or sales are moved.
-    * **Move all to...**. If you select this option, all activities and sales are moved.
-    * **Move all activities starting after**. Select this option if you want to transfer activities and sales starting after a specific date.
+<!-- markdownlint-disable-next-line MD046 -->
+    [!include[Preview results](../../includes/note-preview-results.md)]
 
-    > [!NOTE]
-    > If you want to see the results before you merge the contacts, click **Show results**: ![icon][img3].
-
-5. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
+1. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
 
 > [!NOTE]
 > You cannot merge contacts (SuperOffice users) in your own company, but you can merge a contact from another company with one in your own company.
@@ -56,4 +52,3 @@ Proceed as follows:
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/slå-sammen-bytte.bmp
-[img3]: ../../../media/icons/vis-resultat.bmp

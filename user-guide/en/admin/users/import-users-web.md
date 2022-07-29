@@ -4,10 +4,11 @@ title: Import users web
 description: Import users web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, user
 so.topic: help
 language: en
 so.envir: onsite
+so.client: web
 ---
 
 # Import users
@@ -29,6 +30,6 @@ If your organisation uses Active Directory or another authentication type, you c
 10. Enter information about the user as described in [Add users][1].
 
 <!-- Referenced links -->
-[1]: adding-users-web.md
+[1]: adding-users.md
 
 <!-- Referenced images -->

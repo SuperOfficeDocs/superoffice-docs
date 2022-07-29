@@ -1,0 +1,42 @@
+items:
+  - name: Users
+    href: index.md
+  - name: Associates
+    href: associates.md
+    items:
+    - name: Adding users
+      href: adding-users.md
+    - name: Filter group
+      href: associates-filter-group.md
+    - name: Move users
+      href: move-users.md
+    - name: Deleting users
+      href: deleting-users.md
+    - name: Import users
+      href: import-users-web.md
+  - name: Other users
+    href: other-users.md
+    items:
+    - name: Add other users
+      href: add-other-users.md
+    - name: Edit other users
+      href: edit-other-users.md
+    - name: Edit logon rights for other users
+      href: edit-logon-rights-for-other-users.md
+    - name: Delete other users
+      href: delete-other-users.md
+  - name: Our companies
+    href: our-companies.md
+    items:
+    - name: Adding companies in the Our companies tab
+      href: adding-companies-in-our-companies-tab.md
+    - name: Deleting companies in the Our companies tab
+      href: deleting-companies-in-our-companies-tab.md
+  - name: User licences
+    href: user-licences.md
+  - name: User groups
+    href: user-groups.md
+  - name: Access rights to reports
+    href: superoffice-reports-access-rights.md
+  - name: Visibility
+    href: visibility.md

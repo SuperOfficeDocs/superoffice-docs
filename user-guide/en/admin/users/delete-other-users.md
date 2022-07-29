@@ -4,9 +4,10 @@ title: Delete other users
 description: Delete other users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, user
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
 # Delete other users
@@ -15,12 +16,11 @@ language: en
 
 To delete anonymous users or system users:
 
-1. Click the **Users** button in the Navigator (![icon][img1]).
-2. Select the **Other users** tab. The list displays existing anonymous users and system users.
+1. [!include[Click Users](includes/goto-users.md)]
+2. [!include[Select Other users](includes/select-other-users.md)]
 3. Select the user you want to delete.
 4. Click the **Delete** button. The user will be removed from the list.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-brukere-liten.bmp

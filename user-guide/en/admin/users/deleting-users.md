@@ -4,7 +4,7 @@ title: Deleting users
 description: Deleting users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, user
 so.topic: help
 language: en
 ---
@@ -13,11 +13,11 @@ language: en
 
 To delete an existing user:
 
-1. Click the **Users** button in the Navigator (![icon][img1]).
+1. [!include[Click Users](includes/goto-users.md)]
 
 2. Select the **Associates** tab.
 
-3. Select the required user in the list of users (see [Users][1]).
+3. [!include[Select user](includes/select-user.md)]
 
 4. Click the **Delete** button. You cannot delete users who are logged on.
 
@@ -34,7 +34,5 @@ To delete an existing user:
 6. Click **OK**.
 
 <!-- Referenced links -->
-[1]:  index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-brukere-liten.bmp

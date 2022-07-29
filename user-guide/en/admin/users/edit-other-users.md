@@ -4,9 +4,10 @@ title: Edit other users
 description: Edit other users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, user
 so.topic: help
 language: en
+so.envir: onsite
 ---
 
 # Edit other users
@@ -15,14 +16,17 @@ language: en
 
 To edit existing users in the **Other users** tab:
 
-1. Click the **Users** button in the Navigator (![icon][img1]).
-2. Select the **Other users** tab. The list displays existing anonymous users and system users.
+1. [!include[Click Users](includes/goto-users.md)]
+
+2. [!include[Select Other users](includes/select-other-users.md)]
+
 3. In the list, double-click the user you want to edit.
+
 4. Make the required changes in the dialog that appears (see [Add other users][1] for information on completing the fields).
+
 5. To end, click **Save**.
 
 <!-- Referenced links -->
 [1]: add-other-users.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-brukere-liten.bmp

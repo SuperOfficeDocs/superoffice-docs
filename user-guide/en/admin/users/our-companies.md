@@ -1,5 +1,5 @@
 ---
-uid: help-en-our-companies-web
+uid: help-en-our-companies
 title: Our companies web
 description: Our companies web
 author: SuperOffice RnD
@@ -7,6 +7,7 @@ so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
 language: en
+so.client: web
 ---
 
 # Our companies
@@ -30,8 +31,8 @@ The company list consists of the following columns:
 * [Delete companies in the Our companies tab][2]
 
 <!-- Referenced links -->
-[1]: adding-companies-in-our-companies-tab-web.md
-[2]: deleting-companies-in-our-companies-tab-web.md
+[1]: adding-companies-in-our-companies-tab.md
+[2]: deleting-companies-in-our-companies-tab.md
 [4]: ../users/index.md
 
 <!-- Referenced images -->

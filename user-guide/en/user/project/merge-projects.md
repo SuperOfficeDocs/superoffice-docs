@@ -28,15 +28,14 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** if you want to update empty fields in the target project with details from the source one.
 
-    > [!NOTE]
-    > If you want to see the results before you merge the projects, click **Show results:**![icon][img4]
+    [!include[Preview results](../../includes/note-preview-results.md)]
 
 5. Click **Merge**. The following then happens:
     * The projects are merged.
     * Details are merged if you have specified this.
     * Project members are moved or merged.
     * Any associated sales are moved.
-    * All activities are moved.  
+    * All activities are moved.
         If you merge a project that is linked to a project guide with a project that has a different or no project guide, the project guide is removed from the source project. However, all follow-ups and documents are moved over to the new project and shown on the **Activities** section tab.
     * Any previous publishing of the source and target projects is disabled.
     * The source project is deleted.
@@ -55,4 +54,3 @@ If you have two nearly identical projects, it is possible to merge them, includi
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: media/merge-project.bmp
 [img3]: ../../../media/icons/slå-sammen-bytte.bmp
-[img4]: ../../../media/icons/vis-resultat.bmp

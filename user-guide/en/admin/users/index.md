@@ -4,7 +4,7 @@ title: Users
 description: Users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, user
 so.topic: help
 language: en
 ---
@@ -15,15 +15,18 @@ In the **Users** screen you can add and edit different types of users:
 
 * **Associates**: SuperOffice CRM users (in your company)
 
-* **Other users** <!-- onsite--> On this tab, you can add and edit anonymous users and system users. See [Other users][1].
+* [**Other users**:][1] <!-- onsite--> On this tab, you can add and edit anonymous users and system users.
 
 * **Anonymous users**: Users with limited rights defined by the role for anonymous users (see [Edit rights for anonymous users][4]). Anonymous users can be used, for instance, to provide access to web pages. In this way, salespersons can make relevant information from SuperOffice CRM available on a website that does not require a login, to give customers easy access to it.
 
-* **System users**: System users can log in to the system via third-party applications and have all rights. This user type is intended for integration purposes. The system user can be used to allow processes full access to the SuperOffice database for replicating diaries, for example.
+* **System users**: [!include[Access rights](includes/def-system-user.md)]
 
-* **Our companies**: For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab. See [Our companies][2].
+    This user type is intended for integration purposes. The system user can be used to allow processes full access to the SuperOffice database for replicating diaries, for example.
+
+* [**Our companies**:][2] For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab.
 
 * In the **User licences** tab, you can see how many user licences are in use, and which users are using the various licences.
+
 * In the **User groups** tab, you can see which users belong to the different user groups.
 
 > [!NOTE]
@@ -37,7 +40,7 @@ In the **Users** screen you can add and edit different types of users:
 
 <!-- Referenced links -->
 [1]: other-users.md
-[2]: ../options/our-companies-web.md
+[2]: our-companies.md
 [3]: associates.md
 [4]: ../role/edit-rights-for-anonymous-users.md
 

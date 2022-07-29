@@ -37,8 +37,7 @@ To merge companies:
     > The names must be EXACTLY the same, i.e. first name, middle name and last name, in order to be merged.)
     * **Replace empty fields in \[target company\] with values from \[source company\]**. If you select this option, empty data fields in the **To** company will be updated with data from the **From** company.
 
-    > [!NOTE]
-    > If you want to see the results before you merge the companies, click **Show results**: ![icon][img2].
+    [!include[Preview results](../../includes/note-preview-results.md)]
 
 5. Click **Merge**. The following then happens:
 
@@ -62,6 +61,5 @@ To merge companies:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/slå-sammen-bytte.bmp
-[img2]: ../../../media/icons/vis-resultat.bmp
 [img3]: ../../../media/icons/btn-menu.png
 [img4]: media/merge-companies.bmp

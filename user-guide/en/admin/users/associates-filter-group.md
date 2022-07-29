@@ -4,7 +4,7 @@ title: users associates filter group
 description: users associates filter group
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, user
 so.topic: help
 language: en
 ---

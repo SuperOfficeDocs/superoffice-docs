@@ -4,6 +4,10 @@ items:
 - name: Getting started
   href: getting-started/toc.yml
   topicHref: getting-started/index.md
+- name: Licenses
+  href: licenses/toc.yml
+- name: Users
+  href: users/toc.yml
 - name: ai
   href: ai/index.md
   items:
@@ -13,8 +17,6 @@ items:
     href: ai/categorization.md
   - name: Text analysis
     href: ai/text-analysis.md
-- name: Licenses
-  href: licenses/toc.yml
 - name: Preferences
   href: preferences/active-settings.md
   items:
@@ -53,8 +55,6 @@ items:
   items:
   - name: Activating time zones web
     href: options/activating-time-zones-web.md
-  - name: Adding companies in the Our companies tab web
-    href: options/adding-companies-in-our-companies-tab-web.md
   - name: Adding stopwords
     href: options/adding-stopwords.md
   - name: Customer languages
@@ -73,10 +73,6 @@ items:
     href: options/create-new-status-web.md
   - name: Default values for new document templates web
     href: options/default-values-for-new-document-templates-web.md
-  - name: Deleting companies in the Our companies tab
-    href: options/deleting-companies-in-our-companies-tab.md
-  - name: Deleting companies in the Our companies tab web
-    href: options/deleting-companies-in-our-companies-tab-web.md
   - name: Deleting stopwords
     href: options/deleting-stopwords.md
   - name: Edit description for status
@@ -101,8 +97,6 @@ items:
     href: options/number-allocation.md
   - name: Options
     href: options/index.md
-  - name: Our companies web
-    href: options/our-companies-web.md
   - name: Regenerating a freetext index
     href: options/regenerating-freetext-index.md
   - name: Reports
@@ -137,45 +131,6 @@ items:
     href: options/using-search-criteria.md
   - name: Viewing number allocation
     href: options/viewing-number-allocation.md
-- name: Users
-  href: users/add-other-users.md
-  items:
-  - name: Add other users
-    href: users/add-other-users.md
-  - name: Adding users web
-    href: users/adding-users-web.md
-  - name: Associates
-    href: users/associates.md
-  - name: Delete other users
-    href: users/delete-other-users.md
-  - name: Deleting users
-    href: users/deleting-users.md
-  - name: Edit logon rights for other users
-    href: users/edit-logon-rights-for-other-users.md
-  - name: Edit other users
-    href: users/edit-other-users.md
-  - name: Example grouping
-    href: users/example-grouping.md
-  - name: Import users web
-    href: users/import-users-web.md
-  - name: Logging users off
-    href: users/logging-users-off.md
-  - name: Move users
-    href: users/move-users.md
-  - name: Other users
-    href: users/other-users.md
-  - name: SuperOffice reports access rights
-    href: users/superoffice-reports-access-rights.md
-  - name: User groups
-    href: users/user-groups.md
-  - name: User licences
-    href: users/user-licences.md
-  - name: Users
-    href: users/index.md
-  - name: Users associates filter group
-    href: users/users-associates-filter-group.md
-  - name: Visibility
-    href: users/visibility.md
 - name: Lists
   href: lists/add-email-template.md
   items:
@@ -496,3 +451,7 @@ items:
   items:
   - name: Parameter examples
     href: orphans/parameter-examples.md
+  - name: Logging users off
+    href: orphans/logging-users-off.md
+  - name: Deleting companies in the Our companies tab (Win)
+    href: orphans/deleting-companies-in-our-companies-tab-win.md

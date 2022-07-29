@@ -4,7 +4,7 @@ title: Other users
 description: Other users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, user
 so.topic: help
 language: en
 so.envir: onsite
@@ -16,11 +16,8 @@ so.envir: onsite
 
 On the **Other users** tab in the **Users** screen, you can edit login rights for and add the following user types:
 
-* **Anonymous**: Anonymous users have rights based on the role for anonymous users (see [Edit rights for anonymous users][5]). It is not usually necessary to have more than one anonymous user set up.
-
-<!-- -->
-
-* **System**: System users can log in to the system via third-party applications and have all rights.
+* **Anonymous**: [!include[Access rights](includes/def-anon-user.md)]
+* **System**: [!include[Access rights](includes/def-system-user.md)]
 
 ## What would you like to do now?
 
@@ -34,6 +31,5 @@ On the **Other users** tab in the **Users** screen, you can edit login rights fo
 [2]: edit-other-users.md
 [3]: edit-logon-rights-for-other-users.md
 [4]: delete-other-users.md
-[5]: ../role/edit-rights-for-anonymous-users.md
 
 <!-- Referenced images -->

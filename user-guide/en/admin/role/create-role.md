@@ -59,7 +59,7 @@ The changes are saved automatically.
 
 <!-- Referenced links -->
 [1]: set-data-rights-for-role.md
-[2]: ../users/adding-users-web.md
+[2]: ../users/adding-users.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/pil-hoeyre.bmp

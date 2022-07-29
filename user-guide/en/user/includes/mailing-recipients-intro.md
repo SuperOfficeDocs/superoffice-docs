@@ -1,1 +1,1 @@
-In the fourth step, **Recipients**, you must select the recipients of the mailing. You can add recipients from a number of sources, as described below. In addition, you can set various mailing options here and also preview the mailing.
+In the fourth step, **Recipients**, you must select the recipients of the mailing. You can add recipients from a number of sources. In addition, you can set various mailing options here and also preview the mailing.
