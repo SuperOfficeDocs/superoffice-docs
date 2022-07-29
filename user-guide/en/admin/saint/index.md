@@ -4,16 +4,21 @@ title: Status monitor
 description: Status monitor
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, sale, SAINT
 so.topic: help
 language: en
 ---
 
 # Status monitors
 
-Status monitors require the use of **Sales Premium** plan or, if you are using an earlier version of SuperOffice installed on your premises, a separate license (**Sales Intelligence**). See [Licences][9].
+[!include[Requirement](../includes/note-saint-req.md)]
 
-Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. <!-- Fix reuse ID=a11 -->Click here to see some examples of statuses. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
+Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
+
+<details><summary>Click here to see some examples of statuses.</summary>
+
+[!include[Examples](../../includes/status-examples.md)]
+</details>
 
 ## Status images
 
@@ -21,7 +26,12 @@ Statuses can be shown as images on the cards of projects, contacts or companies 
 
 ## Default follow-up for a status
 
-When the user opens the status dialog in SuperOffice CRM, he or she is also invited to create a follow-up for the status in question. The follow-up type and text can be predefined. <!-- Fix reuse ID=a11 -->Click here for an example.
+When the user opens the status dialog in SuperOffice CRM, he or she is also invited to create a follow-up for the status in question. The follow-up type and text can be predefined.
+
+<details><summary>Click here for an example.</summary>
+
+[!include[Example](includes/example-status-description.md)]
+</details>
 
 ## Searches and selections
 
@@ -59,6 +69,5 @@ To create a status, you need to perform these steps:
 [6]: restore-deleted-status-web.md
 [7]: edit-description-for-status.md
 [8]: manage-status-monitors.md
-[9]: ../licenses/index.md
 
 <!-- Referenced images -->

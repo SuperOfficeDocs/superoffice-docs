@@ -12,6 +12,9 @@ items:
   href: role/toc.yml
 - name: Privacy
   href: privacy/toc.yml
+- name: Status monitor (SAINT)
+  href: saint/toc.yml
+# Unedited files and entries below this point, sorted alphabetically
 - name: ai
   href: ai/index.md
   items:
@@ -73,30 +76,20 @@ items:
     href: options/available-time-zones-web.md
   - name: Changing labels web
     href: options/changing-labels-web.md
-  - name: Create new status web
-    href: options/create-new-status-web.md
   - name: Default values for new document templates web
     href: options/default-values-for-new-document-templates-web.md
   - name: Deleting stopwords
     href: options/deleting-stopwords.md
-  - name: Edit description for status
-    href: options/edit-description-for-status.md
   - name: Enabling freetext search
     href: options/enabling-freetext-search.md
   - name: Example follow up description
     href: options/example-follow-up-description.md
-  - name: Example status description
-    href: options/example-status-description.md
-  - name: Example status monitors
-    href: options/example-status-monitors.md
   - name: Freetext search
     href: options/freetext-search.md
   - name: Freetext search and Travel
     href: options/freetext-search-and-travel.md
   - name: Labels
     href: options/labels.md
-  - name: Manage status monitors
-    href: options/manage-status-monitors.md
   - name: Number allocation
     href: options/number-allocation.md
   - name: Options
@@ -107,24 +100,12 @@ items:
     href: options/reports.md
   - name: Resetting labels
     href: options/resetting-labels.md
-  - name: Restore deleted status web
-    href: options/restore-deleted-status-web.md
   - name: Results of number allocation
     href: options/results-of-number-allocation.md
-  - name: Select default follow up type for status
-    href: options/select-default-follow-up-type-for-status.md
-  - name: Select image for status
-    href: options/select-image-for-status.md
-  - name: Select period length
-    href: options/select-period-length.md
-  - name: Select status criteria
-    href: options/select-status-criteria.md
   - name: Specifying number allocation
     href: options/specifying-number-allocation.md
   - name: Specifying search criteria
     href: options/specifying-search-criteria.md
-  - name: Status monitor
-    href: options/status-monitor.md
   - name: Stopwords
     href: options/stopwords.md
   - name: Suggesting stopwords

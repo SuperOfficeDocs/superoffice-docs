@@ -82,7 +82,7 @@ Here you can add translated versions of the document template. [!include[To do t
 [1]: ../quote-templates.pdf
 [2]: ../../user/diary/template-variables.md
 [3]: replace-existing-template.md
-[4]: ../options/status-monitor.md
+[4]: ../saint/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/pil-ned.bmp

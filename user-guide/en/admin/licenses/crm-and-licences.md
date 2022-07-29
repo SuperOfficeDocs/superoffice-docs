@@ -57,6 +57,6 @@ Finally, there are user licences for SuperOffice CRM for Windows, which are purc
 
 <!-- Referenced links -->
 [1]: editing-licence-information-web.md
-[2]: ../options/status-monitor.md
+[2]: ../saint/index.md
 
 <!-- Referenced images -->

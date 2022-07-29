@@ -91,9 +91,12 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
         * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
     * <!-- Fix reuse ID=a10 -->
-        Counters can be, for example, the number of sales in a period or the date of the last completed sale. <!-- Fix reuse ID=a2 -->.
+        Counters can be, for example, the number of sales in a period or the date of the last completed sale.
 
-        [!include[Examples](../includes/status-examples.md)]
+        <details><summary>Click here to see some examples of statuses.</summary>
+
+        [!include[Examples](../../includes/status-examples.md)]
+        </details>
 
         Counter fields can be found under **Counters (SAINT)** in the list of criteria.
 

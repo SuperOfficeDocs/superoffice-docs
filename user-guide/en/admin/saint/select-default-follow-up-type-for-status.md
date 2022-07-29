@@ -4,7 +4,7 @@ title: Select default follow-up type for status
 description: Select default follow-up type for status
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, sale, SAINT
 so.topic: help
 language: en
 ---
@@ -17,12 +17,15 @@ You can specify a default follow-up type and descriptive text to be displayed in
 
 [!include[To do this](../../includes/to-do-this.md)]
 
-1. Open the **SAINT** screen.
-2. Select the **Company**, **Project** or **Contact** tab.
+<!-- markdownlint-disable-file MD029 -->
+[!include[Open SAINT](includes/open-saint-select-tab.md)]
 3. Select the required status in the status list on the left of the screen.
 4. Click the **Create follow-up** tab.
 5. Click the arrow button (![icon][img1] ) to the right of the **Type** field, and select a follow-up.
-6. Enter the required description in the text field underneath. <!-- Fix reuse ID=a11 -->Click here for an example.
+6. Enter the required description in the text field underneath.
+    <details><summary>Click here for an example</summary>
+    [!include[Example](includes/example-status-description.md)]
+    </details>
 
 ## What would you like to do now?
 

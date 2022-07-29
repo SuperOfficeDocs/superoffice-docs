@@ -4,7 +4,7 @@ title: Select period length
 description: Select period length
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, sale, SAINT
 so.topic: help
 language: en
 ---
@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-You can specify the period (duration in days) for the following
+You can specify the period (duration in days) for the following counters:
 
 * Number of completed/non-completed activities in period
 * Number of completed/non-completed sales in period
@@ -28,20 +28,18 @@ For more about counters, see **Counter fields** under [Use search criteria][1].
 [!include[To do this](../../includes/to-do-this.md)]
 
 1. Open the **SAINT** screen.
+
 2. Select the **Counters** tab.
+
 3. Under **Counter settings on...** you specify the periods for companies, contacts and projects. The **From** date will be displayed next to each period.
 
-The changes are automatically saved.
+    The changes are automatically saved.
 
 > [!NOTE]
 > If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore regenerate the counters frequently (preferably each night), so that the counters are as up-to-date as possible. See [Manage status monitors][2].
 
-## What would you like to do now?
-
-* [Manage status monitors][2]
-
 <!-- Referenced links -->
-[1]: using-search-criteria.md
+[1]: ../options/using-search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

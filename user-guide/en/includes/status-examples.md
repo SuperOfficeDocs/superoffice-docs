@@ -1,4 +1,5 @@
-**Companies/contacts:**
+<!-- markdownlint-disable-file MD041 -->
+## Companies/contacts
 
 | Status name | Criteria | Explanation | Task |
 |---|---|---|---|
@@ -8,7 +9,7 @@
 | Sleeping customer | **Number of activities** with direction **Incoming** in period is low or zero.
 **Number of activities** with direction **Outgoing** in period is high. | You are trying to get into contact with the customer, but are getting little or no response. | Arrange a meeting with the customer to find out why they do not want to communicate. |
 
-**Projects:**
+## Projects
 
 | Status name | Criteria | Explanation | Task |
 | Neglected project | **Project status** is set to ongoing.

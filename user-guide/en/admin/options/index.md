@@ -32,6 +32,6 @@ The **Options** screen is divided into the following tabs:
 [4]: labels.md
 [5]: reports.md
 [6]: custlangs/index.md
-[7]: status-monitor.md
+[7]: ../saint/index.md
 
 <!-- Referenced images -->

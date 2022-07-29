@@ -4,7 +4,7 @@ title: Restore deleted status web
 description: Restore deleted status web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, sale, SAINT
 so.topic: help
 language: en
 ---
@@ -15,8 +15,8 @@ language: en
 
 To restore a deleted status:
 
-1. Open the **SAINT** screen.
-2. Select the **Company**, **Project** or **Contact** tab.
+<!-- markdownlint-disable-file MD029 -->
+[!include[Open SAINT](includes/open-saint-select-tab.md)]
 3. Check **Show deleted** below the status list. Deleted statuses are clearly marked.
 4. Double-click the status you want to restore. The **Status monitor** dialog opens.
 5. Click **Restore** and then **Save**. The status is restored and appears in black in the list.

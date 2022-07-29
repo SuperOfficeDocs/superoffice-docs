@@ -4,7 +4,7 @@ title: Select status criteria
 description: Select status criteria
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, sale, SAINT
 so.topic: help
 language: en
 ---
@@ -15,13 +15,15 @@ language: en
 
 A status is only active for companies, contacts or projects that fulfil all the criteria you have specified for the status. You need to specify one or more criteria for each status you create.
 
-<!-- Fix reuse ID=a11 -->Click here to see some examples of criteria
+<details><summary>Click here to see some examples of criteria,</summary>
+
+[!include[Examples](../../includes/status-examples.md)]
+</details>
 
 [!include[To do this](../../includes/to-do-this.md)]
 
-1. Open the **SAINT** screen.
-
-2. Select the **Company**, **Project** or **Contact** tab.
+<!-- markdownlint-disable-file MD029 -->
+[!include[Open SAINT](includes/open-saint-select-tab.md)]
 
 3. Select the required status in the status list on the left of the screen.
 
@@ -43,7 +45,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
 * [Manage status monitors][2]
 
 <!-- Referenced links -->
-[1]: using-search-criteria.md
+[1]:../options/ using-search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

@@ -43,7 +43,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [6]: ../users/index.md
 [7]: ../role/index.md
 [8]: ../privacy/index.md
-[9]: ../options/status-monitor.md
+[9]: ../saint/index.md
 [10]: ../ai/index.md
 [11]: ../lists/lists-web.md
 [12]: ../quote-sync/quote-sync.md
