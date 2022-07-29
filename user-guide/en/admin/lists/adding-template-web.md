@@ -19,7 +19,7 @@ If you have created new templates or have changed a standard template and saved 
 
 Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list. For more details, see below.
 
-To complete the fields in the **Edit list item** dialog when the items are document templates:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the items are document templates:
 
 1. Enter the required name of the item in the **Name** field.
 2. If you wish, you can choose where to store the document template, in the **Store template in** list.

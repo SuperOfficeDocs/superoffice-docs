@@ -10,6 +10,8 @@ items:
   href: users/toc.yml
 - name: Role
   href: role/toc.yml
+- name: Privacy
+  href: privacy/toc.yml
 - name: ai
   href: ai/index.md
   items:
@@ -210,14 +212,6 @@ items:
     href: lists/items.md
   - name: Lists web
     href: lists/lists-web.md
-  - name: Privacy Legal base
-    href: lists/privacy-legal-base.md
-  - name: Privacy Legal base add
-    href: lists/privacy-legal-base-add.md
-  - name: Privacy Source
-    href: lists/privacy-source.md
-  - name: Privacy Source add
-    href: lists/privacy-source-add.md
   - name: Project   Status
     href: lists/project-status.md
   - name: Project   Type
@@ -294,13 +288,6 @@ items:
     href: import-web/import-settings-web.md
   - name: Import web
     href: import-web/index.md
-- name: Privacy
-  href: privacy/add-consent-purpose.md
-  items:
-  - name: Add consent purpose
-    href: privacy/add-consent-purpose.md
-  - name: Privacy
-    href: privacy/index.md
 - name: Quote sync
   href: quote-sync/erp-connection-add.md
   items:

@@ -15,7 +15,7 @@ language: en
 
 When you add an item to the **Sale - Amount class** list, the **Edit List Item** dialog is not the same as described under [Add items][1].
 
-To complete the fields in the **Edit list item** dialog when the list items are amount classes:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are amount classes:
 
 1. Enter the required name of the item in the **Name** field.
 

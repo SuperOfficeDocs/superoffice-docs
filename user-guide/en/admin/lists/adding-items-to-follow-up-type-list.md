@@ -13,7 +13,7 @@ language: en
 
 When you add an item to the **Follow-up - Type** list in Settings and maintenance, the **Edit List item** dialog is not the same as described under [Add items][1].
 
-To complete the fields in the **Edit list item** dialog when the items are follow-up types:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the items are follow-up types:
 
 1. Enter the required name of the item in the **Name** field.
 

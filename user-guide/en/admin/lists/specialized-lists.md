@@ -41,8 +41,8 @@ It is generally very easy to add, edit and delete lists and items. Some lists, h
 [7]: resource.md
 [8]: application.md
 [9]: webpanel.md
-[10]: privacy-legal-base.md
-[11]: privacy-source.md
+[10]: ../privacy/privacy-legal-base.md
+[11]: ../privacy/privacy-source.md
 [12]: project-status.md
 [13]: project-type.md
 [14]: sale-amount-class.md

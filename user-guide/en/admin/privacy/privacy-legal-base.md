@@ -4,7 +4,7 @@ title: Privacy Legal base
 description: Privacy Legal base
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, privacy, consent
 so.topic: help
 language: en
 ---

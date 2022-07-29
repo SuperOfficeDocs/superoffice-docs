@@ -13,7 +13,7 @@ language: en
 
 When you add an item to the **GUI - Application** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
 
-To complete the fields in the **Edit list item** dialog when the items are applications or similar:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the items are applications or similar:
 
 > [!NOTE]
 > Files or applications that have to be run locally (e.g. .exe files) are not accessible in SuperOffice CRM for Web.

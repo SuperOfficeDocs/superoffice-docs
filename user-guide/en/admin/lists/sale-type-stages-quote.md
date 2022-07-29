@@ -16,7 +16,7 @@ When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit li
 > [!NOTE]
 > A quote belongs to a sale, and all sales have a sale type. In each sale type, you can define many of the properties of a quote, such as attachments, settings for approval, use of alternatives and templates.
 
-To complete the fields in the **Edit list item** dialog when the list items are sale types:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are sale types:
 
 1. Enter the required name of the item in the **Name** field.
 

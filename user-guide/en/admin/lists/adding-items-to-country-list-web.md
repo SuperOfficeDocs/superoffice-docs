@@ -13,7 +13,7 @@ language: en
 
 When you add an item to the **General - Country** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
 
-To complete the fields in the **Edit list item** dialog when the list items are countries:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are countries:
 
 1. Enter the required name of the item in the **Name** field. This will be the name of the country.
 

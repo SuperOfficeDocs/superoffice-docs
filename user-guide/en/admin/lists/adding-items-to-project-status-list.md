@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Project - Status list
 
-To complete the fields in the **Edit list item** dialog when you are adding an item to the **Project - Status** list:
+[!include[Edit list item](../../includes/edit-list-item.md)] when you are adding an item to the **Project - Status** list:
 
 1. Enter the name of the item in the **Name** field. This will be displayed in the option list for the **Status** field in the **Project** screen in SuperOffice CRM.
 

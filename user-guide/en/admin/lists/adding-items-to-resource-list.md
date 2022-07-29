@@ -13,7 +13,7 @@ language: en
 
 When you add an item to the **General - Resource** list, the **Edit List Item** dialog is not the same as described under [Add items].
 
-To complete the fields in the **Edit list item** dialog when the list items are resources:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are resources:
 
 1. Enter the required name of the item in the **Name** field.
 

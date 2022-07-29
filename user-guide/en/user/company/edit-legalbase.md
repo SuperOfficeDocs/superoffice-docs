@@ -14,7 +14,9 @@ language: en
 > [!NOTE]
 > This feature requires functional rights. If you do not have the proper functional rights, you can only set **E-marketing** to on or off.
 
-You must have the permission (consent) of a person to store and process their data (in order to sell to and/or provide services to a person). In addition, you need their permission to be able to send them e-marketing material. This topic explains how you set the legal basis and source for the purposes called **Sales and service** and **E-marketing**. Additional purposes might also be available in your system.
+[!include[Need concent](../../includes/why-consent.md)]
+
+This topic explains how you set the legal basis and source for the purposes called **Sales and service** and **E-marketing**. Additional purposes might also be available in your system.
 
 > [!TIP]
 > To edit these settings for multiple contacts, use [Bulk update][2].
@@ -30,7 +32,7 @@ You must have the permission (consent) of a person to store and process their da
 * **Legal basis**: The legal basis for storing and processing a person's data.
 * **Source**: How and where you obtained the person's consent.
 
-To edit the privacy settings for a contact, do as follows:
+## How to edit the privacy settings for a contact
 
 1. Go to the contact in the **Contact** screen.
     At the bottom of the contact card, you can see if a legal basis has been set for the purpose **Sales and service** or not.
