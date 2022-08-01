@@ -49,6 +49,6 @@ The fields in the **Import** screen and their use are described under [Import fi
 [6]: import-descriptions.md
 [7]: updating-database.md
 [8]: export.md
-[9]: ../import-web/index.md
+[9]: ../import/index.md
 
 <!-- Referenced images -->

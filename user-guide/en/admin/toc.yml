@@ -23,6 +23,8 @@ items:
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
+- name: Import web
+  href: import/toc.yml
 # Unedited files and entries below this point, sorted alphabetically
 - name: Preferences
   href: preferences/active-settings.md
@@ -238,27 +240,6 @@ items:
     href: fields/moving-fields.md
   - name: Page 1 fields web
     href: fields/page-1-fields.md
-- name: Import web
-  href: import-web/configure-import-settings-(products).md
-  items:
-  - name: Configure import settings (products)
-    href: import-web/configure-import-settings-(products).md
-  - name: Import from ERP
-    href: import-web/import-from-erp.md
-  - name: Import from Excel
-    href: import-web/import-from-excel.md
-  - name: Import from Gmail
-    href: import-web/import-from-gmail.md
-  - name: Import from Outlook
-    href: import-web/import-from-outlook.md
-  - name: Import preview icons
-    href: import-web/import-preview-icons.md
-  - name: Import products from Excel
-    href: import-web/import-products-from-excel.md
-  - name: Import settings web
-    href: import-web/import-settings-web.md
-  - name: Import web
-    href: import-web/index.md
 - name: Quote sync
   href: quote-sync/erp-connection-add.md
   items:

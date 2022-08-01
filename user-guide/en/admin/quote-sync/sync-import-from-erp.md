@@ -22,7 +22,7 @@ You can import companies, contacts and products from an ERP connection.
 5. See [Import from ERP][1] for more information.
 
 <!-- Referenced links -->
-[1]: ../import-web/import-from-erp.md
+[1]: ../import/import-from-erp.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/import-erp-small.bmp

@@ -51,7 +51,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [14]: ../screen-designer/index.md
 [15]: ../preferences/index.md
 [16]: ../options/index.md
-[17]: ../import-web/index.md
+[17]: ../import/index.md
 [18]: ../fields/index.md
 [19]: ../requests/requests.md
 [21]: https://online.superoffice.com/appstore

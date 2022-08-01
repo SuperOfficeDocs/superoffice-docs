@@ -1,17 +1,19 @@
 ---
-uid: help-en-import-web
+uid: help-en-import
 title: Import web
 description: Import web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, import
 so.topic: help
 language: en
 ---
 
 # Import
 
-![icon][img1] We recommend that you contact SuperOffice Support in order to back up the SuperOffice database before you import large amounts of data. See [Import][7] (Windows Client settings).
+Using the Windows client? See [Windows Client settings][7].
+
+[!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
 In the **Import** screen, you can import companies, contacts and products into SuperOffice. You can import both new companies/contacts and existing companies/contacts with updated data.
 
@@ -52,8 +54,7 @@ If you are missing a lot of information about customers and contacts in SuperOff
 [3]: import-from-gmail.md
 [4]: import-from-erp.md
 [5]: import-products-from-excel.md
-[6]: import-settings-web.md
+[6]: configure-import-settings.md
 [7]: ../win-client/import.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/utropstegn.bmp

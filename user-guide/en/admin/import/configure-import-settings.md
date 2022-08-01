@@ -4,7 +4,7 @@ title: Import settings web
 description: Import settings web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, import
 so.topic: help
 language: en
 ---
@@ -13,20 +13,16 @@ language: en
 
 [!include[Back up database before import](../includes/caution-backup-before-import.md)]
 
-In the **Import settings** dialog, you can customise the import to include precisely the companies and contacts you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
+In the **Import settings** dialog, you can customise the import to include precisely the what you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
 
 This applies to the following, among other things:
 
-* Duplicates: Select the preferred method for managing companies and contacts which occur in both the import file and the database.
+* Duplicates: Select the preferred method for managing information that occur in both the import file and the database.
 * Contacts that are not linked to companies.
-* Legal basis and consent source for contacts
-* Lists: Select the preferred method for managing list elements in the import, e.g. new categories, business types and phone numbers.
+* Legal basis and consent source for contacts.
+* Lists: Select the preferred method for managing list elements in the import, e.g. new categories, business types and phone numbers, new product categories, product families and product types.
 
-## Manage duplicates (company/contact)
-
-A duplicate occurs if you have the same record in the import file and in the database. In the import settings, you must always specify rules for managing duplicates.
-
-<!-- Fix reuse ID=a2 -->.
+## Typical scenarios
 
 * I want to import information that does not exist in the SuperOffice data, but I do not want to overwrite existing information.
     Select the **Merge - update empty fields** option. Only empty fields in SuperOffice will then be updated with imported information.
@@ -37,8 +33,16 @@ A duplicate occurs if you have the same record in the import file and in the dat
 * I only want to import new companies and contacts into SuperOffice.
     Select the **Skip record - do not import** option. Companies and contacts that already exist in SuperOffice will not be updated.
 
+* I only want to import new products into the selected price list.
+    Select the **Skip record - do not import** option. Products that already exist in the selected price list will not be updated.
+
 * I want to import all companies and contacts into SuperOffice and manage any duplicates myself.
     Select the **Always add** option.
+
+* I want to import all products into selected price list and manage any duplicates myself.
+    Select the **Add always** option.
+
+<details><summary>Click to view example.</summary>
 
 ## Existing data
 
@@ -52,15 +56,22 @@ A duplicate occurs if you have the same record in the import file and in the dat
 | **Replace** | ACME Inc. | Main street 456 | 11223344 | - |
 | **Skip record** | ACME Inc. | Broadway 123 | - | ACME1 |
 
-Under **Company** and **Contact** in the **Import settings** dialog, specify how duplicate companies and contacts are to be managed.
+</details>
+
+## Manage duplicates (company/contact)
+
+A duplicate occurs if you have the same record in the import file and in the database. In the import settings, you must always specify rules for managing duplicates.
+
+Under **Company**, and **Contact**, and **Product** in the **Import settings** dialog, specify how duplicates are to be managed.
 
 [!include[To do this](../../includes/to-do-this.md)]
 
-Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
-<!-- Fix reuse ID=a1 -->
+1. Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
 
-> [!NOTE]
-> To avoid the risk of overwriting data, you should choose the option that is unique for each company and contact.
+    > [!NOTE]
+    > To avoid the risk of overwriting data, you should choose the option that is unique for each company, contact, and product.
+
+    <details><summary>Click to find out more about the various options</summary>
 
 Company
 
@@ -80,12 +91,31 @@ Contact
 * **None - do not import contact**: Select this option if you do not want to import contacts.
 * **ID**: The contact ID must be identical.
 
-Click the **Action** list box and choose how duplicate hits are to be managed:
+Product
 
-* **Add always**: New companies and contacts will always be added, even if there are duplicates.
-* **Merge - update empty fields**: If existing companies and contacts in SuperOffice have empty fields, these empty fields will be completed with data from the import source. Existing data in SuperOffice fields will not be overwritten.
-* **Replace - overwrite existing**: Import data will overwrite existing data in SuperOffice fields.
-* **Skip - do not import**: If companies and contacts already exist in SuperOffice, they will not be imported.
+* **Name**: The product name must be identical.
+* **Code**: The product code must be identical.
+* **Name + Code**: Both the product name and the product code must be identical.
+
+> [!NOTE]
+> The data you have selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
+
+</details>
+
+1. Click the **Action** list box and choose how duplicate hits are to be managed:
+
+    * **Add always**:
+      * New companies, contacts, and products will always be added, even if there are duplicates.
+      * New products will always be added, even if there are duplicates.
+    * **Merge - update empty fields**:
+      * If existing companies and contacts in SuperOffice have empty fields, these empty fields will be completed with data from the import source. Existing data in SuperOffice fields will not be overwritten.
+      * If existing products in the selected price list have empty fields, these empty fields will be completed with data from the import source. Existing data in the selected price list will not be overwritten.
+    * **Replace - overwrite existing**:
+      * Import data will overwrite existing data in SuperOffice fields.
+      * Import data will overwrite existing data in the selected price list.
+    * **Skip - do not import**:
+      * If companies and contacts already exist in SuperOffice, they will not be imported.
+      * If products already exist in the selected price list, they will not be imported.
 
 ## Manage contacts that do not belong to a company
 
@@ -114,7 +144,7 @@ The import source may, for example, contain businesses that are not registered i
 
 * **Ignore - set to blank**: No new values will be imported into SuperOffice.
 
-## Manage new phone numbers, links and e-mail addresses
+## Manage new phone numbers, links and email addresses
 
 The import source may, for example, contain phone numbers, links and e-mail addresses that are not registered in SuperOffice. As is it possible to register several phone numbers, links and e-mail addresses for a single company/contact, you must specify how new values are to be managed. In the **Phone number** and **URLs + email** list boxes under **Lists**, you have the following options:
 
@@ -122,6 +152,13 @@ The import source may, for example, contain phone numbers, links and e-mail addr
 * **Replace - overwrite existing**: Existing values in SuperOffice will be overwritten by imported values.
     For example: This may be relevant if you know that the import contains correct e-mail addresses for your contacts. If the e-mail addresses that are registered in SuperOffice are outdated, you can overwrite them to clean up the system.
 * **Ignore - keep existing**: No new values will be imported into SuperOffice.
+
+## Manage product categories, product families and product types not in SuperOffice
+
+The import source may, for example, contain product categories that are not registered in SuperOffice. You must then choose how new product categories, product families and product types are to be managed. In the **New values for...** list boxes, you have the following options:
+
+* **Add new item to the list**: New values will be added to SuperOffice.
+* **Ignore - set to blank**: No new values will be added to SuperOffice.
 
 <!-- Referenced links -->
 [1]: ../privacy/index.md
