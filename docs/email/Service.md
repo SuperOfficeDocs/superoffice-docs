@@ -125,7 +125,7 @@ Use the links below to learn how to check and change UPNs in various environment
 * [Microsoft Exchange Server][6]
 * [Office 365][7]
 
-## How to troubleshoot mail when using cURL (email in / out)
+## How to troubleshoot mail when using cURL
 
 Error information will appear in each of incoming mail's receiving log and outgoing mail's sending log. This information will in most cases tell what's wrong.
 

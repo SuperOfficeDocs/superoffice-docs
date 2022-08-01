@@ -179,8 +179,8 @@ additionalContent:
       # Card
       - title: More
         links:
-        - text: cURL mail
-          url: ../email/curl.md
+        - text: Service and Marketing mail
+          url: ../email/service.md
         - text: Service log files
           url: log-files.md
   # footer (optional)
