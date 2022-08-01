@@ -29,6 +29,8 @@ items:
   href: customer-center.md
 - name: System design
   href: system-design.md
+- name: App Store
+  href: app-store.md
 # Unedited files and entries below this point, sorted alphabetically
 - name: Preferences
   href: preferences/active-settings.md
