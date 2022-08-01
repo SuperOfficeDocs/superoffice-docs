@@ -23,13 +23,13 @@ In this screen you can find various functions related to system design in SuperO
 * [Debug log][8]
 
 <!-- Referenced links -->
-[1]: ../../user/service/admin/listprofiles.md
-[2]: ../../user/service/blogic/listextratables.md
-[3]: ../../user/service/blogic/listextramenus.md
-[4]: ../../user/service/blogic/listswebpanels.md
-[5]: ../../user/service/blogic/listscreendefinitions.viewscreendefinition.md
-[6]: ../../user/service/blogic/listscreenchoosers.md
-[7]: ../../user/service/blogic/listpackages.md
-[8]: ../../user/service/blogic/listdebuglog.md
+[1]: ../user/service/admin/listprofiles.md
+[2]: ../user/service/blogic/listextratables.md
+[3]: ../user/service/blogic/listextramenus.md
+[4]: ../user/service/blogic/listswebpanels.md
+[5]: ../user/service/blogic/listscreendefinitions.viewscreendefinition.md
+[6]: ../user/service/blogic/listscreenchoosers.md
+[7]: ../user/service/blogic/listpackages.md
+[8]: ../user/service/blogic/listdebuglog.md
 
 <!-- Referenced images -->

@@ -27,6 +27,8 @@ items:
   href: import/toc.yml
 - name: Customer centre
   href: customer-center.md
+- name: System design
+  href: system-design.md
 # Unedited files and entries below this point, sorted alphabetically
 - name: Preferences
   href: preferences/active-settings.md
@@ -344,8 +346,6 @@ items:
     href: screen-designer/add-new-layout.md
   - name: ScreenDesigner Edit layout
     href: screen-designer/edit-layout.md
-- name: Systemdesign
-  href: systemdesign/index.md
 - name: win-client
   href: win-client/toc.yml
   topicHref: win-client/index.md
