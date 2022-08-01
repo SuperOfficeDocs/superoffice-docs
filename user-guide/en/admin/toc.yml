@@ -25,6 +25,8 @@ items:
     href: project/toc.yml
 - name: Import web
   href: import/toc.yml
+- name: Customer centre
+  href: customer-center.md
 # Unedited files and entries below this point, sorted alphabetically
 - name: Preferences
   href: preferences/active-settings.md
@@ -218,13 +220,6 @@ items:
     href: chap09/maximum-number-of-fields.md
   - name: User groups
     href: chap09/user-groups.md
-- name: Customer centre
-  href: custcent/index.md
-  items:
-  - name: listCustCenter config
-    href: custcent/config.md
-  - name: listCustCenter edit
-    href: custcent/edit.md
 - name: Fields web
   href: fields/adding-fields.md
   items:
