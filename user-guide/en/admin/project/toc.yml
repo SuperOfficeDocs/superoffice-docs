@@ -1,0 +1,9 @@
+items:
+  - name: Project guide
+    href: index.md
+  - name: Create new project guide
+    href: create-new-project-guide.md
+  - name: Edit project-guide
+    href: edit-project-guide.md
+  - name: Deactivate project guide
+    href: deactivate-project-guide.md

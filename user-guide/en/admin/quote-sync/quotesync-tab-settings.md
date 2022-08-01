@@ -24,7 +24,7 @@ In the **Settings** tab in the **Quote/Sync** screen, you can adjust the setting
 Shows the fields used in each quote line in the quote. Click the field name links or the **Configure product** button to edit these fields. See [Configure products][2].
 
 <!-- Referenced links -->
-[1]: ../lists/sales-type-for-stages.md
+[1]: ../sale/sales-type-for-stages.md
 [2]: settings-configure-product.md
 
 <!-- Referenced images -->

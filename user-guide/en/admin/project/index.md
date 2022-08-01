@@ -23,7 +23,7 @@ In the **Project guide** tab in the **Workflow** screen in Settings and maintena
 
 <!-- Referenced links -->
 [1]: create-new-project-guide.md
-[2]: edit-projectguide.md
+[2]: edit-project-guide.md
 [3]: deactivate-project-guide.md
 
 <!-- Referenced images -->

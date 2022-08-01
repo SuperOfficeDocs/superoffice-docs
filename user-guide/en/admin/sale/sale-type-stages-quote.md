@@ -86,10 +86,10 @@ Here you can choose whether the quote must be approved if the total discount is 
 
 <!-- Referenced links -->
 [1]: ../quote-templates.pdf
-[2]: adding-items.md
+[2]: ../lists/adding-items.md
 [3]: sale-stage.md
 [4]: sales-role-stakeholders.md
-[5]: ../sale/index.md
+[5]: index.md
 [6]: ../options/using-search-criteria.md
 
 <!-- Referenced images -->

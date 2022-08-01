@@ -1,5 +1,5 @@
 ---
-uid: help-en-edit-projectguide
+uid: help-en-edit-project-guide
 title: Edit projectguide
 description: Edit projectguide
 author: SuperOffice RnD

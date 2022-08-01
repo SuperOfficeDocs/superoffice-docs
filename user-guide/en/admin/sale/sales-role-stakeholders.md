@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Sale - Stakeholder Role
+# Sale - Stakeholder role
 
 A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen in SuperOffice CRM. Stakeholders can include individuals as well as organisations.
 
@@ -23,7 +23,7 @@ You add, edit and delete items in the **Sale - Stakeholder Role** list as descri
 
 <!-- Referenced links -->
 [1]: sale-type-stages-quote.md
-[2]: items.md
-[3]: ../preferences/Adding-preference-settings.md
+[2]: ../lists/items.md
+[3]: ../preferences/adding-preference-settings.md
 
 <!-- Referenced images -->

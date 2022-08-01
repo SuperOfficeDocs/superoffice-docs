@@ -17,7 +17,9 @@ If your company has divisions in several countries, it may be useful to have the
 
 1. Open Windows Explorer and go to the **\\SuperOffice\\SO\-Arc\\Template** folder.
 
-2. Create a folder for each of the languages you want document templates for (e.g. **\\SuperOffice\\SO\-Arc\\Template\\GE**). <!-- Fix reuse ID=a1 -->.
+2. Create a folder for each of the languages you want document templates for (e.g. **\\SuperOffice\\SO\-Arc\\Template\\GE**).
+
+    <details><summary>Click to see the folder names for the different languages.</summary>
 
     | Folder name | Language |
     |---|---|
@@ -36,6 +38,7 @@ If your company has divisions in several countries, it may be useful to have the
     | FR | French |
     | PL | Polish |
     | IT | Italian |
+    </details>
 
 3. Place document templates for the different languages in the appropriate language folders. Each document template must have exactly the same file name and file type as the main template. The main template is the document template in the main language you use in SuperOffice. You will find it in the **Document template** list in the **Lists** screen (double-click a document template in the list to see the file name/type). See Add items to the Document - Template list
 

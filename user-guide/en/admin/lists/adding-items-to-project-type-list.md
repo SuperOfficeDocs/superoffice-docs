@@ -35,6 +35,6 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 <!-- Referenced links -->
 [1]: adding-items.md
 [2]: project-status.md
-[3]: ../sale/project.md
+[3]: ../project/index.md
 
 <!-- Referenced images -->

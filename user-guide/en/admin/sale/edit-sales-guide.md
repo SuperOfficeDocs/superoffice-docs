@@ -25,7 +25,7 @@ The changes are saved automatically.
 <!-- Referenced links -->
 [1]: create-new-sales-guide.md#add-a-follow-up-for-a-stage
 [2]: create-new-sales-guide.md#add-a-document-for-a-stage
-[3]: ../lists/adding-items-to-sale-stage-list.md
+[3]: adding-items-to-sale-stage-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp

@@ -69,7 +69,7 @@ The changes are saved automatically. The sales guide will now be displayed in Su
 
 ## Add a follow-up for a stage
 
-<!-- Fix reuse ID=a1 -->
+<details><summary>Click here for an example of a follow-up</summary>
 
 **Sale type**: Sale to new customer
 **Stage**: First meeting
@@ -85,8 +85,9 @@ Agenda for first meeting:
 \- Needs, wants, problems
 \- Company presentation
 \- Other
+</details>
 
-To add follow-ups to a stage:
+**To add follow-ups to a stage:**
 
 1. Select the required sale type and stage as described above.
 
@@ -105,21 +106,20 @@ To add follow-ups to a stage:
 
 7. In the **Start date** field, specify how many days there should be between the previous follow-up and this one.
 
-<!-- -->
+8. In the **Duration** field, specify how long the follow-up should last. The format is *0h00m*.
 
-1. In the **Duration** field, specify how long the follow-up should last. The format is *0h00m*.
-2. In the **Default text in follow-up** field, enter a description for the follow-up.
+9. In the **Default text in follow-up** field, enter a description for the follow-up.
 
-> [!TIP]
-> The user can change the above information as required.
+    > [!TIP]
+    > The user can change the above information as required.
 
-1. Click **Save** to save your changes in Settings and maintenance.
+10. Click **Save** to save your changes in Settings and maintenance.
 
-2. Repeat this procedure to add more follow-ups in this or other stages.
+11. Repeat this procedure to add more follow-ups in this or other stages.
 
 ## Add a document for a stage
 
-<!-- Fix reuse ID=a2 -->
+<details><summary>Click here for an example of a document</summary>
 
 **Sale type**: Sale to new customer
 **Stage**: First meeting
@@ -127,23 +127,32 @@ To add follow-ups to a stage:
 **Purpose of this sales step**: Send an e-mail with meeting confirmation and date/time to all participants for the first meeting.
 **Template**: E-mail
 **Default subject**: Meeting confirmation (first meeting)
+</details>
 
-To add documents to a stage:
+**To add documents to a stage:**
 
 1. Select the required sale type and stage as described above.
+
 2. Click **Add** under **Suggested documents in stage**. The **Suggested document** dialog opens.
+
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
+
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Sales guide** section tab in SuperOffice CRM.
+
 5. Select the required template in the **Template** field (see also [Document - Template][4]).
+
 6. Enter the subject to be used in the document in the **Default subject** field.
+
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for sales number, sales title or another field relating to the sale.
+
 8. Click **Save** to save your changes in Settings and maintenance.
+
 9. Repeat this procedure to add more documents in this or other stages.
 
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md#variables-for-sales
-[2]: ../lists/adding-items-to-sale-stage-list.md
-[3]: ../lists/sale-type-stages-quote.md
+[2]: adding-items-to-sale-stage-list.md
+[3]: sale-type-stages-quote.md
 [4]: ../lists/document-template.md
 
 <!-- Referenced images -->

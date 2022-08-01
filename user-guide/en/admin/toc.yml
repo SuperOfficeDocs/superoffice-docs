@@ -14,16 +14,16 @@ items:
   href: privacy/toc.yml
 - name: Status monitor (SAINT)
   href: saint/toc.yml
-# Unedited files and entries below this point, sorted alphabetically
 - name: ai
-  href: ai/index.md
+  href: ai/toc.yml
+- name: Workflow
+  href: workflow.md
   items:
-  - name: AI services
-    href: ai/index.md
-  - name: Categorization
-    href: ai/categorization.md
-  - name: Text analysis
-    href: ai/text-analysis.md
+  - name: Sale
+    href: sale/toc.yml
+  - name: Project
+    href: project/toc.yml
+# Unedited files and entries below this point, sorted alphabetically
 - name: Preferences
   href: preferences/active-settings.md
   items:
@@ -119,7 +119,7 @@ items:
 - name: Lists
   href: lists/add-email-template.md
   items:
-  - name: Add e mail template
+  - name: Add email template
     href: lists/add-email-template.md
   - name: Adding a template web
     href: lists/adding-template-web.md
@@ -133,22 +133,18 @@ items:
     href: lists/adding-items-to-country-list-web.md
   - name: Adding items to the Currency list
     href: lists/adding-items-to-currency-list.md
-  - name: Adding items to the Follow up   Type list
+  - name: Adding items to the Follow up Type list
     href: lists/adding-items-to-follow-up-type-list.md
-  - name: Adding items to the Project   Status list
+  - name: Adding items to the Project Status list
     href: lists/adding-items-to-project-status-list.md
-  - name: Adding items to the Project   Type list
+  - name: Adding items to the Project Type list
     href: lists/adding-items-to-project-type-list.md
   - name: Adding items to the Relation list
     href: lists/adding-items-to-relation-list.md
   - name: Adding items to the Resource list
     href: lists/adding-items-to-resource-list.md
-  - name: Adding items to the Sale   Amount class list
+  - name: Adding items to the Sale Amount class list
     href: lists/adding-items-to-sale-amount-class-list.md
-  - name: Adding items to the Sale   Sales type (for stages) list
-    href: lists/sale-type-stages-quote.md
-  - name: Adding items to the Sale   Stage list
-    href: lists/adding-items-to-sale-stage-list.md
   - name: Adding items to the Webpanel list
     href: lists/adding-items-to-webpanel-list.md
   - name: Adding user defined lists web
@@ -205,12 +201,6 @@ items:
     href: lists/resource.md
   - name: Sale   Amount class
     href: lists/sale-amount-class.md
-  - name: Sale   Sales role (Stakeholders)
-    href: lists/sales-role-stakeholders.md
-  - name: Sale   Sales type (for stages)
-    href: lists/sales-type-for-stages.md
-  - name: Sale   Stage
-    href: lists/sale-stage.md
   - name: Specialized lists
     href: lists/specialized-lists.md
   - name: User groups
@@ -367,27 +357,6 @@ items:
     href: requests/soapconf.md
   - name: Requests
     href: requests/requests.md
-- name: Sale
-  href: sale/index.md
-  items:
-  - name: Create new project guide
-    href: sale/create-new-project-guide.md
-  - name: Create new sales guide
-    href: sale/create-new-sales-guide.md
-  - name: Deactivate project guide
-    href: sale/deactivate-project-guide.md
-  - name: Deactivate sales guide
-    href: sale/deactivate-sales-guide.md
-  - name: Edit projectguide
-    href: sale/edit-projectguide.md
-  - name: Edit sales guide
-    href: sale/edit-sales-guide.md
-  - name: Project
-    href: sale/project.md
-  - name: Using document templates for multiple languages
-    href: sale/using-document-templates-for-multiple-languages.md
-  - name: Workflow
-    href: sale/workflow.md
 - name: Screen designer
   href: screen-designer/index.md
   items:
@@ -412,3 +381,5 @@ items:
     href: orphans/logging-users-off.md
   - name: Deleting companies in the Our companies tab (Win)
     href: orphans/deleting-companies-in-our-companies-tab-win.md
+  - name: Using document templates for multiple languages
+    href: orphans/using-document-templates-for-multiple-languages.md

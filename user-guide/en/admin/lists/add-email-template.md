@@ -88,7 +88,7 @@ Here you can add translated versions of the document template. [!include[To do t
 <!-- Referenced links -->
 [1]: ../../user/standardcrm/translate-fields.md
 [2]: ../../user/diary/template-variables.md
-[3]: sale-type-stages-quote.md
+[3]: ../sale/sale-type-stages-quote.md
 [4]: ../privacy/privacy-source-add.md
 [5]: ../saint/index.md
 
