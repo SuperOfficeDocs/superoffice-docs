@@ -31,6 +31,8 @@ items:
   href: options/toc.yml
 - name: Import web
   href: import/toc.yml
+- name: Fields web
+  href: fields/toc.yml
 - name: Customer centre
   href: customer-center.md
 - name: System design
@@ -131,28 +133,7 @@ items:
     href: lists/using-standard-templates.md
   - name: Webpanel
     href: lists/webpanel.md
-- name: Chap09
-  href: chap09/maximum-number-of-fields.md
-  items:
-  - name: Maximum number of fields
-    href: chap09/maximum-number-of-fields.md
-  - name: User groups
-    href: chap09/user-groups.md
-- name: Fields web
-  href: fields/adding-fields.md
-  items:
-  - name: Adding fields web
-    href: fields/adding-fields.md
-  - name: Editing fields web
-    href: fields/editing-fields.md
-  - name: Editing the TAB order of fields web
-    href: fields/editing-tab-order-of-fields.md
-  - name: Fields web
-    href: fields/index.md
-  - name: Moving fields web
-    href: fields/moving-fields.md
-  - name: Page 1 fields web
-    href: fields/page-1-fields.md
+
 - name: Requests
   href: requests/editreplytemplates.md
   items:

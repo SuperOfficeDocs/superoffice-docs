@@ -21,18 +21,21 @@ When you add new fields, they will be placed beneath each other by default. Each
 * Click and drag using the mouse. The field(s) will automatically be adjusted to fit the grid.
 * Click a field and use the arrow keys on the keyboard.
 * Click a field and use the arrow keys in the bottom right-hand corner ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
-* Double-click a field and specify position values **X** and **Y** in the **Fields** dialog. <!-- Fix reuse ID=a1 -->
-    1. Specify the following in the fields to the right of **Label**:
+* Double-click a field and specify position values **X** and **Y** in the **Fields** dialog.
 
-        **X**: horizontal position of the label. The higher the number, the further to the right.
+## How do I set position?
 
-        **Y**: vertical position of the label. The higher the number, the further down.
+1. Specify the following in the fields to the right of **Label**:
 
-    2. Specify the following in the fields to the right of **Data**:
+    **X**: horizontal position of the label. The higher the number, the further to the right.
 
-        **X**: horizontal position of the data field. The higher the number, the further to the right.
+    **Y**: vertical position of the label. The higher the number, the further down.
 
-        **Y**: vertical position of the data field. The higher the number, the further down.
+2. Specify the following in the fields to the right of **Data**:
+
+    **X**: horizontal position of the data field. The higher the number, the further to the right.
+
+    **Y**: vertical position of the data field. The higher the number, the further down.
 
 ## How do I select fields?
 

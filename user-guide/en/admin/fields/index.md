@@ -16,14 +16,19 @@ All companies and organisations have their own requirements with regard to the i
 > [!NOTE]
 > You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. See [Select page 1 fields][1].
 
-<!-- Fix reuse ID=a2 -->
+## Field types
+
+[!include[List of field types](includes/field-types.md)]
+
+## What benefit do I get from the information that I enter in these fields?
 
 * Using the **Find** search function, you can search for the information you register in these fields and make dynamic selections.
     **For example**: If you register the expiry date of the maintenance agreement that you have with customers, you can create a dynamic selection which shows the customers for which the agreement expires in less than one month.
+
 * You can reuse the information from these fields in documents and e-mails using template variables. Each field that you add is given its own unique ID, which can be used in documents to merge customer-specific information.
     **For example**: If you send e-mail to customers which states that the maintenance agreement will expire soon, the template variable for expiry date can be used to set the correct expiry date in the message that is being sent.
 
-<!-- Fix reuse ID=a1 -->
+## Where will the fields I create be displayed?
 
 * The **More** tab in the **Company** screen
 * The **More** tab on the contact card
@@ -34,13 +39,11 @@ All companies and organisations have their own requirements with regard to the i
 
 You can specify *page 1 fields*, i.e. fields that will be displayed on the "first page" in their respective screens or dialogs, in the following places:
 
-* The **Company** tab in the **Company** screen
-* The **Contact** tab on the contact card
-* The **Project** tab in the **Project** screen
-* The **Sale** tab in the **Sale** screen
-* The **Details** tab in the **Document** dialog
+[!include[List](includes/list-page-1-field-locations.md)]
 
-## For example: User-defined fields for companies
+## Examples
+
+### User-defined fields for companies
 
 Your company sells software and user support services. The user support department needs to know how many employees and PCs the various customers have. They also need to know what sort of maintenance agreement the customers have and when they expire.
 
@@ -57,7 +60,7 @@ You can then add these fields to the **Company** screen:
 > [!NOTE]
 > The fields you add will be displayed in the **More** tab in the **Company** screen. If you want to display them on the company card itself, [you specify them as *page 1 fields*][1].
 
-## For example: User-defined fields for sales
+### User-defined fields for sales
 
 When you create a sale, it may be practical to enter the products you have sold and how many.
 
@@ -71,7 +74,7 @@ You can then add these fields to the **Sale** screen:
 > [!TIP]
 > Here, you can also use a list field if you have created a list of the products that you sell.
 
-## For example: User-defined fields for projects
+### User-defined fields for projects
 
 You want the budget for a project to be easily visible to the project members.
 
