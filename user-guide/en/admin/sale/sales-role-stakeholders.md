@@ -24,6 +24,6 @@ You add, edit and delete items in the **Sale - Stakeholder Role** list as descri
 <!-- Referenced links -->
 [1]: sale-type-stages-quote.md
 [2]: ../lists/items.md
-[3]: ../preferences/adding-preference-settings.md
+[3]: ../preferences/preferences-tab/adding-preference-settings.md
 
 <!-- Referenced images -->

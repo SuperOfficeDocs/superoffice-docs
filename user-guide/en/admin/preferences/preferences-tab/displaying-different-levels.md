@@ -26,4 +26,3 @@ You can use these checkboxes to show one, two or all levels. For more informatio
 [1]: levels-for-preference-settings.md
 
 <!-- Referenced images -->
-

@@ -15,7 +15,7 @@ Users can edit the settings of individual preferences to customise them for thei
 
 To specify that a preference will be displayed in SuperOffice CRM:
 
-1. Click the **Preferences** button in the Navigator ( ![icon][img1] ).
+1. [!include[Open preferences](../includes/open-preferences.md)]
 2. Select the required preference group in the list box at the top.
 3. Select the required preference from the **Preferences** list.
 4. Check **Allow individual settings**. The preference will then be displayed in the **Preferences** dialog in SuperOffice CRM, and each individual user will be able to edit the settings for his or her own use.
@@ -26,4 +26,3 @@ To specify that a preference will be displayed in SuperOffice CRM:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-preferanser-liten.bmp

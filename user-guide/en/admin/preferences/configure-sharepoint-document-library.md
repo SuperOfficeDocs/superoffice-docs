@@ -12,7 +12,7 @@ language: en
 # Configure SharePoint document library
 
 > [!NOTE]
-> Before you can start this configuration, you need to set up your SharePoint site, libraries and permissions. All users must authenticate using MS 365.
+> Before you can start this configuration, you need to set up your SharePoint site, libraries and permissions. All users must authenticate using Microsoft 365.
 
 When you are configuring your new document library, Admin will show an intermediate state.
 
@@ -22,7 +22,7 @@ It will be possible to change some of the settings in the Wizard later
 
 To configure SharePoint document library, do the following:
 
-1. Click the **Preferences** button in the Navigator ( ![icon][img1] ).
+1. [!include[Open preferences](includes/open-preferences.md)]
 2. Select the **Document library** tab.
 3. Click **Change**. The page is updated with information about the connected SharePoint site. The change is not yet complete.
 4. Click **Complete the change** to confirm that you want to use SharePoint as the default document library. The change is now complete.
@@ -114,4 +114,3 @@ Click **Confirm** when you are done.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-preferanser-liten.bmp

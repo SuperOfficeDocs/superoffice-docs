@@ -36,7 +36,7 @@ Templates are displayed as items in the **Document - Template** list and you lin
 4. Click **Save** in the **Edit list item** dialog. The dialog is updated.
 5. Optional: Edit the template name, if required, and click **Edit** to edit the template file itself.
 6. Enter the required information in the **Details** and **Languages** tabs. For more information, see below.
-7. Click **Save** to save your changes in Settings and maintenance. The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
+7. [!include[Click Save](../includes/save-changes.md)] The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
 
 ## Details tab
 

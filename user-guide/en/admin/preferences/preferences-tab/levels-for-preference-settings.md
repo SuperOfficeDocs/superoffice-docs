@@ -33,7 +33,7 @@ You can specify different values for different levels so that, for example, you 
 * [Display different levels][2]
 
 <!-- Referenced links -->
-[1]: global-preferences.md
+[1]: ../global-preferences.md
 [2]: displaying-different-levels.md
 
 <!-- Referenced images -->

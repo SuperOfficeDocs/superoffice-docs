@@ -11,7 +11,7 @@ language: en
 
 # Document library
 
-By default, your SuperOffice site is connected to the SuperOffice document library. All documents, templates and e-mails are stored in this library.
+By default, your SuperOffice site is connected to the SuperOffice document library. All documents, templates and emails are stored in this library.
 
 If your organization is using SharePoint, you can configure SuperOffice to use SharePoint as the default document library.
 

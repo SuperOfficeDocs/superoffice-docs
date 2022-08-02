@@ -25,6 +25,8 @@ items:
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
+- name: Preferences
+  href: preferences/toc.yml
 - name: Import web
   href: import/toc.yml
 - name: Customer centre
@@ -34,39 +36,6 @@ items:
 - name: App Store
   href: app-store.md
 # Unedited files and entries below this point, sorted alphabetically
-- name: Preferences
-  href: preferences/active-settings.md
-  items:
-  - name: Active settings
-    href: preferences/active-settings.md
-  - name: Adding preference settings
-    href: preferences/adding-preference-settings.md
-  - name: Configure SharePoint document library
-    href: preferences/configure-sharepoint-document-library.md
-  - name: Configure video meetings
-    href: preferences/configure-video-meetings.md
-  - name: Deleting preference settings
-    href: preferences/deleting-preference-settings.md
-  - name: Displaying different levels
-    href: preferences/displaying-different-levels.md
-  - name: Document library
-    href: preferences/document-library.md
-  - name: Editing preference settings
-    href: preferences/editing-preference-settings.md
-  - name: Global preferences
-    href: preferences/global-preferences.md
-  - name: Levels for preference settings
-    href: preferences/levels-for-preference-settings.md
-  - name: Preferences
-    href: preferences/index.md
-  - name: Preferences tab
-    href: preferences/preferences-tab.md
-  - name: Setup 1 configure e mail setup in superoffice
-    href: preferences/setup-1-configure-email-setup-in-superoffice.md
-  - name: Video meetings
-    href: preferences/video-meetings.md
-  - name: Viewing preferences in SuperOffice CRM
-    href: preferences/viewing-preferences-in-superoffice-crm.md
 - name: Options
   href: options/activating-time-zones-web.md
   items:

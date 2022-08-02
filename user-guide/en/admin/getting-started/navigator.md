@@ -55,7 +55,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [18]: ../fields/index.md
 [19]: ../requests/requests.md
 [21]: https://online.superoffice.com/appstore
-[22]: ../preferences/video-meetings.md
+[22]: ../preferences/video-meetings/index.md
 [23]:  ../preferences/document-library.md
 
 <!-- Referenced images -->

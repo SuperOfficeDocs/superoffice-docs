@@ -40,7 +40,7 @@ The rest of the **Preferences** tab is divided into three main sections:
 * [Global preferences][1]
 
 <!-- Referenced links -->
-[1]: global-preferences.md
+[1]: ../global-preferences.md
 [2]: active-settings.md
 [3]: adding-preference-settings.md
 [4]: editing-preference-settings.md

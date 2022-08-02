@@ -124,7 +124,7 @@ To add follow-ups to a status:
     > [!TIP]
     > The user can change the above information as required.
 
-11. Click **Save** to save your changes in Settings and maintenance.
+11. [!include[Click Save](../includes/save-changes.md)]
 
 12. Repeat this procedure to add more follow-ups in this or other statuses.
 
@@ -148,7 +148,7 @@ To add documents to a status:
 5. Select the required template in the **Template** field (see also [Document - Template][4]).
 6. Enter the subject to be used in the document in the **Default subject** field.
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for a project number, project title or another field relating to the project.
-8. Click **Save** to save your changes in Settings and maintenance.
+8. [!include[Click Save](../includes/save-changes.md)]
 9. Repeat this procedure to add more documents in this or other statuses.
 
 <!-- Referenced links -->
