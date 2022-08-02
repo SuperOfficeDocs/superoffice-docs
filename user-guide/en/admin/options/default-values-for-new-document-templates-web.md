@@ -35,17 +35,13 @@ To specify that new document templates will have their own counter:
 8. Check **Allocate** if you want to use the automatic counter function, so that the system enters values in the **Our Ref.** field for you.
 
     > [!NOTE]
-    > You will find the results of different combinations of these values in [Results of number allocations][1].
+    > You will find the results of different combinations of these values [here][1].
 
 9. Enter the value you want the counter to start at in the **Next number** field.
 
 10. Click **Save**.
 
-## Related topics
-
-* [Results of number allocations][1]
-
 <!-- Referenced links -->
-[1]: results-of-number-allocation.md
+[1]: index.md
 
 <!-- Referenced images -->

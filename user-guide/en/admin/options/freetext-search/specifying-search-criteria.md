@@ -15,13 +15,11 @@ You can specify search criteria for both individual words (for example *Peter*) 
 
 To specify the search criteria for a freetext search:
 
-1. Click the **Options** button in the Navigator (![icon][img1]).
+[!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
-2. Select the **Free text search** tab.
+1. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search][1]).
 
-3. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search][1]).
-
-4. Choose one of the following for **Single-word search operator**:
+1. Choose one of the following for **Single-word search operator**:
 
     * **Starts with**: a search for *pet* returns *Peter* and *Peterson* as hits.
     * **Contains**: a search for *eter* returns *Peter* and *Peterson* as hits.
@@ -30,7 +28,7 @@ To specify the search criteria for a freetext search:
     > [!NOTE]
     > The **Exact match** option is the least resource-intensive when searching, while the **Contains** option is the most resource-intensive.
 
-5. Choose one of the following for **Multi-word search operator**:
+1. Choose one of the following for **Multi-word search operator**:
     * **Starts with**: a search for *pet* returns *Peter Nielsen* as a hit.
     * **Contains**: a search for *pet* returns *Oliver Peter Nielsen* and *Alan Peterson* as hits.
     * **Exact match**: only a search for *Oliver Peter Nielsen* returns *Oliver Peter Nielsen* as a hit.
@@ -39,7 +37,6 @@ To specify the search criteria for a freetext search:
     > When searching for phrases consisting of several words, a search is made for all the words together.
 
 <!-- Referenced links -->
-[1]: enabling-freetext-search.md
+[1]: enable.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-systemvalg-liten.bmp

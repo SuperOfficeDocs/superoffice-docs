@@ -1,5 +1,5 @@
 ---
-uid: help-en-activating-time-zones-web
+uid: help-en-activating-time-zones
 title: Activating time zones web
 description: Activating time zones web
 author: SuperOffice RnD
@@ -28,6 +28,6 @@ To enable use of time zones in SuperOffice CRM, do as follows:
 * [Edit time zones][1]
 
 <!-- Referenced links -->
-[1]: available-time-zones-web.md
+[1]: edit-time-zones.md
 
 <!-- Referenced images -->

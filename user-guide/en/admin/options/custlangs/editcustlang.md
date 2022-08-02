@@ -17,7 +17,7 @@ In this topic, you can find out how to create and edit customer languages.
 
 To create a new customer language:
 
-1. Click the **Options** button in the Navigator (![icon][img1]).
+1. [!include[Go to Options](../includes/open-options.md)]
 
 2. Select the **Customer languages** tab.
 
@@ -71,4 +71,3 @@ To create a new customer language:
 [2]: selectlanguage.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/knapp-systemvalg-liten.bmp

@@ -74,7 +74,7 @@ The field mapping selections you make can be saved, so that the same setup can b
 
 <!-- Referenced links -->
 [1]: import-descriptions.md
-[2]: ../options/regenerating-freetext-index.md
+[2]: ../options/freetext-search/regenerating-freetext-index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/soek.bmp

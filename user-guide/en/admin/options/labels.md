@@ -19,7 +19,7 @@ Using the **Labels** tab in the **Options** screen, you can change the name of a
 * [Reset labels][2]
 
 <!-- Referenced links -->
-[1]: changing-labels-web.md
+[1]: changing-labels.md
 [2]: resetting-labels.md
 
 <!-- Referenced images -->

@@ -13,11 +13,15 @@ language: en
 
 If you have changed any labels and want to return to the default settings for one or more of them, do as follows:
 
-1. Clicking the **Options** button in the Navigator (![icon][img1]).
-2. Select the **Labels** tab.
-3. Search for the label. Changed labels are displayed in bold text in the list.
-4. Select the label.
-5. Click **Delete translation** below the list. The label is reset to its original value.
+[!include[Go to Options](includes/open-options.md)]
+
+1. Select the **Labels** tab.
+
+1. Search for the label. Changed labels are displayed in bold text in the list.
+
+1. Select the label.
+
+1. Click **Delete translation** below the list. The label is reset to its original value.
 
 To cancel all the label changes, uncheck **Enable label substitution**.
 
@@ -27,4 +31,3 @@ To cancel all the label changes, uncheck **Enable label substitution**.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-systemvalg-liten.bmp

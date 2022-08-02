@@ -13,13 +13,12 @@ language: en
 
 To enable the freetext search function:
 
-1. Click the **Options** button in the Navigator (![icon][img1]).
-2. Select the **Free text search** tab.
-3. Check **Enable freetext search**.
+[!include[Go to freetext search tab](../includes/goto-freetext.md)]
+
+1. Check **Enable freetext search**.
 
 By default, freetext search is enabled, but if your organisation wishes to avoid the system overheads in time and space caused by the freetext index update when new entries are added to the database, you can uncheck **Enable freetext search**. This disables the freetext search field in SuperOffice CRM.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-systemvalg-liten.bmp

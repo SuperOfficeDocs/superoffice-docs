@@ -29,7 +29,7 @@ This is described under [Enable use of time zones][1].
 * [Edit time zones][2]
 
 <!-- Referenced links -->
-[1]: activating-time-zones-web.md
-[2]: available-time-zones-web.md
+[1]: activating-time-zones.md
+[2]: edit-time-zones.md
 
 <!-- Referenced images -->

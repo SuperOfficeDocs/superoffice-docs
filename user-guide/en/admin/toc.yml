@@ -27,6 +27,8 @@ items:
     href: project/toc.yml
 - name: Preferences
   href: preferences/toc.yml
+- name: Options
+  href: options/toc.yml
 - name: Import web
   href: import/toc.yml
 - name: Customer centre
@@ -36,65 +38,6 @@ items:
 - name: App Store
   href: app-store.md
 # Unedited files and entries below this point, sorted alphabetically
-- name: Options
-  href: options/activating-time-zones-web.md
-  items:
-  - name: Activating time zones web
-    href: options/activating-time-zones-web.md
-  - name: Adding stopwords
-    href: options/adding-stopwords.md
-  - name: Customer languages
-    href: options/custlangs/index.md
-  - name: editCustLang
-    href: options/custlangs/editcustlang.md
-  - name: selectlanguage
-    href: options/custlangs/selectlanguage.md
-  - name: workWithExternaCategories
-    href: options/custlangs/workwithexternacategories.md
-  - name: Available time zones web
-    href: options/available-time-zones-web.md
-  - name: Changing labels web
-    href: options/changing-labels-web.md
-  - name: Default values for new document templates web
-    href: options/default-values-for-new-document-templates-web.md
-  - name: Deleting stopwords
-    href: options/deleting-stopwords.md
-  - name: Enabling freetext search
-    href: options/enabling-freetext-search.md
-  - name: Example follow up description
-    href: options/example-follow-up-description.md
-  - name: Freetext search
-    href: options/freetext-search.md
-  - name: Freetext search and Travel
-    href: options/freetext-search-and-travel.md
-  - name: Labels
-    href: options/labels.md
-  - name: Number allocation
-    href: options/number-allocation.md
-  - name: Options
-    href: options/index.md
-  - name: Regenerating a freetext index
-    href: options/regenerating-freetext-index.md
-  - name: Reports
-    href: options/reports.md
-  - name: Resetting labels
-    href: options/resetting-labels.md
-  - name: Results of number allocation
-    href: options/results-of-number-allocation.md
-  - name: Specifying number allocation
-    href: options/specifying-number-allocation.md
-  - name: Specifying search criteria
-    href: options/specifying-search-criteria.md
-  - name: Stopwords
-    href: options/stopwords.md
-  - name: Suggesting stopwords
-    href: options/suggesting-stopwords.md
-  - name: Timezones
-    href: options/timezones.md
-  - name: Using search criteria
-    href: options/using-search-criteria.md
-  - name: Viewing number allocation
-    href: options/viewing-number-allocation.md
 - name: Lists
   href: lists/add-email-template.md
   items:

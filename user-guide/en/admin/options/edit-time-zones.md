@@ -1,5 +1,5 @@
 ---
-uid: help-en-available-time-zones-web
+uid: help-en-edit-time-zones
 title: Available time zones web
 description: Available time zones web
 author: SuperOffice RnD

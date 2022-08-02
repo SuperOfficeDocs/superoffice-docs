@@ -13,7 +13,7 @@ language: en
 
 To specify number allocation for a field:
 
-1. Click the **Options** button in the Navigator (![icon][img1]).
+1. [!include[Go to Options](includes/open-options.md)]
 
 2. Select the **Number allocation** tab.
 
