@@ -23,7 +23,7 @@ In the list at the top you can choose the language you want to edit the product 
 
 The view shows all product fields with their associated properties. At the bottom is information about the alternatives in the different columns.
 
-Show field
+### Show field
 
 * Check each field you want to display in the **Product** dialog in SuperOffice CRM.
 * Remove the checks for fields you do not want to display.
@@ -31,27 +31,27 @@ Show field
 
 [!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
-Label
+### Label
 
 The default label for the (field name) field is shown here. You can edit this text. If you delete all the text in this field, the default label is restored.
 
-Tooltip
+### Tooltip
 
 The default help text for the (field name) field is shown here. This text is displayed when you hold the mouse pointer over the field name in the **Product** dialog. You can edit this text. If the help text is long, you can use the arrow buttons to the right of the field to move up and down in the field.
 
-Editable/Mandatory
+### Editable/Mandatory
 
 Check here if the users are to be able to edit the field and/or to be obliged to fill out the field. The field will be automatically set to **Editable** if you select **Mandatory**.
 
 > [!NOTE]
 > In some cases, these alternatives are locked for functional reasons.
 
-Order
+### Order
 
 Click the ![icon][img1] ![icon][img2] arrows on the far right to choose the position of the field. This order is also used in the **Add/Edit product** dialog.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/pil-flyttned.bmp
-[img2]: ../../../media/icons/admin/pil-flyttopp.bmp
+[img1]: ../../../../media/icons/admin/pil-flyttned.bmp
+[img2]: ../../../../media/icons/admin/pil-flyttopp.bmp

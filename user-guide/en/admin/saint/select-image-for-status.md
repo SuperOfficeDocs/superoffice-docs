@@ -23,7 +23,7 @@ No, you do not need to have an image for a status. If you just want to create re
 
 The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time might, for example, be a spider's web.
 
-You can use files of the following types: .jpg, .png, .gif and .bmp. We recommend that you use an image size of 130 x 180 pixels. If the image is bigger than that, it will be cropped on the bottom and right-hand edges.
+[!include[File type and size](../includes/image-type-and-size.md)]
 
 The images are used as watermarks for the company card, contact card or project card in SuperOffice CRM. The transparency is 40%, so that the image does not obscure the text. You should nonetheless use images with relatively light colours.
 

@@ -13,36 +13,37 @@ language: en
 
 Each Quote Connector must have an ERP connection with configuration data for linking the Quote Connector with SuperOffice.
 
-[!include[How to set up ERP](../includes/set-up-erp-web.md)]
+<details><summary>How do I set up an ERP connection for SuperOffice CRM for Web (Online)?</summary>
 
-To add an ERP connection:
+[!include[How to set up ERP](includes/set-up-erp-web.md)]
+</details>
 
-Go to the **ERP connections** tab in the **Quote/Sync** screen.
+## To add an ERP connection
 
-Click **Add** at the bottom of the **ERP connections** list. The **Define new ERP connection** dialog appears.
+1. Go to the **ERP connections** tab in the **Quote/Sync** screen.
 
-Enter the name of the ERP connection in the **Name** field.
+[!include[Define new ERP connection](includes/step-define-new-erp-connection.md)]
 
-Selected the required **Quote Connector** in the list. This list is identical to **Available Quote Connectors**.
+1. Selected the required **Quote Connector** in the list. This list is identical to **Available Quote Connectors**.
 
-Select the **Scope** you require:
+1. Select the **Scope** you require:
 
-* **All**: Select this option if all the users are to have access to and be allowed to use this ERP connection. This means that they can use the price lists accessible via this connection.
-* **Specific users + groups**: Click **Select users and groups** to choose which user groups and/or users should have access to this ERP connection.
+    * **All**: Select this option if all the users are to have access to and be allowed to use this ERP connection. This means that they can use the price lists accessible via this connection.
+    * **Specific users + groups**: Click **Select users and groups** to choose which user groups and/or users should have access to this ERP connection.
 
-Select the ERP connection to handle the synchronisation ([Sync Connector][1]) in the **ERP connection** field.
+1. Select the ERP connection to handle the synchronisation ([Sync Connector][1]) in the **ERP connection** field.
 
-At the bottom of the dialog, configure the required settings. The contents of this list vary depending on the type of Quote Connector you have chosen.
+1. At the bottom of the dialog, configure the required settings. The contents of this list vary depending on the type of Quote Connector you have chosen.
 
-Type in a description of the ERP connection in the field at the bottom.
+1. Type in a description of the ERP connection in the field at the bottom.
 
-Click **Test ERP connection** to verify that the connection is working.
+1. Click **Test ERP connection** to verify that the connection is working.
 
-Click **OK** when you have finished.
+1. Click **OK** when you have finished.
 
 At the bottom of the **ERP connections** list, you can delete ERP connections that are no longer in use, for example. If you want to restore a deleted ERP connection, you can check **Deleted**, select the deleted connection in the list, and then click **Restore**.
 
 <!-- Referenced links -->
-[1]: quotesync-tab-sync.md
+[1]:sync/index.md
 
 <!-- Referenced images -->

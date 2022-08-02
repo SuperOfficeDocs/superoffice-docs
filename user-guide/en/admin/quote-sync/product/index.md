@@ -20,18 +20,23 @@ You can adjust this view as described in [Adjust views][6].
 In the view, you have these options:
 
 * Double-click a product to edit it. See [Add products to a price list][1].
+
 * Click the checkbox in the column at the far left to activate/deactivate a product. See [Delete/deactivate price lists or products][3].
+
 * Click **Add** to add a product to the price list. See [Add products to a price list][1].
+
 * Click **Remove** to delete a product. However, we recommend that you deactivate products rather than deleting them. See [Delete/deactivate price lists or products][3].
+
 * Click **Export** to export the list to a spreadsheet. See **Export a price list** below.
 
 ## Export a price list
 
 You can export an open price list by clicking ![icon][img1] **Export** at the bottom of the **SuperOffice products** tab. If you only want to export some products, you can select them in the price list. If you do not select any products, all the products in the price list are exported.
 
-<!-- Fix reuse ID=a1 -->
+<details><summary>Export not visible?</summary>
 
 Either you do not have access rights to the export function (see [Roles][4]), or this preference is not enabled (see [Preferences][5]).
+</details>
 
 > [!TIP]
 > Before you export the price list, it may be useful to select which columns you want and their order. See [Edit column view][7].
@@ -45,10 +50,10 @@ Either you do not have access rights to the export function (see [Roles][4]), or
 [1]: so-add-product-to-pricelist.md
 [2]: so-add-pricelist.md
 [3]: quote-delete-deactivate-pricelist-or-product.md
-[4]: ../role/index.md
-[5]: ../preferences/index.md
-[6]: ../getting-started/Adjusting-views.md
-[7]: ../getting-started/Adjusting-views.md#change-the-column-view
+[4]: ../../role/index.md
+[5]: ../../preferences/index.md
+[6]: ../../getting-started/adjusting-views.md
+[7]: ../../getting-started/adjusting-views.md#change-the-column-view
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/excel-export.bmp
+[img1]: ../../../../media/icons/excel-export.bmp

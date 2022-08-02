@@ -13,7 +13,7 @@ language: en
 
 If SuperOffice is connected to several ERP system, and there are several Sync Connectors and ERP connections active simultaneously, you should assess which ERP connections should have priority if there is a lot of data traffic. In the **Set Sync Priority** dialog, you can specify the order of priority for the ERP connections.
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Go to the **Sync** tab in the **Quote/Sync** screen.
 2. Click **Set Sync Priority** at the bottom of the **ERP connections** list. The **Set Sync Priority** dialog opens.
@@ -24,5 +24,5 @@ If SuperOffice is connected to several ERP system, and there are several Sync Co
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/pil-flyttned.bmp
-[img2]: ../../../media/icons/admin/pil-flyttopp.bmp
+[img1]: ../../../../media/icons/admin/pil-flyttned.bmp
+[img2]: ../../../../media/icons/admin/pil-flyttopp.bmp

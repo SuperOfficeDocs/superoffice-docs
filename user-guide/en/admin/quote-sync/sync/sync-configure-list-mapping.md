@@ -16,24 +16,22 @@ When synchronising data between SuperOffice and ERP systems, you have to specify
 > [!NOTE]
 > When editing an ERP connection, you first need to deactivate it.
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../../../includes/to-do-this.md)]
 
-1. Go to the **Sync** tab in the **Quote/Sync** screen. The **ERP connections** list shows existing ERP connections.
+[!include[Go to sync](../includes/goto-sync.md)]
 
-2. Uncheck the **Active** box for the ERP connection you want to edit.
+1. Select the ERP connection, and click the **List mapping** button at the bottom. The **List mapping** dialog displays the lists that are available for mapping. If no lists are displayed, you have not mapped any lists in [Configure field mapping][1].
 
-3. Select the ERP connection, and click the **List mapping** button at the bottom. The **List mapping** dialog displays the lists that are available for mapping. If no lists are displayed, you have not mapped any lists in [Configure field mapping][1].
+1. Select a list on the left-hand side of the dialog. The available field items are displayed on the right-hand side of the dialog.
 
-4. Select a list on the left-hand side of the dialog. The available field items are displayed on the right-hand side of the dialog.
-
-5. Select the corresponding CRM item for each ERP item.
+1. Select the corresponding CRM item for each ERP item.
 
     > [!NOTE]
     > Mapping is "one to one". You cannot map to the same CRM item twice. Double-mapped list items are displayed in RED. To leave an ERP list item unmapped, select **(No Selection)**.
 
-6. Repeat steps 4 to 5 to map list items for the next list.
+1. Repeat steps 4 to 5 to map list items for the next list.
 
-7. Check **Active** for the ERP connection you have edited.
+1. Check **Active** for the ERP connection you have edited.
 
 ## Related topics
 

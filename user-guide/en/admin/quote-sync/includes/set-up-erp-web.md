@@ -1,5 +1,4 @@
-**How do I set up an ERP connection for SuperOffice CRM for Web (Online)?**
-
+<!-- markdownlint-disable-file MD041 -->
 To set up an ERP connection for the online version of SuperOffice:
 
 1. Go to [https://online.superoffice.com/appstore][1].
