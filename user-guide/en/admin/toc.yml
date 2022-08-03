@@ -43,12 +43,12 @@ items:
   href: system-design.md
 - name: App Store
   href: app-store.md
-# Unedited files and entries below this point, sorted alphabetically
-- name: Lists
-  href: lists/toc.yml
 - name: win-client
   href: win-client/toc.yml
   topicHref: win-client/index.md
+# Unedited files and entries below this point, sorted alphabetically
+- name: Lists
+  href: lists/toc.yml
 - name: Orphaned content
   items:
   - name: Parameter examples

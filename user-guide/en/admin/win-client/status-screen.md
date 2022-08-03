@@ -7,6 +7,8 @@ so.date: 06.29.2022
 keywords: Windows Client settings
 so.topic: help
 language: en
+so.client: win
+so.envir: onsite
 ---
 
 # The Status screen
