@@ -13,7 +13,8 @@ language: en
 
  ![icon][img1]
 
-Screen designer (configurable screens) requires the Developer Tools licence.
+> [!NOTE]
+> Screen designer (configurable screens) requires the Developer Tools licence.
 
 Your sales team, support team and management team do not necessarily have the same focus and requirements concerning the data they need to access most frequently in SuperOffice. The solution is to create custom screens for each team. Your organization will save time by allowing your teams to find relevant information more quickly. Configure the layout of your main screens and define which types of information each team (user group) can access and see on the company and contact cards.
 

@@ -25,6 +25,8 @@ items:
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
+- name: Screen designer
+  href: screen-designer/toc.yml
 - name: Preferences
   href: preferences/toc.yml
 - name: Options
@@ -44,17 +46,6 @@ items:
 # Unedited files and entries below this point, sorted alphabetically
 - name: Lists
   href: lists/toc.yml
-- name: Screen designer
-  href: screen-designer/index.md
-  items:
-  - name: Popup screendesigner boxes
-    href: screen-designer/popup-screendesigner-boxes.md
-  - name: Screen designer
-    href: screen-designer/index.md
-  - name: ScreenDesigner Add new layout
-    href: screen-designer/add-new-layout.md
-  - name: ScreenDesigner Edit layout
-    href: screen-designer/edit-layout.md
 - name: win-client
   href: win-client/toc.yml
   topicHref: win-client/index.md
