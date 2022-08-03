@@ -50,7 +50,7 @@ To search for things other than requests, you need to start the search criteria 
 * p = phone
 
 > [!TIP]
-> Information on the use of keywords is displayed if you click the magnifying glass next to the quick search field ( ![icon](../../../../media/icons/service/search.png) ).
+> Information on the use of keywords is displayed if you click the magnifying glass next to the quick search field ( ![icon][img1] ).
 
 How this works in practice:
 
@@ -62,3 +62,9 @@ How this works in practice:
 
 > [!TIP]
 > If you enter a search criterion containing the @ sign, the system assumes you have entered an e-mail address and searches for people with this address. You can also search using a wildcard: enter "%%" for an unknown character.
+
+<!-- Referenced links -->
+[1]:
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/service/search.png

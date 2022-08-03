@@ -11,4 +11,9 @@ language: en
 
 # Find entries
 
-See [Search in SuperOffice Service](index.md).
+See [Search in SuperOffice Service][1].
+
+<!-- Referenced links -->
+[1]: index.md
+
+<!-- Referenced images -->
