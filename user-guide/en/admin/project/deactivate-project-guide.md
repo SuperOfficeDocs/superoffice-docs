@@ -16,6 +16,6 @@ To remove a project guide from a project type, you can deactivate the project gu
 If you subsequently want to reuse the project guide, you simply check this option again. Any follow-ups and documents previously added to the project guide's statuses will be automatically retrieved. You can also add new follow-ups and/or documents, or delete those you don't want to use in this project guide.
 
 <!-- Referenced links -->
-[1]: ../lists/adding-items-to-project-type-list.md
+[1]: adding-items-to-project-type-list.md
 
 <!-- Referenced images -->

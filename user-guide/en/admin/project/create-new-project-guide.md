@@ -153,8 +153,8 @@ To add documents to a status:
 
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md#variables-from-the-project-card
-[2]: ../lists/adding-items-to-project-status-list.md
-[3]: ../lists/adding-items-to-project-type-list.md
+[2]: adding-items-to-project-status-list.md
+[3]: adding-items-to-project-type-list.md
 [4]: ../lists/document-template.md
 
 <!-- Referenced images -->

@@ -21,6 +21,7 @@ When you add an item to the **General - Resource** list, the **Edit List Item** 
     > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 2. In the **Type** field, you specify whether the resource type:
+
     * **Location**: Resources of this type (for example meeting rooms) will be available in the **Location** list in the follow-up dialogsin SuperOffice CRM, in addition to the **Resource** list in the **Invitation** dialog.
     * **Other**: Resources of this type (for example a projector, loudspeaker, or other equipment) will be available in the **Resource** list in the **Invitation** dialog.
 

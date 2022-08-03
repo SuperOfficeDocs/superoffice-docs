@@ -22,6 +22,6 @@ Each project in SuperOffice CRM must have a project type, and each project type 
 <!-- Referenced links -->
 [1]: project-status.md
 [2]: adding-items-to-project-type-list.md
-[3]: ../project/index.md
+[3]: project-guide.md
 
 <!-- Referenced images -->

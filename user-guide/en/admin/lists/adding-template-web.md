@@ -24,15 +24,24 @@ Templates are displayed as items in the **Document - Template** list and you lin
 1. Enter the required name of the item in the **Name** field.
 2. If you wish, you can choose where to store the document template, in the **Store template in** list.
 3. You now have two options:
-    <!-- Fix reuse ID=a1 -->
+
+    * <details><summary>Upload a new document template</summary>
+
     1. Click **Copy an existing document template file**.
     2. Click the **Copy template** list.
     3. Select the required template from the list.
-    <!-- Fix reuse ID=a2 -->
+
+    </details>
+
+    * <details><summary>Copy an existing template in SuperOffice</summary>
+
     1. Select **Upload a new document template from disk**.
     2. Click the **Upload** button.
     3. Click **Upload file** in the **Upload file** dialog.
     4. Select the required file and click **Open**. The name of the file will be displayed in the **Edit list item** dialog.
+
+    </details>
+
 4. Click **Save** in the **Edit list item** dialog. The dialog is updated.
 5. Optional: Edit the template name, if required, and click **Edit** to edit the template file itself.
 6. Enter the required information in the **Details** and **Languages** tabs. For more information, see below.
@@ -79,7 +88,6 @@ Here you can add translated versions of the document template. [!include[To do t
 5. Repeat the steps above to add additional languages.
 
 <!-- Referenced links -->
-[1]: ../quote-templates.pdf
 [2]: ../../user/diary/template-variables.md
 [3]: replace-existing-template.md
 [4]: ../saint/index.md

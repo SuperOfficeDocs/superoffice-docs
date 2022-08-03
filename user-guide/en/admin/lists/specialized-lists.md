@@ -43,9 +43,9 @@ It is generally very easy to add, edit and delete lists and items. Some lists, h
 [9]: webpanel.md
 [10]: ../privacy/privacy-legal-base.md
 [11]: ../privacy/privacy-source.md
-[12]: project-status.md
-[13]: project-type.md
-[14]: sale-amount-class.md
+[12]: ../project/project-status.md
+[13]: ../project/project-type.md
+[14]: ../sale/sale-amount-class.md
 [15]: ../sale/sale-stage.md
 [16]: ../sale/sales-role-stakeholders.md
 [17]: ../sale/sales-type-for-stages.md

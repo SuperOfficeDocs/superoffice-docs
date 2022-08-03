@@ -16,15 +16,16 @@ items:
   href: saint/toc.yml
 - name: ai
   href: ai/toc.yml
+- name: Lists
+  href: lists/toc.yml
 - name: Quote sync
   href: quote-sync/toc.yml
 - name: Workflow
   href: workflow.md
-  items:
-  - name: Sale
-    href: sale/toc.yml
-  - name: Project
-    href: project/toc.yml
+- name: Sale
+  href: sale/toc.yml
+- name: Project
+  href: project/toc.yml
 - name: Screen designer
   href: screen-designer/toc.yml
 - name: Preferences
@@ -47,8 +48,6 @@ items:
   href: win-client/toc.yml
   topicHref: win-client/index.md
 # Unedited files and entries below this point, sorted alphabetically
-- name: Lists
-  href: lists/toc.yml
 - name: Orphaned content
   items:
   - name: Parameter examples
