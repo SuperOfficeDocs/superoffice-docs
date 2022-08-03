@@ -48,4 +48,3 @@ language: en
 [5]: editSelection2.md
 
 <!-- Referenced images -->
-[img1]:

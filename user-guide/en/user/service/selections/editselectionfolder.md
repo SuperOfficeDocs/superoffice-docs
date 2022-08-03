@@ -33,4 +33,3 @@ Under **Selections** &gt; **List selections** you can create a folder structure 
 [1]: newSelection.md
 
 <!-- Referenced images -->
-[img1]:

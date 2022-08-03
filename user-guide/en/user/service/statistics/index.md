@@ -13,7 +13,15 @@ language: en
 
 You have the following options in the statistics module:
 
-* [Standard reports](newstat.standard.md) – provides a set of general reports
-* [Request statistics](simplestat.md) – provides various statistics on requests in the system
-* [Login statistics](loginstat.md) – provides an overview of the time spent by requests handlers in the system
-* [Invoice statistics](invoicestat.md) – provides an overview of all items to be invoiced
+* [Standard reports][1] – provides a set of general reports
+* [Request statistics][2] – provides various statistics on requests in the system
+* [Login statistics][3] – provides an overview of the time spent by requests handlers in the system
+* [Invoice statistics][4] – provides an overview of all items to be invoiced
+
+<!-- Referenced links -->
+[1]: newstat.standard.md
+[2]: simplestat.md
+[3]: loginstat.md
+[4]: invoicestat.md
+
+<!-- Referenced images -->

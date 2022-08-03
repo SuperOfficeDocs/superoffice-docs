@@ -19,5 +19,11 @@ For example, there is an internal knowledge base consisting of reply templates a
 
 ## What would you like to do now?
 
-* [Log in to SuperOffice Service](login.md)
-* [Navigate in SuperOffice Service](getting-started/index.md)
+* [Log in to SuperOffice Service][1]
+* [Navigate in SuperOffice Service][2]
+
+<!-- Referenced links -->
+[1]: login.md
+[2]: getting-started/index.md
+
+<!-- Referenced images -->

@@ -35,4 +35,3 @@ To learn more about the various selection types, see [Selections][6].
 [6]: index.md
 
 <!-- Referenced images -->
-[img1]:

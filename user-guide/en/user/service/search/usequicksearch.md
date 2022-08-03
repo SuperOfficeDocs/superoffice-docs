@@ -64,7 +64,6 @@ How this works in practice:
 > If you enter a search criterion containing the @ sign, the system assumes you have entered an e-mail address and searches for people with this address. You can also search using a wildcard: enter "%%" for an unknown character.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/service/search.png

@@ -14,7 +14,7 @@ In the e-mail message, you can use template variables to insert customer-specifi
 
 In the tables below you can find all template variables for SuperOffice Service and SuperOffice Marketing.
 
-([Click here to see template variables for SuperOffice CRM](template-variables.md).)
+([Click here to see template variables for SuperOffice CRM][1].)
 
 <!-- Fix reuse ID=a1 -->
 
@@ -239,3 +239,8 @@ Format date:
 Format time:
 
 \[\[SEC\-TO\-TIME:"seconds","h:m:s"\]\]
+
+<!-- Referenced links -->
+[1]: template-variables.md
+
+<!-- Referenced images -->

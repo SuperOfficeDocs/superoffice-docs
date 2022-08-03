@@ -25,7 +25,6 @@ This screen shows statistics for when the users have logged in and out of the sy
 > Click the ![icon][img1] menu button in the lower left corner and select **Export** to export the statistics.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

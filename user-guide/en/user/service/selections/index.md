@@ -58,4 +58,3 @@ A combined selection is a combination of two or more existing selections. Here y
 [8]: deleteSelection.md
 
 <!-- Referenced images -->
-[img1]:
