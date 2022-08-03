@@ -73,8 +73,6 @@ In the **Weekly stats** tab, you have the following options:
 
 * **Reply template for weekly statistics**: Shows the reply template to use for weekly statistics.
 
-<!-- -->
-
 * **E-mail addresses for weekly statistics**: Here you can add one or more e-mail addresses (comma-separated) to which to send weekly statistics for SuperOffice Service in the last week or month.
 
 [!include[How to change template](../../includes/select-other-template.md)]

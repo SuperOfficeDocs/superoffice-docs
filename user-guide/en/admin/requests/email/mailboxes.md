@@ -16,19 +16,18 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 * **Address**: The mailbox's sending address.
 * **Category**: Requests from the mailbox will be assigned to this category.
 * **Priority**: The priority which new requests are assigned when registered from this mailbox.
-* <!-- online --> **Forwarding address**: If you are not using the e-mail functions in SuperOffice, e-mails will be forwarded to this address.
-* <!-- onsite -->**Protocol**: The protocol which the mailbox uses.
+* **Forwarding address**: <!-- online -->If you are not using the e-mail functions in SuperOffice, e-mails will be forwarded to this address.
+* **Protocol**: <!-- onsite -->The protocol which the mailbox uses.
 
 ## What would you like to do now?
 
 * [Create mailboxes][1]
 * [Delete mailboxes][2]
-
-<!-- onsite -->[Create Facebook applications][3]
+* [Create Facebook applications][3] <!-- onsite -->
 
 <!-- Referenced links -->
-[1]: listfilters.newfilter.md
-[2]: listfilters.deletemailbox.md
-[3]: listfilters.editfacebookapplication.md
+[1]: create-mailbox.md
+[2]: delete-mailbox.md
+[3]: create-facebook-application.md
 
 <!-- Referenced images -->

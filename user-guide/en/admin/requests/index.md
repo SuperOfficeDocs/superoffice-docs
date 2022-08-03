@@ -21,11 +21,11 @@ In this screen you can find various functions related to requests in SuperOffice
 * [SOAP][6]
 
 <!-- Referenced links -->
-[1]: listcategories.md
-[2]: listpriorities.md
-[3]: listticketstatuses.md
-[4]: email/listfilters.md
-[5]: editreplytemplates.md
-[6]: soapconf.md
+[1]: category/index.md
+[2]: priority/index.md
+[3]: status/index.md
+[4]: email/mailboxes.md
+[5]: system-templates.md
+[6]: soap-config.md
 
 <!-- Referenced images -->

@@ -16,7 +16,7 @@ All requests registered in SuperOffice Service are assigned a priority that refl
 * the contact
 * the company
 * the mailbox
-* an e-mail filter
+* an email filter
 
 Once a request has been assigned a priority, the priority can be used to control any escalation of the request.
 
@@ -26,8 +26,8 @@ Priorities override other priorities in this order:
 
 1. priority specified for a contact
 2. priority specified for a company
-3. priority specified for an e mailbox
-4. priority specified for an e mail filter
+3. priority specified for an email box
+4. priority specified for an email filter
 5. standard priorities
 
 Since the priority is determined in this order, a request from a contact with high priority will be given a high priority even though the e-mailbox the person sends it to has a low priority.
@@ -45,7 +45,7 @@ An example of this is user-support and SLA agreements which specify that the sup
 * [Create escalation levels][2]
 
 <!-- Referenced links -->
-[1]: listpriorities.listpriorities.editpriority.md
-[2]: listpriorities.editalert.newalert.md
+[1]: create-priority.md
+[2]: create-escalation-level.md
 
 <!-- Referenced images -->

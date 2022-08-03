@@ -33,6 +33,8 @@ items:
   href: import/toc.yml
 - name: Fields web
   href: fields/toc.yml
+- name: Requests
+  href: requests/toc.yml
 - name: Customer centre
   href: customer-center.md
 - name: System design
@@ -42,59 +44,6 @@ items:
 # Unedited files and entries below this point, sorted alphabetically
 - name: Lists
   href: lists/toc.yml
-- name: Requests
-  href: requests/editreplytemplates.md
-  items:
-  - name: editReplyTemplates
-    href: requests/editreplytemplates.md
-  - name: listCategories
-    href: requests/listcategories.md
-  - name: listCategories deleteCategory
-    href: requests/listcategories.deletecategory.md
-  - name: listCategories newCategory
-    href: requests/listcategories.newcategory.md
-  - name: listFilters
-    href: requests/email/listfilters.md
-  - name: listFilters
-    href: requests/email/index.md
-  - name: listFilters deleteMailbox
-    href: requests/email/listfilters.deletemailbox.md
-  - name: listFilters editFacebookApplication
-    href: requests/email/listfilters.editfacebookapplication.md
-  - name: listFilters editSMSmailbox
-    href: requests/email/listfilters.editsmsmailbox.md
-  - name: listFilters newFilter
-    href: requests/email/listfilters.newfilter.md
-  - name: listMSFilter
-    href: requests/email/listmsfilter.md
-  - name: listMSFilter deleteMSFilter
-    href: requests/email/listmsfilter.deletemsfilter.md
-  - name: listMSFilter newMSFilter
-    href: requests/email/listmsfilter.newmsfilter.md
-  - name: viewBlocked
-    href: requests/email/viewblocked.md
-  - name: viewInbox
-    href: requests/email/viewinbox.md
-  - name: viewOutbox
-    href: requests/email/viewoutbox.md
-  - name: listPriorities
-    href: requests/listpriorities.md
-  - name: listPriorities editAlert newAlert
-    href: requests/listpriorities.editalert.newalert.md
-  - name: listPriorities listPriorities deletePriority
-    href: requests/listpriorities.listpriorities.deletepriority.md
-  - name: listPriorities listPriorities editPriority
-    href: requests/listpriorities.listpriorities.editpriority.md
-  - name: listTicketStatuses
-    href: requests/listticketstatuses.md
-  - name: listTicketStatuses deleteTicketStatus
-    href: requests/listticketstatuses.deleteticketstatus.md
-  - name: listTicketStatuses newTicketStatus
-    href: requests/listticketstatuses.newticketstatus.md
-  - name: soapConf
-    href: requests/soapconf.md
-  - name: Requests
-    href: requests/requests.md
 - name: Screen designer
   href: screen-designer/index.md
   items:

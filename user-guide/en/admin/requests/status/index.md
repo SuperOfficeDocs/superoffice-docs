@@ -21,7 +21,7 @@ For example, you can create a new status called "Waiting for reply" as a more de
 * [Delete request status][2]
 
 <!-- Referenced links -->
-[1]: listticketstatuses.newticketstatus.md
-[2]: listticketstatuses.deleteticketstatus.md
+[1]: create.md
+[2]: delete.md
 
 <!-- Referenced images -->

@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# E-mail
+# Email
 
 [!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
@@ -24,10 +24,10 @@ In the **E-mail** screen, you control the mechanisms that manage inbound and out
 * [Blocked email][5]
 
 <!-- Referenced links -->
-[1]: listfilters.md
-[2]: listMSFilter.md
-[3]: viewInbox.md
-[4]: viewOutbox.md
-[5]: viewBlocked.md
+[1]: mailboxes.md
+[2]: email-filters.md
+[3]: tab-inbox-for-email.md
+[4]: tab-outbox-for-email.md
+[5]: tab-blocked-email.md
 
 <!-- Referenced images -->

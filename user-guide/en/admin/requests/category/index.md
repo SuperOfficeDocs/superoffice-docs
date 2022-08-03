@@ -26,10 +26,10 @@ Selecting **Requests** in the navigator and then the **Categories** tab, takes y
 * [How to set up Get next request in queue][5]
 
 <!-- Referenced links -->
-[1]: listcategories.newcategory.md
-[2]: listcategories.deletecategory.md
-[3]: ../lists/index.md
-[4]: ../users/user-groups.md
-[5]: ../../user/service/request/get-next-request-in-queue.md
+[1]: new-category.md
+[2]: delete-category.md
+[3]: ../../lists/index.md
+[4]: ../../users/user-groups.md
+[5]: ../../../user/service/request/get-next-request-in-queue.md
 
 <!-- Referenced images -->

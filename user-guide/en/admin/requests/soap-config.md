@@ -17,7 +17,7 @@ In the **SOAP** screen, you can configure the SOAP interface. You can set up 3 t
 * **Port: Request**: This tab relates to request handling functionality in SuperOffice Service. Computers with IP addresses within one of the ranges specified here will have access to running SOAP functions that provide this functionality.
 * **Port: Admin**: This tab deals with functionality relating to the setup and configuration of SuperOffice Service. Computers with IP addresses within one of the ranges specified here will have access to running SOAP functions that provide this functionality.
 
-To add an IP address range:
+## To add an IP address range
 
 1. Click the **Requests** button in the navigator.
 2. Select the **SOAP** tab.
@@ -30,7 +30,6 @@ To add an IP address range:
 > To delete an IP address range from the list, click the delete icon ( ![icon][img1] ).
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/btn-delete-admin.png

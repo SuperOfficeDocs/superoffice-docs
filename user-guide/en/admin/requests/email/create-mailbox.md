@@ -1,0 +1,91 @@
+---
+uid: help-en-admin-listfilters-listfilters-newfilter
+title: admin listFilters listFilters newFilter
+description: admin listFilters listFilters newFilter
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Settings and maintenance
+so.topic: help
+language: en
+---
+
+# Create mailboxes
+
+You can create a mailbox to use for importing email into SuperOffice Service. Before you do that, you need to create a mailbox on the mail server that the email is delivered to.
+
+> [!NOTE]
+> Before you set up a mailbox, you need to make sure that there are no old messages in this mailbox on the mail server. SuperOffice Service will import all mail in the mailbox and you risk sending auto-replies to all contacts who have sent email to this address. If you want to import these old emails, you should disable the auto-reply function. Above all, this concerns the **Do not auto-reply** option in the **Mailbox properties** screen and the **Do not send e-mail to new contacts** option in the **Settings** tab in the **System** screen in SuperOffice Service.
+
+## To create a new mailbox - online
+
+[!include[Go to email](includes/goto-email.md)]
+
+1. Click **New mailbox**. The **Mailbox properties** screen appears, with the **Properties** tab open.
+
+1. In the **Address** field, enter the name without @domain.xx, and press **TAB** to add the CRM Online settings to the email address.
+
+    > [!NOTE]
+    > Friendly email address can be added to the address by adding ("friendly name") at the end of the email address.Example: info@company.com (Customer Ltd.).
+
+[!include[Select category and priority](includes/step-select-category-priority.md)]
+
+[!include[Set customer language](includes/step-set-language.md)]
+
+[!include[Common steps](includes/step-set-reply.md)]
+
+[!include[Import stuff](includes/step-import.md)]
+
+1. **AI services**: Here you can select the following options for categorization and text analysis using AI (see [AI services][4]):
+
+    * **Use AI to suggest categories**: Select this option to let the AI suggest a category for requests based on the content of email messages. See [Categorization][3].
+    * **Use text analysis**: Select this option to let the AI analyse the text in email messages to detect language (for translation) and perform sentiment analysis. See [Text analysis][2].
+
+1. Click **OK**. The mailbox is created.
+
+## To create a new mailbox - onsite
+
+[!include[Go to email](includes/goto-email.md)]
+
+1. Click **New mailbox**. The **Mailbox properties** screen appears, with the **Properties** tab open.
+
+1. In the **Address** field, enter the email address you want to use for the mailbox.
+
+    > [!NOTE]
+    > Set up forwarding to this mailbox address if you are going to use your company's email address (for example info@company.com). Use **Forwarding address** in the **Mailboxes** screen.
+
+1. In the **Protocol** list box, select which protocol to use to communicate with the mail server. Some of the protocols may require further configuration.
+
+1. In the **E-mail server** field, enter the server's host name.
+
+1. In the **User name** and **Password** fields, enter the user name and password for the mailbox.
+
+1. In the **Folder** field, enter the folder name for the mailbox on the server.
+
+1. In the **Port** field, you can change the proposed default port for the selected protocol.
+
+[!include[Select category and priority](includes/step-select-category-priority.md)]
+
+1. In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
+
+[!include[Set customer language](includes/step-set-language.md)]
+
+[!include[Common steps](includes/step-set-reply.md)]
+
+1. Go to the **Alias** tab. Here you can enter any email alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an email address and then clicking ![icon][img1].
+
+[!include[Import stuff](includes/step-import.md)]
+
+1. Click **OK**. The mailbox is created.
+
+## What would you like to do now?
+
+* [Delete mailboxes][1]
+
+<!-- Referenced links -->
+[1]: delete-mailbox.md
+[2]: ../../ai/text-analysis.md
+[3]: ../../ai/categorization.md
+[4]: ../../ai/index.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-add.png
