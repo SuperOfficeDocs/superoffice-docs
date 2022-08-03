@@ -25,24 +25,37 @@ The aim is to find out how many records match the specific criteria and to follo
 
 ## Script-based selection
 
-In a script-based selection, you define a data selection using a CRMScript, which offers almost unlimited possibilities for advanced calculations and criteria for defining the selection. See [Create a script-based selection](newSelection.newScriptSelection.md).
+In a script-based selection, you define a data selection using a CRMScript, which offers almost unlimited possibilities for advanced calculations and criteria for defining the selection. See [Create a script-based selection][1].
 
 ## Static selection
 
-A static selection is a list containing only records you have added manually, in contrast to a dynamic selection. Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records. See [Create a static selection](newSelection.newStatSelection.md).
+A static selection is a list containing only records you have added manually, in contrast to a dynamic selection. Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records. See [Create a static selection][2].
 
 ## Combined selection
 
-A combined selection is a combination of two or more existing selections. Here you can add records from one selection to another, or remove records in one selection from another. This is useful if, for example, you want a selection containing all customers based on specific criteria (dynamic selection), but excluding individual customers (static selection). See [Create a combined selection](newSelection.newCombiSelection.md).
+A combined selection is a combination of two or more existing selections. Here you can add records from one selection to another, or remove records in one selection from another. This is useful if, for example, you want a selection containing all customers based on specific criteria (dynamic selection), but excluding individual customers (static selection). See [Create a combined selection][3].
 
 ## What would you like to do now?
 
-[View selections](listSelections.md)
+[View selections][4]
 
-[Update a selection](updateSelection.md)
+[Update a selection][5]
 
-[Create selections](newSelection.md)
+[Create selections][6]
 
-[Edit a selection](editSelection2.md)
+[Edit a selection][7]
 
-[Delete a selection](deleteSelection.md)
+[Delete a selection][8]
+
+<!-- Referenced links -->
+[1]: newSelection.newScriptSelection.md
+[2]: newSelection.newStatSelection.md
+[3]: newSelection.newCombiSelection.md
+[4]: listSelections.md
+[5]: updateSelection.md
+[6]: newSelection.md
+[7]: editSelection2.md
+[8]: deleteSelection.md
+
+<!-- Referenced images -->
+[img1]:

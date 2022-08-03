@@ -20,17 +20,17 @@ Open the search screen. <!-- Fix reuse ID=a2 -->
 * You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests][1].
 * You can use predefined lists to search for requests. See [Use lists][2].
 * You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
-* In the knowledge base, you can click the **Search** icon ( ![icon](../../../../media/icons/service/search.png) ) to the right of a folder name to search for different types of content.
+* In the knowledge base, you can click the **Search** icon ( ![icon][img1] ) to the right of a folder name to search for different types of content.
 
-Enter or adjust the criteria as described under [Search in SuperOffice Service](../search/index.md).
+Enter or adjust the criteria as described under [Search in SuperOffice Service][3].
 
-Click ![icon](../../../../media/icons/btn-menu.png) &gt; **Save as selection**. The **Edit selection** screen is displayed.
+Click ![icon][img2] &gt; **Save as selection**. The **Edit selection** screen is displayed.
 
 In the **General info** tab, enter the following:
 
 [!include[Contents of Selection General info tab](../../includes/selection-general-info.md)]
 
-In the **Selection** tab you can view the search criteria specified for the selection. If necessary, adjust the criteria as described under [Search in SuperOffice Service](../search/index.md).
+In the **Selection** tab you can view the search criteria specified for the selection. If necessary, adjust the criteria as described under [Search in SuperOffice Service][3].
 
 In the **Profile** tab, specify how the selection is to be presented:
 
@@ -40,12 +40,18 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 
 ## What would you like to do now?
 
-* [Update a selection](updateSelection.md)
-* [View selections](listSelections.md)
-* [Edit a selection](editSelection2.md)
+* [Update a selection][4]
+* [View selections][5]
+* [Edit a selection][6]
 
 <!-- Referenced links -->
 [1]: ../request/listtickets.findtickets.md
 [2]: ../request/listtickets.uselists.md
+[3]: ../search/index.md
+[4]: updateSelection.md
+[5]: listSelections.md
+[6]: editSelection2.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/service/search.png
+[img2]: ../../../../media/icons/btn-menu.png

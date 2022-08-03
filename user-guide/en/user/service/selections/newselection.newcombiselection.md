@@ -64,11 +64,14 @@ A combined selection is a combination of two or more existing selections. Here y
 
 ## What would you like to do now?
 
-* [Update a selection](updateSelection.md)
-* [View selections](listSelections.md)
-* [Edit a selection](editSelection2.md)
+* [Update a selection][1]
+* [View selections][2]
+* [Edit a selection][3]
 
 <!-- Referenced links -->
+[1]: updateSelection.md
+[2]: listSelections.md
+[3]: editSelection2.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-dropdown.png

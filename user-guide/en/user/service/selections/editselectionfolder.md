@@ -27,4 +27,10 @@ Under **Selections** &gt; **List selections** you can create a folder structure 
 
 ## What would you like to do now?
 
-* [Create a selection](newSelection.md)
+* [Create a selection][1]
+
+<!-- Referenced links -->
+[1]: newSelection.md
+
+<!-- Referenced images -->
+[img1]:

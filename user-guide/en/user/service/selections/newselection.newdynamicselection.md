@@ -14,7 +14,7 @@ language: en
 [!include[Definition of dynamic selection](../../includes/def-dynamic-selection.md)]
 
 > [!TIP]
-> You can also create a dynamic selection based on search criteria. See [Create a selection based on search criteria](newSelection.newSelection.md).
+> You can also create a dynamic selection based on search criteria. See [Create a selection based on search criteria][1].
 
 [!include[To do this](../../../includes/to-do-this.md)]
 
@@ -26,7 +26,7 @@ language: en
 
     [!include[Contents of Selection General info tab](../../includes/selection-general-info.md)]
 
-6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service](../search/index.md).
+6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service][2].
 7. In the **Profile** tab, specify how the selection is to be presented:
     [!include[Contents of Selection Profile tab](../../includes/selection-profile-tab.md)]
 8. Click **Execute** to display the result of the dynamic selection in the **Result** tab. If necessary, adjust the search criteria in the **Selection** tab and repeat this step.
@@ -34,8 +34,18 @@ language: en
 
 ## What would you like to do now?
 
-[Update a selection](updateSelection.md)
+[Update a selection][3]
 
-[View selections](listSelections.md)
+[View selections][4]
 
-[Edit a selection](editSelection2.md)
+[Edit a selection][5]
+
+<!-- Referenced links -->
+[1]: newSelection.newSelection.md
+[2]: ../search/index.md
+[3]: updateSelection.md
+[4]: listSelections.md
+[5]: editSelection2.md
+
+<!-- Referenced images -->
+[img1]:

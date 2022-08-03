@@ -33,13 +33,16 @@ Assuming you already have a script to use as a basis, a script-based selection i
 
 ## What would you like to do now?
 
-[Update a selection](updateSelection.md)
+[Update a selection][2]
 
-[View selections](listSelections.md)
+[View selections][3]
 
-[Edit a selection](editSelection2.md)
+[Edit a selection][4]
 
 <!-- Referenced links -->
 [1]: ../../../../../docs/automation/crmscript/index.yml
+[2]: updateSelection.md
+[3]: listSelections.md
+[4]: editSelection2.md
 
 <!-- Referenced images -->
