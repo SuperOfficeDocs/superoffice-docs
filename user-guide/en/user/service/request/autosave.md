@@ -17,7 +17,7 @@ The autosave function will automatically save your changes until you click **OK*
 
 Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.
 
-The autosave feature is activated by default when you view and edit requests (including [quick-reply](newQuickTicket.md) and reply/reply all).
+The autosave feature is activated by default when you view and edit requests (including [quick-reply][1] and reply/reply all).
 
 ## Limitations
 
@@ -26,4 +26,10 @@ The autosave feature is activated by default when you view and edit requests (in
 * The autosave function is a useful feature, but should not replace saving your work the proper way.
 
 > [!TIP]
-> If you are using custom screens, you can activate or deactivate autosave. See [Screen properties](../blogic/listScreenDefinitions.editScreenDefinition.md).
+> If you are using custom screens, you can activate or deactivate autosave. See [Screen properties][2].
+
+<!-- Referenced links -->
+[1]: newQuickTicket.md
+[2]: ../blogic/listScreenDefinitions.editScreenDefinition.md
+
+<!-- Referenced images -->

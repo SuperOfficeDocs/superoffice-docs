@@ -13,9 +13,17 @@ language: en
 
 If you want to find a specific request in SuperOffice Service, do one of the following:
 
-* Use lists, which are actually predefined searches. See [Use lists](listTickets.useLists.md).
-* Use the search screen for requests. See [Search for requests](listTickets.findTickets.md).
-* Use the quick search in the top right corner. See [Use quick search](../search/useQuickSearch.md).
+* Use lists, which are actually predefined searches. See [Use lists][1].
+* Use the search screen for requests. See [Search for requests][2].
+* Use the quick search in the top right corner. See [Use quick search][3].
 
 > [!TIP]
-> There is more general information about searching in the [Search in SuperOffice Service](../search/index.md) topic.
+> There is more general information about searching in the [Search in SuperOffice Service][4] topic.
+
+<!-- Referenced links -->
+[1]: listTickets.useLists.md
+[2]: listTickets.findTickets.md
+[3]: ../search/useQuickSearch.md
+[4]: ../search/index.md
+
+<!-- Referenced images -->

@@ -15,16 +15,23 @@ language: en
 
 ## What do you want to do now?
 
-* [Learn request handling step by step](ticketStepByStep.md)
-* [Receive requests](receiveTickets.md)
-* [Create requests](newTicket.md)
-* [Find requests](listTickets.md)
-* [Process requests](listTicket.md)
-* [Process requests](showListTickets.md)
-* [Efficient handling of requests using AI](AI-requests.md)
+* [Learn request handling step by step][2]
+* [Receive requests][3]
+* [Create requests][4]
+* [Find requests][5]
+* [Process requests][6]
+* [Process requests][7]
+* [Efficient handling of requests using AI][8]
 
 <!-- Referenced links -->
 [1]: mainMenu.md
+[2]: ticketStepByStep.md
+[3]: receiveTickets.md
+[4]: newTicket.md
+[5]: listTickets.md
+[6]: listTicket.md
+[7]: showListTickets.md
+[8]: AI-requests.md
 
 <!-- Referenced images -->
 [img1]:  ../../../../media/icons/navigator-dashboard-small.bmp

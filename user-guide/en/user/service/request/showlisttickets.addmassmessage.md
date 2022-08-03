@@ -29,7 +29,6 @@ In the request list, do as follows:
 5. Click **OK** when you are finished.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

@@ -14,7 +14,7 @@ language: en
 A dashboard can contain up to four tiles (panels) that provide an instant overview of requests and request statistics in SuperOffice Service. The content of the tiles can be individually customised, for different roles or globally.
 
 > [!NOTE]
-> By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards](mainMenu.dashboard-create.md) with the tiles/charts of your choice.
+> By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards][1] with the tiles/charts of your choice.
 
 ## Choose the content of the tiles
 
@@ -74,18 +74,23 @@ Shows requests that belong to you and which have the **Open** status. In other w
 
 ## Unassigned requests
 
-Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests](showListTickets.acceptRequest.md).
+Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests][2].
 
 ## What would you like to do now?
 
-* [Create a dashboard](mainMenu.dashboard-create.md)
-* [Receive requests](receiveTickets.md)
-* [Create requests](newTicket.md)
-* [Find requests](listTickets.md)
-* [Process requests](listTicket.md)
+* [Create a dashboard][1]
+* [Receive requests][3]
+* [Create requests][4]
+* [Find requests][5]
+* [Process requests][6]
 
 <!-- Referenced links -->
-[1]:
+[1]: mainMenu.dashboard-create.md
+[2]: showListTickets.acceptRequest.md
+[3]: receiveTickets.md
+[4]: newTicket.md
+[5]: listTickets.md
+[6]: listTicket.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

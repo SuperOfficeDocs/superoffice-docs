@@ -22,7 +22,7 @@ This functionality automatically detects the language of an incoming request. Th
 
 ## Translation
 
-If you receive a message in a language you cannot read, you can click the **Translate from *****language*** below the message. The subject and body of the message will be translated and added below the original message.
+If you receive a message in a language you cannot read, you can click the **Translate from** ***language*** below the message. The subject and body of the message will be translated and added below the original message.
 
 ## Sentiment analysis
 

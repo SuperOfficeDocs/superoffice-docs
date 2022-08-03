@@ -22,13 +22,15 @@ In request handling, your most important task is to respond to enquiries. Procee
 
 ## What would you like to do now?
 
-[Close requests](showListTickets.closeTickets.md)
+[Close requests][3]
 
-[Keep track of messages](showListTickets.Message-keeptrack.md)
+[Keep track of messages][4]
 
 <!-- Referenced links -->
 [1]: listTicket.md
 [2]: newticket.md#message
+[3]: showListTickets.closeTickets.md
+[4]: showListTickets.Message-keeptrack.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

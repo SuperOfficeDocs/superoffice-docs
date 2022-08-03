@@ -20,10 +20,10 @@ If you are very busy and just need to register a request as fast as possible, us
     * If you want to assign the request to a specific person, select the name you require.
     * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
     * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
-5. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](../topics/../admin/listPriorities.editAlert.md) set for different customers.
+5. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][1] set for different customers.
 6. In the **Contact** field, add the contact for the request. <!-- Fix reuse ID=a2 -->
     * To search for a contact, start typing their name. The search starts automatically.
-    * If the contact is not recorded in the system, click ![icon][img1] to add them as a new contact. See [Create contacts](../customers/newCustomer.md).
+    * If the contact is not recorded in the system, click ![icon][img1] to add them as a new contact. See [Create contacts][2].
 
     You can only add one contact to a quick request. To add additional contacts, open the request after you have created it.
 7. In the **Message** field, enter the actual message you want to add to the request.
@@ -31,9 +31,12 @@ If you are very busy and just need to register a request as fast as possible, us
 
 ## Related topics
 
-[Autosave](autosave.md)
+[Autosave][3]
 
 <!-- Referenced links -->
+[1]: ../topics/../admin/listPriorities.editAlert.md
+[2]: ../customers/newCustomer.md
+[3]: autosave.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

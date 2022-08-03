@@ -13,7 +13,7 @@ language: en
 
 The simplest way to search for requests is to use the predefined searches available as menu options under **Requests** in the Navigator:
 
-* **Last search**: Repeats the last request search you performed. See [Search for requests](listTickets.findTickets.md).
+* **Last search**: Repeats the last request search you performed. See [Search for requests][1].
 * **Last requests**: Shows the requests most recently recorded in the system. If specified in user preferences, this list will only contain requests from the categories you are a member of. <!-- Fix reuse ID=a1 -->
     To specify that only requests from categories you are a member of are displayed:
 
@@ -25,13 +25,13 @@ The simplest way to search for requests is to use the predefined searches availa
 <!-- -->
 
 * **Own open requests**: Shows requests that belong to you and which have the **Open** status. In other words, this list contains the requests that it is your responsibility to deal with, and this is therefore the screen you will be working in most often.
-* **Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue](get-next-request-in-queue.md).
-* **Unassigned requests**: Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests](showListTickets.acceptRequest.md).
+* **Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. To set up this feature, see [How to set up Get next request in queue][2].
+* **Unassigned requests**: Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests][3].
 
 In practice, all these lists are predefined searches, and if you wish you can customise the search criteria:
 
 1. Click **Show criteria** at the top of the screen.
-2. Adjust the criteria as described under [Search in SuperOffice Service](../search/index.md).
+2. Adjust the criteria as described under [Search in SuperOffice Service][4].
 3. Click **Search** to begin the search using the new search criteria.
 
 > [!TIP]
@@ -39,10 +39,14 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 
 ## What would you like to do now?
 
-[View search results for requests](listTickets.showListTickets.md)
+[View search results for requests][5]
 
 <!-- Referenced links -->
-[1]:
+[1]: listTickets.findTickets.md
+[2]: get-next-request-in-queue.md
+[3]: showListTickets.acceptRequest.md
+[4]: ../search/index.md
+[5]: listTickets.showListTickets.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

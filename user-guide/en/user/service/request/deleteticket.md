@@ -18,7 +18,7 @@ In general, it is not recommended to delete a request. In some cases, however, y
 
 In order to do so:
 
-1. Open the request you want to delete. See [Find requests](listTickets.md).
+1. Open the request you want to delete. See [Find requests][1].
 2. Click ![icon][img1] and select **Edit request**.
 3. Click the **Delete** button in the lower right corner.
 4. Click **OK**.
@@ -28,10 +28,11 @@ In order to do so:
 
 ## What would you like to do now?
 
-[Process requests](showListTickets.md)
+[Process requests][2]
 
 <!-- Referenced links -->
-[1]:
+[1]: listTickets.md
+[2]: showListTickets.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

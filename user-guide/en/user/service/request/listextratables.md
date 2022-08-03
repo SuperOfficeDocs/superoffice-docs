@@ -16,12 +16,12 @@ language: en
 The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish.
 
 > [!NOTE]
-> The data structures are configured in ![icon][img1] **System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables](../blogic/index.md).
+> The data structures are configured in ![icon][img1] **System settings &gt; System design &gt; Tables**, where you can display and edit data content in the tables. Only administrators have access to this screen. See [Tables][1].
 
 ## View entries
 
 1. Click **Requests** &gt; **Tables** in the Navigator.
-2. Click the required table to open it and view existing entries. Here, for example, you can click **Show criteria** and search as described under [Search in SuperOffice Service](../search/index.md), if you cannot see the table entry you are looking for.
+2. Click the required table to open it and view existing entries. Here, for example, you can click **Show criteria** and search as described under [Search in SuperOffice Service][2], if you cannot see the table entry you are looking for.
 3. Double-click the required table entry in the list. The following options are available:
     * **Search**: Click here to search for a table entry.
     * **Edit**: Click here to edit the entry. See [Edit entries](#edit-entries).
@@ -50,7 +50,8 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 4. Click **OK** when you are asked if you want to delete the entry.
 
 <!-- Referenced links -->
-[1]:
+[1]: ../blogic/index.md
+[2]: ../search/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png
