@@ -20,7 +20,9 @@ When you add an item to the **General - Relation** list in Settings and maintena
     > [!NOTE]
     > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
-2. Enter the passive form of the relation in the **Passive form** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *passive* form, e.g. *owned by*. <!-- Fix reuse ID=a1 -->
+2. Enter the passive form of the relation in the **Passive form** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *passive* form, e.g. *owned by*.
+
+    <details><summary>Click here to see some examples of relations.</details>
 
     | Type | Active | Passive |
     |---|---|---|
@@ -28,6 +30,8 @@ When you add an item to the **General - Relation** list in Settings and maintena
     | Company - Contact: | Company ABC Ltd hires Greg Campbell (Consultancy Firm Co.) | Greg Campbell (Consultancy ABC Ltd) is hired by Company Firm Co. |
     | Contact - Company: | Peter Johnson owns Company ABC Ltd | Company ABC Ltd is owned by Peter Johnson. |
     | Contact - Contact: | Mark Johnson (Consultancy Firm Co.) is the son of Peter Johnson (Company ABC Ltd). | Peter Johnson (Company ABC Ltd) is the father of Mark Johnson (Consultancy Firm Co.). |
+
+    </details>
 
 3. Under **This is a relationship between**, specify whether the relationship refers to a company and/or a contact on the active and passive side respectively. These fields correspond to the fields in the **Relation** dialog in SuperOffice CRM.
 

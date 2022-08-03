@@ -33,8 +33,6 @@ The following types of events are started from the various screens in Settings a
     > [!NOTE]
     > In cases of emergency you can cancel both **FreetextRebuild** and **PrototypeRebuild** from the **System notifications** list.
 
-<!-- -->
-
 * **ROURebuild**: counters or status monitors are being regenerated. Status images, the **Statistics** tab and counters are unavailable while the event is underway. (Status monitors require a separate licence. See [Licences][2].)
 
 You can start the following types of event from the **Status** tab:

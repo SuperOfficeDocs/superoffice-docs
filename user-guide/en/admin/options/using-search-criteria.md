@@ -19,69 +19,43 @@ You can add or edit search criteria in, for example, the **Find** dialog, the **
 
 In the list box, select the field you want to search for information in. The fields displayed depend on what the criteria list is to be used for. There are different types of fields. Click the field description for more information about the field type:
 
-* <!-- Fix reuse ID=a2 -->
+* <details><summary>Text field</summary>
 
     If the field you are searching in is a text field, e.g. a name field, the search is made on text or numbers you enter. The list that is displayed may contain the following options:
 
-  * Starts with
-  * Does not start with
-  * = / Equals
-  * &lt;&gt; / Does not equal
-  * Exact match
-  * Contains
-  * Does not contain
-  * Ends with
-  * Does not end with
+    [!include[Search criteria](../../includes/list-search-criteria.md)]
 
     Select one of these options and then enter the search criteria in the appropriate text field.
 
-* <!-- Fix reuse ID=a6 -->
+    </details>
+
+* <details><summary>Yes/No field</summary>
 
     If the field you are searching in is a Yes/No field, two option buttons are displayed. You can choose between **Yes** and **No**.
 
-* <!-- Fix reuse ID=a3 -->
+    </details>
+
+* <details><summary>Date field</summary>
 
     If the field you are searching in is a date field, a list box with the following options may be displayed:
 
-  * Before
-  * Equals
-  * After
-  * Between
-  * To
-  * From
-  * Today
-  * After today
-  * Previous week
-  * This week
-  * Next week
-  * Previous month
-  * This month
-  * Next month
-  * Previous quarter
-  * This quarter
-  * Next quarter
-  * This half
-  * This year
+    [!include[Search criteria](../../includes/list-date-criteria.md)]
 
     Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon][img3] ) to the right of the date field.
 
-* <!-- Fix reuse ID=a4 -->
+    </details>
+
+* <details><summary>Number field</summary>
 
     If the field you are searching in contains numerical values, a list box with the following options is displayed:
 
-    | Symbol | Description |
-    |---|---|
-    | &lt; | Less than |
-    | &gt; | More than |
-    | = | Equals |
-    | &lt;&gt; | Does not equal |
-    | &gt;= | Greater than or equals |
-    | &lt;= | Less than or equals |
-    | Between | The value lies between specified figures |
+    [!include[Search criteria](../../includes/table-number-criteria.md)]
 
     Select the required option and enter the required numerical value in the text field.
 
-* <!-- Fix reuse ID=a5 -->
+</details>
+
+* <details><summary>List field</summary>
 
     If the field you are searching in is a field containing lists, a dialog appears with several fields that vary depending on the type of values involved. But all of them have a list box, where you will find, for example, the following options:
 
@@ -111,7 +85,9 @@ In the list box, select the field you want to search for information in. The fie
 
     Click **Select all** ( ![icon][img4] ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
 
-* <!-- Fix reuse ID=a7 --> ( ![icon][img5] )
+  </details>
+
+* <details><summary>Status field</summary>
 
     > [!NOTE]
     > This option does not apply to status monitors.
@@ -126,9 +102,17 @@ In the list box, select the field you want to search for information in. The fie
 
   * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
-* <!-- Fix reuse ID=a1 --> ( ![icon][img7] ![icon][img8] )
+</details>
 
-    Counters can be, for example, the number of sales in a period or the date of the last completed sale. <!-- Fix reuse ID=a11 -->Click here to see examples of the use of counters in a search.
+* <details><summary>Counter field</summary>
+
+    Counters can be, for example, the number of sales in a period or the date of the last completed sale.
+
+    <details><summary>Click here to see some examples of statuses.</summary>
+
+    [!include[Examples](../../includes/status-examples.md)]
+
+    </details>
 
     Each counter field may be shown with two different icons, depending on whether or not the counter values are updated.
 
