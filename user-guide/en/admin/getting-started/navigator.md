@@ -45,7 +45,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [8]: ../privacy/index.md
 [9]: ../saint/index.md
 [10]: ../ai/index.md
-[11]: ../lists/lists-web.md
+[11]: ../lists/index.md
 [12]: ../quote-sync/index.md
 [13]: ../workflow.md
 [14]: ../screen-designer/index.md

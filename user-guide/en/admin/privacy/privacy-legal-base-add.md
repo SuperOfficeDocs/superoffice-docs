@@ -16,4 +16,4 @@ language: en
 1. Enter the name of the item in the **Name** field.
 2. Enter a unique identifier for the legal basis in the **Key** field. This value will remain unique independent of database and is used by developers.
 3. Type in a description of the item in the **Description** field.
-4. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+4. [!include[Save or cancel](../includes/save-or-cancel.md)]

@@ -1,5 +1,5 @@
 ---
-uid: help-en-user-groups
+uid: help-en-user-group-filtering
 title: User groups
 description: User groups
 author: SuperOffice RnD
@@ -17,9 +17,9 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 ## Specify user groups for an item
 
-1. Click the **Lists** button in the Navigator (![icon][img1]).
+1. [!include[Go to Lists](../includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
@@ -28,7 +28,9 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 4. Select the required item in the **Items** list.
 
-5. Select a user group in the **Visible for user groups** list. All the user groups in the organisation are displayed here. Click the box next to the required user group to specify that the item will be visible to that group. The box will then be marked with a tick (![icon][img4]).
+5. Select a user group in the **Visible for user groups** list. All the user groups in the organisation are displayed here. Click the box next to the required user group to specify that the item will be visible to that group.
+
+    The box will then be marked with a tick (![icon][img4]).
 
 6. Repeat steps 4 and 5 for each item you want to make visible for particular user groups.
 
@@ -41,9 +43,9 @@ You can select several user groups for one item. Click **Select all** (![icon][i
 
 You can also specify available items for a user group:
 
-1. Click the **Lists** button in the Navigator (![icon][img1]).
+1. [!include[Go to Lists](../includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
@@ -63,11 +65,10 @@ You can also specify available items for a user group:
 * [Headings][1]
 
 <!-- Referenced links -->
-[1]: headings-web.md
-[2]: ../users/index.md
+[1]: headings.md
+[2]: ../../users/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
-[img3]: ../../../media/icons/admin/velg-alle.bmp
-[img4]: ../../../media/icons/admin/valgtboks.bmp
-[img5]: ../../../media/icons/admin/fjern-alle.bmp
+[img3]: ../../../../media/icons/admin/velg-alle.bmp
+[img4]: ../../../../media/icons/admin/valgtboks.bmp
+[img5]: ../../../../media/icons/admin/fjern-alle.bmp

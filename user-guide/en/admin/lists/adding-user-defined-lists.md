@@ -1,7 +1,7 @@
 ---
-uid: help-en-adding-user-defined-lists-web
-title: Adding user-defined lists web
-description: Adding user-defined lists web
+uid: help-en-adding-user-defined-lists
+title: Adding user-defined lists
+description: Adding user-defined lists
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -13,14 +13,14 @@ language: en
 
 To add a new list in the **Lists** screen:
 
-1. Click the **Lists** button in the Navigator (![icon][img1]).
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
 2. Click the **Create list** button in the top right of the screen.
 
 3. Enter the required name of the list in the **Name** field.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 4. Optionally, type in a description of the list in the **Description** field.
 
@@ -34,4 +34,3 @@ As well as specifying a name and description for the list, you need to add items
 [1]: adding-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-lister-liten.bmp

@@ -38,7 +38,7 @@ In the sections below there are more details on using standard templates and tem
 [2]: using-standard-templates.md
 [3]: application.md
 [4]: creating-template-document.md
-[5]: user-groups.md
+[5]: organize/user-group-filtering.md
 [6]: adding-template-web.md
 
 <!-- Referenced images -->

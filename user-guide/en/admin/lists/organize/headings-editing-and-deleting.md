@@ -23,7 +23,7 @@ You delete headings by checking the relevant heading in the **Headings** list an
 > The deletion is not permanent. This is explained under [Deleted items and headings][2].
 
 <!-- Referenced links -->
-[1]: adding-headings-web.md
+[1]: adding-headings.md
 [2]: deleted-items-and-headings.md
 
 <!-- Referenced images -->

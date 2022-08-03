@@ -30,8 +30,8 @@ After you have added items, you can specify details for each individual item. Yo
 * [Add items to the GUI - Application list][3]
 
 <!-- Referenced links -->
-[1]: headings-web.md
-[2]: user-groups.md
+[1]: organize/headings.md
+[2]: organize/user-group-filtering.md
 [3]: adding-external-applications-to-application-list.md
 
 <!-- Referenced images -->

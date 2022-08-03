@@ -27,7 +27,7 @@ language: en
 
 5. Type in a description of the item in the **Description** field.
 
-6. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+6. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: ../lists/adding-template-web.md

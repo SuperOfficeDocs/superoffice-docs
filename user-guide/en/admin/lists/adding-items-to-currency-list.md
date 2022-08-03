@@ -18,7 +18,7 @@ When you add an item to the **General - Currency** list, the **Edit list item** 
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 2. Specify the rate for the relevant currency by entering a number in the **Rate** field.
 

@@ -26,7 +26,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
 1. Enter the required name of the item in the **Name** field. This name is displayed when you add the URL address in SuperOffice CRM.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 2. In the **URL** field, specify the URL address. This might be an Internet page or a server-based HTML file. Please see the information at the top concerning the use of HTTP/HTTPS URLs.
 
@@ -67,7 +67,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
     * **Pocket CRM**: when you are using the mobile version of SuperOffice CRM.
 4. Click the **Icon** list to select an icon for the web panel.
 5. Optionally, type in a description of the item in the **Description** field.
-6. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+6. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 > [!TIP]
 > If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. To do this, the URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.

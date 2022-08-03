@@ -1,7 +1,7 @@
 ---
-uid: help-en-adding-headings-web
-title: Adding headings web
-description: Adding headings web
+uid: help-en-adding-headings
+title: Adding headings
+description: Adding headings
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -15,7 +15,7 @@ Before linking a heading to an item, you need to add the headings you require:
 
 1. Open the **Lists** screen.
 
-2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and filtering by user group for this list** (top right).
 
@@ -25,12 +25,11 @@ Before linking a heading to an item, you need to add the headings you require:
 
 6. Enter the required name for the heading in the **Name** field.
 
-    > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 7. Type in a description of the heading, if required, in the **Description** field.
 
-8. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+8. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
 

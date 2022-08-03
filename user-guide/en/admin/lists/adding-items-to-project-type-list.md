@@ -18,7 +18,7 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 1. Enter the name of the item in the **Name** field.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 2. In the **Estimated time for this project process**, enter a duration for the project (number of weeks, days or months). When you create a new project of this project type, the end date will be set relative to the time you enter here (today's date + estimated time).
 

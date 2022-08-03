@@ -18,7 +18,7 @@ When you add an item to the **General - Relation** list in Settings and maintena
 1. Enter the required name of the item in the **Name** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *active* form, e.g. *owns*.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 2. Enter the passive form of the relation in the **Passive form** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *passive* form, e.g. *owned by*. <!-- Fix reuse ID=a1 -->
 
@@ -35,7 +35,7 @@ When you add an item to the **General - Relation** list in Settings and maintena
 
 5. Optionally, type in a description of the item in the **Description** field.
 
-6. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+6. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: adding-items.md

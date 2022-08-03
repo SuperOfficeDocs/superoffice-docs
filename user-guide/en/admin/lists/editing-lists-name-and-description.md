@@ -1,7 +1,7 @@
 ---
-uid: help-en-editing-lists-name-and-description-web
-title: Editing a list s name and description web
-description: Editing a list s name and description web
+uid: help-en-editing-lists-name-and-description
+title: Editing a list s name and description
+description: Editing a list s name and description
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -13,8 +13,7 @@ language: en
 
 To edit the name and/or description of a user-defined list:
 
-> [!TIP]
-> To quickly go to a list, click **Lists** in the navigator and start typing in the search field ( ![icon][img3] ). The search results are updated while you type.
+[!include[Find specific list](includes/tip-find-list.md)]
 
 1. Open the **Lists** screen.
 2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
@@ -26,4 +25,3 @@ To edit the name and/or description of a user-defined list:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/soek.bmp

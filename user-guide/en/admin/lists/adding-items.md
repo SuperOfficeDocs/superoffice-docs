@@ -13,18 +13,21 @@ language: en
 
 To add items to both predefined and user-defined lists:
 
-1. Click the **Lists** button in the Navigator (![icon][img1]).
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
 2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
 
 3. Click the **Add** button below the **Items** list. The **Edit list item** dialog opens.
-    <!-- Fix reuse ID=a1 -->
+
+    <details><summary>Do you want to add an item to a specialised list?</summary>
+
     Some list types are more specialised than those referred to in this procedure. For more information, see [Specialised lists][1].
+    </details>
 
 4. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 5. Optionally, type in a description of the item in the **Description** field.
 
@@ -39,10 +42,9 @@ After you have added items, you can specify details for each individual item. Yo
 
 <!-- Referenced links -->
 [1]: specialized-lists.md
-[2]: user-groups.md
-[3]: headings-web.md
+[2]: organize/user-group-filtering.md
+[3]: organize/headings.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-lister-liten.bmp
 [img3]: ../../../media/icons/admin/pil-flyttopp.bmp
 [img4]: ../../../media/icons/admin/pil-flyttned.bmp

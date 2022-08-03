@@ -51,7 +51,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [8]: ../privacy/index.md
 [9]: ../saint/index.md
 [10]: ../ai/index.md
-[11]: ../lists/lists-web.md
+[11]: ../lists/index.md
 [12]: ../quote-sync/index.md
 [13]: ../workflow.md
 [14]: ../screen-designer/index.md

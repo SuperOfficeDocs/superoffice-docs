@@ -13,8 +13,7 @@ language: en
 
 The **Lists** screen contains descriptions and definitions of the lists in SuperOffice CRM. Here you can customise the predefined lists supplied with SuperOffice CRM.
 
-> [!TIP]
-> To quickly go to a list, click **Lists** in the navigator and start typing in the search field ( ![icon][img3] ). The search results are updated while you type.
+[!include[Find specific list](includes/tip-find-list.md)]
 
 You can also add your own user-defined lists which are displayed on the **More** tabs in SuperOffice CRM. You specify what is displayed in the **More** tabs in the **Fields** screen (see [Fields][10]).
 
@@ -43,16 +42,15 @@ At the bottom of the **Lists** screen is the **Show deleted items and headings**
 * [Document - Template][6]
 
 <!-- Referenced links -->
-[1]: headings-web.md
+[1]: organize/headings.md
 [2]: items.md
-[3]: grouping-and-filtering.md
+[3]: organize/index.md
 [4]: specialized-lists.md
-[5]: adding-user-defined-lists-web.md
+[5]: adding-user-defined-lists.md
 [6]: document-template.md
-[7]: user-groups.md
+[7]: organize/user-group-filtering.md
 [8]: deleting-items.md
-[9]: deleted-items-and-headings.md
+[9]: organize/deleted-items-and-headings.md
 [10]: ../fields/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/soek.bmp

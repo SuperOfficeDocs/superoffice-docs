@@ -85,6 +85,6 @@ You can then add these fields to the **Project** screen:
 
 <!-- Referenced links -->
 [1]: page-1-fields.md
-[2]: ../lists/adding-user-defined-lists-web.md
+[2]: ../lists/adding-user-defined-lists.md
 
 <!-- Referenced images -->

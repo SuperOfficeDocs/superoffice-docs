@@ -17,6 +17,6 @@ You cannot create two items with the same name in one list. The same applies to 
 > You cannot add a new item or heading that has the same name as a deleted item or heading. See [Deleted items and headings][1].
 
 <!-- Referenced links -->
-[1]: deleted-items-and-headings.md
+[1]: organize/deleted-items-and-headings.md
 
 <!-- Referenced images -->

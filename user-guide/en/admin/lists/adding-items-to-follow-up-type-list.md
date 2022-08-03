@@ -18,7 +18,7 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 2. Click the arrow ( ![icon][img1] ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
 
@@ -35,7 +35,7 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
     * Check the **Free** option if you want it to be possible to specify free and busy times for the follow-up type in the follow-ups dialog in SuperOffice CRM.
     * Check the **Publish** option if you want it to be possible to specify, in the follow-ups dialog in SuperOffice CRM, that the follow-up in question should be made available to external users.
 6. Optionally, type in a description of the item in the **Description** field.
-7. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+7. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: adding-items.md

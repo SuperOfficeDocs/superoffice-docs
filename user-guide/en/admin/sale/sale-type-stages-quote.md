@@ -21,7 +21,7 @@ When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit li
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > This is a mandatory field and must therefore be filled in.
+    > [!include[Mandatory](../includes/note-mandatory-field.md)]
 
 2. Select the required category for the sale type in the **Sale type category** list box.
 
@@ -37,7 +37,7 @@ When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit li
     > [!NOTE]
     > the **Quote attachments**, **Quote defaults** and **Quote approval** tabs are only relevant if you have access to the quotes module.
 
-6. Click **Save** to save the changes in Settings and maintenance, or **Cancel** to reject your changes.
+6. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 ## Stages tab
 
