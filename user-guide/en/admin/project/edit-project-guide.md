@@ -25,7 +25,7 @@ The changes are saved automatically.
 <!-- Referenced links -->
 [1]: create-new-project-guide.md#add-a-document-for-a-status
 [2]: create-new-project-guide.md#add-a-follow-up-for-a-status
-[3]: ../lists/adding-items-to-project-status-list.md
+[3]: adding-items-to-project-status-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp

@@ -34,7 +34,9 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
     * Check the **All day** option if you want it to be possible to select a duration of a whole day for the follow-up type in the follow-ups dialog in SuperOffice CRM.
     * Check the **Free** option if you want it to be possible to specify free and busy times for the follow-up type in the follow-ups dialog in SuperOffice CRM.
     * Check the **Publish** option if you want it to be possible to specify, in the follow-ups dialog in SuperOffice CRM, that the follow-up in question should be made available to external users.
+
 6. Optionally, type in a description of the item in the **Description** field.
+
 7. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->

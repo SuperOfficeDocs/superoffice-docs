@@ -7,6 +7,8 @@ so.date: 06.29.2022
 keywords: Windows Client settings
 so.topic: help
 language: en
+so.client: win
+so.envir: onsite
 ---
 
 # Buttons
@@ -24,7 +26,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 
 <!-- Referenced links -->
 [1]: status-screen.md
-[2]: ../win-client/import.md
+[2]: import/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-status.bmp

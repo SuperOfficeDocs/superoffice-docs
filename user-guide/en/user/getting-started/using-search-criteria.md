@@ -28,55 +28,44 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 2. Click the **Add** button.
     A new line is added to the criteria list and a list of fields to choose from is displayed.
 3. Select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher][2]). There are different types of fields. Click the field description for more information about the field type:
-    * <!-- Fix reuse ID=a7 -->
+    * <details><summary>Text field</summary>
+
         If the field you are searching in is a text field (e.g. a name field), the search is made on text or numbers you enter. A list with the following options is displayed:
 
-        * Starts with
-        * Contains
-        * Ends with
-        * Equals
-        * Between
-        * Does not begin with
-        * Does not contain
-        * Does not end with
-        * Is not
+        [!include[Search criteria](../../includes/list-search-criteria.md)]
 
         Select one of these options and then enter the search criteria in the text field on the right.
-    * <!-- Fix reuse ID=a6 -->
+
+    </details>
+
+    * <details><summary>Yes/No field</summary>
+
         If the field you are searching in is a Yes/No field, e.g. the **No mailings** field in the **Company** screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
-    * <!-- Fix reuse ID=a3 -->
+
+    </details>
+
+    * <details><summary>Date field</summary>
+
         If the field you are searching in is a date field, e.g. the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
-        * Before
-        * Equals
-        * After
-        * Between
-        * Before today
-        * Today
-        * After today
-        * This...
-        * This and next...
-        * Next...
-        * This and previous...
-        * Previous...
-        * This, previous and next...
+        [!include[Search criteria](../../includes/list-date-criteria.md)]
 
         Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ( ![icon][img1] ).
-    * <!-- Fix reuse ID=a4 -->
+
+    </details>
+
+    * <summary>Number field</summary>
+
         If the field you are searching in contains a numerical value, e.g. the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
 
-        | Option | Description |
-        |---|---|
-        | = | Equals |
-        | &gt; | Greater than |
-        | &lt; | Less than |
-        | &gt;= | Greater than or equals |
-        | &lt;= | Less than or equals |
-        | &lt; &gt; | Does not equal |
-        | Between | The value lies between specified figures |
+        [!include[Search criteria](../../includes/table-number-criteria.md)]
 
         Select the required option and enter the required numerical value in the text field on the right.
-    * <!-- Fix reuse ID=a5 -->
+
+    </details>
+
+    * <details><summary>List field</summary>
+
         If the field you are searching in is a field containing lists, e.g. the **Business** field in the **Company** screen, a list box appears with the options **Is one of** and **Is not one of**.
 
         Click the **Select items** field to display the list of values.
@@ -84,13 +73,21 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
         If the list is long, you can type text in the **Search criteria** fields to search for values.
 
         Click outside the list to close it.
-    * <!-- Fix reuse ID=a9 -->
+
+    </details>
+
+    * <details><summary>Status field</summary>
+
         If the field you are searching in is a status field, you just need to select the required status.
 
         The statuses are created and maintained in SuperOffice Settings and maintenance.
 
         * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
-    * <!-- Fix reuse ID=a10 -->
+
+    </details>
+
+    * <details><summary>Counter field</summary>
+
         Counters can be, for example, the number of sales in a period or the date of the last completed sale.
 
         <details><summary>Click here to see some examples of statuses.</summary>

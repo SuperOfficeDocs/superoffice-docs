@@ -31,6 +31,6 @@ If Quote functionality is active, you can also set various options for quotes cr
 [1]: sales-role-stakeholders.md
 [2]: sale-type-stages-quote.md
 [3]: sale-stage.md
-[4]: index.md
+[4]: sales-guide.md
 
 <!-- Referenced images -->

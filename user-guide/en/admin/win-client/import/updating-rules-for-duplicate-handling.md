@@ -7,19 +7,19 @@ so.date: 06.29.2022
 keywords: Windows Client settings
 so.topic: help
 language: en
+so.client: win
+so.envir: onsite
 ---
 
 # Update rules for duplicate handling
 
 You always need to specify rules for handling duplicates during importing. You do this as follows:
 
-1. Open the **Import** screen.
-
-    [!include[How to open import](../includes/open-import.md)]
+1. [!include[How to open import](../../includes/open-import.md)]
 
 2. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
     Or:
-    Click ![icon][img1] next to the **Import file** field and select a data file in the dialog which opens. Then specify the field mapping (see [Field mapping][1]).
+    [!include[Select file](includes/step-select-file.md)] Then specify the [field mapping][1].
 
 3. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 
@@ -45,7 +45,7 @@ You always need to specify rules for handling duplicates during importing. You d
 
 8. Click **OK**.
 
-The field mapping selections you make can be saved, so that the same setup can be reused in future. This is called an import description. See [Import descriptions][2].
+[!include[Save mapping](includes/tip-save-mapping.md)]
 
 ## What would you like to do now?
 
@@ -57,4 +57,4 @@ The field mapping selections you make can be saved, so that the same setup can b
 [3]: resetting-rules-for-duplicate-handling.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/soek.bmp
+[img1]: ../../../../media/icons/admin/soek.bmp

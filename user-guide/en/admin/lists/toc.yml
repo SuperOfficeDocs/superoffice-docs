@@ -31,62 +31,55 @@ items:
 - name: Specialized lists
   href: specialized-lists.md
   items:
-  - name: Add email template
-    href: add-email-template.md
-  - name: Adding a template
-    href: adding-template-web.md
-  - name: Adding external applications to the Application list
-    href: adding-external-applications-to-application-list.md
-  - name: Adding items to the Country list
-    href: adding-items-to-country-list-web.md
-  - name: Adding items to the Currency list
-    href: adding-items-to-currency-list.md
-  - name: Adding items to the Follow up Type list
-    href: adding-items-to-follow-up-type-list.md
-  - name: Adding items to the Project Status list
-    href: adding-items-to-project-status-list.md
-  - name: Adding items to the Project Type list
-    href: adding-items-to-project-type-list.md
-  - name: Adding items to the Relation list
-    href: adding-items-to-relation-list.md
-  - name: Adding items to the Resource list
-    href: adding-items-to-resource-list.md
-  - name: Adding items to the Sale Amount class list
-    href: adding-items-to-sale-amount-class-list.md
-  - name: Adding items to the Webpanel list
-    href: adding-items-to-webpanel-list.md
-  - name: Application
-    href: application.md
-  - name: Country
-    href: country.md
-  - name: Creating a template document
-    href: creating-template-document.md
-  - name: Currency
-    href: currency.md
   - name: Document template
     href: document-template.md
-  - name: Editing standard templates
-    href: editing-standard-templates.md
+    items:
+    - name: Using standard templates
+      href: using-standard-templates.md
+    - name: Creating a template document
+      href: creating-template-document.md
+    - name: Adding a template
+      href: adding-template-web.md
+    - name: Replace existing template
+      href: replace-existing-template.md
   - name: Email Template
     href: email-template.md
+    items:
+    - name: Add email template
+      href: add-email-template.md
   - name: Follow up Type
     href: follow-up-type.md
-  - name: Project Status
-    href: project-status.md
-  - name: Project Type
-    href: project-type.md
-  - name: Relation
-    href: relation.md
-  - name: Replace existing template
-    href: replace-existing-template.md
-  - name: Resource
-    href: resource.md
-  - name: Sale Amount class
-    href: sale-amount-class.md
-  - name: Using standard templates
-    href: using-standard-templates.md
-  - name: Web panel
-    href: webpanel.md
+    items:
+    - name: Adding items to the Follow up Type list
+      href: adding-items-to-follow-up-type-list.md
+  - name: General
+    items:
+    - name: Country
+      href: country.md
+    - name: Adding items to the Country list
+      href: adding-items-to-country-list-web.md
+    - name: Currency
+      href: currency.md
+    - name: Adding items to the Currency list
+      href: adding-items-to-currency-list.md
+    - name: Relation
+      href: relation.md
+    - name: Adding items to the Relation list
+      href: adding-items-to-relation-list.md
+    - name: Resource
+      href: resource.md
+    - name: Adding items to the Resource list
+      href: adding-items-to-resource-list.md
+  - name: GUI
+    items:
+    - name: Application
+      href: application.md
+    - name: Adding external applications to the Application list
+      href: adding-external-applications-to-application-list.md
+    - name: Web panel
+      href: webpanel.md
+    - name: Adding items to the Webpanel list
+      href: adding-items-to-webpanel-list.md
 - name: User-defined lists
   items:
   - name: Adding user-defined lists

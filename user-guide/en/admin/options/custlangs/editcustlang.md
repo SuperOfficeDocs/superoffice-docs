@@ -25,28 +25,13 @@ To create a new customer language:
 
 4. In the **Name** field, enter the name of the language. This is the name that appears in list boxes where you can select a language.
 
-5. In the **Language code** field, enter a short code for the relevant language (or equivalent). The international, two-letter abbreviations are normally used (for example DE, DK, EN, NL, NO and SE). <!-- Fix reuse ID=a1 -->
-    | Language | Code |
-    |---|---|
-    | Chinese (simplified) | CN |
-    | Czech | CZ |
-    | Danish | DA (not DK) |
-    | Dutch | NL |
-    | English | EN |
-    | Finnish | FI |
-    | French | FR |
-    | German | DE |
-    | German (Switzerland) | CH |
-    | Italian | IT |
-    | Korean | KO |
-    | Norwegian | NO |
-    | Polish | PL |
-    | Portuguese (Brazil) | BR |
-    | Russian | RU |
-    | Spanish | ES |
-    | Swedish | SE (not SV) |
-    | Ukrainian | UK |
-    | Vietnamese | VI |
+5. In the **Language code** field, enter a short code for the relevant language (or equivalent). The international, two-letter abbreviations are normally used (for example DE, DK, EN, NL, NO and SE).
+
+    <details><summary>Click here to see a complete list.</details>
+
+    [!include[Language codes](../../../includes/language-codes.md)]
+
+    </details>
 
 6. In the **Virtual domain** field, enter the domain address that provides access to SuperOffice Customer Centre for the language in question, for example germany.liberty.com. Such domains must be set up in advance.
 

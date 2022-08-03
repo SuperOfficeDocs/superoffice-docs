@@ -79,7 +79,7 @@ The changes are saved automatically. The project guide will now be displayed in 
 
 ## Add a follow-up for a status
 
-<!-- Fix reuse ID=a1 -->
+<details><summary>Click here for an example of a follow-up</summary>
 
 **Project type**: Conference
 **Status**: Planned
@@ -96,7 +96,9 @@ Planning meeting:
 \- Speakers?
 \- Where?
 
-To add follow-ups to a status:
+</details>
+
+**To add follow-ups to a status:**
 
 1. Select the required project type and status as described above.
 
@@ -130,7 +132,7 @@ To add follow-ups to a status:
 
 ## Add a document for a status
 
-<!-- Fix reuse ID=a2 -->
+<details><summary>Click here for an example of a document</summary>
 
 **Project type**: Conference
 **Status**: Planned
@@ -139,7 +141,9 @@ To add follow-ups to a status:
 **Template**: Note
 **Default subject**: Conference programme
 
-To add documents to a status:
+</details>
+
+**To add documents to a status:**
 
 1. Select the required project type and status as described above.
 2. Click **Add** under **Suggested documents in status**. The **Suggested document** dialog opens.
@@ -153,8 +157,8 @@ To add documents to a status:
 
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md#variables-from-the-project-card
-[2]: ../lists/adding-items-to-project-status-list.md
-[3]: ../lists/adding-items-to-project-type-list.md
+[2]: adding-items-to-project-status-list.md
+[3]: adding-items-to-project-type-list.md
 [4]: ../lists/document-template.md
 
 <!-- Referenced images -->

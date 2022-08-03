@@ -33,8 +33,8 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 7. Click **Save**. The project type is added as a separate item in the **Items** list. Repeat this procedure to add more project types.
 
 <!-- Referenced links -->
-[1]: adding-items.md
+[1]: ../lists/adding-items.md
 [2]: project-status.md
-[3]: ../project/index.md
+[3]: project-guide.md
 
 <!-- Referenced images -->

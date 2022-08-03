@@ -7,6 +7,8 @@ so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: help
 language: en
+so.client: win
+so.envir: onsite
 ---
 
 # Freetext search and Travel
