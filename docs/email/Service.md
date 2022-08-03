@@ -108,9 +108,22 @@ To create a new mailbox:
 2. Click New mailbox. The Mailbox properties screen appears, with the Properties tab open.
 3. In the Address field, enter the Microsoft 365 email account e-mail address you want to use for the mailbox.
     * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
+    * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is created.
 
 See the [help file][8] for more information.
+
+To change authentication on an existing mailbox:
+
+You do not have to delete and create a new mailbox just to change authentication.
+1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
+2. Click on mailbox you want to change. The Mailbox properties screen appears, with the Properties tab open.
+3. Click "Change OAuth", this will trigger new dialog for setup of account.
+    * If we recognize the UPN as an Microsoft 365 email account, we will redirect you to Microsoft for authentication.
+    * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
+4. Click OK. The mailbox is updated.
+
+Note for version up to 10.1.4! If we dont recognize the UPN it will redirect back to Mailbox properties and does not behave correctly, reason is that we lost ID of existing mailbox. Make sure your MX Record is pointing to the Microsoft® Exchange Online server.
 
 #### What is UPN (User Principal Name)?
 
