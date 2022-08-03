@@ -15,26 +15,24 @@ With custom screen layouts for each of your teams, finding customer data will be
 
 To create a new screen layout:
 
-1. Click the **Screen designer** button in the Navigator (![icon][img1]).
+[!include[Go to screen designer](includes/goto-screen-designer.md)]
 
-2. Click **Company** or **Contact** at the top.
+1. Click **Add** under **Layouts**. The **Add new layout** dialog opens.
 
-3. Click **Add** under **Layouts**. The **Add new layout** dialog opens.
+1. Select a layout in the **Create new based on** list. The new layout will be based on the selected layout.
 
-4. Select a layout in the **Create new based on** list. The new layout will be based on the selected layout.
+1. Enter a name for the new layout in the **Name** field.
 
-5. Enter a name for the new layout in the **Name** field.
+1. Click the **Used by** field and select the user group(s) that will use this new layout. The list will only display user groups that are using the default layout. A user group can only be assigned to one layout.
 
-6. Click the **Used by** field and select the user group(s) that will use this new layout. The list will only display user groups that are using the default layout. A user group can only be assigned to one layout.
+1. Enter a description of the layout in the **Description** field.
 
-7. Enter a description of the layout in the **Description** field.
-
-8. Click **OK** when you are done. The new layout is added to the **Layouts** list. It has the status **Draft**, meaning it is not yet visible to any users. The preview is displayed on the right side of the screen.
+1. Click **OK** when you are done. The new layout is added to the **Layouts** list. It has the status **Draft**, meaning it is not yet visible to any users. The preview is displayed on the right side of the screen.
 
     > [!TIP]
     >If you later want to edit the layout settings, double-click the layout in the list to open the **Edit layout settings** dialog. Please note that you cannot edit the settings for the default layout.
 
-9. With the new layout selected in the **Layouts** list, click the **Edit layout button** to customize the screen layout. See [Edit layout][1].
+1. With the new layout selected in the **Layouts** list, click the **Edit layout button** to customize the screen layout. See [Edit layout][1].
 
 > [!NOTE]
 > To delete a layout, select the layout in the **Layouts** list and click **Delete**. User groups that have been assigned to the deleted layout, will go back to the default layout.
@@ -43,4 +41,3 @@ To create a new screen layout:
 [1]: edit-layout.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-screendesigner-small.png
