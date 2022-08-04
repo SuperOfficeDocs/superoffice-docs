@@ -39,6 +39,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
+      "default",
       "../templates/superoffice"
     ],
     "postProcessors": [],
