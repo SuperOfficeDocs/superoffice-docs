@@ -13,13 +13,27 @@ language: en
 
 How request handling progresses will vary from request to request. The topics below describe how to perform typical tasks:
 
-* [Take responsibility for requests](showListTickets.acceptRequest.md)
-* [Ask another request handler for help.](showListTickets.askForHelp.md)
-* [Forward messages to external parties](showListTickets.forward.md)
-* [Reply to customer](showListTickets.addMessage.md)
-* [Split requests](showListTickets.splitTicket.md)
-* [Add requests to the favourites list](showListTickets.hotlist.md)
-* [Close requests](showListTickets.closeTickets.md)
-* [Add message](showListTickets.addMassMessage.md)
-* [Forward multiple requests to external parties](showListTickets.massForward.md)
-* [Edit message](showListTickets.editMessage.md)
+* [Take responsibility for requests][1]
+* [Ask another request handler for help.][2]
+* [Forward messages to external parties][3]
+* [Reply to customer][4]
+* [Split requests][5]
+* [Add requests to the favourites list][6]
+* [Close requests][7]
+* [Add message][8]
+* [Forward multiple requests to external parties][9]
+* [Edit message][10]
+
+<!-- Referenced links -->
+[1]: showListTickets.acceptRequest.md
+[2]: showListTickets.askForHelp.md
+[3]: showListTickets.forward.md
+[4]: showListTickets.addMessage.md
+[5]: showListTickets.splitTicket.md
+[6]: showListTickets.hotlist.md
+[7]: showListTickets.closeTickets.md
+[8]: showListTickets.addMassMessage.md
+[9]: showListTickets.massForward.md
+[10]: showListTickets.editMessage.md
+
+<!-- Referenced images -->

@@ -14,11 +14,11 @@ language: en
 If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can split the request into two.
 
 > [!TIP]
-> You can also [split a message](showListTickets.splitMessage.md).
+> You can also [split a message][1].
 
 To split a request:
 
-1. Open the request. (See [Process requests](listTicket.md).)
+1. Open the request. (See [Process requests][2].)
 2. Click the ![icon][img1] **Actions** button and select **Split request**. This takes you to the **Split request** screen. This is where you specify information about the new request.
 3. In the **Title** field, enter a descriptive name for the request.
 4. In the **Category** field, select a category for the request.
@@ -26,7 +26,7 @@ To split a request:
     * If you want to assign the request to a specific person, select the name you require.
     * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
     * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
-6. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels](../topics/../admin/listPriorities.editAlert.md) set for different contacts and companies.
+6. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 7. In the **Access level** list box, select one of the following options:
     * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
     * **Internal**: Select this option if the contact is not to have access to the request.
@@ -40,16 +40,22 @@ To split a request:
 
 ## What would you like to do now?
 
-[Reply to customer](showListTickets.addMessage.md)
+[Reply to customer][4]
 
-[Ask another request handler for help.](showListTickets.askForHelp.md)
+[Ask another request handler for help.][5]
 
-[Forward messages to external parties](showListTickets.forward.md)
+[Forward messages to external parties][6]
 
-[Split message](showListTickets.splitMessage.md)
+[Split message][7]
 
 <!-- Referenced links -->
-[1]:
+[1]: showListTickets.splitMessage.md
+[2]: listTicket.md
+[3]: ../topics/../admin/listPriorities.editAlert.md
+[4]: showListTickets.addMessage.md
+[5]: showListTickets.askForHelp.md
+[6]: showListTickets.forward.md
+[7]: showListTickets.splitMessage.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
