@@ -27,7 +27,7 @@ In the request lists, you can forward multiple requests at the same time. [!incl
 
 ## Related topics
 
-* [Forward messages to external parties][2]
+[Forward messages to external parties][2]
 
 <!-- Referenced links -->
 [1]: newticket.md#message
