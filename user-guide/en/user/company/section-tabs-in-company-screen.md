@@ -30,6 +30,6 @@ The **Company** screen contains the following section tabs:
 [4]: projects.md
 [5]: sale.md
 [6]: requests.md
-[7]: ../standardcrm/erp/erp-main.md
+[7]: ../erp/erp-main.md
 
 <!-- Referenced images -->

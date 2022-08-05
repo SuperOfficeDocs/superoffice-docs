@@ -14,6 +14,8 @@
         "netserver",
         "ODBC",
         "osql",
+        "Romnes",
+        "salestarget",
         "SCIM",
         "soap",
         "SoSession",
@@ -24,8 +26,7 @@
         "webapi",
         "webpage",
         "webshop",
-        "website",
-        "Romnes"
+        "website"
     ],
     "markdownlint.config": {
         "MD028": false,

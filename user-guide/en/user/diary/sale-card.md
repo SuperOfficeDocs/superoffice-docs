@@ -43,8 +43,8 @@ The **Sales** section tab functions as a kind of "sales secretary" to help you k
 <!-- Referenced links -->
 [1]: activities-list.md
 [2]: sales-secretary.md
-[3]: ../standardcrm/sale/createsale-sale-tab.md
-[4]: ../standardcrm/sale/status-of-sale-sold-and-lost.md
+[3]: ../sale/createsale-sale-tab.md
+[4]: ../sale/status-of-sale-sold-and-lost.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/salg-solgt-detaljkort.bmp

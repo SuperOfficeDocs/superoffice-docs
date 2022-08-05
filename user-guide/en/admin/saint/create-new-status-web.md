@@ -71,7 +71,7 @@ If a company, contact or project has several active statuses, the lower priority
 [5]: select-default-follow-up-type-for-status.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
-[8]: ../../user/standardcrm/translate-fields.md
+[8]: ../../user/translate-fields.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

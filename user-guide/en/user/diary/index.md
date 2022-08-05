@@ -82,7 +82,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [13]: ../company/activities-contact.md
 [14]: ../person/contact-secttab-activities.md
 [15]: ../project/activities-project.md
-[16]: ../standardcrm/sale/activities-sale.md
+[16]: ../sale/activities-sale.md
 [17]: ../getting-started/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->

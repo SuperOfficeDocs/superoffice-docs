@@ -85,7 +85,7 @@ Buttons work similarly to links. You can add links for looking up information in
 
 <!-- Referenced links -->
 [1]: ../../../../docs/ui/soprotocol/index.md
-[2]: ../../user/standardcrm/translate-fields.md
+[2]: ../../user/translate-fields.md
 [3]: ../../user/diary/template-variables.md
 [6]: ../../user/service/automation/index.md
 

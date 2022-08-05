@@ -23,6 +23,14 @@ items:
   href: selections/toc.yml
 - name: Service
   href: service/toc.yml
-- name: Standardcrm
-  href: standardcrm/toc.yml
-  topicHref: standardcrm/index.md
+- name: Standard CRM
+  href: standard-crm.md
+- name: Sale
+  href: sale/toc.yml
+  items:
+  - name: Quote
+    href: quote/toc.yml
+- name: ERP
+  href: erp/toc.yml
+- name: Translation
+  href: Translate-fields.md

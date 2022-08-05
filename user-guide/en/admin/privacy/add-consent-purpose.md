@@ -53,7 +53,7 @@ To create a new purpose:
 * [Privacy - Source][3]
 
 <!-- Referenced links -->
-[1]: ../../user/standardcrm/translate-fields.md
+[1]: ../../user/translate-fields.md
 [2]: privacy-legal-base.md
 [3]: privacy-source.md
 

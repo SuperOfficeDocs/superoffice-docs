@@ -23,7 +23,7 @@ To edit an existing tile:
 
 <!-- Referenced links -->
 [1]: ../getting-started/using-search-criteria.md
-[2]: ../standardcrm/translate-fields.md
+[2]: ../translate-fields.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

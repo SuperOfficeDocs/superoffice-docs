@@ -30,8 +30,8 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 
 <!-- Referenced links -->
 [1]: ../getting-started/changing-column-view.md
-[2]: ../standardcrm/sale/index.md
-[3]: ../standardcrm/sale/stakeholders.md
+[2]: ../sale/index.md
+[3]: ../sale/stakeholders.md
 [4]: using-filter-function-contact.md
 
 <!-- Referenced images -->

@@ -58,7 +58,7 @@ To change the default number of records, do as follows:
 [9]: ../company/section-tabs-in-company-screen.md
 [10]: ../person/section-tabs-in-contact-screen.md
 [11]: ../diary/section-tabs-in-diary-screen.md
-[12]: ../standardcrm/sale/sale-screen-section-tabs.md
+[12]: ../sale/sale-screen-section-tabs.md
 [13]: ../project/project-screen-section-tabs.md
 [14]: ../selections/section-tabs-in-selection-screen.md
 

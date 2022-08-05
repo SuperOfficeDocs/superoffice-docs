@@ -8,10 +8,9 @@
 A message is also displayed to explain the cause of the error.
 
 <!-- Referenced links -->
-[1]: ../standardcrm/quote/quote-approve.md
+[1]: ../quote/quote-approve.md
 
 <!-- Referenced images -->
-[img1]: ../standardcrm/media/quote-status-ok.png
-[img2]: ../standardcrm/media/quote-status-okwithinfo.png
-[img3]: ../standardcrm/media/quote-status-needsapproval.png
-[img4]: ../standardcrm/media/quote-status-error.png
+[img2]: ../quote/media/quote-status-okwithinfo.png
+[img3]: ../quote/media/quote-status-needsapproval.png
+[img4]: ../quote/media/quote-status-error.png

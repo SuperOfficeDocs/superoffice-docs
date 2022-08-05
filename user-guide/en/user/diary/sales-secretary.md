@@ -30,7 +30,7 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 
 <!-- Referenced links -->
 [1]: sale-card.md
-[2]: ../standardcrm/sale/status-of-sale-sold-and-lost.md
+[2]: ../sale/status-of-sale-sold-and-lost.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png

@@ -32,8 +32,8 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 * [Filter activities and sales][3]
 
 <!-- Referenced links -->
-[1]: ../standardcrm/sale/status-of-sale-sold-and-lost.md
-[2]: ../standardcrm/sale/index.md
+[1]: ../sale/status-of-sale-sold-and-lost.md
+[2]: ../sale/index.md
 [3]: ../company/using-filter-function-contact.md
 
 <!-- Referenced images -->

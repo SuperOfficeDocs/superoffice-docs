@@ -32,7 +32,7 @@ Click the **Main menu** button in the Top bar to access the following options:
 [4]: use-filters-in-section-tabs.md
 [5]: ../company/creating-shortcuts-to-entries-in-crm.md
 [6]: ../diary/linking-participants-to-follow-ups.md
-[7]: ../standardcrm/sale/sales-targets.md
+[7]: ../sale/sales-targets.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-mainmenu.png
