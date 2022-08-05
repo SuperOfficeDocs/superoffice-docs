@@ -16,7 +16,7 @@ In SuperOffice Settings and maintenance, different rules can be defined for what
 > [!NOTE]
 > Products are added to and saved in a quote even if warnings and other messages are displayed, but you cannot send the quote while it contains errors and warnings. You must either correct the error or get the quote approved.
 
-[!include[Table showing quote icons](../../includes/table-quote-icons.md)]
+[!include[Table showing quote icons](../includes/table-quote-icons.md)]
 
 <!-- Fix reuse ID=a1 -->
 

@@ -13,7 +13,7 @@ language: en
 
 You can copy a quote from another sale. The sale you copy the quote from must have the same currency as the sale you are copying it to. The quote is copied with its products and alternatives.
 
-[!include[To do this](../../../includes/to-do-this.md)]
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Open any sale that does not contain a quote.
 2. Select the **Quote** section tab, and click **Copy quote from another sale**. The **Create new quote by copying an existing quote** dialog appears.

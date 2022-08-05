@@ -11,7 +11,7 @@ language: en
 
 # Select ERP connection
 
-[!include[Select ERP connection](../../includes/quote-select-erp.md)]
+[!include[Select ERP connection](../includes/quote-select-erp.md)]
 
 Once you have selected an ERP connection, you can continue to [create a quote][1].
 

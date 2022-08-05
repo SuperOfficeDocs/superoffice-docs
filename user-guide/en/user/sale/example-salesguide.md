@@ -123,8 +123,8 @@ You can now change the stage to **Sold**. Once all the required follow-ups and d
 * [Work with sales guides][3]
 
 <!-- Referenced links -->
-[1]: ../../diary/Dialog-for-followups.md
-[2]: ../../diary/Editing-documents.md
+[1]: ../diary/Dialog-for-followups.md
+[2]: ../diary/Editing-documents.md
 [3]: Working-with-sales-guide.md
 
 <!-- Referenced images -->

@@ -13,8 +13,8 @@ language: en
 
 To create a quote:
 
-1. Create a new sale (see [Create a sale][1]).  
-    or  
+1. Create a new sale (see [Create a sale][1]).
+    or
     Open an existing sale (one which is not sold or lost).
 
 2. Go to the **Quote** section tab.
@@ -22,7 +22,7 @@ To create a quote:
 3. Click **Create a new quote** or **Copy quote from another sale**. The **Edit quote** dialog appears.
 
     <!-- Fix reuse ID=a1 -->
-    [!include[Select ERP connection](../../includes/quote-select-erp.md)]
+    [!include[Select ERP connection](../includes/quote-select-erp.md)]
 
 You can now start adding products to the quote. See [Add/edit a product in the quote][2].
 

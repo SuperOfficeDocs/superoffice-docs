@@ -13,7 +13,7 @@ language: en
 
 The lower part of the **Sale** screen consists of section tabs which show [activities][1], a [sales guide][2], [stakeholders][3] and [quotes](quote-detailcard.md) (requires a licence). Sales guides are only shown for specific sales types (defined in SuperOffice Settings and maintenance).
 
-[!include[Add more section tabs](../../includes/more-tab.md)]
+[!include[Add more section tabs](../includes/more-tab.md)]
 
 ## Related topics
 
