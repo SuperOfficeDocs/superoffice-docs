@@ -13,11 +13,11 @@ language: en
 
 To view the information registered about a reply template in the knowledge base:
 
-1. Select **Knowledge Base &gt; Reply templates**. This takes you to the **Reply templates** screen. Here you will find the reply templates defined in the system, which are available to you. The reply templates are in a folder structure that you can create yourself. See [Administrate folders of reply templates](editReplyTemplateFolder.md).
+1. Select **Knowledge Base &gt; Reply templates**. This takes you to the **Reply templates** screen. Here you will find the reply templates defined in the system, which are available to you. The reply templates are in a folder structure that you can create yourself. See [Administrate folders of reply templates][1].
 2. Go to the required folder.
 3. Click the reply template you are interested in. The **View reply templates** screen appears, containing information about access level, language and owner. In the tabs below, you can see the reply template text itself and any attachments.
 
-See [Create reply templates](newReplyTemplate.md).
+See [Create reply templates][2].
 
 ## Copy reply templates
 
@@ -32,7 +32,17 @@ If you want to create a new reply template based on an existing reply template, 
 
 ## What would you like to do now?
 
-* [Add reply templates to messages](addReplyTemplatesToMessages.md)
-* [Create reply templates](newReplyTemplate.md)
-* [Edit reply templates](editReplyTemplateCustomerLang.md)
-* [Delete reply templates](delReplyTemplate.md)
+* [Add reply templates to messages][3]
+* [Create reply templates][4]
+* [Edit reply templates][5]
+* [Delete reply templates][6]
+
+<!-- Referenced links -->
+[1]: editReplyTemplateFolder.md
+[2]: newReplyTemplate.md
+[3]: addReplyTemplatesToMessages.md
+[4]: newReplyTemplate.md
+[5]: editReplyTemplateCustomerLang.md
+[6]: delReplyTemplate.md
+
+<!-- Referenced images -->

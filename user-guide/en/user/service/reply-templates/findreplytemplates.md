@@ -15,8 +15,14 @@ If there are lots of reply templates in a folder, it may be difficult to find th
 
 1. Select **Knowledge Base &gt; Reply templates**.
 2. Click the **Search** button. This takes you to the **Criteria** screen.
-3. Search as described under [Search in SuperOffice Service](../search/index.md).
+3. Search as described under [Search in SuperOffice Service][1].
 
 ## See also
 
-[Administrate folders of reply templates](editReplyTemplateFolder.md)
+[Administrate folders of reply templates][2]
+
+<!-- Referenced links -->
+[1]: ../search/index.md
+[2]: editReplyTemplateFolder.md
+
+<!-- Referenced images -->

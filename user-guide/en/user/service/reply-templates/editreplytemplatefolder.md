@@ -17,17 +17,25 @@ Under **Knowledge Base &gt; Reply templates**, you can put the reply templates i
 
 [!include[How to create a folder](../../includes/howto-create-folder-kb.md)]
 
-You are now ready to add reply templates to the new folder. See [Create reply templates](newReplyTemplate.md).
+You are now ready to add reply templates to the new folder. See [Create reply templates][1].
 
 ## Delete folders
 
 Before you delete a reply template folder, you need to remove all the entries in it. You do this in one of the following ways:
 
-* You can delete the reply templates as described under [Delete reply templates](delReplyTemplate.md).
-* You can move a reply template to another folder by changing the content of the **Folder** field when you edit a reply template. See [Edit reply templates](editReplyTemplateCustomerLang.md).
+* You can delete the reply templates as described under [Delete reply templates][2].
+* You can move a reply template to another folder by changing the content of the **Folder** field when you edit a reply template. See [Edit reply templates][3].
 
 [!include[How to delete a folder](../../includes/howto-delete-folder-kb.md)]
 
 ## What would you like to do now?
 
-[Create reply templates](newReplyTemplate.md)
+[Create reply templates][4]
+
+<!-- Referenced links -->
+[1]: newReplyTemplate.md
+[2]: delReplyTemplate.md
+[3]: editReplyTemplateCustomerLang.md
+[4]: newReplyTemplate.md
+
+<!-- Referenced images -->

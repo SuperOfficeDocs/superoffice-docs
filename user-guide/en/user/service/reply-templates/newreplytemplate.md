@@ -18,7 +18,7 @@ To create a new reply template:
 
 1. Select **Knowledge Base &gt; Reply templates**.
 
-2. Go to the folder you want to put the reply template in. If it does not yet exist, you can create a new folder. See [Administrate folders of reply templates](editReplyTemplateFolder.md).
+2. Go to the folder you want to put the reply template in. If it does not yet exist, you can create a new folder. See [Administrate folders of reply templates][2].
 
 3. Click the **New reply template** button. This takes you to the **Properties** tab in the **Reply template properties** screen.
 
@@ -43,7 +43,7 @@ To create a new reply template:
     > [!NOTE]
     > If you include both plain text and HTML text, the receiving e-mail program chooses the "best" version, which will normally be HTML. Remember that messages sent without a plain text version will only be readable by e-mail programs that support HTML.
 
-    * In the large field in the centre of the screen, enter the reply template content itself. It is always this text that is used when you add reply templates to messages. See [Add reply templates to messages](addReplyTemplatesToMessages.md).
+    * In the large field in the centre of the screen, enter the reply template content itself. It is always this text that is used when you add reply templates to messages. See [Add reply templates to messages][3].
     * **Spell check**: Click here to spell check the message in the language specified in the **Language** list.
 
 8. In the **HTML text** tab, enter the following information:
@@ -64,16 +64,22 @@ To create a new reply template:
     > [!TIP]
     > You can delete an attachment by clicking **Delete** ( ![icon][img1] ) to the right of the row.
 
-11. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in responding to customer enquiries. See [Reply to customer](../request/showListTickets.addMessage.md).
+11. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in responding to customer enquiries. See [Reply to customer][4].
 
 ## What would you like to do now?
 
-* [Create new language version of reply template](newlangversion.md)
-* [Edit reply templates](editReplyTemplateCustomerLang.md)
-* [Copy reply templates](viewreplytemplate.md#copy-reply-templates)
+* [Create new language version of reply template][5]
+* [Edit reply templates][6]
+* [Copy reply templates][7]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/Technical/Blog/reply-templates-on-categories-in-service-what-is-that/
+[2]: editReplyTemplateFolder.md
+[3]: addReplyTemplatesToMessages.md
+[4]: ../request/showListTickets.addMessage.md
+[5]: newlangversion.md
+[6]: editReplyTemplateCustomerLang.md
+[7]: viewreplytemplate.md#copy-reply-templates
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-delete.png

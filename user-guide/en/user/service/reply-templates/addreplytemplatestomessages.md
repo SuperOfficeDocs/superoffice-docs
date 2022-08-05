@@ -13,12 +13,20 @@ language: en
 
 When you respond to an customer enquiry, you can save time by using a reply template as your basis. [!include[To do this](../../../includes/to-do-this.md)]
 
-1. Go to the **Message** tab, as described under [Reply to customer](../request/showListTickets.addMessage.md).
+1. Go to the **Message** tab, as described under [Reply to customer][1].
 2. Position the mouse pointer in the message where you want to insert the reply template.
-3. Click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ), and select what to insert in the message. Optional: Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template](newlangversion.md).
+3. Click the list button ( ![icon][img1] ), and select what to insert in the message. Optional: Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template][2].
 4. In the list that appears, first click **Reply template** and then the entry you want.
 5. Click **Paste at cursor position**. The reply template text is inserted.
 6. Review the text and make any adjustments.
 
 > [!TIP]
-> You can also click ![icon](../../../../media/icons/service/btn-preview.png)**Preview** to display the selected item onscreen.
+> You can also click ![icon][img2] **Preview** to display the selected item onscreen.
+
+<!-- Referenced links -->
+[1]: ../request/showListTickets.addMessage.md
+[2]: newlangversion.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-dropdown.png
+[img2]: ../../../../media/icons/service/btn-preview.png
