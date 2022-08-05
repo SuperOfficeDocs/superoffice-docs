@@ -13,18 +13,29 @@ language: en
 
 Under **Knowledge Base** &gt; **External documents**, you can add documents (including images and other files) to make them available to anyone using SuperOffice Service, including unregistered customers. Documents you upload here are available when you write the content of messages to send to a customer.
 
-This applies, for example, when you use the **Message** tab when answering requests (see [Reply to customer](../request/showListTickets.addMessage.md)). Here you can enter text in the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
+This applies, for example, when you use the **Message** tab when answering requests (see [Reply to customer][1]). Here you can enter text in the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
 
 Apart from this practical use, external documents are otherwise dealt with in the same way as other documents. This means that you can follow the procedures in the topics below when working with external documents; you just need to remember to select **Knowledge Base** &gt; **External documents** first, so that you are working from the correct location:
 
-[View documents](../knowledge-base/viewDocument.md)
+[View documents][2]
 
-[Create documents](../knowledge-base/newDocument.md)
+[Create documents][3]
 
-[Edit documents](../knowledge-base/editDocument.md)
+[Edit documents][4]
 
-[Delete documents](../knowledge-base/delDocument.md)
+[Delete documents][5]
 
-[Search for documents](../knowledge-base/findDocument.md)
+[Search for documents][6]
 
-[Administrate folders of documents](../knowledge-base/editFolder.md)
+[Administrate folders of documents][7]
+
+<!-- Referenced links -->
+[1]: ../request/showListTickets.addMessage.md
+[2]: ../knowledge-base/viewDocument.md
+[3]: ../knowledge-base/newDocument.md
+[4]: ../knowledge-base/editDocument.md
+[5]: ../knowledge-base/delDocument.md
+[6]: ../knowledge-base/findDocument.md
+[7]: ../knowledge-base/editFolder.md
+
+<!-- Referenced images -->

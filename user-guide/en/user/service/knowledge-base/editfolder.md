@@ -19,9 +19,9 @@ Under **Knowledge Base** &gt; **Documents** you can create a folder structure fo
 2. Go to the folder you want to create a sub-folder under. You can create it directly under the **Documents** folder or under any of its sub-folders.
 3. Click the **New folder** button at the top of the screen. This takes you to the **Document folder properties** screen.
 4. Enter a descriptive name for the folder in the **Name** field.
-5. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click the list button ( ![icon](../../../../media/icons/btn-dropdown.png) ) and select a different folder in the list that appears.
+5. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click the list button ( ![icon][img1] ) and select a different folder in the list that appears.
 6. In the **Access** list box, you select who is to have access to read and edit the folder.
-7. Click **OK**. The new folder is created. You are now ready to add documents to the new folder. See [Create documents](newDocument.md).
+7. Click **OK**. The new folder is created. You are now ready to add documents to the new folder. See [Create documents][1].
 
 ## Delete folders
 
@@ -35,4 +35,10 @@ When you delete a folder, all the documents in it are also deleted from SuperOff
 
 ## What would you like to do now?
 
-[Create documents](newDocument.md)
+[Create documents][1]
+
+<!-- Referenced links -->
+[1]: newDocument.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/btn-dropdown.png

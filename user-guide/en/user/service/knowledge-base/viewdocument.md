@@ -13,16 +13,25 @@ language: en
 
 To display the contents of a document in the knowledge base:
 
-1. Select **Knowledge Base** &gt; **Documents**. This takes you to the **Documents** screen. The documents are in a folder structure that you can create yourself. See [Administrate folders of documents](editFolder.md).
+1. Select **Knowledge Base** &gt; **Documents**. This takes you to the **Documents** screen. The documents are in a folder structure that you can create yourself. See [Administrate folders of documents][1].
 2. Go to the required folder.
 3. Do one of the following:
     * Click the document name to go to the **Document properties** screen. Here you can also view and edit the contents of certain document types, such as html, txt and the native ejr format.
-    * Click ![icon](../../../../media/icons/service/down.png)**Download** to download documents which cannot be viewed in the browser, such as PDF, Word and Excel files. An icon in the document list indicates the document type.
+    * Click ![icon][img1] **Download** to download documents which cannot be viewed in the browser, such as PDF, Word and Excel files. An icon in the document list indicates the document type.
 
 ## What would you like to do now?
 
-[Create documents](newDocument.md)
+[Create documents][2]
 
-[Edit documents](editDocument.md)
+[Edit documents][3]
 
-[Delete documents](delDocument.md)
+[Delete documents][4]
+
+<!-- Referenced links -->
+[1]: editFolder.md
+[2]: newDocument.md
+[3]: editDocument.md
+[4]: delDocument.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/service/down.png

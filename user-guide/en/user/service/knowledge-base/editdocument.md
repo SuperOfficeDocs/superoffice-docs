@@ -24,7 +24,7 @@ Proceed as follows:
 
 1. Select **Knowledge Base** &gt; **Documents**.
 2. Go to the folder where the document is located.
-3. Click ![icon](../../../../media/icons/service/btn-Download.png)**Download** to download a document.
+3. Click ![icon][img1] **Download** to download a document.
 4. Edit and save the document using the application the document was originally created in.
 5. Click the document name to go to the **Document properties** screen.
 6. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you have edited.
@@ -37,8 +37,14 @@ By editing the document's properties, you can, for example, change who is to hav
 1. Select **Knowledge Base** &gt; **Documents**.
 2. Go to the folder where the document is located.
 3. Click the document name to go to the **Document properties** screen.
-4. Make the required changes. For more information about the fields in this screen, see [Create documents](newDocument.md).
+4. Make the required changes. For more information about the fields in this screen, see [Create documents][1].
 5. Click **OK**. The changes are saved.
 
 > [!TIP]
 > If you want to move the document to a different folder, you can select the new folder in the **In folder** field.
+
+<!-- Referenced links -->
+[1]: newDocument.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/service/btn-Download.png

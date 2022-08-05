@@ -21,8 +21,17 @@ To search for information in the knowledge base:
 
 ## What would you like to do now?
 
-* [Work with documents](../knowledge-base/work-with-documents.md)
-* [Work with external documents](externalDocument.md)
-* [Work with e-mail addresses](emailAddressBook.md)
-* [Work with FAQ entries](../faq/index.md)
-* [Work with reply templates](../reply-templates/index.md)
+* [Work with documents][1]
+* [Work with external documents][2]
+* [Work with e-mail addresses][3]
+* [Work with FAQ entries][4]
+* [Work with reply templates][5]
+
+<!-- Referenced links -->
+[1]: ../knowledge-base/work-with-documents.md
+[2]: externalDocument.md
+[3]: emailAddressBook.md
+[4]: ../faq/index.md
+[5]: ../reply-templates/index.md
+
+<!-- Referenced images -->
