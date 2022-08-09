@@ -12,7 +12,7 @@ language: en
 # Categories
 
 > [!TIP]
-> Looking for a more flexible way of organizing your request? Try [using tags in requests](../request/tags.md).
+> Looking for a more flexible way of organizing your request? Try [using tags in requests][1].
 
 All requests belong to a category, and each category has its own rules that define how requests are processed in the system. Typically, the higher-level categories will correspond to the organisation's departments, while subcategories will correspond to areas of responsibility and/or logical structures within a department. Subcategories could also be the products that the company sells. An example might be to have the main categories of User Support, Development, Sales and Invoicing - and subcategories in these for each of the products that are sold.
 
@@ -20,7 +20,7 @@ All requests belong to a category, and each category has its own rules that defi
 
 [!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
-Users can be added as members in the categories individually or via the user group(s) they belong to (see [User groups](listUsers.listUsergroups.md)).
+Users can be added as members in the categories individually or via the user group(s) they belong to (see [User groups][2]).
 
 Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a list of all the categories defined in the system. The categories are arranged in a tree structure.
 
@@ -29,15 +29,18 @@ Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a l
 
 ## What would you like to do now?
 
-[Create categories](listCategories.newCategory.md)
-
-[Delete categories](listCategories.deleteCategory.md)
-
-[Search for requests in categories](listCategories.searchTickets.md)
-
-[How to set up Get next request in queue](../request/get-next-request-in-queue.md)
+* [Create categories][3]
+* [Delete categories][4]
+* [Search for requests in categories][5]
+* [How to set up Get next request in queue][6]
 
 <!-- Referenced links -->
+[1]: ../request/tags.md
+[2]: listUsers.listUsergroups.md
+[3]: listCategories.newCategory.md
+[4]: listCategories.deleteCategory.md
+[5]: listCategories.searchTickets.md
+[6]: ../request/get-next-request-in-queue.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

@@ -15,26 +15,26 @@ In the **Edit users** screen, you can adjust the settings defined for your user 
 
 To edit your user settings, select ![icon][img1] **&gt; Settings**. The following tabs are available:
 
-[User information](editUser.helpUserInfo.md)
-
-[Signature](editUser.helpSignature.md)
-
-[Interface](editUser.helpInterface.md)
-
-[Preferences](editUser.helpSettings.md)
-
-[Category membership](editUser.helpCategoryMembership.md)
-
-[Other groups](editUser.helpOthergroups.md)
-
-[Password](editUser.helpPassword.md) <!-- onsite-->
-
-[Notification](editUser.helpNotification.md)
-
-[Extra fields](editUser.helpExtrafields.md)
+* [User information][1]
+* [Signature][2]
+* [Interface][3]
+* [Preferences][4]
+* [Category membership][5]
+* [Other groups][6]
+* [Password][7] <!-- onsite-->
+* [Notification][8]
+* [Extra fields][9]
 
 <!-- Referenced links -->
-[1]:
+[1]: editUser.helpUserInfo.md
+[2]: editUser.helpSignature.md
+[3]: editUser.helpInterface.md
+[4]: editUser.helpSettings.md
+[5]: editUser.helpCategoryMembership.md
+[6]: editUser.helpOthergroups.md
+[7]: editUser.helpPassword.md
+[8]: editUser.helpNotification.md
+[9]: editUser.helpExtrafields.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

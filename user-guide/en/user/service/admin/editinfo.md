@@ -17,10 +17,16 @@ The **System** screen is used to configure some of the key characteristics of Su
 
 ## What would you like to find out more about?
 
-[Settings](editInfo.settings.md)
+* [Settings][1]
+* [SMTP][2] <!-- onsite-->
+* [Password][3]
+* [SMS][4]
 
-[SMTP](editInfo.smtp.md) <!-- onsite-->
+<!-- Referenced links -->
+[1]: editInfo.settings.md
+[2]: editInfo.smtp.md
+[3]: editInfo.password.md
+[4]: editInfo.sms.md
 
-[Password](editInfo.password.md)
-
-[SMS](editInfo.sms.md)
+<!-- Referenced images -->
+[img1]:

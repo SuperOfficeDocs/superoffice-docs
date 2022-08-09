@@ -14,7 +14,7 @@ language: en
 You can create a mailbox to use for importing e-mail into SuperOffice Service. Before you do that, you need to create a mailbox on the mail server that the e-mail is delivered to.
 
 > [!NOTE]
-> Before you set up a mailbox, you need to make sure that there are no old messages in this mailbox on the mail server. SuperOffice Service will import all mail in the mailbox and you risk sending auto-replies to all contacts who have sent e-mail to this address. If you want to import these old e-mails, you should disable the auto-reply function. Above all, this concerns the **Do not auto-reply** option in the **Mailbox properties** screen and the **Do not send e-mail to new contacts** option in the **Settings** tab in the **System** screen (see [Settings](editInfo.settings.md)).
+> Before you set up a mailbox, you need to make sure that there are no old messages in this mailbox on the mail server. SuperOffice Service will import all mail in the mailbox and you risk sending auto-replies to all contacts who have sent e-mail to this address. If you want to import these old e-mails, you should disable the auto-reply function. Above all, this concerns the **Do not auto-reply** option in the **Mailbox properties** screen and the **Do not send e-mail to new contacts** option in the **Settings** tab in the **System** screen (see [Settings][1]).
 
 To create a new mailbox:
 
@@ -48,15 +48,15 @@ To create a new mailbox:
 
 12. <!-- onsite--> In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
 
-13. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer language](listCustLangs.md).
+13. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer language][2].
 
 14. Check **Do not auto-reply** to disable the auto-reply function.
 
 15. In the **E-mail fields** field, you can enter a comma-separated list of e-mail fields (headers) to be displayed in the request message, for example, To and Cc.
 
-16. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer. For more on reply templates, see [Work with reply templates](../reply-templates/index.md).
+16. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer. For more on reply templates, see [Work with reply templates][3].
 
-17. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply](../reply-templates/autoFAQ.md)). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
+17. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply][4]). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
 
 18. <!-- onsite--> Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon](../../../../media/icons/btn-add.png).
 
@@ -70,10 +70,14 @@ To create a new mailbox:
 
 ## What would you like to do now?
 
-[Delete mailboxes](listFilters.listFilters.deleteMailbox.md)
+* [Delete mailboxes][5]
 
 <!-- Referenced links -->
-[1]:
+[1]: editInfo.settings.md
+[2]: listCustLangs.md
+[3]: ../reply-templates/index.md
+[4]: ../reply-templates/autoFAQ.md
+[5]: listFilters.listFilters.deleteMailbox.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

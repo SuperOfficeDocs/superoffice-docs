@@ -17,17 +17,18 @@ In the **Other groups** tab, you can select any secondary groups (in addition to
 
 1. Select ![icon][img2] **Personal Settings &gt; Settings &gt; Other groups** tab.
 2. In the **Group** list, select a group.
-3. Click the ![icon][1] **Add** button. The group is added to the list.
+3. Click the ![icon][img1] **Add** button. The group is added to the list.
 4. Repeat steps 2-3 to add more groups.
 5. Click **OK**.
 
 ## See also
 
-[User information](editUser.helpUserInfo.md)
-
-[User groups](listUsers.listUsergroups.md)
+* [User information][1]
+* [User groups][2]
 
 <!-- Referenced links -->
+[1]: editUser.helpUserInfo.md
+[2]: listUsers.listUsergroups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

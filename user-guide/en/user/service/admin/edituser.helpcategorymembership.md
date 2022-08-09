@@ -11,7 +11,7 @@ language: en
 
 # Category membership
 
-You use the **Category membership** tab in the **Edit users** screen to specify which categories you are a member of. If you are a member of categories via a user group (see [User information](editUser.helpUserInfo.md)), the text **(from user group)** is shown next to the category name.
+You use the **Category membership** tab in the **Edit users** screen to specify which categories you are a member of. If you are a member of categories via a user group (see [User information][1]), the text **(from user group)** is shown next to the category name.
 
 ## Add categories
 
@@ -28,7 +28,7 @@ To add a category to the list of categories you are a member of:
 You remove a category from the list by clicking the delete icon ( ![icon][img1] ) to the right of the category in question.
 
 <!-- Referenced links -->
-[1]:
+[1]: editUser.helpUserInfo.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-delete.png

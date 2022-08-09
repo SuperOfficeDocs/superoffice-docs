@@ -15,35 +15,42 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 
 ## What would you like to find out more about?
 
-[Profile](listProfiles.md)
-
-[Roles](listRoles.md)
-
-[Users](listUsers.md)
-
-[Categories](listCategories.md)
-
-[Priorities](listPriorities.md)
-
-[Request status](listTicketStatuses.md)
-
-[E-mail](listFilters.md)
-
-[System templates](editReplyTemplates.md)
-
-[System](editInfo.md)
-
-[Customer languages](listCustLangs.md)
-
-[Customer centre configuration](listCustCenter.config.md)
-
-[Customer centre source files](listCustCenter.edit.md)
-
-[Chat](../../Chat/admin/index.md)
-
-[SOAP](soapConf.md)
-
-[System design](../blogic/index.md)
+* [Profile][1]
+* [Roles][2]
+* [Users][3]
+* [Categories][4]
+* [Priorities][5]
+* [Request status][6]
+* [E-mail][7]
+* [System templates][8]
+* [System][9]
+* [Customer languages][10]
+* [Customer centre configuration][11]
+* [Customer centre source files][12]
+* [Chat][13]
+* [SOAP][14]
+* [System design][15]
 
 > [!NOTE]
-> The [Invoice types](listInvoiceTypes.md) function is only available if you have the required feature toggle.
+> The [Invoice types][16] function is only available if you have the required feature toggle.
+
+<!-- Referenced links -->
+[1]: listProfiles.md
+[2]: listRoles.md
+[3]: listUsers.md
+[4]: listCategories.md
+[5]: listPriorities.md
+[6]: listTicketStatuses.md
+[7]: listFilters.md
+[8]: editReplyTemplates.md
+[9]: editInfo.md
+[10]: listCustLangs.md
+[11]: listCustCenter.config.md
+[12]: listCustCenter.edit.md
+[13]: ../../Chat/admin/index.md
+[14]: soapConf.md
+[15]: ../blogic/index.md
+[16]: listInvoiceTypes.md
+
+<!-- Referenced images -->
+[img1]:

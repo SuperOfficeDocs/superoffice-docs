@@ -13,7 +13,7 @@ language: en
 
 [!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
-In the **System templates** screen, you can specify which reply templates the system should use. For more information about reply templates, see [Work with reply templates](../reply-templates/index.md).
+In the **System templates** screen, you can specify which reply templates the system should use. For more information about reply templates, see [Work with reply templates][1].
 
 ## Requests
 
@@ -45,7 +45,7 @@ In the **Favourites** tab, you have the following options:
 In the **Customers** tab, you have the following options:
 
 * **Reply template for new contacts**: Shows the reply template to send to new contacts at customers when they are first registered.
-* **Reply template for auto-reply**: Shows the reply template to be used to send standard auto-replies to contacts when e-mail from them is received. This value is overridden for individual mailboxes. See [Mailboxes](listfilters.listfilters.md).
+* **Reply template for auto-reply**: Shows the reply template to be used to send standard auto-replies to contacts when e-mail from them is received. This value is overridden for individual mailboxes. See [Mailboxes][2].
 * **Reply template for sending password to contacts**: Shows the reply template to send to contacts when they ask to have their password sent to them.
 * **Reply template for sending confirmation e-mail to contacts**: Shows the reply template used for confirmation e-mails sent to contacts.
 * **Reply template for customer chat log**: Shows the reply template used to send chat logs to customers who have contacted support on the chat.
@@ -72,3 +72,10 @@ In the **Weekly stats** tab, you have the following options:
 * **E-mail addresses for weekly statistics**: Here you can add one or more e-mail addresses (comma-separated) to which to send weekly statistics for SuperOffice Service in the last week or month.
 
 [!include[How to change template](../../../includes/select-other-template.md)]
+
+<!-- Referenced links -->
+[1]: ../reply-templates/index.md
+[2]: listfilters.listfilters.md
+
+<!-- Referenced images -->
+[img1]: media/
