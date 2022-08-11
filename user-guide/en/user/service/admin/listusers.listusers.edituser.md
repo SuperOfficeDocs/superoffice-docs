@@ -17,15 +17,16 @@ To edit the information already recorded for a user:
 2. Select the **Users** tab.
 3. Click the **Filter** list to apply a filter to the list.
 4. Click the required user name. The **Edit users** screen is displayed.
-5. Make the required changes. For more information about the tabs and fields in this screen, see [Personal settings](editUser.md).
+5. Make the required changes. For more information about the tabs and fields in this screen, see [Personal settings][2].
 6. Click **OK**. The changes are saved.
 
 ## See also
 
-[Batch update users](listUsers.listUsers.batchUpdate.md)
+* [Batch update users][1]
 
 <!-- Referenced links -->
-[1]:
+[1]: listUsers.listUsers.batchUpdate.md
+[2]: editUser.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

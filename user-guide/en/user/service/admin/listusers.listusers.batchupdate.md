@@ -19,16 +19,16 @@ In this screen you can update several users at the same time.
 2. Select the **Users** tab.
 3. Click the **Filter** list to apply a filter to the list.
 4. Check the users you want to update.
-5. Click the ![icon](../../../../media/icons/btn-menu.png) menu button in the lower left corner, and select **Batch update** and **Change**.
+5. Click the ![icon][img2] menu button in the lower left corner, and select **Batch update** and **Change**.
 6. In the **Batch update users** screen, check the box(es) for the property or properties you want to change, and then select the value you want in the associated field. The following options are available:
-    * **Role**: Select a role you want to assign to the selected users. For more details about roles, see [Roles](listRoles.md).
+    * **Role**: Select a role you want to assign to the selected users. For more details about roles, see [Roles][1].
 
         > [!NOTE]
         > The role may override other options further down.
 
     * **Status**: Select the required status for the selected users. You can choose between **Normal** and **Not present**. If a user is not present, they will not receive any requests automatically. This is the status you would set, for example, when users go on holiday.
 
-    * **Group**: Select the user group you want to assign to the selected users. For more details about user groups, see [User groups](listUsers.listUsergroups.md).
+    * **Group**: Select the user group you want to assign to the selected users. For more details about user groups, see [User groups][2].
 
     * **Default status for new request**: Select the default status to appear in the **R****equest** screen for the selected users.
 
@@ -52,7 +52,9 @@ In this screen you can update several users at the same time.
 7. Click **OK**. The selected users are updated with your changes.
 
 <!-- Referenced links -->
-[1]:
+[1]: listRoles.md
+[2]: listUsers.listUsergroups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../../media/icons/btn-menu.png

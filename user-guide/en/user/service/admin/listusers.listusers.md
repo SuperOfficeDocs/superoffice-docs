@@ -24,4 +24,10 @@ Clicking a user takes you to the **Edit users** screen, which contains all the i
 
 ## What would you like to do now?
 
-* [Edit users](listUsers.listUsers.editUser.md)
+* [Edit users][1]
+
+<!-- Referenced links -->
+[1]: listUsers.listUsers.editUser.md
+
+<!-- Referenced images -->
+[img1]:

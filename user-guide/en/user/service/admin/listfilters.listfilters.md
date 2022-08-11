@@ -21,8 +21,15 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 
 ## What would you like to do now?
 
-[Create mailboxes](listFilters.listFilters.newFilter.md)
+* [Create mailboxes][1]
+* [Delete mailboxes][2]
 
-[Delete mailboxes](listFilters.listFilters.deleteMailbox.md)
+<!-- onsite-->[Create Facebook applications][3]
 
-<!-- onsite-->[Create Facebook applications](listFilters.listFilters.editFacebookApplication.md)
+<!-- Referenced links -->
+[1]: listFilters.listFilters.newFilter.md
+[2]: listFilters.listFilters.deleteMailbox.md
+[3]: listFilters.listFilters.editFacebookApplication.md
+
+<!-- Referenced images -->
+[img1]:

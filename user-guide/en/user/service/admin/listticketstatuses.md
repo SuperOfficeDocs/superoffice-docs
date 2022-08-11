@@ -21,13 +21,21 @@ The **Request status** screen displays all existing statuses in the system. The 
 
 * **Name**: The name of the request status. By default each internal status has a request status with the same name.
 * **Internal status**: The system's internal statuses. Each internal status must be linked to at least one request status. The system statuses **Linked** and **Deleted** are only used for merged requests and deleted requests respectively, and are not visible to the users.
-* **Track time as**: This is used to report time usage in various phases of request management. See [Create request status](listTicketStatuses.newTicketStatus.md).
-* **Queue status**: Indicates if requests with this status should be placed in the queue. This is relevant if you use the **Get next request in queue** function. See [How to set up Get next request in queue](../request/get-next-request-in-queue.md).
+* **Track time as**: This is used to report time usage in various phases of request management. See [Create request status][1].
+* **Queue status**: Indicates if requests with this status should be placed in the queue. This is relevant if you use the **Get next request in queue** function. See [How to set up Get next request in queue][2].
 * **Default**: Indicates if this is a default status for the internal status.
-* **Rank**: The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the **Request** screen. You use the arrow buttons ( ![icon](../../../../media/icons/service/btn-RankUp.png) and ![icon](../../../../media/icons/service/btn-RankDown.png) ) to change the order.
+* **Rank**: The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the **Request** screen. You use the arrow buttons ( ![icon][img1] and ![icon][img2] ) to change the order.
 
 ## What would you like to do now?
 
-[Create request statuses](listTicketStatuses.newTicketStatus.md)
+* [Create request statuses][1]
+* [Delete request statuses][3]
 
-[Delete request statuses](listTicketStatuses.deleteTicketStatus.md)
+<!-- Referenced links -->
+[1]: listTicketStatuses.newTicketStatus.md
+[2]: ../request/get-next-request-in-queue.md
+[3]: listTicketStatuses.deleteTicketStatus.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/service/btn-RankUp.png
+[img2]: ../../../../media/icons/service/btn-RankDown.png

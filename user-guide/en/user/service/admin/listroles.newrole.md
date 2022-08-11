@@ -22,14 +22,14 @@ To create a new role:
 4. Click **OK**. The role is created. You now need to customize the role.
 5. Click on the new role in the list to edit it.
 6. The **Role information** tab: You have already filled in the necessary information here.
-7. The **Members** tab: This tab is empty, since you have not added any members to the role yet. Members are added from the **Edit users** screen (see [User information](editUser.helpUserInfo.md)).
+7. The **Members** tab: This tab is empty, since you have not added any members to the role yet. Members are added from the **Edit users** screen (see [User information][1]).
 8. In the **Profiles** tab, you can link element profiles to this new role:
     1. In the **New element profile** list, select the required profile from the list that appears.
     2. Click the **Add** button.
-    3. Repeat until you have added all the profiles you want to add. For more details about element profiles, see [Profiles](listProfiles.md).
+    3. Repeat until you have added all the profiles you want to add. For more details about element profiles, see [Profiles][2].
 9. In the **Workflow access** tab, you can specify which stage in the FAQ workflow the members of the role should have access to:
     1. In the **New rights** list, select the required stage from the list that appears.
-    2. Check **Can move**, **Can edit** or **Full access** to specify which access level the members of the role should have for the stage in question. (For more information about this, see [Work with workflows](../faq/editKbWorkflow.md).)
+    2. Check **Can move**, **Can edit** or **Full access** to specify which access level the members of the role should have for the stage in question. (For more information about this, see [Work with workflows][3].)
     3. Click ![icon][img4].
     4. Repeat until you have added all the stages you want to add.
 10. In the **Functional rights** tab, you can specify which rights the members of the role should have:
@@ -39,9 +39,13 @@ To create a new role:
 
 ## What would you like to do now?
 
-[Edit roles](listRoles.editRole.md)
+* [Edit roles][4]
 
 <!-- Referenced links -->
+[1]: editUser.helpUserInfo.md
+[2]: listProfiles.md
+[3]: ../faq/editKbWorkflow.md
+[4]: listRoles.editRole.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-left.png

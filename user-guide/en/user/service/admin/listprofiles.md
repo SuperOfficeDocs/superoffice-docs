@@ -31,8 +31,14 @@ Using profiles, SuperOffice Service can be adapted to the needs of individual us
 
 ## What would you like to find out more about?
 
-[Personal profiles](listProfiles.personalProfile.md)
+* [Personal profiles][1]
+* [Common profiles][2]
+* [Global profiles][3]
 
-[Common profiles](listProfiles.commonProfiles.md)
+<!-- Referenced links -->
+[1]: listProfiles.commonProfiles.md
+[2]: listProfiles.commonProfiles.md
+[3]: listProfiles.globalProfiles.md
 
-[Global profiles](listProfiles.globalProfiles.md)
+<!-- Referenced images -->
+[img1]:

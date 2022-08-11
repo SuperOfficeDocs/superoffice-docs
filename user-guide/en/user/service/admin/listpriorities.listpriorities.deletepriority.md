@@ -20,10 +20,10 @@ You cannot delete priorities from SuperOffice Service, but you can set the statu
 
 ## What would you like to do now?
 
-[Work with escalation levels](listPriorities.editAlert.md)
+* [Work with escalation levels][1]
 
 <!-- Referenced links -->
-[1]:
+[1]: listPriorities.editAlert.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

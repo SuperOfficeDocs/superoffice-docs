@@ -17,6 +17,12 @@ Invoice types are used as a basis for invoice lines which are entered in request
 
 ## What would you like to do now?
 
-[Create invoice types](listInvoiceTypes.editInvoiceType.md)
+* [Create invoice types][1]
+* [Delete invoice types][2]
 
-[Delete invoice types](listInvoiceTypes.deleteInvoiceType.md)
+<!-- Referenced links -->
+[1]: listInvoiceTypes.editInvoiceType.md
+[2]: listInvoiceTypes.deleteInvoiceType.md
+
+<!-- Referenced images -->
+[img1]:

@@ -19,10 +19,10 @@ To delete an escalation level from SuperOffice Service, do as follows:
 
 ## What would you like to do now?
 
-[Work with priorities](listPriorities.listPriorities.md)
+* [Work with priorities][1]
 
 <!-- Referenced links -->
-[1]:
+[1]: listPriorities.listPriorities.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

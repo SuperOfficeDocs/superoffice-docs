@@ -15,11 +15,11 @@ To edit the information already recorded for a role:
 
 1. Select ![icon][img1] **System settings &gt; Roles**.
 2. Click the required role name. The **Edit role** screen appears.
-3. Make the required changes. For more information about the tabs and fields in this screen, see [Create roles](listRoles.newRole.md).
+3. Make the required changes. For more information about the tabs and fields in this screen, see [Create roles][1].
 4. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->
-[1]:
+[1]: listRoles.newRole.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

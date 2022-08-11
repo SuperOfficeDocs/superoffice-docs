@@ -20,6 +20,12 @@ Roles are used as a tool for administrating users. You can link different proper
 
 ## What would you like to do now?
 
-[Create roles](listRoles.newRole.md)
+* [Create roles][1]
+* [Edit roles][2]
 
-[Edit roles](listRoles.editRole.md)
+<!-- Referenced links -->
+[1]: listRoles.newRole.md
+[2]: listRoles.editRole.md
+
+<!-- Referenced images -->
+[img1]:

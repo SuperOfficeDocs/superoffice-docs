@@ -27,7 +27,7 @@ To create a new user group:
     2. Click **Add category** or **Add with subcategories**.
 7. Click **OK**. The user group is created.
 
-If you want to assign a user to this group, follow the procedure under [Edit users](listUsers.listUsers.editUser.md) and select this group in the **Group** field in the **User information** tab (see [User information](editUser.helpUserInfo.md)). If you wish to assign a user to more than one group, go to the tab **Other groups** (see [Other groups](editUser.helpOthergroups.md)).
+If you want to assign a user to this group, follow the procedure under [Edit users][1] and select this group in the **Group** field in the **User information** tab (see [User information][2]). If you wish to assign a user to more than one group, go to the tab **Other groups** (see [Other groups][3]).
 
 ## Delete user groups
 
@@ -42,7 +42,9 @@ To delete a user group from SuperOffice Service, do as follows:
 7. Click **OK** when you are asked if you want to delete the user group. The user group is deleted and all users are moved to the group you selected in step 5.
 
 <!-- Referenced links -->
-[1]:
+[1]: listUsers.listUsers.editUser.md
+[2]: editUser.helpUserInfo.md
+[3]: editUser.helpOthergroups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

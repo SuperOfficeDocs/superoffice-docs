@@ -18,7 +18,7 @@ In the **Customer centre configuration** screen, you can edit the styling and la
 If you have configured multiple languages for your customer centre, you can set the options individually for each language. Options such as welcome text, opening hours and phone numbers can be specified for each language.
 
 > [!NOTE]
-> To edit the html code for the various pages, see [Customer centre source files](listCustCenter.edit.md).
+> To edit the html code for the various pages, see [Customer centre source files][1].
 
 Do as follows:
 
@@ -56,7 +56,7 @@ Do as follows:
 8. Click **Save** when you are done.
 
 <!-- Referenced links -->
-[1]:
+[1]: listCustCenter.edit.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

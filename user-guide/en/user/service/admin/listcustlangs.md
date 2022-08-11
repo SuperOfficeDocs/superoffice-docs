@@ -25,8 +25,14 @@ On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were pl
 
 ## What would you like to find out more about?
 
-[Work with customer languages](listCustLangs.editCustLang.md)
+* [Work with customer languages][1]
+* [How SuperOffice Service selects the customer language for new contacts][2]
+* [Work with external categories][3]
 
-[How SuperOffice Service selects the customer language for new contacts](listCustLangs.selectlanguage.md)
+<!-- Referenced links -->
+[1]: listCustLangs.editCustLang.md
+[2]: listCustLangs.selectlanguage.md
+[3]: listCustLangs.workWithExternaCategories.md
 
-[Work with external categories](listCustLangs.workWithExternaCategories.md)
+<!-- Referenced images -->
+[img1]:

@@ -31,6 +31,12 @@ The **E-mail filters** tab contains a list of existing e-mail filters. This list
 
 ## What would you like to do now?
 
-[Create e-mail filters](listFilters.listMSFilter.newMSFilter.md)
+* [Create e-mail filters][1]
+* [Delete e-mail filters][2]
 
-[Delete e-mail filters](listFilters.listMSFilter.deleteMSFilter.md)
+<!-- Referenced links -->
+[1]: listFilters.listMSFilter.newMSFilter.md
+[2]: listFilters.listMSFilter.deleteMSFilter.md
+
+<!-- Referenced images -->
+[img1]:

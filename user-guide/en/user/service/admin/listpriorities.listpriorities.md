@@ -15,6 +15,12 @@ The default priorities included with the system are **High**, **Medium** and **L
 
 ## What would you like to do now?
 
-[Create priorities](listPriorities.listPriorities.editPriority.md)
+* [Create priorities][1]
+* [Delete priorities][2]
 
-[Delete priorities](listPriorities.listPriorities.deletePriority.md)
+<!-- Referenced links -->
+[1]: listPriorities.listPriorities.editPriority.md
+[2]: listPriorities.listPriorities.deletePriority.md
+
+<!-- Referenced images -->
+[img1]:

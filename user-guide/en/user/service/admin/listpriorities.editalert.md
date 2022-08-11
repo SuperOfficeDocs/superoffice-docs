@@ -15,6 +15,12 @@ For each priority you can define escalation levels, so that the system forwards 
 
 ## What would you like to do now?
 
-[Create escalation levels](listPriorities.editAlert.newAlert.md)
+* [Create escalation levels][1]
+* [Delete escalation levels][2]
 
-[Delete escalation levels](listPriorities.editAlert.deleteAlert.md)
+<!-- Referenced links -->
+[1]: listPriorities.editAlert.newAlert.md
+[2]: listPriorities.editAlert.deleteAlert.md
+
+<!-- Referenced images -->
+[img1]:

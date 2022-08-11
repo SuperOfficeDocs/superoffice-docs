@@ -55,19 +55,19 @@ To create a new customer language:
 
 8. Check **Use as default** if you want this to be the default language. This means that this language will be used when none of the other customer languages match the criteria or if no language has been defined for a customer.
 
-9. Click **OK**. The customer language is created and you have the option of creating [external categories](listCustLangs.workWithExternaCategories.md).
+9. Click **OK**. The customer language is created and you have the option of creating [external categories][1].
 
     > [!TIP]
     > It is possible to use customer language for things other than language, if you only have operations in one country for example. One option is to create different departments, industry sections or trades, such as Building & Construction, Bathrooms, Interiors and Gardens. Then SuperOffice Customer Centre, the FAQ hierarchy and the reply templates can reflect the sector that is relevant for particular customers. The abbreviation that is used for the department must reflect the folder name in the folder \\templates. For example: Building & Construction = BC.
 
 ## What would you like to find out more about?
 
-[Work with external categories](listCustLangs.workWithExternaCategories.md)
-
-[How SuperOffice Service selects the customer language for new contacts](listCustLangs.selectlanguage.md)
+* [Work with external categories][1]
+* [How SuperOffice Service selects the customer language for new contacts][2]
 
 <!-- Referenced links -->
-[1]:
+[1]: listCustLangs.workWithExternaCategories.md
+[2]: listCustLangs.selectlanguage.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

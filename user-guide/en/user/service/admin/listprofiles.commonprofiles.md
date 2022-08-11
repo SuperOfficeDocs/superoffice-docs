@@ -11,10 +11,10 @@ language: en
 
 # Common profiles
 
-Common profiles are linked to a role and apply to all users who have that role (see [Roles](listRoles.md)). You configure common profiles in the **Show profiles** screen. This screen contains two types of profiles:
+Common profiles are linked to a role and apply to all users who have that role (see [Roles][2]). You configure common profiles in the **Show profiles** screen. This screen contains two types of profiles:
 
 * **System**: These profiles you can configure by following the procedure below.
-* **System screens**: This is a list of screens created using the system designers in SuperOffice Service. You can change these if you have access to **System design** &gt; **Screens** (see [Screens](../blogic/listScreenDefinitions.editScreenDefinition.md)).
+* **System screens**: This is a list of screens created using the system designers in SuperOffice Service. You can change these if you have access to **System design** &gt; **Screens** (see [Screens][1]).
 
 ## Create common profiles
 
@@ -30,7 +30,7 @@ We explain how to create a common profile by using a specific example. In the ex
     * **Enter the label for the field here**: Enter the field name.
     * **Choose field**: Select which field in the database you want to get data from.
 8. Click the **OK**. The new criterion is added below the others.
-9. Click **OK**. The new profile is created. You can now, for example, link it to a specific role (see [Create roles](listRoles.newRole.md)).
+9. Click **OK**. The new profile is created. You can now, for example, link it to a specific role (see [Create roles][3]).
 
 ## Edit common profiles
 
@@ -55,11 +55,15 @@ To delete a profile from SuperOffice Service, do as follows:
 
 ## What would you like to find out more about?
 
-[Personal profiles](listProfiles.personalProfile.md)
-
-[Global profiles](listProfiles.globalProfiles.md)
+* [Personal profiles][4]
+* [Global profiles][5]
 
 <!-- Referenced links -->
+[1]: ../blogic/listScreenDefinitions.editScreenDefinition.md
+[2]: listRoles.md
+[3]: listRoles.newRole.md
+[4]: listProfiles.personalProfile.md
+[5]: listProfiles.globalProfiles.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

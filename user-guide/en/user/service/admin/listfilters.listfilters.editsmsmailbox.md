@@ -24,18 +24,19 @@ SuperOffice Service can import SMS messages. For this to work, you must set up a
 
 4. In the **Priority** list box, select which priority to assign to requests received via SMS.
 
-5. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer language](listCustLangs.md).
+5. In the **Customer language** list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see [Customer language][1].
 
 6. Click **OK**. The SMS mailbox is created.
 
 ## Related topics
 
-[SMS inbox](listFilters.viewSMS.inbox.md)
-
-[SMS outbox](listFilters.viewSMS.md)
+* [SMS inbox][2]
+* [SMS outbox][3]
 
 <!-- Referenced links -->
-[1]:
+[1]: listCustLangs.md
+[2]: listFilters.viewSMS.inbox.md
+[3]: listFilters.viewSMS.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png
