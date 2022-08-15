@@ -11,7 +11,7 @@ language: en
 
 # Create a macro
 
-Macros have a number of functions in SuperOffice. They can be linked to specific [triggers](listEventHandler.md) in the system (such as escalations or new message on request in SuperOffice Service) or be assigned to buttons in defined screens, so that users can click a button to perform a set of actions that are often repeated. This makes request management faster and users avoid unnecessary clicking.
+Macros have a number of functions in SuperOffice. They can be linked to specific [triggers][1] in the system (such as escalations or new message on request in SuperOffice Service) or be assigned to buttons in defined screens, so that users can click a button to perform a set of actions that are often repeated. This makes request management faster and users avoid unnecessary clicking.
 
 For example, you can use macros
 
@@ -28,12 +28,12 @@ For example, you can use macros
 
 We will now create a macro based on the example above.
 
-1. In SuperOffice Service: Select ![icon][img2] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.  
+1. In SuperOffice Service: Select ![icon][img2] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.
     In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
 
 2. Do one of the following:
     * To create a new macro: Click **New macro**.
-    * To edit an existing macro: Click the macro name. See [View a script/macro](View-script-macro.md).
+    * To edit an existing macro: Click the macro name. See [View a script/macro][2].
 
 3. In the **Information** tab, enter "Send request to Accounts Dept." in the **Name** field and enter a description in the field below.
 
@@ -52,10 +52,11 @@ We will now create a macro based on the example above.
 
 9. Click **OK** when you are done.
 
-Some of the more advanced macro functions are described in [Triggers](listEventHandler.md).
+Some of the more advanced macro functions are described in [Triggers][1].
 
 <!-- Referenced links -->
-[1]:
+[1]: listEventHandler.md
+[2]: View-script-macro.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

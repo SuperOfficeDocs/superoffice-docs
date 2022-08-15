@@ -11,7 +11,7 @@ language: en
 
 # Macros and scripts
 
-In the **Macros and scripts** tab you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it (see [View a script/macro](View-script-macro.md)).
+In the **Macros and scripts** tab you will find a list of the scripts and macros in the system, grouped in folders. Click a script or macro in the list to view, edit or run it (see [View a script/macro][1]).
 
 About macros
 
@@ -27,15 +27,22 @@ A script is a small program written to perform specific tasks, and requires prog
 
 In the **Macros and scripts** tab you have the following options:
 
-* **New script**: Click here to create a new script. See [Create a script](listScripts.editScript.md).
-* **New macro**: Click here to create a new macro. See [Create a macro](listScripts.editMacro.md).
-* **New folder**: Click this button to create a new folder. See [Macro/script folder properties](listScripts.editScriptFolder.md).
+* **New script**: Click here to create a new script. See [Create a script][2].
+* **New macro**: Click here to create a new macro. See [Create a macro][3].
+* **New folder**: Click this button to create a new folder. See [Macro/script folder properties][4].
 * **Search**: Click here to search for macros and scripts in the selected folder and sub-folders.
 
 ## What would you like to do now?
 
-[View a script/macro](View-script-macro.md)
+* [View a script/macro][1]
+* [Create a script][2]
+* [Create a macro][3]
 
-[Create a script](listScripts.editScript.md)
+<!-- Referenced links -->
+[1]: View-script-macro.md
+[2]: listScripts.editScript.md
+[3]: listScripts.editMacro.md
+[4]: listScripts.editScriptFolder.md
 
-[Create a macro](listScripts.editMacro.md)
+<!-- Referenced images -->
+[img1]:

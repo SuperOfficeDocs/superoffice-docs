@@ -15,11 +15,11 @@ In the **Edit script** screen you can edit or create a script. Documentation and
 
 To create or edit a script:
 
-1. In SuperOffice Service: Select ![icon][img1] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.  
+1. In SuperOffice Service: Select ![icon][img1] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.
     In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
 2. Do one of the following:
     * To create a new script: Click **New script**.
-    * To edit an existing script: Click the script name. See [View a script/macro](View-script-macro.md).
+    * To edit an existing script: Click the script name. See [View a script/macro][2].
 3. In the **Information** tab, edit or enter data about the script:
     * **Folder**: Select the folder in which you want to save the script.
     * **Name**: The name of the script
@@ -34,6 +34,7 @@ To create or edit a script:
 
 <!-- Referenced links -->
 [1]: ../../../../../docs/automation/crmscript/index.yml
+[2]: View-script-macro.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

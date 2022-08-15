@@ -22,18 +22,18 @@ Triggers are scripts that are executed for specific events in the system, such a
 
 The following tabs are available:
 
-[Macros and scripts](listScripts.md) - Create macros and scripts to automate and schedule tasks in SuperOffice.
-
-[Triggers](listEventHandler.md) - Define that a certain event in the system will trigger one or more predefined actions.
-
-[Scheduled tasks](listScheduledTasks.md) - Specify that a script or macro should be run at specific times.
-
-[Debug sessions](listDebugSessions.viewDebugSession.md) - Find and fix bugs inside your scripts and macros.
-
-[Tracing](Tracing.md) - Record every detail in the execution of a script or macro and save it in a log.
+* [Macros and scripts][1] - Create macros and scripts to automate and schedule tasks in SuperOffice.
+* [Triggers][2] - Define that a certain event in the system will trigger one or more predefined actions.
+* [Scheduled tasks][3] - Specify that a script or macro should be run at specific times.
+* [Debug sessions][4] - Find and fix bugs inside your scripts and macros.
+* [Tracing][5] - Record every detail in the execution of a script or macro and save it in a log.
 
 <!-- Referenced links -->
-[1]:
+[1]: listScripts.md
+[2]: listEventHandler.md
+[3]: listScheduledTasks.md
+[4]: listDebugSessions.viewDebugSession.md
+[5]: Tracing.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

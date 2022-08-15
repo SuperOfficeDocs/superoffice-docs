@@ -28,13 +28,13 @@ We will now create a series of actions based on the example above.
 
 Do as follows:
 
-1. In SuperOffice Service: Select ![icon][img2] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Triggers** tab.  
+1. In SuperOffice Service: Select ![icon][img2] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Triggers** tab.
     In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Triggers** tab.
 2. Click the **New trigger (macro)** button. The **Choose trigger** screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select **Request closed**, so that the macro is run when a request is closed in SuperOffice Service.
 3. Type "request" in the search field and select the trigger called **Request closed**.
 4. Enter a description of the trigger in the **Description** field.
 5. Select **Enabled**.
-6. Select **Change a request** under **Choose action type** below. This takes you to the **Change a request** tab.  
+6. Select **Change a request** under **Choose action type** below. This takes you to the **Change a request** tab.
     This will be the first action in the macro. The main purpose of this action is to fetch the request, so that the various values (ID, title, contact name and so on) can be used in the next actions we will create.
 7. Optional: Check **Internal message**, and enter, for example: "Request closed and confirmation sent to customer."
 8. Click **Apply**.

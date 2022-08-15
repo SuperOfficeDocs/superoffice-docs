@@ -20,9 +20,10 @@ To go to the **Macros and scripts** tab:
 * In SuperOffice Service: Select ![icon][img3] **System settings** &gt; **System design** &gt; **CRMScript** and go to the **Macros and scripts** tab.
 * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
 
-You can also click ![icon][img2] **Trace script** to start [tracing a script](Tracing.md).
+You can also click ![icon][img2] **Trace script** to start [tracing a script][1].
 
 <!-- Referenced links -->
+[1]: Tracing.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-debug.png
