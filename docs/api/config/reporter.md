@@ -29,5 +29,12 @@ Configuration values related to Reporter.
 
 See the [NetServer Core reference][1] for details about handling this programmatically.
 
+> [!NOTE]
+> Declaration is needed in the top of the web config file
+
+```XML
+<section name="Reporter" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+```
+
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.Reporter>
