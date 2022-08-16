@@ -11,9 +11,9 @@ language: en
 
 # View search results for companies
 
-Once you have got a list of companies by following the procedure under [Search for companies](findContacts.md), you will be in a screen containing the following sections:
+Once you have got a list of companies by following the procedure under [Search for companies][1], you will be in a screen containing the following sections:
 
-* **Criteria**: Here you enter search criteria to filter out which companies you wish to see. See [Search in SuperOffice Service](../search/index.md).
+* **Criteria**: Here you enter search criteria to filter out which companies you wish to see. See [Search in SuperOffice Service][2].
 * **Result**: This contains all the companies that match your search criteria. See [List search results for companies &gt; Result](#result).
 * **Preview**: Displays the requests and contacts linked to the company selected under **Result**. See [List search results for companies &gt; Preview](#preview).
 
@@ -23,7 +23,7 @@ Contains a list of companies that match the criteria specified above. Here you c
 
 * Sort the companies by clicking the appropriate column heading.
 * Select a row to display the requests and contacts linked to that company, under **Preview**.
-* You can open a screen of information about the company by double-clicking the relevant row. See [View companies](viewCompany.md).
+* You can open a screen of information about the company by double-clicking the relevant row. See [View companies][3].
 
 Under **Result** there are also the following buttons:
 
@@ -32,8 +32,16 @@ Under **Result** there are also the following buttons:
 
 ## Preview
 
-This section of the screen displays the requests and contacts linked to the company selected under **Result**. Here you have the same options as described under [View companies](viewCompany.md).
+This section of the screen displays the requests and contacts linked to the company selected under **Result**. Here you have the same options as described under [View companies][3].
 
 ## What would you like to do now?
 
-* [View companies](viewCompany.md)
+* [View companies][3]
+
+<!-- Referenced links -->
+[1]: findContacts.md
+[2]: ../search/index.md
+[3]: viewCompany.md
+
+<!-- Referenced images -->
+[img1]:

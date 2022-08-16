@@ -21,4 +21,10 @@ You can add extra browser tabs in SuperOffice Service. You can add browser tabs 
 
 In this way, SuperOffice Service can be adapted so that the information is where the users need it.
 
-You can add the same type of content as described for [Extra menus](listExtraMenus.md).
+You can add the same type of content as described for [Extra menus][1].
+
+<!-- Referenced links -->
+[1]: listExtraMenus.md
+
+<!-- Referenced images -->
+[img1]:

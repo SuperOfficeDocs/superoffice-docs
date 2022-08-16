@@ -12,9 +12,9 @@ language: en
 # Add function to menu button (Actions)
 
 > [!NOTE]
-> You can also add a macro to the **Actions** button when you create or edit a macro. See [Create a macro](../automation/listScripts.editMacro.md).
+> You can also add a macro to the **Actions** button when you create or edit a macro. See [Create a macro][1].
 
-The procedure below describes how to add a macro to the **Actions** button in the **Company** screen, **Contact** screen or **Request** screen, or **Message** tab. To learn more about other available options in this screen, see [Menu properties](listExtraMenus.editExtraMenu.md).
+The procedure below describes how to add a macro to the **Actions** button in the **Company** screen, **Contact** screen or **Request** screen, or **Message** tab. To learn more about other available options in this screen, see [Menu properties][2].
 
 Do as follows:
 
@@ -28,6 +28,8 @@ Do as follows:
 8. Open a request, contact, company or message, click the ![icon][img2] **Actions** button and check that the button is displayed and functions as desired.
 
 <!-- Referenced links -->
+[1]: ../automation/listScripts.editMacro.md
+[2]: listExtraMenus.editExtraMenu.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

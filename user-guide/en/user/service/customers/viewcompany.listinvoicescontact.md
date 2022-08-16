@@ -11,14 +11,14 @@ language: en
 
 # View invoice data for companies
 
-When processing requests, you have the option of registering invoice data as you proceed (see [Invoice information](../request/newticket.md#invoice-information)). When the request is closed, the customer can be invoiced for the work performed.
+When processing requests, you have the option of registering invoice data as you proceed (see [Invoice information][1]). When the request is closed, the customer can be invoiced for the work performed.
 
 > [!NOTE]
-> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types](../topics/../admin/listInvoiceTypes.md).
+> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types][2].
 
 To view invoice information that has been registered for a specific company, do as follows:
 
-1. Open the **Company** screen as described under [View companies](viewCompany.md).
+1. Open the **Company** screen as described under [View companies][3].
 
 2. Click the ![icon][img1] **Actions** button and select **Invoices**. The **Invoices for ...** screen appears. This contains both requests that include messages with invoiceable hours, and registered invoice items, in chronological order. Note in particular these columns:
     * **Credit**: Shows the total amount for invoicing.
@@ -31,7 +31,9 @@ To view invoice information that has been registered for a specific company, do 
 4. Click **Return to company** to go back to the **View company** screen.
 
 <!-- Referenced links -->
-[1]:
+[1]: ../request/newticket.md#invoice-information
+[2]: ../topics/../admin/listInvoiceTypes.md
+[3]: viewCompany.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

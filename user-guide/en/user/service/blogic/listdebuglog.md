@@ -11,4 +11,10 @@ language: en
 
 # Debug log
 
-Here you can search in the debug logs. See [Search in SuperOffice Service](../search/index.md).
+Here you can search in the debug logs. See [Search in SuperOffice Service][1].
+
+<!-- Referenced links -->
+[1]: ../search/index.md
+
+<!-- Referenced images -->
+[img1]:

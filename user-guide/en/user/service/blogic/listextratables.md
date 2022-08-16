@@ -25,6 +25,12 @@ This screen displays both standard tables, predefined in the system and which fo
 
 ## What would you like to do now?
 
-[Define extra tables](listExtraTables.editExtraTable.md)
+* [Define extra tables][1]
+* [Define extra fields][2]
 
-[Define extra fields](listExtraTables.listFields.editField.md)
+<!-- Referenced links -->
+[1]: listExtraTables.editExtraTable.md
+[2]: listExtraTables.listFields.editField.md
+
+<!-- Referenced images -->
+[img1]:
