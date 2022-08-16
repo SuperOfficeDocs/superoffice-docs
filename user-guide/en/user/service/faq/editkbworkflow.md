@@ -55,15 +55,16 @@ You can both change the name of a stage and alter which users are to have access
 
 ## Publish via workflow
 
-1. Open the FAQ entry. See [View FAQ entries](viewKbEntry.md).
-2. If you want to adjust anything before publishing, follow the procedure under [Publish FAQ entries](publishFAQ.md).
+1. Open the FAQ entry. See [View FAQ entries][1].
+2. If you want to adjust anything before publishing, follow the procedure under [Publish FAQ entries][2].
 3. Click the **Move forward in workflow** button until **Published** is shown in the **Workflow stage** field in the **Details** tab.
 
 > [!TIP]
 > You can cancel publishing of the FAQ entry by clicking the **Move backward in workflow** button.
 
 <!-- Referenced links -->
-[1]:
+[1]: viewKbEntry.md
+[2]: publishFAQ.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
