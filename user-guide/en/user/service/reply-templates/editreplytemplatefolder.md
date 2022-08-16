@@ -30,7 +30,7 @@ Before you delete a reply template folder, you need to remove all the entries in
 
 ## What would you like to do now?
 
-[Create reply templates][4]
+* [Create reply templates][4]
 
 <!-- Referenced links -->
 [1]: newReplyTemplate.md

@@ -18,14 +18,20 @@ This area is used to configure database integrations between the system and othe
 
 ## What would you like to find out more about?
 
-[Agents](listDbiAgents.listDbiAgents.md)
+* [Agents][1]
+* [Agent properties][2]
+* [Edit agent][3]
+* [New agent schedule][4]
+* [Agent Schedule properties][5]
+* [Agent field properties][6]
 
-[Agent properties](listDbiAgents.viewDbiAgent.md)
+<!-- Referenced links -->
+[1]: listDbiAgents.listDbiAgents.md
+[2]: listDbiAgents.viewDbiAgent.md
+[3]: listDbiAgents.editDbiAgent.md
+[4]: listDbiAgents.newDbiAgentSchedule.md
+[5]: listDbiAgents.editDbiAgentSchedule.md
+[6]: listDbiAgents.editDbiAgentField.md
 
-[Edit agent](listDbiAgents.editDbiAgent.md)
-
-[New agent schedule](listDbiAgents.newDbiAgentSchedule.md)
-
-[Agent Schedule properties](listDbiAgents.editDbiAgentSchedule.md)
-
-[Agent field properties](listDbiAgents.editDbiAgentField.md)
+<!-- Referenced images -->
+[img1]:
