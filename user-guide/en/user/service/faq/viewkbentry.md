@@ -40,4 +40,3 @@ To publish or unpublish the current FAQ entry, click the **Move forward in workf
 [7]: editKbWorkflow.md
 
 <!-- Referenced images -->
-[img1]:

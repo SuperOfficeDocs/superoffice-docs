@@ -58,7 +58,7 @@ To create a new mailbox:
 
 17. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template (see [Create reply template with automatic FAQ reply][4]). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
 
-18. <!-- onsite--> Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon](../../../../media/icons/btn-add.png).
+18. <!-- onsite--> Go to the **Alias** tab. Here you can enter any e-mail alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an e-mail address and then clicking ![icon][img2].
 
 19. **Import auto-replies and system messages**: By default, e-mails that contain out of office messages, system messages and other irrelevant messages are not imported. If you do want to import such e-mails, you can check this option.
 
@@ -81,3 +81,4 @@ To create a new mailbox:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../../media/icons/btn-add.png

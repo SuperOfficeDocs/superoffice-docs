@@ -63,6 +63,7 @@ Normally, contacts are registered by the system when they send in mails, but the
 <!-- Referenced links -->
 [1]: newCompany.md
 [2]: viewCustomer.editCustomer.md
+
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
 [img2]: ../../../../media/icons/btn-delete.png

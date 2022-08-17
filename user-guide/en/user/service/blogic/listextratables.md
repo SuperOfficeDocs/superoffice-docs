@@ -33,4 +33,3 @@ This screen displays both standard tables, predefined in the system and which fo
 [2]: listExtraTables.listFields.editField.md
 
 <!-- Referenced images -->
-[img1]:

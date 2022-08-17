@@ -24,4 +24,3 @@ A global profile is used as the default profile and applies to all those who do 
 [3]: listProfiles.commonProfiles.md
 
 <!-- Referenced images -->
-[img1]:

@@ -58,7 +58,6 @@ To create extra fields in tables:
 6. Click **OK** to save, and then ![icon][img3]**Restart NetServer**.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

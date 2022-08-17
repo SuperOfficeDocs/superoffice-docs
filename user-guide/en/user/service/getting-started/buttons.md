@@ -25,11 +25,12 @@ The global buttons appear throughout the SuperOffice Service interface:
 
 ## Related topics
 
-[Buttons in the Top bar](buttons.topbar.md)
+[Buttons in the Top bar][3]
 
 <!-- Referenced links -->
 [1]: ../search/index.md
 [2]: ../admin/listProfiles.md
+[3]: buttons.topbar.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

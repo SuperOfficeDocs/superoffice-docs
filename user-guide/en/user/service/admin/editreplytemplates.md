@@ -19,7 +19,7 @@ In the **System templates** screen, you can specify which reply templates the sy
 
 In the **Requests** tab, you have the following options:
 
-* **Reply template for notification of open requests**: Shows the reply template to use for notifying users of open requests. This is an e-mail that is sent each evening to the users who have open requests that are several days old. The number of days is set in the [**Settings** tab](editInfo.settings.md) in the **System** screen.
+* **Reply template for notification of open requests**: Shows the reply template to use for notifying users of open requests. This is an e-mail that is sent each evening to the users who have open requests that are several days old. The number of days is set in the [**Settings** tab][3] in the **System** screen.
 * **Reply template for notification of new message**: Shows the reply template to use to notify users when a new message arrives on a request.
 * **Reply template for notification of activated request**: Shows the reply template to use to notify users that a postponed request has been activated.
 * **Reply template for notification of escalated request**: Shows the reply template to use to notify users that a request has been escalated.
@@ -76,6 +76,6 @@ In the **Weekly stats** tab, you have the following options:
 <!-- Referenced links -->
 [1]: ../reply-templates/index.md
 [2]: listfilters.listfilters.md
+[3]: editInfo.settings.md
 
 <!-- Referenced images -->
-[img1]: media/

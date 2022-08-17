@@ -55,4 +55,3 @@ Before you delete an FAQ folder, you need to remove all the entries in it. You d
 [3]: newKbEntry.md
 
 <!-- Referenced images -->
-[img1]:

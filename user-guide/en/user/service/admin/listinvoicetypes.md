@@ -25,4 +25,3 @@ Invoice types are used as a basis for invoice lines which are entered in request
 [2]: listInvoiceTypes.deleteInvoiceType.md
 
 <!-- Referenced images -->
-[img1]:

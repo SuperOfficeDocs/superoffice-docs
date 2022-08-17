@@ -27,7 +27,6 @@ To add a translation:
 Try to change the language settings (see **Local settings** in the **Personal settings** menu) and check that your translation displays for the relevant language(s).
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

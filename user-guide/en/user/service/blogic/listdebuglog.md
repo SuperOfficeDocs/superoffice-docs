@@ -17,4 +17,3 @@ Here you can search in the debug logs. See [Search in SuperOffice Service][1].
 [1]: ../search/index.md
 
 <!-- Referenced images -->
-[img1]:

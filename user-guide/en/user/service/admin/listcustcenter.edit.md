@@ -33,7 +33,6 @@ Do as follows:
 If you later want to revert a page to the original contents, open the page and click **Restore default**.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

@@ -28,4 +28,3 @@ Roles are used as a tool for administrating users. You can link different proper
 [2]: listRoles.editRole.md
 
 <!-- Referenced images -->
-[img1]:

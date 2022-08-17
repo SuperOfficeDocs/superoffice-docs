@@ -29,4 +29,3 @@ In the **User information** tab in the **Edit users** screen, you can edit the f
 [3]: editUser.helpOthergroups.md
 
 <!-- Referenced images -->
-[img1]:

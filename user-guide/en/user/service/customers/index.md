@@ -32,4 +32,3 @@ Requests can be linked to contacts, who in turn can belong to a company. This me
 [7]: newCompany.md
 
 <!-- Referenced images -->
-[img1]:

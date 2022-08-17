@@ -34,4 +34,3 @@ To find contacts that are registered in the system:
 [2]: ../search/index.md
 
 <!-- Referenced images -->
-[img1]:

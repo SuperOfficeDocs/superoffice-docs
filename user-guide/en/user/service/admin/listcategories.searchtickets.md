@@ -26,10 +26,11 @@ From the **Categories** screen, it is also possible to search for requests in a 
 
 ## Related topics
 
-[Using tags in requests](../request/tags.md)
+[Using tags in requests][2]
 
 <!-- Referenced links -->
 [1]: ../request/listTickets.findTickets.md
+[2]: ../request/tags.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

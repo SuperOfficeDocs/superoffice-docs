@@ -54,7 +54,6 @@ Do as follows:
 You have now created a macro that sends an e-mail with "Request closed" to the customer when a request is closed. This trigger will be active immediately if you checked **Enabled** at the top.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-workflow.png

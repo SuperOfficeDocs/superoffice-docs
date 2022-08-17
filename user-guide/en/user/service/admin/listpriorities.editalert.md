@@ -23,4 +23,3 @@ For each priority you can define escalation levels, so that the system forwards 
 [2]: listPriorities.editAlert.deleteAlert.md
 
 <!-- Referenced images -->
-[img1]:

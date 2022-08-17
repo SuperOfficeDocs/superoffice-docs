@@ -41,4 +41,3 @@ Here you can view the details of the selected screen.
 [6]: listScreenDefinitions.viewScreenDefinitionDesign.md
 
 <!-- Referenced images -->
-[img1]:

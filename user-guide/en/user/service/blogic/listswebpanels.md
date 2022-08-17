@@ -27,4 +27,3 @@ You can add the same type of content as described for [Extra menus][1].
 [1]: listExtraMenus.md
 
 <!-- Referenced images -->
-[img1]:

@@ -23,4 +23,3 @@ The default priorities included with the system are **High**, **Medium** and **L
 [2]: listPriorities.listPriorities.deletePriority.md
 
 <!-- Referenced images -->
-[img1]:

@@ -53,4 +53,3 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [16]: listInvoiceTypes.md
 
 <!-- Referenced images -->
-[img1]:

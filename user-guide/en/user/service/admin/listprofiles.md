@@ -41,4 +41,3 @@ Using profiles, SuperOffice Service can be adapted to the needs of individual us
 [3]: listProfiles.globalProfiles.md
 
 <!-- Referenced images -->
-[img1]:

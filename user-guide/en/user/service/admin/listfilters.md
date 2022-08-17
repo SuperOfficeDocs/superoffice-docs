@@ -33,4 +33,3 @@ In the **E-mail** screen, you control the mechanisms that manage inbound and out
 [6]: listFilters.viewBlocked.md
 
 <!-- Referenced images -->
-[img1]:

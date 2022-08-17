@@ -17,4 +17,3 @@ This screen is used to create or edit an invoice entry. See [View invoice data f
 [1]: viewCustomer.listInvoices.md
 
 <!-- Referenced images -->
-[img1]:

@@ -17,4 +17,3 @@ See [Define extra fields][1].
 [1]: listExtraTables.listFields.editField.md
 
 <!-- Referenced images -->
-[img1]:

@@ -39,4 +39,3 @@ The **E-mail filters** tab contains a list of existing e-mail filters. This list
 [2]: listFilters.listMSFilter.deleteMSFilter.md
 
 <!-- Referenced images -->
-[img1]:

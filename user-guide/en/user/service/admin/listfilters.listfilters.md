@@ -32,4 +32,3 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 [3]: listFilters.listFilters.editFacebookApplication.md
 
 <!-- Referenced images -->
-[img1]:

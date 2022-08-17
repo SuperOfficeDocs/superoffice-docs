@@ -47,4 +47,3 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
 [2]: ../request/listTickets.useLists.md
 
 <!-- Referenced images -->
-[img1]:

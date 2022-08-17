@@ -33,4 +33,3 @@ When a request handler creates a suggestion for an FAQ entry (see [Create FAQ en
 [3]: editKbWorkflow.md
 
 <!-- Referenced images -->
-[img1]:

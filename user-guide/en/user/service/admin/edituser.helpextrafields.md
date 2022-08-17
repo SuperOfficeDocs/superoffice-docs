@@ -17,4 +17,3 @@ In the **Extra fields** tab in the **Edit users** screen, you can edit any extra
 [1]: ../blogic/listExtraTables.listFields.md
 
 <!-- Referenced images -->
-[img1]:

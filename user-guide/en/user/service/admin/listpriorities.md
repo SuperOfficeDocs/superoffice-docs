@@ -51,4 +51,3 @@ An example of this is user-support and SLA agreements which specify that the sup
 [2]: listPriorities.editAlert.md
 
 <!-- Referenced images -->
-[img1]:

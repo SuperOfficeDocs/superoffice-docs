@@ -23,7 +23,6 @@ To delete a custom request status from SuperOffice Service, do as follows:
 > Since every internal status must be linked to at least one request status, you cannot delete the only request status linked to an internal status. You cannot delete statuses that are defined as defaults, i.e. those with a check mark in the **Default** column in the **Request status** screen.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

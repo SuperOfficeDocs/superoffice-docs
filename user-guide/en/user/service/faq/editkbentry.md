@@ -24,4 +24,3 @@ If you need to edit an FAQ entry, for example to add more detail to the answer, 
 [1]: newKbEntry.md
 
 <!-- Referenced images -->
-[img1]:

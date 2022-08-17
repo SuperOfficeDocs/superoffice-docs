@@ -45,7 +45,6 @@ To create a new escalation level:
 6. Click **OK**. The escalation level is created, and is displayed under the selected priority, in the **Priorities** screen.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

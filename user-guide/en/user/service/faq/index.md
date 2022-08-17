@@ -41,4 +41,3 @@ FAQs are closely integrated with the request handling: customer enquiries will o
 [9]: editKbWorkflow.md
 
 <!-- Referenced images -->
-[img1]:

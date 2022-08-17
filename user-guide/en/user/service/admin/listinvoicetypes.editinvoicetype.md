@@ -21,7 +21,6 @@ To create a new invoice type:
 6. Click **OK**. The invoice type is created.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

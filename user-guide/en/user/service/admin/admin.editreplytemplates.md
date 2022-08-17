@@ -79,4 +79,3 @@ In the **Weekly stats** tab, you have the following options:
 [3]: listfilters.listfilters.md
 
 <!-- Referenced images -->
-[img1]: media/

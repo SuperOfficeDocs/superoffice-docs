@@ -41,7 +41,6 @@ When you delete a folder, all its contents (selections, FAQ entries, reply templ
 4. Click **OK** when you are asked if you want to delete the folder. The folder and its contents are removed from SuperOffice Service.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/add-folder.png

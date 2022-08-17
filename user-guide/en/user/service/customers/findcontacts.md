@@ -32,4 +32,3 @@ To find companies that are registered in the system:
 [2]: findContacts.showResultsContacts.md
 
 <!-- Referenced images -->
-[img1]:

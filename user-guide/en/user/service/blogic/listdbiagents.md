@@ -34,4 +34,3 @@ This area is used to configure database integrations between the system and othe
 [6]: listDbiAgents.editDbiAgentField.md
 
 <!-- Referenced images -->
-[img1]:

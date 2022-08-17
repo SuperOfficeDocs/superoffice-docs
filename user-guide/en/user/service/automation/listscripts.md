@@ -45,4 +45,3 @@ In the **Macros and scripts** tab you have the following options:
 [4]: listScripts.editScriptFolder.md
 
 <!-- Referenced images -->
-[img1]:

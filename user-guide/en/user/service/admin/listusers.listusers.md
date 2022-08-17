@@ -30,4 +30,3 @@ Clicking a user takes you to the **Edit users** screen, which contains all the i
 [1]: listUsers.listUsers.editUser.md
 
 <!-- Referenced images -->
-[img1]:

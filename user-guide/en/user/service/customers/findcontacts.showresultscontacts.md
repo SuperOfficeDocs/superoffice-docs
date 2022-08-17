@@ -44,4 +44,3 @@ This section of the screen displays the requests and contacts linked to the comp
 [3]: viewCompany.md
 
 <!-- Referenced images -->
-[img1]:

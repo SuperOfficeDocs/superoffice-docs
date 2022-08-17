@@ -29,4 +29,3 @@ The **System** screen is used to configure some of the key characteristics of Su
 [4]: editInfo.sms.md
 
 <!-- Referenced images -->
-[img1]:

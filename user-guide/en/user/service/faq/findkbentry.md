@@ -25,4 +25,3 @@ If there are lots of FAQ entries in a folder, it may be difficult to find the on
 [2]: editKbCategory.md
 
 <!-- Referenced images -->
-[img1]:

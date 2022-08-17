@@ -44,7 +44,6 @@ Click a task in the list to edit its properties, such as when it was last execut
 12. Click **OK**. The task is added to the list, and you can see the status and time of the next execution of the task.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png
