@@ -21,4 +21,3 @@ See also [Send a quote][1].
 [1]: quote-send.md
 
 <!-- Referenced images -->
-[img1]:

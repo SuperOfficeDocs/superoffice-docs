@@ -31,4 +31,3 @@ You can copy a quote from another sale. The sale you copy the quote from must ha
 [1]: quote-create.md
 
 <!-- Referenced images -->
-[img1]:

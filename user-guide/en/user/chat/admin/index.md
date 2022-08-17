@@ -25,4 +25,3 @@ Your agents can access chat via the Navigator in both SuperOffice CRM and SuperO
 [2]: Add-JavaScript.md
 
 <!-- Referenced images -->
-[img1]: media/

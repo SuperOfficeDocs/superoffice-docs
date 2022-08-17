@@ -27,4 +27,3 @@ If a connection has already been created, you can click **Sync Now** to synchron
 [3]: ERP-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]:

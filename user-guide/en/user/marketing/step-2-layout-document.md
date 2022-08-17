@@ -21,4 +21,3 @@ language: en
 [1]: Step-3-Content-Document.md
 
 <!-- Referenced images -->
-[img1]:

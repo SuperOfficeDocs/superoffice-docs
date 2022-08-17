@@ -58,4 +58,3 @@ Click **Next** to go to **Step 4: Recipients**. You can still go back to the **C
 [2]: Work-with-tracked-links-after-mailing.md
 
 <!-- Referenced images -->
-[img1]:

@@ -36,4 +36,3 @@ Creating a form follows roughly this workflow:
 [6]: form-submissions-process.md
 
 <!-- Referenced images -->
-[img1]:

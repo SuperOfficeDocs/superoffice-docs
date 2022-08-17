@@ -27,4 +27,3 @@ Some of the most important and useful functions in SuperOffice Marketing deal wi
 [5]: Manage-bounces.md
 
 <!-- Referenced images -->
-[img1]:

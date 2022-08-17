@@ -20,4 +20,3 @@ language: en
 [1]: Step-3-Content-Formatted-email.md
 
 <!-- Referenced images -->
-[img1]:

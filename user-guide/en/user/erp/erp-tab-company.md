@@ -25,4 +25,3 @@ If your organisation has a licence for SuperOffice Integration Server, the **ERP
 [3]: ERP-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]:

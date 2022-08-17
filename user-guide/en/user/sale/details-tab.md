@@ -47,7 +47,6 @@ This field contains a predefined list of departments that can be responsible for
 In the user-defined fields you can enter further information about the sale.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/55-chap7-sale-new-details.bmp

@@ -21,4 +21,3 @@ A mailing is usually handled in two steps:
 [2]: Followup-mailings.md
 
 <!-- Referenced images -->
-[img1]:

@@ -128,4 +128,3 @@ You can now change the stage to **Sold**. Once all the required follow-ups and d
 [3]: Working-with-sales-guide.md
 
 <!-- Referenced images -->
-[img1]:

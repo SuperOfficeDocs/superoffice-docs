@@ -43,4 +43,3 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 [2]: Add-recipients-to-selections-or-projects.md
 
 <!-- Referenced images -->
-[img1]:

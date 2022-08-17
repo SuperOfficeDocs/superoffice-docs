@@ -39,4 +39,3 @@ Warnings and messages may be due to, for example:
 [1]: quote-approve.md
 
 <!-- Referenced images -->
-[img1]:

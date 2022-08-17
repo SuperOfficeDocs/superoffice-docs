@@ -40,4 +40,3 @@ The quote is marked as **Sent** and is archived as a PDF document in the **Activ
 [3]: quote-sent-edit.md
 
 <!-- Referenced images -->
-[img1]:

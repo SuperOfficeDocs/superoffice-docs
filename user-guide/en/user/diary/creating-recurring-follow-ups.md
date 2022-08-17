@@ -76,7 +76,6 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 * [Stop repeating follow-ups](Stopping-recurring-follow-ups.md)
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/question.bmp

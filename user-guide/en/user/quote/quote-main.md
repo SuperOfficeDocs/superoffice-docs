@@ -29,4 +29,3 @@ The process of creating and sending a quote can be summed up as follows:
 [5]: quote-create-order.md
 
 <!-- Referenced images -->
-[img1]:

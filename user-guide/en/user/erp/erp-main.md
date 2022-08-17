@@ -29,4 +29,3 @@ On the main **Company**, **Contact** and **Project** cards, the **ERP** tab is d
 [3]: ERP-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]:

@@ -35,4 +35,3 @@ The first step in creating an SMS mailing, is called **Setup**. Here you can set
 [1]: Step-2-Template-SMS.md
 
 <!-- Referenced images -->
-[img1]:

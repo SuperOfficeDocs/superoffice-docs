@@ -36,4 +36,3 @@ You can use SuperOffice CRM template variables in your document to insert custom
 [2]: ../diary/template-variables.md
 
 <!-- Referenced images -->
-[img1]:

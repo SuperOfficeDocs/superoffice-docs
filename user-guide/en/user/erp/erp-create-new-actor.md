@@ -30,4 +30,3 @@ If you want to connect, for example, a SuperOffice company to a customer in the 
 [1]: ERP-connect.md
 
 <!-- Referenced images -->
-[img1]:

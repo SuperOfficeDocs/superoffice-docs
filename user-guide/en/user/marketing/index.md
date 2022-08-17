@@ -49,4 +49,3 @@ To get started, go to [Getting started][4].
 [6]: Followup-mailings.md
 
 <!-- Referenced images -->
-[img1]:

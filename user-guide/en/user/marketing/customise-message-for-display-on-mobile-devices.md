@@ -18,7 +18,6 @@ Click **Mobile** ( ![icon][img1] ) in the global menu to see what the appearance
 To adjust mobile-specific settings for a message, select a section in the message and click **Mobile** in the side-panel. You can now define the formatting for displaying the message on mobile devices, and also select which elements (such as images) to exclude from mobile devices.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/NEWbtn-Mobile.png

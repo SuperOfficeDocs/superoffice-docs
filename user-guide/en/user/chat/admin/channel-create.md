@@ -135,7 +135,6 @@ The following fields are available in the **Post-chat form** tab:
 The preview on the right displays the chat window with the current settings.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

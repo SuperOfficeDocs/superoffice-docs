@@ -46,4 +46,3 @@ See also
 [8]: quote-create-order.md
 
 <!-- Referenced images -->
-[img1]:

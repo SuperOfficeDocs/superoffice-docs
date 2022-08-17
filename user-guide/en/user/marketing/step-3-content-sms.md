@@ -27,4 +27,3 @@ In the **Content** step you enter the content of the SMS.
 [3]: Step-4-Recipients-SMS.md
 
 <!-- Referenced images -->
-[img1]:

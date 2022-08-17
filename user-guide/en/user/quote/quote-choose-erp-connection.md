@@ -19,4 +19,3 @@ Once you have selected an ERP connection, you can continue to [create a quote][1
 [1]: quote-create.md
 
 <!-- Referenced images -->
-[img1]:

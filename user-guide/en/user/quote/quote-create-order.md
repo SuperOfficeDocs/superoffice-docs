@@ -37,4 +37,3 @@ If SuperOffice CRM is connected to an ERP system (either using the built-in solu
 [2]: quote-product-warnings.md
 
 <!-- Referenced images -->
-[img1]:

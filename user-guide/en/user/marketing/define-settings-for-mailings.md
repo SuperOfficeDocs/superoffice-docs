@@ -50,4 +50,3 @@ For information about additional modules, see [SMS][1].
 [1]: ../service/admin/editInfo.sms.md
 
 <!-- Referenced images -->
-[img1]:

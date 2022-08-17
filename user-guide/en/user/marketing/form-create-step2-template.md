@@ -21,4 +21,3 @@ language: en
 [1]: form-create-step3-content.md
 
 <!-- Referenced images -->
-[img1]:

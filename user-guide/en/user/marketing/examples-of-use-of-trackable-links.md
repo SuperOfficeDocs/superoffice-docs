@@ -37,4 +37,3 @@ These are just a few examples of productive use of links in SuperOffice Marketin
 [1]: Define-link-actions.md
 
 <!-- Referenced images -->
-[img1]:

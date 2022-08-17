@@ -27,4 +27,3 @@ language: en
 [4]: Work-with-tracked-links-after-mailing.md
 
 <!-- Referenced images -->
-[img1]:

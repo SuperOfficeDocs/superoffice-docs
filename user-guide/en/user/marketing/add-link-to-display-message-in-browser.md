@@ -26,7 +26,6 @@ If the recipient has problems displaying the entire message in his or her e-mail
 5. Click **Save**. The link is inserted in the message.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/newbtn-link.png

@@ -45,4 +45,3 @@ The first step in creating an e-mail mailing, is called **Setup**. Here you can 
 [2]: Step-2-Layout-formatted-email.md
 
 <!-- Referenced images -->
-[img1]:

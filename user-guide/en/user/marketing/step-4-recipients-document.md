@@ -40,4 +40,3 @@ Click **Next** to go to [Step 5: Confirm][1]. You can still revisit the **Recipi
 [1]: Step-5-Confirm-Document.md
 
 <!-- Referenced images -->
-[img1]:

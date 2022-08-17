@@ -28,7 +28,6 @@ In SuperOffice Service you can now quickly access the record by clicking **Marke
 2. Click the favourites icon ( ![icon][img2] ) in the header. The icon changes to ![icon][img1].
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/favorite-inactive.png
