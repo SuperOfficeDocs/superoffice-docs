@@ -55,6 +55,10 @@ This can be changed either by a SQL statement (requires access to SQL database)
 **Requirements:**
 
 * Onsite customers who use SuperOffice G9 9.2 R10 or newer
+* Unique/separate serial number for each site/DB to use OAuth/AccessGateway
+  * Only the first site that tries to register with a given serial number will register successfully
+  * Alternatively for those who does not use separate serial number:
+    * use app passwords instead of oauth2 in the second (...or third, or all) sites
 * Microsoft 365 (Microsoft® Exchange Online)
 * MX Record pointing to the Microsoft® Exchange Online server
 
