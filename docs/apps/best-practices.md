@@ -357,6 +357,8 @@ Read about [effective visual design][6].
 
 * Provide SuperOffice with URLs to your application **documentation**. Links to the documentation will appear in the App Store.
 
+    
+
 <!-- Referenced links -->
 [1]: tenant-status/status-page.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
