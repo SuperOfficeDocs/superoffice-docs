@@ -24,5 +24,5 @@ jobs:
       - name: Install markdownlint
         run: npm install -g markdownlint-cli
       - name: Run Markdownlint
-        run: markdownlint -f -i *.cs *.xml *.yml --disable MD013 MD041 -c ${GITHUB_WORKSPACE}/markdownlint.yml ${GITHUB_WORKSPACE}/docs
-      #  -f -i *.cs *.xml --disable MD013 MD041 -c  .markdownlint.yaml PATH
+        run: markdownlint -f -i *.cs *.xml *.yml --disable MD013 MD041 -c ${GITHUB_WORKSPACE}/.markdownlint.yaml ${GITHUB_WORKSPACE}/docs
+      #  -f -i *.cs *.xml --disable MD013 MD041 -c .markdownlint.yaml PATH
