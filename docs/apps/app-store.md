@@ -14,6 +14,8 @@ so.client: online
 
 [!include[ALT](../includes/def-app-store.md)]
 
+<p>Test inline html</p>
+
 Customers can browse the store to find a range of applications made available from both SuperOffice and our partners.
 
 ## Open to all SuperOffice CRM Online customers
