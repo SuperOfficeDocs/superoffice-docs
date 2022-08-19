@@ -44,6 +44,7 @@ You can now click the link - the **Appointment** dialog appears, and the web pag
 
 > [!TIP]
 > You can also issue an SoProtocol from a web panel use the [CrossMessaging API][3].
+>   
 
 <!-- Referenced links -->
 [2]: ../web-panels/index.md
