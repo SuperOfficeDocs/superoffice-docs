@@ -18,8 +18,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@v3.0.1
+      - uses: actions/setup-node@v3
         with:
-          files: ./docs
-          config_file: .markdownlint.yaml
+          node-version: '16'
+      - name: Install markdownlint
+        run: npm install -g markdownlint-cli
+      - name: Run Markdownlint
+        run: markdownlint -f -i *.cs *.xml *.yml --disable MD013 MD041 -c ${GITHUB_WORKSPACE}/markdownlint.yml ${GITHUB_WORKSPACE}/docs
+      #  -f -i *.cs *.xml --disable MD013 MD041 -c  .markdownlint.yaml PATH
