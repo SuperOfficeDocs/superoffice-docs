@@ -356,7 +356,6 @@ Read about [effective visual design][6].
 * Offer **easy access** to a knowledge base or to support pages from your application.
 
 * Provide SuperOffice with URLs to your application **documentation**. Links to the documentation will appear in the App Store.
-
     
 <!-- Referenced links -->
 [1]: tenant-status/status-page.md
