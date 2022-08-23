@@ -97,7 +97,8 @@ When the user signs in, the domain of the username (the part after the @ sign) w
 
 Primary domain registration is complete!
 
-After registering the IDP, existing password users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts.
+After registering the IDP, existing password users have to sign in once to SuperOffice, to [complete the transition][3] from password to IDP for their accounts. New users added will be able to log in directly. Do note "Send welcome emails to new users" is 'on' by default.
+The administrator can choose whether or not new users shall receive a welcome email with sign-in info when their account is created. Read more here: [send welcome emails][6].
 
 ## Register additional domains
 
@@ -133,6 +134,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 [3]: complete-user-transition.md
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/domains-manage/
 [5]: custom-domains-registration-form.md
+[6]: https://docs.superoffice.com/online/identity/user/send-welcome-emails.html
 
 <!-- Referenced images -->
 [img1]: media/choose-idp.png
