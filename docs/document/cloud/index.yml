@@ -20,6 +20,29 @@ landingContent:
         links:
           - text: Introduction
             url: overview.md
+  # Card
+  - title: SharePoint documents
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Introduction
+            url: sharepoint-documents/index.html
+          - text: Permissions
+            url: sharepoint-documents/permissions-in-sharepoint.html
+      - linkListType: reference
+        links:
+          - text: Requirements
+            url: sharepoint-documents/requirements.html
+      - linkListType: how-to-guide
+        links:
+          - text: Set up
+            url: sharepoint-documents/set-up.html
+          - text: How to configure templates
+            url: sharepoint-documents/configure-templates.html
+          - text: How to configure permissions
+            url: sharepoint-documents/configure-permissions-with-aad-groups.html         
+          - text: Troubleshooting
+            url: sharepoint-documents/troubleshooting.html
 
   # Card
   - title: Google Workspace document integration
@@ -44,7 +67,7 @@ landingContent:
             url: g-suite/configure.md
 
 # Card
-  - title: Microsoft 365 document integration
+  - title: Microsoft 365 document integration (legacy)
     linkLists:
       - linkListType: concept
         links:

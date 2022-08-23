@@ -18,8 +18,6 @@ Simply sign in to SuperOffice using your Microsoft 365 login details and then op
 
 ![x -screenshot][img1]
 
-Read more details in our App Store: [Microsoft 365 integration][1]
-
 If you do not require Microsoft 365 SharePoint’s document management features, and only wish for using Microsoft 365 for login purposes (federated login or Multi-factor authentication (MFA/2FA)) you don't need this document integration.
 
 Read more here: [SuperOffice identity management][2]
@@ -64,7 +62,6 @@ The authorization process will grant rights to an app registered with Microsoft 
 **Step 4** is needed for enabling your SuperOffice tenant to store templates and documents in SharePoint.
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
 [2]: ../../../../identity-management/overview.md
 [3]: ../../overview.md
 

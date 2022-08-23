@@ -12,7 +12,7 @@ so.client: online
 
 # How to configure settings in SuperOffice Admin
 
-The configuration in the SuperOffice Admin is point-and-click. This is part i primarely to select the values already created in the first part.
+The configuration in the SuperOffice Admin is point-and-click. This part is primarily to select the values already created in the first part.
 
 ## Admin client​
 
@@ -73,7 +73,7 @@ We recommend that you select all here. These fields will appear as columns in yo
 
 ## Step 3 - Groups and access​
 
-​### Enable group access on SharePoint documents based on Visible for settings in SuperOffice​
+### Enable group access on SharePoint documents based on Visible for settings in SuperOffice​
 
 * If you plan not to use Visible for, you leave this ticked off​.
 * If you plan to use Visible for, you tick this on – and follow the next steps.​
@@ -116,13 +116,13 @@ See the [reference of permissions in SharePoint​][1] for more information.
 
 > [!CAUTION]
 > When you have confirmed, **you will not be able to change the Site in Sharepoint and Document Library settings**. Specifically:​
-
-* SuperOffice documents​
-  * Site in SharePoint​
-  * Document library​
-* SuperOffice document templates​
-  * Site in SharePoint​
-  * Document library​​
+>
+>* SuperOffice documents​
+>   * Site in SharePoint​
+>   * Document library​
+>* SuperOffice document templates​
+>   * Site in SharePoint​
+>   * Document library​​
 
 <!-- Referenced links -->
 [1]: permissions-in-sharepoint.md
