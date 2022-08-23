@@ -11,6 +11,8 @@ so.topic: concept
 
 The Microsoft 365 Integration app integrates the document management features of Microsoft 365 SharePoint so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Microsoft 365 services all in one place.
 
+[!include[Microsoft 365 app is deprecated](includes/deprecated.md)]
+
 Simply sign in to SuperOffice using your Microsoft 365 login details and then open, edit and store documents in Microsoft 365 SharePoint directly from SuperOffice.
 
 > [!NOTE]

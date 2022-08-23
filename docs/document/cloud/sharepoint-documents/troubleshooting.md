@@ -36,12 +36,6 @@ The reason for this is that we suspect there will user groups in CRM that are no
 
 These links will not be removed when the document properties are updated later. ​
 
-## We support storing of E-mails in SharePoint in​ version 2.3 + 10.1.2
-
-Storing email in SharePoint when creating email in SuperOffice or archiving email to SuperOffice using SuperOffice for Outlook or WebTools for Windows.
-
-> [!NOTE]
-> This functionality will only work with CRM Online 10.1.2 or later
 
 <!-- Referenced links -->
 

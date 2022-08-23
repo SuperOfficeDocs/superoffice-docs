@@ -11,7 +11,8 @@ so.envir:
 so.client:
 ---
 
-# About permission in SharePoint​
+# About permissions in SharePoint​
+
 ​
 > [!NOTE]
 > You need to set up permissions before you can configure **Groups and access** for your SharePoint documents in SuperOffice Online.

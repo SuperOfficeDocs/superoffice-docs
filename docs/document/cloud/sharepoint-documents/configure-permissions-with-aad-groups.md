@@ -15,8 +15,8 @@ so.client: online
 
 We recommend that you use domain (AAD) groups to control access to you SuperOffice document site in SharePoint​. All your user administration will be in Azure Portal, you will maintain group members there​.
 
-If you plan to **use Visible for** (or already using this in CRM):
-​
+If you plan to **use Visible for** (or already using this in CRM):​
+
 AAD groups is the only way to set permissions in SharePoint according to your SuperOffice user groups​. We recommend (if not already) that you create corresponding groups in AAD to your SuperOffice user groups​.
 
 If you plan **NOT to use Visible for**: ​
