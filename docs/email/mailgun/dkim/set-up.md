@@ -50,7 +50,7 @@ To make sure no one else, besides your company orders a DKIM key for your domain
         ```text
         "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
         ```
-    * Add "Host name" value (e.g. "xxx._domainkey.[yourdomainName]") you received from us.
+    * Add "Host name" value ("xxx._domainkey.[yourdomainName]") you received from us.
     * Add "Address" value ("k=rsa; p=XXX..") you received from us (see note above)
     * Choose "txt" as record type
 
