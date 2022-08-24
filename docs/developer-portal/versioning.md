@@ -86,6 +86,22 @@ You can change the label of a version to make it more descriptive.
 
     The new version appears in the list and you can select it to edit.
 
+## Compare versions and track changes
+
+We keep a change log per version. When someone clicks **Save Settings**, a new entry is added.
+
+To access the log, locate the version. It shows up automatically, for the selected version.
+
+* If the wrong version is showing, click **More versions** and select the one you want to view.
+
+* If the change log is empty, it means that there are no changes since that version was created or that the changes happened before August 2022.
+
+At the end of each entry is a link to **download a JSON file** representing that state.
+
+To create a diff, download the JSON file for each of the two variants you want to compare and runt the files through a tool such as [JSON Diff][1].
+
+You can for example compare to variants of the same version or compare the current draft against the published version in Stage or Prod.
+
 ## Request to publish
 
 [!include[When to publish](includes/ready-to-publish.md)]
@@ -94,6 +110,7 @@ You can change the label of a version to make it more descriptive.
 * If your version was **rejected** for Stage, you need to fix the problems in SOD and then request to publish again.
 
 <!-- Referenced links -->
+[1]: http://www.jsondiff.com/
 
 <!-- Referenced images -->
 [img1]: media/app-versions-2.png
