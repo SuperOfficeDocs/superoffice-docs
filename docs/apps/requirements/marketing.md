@@ -20,7 +20,7 @@ For customers to find your application, to understand what it does and why they 
 
 You must provide a **unique application name** for the App Store listing.
 
-* The name must be 30 characters or less.
+* The name must be 64 characters or less.
 
 * Name must not contain restricted characters:
 
