@@ -25,7 +25,7 @@ The evaluation can spark improvements that lead to:
 
 ## What are you checking?
 
-We **install** your application and want to see that it runs smoothly and adheres to our [requirements][5]. We evaluate how the application handles **confidentiality**, **integrity**, **traceability**, and **availability**.
+We **install** your application and want to see that it runs smoothly and [adheres to our requirements][5]. We evaluate how the application handles **confidentiality**, **integrity**, **traceability**, and **availability**.
 
 We are checking logs in Application Insight and our Operation Center.
 
@@ -35,7 +35,7 @@ The certification is free of charge except for a fee billed by Watchcom for thei
 
 ## I'm ready - what do I do?
 
-Follow our [step-by-step guide][6], started by sending a certification request form.
+Follow our [step-by-step guide][6], started by sending a request to publish in the Developer Portal.
 
 <!-- Referenced links -->
 [1]: ../standard.md

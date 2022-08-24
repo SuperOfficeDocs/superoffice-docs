@@ -1,51 +1,36 @@
 ---
-title: Activate a custom application
-uid: activate_custom_app
-description: Activate custom application
-author: {github-id}
-keywords:
+title: First-time activation
+uid: custom-app-first-time-activation
+description: Description of the process of activating a valid custom application for the first-time.
+author: Margrethe
+so.date: 08.24.2022
+keywords: activate, consent
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud
 so.client: online
 ---
 
-# Activate a custom application
+# First-time activation
 
 Congratulations, your custom application is ready!
-
-## Pre-requisites
-
-* Your custom application has [passed validation][1].
 
 By activating a custom application, the owner of the tenant agrees to [subscribe to Development Tools][2] (formerly Expander Services).
 
 ## First-time activation
 
-The first-time activation is usually initiated by the application developer.
+The first-time activation starts after your [application passes validation][1]. You don't need to trigger this step.
 
 1. We will move your application from SOD to the production environment.
 2. You contact the customer to initiate the [application setup][3].
 3. The customer's administrator must sign in to SuperOffice and [give their consent][4] to allow your application to access their database tenant.
 
-## Activate on additional tenants
+## Request application changes
 
-In some special cases, we allow one-off applications to be used by multiple production tenants. For example:
-
-* The application was developed on a test tenant in the production environment and is ready to go live
-* The application will be used by multiple subsidiaries within the same company
-
-This is usually initiated by the customer.
-
-**Process:**
-
-1. [Submit an activation request][5] (form).
-2. Repeat [application set-up][3] on the new tenant.
-3. As an administrator, sign in to SuperOffice and [give consent][4] to this specific tenant.
+You can [change the application configuration][5] in the Developer Portal.
 
 <!-- Referenced links -->
 [1]: validate-app.md
 [2]: ../../admin/license/expander-services/index.md
 [3]: ../provisioning/index.md
 [4]: ../provisioning/consent.md
-[5]: activate-custom-app-form.md
+[5]: ../../developer-portal/howto/update-app.md

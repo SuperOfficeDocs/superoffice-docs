@@ -9,7 +9,7 @@ items:
     href: standard.md
   - name: Custom
     href: custom.md
-  - name: Client ID  and secret
+  - name: Client ID and secret
     href: terminology.md
   - name: Requirements
     href: requirements/index.md
@@ -99,12 +99,8 @@ items:
       href: activate/helper-application.md
     - name: Validate app
       href: activate/validate-app.md
-    - name: Validate form
-      href: activate/validate-form.md
-    - name: Activate custom app
+    - name: First-time activation
       href: activate/activate-custom-app.md
-    - name: Activate custom app form
-      href: activate/activate-custom-app-form.md
   - name: App store
     href: app-store.md
   - name: Certification
@@ -115,8 +111,6 @@ items:
       href: certification/checklist.md
     - name: Certify app
       href: certification/certify-app.md
-    - name: Certify app form
-      href: certification/certify-app-form.md
     - name: Initial Watchcom evaluation
       items:
       - name: About the test
@@ -133,5 +127,3 @@ items:
       href: publish/beta-period.md
     - name: How to get noticed
       href: publish/get-noticed.md
-    - name: Update app form
-      href: publish/update-app-form.md
