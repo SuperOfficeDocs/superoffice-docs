@@ -13,11 +13,6 @@ Create a new Country list item
 
 Calls the List agent service SaveCountry.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The Country to be created. 
+The Country to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +51,6 @@ The Country to be created.
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-
 
 ## Response: object
 

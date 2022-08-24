@@ -78,7 +78,7 @@ se.execute();
 
 If you need formatting, consider using one of the following methods instead.
 
-When you have your result, it is time to [explore the data][8].
+When you have your result, it is time to [explore the data][1].
 
 ## Run and format the result
 

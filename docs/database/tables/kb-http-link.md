@@ -26,7 +26,6 @@ This table contains URL&amp;apos;s associated with a single FAQ entry.
 |name|The name for this link.|String(255)| |
 |http\_link|The URL for this link.|String(255)| |
 
-
 ![kb_http_link table relationship diagram](./media/kb_http_link.png)
 
 [!include[details](./includes/kb-http-link.md)]
@@ -44,7 +43,6 @@ This table contains URL&amp;apos;s associated with a single FAQ entry.
 |------|-------------|
 |[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
 
-
 ## Replication Flags
 
 * None
@@ -52,4 +50,3 @@ This table contains URL&amp;apos;s associated with a single FAQ entry.
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -53,7 +53,6 @@ Country information
 |abbrev2|ISO 2-letter abbreviation|String(2)|&#x25CF;|
 |tzLocationId|Default timezone location for this country|FK [TZLocation](tzlocation.md)|&#x25CF;|
 
-
 ![country table relationship diagram](./media/country.png)
 
 [!include[details](./includes/country.md)]
@@ -81,8 +80,7 @@ Country information
 |[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
 |[redletterday](redletterday.md)  |Red letter days for calendar (holidays, birthday of king etc) |
 |[TZLocation](tzlocation.md)  |Time zone location |
-|[ziptocity](ziptocity.md)  |Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http://techdoc.superoffice.com  |
-
+|[ziptocity](ziptocity.md)  |Zip codes and city names. Zip codes used during address entry. |
 
 ## Replication Flags
 
@@ -92,4 +90,3 @@ Country information
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 
 Returns the email account corresponding to this email address (for the current associate).
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Returns the email account corresponding to this email address (for the current a
 ```http
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,20 +37,17 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FromAddress 
+FromAddress
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromAddress | string |  |
 
-
 ## Response: object
 
 Properties for an email account
-
-
 
 Carrier object for EMailAccount.
 Services for the EMailAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

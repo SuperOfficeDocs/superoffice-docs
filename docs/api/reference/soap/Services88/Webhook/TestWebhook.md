@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IWebhookAgent.TestWebhook
 ## TestWebhook
 
 Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **webhook:** Webhook definition to ping. Must contain a valid TargetUrl.
 
 **Returns:** Result of calling webhook. Sucess=true/false + Error message
-
 
 [WSDL file for Services88/Webhook](../Services88-Webhook.md)
 
@@ -103,7 +102,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TestWebhook Response
 
 ```xml
@@ -127,4 +125,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

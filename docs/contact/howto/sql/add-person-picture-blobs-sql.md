@@ -16,9 +16,11 @@ To add a picture to a person, you must write the picture to the [BinaryObject ta
 
 First, the BLOB data is inserted into the `BinaryObject` table:
 
+<!-- markdownlint-disable MD013 -->
 ```SQL
 INSERT INTO CRM."binaryobject" ("BinaryObject_id", "conceptualType", "mimeType", "description", "originalSize", "blobSize", "isZipped", "isEncrypted", "extraInfo", "binaryData", "registered", "registered_associate_id", "updated", "updated_associate_id", "updatedCount") VALUES (624, 'PersonImage', 'image/jpeg', 'Njål Narvestad', 1333, 1333, 0, 0, '', (blobdata), 1164194209, 13, 0, 0, 0)
 ```
+<!-- markdownlint-restore -->
 
 The `conceptualType` is useful for classifying the image. The same image can be used in several different contexts, thanks to the Link table. The `conceptualType` is primarily intended to provide a filter when generating lists for browsing.
 
@@ -35,17 +37,21 @@ When we add support for ZIP compression, the `BlobSize` may be smaller than the 
 
 Then the link from the BLOB (`binaryObjectId=624`) to the person record (`ownerTable=6`, `ownerRecord=74`)
 
+<!-- markdownlint-disable MD013 -->
 ```SQL
 INSERT INTO CRM."binaryobjectlink" ("BinaryObjectLink_id", "binaryObjectId", "ownerTable", "ownerRecord", "linkComment", "linkType", "rank", "registered", "registered_associate_id", "updated", "updated_associate_id", "updatedCount") VALUES (267, 624, 6, 74, '', 1, 1, 1164194209, 13, 0, 0, 0)
 ```
+<!-- markdownlint-restore -->
 
 Of course, we must not forget to make a note of our inserts in the **transaction log**:
 
+<!-- markdownlint-disable MD013 -->
 ```SQL
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110415, 1164197809, 0, 4352, 13, 205, 624)
 
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110416, 1164197809, 0, 4352, 13, 206, 267)
 ```
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
 [1]: ../../../database/tables/binaryobject.md

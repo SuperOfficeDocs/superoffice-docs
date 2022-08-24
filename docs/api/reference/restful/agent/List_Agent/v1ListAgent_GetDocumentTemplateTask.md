@@ -13,10 +13,6 @@ Returns a Document Template list item as a TaskListItem.
 
 The appointment's task is a Document template item when the appointment is a document.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The appointment's task is a Document template item when the appointment is a doc
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateTask?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/List/GetDocumentTemplateTask?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentTemplateId 
+DocumentTemplateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 
-
 ## Response: object
 
 Type of an appointment
-
-
 
 Carrier object for Task.
 Services for the Task Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

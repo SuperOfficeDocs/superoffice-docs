@@ -35,7 +35,6 @@ Link between ModuleLicense and Associate, for per-assoc licenses; this is how li
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![LicenseAssocLink table relationship diagram](./media/LicenseAssocLink.png)
 
 [!include[details](./includes/licenseassoclink.md)]
@@ -54,7 +53,6 @@ Link between ModuleLicense and Associate, for per-assoc licenses; this is how li
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -63,4 +61,3 @@ Link between ModuleLicense and Associate, for per-assoc licenses; this is how li
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

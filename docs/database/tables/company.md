@@ -39,7 +39,6 @@ Information on license and owner of this SuperOffice database. This table should
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![company table relationship diagram](./media/company.png)
 
 [!include[details](./includes/company.md)]
@@ -56,7 +55,6 @@ Information on license and owner of this SuperOffice database. This table should
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ Information on license and owner of this SuperOffice database. This table should
 ## Security Flags
 
 * No access control via user's Role.
-

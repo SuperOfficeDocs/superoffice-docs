@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/GetDuplicates
 
 Get duplicates(exact or similar in the database) based on the name
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get duplicates(exact or similar in the database) based on the name
 ```http
 POST /api/v1/Agents/Selection/GetDuplicates?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Selection/GetDuplicates?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name 
+Name
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

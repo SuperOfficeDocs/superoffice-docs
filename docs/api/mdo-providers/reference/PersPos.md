@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "perspos" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'perspos'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("perspos", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +51,6 @@ foreach (var item in listProvider.RootItems) {
 |6|Teknisk person|||
 |2|Toppledelse|||
 |1|Ukjent|||
-
 
 ## Related MDO Lists
 

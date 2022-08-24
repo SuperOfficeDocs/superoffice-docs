@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 
 Update price on the all the quotelines for each alternative in the current quote version
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Update price on the all the quotelines for each alternative in the current quote
 ```http
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId 
+QuoteVersionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-
 ## Response: object
 
 The QuoteVersionValidated is returned after a call to ValidateQuoteAlternative. It contains flags indicating changes to quote, quoteversion/quotealternative and quotelines.
-
-
 
 Carrier object for QuoteVersionValidated.
 Services for the QuoteVersionValidated Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

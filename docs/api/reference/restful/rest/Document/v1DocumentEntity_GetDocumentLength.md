@@ -11,15 +11,9 @@ GET /api/v1/Document/{documentId}/Length
 
 Get length of the document content in bytes.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document id **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get length of the document content in bytes.
 ```http
 GET /api/v1/Document/{documentId}/Length?versionId=excepturi
 ```
-
 
 ## Request Headers
 
@@ -45,17 +38,13 @@ GET /api/v1/Document/{documentId}/Length?versionId=excepturi
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: int64
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int64
-
 
 ## Sample Request
 

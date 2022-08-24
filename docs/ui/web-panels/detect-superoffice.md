@@ -52,7 +52,6 @@ In 6.win it displays "I am NOT running inside SuperOffice web" as shown above wh
 ![03][img3]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

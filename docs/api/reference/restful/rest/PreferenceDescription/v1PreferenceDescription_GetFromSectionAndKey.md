@@ -11,17 +11,10 @@ GET /api/v1/PreferenceDescription/{section}/{key}
 
 Gets a PreferenceDescription based on the section and key
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
-
-
 
 ## Request Headers
 
@@ -36,12 +29,9 @@ Gets a PreferenceDescription based on the section and key
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
-
-
 
 Carrier object for PreferenceDescription.
 Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.

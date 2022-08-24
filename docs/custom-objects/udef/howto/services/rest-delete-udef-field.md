@@ -16,7 +16,8 @@ This guide describes how to delete a user-defined field using the web services A
 
 [!include[ALT](includes/how-to-guide-steps-intro.md)]
 
-# [RESTful REST API](#tab/delete-rest)
+<!-- markdownlint-disable MD051 -->
+### [RESTful REST API](#tab/delete-rest)
 
 Describes how-to delete a Contact user-defined field details by prog-id or label. This deletes the admin version of the field. The layout needs to be published before the change is visible.
 
@@ -56,7 +57,7 @@ Describes how-to delete a Contact user-defined field details by prog-id or label
     Accept: application/json; charset=utf-8
     ```
 
-# [RESTful Agent API](#tab/delete-agent)
+### [RESTful Agent API](#tab/delete-agent)
 
 Get the current UDefFieldId value for the user-defined field to delete, then pass that into the following request as a query string parameter.
 
@@ -96,7 +97,7 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
 
     Finally issue the publish the request to activate the new field changes.
 
-    ```http    
+    ```http
     POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/Publish
     Authorization: Bearer {{token}}
     Accept: application/json; charset=utf-8
@@ -117,10 +118,10 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
 
     Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
 
-# [SuperOffice.WebApi](#tab/delete-webapi)
+### [SuperOffice.WebApi](#tab/delete-webapi)
 
 ***
-
+<!-- markdownlint-restore -->
 
 <!-- 
 How to write good how-to guides 

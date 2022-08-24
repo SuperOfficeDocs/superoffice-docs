@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "direction" MDO List
+
 Document and Task directions: TaskDirection.Incoming, Outgoing
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DirectionProvider">DirectionProvider</see> class.
 The name of the MDO list is 'direction'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("direction", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,7 +47,6 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|Incoming|||
 |2|Outgoing|||
-
 
 ## Related MDO Lists
 

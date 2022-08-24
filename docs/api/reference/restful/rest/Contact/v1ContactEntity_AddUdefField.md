@@ -11,12 +11,6 @@ POST /api/v1/Contact/UdefLayout
 
 Add a new field to the current ContactEntity user-defined field layout.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Add a new field to the current ContactEntity user-defined field layout.
 ```http
 POST /api/v1/Contact/UdefLayout?udefFieldType=Checkbox
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Contact/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
-
-
 
 Carrier object for UserDefinedFieldInfo.
 Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.

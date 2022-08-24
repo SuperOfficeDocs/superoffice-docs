@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveProjectTypeEntity
 
 Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ProjectTypeEntity to be saved. 
+The ProjectTypeEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +41,6 @@ The ProjectTypeEntity to be saved.
 | HasGuide | bool | Does this project type have a guide attached |
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
-
 
 ## Response: object
 

@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "project" MDO List
+
 Provider for selecting a project.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectListProviderOrg">ProjectListProviderOrg</see> class.
 The name of the MDO list is 'project'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("project", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |2383|Abernathy Inc|||
 |3257|Abernathy LLC|||
 |2638|Abernathy, Jenkins and Vandervort|||
-
 
 ## Related MDO Lists
 

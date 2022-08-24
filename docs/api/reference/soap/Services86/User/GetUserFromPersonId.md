@@ -12,11 +12,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetUserFromPer
 ## GetUserFromPersonId
 
 Returns the user associated with the supplied person id
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **personId:** 
-
-
+* **personId:**
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetUserFromPersonId Response
 
@@ -210,4 +207,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

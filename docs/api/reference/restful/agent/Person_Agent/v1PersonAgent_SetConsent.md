@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/SetConsent
 
 Set a specified type of consent on the person.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Set a specified type of consent on the person.
 POST /api/v1/Agents/Person/SetConsent?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Person/SetConsent?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, Purpose, Source, LegalBase, Comment 
+PersonId, Purpose, Source, LegalBase, Comment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,9 +42,7 @@ PersonId, Purpose, Source, LegalBase, Comment
 | LegalBase | string |  |
 | Comment | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -33,7 +33,6 @@ Temporary keys for lightweight authentications such as changing ones subscriptio
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![TemporaryKey table relationship diagram](./media/TemporaryKey.png)
 
 [!include[details](./includes/temporarykey.md)]
@@ -51,7 +50,6 @@ Temporary keys for lightweight authentications such as changing ones subscriptio
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
-
 ## Replication Flags
 
 * None
@@ -59,4 +57,3 @@ Temporary keys for lightweight authentications such as changing ones subscriptio
 ## Security Flags
 
 * No access control via user's Role.
-

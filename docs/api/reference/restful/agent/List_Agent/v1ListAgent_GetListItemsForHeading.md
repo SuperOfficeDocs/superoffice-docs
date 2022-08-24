@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetListItemsForHeading
 
 List of list items that is selected if under this heading
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ List of list items that is selected if under this heading
 ```http
 POST /api/v1/Agents/List/GetListItemsForHeading?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/List/GetListItemsForHeading?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionId, HeadingId 
+UdListDefinitionId, HeadingId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | HeadingId | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

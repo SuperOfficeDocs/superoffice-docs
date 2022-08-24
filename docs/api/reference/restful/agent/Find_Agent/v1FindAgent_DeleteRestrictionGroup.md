@@ -11,12 +11,6 @@ POST /api/v1/Agents/Find/DeleteRestrictionGroup
 
 Create a restriction group, initialized with next rank etc.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Create a restriction group, initialized with next rank etc.
 POST /api/v1/Agents/Find/DeleteRestrictionGroup?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Find/DeleteRestrictionGroup?$select=name,department,category
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, Rank, Context 
+StorageType, ProviderName, StorageKey, Rank, Context
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,9 +42,7 @@ StorageType, ProviderName, StorageKey, Rank, Context
 | Rank | int32 |  |
 | Context | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

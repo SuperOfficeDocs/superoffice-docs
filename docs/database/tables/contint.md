@@ -33,7 +33,6 @@ ContInt list table. List-text of all valid contact interest types.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ContInt table relationship diagram](./media/ContInt.png)
 
 [!include[details](./includes/contint.md)]
@@ -55,7 +54,6 @@ ContInt list table. List-text of all valid contact interest types.
 |[ContIntHeadingLink](contintheadinglink.md)  |Heading link table for ContInt, for MDO headers |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ ContInt list table. List-text of all valid contact interest types.
 ## Security Flags
 
 * No access control via user's Role.
-

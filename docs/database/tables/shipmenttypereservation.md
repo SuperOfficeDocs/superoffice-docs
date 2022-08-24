@@ -30,7 +30,6 @@ ShipmentTypes a person has reserved against. Note that the absense of a record h
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ShipmentTypeReservation table relationship diagram](./media/ShipmentTypeReservation.png)
 
 [!include[details](./includes/shipmenttypereservation.md)]
@@ -51,7 +50,6 @@ ShipmentTypes a person has reserved against. Note that the absense of a record h
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[ShipmentType](shipmenttype.md)  |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -61,4 +59,3 @@ ShipmentTypes a person has reserved against. Note that the absense of a record h
 ## Security Flags
 
 * No access control via user's Role.
-

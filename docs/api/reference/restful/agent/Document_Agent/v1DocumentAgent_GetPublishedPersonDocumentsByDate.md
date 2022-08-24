@@ -13,10 +13,6 @@ Method that returns a specified number of published document appointments within
 
 The document appointments belong to the person specified or the document is in a project the person belongs to.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The document appointments belong to the person specified or the document is in a
 ```http
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,10 +49,7 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

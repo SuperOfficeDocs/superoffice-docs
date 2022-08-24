@@ -11,13 +11,6 @@ POST /api/v1/Agents/Project/SaveProjectEventEntity
 
 Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ProjectEventEntity to be saved. 
+The ProjectEventEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +62,9 @@ The ProjectEventEntity to be saved.
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
 
-
 ## Response: object
 
 The ProjectEvent Service. The service implements all services working with the ProjectEvent object
-
-
 
 Carrier object for ProjectEventEntity.
 Services for the ProjectEventEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.

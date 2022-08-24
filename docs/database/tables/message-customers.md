@@ -26,7 +26,6 @@ This table contains all cutomers who are involved in a message
 |customer\_id|The id of the customer who has received this message, or another message in this ticket|FK [person](person.md)| |
 |email|The email-adresse used in this message|String(255)|&#x25CF;|
 
-
 ![message_customers table relationship diagram](./media/message_customers.png)
 
 [!include[details](./includes/message-customers.md)]
@@ -46,7 +45,6 @@ This table contains all cutomers who are involved in a message
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
-
 ## Replication Flags
 
 * None
@@ -54,4 +52,3 @@ This table contains all cutomers who are involved in a message
 ## Security Flags
 
 * No access control via user's Role.
-

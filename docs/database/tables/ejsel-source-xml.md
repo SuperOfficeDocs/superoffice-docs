@@ -24,7 +24,6 @@ This table stores a selection source as xml
 |id|Primary key|PK| |
 |xml\_data|XML data of rows and columns|Clob|&#x25CF;|
 
-
 ![ejsel_source_xml table relationship diagram](./media/ejsel_source_xml.png)
 
 [!include[details](./includes/ejsel-source-xml.md)]
@@ -42,4 +41,3 @@ This table stores a selection source as xml
 ## Security Flags
 
 * No access control via user's Role.
-

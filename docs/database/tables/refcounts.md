@@ -34,7 +34,6 @@ Number counter for all tables that generate numbers, e.g. templates, contacts...
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![RefCounts table relationship diagram](./media/RefCounts.png)
 
 [!include[details](./includes/refcounts.md)]
@@ -55,7 +54,6 @@ Number counter for all tables that generate numbers, e.g. templates, contacts...
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[RefCountRange](refcountrange.md)  |Number allocation system, for keeping track of ranges of numbers loaned out to travel and satellite databases |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -64,4 +62,3 @@ Number counter for all tables that generate numbers, e.g. templates, contacts...
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -13,10 +13,6 @@ Returns true if viewState has been clicked at least once since FromDate, if assc
 
 MinValue no restriction given for those parameters
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ MinValue no restriction given for those parameters
 ```http
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId, ViewState, FromDate 
+AssociateId, ViewState, FromDate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +47,13 @@ AssociateId, ViewState, FromDate
 | ViewState | string |  |
 | FromDate | date-time |  |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

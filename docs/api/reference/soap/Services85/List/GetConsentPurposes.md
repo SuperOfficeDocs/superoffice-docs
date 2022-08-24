@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetConsentPurp
 
 Returns all defined purposes.
 
-
 **Returns:** An array of all defined purposes
-
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetConsentPurposes Response
 
@@ -97,4 +94,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

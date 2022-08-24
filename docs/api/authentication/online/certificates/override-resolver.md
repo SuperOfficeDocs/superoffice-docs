@@ -12,7 +12,7 @@ so.client: online
 # How to override the certificate resolver
 
 > [!NOTE]
-> This information applies only if validating the security token using the **SuperOffice.Online.Core NuGet package**. See the [Validate security tokens][4] page to see all options.
+> This information applies only if validating the security token using the **SuperOffice.Online.Core NuGet package**. See the [Validate security tokens][1] page to see all options.
 
 To override the default behavior of JWT security token validation is required when you deploy your application in a restricted environment where you have no access to the certificate store. This is the case **when you deploy to a cloud application server**.
 

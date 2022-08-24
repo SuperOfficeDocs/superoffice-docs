@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 Which field in ticket we count time spent on
 
 | `Time_counter` | Comment |

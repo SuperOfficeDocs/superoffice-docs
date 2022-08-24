@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/CopyQuoteAlternative
 
 Copy a quote alternative from the same sale and adds it to a version.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Copy a quote alternative from the same sale and adds it to a version.
 ```http
 POST /api/v1/Agents/Quote/CopyQuoteAlternative?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Quote/CopyQuoteAlternative?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId, QuoteAlternativeId, QuoteAlternativeName 
+QuoteVersionId, QuoteAlternativeId, QuoteAlternativeName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,12 +45,9 @@ QuoteVersionId, QuoteAlternativeId, QuoteAlternativeName
 | QuoteAlternativeId | int32 |  |
 | QuoteAlternativeName | string |  |
 
-
 ## Response: object
 
 Information about a connection to the ERP system.
-
-
 
 Carrier object for QuoteAlternative.
 Services for the QuoteAlternative Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

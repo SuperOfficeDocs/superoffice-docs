@@ -6,9 +6,6 @@ title: Saint_Agent
 /api/v1/Saint/Agent
 ```
 
-
-
-
 * [POST Agents/Saint/CreateDefaultSaintConfiguration](v1SaintAgent_CreateDefaultSaintConfiguration.md)
 
 * [POST Agents/Saint/SaveSaintConfiguration](v1SaintAgent_SaveSaintConfiguration.md)

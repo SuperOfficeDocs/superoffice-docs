@@ -30,7 +30,6 @@ Link table used for filtering reports by user group
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SORPublishGroupLink table relationship diagram](./media/SORPublishGroupLink.png)
 
 [!include[details](./includes/sorpublishgrouplink.md)]
@@ -51,7 +50,6 @@ Link table used for filtering reports by user group
 |[SORPublish](sorpublish.md)  |SuperOffice reporter data |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Link table used for filtering reports by user group
 ## Security Flags
 
 * No access control via user's Role.
-

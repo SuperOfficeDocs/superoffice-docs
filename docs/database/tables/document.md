@@ -43,7 +43,6 @@ Documents, this table is an extension of the Appointment table.  There is always
 |snum|The sequence number allocated from refcount on used template when creating the document|Int|&#x25CF;|
 |ExtUrl|For DocPlugin-internal use only. Used to optionally cache URL of external documents.|String(1023)|&#x25CF;|
 
-
 ![document table relationship diagram](./media/document.png)
 
 [!include[details](./includes/document.md)]
@@ -78,7 +77,6 @@ Documents, this table is an extension of the Appointment table.  There is always
 |[uddoclarge](uddoclarge.md)  |User-defined fields |
 |[uddocsmall](uddocsmall.md)  |User-defined fields |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -89,4 +87,3 @@ Documents, this table is an extension of the Appointment table.  There is always
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

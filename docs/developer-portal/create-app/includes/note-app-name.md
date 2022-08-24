@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
 > The application name must be 64 characters or less and not contain restricted characters.
 >

@@ -6,9 +6,6 @@ title: Associate_Agent
 /api/v1/Associate/Agent
 ```
 
-
-
-
 * [POST Agents/Associate/GetAssociate](v1AssociateAgent_GetAssociate.md)
 
 * [POST Agents/Associate/GetAssociateByPersonId](v1AssociateAgent_GetAssociateByPersonId.md)

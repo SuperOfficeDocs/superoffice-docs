@@ -133,7 +133,6 @@ User-defined fields
 |double09|double value 9, not indexed|Double|&#x25CF;|
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
-
 ![udappntsmall table relationship diagram](./media/udappntsmall.png)
 
 [!include[details](./includes/udappntsmall.md)]
@@ -162,7 +161,6 @@ User-defined fields
 |------|-------------|
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -172,4 +170,3 @@ User-defined fields
 ## Security Flags
 
 * No access control via user's Role.
-

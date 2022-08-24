@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.ChangeOwnPassw
 ## ChangeOwnPassword
 
 Change password for a user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **oldPassword:** The current password of the user.  Administrators can leave this blank to force a new password upon a user.
 * **newPassword:** The new password for the user
 
 **Returns:** True if the password was successfully changed.
-
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ChangeOwnPassword Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

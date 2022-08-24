@@ -59,7 +59,7 @@ When a customer is checking if for an update of the typical searches, the custom
 
 ## When the only change is a removed typical search
 
-The MasterVersion number in the TypicalSearches carrier is incremented once per deleted typical search. It is stored in both the Master installation at Superoffice, and in each customer database. It is therefore possible to see that there has in fact been a change since the last import; and once all the typical searches in the carrier have been imported, whatever is left over will be deleted. This deletion can be inhibited by setting the DeleteLeftovers property to false, but Superoffice does not expect to use this feature.
+The MasterVersion number in the TypicalSearches carrier is incremented once per deleted typical search. It is stored in both the Master installation at SuperOffice, and in each customer database. It is therefore possible to see that there has in fact been a change since the last import; and once all the typical searches in the carrier have been imported, whatever is left over will be deleted. This deletion can be inhibited by setting the DeleteLeftovers property to false, but SuperOffice does not expect to use this feature.
 
 ## TypicalSearchExporter
 
@@ -71,7 +71,7 @@ The selection name, entity, and long comment are exported. Owner, Category, Comp
 
 The data are exported using the service layer carriers **TypicalSearchConfiguration** -> **TypicalSearch** -> **ArchiveRestrictionGroup** -> **ArchiveRestriction**. The final file format is JSON.
 
-The TypicalSearch.Version number is assigned based on a global counter. The first selection is assigned version 1, the second gets 2, etc. In addition, the TypicalSearchExporter uses the ForeignKey feature to store the registered/last updated date together with the assigned version number, for each such selection, in the ACME AS installation. To detect changes in the criteria (which do not update the updated field of the selection itself), a SHA256 hash of all criteria/operators/values is also stored in the foreignkey. The foreignkey value itself is in JSON format.  
+The TypicalSearch.Version number is assigned based on a global counter. The first selection is assigned version 1, the second gets 2, etc. In addition, the TypicalSearchExporter uses the ForeignKey feature to store the registered/last updated date together with the assigned version number, for each such selection, in the ACME AS installation. To detect changes in the criteria (which do not update the updated field of the selection itself), a SHA256 hash of all criteria/operators/values is also stored in the foreignkey. The foreignkey value itself is in JSON format.
 
 When an export is performed, if a selection has a newer updated date than the last (or a hash mismatch), the global version number counter is increased by one and that version number assigned to the selection (and saved in ForeignKey).
 

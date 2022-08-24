@@ -11,12 +11,6 @@ POST /api/v1/Agents/Relation/SaveContactRelation
 
 Creates a new or updates an existing contact relation.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates a new or updates an existing contact relation.
 ```http
 POST /api/v1/Agents/Relation/SaveContactRelation?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Relation/SaveContactRelation?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactRelationEntity 
+ContactRelationEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactRelationEntity |  | Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition. <para /> Carrier object for ContactRelationEntity. Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>. |
-
+| ContactRelationEntity |  | Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition. <br /> Carrier object for ContactRelationEntity. Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>. |
 
 ## Response: object
 
 Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
-
-
 
 Carrier object for ContactRelationEntity.
 Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>.

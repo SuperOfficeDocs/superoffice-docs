@@ -6,9 +6,6 @@ title: PreferenceDescriptionLine
 /api/v1/PreferenceDescriptionLine
 ```
 
-
-
-
 * [GET PreferenceDescriptionLine/default](v1PreferenceDescriptionLine_DefaultPreferenceDescriptionLine.md)
 
 * [POST PreferenceDescriptionLine](v1PreferenceDescriptionLine_PostPreferenceDescriptionLine.md)

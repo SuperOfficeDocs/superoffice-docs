@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/AddEmailAddressToPerson
 
 Sets the primary email address on person, possibly re-ranking email addresses accordingly.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Sets the primary email address on person, possibly re-ranking email addresses ac
 POST /api/v1/Agents/Person/AddEmailAddressToPerson?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,9 +30,9 @@ POST /api/v1/Agents/Person/AddEmailAddressToPerson?$select=name,department,categ
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, EmailAddress, SetAsPrimaryEmail 
+PersonId, EmailAddress, SetAsPrimaryEmail
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,9 +40,7 @@ PersonId, EmailAddress, SetAsPrimaryEmail
 | EmailAddress | string |  |
 | SetAsPrimaryEmail | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

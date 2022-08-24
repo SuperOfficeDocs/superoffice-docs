@@ -17,7 +17,6 @@ Creates a new project based on external duplicate
 
 **Returns:** The database identity of the newly created entry
 
-
 [WSDL file for Services84/Project](../Services84-Project.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateNewEntry Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

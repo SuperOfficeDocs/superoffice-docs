@@ -11,16 +11,9 @@ GET /api/v1/BatchTask/{id}
 
 Get a single BatchTaskInfo based on Id.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | Id of the BatchTaskInfo to get. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +28,9 @@ Get a single BatchTaskInfo based on Id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 BatchTaskInfo contains information about one batch task.
-
-
 
 Carrier object for BatchTaskInfo.
 Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.

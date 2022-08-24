@@ -12,14 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEMailFromA
 ## GetEMailFromAttachmentId
 
 Get an e-mail based on an email and attachment id
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **emailId:** The primary key of the email row in the DB
 * **attachmentIds:** Id of the attachment. If multiple elements this is treated as attachment in attachemnts, e.g. [1, 2] means attachment 2 in attachment 1 of email.
 * **includeAttachments:** Should we retrieve attachments embedded in the e-mail from the server
 
 **Returns:** The attachment as an e-mail
-
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -56,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetEMailFromAttachmentId Response
 
@@ -232,4 +230,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

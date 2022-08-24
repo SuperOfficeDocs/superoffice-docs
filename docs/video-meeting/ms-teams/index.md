@@ -96,7 +96,6 @@ Then, **uninstall** the Microsoft Teams video meeting service:
     ![imageo2a0p.png -screenshot][img5]
 
 <!-- Referenced links -->
-[1]: https://meetings.superoffice.com/meet/DisconnectUser
 
 <!-- Referenced images -->
 [img1]: media/imagewf14i.png

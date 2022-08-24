@@ -11,16 +11,9 @@ GET /api/v1/BatchTask/{state}
 
 Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | state | Enum: Unknown, New, Aquired, Started, Succeeded, Failed, SucceededManualCleanup, All | The BatchTaskState to get batch tasks for. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,10 +28,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

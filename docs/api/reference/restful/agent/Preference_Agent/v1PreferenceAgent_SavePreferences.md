@@ -13,10 +13,6 @@ Save this set of preferences.
 
 Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ Note this method DOES NOT look at level/targetId - it only saves on behalf of th
 POST /api/v1/Agents/Preference/SavePreferences?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +32,15 @@ POST /api/v1/Agents/Preference/SavePreferences?$select=name,department,category/
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Preferences 
+Preferences
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Preferences | array |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

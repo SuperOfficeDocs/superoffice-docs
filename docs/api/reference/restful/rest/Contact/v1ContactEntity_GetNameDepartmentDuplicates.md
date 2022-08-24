@@ -11,15 +11,9 @@ GET /api/v1/Contact/Duplicates/{name}
 
 Get duplicates based on the contact name and department
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | Name used for lookup **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get duplicates based on the contact name and department
 ```http
 GET /api/v1/Contact/Duplicates/{name}?department=ducimus
 ```
-
 
 ## Request Headers
 
@@ -45,10 +38,7 @@ GET /api/v1/Contact/Duplicates/{name}?department=ducimus
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,10 +13,6 @@ When the user changes one or more values in a quoteline or a quoteAlternative, t
 
 RecalculateQuoteAlternative shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, listprice (if allowed). RecalculateQuoteAlternative will calculate the TotalPrice and the VAT (if possible) for the lines and the alternative.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ RecalculateQuoteAlternative shall be called when the user changes any of the fol
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/Quote/RecalculateQuoteAlternative?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteAlternative 
+QuoteAlternative
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternative | int32 |  |
 
-
 ## Response: object
 
 The QuoteAlternativeRecalculated is returned after a call to RecalculateQuoteAlternative. It contains flags indicating changes to quote alternative and quote lines.
-
-
 
 Carrier object for QuoteAlternativeRecalculated.
 Services for the QuoteAlternativeRecalculated Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

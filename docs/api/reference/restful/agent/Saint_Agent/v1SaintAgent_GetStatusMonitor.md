@@ -11,12 +11,6 @@ POST /api/v1/Agents/Saint/GetStatusMonitor
 
 Get a single status monitor based on its identity
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a single status monitor based on its identity
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitor?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Saint/GetStatusMonitor?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Id 
+Id
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
-
 ## Response: object
 
 Definition of all properties for a status monitor
-
-
 
 Carrier object for StatusMonitor.
 Services for the StatusMonitor Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.

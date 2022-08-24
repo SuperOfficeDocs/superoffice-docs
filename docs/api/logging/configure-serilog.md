@@ -40,8 +40,6 @@ We are using the **File** sink to write logs to a file. If we restart CRM Web so
 > You can add [other sinks][4] to send logging information to other places, like Azure Application Insights, Elmah, DataDog, or Splunk.
 
 <!-- Referenced links-->
-[1]: https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger
-[2]: https://serilog.net/
 [3]: https://github.com/serilog/serilog-settings-configuration
 [4]: https://github.com/serilog/serilog/wiki/Provided-Sinks
 [5]: serilog.md

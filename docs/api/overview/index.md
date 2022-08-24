@@ -142,7 +142,7 @@ Each platform has strengths and weaknesses that are dependent on the environment
 
 Whether constructing a small internal automation routine or building a complex integration, SuperOffice has many integration options. Once you get past the problem of knowing with which SuperOffice platforms you are integrating, it becomes a matter of just choosing the right API for your solution.
 
-With the understanding that each SuperOffice platform provides a lot of integrations points, and knowing that any problem can have multiple solutions, it's important to consider all options before you decide which approach to take. Assistance and guidance are available. Please use the [developer forums][1] to ask for recommendations, or you may submit integration questions directly to SuperOffice at [sdk@superoffice.com][2].
+With the understanding that each SuperOffice platform provides a lot of integrations points, and knowing that any problem can have multiple solutions, it's important to consider all options before you decide which approach to take. Assistance and guidance are available. Please use the [developer forums][1] to ask for recommendations, or you may submit integration questions directly to SuperOffice at [sdk@SuperOffice.com][2].
 
 Read more about each platform API in the SDK documentation.
 
@@ -156,7 +156,6 @@ Read more about each platform API in the SDK documentation.
 [7]: ../../online/integrate/index.md
 [8]: ../reference/restful/index.md
 [9]: ../reference/soap/index.md
-[10]: ../../automation/webhook/index.md
 [11]: ../plugins/erp-connectors/index.md
 [12]: ../plugins/quote-connectors/index.md
 [13]: ../../mirroring/overview.md

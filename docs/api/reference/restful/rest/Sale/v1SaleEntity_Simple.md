@@ -13,14 +13,9 @@ A simple Sale object.
 
 This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agent service GetSale.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Sale to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +29,6 @@ This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agen
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 

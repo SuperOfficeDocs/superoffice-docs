@@ -32,7 +32,6 @@ A form submission
 |status|What is the status of this submission|Enum [FormSubmissionStatus](enums/formsubmissionstatus.md)| |
 |processing\_log|A log of what happened during processing|String(4000)|&#x25CF;|
 
-
 ![form_submission table relationship diagram](./media/form_submission.png)
 
 [!include[details](./includes/form-submission.md)]
@@ -57,7 +56,6 @@ A form submission
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
-
 ## Replication Flags
 
 * None
@@ -65,4 +63,3 @@ A form submission
 ## Security Flags
 
 * No access control via user's Role.
-

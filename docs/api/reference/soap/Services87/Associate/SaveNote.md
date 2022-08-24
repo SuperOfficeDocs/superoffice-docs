@@ -16,8 +16,6 @@ Saves an array of strings(notepad pages).
 * **associateId:** The associate id
 * **note:** The array of strings(notepad pages).
 
-
-
 [WSDL file for Services87/Associate](../Services87-Associate.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveNote Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -19,7 +19,6 @@ Gets a selectable MDO list of the headings for this list item
 
 **Returns:** Array of headings
 
-
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetHeadings Response
 
@@ -131,4 +129,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

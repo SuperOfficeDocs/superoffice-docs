@@ -6,9 +6,6 @@ title: List
 /api/v1/List
 ```
 
-
-
-
 * [GET List/default](v1ListEntity_DefaultListEntity.md)
 
 * [GET List](v1ListEntity_GetListDefinitions.md)

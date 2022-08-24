@@ -6,9 +6,6 @@ title: RelationDefinition
 /api/v1/RelationDefinition
 ```
 
-
-
-
 * [GET RelationDefinition/default](v1RelationDefinitionEntity_DefaultRelationDefinitionEntity.md)
 
 * [POST RelationDefinition](v1RelationDefinitionEntity_PostRelationDefinitionEntity.md)

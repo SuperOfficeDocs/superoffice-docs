@@ -13,10 +13,6 @@ Creates a new TicketEntity
 
 Calls the Ticket agent service SaveTicketEntity.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Ticket agent service SaveTicketEntity.
 ```http
 POST /api/v1/Ticket?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Ticket?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The TicketEntity to be saved. 
+The TicketEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,15 +57,15 @@ The TicketEntity to be saved.
 | Deadline | date-time | Deadline for ticket. |
 | CreatedBy |  | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
-| Category |  | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
+| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <br />Use MDO List name "associate" to get list items. |
+| Category |  | The ticket category entity which this ticket is connected to  <br />Use MDO List name "ejcategory" to get list items. |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority |  | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
-| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
-| Status |  | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Priority |  | The ticket priority entity which this ticket is connected to  <br />Use MDO List name "ticketpriority" to get list items. |
+| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <br />Use MDO List name "ticketstatus" to get list items. |
+| Status |  | The ticket status entity which this ticket is connected to  <br />Use MDO List name "ticketstatus" to get list items. |
 | Origin | string | What is the origin of this ticket |
-| Person |  | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
-| SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person |  | The primary person that this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
+| SecondaryPersons | array | The secondary persons this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
 | ReadStatus | string | Whether the owner has read the ticket or not (red, yellow, green). |
@@ -93,12 +88,9 @@ The TicketEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
 ## Response: object
 
 The ticket entity is used for representing a service ticket
-
-
 
 TicketEntity entity with API _Links added.
 
@@ -124,15 +116,15 @@ Response body: object
 | Deadline | date-time | Deadline for ticket. |
 | CreatedBy |  | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
-| Category |  | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
+| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <br />Use MDO List name "associate" to get list items. |
+| Category |  | The ticket category entity which this ticket is connected to  <br />Use MDO List name "ejcategory" to get list items. |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority |  | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
-| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
-| Status |  | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Priority |  | The ticket priority entity which this ticket is connected to  <br />Use MDO List name "ticketpriority" to get list items. |
+| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <br />Use MDO List name "ticketstatus" to get list items. |
+| Status |  | The ticket status entity which this ticket is connected to  <br />Use MDO List name "ticketstatus" to get list items. |
 | Origin | string | What is the origin of this ticket |
-| Person |  | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
-| SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person |  | The primary person that this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
+| SecondaryPersons | array | The secondary persons this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
 | ReadStatus | string | Whether the owner has read the ticket or not (red, yellow, green). |

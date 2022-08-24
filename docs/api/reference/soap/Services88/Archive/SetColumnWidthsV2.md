@@ -19,8 +19,6 @@ Set the column widths for the given set of columns and GUI name.
 * **ownerKeys:** Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
 * **columnWidths:** Array of column widths. A column width is specified either as a fixed number of character (10c) or as a percentage (10%). Percentages will be recalculated so that they add up to exactly 100 when the configuration is fetched again.
 
-
-
 [WSDL file for Services88/Archive](../Services88-Archive.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetColumnWidthsV2 Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

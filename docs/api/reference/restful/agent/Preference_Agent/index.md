@@ -6,9 +6,6 @@ title: Preference_Agent
 /api/v1/Preference/Agent
 ```
 
-
-
-
 * [POST Agents/Preference/GetPreferences](v1PreferenceAgent_GetPreferences.md)
 
 * [POST Agents/Preference/SavePreferences](v1PreferenceAgent_SavePreferences.md)

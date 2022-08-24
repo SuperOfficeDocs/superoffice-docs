@@ -6,9 +6,6 @@ title: Resource_Agent
 /api/v1/Resource/Agent
 ```
 
-
-
-
 * [POST Agents/Resource/SetResourceSubstitution](v1ResourceAgent_SetResourceSubstitution.md)
 
 * [POST Agents/Resource/DeleteResourceSubstitution](v1ResourceAgent_DeleteResourceSubstitution.md)

@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.FindRolesWithF
 ## FindRolesWithFunctionalRights
 
 Find all roles with a given set of functional rights. The roles matched must contain one or more of the specified functional rights.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **functionalRightNames:** An array of functional rights names to search for
 
 **Returns:** Role ids that contains your functional rights
-
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## FindRolesWithFunctionalRights Response
 
 ```xml
@@ -76,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

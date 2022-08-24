@@ -6,9 +6,6 @@ title: BulkUpdate_Agent
 /api/v1/BulkUpdate/Agent
 ```
 
-
-
-
 * [POST Agents/BulkUpdate/GetAvailableFields](v1BulkUpdateAgent_GetAvailableFields.md)
 
 * [POST Agents/BulkUpdate/GetStoredFields](v1BulkUpdateAgent_GetStoredFields.md)

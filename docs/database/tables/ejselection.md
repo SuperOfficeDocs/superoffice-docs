@@ -35,7 +35,6 @@ This table stores selections, dynamic groups.
 |last\_count|Last result count|Int|&#x25CF;|
 |result\_config|XML data|Clob|&#x25CF;|
 
-
 ![ejselection table relationship diagram](./media/ejselection.png)
 
 [!include[details](./includes/ejselection.md)]
@@ -61,7 +60,6 @@ This table stores selections, dynamic groups.
 |[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 
-
 ## Replication Flags
 
 * None
@@ -69,4 +67,3 @@ This table stores selections, dynamic groups.
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -11,13 +11,6 @@ POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 
 Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing MailboxEntity or creates a new MailboxEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The MailboxEntity to be saved. 
+The MailboxEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,12 +39,9 @@ The MailboxEntity to be saved.
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
 
-
 ## Response: object
 
 This entity represent a mailbox used for importing emails in Service
-
-
 
 Carrier object for MailboxEntity.
 Services for the MailboxEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

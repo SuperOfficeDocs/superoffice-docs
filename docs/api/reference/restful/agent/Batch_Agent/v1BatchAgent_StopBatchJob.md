@@ -11,12 +11,6 @@ POST /api/v1/Agents/Batch/StopBatchJob
 
 Stop a batch job based on Id.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Stop a batch job based on Id.
 ```http
 POST /api/v1/Agents/Batch/StopBatchJob?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,25 +35,21 @@ POST /api/v1/Agents/Batch/StopBatchJob?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Id 
+Id
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

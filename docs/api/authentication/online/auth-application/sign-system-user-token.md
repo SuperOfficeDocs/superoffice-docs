@@ -9,6 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # How to sign system user token
 
 Before requesting a new system user ticket, you have to sign your system user token with your RSA private key. The timestamp is also updated.
@@ -80,9 +81,33 @@ const signedToken = `${data}.${sign}`;
 ### [Signing with PHP](#tab/sign-php)
 
 ```php
-$systemUserTokenAndTime = Application Name-pzqc70604i.201511111342
-$signature = signVariable($systemUserTokenAndTime)
-$signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
+
+// System User Token is a string obtained when an application 
+// is authorized to access to access Tenant web services.
+
+$systemUserToken = "Application Name-pzqc70604i";
+
+// Private key is the RSA XML key, converted to PEM format
+// Convert RSAXML to PEM using tool: https://devnet-tools.superoffice.com/rsa
+
+$private_key_file = "privatekey.pem"
+
+// read in the private key
+
+$privateKey = openssl_pkey_get_private(file_get_contents($private_key_file), "PASSWORD");
+
+// create the content that will be signed.
+
+$signThis = $systemUserToken.".".date("YmdHi");
+
+//sign the system token using private key of the application, returns $signature
+
+openssl_sign($signThis, $signature, $privateKey, OPENSSL_ALGO_SHA256);
+
+// concatenate the two parts of the signed token (SystemUserToken.UtcDate.Base64EncodedSignature)
+
+$signedToken = $signThis.".".base64_encode($signature)
+
 ```
 
 ***
@@ -90,9 +115,3 @@ $signedSystemToken = $systemUserTokenAndTime + "." + base64_encode($signature)
 <!-- Referenced links -->
 [1]: index.md
 [2]: ../validate-security-tokens.md
-[4]: http://www.platanus.cz/blog/converting-rsa-xml-key-to-pem
-[5]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[6]: ../../../../assets/downloads/api/superofficeonlinecertificates.zip
-[7]: https://sod.superoffice.com/login/.well-known/openid-configuration
-[8]: https://qaonline.superoffice.com/login/.well-known/openid-configuration
-[9]: https://online.superoffice.com/login/.well-known/openid-configuration

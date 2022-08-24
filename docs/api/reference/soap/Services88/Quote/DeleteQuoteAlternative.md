@@ -17,7 +17,6 @@ Delete a quote alternative
 
 **Returns:** A void return
 
-
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteQuoteAlternative Response
 
 ```xml
@@ -70,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

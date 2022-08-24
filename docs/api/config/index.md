@@ -26,7 +26,7 @@ Below is a configuration file with only the bare essential SuperOffice sections 
 
 ## SuperOffice section group
 
-[!code-xml[the SuperOffice section group](includes/section-group-superoffice.xml)]
+[!code-xml[the SuperOffice section group](includes/section-group-SuperOffice.xml)]
 
 In between the ending `configSections` and `configuration` element, there must be a `<SuperOffice></SuperOffice>` element that defines the values that set the NetServer runtime behavior.
 

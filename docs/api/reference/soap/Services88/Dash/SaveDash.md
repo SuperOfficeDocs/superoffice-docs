@@ -17,7 +17,6 @@ Updates the existing Dash or creates a new Dash if the id parameter is 0.
 
 **Returns:** New or updated Dash
 
-
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -79,7 +78,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveDash Response
 
 ```xml
@@ -129,4 +127,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

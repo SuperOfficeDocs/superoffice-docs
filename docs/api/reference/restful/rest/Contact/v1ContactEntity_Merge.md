@@ -13,14 +13,10 @@ Merge two contacts.
 
 The destination contact will remain.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sourceContactId | int32 | Source contact to merge from. This contact will disappear after the merge. **Required** |
 | destinationContactId | int32 | Destination contact to merge into **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +30,6 @@ POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?mergeIdent
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=True
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -43,9 +38,7 @@ POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmp
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

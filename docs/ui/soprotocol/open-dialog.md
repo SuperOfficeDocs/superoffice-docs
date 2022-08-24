@@ -104,7 +104,6 @@ The standard way to login to the CRM.web is through the login page. However, it 
 * TrayApp which could be either "yes" or "no" indicates whether the TrayApp is installed or not.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image021.jpg

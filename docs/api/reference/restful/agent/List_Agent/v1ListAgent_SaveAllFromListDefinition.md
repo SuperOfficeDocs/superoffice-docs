@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SaveAllFromListDefinition
 
 Save all list items for the specified list defintion
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save all list items for the specified list defintion
 ```http
 POST /api/v1/Agents/List/SaveAllFromListDefinition?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/List/SaveAllFromListDefinition?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionId, Items 
+UdListDefinitionId, Items
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | Items | array |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

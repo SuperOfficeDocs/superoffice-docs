@@ -6,9 +6,6 @@ title: Attachment
 /api/v1/Attachment
 ```
 
-
-
-
 * [GET Attachment/default](v1AttachmentEntity_DefaultAttachmentEntity.md)
 
 * [POST Attachment](v1AttachmentEntity_PostAttachmentEntity.md)

@@ -29,7 +29,6 @@ Currently logged-on users. This table contains encrypted license information.  C
 |domainName|Domain name|String(127)|&#x25CF;|
 |osUserName|OS user name currently logged on|String(127)|&#x25CF;|
 
-
 ![activeuser table relationship diagram](./media/activeuser.png)
 
 [!include[details](./includes/activeuser.md)]
@@ -46,7 +45,6 @@ Currently logged-on users. This table contains encrypted license information.  C
 |------|-------------|
 |[traveller](traveller.md)  |Associates traveling out from this database |
 
-
 ## Replication Flags
 
 * None
@@ -54,4 +52,3 @@ Currently logged-on users. This table contains encrypted license information.  C
 ## Security Flags
 
 * No access control via user's Role.
-

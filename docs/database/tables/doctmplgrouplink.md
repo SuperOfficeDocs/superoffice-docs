@@ -30,7 +30,6 @@ User group link table for DocTmpl, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![DocTmplGroupLink table relationship diagram](./media/DocTmplGroupLink.png)
 
 [!include[details](./includes/doctmplgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for DocTmpl, for MDO item hiding
 |[DocTmpl](doctmpl.md)  |DocTmpl list table. Describes templates available for writing new documents. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for DocTmpl, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

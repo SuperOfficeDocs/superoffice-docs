@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.GetCRMScr
 ## GetCRMScriptByUniqueIdentifier
 
 Get information about a script from a unique identifier
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **uniqueIdentifier:** Global unique reference to script (independent of installation)
 
 **Returns:** Information about CRMScript
-
 
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCRMScriptByUniqueIdentifier Response
 
 ```xml
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,13 +11,9 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 
 Send a message to recipients, for example by email.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to send **Required** |
-
 
 ## Query String Parameters
 
@@ -39,7 +35,6 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=51
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=cum
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -48,9 +43,7 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=cum
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

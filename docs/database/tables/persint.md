@@ -33,7 +33,6 @@ PersInt list table. List of Person interests.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PersInt table relationship diagram](./media/PersInt.png)
 
 [!include[details](./includes/persint.md)]
@@ -55,7 +54,6 @@ PersInt list table. List of Person interests.
 |[personinterest](personinterest.md)  |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest. |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ PersInt list table. List of Person interests.
 ## Security Flags
 
 * No access control via user's Role.
-

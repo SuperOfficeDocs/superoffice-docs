@@ -31,7 +31,6 @@ Default attachments to quotes linked to sales of this type
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SaleTypeQuoteAttachment table relationship diagram](./media/SaleTypeQuoteAttachment.png)
 
 [!include[details](./includes/saletypequoteattachment.md)]
@@ -50,7 +49,6 @@ Default attachments to quotes linked to sales of this type
 |[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
 |[SaleType](saletype.md)  |Type of sale - large solution, incremental, whatever fits the organization |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ Default attachments to quotes linked to sales of this type
 ## Security Flags
 
 * No access control via user's Role.
-

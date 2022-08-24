@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 When using [OSQL][1], we would first have to import the necessary namespaces:
 
 * SuperOffice.CRM.Data

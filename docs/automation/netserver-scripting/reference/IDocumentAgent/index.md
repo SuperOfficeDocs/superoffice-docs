@@ -99,4 +99,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDocumentAgent'
 * [UndoCheckoutDocument](undocheckoutdocument.md)
 * [ValidateDocumentEntity](validatedocumententity.md)
 * [VerifyGetDocumentStream](verifygetdocumentstream.md)
-

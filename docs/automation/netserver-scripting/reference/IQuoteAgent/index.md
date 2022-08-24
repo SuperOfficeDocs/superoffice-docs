@@ -114,4 +114,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IQuoteAgent'>IQ
 * [ToggleSaleTypeQuoteAttachmentDefaultIncluded](togglesaletypequoteattachmentdefaultincluded.md)
 * [UpdateQuoteVersionPrices](updatequoteversionprices.md)
 * [ValidateQuoteVersion](validatequoteversion.md)
-

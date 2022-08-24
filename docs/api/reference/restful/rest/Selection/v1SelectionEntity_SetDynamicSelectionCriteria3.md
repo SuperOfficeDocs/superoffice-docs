@@ -13,13 +13,9 @@ Update the criteria for this dynamic selection.
 
 Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Use criteria as either restriction objects or OData string format. Criteria are 
 ```http
 PUT /api/v1/Selection/{selectionId}/Criteria?$filter=name begins 'S'
 ```
-
 
 ## Request Headers
 
@@ -46,9 +41,9 @@ PUT /api/v1/Selection/{selectionId}/Criteria?$filter=name begins 'S'
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria  
+## Request Body: criteria
 
-Criteria defining the selection result. Pass NULL if using the filter string instead. 
+Criteria defining the selection result. Pass NULL if using the filter string instead.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,10 +58,7 @@ Criteria defining the selection result. Pass NULL if using the filter string ins
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

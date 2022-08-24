@@ -36,7 +36,6 @@ Authentication for a service (imap, smtp...)
 |auth\_status|The status of this authentication entry|Enum [ServiceAuthStatus](enums/serviceauthstatus.md)|&#x25CF;|
 |encryptedCheck|Encrypted hash checksum|String(254)| |
 
-
 ![service_auth table relationship diagram](./media/service_auth.png)
 
 [!include[details](./includes/service-auth.md)]
@@ -54,7 +53,6 @@ Authentication for a service (imap, smtp...)
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[email\_account](email-account.md)  |Email account information |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ Authentication for a service (imap, smtp...)
 ## Security Flags
 
 * No access control via user's Role.
-

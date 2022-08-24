@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/GetPersonsFromProject
 
 Returns all the persons belonging to a project.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns all the persons belonging to a project.
 ```http
 POST /api/v1/Agents/Person/GetPersonsFromProject?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/Person/GetPersonsFromProject?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId 
+ProjectId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

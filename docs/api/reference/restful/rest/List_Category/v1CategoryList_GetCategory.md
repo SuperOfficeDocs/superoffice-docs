@@ -11,16 +11,9 @@ GET /api/v1/List/Category/Items/{id}
 
 Gets a Category  item by id.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Category to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +28,9 @@ Gets a Category  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The list item entity contains generic list item information
-
-
 
 Carrier object for ListItemEntity.
 Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

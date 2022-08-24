@@ -18,7 +18,6 @@ Accepting an appointment invitation.
 
 **Returns:** Updated AppointmentEntity
 
-
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Accept Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

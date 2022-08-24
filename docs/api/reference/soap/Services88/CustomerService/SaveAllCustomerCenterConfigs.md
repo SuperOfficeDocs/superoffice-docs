@@ -17,7 +17,6 @@ Save an array of CustomerCenterConfig entities to the database
 
 **Returns:** void
 
-
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveAllCustomerCenterConfigs Response
 
 ```xml
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

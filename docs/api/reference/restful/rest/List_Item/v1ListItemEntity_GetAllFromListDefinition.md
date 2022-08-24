@@ -11,15 +11,9 @@ GET /api/v1/List/{udListDefinitionId}/Items
 
 Get all list items for the specified list defintion
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get all list items for the specified list defintion
 ```http
 GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=False
 ```
-
 
 ## Request Headers
 
@@ -45,10 +38,7 @@ GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

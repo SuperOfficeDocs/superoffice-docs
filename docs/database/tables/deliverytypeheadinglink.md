@@ -30,7 +30,6 @@ Heading link table for DeliveryType, for MDO item headings
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![DeliveryTypeHeadingLink table relationship diagram](./media/DeliveryTypeHeadingLink.png)
 
 [!include[details](./includes/deliverytypeheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for DeliveryType, for MDO item headings
 |[DeliveryType](deliverytype.md)  |The list of Delivery types, in the internal product register |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for DeliveryType, for MDO item headings
 ## Security Flags
 
 * No access control via user's Role.
-

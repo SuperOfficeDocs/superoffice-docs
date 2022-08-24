@@ -17,7 +17,6 @@ Find all roles with a given set of functional rights. The roles matched must con
 
 **Returns:** Role ids that contains your functional rights
 
-
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## FindRolesWithFunctionalRights Response
 
 ```xml
@@ -75,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

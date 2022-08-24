@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion
 
 Rejects a quote version
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Rejects a quote version
 ```http
 POST /api/v1/Agents/Quote/RejectQuoteVersion?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText 
+QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,12 +46,9 @@ QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText
 | RejectedByAssociateId | int32 |  |
 | RejectionText | string |  |
 
-
 ## Response: object
 
 ApproveRejectResponse contains a PluginResponse and an appointmentId if the operation created one.
-
-
 
 Carrier object for ApproveRejectResponse.
 Services for the ApproveRejectResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 
 Regenerate status monitors
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Regenerate status monitors
 ```http
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-RunAsBatch 
+RunAsBatch
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RunAsBatch | bool |  |
 
-
 ## Response: object
 
 BatchTaskInfo contains information about one batch task.
-
-
 
 Carrier object for BatchTaskInfo.
 Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.

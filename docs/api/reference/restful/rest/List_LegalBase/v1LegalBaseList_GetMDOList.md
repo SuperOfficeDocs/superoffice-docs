@@ -11,12 +11,6 @@ GET /api/v1/List/LegalBase/MDOItems
 
 Get the MDO list items for "LegalBase" - with headings and filtering by user group.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 GET /api/v1/List/LegalBase/MDOItems?flat=False
 GET /api/v1/List/LegalBase/MDOItems?query=qui
 ```
-
 
 ## Request Headers
 
@@ -43,10 +36,7 @@ GET /api/v1/List/LegalBase/MDOItems?query=qui
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

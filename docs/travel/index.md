@@ -59,7 +59,7 @@ To use MS SQL Express you must first download and install MS SQL Express from [
 
 The Travel client needs an ODBC datasource, which could be called **SOTravel**. You just need to add `Name = SOTravel` and `Servername = .\SQLExpress`
 
-Add `Local_datapath=ODBC:SOTravel` to the *SuperOffice.ini* file in *c:\program files\superoffice\superoffice* windows.
+Add `Local_datapath=ODBC:SOTravel` to the *SuperOffice.ini* file in *c:\program files\SuperOffice\SuperOffice* windows.
 
 If you have any problems going on Travel after the prototype is generated, make sure you start SOCRM.exe once elevated (as administrator) and do the local update. This is to make sure SuperOffice has sufficient rights to make the changes needed to use SQL Express.
 

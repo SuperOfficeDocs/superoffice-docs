@@ -13,10 +13,6 @@ Calculates the set of dates that represents a recurrence pattern.
 
 Adds conflict information to each date.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Adds conflict information to each date.
 ```http
 POST /api/v1/Agents/Appointment/CalculateDays?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +37,15 @@ POST /api/v1/Agents/Appointment/CalculateDays?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentEntity 
+AppointmentEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

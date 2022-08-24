@@ -6,9 +6,6 @@ title: List_Business
 /api/v1/List/Business
 ```
 
-
-
-
 * [GET List/Business](v1BusinessList_GetListDefinition.md)
 
 * [PUT List/Business](v1BusinessList_SetListDefinition.md)

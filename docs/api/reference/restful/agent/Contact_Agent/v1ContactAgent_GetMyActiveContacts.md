@@ -13,10 +13,6 @@ Returns the contacts where there has been activity since activityStartTime.
 
 If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ If activityStartTime is larger than the current date, all contacts with activity
 ```http
 POST /api/v1/Agents/Contact/GetMyActiveContacts?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Contact/GetMyActiveContacts?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ActivityStartTime, ContactCategories, ActionType 
+ActivityStartTime, ContactCategories, ActionType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +47,7 @@ ActivityStartTime, ContactCategories, ActionType
 | ContactCategories | array |  |
 | ActionType | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

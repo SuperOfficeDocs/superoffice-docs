@@ -35,7 +35,6 @@ Parts of recipes in SCIL to insert or remove in given recipes
 |updatedCount|Number of updates made to this record|UShort| |
 |deltaState|State of the delta, like draft or published|Enum [DeltaState](enums/deltastate.md)|&#x25CF;|
 
-
 ![ConfigurableScreenDelta table relationship diagram](./media/ConfigurableScreenDelta.png)
 
 [!include[details](./includes/configurablescreendelta.md)]
@@ -53,7 +52,6 @@ Parts of recipes in SCIL to insert or remove in given recipes
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -61,4 +59,3 @@ Parts of recipes in SCIL to insert or remove in given recipes
 ## Security Flags
 
 * No access control via user's Role.
-

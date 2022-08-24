@@ -11,12 +11,6 @@ POST /api/v1/Agents/Report/UpdateFavorite
 
 Updates the favorite.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Updates the favorite.
 ```http
 POST /api/v1/Agents/Report/UpdateFavorite?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Report/UpdateFavorite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ReportEntity 
+ReportEntity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ReportEntity |  | Carrier object for ReportEntity. Services for the ReportEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>. |
-
 
 ## Response: object
 

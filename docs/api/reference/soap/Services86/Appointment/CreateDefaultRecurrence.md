@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.CreateD
 
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
-
 **Returns:** RecurrenceInfo object with default values.
-
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultRecurrence Response
 
@@ -108,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

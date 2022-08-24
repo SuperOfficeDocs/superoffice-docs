@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/GetEmailAppointment
 
 Get appointment data contained in the emails iCal attachment
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get appointment data contained in the emails iCal attachment
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointment?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,20 +37,17 @@ POST /api/v1/Agents/EMail/GetEmailAppointment?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-MailItemId 
+MailItemId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailItemId | int32 |  |
 
-
 ## Response: object
 
 Information about an email appointment received as iCal data
-
-
 
 Carrier object for EMailAppointment.
 Services for the EMailAppointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

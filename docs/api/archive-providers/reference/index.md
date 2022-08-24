@@ -107,7 +107,6 @@ This is a list of all the valid provider names, and the associated column names 
 * [ExplicitInvitation](ExplicitInvitation.md)
 * [ExternalPersons](ExternalPersons.md)
 * [ExternalUsers](ExternalUsers.md)
-* [Favourites](Favourites.md)
 * [FindAppointment](FindAppointment.md)
 * [FindChatSession](FindChatSession.md)
 * [FindContact](FindContact.md)

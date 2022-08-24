@@ -47,7 +47,6 @@ The name of the MDO list is 'sale_new'.
 
 Separator: ;
 
-
 ## Sample Request
 
 ```http!

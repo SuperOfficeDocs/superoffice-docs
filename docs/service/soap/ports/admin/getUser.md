@@ -24,7 +24,7 @@ With this method, you can get various information about the logged-in user (usin
 * user.email
 * user.loginname
 * user.username
-* user.language (0 = English, 1 = Norwegian)  
+* user.language (0 = English, 1 = Norwegian)
 
 ## In parameters
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/AI/GetTrainingStatus
 
 Calling the HugoAI endpoint to fetch the current training status.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Calling the HugoAI endpoint to fetch the current training status.
 ```http
 POST /api/v1/Agents/AI/GetTrainingStatus?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Agents/AI/GetTrainingStatus?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Carrier to describe the current categorization training status for a tenant in HugoAI
-
-
 
 Carrier object for CategorizationStatusResponse.
 Services for the CategorizationStatusResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAIAgent">AI Agent</see>.

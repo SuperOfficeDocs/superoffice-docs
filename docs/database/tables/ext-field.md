@@ -29,7 +29,6 @@ This table contains entries mapping an external field to an internal field. Used
 |flags|Bitmap for flags for this entry.|Int|&#x25CF;|
 |datatype|The datatype for this field. TODO: depreciated?|Int|&#x25CF;|
 
-
 ![ext_field table relationship diagram](./media/ext_field.png)
 
 [!include[details](./includes/ext-field.md)]
@@ -47,7 +46,6 @@ This table contains entries mapping an external field to an internal field. Used
 |------|-------------|
 |[ext\_table](ext-table.md)  |This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration. |
 
-
 ## Replication Flags
 
 * None
@@ -55,4 +53,3 @@ This table contains entries mapping an external field to an internal field. Used
 ## Security Flags
 
 * No access control via user's Role.
-

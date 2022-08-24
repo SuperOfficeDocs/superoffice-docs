@@ -6,9 +6,6 @@ title: List_LegalBase
 /api/v1/List/LegalBase
 ```
 
-
-
-
 * [GET List/LegalBase](v1LegalBaseList_GetListDefinition.md)
 
 * [PUT List/LegalBase](v1LegalBaseList_SetListDefinition.md)

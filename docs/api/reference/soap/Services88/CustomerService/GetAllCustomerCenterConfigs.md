@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Get
 
 Get all rows from cust\_config as an array of CustomerCenterConfig entities
 
-
 **Returns:** An array of CustomerCenterConfig entities
-
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetAllCustomerCenterConfigs Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -20,7 +20,7 @@ The Dynamic Client Foundation (DCF) lives in the *SuperOffice.DCF* assembly. Thi
 | Drawing utility | bitmap reading and scaling functions |
 | Globalization utilities | convert string resource IDs to translated strings, convert neutral values (20090807) into localized values (7. aug 2009). |
 
-## Superoffice.DCFWeb.DLL
+## SuperOffice.DCFWeb.DLL
 
 This assembly provides the base definitions for the page builder framework. Unfortunately, it does not provide the page builder framework itself - that is still tied to CRM.web.
 

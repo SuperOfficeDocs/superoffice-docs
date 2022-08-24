@@ -39,7 +39,6 @@ Two placeholders are used in the above code and their IDs are *notepadPlaceholde
 Controls are dynamically added to the above placeholders in the coding of the *MiniNotepadView.ascx.cs* file.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image003.jpg

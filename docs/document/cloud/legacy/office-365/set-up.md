@@ -22,7 +22,7 @@ Setting up Microsoft 365 SharePoint Integration has 2 parts:
   * Check if your SuperOffice CRM Online tenant is ready (pre-requisite step).
   * Configure the integration in your Microsoft 365 SharePoint (steps 1 - 3).
   * Enable the integration for your CRM Online site (step 4).
-* Configure your templates in SuperOffice Admin (step 5).
+  * Configure your templates in SuperOffice Admin (step 5).
 
 ## Before you begin
 
@@ -186,13 +186,14 @@ Since we’re not in Office Store, we have to do this manually:
 
     If you don’t have an **App Catalog** from before – choose to create a new one, for example:
 
-        * Title: Custom apps
-        * Web Site Address: `https://[your_domain_name].sharepoint.com/sites/apps/`
-        * Administrator: [any admin/currently logged-in user]
-        * Server Resource Quota: 20
+    * Title: Custom apps
+    * Web Site Address: `https://[your_domain_name].sharepoint.com/sites/apps/`
+    * Administrator: [any admin/currently logged-in user]
+    * Server Resource Quota: 20
 
     The App Catalog is now being created – and available to be used within about 5 minutes.
 
+    <!-- markdownlint-disable-next-line MD044 -->
 3. Download the SuperOffice SharePoint App <a href="../../../../assets/downloads/cloud-office/cloud-office-superoffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
 
 4. Choose "Apps for SharePoint" in the menu. ![imagekoepi.png -screenshot][img30]
@@ -295,7 +296,6 @@ This will store the template in the Microsoft 365 cloud. When the user uses this
 [3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script
 [5]: https://social.technet.microsoft.com/wikicontents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx
-[6]: security.md
 [7]: troubleshooting.md
 [12]: https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true
 [13]: https://docs.microsoft.com/en-us/sharepoint/sharepoint-admin-role
@@ -321,7 +321,6 @@ This will store the template in the Microsoft 365 cloud. When the user uses this
 [img27]: media/image69pt4.png
 [img30]: media/imagekoepi.png
 [img31]: media/imageydark.png
-[img31]: media/imagem7t19.png
 [img32]: media/image6e0ta.png
 [img33]: media/imagebnc9j.png
 [img34]: media/imagezfo3m.png

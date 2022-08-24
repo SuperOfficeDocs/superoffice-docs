@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetProductCategory
 
 Gets a ProductCategory object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a ProductCategory object.
 POST /api/v1/Agents/List/GetProductCategory?productCategoryId=130
 POST /api/v1/Agents/List/GetProductCategory?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/List/GetProductCategory?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The built-in product category list. Used by the SuperOffice Quote Connector to categorize products.
-
-
 
 Carrier object for ProductCategory.
 Services for the ProductCategory Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 * All [redirection URLs][1] and all URLs embedded in web panels are secure: run Qualys SSL Labs - [SSL Server tests][2] and aim for an A
 * SSL 2.0 and 3.0 are disabled
 * TLS 1.2 is supported

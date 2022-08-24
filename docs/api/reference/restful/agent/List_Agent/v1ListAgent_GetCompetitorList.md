@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetCompetitorList
 
 Gets an array of Competitor objects.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets an array of Competitor objects.
 ```http
 POST /api/v1/Agents/List/GetCompetitorList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,11 @@ POST /api/v1/Agents/List/GetCompetitorList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: competitorIds  
+## Request Body: competitorIds
 
-The primary keys. 
-
-
+The primary keys.
 
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

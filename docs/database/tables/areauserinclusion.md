@@ -30,7 +30,6 @@ Link table incidated whose data should be included in this area. If Include all 
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![areauserinclusion table relationship diagram](./media/areauserinclusion.png)
 
 [!include[details](./includes/areauserinclusion.md)]
@@ -50,7 +49,6 @@ Link table incidated whose data should be included in this area. If Include all 
 |[area](area.md)  |Definition of an Area (database subset for satellite and travel) |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,4 +58,3 @@ Link table incidated whose data should be included in this area. If Include all 
 ## Security Flags
 
 * No access control via user's Role.
-

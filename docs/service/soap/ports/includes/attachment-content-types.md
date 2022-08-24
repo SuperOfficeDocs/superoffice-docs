@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 **Popular content types:**
 
 * "text/html" .md .md

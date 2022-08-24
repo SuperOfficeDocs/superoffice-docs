@@ -11,13 +11,6 @@ POST /api/v1/Agents/Project/SaveProjectEntity
 
 Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ProjectEntity or creates a new ProjectEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ProjectEntity to be saved. 
+The ProjectEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,9 +42,9 @@ The ProjectEntity to be saved.
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -70,12 +63,9 @@ The ProjectEntity to be saved.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
-
 ## Response: object
 
 The Project Service. The service implements all services working with the Project object
-
-
 
 Carrier object for ProjectEntity.
 Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
@@ -99,9 +89,9 @@ Response body: object
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |

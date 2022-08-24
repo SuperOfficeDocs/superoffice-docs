@@ -26,7 +26,6 @@ This table stores result meta data
 |owner|The user who owns this selection result|FK [ejuser](ejuser.md)| |
 |created\_at|When the result set was created.|DateTime| |
 
-
 ![ejsel_meta_result table relationship diagram](./media/ejsel_meta_result.png)
 
 [!include[details](./includes/ejsel-meta-result.md)]
@@ -48,7 +47,6 @@ This table stores result meta data
 |[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
-
 ## Replication Flags
 
 * None
@@ -56,4 +54,3 @@ This table stores result meta data
 ## Security Flags
 
 * No access control via user's Role.
-

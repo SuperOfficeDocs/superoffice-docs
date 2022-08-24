@@ -34,7 +34,6 @@ Prob list table. Probability, used in  sales .
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![Prob table relationship diagram](./media/Prob.png)
 
 [!include[details](./includes/prob.md)]
@@ -57,7 +56,6 @@ Prob list table. Probability, used in  sales .
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 |[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -67,4 +65,3 @@ Prob list table. Probability, used in  sales .
 ## Security Flags
 
 * No access control via user's Role.
-

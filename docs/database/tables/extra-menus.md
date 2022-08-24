@@ -34,7 +34,6 @@ This table contains entries for the extra menus in the system.
 |extra\_table|ExtraTable that the menu is connected to|FK [extra_tables](extra-tables.md)|&#x25CF;|
 |group\_id|Link to extra_menus table if this menu item is to be shown in a custom menu group|FK [extra_menus](extra-menus.md)|&#x25CF;|
 
-
 ![extra_menus table relationship diagram](./media/extra_menus.png)
 
 [!include[details](./includes/extra-menus.md)]
@@ -54,7 +53,6 @@ This table contains entries for the extra menus in the system.
 |[extra\_menus](extra-menus.md)  |This table contains entries for the extra menus in the system. |
 |[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ This table contains entries for the extra menus in the system.
 ## Security Flags
 
 * No access control via user's Role.
-

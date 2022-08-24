@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ChangeEngin
 ## ChangeEngineStatus
 
 Change the current running/stopped status of the Sync engine
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **run:** If true, then start the engine; otherwise stop it (requests to the Batch system, may not be immediately reflected)
 
 **Returns:** The current status of the engine
-
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ChangeEngineStatus Response
 
 ```xml
@@ -76,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

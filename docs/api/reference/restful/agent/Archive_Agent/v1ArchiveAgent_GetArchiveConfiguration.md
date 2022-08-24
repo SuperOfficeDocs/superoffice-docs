@@ -13,10 +13,6 @@ Get the configuration for one archive.
 
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The configuration is keyed by a combination of archive provider name and gui nam
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfiguration?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/Archive/GetArchiveConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-GuiName, ProviderName 
+GuiName, ProviderName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GuiName | string |  |
 | ProviderName | string |  |
 
-
 ## Response: object
 
 This service is used to store and fetch the configuration of an archive. The configuration consists of entities and columns; entities correspond to archive provider entities and the checkboxes you see in the bottom of standard archives. Column configuration includes both what columns should be visible, what order they are in (left to right), and whether the archive rows should be sorted by one or more columns.&lt;para/&gt;Note that desired columns can be set through the selectable mdo list called archiveColumns:&amp;lt;perovider name&amp;gt;, and entities can be set through the selectable mdo list archiveEntities:&amp;lt;provider name&amp;gt;. You can also use the SetChosenEntities and SetChosenColumns method of this service. The selectable mdo list implementation is suitable for data binding using mdo list controls.
-
-
 
 Carrier object for ArchiveConfiguration.
 Services for the ArchiveConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.

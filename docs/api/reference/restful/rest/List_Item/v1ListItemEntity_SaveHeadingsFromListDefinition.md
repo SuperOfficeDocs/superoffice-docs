@@ -11,16 +11,9 @@ PUT /api/v1/List/{id}/Headings
 
 Save headings for list resolved by the provided id.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the list to look up. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,9 @@ Save headings for list resolved by the provided id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities
 
-The headings to save 
+The headings to save
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,10 +42,7 @@ The headings to save
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

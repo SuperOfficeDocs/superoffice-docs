@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 
 Get an e-mail based on an email in the archive system and attachment id
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get an e-mail based on an email in the archive system and attachment id
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocId, AttachmentIds, IncludeAttachments 
+DocId, AttachmentIds, IncludeAttachments
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +47,9 @@ DocId, AttachmentIds, IncludeAttachments
 | AttachmentIds | array |  |
 | IncludeAttachments | bool |  |
 
-
 ## Response: object
 
 All information about an e-mail
-
-
 
 Carrier object for EMailEntity.
 Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.

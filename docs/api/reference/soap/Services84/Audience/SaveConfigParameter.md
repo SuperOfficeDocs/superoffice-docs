@@ -18,7 +18,6 @@ Saves an Audience configuration parameter belonging to a Audience layout
 
 **Returns:** The new or updated configuration parameter
 
-
 [WSDL file for Services84/Audience](../Services84-Audience.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveConfigParameter Response
 
 ```xml
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,13 +11,6 @@ POST /api/v1/Contact/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: contactEntity  
+## Request Body: contactEntity
 
-Entity to be checked for errors. 
+Entity to be checked for errors.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,17 +40,17 @@ Entity to be checked for errors.
 | UpdatedDate | date-time | Date last updated  in UTC. |
 | CreatedDate | date-time | Date registered  in UTC. |
 | Emails | array | The contact's email |
-| Interests | array | The contact's available and selected interests.  <para>Use MDO List name "contint" to get list items.</para> |
+| Interests | array | The contact's available and selected interests.  <br />Use MDO List name "contint" to get list items. |
 | Urls | array | The contact's internet adresses |
 | Phones | array | The contact's phone numbers |
 | Faxes | array | The contact's fax numbers |
 | Description | string | Description of the contact. Usually shown as a postit note. |
 | UpdatedBy |  | The user that last updated the contact |
 | CreatedBy |  | The user that created the contact |
-| Associate |  | The user that owns this contact.  <para>Use MDO List name "associate" to get list items.</para> |
-| Business |  | The business that the contact is associated with. The GUI forces the user to enter a business type.  <para>Use MDO List name "business" to get list items.</para> |
-| Category |  | The category that is set on the company. The GUI forces the user to enter a category type  <para>Use MDO List name "category" to get list items.</para> |
-| Country |  | The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.  <para>Use MDO List name "country" to get list items.</para> |
+| Associate |  | The user that owns this contact.  <br />Use MDO List name "associate" to get list items. |
+| Business |  | The business that the contact is associated with. The GUI forces the user to enter a business type.  <br />Use MDO List name "business" to get list items. |
+| Category |  | The category that is set on the company. The GUI forces the user to enter a category type  <br />Use MDO List name "category" to get list items. |
+| Country |  | The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.  <br />Use MDO List name "country" to get list items. |
 | Persons | array | The persons belonging to the contact. |
 | NoMailing | bool | Spam filter. Indicates if this contact should retrieve advertising. |
 | Kananame | string | Contact kana name, used in Japanese versions only |
@@ -65,8 +58,8 @@ Entity to be checked for errors.
 | ActiveInterests | int32 | The number of active interests. |
 | GroupId | int32 | Group id of original owning associate, semantics like appnt.grp_id |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for contact |
-| SupportAssociate |  | <para>Use MDO List name "associate" to get list items.</para> |
-| TicketPriority |  | <para>Use MDO List name "ticketpriority" to get list items.</para> |
+| SupportAssociate |  | <br />Use MDO List name "associate" to get list items. |
+| TicketPriority |  | <br />Use MDO List name "ticketpriority" to get list items. |
 | CustomerLanguage |  | customerlanguage |
 | Deleted | int32 | If nonzero, then this contact is 'deleted' and should generally not be shown |
 | DbiAgentId | int32 | Integration agent (eJournal) |
@@ -74,7 +67,7 @@ Entity to be checked for errors.
 | DbiKey | string | The primary key for the integrated entry in the external datasource. |
 | DbiLastModified | date-time | When the entry was last modified. |
 | SupportPerson |  | Carrier object for Person. Services for the Person Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>. |
-| Address |  | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <para /> Carrier object for Address. |
+| Address |  | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <br /> Carrier object for Address. |
 | Source | int32 | How did we get this contact? For future integration needs |
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
@@ -83,17 +76,13 @@ Entity to be checked for errors.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample Request
 

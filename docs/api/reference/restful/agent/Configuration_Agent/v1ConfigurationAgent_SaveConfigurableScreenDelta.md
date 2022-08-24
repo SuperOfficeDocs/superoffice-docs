@@ -11,13 +11,6 @@ POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 
 Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ConfigurableScreenDelta to be saved. 
+The ConfigurableScreenDelta to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,10 +44,7 @@ The ConfigurableScreenDelta to be saved.
 | CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | UserGroupIds | array |  |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -50,7 +50,7 @@ We have [published a web application][1] that will help consultants get over the
 
 To **use** the published web application as a helper, you must tell SuperOffice to add its **redirect URL** to your registered application. You can have more than one redirect URL. The redirect URL for the helper is:
 
-`https://devnet-tokens.azurewebsites.net/openid/callback`
+`https://devnet-tools.superoffice.com/openid/callback`
 
 First created as an OpenID Connect/PassportJS code sample, the [source code][2] has evolved to make it easy for private applications to easily overcome the basic requirements.
 
@@ -89,12 +89,11 @@ When signed in, you can use the **Token to Ticket** wizard to sign your system u
 We also have samples that demonstrate how to exchange a system user token for a system user ticket in [.NET][3], [.NET Core][4], [PHP][5], and [Python][1].
 
 <!-- Referenced links -->
-[1]: https://devnet-tokens.azurewebsites.net/
+[1]: https://devnet-tools.superoffice.com
 [2]: https://github.com/SuperOffice/node-express-convert-certs-and-sys-token
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.SystemUser.ServiceConsole
 [4]: https://github.com/SuperOffice/SuperOffice.DevNet.Online.SystemUser.NetCore.Console
 [5]: https://github.com/SuperOffice/devnet-php-oidc-soap
-[6]: https://github.com/SuperOffice/devnet-python-system-user
 
 <!-- Referenced images -->
 [img1]: media/allowscreen.png

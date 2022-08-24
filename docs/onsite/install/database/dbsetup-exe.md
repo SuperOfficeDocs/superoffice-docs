@@ -19,13 +19,12 @@ Since SuperOffice 8.1 DBSetup can create a *Database.log* file.
 
 ![Database maintenance client  -screenshot][img1]
 
-DbSetup/ServerSetup will create all tables, both SuperOffice and Service. Also, Service needs to tweak them a little, with its setup program.
+DbSetup/ServerSetup will create all tables, both SuperOffice and Service. DbSetup export & import supports all tables and data.
 
-DbSetup will export & import all standard tables & fields for both products.
+> [!NOTE]
+> DBSetup is not a backup solution. Onsite installations must use a standard database backup strategy.
 
-DbSetup does not see extra tables and extra fields. We will have a separate solution for that. Service has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to "not go there".
-
-The new "dynamic" archive provider in NetServer does see these fields & tables. NetServer is inherently designed to be more flexible, so it sees all the new fields and tables with no problems.  However, the web service APIs are still fairly static, and transporting new data there presents a challenge. On the main entities, this is solved using the existing name/value extrafields dictionary.
+The Service application installer tweaks some service related tables.
 
 ## Rebuild (copy) a database, any 8.1+ version, no version change
 
@@ -112,7 +111,7 @@ Load a text file and run SQL statements in it. Statements are separated/terminat
 Create or update the free-text index on an existing 8.1+ database. The same function is available in the Admin client.
 
 > [!NOTE]
-> To perform this task, the superoffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
+> To perform this task, the SuperOffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
 
 ## Rebuild SAINT counters and statuses (8.1+)
 
@@ -121,7 +120,7 @@ Perform a total rebuild of the SAINT counters, and subsequently the SAINT status
 This task may also be automated by using the Travel gateway service.
 
 > [!NOTE]
-> To perform this task, the superoffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
+> To perform this task, the SuperOffice.config user needs to be a valid associate or a system user and Table Admin user set in Win Admin needs to be a valid database user.
 
 ## Recalculate Next Due Date for all Sales (8.1+)
 

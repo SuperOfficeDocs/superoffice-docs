@@ -13,10 +13,6 @@ Creates a new PreferenceDescriptionLine
 
 Calls the Preference agent service SavePreferenceDescriptionLine.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Preference agent service SavePreferenceDescriptionLine.
 ```http
 POST /api/v1/PreferenceDescriptionLine?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/PreferenceDescriptionLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The PreferenceDescriptionLine to be saved. 
+The PreferenceDescriptionLine to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,12 +50,9 @@ The PreferenceDescriptionLine to be saved.
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
 
-
 ## Response: object
 
 Preference description line, contains information about a single item in a preference description list.
-
-
 
 PreferenceDescriptionLine entity with API _Links added.
 

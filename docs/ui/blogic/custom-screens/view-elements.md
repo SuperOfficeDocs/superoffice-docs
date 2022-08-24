@@ -201,7 +201,7 @@ The [Ejscript element][15] adds a completely custom element to your screen. Use 
 ### Example: add a heading
 
 ```crmscript
-print("<b>" + getLanguageVariable("newTicketDesc") + "</b>");
+print("**" + getLanguageVariable("newTicketDesc") + "**");
 ```
 
 Perhaps with some additional styling:

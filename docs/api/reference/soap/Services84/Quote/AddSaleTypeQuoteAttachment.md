@@ -18,7 +18,6 @@ Adds a new quote attachment document to a sale type
 
 **Returns:** ID of the new sale type quote attachment row
 
-
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddSaleTypeQuoteAttachment Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

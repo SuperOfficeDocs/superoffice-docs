@@ -16,14 +16,8 @@ so.envir:
 
 # "culture" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CultureProvider">CultureProvider</see> class.
 The name of the MDO list is 'culture'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("culture", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -64,7 +59,6 @@ foreach (var item in listProvider.RootItems) {
 |1034|Spanish ||es|
 |1053|Swedish ||sv|
 |1058|Ukrainian ||uk|
-
 
 ## Related MDO Lists
 

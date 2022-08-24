@@ -118,7 +118,7 @@ Now, like any `SoControl` element, the figure below demonstrates how I can place
 
 **How Attribute Mapping Names are used to define the type in the configuration:**
 
-![x][im8]
+![x][img8]
 
 Hopefully, this will help make it all clearer. `ValidationControl` is responsible for displaying a message to the user, while the `ValidationRules` validator is responsible for running my business rules and returning whether the page is valid or not.
 

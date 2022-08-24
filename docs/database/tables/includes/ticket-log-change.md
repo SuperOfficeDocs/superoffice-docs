@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 The field `ticket_log_change.log_change` has an enum from this list:
 
 ### enum LogChange

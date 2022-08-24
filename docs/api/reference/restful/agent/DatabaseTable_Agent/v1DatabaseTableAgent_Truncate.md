@@ -13,12 +13,7 @@ Drop all rows in a table.
 
 This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
 
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -29,7 +24,6 @@ This clearance is not individually logged in TravelTransactionlog or Webhook/scr
 ```http
 POST /api/v1/Agents/DatabaseTable/Truncate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,20 +39,17 @@ POST /api/v1/Agents/DatabaseTable/Truncate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName 
+TableName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 
-
 ## Response: object
 
 Information about the results of a mass-update operation
-
-
 
 Carrier object for MassOperationResult.
 Services for the MassOperationResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.

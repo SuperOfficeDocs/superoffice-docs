@@ -36,7 +36,6 @@ SuperOffice reporter data
 |updatedCount|Number of updates made to this record|UShort| |
 |locked|If 1, then this crierion is locked and its value cannot be changed outside of Reporter Studio|Bool|&#x25CF;|
 
-
 ![SORCriteria table relationship diagram](./media/SORCriteria.png)
 
 [!include[details](./includes/sorcriteria.md)]
@@ -59,7 +58,6 @@ SuperOffice reporter data
 |[SOROperators](soroperators.md)  |SuperOffice reporter data |
 |[SORPublish](sorpublish.md)  |SuperOffice reporter data |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -69,4 +67,3 @@ SuperOffice reporter data
 ## Security Flags
 
 * No access control via user's Role.
-

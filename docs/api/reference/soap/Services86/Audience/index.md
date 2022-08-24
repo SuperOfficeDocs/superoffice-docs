@@ -41,4 +41,3 @@ Download [WSDL file for Services86/Audience](../Services86-Audience.md) if you n
 * [SetDefaultPersonImage](SetDefaultPersonImage.md)
 * [SetDefaultProjectImage](SetDefaultProjectImage.md)
 * [SetLogoImage](SetLogoImage.md)
-

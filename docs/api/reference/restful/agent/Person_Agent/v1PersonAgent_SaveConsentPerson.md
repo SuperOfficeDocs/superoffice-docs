@@ -11,13 +11,6 @@ POST /api/v1/Agents/Person/SaveConsentPerson
 
 Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ConsentPerson or creates a new ConsentPerson if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ConsentPerson to be saved. 
+The ConsentPerson to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +37,6 @@ The ConsentPerson to be saved.
 | PersonId | int32 | Person ID |
 | ConsentPurpose |  | The consent purpose |
 | Comment | string | Comment regarding this specific consent |
-
 
 ## Response: object
 

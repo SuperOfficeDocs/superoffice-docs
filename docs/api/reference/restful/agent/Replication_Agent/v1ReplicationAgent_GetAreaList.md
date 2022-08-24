@@ -11,13 +11,7 @@ POST /api/v1/Agents/Replication/GetAreaList
 
 Gets an array of Area objects.
 
-
-
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
-
-
-
-
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Gets an array of Area objects.
 ```http
 POST /api/v1/Agents/Replication/GetAreaList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,11 @@ POST /api/v1/Agents/Replication/GetAreaList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: areaIds  
+## Request Body: areaIds
 
-The primary keys. 
-
-
+The primary keys.
 
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

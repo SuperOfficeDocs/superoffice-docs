@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/ExportSelectionMembers
 
 ExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ ExportSelectionMembers will generate a string that is the result of substituting
 ```http
 POST /api/v1/Agents/Selection/ExportSelectionMembers?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Selection/ExportSelectionMembers?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, TemplateName, UseContacts 
+SelectionId, TemplateName, UseContacts
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +45,13 @@ SelectionId, TemplateName, UseContacts
 | TemplateName | string |  |
 | UseContacts | bool |  |
 
-
-## Response: 
-
-
+## Response
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
-
+Response body:
 
 ## Sample Request
 

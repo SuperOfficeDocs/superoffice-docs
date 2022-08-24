@@ -11,13 +11,6 @@ POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 
 Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SystemEventEntity or creates a new SystemEventEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SystemEventEntity to be saved. 
+The SystemEventEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,12 +42,9 @@ The SystemEventEntity to be saved.
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy |  | The associate that first created the SystemEvent. |
 
-
 ## Response: object
 
 Entity for system events
-
-
 
 Carrier object for SystemEventEntity.
 Services for the SystemEventEntity Carrier is available from the <see cref="!:IConfigurationAgent">Configuration Agent</see>.

@@ -41,7 +41,6 @@ Task list table, activity types, like Phone, Meeting
 |intentId|Link to the intention of this kind of task (used by SAINT)|FK [Intent](intent.md)|&#x25CF;|
 |default\_videomeeting\_status|Default video-meeting status for meetings created in SuperOffice CRM.|Enum [VideoMeetingStatus](enums/videomeetingstatus.md)| |
 
-
 ![Task table relationship diagram](./media/Task.png)
 
 [!include[details](./includes/task.md)]
@@ -60,13 +59,12 @@ Task list table, activity types, like Phone, Meeting
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ExternalEvent](externalevent.md)  |The definition of projects as events in Audience (or other Collaborative apps) |
-|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
+|[Intent](intent.md)  |Intent list for SAINT.  |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[StatusDef](statusdef.md)  |Status definitions. Name and description are in LocaleText for internationalization |
 |[SuggestedAppointment](suggestedappointment.md)  |Defines a suggested appointment for use in a Sale Guide or Project Guide |
 |[TaskGroupLink](taskgrouplink.md)  |User group link table for Task, for MDO item hiding |
 |[TaskHeadingLink](taskheadinglink.md)  |Heading link table for Task, for MDO headers |
-
 
 ## Replication Flags
 
@@ -77,4 +75,3 @@ Task list table, activity types, like Phone, Meeting
 ## Security Flags
 
 * No access control via user's Role.
-

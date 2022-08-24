@@ -17,7 +17,6 @@ Get status info for the Quote version dialog header. Collects most important war
 
 **Returns:** Most important status text + icon information.
 
-
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetQuoteVersionWorkflowStatusInfo Response
 
 ```xml
@@ -76,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

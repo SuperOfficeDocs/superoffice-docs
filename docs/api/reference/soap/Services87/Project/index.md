@@ -64,4 +64,3 @@ Download [WSDL file for Services87/Project](../Services87-Project.md) if you nee
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [SetProjectImage](SetProjectImage.md)
 * [UpdateProjectMember](UpdateProjectMember.md)
-

@@ -133,7 +133,6 @@ User-defined fields
 |double09|double value 9, not indexed|Double|&#x25CF;|
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
-
 ![udpersonSmall table relationship diagram](./media/udpersonSmall.png)
 
 [!include[details](./includes/udpersonsmall.md)]
@@ -162,7 +161,6 @@ User-defined fields
 |------|-------------|
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
-
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -172,4 +170,3 @@ User-defined fields
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

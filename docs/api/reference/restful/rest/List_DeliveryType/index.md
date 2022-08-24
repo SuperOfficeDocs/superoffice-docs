@@ -6,9 +6,6 @@ title: List_DeliveryType
 /api/v1/List/DeliveryType
 ```
 
-
-
-
 * [GET List/DeliveryType](v1DeliveryTypeList_GetListDefinition.md)
 
 * [PUT List/DeliveryType](v1DeliveryTypeList_SetListDefinition.md)

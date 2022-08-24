@@ -13,10 +13,6 @@ Creates a new DashTheme
 
 Calls the Dash agent service SaveDashTheme.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Dash agent service SaveDashTheme.
 ```http
 POST /api/v1/DashTheme?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/DashTheme?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The DashTheme to be saved. 
+The DashTheme to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +49,9 @@ The DashTheme to be saved.
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 
-
 ## Response: object
 
 Dashboard theme configuration
-
-
 
 DashTheme entity with API _Links added.
 

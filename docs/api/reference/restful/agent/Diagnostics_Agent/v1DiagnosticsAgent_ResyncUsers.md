@@ -13,10 +13,6 @@ Resynchronize user information with SuperOffice Community, if opted-out then thi
 
 The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ The call returns immediately (starting a background thread), and updates CS sche
 POST /api/v1/Agents/Diagnostics/ResyncUsers?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -36,9 +31,7 @@ POST /api/v1/Agents/Diagnostics/ResyncUsers?$select=name,department,category/id
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

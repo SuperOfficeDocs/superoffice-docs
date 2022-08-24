@@ -26,7 +26,6 @@ A scheduled entry executing a script at certain times
 |schedule\_id|Update schedule|FK [schedule](schedule.md)|&#x25CF;|
 |description|Optional description of what this task is used for.|String(2047)|&#x25CF;|
 
-
 ![scheduled_task table relationship diagram](./media/scheduled_task.png)
 
 [!include[details](./includes/scheduled-task.md)]
@@ -46,7 +45,6 @@ A scheduled entry executing a script at certain times
 |[ejscript](ejscript.md)  |ejscript |
 |[schedule](schedule.md)  |Generic scheduled tasked handling time scheduling, locking and error messages |
 
-
 ## Replication Flags
 
 * None
@@ -54,4 +52,3 @@ A scheduled entry executing a script at certain times
 ## Security Flags
 
 * No access control via user's Role.
-

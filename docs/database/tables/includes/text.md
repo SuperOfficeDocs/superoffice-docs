@@ -1,9 +1,8 @@
-
-### Values needed to access the Text table
+<!-- markdownlint-disable-file MD041 -->
 
 This table must contain special values that would be difficult to guess correctly. These are listed below with a description of how to use them.
 
-#### Value for field 'type' in table 'text'
+#### Value for field 'type' in table 'text'
 
 | Type | ID | Comment |
 |---|---|---|

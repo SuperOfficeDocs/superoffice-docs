@@ -23,4 +23,3 @@ Download [WSDL file for Services87/Pocket](../Services87-Pocket.md) if you need 
 * [SendPushNotification](SendPushNotification.md)
 * [SetPushNotificationTagsForDevice](SetPushNotificationTagsForDevice.md)
 * [SetPushNotificationTagsForUser](SetPushNotificationTagsForUser.md)
-

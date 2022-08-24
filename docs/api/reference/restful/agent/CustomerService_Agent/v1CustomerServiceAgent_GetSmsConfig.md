@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/GetSmsConfig
 
 Get the SmsConfig settings for Customer Service sms providers.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get the SmsConfig settings for Customer Service sms providers.
 ```http
 POST /api/v1/Agents/CustomerService/GetSmsConfig?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Agents/CustomerService/GetSmsConfig?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Sms settings for Customer Service sms providers.
-
-
 
 Carrier object for SmsConfig.
 Services for the SmsConfig Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

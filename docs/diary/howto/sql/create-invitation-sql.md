@@ -35,6 +35,7 @@ The next sections detail what happens when the **SAVE** button is clicked.
 * The appointment points to the master appointment using the `mother_id` field.
 * The `invitedPersonId` field is set to the associate's `person_id`.
 
+<!-- markdownlint-disable MD013 -->
 ```SQL
 INSERT INTO CRM."appointment" ("appointment_id", "contact_id", "person_id", "**associate_id**", "group_idx", "registered", "registered_associate_id", "done", "do_by", "leadtime", "task_idx", "priority_idx", "type", "status", "private", "alarm", "text_id", "project_id", "**mother_id**", "document_id", "color_index", "opportunity_id", "**invitedPersonId**", "activeDate", "endDate", "lagTime", "source", "userdef_id", "userdef2_id", "updated", "updated_associate_id", "updatedCount", "activeLinks", "recurrenceRuleId", "location", "alldayEvent", "freeBusy", "rejectCounter", "emailId", "rejectReason", "hasAlarm", "assignedBy") VALUES (740, 13, 42, **10**, 5, 1164896595, 7, 0, 1164888900, 0, 8, 0, 6, 5, 0, 0, 389, 0, **739**, 0, 0, 0, **18**, 1164888900, 1164894300, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, '', 0, 0)
 

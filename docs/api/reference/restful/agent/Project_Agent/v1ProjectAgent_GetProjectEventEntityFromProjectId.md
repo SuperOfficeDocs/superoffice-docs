@@ -11,12 +11,6 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 
 Get a ProjectEventEntity based on a projectId.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a ProjectEventEntity based on a projectId.
 ```http
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId 
+ProjectId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-
 ## Response: object
 
 The ProjectEvent Service. The service implements all services working with the ProjectEvent object
-
-
 
 Carrier object for ProjectEventEntity.
 Services for the ProjectEventEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.

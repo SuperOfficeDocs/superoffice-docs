@@ -13,11 +13,6 @@ Create a new ConsentPurpose list item
 
 Calls the List agent service SaveConsentPurpose.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ConsentPurpose to be created. 
+The ConsentPurpose to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +46,6 @@ The ConsentPurpose to be created.
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-
 
 ## Response: object
 

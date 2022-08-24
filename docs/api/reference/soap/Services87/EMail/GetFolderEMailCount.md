@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetFolderEMai
 ## GetFolderEMailCount
 
 Retrieve total/unread mail items in current folder
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **onlyUnread:** If true, only unread items are counted
 
 **Returns:** Number of mail items
-
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetFolderEMailCount Response
 
 ```xml
@@ -80,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -6,9 +6,6 @@ title: ShipmentMessage
 /api/v1/ShipmentMessage
 ```
 
-
-
-
 * [GET ShipmentMessage/default](v1ShipmentMessageEntity_DefaultShipmentMessageEntity.md)
 
 * [POST ShipmentMessage](v1ShipmentMessageEntity_PostShipmentMessageEntity.md)

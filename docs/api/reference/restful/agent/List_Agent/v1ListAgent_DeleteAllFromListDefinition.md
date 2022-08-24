@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/DeleteAllFromListDefinition
 
 Marks all items in the list deleted
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Marks all items in the list deleted
 POST /api/v1/Agents/List/DeleteAllFromListDefinition?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/List/DeleteAllFromListDefinition?$select=name,department,cat
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionId 
+UdListDefinitionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

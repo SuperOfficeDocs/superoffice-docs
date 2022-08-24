@@ -13,10 +13,6 @@ Get the preview version of the document content as a stream.
 
 Retrieves an unsanitized version. This has less CPU impact but the caller must sanitize the content before presenting it to the user.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Retrieves an unsanitized version. This has less CPU impact but the caller must s
 ```http
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId 
+DocumentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-
 ## Response: object
 
 Document data intended for preview purposes
-
-
 
 Carrier object for DocumentPreview.
 Services for the DocumentPreview Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.

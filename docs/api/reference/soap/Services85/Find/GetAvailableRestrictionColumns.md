@@ -18,7 +18,6 @@ Get a list of the column names corresponding to available restrictions for a cer
 
 **Returns:** Array of column names, corresponding to support restrictions for the given archive and restriction storage providers.
 
-
 [WSDL file for Services85/Find](../Services85-Find.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetAvailableRestrictionColumns Response
 
 ```xml
@@ -75,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

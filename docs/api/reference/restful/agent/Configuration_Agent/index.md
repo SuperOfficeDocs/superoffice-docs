@@ -6,9 +6,6 @@ title: Configuration_Agent
 /api/v1/Configuration/Agent
 ```
 
-
-
-
 * [POST Agents/Configuration/GetWwwUrlForSMWeb](v1ConfigurationAgent_GetWwwUrlForSMWeb.md)
 
 * [POST Agents/Configuration/GetCsCgiUrlInternal](v1ConfigurationAgent_GetCsCgiUrlInternal.md)

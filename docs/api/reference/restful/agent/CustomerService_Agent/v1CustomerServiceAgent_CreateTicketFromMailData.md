@@ -13,10 +13,6 @@ This method create a new ticket in the same way as importMail would import an em
 
 It accepts RFC822 formatted data
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ It accepts RFC822 formatted data
 ```http
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/CustomerService/CreateTicketFromMailData?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-MailboxId, Data 
+MailboxId, Data
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailboxId | int32 |  |
 | Data | string |  |
 
-
 ## Response: object
 
 A small carrier that contains information about a ticket
-
-
 
 Carrier object for TicketInfo.
 Services for the TicketInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

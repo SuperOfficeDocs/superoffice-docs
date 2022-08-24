@@ -22,11 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Provides list of subscribed and unsubscribed mail folders available for an account
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"mailfolder"|[(mailfolder)]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |id| *None* |id|  |
@@ -43,7 +45,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

@@ -11,17 +11,10 @@ GET /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 
 Get a user assigned to a topic
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
 | username | string | Associate username or associate id to get. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,12 +29,9 @@ Get a user assigned to a topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
-
-
 
 Carrier object for ChatTopicAgent.
 Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.

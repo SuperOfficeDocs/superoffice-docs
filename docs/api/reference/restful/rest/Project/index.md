@@ -6,9 +6,6 @@ title: Project
 /api/v1/Project
 ```
 
-
-
-
 * [GET Project/default](v1ProjectEntity_DefaultProjectEntity.md)
 
 * [GET Project](v1ProjectEntity_GetAll.md)

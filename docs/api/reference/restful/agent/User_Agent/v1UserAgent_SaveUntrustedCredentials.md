@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/SaveUntrustedCredentials
 
 Save credentials for authenticated user.
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ Save credentials for authenticated user.
 POST /api/v1/Agents/User/SaveUntrustedCredentials?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -39,18 +32,16 @@ POST /api/v1/Agents/User/SaveUntrustedCredentials?$select=name,department,catego
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Type, Credentials 
+Type, Credentials
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
-| Credentials |  | Credentials for external authentication. <para /> Carrier object for UntrustedCredentials. Services for the UntrustedCredentials Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
-
+| Credentials |  | Credentials for external authentication. <br /> Carrier object for UntrustedCredentials. Services for the UntrustedCredentials Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 **Automation** allows an application to execute code when an event occurs inside the client. These events occur when an action takes place such as when a dialog is opened, or a person is created.
 
 While automation code is usually defined by customer requirements, consultants often create routines that assist with common tasks. Automation code can perform just about any task imaginable, but generally involve validating, transforming, and/or moving data. These types of routines are commonly discussed in the [developer forums][1].

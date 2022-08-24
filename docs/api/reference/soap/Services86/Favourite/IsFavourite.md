@@ -14,10 +14,8 @@ Implemented by the <see cref="M:SuperOffice.Services86.IFavouriteAgent.IsFavouri
 Checks if a record in a table is a favourite for an associate
 
 * **tableName:** Table name, transformed to and from numeric table id by the service layer.
-* **recordId:** 
-* **associateId:** 
-
-
+* **recordId:**
+* **associateId:**
 
 [WSDL file for Services86/Favourite](../Services86-Favourite.md)
 
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## IsFavourite Response
 
 ```xml
@@ -74,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

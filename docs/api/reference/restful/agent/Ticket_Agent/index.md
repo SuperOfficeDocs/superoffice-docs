@@ -6,9 +6,6 @@ title: Ticket_Agent
 /api/v1/Ticket/Agent
 ```
 
-
-
-
 * [POST Agents/Ticket/CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)
 
 * [POST Agents/Ticket/SaveAttachmentEntity](v1TicketAgent_SaveAttachmentEntity.md)

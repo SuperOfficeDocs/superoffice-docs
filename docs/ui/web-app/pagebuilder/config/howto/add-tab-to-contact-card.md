@@ -58,7 +58,6 @@ This is the output of the contact page after adding two views (tabs) for maincar
 ![01][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

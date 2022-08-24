@@ -6,9 +6,6 @@ title: List_Category
 /api/v1/List/Category
 ```
 
-
-
-
 * [GET List/Category](v1CategoryList_GetListDefinition.md)
 
 * [PUT List/Category](v1CategoryList_SetListDefinition.md)

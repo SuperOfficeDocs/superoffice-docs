@@ -13,10 +13,6 @@ When the user changes one or more values in a quoteline, the connector gets to c
 
 Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Shall be called when the user changes any of the following fields: Quantity, Dis
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteLine?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +37,18 @@ POST /api/v1/Agents/Quote/RecalculateQuoteLine?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteLine, ChangedFields 
+QuoteLine, ChangedFields
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLine |  | Information about a connection to the ERP system. <br /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 | ChangedFields | array |  |
-
 
 ## Response: object
 
 Information about a connection to the ERP system.
-
-
 
 Carrier object for QuoteLine.
 Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

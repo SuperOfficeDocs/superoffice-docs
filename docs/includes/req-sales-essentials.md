@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
 > This feature requires a Sales Essentials license. For details, see the [list of user plans][1].
 

@@ -6,9 +6,6 @@ title: CustomerService_Agent
 /api/v1/CustomerService/Agent
 ```
 
-
-
-
 * [POST Agents/CustomerService/AddMessageFromMailData](v1CustomerServiceAgent_AddMessageFromMailData.md)
 
 * [POST Agents/CustomerService/FindTicketsByTitleOrId](v1CustomerServiceAgent_FindTicketsByTitleOrId.md)

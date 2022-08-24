@@ -13,14 +13,9 @@ Gets a WebPanelEntity list item.
 
 Calls the List agent service GetWebPanelEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the WebPanelEntity to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +30,9 @@ Calls the List agent service GetWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The web panel entity contains information on a web panel
-
-
 
 Carrier object for WebPanelEntity.
 Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

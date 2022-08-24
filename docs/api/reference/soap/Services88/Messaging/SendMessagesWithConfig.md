@@ -12,14 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMessagingAgent.SendMessa
 ## SendMessagesWithConfig
 
 Send an array of messages using given config
-<para /><b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **plugin:** Name of plugin to use.
 * **outgoingMessages:** Array of outgoing messages you want to send.
 * **config:** Config values used by the plugin.
 
 **Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
-
 
 [WSDL file for Services88/Messaging](../Services88-Messaging.md)
 
@@ -69,7 +68,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendMessagesWithConfig Response
 
 ```xml
@@ -96,4 +94,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

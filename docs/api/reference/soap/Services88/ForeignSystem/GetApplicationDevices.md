@@ -17,7 +17,6 @@ Gets all devices that belong to a foreign application.
 
 **Returns:** Array of ForeignDevices
 
-
 [WSDL file for Services88/ForeignSystem](../Services88-ForeignSystem.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetApplicationDevices Response
 
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

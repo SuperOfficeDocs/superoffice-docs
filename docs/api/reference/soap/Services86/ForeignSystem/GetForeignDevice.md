@@ -17,7 +17,6 @@ Gets a ForeignDevice object.
 
 **Returns:** ForeignDevice
 
-
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetForeignDevice Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "locateperson" MDO List
+
 Person list with contact name.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LocatePersonProvider">LocatePersonProvider</see> class.
 The name of the MDO list is 'locateperson'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("locateperson", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |1738|Aaron Faîtes Medina (Goodwin, Dibbert and Mayer)|||
 |11707|Aaron Miller (晧宇印 Corp)|||
 |11274|Aaron Moore (Eamia Inc)|||
-
 
 ## Related MDO Lists
 

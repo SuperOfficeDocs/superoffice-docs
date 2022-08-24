@@ -25,7 +25,6 @@ This table stores result set reference data, result sets for selections
 |meta\_result|The id of the selection for which this item is part of a result|FK [ejsel_meta_result](ejsel-meta-result.md)| |
 |ref\_id|The id of the element for which this item belongs|Int| |
 
-
 ![ejsel_result_set table relationship diagram](./media/ejsel_result_set.png)
 
 [!include[details](./includes/ejsel-result-set.md)]
@@ -44,7 +43,6 @@ This table stores result set reference data, result sets for selections
 |------|-------------|
 |[ejsel\_meta\_result](ejsel-meta-result.md)  |This table stores result meta data |
 
-
 ## Replication Flags
 
 * None
@@ -52,4 +50,3 @@ This table stores result set reference data, result sets for selections
 ## Security Flags
 
 * No access control via user's Role.
-

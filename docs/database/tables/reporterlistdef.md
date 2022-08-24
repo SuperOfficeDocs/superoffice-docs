@@ -32,7 +32,6 @@ Reporter definitions
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ReporterListDef table relationship diagram](./media/ReporterListDef.png)
 
 [!include[details](./includes/reporterlistdef.md)]
@@ -54,7 +53,6 @@ Reporter definitions
 |[OLEField](olefield.md)  |Control data table for the OLE DB Provider |
 |[OLEView](oleview.md)  |Control data table for the OLE DB Provider |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ Reporter definitions
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -6,9 +6,6 @@ title: User_Agent
 /api/v1/User/Agent
 ```
 
-
-
-
 * [POST Agents/User/ChangePasswordFromName](v1UserAgent_ChangePasswordFromName.md)
 
 * [POST Agents/User/IsUserNameValid](v1UserAgent_IsUserNameValid.md)

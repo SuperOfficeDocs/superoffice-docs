@@ -27,7 +27,6 @@ Autosaved text clobs from ejscript and emarketeer messages
 |created\_at|When the autosave was saved.|DateTime|&#x25CF;|
 |data|The rawtext of the autosave.|Clob|&#x25CF;|
 
-
 ![autosave table relationship diagram](./media/autosave.png)
 
 [!include[details](./includes/autosave.md)]
@@ -46,4 +45,3 @@ Autosaved text clobs from ejscript and emarketeer messages
 ## Security Flags
 
 * No access control via user's Role.
-

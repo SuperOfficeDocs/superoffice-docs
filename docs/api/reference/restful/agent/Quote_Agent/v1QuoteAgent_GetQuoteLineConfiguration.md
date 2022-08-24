@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 
 Returns the configuration field with the given id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns the configuration field with the given id
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteLineConfigurationId 
+QuoteLineConfigurationId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineConfigurationId | int32 |  |
 
-
 ## Response: object
 
 QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.
-
-
 
 Carrier object for QuoteLineConfiguration.
 Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

@@ -17,7 +17,6 @@ Get attachment infos for all attachments connected to messages in specified tick
 
 **Returns:** An array containing attachment info objects for all the attachments
 
-
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetTicketAttachments Response
 
 ```xml
@@ -80,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

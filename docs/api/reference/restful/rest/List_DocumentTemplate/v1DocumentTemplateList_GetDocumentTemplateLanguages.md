@@ -11,16 +11,9 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Language
 
 Get the supported language variations for a document template
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The id of the document template **Required** |
-
-
 
 ## Request Headers
 
@@ -35,17 +28,13 @@ Get the supported language variations for a document template
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample Request
 

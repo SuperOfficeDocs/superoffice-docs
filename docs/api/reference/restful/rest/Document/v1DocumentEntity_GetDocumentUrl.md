@@ -13,13 +13,9 @@ Get a URL referring to the given document content.
 
 &lt;para/&gt;This URL may be passed to the ultimate client (text editor of some kind?), which is then responsible for all further operations.&lt;para/&gt;The returned string is a fully qualified URL.&lt;para/&gt;Not all documents and document plugins support this feature.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document primary key **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +28,6 @@ Get a URL referring to the given document content.
 GET /api/v1/Document/{documentId}/Url?versionId=atque
 GET /api/v1/Document/{documentId}/Url?writeableUrl=True
 ```
-
 
 ## Request Headers
 
@@ -47,17 +42,13 @@ GET /api/v1/Document/{documentId}/Url?writeableUrl=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

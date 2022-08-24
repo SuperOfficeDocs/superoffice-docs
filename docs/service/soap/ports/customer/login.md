@@ -40,4 +40,3 @@ string errorCode = custService.login("johndoe","pw",out sessionKey);
 ```
 
 <!-- Referenced links -->
-[1]: ../../error-codes.md

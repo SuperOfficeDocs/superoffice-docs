@@ -39,5 +39,4 @@ SuperOffice Mobile (for SuperOffice 9 and newer) and Pocket CRM (for SuperOffice
 
 <!-- Referenced links -->
 
-
 <!-- Referenced images -->

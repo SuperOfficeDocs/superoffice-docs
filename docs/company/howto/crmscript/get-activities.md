@@ -70,5 +70,4 @@ for (Integer i = 0; i < followups.length(); i++) {
 > To request more than one action type, summarize the values. **63** means **include all**.
 
 <!-- Referenced links -->
-[1]: <xref:CRMScript.NetServer.NSContactAgent>
 [4]: ../../../automation/crmscript/netserver/ns-agents-and-carriers.md

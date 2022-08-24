@@ -12,11 +12,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetUserFromEjU
 ## GetUserFromEjUserId
 
 Get user from ejUserId - used for eJournal Legacy Support.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **ejUserId:** ejUserId -
-
-
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetUserFromEjUserId Response
 
@@ -261,4 +258,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

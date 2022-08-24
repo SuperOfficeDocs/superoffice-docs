@@ -13,13 +13,9 @@ Gets a ProjectMember object.
 
 Calls the Project agent service GetProjectMember.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ProjectMember to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the Project agent service GetProjectMember.
 ```http
 GET /api/v1/ProjectMember/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +40,9 @@ GET /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 A person can be a member of multiple projects, with a different comment and member type in each project.
-
-
 
 ProjectMember entity with API _Links added.
 
@@ -80,7 +72,7 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |

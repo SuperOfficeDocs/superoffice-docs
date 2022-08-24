@@ -17,7 +17,6 @@ Gets a TicketMessageEntity object.
 
 **Returns:** TicketMessageEntity
 
-
 [WSDL file for Services86/Ticket](../Services86-Ticket.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetTicketMessageEntity Response
 
@@ -188,4 +186,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

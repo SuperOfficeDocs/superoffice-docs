@@ -11,18 +11,11 @@ POST /api/v1/Table/{tableName}
 
 Insert a row into a table
 
-
-
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
+## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of the table to insert into; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable **Required** |
-
-
 
 ## Request Headers
 
@@ -38,22 +31,17 @@ Insert a row into a table
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: values  
+## Request Body: values
 
-A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values 
-
-
+A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values
 
 ## Response: int32
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample Request
 

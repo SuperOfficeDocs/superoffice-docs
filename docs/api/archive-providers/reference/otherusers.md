@@ -23,6 +23,7 @@ Concrete provider for 'Other' Users - System and Anonymous user accounts. See <s
 the actual functionality of the provider.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"all"|All|
@@ -30,13 +31,14 @@ the actual functionality of the provider.
 |"expired"|Expired|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|superoffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
+|superoffice_system-user-cal| *None* |System user: Allows log in to NetServer|  |
 |associateDbId|associate|ID| x |
 |role|listAny|Role : Role| x |
 |assocName|associate|User ID : User ID| x |
@@ -61,7 +63,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 **App Store image requirements:**
 
 | Image | Usage | Size<br>(width by height in pixels) |

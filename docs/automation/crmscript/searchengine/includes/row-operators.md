@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 | Value          | Logical operator | Expression  | Result                                     |
 |----------------|:----------------:|:-----------:|--------------------------------------------|
 | OperatorAnd    | AND              | A && B      | Only rows matching both conditions         |

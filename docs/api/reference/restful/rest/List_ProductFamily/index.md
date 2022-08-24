@@ -6,9 +6,6 @@ title: List_ProductFamily
 /api/v1/List/ProductFamily
 ```
 
-
-
-
 * [GET List/ProductFamily](v1ProductFamilyList_GetListDefinition.md)
 
 * [PUT List/ProductFamily](v1ProductFamilyList_SetListDefinition.md)

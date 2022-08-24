@@ -15,20 +15,17 @@ so.envir:
 ---
 
 # "colorindex" MDO List
+
 List of named colors from the "ColorIndex" enum.
 
 Steps to change the palette:
+
 1. Add to the end of the ColorIndex enum (in Modelling)
 2. Add to this provider. The color palette in SCIL uses the color code in the styleHint field
 3. Update colors in fullcalendar.so.less so that css class colorX has the same color code returned by this list.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ColorIndexProvider">ColorIndexProvider</see> class.
 The name of the MDO list is 'colorindex'.
-
-
-
 
 ## Sample Request
 
@@ -41,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("colorindex", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -74,7 +72,6 @@ foreach (var item in listProvider.RootItems) {
 |21|Color 22|#f8b100||
 |7|Color 8|#c48b00||
 |2|Color 3|#ececec||
-
 
 ## Related MDO Lists
 

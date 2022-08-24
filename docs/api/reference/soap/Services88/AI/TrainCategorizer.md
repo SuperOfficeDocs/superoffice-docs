@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.TrainCategorizer
 
 Train categorizer with a
 
-
 **Returns:** NULL on success, or Error message if something went wrong.
-
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TrainCategorizer Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

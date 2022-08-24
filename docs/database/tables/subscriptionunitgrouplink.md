@@ -30,7 +30,6 @@ User group link table for SubscriptionUnit, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SubscriptionUnitGroupLink table relationship diagram](./media/SubscriptionUnitGroupLink.png)
 
 [!include[details](./includes/subscriptionunitgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for SubscriptionUnit, for MDO item hiding
 |[SubscriptionUnit](subscriptionunit.md)  |The list of Subscription units, in the internal product register (year/quarter/month etc., or perhaps amounts if volume-based subscription) |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for SubscriptionUnit, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

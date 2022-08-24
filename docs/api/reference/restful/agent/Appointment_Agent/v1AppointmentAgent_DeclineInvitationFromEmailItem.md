@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/DeclineInvitationFromEmailItem
 
 Declining an appointment invitation where no tentative appointments have been created.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Declining an appointment invitation where no tentative appointments have been cr
 POST /api/v1/Agents/Appointment/DeclineInvitationFromEmailItem?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Appointment/DeclineInvitationFromEmailItem?$select=name,depa
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EmailItemId, RejectReason 
+EmailItemId, RejectReason
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailItemId | int32 |  |
 | RejectReason | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

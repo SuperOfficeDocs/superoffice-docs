@@ -17,7 +17,6 @@ Get information about default value for an ERP field
 
 **Returns:** Object with information about default values
 
-
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDefaultValueInfo Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

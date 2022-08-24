@@ -30,7 +30,6 @@ Favourite records (star-marking)
 |registered\_by|Registered by whom|FK [associate](associate.md)|&#x25CF;|
 |Rank|Rank order|Int|&#x25CF;|
 
-
 ![Favourite table relationship diagram](./media/Favourite.png)
 
 [!include[details](./includes/favourite.md)]
@@ -48,7 +47,6 @@ Favourite records (star-marking)
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -58,4 +56,3 @@ Favourite records (star-marking)
 ## Security Flags
 
 * No access control via user's Role.
-

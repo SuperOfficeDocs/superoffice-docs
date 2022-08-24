@@ -42,7 +42,7 @@ The `AfterAsync` method has the same parameters as the agent method plus the re
 
 All scripts inherit the current NetServer session that initiated the call. This is an important point because scripts do not need to do any additional authentication. The scripts execute within the same context as the application and are free to use all of NetServer, or any other objects they can create – to do their work. The only restriction is that the scripts can not display any user interface - since these scripts run on the application server.
 
-The script event handlers are raised on the application server, meaning inside the services layer that the web client uses to get all SuperOffice data. Therefore, you have complete access to the NetServer core's lower layer APIs, and you want to use the fastest code possible to conduct your business logic.  
+The script event handlers are raised on the application server, meaning inside the services layer that the web client uses to get all SuperOffice data. Therefore, you have complete access to the NetServer core's lower layer APIs, and you want to use the fastest code possible to conduct your business logic.
 
 Use NetServer core APIs for data access, not the web service Agent APIs. Use Entities, Rows, and OSQL for your business logic, and this will avoid any re-entrance issues you might have by raising other events that may have event handlers as well.
 

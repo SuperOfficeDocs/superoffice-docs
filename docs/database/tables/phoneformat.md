@@ -37,7 +37,6 @@ Formatting information for telephone numbers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PhoneFormat table relationship diagram](./media/PhoneFormat.png)
 
 [!include[details](./includes/phoneformat.md)]
@@ -56,7 +55,6 @@ Formatting information for telephone numbers
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[country](country.md)  |Country information |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -66,4 +64,3 @@ Formatting information for telephone numbers
 ## Security Flags
 
 * No access control via user's Role.
-

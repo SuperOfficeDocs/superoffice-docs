@@ -33,7 +33,6 @@ The list of payment types, in the internal product register
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PaymentType table relationship diagram](./media/PaymentType.png)
 
 [!include[details](./includes/paymenttype.md)]
@@ -53,7 +52,6 @@ The list of payment types, in the internal product register
 |[PaymentTypeGroupLink](paymenttypegrouplink.md)  |User group link table for PaymentType, for MDO item hiding |
 |[PaymentTypeHeadingLink](paymenttypeheadinglink.md)  |Heading link table for PaymentType, for MDO item headings |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ The list of payment types, in the internal product register
 ## Security Flags
 
 * No access control via user's Role.
-

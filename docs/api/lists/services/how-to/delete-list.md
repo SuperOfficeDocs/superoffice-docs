@@ -9,20 +9,22 @@ so.category: list
 so.area: api-services
 ---
 
-## How to delete a list item
+<!-- markdownlint-disable-file MD051 -->
+# How to delete a list item
 
 To delete a list, use the `Lists` endpoint. These examples use the Category list for demonstration purposes.
 
 > [!WARNING]
 > Do not delete built-in lists.
 
-# [RESTful REST API](#tab/lists-restful-rest)
+## [RESTful REST API](#tab/lists-restful-rest)
+
 ```http
 DELETE https://{{env}}.superoffice.com/{{tenant}}/api/v1/List/108 HTTP/1.1
 Authorization: Bearer {{token}}
 ```
 
-# [RESTful Agent API](#tab/lists-restful-agent)
+## [RESTful Agent API](#tab/lists-restful-agent)
 
 For user-defined lists, use the list Id in the `ListEntityId` query string parameter.
 
@@ -31,15 +33,15 @@ POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/List/DeleteListEnt
 Authorization: Bearer {{token}}
 ```
 
-**Response**
+**Response:**
 
 HTTP Status 204
 
-# [WebApi Proxy API](#tab/lists-webapi-proxy)
+## [WebApi Proxy API](#tab/lists-webapi-proxy)
 
 How to delete a list entity using the [SuperOffice.WebApi][1] proxy client.
 
-### For user-defined lists, use the list Id.
+### For user-defined lists, use the list Id
 
 ```csharp
 var config = new WebApiOptions(tenant.WebApiUrl);

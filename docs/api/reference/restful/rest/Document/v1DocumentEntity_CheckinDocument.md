@@ -11,15 +11,9 @@ PUT /api/v1/Document/{documentId}/Lock
 
 Check in a currently checked-out document
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document Id **Required** |
-
 
 ## Query String Parameters
 
@@ -35,7 +29,6 @@ PUT /api/v1/Document/{documentId}/Lock?versionDescription=Digitized exuding grou
 PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,velit
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -49,10 +42,7 @@ PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,velit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -14,6 +14,7 @@ so.client: online
 
 Selection fields. Key constants are in `BulkUpdateSystem.SelectionFieldValueKeys`.
 
+<!-- markdownlint-disable-file MD033 -->
 <table>
 <title>Selection</title>
     <thead>

@@ -13,14 +13,9 @@ A simple Ticket object.
 
 This is a simpler, smaller variation of the full TicketEntity. Calls the Ticket agent service GetTicket.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Ticket to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,12 +30,9 @@ This is a simpler, smaller variation of the full TicketEntity. Calls the Ticket 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The ticket carrier is used for representing a service request.
-
-
 
 Carrier object for Ticket.
 Services for the Ticket Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.

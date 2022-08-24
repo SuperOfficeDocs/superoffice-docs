@@ -11,12 +11,6 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo
 
 Get a single BatchTaskInfo based on Id.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a single BatchTaskInfo based on Id.
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +35,17 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Id 
+Id
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
-
 ## Response: object
 
 BatchTaskInfo contains information about one batch task.
-
-
 
 Carrier object for BatchTaskInfo.
 Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.

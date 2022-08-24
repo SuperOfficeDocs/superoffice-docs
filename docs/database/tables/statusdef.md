@@ -39,7 +39,6 @@ Status definitions. Name and description are in LocaleText for internationalizat
 |updatedCount|Number of updates made to this record|UShort| |
 |generationStart|When was the last regeneration started|DateTime|&#x25CF;|
 
-
 ![StatusDef table relationship diagram](./media/StatusDef.png)
 
 [!include[details](./includes/statusdef.md)]
@@ -59,7 +58,6 @@ Status definitions. Name and description are in LocaleText for internationalizat
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 |[text](text.md)  |Long text fields from all over the system |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -69,4 +67,3 @@ Status definitions. Name and description are in LocaleText for internationalizat
 ## Security Flags
 
 * No access control via user's Role.
-

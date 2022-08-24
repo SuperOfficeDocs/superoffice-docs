@@ -38,7 +38,7 @@ No [custom application][5] will be made available to your SuperOffice CRM Online
 
 ## When do you need to buy Development Tools?
 
-If you need access to the SuperOffice APIs or any of the advanced extensibility features, you probably need to subscribe to Development Tools. Pricing is listed at [superoffice.com][10].
+If you need access to the SuperOffice APIs or any of the advanced extensibility features, you probably need to subscribe to Development Tools. Pricing is listed at [SuperOffice.com][10].
 
 | Scenario/envir | Online | On-premise |
 |----------------|--------|------------|

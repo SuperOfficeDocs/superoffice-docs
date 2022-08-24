@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities
 
 Returns all sale types as entities with stakeholders, guide and quote properties
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns all sale types as entities with stakeholders, guide and quote properties
 ```http
 POST /api/v1/Agents/List/GetAllSaleTypeEntities?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-IncludeDeleted 
+IncludeDeleted
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|
@@ -84,7 +74,7 @@ Response body: array
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 

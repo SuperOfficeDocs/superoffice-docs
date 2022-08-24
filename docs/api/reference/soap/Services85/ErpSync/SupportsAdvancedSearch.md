@@ -18,7 +18,6 @@ Indicates if the connection supports advanced search for the given erp actor
 
 **Returns:** True if advanced search is supported
 
-
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SupportsAdvancedSearch Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -20,7 +20,7 @@ Creating a contact through an entity can be done in two different ways:
 
 [!code-csharp[CS](includes/create-contact-entity-in-entity-1.cs)]
 
-In the example above, we create a new contact as explained in [this example][2]. The difference is that we do not save the created contact. Instead, we assign it to another entity such as the `Person` entity and then save the `Person`:
+In the example above, we create a new contact as explained in [this example][1]. The difference is that we do not save the created contact. Instead, we assign it to another entity such as the `Person` entity and then save the `Person`:
 
 [!code-csharp[CS](includes/create-contact-entity-in-entity-1.cs?range=44,47)]
 

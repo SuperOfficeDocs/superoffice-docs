@@ -13,11 +13,6 @@ Create a new WebPanelEntity list item
 
 Calls the List agent service SaveWebPanelEntity.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The WebPanelEntity to be created. 
+The WebPanelEntity to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,12 +54,9 @@ The WebPanelEntity to be created.
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 
-
 ## Response: object
 
 The web panel entity contains information on a web panel
-
-
 
 Carrier object for WebPanelEntity.
 Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

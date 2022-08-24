@@ -23,11 +23,13 @@ Archive of Event handlers - triggers - used by the web api and partners.
 Lists all triggers in screenchooser table with screenType &gt;= 100.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"eventHandler"|[eventHandler]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -53,7 +55,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

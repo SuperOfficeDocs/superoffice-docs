@@ -6,9 +6,6 @@ title: Dash_Agent
 /api/v1/Dash/Agent
 ```
 
-
-
-
 * [POST Agents/Dash/GetDashTileHtml](v1DashAgent_GetDashTileHtml.md)
 
 * [POST Agents/Dash/GetDashTileHtmlList](v1DashAgent_GetDashTileHtmlList.md)

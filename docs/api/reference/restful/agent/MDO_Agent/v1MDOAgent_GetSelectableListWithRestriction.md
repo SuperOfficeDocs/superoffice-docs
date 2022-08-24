@@ -11,12 +11,6 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 
 Method to get a Selectable MDO list with restrictions.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Method to get a Selectable MDO list with restrictions.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name, AdditionalInfo, SearchValue 
+Name, AdditionalInfo, SearchValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +45,7 @@ Name, AdditionalInfo, SearchValue
 | AdditionalInfo | string |  |
 | SearchValue | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

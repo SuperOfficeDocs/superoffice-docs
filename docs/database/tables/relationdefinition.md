@@ -34,7 +34,6 @@ Definition of a relation. This table defines the relations that can exist in the
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![relationdefinition table relationship diagram](./media/relationdefinition.png)
 
 [!include[details](./includes/relationdefinition.md)]
@@ -55,7 +54,6 @@ Definition of a relation. This table defines the relations that can exist in the
 |[RelDefGroupLink](reldefgrouplink.md)  |User group link table for RelDef, for MDO item hiding |
 |[RelDefHeadingLink](reldefheadinglink.md)  |Heading link table for RelDef, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,4 +63,3 @@ Definition of a relation. This table defines the relations that can exist in the
 ## Security Flags
 
 * No access control via user's Role.
-

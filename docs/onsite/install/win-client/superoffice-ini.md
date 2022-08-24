@@ -13,14 +13,14 @@ so.topic: reference
 
 *SuperOffice.ini* - archive settings, datapath, templates override
 
-* extra info about the servers superoffice.ini
+* extra info about the servers SuperOffice.ini
 * creating the ODBC if does not exist
 
 The configuration file for SuperOffice Win client has several parameters that describe the program’s database environment. From CRM 7 a *SuperOffice.config* file is also required since NetServer is used by windows client.
 
 All connections between a database/archive and the program are governed by this configuration file.
 
-*SUPEROFFICE.INI* is created on installation and does not normally need to be changed but there are cases where it may be useful to change some of the parameters in it.
+*SuperOffice.INI* is created on installation and does not normally need to be changed but there are cases where it may be useful to change some of the parameters in it.
 
 There are several sections of parameters and they are described below.
 

@@ -12,7 +12,7 @@ Handled by the <see cref="T:SuperOffice.Services86.IReplicationAgent">SuperOffic
 
 Interface for the Replication Agent
 Replication/Travel administration
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Not available in Online. Only used on-site.
+<br />**Online Restricted:** This agent is not available in Online by default. Not available in Online. Only used on-site.
 
 Download [WSDL file for Services86/Replication](../Services86-Replication.md) if you need to generate your own proxy code.
 
@@ -24,4 +24,3 @@ Download [WSDL file for Services86/Replication](../Services86-Replication.md) if
 * [SaveCentralLicense](SaveCentralLicense.md)
 * [SaveSatellite](SaveSatellite.md)
 * [SetFreetextSearchEnabledOnArea](SetFreetextSearchEnabledOnArea.md)
-

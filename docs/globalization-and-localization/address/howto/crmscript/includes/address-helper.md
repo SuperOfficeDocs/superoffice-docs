@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 ```crmscript
 CRMScript
 #setLanguageLevel 3;

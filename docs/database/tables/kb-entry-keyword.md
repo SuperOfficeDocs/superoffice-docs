@@ -25,7 +25,6 @@ This table contains all keywords for the faq entries
 |kb\_entry\_id|The id of the kb_entry which this keyword belongs to.|FK [kb_entry](kb-entry.md)| |
 |keyword|A keyword for the given entry.|String(255)| |
 
-
 ![kb_entry_keyword table relationship diagram](./media/kb_entry_keyword.png)
 
 [!include[details](./includes/kb-entry-keyword.md)]
@@ -44,7 +43,6 @@ This table contains all keywords for the faq entries
 |------|-------------|
 |[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
 
-
 ## Replication Flags
 
 * None
@@ -52,4 +50,3 @@ This table contains all keywords for the faq entries
 ## Security Flags
 
 * No access control via user's Role.
-

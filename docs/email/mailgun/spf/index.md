@@ -23,27 +23,33 @@ The purpose of an SPF record is to prevent spammers from sending messages with f
 
 Google article [About SPF records][3]
 
-**SuperOffice CRM Online SPF details**
+## SuperOffice CRM Online SPF details
 
-Most European CRM Online customers uses 'Mailgun EU' IP addresses.
+Most European CRM Online customers uses Mailgun EU IP addresses.
 
 The SPF 'mailgun.org' includes:
-- '_spf.mailgun.org' (ALL 'Mailgun US' IP addresses)
-- '_spf.eu.mailgun.org' (all 'Mailgun EU' IP addreses).
 
+* '_spf.mailgun.org' (ALL Mailgun US IP addresses)
+* '_spf.eu.mailgun.org' (all Mailgun EU IP addresses).
+
+<!-- markdownlint-disable MD044 -->
 The SPF '_spf.online.superoffice.com' includes:
-- 3 ip address (or ranges) of a Mailgun US cluster (the IP address we used to use while we were using 'Mailgun US') 
-- shortcut to SPF range '_spf.eu.mailgun.org' (all 'Mailgun EU' IP addresses)
+
+* 3 IP address (or ranges) of a Mailgun US cluster (the IP address we used to use while we were using Mailgun US)
+* shortcut to SPF range '_spf.eu.mailgun.org' (all Mailgun EU IP addresses)
 
 Non-DKIM: add SPF '_spf.online.superoffice.com'
+<!-- markdownlint-restore -->
 
-**SuperOffice CRM Online SPF details for DKIM-customers**
+## SuperOffice CRM Online SPF details for DKIM-customers
 
 When using DKIM, the SPF check requires to include SPF for 'mailgun.org' - to be able to send and receive emails in SuperOffice Service.
+
+<!-- markdownlint-disable MD044 -->
 So when using DKIM (and therefore SPF for 'mailgun.org'), you do not need '_spf.online.superoffice.com' (as this includes the same sub-selection as SPF 'mailgun.org' does: '_spf.eu.mailgun.org').
+<!-- markdownlint-restore -->
 
 DKIM: add SPF 'mailgun.org'
-
 
 <!-- Referenced links -->
 [1]: https://en.wikipedia.org/wiki/Domain_Name_System

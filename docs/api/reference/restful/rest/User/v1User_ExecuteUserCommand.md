@@ -11,18 +11,12 @@ POST /api/v1/User/{id}/CustomCommand/{commandName}
 
 Executes a custom command for User
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The User to execute commands on. **Required** |
 | commandName | string | The name of the command to execute. **Required** |
-
 
 ## Query String Parameters
 
@@ -33,7 +27,6 @@ Executes a custom command for User
 ```http
 POST /api/v1/User/{id}/CustomCommand/{commandName}?actionResult=Cancel
 ```
-
 
 ## Request Headers
 
@@ -47,9 +40,7 @@ POST /api/v1/User/{id}/CustomCommand/{commandName}?actionResult=Cancel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/AddHierarchyToPath
 
 Add a hierarchy item to a path
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Add a hierarchy item to a path
 ```http
 POST /api/v1/Agents/List/AddHierarchyToPath?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/List/AddHierarchyToPath?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Domain, Path, Name 
+Domain, Path, Name
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,12 +45,9 @@ Domain, Path, Name
 | Path | string |  |
 | Name | string |  |
 
-
 ## Response: object
 
 Folder structures
-
-
 
 Carrier object for HierarchyEntity.
 Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

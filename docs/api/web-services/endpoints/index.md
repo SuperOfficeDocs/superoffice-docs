@@ -47,8 +47,6 @@ An endpoint is the address, port, and protocol a web service is exposed at. In s
 * [Direct authentication using a Ticket][11]
 
 <!-- Referenced links -->
-[1]: rest-webapi/index.md
-[2]: agents-webapi/index.md
 [3]: ../webapi/index.md#authorization-header-options
 [4]: ../webapi/index.md#x-xsrf-token
 [5]: http-headers.md#accept-language

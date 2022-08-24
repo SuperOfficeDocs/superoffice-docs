@@ -30,7 +30,6 @@ Contains a block of a mailing message, that can be reused in a mailing
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![s_messageblock table relationship diagram](./media/s_messageblock.png)
 
 [!include[details](./includes/s-messageblock.md)]
@@ -47,7 +46,6 @@ Contains a block of a mailing message, that can be reused in a mailing
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
-
 ## Replication Flags
 
 * None
@@ -55,4 +53,3 @@ Contains a block of a mailing message, that can be reused in a mailing
 ## Security Flags
 
 * No access control via user's Role.
-

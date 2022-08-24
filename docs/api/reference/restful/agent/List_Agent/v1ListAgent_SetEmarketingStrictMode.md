@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SetEmarketingStrictMode
 
 Turn on the Emarketing strict mode, which will enable full GDPR rules concerning Emarketing consents and subscriptions
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Turn on the Emarketing strict mode, which will enable full GDPR rules concerning
 POST /api/v1/Agents/List/SetEmarketingStrictMode?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/List/SetEmarketingStrictMode?$select=name,department,categor
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Enable 
+Enable
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Enable | bool |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

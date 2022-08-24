@@ -11,10 +11,6 @@ POST /api/v1/Agents/Ticket/SendTicketMessage
 
 Send a message to recipients, for example by email.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -25,7 +21,6 @@ Send a message to recipients, for example by email.
 POST /api/v1/Agents/Ticket/SendTicketMessage?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -35,9 +30,9 @@ POST /api/v1/Agents/Ticket/SendTicketMessage?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TicketMessageEntityId, To, Cc, Bcc, Subject, ReplyTemplateId, GdprSource 
+TicketMessageEntityId, To, Cc, Bcc, Subject, ReplyTemplateId, GdprSource
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,9 +44,7 @@ TicketMessageEntityId, To, Cc, Bcc, Subject, ReplyTemplateId, GdprSource
 | ReplyTemplateId | int32 |  |
 | GdprSource | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

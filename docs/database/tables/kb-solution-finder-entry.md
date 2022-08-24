@@ -25,7 +25,6 @@ Knowledge base problem solving wizard, items in a category linking to a knowledg
 |solution\_finder||FK [kb_solution_finder](kb-solution-finder.md)| |
 |kb\_entry||FK [kb_entry](kb-entry.md)| |
 
-
 ![kb_solution_finder_entry table relationship diagram](./media/kb_solution_finder_entry.png)
 
 [!include[details](./includes/kb-solution-finder-entry.md)]
@@ -45,7 +44,6 @@ Knowledge base problem solving wizard, items in a category linking to a knowledg
 |[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
 |[kb\_solution\_finder](kb-solution-finder.md)  |Knowledge base problem solving wizard, categories and subcategories for drilling down |
 
-
 ## Replication Flags
 
 * None
@@ -53,4 +51,3 @@ Knowledge base problem solving wizard, items in a category linking to a knowledg
 ## Security Flags
 
 * No access control via user's Role.
-

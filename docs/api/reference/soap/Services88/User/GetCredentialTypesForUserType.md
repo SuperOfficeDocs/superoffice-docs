@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetCredentialT
 ## GetCredentialTypesForUserType
 
 Get available credential types that can be used for the specified user type.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userType:** The user type to retrieve credential types for
 
 **Returns:** Credential types that can be used for authentication
-
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCredentialTypesForUserType Response
 
 ```xml
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

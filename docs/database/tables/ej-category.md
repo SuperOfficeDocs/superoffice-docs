@@ -36,7 +36,6 @@ This table contains categories, in which tickets are categorized. The categories
 |closing\_status|Default status for new tickets, if 0 then there is a fallback to a user-dependent value|FK [ticket_status](ticket-status.md)|&#x25CF;|
 |msg\_closing\_status|Default status for new messages, if 0 then there is a fallback to a user-dependent value|FK [ticket_status](ticket-status.md)|&#x25CF;|
 
-
 ![ej_category table relationship diagram](./media/ej_category.png)
 
 [!include[details](./includes/ej-category.md)]
@@ -70,7 +69,6 @@ This table contains categories, in which tickets are categorized. The categories
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 
-
 ## Replication Flags
 
 * None
@@ -78,4 +76,3 @@ This table contains categories, in which tickets are categorized. The categories
 ## Security Flags
 
 * No access control via user's Role.
-

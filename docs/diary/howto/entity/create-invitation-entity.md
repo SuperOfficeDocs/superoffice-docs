@@ -43,7 +43,6 @@ If we have added more participants, more records will be entered into the `appoi
 <!-- Referenced links -->
 [1]: ../../../database/tables/appointment.md
 [2]: ../../invitations.md
-[3]: appointment-matrix.md
 [4]: <xref:SuperOffice.CRM.Services.ParticipantInfo>
 
 <!-- Referenced images -->

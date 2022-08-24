@@ -13,10 +13,6 @@ Get the list of members in this selection.
 
 The type of members depends on the target table of the selection.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The type of members depends on the target table of the selection.
 ```http
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +37,16 @@ POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, Select 
+SelectionId, Select
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Select | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

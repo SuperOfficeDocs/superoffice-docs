@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/DeleteFromSectionAndKey
 
 Gets a PreferenceDescription based on the section and key
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Gets a PreferenceDescription based on the section and key
 POST /api/v1/Agents/Preference/DeleteFromSectionAndKey?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Preference/DeleteFromSectionAndKey?$select=name,department,c
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Section, Key 
+Section, Key
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Section | string |  |
 | Key | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

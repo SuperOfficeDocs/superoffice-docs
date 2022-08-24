@@ -6,9 +6,6 @@ title: List_ReasonSold
 /api/v1/List/ReasonSold
 ```
 
-
-
-
 * [GET List/ReasonSold](v1ReasonSoldList_GetListDefinition.md)
 
 * [PUT List/ReasonSold](v1ReasonSoldList_SetListDefinition.md)

@@ -83,7 +83,7 @@ The five possible state changes are:
 Not only does that provide advanced notice when tenants are upgraded to new versions of SuperOffice, but it can signal whenever a customer has canceled a subscription (Delete).
 
 > [!NOTE]
-> The only way to subscribe to this webhook is by supplying a **State Change URL** when you [register the application][12], or submitting an [application change request][4]. Provide the URL where the state change payload is sent in the **Other changes** textbox as *Stage Change URL: https://your_domain.com/your_endpoint_name*.
+> The only way to subscribe to this webhook is by supplying a **State Change URL** when you [register the application][12], or submitting an [application change request][4]. Provide the URL where the state change payload is sent in the **Other changes** textbox as *Stage Change URL: `https://your_domain.com/your_endpoint_name`*.
 
 ## API Usage
 
@@ -134,6 +134,7 @@ Using `Default` will calculate some of the needed values for you, similar to cli
 
 For the REST APIs, that means sending a GET request to the appropriate entity to create a default endpoint. The following example demonstrates what you should do.
 
+<!-- markdownlint-disable MD051 -->
 ### [RESTful REST API](#tab/create-rest)
 
 Proper creation invocation:
@@ -184,6 +185,7 @@ PostRequest(person, "/api/v1/Agent/Person/SavePersonEntity​");
 ```
 
 ***
+<!-- markdownlint-restore -->
 
 ### Provisioning
 
@@ -262,9 +264,9 @@ Here are some thoughts for constructing optimal queries:
 
 Optimized searches means using smart restrictions that will translate to optimal SQL. Therefore, consider the following recommendations:
 
-1. Always use an __$orderby__={primarykey}
-2. Strongly suggest use a __$filter__={criteria} (especially when using __\$top__)
-3. If using __\$top__, use __\$skip__ for further optimization. (do __NOT__ ask for all records every request)
+1. Always use an **$orderby**={primarykey}
+2. Strongly suggest use a **$filter**={criteria} (especially when using **\$top**)
+3. If using **\$top**, use **\$skip** for further optimization. (do **NOT** ask for all records every request)
 
  By creating well-defined It's good to off-loading heavy lifting queries to the database server, .
 
@@ -354,10 +356,9 @@ Read about [effective visual design][6].
 * Offer **easy access** to a knowledge base or to support pages from your application.
 
 * Provide SuperOffice with URLs to your application **documentation**. Links to the documentation will appear in the App Store.
-
+    
 <!-- Referenced links -->
 [1]: tenant-status/status-page.md
-[2]: tenant-status/check-status.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
 [4]: https://community.superoffice.com/change-application
 [5]: ../api/authentication/online/validate-security-tokens.md
@@ -366,7 +367,6 @@ Read about [effective visual design][6].
 [8]: ../api/authentication/online/sign-in-user/index.md
 [9]: ../api/authentication/online/auth-application/index.md
 [10]: tenant-status/notifications.md
-[11]: tenant-status/get-notifications.md
 [12]: https://community.superoffice.com/application-registration/
 [13]: getting-started/what-api-to-use.md
 [14]: certification/checklist.md

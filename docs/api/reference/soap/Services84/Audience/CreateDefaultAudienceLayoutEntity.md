@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAudienceAgent.CreateDefa
 Loading default values into a new AudienceLayoutEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New AudienceLayoutEntity with default values
-
 
 [WSDL file for Services84/Audience](../Services84-Audience.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultAudienceLayoutEntity Response
 
@@ -100,4 +97,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

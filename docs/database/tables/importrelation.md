@@ -34,7 +34,6 @@ Relations between import objects
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
 
-
 ![ImportRelation table relationship diagram](./media/ImportRelation.png)
 
 [!include[details](./includes/importrelation.md)]
@@ -54,7 +53,6 @@ Relations between import objects
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ImportObject](importobject.md)  |Import object types - see localetext for names. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Relations between import objects
 ## Security Flags
 
 * No access control via user's Role.
-

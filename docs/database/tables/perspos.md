@@ -33,7 +33,6 @@ PersPos list table. Contact person position list
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PersPos table relationship diagram](./media/PersPos.png)
 
 [!include[details](./includes/perspos.md)]
@@ -54,7 +53,6 @@ PersPos list table. Contact person position list
 |[PersPosGroupLink](persposgrouplink.md)  |User group link table for PersPos, for MDO item hiding |
 |[PersPosHeadingLink](persposheadinglink.md)  |Heading link table for PersPos, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ PersPos list table. Contact person position list
 ## Security Flags
 
 * No access control via user's Role.
-

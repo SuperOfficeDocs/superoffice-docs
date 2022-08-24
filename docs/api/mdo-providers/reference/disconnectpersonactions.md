@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "disconnectpersonactions" MDO List
+
 List of actions to perform when disconnecting a contact from a company
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DisconnectPersonActionsProvider">DisconnectPersonActionsProvider</see> class.
 The name of the MDO list is 'disconnectpersonactions'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("disconnectpersonactions", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |1|Do not move activities|||
 |2|Move all activities|||
 |3|Move all activities starting after|||
-
 
 ## Related MDO Lists
 

@@ -28,7 +28,6 @@ Selection detail table  Each row in a selection is represented by one record in 
 |targetTableNumber|Table number of the target that this selection member points to|TableNumber|&#x25CF;|
 |targetRecordId|Record id of the target that this selection member points to|RecordId|&#x25CF;|
 
-
 ![selectionmember table relationship diagram](./media/selectionmember.png)
 
 [!include[details](./includes/selectionmember.md)]
@@ -52,7 +51,6 @@ Selection detail table  Each row in a selection is represented by one record in 
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[selection](selection.md)  |Selections |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ Selection detail table  Each row in a selection is represented by one record in 
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

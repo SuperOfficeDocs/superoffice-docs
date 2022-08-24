@@ -21,7 +21,7 @@ The metadata is a simple JavaScript Object Notation (JSON) document and can be f
 
 The **environment** subdomain is unique for each [application environment][1]:
 
-### Environment-specific sub-domains
+## Environment-specific sub-domains
 
 | Environment | Sub-domain |
 |-------------|------------|
@@ -103,7 +103,6 @@ This endpoint is used to revoke access tokens (reference tokens only) and refres
 [3]: index.md
 [4]: ../online/sign-in-user/auth-code-flow.md#refresh-token
 [6]: https://openid.net/specs/openid-connect-session-1_0.html#RPLogout
-[7]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [8]: https://jwt.io/
 [9]: ../../reference/restful/rest/User/v1User_GetCurrentPrincipal.md
 [10]: https://github.com/SuperOffice/devnet-nextjs-chakraui/blob/09457d1fb020d827de045bcd131f11732edc29d3/lib/superoffice.js#L16

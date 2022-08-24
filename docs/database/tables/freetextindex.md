@@ -30,7 +30,6 @@ This is the index table for the free text search function. Each word in FreeText
 |infile|Word found in file (0=word found in database)|UShort| |
 |contact\_id|Set for contacts and person records to allow cross-table free-text searches. 0 for non-contact, non-person|FK [contact](contact.md)| |
 
-
 ![freetextindex table relationship diagram](./media/freetextindex.png)
 
 [!include[details](./includes/freetextindex.md)]
@@ -51,7 +50,6 @@ This is the index table for the free text search function. Each word in FreeText
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[freetextwords](freetextwords.md)  |This table contains the word list (automatically updated by the indexer) for the free-text search. Words are in UPPERCASE and truncated to 9 significant characters. Indexed words, dynamically updated by the freetext index |
 
-
 ## Replication Flags
 
 * Copy to satellite and travel prototypes.
@@ -59,4 +57,3 @@ This is the index table for the free text search function. Each word in FreeText
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -18,7 +18,6 @@ Save all list items for the specified list defintion
 
 **Returns:** The list items
 
-
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveAllFromListName Response
 
 ```xml
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

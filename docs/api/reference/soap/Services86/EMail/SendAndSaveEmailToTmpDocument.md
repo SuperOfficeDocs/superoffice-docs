@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.SendAndSaveEm
 ## SendAndSaveEmailToTmpDocument
 
 Send the provided e-mail and create tmp document ready to archive
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **email:** The e-mail to send
 * **stripAttachments:** If true, do not include attachments in tmp document
 
 **Returns:** Filename of the tmp document
-
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -204,7 +203,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendAndSaveEmailToTmpDocument Response
 
 ```xml
@@ -225,4 +223,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

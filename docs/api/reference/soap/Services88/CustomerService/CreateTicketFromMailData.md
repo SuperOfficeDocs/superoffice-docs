@@ -18,7 +18,6 @@ This method create a new ticket in the same way as importMail would import an em
 
 **Returns:** An object containing some meta data for the created ticket
 
-
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateTicketFromMailData Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

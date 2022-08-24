@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative
 
 Gets a QuoteAlternative object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a QuoteAlternative object.
 POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=949
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Information about a connection to the ERP system.
-
-
 
 Carrier object for QuoteAlternative.
 Services for the QuoteAlternative Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

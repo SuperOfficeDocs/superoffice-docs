@@ -15,8 +15,6 @@ Deletes all contacts from a selection. If a contact does not have delete rights,
 
 * **selectionId:** Id of the selection the delete operation will be performed.
 
-
-
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteContacts Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

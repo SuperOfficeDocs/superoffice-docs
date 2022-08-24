@@ -12,14 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetDataRight">
 ## GetDataRight
 
 Read one specific data right at the given position. An exception will be thrown if non existing position is specified.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleId:** The role id to set the data right for
 * **tableName:** The name of the entity/table
 * **relationToOwner:** The id of the relation to owner
 
 **Returns:** The data right value at the specified position (C, CR, CRU, or CRUD)
-
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -55,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDataRight Response
 
 ```xml
@@ -76,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

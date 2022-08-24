@@ -12,13 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.GetCrmActor
 ## GetCrmActorType
 
 Retrieves the CrmActorType that are mapped to a specific ErpActorType for this connection
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** The ERP connection ID
 * **erpActorType:** The ERP actor type
 
 **Returns:** The CrmActorType
-
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCrmActorType Response
 
 ```xml
@@ -74,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

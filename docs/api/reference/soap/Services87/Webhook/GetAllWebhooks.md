@@ -12,14 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IWebhookAgent.GetAllWebho
 ## GetAllWebhooks
 
 Returns all webhooks, according to filter criteria
-<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **nameFilter:** Only return hooks with this name. Default NULL = no filter
 * **eventFilter:** Only return hooks responding to this event name. Default NULL = no filter
 * **statusFilter:** Only return hooks with this status. Default Unknown = no filter, returns all.
 
 **Returns:** Array of all webhooks, filtered according to given criteria.
-
 
 [WSDL file for Services87/Webhook](../Services87-Webhook.md)
 
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAllWebhooks Response
 
@@ -130,4 +128,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

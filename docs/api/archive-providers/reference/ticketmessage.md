@@ -22,11 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Messages on support tickets. Messages are typically e-mail messages with attachments, but not always.
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"ticketmessage"|[Ticket Message]|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -458,7 +460,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

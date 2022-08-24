@@ -29,7 +29,6 @@ A location for storing attachments
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![attachment_location table relationship diagram](./media/attachment_location.png)
 
 [!include[details](./includes/attachment-location.md)]
@@ -47,7 +46,6 @@ A location for storing attachments
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
 
-
 ## Replication Flags
 
 * None
@@ -55,4 +53,3 @@ A location for storing attachments
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -15,11 +15,10 @@ so.envir:
 ---
 
 # "lists" MDO List
+
 List provider for the Heading table. While this table looks like an MDO table,
 it lacks the standardized grouplink and headinglink companion tables for good reason,
 since it is the heading table itself.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ListsListProvider">ListsListProvider</see> class.
 The name of the MDO list is 'lists'.
@@ -32,10 +31,6 @@ The name of the MDO list is 'lists'.
 |Include an associate list item| includeAssociate|true|
 |Only show user defined lists| onlyUserDefinedLists|false|
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -47,6 +42,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("lists", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -80,7 +76,6 @@ foreach (var item in listProvider.RootItems) {
 |110|Project - Status|||
 |111|Project member - Function|||
 |112|Selection - Type|||
-
 
 ## Related MDO Lists
 

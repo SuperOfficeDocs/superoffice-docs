@@ -13,10 +13,6 @@ Creates a new SaleStakeholder
 
 Calls the Sale agent service SaveSaleStakeholder.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ Calls the Sale agent service SaveSaleStakeholder.
 ```http
 POST /api/v1/SaleStakeholder?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/SaleStakeholder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The SaleStakeholder to be saved. 
+The SaleStakeholder to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,11 +63,7 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-
 ## Response: object
-
-
-
 
 SaleStakeholder entity with API _Links added.
 

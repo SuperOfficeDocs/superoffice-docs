@@ -13,13 +13,9 @@ Gets a ChatTopicEntity object.
 
 Calls the Chat agent service GetChatTopicEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ChatTopicEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +26,6 @@ Calls the Chat agent service GetChatTopicEntity.
 ```http
 GET /api/v1/ChatTopic/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,12 +40,9 @@ GET /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Chat topics define who is assigned, when the channel is open for business, and look of the chat widget.
-
-
 
 ChatTopicEntity entity with API _Links added.
 

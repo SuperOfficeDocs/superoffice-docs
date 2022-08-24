@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 The link type, often synonymous with the blob type, of a BinaryObjectLink row
 
  | LinkType | Comment |

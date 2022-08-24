@@ -19,7 +19,6 @@ Returns a localized text based on the resource id for the selected language.
 
 **Returns:** A LocalizedText carrier.
 
-
 [WSDL file for Services86/List](../Services86-List.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetLocalizedTextByType Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

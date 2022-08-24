@@ -11,12 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SetPassword">S
 
 ## SetPassword
 
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:** 
-* **password:** 
-
-
+* **associateId:**
+* **password:**
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetPassword Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

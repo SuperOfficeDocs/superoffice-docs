@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 
 Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing RelationDefinitionEntity or creates a new RelationDefinitio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The RelationDefinitionEntity to be saved. 
+The RelationDefinitionEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,12 +40,9 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-
 ## Response: object
 
 A relation definition entity with source and destination tables
-
-
 
 Carrier object for RelationDefinitionEntity.
 Services for the RelationDefinitionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.

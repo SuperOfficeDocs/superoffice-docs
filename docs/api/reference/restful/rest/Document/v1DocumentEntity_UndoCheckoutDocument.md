@@ -11,15 +11,9 @@ DELETE /api/v1/Document/{documentId}/Lock
 
 Undo (abandon) a checkout
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Undo (abandon) a checkout
 DELETE /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -41,10 +34,7 @@ DELETE /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
-
-
 
 | Response | Description |
 |----------------|-------------|

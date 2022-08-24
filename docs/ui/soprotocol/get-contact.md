@@ -19,7 +19,6 @@ The following example shows how we can retrieve the contact panel with contact\_
 ![04][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image004.jpg

@@ -13,10 +13,6 @@ Returning a foreign key string value by its key name and device identifier, that
 
 A table name and record ID can also be specified.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ A table name and record ID can also be specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,17 +50,13 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 
 Gets a CustomerCenterConfig object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a CustomerCenterConfig object.
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=652
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Contains configuration when displaying the Customer Center
-
-
 
 Carrier object for CustomerCenterConfig.
 Services for the CustomerCenterConfig Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.

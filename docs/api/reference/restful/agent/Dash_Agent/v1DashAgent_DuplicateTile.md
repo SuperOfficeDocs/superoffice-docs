@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/DuplicateTile
 
 Duplicate for the tile and all the sub elements
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Duplicate for the tile and all the sub elements
 ```http
 POST /api/v1/Agents/Dash/DuplicateTile?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/Dash/DuplicateTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DashTileId, Name 
+DashTileId, Name
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashTileId | int32 |  |
 | Name | string |  |
 
-
 ## Response: object
 
 Dashboard Tile configuration
-
-
 
 Carrier object for DashTile.
 Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

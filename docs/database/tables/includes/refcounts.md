@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Value for flag field in refcounts
 
 | flags | ID | Comment |

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Contact/GetContactSummary
 
 Get summary of contact and its recent activity.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get summary of contact and its recent activity.
 ```http
 POST /api/v1/Agents/Contact/GetContactSummary?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/Contact/GetContactSummary?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, Limit 
+ContactId, Limit
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | Limit | int32 |  |
 
-
 ## Response: object
 
 Summary of contact with recent activities, chats, and requests included.
-
-
 
 Carrier object for ContactSummary.
 Services for the ContactSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>.

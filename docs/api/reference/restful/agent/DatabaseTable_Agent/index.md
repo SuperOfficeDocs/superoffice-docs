@@ -6,9 +6,6 @@ title: DatabaseTable_Agent
 /api/v1/DatabaseTable/Agent
 ```
 
-
-
-
 * [POST Agents/DatabaseTable/ReadRow](v1DatabaseTableAgent_ReadRow.md)
 
 * [POST Agents/DatabaseTable/InsertRow](v1DatabaseTableAgent_InsertRow.md)

@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Calendar information regarding which days are to be set in red is stored in a single table
 
 This table is used to mark specific days in the calendar as red. The format of some columns in this table needs further explanation. For every month there will be a row with reddate = month 1st midnight. This should contain a bitmap of all red days for this month in the reds column. This 32-bit bitmap is computed using least significant bit as 1st of month and 1 as red, 0 as not red.

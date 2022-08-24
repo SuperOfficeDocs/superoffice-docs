@@ -24,4 +24,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IBulkUpdateAgen
 * [GetStoredFields](getstoredfields.md)
 * [RemoveStoredFields](removestoredfields.md)
 * [RemoveStoredFieldsAndGetDefaultFields](removestoredfieldsandgetdefaultfields.md)
-

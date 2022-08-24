@@ -1,7 +1,7 @@
 ---
 uid: table-UserGroupLink
 title: UserGroupLink table
-description: Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http;//techdoc.superoffice.com has more information about how roles are implemented.
+description: Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup.
 so.generated: true
 keywords:
   - "database"
@@ -15,7 +15,7 @@ so.envir:
 
 # UserGroupLink Table (60)
 
-Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http;//techdoc.superoffice.com has more information about how roles are implemented.
+Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup.
 
 ## Fields
 
@@ -33,7 +33,6 @@ Link table between associate and usergroup, specifies secondary group membership
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |encryptedCheck|Encrypted data, to detect unwanted changes|String(254)|&#x25CF;|
-
 
 ![UserGroupLink table relationship diagram](./media/UserGroupLink.png)
 
@@ -54,7 +53,6 @@ Link table between associate and usergroup, specifies secondary group membership
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,4 +62,3 @@ Link table between associate and usergroup, specifies secondary group membership
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

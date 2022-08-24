@@ -14,10 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.ChangeUserType
 Get a user from the user name.
 
 * **user:** User name of the user to get.
-* **userType:** 
+* **userType:**
 
 **Returns:** User retrieved by name
-
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -176,7 +175,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ChangeUserType Response
 
 ```xml
@@ -321,4 +319,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

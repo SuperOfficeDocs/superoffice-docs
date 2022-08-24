@@ -26,9 +26,7 @@ so.client:
 [Next][1] | [Back to guide][2]
 
 <!-- Referenced links -->
-
 [1]: ../database/index.md
 [2]: ../guide.md
-
 
 <!-- Referenced images -->

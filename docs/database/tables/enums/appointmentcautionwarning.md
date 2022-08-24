@@ -27,4 +27,4 @@ Status field to indicate appointments that have some sort of problem
 
 ## Usage
 
-* [appointment](../appointment.md).cautionWarning - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
+* [appointment](../appointment.md).cautionWarning - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.

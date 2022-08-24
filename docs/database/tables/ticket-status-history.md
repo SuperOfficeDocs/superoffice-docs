@@ -29,7 +29,6 @@ This table contains the history of a tickets statuses. Each time a ticket change
 |from\_datetime||DateTime|&#x25CF;|
 |to\_datetime||DateTime|&#x25CF;|
 
-
 ![ticket_status_history table relationship diagram](./media/ticket_status_history.png)
 
 [!include[details](./includes/ticket-status-history.md)]
@@ -49,7 +48,6 @@ This table contains the history of a tickets statuses. Each time a ticket change
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ This table contains the history of a tickets statuses. Each time a ticket change
 ## Security Flags
 
 * No access control via user's Role.
-

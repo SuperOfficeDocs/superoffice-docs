@@ -13,10 +13,6 @@ Changes the project image link.
 
 If the Binary object id is 0, any image link is removed from the project.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +23,6 @@ If the Binary object id is 0, any image link is removed from the project.
 POST /api/v1/Agents/BLOB/ChangeProjectImage?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +32,16 @@ POST /api/v1/Agents/BLOB/ChangeProjectImage?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId, BlobId 
+ProjectId, BlobId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 | BlobId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

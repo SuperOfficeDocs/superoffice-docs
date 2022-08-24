@@ -6,9 +6,6 @@ title: Selection
 /api/v1/Selection
 ```
 
-
-
-
 * [GET Selection/default](v1SelectionEntity_DefaultSelectionEntity.md)
 
 * [GET Selection](v1SelectionEntity_GetAll.md)

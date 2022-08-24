@@ -30,7 +30,6 @@ Heading link table for ProjType, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ProjTypeHeadingLink table relationship diagram](./media/ProjTypeHeadingLink.png)
 
 [!include[details](./includes/projtypeheadinglink.md)]
@@ -51,7 +50,6 @@ Heading link table for ProjType, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[ProjType](projtype.md)  |ProjType list table. List of valid Project types. |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Heading link table for ProjType, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
-

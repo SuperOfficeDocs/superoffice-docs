@@ -17,7 +17,6 @@ Updates the existing DashTile or creates a new DashTile if the id parameter is 0
 
 **Returns:** New or updated DashTile
 
-
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -76,7 +75,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveDashTile Response
 
 ```xml
@@ -123,4 +121,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

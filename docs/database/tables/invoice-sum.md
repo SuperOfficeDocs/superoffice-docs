@@ -28,7 +28,6 @@ This table is used temporarily when listing invoice statistics. It is used becau
 |company\_id|The reference of the company entry this entry is connected to. NULL or -1 if not connected.|FK [contact](contact.md)| |
 |balance|The balance for the given customer or company.|Int|&#x25CF;|
 
-
 ![invoice_sum table relationship diagram](./media/invoice_sum.png)
 
 [!include[details](./includes/invoice-sum.md)]
@@ -50,7 +49,6 @@ This table is used temporarily when listing invoice statistics. It is used becau
 |[login](login.md)  |This table contains entries for the user sessions.  |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
-
 ## Replication Flags
 
 * None
@@ -58,4 +56,3 @@ This table is used temporarily when listing invoice statistics. It is used becau
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -50,7 +50,6 @@ SuperOffice reporter data
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![SORField table relationship diagram](./media/SORField.png)
 
 [!include[details](./includes/sorfield.md)]
@@ -71,7 +70,6 @@ SuperOffice reporter data
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[SORSection](sorsection.md)  |SuperOffice reporter data |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -81,4 +79,3 @@ SuperOffice reporter data
 ## Security Flags
 
 * No access control via user's Role.
-

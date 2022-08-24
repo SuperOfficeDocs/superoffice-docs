@@ -30,7 +30,6 @@ User group link table for Credited, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![CreditedGroupLink table relationship diagram](./media/CreditedGroupLink.png)
 
 [!include[details](./includes/creditedgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for Credited, for MDO item hiding
 |[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for Credited, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/Move
 
 Moving a booking to another start time.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Moving a booking to another start time.
 ```http
 POST /api/v1/Agents/Appointment/Move?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Appointment/Move?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentId, NewStartTime, UpdateMode 
+AppointmentId, NewStartTime, UpdateMode
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 | NewStartTime | date-time |  |
 | UpdateMode | string |  |
-
 
 ## Response: object
 
@@ -65,8 +57,8 @@ Response body: object
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Associate |  | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact |  | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <para>Use MDO List name "contact_new" to get list items.</para> |
+| Associate |  | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <br />Use MDO List name "associate" to get list items. |
+| Contact |  | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <br />Use MDO List name "contact_new" to get list items. |
 | CreatedBy |  | The associate that first created the appointment. The property is read-only. |
 | UpdatedBy |  | The person that last updated the appointment. |
 | CreatedDate | date-time | Registered date  in UTC. |
@@ -75,11 +67,11 @@ Response body: object
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson |  | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
-| Person |  | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Person |  | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <br />Use MDO List name "person" to get list items. |
 | MotherId | int32 | ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking |
-| Priority |  | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <para>Use MDO List name "priority" to get list items.</para> |
+| Priority |  | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <br />Use MDO List name "priority" to get list items. |
 | Private | string | The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual. |
-| Project |  | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Project |  | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <br />Use MDO List name "project" to get list items. |
 | Type | string | The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual. |
 | UpdatedDate | date-time | Updated date  in UTC. |
 | Completed | string | Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set. |
@@ -94,7 +86,7 @@ Response body: object
 | LeadTime | string | Time blocked (minutes) BEFORE starttime |
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
-| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
+| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <br />Use MDO List name "rejectReason" to get list items. |
 | Recurrence |  | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
@@ -104,9 +96,9 @@ Response body: object
 | HasConflict | bool | Does the appointment overlap with another appointment in the user's diary? |
 | AssignedBy |  | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate |  | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
-| Task |  | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
+| Task |  | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <br />Use MDO List name "task" to get list items. |
 | PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
-| Sale |  | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale |  | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <br />Use MDO List name "sale" to get list items. |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |

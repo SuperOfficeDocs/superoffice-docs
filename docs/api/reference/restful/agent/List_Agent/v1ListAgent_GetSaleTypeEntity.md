@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetSaleTypeEntity
 
 Gets a SaleTypeEntity object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a SaleTypeEntity object.
 POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=904
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,7 +35,6 @@ POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 
@@ -78,7 +70,7 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 

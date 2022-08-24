@@ -13,10 +13,6 @@ Creates a new contact selection based on contact selection members from an exist
 
 The new selection will always be static even if the original selection is dynamic.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The new selection will always be static even if the original selection is dynami
 ```http
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +37,14 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, Name 
+SelectionId, Name
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Name | string |  |
-
 
 ## Response: object
 
@@ -70,7 +64,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |

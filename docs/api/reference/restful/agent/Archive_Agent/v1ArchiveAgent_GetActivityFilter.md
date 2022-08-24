@@ -11,12 +11,6 @@ POST /api/v1/Agents/Archive/GetActivityFilter
 
 Get activity filter for the specified list.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get activity filter for the specified list.
 ```http
 POST /api/v1/Agents/Archive/GetActivityFilter?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Agents/Archive/GetActivityFilter?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Activity list filter information.
-
-
 
 Carrier object for ActivityFilter.
 Services for the ActivityFilter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.

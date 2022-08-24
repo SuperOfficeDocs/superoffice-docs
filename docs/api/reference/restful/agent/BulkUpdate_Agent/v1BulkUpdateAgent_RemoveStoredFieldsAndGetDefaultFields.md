@@ -11,12 +11,6 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 
 Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Remove the stored settings of the bulk update for this table from this context, 
 ```http
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,19 +35,16 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, Context 
+TableName, Context
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | Context | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

@@ -13,19 +13,13 @@ Read one specific data right at the given position.
 
 An exception will be thrown if non existing position is specified.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleId | int32 | The role id to set the data right for **Required** |
 | tableName | string | The name of the entity/table **Required** |
 | relationToOwner | Enum: MyOwn, PrimaryGroup, OtherAssociates, OtherGroups, ExternalUser, Anonymous, MyCompany, SameProject | The id of the relation to owner **Required** |
-
-
 
 ## Request Headers
 
@@ -40,17 +34,13 @@ An exception will be thrown if non existing position is specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample Request
 

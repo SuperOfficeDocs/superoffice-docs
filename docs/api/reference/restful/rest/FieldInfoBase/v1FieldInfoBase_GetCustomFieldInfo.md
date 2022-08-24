@@ -11,17 +11,10 @@ GET /api/v1/Schema/{tableName}/{fieldName}
 
 Return information about a particular custom field (user-defined + extra) on a particular table
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc. **Required** |
 | fieldName | string | The name of the field: prog:id or field name. e.g. 'SuperOffice:21' or 'x_foobar' **Required** |
-
-
 
 ## Request Headers
 
@@ -36,12 +29,9 @@ Return information about a particular custom field (user-defined + extra) on a p
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Abstract basic information about database fields. May be custom or user-defined fields. The information can be used to build a user interface.
-
-
 
 Carrier object for FieldInfoBase.
 Services for the FieldInfoBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.

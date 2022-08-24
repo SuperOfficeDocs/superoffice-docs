@@ -8,6 +8,7 @@ version: 9.2 R04
 so.topic: howto
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Working with Upsert
 
 Notably, the most complex mass operation method, `Upsert`, performs any combination of inserts, updates, and, in some cases, deletes. It requires the same parameters as the [Insert][1] method, but adds a string array of *keys*, and an `UpsertNomatchAction` enum.
@@ -53,14 +54,14 @@ When targeting **user-defined tables** (udxxxsmall or udxxxlarge), the `UpserNom
 
 ## User-defined fields
 
+> [!CAUTION]
+> When updating **user-defined fields**, `DeleteUnmatched` must be false.
+
 When targeting user-defined fields tables, such as `udcontsmall` or `udcontlarge`, the column names can be program ID (`progid`) instead of the table column name, such as `long05`.
 
 Upsert is always oriented towards one table. Therefore when the target table is a user-defined table, only specify ProgIDs for one of the user-defined tables at a time. Target either `udfXxxSmall` or `udfXxxLarge`, ensuring not to mix columns from both tables in one Upsert.
 
 When updating User-defined field, specify the entity primary key column as the key, and primary key value in the data array. Any new UDEF rows are automatically linked to their owner entity.
-
-> [!CAUTION]
-> When updating **user-defined fields**, `DeleteUnmatched` must be false.
 
 > [!WARNING]
 > A failed Upsert can leave the database in a *partially* updated state. There is extensive validation, but there are no guarantees. Make sure to inspect the `MassResults` return type and review what changes have occurred.

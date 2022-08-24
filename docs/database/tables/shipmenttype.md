@@ -32,7 +32,6 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ShipmentType table relationship diagram](./media/ShipmentType.png)
 
 [!include[details](./includes/shipmenttype.md)]
@@ -51,7 +50,6 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[ShipmentTypeReservation](shipmenttypereservation.md)  |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 ## Security Flags
 
 * No access control via user's Role.
-

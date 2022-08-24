@@ -37,7 +37,6 @@ Email account information
 |error\_count|How many failures since reset|Int|&#x25CF;|
 |error\_reason|Reason for last failure if available|String(254)| |
 
-
 ![email_account table relationship diagram](./media/email_account.png)
 
 [!include[details](./includes/email-account.md)]
@@ -59,7 +58,6 @@ Email account information
 |[email\_item](email-item.md)  |Email data |
 |[service\_auth](service-auth.md)  |Authentication for a service (imap, smtp...) |
 
-
 ## Replication Flags
 
 * None
@@ -67,4 +65,3 @@ Email account information
 ## Security Flags
 
 * No access control via user's Role.
-

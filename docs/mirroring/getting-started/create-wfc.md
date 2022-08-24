@@ -179,7 +179,6 @@ Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 [img6]: media/installpackagesuccess.png
 [img7]: media/solutionpostinstall.png
 [img8]: media/webconfigpostinstall.png
-[img9]: media/webconfigpostinstallservermodel.png
 [img10]: media/wcfserviceiniis.png
 [img11]: media/wcfserviceiniis-https.png
 [img12]: media/system-servicemodel-config.png

@@ -33,7 +33,6 @@ Long text fields from all over the system
 |lcid|Language/culture code of the text, if known. This is a reserved field for future use|UShort|&#x25CF;|
 |seqno|Sequence number, for possible chaining of multiple records to store longer texts|UShort|&#x25CF;|
 
-
 ![text table relationship diagram](./media/text.png)
 
 [!include[details](./includes/text.md)]
@@ -58,7 +57,7 @@ Long text fields from all over the system
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[project](project.md)  |Projects |
 |[projectmember](projectmember.md)  |Project members. Link-table between person and project |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. |
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 |[SearchCriteria](searchcriteria.md)  |Criteria storage for Selection and other Find mechanisms |
@@ -67,7 +66,6 @@ Long text fields from all over the system
 |[StatusDef](statusdef.md)  |Status definitions. Name and description are in LocaleText for internationalization |
 |[UDefField](udeffield.md)  |Definition table for user-defined fields; one row in this table corresponds to one generation of one field. The user defined fields that are in use, and earlier versions of user defined fields. ColumnId refers to the field type; see UDXXXSmall or UDXXXLarge for the referring ID.  Preferences prefsection=&apos;System&apos;, prefkey=&apos;CurrentUdefVersioncontact&apos;  (or CurrentUdefVersionperson, project, sale), gives you the current version of user defined fields.  prefkey=&apos;AdminUdefVersion&lt;...&gt;&apos; gives you the current version that&apos;s being edited. If Current version = admin version, no editing has been done since the last Publish of user defined field was performed. |
 |[UserPreference](userpreference.md)  |Preference system. If deflevel is set to 5; the user may change the preferences |
-
 
 ## Replication Flags
 
@@ -78,4 +76,3 @@ Long text fields from all over the system
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
-

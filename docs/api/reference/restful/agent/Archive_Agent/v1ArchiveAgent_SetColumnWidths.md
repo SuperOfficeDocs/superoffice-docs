@@ -11,12 +11,6 @@ POST /api/v1/Agents/Archive/SetColumnWidths
 
 Set the column widths for the given set of columns and GUI name.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Set the column widths for the given set of columns and GUI name.
 POST /api/v1/Agents/Archive/SetColumnWidths?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,18 +30,16 @@ POST /api/v1/Agents/Archive/SetColumnWidths?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-GuiName, ColumnWidths 
+GuiName, ColumnWidths
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GuiName | string |  |
 | ColumnWidths | array |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

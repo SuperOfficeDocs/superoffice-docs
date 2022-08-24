@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 | Function | Other name | Applies to     | bypassNetServer | Description |
 |----------|------------|----------------|:---------------:|-------------|
 | avg      | FuncAvg    | Integer, Float |     yes         | aggregate, the average value of a column          |

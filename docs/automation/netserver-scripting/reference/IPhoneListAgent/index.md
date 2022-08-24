@@ -24,4 +24,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPhoneListAgent
 * [Search](search.md)
 * [SearchWithPreferences](searchwithpreferences.md)
 * [SetPreferences](setpreferences.md)
-

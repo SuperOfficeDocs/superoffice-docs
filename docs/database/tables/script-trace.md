@@ -34,7 +34,6 @@ Scripts which should be traced
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![script_trace table relationship diagram](./media/script_trace.png)
 
 [!include[details](./includes/script-trace.md)]
@@ -52,7 +51,6 @@ Scripts which should be traced
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[script\_trace\_run](script-trace-run.md)  |Traces of executed scripts |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ Scripts which should be traced
 ## Security Flags
 
 * No access control via user's Role.
-

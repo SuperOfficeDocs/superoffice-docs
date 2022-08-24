@@ -6,9 +6,6 @@ title: SaleStakeholder
 /api/v1/SaleStakeholder
 ```
 
-
-
-
 * [GET SaleStakeholder/default](v1SaleStakeholder_DefaultSaleStakeholder.md)
 
 * [GET SaleStakeholder](v1SaleStakeholder_GetAll.md)

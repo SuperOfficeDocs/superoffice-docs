@@ -12,6 +12,7 @@ so.client: online
 
 # Bulk update extra-fields
 
+<!-- markdownlint-disable-file MD033 -->
 <table>
     <title>Extra Fields</title>
     <thead>

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Ticket/GetTicketMessage
 
 Gets a TicketMessage object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a TicketMessage object.
 POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=50
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,12 +36,9 @@ POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 The TicketMessage carrier is used for representing a service ticket message
-
-
 
 Carrier object for TicketMessage.
 Services for the TicketMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.

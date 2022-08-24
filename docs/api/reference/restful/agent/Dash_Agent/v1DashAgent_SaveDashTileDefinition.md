@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dash/SaveDashTileDefinition
 
 Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DashTileDefinition or creates a new DashTileDefinition if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashTileDefinition to be saved. 
+The DashTileDefinition to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,12 +50,9 @@ The DashTileDefinition to be saved.
 | MeasureByField | string | Field to group by |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-
 ## Response: object
 
 Dashboard Tile definition
-
-
 
 Carrier object for DashTileDefinition.
 Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

@@ -12,12 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.LatestItemIdB
 ## LatestItemIdByFolder
 
 Returns the latest id of the mail item by folder
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **folderId:** The folderId for the folder to check for the latest mail id
 
 **Returns:** Mail Item id
-
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## LatestItemIdByFolder Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

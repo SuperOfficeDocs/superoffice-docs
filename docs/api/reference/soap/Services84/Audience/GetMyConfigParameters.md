@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAudienceAgent.GetMyConfi
 
 Gets the Audience configuration parameters belonging to the currently logged on user.
 
-
 **Returns:** Array of Audience configuration parameters.
-
 
 [WSDL file for Services84/Audience](../Services84-Audience.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetMyConfigParameters Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

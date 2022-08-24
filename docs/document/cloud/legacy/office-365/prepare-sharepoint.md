@@ -34,9 +34,11 @@ If you are using multiple domain names for your users, all domain names must be 
 * If it is a custom domain name, inform support to add those to your registered domain name.
 * If it is separate main domain names, use the registration link above to register each of them.
 
-## Make sure your new Microsoft 365 authentication works by logging in to CRM Online with Microsoft 365
+## Make sure your new Microsoft 365 authentication works
 
-### For New users
+Verify by logging in to CRM Online with Microsoft 365.
+
+### For new users
 
 1. Go to `online.superoffice.com`.
 2. Type in the email address, click **Next**.

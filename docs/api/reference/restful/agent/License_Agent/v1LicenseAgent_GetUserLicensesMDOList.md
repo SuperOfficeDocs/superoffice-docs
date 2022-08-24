@@ -11,12 +11,6 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList
 
 Get all licenses in a MDOListItem structure.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all licenses in a MDOListItem structure.
 ```http
 POST /api/v1/Agents/License/GetUserLicensesMDOList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,10 +34,7 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

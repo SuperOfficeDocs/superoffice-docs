@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISaintAgent.GetStatusMoni
 
 Returns the StatusMonitorPeriods entity.
 
-
 **Returns:** The StatusMonitorEntity
-
 
 [WSDL file for Services84/Saint](../Services84-Saint.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetStatusMonitorPeriods Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

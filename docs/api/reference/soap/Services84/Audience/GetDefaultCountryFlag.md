@@ -17,7 +17,6 @@ Returns the default country flag image that is displayed in Audience when no per
 
 **Returns:** The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
 
-
 [WSDL file for Services84/Audience](../Services84-Audience.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDefaultCountryFlag Response
 
 ```xml
@@ -69,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetAlar
 
 ## GetAlarms
 
-
-
-* **includeInvitations:** 
-* **includeAllAppointments:** 
-* **defaultAlarmLeadTimeInMinutes:** 
-
-
+* **includeInvitations:**
+* **includeAllAppointments:**
+* **defaultAlarmLeadTimeInMinutes:**
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -52,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAlarms Response
 
@@ -103,4 +98,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

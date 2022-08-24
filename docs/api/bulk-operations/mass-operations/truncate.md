@@ -8,6 +8,7 @@ version: 9.2 R04
 so.topic: howto
 ---
 
+<!-- markdownlint-disable-file MD051 -->
 # Working with Truncate
 
 This method is used to remove all records in a table. All records afterward are irrecoverable. It is extremely fast, dependent on table size.

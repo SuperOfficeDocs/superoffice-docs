@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "fonttype" MDO List
+
 List of font types
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FontTypeProvider">FontTypeProvider</see> class.
 The name of the MDO list is 'fonttype'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("fonttype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |22|Lucida Handwriting|||
 |20|Lucida Sans Unicode|||
 |27|OCR A Extended|||
-
 
 ## Related MDO Lists
 

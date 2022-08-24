@@ -21,6 +21,7 @@ SuperOffice will also send you emails when there is a problem with your applicat
 
 The **State change URL** is set in the advanced application configuration of each application.
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
@@ -44,6 +45,7 @@ The **State change URL** is set in the advanced application configuration of eac
 7. Click **Save Settings** or **OK**.
 
 8. [Request to publish the new configuration.][3]
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > You must set up a web service listening at the given URL and be prepared to [parse notifications][2].

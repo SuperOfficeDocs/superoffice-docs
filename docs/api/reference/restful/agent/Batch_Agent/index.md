@@ -6,9 +6,6 @@ title: Batch_Agent
 /api/v1/Batch/Agent
 ```
 
-
-
-
 * [POST Agents/Batch/GetBatchTaskInfo](v1BatchAgent_GetBatchTaskInfo.md)
 
 * [POST Agents/Batch/GetBatchTaskInfosByAssociates](v1BatchAgent_GetBatchTaskInfosByAssociates.md)

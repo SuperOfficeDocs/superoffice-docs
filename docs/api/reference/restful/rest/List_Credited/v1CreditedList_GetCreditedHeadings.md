@@ -13,11 +13,6 @@ Gets headings for the Credited list.
 
 Calls the List agent service GetGetHeadingsFromListDefinition.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,10 +26,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

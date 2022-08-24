@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/GetDashCollection
 
 Gets a collection of dashboards for the current associate
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets a collection of dashboards for the current associate
 ```http
 POST /api/v1/Agents/Dash/GetDashCollection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,12 +34,9 @@ POST /api/v1/Agents/Dash/GetDashCollection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 Collection of dashboards for an associate
-
-
 
 Carrier object for DashCollection.
 Services for the DashCollection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.

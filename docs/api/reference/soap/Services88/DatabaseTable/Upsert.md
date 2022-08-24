@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Upser
 ## Upsert
 
 Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
-<para /><b>Online Restricted:</b> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table where rows should be inserted or updated
 * **columns:** List of column names, in the same order as in the data
@@ -22,7 +22,6 @@ Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special supp
 * **returnRowStatus:** If true, then the 'RowStatus' member of the return carrier will be populated with a per-row status, for each incoming row
 
 **Returns:** Summary of results
-
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -69,7 +68,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Upsert Response
 
 ```xml
@@ -105,4 +103,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -33,7 +33,6 @@ MrMrs list table. List of salutations.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![MrMrs table relationship diagram](./media/MrMrs.png)
 
 [!include[details](./includes/mrmrs.md)]
@@ -53,7 +52,6 @@ MrMrs list table. List of salutations.
 |[MrMrsGroupLink](mrmrsgrouplink.md)  |User group link table for MrMrs, for MDO item hiding |
 |[MrMrsHeadingLink](mrmrsheadinglink.md)  |Heading link table for MrMrs, for MDO headers |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,4 +61,3 @@ MrMrs list table. List of salutations.
 ## Security Flags
 
 * No access control via user's Role.
-

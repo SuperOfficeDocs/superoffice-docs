@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SetExternalUse
 ## SetExternalUserInfo
 
 Modifies an external user. Changes external users information according to the flags set in  externalUserInfoModification.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **associateId:** The associateId to alter.
 * **userName:** Login username.
@@ -20,8 +20,6 @@ Modifies an external user. Changes external users information according to the f
 * **isActive:** Set isActive to true to enable the external user to log in.
 * **roleId:** Id of role for the external user. The role must be a role of type external users.
 * **externalUserInfoModification:** externalUserInfoModification is a flag describing what to change. &lt;see cref="SuperOffice.CRM.Services.Util.ExternalUserInfoModification"/&gt;.
-
-
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -60,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetExternalUserInfo Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

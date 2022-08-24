@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.GetMyMember
 
 Returning the projects where an user is project member.
 
-
 **Returns:** The list of projects.
-
 
 [WSDL file for Services85/Project](../Services85-Project.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyMemberProjects Response
 
@@ -90,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

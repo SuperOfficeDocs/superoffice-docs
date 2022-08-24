@@ -39,4 +39,3 @@ string ret = custService.loginAsCustomer("john", "pw", "johndoe", out sessionKey
 ```
 
 <!-- Referenced links -->
-[1]: ../../error-codes.md

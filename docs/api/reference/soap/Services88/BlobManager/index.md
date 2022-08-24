@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/BlobM
 
 Handled by the <see cref="T:SuperOffice.Services88.IBlobManagerAgent">SuperOffice.Services88.IBlobManagerAgent</see> interface.
 
-
-
 Download [WSDL file for Services88/BlobManager](../Services88-BlobManager.md) if you need to generate your own proxy code.
 
 * [BeginReadBlobPart](BeginReadBlobPart.md)
@@ -19,4 +17,3 @@ Download [WSDL file for Services88/BlobManager](../Services88-BlobManager.md) if
 * [ReadBlob](ReadBlob.md)
 * [ReadBlobPart](ReadBlobPart.md)
 * [WriteBlob](WriteBlob.md)
-

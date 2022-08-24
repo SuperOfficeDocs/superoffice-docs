@@ -34,7 +34,6 @@ This table contains entries for the extra fields in the system.
 |order\_pos|Used to order elements when listed.|Int|&#x25CF;|
 |description|Optional description of what this field is used for.|String(2047)|&#x25CF;|
 
-
 ![extra_fields table relationship diagram](./media/extra_fields.png)
 
 [!include[details](./includes/extra-fields.md)]
@@ -54,7 +53,6 @@ This table contains entries for the extra fields in the system.
 |[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
 |[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ This table contains entries for the extra fields in the system.
 ## Security Flags
 
 * No access control via user's Role.
-

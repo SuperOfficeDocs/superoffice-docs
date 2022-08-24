@@ -13,10 +13,6 @@ If there is a problem with a quoteline, the error description shall be placed in
 
 A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ A summary of all the problems (if any) should be placed in the response object. 
 ```http
 POST /api/v1/Agents/Quote/GetOrderState?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,20 +37,17 @@ POST /api/v1/Agents/Quote/GetOrderState?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId 
+QuoteVersionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-
 ## Response: object
 
 PluginUrlResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button. In addition, an URL can be returned, which the GUI should navigate to/display if it is non-blank. The URL can be an SoProtocol or http(s)
-
-
 
 Carrier object for PluginUrlResponse.
 Services for the PluginUrlResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

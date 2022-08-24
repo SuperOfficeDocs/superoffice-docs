@@ -12,11 +12,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ICRMScriptAgent.DeleteCRM
 ## DeleteCRMScriptEntity
 
 Deletes the CRMScriptEntity
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptEntityId:** The identity of the CRMScriptEntity
-
-
 
 [WSDL file for Services86/CRMScript](../Services86-CRMScript.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteCRMScriptEntity Response
 
 ```xml
@@ -68,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

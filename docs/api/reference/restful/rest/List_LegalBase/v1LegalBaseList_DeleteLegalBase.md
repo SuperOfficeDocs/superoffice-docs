@@ -13,14 +13,9 @@ Marks the existing LegalBase as deleted.
 
 Calls the List agent service SaveLegalBase.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of LegalBase to be marked as deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -30,9 +25,7 @@ Calls the List agent service SaveLegalBase.
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

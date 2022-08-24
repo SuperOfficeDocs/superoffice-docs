@@ -11,13 +11,6 @@ POST /api/v1/Agents/Selection/SaveSelectionEntity
 
 Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SelectionEntity or creates a new SelectionEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SelectionEntity to be saved. 
+The SelectionEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +36,7 @@ The SelectionEntity to be saved.
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -80,7 +73,6 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
 
 Carrier object for SelectionEntity.
@@ -99,7 +91,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |

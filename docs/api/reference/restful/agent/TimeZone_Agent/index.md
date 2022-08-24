@@ -6,9 +6,6 @@ title: TimeZone_Agent
 /api/v1/TimeZone/Agent
 ```
 
-
-
-
 * [POST Agents/TimeZone/InitializeTimeZoneData](v1TimeZoneAgent_InitializeTimeZoneData.md)
 
 * [POST Agents/TimeZone/GetBaseTimeZoneId](v1TimeZoneAgent_GetBaseTimeZoneId.md)

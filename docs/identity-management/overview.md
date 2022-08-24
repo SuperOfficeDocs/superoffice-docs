@@ -23,7 +23,7 @@ The sign-in service determines **how** you get access to SuperOffice CRM Onlin
 
 ## Terminology
 
-**Tenant -** the instance in SuperOffice CRM Online serving a customer. Sometimes simply referred to as _customer_ or _customer installation_ in light-weight and user-facing documentation. If an online system has multiple instances (such as SuperOffice CRM Online), we commonly say it is [multi-tenant][4].
+**Tenant -** the instance in SuperOffice CRM Online serving a customer. Sometimes simply referred to as **customer** or **customer installation** in light-weight and user-facing documentation. If an online system has multiple instances (such as SuperOffice CRM Online), we commonly say it is [multi-tenant][4].
 
 **Identity provider (IdP) -** [federated identity][3] is a generic term for establishing a person's digital identity by delegating to a trusted 3rd party as opposed to a centralized domain of trust. It refers to where the user stores their credentials.
 

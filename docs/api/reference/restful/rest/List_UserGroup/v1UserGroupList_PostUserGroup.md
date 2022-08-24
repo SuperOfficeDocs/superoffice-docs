@@ -13,11 +13,6 @@ Create a new UserGroup list item
 
 Calls the User agent service SaveUserGroup.
 
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +27,9 @@ Calls the User agent service SaveUserGroup.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The UserGroup to be created. 
+The UserGroup to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,12 +39,9 @@ The UserGroup to be created.
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
 
-
 ## Response: object
 
 The main user group that this user belongs to
-
-
 
 Carrier object for UserGroup.
 Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

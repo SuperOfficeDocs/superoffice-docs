@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/SyncEmailAccount
 
 Sync the given account
 
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ Sync the given account
 POST /api/v1/Agents/EMail/SyncEmailAccount?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -39,17 +32,15 @@ POST /api/v1/Agents/EMail/SyncEmailAccount?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SyncUserAccount 
+SyncUserAccount
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SyncUserAccount |  | Details for syncing email user accounts <para /> Carrier object for SyncUserAccount. Services for the SyncUserAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-
+| SyncUserAccount |  | Details for syncing email user accounts <br /> Carrier object for SyncUserAccount. Services for the SyncUserAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

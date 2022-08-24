@@ -13,14 +13,9 @@ Updates the existing CurrencyEntity
 
 Calls the List agent service SaveCurrencyEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of CurrencyEntity to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +31,9 @@ Calls the List agent service SaveCurrencyEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of CurrencyEntity to be saved. 
+The details of CurrencyEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +44,6 @@ The details of CurrencyEntity to be saved.
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-
 
 ## Response: object
 

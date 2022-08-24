@@ -14,7 +14,7 @@ so.client: web
 
 Configuration values related to client configuration, extension of `ClientConfigurationProvider`.
 
-In this section, you add the [Reverse proxy][4] override if you want to export larger selections (Task-Export to Excel) from the web client.
+In this section, you add the Reverse proxy override if you want to export larger selections (Task-Export to Excel) from the web client.
 
 ```XML
 <Client>
@@ -49,4 +49,3 @@ See the [NetServer Core reference][1] for details about handling this programmat
 
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.Client>
-[2]: ../../onsite/install/iis/reverse-proxy.md

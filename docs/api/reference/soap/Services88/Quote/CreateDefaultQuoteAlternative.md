@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.CreateDefault
 Loading default values into a new QuoteAlternative.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New QuoteAlternative with default values
-
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultQuoteAlternative Response
 
@@ -94,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

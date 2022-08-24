@@ -14,7 +14,7 @@ using (SoSession sesh = SoSession.Authenticate(souser, sopass))
     {
       string tmpUri = Request.Url.AbsoluteUri;
       tmpUri = tmpUri.Replace("Result.aspx", "iCal.aspx");
-      ResultInfo.InnerHtml = "<b>Success!</b> You can add the following link to Google Calendar: <br>" + "<a href=\"" + tmpUri + "\">" + tmpUri + "</a><br>\n" + "<p>Note that old links you may have created will stop working. Only one link is valid at a time.";
+      ResultInfo.InnerHtml = "**Success!** You can add the following link to Google Calendar: <br>" + "<a href=\"" + tmpUri + "\">" + tmpUri + "</a><br>\n" + "<p>Note that old links you may have created will stop working. Only one link is valid at a time.";
     }
   }
 }

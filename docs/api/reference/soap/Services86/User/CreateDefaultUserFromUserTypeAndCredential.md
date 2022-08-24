@@ -12,15 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.CreateDefaultU
 ## CreateDefaultUserFromUserTypeAndCredential
 
 Creates a PersonEntity with default values based on the contactId and credentials.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userType:** Type of associate for the user
 * **contactId:** Contact id of the person
 * **credentialType:** Type of credentials, corresponding to name of plugin and type in the credentials table.
 * **credentialValue:** This is the actuall value of the credentials.  This will typically be the password or teh users SID in active directory
 * **credentialDisplayValue:** The value displayed to the user. this will typically be the users login name in active directory.
-
-
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -57,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultUserFromUserTypeAndCredential Response
 
@@ -216,4 +213,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

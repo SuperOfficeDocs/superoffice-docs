@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "chatbot" MDO List
+
 List of all script folders that contain a script named like "%bot%register%".
 Returns script id + folder name as flat list.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ChatbotProvider">ChatbotProvider</see> class.
 The name of the MDO list is 'chatbot'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("chatbot", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,7 +47,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

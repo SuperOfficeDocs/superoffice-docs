@@ -58,22 +58,22 @@ additionalContent:
           - url: maillink/debug.md
             text: Debug
       # Card
-      - title: MailKit
+      - title: SuperOffice Inbox
         links:
-          - url: mailkit.md
-            text: What is MailKit?
-          - url: mailkit.md
+          - url: inbox.md
+            text: What is SuperOffice Inbox?
+          - url: inbox.md#how-to-enable-mailkit
             text: How to enable MailKit
-          - url: mailkit.md
+          - url: inbox.md#how-to-troubleshoot-mailkit
             text: How to troubleshoot MailKit
       # Card
-      - title: cURL mail
+      - title: Service and Marketing mail
         links:
-          - url: curl.md
+          - url: service.md
             text: What is cURL mail?
-          - url: curl.md
+          - url: service.md#how-to-enable-curl
             text: How to enable cURL
-          - url: curl.md
+          - url: service.md#how-to-troubleshoot-mail-when-using-curl
             text: How to troubleshoot mail when using cURL
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

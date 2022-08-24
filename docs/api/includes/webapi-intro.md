@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 The HTTP WebAPI comes in two parts:
 
 * **REST WebAPI** - URLs describe entities like person or sale: [Learn][1] | [Download Swagger File][5] | [Reference][3]

@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "preferencesearch" MDO List
+
 MDO Provider that retrieves a list of preference keys corresponding to a given keyword.
 
 Preferences are described in the prefdesc table. This provider will retrieve descriptions for all keys
@@ -31,10 +32,6 @@ The name of the MDO list is 'preferencesearch'.
 |-----|-----|------|
 |Preference section name| |Functions|
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -46,6 +43,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("preferencesearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -75,7 +73,6 @@ foreach (var item in listProvider.RootItems) {
 |5793|Autologout time||PocketTasks|
 |5939|JPEG quality|bold|Visual|
 |5940|Status image transparency||Visual|
-
 
 ## Related MDO Lists
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 
 Get all button states for the Quote version dialog.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all button states for the Quote version dialog.
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,21 +35,18 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId, QuoteAlternativeId 
+QuoteVersionId, QuoteAlternativeId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 | QuoteAlternativeId | int32 |  |
 
-
 ## Response: object
 
 Information about possible button actions for the quote version dialog.
-
-
 
 Carrier object for QuoteVersionWorkflowState.
 Services for the QuoteVersionWorkflowState Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.

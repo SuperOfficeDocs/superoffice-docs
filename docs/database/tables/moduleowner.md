@@ -22,7 +22,7 @@ Unique owner of a set of licensed modules
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |ModuleOwner\_id|Primary key|PK| |
-|ownerName|The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.|String(239)| |
+|ownerName|The name of the module owner, not visible in GUI but used in the code. OwnerName SuperOffice is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.|String(239)| |
 |ownerDescription|Human-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26|String(254)| |
 |licenseUrl|The url that will provide keycodes for all modules owned by this owner|String(254)| |
 |licenseVersion|The url that will provide keycodes for all modules owned by this owner|String(254)| |
@@ -45,7 +45,6 @@ Unique owner of a set of licensed modules
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ModuleOwner table relationship diagram](./media/ModuleOwner.png)
 
 [!include[details](./includes/moduleowner.md)]
@@ -64,7 +63,6 @@ Unique owner of a set of licensed modules
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -73,4 +71,3 @@ Unique owner of a set of licensed modules
 ## Security Flags
 
 * No access control via user's Role.
-

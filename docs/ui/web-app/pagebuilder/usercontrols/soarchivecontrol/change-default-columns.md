@@ -34,7 +34,6 @@ This adds 2 columns (projectAssociate/firstName and projectAssociate/contactName
 > If the user has customized the columns in this archive, the default no longer applies, and the new columns won’t appear automatically. However, the new columns will appear in the archive customization dialog so that the user can add them to the customized view.
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image002.jpg

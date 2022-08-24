@@ -13,15 +13,10 @@ Sets the preference value for specific section + key.
 
 Calls the Preference agent service SetPreference or SetPreferenceEntity.
 
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
 | key | string | The name of the preference key. **Required** |
-
-
 
 ## Request Headers
 
@@ -32,9 +27,9 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: pref  
+## Request Body: pref
 
-The preference definition 
+The preference definition
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,9 +45,7 @@ The preference definition
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

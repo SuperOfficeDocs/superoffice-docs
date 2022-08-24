@@ -33,11 +33,11 @@ Today we support the following versioned services:
 
 WSDL files for all versioned endpoints are [available for download][8] in the reference section, or as individual files on each endpoint reference page.
 
-**Download All**
+**Download All:**
 
 ![Download all WSDLs][wsdl-all]
 
-**Download Single**
+**Download Single:**
 
 ![Download all WSDLs][wsdl-single]
 
@@ -162,7 +162,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 [Read about SOAP proxy.][7]
 
 > [!WARNING]
-> SuperOffice SOAP web services are not at the center of the API focal point any longer. Instead, focus has shifted towards REST web services. Therefore, it's recommended that all who wish to continue using Service Agent pattern switch to using the SuperOffice.WebApi library. It has the exact same Agent/Carrier/Methods, but uses the [Agent REST API][].
+> SuperOffice SOAP web services are not at the center of the API focal point any longer. Instead, focus has shifted towards REST web services. Therefore, it's recommended that all who wish to continue using Service Agent pattern switch to using the SuperOffice.WebApi library. It has the exact same Agent/Carrier/Methods, but uses the [Agent REST API][11].
 
 <!-- Referenced links -->
 [1]: ../../../reference/soap/Services88/index.md
@@ -175,6 +175,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 [8]: ../../../reference/soap/index.md
 [9]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [10]: ../../proxies/index.md#webapi-client-proxy
+[11]: ../rest-webapi/index.md
 
 <!-- Referenced images -->
 [service-agent]: ../../media/netserver-servce-agent.png

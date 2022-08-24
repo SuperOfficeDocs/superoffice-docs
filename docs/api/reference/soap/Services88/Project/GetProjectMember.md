@@ -17,7 +17,6 @@ Gets a ProjectMember object.
 
 **Returns:** ProjectMember
 
-
 [WSDL file for Services88/Project](../Services88-Project.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetProjectMember Response
 
@@ -93,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

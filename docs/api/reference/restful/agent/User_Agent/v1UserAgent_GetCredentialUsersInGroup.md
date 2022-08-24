@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup
 
 Get credential users within a user group
 
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get credential users within a user group
 ```http
 POST /api/v1/Agents/User/GetCredentialUsersInGroup?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,21 +37,18 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Type, GroupName 
+Type, GroupName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | GroupName | string |  |
 
-
 ## Response: object
 
 This is the users within a user group.
-
-
 
 Carrier object for CredentialsGroupUsers.
 Services for the CredentialsGroupUsers Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.

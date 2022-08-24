@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.INumberAllocationAgent.Ge
 
 Returns true or false if Automatically create new counters for new document templates
 
-
 **Returns:** Is NumberEachTemplate?
-
 
 [WSDL file for Services84/NumberAllocation](../Services84-NumberAllocation.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetNumberEachTemplate Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

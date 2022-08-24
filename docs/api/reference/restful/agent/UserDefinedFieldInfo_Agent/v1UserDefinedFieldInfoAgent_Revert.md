@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/Revert
 
 Revert changed Udef fields for the given owner type - all unpublished changes will be lost
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Revert changed Udef fields for the given owner type - all unpublished changes wi
 POST /api/v1/Agents/UserDefinedFieldInfo/Revert?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/Revert?$select=name,department,category
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerType 
+OwnerType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

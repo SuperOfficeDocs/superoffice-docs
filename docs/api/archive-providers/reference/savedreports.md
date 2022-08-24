@@ -15,8 +15,9 @@ so.envir:
   - "online"
 ---
 
-# "SavedReports"
+# SavedReports
 
+<!-- markdownlint-disable-file MD033 -->
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.SavedReportsProvider">SuperOffice.CRM.ArchiveLists.SavedReportsProvider</see> inside NetServer's SODatabase assembly.
 
 Specialized provider for the archive in the Reporter panel. It subclasses the <see cref="T:SuperOffice.CRM.ArchiveLists.DocumentProvider" /> class,
@@ -27,11 +28,13 @@ This provider has the following functionality:
 documents that represent saved reports are shown</description></item></list>
 
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 |"document"|Documents|
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -569,7 +572,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

@@ -13,10 +13,6 @@ Method that returns a set of initial contacts.
 
 This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ This could be the contacts in a favorites selection, the history list, the diary
 ```http
 POST /api/v1/Agents/Contact/GetMyRecentContacts?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +37,15 @@ POST /api/v1/Agents/Contact/GetMyRecentContacts?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SourceType 
+SourceType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceType | string |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

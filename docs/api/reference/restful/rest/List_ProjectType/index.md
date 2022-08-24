@@ -6,9 +6,6 @@ title: List_ProjectType
 /api/v1/List/ProjectType
 ```
 
-
-
-
 * [GET List/ProjectType](v1ProjectTypeList_GetListDefinition.md)
 
 * [PUT List/ProjectType](v1ProjectTypeList_SetListDefinition.md)

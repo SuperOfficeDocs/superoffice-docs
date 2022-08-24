@@ -145,10 +145,10 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
             item += "<description>"
 
             Dim desc As String = ""
-            desc += "<b> Summary : </b> " + lstActivityInfo("associateId").ToString() + " registered an activity of type <b>" + lstActivityInfo("type").ToString() + "</b> on " + lstActivityInfo("contact/name").ToString() + ", " + lstActivityInfo("contact/department").ToString() + "<p>"
-            desc += "<b> Project :</b> " + lstActivityInfo("project/name").ToString() + "<br/>"
-            desc += "<b> On :</b> " + newDate.ToUniversalTime().ToString("R") + "<br/>"
-            desc += "<b> Activity description :</b> " + description + "<br/>"
+            desc += "** Summary : ** " + lstActivityInfo("associateId").ToString() + " registered an activity of type **" + lstActivityInfo("type").ToString() + "** on " + lstActivityInfo("contact/name").ToString() + ", " + lstActivityInfo("contact/department").ToString() + "<p>"
+            desc += "** Project :** " + lstActivityInfo("project/name").ToString() + "<br/>"
+            desc += "** On :** " + newDate.ToUniversalTime().ToString("R") + "<br/>"
+            desc += "** Activity description :** " + description + "<br/>"
             desc += "</p>"
 
             item += Server.mdEncode(desc)

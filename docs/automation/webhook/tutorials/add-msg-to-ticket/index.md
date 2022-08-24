@@ -12,7 +12,7 @@ so.topic: tutorial
 
 Two of our primary tools for maintaining control when developing customizations for our customers are GitHub and SuperOffice Service, and here I'll briefly describe how we've used CRMScript to create a light integration between the 2 systems.
 
-[!include[ALT](../../../includes/new-to-crmscript.md)]
+[!include[ALT](../../../includes/new-to-CRMScript.md)]
 
 The jist of it is that whenever we commit code to GitHub, we can optionally include a Ticket ID in the commit message, and this will create a message in our SuperOffice.
 
@@ -26,7 +26,7 @@ Generates this on the correct ticket:
 
 The first step is to create a web service in SuperOffice with a script similar to this:
 
-[!include[ALT](includes/crmscript.md)]
+[!include[ALT](includes/CRMScript.md)]
 
 > [!TIP]
 > Remember to wrap the script in the appropriate EJSCRIPT start and end tags

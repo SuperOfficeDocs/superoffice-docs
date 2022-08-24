@@ -13,10 +13,6 @@ Execute a Find operation and return a page of results.
 
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/FindWithExtraRestrictions?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber 
+StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,12 +52,9 @@ StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumn
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-
 ## Response: object
 
 Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
-
-
 
 Carrier object for FindResults.
 Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.

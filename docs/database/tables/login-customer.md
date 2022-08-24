@@ -32,7 +32,6 @@ This table contains entries for customer sessions. At first only used for Soap l
 |origin|1=soap call, 2=customer pages|Int| |
 |created\_at|When the entry was created|DateTime|&#x25CF;|
 
-
 ![login_customer table relationship diagram](./media/login_customer.png)
 
 [!include[details](./includes/login-customer.md)]
@@ -52,7 +51,6 @@ This table contains entries for customer sessions. At first only used for Soap l
 |------|-------------|
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
-
 ## Replication Flags
 
 * None
@@ -60,4 +58,3 @@ This table contains entries for customer sessions. At first only used for Soap l
 ## Security Flags
 
 * No access control via user's Role.
-

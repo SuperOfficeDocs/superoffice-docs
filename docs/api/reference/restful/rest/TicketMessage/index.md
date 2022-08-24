@@ -2,11 +2,11 @@
 title: TicketMessage
 ---
 
+# TicketMessage
+
 ```http
 /api/v1/TicketMessage
-```
-
-
+``
 
 
 * [GET TicketMessage/default](v1TicketMessageEntity_DefaultTicketMessageEntity.md)

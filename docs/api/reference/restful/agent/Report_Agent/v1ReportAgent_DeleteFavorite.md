@@ -11,12 +11,6 @@ POST /api/v1/Agents/Report/DeleteFavorite
 
 Deletes the report favorite.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes the report favorite.
 POST /api/v1/Agents/Report/DeleteFavorite?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,17 +30,15 @@ POST /api/v1/Agents/Report/DeleteFavorite?$select=name,department,category/id
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ReportEntityId 
+ReportEntityId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ReportEntityId | int32 |  |
 
-
 ## Response
-
 
 | Response | Description |
 |----------------|-------------|

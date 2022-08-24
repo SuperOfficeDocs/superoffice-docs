@@ -6,9 +6,6 @@ title: Document
 /api/v1/Document
 ```
 
-
-
-
 * [GET Document/default](v1DocumentEntity_DefaultDocumentEntity.md)
 
 * [GET Document](v1DocumentEntity_GetAll.md)

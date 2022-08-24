@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "typegroup" MDO List
+
 Type Group: Task, Activity, Document, Sale
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TypeGroupProvider">TypeGroupProvider</see> class.
 The name of the MDO list is 'typegroup'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("typegroup", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |2|SR_SINGULAR_ACTIVITY|||
 |4|SR_AA_DOCUMENTS|||
 |8|SR_AA_SALES|||
-
 
 ## Related MDO Lists
 

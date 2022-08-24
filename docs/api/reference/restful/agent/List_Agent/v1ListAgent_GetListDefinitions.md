@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetListDefinitions
 
 Get a list of the lists - built-in and user-defined.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a list of the lists - built-in and user-defined.
 ```http
 POST /api/v1/Agents/List/GetListDefinitions?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,18 +35,15 @@ POST /api/v1/Agents/List/GetListDefinitions?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-IncludeDeleted 
+IncludeDeleted
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|

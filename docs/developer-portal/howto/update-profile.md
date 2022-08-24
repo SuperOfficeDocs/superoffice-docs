@@ -25,9 +25,13 @@ You can update your profile via the top menu.
 
 3. Update the information. [!include[See user settings reference.](../includes/see-user-settings.md)]
 
+    > [!NOTE]
+    > Your profile image comes from [Gravatar.com][1]
+
 4. Click **Save**.
 
 <!-- Referenced links -->
+[1]: (https://nb.gravatar.com/)
 
 <!-- Referenced images -->
 [img1]: media/profile-select.png

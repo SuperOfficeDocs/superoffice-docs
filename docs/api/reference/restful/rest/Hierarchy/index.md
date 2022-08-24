@@ -6,9 +6,6 @@ title: Hierarchy
 /api/v1/Hierarchy
 ```
 
-
-
-
 * [GET Hierarchy/default](v1HierarchyEntity_DefaultHierarchyEntity.md)
 
 * [GET Hierarchy](v1HierarchyEntity_GetAllDomains.md)

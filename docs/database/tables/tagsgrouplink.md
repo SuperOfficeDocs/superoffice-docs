@@ -30,7 +30,6 @@ User group link table for Tags, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![TagsGroupLink table relationship diagram](./media/TagsGroupLink.png)
 
 [!include[details](./includes/tagsgrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for Tags, for MDO item hiding
 |[Tags](tags.md)  |MDO List of tags for Service entities |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for Tags, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

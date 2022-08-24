@@ -102,5 +102,4 @@ if(errorCode.Equals("0"))
 [1]: ../../error-codes.md
 
 <!-- Referenced links -->
-[1]: ../../error-codes.md
 [2]: getticket.md

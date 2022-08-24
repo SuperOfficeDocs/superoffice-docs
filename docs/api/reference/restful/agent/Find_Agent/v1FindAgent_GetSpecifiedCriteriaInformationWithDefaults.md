@@ -13,10 +13,6 @@ Get criteria information from a set of saved criteria, for a specific set of col
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +22,6 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +37,9 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns 
+StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,12 +49,9 @@ StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns
 | DesiredColumnNames | array |  |
 | StaticColumns | array |  |
 
-
 ## Response: object
 
 Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
-
-
 
 Carrier object for CriteriaInformation.
 Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.

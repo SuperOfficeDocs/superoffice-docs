@@ -31,7 +31,6 @@ Attachment info related to an email_item
 |encoding|The attachment encoding|String(255)|&#x25CF;|
 |size|Attachment file size|Int|&#x25CF;|
 
-
 ![email_attachment table relationship diagram](./media/email_attachment.png)
 
 [!include[details](./includes/email-attachment.md)]
@@ -49,7 +48,6 @@ Attachment info related to an email_item
 |------|-------------|
 |[email\_item](email-item.md)  |Email data |
 
-
 ## Replication Flags
 
 * None
@@ -57,4 +55,3 @@ Attachment info related to an email_item
 ## Security Flags
 
 * No access control via user's Role.
-

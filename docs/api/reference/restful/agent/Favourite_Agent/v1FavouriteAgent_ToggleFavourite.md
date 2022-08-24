@@ -11,12 +11,6 @@ POST /api/v1/Agents/Favourite/ToggleFavourite
 
 Toggle a record in a table as a favourite for an associate
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Toggle a record in a table as a favourite for an associate
 ```http
 POST /api/v1/Agents/Favourite/ToggleFavourite?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Favourite/ToggleFavourite?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, RecordId, AssociateId, ExtraInfo 
+TableName, RecordId, AssociateId, ExtraInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,17 +46,13 @@ TableName, RecordId, AssociateId, ExtraInfo
 | AssociateId | int32 |  |
 | ExtraInfo | string |  |
 
-
 ## Response: bool
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample Request
 

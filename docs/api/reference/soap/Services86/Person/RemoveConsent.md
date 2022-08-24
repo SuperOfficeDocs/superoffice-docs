@@ -16,8 +16,6 @@ Turn off consent for a specified person and purpose.
 * **personId:** The person id
 * **purpose:** The key of the purpose to remove. (e.g. 'STORE' or 'EMARKETING')
 
-
-
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveConsent Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

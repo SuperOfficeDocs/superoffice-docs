@@ -23,7 +23,6 @@ Another parameter associated with the mode is the new parameter, i.e. \[mode=edi
 ![06][img1]
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image006.jpg

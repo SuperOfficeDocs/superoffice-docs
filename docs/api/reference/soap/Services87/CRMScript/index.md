@@ -12,7 +12,7 @@ Handled by the <see cref="T:SuperOffice.Services87.ICRMScriptAgent">SuperOffice.
 
 Interface for the CRMScript Agent
 Manage and execute CRMScript functions.
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+<br />**Online Restricted:** This agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 Download [WSDL file for Services87/CRMScript](../Services87-CRMScript.md) if you need to generate your own proxy code.
 
@@ -27,4 +27,3 @@ Download [WSDL file for Services87/CRMScript](../Services87-CRMScript.md) if you
 * [SaveCRMScriptEntity](SaveCRMScriptEntity.md)
 * [ValidateScript](ValidateScript.md)
 * [ValidateScriptByIncludeId](ValidateScriptByIncludeId.md)
-

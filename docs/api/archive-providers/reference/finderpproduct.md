@@ -27,27 +27,20 @@ contains a provider called FindProductsXYZ, where XYZ is the same as the name sp
 Otherwise, the FindProduct method of the connector will be called and its results transformed into
 an archive provider result set.
 
-
-
 From quoteAlternativeId or quoteId the currency of the sale will be derived and added as a <see cref="T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo" /> to the search provider. The restriction name will be 'currencyName'
-
-
-
-
 
 Default restrictions will also be added:
 priceList/isActive,
 priceList/validFrom and
 priceList/validTo.
 
-
-
-
 ## Supported Entities
+
 | Name | Description |
 | ---- | ----- |
 
 ## Supported Columns
+
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 
@@ -61,7 +54,4 @@ Accept-Language: sv
 
 ```
 
-
-
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.

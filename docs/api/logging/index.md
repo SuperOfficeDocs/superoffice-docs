@@ -35,7 +35,7 @@ NetServer uses its own [Diagnostics config section][2] to determine what informa
 
 ```xml
 <Diagnostics>
-  <add key="LogWarning" value="false">
+  <add key="LogWarning" value="false" />
 </Diagnostics>
 ```
 
@@ -55,11 +55,11 @@ These can be turned on or off individually:
 
 ```xml
 <Diagnostics>
-  <add key="LogError" value="true">
-  <add key="LogWarning" value="false">
-  <add key="LogInformation" value="false">
-  <add key="LogDebug" value="true">
-  <add key="LogTrace" value="false">
+  <add key="LogError" value="true" />
+  <add key="LogWarning" value="false" />
+  <add key="LogInformation" value="false" />
+  <add key="LogDebug" value="true" />
+  <add key="LogTrace" value="false" />
 </Diagnostics>
 ```
 

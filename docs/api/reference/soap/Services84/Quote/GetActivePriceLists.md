@@ -14,10 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetActivePric
 Gets the available active PriceLists in a specific currency. Will return empty array if there is no PriceList with the stated currency available.
 
 * **quoteConnectionId:** Primary key of the connection
-* **currency:** Iso currency like: USD or NOK. See http://www.currency-iso.org/dl\_iso\_table\_a1.xls for details. Case insensitive. Will return empty array if there is no PriceList with the stated currency available.
+* **currency:** Iso currency like: USD or NOK. See <http://www.currency-iso.org/dl_iso_table_a1.xls> for details. Case insensitive. Will return empty array if there is no PriceList with the stated currency available.
 
 **Returns:** The PriceLists that supports a specific currency
-
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetActivePriceLists Response
 
 ```xml
@@ -86,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

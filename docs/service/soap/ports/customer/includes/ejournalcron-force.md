@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 To force an update run the following command from the command line:
 
 * Windows: `C:\Service\bin\ejournalCron -force [mydomain.com]`

@@ -74,7 +74,6 @@ To have the field updated automatically, we need to trigger the field based on t
 ```
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
 [img1]: media/image004.jpg

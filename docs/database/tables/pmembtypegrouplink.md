@@ -30,7 +30,6 @@ User group link table for PMembType, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![PMembTypeGroupLink table relationship diagram](./media/PMembTypeGroupLink.png)
 
 [!include[details](./includes/pmembtypegrouplink.md)]
@@ -51,7 +50,6 @@ User group link table for PMembType, for MDO item hiding
 |[PMembType](pmembtype.md)  |PMembType list table. List text of titles (member types) for project members. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
-
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,4 +59,3 @@ User group link table for PMembType, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
-

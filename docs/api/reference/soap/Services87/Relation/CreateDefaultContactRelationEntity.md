@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IRelationAgent.CreateDefa
 Loading default values into a new ContactRelationEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New ContactRelationEntity with default values
-
 
 [WSDL file for Services87/Relation](../Services87-Relation.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultContactRelationEntity Response
 
@@ -113,4 +110,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

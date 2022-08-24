@@ -13,10 +13,6 @@ Gets all the string names containing a search string.
 
 Search the strings using Q parameter.
 
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +24,6 @@ Search the strings using Q parameter.
 GET /api/v1/String?q=blanditiis
 GET /api/v1/String?isoLangCode=reiciendis
 ```
-
 
 ## Request Headers
 
@@ -43,17 +38,13 @@ GET /api/v1/String?isoLangCode=reiciendis
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
-
-
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample Request
 

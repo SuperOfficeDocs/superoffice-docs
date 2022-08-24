@@ -17,7 +17,6 @@ Get the binary object as a stream
 
 **Returns:** The binary object as a Stream
 
-
 [WSDL file for Services86/BLOB](../Services86-BLOB.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetBlobStream Response
 
 ```xml
@@ -69,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

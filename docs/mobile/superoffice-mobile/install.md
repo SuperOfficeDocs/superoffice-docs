@@ -20,7 +20,7 @@ You need SuperOffice version 9.1 or newer to use the SuperOffice Mobile applicat
 
 To download the Mobile CRM to your mobile device:
 
-1. Open a web browser on your device and navigate to [online.superoffice.com/mobile][3].
+1. Open a web browser on your device and navigate to [online.SuperOffice.com/mobile][3].
 2. Click **install** to choose your device type.
 
 For SuperOffice Online, the sign-in service determines how you get access to SuperOffice CRM Online and who manages your credentials.

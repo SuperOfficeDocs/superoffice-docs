@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDatabaseAgent.GetStepsFr
 
 Get information about the dictionary steps that NetServer was generated for
 
-
 **Returns:** Array of dictionary steps used when NetServer was generated, listing only the highest number for each step
-
 
 [WSDL file for Services87/Database](../Services87-Database.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetStepsFromNetServerCode Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -53,7 +53,6 @@ This guide explains in short terms how you can get Google Workspace document int
 Now, you need to [configure templates][6] in SuperOffice Admin to start using the integration.
 
 <!-- Referenced links -->
-[1]: https://crm.superoffice.com/scripts/customer.fcgi?action=formFrame&formId=19
 [2]: https://id.superoffice.com/identityprovider/register
 [3]: ../../../identity-management/superid/howto/register-idp.md
 [4]: https://cloudintegration.superoffice.com/app

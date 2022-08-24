@@ -33,7 +33,6 @@ The external (ERP-facing) key related to a synchronized record / connection
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
-
 ![ErpExternalKey table relationship diagram](./media/ErpExternalKey.png)
 
 [!include[details](./includes/erpexternalkey.md)]
@@ -53,9 +52,8 @@ The external (ERP-facing) key related to a synchronized record / connection
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
-|[ErpInternalKey](erpinternalkey.md)  |The internal (superoffice-facing) key related to a synchronized record |
+|[ErpInternalKey](erpinternalkey.md)  |The internal (SuperOffice-facing) key related to a synchronized record |
 |[ErpSyncLog](erpsynclog.md)  |Record all field changes done by the Erp Sync |
-
 
 ## Replication Flags
 
@@ -64,4 +62,3 @@ The external (ERP-facing) key related to a synchronized record / connection
 ## Security Flags
 
 * No access control via user's Role.
-

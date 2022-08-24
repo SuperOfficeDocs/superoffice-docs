@@ -6,9 +6,6 @@ title: FreeText_Agent
 /api/v1/FreeText/Agent
 ```
 
-
-
-
 * [POST Agents/FreeText/GetStatus](v1FreeTextAgent_GetStatus.md)
 
 * [POST Agents/FreeText/SetEnabled](v1FreeTextAgent_SetEnabled.md)

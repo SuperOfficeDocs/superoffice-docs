@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/FileM
 
 Handled by the <see cref="T:SuperOffice.Services85.IFileManagerAgent">SuperOffice.Services85.IFileManagerAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/FileManager](../Services85-FileManager.md) if you need to generate your own proxy code.
 
 * [BeginReadFilePart](BeginReadFilePart.md)
@@ -23,4 +21,3 @@ Download [WSDL file for Services85/FileManager](../Services85-FileManager.md) if
 * [ReadFilePart](ReadFilePart.md)
 * [WriteFile](WriteFile.md)
 * [WriteFilePart](WriteFilePart.md)
-

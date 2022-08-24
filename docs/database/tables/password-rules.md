@@ -29,7 +29,6 @@ This table may contain one entry specifying rules for passwords.
 |min\_uppercase|The minimum number of uppercase characters in the password in order to be valid.|Int|&#x25CF;|
 |min\_special|The minimum number of special characters in the password in order to be valid.|Int|&#x25CF;|
 
-
 ![password_rules table relationship diagram](./media/password_rules.png)
 
 [!include[details](./includes/password-rules.md)]
@@ -47,4 +46,3 @@ This table may contain one entry specifying rules for passwords.
 ## Security Flags
 
 * No access control via user's Role.
-

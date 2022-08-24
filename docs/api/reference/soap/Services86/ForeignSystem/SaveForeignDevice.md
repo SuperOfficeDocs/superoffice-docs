@@ -18,7 +18,6 @@ Saves a foreign device for an foreign application
 
 **Returns:** Returns the saved foreign device
 
-
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,7 +60,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveForeignDevice Response
 
 ```xml
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

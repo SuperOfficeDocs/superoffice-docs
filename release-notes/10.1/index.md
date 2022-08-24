@@ -19,6 +19,8 @@ so.version: 10.1
 
 * 10.1.1 Screen designer, APIs
 * 10.1.2: Mobile CRM, Apps
+* 10.1.3: Form, Chat
+* 10.1.4: SharePoint document library, Dashboard/Find/Selection of Mailing/Form/Chat, CRMScript
 
 <!-- Referenced links -->
 

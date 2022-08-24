@@ -11,12 +11,6 @@ POST /api/v1/Agents/Associate/GetAssociate
 
 Gets a Associate object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a Associate object.
 POST /api/v1/Agents/Associate/GetAssociate?associateId=350
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,7 +35,6 @@ POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: object
 
@@ -59,7 +51,7 @@ Response body: object
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
+| PersonId | int32 | Owning person record  <br />Use MDO List name "person" to get list items. |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |

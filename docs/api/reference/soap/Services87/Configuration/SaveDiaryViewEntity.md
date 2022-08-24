@@ -17,7 +17,6 @@ Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id 
 
 **Returns:** New or updated DiaryViewEntity
 
-
 [WSDL file for Services87/Configuration](../Services87-Configuration.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -96,7 +95,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SaveDiaryViewEntity Response
 
@@ -181,4 +179,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

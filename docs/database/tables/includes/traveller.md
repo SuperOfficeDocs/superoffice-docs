@@ -1,4 +1,4 @@
-
+<!-- markdownlint-disable-file MD041 -->
 ### Database type
 
 | Databasetype | ID | Comment |

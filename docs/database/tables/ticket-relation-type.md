@@ -34,7 +34,6 @@ Contains ticket relation types, used to drive processing logic together with tic
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
-
 ![ticket_relation_type table relationship diagram](./media/ticket_relation_type.png)
 
 [!include[details](./includes/ticket-relation-type.md)]
@@ -54,7 +53,6 @@ Contains ticket relation types, used to drive processing logic together with tic
 |[ticket\_relation\_action](ticket-relation-action.md)  |Contains ticket relation actions, used to drive processing logic together with ticket relations |
 |[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
 
-
 ## Replication Flags
 
 * None
@@ -62,4 +60,3 @@ Contains ticket relation types, used to drive processing logic together with tic
 ## Security Flags
 
 * No access control via user's Role.
-

@@ -56,8 +56,8 @@ items:
       href: ports/customer/faqgetcategory.md
     - name: Faqgetentry
       href: ports/customer/faqgetentry.md
-    - name: Faqgetgroupenties
-      href: ports/customer/faqgetgroupenties.md
+    - name: Faqgetgroupentries
+      href: ports/customer/faqgetgroupentries.md
     - name: Faqgetmostpopularentries
       href: ports/customer/faqgetmostpopularentries.md
     - name: Faqgetmostreadentries
