@@ -16,7 +16,7 @@ Before creating the DKIM record for your domain, it is important to find out wha
 ## Overview
 
 1. Order the public domain key for your domain.
-2. Add the key to your domain's DNS records so recipients can retrieve it for reading the DKIM header.
+2. Add the key to your domain's DNS record so recipients can retrieve it for reading the DKIM header.
 3. Tell SuperOffice DKIM is set up - to turn on email signing to begin adding the DKIM header to outgoing mail messages.
 
 [!include[ALT](../includes/envir-google.md)]
@@ -50,13 +50,13 @@ To make sure no one else, besides your company orders a DKIM key for your domain
         ```text
         "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
         ```
-    * Add "Host name" value ("pic._domainkey.[yourdomainName]") you received from us.
-    * Add "Address" value ("v=DKIM1; k=rsa; p=XXX..") you received from us (see note above)
+    * Add "Host name" value (e.g. "xxx._domainkey.[yourdomainName]") you received from us.
+    * Add "Address" value ("k=rsa; p=XXX..") you received from us (see note above)
     * Choose "txt" as record type
 
     ![x -screenshot][img4]
 
-3. We also need to add an spf record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add 'inlude:mailgun.org ~all' to be able to send and receive emails. Read [this article on how to update the spf record][8].
+3. We also need to add an SPF record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add 'inlude:mailgun.org ~all' to be able to send and receive emails. Read [this article on how to update the spf record][8].
 4. Click **Save** to update the information.
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
@@ -71,7 +71,7 @@ Use a tool to make sure the DKIM is propagated. Via CMD:
 
 3. Type `set type=txt` and press Enter.
 
-4. Type: `pic._domainkey.yourdomainName` and press Enter.
+4. Type: `xxx._domainkey.yourdomainName` and press Enter.
 
 If your key is deployed successfully, it should return your key.
 
