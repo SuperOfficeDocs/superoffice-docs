@@ -54,9 +54,11 @@ To make sure no one else, besides your company orders a DKIM key for your domain
     
 > [!NOTE]
 > Some DNS servers may require "version of DKIM". If you are sure your DNS needs it, add it by adding "v=DKIM1; " in front of the key. Example:
+> 
 >        ```text
 >        "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
 >        ```    
+>        
 
 3. We also need to add an SPF record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add 'inlude:mailgun.org ~all' to be able to send and receive emails. Read [this article on how to update the spf record][8].
 4. Click **Save** to update the information.
