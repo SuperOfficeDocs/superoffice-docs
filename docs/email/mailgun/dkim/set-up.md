@@ -45,16 +45,14 @@ To make sure no one else, besides your company orders a DKIM key for your domain
     ![x -screenshot][img3]
 
 2. We want to add the DKIM record from Mailgun. Click **Add New** to add the new DKIM record.
-
     * Add "Host name" value ("xxx._domainkey.[yourdomainName]") you received from us.
     * Add "Address" value ("k=rsa; p=XXX..") you received from us (see note below)
     * Choose "txt" as record type
 
     ![x -screenshot][img4]
     
-> [!NOTE]
-> Some DNS servers may require "version of DKIM". If you are sure your DNS needs it, add it by adding "v=DKIM1; " in front of the key. Example: "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
-        
+    > [!NOTE]
+    > Some DNS servers may require "version of DKIM". If you are sure your DNS needs it, add it by adding "v=DKIM1; " in front of the key. Example: "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
 
 3. We also need to add an SPF record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add 'inlude:mailgun.org ~all' to be able to send and receive emails. Read [this article on how to update the spf record][8].
 4. Click **Save** to update the information.
