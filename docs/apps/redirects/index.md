@@ -22,7 +22,7 @@ The application residing at the redirect URL is expected to receive the security
 
 The redirection endpoints are specified when you register the application idea. If you need to make changes later, [update the application configuration][4] in the Developer Portal.
 
-[!include[TIP](../includes/tip-regex-urls.md)]
+[!include[TIP regex](../includes/tip-regex-urls.md)]
 
 To override the default redirect URL, specify the `redirect_url` query string parameter with one of your whitelisted URLs.
 
