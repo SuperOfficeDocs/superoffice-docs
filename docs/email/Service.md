@@ -55,6 +55,10 @@ This can be changed either by a SQL statement (requires access to SQL database)
 **Requirements:**
 
 * Onsite customers who use SuperOffice G9 9.2 R10 or newer
+* Unique/separate serial number for each site/DB to use OAuth/AccessGateway
+  * Only the first site that tries to register with a given serial number will register successfully
+  * Alternatively for those who does not use separate serial number:
+    * use app passwords instead of oauth2 in the second (...or third, or all) sites
 * Microsoft 365 (Microsoft® Exchange Online)
 * MX Record pointing to the Microsoft® Exchange Online server
 
@@ -108,9 +112,23 @@ To create a new mailbox:
 2. Click New mailbox. The Mailbox properties screen appears, with the Properties tab open.
 3. In the Address field, enter the Microsoft 365 email account e-mail address you want to use for the mailbox.
     * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
+    * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is created.
 
 See the [help file][8] for more information.
+
+To change authentication on an existing mailbox:
+
+You do not have to delete and create a new mailbox just to change authentication.
+1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
+2. Click on mailbox you want to change. The Mailbox properties screen appears, with the Properties tab open.
+3. Click "Change OAuth", this will trigger new dialog for setup of account.
+    * If we recognize the UPN as an Microsoft 365 email account, we will redirect you to Microsoft for authentication.
+    * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
+4. Click OK. The mailbox is updated.
+
+> [!NOTE]
+> Up to version 10.1.4, If we dont recognize the UPN, or lost the ID of existing mailbox, it will redirect back to Mailbox properties and does not behave correctly. Make sure your MX Record is pointing to the Microsoft® Exchange Online server.
 
 #### What is UPN (User Principal Name)?
 
@@ -125,7 +143,7 @@ Use the links below to learn how to check and change UPNs in various environment
 * [Microsoft Exchange Server][6]
 * [Office 365][7]
 
-## How to troubleshoot mail when using cURL (email in / out)
+## How to troubleshoot mail when using cURL
 
 Error information will appear in each of incoming mail's receiving log and outgoing mail's sending log. This information will in most cases tell what's wrong.
 
