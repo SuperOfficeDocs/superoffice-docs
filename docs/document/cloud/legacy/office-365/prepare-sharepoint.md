@@ -21,7 +21,7 @@ The Microsoft 365 username (User Principal Name, UPN) is managed by your Microso
 > [!NOTE]
 > The Microsoft 365 username must be identical to login name in CRM Online:
 
-![imagezj6n.png -screenshot][img1]
+![Microsoft 365 username must be identical to login name in CRM Online -screenshot][img1]
 
 You see the UPN username in the Microsoft 365 admin -> users section: [https://admin.microsoft.com/AdminPortal/Home#/users][2]
 
@@ -34,9 +34,11 @@ If you are using multiple domain names for your users, all domain names must be 
 * If it is a custom domain name, inform support to add those to your registered domain name.
 * If it is separate main domain names, use the registration link above to register each of them.
 
-## Make sure your new Microsoft 365 authentication works by logging in to CRM Online with Microsoft 365
+## Make sure your new Microsoft 365 authentication works
 
-### For New users
+Verify by logging in to CRM Online with Microsoft 365.
+
+### For new users
 
 1. Go to `online.superoffice.com`.
 2. Type in the email address, click **Next**.
@@ -61,7 +63,7 @@ If some existing users do not get asked to switch to IDP authentication, a user 
 
 <!-- Referenced links -->
 [2]: https://admin.microsoft.com/AdminPortal/Home#/users
-[5]: ../../../identity-management/superid/howto/register-idp.md
+[5]: ../../../../identity-management/superid/howto/register-idp.md
 
 <!-- Referenced images -->
 [img1]: media/imagezj6n.png

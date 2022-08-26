@@ -1,18 +1,20 @@
 ---
 title: Set up
-uid: office_365_set_up
-description: Setup - Microsoft 365 Cloud Office document Integration
+uid: office-365-set-up
+description: How to set up Microsoft 365 Cloud Office document integration
 author: {github-id}
-so.date:
-keywords:
+so.date: 06.20.2022
+keywords: Microsoft 365, document
 so.topic: howto
 so.envir: cloud
 so.client: online
 ---
 
-# Set up Microsoft 365 Cloud Office document Integration
+# Set up Microsoft 365 Cloud Office document integration
 
 This article will help you set up the Microsoft 365 part of the integration between Microsoft 365 and SuperOffice CRM Online.
+
+[!include[Microsoft 365 app is deprecated](includes/deprecated.md)]
 
 Setting up Microsoft 365 SharePoint Integration has 2 parts:
 
@@ -20,9 +22,7 @@ Setting up Microsoft 365 SharePoint Integration has 2 parts:
   * Check if your SuperOffice CRM Online tenant is ready (pre-requisite step).
   * Configure the integration in your Microsoft 365 SharePoint (steps 1 - 3).
   * Enable the integration for your CRM Online site (step 4).
-* Configure your templates in SuperOffice Admin (in [this article][1]).
-
-If you would like to get assistance configuring the integration, sign up for Microsoft 365 Integration in the SuperOffice App Store (unpublished).
+  * Configure your templates in SuperOffice Admin (step 5).
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ Ensure you meet the [prerequisites][3] and read the [security considerations][7]
 1. Go to SharePoint admin center > settings tab > Custom Script section.
 2. Set settings to "Allow users to run custom script on self-service created sites".
 
-![x -screenshot][img3]
+![Allow users to run custom script on self-service created sites -screenshot][img3]
 
 For more information:
 
@@ -55,15 +55,15 @@ For more information:
 
 1. Open Microsoft 365 and log in as an admin user, go to Microsoft 365 "Admin".
 
-    ![x -screenshot][img6]
+    ![Microsoft 365 Admin -screenshot][img6]
 
 2. Go to SharePoint under "Microsoft 365 admin center" -> Admin centers.
 
-    ![image18cb.png -screenshot][img7]
+    ![Admin centers -screenshot][img7]
 
 3. Open the root area of your SharePoint tenant – by choosing 'Sites' -> 'Active sites' from the left-hand menu.
 
-    ![imagesgm93.png -screenshot][img8]
+    ![Active sites -screenshot][img8]
 
     > [!NOTE]
     > Write down this URL as "SharePoint domain name URL=".
@@ -72,11 +72,11 @@ For more information:
 
 4. Click the root address (`https://[your_domain_name].sharepoint.com`) from the **Active sites** list.
 
-    ![x -screenshot][img9]
+    ![Active sites -screenshot][img9]
 
 5. Open **Site contents** from the menu.
 
-    ![imagetrxas.png -screenshot][img10]
+    ![Site contents -screenshot][img10]
 
 6. Create a document library (used for SuperOffice documents) in the **root** area:
     1. Click **New** and choose **Document library**.
@@ -98,7 +98,7 @@ For more information:
     > [!NOTE]
     > Write down this name as "Template Folder Name="
 
-    ![imageujv6m.png -screenshot][img11]
+    ![Template Folder Name -screenshot][img11]
 
     Folder for templates, created inside the SuperOffice Document library. For example, *Template Folder Name=Template*
 
@@ -112,20 +112,20 @@ To create new content types, you need the SharePoint settings to "allow user to 
 
 This selection will fail if SuperOffice 'content types' are not set up in SharePoint:
 
-![x -screenshot][img12]
+![Edit list item -screenshot][img12]
 
 1. Open Microsoft 365, and log in as an admin user, go to "Microsoft 365 admin center".
 2. Go to Sharepoint under "Admin centers".
 3. Open "Active sites", and open the root area – by clicking the link `https://[your_domain_name].sharepoint.com` from the list.
 4. Click the settings wheel-> Site Settings -> Site Content Types.
 
-    ![imageu49ea.png][img13]
+    ![Site Settings -screenshot][img13]
 
-    ![x -screenshot][img14]
+    ![Site Settings -screenshot][img14]
 
 5. Click **Create**.
 
-    ![x -screenshot][img15]
+    ![Create Content types -screenshot][img15]
 
 6. Set:
     1. Enter 'SuperOffice Blank Document' as name.
@@ -133,22 +133,22 @@ This selection will fail if SuperOffice 'content types' are not set up in ShareP
     1. Choose "Document" under 'Parent Content Type'.
     1. Enter SuperOffice as Group (Create the group if it's non-existing).
 
-    ![x -screenshot][img16]
+    ![Create Content types -screenshot][img16]
 
 7. Click **OK**.
 
 8. Navigate the list to your newly created content type and open it. Click Advanced settings.
 
-    ![x -screenshot][img17]
+    ![Content types advanced settings -screenshot][img17]
 
-9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either <a href="../../../assets/downloads/cloud-office/blank.docx" download> download a pre-created blank document</a> or create a blank document from Office and stored locally).
+9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either <a href="../../../../assets/downloads/cloud-office/blank.docx" download> download a pre-created blank document</a> or create a blank document from Office and stored locally).
 
 10. Click **OK**.
 
 11. Repeat step 6 - 13 for:
 
-* SuperOffice Blank Spreadsheet (<a href="../../../assets/downloads/cloud-office/blank.xlsx" download>download .xlsx</a>)
-* SuperOffice Blank Presentation (<a href="../../../assets/downloads/cloud-office/blank.pptx" download>download .pptx</a>)
+* SuperOffice Blank Spreadsheet (<a href="../../../../assets/downloads/cloud-office/blank.xlsx" download>download .xlsx</a>)
+* SuperOffice Blank Presentation (<a href="../../../../assets/downloads/cloud-office/blank.pptx" download>download .pptx</a>)
 
 ### If you get an access error
 
@@ -178,11 +178,11 @@ Since we’re not in Office Store, we have to do this manually:
 
 2. Open "Customer apps" from the "Active sites" page (click URL) or go via "Advanced" and choose "Apps" -> "Apps catalog".
 
-    ![imagedtyeq.png -screenshot][img25]
+    ![Apps catalog -screenshot][img25]
 
-    ![imagev7ojr.png -screenshot][img26]
+    ![Apps catalog -screenshot][img26]
 
-    ![image69pt4.png -screenshot][img27]
+    ![Apps catalog -screenshot][img27]
 
     If you don’t have an **App Catalog** from before – choose to create a new one, for example:
 
@@ -193,17 +193,18 @@ Since we’re not in Office Store, we have to do this manually:
 
     The App Catalog is now being created – and available to be used within about 5 minutes.
 
-3. Download the SuperOffice SharePoint App <a href="../../../assets/downloads/cloud-office/cloud-office-SuperOffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
+    <!-- markdownlint-disable-next-line MD044 -->
+3. Download the SuperOffice SharePoint App <a href="../../../../assets/downloads/cloud-office/cloud-office-superoffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
 
-4. Choose "Apps for SharePoint" in the menu. ![imagekoepi.png -screenshot][img30]
+4. Choose "Apps for SharePoint" in the menu. ![Apps catalog -screenshot][img30]
 
 5. Click upload and choose the local file *SuperOffice.Microsoft 365.Integrator.app*.
 
-    ![imageydark.png -screenshot][img31]
+    ![SuperOffice Integration app -screenshot][img31]
 
 6. Click **OK**. The App is now Uploaded – and available to be used on your SharePoint site within about 10 minutes.
 
-    ![imagem7t19.png -screenshot][img31]
+    ![SuperOffice Integration app uploaded -screenshot][img31]
 
 ### To use the App on your SharePoint site - Add the App to the site
 
@@ -211,7 +212,7 @@ Since we’re not in Office Store, we have to do this manually:
 
 2. Click **Site contents** in the menu:
 
-    ![image6e0ta.png -screenshot][img32]
+    ![SuperOffice Integration app -screenshot][img32]
 
 3. Click **New** from the dropdown inside the Grup Area, and choose **App**.
 
@@ -219,19 +220,19 @@ Since we’re not in Office Store, we have to do this manually:
 
 4. Click on it to open the app details.
 
-    ![imagebnc9j.png -screenshot][img33]
+    ![SuperOffice Integration app details -screenshot][img33]
 
     (if you are not able to add it yet - it might take a few minutes before it is available to add. Try again in a few minutes).
 
-    ![imagezfo3m.png -screenshot][img34]
+    ![SuperOffice Integration app details -screenshot][img34]
 
 5. Add it by clicking **Trust It** to approve.
 
-    ![image61nqk.png -screenshot][img35]
+    ![SuperOffice Integration app details -screenshot][img35]
 
     Once added - the SuperOffice Integration app should now be in the Group Area.
 
-    ![x -screenshot][img36]
+    ![SuperOffice Integration app in group area -screenshot][img36]
 
 6. SharePoint users who will use this app for logging in to CRM Online will need "read" access to the root folder of SharePoint (see [Troubleshooting tips][7] for more information and options on how to enable it).
 
@@ -253,8 +254,45 @@ You will get a notification from SuperOffice R&D Services when the Microsoft 365
 
 When it is ready to use, you may [continue to set up the templates][1], to make use of the Microsoft 365 SharePoint integration.
 
+## Step 5 - Configure your templates in SuperOffice Admin
+
+This will store the template in the Microsoft 365 cloud. When the user uses this template, the document created will also be saved in the Microsoft 365 cloud and opened with Word Online.
+
+1. Open SuperOffice Admin, go to Lists, choose **Document - Template**.
+
+2. Click **Add**.
+
+3. Add template file:
+
+    * Enter a name.
+    * Set **Store template in** to "Office365".
+    * Choose the source of the new template (create, upload, or copy).
+    * Click **Save**.
+
+4. Optionally edit the template name, if required, and click **Edit** to edit the template file itself.
+
+5. Enter the required information in the **Details** and **Languages** tabs:
+
+    * Select **Direction** (outgoing or incoming).
+    * Choose where to store document created by this template: set **Document stored in** to "Office365".
+    * Enter a value in the **Our reference (default)** field using [template variables][1]. For example `auth` for the sender’s first and last names.
+    * Optionally, enter a description.
+
+6. Click **Save**. The Document template is now available in the CRM client
+
+> [!NOTE]
+> All documents written in SuperOffice will be stored in the SharePoint cloud if the template is set up for it, and available to open and edit in SuperOffice CRM Online.
+
+* If you want to use Microsoft 365 to edit SuperOffice templates, the SuperOffice templates need to be moved from SuperOffice to Microsoft 365 SharePoint.
+
+* Existing documents will not automatically be moved from SuperOffice to Microsoft 365 SharePoint.
+
+* Moving existing **documents** to or from SuperOffice and Microsoft 365 SharePoint is not supported.
+
+* Moving existing **templates** to or from SuperOffice and Microsoft 365 SharePoint can be performed in the Admin client.
+
 <!-- Referenced links -->
-[1]: ../configure.md
+[1]: ../../g-suite/configure.md
 [3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script
 [5]: https://social.technet.microsoft.com/wikicontents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx

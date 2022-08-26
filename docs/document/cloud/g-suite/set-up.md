@@ -130,7 +130,7 @@ This step is the same for both Microsoft 365 and Google Workspace document integ
 [4]: https://admin.google.com/ac/users
 [5]: https://accounts.google.com/
 [6]: https://cloudintegration.superoffice.com/app
-[7]: ../configure.md
+[7]: configure.md
 
 <!-- Referenced images -->
 [img1]: media/image58qub.png

@@ -139,7 +139,7 @@ conceptualContent:
           url: ../mirroring/index.yml
         - text: Microsoft 365 document integration
           itemType: concept
-          url: ../document/cloud/office-365/index.md
+          url: ../document/cloud/legacy/office-365/index.md
         - text: Google Workspace document integration
           itemType: concept
           url: ../document/cloud/g-suite/index.md

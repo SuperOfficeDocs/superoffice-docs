@@ -34,4 +34,4 @@ Let's look at how SuperID changes how you use and set up identity providers (IdP
 
 <!-- Referenced links -->
 [1]: ../../document/cloud/g-suite/set-up.md
-[2]: ../../document/cloud/office-365/set-up.md
+[2]: ../../document/cloud/legacy/office-365/set-up.md
