@@ -15,6 +15,9 @@ so.client: online
 
 ![Partner settings -screenshot][img1]
 
+[!include[Read-only in version 1.5](../includes/note-cannot-edit.md)]
+
+<!--
 1. In the Developer Portal, go to your partner page.
 2. Select **Settings** from the left menu or click the **Edit** button.
 3. Update names and contact persons.
@@ -25,6 +28,7 @@ so.client: online
 
 > [!TIP]
 > [!include[Link to partner settings](../includes/see-partner-settings.md)]
+-->
 
 <!-- Referenced links -->
 [1]: update-contact-person.md

@@ -59,6 +59,8 @@ items:
       href: howto/update-contact-person.md
     - name: Update your application
       href: howto/update-app.md
+    - name: Update configuration
+      href: howto/update-app-config.md
     - name: Update partner settings
       href: howto/update-partner-settings.md
     - name: Update endpoints

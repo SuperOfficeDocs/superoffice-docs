@@ -19,9 +19,9 @@ You can add or change the following in the Developer Portal:
 
 | Setting | Where to change it |
 |---|---|
-| Search-engine-friendly name (company) | Partner > Settings |
+| Search-engine-friendly name (company) | Partner > Settings > Partner profile |
 | Search-engine-friendly name (app) | App page > Settings |
-| Meta description (company) | Partner > App Store information |
+| Meta description (company) | Partner > App Store information > Partner profile |
 | Meta description (app) | App page > App Store information > SEO |
 | Meta keywords (app) | App page > App Store information > SEO |
 

@@ -13,10 +13,6 @@ so.client: online
 
 # Update app-specific page
 
-<!-- Previous: 
-    https://community.superoffice.com/new-application-listing and
-    https://community.superoffice.com/update-application-listing -->
-
 The information shown on your app-specific product pages in the App Store comes from:
 
 * Application settings
@@ -24,26 +20,41 @@ The information shown on your app-specific product pages in the App Store comes 
 
 ![App Store information for an application -screenshot][img1]
 
-## Update information
+<!-- markdownlint-disable DOCSMD007 -->
+> [!TIP]
+> [!include[Link to application settings](../includes/see-app-settings.md)]
+<!-- markdownlint-restore -->
+
+## Update App Store information
 
 1. In the Developer Portal, go to your application page.
-2. Select **Settings** from the left menu or click the **Edit** button.
-3. Update names and contact persons.
-4. Click **Save Settings**.
-5. Select **App Store information** from the left menu.
-6. Go through each sub-section and fill in the information.
+1. Select **App Store information** from the left menu.
+1. [Create a new version.][3]
+1. Go through each sub-section and fill in the information.
 
     * App Store listing
     * [SEO][1]
-    * Price and terms
+    * Prices and terms
     * How to install
-    * Links and references
+    * Links
     * [Image and videos][2]
 
-7. Click **Save Settings**.
+1. Click **Save Settings**.
 
 > [!TIP]
-> [!include[Link to application settings](../includes/see-app-settings.md)]
+> When you release a new version of your application, your App Store listing can include a **What's new** entry and we can help boost visibility.
+>
+> Optionally include new images, such as screenshots from your application.
+
+## Update application settings
+
+[!include[Read-only in version 1.5](../includes/note-cannot-edit.md)]
+
+<!--
+1. In your application page, select **Settings** from the left menu or click the **Edit** button.
+1. Update names and contact persons.
+1. Click **Save Settings**.
+-->
 
 ## Verify your changes
 
