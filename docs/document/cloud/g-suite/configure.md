@@ -59,7 +59,6 @@ This will store the template in the Google cloud, and when the user uses this te
 
 <!-- Referenced links -->
 [1]: ../../templates/index.md
-[3]: ../legacy/office-365/set-up.md
 
 <!-- Referenced images -->
 [img1]: media/imageh3map.png

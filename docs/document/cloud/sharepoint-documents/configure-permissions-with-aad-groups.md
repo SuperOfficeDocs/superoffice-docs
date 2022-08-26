@@ -19,7 +19,7 @@ If you plan to **use Visible for** (or already using this in CRM):​
 
 AAD groups is the only way to set permissions in SharePoint according to your SuperOffice user groups​. We recommend (if not already) that you create corresponding groups in AAD to your SuperOffice user groups​.
 
-If you plan **NOT to use Visible for**: ​
+If you plan **NOT to use Visible for**:​
 
 We recommend that you use domain (AAD) group and not the SharePoint groups.​ Then you will have one place to handle users and permissions, and by adding users to this group in AAD when creating them – you will not have to add them again in SharePoint.
 
@@ -35,7 +35,7 @@ This will give them access to the document library too.
 
 1. In your SuperOffice document Site - click on the cog-wheel and then **Site permissions**.
 
-2. Click on **Advanced permissions settings”**
+2. Click on **Advanced permissions settings**
 
     ![-screenshot][img2]
 
@@ -47,7 +47,7 @@ This will give them access to the document library too.
 
 3. Tick off **Send an email invitation**. (There will be a lot of emails that the users will wonder about​.)
 
-4. Make sure the permission level is **Edit**. ​
+4. Make sure the permission level is **Edit**.​
 
 5. When your done adding groups, press **Share**.​
 
@@ -55,16 +55,16 @@ This will give them access to the document library too.
 
 ## Step 4 – Review the SharePoint site groups​
 
-​Members of the SharePoint site group Owners (Permission Levels Full Control), will have access to all content on that site. Including all folders and documents. ​
+​Members of the SharePoint site group Owners (Permission Levels Full Control), will have access to all content on that site. Including all folders and documents.​
 
-Make sure there are no user accounts in this group. Only service accounts. ​
+Make sure there are no user accounts in this group. Only service accounts.​
 
 ​![-screenshot][img4]
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/so-sharepoiont-home.png
+[img1]: media/so-sharepoint-home.png
 [img2]: media/advanced-permissions.png
 [img3]: media/share.png
 [img4]: media/review.png

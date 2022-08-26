@@ -19,7 +19,7 @@ The configuration in the SuperOffice Admin is point-and-click. This part is prim
 You select your Document library in Admin: ​
 
 * Default is SuperOffice document library, and you can change that to SharePoint​.
-* When you are configuring your new document library, Admin will show an intermediate state. ​
+* When you are configuring your new document library, Admin will show an intermediate state.​
 * When you are finished and have confirmed that you will use SharePoint, the state in Admin changes to Microsoft SharePoint Online.
 
 > [!NOTE]
@@ -42,8 +42,7 @@ The wizard has four steps:​
 
 * Site in SharePoint: Just choose your site from the dropdown. You must have permission level Owner to be able to select one site?​
 * Document library: Select from the drop-down​
-* Folder structure: You can select between ​
-* User group, Author, Template type, Company name and project​
+* Folder structure: You can select between​ User group, Author, Template type, Company name and project​
 * You can also organize the folders in Yearly subfolder​
 * Filename: Select between Heading or Heading - Company name​
 

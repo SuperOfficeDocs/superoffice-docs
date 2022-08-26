@@ -25,25 +25,25 @@ A self-service UI to provision and configure SharePoint as SO repository from Su
 
 ## Benefits
 
-* Run SuperOffice as a SaaS solution without any need of locally-installed software on a client computer
-  * No need to deploy WebTools/OML to users
+* Run SuperOffice as a SaaS solution without any need of locally-installed software on a client computer.
+  * No need to deploy WebTools/OML to users.
 
-* Enable true document collaboration
-  * All Microsoft 365 features are available as normal
-  * be able to work together in the same document at the same time
-  * be able to share documents with anyone and have access to older versions of the document at any time
+* Enable true document collaboration.
+  * All Microsoft 365 features are available as normal.
+  * Be able to work together in the same document at the same time.
+  * Be able to share documents with anyone and have access to older versions of the document at any time.
 
-* As a SuperOffice user, you don't have to think about where the documents are located
-  * Make SuperOffice documents available as any other document in SharePoint
-  * Sharing, revision history and other MS 365 features made available
+* As a SuperOffice user, you don't have to think about where the documents are located.
+  * Make SuperOffice documents available as any other document in SharePoint.
+  * Sharing, revision history and other MS 365 features made available.
 
-* Work with SuperOffice documents from any device
+* Work with SuperOffice documents from any device.
 
 * Advanced data access options (Visible for...)
   * Visible for me - private in Sharepoint
   * Visible for all - default access rights from Sharepoint
   * Visible for group - private in Sharepoint
-  
+
   > [!NOTE]
   > You need **Global Admin** rights in Microsoft 365 to be able to authenticate SuperOffice as a trusted app in your Microsoft 365 solution.
 

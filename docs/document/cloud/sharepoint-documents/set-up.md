@@ -35,7 +35,7 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 
 7. Click **Finish**.
 
-## Step 2 - Create a document library for documents in your SharePoint site  
+## Step 2 - Create a document library for documents in your SharePoint site
 
 1. Open the site you created in step 1.
 
@@ -51,7 +51,7 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 
 4. Click **Create**.
 
-## Step 3 - Create a document library for templates in your SharePoint site  
+## Step 3 - Create a document library for templates in your SharePoint site
 
 1. Open the site you created in step 1.
 

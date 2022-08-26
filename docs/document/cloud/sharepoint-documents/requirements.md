@@ -29,15 +29,15 @@ so.client: online
 
 ## To use it
 
-* All users must use **Sign in with Microsoft** in SuperOffice Online (AAD)
-  * AAD Authentication of users (see [IDP authentication][2] for more info)
+* All users must use **Sign in with Microsoft** in SuperOffice Online (AAD).
+  * AAD Authentication of users (see [IDP authentication][2] for more info).
 
 > [!NOTE]
 > Support Word, Excel, PowerPoint documents, PDF and some image-formats.
 >
 > Support for arching emails to SharePoint and opening archived emails from SharePoint.
 >
-> No support for migrating existing documents in SuperOffice archive (SO cloud) to SharePoint. If this is a requirement, you must wait for a later version.  
+> No support for migrating existing documents in SuperOffice archive (SO cloud) to SharePoint. If this is a requirement, you must wait for a later version.
 >
 > No support for migrating existing CloudOffice customers (version 1) to 'SharePoint documents 2.0'. Must wait for later version.
 >
@@ -47,4 +47,3 @@ so.client: online
 [2]: ../legacy/office-365/prepare-sharepoint.md
 
 <!-- Referenced images -->
-[img1]: media/
