@@ -10,7 +10,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# Microsoft 365 SharePoint and Google Workspace document integration in SuperOffice CRM
+# Microsoft 365 SharePoint and Google Workspace integration in SuperOffice CRM
 
 <!-- This document will provide technical documentation about a specific area (Microsoft 365 SharePoint and Google Workspace integration in SuperOffice CRM) of the SuperOffice CRM concept. The document is public and serves the purpose of documenting technology, architecture, security, and privacy matters. SuperOffice AS-->
 

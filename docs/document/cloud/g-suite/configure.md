@@ -16,7 +16,7 @@ This will store the template in the Google cloud, and when the user uses this te
 
 [!include[How to link a template](../includes/link-templates.md)]
 
-![imageh3map.png -screenshot -screenshot][img1]
+![Add document template -screenshot][img1]
 
 1. Open SuperOffice Admin, go to Lists, choose **Document - Template**.
 
@@ -29,7 +29,7 @@ This will store the template in the Google cloud, and when the user uses this te
     * Choose the source of the new template (create, upload, or copy).
     * Click **Save**.
 
-    ![x -screenshot -screenshot][img2]
+    ![Edit template item -screenshot][img2]
 
 4. Optionally edit the template name, if required, and click **Edit** to edit the template file itself.
 
@@ -40,13 +40,13 @@ This will store the template in the Google cloud, and when the user uses this te
     * Enter a value in the **Our reference (default)** field using [template variables][1]. For example `auth` for the sender’s first and last names.
     * Optionally, enter a description.
 
-    ![x -screenshot][img3]
+    ![Document stored in -screenshot][img3]
 
 6. Click **Save**. The Document template is now available in the CRM client:
 
-![imagedmnmi.png -screenshot -screenshot][img4]
+![New document-screenshot][img4]
 
-![image6r9sc.png -screenshot -screenshot][img5]
+![New document dialog -screenshot][img5]
 
 > [!NOTE]
 > All documents written in SuperOffice will be stored in the Google cloud if the template is set up for it, and available to open and edit in SuperOffice CRM Online.

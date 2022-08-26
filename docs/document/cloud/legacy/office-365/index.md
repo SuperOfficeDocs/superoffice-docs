@@ -18,7 +18,7 @@ Simply sign in to SuperOffice using your Microsoft 365 login details and then op
 > [!NOTE]
 > Microsoft has changed their product name Office 365 to Microsoft 365.
 
-![x -screenshot][img1]
+![Login with Microsoft 365 -screenshot][img1]
 
 Read more details in our App Store: Microsoft 365 integration (unpublished)
 

@@ -72,14 +72,14 @@ We recommend that you select all here. These fields will appear as columns in yo
 
 ## Step 3 - Groups and access​
 
-### Enable group access on SharePoint documents based on Visible for settings in SuperOffice​
+### Group access on SharePoint documents based on Visible for settings
 
 * If you plan not to use Visible for, you leave this ticked off​.
 * If you plan to use Visible for, you tick this on – and follow the next steps.​
 
 ​    ![Groups and access​ -screenshot][img4]
 
-### Enable group access on SharePoint documents based on Visible for settings in SuperOffice ticked on​
+### Group access based on Visible for settings in SuperOffice is ticked on​
 
 * To to set permissions on documents in SharePoint, we need to have Read Write permission to selected site. Only Microsoft 365 Global Administrator can authorize this permissions. This is a one-time authorization and will only include the site you have selected for your SuperOffice documents.
 

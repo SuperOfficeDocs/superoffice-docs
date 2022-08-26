@@ -11,13 +11,13 @@ so.client: online
 
 # Troubleshooting Microsoft 365 document integration
 
-## Use correct site library type in SharePoint (a)
+## Use correct site library type in SharePoint
 
 The SuperOffice Archive needs to be a **Document library** and located on the Root area of your SharePoint site.
 
 There is no support for configuring the Microsoft 365 integration to use a sub-site or a virtual site.
 
-![x -screenshot][img1]
+![Document library -screenshot][img1]
 
 (1) = Root
 
@@ -52,29 +52,32 @@ URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_A
 
 There is no support in the SuperOffice Microsoft 365 SharePoint integration for using **Document Center** for the SuperOffice Archive, it needs to be a **Document library**.
 
-## Update access rights for the users (b)
+## Update access rights for the users
 
-### During login to CRM Online with Microsoft 365 authentication activated (N/A for SuperID with IDP)
+### During login to CRM Online with Microsoft 365 authentication activated
+
+> [!NOTE]
+> Not available for SuperID with IDP
 
 * "We were unable to log you in through Microsoft 365. Error: access_denied."
 
-![x -screenshot][img2]
+![ Error: access_denied -screenshot][img2]
 
-This is due to users does not have sufficient read access to the SharePoint Group area where the Integration App is, and/or users do not have sufficient read access to the SharePoint root area.
+This is due to users do not have sufficient read access to the SharePoint Group area where the Integration App is, and/or users do not have sufficient read access to the SharePoint root area.
 
 ### During the upload of new templates or creating new documents in SharePoint
 
 #### Error saving document
 
-![imagerlog.png -screenshot][img3]
+![Error saving document -screenshot][img3]
 
 #### No access
 
-![imageqvkbj.png -screenshot][img4]
+![No access -screenshot][img4]
 
 #### An error ocurred while saving
 
-![imagela1cd.png -screenshot][img5]
+![No access -screenshot][img5]
 
 1. Update access rights
 
@@ -86,23 +89,23 @@ This is due to users does not have sufficient read access to the SharePoint Gro
 
     Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > Site settings > Users and Permissions > Site Permissions  > Create Group > add users to this group.
 
-    ![x -screenshot][img6]
+    ![Create a new Group -screenshot][img6]
 
-    ![x -screenshot][img7]
+    ![Create a new Group -screenshot][img7]
 
-    ![x -screenshot][img8]
+    ![Create a new Group -screenshot][img8]
 
-    ![x -screenshot][img9]
+    ![Create a new Group -screenshot][img9]
 
     **Read** for root and the Document library should be enough for the Integration App.
 
-    ![x -screenshot][img10]
+    ![Read for Document library -screenshot][img10]
 
     **Modify existing groups:**
 
-    ![x -screenshot][img11]
+    ![Modify existing groups -screenshot][img11]
 
-    ![x -screenshot][img12]
+    ![Modify existing groups -screenshot][img12]
 
 2. Check Permissions
 
@@ -112,17 +115,17 @@ This is due to users does not have sufficient read access to the SharePoint Gro
 
 If the document library name or folder name has any changes or was you submitted the wrong values during setup, make sure paths are relative to the root, and correct.
 
-## (Re-)Adding trust to the app (c)
+## (Re-)Adding trust to the app
 
 * Adding trust to the app once more can resolve issues when there is something wrong with the app' permissions:
 
 Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > ... for the app > Manage permissions > click **click here to trust it again**:
 
-![x -screenshot][img13]
+![Adding trust to the app -screenshot][img13]
 
-![x -screenshot][img14]
+![Adding trust to the app -screenshot][img14]
 
-## Check permissions (d)
+## Check permissions
 
 **Check permissions** under **Site Permissions** can also be helpful to sure users have access.
 
@@ -130,7 +133,7 @@ Admin > Admin centers > SharePoint > site collections > Open the web Site Addres
 
 * "Error saving document..."
 
-![x -screenshot][img15]
+![Error saving document -screenshot][img15]
 
 This is due to users do not have sufficient read access to the SharePoint Root area or 'edit' access to the document library.
 
@@ -140,7 +143,7 @@ Admin > Admin centers > SharePoint > site collections > Web Site Address (...sha
 
 You need **Edit** for documents (in the document library), and **read** (in the area of the App) for using the App for logging in.
 
-## Edit scope of the app trust (e)
+## Edit scope of the app trust
 
 If the app somehow asks for the wrong scope for what it trusts, the scope can be manually changed to **write** - to be able to have proper credentials when trying to create documents in SharePoint:
 

@@ -29,7 +29,7 @@ To give users permissions to create, delete and edit SuperOffice documents in Sh
 
 This will give them access to the document library too.
 
-![-screenshot][img1]
+![SharePoint main site -screenshot][img1]
 
 ## Step 2 – Navigate to Advanced permissions settings​
 
@@ -37,7 +37,7 @@ This will give them access to the document library too.
 
 2. Click on **Advanced permissions settings**
 
-    ![-screenshot][img2]
+    ![Advanced permissions settings -screenshot][img2]
 
 ## Step 3 – Grant permissions​
 
@@ -51,7 +51,7 @@ This will give them access to the document library too.
 
 5. When your done adding groups, press **Share**.​
 
-    ![-screenshot][img3]
+    ![Grant permissions -screenshot][img3]
 
 ## Step 4 – Review the SharePoint site groups​
 
@@ -59,7 +59,7 @@ This will give them access to the document library too.
 
 Make sure there are no user accounts in this group. Only service accounts.​
 
-​![-screenshot][img4]
+​![Review SharePoint site groups​ -screenshot][img4]
 
 <!-- Referenced links -->
 

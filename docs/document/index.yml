@@ -28,13 +28,17 @@ highlightedContent:
       itemType: overview
       url: cloud/overview.md
     # Card
-    - title: "Microsoft 365"
+    - title: "SharePoint documents"
       itemType: concept
-      url: cloud/legacy/office-365/index.md
+      url: cloud/sharepoint-documents/index.md
     # Card
     - title: "Google Workspace"
       itemType: concept
       url: cloud/g-suite/index.md
+    # Card
+    - title: "Microsoft 365 (legacy)"
+      itemType: concept
+      url: cloud/legacy/office-365/index.md      
     # Card
     - title: "Template variable reference"
       itemType: reference
