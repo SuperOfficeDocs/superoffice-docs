@@ -7,7 +7,7 @@ metadata:
   title: Cloud document integrations
   description: ""
   ms.topic: landing-page
-  ms.date: 04.26.2021
+  ms.date: 06.20.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
@@ -20,12 +20,30 @@ landingContent:
         links:
           - text: Introduction
             url: overview.md
+            
+  # Card
+  - title: SharePoint documents
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Introduction
+            url: sharepoint-documents/index.md
+          - text: Permissions
+            url: sharepoint-documents/permissions-in-sharepoint.md
+      - linkListType: reference
+        links:
+          - text: Requirements
+            url: sharepoint-documents/requirements.md
       - linkListType: how-to-guide
         links:
-          - text: Set up cloud document integration
-            url: set-up.md
-          - text: Configure cloud document handling
-            url: configure.md
+          - text: Set up
+            url: sharepoint-documents/set-up.md
+          - text: How to configure templates
+            url: sharepoint-documents/configure-templates.md
+          - text: How to configure permissions
+            url: sharepoint-documents/configure-permissions-with-aad-groups.md
+          - text: Troubleshooting
+            url: sharepoint-documents/troubleshooting.md
 
   # Card
   - title: Google Workspace document integration
@@ -46,25 +64,27 @@ landingContent:
             url: g-suite/getting-started.md
           - text: Set up
             url: g-suite/set-up.md
+          - text: Configure
+            url: g-suite/configure.md
 
 # Card
-  - title: Microsoft 365 document integration
+  - title: Microsoft 365 document integration (legacy)
     linkLists:
       - linkListType: concept
         links:
           - text: Introduction
-            url: office-365/index.md
+            url: legacy/office-365/index.md
           - text: Security
-            url: office-365/security.md
+            url: legacy/office-365/security.md
       - linkListType: reference
         links:
           - text: Requirements
-            url: office-365/requirements.md
+            url: legacy/office-365/requirements.md
       - linkListType: how-to-guide
         links:
           - text: Prepare SharePoint for set-up
-            url: office-365/prepare-sharepoint.md
+            url: legacy/office-365/prepare-sharepoint.md
           - text: Set up
-            url: office-365/set-up.md
+            url: legacy/office-365/set-up.md
           - text: Troubleshooting
-            url: office-365/troubleshooting.md
+            url: legacy/office-365/troubleshooting.md

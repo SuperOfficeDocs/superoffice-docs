@@ -88,7 +88,7 @@ This is the content of the xml file for slide 1: (Observe that `{onam}` should b
 But for some reason the xml around our template variables can end up looking something like this:
 
 ```xml
-{</a:t></a:r><a:r><a:rPr lang="en-US" dirty="0" err="1" smtClean="0"/><a:t>onam</a:t></a:r><a:r><a:rPr lang="en-US" dirty="0" smtClean="0"/><a:t>}
+{</a:t><a:rPr lang="en-US" dirty="0" smtClean="0"/><a:t>onam</a:t></a:r><a:r><a:rPr lang="en-US" smtClean="0"/><a:t>}
 ```
 
 As you can see, the start "**{**" and the end "**}**" tags are placed far apart from the template variable identifier "**onam**" so our system will not recognize this as a valid template variable. The end result is that the document after creation will still show the text **{onam}**.
@@ -96,7 +96,7 @@ As you can see, the start "**{**" and the end "**}**" tags are placed far apart 
 ### What can I do when this happens?
 
 * The first thing to try is to remove the template variables from the document and re-enter them manually (no copy/paste as this can contain formatting or other ‘hidden’ stuff).
-* For PowerPoint: The textboxes containing the template variables should be otherwise empty (pictures, other text and similar should be added in own boxes).
+* For PowerPoint: The text boxes containing the template variables should be otherwise empty (pictures, other text and similar should be added in own boxes).
 * Same goes for Excel: The cells containing template variables should otherwise be empty.
 * For Word documents: Turn ON ‘Show/Hide hidden characters' too see if Word has put something inside the template variable:
 
