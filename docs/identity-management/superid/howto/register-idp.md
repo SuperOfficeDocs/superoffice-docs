@@ -134,7 +134,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 [3]: complete-user-transition.md
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/domains-manage/
 [5]: custom-domains-registration-form.md
-[6]: https://docs.superoffice.com/online/identity/user/send-welcome-emails.html
+[6]: ../../user/send-welcome-emails.md
 
 <!-- Referenced images -->
 [img1]: media/choose-idp.png
