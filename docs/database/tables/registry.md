@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "registry"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ System settings
 |name|A descriptive string for the entry|String(255)| |
 |value|The value for the registry entry.|String(255)|&#x25CF;|
 
+
 ![registry table relationship diagram](./media/registry.png)
 
 [!include[details](./includes/registry.md)]
@@ -43,3 +44,4 @@ System settings
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteEntity
-id: v1QuoteAgent_GetQuoteEntity
+uid: v1QuoteAgent_GetQuoteEntity
 ---
 
 # POST Agents/Quote/GetQuoteEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteEntity
 
 Get a Quote
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a Quote
 ```http
 POST /api/v1/Agents/Quote/GetQuoteEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteId
+QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteId | int32 |  |
 
-## Response: object
 
-Quote methods
+## Response: 
 
-Carrier object for QuoteEntity.
-Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,104 +79,99 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 523
+  "QuoteId": 812
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 656,
-  "SaleId": 727,
-  "QuoteConnectionId": 796,
-  "ERPQuoteKey": "harum",
-  "ERPOrderKey": "fuga",
-  "ActiveQuoteVersionId": 801,
-  "AcceptedQuoteAlternativeId": 424,
-  "UseValuesFromQuote": 85,
-  "DocumentId": 322,
-  "PoNumber": "1766689",
-  "OrderComment": "facilis",
-  "PreferredEmailCulture": "tad_rogahn@champlin.info",
+  "QuoteId": 468,
+  "SaleId": 535,
+  "QuoteConnectionId": 977,
+  "ERPQuoteKey": "itaque",
+  "ERPOrderKey": "quia",
+  "ActiveQuoteVersionId": 557,
+  "AcceptedQuoteAlternativeId": 510,
+  "UseValuesFromQuote": 166,
+  "DocumentId": 599,
+  "PoNumber": "1123765",
+  "OrderComment": "recusandae",
+  "PreferredEmailCulture": "judy@stromancassin.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 808,
-      "ERPQuoteVersionKey": "qui",
-      "QuoteId": 614,
-      "Description": "Re-engineered demand-driven software",
-      "Number": "1210931",
+      "QuoteVersionId": 272,
+      "ERPQuoteVersionKey": "enim",
+      "QuoteId": 366,
+      "Description": "Innovative bi-directional capacity",
+      "Number": "643685",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 510,
-      "SentDate": "2017-12-14T18:28:49.9501071+01:00",
-      "FollowupId": 315,
-      "ExpirationDate": "2007-08-18T18:28:49.9501071+02:00",
-      "DeliveryCountryId": 304,
+      "LikelyQuoteAlternativeId": 944,
+      "SentDate": "2009-04-14T11:10:27.7174949+02:00",
+      "FollowupId": 281,
+      "ExpirationDate": "2001-08-07T11:10:27.7174949+02:00",
+      "DeliveryCountryId": 417,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 319,
+      "InvoiceCountryId": 644,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "asperiores",
-      "ERPPaymentTypeKey": "recusandae",
-      "ERPDeliveryTermsKey": "est",
-      "ERPDeliveryTypeKey": "distinctio",
-      "Rank": 166,
-      "ApprovedBy": 362,
-      "ApprovedText": "perferendis",
+      "ERPPaymentTermsKey": "sit",
+      "ERPPaymentTypeKey": "sunt",
+      "ERPDeliveryTermsKey": "voluptatem",
+      "ERPDeliveryTypeKey": "odio",
+      "Rank": 126,
+      "ApprovedBy": 419,
+      "ApprovedText": "nostrum",
       "ApprovedRegisteredBy": 957,
-      "ApprovedRegisteredDate": "2005-05-01T18:28:49.9501071+02:00",
-      "ExtraField1": "libero",
-      "ExtraField2": "et",
-      "ExtraField3": "dolore",
-      "ExtraField4": "iste",
-      "ExtraField5": "aut",
-      "LastRecalculated": "2013-01-01T18:28:49.9501071+01:00",
-      "Updated": "2001-06-26T18:28:49.9501071+02:00",
-      "UpdatedAssociateId": 403,
-      "Registered": "2002-09-06T18:28:49.9501071+02:00",
-      "RegisteredAssociateId": 435,
+      "ApprovedRegisteredDate": "2003-04-05T11:10:27.7174949+02:00",
+      "ExtraField1": "non",
+      "ExtraField2": "blanditiis",
+      "ExtraField3": "quia",
+      "ExtraField4": "quia",
+      "ExtraField5": "numquam",
+      "LastRecalculated": "2002-02-09T11:10:27.7174949+01:00",
+      "Updated": "1998-01-04T11:10:27.7174949+01:00",
+      "UpdatedAssociateId": 973,
+      "Registered": "2000-04-03T11:10:27.7174949+02:00",
+      "RegisteredAssociateId": 518,
+      "RequestAssociateId": 629,
+      "RequestComment": "maxime",
       "QuoteAlternatives": [
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldLength": 712
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "whiteboard customized supply-chains"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldLength": 421
     }
   }
 }

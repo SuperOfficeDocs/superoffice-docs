@@ -1,6 +1,6 @@
 ---
 title: GET MDOList/{listname}/selectable
-id: v1MDOList_GetSelectableList
+uid: v1MDOList_GetSelectableList
 ---
 
 # GET MDOList/{listname}/selectable
@@ -11,9 +11,15 @@ GET /api/v1/MDOList/{listname}/selectable
 
 Return the selectable list items
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | listname | string | "category", "business" etc **Required** |
+
 
 ## Query String Parameters
 
@@ -23,9 +29,10 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=nam
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=quasi
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/MDOList/{listname}/selectable?flat=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Rosenbaum Group",
-    "ToolTip": "Laborum eveniet.",
-    "Deleted": true,
-    "Rank": 900,
-    "Type": "nihil",
-    "ColorBlock": 940,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2004-06-01T18:25:51.9032044+02:00",
+    "Id": 980,
+    "Name": "Dach Group",
+    "ToolTip": "Nobis debitis.",
+    "Deleted": false,
+    "Rank": 11,
+    "Type": "voluptate",
+    "ColorBlock": 219,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "1999-11-24T11:10:54.3198663+01:00",
     "ChildItems": [
       {
-        "Id": 278,
-        "Name": "Kertzmann Inc and Sons",
-        "ToolTip": "Fugiat at.",
+        "Id": 483,
+        "Name": "Robel, Hessel and Grady",
+        "ToolTip": "Est quos doloribus omnis ipsum corrupti et.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "eum",
-        "ColorBlock": 462,
-        "IconHint": "explicabo",
+        "Rank": 977,
+        "Type": "placeat",
+        "ColorBlock": 73,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2011-05-03T18:25:51.9032044+02:00",
+        "LastChanged": "2019-08-28T11:10:54.3198663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Judson McLaughlin",
-        "TableRight": {},
+        "ExtraInfo": "alias",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Uriel Dana O'Conner MD",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Bridgette Altenwerth",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "inventore",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Mrs. Meaghan Nick Kilback DDS",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 428
       }
     }
   }

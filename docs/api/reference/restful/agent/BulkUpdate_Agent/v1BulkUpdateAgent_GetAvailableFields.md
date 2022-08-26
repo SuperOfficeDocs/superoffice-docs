@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BulkUpdate/GetAvailableFields
-id: v1BulkUpdateAgent_GetAvailableFields
+uid: v1BulkUpdateAgent_GetAvailableFields
 ---
 
 # POST Agents/BulkUpdate/GetAvailableFields
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 
 Get all available fields for a given tablename/entity
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all available fields for a given tablename/entity
 ```http
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Tablename
+Tablename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tablename | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,19 +81,21 @@ Response body: array
 | DisplayValues | array | The displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids |
 | OperationInfos | array | Array of the available operations for this field |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,84 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": true,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "tenetur",
-    "ValueType": "modi",
-    "Mandatory": true,
-    "EncodedDisplayName": "Spencer-Jacobi",
-    "EncodedDisplayDescription": "Balanced directional hardware",
-    "IconHint": "in",
+    "IsActive": false,
+    "Key": "necessitatibus",
+    "ValueType": "provident",
+    "Mandatory": false,
+    "EncodedDisplayName": "Johns Group",
+    "EncodedDisplayDescription": "Team-oriented fresh-thinking emulation",
+    "IconHint": "id",
     "ControlInfos": [
       {
-        "Type": "et",
-        "Label": "explicabo",
-        "Dimension": 628,
-        "ListProviderName": "Hudson LLC",
-        "ListProviderExtraInfo": "enim",
-        "ListProviderPrimaryKeyName": "Rowe LLC",
-        "ListLeadText": "ullam",
-        "TableRight": {},
+        "Type": "quas",
+        "Label": "rerum",
+        "Dimension": 722,
+        "ListProviderName": "Schaden-West",
+        "ListProviderExtraInfo": "et",
+        "ListProviderPrimaryKeyName": "Jacobson-Kreiger",
+        "ListLeadText": "accusamus",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 381
+            "FieldLength": 63
           }
         }
       }
     ],
-    "EncodedDataCaption": "maiores",
-    "EncodedDataCaptionDescription": "Fundamental transitional extranet",
-    "CurrentOperationType": "est",
+    "EncodedDataCaption": "assumenda",
+    "EncodedDataCaptionDescription": "Advanced content-based data-warehouse",
+    "CurrentOperationType": "praesentium",
     "Values": [
-      "expedita",
-      "tempore"
+      "commodi",
+      "porro"
     ],
     "DisplayValues": [
-      "libero",
-      "harum"
+      "et",
+      "aut"
     ],
     "OperationInfos": [
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Murray Group",
+        "Key": "ab",
+        "EncodedDisplayName": "Huels, Deckow and Nienow",
         "EncodedLeadTexts": [
-          "dicta",
-          "commodi"
+          "optio",
+          "iusto"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 797
           }
         }
       },
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Murray Group",
+        "Key": "ab",
+        "EncodedDisplayName": "Huels, Deckow and Nienow",
         "EncodedLeadTexts": [
-          "dicta",
-          "commodi"
+          "optio",
+          "iusto"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 797
           }
         }
       }

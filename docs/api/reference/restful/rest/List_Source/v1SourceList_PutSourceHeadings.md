@@ -1,6 +1,6 @@
 ---
 title: PUT List/Source/Headings
-id: v1SourceList_PutSourceHeadings
+uid: v1SourceList_PutSourceHeadings
 ---
 
 # PUT List/Source/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/Source/Headings
 
 Saves headings for the Source list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 708,
-    "Name": "Sanford, McLaughlin and Kutch",
-    "Tooltip": "suscipit",
-    "Deleted": true,
-    "Rank": 392,
-    "UdListDefinitionId": 754
+    "HeadingId": 915,
+    "Name": "DuBuque-Feest",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "Rank": 996,
+    "UdListDefinitionId": 742
   },
   {
-    "HeadingId": 708,
-    "Name": "Sanford, McLaughlin and Kutch",
-    "Tooltip": "suscipit",
-    "Deleted": true,
-    "Rank": 392,
-    "UdListDefinitionId": 754
+    "HeadingId": 915,
+    "Name": "DuBuque-Feest",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "Rank": 996,
+    "UdListDefinitionId": 742
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 625,
-    "Name": "Beer, Hettinger and Prohaska",
-    "Tooltip": "et",
+    "HeadingId": 477,
+    "Name": "Ferry-Boehm",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 952,
-    "UdListDefinitionId": 724,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 462,
+    "UdListDefinitionId": 223,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "synergize efficient e-commerce"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 134
       }
     }
   }

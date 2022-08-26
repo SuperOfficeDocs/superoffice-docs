@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Source"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Source list table. Source for sale (list)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![Source table relationship diagram](./media/Source.png)
 
 [!include[details](./includes/source.md)]
@@ -54,6 +55,7 @@ Source list table. Source for sale (list)
 |[SourceGroupLink](sourcegrouplink.md)  |User group link table for Source, for MDO item hiding |
 |[SourceHeadingLink](sourceheadinglink.md)  |Heading link table for Source, for MDO headers |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,3 +65,4 @@ Source list table. Source for sale (list)
 ## Security Flags
 
 * No access control via user's Role.
+

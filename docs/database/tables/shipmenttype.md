@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "ShipmentType"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ShipmentType Table (490)
+# ShipmentType Table (491)
 
 Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 
@@ -31,6 +31,7 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![ShipmentType table relationship diagram](./media/ShipmentType.png)
 
@@ -50,6 +51,7 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[ShipmentTypeReservation](shipmenttypereservation.md)  |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 ## Security Flags
 
 * No access control via user's Role.
+

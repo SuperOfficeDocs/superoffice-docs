@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Navigator/GetNavigatorCompanyList
-id: v1NavigatorAgent_GetNavigatorCompanyList
+uid: v1NavigatorAgent_GetNavigatorCompanyList
 ---
 
 # POST Agents/Navigator/GetNavigatorCompanyList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 
 Gets an array of NavigatorCompany objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of NavigatorCompany objects.
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanyList?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: navigatorCompanyIds
+## Request Body: navigatorCompanyIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,40 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Value": "et",
-    "Tooltip": "omnis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "facilitate bleeding-edge technologies"
-    },
+    "Id": 32,
+    "Value": "atque",
+    "Tooltip": "ex",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   },
   {
-    "Id": 912,
-    "Value": "et",
-    "Tooltip": "omnis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "facilitate bleeding-edge technologies"
-    },
+    "Id": 32,
+    "Value": "atque",
+    "Tooltip": "ex",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   }

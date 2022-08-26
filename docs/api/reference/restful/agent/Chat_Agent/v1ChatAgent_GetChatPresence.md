@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/GetChatPresence
-id: v1ChatAgent_GetChatPresence
+uid: v1ChatAgent_GetChatPresence
 ---
 
 # POST Agents/Chat/GetChatPresence
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatPresence
 
 Get the chat presence status for all chat users
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the chat presence status for all chat users
 ```http
 POST /api/v1/Agents/Chat/GetChatPresence?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Chat/GetChatPresence?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,14 +62,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -67,26 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 557,
-    "DisplayName": "Cruickshank Inc and Sons",
-    "OngoingChats": 759,
+    "UserId": 360,
+    "DisplayName": "Raynor LLC",
+    "OngoingChats": 973,
     "Present": false,
     "ChatTopics": [
-      57,
-      70
+      125,
+      736
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldLength": 730
       }
     }
   }

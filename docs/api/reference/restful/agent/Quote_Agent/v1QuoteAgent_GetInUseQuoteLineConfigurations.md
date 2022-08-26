@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetInUseQuoteLineConfigurations
-id: v1QuoteAgent_GetInUseQuoteLineConfigurations
+uid: v1QuoteAgent_GetInUseQuoteLineConfigurations
 ---
 
 # POST Agents/Quote/GetInUseQuoteLineConfigurations
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 
 Returns the configuration fields that should be visible in the GUI.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the configuration fields that should be visible in the GUI.
 ```http
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -71,27 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 624,
-    "FieldName": "Corkery Group",
-    "Label": "soluta",
-    "Tooltip": "ut",
-    "Editable": true,
-    "InUse": true,
-    "Mandatory": false,
-    "Rank": 544,
+    "QuoteLineConfigurationId": 963,
+    "FieldName": "Adams, Rice and Brekke",
+    "Label": "qui",
+    "Tooltip": "et",
+    "Editable": false,
+    "InUse": false,
+    "Mandatory": true,
+    "Rank": 776,
     "RestrictEdit": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 183
       }
     }
   }

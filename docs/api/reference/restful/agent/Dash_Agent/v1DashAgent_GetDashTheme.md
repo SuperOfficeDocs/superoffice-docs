@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashTheme
-id: v1DashAgent_GetDashTheme
+uid: v1DashAgent_GetDashTheme
 ---
 
 # POST Agents/Dash/GetDashTheme
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashTheme
 
 Gets a DashTheme object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DashTheme object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=561
+POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=483
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard theme configuration
+## Response: 
 
-Carrier object for DashTheme.
-Services for the DashTheme Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,10 +61,11 @@ Response body: object
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
+| Style | string | Style value - for example 'light' or 'dark' |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashTheme
@@ -68,28 +74,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 863,
-  "Name": "Strosin-Littel",
-  "Config": "aut",
-  "Rank": 788,
-  "Client": "ut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardThemeId": 289,
+  "Name": "Batz Inc and Sons",
+  "Config": "nostrum",
+  "Rank": 207,
+  "Client": "quia",
+  "Style": "eius",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 696
     }
   }
 }

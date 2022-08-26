@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Credentials"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -43,6 +43,7 @@ Alternative credentials
 |displayType|Lead-text used in GUI, originally from plugin. Used as fallback when plugins are missing|String(254)|&#x25CF;|
 |displayName|Friendly name of credentials (searchname could be a SID, this should be a real name)|String(254)|&#x25CF;|
 
+
 ![Credentials table relationship diagram](./media/Credentials.png)
 
 [!include[details](./includes/credentials.md)]
@@ -64,6 +65,7 @@ Alternative credentials
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -73,3 +75,4 @@ Alternative credentials
 ## Security Flags
 
 * No access control via user's Role.
+

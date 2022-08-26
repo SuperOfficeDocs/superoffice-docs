@@ -1,6 +1,6 @@
 ---
 title: PUT Script/{uniqueIdentifier}
-id: v1Script_SaveCRMScriptByUniqueIdentifier
+uid: v1Script_SaveCRMScriptByUniqueIdentifier
 ---
 
 # PUT Script/{uniqueIdentifier}
@@ -11,11 +11,20 @@ PUT /api/v1/Script/{uniqueIdentifier}
 
 Create or Update the CRMScript information
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | uniqueIdentifier | string | Global unique reference to script (independent of installation) **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +40,9 @@ Create or Update the CRMScript information
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: CRMScript
+## Request Body: crmscript  
 
-Information about the CRMScript
+Information about the CRMScript 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,18 +57,16 @@ Information about the CRMScript
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
 
-## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
+## Response: 
 
-Carrier object for Script.
-Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,56 +83,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quasi",
-  "Name": "Smith-Dach",
-  "Description": "Up-sized modular protocol",
-  "IncludeId": "quae",
-  "Source": "omnis",
-  "Registered": "1996-06-30T18:25:51.443118+02:00",
-  "RegisteredBy": "rerum",
-  "Updated": "2020-01-16T18:25:51.443118+01:00",
-  "UpdatedBy": "accusantium",
-  "Path": "officiis"
+  "UniqueIdentifier": "aliquid",
+  "Name": "Leuschke-Rippin",
+  "Description": "Switchable 4th generation leverage",
+  "IncludeId": "et",
+  "Source": "reprehenderit",
+  "Registered": "2004-03-09T11:10:53.7882124+01:00",
+  "RegisteredBy": "dignissimos",
+  "Updated": "2014-05-17T11:10:53.7882124+02:00",
+  "UpdatedBy": "nihil",
+  "Path": "sunt"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "non",
-  "Name": "Conroy LLC",
-  "Description": "Grass-roots explicit middleware",
-  "IncludeId": "atque",
-  "Source": "quia",
-  "Registered": "2005-05-18T18:25:51.443118+02:00",
-  "RegisteredBy": "quia",
-  "Updated": "2004-03-08T18:25:51.443118+01:00",
-  "UpdatedBy": "nisi",
-  "Path": "ex",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UniqueIdentifier": "at",
+  "Name": "Reichert Inc and Sons",
+  "Description": "Advanced bottom-line policy",
+  "IncludeId": "unde",
+  "Source": "distinctio",
+  "Registered": "2002-04-15T11:10:53.7892124+02:00",
+  "RegisteredBy": "rem",
+  "Updated": "2014-08-17T11:10:53.7892124+02:00",
+  "UpdatedBy": "facilis",
+  "Path": "reiciendis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

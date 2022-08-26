@@ -17,6 +17,7 @@ Returns the PluginResponseInfo for the connection initialization. Does not initi
 
 **Returns:** PluginResponseInfo for the connection initialization.
 
+
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnectionStartupResponse Response
 
@@ -94,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "script_trace"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# script\_trace Table (469)
+# script\_trace Table (470)
 
 Scripts which should be traced
 
@@ -34,6 +34,7 @@ Scripts which should be traced
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![script_trace table relationship diagram](./media/script_trace.png)
 
 [!include[details](./includes/script-trace.md)]
@@ -51,6 +52,7 @@ Scripts which should be traced
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[script\_trace\_run](script-trace-run.md)  |Traces of executed scripts |
 
+
 ## Replication Flags
 
 * None
@@ -58,3 +60,4 @@ Scripts which should be traced
 ## Security Flags
 
 * No access control via user's Role.
+

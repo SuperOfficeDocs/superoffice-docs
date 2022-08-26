@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashTile
-id: v1DashAgent_GetDashTile
+uid: v1DashAgent_GetDashTile
 ---
 
 # POST Agents/Dash/GetDashTile
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashTile
 
 Gets a DashTile object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DashTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTile?dashTileId=767
+POST /api/v1/Agents/Dash/GetDashTile?dashTileId=747
 POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashTile.
-Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,68 +65,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 580,
-  "DashboardId": 241,
-  "Height": 628,
-  "Width": 786,
-  "Rank": 31,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 96,
-    "Name": "Ernser Group",
-    "Description": "Face to face hybrid secured line",
-    "DefaultHeight": 208,
-    "DefaultWidth": 433,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Langworth, Johnson and Pfeffer",
-    "SelectionId": 910,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "nihil",
-    "Measure": "Average",
-    "MeasureField": "magnam",
-    "SortBy": "blanditiis",
-    "LayoutConfig": "illo",
-    "SecondarySelectionId": 106,
-    "MeasureByField": "quas",
-    "ProviderName": "Tillman Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 876
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 164,
+  "DashboardId": 820,
+  "Height": 866,
+  "Width": 264,
+  "Rank": 618,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 308
     }
   }
 }

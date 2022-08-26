@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetMyMemberProjects
-id: v1ProjectAgent_GetMyMemberProjects
+uid: v1ProjectAgent_GetMyMemberProjects
 ---
 
 # POST Agents/Project/GetMyMemberProjects
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetMyMemberProjects
 
 Returning the projects where an user is project member.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returning the projects where an user is project member.
 ```http
 POST /api/v1/Agents/Project/GetMyMemberProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Project/GetMyMemberProjects?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,7 +75,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetMyMemberProjects
@@ -74,42 +84,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 246,
-    "Name": "Krajcik Inc and Sons",
-    "Description": "Innovative web-enabled synergy",
+    "ProjectId": 204,
+    "Name": "Batz LLC",
+    "Description": "Expanded assymetric projection",
     "URL": "http://www.example.com/",
-    "Type": "provident",
-    "AssociateId": 764,
-    "AssociateFullName": "Kenyon Sporer",
-    "TypeId": 510,
-    "Updated": "1999-09-18T18:28:49.7801399+02:00",
-    "StatusId": 57,
-    "Status": "itaque",
-    "TextId": 158,
-    "PublishTo": "2009-10-30T18:28:49.7801399+01:00",
-    "PublishFrom": "2020-03-09T18:28:49.7801399+01:00",
+    "Type": "porro",
+    "AssociateId": 423,
+    "AssociateFullName": "Prof. Jovanny August Jacobi",
+    "TypeId": 659,
+    "Updated": "2006-07-15T11:10:27.6194532+02:00",
+    "StatusId": 956,
+    "Status": "sed",
+    "TextId": 755,
+    "PublishTo": "2004-12-14T11:10:27.6204553+01:00",
+    "PublishFrom": "2022-05-18T11:10:27.6204553+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "957258",
-    "ActiveErpLinks": 677,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectNumber": "1002985",
+    "ActiveErpLinks": 911,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 174
       }
     }
   }

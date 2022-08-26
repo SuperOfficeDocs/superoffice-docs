@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveWebPanelEntity
-id: v1ListAgent_SaveWebPanelEntity
+uid: v1ListAgent_SaveWebPanelEntity
 ---
 
 # POST Agents/List/SaveWebPanelEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveWebPanelEntity
 ```
 
 Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The WebPanelEntity to be saved.
+The WebPanelEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,19 +58,18 @@ The WebPanelEntity to be saved.
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-## Response: object
 
-The web panel entity contains information on a web panel
+## Response: 
 
-Carrier object for WebPanelEntity.
-Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,79 +93,78 @@ Response body: object
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 34,
-  "Name": "Volkman Group",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "Rank": 10,
+  "WebPanelId": 943,
+  "Name": "Kutch LLC",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "Rank": 882,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Moen, Kuhn and Johnson",
+  "WindowName": "Rodriguez, Nikolaus and Roberts",
   "Url": "http://www.example.com/",
-  "ProgId": "facere",
-  "Icon": 599
+  "ProgId": "voluptates",
+  "Icon": 663,
+  "AlwaysReloadOnShow": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 362,
-  "Name": "Crona, Bayer and Bergstrom",
-  "Tooltip": "itaque",
+  "WebPanelId": 660,
+  "Name": "Grant, Conroy and Robel",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 289,
+  "Rank": 346,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Champlin Inc and Sons",
+  "WindowName": "DuBuque-King",
   "Url": "http://www.example.com/",
-  "ProgId": "tempora",
-  "Icon": 719,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProgId": "praesentium",
+  "Icon": 821,
+  "AlwaysReloadOnShow": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 423
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   }
 }

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "mailtemplate"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "mailtemplate" MDO List
-
 List provider for the Mailtemplates.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.MailTemplateProvider">MailTemplateProvider</see> class.
 The name of the MDO list is 'mailtemplate'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("mailtemplate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,6 +57,7 @@ foreach (var item in listProvider.RootItems) {
 |17|Quote e-mail|||
 |19|Order confirmation e-mail|||
 |20|Confirmation - Contact added|||
+
 
 ## Related MDO Lists
 

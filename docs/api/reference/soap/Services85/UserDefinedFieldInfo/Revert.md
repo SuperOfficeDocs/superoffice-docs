@@ -15,6 +15,8 @@ Revert changed Udef fields for the given owner type - all unpublished changes wi
 
 * **ownerType:** The owner type to revert fields for
 
+
+
 [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Revert Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

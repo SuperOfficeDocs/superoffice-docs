@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/CreateDefaultShipmentMessageEntity
-id: v1MarketingAgent_CreateDefaultShipmentMessageEntity
+uid: v1MarketingAgent_CreateDefaultShipmentMessageEntity
 ---
 
 # POST Agents/Marketing/CreateDefaultShipmentMessageEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 
 Set default values into a new ShipmentMessageEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A shipment message, that contains the actual message being sent out in a mailing
+## Response: 
 
-Carrier object for ShipmentMessageEntity.
-Services for the ShipmentMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,53 +70,49 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 230,
-  "PlainMessage": "dicta",
-  "HtmlMessage": "repudiandae",
-  "SmsMessage": "voluptatem",
-  "Description": "Re-contextualized background core",
-  "Subject": "sapiente",
-  "FolderId": 359,
-  "HeaderField": "magni",
-  "Design": "et",
+  "ShipmentMessageId": 132,
+  "PlainMessage": "quia",
+  "HtmlMessage": "aspernatur",
+  "SmsMessage": "quia",
+  "Description": "Face to face 4th generation firmware",
+  "Subject": "culpa",
+  "FolderId": 141,
+  "HeaderField": "mollitia",
+  "Design": "quae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Profound encompassing application",
-  "AccessKey": "laudantium",
-  "DocumentMessage": 376,
-  "Registered": "2011-03-21T18:28:49.4660876+01:00",
-  "RegisteredAssociateId": 420,
-  "Updated": "2014-01-11T18:28:49.4660876+01:00",
-  "UpdatedAssociateId": 156,
-  "UpdatedCount": 140,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "LongDescription": "Extended cohesive approach",
+  "AccessKey": "ipsam",
+  "DocumentMessage": 926,
+  "Registered": "2017-11-03T11:10:27.2904529+01:00",
+  "RegisteredAssociateId": 369,
+  "Updated": "2021-04-05T11:10:27.2904529+02:00",
+  "UpdatedAssociateId": 481,
+  "UpdatedCount": 261,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 297
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetExternalTok
 ## GetExternalTokens
 
 Retrieve the tokens from the DB based on the given key
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **key:** Token retrievel key
 
 **Returns:** Key to retrieve tokens
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetExternalTokens Response
 
 ```xml
@@ -74,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

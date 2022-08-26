@@ -1,6 +1,6 @@
 ---
 title: PUT List/{udListDefinitionName}/Items
-id: v1ListItemEntity_SaveAllFromListName
+uid: v1ListItemEntity_SaveAllFromListName
 ---
 
 # PUT List/{udListDefinitionName}/Items
@@ -11,9 +11,16 @@ PUT /api/v1/List/{udListDefinitionName}/Items
 
 Save all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to save the items to. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save all list items for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: items
+## Request Body: items  
 
-The list items
+The list items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,10 @@ The list items
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,34 +71,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Raynor, Buckridge and Franecki",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 178,
-    "Rank": 4
+    "Id": 354,
+    "Name": "Bogan, McCullough and Shanahan",
+    "Tooltip": "explicabo",
+    "Deleted": false,
+    "UdListDefinitionId": 101,
+    "Rank": 803
   },
   {
-    "Id": 116,
-    "Name": "Raynor, Buckridge and Franecki",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 178,
-    "Rank": 4
+    "Id": 354,
+    "Name": "Bogan, McCullough and Shanahan",
+    "Tooltip": "explicabo",
+    "Deleted": false,
+    "UdListDefinitionId": 101,
+    "Rank": 803
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,24 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Mosciski Inc and Sons",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "UdListDefinitionId": 809,
-    "Rank": 124,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 432,
+    "Name": "Macejkovic-Gusikowski",
+    "Tooltip": "sequi",
+    "Deleted": false,
+    "UdListDefinitionId": 512,
+    "Rank": 462,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldLength": 349
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentTerm/Items/{id}/UserGroups
-id: v1PaymentTermsList_GetPaymentTermUserGroupsForListItem
+uid: v1PaymentTermsList_GetPaymentTermUserGroupsForListItem
 ---
 
 # GET List/PaymentTerm/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 
 Gets user groups visible for the PaymentTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Armstrong, Quigley and Fadel",
-    "ToolTip": "Provident nobis.",
-    "Deleted": true,
-    "Rank": 982,
-    "Type": "blanditiis",
-    "ColorBlock": 66,
-    "IconHint": "optio",
-    "Selected": true,
-    "LastChanged": "2013-12-26T18:25:51.9242541+01:00",
+    "Id": 354,
+    "Name": "Lesch-Reichel",
+    "ToolTip": "Voluptatem quia aliquam dolores deleniti autem excepturi.",
+    "Deleted": false,
+    "Rank": 274,
+    "Type": "quia",
+    "ColorBlock": 41,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2012-03-04T11:10:54.3409023+01:00",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Little, Russel and Hegmann",
-        "ToolTip": "Necessitatibus voluptatem est dolorem eum.",
-        "Deleted": true,
-        "Rank": 97,
-        "Type": "aspernatur",
-        "ColorBlock": 551,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2013-04-24T18:25:51.9252298+02:00",
+        "Id": 48,
+        "Name": "Leffler-Hayes",
+        "ToolTip": "Quis id et fugiat sunt.",
+        "Deleted": false,
+        "Rank": 790,
+        "Type": "nisi",
+        "ColorBlock": 862,
+        "IconHint": "possimus",
+        "Selected": true,
+        "LastChanged": "2011-04-16T11:10:54.3409023+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Sierra Howell",
-        "TableRight": {},
+        "ExtraInfo": "molestiae",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Eleanora Ruecker",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 867
+            "FieldLength": 446
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "omnis",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Lilyan Franecki",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Rowena Osinski",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 999
       }
     }
   }

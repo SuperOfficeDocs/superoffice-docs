@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteLineImage
-id: v1QuoteAgent_GetQuoteLineImage
+uid: v1QuoteAgent_GetQuoteLineImage
 ---
 
 # POST Agents/Quote/GetQuoteLineImage
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLineImage
 
 Gets an image connected to a quoteline, either from the ERPProvider or from the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an image connected to a quoteline, either from the ERPProvider or from the 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,41 +42,47 @@ POST /api/v1/Agents/Quote/GetQuoteLineImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineId, Rank
+QuoteLineId, Rank 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineId | int32 |  |
 | Rank | int32 |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteLineImage
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
+Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 26,
-  "Rank": 702
+  "QuoteLineId": 641,
+  "Rank": 359
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

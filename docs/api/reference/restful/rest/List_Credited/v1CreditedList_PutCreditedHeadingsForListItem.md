@@ -1,6 +1,6 @@
 ---
 title: PUT List/Credited/Items/{id}/Headings
-id: v1CreditedList_PutCreditedHeadingsForListItem
+uid: v1CreditedList_PutCreditedHeadingsForListItem
 ---
 
 # PUT List/Credited/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Credited/Items/{itemId}/Headings
 
 Saves headings for the Credited list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Keebler Inc and Sons",
-    "ToolTip": "Nobis dolor voluptatem et iure omnis.",
-    "Deleted": false,
-    "Rank": 158,
-    "Type": "atque",
-    "ColorBlock": 13,
-    "IconHint": "molestias",
-    "Selected": false,
-    "LastChanged": "2005-10-31T18:25:51.7713253+01:00",
+    "Id": 637,
+    "Name": "Brown, Howe and Kozey",
+    "ToolTip": "Quia aut.",
+    "Deleted": true,
+    "Rank": 930,
+    "Type": "aut",
+    "ColorBlock": 820,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2011-08-13T11:10:54.0392192+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Barrows Group",
-        "ToolTip": "Quaerat et nesciunt.",
+        "Id": 32,
+        "Name": "Strosin Inc and Sons",
+        "ToolTip": "Qui ab voluptates.",
         "Deleted": false,
-        "Rank": 272,
-        "Type": "illum",
-        "ColorBlock": 129,
-        "IconHint": "doloribus",
+        "Rank": 561,
+        "Type": "sint",
+        "ColorBlock": 453,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "1996-07-21T18:25:51.7713253+02:00",
+        "LastChanged": "2005-07-21T11:10:54.0392192+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "adipisci",
-        "Hidden": true,
-        "FullName": "Bruce Beahan"
+        "ExtraInfo": "quaerat",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Mrs. Brandi Haleigh Huel"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "nihil",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Chris Blanda"
+    "FullName": "Barry Tremblay"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Ritchie, Price and Rogahn",
-    "ToolTip": "Qui expedita.",
+    "Id": 400,
+    "Name": "Sipes-Reichert",
+    "ToolTip": "Nihil odit sed eveniet fugiat iusto quisquam aut.",
     "Deleted": true,
-    "Rank": 68,
-    "Type": "amet",
-    "ColorBlock": 598,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "1996-03-16T18:25:51.7733267+01:00",
+    "Rank": 694,
+    "Type": "debitis",
+    "ColorBlock": 366,
+    "IconHint": "asperiores",
+    "Selected": false,
+    "LastChanged": "2002-02-04T11:10:54.2238665+01:00",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "Doyle-Brakus",
-        "ToolTip": "In sunt sunt ut id aut voluptas.",
+        "Id": 108,
+        "Name": "Murphy LLC",
+        "ToolTip": "Accusamus beatae delectus est distinctio.",
         "Deleted": false,
-        "Rank": 383,
-        "Type": "delectus",
-        "ColorBlock": 935,
-        "IconHint": "non",
+        "Rank": 48,
+        "Type": "possimus",
+        "ColorBlock": 597,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "2012-09-03T18:25:51.7733267+02:00",
+        "LastChanged": "2004-02-05T11:10:54.2238665+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Antwan Schmidt Sr.",
-        "TableRight": {},
+        "ExtraInfo": "corrupti",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Mrs. Frida Leffler",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 882
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 511
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "architecto",
+    "ExtraInfo": "quis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Casimer Champlin",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Prof. Jaunita Darlene Upton DDS",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldLength": 856
       }
     }
   }

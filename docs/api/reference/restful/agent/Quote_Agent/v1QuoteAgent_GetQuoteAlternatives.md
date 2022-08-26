@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteAlternatives
-id: v1QuoteAgent_GetQuoteAlternatives
+uid: v1QuoteAgent_GetQuoteAlternatives
 ---
 
 # POST Agents/Quote/GetQuoteAlternatives
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives
 
 Get all quote alternatives for a quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all quote alternatives for a quote version
 ```http
 POST /api/v1/Agents/Quote/GetQuoteAlternatives?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -79,19 +89,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 268
+  "QuoteVersionId": 921
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,41 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 976,
-    "ERPQuoteAlternativeKey": "eos",
-    "QuoteVersionId": 219,
-    "Name": "Zieme, Blanda and Stroman",
-    "Description": "Up-sized clear-thinking hub",
+    "QuoteAlternativeId": 678,
+    "ERPQuoteAlternativeKey": "aspernatur",
+    "QuoteVersionId": 720,
+    "Name": "Paucek Group",
+    "Description": "Customizable demand-driven contingency",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 10918.856,
-    "ERPDiscountAmount": 8129.596,
-    "DiscountPercent": 23457.989999999998,
-    "DiscountAmount": 16851.518,
+    "ERPDiscountPercent": 23755.719999999998,
+    "ERPDiscountAmount": 833.644,
+    "DiscountPercent": 30227.43,
+    "DiscountAmount": 27080.894,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "ut",
-    "VAT": 16663.478,
-    "EarningPercent": 11702.356,
-    "EarningAmount": 8687.448,
-    "SubTotal": 17327.886,
-    "TotalPrice": 109.69,
-    "ExtraField1": "enim",
-    "ExtraField2": "occaecati",
-    "ExtraField3": "et",
-    "ExtraField4": "consequuntur",
-    "ExtraField5": "rerum",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "VATInfo": "occaecati",
+    "VAT": 9539.8959999999988,
+    "EarningPercent": 28560.142,
+    "EarningAmount": 14563.698,
+    "SubTotal": 5989.074,
+    "TotalPrice": 12498.392,
+    "ExtraField1": "dolores",
+    "ExtraField2": "autem",
+    "ExtraField3": "est",
+    "ExtraField4": "quae",
+    "ExtraField5": "quam",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 456
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   }

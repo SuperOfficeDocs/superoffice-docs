@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/ValidateSaleEntity
-id: v1SaleAgent_ValidateSaleEntity
+uid: v1SaleAgent_ValidateSaleEntity
 ---
 
 # POST Agents/Sale/ValidateSaleEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/ValidateSaleEntity
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check that entity is ready for saving, return error messages by field.
 ```http
 POST /api/v1/Agents/Sale/ValidateSaleEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Sale/ValidateSaleEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleEntity
+SaleEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleEntity |  | Partial SaleEntity class associating the generated SaleEntity with an interface. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ SaleEntity
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/ValidateSaleEntity
@@ -61,79 +72,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleEntity": {
-    "Appointment": {},
-    "Associate": {},
-    "UpdatedBy": {},
-    "CreatedBy": {},
-    "Contact": {},
-    "Project": {},
-    "SaleText": "quis",
-    "Person": {},
-    "Currency": {},
-    "Competitor": {},
-    "Credited": {},
-    "Rating": {},
-    "Reason": {},
-    "Source": {},
-    "Status": "Lost",
-    "Saledate": "2007-09-28T18:28:50.1714118+02:00",
-    "Amount": 614.264,
-    "SaleId": 373,
-    "Earning": 17832.46,
-    "EarningPercent": 24570.559999999998,
-    "Heading": "dolorem",
-    "Number": "680228",
-    "Probability": 816,
-    "CreatedDate": "1998-11-16T18:28:50.1714118+01:00",
-    "UpdatedDate": "1999-10-18T18:28:50.1714118+02:00",
-    "Completed": "Completed",
-    "ActiveLinks": 403,
-    "Links": [
-      {},
-      {}
-    ],
-    "NextDueDate": "2006-04-05T18:28:50.1714118+02:00",
-    "Postit": "quidem",
-    "SaleType": {},
-    "ReasonSold": {},
-    "ReasonStalled": {},
-    "ReopenDate": "2009-05-27T18:28:50.1714118+02:00",
-    "SaleStakeholders": [
-      {},
-      {}
-    ],
-    "ActiveErpLinks": 484,
-    "UserDefinedFields": {
-      "SuperOffice:1": "Dr. Burdette Goyette",
-      "SuperOffice:2": "True"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "sequi",
-      "ExtraFields2": "vel"
-    },
-    "CustomFields": {
-      "CustomFields1": "molestiae",
-      "CustomFields2": "at"
-    },
-    "PublishEventDate": "2005-12-29T18:28:50.1724114+01:00",
-    "PublishTo": "1999-08-18T18:28:50.1724114+02:00",
-    "PublishFrom": "2004-10-30T18:28:50.1724114+02:00",
-    "IsPublished": false,
-    "VisibleFor": [
-      {},
-      {}
-    ]
-  }
+  "SaleEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "illum",
-  "2": "dolor"
+  "1": "ut",
+  "2": "voluptates"
 }
 ```

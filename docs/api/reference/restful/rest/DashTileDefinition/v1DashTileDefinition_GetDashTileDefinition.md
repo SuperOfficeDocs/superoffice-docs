@@ -1,6 +1,6 @@
 ---
 title: GET DashTileDefinition/{id}
-id: v1DashTileDefinition_GetDashTileDefinition
+uid: v1DashTileDefinition_GetDashTileDefinition
 ---
 
 # GET DashTileDefinition/{id}
@@ -11,11 +11,17 @@ GET /api/v1/DashTileDefinition/{id}
 
 Gets a DashTileDefinition object.
 
+
 Calls the Dash agent service GetDashTileDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashTileDefinition to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDashTileDefinition.
 ```http
 GET /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-DashTileDefinition entity with API _Links added.
+DashTileDefinition found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DashTileDefinition found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,12 +78,13 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/DashTileDefinition/{id}
@@ -86,41 +93,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 8,
-  "Name": "Wisoky, Rippin and Stiedemann",
-  "Description": "De-engineered executive artificial intelligence",
-  "DefaultHeight": 91,
-  "DefaultWidth": 156,
+  "DashboardTileDefinitionId": 951,
+  "Name": "Runolfsdottir-Morar",
+  "Description": "Profound 6th generation portal",
+  "DefaultHeight": 303,
+  "DefaultWidth": 430,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ullrich, Turner and Parker",
-  "SelectionId": 673,
+  "EntityName": "Rogahn Group",
+  "SelectionId": 401,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequuntur",
+  "CurrencyCode": "cumque",
   "Measure": "Average",
-  "MeasureField": "cum",
-  "SortBy": "libero",
-  "LayoutConfig": "quis",
-  "SecondarySelectionId": 319,
-  "MeasureByField": "sequi",
-  "ProviderName": "Fahey, Mante and Leannon",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MeasureField": "iusto",
+  "SortBy": "quis",
+  "LayoutConfig": "perferendis",
+  "SecondarySelectionId": 43,
+  "MeasureByField": "commodi",
+  "Usage": "Dashboard",
+  "ProviderName": "Beahan-Bergstrom",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 207
     }
   },
   "_Links": {

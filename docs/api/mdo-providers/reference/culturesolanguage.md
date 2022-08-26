@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "culturesolanguage"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "culturesolanguage" MDO List
-
 List of SuperOffice cultures with old-style SO Culture name in ExtraInfo.
 ( 1031, "German","GE" )
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CultureSoLanguageProvider">CultureSoLanguageProvider</see> class.
 The name of the MDO list is 'culturesolanguage'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("culturesolanguage", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,14 +57,19 @@ foreach (var item in listProvider.RootItems) {
 |1035|Finnish ||FI|
 |1036|French ||FR|
 |1031|German ||GE|
+|2055|German ||CH|
 |1040|Italian ||IT|
 |1041|Japanese ||JP|
+|1042|Korean ||KO|
 |1044|Norwegian, Bokmål ||NO|
 |1045|Polish ||PL|
+|1046|Portuguese ||BR|
 |1049|Russian ||RU|
 |1034|Spanish ||SP|
 |1053|Swedish ||SW|
 |1058|Ukrainian ||UK|
+|1066|Vietnamese ||VI|
+
 
 ## Related MDO Lists
 

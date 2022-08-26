@@ -17,6 +17,7 @@ Updates the existing BlobEntity or creates a new BlobEntity if the id parameter 
 
 **Returns:** New or updated BlobEntity
 
+
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,8 +50,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
      <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
      <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-     <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</BLOB:CreatedDate>
-     <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</BLOB:UpdatedDate>
+     <BLOB:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</BLOB:CreatedDate>
+     <BLOB:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</BLOB:UpdatedDate>
      <BLOB:CreatedBy xsi:type="BLOB:Associate">
       <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
       <BLOB:Name xsi:type="xsd:string"></BLOB:Name>
@@ -88,6 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveBlobEntity Response
 
 ```xml
@@ -110,8 +112,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
     <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
     <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-    <BLOB:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</BLOB:CreatedDate>
-    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</BLOB:UpdatedDate>
+    <BLOB:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</BLOB:CreatedDate>
+    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</BLOB:UpdatedDate>
     <BLOB:CreatedBy xsi:type="BLOB:Associate">
      <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
      <BLOB:Name xsi:type="xsd:string"></BLOB:Name>
@@ -147,3 +149,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

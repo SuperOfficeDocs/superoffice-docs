@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Headings
-id: v1DocumentTemplateList_GetDocumentTemplateEntityHeadingsForListItem
+uid: v1DocumentTemplateList_GetDocumentTemplateEntityHeadingsForListItem
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 
 Gets headings for the DocumentTemplateEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Heaney, Considine and Langworth",
-    "ToolTip": "Voluptate id sed tempora rerum deleniti.",
-    "Deleted": true,
-    "Rank": 681,
-    "Type": "aut",
-    "ColorBlock": 255,
-    "IconHint": "voluptatem",
+    "Id": 455,
+    "Name": "Buckridge-Muller",
+    "ToolTip": "Odio quia hic qui ut sed qui.",
+    "Deleted": false,
+    "Rank": 108,
+    "Type": "eius",
+    "ColorBlock": 614,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2002-03-09T18:25:51.8394862+01:00",
+    "LastChanged": "2015-06-16T11:10:54.292897+02:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Gerlach LLC",
-        "ToolTip": "Labore blanditiis.",
+        "Id": 918,
+        "Name": "Hermann, Jewess and Gislason",
+        "ToolTip": "Quam ut inventore distinctio.",
         "Deleted": false,
-        "Rank": 499,
-        "Type": "quis",
-        "ColorBlock": 454,
-        "IconHint": "amet",
+        "Rank": 367,
+        "Type": "molestiae",
+        "ColorBlock": 722,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2019-12-25T18:25:51.8404919+01:00",
+        "LastChanged": "2010-08-01T11:10:54.292897+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quaerat",
-        "Hidden": true,
-        "FullName": "Eliza Goodwin",
-        "TableRight": {},
+        "ExtraInfo": "provident",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Miss Katlyn Jakubowski",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 545
+            "FieldLength": 830
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "quidem",
-    "Hidden": true,
-    "FullName": "Gust Reilly",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "aut",
+    "StyleHint": "quisquam",
+    "Hidden": false,
+    "FullName": "Ms. Kim Duncan Cremin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 902
       }
     }
   }

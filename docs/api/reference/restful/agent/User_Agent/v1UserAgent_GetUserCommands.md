@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetUserCommands
-id: v1UserAgent_GetUserCommands
+uid: v1UserAgent_GetUserCommands
 ---
 
 # POST Agents/User/GetUserCommands
@@ -11,7 +11,16 @@ POST /api/v1/Agents/User/GetUserCommands
 
 Get registered custom commands for User
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,15 +36,18 @@ Get registered custom commands for User
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-The User entity.
+The User entity. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | SuperOffice User, with login credentials and an associated person. <br /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,66 +66,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "User": {
-    "AssociateId": 832,
-    "Name": "Jacobi, Smith and Considine",
-    "Rank": 578,
-    "Tooltip": "libero",
-    "LicenseOwners": [
-      {},
-      {}
-    ],
-    "Role": {},
-    "UserGroup": {},
-    "OtherGroups": [
-      {},
-      {}
-    ],
-    "Person": {},
-    "Deleted": false,
-    "Lastlogin": "2004-03-02T18:28:50.5594416+01:00",
-    "Lastlogout": "1995-03-01T18:28:50.5594416+01:00",
-    "EjUserId": 77,
-    "RequestSignature": "sunt",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": true,
-    "Credentials": [
-      {},
-      {}
-    ],
-    "UserName": "Jones-Emmerich",
-    "TicketCategories": [
-      {},
-      {}
-    ],
-    "NickName": "Mohr, Smith and Weimann",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "qui",
-      "ExtraFields2": "iure"
-    },
-    "CustomFields": {
-      "CustomFields1": "harum",
-      "CustomFields2": "magnam"
-    },
-    "PostSaveCommands": [
-      {},
-      {}
-    ]
-  }
+  "User": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -121,24 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang Inc and Sons",
-    "DisplayName": "Shanahan-Kunde",
-    "Description": "Multi-lateral zero defect frame",
-    "ToolTip": "Ex dolor et.",
+    "Name": "Bayer Group",
+    "DisplayName": "Bartoletti, Dietrich and Davis",
+    "Description": "Phased eco-centric parallelism",
+    "ToolTip": "Iusto corporis vel culpa aut impedit consequatur et.",
     "Actions": "Implicit",
-    "ActionData": "quasi",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActionData": "nisi",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 237
       }
     }
   }

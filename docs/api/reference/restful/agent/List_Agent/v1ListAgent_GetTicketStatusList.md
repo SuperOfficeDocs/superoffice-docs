@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTicketStatusList
-id: v1ListAgent_GetTicketStatusList
+uid: v1ListAgent_GetTicketStatusList
 ---
 
 # POST Agents/List/GetTicketStatusList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketStatusList
 
 Gets an array of TicketStatusEntity objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of TicketStatusEntity objects.
 ```http
 POST /api/v1/Agents/List/GetTicketStatusList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetTicketStatusList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ticketStatusEntityIds
+## Request Body: ticketStatusEntityIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,7 +70,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTicketStatusList
@@ -68,31 +79,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 834,
-    "Name": "Bednar Inc and Sons",
+    "TicketStatusId": 459,
+    "Name": "Gleason-Gislason",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
+    "NoEmailReopen": false,
     "IsDefault": false,
-    "UsedInQueue": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UsedInQueue": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldLength": 74
       }
     }
   }

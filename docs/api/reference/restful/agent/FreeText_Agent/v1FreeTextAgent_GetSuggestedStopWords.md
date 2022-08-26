@@ -1,6 +1,6 @@
 ---
 title: POST Agents/FreeText/GetSuggestedStopWords
-id: v1FreeTextAgent_GetSuggestedStopWords
+uid: v1FreeTextAgent_GetSuggestedStopWords
 ---
 
 # POST Agents/FreeText/GetSuggestedStopWords
@@ -11,6 +11,12 @@ POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 
 Returns the top used words in the freetext index table, sorted as most used first
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the top used words in the freetext index table, sorted as most used firs
 ```http
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/FreeText/GetSuggestedStopWords?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CountWords
+CountWords 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CountWords | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,19 +78,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 467
+  "CountWords": 287
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,59 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Bruen Inc and Sons",
-    "ToolTip": "Nam voluptas qui aut.",
+    "Id": 802,
+    "Name": "Hodkiewicz, Osinski and Jaskolski",
+    "ToolTip": "Nihil tenetur eligendi sit delectus sit rerum.",
     "Deleted": true,
-    "Rank": 38,
-    "Type": "quia",
+    "Rank": 8,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Legros-Ferry",
-        "ToolTip": "Aperiam nisi animi omnis ut voluptatem aut.",
-        "Deleted": true,
-        "Rank": 178,
-        "Type": "sequi",
+        "Id": 353,
+        "Name": "Franecki Inc and Sons",
+        "ToolTip": "Veritatis enim a.",
+        "Deleted": false,
+        "Rank": 575,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 512,
-        "ExtraInfo": "nihil",
-        "StyleHint": "sunt",
-        "FullName": "Wellington Kemmer",
-        "TableRight": {},
+        "IconHint": "et",
+        "ColorBlock": 99,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "voluptatem",
+        "FullName": "Kristopher Gutmann",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "brand next-generation e-business"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 614
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 728,
-    "ExtraInfo": "aut",
-    "StyleHint": "illum",
-    "FullName": "Evangeline Nienow",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "maiores",
+    "ColorBlock": 517,
+    "ExtraInfo": "autem",
+    "StyleHint": "corrupti",
+    "FullName": "Newton Corwin Jr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 91
       }
     }
   }

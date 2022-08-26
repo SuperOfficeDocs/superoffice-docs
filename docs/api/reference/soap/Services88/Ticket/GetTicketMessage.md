@@ -17,6 +17,7 @@ Gets a TicketMessage object.
 
 **Returns:** TicketMessage
 
+
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTicketMessage Response
 
 ```xml
@@ -65,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:53Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
     <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -80,11 +82,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:TicketMessageHeader xsi:type="Ticket:TicketMessageHeader">
       <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
       <Ticket:Value xsi:type="xsd:string"></Ticket:Value>
+      <Ticket:StdItem xsi:type="Ticket:MessageHeaderStdItem">None</Ticket:StdItem>
+      <Ticket:StdItemCol xsi:type="Ticket:MessageHeaderStdItemCol">None</Ticket:StdItemCol>
      </Ticket:TicketMessageHeader>
     </Ticket:MessageHeaders>
+    <Ticket:Language xsi:type="xsd:string"></Ticket:Language>
+    <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
+    <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
+    <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
    </Ticket:Response>
   </Ticket:GetTicketMessageResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

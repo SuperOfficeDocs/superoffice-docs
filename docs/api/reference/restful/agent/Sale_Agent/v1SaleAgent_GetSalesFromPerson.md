@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSalesFromPerson
-id: v1SaleAgent_GetSalesFromPerson
+uid: v1SaleAgent_GetSalesFromPerson
 ---
 
 # POST Agents/Sale/GetSalesFromPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSalesFromPerson
 
 Returns all sales for the person provided.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all sales for the person provided.
 ```http
 POST /api/v1/Agents/Sale/GetSalesFromPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Sale/GetSalesFromPerson?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, OnlyOpenSales
+PersonId, OnlyOpenSales 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | OnlyOpenSales | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -82,20 +92,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 1000,
+  "PersonId": 163,
   "OnlyOpenSales": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -103,43 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Goyette, Sanford and Rowe",
-    "SaleDate": "2008-07-30T18:28:50.1834417+02:00",
-    "SaleId": 848,
-    "Probability": 246,
-    "Title": "nobis",
-    "Amount": 28024.228,
-    "Currency": "porro",
-    "ProjectName": "Pfeffer, Cassin and Keeling",
-    "AssociateFullName": "Laury Schultz V",
-    "Description": "Devolved multi-state synergy",
+    "ContactName": "Schoen-Roob",
+    "SaleDate": "2012-06-10T11:10:27.8590075+02:00",
+    "SaleId": 50,
+    "Probability": 650,
+    "Title": "earum",
+    "Amount": 5672.54,
+    "Currency": "enim",
+    "ProjectName": "Altenwerth Group",
+    "AssociateFullName": "Yazmin Kiehn",
+    "Description": "Ergonomic content-based leverage",
     "Status": "Lost",
-    "WeightedAmount": 29506.61,
-    "ProjectId": 352,
-    "EarningPercent": 25711.336,
-    "Earning": 23711.844,
-    "ContactId": 281,
-    "AssociateId": 100,
-    "PersonId": 754,
-    "SaleTypeId": 603,
-    "SaleTypeName": "Raynor, Denesik and Vandervort",
-    "PersonFullName": "Javon Marquardt",
+    "WeightedAmount": 18622.228,
+    "ProjectId": 209,
+    "EarningPercent": 7035.83,
+    "Earning": 9521.092,
+    "ContactId": 189,
+    "AssociateId": 204,
+    "PersonId": 420,
+    "SaleTypeId": 596,
+    "SaleTypeName": "Botsford, DuBuque and Senger",
+    "PersonFullName": "Eden Heidenreich",
     "Completed": "Completed",
-    "ActiveErpLinks": 980,
-    "NextDueDate": "2001-04-24T18:28:50.1834417+02:00",
-    "Number": "871736",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 620,
+    "NextDueDate": "2017-06-22T11:10:27.8590075+02:00",
+    "Number": "883485",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldLength": 114
       }
     }
   }

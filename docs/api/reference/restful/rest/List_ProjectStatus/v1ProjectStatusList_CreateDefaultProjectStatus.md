@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectStatus/Items/Default
-id: v1ProjectStatusList_CreateDefaultProjectStatus
+uid: v1ProjectStatusList_CreateDefaultProjectStatus
 ---
 
 # GET List/ProjectStatus/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/ProjectStatus/Items/Default
 ```
 
 Gets a default ProjectStatus list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default ProjectStatus list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +53,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectStatus/Items/Default
@@ -57,29 +62,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Kassulke LLC",
-  "Tooltip": "vitae",
+  "Id": 629,
+  "Name": "Tillman LLC",
+  "Tooltip": "nostrum",
   "Deleted": true,
-  "UdListDefinitionId": 8,
-  "Rank": 381,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 427,
+  "Rank": 593,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldLength": 458
     }
   }
 }

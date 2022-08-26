@@ -17,6 +17,7 @@ Get duplicates (exact or similar in the database) based on the name
 
 **Returns:** Any records matching the specified name
 
+
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDuplicates Response
 
 ```xml
@@ -77,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

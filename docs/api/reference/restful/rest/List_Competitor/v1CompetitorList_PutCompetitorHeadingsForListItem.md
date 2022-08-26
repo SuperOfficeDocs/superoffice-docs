@@ -1,6 +1,6 @@
 ---
 title: PUT List/Competitor/Items/{id}/Headings
-id: v1CompetitorList_PutCompetitorHeadingsForListItem
+uid: v1CompetitorList_PutCompetitorHeadingsForListItem
 ---
 
 # PUT List/Competitor/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 
 Saves headings for the Competitor list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Mertz, Hirthe and Boyle",
-    "ToolTip": "Aut id.",
+    "Id": 613,
+    "Name": "Marks LLC",
+    "ToolTip": "Inventore repellendus unde.",
     "Deleted": false,
-    "Rank": 954,
-    "Type": "id",
-    "ColorBlock": 446,
-    "IconHint": "sed",
+    "Rank": 394,
+    "Type": "et",
+    "ColorBlock": 783,
+    "IconHint": "quisquam",
     "Selected": false,
-    "LastChanged": "2012-11-01T18:25:51.6552946+01:00",
+    "LastChanged": "2002-03-28T11:10:53.9666938+01:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Zemlak, Armstrong and Windler",
-        "ToolTip": "Minus nesciunt omnis praesentium quidem eum.",
+        "Id": 601,
+        "Name": "McGlynn Group",
+        "ToolTip": "Eos mollitia modi soluta distinctio ad earum.",
         "Deleted": true,
-        "Rank": 167,
-        "Type": "eveniet",
-        "ColorBlock": 373,
-        "IconHint": "molestiae",
+        "Rank": 63,
+        "Type": "qui",
+        "ColorBlock": 960,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2000-02-03T18:25:51.6562946+01:00",
+        "LastChanged": "1996-06-24T11:10:53.9666938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Daisy Ondricka"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Celestine Hansen"
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "laboriosam",
-    "Hidden": true,
-    "FullName": "Jerad Little"
+    "ExtraInfo": "praesentium",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Mark Davis"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "King Inc and Sons",
-    "ToolTip": "Quos aut ducimus.",
+    "Id": 613,
+    "Name": "Heaney, Wisozk and Farrell",
+    "ToolTip": "Quis aspernatur quas adipisci et.",
     "Deleted": false,
-    "Rank": 261,
-    "Type": "mollitia",
-    "ColorBlock": 407,
-    "IconHint": "hic",
+    "Rank": 739,
+    "Type": "sapiente",
+    "ColorBlock": 894,
+    "IconHint": "explicabo",
     "Selected": true,
-    "LastChanged": "2008-05-23T18:25:51.6572948+02:00",
+    "LastChanged": "2001-11-05T11:10:53.9681825+01:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Lemke, Emard and Walker",
-        "ToolTip": "Nostrum fugit aperiam et qui provident.",
+        "Id": 117,
+        "Name": "Heller Group",
+        "ToolTip": "Accusantium et eveniet.",
         "Deleted": false,
-        "Rank": 447,
-        "Type": "voluptatem",
-        "ColorBlock": 446,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2005-07-24T18:25:51.6572948+02:00",
+        "Rank": 308,
+        "Type": "sint",
+        "ColorBlock": 326,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2013-07-01T11:10:53.9692002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Dr. Vena Haley",
-        "TableRight": {},
+        "ExtraInfo": "a",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Hilton Maribel Douglas III",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 568
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "nihil",
+    "ExtraInfo": "eos",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Carlotta Abshire",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Lawrence Hodkiewicz",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 201
       }
     }
   }

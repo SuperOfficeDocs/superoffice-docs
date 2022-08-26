@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/GetPreviewMailingHeader
-id: v1MarketingAgent_GetPreviewMailingHeader
+uid: v1MarketingAgent_GetPreviewMailingHeader
 ---
 
 # POST Agents/Marketing/GetPreviewMailingHeader
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 
 Get a shipment from its shipment id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a shipment from its shipment id
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ShipmentId
+ShipmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ShipmentId | int32 |  |
 
-## Response: object
 
-A shipment with information intended for previewing it.
+## Response: 
 
-Carrier object for PreviewMailingHeader.
-Services for the PreviewMailingHeader Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,52 +81,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 763
+  "ShipmentId": 147
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2005-01-11T18:28:49.4700876+01:00",
+  "StartDate": "2016-09-07T11:10:27.294453+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 692,
-  "ShipmentDescription": "Right-sized zero tolerance help-desk",
-  "FromAddress": "repudiandae",
-  "PersonId": 774,
-  "PersonFullName": "Reinhold Padberg",
-  "ShipmentType": "et",
-  "MessageId": 150,
-  "MessageSubject": "quaerat",
-  "DocumentMessageId": 609,
-  "NumSent": 971,
-  "NumOpened": 414,
-  "NumBounced": 686,
-  "NumClicks": 838,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ShipmentId": 286,
+  "ShipmentDescription": "Profound mission-critical database",
+  "FromAddress": "illum",
+  "PersonId": 396,
+  "PersonFullName": "Dr. Santiago Keely Kirlin",
+  "ShipmentType": "ut",
+  "MessageId": 606,
+  "MessageSubject": "deleniti",
+  "DocumentMessageId": 378,
+  "NumSent": 673,
+  "NumOpened": 445,
+  "NumBounced": 530,
+  "NumClicks": 585,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

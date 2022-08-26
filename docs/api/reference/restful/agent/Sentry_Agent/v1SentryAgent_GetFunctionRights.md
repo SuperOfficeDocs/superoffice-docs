@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sentry/GetFunctionRights
-id: v1SentryAgent_GetFunctionRights
+uid: v1SentryAgent_GetFunctionRights
 ---
 
 # POST Agents/Sentry/GetFunctionRights
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sentry/GetFunctionRights
 
 Get a string array of all functions rights for the role of the current associate.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a string array of all functions rights for the role of the current associate
 ```http
 POST /api/v1/Agents/Sentry/GetFunctionRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Sentry/GetFunctionRights?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,7 +52,8 @@ POST /api/v1/Agents/Sentry/GetFunctionRights?$select=name,department,category/id
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sentry/GetFunctionRights
@@ -51,12 +62,14 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dolores",
-  "aperiam"
+  "adipisci",
+  "officia"
 ]
 ```

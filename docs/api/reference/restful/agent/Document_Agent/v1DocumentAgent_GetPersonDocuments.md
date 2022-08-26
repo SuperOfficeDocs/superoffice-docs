@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPersonDocuments
-id: v1DocumentAgent_GetPersonDocuments
+uid: v1DocumentAgent_GetPersonDocuments
 ---
 
 # POST Agents/Document/GetPersonDocuments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocuments
 
 Get all documents that are linked to the person.
 
+
 I.e. the documents that are listed in the person dialog.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ I.e. the documents that are listed in the person dialog.
 ```http
 POST /api/v1/Agents/Document/GetPersonDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Document/GetPersonDocuments?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,22 +83,26 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPersonDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 966
+  "PersonId": 144
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,36 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 772,
-    "Attention": "aut",
-    "Header": "ipsum",
-    "Name": "Cruickshank, Berge and Sauer",
-    "OurRef": "eos",
-    "YourRef": "exercitationem",
-    "Description": "Digitized zero defect workforce",
-    "DocumentTemplate": "minima",
-    "IsPublished": true,
-    "PersonId": 496,
-    "PersonFullName": "Katlynn Orn",
-    "AssociateFullName": "Mr. Judd Wolff",
-    "ContactId": 642,
-    "ContactName": "Fadel Inc and Sons",
-    "ProjectId": 109,
-    "ProjectName": "Prosacco-Zemlak",
-    "AssociateId": 697,
-    "Snum": 812,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 348,
+    "Attention": "harum",
+    "Header": "atque",
+    "Name": "West, Schmeler and Armstrong",
+    "OurRef": "sit",
+    "YourRef": "animi",
+    "Description": "Visionary multi-state internet solution",
+    "DocumentTemplate": "perspiciatis",
+    "IsPublished": false,
+    "PersonId": 756,
+    "PersonFullName": "Mrs. Kali Antonio Stokes",
+    "AssociateFullName": "Mr. Clare Auer",
+    "ContactId": 272,
+    "ContactName": "Powlowski-Schiller",
+    "ProjectId": 912,
+    "ProjectName": "Bins, Stroman and Sipes",
+    "AssociateId": 43,
+    "Snum": 207,
+    "SaleId": 607,
+    "SaleName": "Beahan Group",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 75
+        "FieldLength": 365
       }
     }
   }

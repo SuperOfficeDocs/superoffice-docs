@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetInstalledLa
 
 Returns the list of all languages installed in this database.
 
+
 **Returns:** Array of installed languages
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetInstalledLanguages Response
 
 ```xml
@@ -76,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

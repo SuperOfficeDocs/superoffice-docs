@@ -1,6 +1,6 @@
 ---
 title: PUT List/{id}/Items/{id}/UserGroups
-id: v1ListItemEntity_SetVisibleForUserGroups
+uid: v1ListItemEntity_SetVisibleForUserGroups
 ---
 
 # PUT List/{id}/Items/{id}/UserGroups
@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update User groups that this list item is visible for
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userGroups
+## Request Body: userGroups  
 
-The selectable user groups.
+The selectable user groups. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,10 @@ The selectable user groups.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -80,7 +90,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
@@ -91,45 +101,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Hauck, Baumbach and Swaniawski",
-    "ToolTip": "Non tempore amet delectus.",
+    "Id": 220,
+    "Name": "Pouros LLC",
+    "ToolTip": "Cum tempora harum quos voluptas et ut non.",
     "Deleted": false,
-    "Rank": 152,
-    "Type": "qui",
-    "ColorBlock": 534,
-    "IconHint": "voluptas",
+    "Rank": 69,
+    "Type": "nihil",
+    "ColorBlock": 969,
+    "IconHint": "quidem",
     "Selected": true,
-    "LastChanged": "2014-08-24T18:25:51.5782944+02:00",
+    "LastChanged": "2015-03-30T11:10:53.8882129+02:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Cummerata, Hackett and Friesen",
-        "ToolTip": "Alias ipsam.",
-        "Deleted": true,
-        "Rank": 244,
-        "Type": "ad",
-        "ColorBlock": 253,
-        "IconHint": "aut",
+        "Id": 934,
+        "Name": "Rodriguez-Lesch",
+        "ToolTip": "Rerum libero ut saepe rem.",
+        "Deleted": false,
+        "Rank": 412,
+        "Type": "magnam",
+        "ColorBlock": 770,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "1999-03-20T18:25:51.5782944+01:00",
+        "LastChanged": "2001-03-03T11:10:53.8882129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "animi",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Quincy Hammes"
+        "FullName": "Tanya Wiegand"
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "impedit",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Kara Schinner"
+    "FullName": "Abelardo Morar PhD"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -137,65 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 783,
-    "Name": "Ebert, Corkery and Keeling",
-    "ToolTip": "Sit omnis mollitia laboriosam quos.",
+    "Id": 191,
+    "Name": "Funk Group",
+    "ToolTip": "Velit sed hic voluptatum maxime.",
     "Deleted": true,
-    "Rank": 3,
-    "Type": "et",
-    "ColorBlock": 354,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "2020-01-19T18:25:51.5792947+01:00",
+    "Rank": 544,
+    "Type": "illo",
+    "ColorBlock": 778,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2011-02-06T11:10:53.8892151+01:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Kovacek Inc and Sons",
-        "ToolTip": "Omnis molestiae dolore praesentium veniam odio dolorum.",
-        "Deleted": true,
-        "Rank": 386,
-        "Type": "porro",
-        "ColorBlock": 425,
-        "IconHint": "explicabo",
-        "Selected": false,
-        "LastChanged": "2009-12-06T18:25:51.5792947+01:00",
+        "Id": 137,
+        "Name": "Pagac-Thiel",
+        "ToolTip": "Eum exercitationem perspiciatis.",
+        "Deleted": false,
+        "Rank": 520,
+        "Type": "iusto",
+        "ColorBlock": 374,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2008-07-17T11:10:53.8892151+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "hic",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Tamia Harris",
-        "TableRight": {},
+        "FullName": "Royal Kemmer DVM",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 94
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
+    "ExtraInfo": "architecto",
     "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Margret Quitzon",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "envisioneer customized metrics"
-    },
+    "Hidden": false,
+    "FullName": "Assunta Thomas Lesch I",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldLength": 962
       }
     }
   }

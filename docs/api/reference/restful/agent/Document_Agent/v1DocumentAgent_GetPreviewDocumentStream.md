@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPreviewDocumentStream
-id: v1DocumentAgent_GetPreviewDocumentStream
+uid: v1DocumentAgent_GetPreviewDocumentStream
 ---
 
 # POST Agents/Document/GetPreviewDocumentStream
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPreviewDocumentStream
 
 Get the preview version of the document content as a stream.
 
+
 Retrieves a sanitized version if possible
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Retrieves a sanitized version if possible
 ```http
 POST /api/v1/Agents/Document/GetPreviewDocumentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/Document/GetPreviewDocumentStream?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response: object
 
-Document data intended for preview purposes
+## Response: 
 
-Carrier object for DocumentPreview.
-Services for the DocumentPreview Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,41 +72,37 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 723
+  "DocumentId": 544
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Altenwerth-Gerhold",
-  "Type": "voluptas",
-  "Size": 962,
+  "Name": "Morissette, Schuppe and Raynor",
+  "Type": "eum",
+  "Size": 906,
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "aggregate collaborative action-items"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

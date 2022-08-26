@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/GetHistoriesByName
-id: v1ViewStateAgent_GetHistoriesByName
+uid: v1ViewStateAgent_GetHistoriesByName
 ---
 
 # POST Agents/ViewState/GetHistoriesByName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ViewState/GetHistoriesByName
 
 Returns the named history list that belong to the currently logged in user
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the named history list that belong to the currently logged in user
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/ViewState/GetHistoriesByName?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryName
+HistoryName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,19 +73,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Orn-King"
+  "HistoryName": "Blanda, Bode and Deckow"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,25 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 744,
-    "Id": 977,
-    "HistoryName": "Connelly LLC",
-    "HistoryId": 523,
-    "AssociateId": 701,
-    "Name": "Gutmann LLC",
-    "ItemInfo": "unde",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "redefine scalable users"
-    },
+    "Rank": 461,
+    "Id": 168,
+    "HistoryName": "Spencer LLC",
+    "HistoryId": 278,
+    "AssociateId": 369,
+    "Name": "Gaylord-Runte",
+    "ItemInfo": "iure",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 171
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/AddFromListName
-id: v1ListAgent_AddFromListName
+uid: v1ListAgent_AddFromListName
 ---
 
 # POST Agents/List/AddFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/AddFromListName
 
 Save a new list item for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save a new list item for the specified list defintion
 ```http
 POST /api/v1/Agents/List/AddFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/List/AddFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, Item
+UdListDefinitionName, Item 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
-| Item |  | The list item entity contains generic list item information <br /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Item |  | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,51 +73,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kuphal LLC",
-  "Item": {
-    "Id": 193,
-    "Name": "Vandervort-Shields",
-    "Tooltip": "iure",
-    "Deleted": false,
-    "UdListDefinitionId": 524,
-    "Rank": 78
-  }
+  "UdListDefinitionName": "Mayer-McDermott",
+  "Item": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Stiedemann, Mayer and Schultz",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "UdListDefinitionId": 61,
-  "Rank": 94,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 687,
+  "Name": "Runolfsson, Pagac and VonRueden",
+  "Tooltip": "fuga",
+  "Deleted": true,
+  "UdListDefinitionId": 627,
+  "Rank": 102,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 280
     }
   }
 }

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "service_auth"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# service\_auth Table (482)
+# service\_auth Table (483)
 
 Authentication for a service (imap, smtp...)
 
@@ -36,6 +36,7 @@ Authentication for a service (imap, smtp...)
 |auth\_status|The status of this authentication entry|Enum [ServiceAuthStatus](enums/serviceauthstatus.md)|&#x25CF;|
 |encryptedCheck|Encrypted hash checksum|String(254)| |
 
+
 ![service_auth table relationship diagram](./media/service_auth.png)
 
 [!include[details](./includes/service-auth.md)]
@@ -53,6 +54,7 @@ Authentication for a service (imap, smtp...)
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[email\_account](email-account.md)  |Email account information |
 
+
 ## Replication Flags
 
 * None
@@ -60,3 +62,4 @@ Authentication for a service (imap, smtp...)
 ## Security Flags
 
 * No access control via user's Role.
+

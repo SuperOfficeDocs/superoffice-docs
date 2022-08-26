@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleTypeQuoteAttachment"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,20 +24,20 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"saleTypeQuoteAttachment"|Documents|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |defaultIncluded|bool|Include: If set, then this attachment will be included by default in the quote.| x |
 |saleTypeId|int|Sale type: Database ID of sale type| x |
 |saleTypeQuoteAttachmentId|int|STQATTach. Id: Database ID of SaleTypeQuoteAttachment record| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|document/icon| *None* |Category: Displays the icon for an activity type| x |
+|document/icon|string|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |document/time| *None* |Time: Time|  |
 |document/type|listAny|Type: Displays the type of an activity| x |
@@ -51,8 +51,10 @@ This is the archive Provider for the Product Archive is SoAdmin.
 |document/userGroup|userGroup|User group : The user group that owns the record| x |
 |document/who| *None* |Who: Contact and/or company|  |
 |document/updatedBy|associate|Updated by: The user who last updated the data| x |
+|document/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |document/registeredBy|associate|Registered by: The user who registered the data| x |
+|document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |document/documentId|int|Document ID: Database ID of document record| x |
 |document/keywords|string|Keywords | x |
@@ -115,11 +117,14 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/yourref,document/associate/firstName
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/associate/isActive,document/associate/personEmail,document/ourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

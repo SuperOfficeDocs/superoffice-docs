@@ -1,6 +1,6 @@
 ---
 title: PUT List/PaymentTerm/Items
-id: v1PaymentTermsList_PutAllPaymentTerm
+uid: v1PaymentTermsList_PutAllPaymentTerm
 ---
 
 # PUT List/PaymentTerm/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/PaymentTerm/Items
 ```
 
 Update the PaymentTerm list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the PaymentTerm list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated PaymentTerm.
+All the updated PaymentTerm. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated PaymentTerm.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "DuBuque, Vandervort and Carter",
-    "Tooltip": "et",
+    "Id": 261,
+    "Name": "Gerhold LLC",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 73,
-    "Rank": 628
+    "UdListDefinitionId": 830,
+    "Rank": 253
   },
   {
-    "Id": 767,
-    "Name": "DuBuque, Vandervort and Carter",
-    "Tooltip": "et",
+    "Id": 261,
+    "Name": "Gerhold LLC",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 73,
-    "Rank": 628
+    "UdListDefinitionId": 830,
+    "Rank": 253
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Wolf-Ryan",
-    "Tooltip": "ducimus",
+    "Id": 27,
+    "Name": "Sipes, Gutkowski and Kertzmann",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 473,
-    "Rank": 196,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "syndicate efficient e-markets"
-    },
+    "UdListDefinitionId": 504,
+    "Rank": 513,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "transition dynamic functionalities"
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldLength": 769
       }
     }
   }

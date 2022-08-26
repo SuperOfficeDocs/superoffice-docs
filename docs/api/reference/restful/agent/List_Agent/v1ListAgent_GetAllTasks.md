@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllTasks
-id: v1ListAgent_GetAllTasks
+uid: v1ListAgent_GetAllTasks
 ---
 
 # POST Agents/List/GetAllTasks
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllTasks
 
 Returns all appointment tasks
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all appointment tasks
 ```http
 POST /api/v1/Agents/List/GetAllTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetAllTasks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,13 +79,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,37 +93,33 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 907,
-    "Value": "suscipit",
+    "TaskListItemId": 412,
+    "Value": "nam",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "non",
-    "Deleted": true,
-    "IntentId": 231,
-    "Rank": 44,
+    "Tooltip": "est",
+    "Deleted": false,
+    "IntentId": 766,
+    "Rank": 729,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

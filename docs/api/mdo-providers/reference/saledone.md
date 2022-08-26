@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "saledone"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "saledone" MDO List
-
 Sale Done status: SaleDone.Done or NotDone.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleDoneProvider">SaleDoneProvider</see> class.
 The name of the MDO list is 'saledone'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saledone", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,6 +50,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|Not done|||
 |2|Completed|||
+
 
 ## Related MDO Lists
 

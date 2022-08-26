@@ -13,9 +13,10 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.GetOwnerOnPe
 
 Get the owner of the person by id.
 
-* **personId:**
+* **personId:** 
 
 **Returns:** Person
+
 
 [WSDL file for Services86/Person](../Services86-Person.md)
 
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetOwnerOnPersonId Response
 
@@ -109,3 +111,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

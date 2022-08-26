@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductVersion"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Version information for code modules. Owner + code module must be unique
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ProductVersion table relationship diagram](./media/ProductVersion.png)
 
 [!include[details](./includes/productversion.md)]
@@ -50,6 +51,7 @@ Version information for code modules. Owner + code module must be unique
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ Version information for code modules. Owner + code module must be unique
 ## Security Flags
 
 * No access control via user's Role.
+

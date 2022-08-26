@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductType/Items/{id}/Headings
-id: v1ProductTypeList_PutProductTypeHeadingsForListItem
+uid: v1ProductTypeList_PutProductTypeHeadingsForListItem
 ---
 
 # PUT List/ProductType/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 
 Saves headings for the ProductType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Frami-Schaden",
-    "ToolTip": "Non minima.",
+    "Id": 660,
+    "Name": "Barton-O'Hara",
+    "ToolTip": "Beatae qui sunt atque aut.",
     "Deleted": false,
-    "Rank": 339,
-    "Type": "ullam",
-    "ColorBlock": 483,
-    "IconHint": "vitae",
+    "Rank": 911,
+    "Type": "doloremque",
+    "ColorBlock": 753,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2004-12-15T18:25:52.0342124+01:00",
+    "LastChanged": "2013-08-17T11:10:54.4569025+02:00",
     "ChildItems": [
       {
-        "Id": 248,
-        "Name": "Zemlak Group",
-        "ToolTip": "Eius eum dolor.",
-        "Deleted": true,
-        "Rank": 109,
-        "Type": "in",
-        "ColorBlock": 920,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1995-02-12T18:25:52.0342124+01:00",
+        "Id": 692,
+        "Name": "Gorczany-Mitchell",
+        "ToolTip": "Distinctio nemo quibusdam natus id totam.",
+        "Deleted": false,
+        "Rank": 744,
+        "Type": "quisquam",
+        "ColorBlock": 872,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2009-07-29T11:10:54.4569025+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "eos",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Selina Volkman"
+        "FullName": "Mr. Trenton Konopelski"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "et",
+    "ExtraInfo": "sed",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Justine Herzog"
+    "FullName": "Jo Orn"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Zboncak LLC",
-    "ToolTip": "Voluptate sunt dolores saepe id dolorem.",
+    "Id": 336,
+    "Name": "Kerluke Inc and Sons",
+    "ToolTip": "Quia modi labore quidem ut cumque et voluptatem.",
     "Deleted": false,
-    "Rank": 447,
-    "Type": "voluptatum",
-    "ColorBlock": 720,
-    "IconHint": "sit",
+    "Rank": 45,
+    "Type": "aut",
+    "ColorBlock": 4,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2015-09-02T18:25:52.0364717+02:00",
+    "LastChanged": "1995-08-22T11:10:54.4579022+02:00",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Hickle LLC",
-        "ToolTip": "Excepturi sunt illum.",
-        "Deleted": true,
-        "Rank": 906,
-        "Type": "dolores",
-        "ColorBlock": 259,
-        "IconHint": "consectetur",
-        "Selected": false,
-        "LastChanged": "2020-07-30T18:25:52.0364717+02:00",
+        "Id": 219,
+        "Name": "Wyman Group",
+        "ToolTip": "Qui occaecati esse ipsa veniam.",
+        "Deleted": false,
+        "Rank": 567,
+        "Type": "facere",
+        "ColorBlock": 319,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2013-12-07T11:10:54.4579022+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "aut",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Christa Crist",
-        "TableRight": {},
+        "FullName": "Otho Ward",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 627
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 440
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Hailie Stehr",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Ms. Amari Samir Jenkins Jr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 475
       }
     }
   }

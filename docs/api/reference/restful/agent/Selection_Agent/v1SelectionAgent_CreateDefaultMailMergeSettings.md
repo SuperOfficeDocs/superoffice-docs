@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateDefaultMailMergeSettings
-id: v1SelectionAgent_CreateDefaultMailMergeSettings
+uid: v1SelectionAgent_CreateDefaultMailMergeSettings
 ---
 
 # POST Agents/Selection/CreateDefaultMailMergeSettings
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 
 Set default values into a new MailMergeSettings.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Settings specifying what selection to perform the mailmerge on, what merge document to use etc.
+## Response: 
 
-Carrier object for MailMergeSettings.
-Services for the MailMergeSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,76 +70,49 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 666,
-  "DocumentId": 581,
+  "SelectionId": 60,
+  "DocumentId": 251,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "est",
-  "AlwaysUseCustomAttention": false,
-  "SaveDocument": true,
-  "CustomMailBody": "ab",
-  "TaskEntity": {
-    "ProjectId": 789,
-    "TypeId": 550,
-    "StartDate": "2010-03-17T18:28:50.2124467+01:00",
-    "Duration": 675,
-    "Description": "Intuitive solution-oriented middleware",
-    "PriorityId": 176,
-    "VisibleFor": {},
-    "Completed": "Completed",
-    "OwnerAssociateId": 676,
-    "SingleEntryOnEachCompany": false,
-    "SaleId": 520,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 727
-      }
-    }
-  },
-  "AddCompanyInterest": 346,
-  "AddPersonInterest": 469,
-  "RemoveCompanyInterest": 582,
-  "RemovePersonInterest": 299,
+  "CustomAttention": "assumenda",
+  "AlwaysUseCustomAttention": true,
+  "SaveDocument": false,
+  "CustomMailBody": "corrupti",
+  "TaskEntity": null,
+  "AddCompanyInterest": 556,
+  "AddPersonInterest": 527,
+  "RemoveCompanyInterest": 931,
+  "RemovePersonInterest": 430,
   "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 579,
+  "ProjectId": 144,
   "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "aut",
-  "ExtraInfo": "sunt",
+  "CustomMailSubject": "a",
+  "ExtraInfo": "sed",
   "Synchronous": false,
   "IsTemporarySelection": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 829
     }
   }
 }

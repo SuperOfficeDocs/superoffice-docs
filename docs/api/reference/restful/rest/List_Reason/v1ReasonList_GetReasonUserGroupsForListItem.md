@@ -1,6 +1,6 @@
 ---
 title: GET List/Reason/Items/{id}/UserGroups
-id: v1ReasonList_GetReasonUserGroupsForListItem
+uid: v1ReasonList_GetReasonUserGroupsForListItem
 ---
 
 # GET List/Reason/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Reason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Marks-Sipes",
-    "ToolTip": "Molestiae deleniti excepturi.",
+    "Id": 272,
+    "Name": "O'Conner-Dooley",
+    "ToolTip": "Enim sed ut vitae animi facere.",
     "Deleted": false,
-    "Rank": 239,
-    "Type": "aspernatur",
-    "ColorBlock": 514,
-    "IconHint": "eius",
+    "Rank": 529,
+    "Type": "non",
+    "ColorBlock": 507,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "2010-03-18T18:25:52.1330188+01:00",
+    "LastChanged": "2005-09-07T11:10:54.5499301+02:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Wisozk, Hermann and White",
-        "ToolTip": "Ipsam a.",
+        "Id": 50,
+        "Name": "Mills, Graham and Anderson",
+        "ToolTip": "Recusandae dignissimos aut.",
         "Deleted": false,
-        "Rank": 2,
-        "Type": "assumenda",
-        "ColorBlock": 33,
-        "IconHint": "cumque",
-        "Selected": true,
-        "LastChanged": "2003-10-16T18:25:52.1330188+02:00",
+        "Rank": 516,
+        "Type": "dolorem",
+        "ColorBlock": 971,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2021-12-19T11:10:54.5509324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "ea",
+        "ExtraInfo": "est",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Brandi Murray",
-        "TableRight": {},
+        "FullName": "Sigurd Stracke",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 862
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 3
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Ruthe Murazik",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "ipsam",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Davion Blanda",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 306
+        "FieldLength": 563
       }
     }
   }

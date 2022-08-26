@@ -1,6 +1,6 @@
 ---
 title: GET Document/{id}/Links
-id: v1DocumentEntity_Links
+uid: v1DocumentEntity_Links
 ---
 
 # GET Document/{id}/Links
@@ -11,6 +11,7 @@ GET /api/v1/Document/{id}/Links
 
 OData list of Links under a specific DocumentEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Document/1234/Links?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Document/1234/Links?$top=1000
 * Document/1234/Links?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "Links" archive provider.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=sunt
-GET /api/v1/Document/{id}/Links?$top=738
-GET /api/v1/Document/{id}/Links?$skip=792
+GET /api/v1/Document/{id}/Links?$entities=expedita
+GET /api/v1/Document/{id}/Links?$top=766
+GET /api/v1/Document/{id}/Links?$skip=682
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=earum
+GET /api/v1/Document/{id}/Links?$context=voluptas
 GET /api/v1/Document/{id}/Links?$format=JSON
 GET /api/v1/Document/{id}/Links?$jsonSafe=False
 GET /api/v1/Document/{id}/Links?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,16 +99,17 @@ GET /api/v1/Document/{id}/Links?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +117,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/{id}/Links
@@ -114,27 +126,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vel",
+  "odata.nextLink": "sequi",
   "value": [
     {
-      "PrimaryKey": 3083,
-      "EntityName": "sale",
-      "saleId": 3083,
-      "contactId": 823,
-      "name": "Johnson Inc and Sons"
+      "PrimaryKey": 4195,
+      "EntityName": "person",
+      "personId": 4195,
+      "fullName": "Melvina Treutel"
     },
     {
-      "PrimaryKey": 8623,
-      "EntityName": "sale",
-      "saleId": 8623,
-      "contactId": 1062,
-      "name": "Weissnat Group"
+      "PrimaryKey": 941,
+      "EntityName": "person",
+      "personId": 941,
+      "fullName": "Irving Maggio"
     }
   ]
 }

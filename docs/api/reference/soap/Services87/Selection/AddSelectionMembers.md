@@ -18,6 +18,7 @@ Add selection members to a static selection of type others than contacts.
 
 **Returns:** Returns number of members added to the selection.
 
+
 [WSDL file for Services87/Selection](../Services87-Selection.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddSelectionMembers Response
 
 ```xml
@@ -73,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

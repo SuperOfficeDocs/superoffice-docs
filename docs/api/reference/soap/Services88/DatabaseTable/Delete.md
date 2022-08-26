@@ -12,12 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Delet
 ## Delete
 
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
-<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table where rows should be deleted
 * **iDs:** Primary keys of the rows to be deleted
 
 **Returns:** Summary of results
+
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -54,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Delete Response
 
 ```xml
@@ -89,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

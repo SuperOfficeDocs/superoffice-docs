@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectsFromContact
-id: v1ProjectAgent_GetProjectsFromContact
+uid: v1ProjectAgent_GetProjectsFromContact
 ---
 
 # POST Agents/Project/GetProjectsFromContact
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectsFromContact
 
 Returns all projects where the given contact has projectmembers.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all projects where the given contact has projectmembers.
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Project/GetProjectsFromContact?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,7 +84,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectsFromContact
@@ -84,9 +94,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 34
+  "ContactId": 121
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,36 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 671,
-    "Name": "Kuhn-Deckow",
-    "Description": "Team-oriented zero tolerance core",
+    "ProjectId": 854,
+    "Name": "Walker, Schneider and Schimmel",
+    "Description": "Business-focused executive firmware",
     "URL": "http://www.example.com/",
-    "Type": "modi",
-    "AssociateId": 555,
-    "AssociateFullName": "Arlo Auer Sr.",
-    "TypeId": 569,
-    "Updated": "2012-03-11T18:28:49.7831431+01:00",
-    "StatusId": 243,
-    "Status": "asperiores",
-    "TextId": 463,
-    "PublishTo": "2015-09-16T18:28:49.7831431+02:00",
-    "PublishFrom": "2016-03-05T18:28:49.7831431+01:00",
+    "Type": "quasi",
+    "AssociateId": 235,
+    "AssociateFullName": "Jovany Turcotte",
+    "TypeId": 570,
+    "Updated": "2019-09-09T11:10:27.6214527+02:00",
+    "StatusId": 709,
+    "Status": "eum",
+    "TextId": 565,
+    "PublishTo": "2000-07-22T11:10:27.6214527+02:00",
+    "PublishFrom": "2015-04-18T11:10:27.6214527+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1152145",
-    "ActiveErpLinks": 787,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectNumber": "804638",
+    "ActiveErpLinks": 188,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 862
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 80
       }
     }
   }

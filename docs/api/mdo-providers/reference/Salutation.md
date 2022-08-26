@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "salutation"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "salutation" MDO List
-
 GenericMDOProvider reads MDO lists with default settings
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'salutation'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("salutation", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -45,26 +48,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Bachelor of Law|||
-|2|Bachelor of Medicine|||
-|3|Bachelor of Science|||
 |5|Bedriftsøkonom|||
 |19|Diplomingeniør|||
 |20|Diplomøkonom|||
-|21|Doctor rerum politicarum|||
-|22|Dr. Agric.|||
-|23|Dr. Art.|||
-|24|Dr. H. C.|||
-|25|Dr. Ing.|||
-|26|Dr. Jur.|||
-|27|Dr. Med.|||
-|28|Dr. Med. Vet.|||
-|31|Dr. Philos.|||
-|32|Dr. Polit.|||
-|33|Dr. Scient.|||
-|34|Dr. Techn.|||
-|35|Dr. Theol.|||
-|41|Sivilingeniør|||
+|36|Ingeniør|||
+|42|Siviløkonom|||
+
 
 ## Related MDO Lists
 

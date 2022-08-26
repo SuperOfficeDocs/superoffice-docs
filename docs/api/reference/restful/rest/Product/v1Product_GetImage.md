@@ -1,6 +1,6 @@
 ---
 title: GET Product/{id}/Image
-id: v1Product_GetImage
+uid: v1Product_GetImage
 ---
 
 # GET Product/{id}/Image
@@ -11,12 +11,18 @@ GET /api/v1/Product/{productId}/Image
 
 The product's picture.
 
-The image is returned as stored. If width/height or format is specified, then the image is
+
+The image is returned as stored. If width/height or format is specified, then the image is 
 scaled and converted to the requested type.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
+
 
 ## Query String Parameters
 
@@ -28,11 +34,12 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Product/{productId}/Image?w=956
-GET /api/v1/Product/{productId}/Image?h=640
+GET /api/v1/Product/{productId}/Image?w=540
+GET /api/v1/Product/{productId}/Image?h=710
 GET /api/v1/Product/{productId}/Image?type=unde
 GET /api/v1/Product/{productId}/Image?ifBlank=ClearPixel
 ```
+
 
 ## Request Headers
 
@@ -47,7 +54,10 @@ GET /api/v1/Product/{productId}/Image?ifBlank=ClearPixel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: byte
+
+An image
 
 | Response | Description |
 |----------------|-------------|
@@ -56,14 +66,17 @@ GET /api/v1/Product/{productId}/Image?ifBlank=ClearPixel
 
 Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Product/{productId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 An image

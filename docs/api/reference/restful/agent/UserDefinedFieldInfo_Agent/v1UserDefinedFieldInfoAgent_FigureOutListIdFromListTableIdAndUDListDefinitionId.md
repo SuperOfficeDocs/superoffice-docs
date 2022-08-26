@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
-id: v1UserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId
+uid: v1UserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId
 ---
 
 # POST Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDList
 
 Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDList
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Info
+Info 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <br /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
+| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
+
 
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,58 +61,26 @@ Info
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Info": {
-    "UDefFieldId": 842,
-    "ColumnId": 667,
-    "FieldDefault": "qui",
-    "FieldHeight": 420,
-    "FieldLabel": "et",
-    "FieldLeft": 377,
-    "FieldTop": 439,
-    "FieldType": "Checkbox",
-    "FieldWidth": 937,
-    "FormatMask": "delectus",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 330,
-    "LabelLeft": 234,
-    "LabelTop": 578,
-    "LabelWidth": 776,
-    "LastVersionId": 456,
-    "ListTableId": 253,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 501,
-    "ProgId": "laboriosam",
-    "IsReadOnly": true,
-    "ShortLabel": "nam",
-    "TabOrder": 908,
-    "TextLength": 434,
-    "Tooltip": "et",
-    "UdefIdentity": 513,
-    "UDListDefinitionId": 154,
-    "Justification": "Center",
-    "Version": 122,
-    "TemplateVariableName": "McGlynn Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Morar-Gutmann"
-  }
+  "Info": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-871
+652
 ```

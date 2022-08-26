@@ -11,7 +11,11 @@ Implemented by the <see cref="M:SuperOffice.Services84.IReplicationAgent.SaveCen
 
 ## SaveCentralLicense
 
-* **license:**
+
+
+* **license:** 
+
+
 
 [WSDL file for Services84/Replication](../Services84-Replication.md)
 
@@ -82,6 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveCentralLicense Response
 
 ```xml
@@ -139,3 +144,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

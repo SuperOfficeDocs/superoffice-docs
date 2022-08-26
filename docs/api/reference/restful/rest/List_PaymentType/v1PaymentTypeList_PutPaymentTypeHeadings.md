@@ -1,6 +1,6 @@
 ---
 title: PUT List/PaymentType/Headings
-id: v1PaymentTypeList_PutPaymentTypeHeadings
+uid: v1PaymentTypeList_PutPaymentTypeHeadings
 ---
 
 # PUT List/PaymentType/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/PaymentType/Headings
 
 Saves headings for the PaymentType list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,7 +69,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/PaymentType/Headings
@@ -70,23 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 520,
-    "Name": "Daniel Group",
-    "Tooltip": "sequi",
-    "Deleted": true,
-    "Rank": 117,
-    "UdListDefinitionId": 175
+    "HeadingId": 253,
+    "Name": "Morissette-Murazik",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 94,
+    "UdListDefinitionId": 155
   },
   {
-    "HeadingId": 520,
-    "Name": "Daniel Group",
-    "Tooltip": "sequi",
-    "Deleted": true,
-    "Rank": 117,
-    "UdListDefinitionId": 175
+    "HeadingId": 253,
+    "Name": "Morissette-Murazik",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 94,
+    "UdListDefinitionId": 155
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 61,
-    "Name": "Raynor Inc and Sons",
-    "Tooltip": "temporibus",
+    "HeadingId": 687,
+    "Name": "Johnson, Gleason and Reichert",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "Rank": 86,
-    "UdListDefinitionId": 539,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 141,
+    "UdListDefinitionId": 770,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 978
+        "FieldLength": 303
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetAssociatesDiary
-id: v1AppointmentAgent_GetAssociatesDiary
+uid: v1AppointmentAgent_GetAssociatesDiary
 ---
 
 # POST Agents/Appointment/GetAssociatesDiary
@@ -8,6 +8,14 @@ id: v1AppointmentAgent_GetAssociatesDiary
 ```http
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiary
 ```http
 POST /api/v1/Agents/Appointment/GetAssociatesDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiary?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds, StartTime, EndTime
+AssociateIds, StartTime, EndTime 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +52,10 @@ AssociateIds, StartTime, EndTime
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -105,24 +117,26 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    357,
-    537
+    701,
+    860
   ],
-  "StartTime": "1996-10-19T18:28:47.741845+02:00",
-  "EndTime": "2021-02-07T18:28:47.741845+01:00"
+  "StartTime": "2022-04-04T11:10:25.467522+02:00",
+  "EndTime": "2018-10-23T11:10:25.467522+02:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -130,67 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 486,
-    "StartDate": "1994-09-13T18:28:47.7428458+02:00",
-    "EndDate": "2001-02-15T18:28:47.7428458+01:00",
+    "AppointmentId": 967,
+    "StartDate": "1999-09-09T11:10:25.4685225+02:00",
+    "EndDate": "2017-11-08T11:10:25.4685225+01:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Brown Hudson",
-    "ContactName": "Abbott Inc and Sons",
-    "Description": "Reverse-engineered 4th generation hub",
-    "PersonFullName": "Adan Ward PhD",
-    "PersonId": 421,
-    "ContactId": 926,
-    "ProjectId": 91,
-    "ProjectName": "Fadel, Gerhold and Hamill",
-    "IsPublished": false,
-    "AssociateId": 950,
-    "ColorIndex": 207,
+    "Task": "aut",
+    "AssociateFullName": "Mr. Litzy Moen IV",
+    "ContactName": "Mitchell Inc and Sons",
+    "Description": "Virtual homogeneous ability",
+    "PersonFullName": "Prof. Thurman Ruth Rempel",
+    "PersonId": 989,
+    "ContactId": 774,
+    "ProjectId": 828,
+    "ProjectName": "Waters Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 188,
+    "ColorIndex": 68,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 786,
-    "PriorityName": "Conroy, Bailey and Hackett",
+    "PriorityId": 244,
+    "PriorityName": "Lebsack-Bergnaum",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2021-07-27T18:28:47.7428458+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2005-06-20T11:10:25.4685225+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-06-27T18:28:47.7438447+02:00",
-    "RecurringEndDate": "2001-03-17T18:28:47.7438447+01:00",
-    "MotherId": 633,
-    "AssignedBy": 667,
-    "AssignedByFullName": "Filiberto Paucek",
-    "RejectReason": "",
-    "Location": "provident",
-    "AlarmLeadTime": "non",
-    "SaleId": 878,
-    "SaleName": "Weber, Kiehn and Aufderhar",
-    "AssociateName": "Franecki-Witting",
-    "CreatedDate": "2020-06-04T18:28:47.7438447+02:00",
-    "CreatedBy": "amet",
-    "CreatedByFullName": "Jesus Fritsch",
-    "CreatedByAssociateId": 360,
+    "RecurringStartDate": "2019-04-29T11:10:25.4685225+02:00",
+    "RecurringEndDate": "2018-12-31T11:10:25.4685225+01:00",
+    "MotherId": 225,
+    "AssignedBy": 293,
+    "AssignedByFullName": "Shana Thompson",
+    "RejectReason": "redefine best-of-breed interfaces",
+    "Location": "ea",
+    "AlarmLeadTime": "ipsum",
+    "SaleId": 770,
+    "SaleName": "Bernier-Cartwright",
+    "AssociateName": "McClure, Jast and McDermott",
+    "CreatedDate": "2009-11-08T11:10:25.4695219+01:00",
+    "CreatedBy": "quae",
+    "CreatedByFullName": "Danielle Raynor I",
+    "CreatedByAssociateId": 844,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "repurpose intuitive e-tailers"
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

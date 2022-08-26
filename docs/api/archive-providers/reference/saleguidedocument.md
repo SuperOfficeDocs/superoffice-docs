@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleGuideDocument"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,14 +27,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"suggestedDocument"|Documents|
 |"document"|Documents|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |saleId|int|Sale ID: The database ID of the sale record| x |
@@ -53,7 +53,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |hasInstance| *None* |Has instance: Does this suggested item have an instance?|  |
 |deleted|bool|Deleted: Has this suggestion been deleted by the administrator?| x |
 |documentInstance/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|documentInstance/icon| *None* |Category: Displays the icon for an activity type| x |
+|documentInstance/icon|string|Category: Displays the icon for an activity type| x |
 |documentInstance/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |documentInstance/time| *None* |Time: Time|  |
 |documentInstance/type|listAny|Type: Displays the type of an activity| x |
@@ -67,8 +67,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/userGroup|userGroup|User group : The user group that owns the record| x |
 |documentInstance/who| *None* |Who: Contact and/or company|  |
 |documentInstance/updatedBy|associate|Updated by: The user who last updated the data| x |
+|documentInstance/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |documentInstance/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |documentInstance/registeredBy|associate|Registered by: The user who registered the data| x |
+|documentInstance/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentInstance/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |documentInstance/documentId|int|Document ID: Database ID of document record| x |
 |documentInstance/keywords|string|Keywords | x |
@@ -101,6 +103,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personNumber|string|Number: Displays the contact's number| x |
 |documentInstance/person/title|string|Title: Displays the contact's job title| x |
 |documentInstance/person/personCountry|listAny|Country: Country| x |
+|documentInstance/person/personCountryId|int|Country ID: Country ID| x |
 |documentInstance/person/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |documentInstance/person/rank|int|Rank: Displays a contact's current rank| x |
 |documentInstance/person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -114,15 +117,19 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |documentInstance/person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |documentInstance/person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|documentInstance/person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |documentInstance/person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |documentInstance/person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
+|documentInstance/person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentInstance/person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |documentInstance/person/portraitThumbnail| *None* |Person image: Person image|  |
 |documentInstance/person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |documentInstance/person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |documentInstance/person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |documentInstance/person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|documentInstance/person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |documentInstance/person/personAssociateId|associate|Our contact: Displays our contact| x |
+|documentInstance/person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |documentInstance/person/personCategory|listAny|Category| x |
 |documentInstance/person/personBusiness|listAny|Business| x |
 |documentInstance/person/personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -190,7 +197,90 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personUdef/SuperOffice:9|string|page1saleonly| x |
 |documentInstance/person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |documentInstance/person/personUdef/SuperOffice:11|string|page1adminonly| x |
-|documentInstance/person/isMailingRecipient|bool|isMailingRecipient: isMailingRecipient| x |
+|documentInstance/person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|documentInstance/person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
+|documentInstance/person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
+|documentInstance/person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|documentInstance/person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|documentInstance/person/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
+|documentInstance/person/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
+|documentInstance/person/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|documentInstance/person/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|documentInstance/person/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|documentInstance/person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|documentInstance/person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
+|documentInstance/person/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
+|documentInstance/person/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
+|documentInstance/person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|documentInstance/person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+|documentInstance/person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
+|documentInstance/person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
+|documentInstance/person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
+|documentInstance/person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|documentInstance/person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
+|documentInstance/person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
+|documentInstance/person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|documentInstance/person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
+|documentInstance/person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|documentInstance/person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|documentInstance/person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|documentInstance/person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|documentInstance/person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|documentInstance/person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|documentInstance/person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|documentInstance/person/personAssociate/associateDbId|associate|ID| x |
+|documentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|documentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|documentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|documentInstance/person/personAssociate/contactCategory|listAny|Category: Category| x |
+|documentInstance/person/personAssociate/role|listAny|Role : Role| x |
+|documentInstance/person/personAssociate/assocName|associate|User ID : User ID| x |
+|documentInstance/person/personAssociate/assocTooltip|string|Description : Description|  |
+|documentInstance/person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|documentInstance/person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|documentInstance/person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|documentInstance/person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|documentInstance/person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|documentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|documentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|documentInstance/person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|documentInstance/person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|documentInstance/person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|documentInstance/person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|documentInstance/person/personAssociate/userName|string|User name: User name| x |
+|documentInstance/person/personAssociate/personEmail|string|E-mail| x |
+|documentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
+|documentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|documentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|documentInstance/person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|documentInstance/person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|documentInstance/person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|documentInstance/person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|documentInstance/person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|documentInstance/person/correspondingAssociate/associateDbId|associate|ID| x |
+|documentInstance/person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|documentInstance/person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|documentInstance/person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|documentInstance/person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
+|documentInstance/person/correspondingAssociate/role|listAny|Role : Role| x |
+|documentInstance/person/correspondingAssociate/assocName|associate|User ID : User ID| x |
+|documentInstance/person/correspondingAssociate/assocTooltip|string|Description : Description|  |
+|documentInstance/person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|documentInstance/person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|documentInstance/person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|documentInstance/person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|documentInstance/person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|documentInstance/person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|documentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|documentInstance/person/correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|documentInstance/person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|documentInstance/person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|documentInstance/person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|documentInstance/person/correspondingAssociate/userName|string|User name: User name| x |
+|documentInstance/person/correspondingAssociate/personEmail|string|E-mail| x |
+|documentInstance/person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |documentInstance/person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -210,14 +300,17 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/category|listAny|Category| x |
 |documentInstance/contact/business|listAny|Business| x |
 |documentInstance/contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|documentInstance/contact/countryId|int|Country ID: Country ID| x |
 |documentInstance/contact/number|string|Number| x |
 |documentInstance/contact/code|string|Code| x |
 |documentInstance/contact/orgnr|string|VAT No.| x |
 |documentInstance/contact/stop|bool|Stop| x |
 |documentInstance/contact/contactNoMail|bool|No mailings (company| x |
 |documentInstance/contact/updatedBy|associate|Updated by: The user who last updated the data| x |
+|documentInstance/contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |documentInstance/contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |documentInstance/contact/registeredBy|associate|Registered by: The user who registered the data| x |
+|documentInstance/contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentInstance/contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |documentInstance/contact/contactSource|listAny|Source: Source (Company)| x |
 |documentInstance/contact/contactDeleted|bool|Deleted: Deleted| x |
@@ -321,6 +414,22 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |documentInstance/contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |documentInstance/contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|documentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|documentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|documentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|documentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|documentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|documentInstance/contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
+|documentInstance/contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
+|documentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
+|documentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+|documentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|documentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|documentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|documentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|documentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+|documentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |documentInstance/contact/NumberOfActivities|int|Number of activities|  |
 |documentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |documentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -342,8 +451,8 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/LastTicket|date|Date of last request|  |
 |documentInstance/contact/LastCompletedTicket|date|Date of last completed request|  |
 |documentInstance/contact/LastDoByTicket|date|Date of last non-completed request|  |
-|documentInstance/contact/SaintStatus1|saintStatus|Neglected customer|  |
-|documentInstance/contact/SaintStatus2|saintStatus|C-company|  |
+|documentInstance/contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|documentInstance/contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |documentInstance/contact/saintSaleStatus|listAny|With status|  |
 |documentInstance/contact/saintAmountClass|listAny|Amount class|  |
 |documentInstance/contact/saintActivityType|listAny|SAINT type|  |
@@ -357,14 +466,17 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/number|string|Number: Displays the project's number| x |
 |documentInstance/project/type|listAny|Project type: Displays the project's type| x |
 |documentInstance/project/status|listAny|Status: Displays the project's status| x |
+|documentInstance/project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |documentInstance/project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |documentInstance/project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |documentInstance/project/icon| *None* |Category: Displays the icon for an activity type| x |
 |documentInstance/project/text|string|Text: Displays a descriptive text for the item| x |
 |documentInstance/project/description|string|Description : Description| x |
 |documentInstance/project/updatedBy|associate|Updated by: The user who last updated the data| x |
+|documentInstance/project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |documentInstance/project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |documentInstance/project/registeredBy|associate|Registered by: The user who registered the data| x |
+|documentInstance/project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentInstance/project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |documentInstance/project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |documentInstance/project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -435,7 +547,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/LastSale|date|Date of last sale|  |
 |documentInstance/project/LastCompletedSale|date|Date of last completed sale|  |
 |documentInstance/project/LastDoBySale|date|Date of last non-completed sale|  |
-|documentInstance/project/SaintStatus3|saintStatus|Not completed activites with intention sale|  |
+|documentInstance/project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |documentInstance/project/saintSaleStatus|listAny|With status|  |
 |documentInstance/project/saintAmountClass|listAny|Amount class|  |
 |documentInstance/project/saintActivityType|listAny|SAINT type|  |
@@ -484,7 +596,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
 |documentInstance/documentUdef/SuperOffice:8|decimal|documentdecimal| x |
 |documentInstance/sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|documentInstance/sale/icon| *None* |Category: Displays the icon for an activity type| x |
+|documentInstance/sale/icon|string|Category: Displays the icon for an activity type| x |
 |documentInstance/sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |documentInstance/sale/time| *None* |Time: Time|  |
 |documentInstance/sale/type|listAny|Type: Displays the type of an activity| x |
@@ -498,8 +610,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/userGroup|userGroup|User group : The user group that owns the record| x |
 |documentInstance/sale/who| *None* |Who: Contact and/or company|  |
 |documentInstance/sale/updatedBy|associate|Updated by: The user who last updated the data| x |
+|documentInstance/sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |documentInstance/sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |documentInstance/sale/registeredBy|associate|Registered by: The user who registered the data| x |
+|documentInstance/sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentInstance/sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |documentInstance/sale/currencyId|int|Currency ID: The currency list item ID| x |
 |documentInstance/sale/currency|listAny|Currency: The currency of the sale| x |
@@ -507,7 +621,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
 |documentInstance/sale/source|listAny|Source: The source (lead) of the sale| x |
 |documentInstance/sale/competitor|listAny|Competitor: The competitor who won the sale| x |
-|documentInstance/sale/heading|stringorPK|Sale: Displays a descriptive text for the item| x |
+|documentInstance/sale/heading|stringorPK|Sale: The name of the sale| x |
 |documentInstance/sale/amount|decimal|Amount: The gross sales total| x |
 |documentInstance/sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |documentInstance/sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
@@ -516,10 +630,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
+|documentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |documentInstance/sale/saleType|listAny|Sale type: Sale type, from list| x |
 |documentInstance/sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |documentInstance/sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |documentInstance/sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|documentInstance/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |documentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |documentInstance/sale/saleNumber|string|Number: Number| x |
 |documentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -578,11 +694,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=suggestedItemText,documentInstance/mailMergeDraft,documentInstance/person/useAsMailingAddress,documentInstance/person/searchPhone/description,documentInstance/person/restrictionAddress/formattedAddress
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/subject,documentInstance/person/personUdef/SuperOffice:8,documentInstance/person/correspondingAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

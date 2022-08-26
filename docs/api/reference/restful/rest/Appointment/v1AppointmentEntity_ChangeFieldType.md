@@ -1,6 +1,6 @@
 ---
 title: POST Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-id: v1AppointmentEntity_ChangeFieldType
+uid: v1AppointmentEntity_ChangeFieldType
 ---
 
 # POST Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -11,10 +11,16 @@ POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a AppointmentEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,19 +46,17 @@ POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndex
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+AppointmentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,66 +97,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 687,
-  "ColumnId": 728,
-  "FieldDefault": "voluptate",
-  "FieldHeight": 935,
-  "FieldLabel": "et",
-  "FieldLeft": 271,
-  "FieldTop": 138,
+  "UDefFieldId": 174,
+  "ColumnId": 314,
+  "FieldDefault": "autem",
+  "FieldHeight": 767,
+  "FieldLabel": "aut",
+  "FieldLeft": 275,
+  "FieldTop": 661,
   "FieldType": "Checkbox",
-  "FieldWidth": 325,
-  "FormatMask": "aliquam",
+  "FieldWidth": 962,
+  "FormatMask": "omnis",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 646,
-  "LabelLeft": 568,
-  "LabelTop": 924,
-  "LabelWidth": 106,
-  "LastVersionId": 147,
-  "ListTableId": 517,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 19,
+  "LabelLeft": 998,
+  "LabelTop": 790,
+  "LabelWidth": 630,
+  "LastVersionId": 138,
+  "ListTableId": 40,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 123,
-  "ProgId": "sed",
-  "IsReadOnly": true,
-  "ShortLabel": "quam",
-  "TabOrder": 596,
-  "TextLength": 997,
-  "Tooltip": "omnis",
-  "UdefIdentity": 672,
-  "UDListDefinitionId": 953,
+  "Page1LineNo": 154,
+  "ProgId": "quisquam",
+  "IsReadOnly": false,
+  "ShortLabel": "veniam",
+  "TabOrder": 669,
+  "TextLength": 794,
+  "Tooltip": "in",
+  "UdefIdentity": 943,
+  "UDListDefinitionId": 462,
   "Justification": "Center",
-  "Version": 18,
-  "TemplateVariableName": "Hayes, Senger and Hickle",
+  "Version": 181,
+  "TemplateVariableName": "Pouros-Ziemann",
   "HasBeenPublished": false,
-  "MdoListName": "Stamm Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Hirthe LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldLength": 329
     }
   }
 }

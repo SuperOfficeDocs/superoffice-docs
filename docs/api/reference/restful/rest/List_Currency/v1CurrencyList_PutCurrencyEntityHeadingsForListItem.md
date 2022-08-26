@@ -1,6 +1,6 @@
 ---
 title: PUT List/Currency/Items/{id}/Headings
-id: v1CurrencyList_PutCurrencyEntityHeadingsForListItem
+uid: v1CurrencyList_PutCurrencyEntityHeadingsForListItem
 ---
 
 # PUT List/Currency/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Currency/Items/{itemId}/Headings
 
 Saves headings for the CurrencyEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Grimes Group",
-    "ToolTip": "Ipsum est omnis repellendus quasi numquam.",
-    "Deleted": true,
-    "Rank": 188,
-    "Type": "sit",
-    "ColorBlock": 599,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2020-11-21T18:25:51.7872932+01:00",
+    "Id": 499,
+    "Name": "Pagac-Lueilwitz",
+    "ToolTip": "Omnis in dolores cum repellendus.",
+    "Deleted": false,
+    "Rank": 203,
+    "Type": "et",
+    "ColorBlock": 80,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-03-02T11:10:54.2378958+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Greenholt, Hayes and Bergstrom",
-        "ToolTip": "Quasi dolores.",
-        "Deleted": false,
-        "Rank": 212,
-        "Type": "architecto",
-        "ColorBlock": 617,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2013-06-12T18:25:51.7883279+02:00",
+        "Id": 26,
+        "Name": "Bauch, West and Gutkowski",
+        "ToolTip": "Voluptate error odit.",
+        "Deleted": true,
+        "Rank": 116,
+        "Type": "quia",
+        "ColorBlock": 923,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2006-07-15T11:10:54.2378958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Brody Paucek"
+        "ExtraInfo": "ratione",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Amaya Smith"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "qui",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Clarissa Abshire"
+    "FullName": "Judy Carter"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Block Group",
-    "ToolTip": "Deleniti et voluptas ut itaque vel fugit.",
-    "Deleted": true,
-    "Rank": 287,
-    "Type": "expedita",
-    "ColorBlock": 214,
-    "IconHint": "officiis",
+    "Id": 455,
+    "Name": "Bailey, Dietrich and Kilback",
+    "ToolTip": "Minus sit aut alias itaque pariatur enim.",
+    "Deleted": false,
+    "Rank": 807,
+    "Type": "ut",
+    "ColorBlock": 494,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2021-11-18T18:25:51.7893298+01:00",
+    "LastChanged": "1996-10-22T11:10:54.238898+02:00",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Mosciski Inc and Sons",
-        "ToolTip": "Consectetur dolores.",
+        "Id": 991,
+        "Name": "Monahan-Kris",
+        "ToolTip": "Voluptatem quibusdam architecto ut dolorum.",
         "Deleted": true,
-        "Rank": 283,
-        "Type": "non",
-        "ColorBlock": 470,
-        "IconHint": "velit",
+        "Rank": 412,
+        "Type": "et",
+        "ColorBlock": 224,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2008-02-21T18:25:51.7893298+01:00",
+        "LastChanged": "2005-11-07T11:10:54.2398963+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Marcus Fisher",
-        "TableRight": {},
+        "ExtraInfo": "ut",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Jennings Schmidt",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 918
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Milton Sanford IV",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quo",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Gertrude Medhurst",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

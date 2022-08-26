@@ -1,6 +1,6 @@
 ---
 title: POST Table/{tableName}
-id: v1TableRecord_InsertRow
+uid: v1TableRecord_InsertRow
 ---
 
 # POST Table/{tableName}
@@ -11,11 +11,16 @@ POST /api/v1/Table/{tableName}
 
 Insert a row into a table
 
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of the table to insert into; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable **Required** |
+
+
 
 ## Request Headers
 
@@ -31,11 +36,15 @@ Insert a row into a table
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: values
+## Request Body: values  
 
-A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values
+A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values 
+
+
 
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -43,18 +52,21 @@ A StringDictionary with the values to insert. You do not need to specify all the
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Table/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-327
+980
 ```

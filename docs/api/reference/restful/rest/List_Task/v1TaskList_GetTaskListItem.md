@@ -1,6 +1,6 @@
 ---
 title: GET List/Task/Items/{id}
-id: v1TaskList_GetTaskListItem
+uid: v1TaskList_GetTaskListItem
 ---
 
 # GET List/Task/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/Task/Items/{id}
 
 Gets a TaskListItem list item.
 
+
 Calls the Appointment agent service GetTaskListItem.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Task to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ Calls the Appointment agent service GetTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for TaskListItem.
-Services for the TaskListItem Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,45 +67,41 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 335,
-  "Value": "est",
+  "TaskListItemId": 876,
+  "Value": "et",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "et",
+  "Tooltip": "sit",
   "Deleted": false,
-  "IntentId": 239,
-  "Rank": 224,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IntentId": 574,
+  "Rank": 632,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 135
     }
   }
 }

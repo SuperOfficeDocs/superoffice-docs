@@ -1,6 +1,6 @@
 ---
 title: PUT List/Position/Items/{id}/UserGroups
-id: v1PositionList_PutPositionUserGroupsForListItem
+uid: v1PositionList_PutPositionUserGroupsForListItem
 ---
 
 # PUT List/Position/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Position list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Lemke-Stiedemann",
-    "ToolTip": "Rerum incidunt natus beatae velit omnis.",
-    "Deleted": false,
-    "Rank": 143,
-    "Type": "ut",
-    "ColorBlock": 974,
-    "IconHint": "voluptas",
+    "Id": 923,
+    "Name": "Carroll, Blanda and Glover",
+    "ToolTip": "Fuga error necessitatibus hic esse eos possimus.",
+    "Deleted": true,
+    "Rank": 239,
+    "Type": "hic",
+    "ColorBlock": 248,
+    "IconHint": "quas",
     "Selected": true,
-    "LastChanged": "2015-06-16T18:25:51.9602412+02:00",
+    "LastChanged": "2018-04-18T11:10:54.3739025+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Hessel Inc and Sons",
-        "ToolTip": "Ut non.",
+        "Id": 740,
+        "Name": "Bernhard-Rempel",
+        "ToolTip": "Aut natus.",
         "Deleted": false,
-        "Rank": 759,
-        "Type": "quidem",
-        "ColorBlock": 27,
-        "IconHint": "provident",
+        "Rank": 944,
+        "Type": "amet",
+        "ColorBlock": 319,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2003-08-01T18:25:51.9602412+02:00",
+        "LastChanged": "2014-11-10T11:10:54.3739025+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "quo",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Johnny Trantow"
+        "FullName": "Miss Darrin Veronica Huel DDS"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "vitae",
+    "ExtraInfo": "ad",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Mariam Walsh"
+    "FullName": "Shaina Hermann"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "O'Connell, Welch and Jacobson",
-    "ToolTip": "Doloribus reprehenderit.",
+    "Id": 98,
+    "Name": "Hudson-Nicolas",
+    "ToolTip": "Alias enim animi voluptatem quia ratione.",
     "Deleted": false,
-    "Rank": 735,
-    "Type": "aliquid",
-    "ColorBlock": 291,
-    "IconHint": "minima",
-    "Selected": true,
-    "LastChanged": "2000-05-28T18:25:51.9622457+02:00",
+    "Rank": 940,
+    "Type": "illo",
+    "ColorBlock": 937,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2011-03-05T11:10:54.375902+01:00",
     "ChildItems": [
       {
-        "Id": 149,
-        "Name": "Eichmann, Beatty and Osinski",
-        "ToolTip": "Ut aut.",
-        "Deleted": false,
-        "Rank": 852,
-        "Type": "voluptas",
-        "ColorBlock": 152,
-        "IconHint": "est",
+        "Id": 150,
+        "Name": "Rath LLC",
+        "ToolTip": "Est culpa odit architecto est consequatur mollitia iusto.",
+        "Deleted": true,
+        "Rank": 580,
+        "Type": "est",
+        "ColorBlock": 213,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2016-01-15T18:25:51.9622457+01:00",
+        "LastChanged": "2021-02-18T11:10:54.375902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Jodie Davis",
-        "TableRight": {},
+        "ExtraInfo": "a",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Shaylee Nikolaus",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 195
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "autem",
+    "ExtraInfo": "id",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Triston Stark",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Joaquin Considine Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

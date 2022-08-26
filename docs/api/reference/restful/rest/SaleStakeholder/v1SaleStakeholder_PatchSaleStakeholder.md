@@ -1,6 +1,6 @@
 ---
 title: PATCH SaleStakeholder/{id}
-id: v1SaleStakeholder_PatchSaleStakeholder
+uid: v1SaleStakeholder_PatchSaleStakeholder
 ---
 
 # PATCH SaleStakeholder/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/SaleStakeholder/{id}
 ```
 
 Update a SaleStakeholder with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ISaleAgent} service SaveSaleStakeholder.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleStakeholder  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ISaleAgent} service SaveSaleStakeholder.
 ```http
 PATCH /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,9 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-SaleStakeholder entity with API _Links added.
+## Response: 
+
+SaleStakeholder  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +93,7 @@ SaleStakeholder entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SaleStakeholder has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,93 +120,61 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sit",
-    "value": {
-      "value1": {
-        "PrimaryKey": 2742,
-        "EntityName": "sale",
-        "saleId": 2742,
-        "contactId": 1125,
-        "name": "Ferry-Will"
-      },
-      "value2": {
-        "PrimaryKey": 177,
-        "EntityName": "person",
-        "personId": 177,
-        "fullName": "Clare Shields"
-      }
-    }
+    "path": "itaque",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
-    "value": {
-      "value1": {
-        "PrimaryKey": 2742,
-        "EntityName": "sale",
-        "saleId": 2742,
-        "contactId": 1125,
-        "name": "Ferry-Will"
-      },
-      "value2": {
-        "PrimaryKey": 177,
-        "EntityName": "person",
-        "personId": 177,
-        "fullName": "Clare Shields"
-      }
-    }
+    "path": "itaque",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stamm-Luettgen",
-  "Comment": "qui",
-  "StakeholderRoleId": 444,
-  "CountryId": 882,
-  "PersonId": 326,
-  "EmailDescription": "giovanny.gleichner@sipeshauck.biz",
-  "EmailId": 236,
-  "EmailAddress": "jacey_okon@quigley.biz",
-  "PhoneId": 413,
-  "ContactName": "Streich LLC",
-  "ContactId": 258,
-  "SaleId": 687,
-  "Mrmrs": "repellendus",
-  "Firstname": "Aracely",
-  "MiddleName": "Armstrong, Dooley and Ryan",
-  "Lastname": "Wiegand",
-  "SaleStakeholderId": 931,
-  "Rank": 72,
-  "Phone": "786-616-6860 x2341",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "StakeholderRoleName": "Wolff, Rowe and Bartell",
+  "Comment": "deserunt",
+  "StakeholderRoleId": 231,
+  "CountryId": 845,
+  "PersonId": 848,
+  "EmailDescription": "jadyn.towne@mcdermott.co.uk",
+  "EmailId": 410,
+  "EmailAddress": "jose@maggio.uk",
+  "PhoneId": 523,
+  "ContactName": "Bode, Kuhic and Pagac",
+  "ContactId": 957,
+  "SaleId": 23,
+  "Mrmrs": "numquam",
+  "Firstname": "Leta",
+  "MiddleName": "Nitzsche-Shields",
+  "Lastname": "Hettinger",
+  "SaleStakeholderId": 876,
+  "Rank": 683,
+  "Phone": "754.708.2934 x392",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   },
   "_Links": {

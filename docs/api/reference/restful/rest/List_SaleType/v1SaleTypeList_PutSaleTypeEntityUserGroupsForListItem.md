@@ -1,6 +1,6 @@
 ---
 title: PUT List/SaleType/Items/{id}/UserGroups
-id: v1SaleTypeList_PutSaleTypeEntityUserGroupsForListItem
+uid: v1SaleTypeList_PutSaleTypeEntityUserGroupsForListItem
 ---
 
 # PUT List/SaleType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the SaleTypeEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Torphy-Sanford",
-    "ToolTip": "Non eveniet aut.",
-    "Deleted": true,
-    "Rank": 664,
-    "Type": "iste",
-    "ColorBlock": 720,
-    "IconHint": "ipsa",
-    "Selected": true,
-    "LastChanged": "2000-05-17T18:25:52.1880186+02:00",
+    "Id": 510,
+    "Name": "Armstrong-Treutel",
+    "ToolTip": "Nulla sit sed est est.",
+    "Deleted": false,
+    "Rank": 734,
+    "Type": "repellendus",
+    "ColorBlock": 47,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "1996-09-14T11:10:54.6059354+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Koelpin-Blanda",
-        "ToolTip": "Vel atque assumenda corporis suscipit dolorem.",
-        "Deleted": false,
-        "Rank": 896,
-        "Type": "ipsa",
-        "ColorBlock": 516,
-        "IconHint": "aspernatur",
-        "Selected": true,
-        "LastChanged": "2002-11-02T18:25:52.1890194+01:00",
+        "Id": 646,
+        "Name": "Hartmann-Barton",
+        "ToolTip": "Error impedit.",
+        "Deleted": true,
+        "Rank": 322,
+        "Type": "quas",
+        "ColorBlock": 78,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "2002-05-30T11:10:54.6059354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Vella Wilderman"
+        "ExtraInfo": "nam",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Daren Abbigail West IV"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "incidunt",
-    "Hidden": true,
-    "FullName": "Scotty Luettgen"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Sophie Jacobson II"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Hartmann Inc and Sons",
-    "ToolTip": "Voluptatem ut aut.",
-    "Deleted": true,
-    "Rank": 638,
-    "Type": "quia",
-    "ColorBlock": 513,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2013-07-23T18:25:52.1900189+02:00",
+    "Id": 289,
+    "Name": "Abshire-Fahey",
+    "ToolTip": "Omnis minima aut et.",
+    "Deleted": false,
+    "Rank": 935,
+    "Type": "unde",
+    "ColorBlock": 478,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2000-06-07T11:10:54.6069352+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Schinner-Von",
-        "ToolTip": "Assumenda eos inventore consequuntur nobis sint eum.",
-        "Deleted": true,
-        "Rank": 358,
-        "Type": "illo",
-        "ColorBlock": 969,
-        "IconHint": "ab",
+        "Id": 43,
+        "Name": "Abbott, Crona and Murphy",
+        "ToolTip": "Omnis ut et voluptates perspiciatis vel porro qui.",
+        "Deleted": false,
+        "Rank": 496,
+        "Type": "velit",
+        "ColorBlock": 54,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "1994-11-17T18:25:52.1900189+01:00",
+        "LastChanged": "2008-10-31T11:10:54.6079348+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Ms. Daisha DuBuque",
-        "TableRight": {},
+        "ExtraInfo": "iure",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Telly Schamberger II",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 567
+            "FieldLength": 211
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "iste",
+    "ExtraInfo": "quod",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Clemmie Denesik",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Tomas Brekke",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 281
+        "FieldLength": 254
       }
     }
   }

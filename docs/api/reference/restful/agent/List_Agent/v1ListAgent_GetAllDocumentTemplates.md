@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllDocumentTemplates
-id: v1ListAgent_GetAllDocumentTemplates
+uid: v1ListAgent_GetAllDocumentTemplates
 ---
 
 # POST Agents/List/GetAllDocumentTemplates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllDocumentTemplates
 
 Returns all templates
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all templates
 ```http
 POST /api/v1/Agents/List/GetAllDocumentTemplates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetAllDocumentTemplates?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,19 +91,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -101,43 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 859,
-    "Name": "Osinski, Thompson and Harvey",
-    "Tooltip": "sapiente",
-    "SaveInDb": 445,
-    "Filename": "unde",
-    "DefaultOref": "nisi",
+    "DocumentTemplateId": 647,
+    "Name": "Haag Inc and Sons",
+    "Tooltip": "tenetur",
+    "SaveInDb": 663,
+    "Filename": "consectetur",
+    "DefaultOref": "aut",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 493,
-    "IntentId": 548,
+    "AutoeventId": 543,
+    "IntentId": 945,
     "IsDefaultPublished": false,
-    "Rank": 21,
-    "LoadTemplateFromPlugin": 261,
-    "MimeType": "facilis",
+    "Rank": 188,
+    "LoadTemplateFromPlugin": 912,
+    "MimeType": "sequi",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 199,
+    "DocumentTypeKey": 951,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "hudson@stokesnikolaus.ca",
+    "EmailSubject": "bettye@mccullough.info",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "kendra@dooley.com",
+    "SenderEmailAddress": "christiana.farrell@farrell.info",
     "InvitationDocType": "Cancelled",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 637
       }
     }
   }

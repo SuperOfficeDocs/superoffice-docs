@@ -1,6 +1,6 @@
 ---
 title: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
-id: v1ForeignAppEntity_SaveForeignKey
+uid: v1ForeignAppEntity_SaveForeignKey
 ---
 
 # PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
@@ -11,11 +11,18 @@ PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 
 Saves a key belonging to the ForeignApp and ForeignDevice specified.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Saves a key belonging to the ForeignApp and ForeignDevice specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignKey
+## Request Body: foreignKey  
 
-Foreign key to save
+Foreign key to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,16 +53,16 @@ Foreign key to save
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,52 +77,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "in",
-  "Value": "repellat",
-  "RecordId": 1001,
-  "CreatedDate": "1999-04-23T18:25:50.5745975+02:00",
-  "UpdatedDate": "2009-12-31T18:25:50.5745975+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "in",
-  "TableName": "Buckridge-Cremin"
+  "Key": "distinctio",
+  "Value": "minima",
+  "RecordId": 139,
+  "CreatedDate": "1998-03-21T11:10:52.909174+01:00",
+  "UpdatedDate": "2014-09-05T11:10:52.909174+02:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "voluptas",
+  "TableName": "Osinski LLC"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "odio",
-  "Value": "ipsa",
-  "RecordId": 285,
-  "CreatedDate": "1995-06-27T18:25:50.5755972+02:00",
-  "UpdatedDate": "1994-12-07T18:25:50.5755972+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "perferendis",
-  "TableName": "Bailey-Bahringer",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "in",
+  "Value": "aliquam",
+  "RecordId": 370,
+  "CreatedDate": "2005-08-01T11:10:52.909174+02:00",
+  "UpdatedDate": "1995-07-23T11:10:52.909174+02:00",
+  "UpdatedBy": "debitis",
+  "CreatedBy": "et",
+  "TableName": "Turner Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 161
     }
   }
 }

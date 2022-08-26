@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectType/Items/{id}/UserGroups
-id: v1ProjectTypeList_GetProjectTypeUserGroupsForListItem
+uid: v1ProjectTypeList_GetProjectTypeUserGroupsForListItem
 ---
 
 # GET List/ProjectType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProjectType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,7 +68,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
@@ -67,71 +77,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Kohler Group",
-    "ToolTip": "Ad aspernatur.",
+    "Id": 233,
+    "Name": "Jakubowski Group",
+    "ToolTip": "Eligendi dignissimos dolor quo.",
     "Deleted": true,
-    "Rank": 554,
-    "Type": "aliquid",
-    "ColorBlock": 60,
-    "IconHint": "provident",
+    "Rank": 65,
+    "Type": "harum",
+    "ColorBlock": 548,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2017-04-13T18:25:52.1030202+02:00",
+    "LastChanged": "2004-10-11T11:10:54.4859261+02:00",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "Reinger Inc and Sons",
-        "ToolTip": "Delectus sapiente eius neque aut aut.",
-        "Deleted": false,
-        "Rank": 479,
-        "Type": "vel",
-        "ColorBlock": 916,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "1998-01-25T18:25:52.1040218+01:00",
+        "Id": 345,
+        "Name": "McDermott-Breitenberg",
+        "ToolTip": "Neque voluptas officia natus.",
+        "Deleted": true,
+        "Rank": 205,
+        "Type": "eveniet",
+        "ColorBlock": 720,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2000-10-04T11:10:54.4859261+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Luciano Botsford",
-        "TableRight": {},
+        "ExtraInfo": "qui",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Hal Bartoletti",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "synthesize next-generation synergies"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 24
+            "FieldLength": 835
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "dolore",
+    "ExtraInfo": "neque",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Mrs. Makenzie Ferry",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Derek Schamberger",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 49
       }
     }
   }

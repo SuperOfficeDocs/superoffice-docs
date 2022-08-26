@@ -17,6 +17,7 @@ Update (import) TypicalSearch information in the database
 
 **Returns:** Message that can be shown to the user, summarizing what has been done, if anything.
 
+
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -75,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateTypicalSearch Response
 
 ```xml
@@ -95,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

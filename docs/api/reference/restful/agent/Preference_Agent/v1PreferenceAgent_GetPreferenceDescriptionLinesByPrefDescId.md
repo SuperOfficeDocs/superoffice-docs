@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
-id: v1PreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
+uid: v1PreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
 ---
 
 # POST Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 
 Get all preference description lines from a prefDesc_id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all preference description lines from a prefDesc_id
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PrefDescId
+PrefDescId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PrefDescId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,19 +72,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 969
+  "PrefDescId": 429
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,24 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 430,
-    "PrefDescId": 180,
-    "PrefValue": "fugiat",
-    "PrefShowValue": "dolorem",
-    "Description": "Balanced fault-tolerant emulation",
-    "IsBuiltin": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PrefDescLineId": 249,
+    "PrefDescId": 603,
+    "PrefValue": "non",
+    "PrefShowValue": "itaque",
+    "Description": "Automated foreground project",
+    "IsBuiltin": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 554
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST List/PaymentTerm/Headings
-id: v1PaymentTermsList_PostPaymentTermHeading
+uid: v1PaymentTermsList_PostPaymentTermHeading
 ---
 
 # POST List/PaymentTerm/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/PaymentTerm/Headings
 
 Saves a new heading for the PaymentTerm list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/PaymentTerm/Headings
@@ -74,38 +79,34 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 339,
-  "Name": "McDermott-Hartmann",
-  "Tooltip": "sed",
+  "HeadingId": 482,
+  "Name": "Terry, Johnston and DuBuque",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 631,
-  "UdListDefinitionId": 205
+  "Rank": 227,
+  "UdListDefinitionId": 947
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 162,
-  "Name": "Abshire, Koss and Brekke",
-  "Tooltip": "unde",
+  "HeadingId": 416,
+  "Name": "Hamill Inc and Sons",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 462,
-  "UdListDefinitionId": 676,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 180,
+  "UdListDefinitionId": 794,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 451
     }
   }
 }

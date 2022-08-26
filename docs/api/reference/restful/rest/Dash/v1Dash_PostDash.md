@@ -1,6 +1,6 @@
 ---
 title: POST Dash
-id: v1Dash_PostDash
+uid: v1Dash_PostDash
 ---
 
 # POST Dash
@@ -11,7 +11,13 @@ POST /api/v1/Dash
 
 Creates a new Dash
 
+
 Calls the Dash agent service SaveDash.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dash agent service SaveDash.
 ```http
 POST /api/v1/Dash?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Dash?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The Dash to be saved.
+The Dash to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,17 +64,16 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Dash entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,109 +94,82 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 931,
-  "UniqueId": "qui",
-  "Name": "Simonis, Franecki and Effertz",
-  "Description": "Multi-layered bandwidth-monitored access",
-  "AssociateId": 47,
-  "Columns": 401,
-  "Theme": {
-    "DashboardThemeId": 987,
-    "Name": "Rohan, Reichel and Douglas",
-    "Config": "voluptas",
-    "Rank": 278,
-    "Client": "praesentium"
-  },
-  "VisibleForAll": 146,
+  "DashboardId": 307,
+  "UniqueId": "est",
+  "Name": "Connelly-Kuvalis",
+  "Description": "Re-engineered 6th generation superstructure",
+  "AssociateId": 680,
+  "Columns": 391,
+  "Theme": null,
+  "VisibleForAll": 126,
   "VisibleForAssociates": [
-    69,
-    946
+    628,
+    885
   ],
   "VisibleForGroups": [
-    828,
-    767
+    706,
+    557
   ],
-  "PinForAll": 367,
+  "PinForAll": 90,
   "PinForAssociates": [
-    980,
-    847
+    227,
+    563
   ],
   "PinForGroups": [
-    363,
-    521
+    568,
+    492
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 807,
-  "UniqueId": "tempora",
-  "Name": "Ward-Schiller",
-  "Description": "Multi-lateral zero tolerance ability",
-  "AssociateId": 279,
-  "Columns": 590,
-  "Theme": {
-    "DashboardThemeId": 41,
-    "Name": "Purdy-Stoltenberg",
-    "Config": "temporibus",
-    "Rank": 600,
-    "Client": "cum",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "exploit global platforms"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 172
-      }
-    }
-  },
-  "VisibleForAll": 829,
+  "DashboardId": 240,
+  "UniqueId": "et",
+  "Name": "Sauer-Durgan",
+  "Description": "Multi-lateral exuding capability",
+  "AssociateId": 849,
+  "Columns": 482,
+  "Theme": null,
+  "VisibleForAll": 426,
   "VisibleForAssociates": [
-    169,
-    114
+    786,
+    769
   ],
   "VisibleForGroups": [
-    17,
-    107
+    933,
+    502
   ],
-  "PinForAll": 800,
+  "PinForAll": 842,
   "PinForAssociates": [
-    476,
-    614
+    649,
+    943
   ],
   "PinForGroups": [
-    158,
-    556
+    137,
+    124
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "aggregate value-added applications"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   },
   "_Links": {

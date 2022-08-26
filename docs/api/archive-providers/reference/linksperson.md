@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "LinksPerson"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,13 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"person"|Contact|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |sourceAppointmentRestrictionId|int|Source follow-up ID: Unique ID of follow-up to fetch link data for|  |
@@ -54,6 +54,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personNumber|string|Number: Displays the contact's number| x |
 |title|string|Title: Displays the contact's job title| x |
 |personCountry|listAny|Country: Country| x |
+|personCountryId|int|Country ID: Country ID| x |
 |personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |rank|int|Rank: Displays a contact's current rank| x |
 |birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -67,15 +68,19 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personRegisteredBy|associate|Registered by: The user who registered the data| x |
+|personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |portraitThumbnail| *None* |Person image: Person image|  |
 |personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |personAssociateId|associate|Our contact: Displays our contact| x |
+|personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personBusiness|listAny|Business| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -98,14 +103,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/category|listAny|Category| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|contact/countryId|int|Country ID: Country ID| x |
 |contact/number|string|Number| x |
 |contact/code|string|Code| x |
 |contact/orgnr|string|VAT No.| x |
 |contact/stop|bool|Stop| x |
 |contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
+|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
+|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contact/contactSource|listAny|Source: Source (Company)| x |
 |contact/contactDeleted|bool|Deleted: Deleted| x |
@@ -117,11 +125,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksPerson?$select=contact/stop,associateType,personActiveErpLinks
+GET /api/v1/archive/LinksPerson?$select=contact/updatedByFullName,useAsMailingAddress,ticketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

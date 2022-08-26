@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailAccount
-id: v1EMailAgent_GetEMailAccount
+uid: v1EMailAgent_GetEMailAccount
 ---
 
 # POST Agents/EMail/GetEMailAccount
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailAccount
 
 Gets a EMailAccount object.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=933
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=553
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,18 +47,16 @@ POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Properties for an email account
+## Response: 
 
-Carrier object for EMailAccount.
-Services for the EMailAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,79 +68,43 @@ Response body: object
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
+| InboxFolder | string | Inbox folder name if available in the db |
+| SentFolder | string | Sent email folder name if available in the db |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 868,
-  "EMailAddress": "repellendus",
-  "AssociateId": 575,
-  "IncomingCredentials": {
-    "ServiceAuthId": 862,
-    "Server": "sed",
-    "Port": 446,
-    "AuthType": "laboriosam",
-    "Username": "facere",
-    "Password": "consequatur",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 829
-      }
-    }
-  },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 157,
-    "Server": "aliquam",
-    "Port": 165,
-    "AuthType": "eius",
-    "Username": "dolor",
-    "Password": "nam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 249
-      }
-    }
-  },
-  "AccountStatus": 896,
-  "ErrorCount": 625,
-  "ErrorReason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EMailAccountId": 998,
+  "EMailAddress": "rerum",
+  "AssociateId": 688,
+  "IncomingCredentials": null,
+  "OutgoingCredentials": null,
+  "AccountStatus": 885,
+  "ErrorCount": 806,
+  "ErrorReason": "strategize compelling partnerships",
+  "InboxFolder": "tenetur",
+  "SentFolder": "voluptate",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 55
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetMyContacts
-id: v1ContactAgent_GetMyContacts
+uid: v1ContactAgent_GetMyContacts
 ---
 
 # POST Agents/Contact/GetMyContacts
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetMyContacts
 
 Getting the contacts where the user currently logged in is set as contact owner.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Getting the contacts where the user currently logged in is set as contact owner.
 ```http
 POST /api/v1/Agents/Contact/GetMyContacts?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Contact/GetMyContacts?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,7 +79,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetMyContacts
@@ -78,113 +88,42 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 191,
-    "Name": "Howell, Hermiston and Moen",
-    "OrgNr": "642933",
+    "ContactId": 954,
+    "Name": "Lubowitz, Kemmer and Vandervort",
+    "OrgNr": "912215",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "incidunt",
-    "DirectPhone": "1-887-511-7745",
-    "AssociateId": 504,
-    "CountryId": 505,
-    "EmailAddress": "braulio@keeling.us",
-    "Kananame": "aut",
-    "EmailAddressName": "theresa@boehm.info",
+    "City": "eligendi",
+    "DirectPhone": "1-750-909-7906 x4211",
+    "AssociateId": 359,
+    "CountryId": 977,
+    "EmailAddress": "lavada_jerde@faheydaniel.info",
+    "Kananame": "dolor",
+    "EmailAddressName": "emmanuelle@rodriguez.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Amari Mosciski I",
+    "AssociateFullName": "Dr. Fletcher Koelpin IV",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
-    "Address": {
-      "Wgs84Latitude": 7916.4839999999995,
-      "Wgs84Longitude": 6164.5779999999995,
-      "LocalizedAddress": [
-        [
-          {
-            "Name": "Muller, Larkin and Brown",
-            "Value": "nemo",
-            "Tooltip": "vel",
-            "Label": "porro",
-            "ValueLength": 849,
-            "AddressType": "est",
-            "TableRight": {
-              "Mask": "Delete",
-              "Reason": ""
-            },
-            "FieldProperties": {
-              "fieldName": {
-                "FieldRight": {
-                  "Mask": "FULL",
-                  "Reason": ""
-                },
-                "FieldType": "System.Int32",
-                "FieldLength": 612
-              }
-            }
-          }
-        ],
-        [
-          {
-            "Name": "Steuber LLC",
-            "Value": "architecto",
-            "Tooltip": "autem",
-            "Label": "ut",
-            "ValueLength": 982,
-            "AddressType": "non",
-            "TableRight": {
-              "Mask": "Delete",
-              "Reason": ""
-            },
-            "FieldProperties": {
-              "fieldName": {
-                "FieldRight": {
-                  "Mask": "FULL",
-                  "Reason": ""
-                },
-                "FieldType": "System.String",
-                "FieldLength": 613
-              }
-            }
-          }
-        ]
-      ],
-      "Street": {},
-      "Postal": {},
-      "Formatted": "porro",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 815
-        }
-      }
-    },
-    "FormattedAddress": "architecto",
-    "FullName": "Golden Kunze DDS",
+    "Address": null,
+    "FormattedAddress": "excepturi",
+    "FullName": "Flavie Stark",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 722,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 376,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 761
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetErpSyncConnectionSummary
-id: v1ErpSyncAgent_GetErpSyncConnectionSummary
+uid: v1ErpSyncAgent_GetErpSyncConnectionSummary
 ---
 
 # POST Agents/ErpSync/GetErpSyncConnectionSummary
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 
 Get a summary of the current ErpSync configuration/setup
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get a summary of the current ErpSync configuration/setup
 ```http
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpSyncConnectionId
+ErpSyncConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpSyncConnectionId | int32 |  |
 
-## Response: object
 
-Summary of the current setup of the ERP Integration, for one ERP connection
+## Response: 
 
-Carrier object for ErpSyncConnectionSummary.
-Services for the ErpSyncConnectionSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,78 +76,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 238
+  "ErpSyncConnectionId": 164
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Moore-Kohler",
-  "DisplayDescription": "Ameliorated fault-tolerant migration",
-  "Active": false,
+  "DisplayName": "Hauck-Marquardt",
+  "DisplayDescription": "Monitored asynchronous hardware",
+  "Active": true,
   "Deleted": true,
-  "LastSync": "2002-03-10T18:28:49.1239631+01:00",
+  "LastSync": "2010-11-25T11:10:27.0034544+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "voluptas",
-      "Mappings": "enim",
-      "TableRight": {},
+      "Defaults": "aspernatur",
+      "Mappings": "non",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 903
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "voluptas",
-      "Mappings": "enim",
-      "TableRight": {},
+      "Defaults": "aspernatur",
+      "Mappings": "non",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 903
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "extend vertical e-markets"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 921
     }
   }
 }

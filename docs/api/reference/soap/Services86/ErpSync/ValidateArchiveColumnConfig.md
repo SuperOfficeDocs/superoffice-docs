@@ -12,12 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.ValidateArc
 ## ValidateArchiveColumnConfig
 
 Clear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **listOwner:** GUI name used in archive control config
 * **erpConnectionId:** The ERP connection ID
 
 **Returns:** Validated ArchiveColumnConfig
+
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ValidateArchiveColumnConfig Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

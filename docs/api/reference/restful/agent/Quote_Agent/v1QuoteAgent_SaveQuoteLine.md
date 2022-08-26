@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteLine
-id: v1QuoteAgent_SaveQuoteLine
+uid: v1QuoteAgent_SaveQuoteLine
 ---
 
 # POST Agents/Quote/SaveQuoteLine
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveQuoteLine
 
 Saves the QuoteLine in the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the QuoteLine in the SuperOffice database
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/SaveQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLine
+QuoteLine 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLine |  | Information about a connection to the ERP system. <br /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteLine.
-Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,7 +115,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteLine
@@ -120,162 +125,99 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLine": {
-    "QuoteLineId": 878,
-    "ERPQuoteLineKey": "qui",
-    "QuoteAlternativeId": 262,
-    "ERPProductKey": "expedita",
-    "Status": "Error",
-    "Reason": "",
-    "Quantity": 13965.104,
-    "DeliveredQuantity": 3014.908,
-    "Rank": 865,
-    "Name": "Casper, King and Lubowitz",
-    "Description": "Versatile responsive conglomeration",
-    "Code": "sequi",
-    "QuantityUnit": "nobis",
-    "PriceUnit": "in",
-    "ItemNumber": "752278",
-    "Url": "http://www.example.com/",
-    "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "fugit",
-    "ProductTypeKey": "aut",
-    "Supplier": "et",
-    "SupplierCode": "enim",
-    "Thumbnail": "quae",
-    "VATInfo": "dolor",
-    "VAT": 27673.219999999998,
-    "UnitCost": 9044.724,
-    "UnitMinimumPrice": 4255.972,
-    "UnitListPrice": 3281.298,
-    "ExtraInfo": [
-      {},
-      {}
-    ],
-    "RawExtraInfo": "omnis",
-    "IsSubscription": true,
-    "SubscriptionUnit": "expedita",
-    "SubscriptionQuantity": 3842.2839999999997,
-    "SubscriptionStart": "2006-04-08T18:28:49.9611426+02:00",
-    "ERPDiscountPercent": 3262.4939999999997,
-    "ERPDiscountAmount": 17208.793999999998,
-    "DiscountPercent": 27717.095999999998,
-    "DiscountAmount": 27782.91,
-    "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 20082.672,
-    "EarningAmount": 6051.754,
-    "SubTotal": 9988.0579999999991,
-    "TotalPrice": 300.864,
-    "Rights": "tempore",
-    "Rule": "ut",
-    "ExtraField1": "nisi",
-    "ExtraField2": "commodi",
-    "ExtraField3": "consequatur",
-    "ExtraField4": "molestias",
-    "ExtraField5": "et"
-  }
+  "QuoteLine": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 256,
-  "ERPQuoteLineKey": "soluta",
-  "QuoteAlternativeId": 809,
-  "ERPProductKey": "neque",
+  "QuoteLineId": 1001,
+  "ERPQuoteLineKey": "voluptatem",
+  "QuoteAlternativeId": 435,
+  "ERPProductKey": "rerum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 12094.106,
-  "DeliveredQuantity": 11457.904,
-  "Rank": 999,
-  "Name": "Beatty, D'Amore and Bogan",
-  "Description": "Sharable interactive process improvement",
-  "Code": "voluptatem",
-  "QuantityUnit": "deserunt",
-  "PriceUnit": "praesentium",
-  "ItemNumber": "1287994",
+  "Quantity": 12642.555999999999,
+  "DeliveredQuantity": 5092.75,
+  "Rank": 423,
+  "Name": "Hodkiewicz LLC",
+  "Description": "Upgradable system-worthy forecast",
+  "Code": "aspernatur",
+  "QuantityUnit": "illum",
+  "PriceUnit": "voluptatem",
+  "ItemNumber": "199063",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatibus",
-  "ProductTypeKey": "eos",
-  "Supplier": "minima",
-  "SupplierCode": "veniam",
-  "Thumbnail": "qui",
-  "VATInfo": "reiciendis",
-  "VAT": 21521.178,
-  "UnitCost": 21568.188,
-  "UnitMinimumPrice": 9260.97,
-  "UnitListPrice": 12824.328,
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "cum",
+  "Supplier": "sed",
+  "SupplierCode": "molestiae",
+  "Thumbnail": "exercitationem",
+  "VATInfo": "facere",
+  "VAT": 21326.87,
+  "UnitCost": 25526.43,
+  "UnitMinimumPrice": 19352.45,
+  "UnitListPrice": 12645.689999999999,
   "ExtraInfo": [
     {
-      "Name": "Franecki, Little and Zemlak",
-      "Value": "aliquam",
+      "Name": "Barton Inc and Sons",
+      "Value": "suscipit",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 814
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 408
         }
       }
     },
     {
-      "Name": "Franecki, Little and Zemlak",
-      "Value": "aliquam",
+      "Name": "Barton Inc and Sons",
+      "Value": "suscipit",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 814
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 408
         }
       }
     }
   ],
-  "RawExtraInfo": "totam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "eius",
-  "SubscriptionQuantity": 27999.156,
-  "SubscriptionStart": "2013-06-04T18:28:49.963107+02:00",
-  "ERPDiscountPercent": 21377.014,
-  "ERPDiscountAmount": 7415.044,
-  "DiscountPercent": 28535.07,
-  "DiscountAmount": 16390.82,
+  "RawExtraInfo": "id",
+  "IsSubscription": true,
+  "SubscriptionUnit": "atque",
+  "SubscriptionQuantity": 25915.046,
+  "SubscriptionStart": "2006-10-02T11:10:27.7304948+02:00",
+  "ERPDiscountPercent": 21546.25,
+  "ERPDiscountAmount": 1031.086,
+  "DiscountPercent": 20674.998,
+  "DiscountAmount": 10157.294,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 22448.842,
-  "EarningAmount": 21499.239999999998,
-  "SubTotal": 24072.254,
-  "TotalPrice": 25288.246,
-  "Rights": "similique",
-  "Rule": "vitae",
-  "ExtraField1": "ut",
-  "ExtraField2": "necessitatibus",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "sit",
-  "ExtraField5": "illo",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EarningPercent": 11567.594,
+  "EarningAmount": 28077.505999999998,
+  "SubTotal": 19640.778,
+  "TotalPrice": 5475.098,
+  "Rights": "exercitationem",
+  "Rule": "quam",
+  "ExtraField1": "quia",
+  "ExtraField2": "praesentium",
+  "ExtraField3": "doloremque",
+  "ExtraField4": "et",
+  "ExtraField5": "reiciendis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

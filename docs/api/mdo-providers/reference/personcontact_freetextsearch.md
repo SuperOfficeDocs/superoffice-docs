@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "personcontact_freetextsearch"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "personcontact_freetextsearch" MDO List
-
 Provider for selecting a Person - with contact search.
 Does keyword matching and scoring across multiple
 tables using freetext index.
@@ -26,13 +25,16 @@ User's own contacts, recently added + modified contacts, contacts modified or cr
 Matches on word boundaries or at start of field are scored extra highly.
 Contacts with lots of activity or lots of recent activity (according to the SAINT counters) are also
 preferred.
-
+<para />
 Returns person items only: Id = ExtraInfo = person_id, Type = "Person", StyleHint = "stop"
-
+<para />
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersonContactListFreetextSearchProvider">PersonContactListFreetextSearchProvider</see> class.
 The name of the MDO list is 'personcontact_freetextsearch'.
+
+
+
 
 ## Sample Request
 
@@ -45,7 +47,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("personcontact_freetextsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -58,27 +59,28 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|9|Admin Adminson||2|
-|10|Arne Arnesen||2|
-|11|Brede Bredesen||2|
-|12|Cato Carlsson||2|
-|13|Donald Duck||2|
-|14|Erik Eide||2|
-|15|Frode Freestad||2|
-|16|Geir Grønbeck||2|
-|17|Hans Hansen||2|
-|18|Ingrid Istad||2|
-|19|Arne Arnesen||3|
-|20|Arnt Arntsen||3|
-|21|Arnhild Arvestad||4|
-|22|Arjan Abelsen||4|
-|23|Britt Bærum||6|
-|24|Bente Båstad||6|
-|25|Bjørn Bjørnsen||5|
-|26|Bjørge Bastesen||5|
-|27|Carl-Oskar Cederström||8|
-|28|Cidrik Culien||8|
-|29|Cecilie Carlsen||7|
+|9|Admin Adminson (statezerodatabase)||2|
+|10|Arne Arnesen (statezerodatabase)||2|
+|11|Brede Bredesen (statezerodatabase)||2|
+|12|Cato Carlsson (statezerodatabase)||2|
+|13|Donald Duck (statezerodatabase)||2|
+|14|Erik Eide (statezerodatabase)||2|
+|15|Frode Freestad (statezerodatabase)||2|
+|16|Geir Grønbeck (statezerodatabase)||2|
+|17|Hans Hansen (statezerodatabase)||2|
+|18|Ingrid Istad (statezerodatabase)||2|
+|147|Adm0 (statezerodatabase)||2|
+|148|Adm1 (statezerodatabase)||2|
+|149|Adm2 (statezerodatabase)||2|
+|150|Adm3 (statezerodatabase)||2|
+|151|Adm4 (statezerodatabase)||2|
+|152|Adm5 (statezerodatabase)||2|
+|153|Sal0 (statezerodatabase)||2|
+|154|Sal1 (statezerodatabase)||2|
+|155|Sal2 (statezerodatabase)||2|
+|156|Sal3 (statezerodatabase)||2|
+|157|Sal4 (statezerodatabase)||2|
+
 
 ## Related MDO Lists
 

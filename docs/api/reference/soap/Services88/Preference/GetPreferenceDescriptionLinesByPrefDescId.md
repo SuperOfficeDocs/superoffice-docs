@@ -17,6 +17,7 @@ Get all preference description lines from a prefDesc\_id
 
 **Returns:** The preference description lines matching the id
 
+
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreferenceDescriptionLinesByPrefDescId Response
 
 ```xml
@@ -78,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

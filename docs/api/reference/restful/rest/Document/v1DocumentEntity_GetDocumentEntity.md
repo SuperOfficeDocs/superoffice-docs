@@ -1,6 +1,6 @@
 ---
 title: GET Document/{id}
-id: v1DocumentEntity_GetDocumentEntity
+uid: v1DocumentEntity_GetDocumentEntity
 ---
 
 # GET Document/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Document/{id}
 
 Gets a DocumentEntity object.
 
+
 Calls the Document agent service GetDocumentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DocumentEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +34,7 @@ Calls the Document agent service GetDocumentEntity.
 GET /api/v1/Document/{id}?$select=name,department,category/id
 GET /api/v1/Document/{id}?fk=False
 ```
+
 
 ## Request Headers
 
@@ -42,9 +49,10 @@ GET /api/v1/Document/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-DocumentEntity entity with API _Links added.
+## Response: 
+
+DocumentEntity found.
 
 | Response | Description |
 |----------------|-------------|
@@ -52,7 +60,7 @@ DocumentEntity entity with API _Links added.
 | 304 | DocumentEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,11 +75,11 @@ Response body: object
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate |  | The template type of the document.  <br />Use MDO List name "doctmpl" to get list items. |
-| Person |  | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <br />Use MDO List name "person" to get list items. |
-| Associate |  | The owner of the document - the associate whose checklist the document is in.  <br />Use MDO List name "associate" to get list items. |
-| Contact |  | The contact associated with the document. It may also be null if no contact is associated with the document.  <br />Use MDO List name "contact" to get list items. |
-| Project |  | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <br />Use MDO List name "project" to get list items. |
+| DocumentTemplate |  | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
+| Person |  | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Associate |  | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact |  | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
+| Project |  | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -79,7 +87,7 @@ Response body: object
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale |  | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <br />Use MDO List name "sale" to get list items. |
+| Sale |  | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -94,7 +102,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/{id}
@@ -103,372 +111,111 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 18 Mar 1997 18:25:50 G3T
+Last-Modified: Fri, 24 Jan 2020 11:10:52 G1T
 
 {
-  "DocumentId": 432,
-  "UpdatedBy": {
-    "AssociateId": 333,
-    "Name": "Klein-Wiza",
-    "PersonId": 413,
-    "Rank": 767,
-    "Tooltip": "quisquam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 44,
-    "FullName": "Kara Lueilwitz",
-    "FormalName": "Ward-Hilll",
-    "Deleted": true,
-    "EjUserId": 225,
-    "UserName": "Hand, Ryan and Baumbach",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 502
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 409,
-    "Name": "Feeney-Langosh",
-    "PersonId": 142,
-    "Rank": 219,
-    "Tooltip": "autem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 928,
-    "FullName": "Abe Kuvalis Sr.",
-    "FormalName": "Oberbrunner-Labadie",
-    "Deleted": false,
-    "EjUserId": 54,
-    "UserName": "Greenfelder Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 372
-      }
-    }
-  },
-  "Attention": "earum",
-  "Header": "quis",
-  "Name": "Yost Group",
-  "OurRef": "ea",
-  "YourRef": "corrupti",
-  "CreatedDate": "2019-11-26T18:25:50.4446297+01:00",
-  "UpdatedDate": "1997-03-18T18:25:50.4446297+01:00",
-  "Description": "Re-contextualized grid-enabled process improvement",
-  "DocumentTemplate": {
-    "DocumentTemplateId": 895,
-    "Name": "Dare LLC",
-    "Tooltip": "fugiat",
-    "SaveInDb": 777,
-    "Filename": "sed",
-    "DefaultOref": "esse",
-    "RecordType": "Appointment",
-    "Deleted": 209,
-    "Direction": "Incoming",
-    "AutoeventId": 391,
-    "QuoteDocType": "ConfirmationLines",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 159
-      }
-    }
-  },
-  "Person": {
-    "Position": "ipsam",
-    "PersonId": 616,
-    "Mrmrs": "quasi",
-    "Firstname": "Laurie",
-    "Lastname": "Schamberger",
-    "MiddleName": "Crooks-Keeling",
-    "Title": "sit",
-    "Description": "Reactive intangible protocol",
-    "Email": "lurline@ohara.com",
-    "FullName": "Newton Nader",
-    "DirectPhone": "065.501.1525 x538",
-    "FormalName": "Cartwright Inc and Sons",
-    "CountryId": 234,
-    "ContactId": 970,
-    "ContactName": "Yundt Inc and Sons",
-    "Retired": 188,
-    "Rank": 679,
-    "ActiveInterests": 888,
-    "ContactDepartment": "",
-    "ContactCountryId": 765,
-    "ContactOrgNr": "814502",
-    "FaxPhone": "855-850-8180 x25638",
-    "MobilePhone": "568-428-5554",
-    "ContactPhone": "(062)230-7200 x32228",
-    "AssociateName": "Tillman Group",
-    "AssociateId": 434,
-    "UsePersonAddress": true,
-    "ContactFax": "est",
-    "Kanafname": "impedit",
-    "Kanalname": "quisquam",
-    "Post1": "mollitia",
-    "Post2": "inventore",
-    "Post3": "suscipit",
-    "EmailName": "charley@hessel.info",
-    "ContactFullName": "Toni Cassin",
-    "ActiveErpLinks": 898,
-    "TicketPriorityId": 219,
-    "SupportLanguageId": 240,
-    "SupportAssociateId": 348,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 628
-      }
-    }
-  },
-  "Associate": {
-    "AssociateId": 675,
-    "Name": "Eichmann, Bruen and Bogisich",
-    "PersonId": 255,
-    "Rank": 120,
-    "Tooltip": "tempora",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 431,
-    "FullName": "Darius Wilderman Sr.",
-    "FormalName": "Daugherty Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 551,
-    "UserName": "Brown-Wehner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 876
-      }
-    }
-  },
-  "Contact": {
-    "ContactId": 436,
-    "Name": "Ritchie-Witting",
-    "OrgNr": "555027",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "veritatis",
-    "DirectPhone": "1-005-214-1168",
-    "AssociateId": 947,
-    "CountryId": 114,
-    "EmailAddress": "ceasar@weissnat.ca",
-    "Kananame": "quia",
-    "EmailAddressName": "isai.paucek@kuhic.com",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Pierre Mante",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "tenetur",
-    "FullName": "Virgil Rodriguez II",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 569,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 748
-      }
-    }
-  },
-  "Project": {
-    "ProjectId": 931,
-    "Name": "Haag LLC",
-    "Description": "Extended encompassing initiative",
-    "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 153,
-    "AssociateFullName": "Frederique Nikolaus",
-    "TypeId": 236,
-    "Updated": "2006-08-11T18:25:50.4476295+02:00",
-    "StatusId": 40,
-    "Status": "in",
-    "TextId": 968,
-    "PublishTo": "1999-03-01T18:25:50.4476295+01:00",
-    "PublishFrom": "2019-04-13T18:25:50.4476295+02:00",
-    "IsPublished": true,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "280608",
-    "ActiveErpLinks": 34,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 469
-      }
-    }
-  },
-  "Date": "1994-08-30T18:25:50.4476295+02:00",
-  "ExternalRef": "perspiciatis",
+  "DocumentId": 731,
+  "UpdatedBy": null,
+  "CreatedBy": null,
+  "Attention": "id",
+  "Header": "assumenda",
+  "Name": "Lehner Inc and Sons",
+  "OurRef": "cumque",
+  "YourRef": "illo",
+  "CreatedDate": "2008-07-27T11:10:52.8011758+02:00",
+  "UpdatedDate": "2020-01-24T11:10:52.8011758+01:00",
+  "Description": "Synergistic zero defect focus group",
+  "DocumentTemplate": null,
+  "Person": null,
+  "Associate": null,
+  "Contact": null,
+  "Project": null,
+  "Date": "1998-04-23T11:10:52.8041738+02:00",
+  "ExternalRef": "omnis",
   "Completed": "Completed",
-  "ActiveLinks": 703,
+  "ActiveLinks": 850,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rutherford-Waelchi",
-      "Id": 468,
-      "Description": "Self-enabling full-range forecast",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 158,
-      "TableRight": {},
+      "EntityName": "Swaniawski, Bradtke and Hand",
+      "Id": 585,
+      "Description": "Programmable systemic open architecture",
+      "ExtraInfo": "quia",
+      "LinkId": 254,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 750
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     }
   ],
   "LockSemantics": "Locking",
-  "Sale": {
-    "ContactName": "Huels-Schulist",
-    "SaleDate": "1998-04-10T18:25:50.4476295+02:00",
-    "SaleId": 652,
-    "Probability": 554,
-    "Title": "explicabo",
-    "Amount": 16801.374,
-    "Currency": "ratione",
-    "ProjectName": "Wolff Group",
-    "AssociateFullName": "Mrs. Gerry Weimann",
-    "Description": "Seamless coherent data-warehouse",
-    "Status": "Lost",
-    "WeightedAmount": 29237.086,
-    "ProjectId": 163,
-    "EarningPercent": 12921.482,
-    "Earning": 23276.218,
-    "ContactId": 632,
-    "AssociateId": 181,
-    "PersonId": 55,
-    "SaleTypeId": 265,
-    "SaleTypeName": "Paucek-Raynor",
-    "PersonFullName": "Jaylon Reichert",
-    "Completed": "Completed",
-    "ActiveErpLinks": 119,
-    "NextDueDate": "2020-07-03T18:25:50.4476295+02:00",
-    "Number": "1007495",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 659
-      }
-    }
-  },
-  "SuggestedDocumentId": 390,
-  "Snum": 376,
+  "Sale": null,
+  "SuggestedDocumentId": 159,
+  "Snum": 625,
   "UserDefinedFields": {
-    "SuperOffice:1": "Geovany Hoppe",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "223194223",
+    "SuperOffice:2": "Zula Bayer"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "minima",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "soluta",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "2014-06-07T18:25:50.4476295+02:00",
-  "PublishTo": "2017-10-21T18:25:50.4476295+02:00",
-  "PublishFrom": "2009-03-24T18:25:50.4476295+01:00",
+  "PublishEventDate": "2020-12-03T11:10:52.805174+01:00",
+  "PublishTo": "2010-10-10T11:10:52.805174+02:00",
+  "PublishFrom": "2017-12-02T11:10:52.805174+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 994,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
-      "TableRight": {},
+      "DisplayValue": "tenetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 88
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 872
         }
       }
     },
     {
-      "VisibleId": 994,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
-      "TableRight": {},
+      "DisplayValue": "tenetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 88
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 872
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 277
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

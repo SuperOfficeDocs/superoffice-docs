@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Language
-id: v1DocumentTemplateList_GetDocumentTemplateLanguages
+uid: v1DocumentTemplateList_GetDocumentTemplateLanguages
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Language
@@ -11,9 +11,16 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Language
 
 Get the supported language variations for a document template
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The id of the document template **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get the supported language variations for a document template
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -36,7 +46,8 @@ Get the supported language variations for a document template
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Language
@@ -45,12 +56,14 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "et",
-  "necessitatibus"
+  "dignissimos",
+  "asperiores"
 ]
 ```

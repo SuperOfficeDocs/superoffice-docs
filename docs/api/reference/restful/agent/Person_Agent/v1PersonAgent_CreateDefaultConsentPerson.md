@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/CreateDefaultConsentPerson
-id: v1PersonAgent_CreateDefaultConsentPerson
+uid: v1PersonAgent_CreateDefaultConsentPerson
 ---
 
 # POST Agents/Person/CreateDefaultConsentPerson
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Person/CreateDefaultConsentPerson
 
 Set default values into a new ConsentPerson.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ConsentPerson.
-Services for the ConsentPerson Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,100 +55,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/CreateDefaultConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 676,
-  "ConsentSource": {
-    "ConsentSourceId": 174,
-    "Name": "Baumbach-Prohaska",
-    "Tooltip": "voluptatem",
-    "Rank": 500,
-    "Key": "qui",
-    "MailTemplateId": 486,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "enable user-centric supply-chains"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 852
-      }
-    }
-  },
-  "LegalBase": {
-    "LegalBaseId": 709,
-    "Name": "Ratke, Little and Roberts",
-    "Tooltip": "sapiente",
-    "Rank": 543,
-    "Key": "autem",
-    "Deleted": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 666
-      }
-    }
-  },
-  "PersonId": 670,
-  "ConsentPurpose": {
-    "ConsentPurposeId": 552,
-    "Name": "Dare LLC",
-    "ConsentText": "ipsa",
-    "FormText": "mollitia",
-    "Key": "mollitia",
-    "Tooltip": "voluptas",
-    "Active": 618,
-    "UpdatedDate": "2009-11-19T18:28:49.5300874+01:00",
-    "UpdatedBy": {},
-    "Deleted": false,
-    "Rank": 529,
-    "PrivacyStatementDesc": "quisquam",
-    "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 625
-      }
-    }
-  },
-  "Comment": "nulla",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ConsentPersonId": 744,
+  "ConsentSource": null,
+  "LegalBase": null,
+  "PersonId": 667,
+  "ConsentPurpose": null,
+  "Comment": "veritatis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldLength": 46
     }
   }
 }

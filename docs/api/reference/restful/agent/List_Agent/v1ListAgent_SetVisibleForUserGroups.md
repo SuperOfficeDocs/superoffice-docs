@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SetVisibleForUserGroups
-id: v1ListAgent_SetVisibleForUserGroups
+uid: v1ListAgent_SetVisibleForUserGroups
 ---
 
 # POST Agents/List/SetVisibleForUserGroups
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetVisibleForUserGroups
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/SetVisibleForUserGroups?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId, UserGroups
+UdListDefinitionId, ListItemId, UserGroups 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ UdListDefinitionId, ListItemId, UserGroups
 | ListItemId | int32 |  |
 | UserGroups | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,42 +83,44 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 913,
-  "ListItemId": 146,
+  "UdListDefinitionId": 338,
+  "ListItemId": 601,
   "UserGroups": [
     {
-      "Id": 597,
-      "Name": "Renner-Price",
-      "ToolTip": "Accusamus nemo eos qui nemo sit alias.",
+      "Id": 378,
+      "Name": "Wehner, Ruecker and Mraz",
+      "ToolTip": "Et incidunt sint.",
       "Deleted": true,
-      "Rank": 207,
-      "Type": "aut",
-      "ColorBlock": 240,
-      "IconHint": "dicta",
-      "Selected": true,
-      "LastChanged": "2011-10-16T18:28:49.3081177+02:00",
+      "Rank": 252,
+      "Type": "minus",
+      "ColorBlock": 797,
+      "IconHint": "nemo",
+      "Selected": false,
+      "LastChanged": "1999-02-01T11:10:27.1654259+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolore",
-      "StyleHint": "officiis",
-      "Hidden": false,
-      "FullName": "Adam Klein"
+      "ExtraInfo": "magnam",
+      "StyleHint": "eius",
+      "Hidden": true,
+      "FullName": "Eddie Bernhard"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -116,65 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Bogan, Ortiz and Ferry",
-    "ToolTip": "Sed quo quos illo nulla.",
+    "Id": 437,
+    "Name": "Nader-Vandervort",
+    "ToolTip": "Et rerum perspiciatis omnis.",
     "Deleted": false,
-    "Rank": 438,
-    "Type": "hic",
-    "ColorBlock": 979,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2010-11-13T18:28:49.3091178+01:00",
+    "Rank": 746,
+    "Type": "error",
+    "ColorBlock": 325,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2005-11-29T11:10:27.1664477+01:00",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Champlin-Emmerich",
-        "ToolTip": "Sed eos et.",
+        "Id": 917,
+        "Name": "Ritchie, Mohr and Hauck",
+        "ToolTip": "Ipsum ut ducimus dolor repellat.",
         "Deleted": true,
-        "Rank": 637,
-        "Type": "dolores",
-        "ColorBlock": 574,
-        "IconHint": "voluptatem",
+        "Rank": 527,
+        "Type": "cupiditate",
+        "ColorBlock": 355,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2002-09-18T18:28:49.3101182+02:00",
+        "LastChanged": "2002-03-03T11:10:27.1664477+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "nulla",
-        "Hidden": true,
-        "FullName": "Ophelia Cremin",
-        "TableRight": {},
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Ima O'Connell",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "envisioneer synergistic relationships"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldLength": 406
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Gage Cartwright",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "eaque",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Marshall Douglas",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 604
       }
     }
   }

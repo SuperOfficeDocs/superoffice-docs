@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointments
-id: v1AppointmentAgent_GetProjectAppointments
+uid: v1AppointmentAgent_GetProjectAppointments
 ---
 
 # POST Agents/Appointment/GetProjectAppointments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the project specified. If the logged on user is not allowed to view this projects appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified. If the logged on user is not a
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count
+ProjectId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ ProjectId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -110,22 +120,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 569,
-  "StartTime": "2015-05-27T18:28:47.8978442+02:00",
-  "EndTime": "1998-04-26T18:28:47.8978442+02:00",
-  "Count": 311
+  "ProjectId": 149,
+  "StartTime": "2001-12-19T11:10:25.9455523+01:00",
+  "EndTime": "2011-05-31T11:10:25.9455523+02:00",
+  "Count": 657
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -133,67 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 608,
-    "StartDate": "2004-11-25T18:28:47.8998445+01:00",
-    "EndDate": "2009-08-07T18:28:47.8998445+02:00",
+    "AppointmentId": 531,
+    "StartDate": "2020-11-17T11:10:25.9465568+01:00",
+    "EndDate": "2007-01-20T11:10:25.9465568+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nam",
-    "AssociateFullName": "Pierre Cronin MD",
-    "ContactName": "Quigley LLC",
-    "Description": "Stand-alone systemic algorithm",
-    "PersonFullName": "Jodie Wilderman",
-    "PersonId": 850,
-    "ContactId": 589,
-    "ProjectId": 233,
-    "ProjectName": "Flatley, Lowe and Hegmann",
-    "IsPublished": true,
-    "AssociateId": 930,
-    "ColorIndex": 438,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "sunt",
+    "AssociateFullName": "Mr. Triston Braun",
+    "ContactName": "Sipes, Senger and Von",
+    "Description": "Realigned bandwidth-monitored focus group",
+    "PersonFullName": "Ms. Angelo Cummerata Jr.",
+    "PersonId": 631,
+    "ContactId": 793,
+    "ProjectId": 116,
+    "ProjectName": "Gulgowski-Mosciski",
+    "IsPublished": false,
+    "AssociateId": 755,
+    "ColorIndex": 483,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 455,
-    "PriorityName": "Reilly Group",
+    "PriorityId": 689,
+    "PriorityName": "O'Conner, Predovic and Moen",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-10-19T18:28:47.8998445+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2010-01-11T11:10:25.9465568+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-12-07T18:28:47.8998445+01:00",
-    "RecurringEndDate": "1994-10-14T18:28:47.8998445+02:00",
-    "MotherId": 760,
-    "AssignedBy": 804,
-    "AssignedByFullName": "Ashleigh Cartwright",
+    "RecurringStartDate": "1996-12-20T11:10:25.9465568+01:00",
+    "RecurringEndDate": "2002-01-03T11:10:25.9465568+01:00",
+    "MotherId": 619,
+    "AssignedBy": 586,
+    "AssignedByFullName": "Desmond Hagenes",
     "RejectReason": "",
-    "Location": "placeat",
-    "AlarmLeadTime": "maiores",
-    "SaleId": 374,
-    "SaleName": "Effertz LLC",
-    "AssociateName": "Kilback Group",
-    "CreatedDate": "2004-05-28T18:28:47.9008442+02:00",
-    "CreatedBy": "fuga",
-    "CreatedByFullName": "Deja Lehner V",
-    "CreatedByAssociateId": 73,
+    "Location": "rem",
+    "AlarmLeadTime": "voluptatum",
+    "SaleId": 513,
+    "SaleName": "Bins Group",
+    "AssociateName": "Smith-Pouros",
+    "CreatedDate": "1997-06-13T11:10:25.9465568+02:00",
+    "CreatedBy": "assumenda",
+    "CreatedByFullName": "Mr. Ford Angel Pfannerstill II",
+    "CreatedByAssociateId": 641,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 545
       }
     }
   }

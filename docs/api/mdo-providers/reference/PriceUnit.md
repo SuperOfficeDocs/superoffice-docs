@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "priceunit"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "priceunit" MDO List
-
 GenericMDOProvider reads MDO lists with default settings
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'priceunit'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("priceunit", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,6 +52,7 @@ foreach (var item in listProvider.RootItems) {
 |1|kg|||
 |2|Mt|||
 |4|τρυβλίον|||
+
 
 ## Related MDO Lists
 

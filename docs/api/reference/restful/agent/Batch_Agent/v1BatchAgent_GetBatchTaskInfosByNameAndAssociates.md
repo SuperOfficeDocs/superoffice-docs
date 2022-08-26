@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
-id: v1BatchAgent_GetBatchTaskInfosByNameAndAssociates
+uid: v1BatchAgent_GetBatchTaskInfosByNameAndAssociates
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByNameAndAssociates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 
 Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of BatchTaskInfo for the provided associate id's and batch task def
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AssociateIds
+Name, AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | AssociateIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -78,7 +88,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
@@ -88,13 +98,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ryan LLC",
+  "Name": "Lakin-Marks",
   "AssociateIds": [
-    711,
-    553
+    799,
+    284
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,42 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Beier, Lind and Lind",
-    "AssociateId": 26,
-    "DetailsTable": 21,
-    "DetailsRecord": 421,
+    "Id": 844,
+    "Name": "Wilkinson LLC",
+    "AssociateId": 249,
+    "DetailsTable": 448,
+    "DetailsRecord": 717,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "id",
-      "ParameterObject2": "accusantium"
+      "ParameterObject1": "sint",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2013-04-18T18:28:48.1465423+02:00",
-    "Created": "1998-09-01T18:28:48.1465423+02:00",
-    "StartCount": 470,
-    "DatabaseSerialNumber": "1403708",
-    "Context": "ratione",
-    "Result": "quia",
+    "LastStarted": "1997-02-20T11:10:26.0215527+01:00",
+    "Created": "2003-02-12T11:10:26.0215527+01:00",
+    "StartCount": 205,
+    "DatabaseSerialNumber": "1137672",
+    "Context": "distinctio",
+    "Result": "nostrum",
     "State": "All",
-    "Description": "Networked leading edge help-desk",
-    "Response": "amet",
-    "Request": "et",
-    "ProgressDescription": "Configurable local local area network",
-    "ProgressPercent": 63,
-    "FileName": "Fadel, Kling and Emmerich",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Reduced zero administration framework",
+    "Response": "voluptas",
+    "Request": "magnam",
+    "ProgressDescription": "Enhanced well-modulated strategy",
+    "ProgressPercent": 315,
+    "FileName": "Rosenbaum, Goyette and Christiansen",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldLength": 493
       }
     }
   }

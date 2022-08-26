@@ -21,6 +21,7 @@ Method to get a MDO list with own history list.
 
 **Returns:** Array of MDOListItem
 
+
 [WSDL file for Services86/MDO](../Services86-MDO.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetListWithHistory Response
 
@@ -126,3 +128,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

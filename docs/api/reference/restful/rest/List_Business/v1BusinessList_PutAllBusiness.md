@@ -1,6 +1,6 @@
 ---
 title: PUT List/Business/Items
-id: v1BusinessList_PutAllBusiness
+uid: v1BusinessList_PutAllBusiness
 ---
 
 # PUT List/Business/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Business/Items
 ```
 
 Update the Business list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Business list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Business.
+All the updated Business. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Business.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Business/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Greenfelder LLC",
-    "Tooltip": "in",
-    "Deleted": true,
-    "UdListDefinitionId": 1000,
-    "Rank": 564
+    "Id": 865,
+    "Name": "Haley, Rempel and Tillman",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "UdListDefinitionId": 208,
+    "Rank": 533
   },
   {
-    "Id": 122,
-    "Name": "Greenfelder LLC",
-    "Tooltip": "in",
-    "Deleted": true,
-    "UdListDefinitionId": 1000,
-    "Rank": 564
+    "Id": 865,
+    "Name": "Haley, Rempel and Tillman",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "UdListDefinitionId": 208,
+    "Rank": 533
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Wintheiser-Witting",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 154,
-    "Rank": 715,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 463,
+    "Name": "Brakus-Klocko",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "UdListDefinitionId": 558,
+    "Rank": 861,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 832
       }
     }
   }

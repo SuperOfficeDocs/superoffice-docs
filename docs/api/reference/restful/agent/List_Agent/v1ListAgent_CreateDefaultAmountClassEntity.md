@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultAmountClassEntity
-id: v1ListAgent_CreateDefaultAmountClassEntity
+uid: v1ListAgent_CreateDefaultAmountClassEntity
 ---
 
 # POST Agents/List/CreateDefaultAmountClassEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 
 Set default values into a new AmountClassEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for AmountClassEntity.
-Services for the AmountClassEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,40 +57,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 620,
-  "Name": "O'Reilly, Thiel and Simonis",
-  "Tooltip": "ad",
-  "Rank": 987,
-  "AmountFrom": 4516.094,
-  "AmountTo": 5879.384,
+  "AmountClassId": 82,
+  "Name": "Effertz-Bradtke",
+  "Tooltip": "aut",
+  "Rank": 708,
+  "AmountFrom": 22737.17,
+  "AmountTo": 27037.018,
   "Deleted": false,
-  "CurrencyId": 617,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "CurrencyId": 227,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

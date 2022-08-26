@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetProviderNames
-id: v1ArchiveAgent_GetProviderNames
+uid: v1ArchiveAgent_GetProviderNames
 ---
 
 # POST Agents/Archive/GetProviderNames
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Archive/GetProviderNames
 
 Return list of all archive provider names
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return list of all archive provider names
 ```http
 POST /api/v1/Agents/Archive/GetProviderNames?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Archive/GetProviderNames?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,21 +52,24 @@ POST /api/v1/Agents/Archive/GetProviderNames?$select=name,department,category/id
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetProviderNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "necessitatibus",
-  "dolorum"
+  "dolorem",
+  "eveniet"
 ]
 ```

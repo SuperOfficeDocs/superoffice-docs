@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GenerateQuoteDocuments
-id: v1QuoteAgent_GenerateQuoteDocuments
+uid: v1QuoteAgent_GenerateQuoteDocuments
 ---
 
 # POST Agents/Quote/GenerateQuoteDocuments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 
 Generate all the documents required to send the Quote as an email to the prospect - or an Order Confirmation; it just depends on the template id's for the lines doc and mail body.
 
+
 Quote version status is not changed by this method.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Quote version status is not changed by this method.
 ```http
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Quote/GenerateQuoteDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, EmailBodyTemplateId, AttachMainDocument, QuotedProductsTemplateId, IncludeAttachments, RawMailSubject
+QuoteVersionId, EmailBodyTemplateId, AttachMainDocument, QuotedProductsTemplateId, IncludeAttachments, RawMailSubject 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +57,16 @@ QuoteVersionId, EmailBodyTemplateId, AttachMainDocument, QuotedProductsTemplateI
 | IncludeAttachments | bool |  |
 | RawMailSubject | string |  |
 
-## Response: object
 
-Prepare the documents required to publish a quote - Email, main document as pdf, quoted products as pdf, attachments
+## Response: 
 
-Carrier object for QuotePublishDocuments.
-Services for the QuotePublishDocuments Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +81,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
@@ -86,43 +91,39 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 862,
-  "EmailBodyTemplateId": 6,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 868,
-  "IncludeAttachments": true,
-  "RawMailSubject": "fuga"
+  "QuoteVersionId": 86,
+  "EmailBodyTemplateId": 561,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 533,
+  "IncludeAttachments": false,
+  "RawMailSubject": "qui"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 670,
-  "QuotedProductsId": 858,
+  "QuoteDocumentId": 329,
+  "QuotedProductsId": 536,
   "QuoteAttachmentIds": [
-    469,
-    458
+    254,
+    808
   ],
-  "MailBody": "sunt",
-  "MailSubject": "officiis",
-  "ToEmail": "keyon@harris.co.uk",
-  "ToFullName": "Hilbert Turner",
-  "ErrorMessage": "ut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MailBody": "distinctio",
+  "MailSubject": "et",
+  "ToEmail": "annabell.stark@rowewintheiser.us",
+  "ToFullName": "Manley Bayer",
+  "ErrorMessage": "eum",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

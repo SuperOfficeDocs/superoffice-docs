@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Favourite/GetFavourites
-id: v1FavouriteAgent_GetFavourites
+uid: v1FavouriteAgent_GetFavourites
 ---
 
 # POST Agents/Favourite/GetFavourites
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Favourite/GetFavourites
 
 Get all favourites for a table and associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all favourites for a table and associate
 ```http
 POST /api/v1/Agents/Favourite/GetFavourites?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Favourite/GetFavourites?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, AssociateId
+TableName, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Favourite/GetFavourites
@@ -72,10 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Morissette-Hilll",
-  "AssociateId": 212
+  "TableName": "Prosacco-Watsica",
+  "AssociateId": 470
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,23 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Balistreri Group",
-    "RecordId": 205,
-    "AssociateId": 415,
-    "ExtraInfo": "quis",
-    "Rank": 890,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableName": "Block LLC",
+    "RecordId": 557,
+    "AssociateId": 818,
+    "ExtraInfo": "necessitatibus",
+    "Rank": 289,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 223
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

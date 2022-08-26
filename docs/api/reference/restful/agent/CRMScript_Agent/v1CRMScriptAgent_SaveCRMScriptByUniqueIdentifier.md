@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
-id: v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier
+uid: v1CRMScriptAgent_SaveCRMScriptByUniqueIdentifier
 ---
 
 # POST Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 
 Create or Update the CRMScript information
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create or Update the CRMScript information
 ```http
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UniqueIdentifier, CRMScript
+UniqueIdentifier, Crmscript 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
-| CRMScript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <br /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
-## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
+## Response: 
 
-Carrier object for Script.
-Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,59 +81,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Crmscript": {
-    "UniqueIdentifier": "blanditiis",
-    "Name": "Rolfson-Bailey",
-    "Description": "Cross-group executive infrastructure",
-    "IncludeId": "et",
-    "Source": "velit",
-    "Registered": "2019-03-28T18:28:48.6319279+01:00",
-    "RegisteredBy": "ut",
-    "Updated": "2021-11-15T18:28:48.6319279+01:00",
-    "UpdatedBy": "iusto",
-    "Path": "et"
-  }
+  "UniqueIdentifier": "qui",
+  "Crmscript": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nobis",
-  "Name": "Swaniawski LLC",
-  "Description": "Customer-focused hybrid concept",
-  "IncludeId": "occaecati",
-  "Source": "eum",
-  "Registered": "2008-11-22T18:28:48.6329579+01:00",
-  "RegisteredBy": "incidunt",
-  "Updated": "2006-06-08T18:28:48.6329579+02:00",
-  "UpdatedBy": "excepturi",
-  "Path": "suscipit",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UniqueIdentifier": "excepturi",
+  "Name": "Pagac LLC",
+  "Description": "Decentralized mobile attitude",
+  "IncludeId": "quisquam",
+  "Source": "numquam",
+  "Registered": "2016-12-10T11:10:26.3814585+01:00",
+  "RegisteredBy": "iste",
+  "Updated": "2020-01-28T11:10:26.3814585+01:00",
+  "UpdatedBy": "eum",
+  "Path": "dolore",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   }
 }

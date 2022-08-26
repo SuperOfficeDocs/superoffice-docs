@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetAddress
-id: v1PersonAgent_GetAddress
+uid: v1PersonAgent_GetAddress
 ---
 
 # POST Agents/Person/GetAddress
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetAddress
 
 Gets the person's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the person's localized address.
 ```http
 POST /api/v1/Agents/Person/GetAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,24 @@ POST /api/v1/Agents/Person/GetAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-## Response: object
 
-Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
+## Response: 
 
-Carrier object for Address.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetAddress
@@ -76,102 +82,66 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 81
+  "PersonId": 717
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 26801.968,
-  "Wgs84Longitude": 4321.786,
+  "Wgs84Latitude": 24924.701999999997,
+  "Wgs84Longitude": 19161.275999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Herman LLC",
-        "Value": "quae",
-        "Tooltip": "reiciendis",
-        "Label": "voluptate",
-        "ValueLength": 371,
-        "AddressType": "aut",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Grady-Auer",
+        "Value": "enim",
+        "Tooltip": "quis",
+        "Label": "at",
+        "ValueLength": 292,
+        "AddressType": "debitis",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 734
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 576
           }
         }
       }
     ],
     [
       {
-        "Name": "Parker-Heller",
-        "Value": "optio",
-        "Tooltip": "beatae",
-        "Label": "illo",
-        "ValueLength": 515,
-        "AddressType": "recusandae",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Koss-Reinger",
+        "Value": "aperiam",
+        "Tooltip": "sequi",
+        "Label": "autem",
+        "ValueLength": 186,
+        "AddressType": "esse",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 367
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 672
           }
         }
       }
     ]
   ],
-  "Street": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "minima",
-    "Address2": "et",
-    "Address3": "minus",
-    "City": "nam",
-    "County": "animi",
-    "State": "dolorem",
-    "Zipcode": "consequatur",
-    "Formatted": "voluptatem"
-  },
-  "Postal": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "optio",
-    "Address2": "fuga",
-    "Address3": "maxime",
-    "City": "totam",
-    "County": "voluptatum",
-    "State": "aut",
-    "Zipcode": "id",
-    "Formatted": "numquam"
-  },
-  "Formatted": "perspiciatis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Street": null,
+  "Postal": null,
+  "Formatted": "cum",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   }
 }

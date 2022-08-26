@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLocalizedText
-id: v1ListAgent_GetLocalizedText
+uid: v1ListAgent_GetLocalizedText
 ---
 
 # POST Agents/List/GetLocalizedText
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLocalizedText
 
 Gets a LocalizedText object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a LocalizedText object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=292
+POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=556
 POST /api/v1/Agents/List/GetLocalizedText?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetLocalizedText?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for LocalizedText.
-Services for the LocalizedText Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +65,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLocalizedText
@@ -67,29 +74,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 525,
-  "ResourceId": 553,
-  "Text": "iste",
+  "LanguageId": 757,
+  "ResourceId": 228,
+  "Text": "eligendi",
   "Type": "Column",
-  "LocalizedTextId": 11,
-  "IsBuiltIn": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "LocalizedTextId": 468,
+  "IsBuiltIn": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 345
     }
   }
 }

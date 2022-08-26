@@ -1,6 +1,6 @@
 ---
 title: GET Preference/{section}
-id: v1Preference_GetKeysInSection
+uid: v1Preference_GetKeysInSection
 ---
 
 # GET Preference/{section}
@@ -11,11 +11,18 @@ GET /api/v1/Preference/{section}
 
 Gets a list of the preference keys in a section
 
+
 Calls the MDO agent service GetList('preferenceKey').
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the MDO agent service GetList('preferenceKey').
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +65,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,59 +82,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Sporer Inc and Sons",
-    "ToolTip": "Pariatur est animi.",
+    "Id": 969,
+    "Name": "Ratke-Hartmann",
+    "ToolTip": "Quia voluptatem sapiente quasi.",
     "Deleted": false,
-    "Rank": 436,
-    "Type": "voluptas",
+    "Rank": 824,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Connelly LLC",
-        "ToolTip": "Sit quia quas maxime consequatur.",
-        "Deleted": true,
-        "Rank": 404,
-        "Type": "omnis",
+        "Id": 904,
+        "Name": "Bogan, Jast and Grant",
+        "ToolTip": "Ab ipsam.",
+        "Deleted": false,
+        "Rank": 275,
+        "Type": "aliquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quasi",
-        "ColorBlock": 692,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "fuga",
-        "FullName": "Mrs. Heather Russel",
-        "TableRight": {},
+        "IconHint": "omnis",
+        "ColorBlock": 788,
+        "ExtraInfo": "sint",
+        "StyleHint": "dolorem",
+        "FullName": "Dr. Ole Peyton Upton MD",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 275
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 202,
-    "ExtraInfo": "quis",
-    "StyleHint": "magni",
-    "FullName": "Miss Emerald Tremblay",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "quaerat",
+    "ColorBlock": 173,
+    "ExtraInfo": "aut",
+    "StyleHint": "occaecati",
+    "FullName": "Mr. Jordi Rico Ritchie",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 622
       }
     }
   }

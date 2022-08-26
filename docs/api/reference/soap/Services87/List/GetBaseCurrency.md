@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetBaseCurrenc
 
 Get the base currency, used for calculating exchange rates
 
+
 **Returns:** The base currency that other currencies are expressed in terms of
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBaseCurrency Response
 
 ```xml
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

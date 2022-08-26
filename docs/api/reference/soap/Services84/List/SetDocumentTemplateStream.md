@@ -20,6 +20,7 @@ Store a document template from its stream. Since there is a potential for a name
 
 **Returns:** Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
 
+
 [WSDL file for Services84/List](../Services84-List.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -76,6 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDocumentTemplateStream Response
 
 ```xml
@@ -117,3 +119,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

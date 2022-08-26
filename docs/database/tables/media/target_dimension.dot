@@ -1,0 +1,13 @@
+digraph target_dimension  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+target_dimension[fillcolor = "cadetblue1"]
+SaleType[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+target_group[fillcolor = "azure1"]
+target_dimension -> SaleType [headlabel = "selected_dimensions" style="dashed"]
+target_dimension -> associate [headlabel = "registered_associate_id"]
+target_dimension -> associate [label = "updated_associate_id"]
+target_group -> target_dimension [label = "target_dimension_id"]
+}

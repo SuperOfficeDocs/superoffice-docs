@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetProductFami
 
 Returns all ProductFamily in SuperOffice list.
 
+
 **Returns:** An array of all available ProductFamilies
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProductFamilies Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

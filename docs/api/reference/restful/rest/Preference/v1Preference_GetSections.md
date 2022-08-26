@@ -1,6 +1,6 @@
 ---
 title: GET Preference
-id: v1Preference_GetSections
+uid: v1Preference_GetSections
 ---
 
 # GET Preference
@@ -11,7 +11,14 @@ GET /api/v1/Preference
 
 Gets all the preference sections.
 
+
 Calls the MDO agent service GetList('preferencesection').
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the MDO agent service GetList('preferencesection').
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,14 +61,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,59 +78,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Ruecker-Moen",
-    "ToolTip": "Officia ut.",
+    "Id": 75,
+    "Name": "Hayes, King and Bashirian",
+    "ToolTip": "Quae ipsam reprehenderit explicabo velit.",
     "Deleted": false,
-    "Rank": 46,
-    "Type": "aut",
+    "Rank": 929,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Hermann, Herman and Koch",
-        "ToolTip": "Sint aperiam quia.",
+        "Id": 665,
+        "Name": "Effertz-Parisian",
+        "ToolTip": "Autem magnam necessitatibus porro voluptas dolor eos.",
         "Deleted": true,
-        "Rank": 623,
-        "Type": "tempora",
+        "Rank": 220,
+        "Type": "saepe",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ab",
-        "ColorBlock": 557,
-        "ExtraInfo": "repellendus",
-        "StyleHint": "voluptas",
-        "FullName": "River Stehr",
-        "TableRight": {},
+        "IconHint": "eius",
+        "ColorBlock": 195,
+        "ExtraInfo": "sed",
+        "StyleHint": "est",
+        "FullName": "Devonte Toy",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldLength": 557
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 253,
-    "ExtraInfo": "minus",
-    "StyleHint": "perspiciatis",
-    "FullName": "Stuart Leannon",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "synergize revolutionary content"
-    },
+    "IconHint": "hic",
+    "ColorBlock": 65,
+    "ExtraInfo": "vitae",
+    "StyleHint": "eos",
+    "FullName": "Bret Keeling",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 286
       }
     }
   }

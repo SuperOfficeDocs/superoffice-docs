@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/UdefLayout/Published/{progidOrLabel}
-id: v1AppointmentEntity_GetPublishedUdefFieldInfo
+uid: v1AppointmentEntity_GetPublishedUdefFieldInfo
 ---
 
 # GET Appointment/UdefLayout/Published/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 
 Get a published AppointmentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a published AppointmentEntity user-defined field's details based on the prog
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+AppointmentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 616,
-  "ColumnId": 887,
-  "FieldDefault": "neque",
-  "FieldHeight": 507,
-  "FieldLabel": "dolores",
-  "FieldLeft": 189,
-  "FieldTop": 856,
+  "UDefFieldId": 200,
+  "ColumnId": 913,
+  "FieldDefault": "et",
+  "FieldHeight": 457,
+  "FieldLabel": "necessitatibus",
+  "FieldLeft": 747,
+  "FieldTop": 924,
   "FieldType": "Checkbox",
-  "FieldWidth": 118,
-  "FormatMask": "rerum",
+  "FieldWidth": 233,
+  "FormatMask": "voluptate",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 574,
-  "LabelLeft": 367,
-  "LabelTop": 669,
-  "LabelWidth": 451,
-  "LastVersionId": 163,
-  "ListTableId": 399,
+  "IsIndexed": true,
+  "LabelHeight": 414,
+  "LabelLeft": 813,
+  "LabelTop": 719,
+  "LabelWidth": 587,
+  "LastVersionId": 873,
+  "ListTableId": 776,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 481,
-  "ProgId": "ad",
+  "Page1LineNo": 443,
+  "ProgId": "a",
   "IsReadOnly": true,
-  "ShortLabel": "quam",
-  "TabOrder": 286,
-  "TextLength": 59,
-  "Tooltip": "et",
-  "UdefIdentity": 216,
-  "UDListDefinitionId": 74,
+  "ShortLabel": "id",
+  "TabOrder": 315,
+  "TextLength": 713,
+  "Tooltip": "harum",
+  "UdefIdentity": 309,
+  "UDListDefinitionId": 35,
   "Justification": "Center",
-  "Version": 61,
-  "TemplateVariableName": "Keebler Group",
+  "Version": 841,
+  "TemplateVariableName": "Heaney, Prosacco and Corwin",
   "HasBeenPublished": false,
-  "MdoListName": "Lakin-Kovacek",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Hyatt-Hagenes",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldLength": 655
     }
   }
 }

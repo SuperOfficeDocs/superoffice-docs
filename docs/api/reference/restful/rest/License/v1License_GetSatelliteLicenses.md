@@ -1,6 +1,6 @@
 ---
 title: GET License/Site/{id}
-id: v1License_GetSatelliteLicenses
+uid: v1License_GetSatelliteLicenses
 ---
 
 # GET License/Site/{id}
@@ -11,9 +11,16 @@ GET /api/v1/License/Site/{satelliteId}
 
 Obtain information about satellite module licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | satelliteId | int32 | Satellite id to check for satellite module licenses **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Obtain information about satellite module licenses
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,154 +72,130 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fadel, Sporer and Jacobs",
-    "Description": "Configurable mobile array",
+    "Name": "Krajcik LLC",
+    "Description": "Face to face upward-trending productivity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 905,
-        "Tooltip": "in",
-        "CanAssign": true,
-        "Free": 448,
-        "InUse": 257,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 658,
-        "Name": "Gulgowski LLC",
-        "Description": "De-engineered dedicated middleware",
-        "PrerequisiteModuleName": "Wolff Inc and Sons",
-        "SortOrder": 291,
-        "ExtraFlags": 366,
-        "TableRight": {},
+        "Unrestricted": true,
+        "Total": 453,
+        "Tooltip": "magni",
+        "CanAssign": false,
+        "Free": 435,
+        "InUse": 616,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 659,
+        "Name": "Schimmel LLC",
+        "Description": "Managed systematic info-mediaries",
+        "PrerequisiteModuleName": "Barrows, Mitchell and Kuhn",
+        "SortOrder": 669,
+        "ExtraFlags": 784,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 199
+            "FieldLength": 579
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 247,
-        "Tooltip": "hic",
+        "Unrestricted": true,
+        "Total": 486,
+        "Tooltip": "soluta",
         "CanAssign": false,
-        "Free": 725,
-        "InUse": 180,
-        "IsHidden": true,
+        "Free": 408,
+        "InUse": 564,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 688,
-        "Name": "Lehner, Hamill and Leffler",
-        "Description": "Cross-platform encompassing moratorium",
-        "PrerequisiteModuleName": "Gerlach, Roberts and Hackett",
-        "SortOrder": 699,
-        "ExtraFlags": 889,
-        "TableRight": {},
+        "ModuleLicenseId": 562,
+        "Name": "DuBuque-Kautzer",
+        "Description": "Optimized 24/7 local area network",
+        "PrerequisiteModuleName": "Konopelski, Rolfson and Emard",
+        "SortOrder": 593,
+        "ExtraFlags": 199,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 427
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 788
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 157
       }
     }
   },
   {
-    "Name": "Fadel, Sporer and Jacobs",
-    "Description": "Configurable mobile array",
+    "Name": "Krajcik LLC",
+    "Description": "Face to face upward-trending productivity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 905,
-        "Tooltip": "in",
-        "CanAssign": true,
-        "Free": 448,
-        "InUse": 257,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 658,
-        "Name": "Gulgowski LLC",
-        "Description": "De-engineered dedicated middleware",
-        "PrerequisiteModuleName": "Wolff Inc and Sons",
-        "SortOrder": 291,
-        "ExtraFlags": 366,
-        "TableRight": {},
+        "Unrestricted": true,
+        "Total": 453,
+        "Tooltip": "magni",
+        "CanAssign": false,
+        "Free": 435,
+        "InUse": 616,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 659,
+        "Name": "Schimmel LLC",
+        "Description": "Managed systematic info-mediaries",
+        "PrerequisiteModuleName": "Barrows, Mitchell and Kuhn",
+        "SortOrder": 669,
+        "ExtraFlags": 784,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 199
+            "FieldLength": 579
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 247,
-        "Tooltip": "hic",
+        "Unrestricted": true,
+        "Total": 486,
+        "Tooltip": "soluta",
         "CanAssign": false,
-        "Free": 725,
-        "InUse": 180,
-        "IsHidden": true,
+        "Free": 408,
+        "InUse": 564,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 688,
-        "Name": "Lehner, Hamill and Leffler",
-        "Description": "Cross-platform encompassing moratorium",
-        "PrerequisiteModuleName": "Gerlach, Roberts and Hackett",
-        "SortOrder": 699,
-        "ExtraFlags": 889,
-        "TableRight": {},
+        "ModuleLicenseId": 562,
+        "Name": "DuBuque-Kautzer",
+        "Description": "Optimized 24/7 local area network",
+        "PrerequisiteModuleName": "Konopelski, Rolfson and Emard",
+        "SortOrder": 593,
+        "ExtraFlags": 199,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 427
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 788
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 157
       }
     }
   }

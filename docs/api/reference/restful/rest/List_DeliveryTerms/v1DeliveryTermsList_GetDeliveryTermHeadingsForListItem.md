@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryTerm/Items/{id}/Headings
-id: v1DeliveryTermsList_GetDeliveryTermHeadingsForListItem
+uid: v1DeliveryTermsList_GetDeliveryTermHeadingsForListItem
 ---
 
 # GET List/DeliveryTerm/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 
 Gets headings for the DeliveryTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Haag, Green and Mertz",
-    "ToolTip": "Hic sed natus adipisci mollitia ea.",
-    "Deleted": true,
-    "Rank": 321,
-    "Type": "sed",
-    "ColorBlock": 443,
-    "IconHint": "non",
+    "Id": 222,
+    "Name": "Schuppe, Schmitt and Metz",
+    "ToolTip": "Voluptatem aut.",
+    "Deleted": false,
+    "Rank": 138,
+    "Type": "nam",
+    "ColorBlock": 683,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2017-03-13T18:25:51.8033355+01:00",
+    "LastChanged": "1995-12-11T11:10:54.2528941+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Dietrich Inc and Sons",
-        "ToolTip": "Soluta reprehenderit voluptate.",
+        "Id": 727,
+        "Name": "Hills Group",
+        "ToolTip": "Voluptatem cupiditate ut minima in hic ut.",
         "Deleted": true,
-        "Rank": 931,
-        "Type": "ducimus",
-        "ColorBlock": 470,
-        "IconHint": "reprehenderit",
+        "Rank": 657,
+        "Type": "numquam",
+        "ColorBlock": 908,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2000-05-05T18:25:51.8033355+02:00",
+        "LastChanged": "2007-09-22T11:10:54.2528941+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "sint",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Herman Monahan",
-        "TableRight": {},
+        "FullName": "Ms. Maximilian Dawson Langworth IV",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "integrate one-to-one applications"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldLength": 780
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Mrs. Angela Lynch",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "incentivize back-end web services"
-    },
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Dominique Grant",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldLength": 809
       }
     }
   }

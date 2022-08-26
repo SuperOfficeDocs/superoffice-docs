@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_source_xml"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,6 +23,7 @@ This table stores a selection source as xml
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
 |xml\_data|XML data of rows and columns|Clob|&#x25CF;|
+
 
 ![ejsel_source_xml table relationship diagram](./media/ejsel_source_xml.png)
 
@@ -41,3 +42,4 @@ This table stores a selection source as xml
 ## Security Flags
 
 * No access control via user's Role.
+

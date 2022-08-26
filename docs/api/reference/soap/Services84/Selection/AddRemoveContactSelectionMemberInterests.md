@@ -19,6 +19,8 @@ Adds or removes interests on companies and persons in a selection.
 * **addContactInterests:** Array of int containing the id's of the interests to add to the contact.
 * **removeContactInterests:** Array of int containing the id's of the interests to remove from the contact.
 
+
+
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -63,6 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddRemoveContactSelectionMemberInterests Response
 
 ```xml
@@ -82,3 +85,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

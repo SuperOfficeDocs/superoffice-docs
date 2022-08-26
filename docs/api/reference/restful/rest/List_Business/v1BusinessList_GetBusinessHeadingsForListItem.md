@@ -1,6 +1,6 @@
 ---
 title: GET List/Business/Items/{id}/Headings
-id: v1BusinessList_GetBusinessHeadingsForListItem
+uid: v1BusinessList_GetBusinessHeadingsForListItem
 ---
 
 # GET List/Business/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Business/Items/{itemId}/Headings
 
 Gets headings for the Business list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Medhurst-Armstrong",
-    "ToolTip": "Nesciunt laborum dolorem velit dolores eum nihil.",
+    "Id": 434,
+    "Name": "Padberg LLC",
+    "ToolTip": "Tempore eum aperiam recusandae voluptatem.",
     "Deleted": true,
-    "Rank": 873,
-    "Type": "exercitationem",
-    "ColorBlock": 332,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "1998-04-29T18:25:51.6252948+02:00",
+    "Rank": 192,
+    "Type": "rerum",
+    "ColorBlock": 99,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2018-09-17T11:10:53.9332178+02:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Miller, Legros and Hoppe",
-        "ToolTip": "Atque repellendus illum.",
+        "Id": 688,
+        "Name": "McDermott-Wehner",
+        "ToolTip": "Consectetur in eaque.",
         "Deleted": false,
-        "Rank": 136,
-        "Type": "ut",
-        "ColorBlock": 347,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2007-02-13T18:25:51.6252948+01:00",
+        "Rank": 386,
+        "Type": "est",
+        "ColorBlock": 110,
+        "IconHint": "explicabo",
+        "Selected": false,
+        "LastChanged": "2014-03-04T11:10:53.9332178+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "atque",
-        "Hidden": false,
-        "FullName": "Francis McCullough Sr.",
-        "TableRight": {},
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Merle McDermott",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 30
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ratione",
+    "ExtraInfo": "et",
+    "StyleHint": "numquam",
     "Hidden": true,
-    "FullName": "Jazlyn Lockman",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "seize distributed users"
-    },
+    "FullName": "Janiya Kilback",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldLength": 113
       }
     }
   }

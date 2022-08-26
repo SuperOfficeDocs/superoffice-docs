@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_theme"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard\_theme Table (474)
+# dashboard\_theme Table (475)
 
 A set of style rules for the Dashboard
 
@@ -34,6 +34,7 @@ A set of style rules for the Dashboard
 |isBuiltIn|Is this row populated by SuperOffice?|Bool|&#x25CF;|
 |style|Style value - for example &apos;light&apos; or &apos;dark&apos;|String(255)|&#x25CF;|
 
+
 ![dashboard_theme table relationship diagram](./media/dashboard_theme.png)
 
 [!include[details](./includes/dashboard-theme.md)]
@@ -51,6 +52,7 @@ A set of style rules for the Dashboard
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[dashboard](dashboard.md)  |Describes a dashboard |
 
+
 ## Replication Flags
 
 * None
@@ -58,3 +60,4 @@ A set of style rules for the Dashboard
 ## Security Flags
 
 * No access control via user's Role.
+

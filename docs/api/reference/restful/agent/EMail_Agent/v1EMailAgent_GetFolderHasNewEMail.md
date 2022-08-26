@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetFolderHasNewEMail
-id: v1EMailAgent_GetFolderHasNewEMail
+uid: v1EMailAgent_GetFolderHasNewEMail
 ---
 
 # POST Agents/EMail/GetFolderHasNewEMail
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetFolderHasNewEMail
 
 Check if folder has received new items since previous access.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Check if folder has received new items since previous access.
 ```http
 POST /api/v1/Agents/EMail/GetFolderHasNewEMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/GetFolderHasNewEMail?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo
+ConnectionInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+
 
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,29 +65,26 @@ ConnectionInfo
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetFolderHasNewEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfo": {
-    "ServerName": "Beier Inc and Sons",
-    "UserName": "Mayert-Heaney",
-    "Password": "voluptate",
-    "Folder": "culpa",
-    "UseSSL": true
-  }
+  "ConnectionInfo": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST RelationDefinition
-id: v1RelationDefinitionEntity_PostRelationDefinitionEntity
+uid: v1RelationDefinitionEntity_PostRelationDefinitionEntity
 ---
 
 # POST RelationDefinition
@@ -11,7 +11,13 @@ POST /api/v1/RelationDefinition
 
 Creates a new RelationDefinitionEntity
 
+
 Calls the List agent service SaveRelationDefinitionEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service SaveRelationDefinitionEntity.
 ```http
 POST /api/v1/RelationDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/RelationDefinition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The RelationDefinitionEntity to be saved.
+The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,17 +59,16 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-## Response: object
 
-A relation definition entity with source and destination tables
+## Response: 
 
-RelationDefinitionEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +84,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/RelationDefinition
@@ -88,42 +94,38 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 497,
-  "Name": "Cassin Inc and Sons",
-  "Tooltip": "repudiandae",
-  "PassiveText": "rerum",
-  "Deleted": true,
-  "Rank": 345,
+  "ReldefId": 524,
+  "Name": "Collier-Mayert",
+  "Tooltip": "voluptatem",
+  "PassiveText": "itaque",
+  "Deleted": false,
+  "Rank": 64,
   "Source": "Both",
   "Destination": "Both"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 546,
-  "Name": "Carroll, Langosh and Rath",
-  "Tooltip": "voluptatem",
-  "PassiveText": "ut",
+  "ReldefId": 960,
+  "Name": "Mayer, Gaylord and Mayert",
+  "Tooltip": "et",
+  "PassiveText": "non",
   "Deleted": true,
-  "Rank": 431,
+  "Rank": 353,
   "Source": "Both",
   "Destination": "Both",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   },
   "_Links": {

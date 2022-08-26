@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/CreateDefaultDashTileDefinition
-id: v1DashAgent_CreateDefaultDashTileDefinition
+uid: v1DashAgent_CreateDefaultDashTileDefinition
 ---
 
 # POST Agents/Dash/CreateDefaultDashTileDefinition
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 
 Set default values into a new DashTileDefinition.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-Carrier object for DashTileDefinition.
-Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,54 +63,52 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 849,
-  "Name": "Bradtke Inc and Sons",
-  "Description": "Multi-layered intangible customer loyalty",
-  "DefaultHeight": 252,
-  "DefaultWidth": 99,
+  "DashboardTileDefinitionId": 685,
+  "Name": "Brown-Morissette",
+  "Description": "Pre-emptive static synergy",
+  "DefaultHeight": 64,
+  "DefaultWidth": 821,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bernier Group",
-  "SelectionId": 144,
+  "EntityName": "Senger LLC",
+  "SelectionId": 290,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consectetur",
+  "CurrencyCode": "unde",
   "Measure": "Average",
-  "MeasureField": "voluptas",
-  "SortBy": "explicabo",
-  "LayoutConfig": "enim",
-  "SecondarySelectionId": 22,
-  "MeasureByField": "qui",
-  "ProviderName": "Heidenreich-Maggio",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MeasureField": "et",
+  "SortBy": "adipisci",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 348,
+  "MeasureByField": "hic",
+  "Usage": "Dashboard",
+  "ProviderName": "Spencer LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: GET List/{id}
-id: v1ListEntity_GetListEntity
+uid: v1ListEntity_GetListEntity
 ---
 
 # GET List/{id}
@@ -11,11 +11,17 @@ GET /api/v1/List/{id}
 
 Gets a ListEntity object.
 
+
 Calls the List agent service GetListEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ListEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetListEntity.
 ```http
 GET /api/v1/List/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/List/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+ListEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ListEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,42 +75,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 254,
-  "Name": "Carroll-Durgan",
-  "Tooltip": "incidunt",
+  "Id": 22,
+  "Name": "Kuphal, Waelchi and Volkman",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 931,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 211,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 638
     }
   },
   "_Links": {

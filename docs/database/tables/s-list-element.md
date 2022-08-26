@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_list_element"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,6 +28,7 @@ Elements in a static list.
 |sms|The sms number for this element|String(255)| |
 |status|Status for the statical list element|Enum [ElementStatus](enums/elementstatus.md)| |
 
+
 ![s_list_element table relationship diagram](./media/s_list_element.png)
 
 [!include[details](./includes/s-list-element.md)]
@@ -47,6 +48,7 @@ Elements in a static list.
 |------|-------------|
 |[s\_list](s-list.md)  |A list, dynamic or static |
 
+
 ## Replication Flags
 
 * None
@@ -54,3 +56,4 @@ Elements in a static list.
 ## Security Flags
 
 * No access control via user's Role.
+

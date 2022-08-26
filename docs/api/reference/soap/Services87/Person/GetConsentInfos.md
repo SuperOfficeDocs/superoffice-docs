@@ -17,6 +17,7 @@ Get all consent information for a given person. May include withdrawn consents (
 
 **Returns:** List of consents recorded on this person
 
+
 [WSDL file for Services87/Person](../Services87-Person.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConsentInfos Response
 
 ```xml
@@ -67,9 +69,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Person:ConsentInfo xsi:type="Person:ConsentInfo">
      <Person:ConsentPersonId xsi:type="xsd:int">0</Person:ConsentPersonId>
      <Person:Comment xsi:type="xsd:string"></Person:Comment>
-     <Person:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Registered>
+     <Person:Registered xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Registered>
      <Person:RegisteredAssociateId xsi:type="xsd:int">0</Person:RegisteredAssociateId>
-     <Person:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Updated>
+     <Person:Updated xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Updated>
      <Person:UpdatedAssociateId xsi:type="xsd:int">0</Person:UpdatedAssociateId>
      <Person:LegalBaseId xsi:type="xsd:int">0</Person:LegalBaseId>
      <Person:LegalBaseKey xsi:type="xsd:string"></Person:LegalBaseKey>
@@ -87,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

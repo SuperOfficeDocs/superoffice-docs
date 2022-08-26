@@ -17,6 +17,7 @@ Adds a new contact to the history/favorites. Returns the rank of the new history
 
 **Returns:** The rank of the history item
 
+
 [WSDL file for Services85/PhoneList](../Services85-PhoneList.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddToFavorites Response
 
 ```xml
@@ -67,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

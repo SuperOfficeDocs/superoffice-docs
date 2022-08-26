@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveAllFromListName
-id: v1ListAgent_SaveAllFromListName
+uid: v1ListAgent_SaveAllFromListName
 ---
 
 # POST Agents/List/SaveAllFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveAllFromListName
 
 Save all list items for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save all list items for the specified list defintion
 ```http
 POST /api/v1/Agents/List/SaveAllFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/SaveAllFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, Items
+UdListDefinitionName, Items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | Items | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,7 +73,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveAllFromListName
@@ -73,27 +83,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Balistreri-Crona",
+  "UdListDefinitionName": "Streich, Leannon and Ritchie",
   "Items": [
     {
-      "Id": 347,
-      "Name": "Bruen Group",
-      "Tooltip": "rerum",
-      "Deleted": true,
-      "UdListDefinitionId": 938,
-      "Rank": 226
+      "Id": 1001,
+      "Name": "Toy, Prohaska and Rosenbaum",
+      "Tooltip": "voluptatum",
+      "Deleted": false,
+      "UdListDefinitionId": 509,
+      "Rank": 758
     },
     {
-      "Id": 347,
-      "Name": "Bruen Group",
-      "Tooltip": "rerum",
-      "Deleted": true,
-      "UdListDefinitionId": 938,
-      "Rank": 226
+      "Id": 1001,
+      "Name": "Toy, Prohaska and Rosenbaum",
+      "Tooltip": "voluptatum",
+      "Deleted": false,
+      "UdListDefinitionId": 509,
+      "Rank": 758
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -101,24 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Larkin-Heaney",
-    "Tooltip": "nam",
+    "Id": 745,
+    "Name": "Von-Mayer",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 211,
-    "Rank": 384,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 694,
+    "Rank": 770,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "incentivize one-to-one channels"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 524
       }
     }
   }

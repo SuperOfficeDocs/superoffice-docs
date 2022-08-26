@@ -1,6 +1,6 @@
 ---
 title: PUT Project/{id}/ImageInfo
-id: v1ProjectEntity_PutImageInfo
+uid: v1ProjectEntity_PutImageInfo
 ---
 
 # PUT Project/{id}/ImageInfo
@@ -11,11 +11,17 @@ PUT /api/v1/Project/{id}/ImageInfo
 
 Update the Blob that describes the given project's picture.
 
+
 The actual bitmap is accessible via /api/Services80/project/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | string |  **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=774
+PUT /api/v1/Project/{id}/ImageInfo?projectId=304
 ```
+
 
 ## Request Headers
 
@@ -41,9 +48,9 @@ PUT /api/v1/Project/{id}/ImageInfo?projectId=774
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the image.
+New or Updated information about the image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,17 +68,17 @@ New or Updated information about the image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +98,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Project/{id}/ImageInfo
@@ -101,126 +108,48 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 449,
-  "BlobSize": 978,
-  "Description": "Extended system-worthy product",
-  "ExtraInfo": "repudiandae",
+  "BlobId": 697,
+  "BlobSize": 734,
+  "Description": "Object-based static analyzer",
+  "ExtraInfo": "unde",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "libero",
-  "OriginalSize": 353,
-  "CreatedDate": "2017-08-10T18:25:50.8528853+02:00",
-  "UpdatedDate": "2009-07-06T18:25:50.8528853+02:00",
-  "CreatedBy": {
-    "AssociateId": 475,
-    "Name": "Yundt-Hickle",
-    "PersonId": 498,
-    "Rank": 977,
-    "Tooltip": "pariatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 902,
-    "FullName": "Dr. Arvid Blanda",
-    "FormalName": "Bayer, Glover and Reynolds",
-    "Deleted": true,
-    "EjUserId": 57,
-    "UserName": "Strosin-Ortiz"
-  },
-  "UpdatedBy": {
-    "AssociateId": 929,
-    "Name": "Lesch-Fritsch",
-    "PersonId": 42,
-    "Rank": 363,
-    "Tooltip": "eum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 608,
-    "FullName": "Letitia Leffler",
-    "FormalName": "Steuber, Anderson and Kreiger",
-    "Deleted": true,
-    "EjUserId": 601,
-    "UserName": "Hirthe Group"
-  },
-  "ConceptualType": "eaque"
+  "MimeType": "aut",
+  "OriginalSize": 691,
+  "CreatedDate": "1999-10-16T11:10:53.3301438+02:00",
+  "UpdatedDate": "2011-04-15T11:10:53.3301438+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "ad"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 287,
-  "BlobSize": 450,
-  "Description": "Secured optimizing definition",
-  "ExtraInfo": "inventore",
+  "BlobId": 692,
+  "BlobSize": 868,
+  "Description": "Reduced reciprocal task-force",
+  "ExtraInfo": "eaque",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "doloribus",
-  "OriginalSize": 613,
-  "CreatedDate": "1996-03-19T18:25:50.8548851+01:00",
-  "UpdatedDate": "2005-04-15T18:25:50.8548851+02:00",
-  "CreatedBy": {
-    "AssociateId": 37,
-    "Name": "Hammes LLC",
-    "PersonId": 678,
-    "Rank": 258,
-    "Tooltip": "unde",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 954,
-    "FullName": "Benjamin McLaughlin",
-    "FormalName": "Schuppe-Sawayn",
-    "Deleted": false,
-    "EjUserId": 127,
-    "UserName": "Beahan-Mohr",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 41
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 547,
-    "Name": "Legros LLC",
-    "PersonId": 372,
-    "Rank": 652,
-    "Tooltip": "explicabo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 275,
-    "FullName": "Ada Ratke IV",
-    "FormalName": "Howe, Rice and Howe",
-    "Deleted": false,
-    "EjUserId": 148,
-    "UserName": "Block LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 865
-      }
-    }
-  },
-  "ConceptualType": "necessitatibus",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "exploit 24/7 convergence"
-  },
+  "IsZipped": true,
+  "MimeType": "totam",
+  "OriginalSize": 821,
+  "CreatedDate": "2010-09-11T11:10:53.3311437+02:00",
+  "UpdatedDate": "2003-08-09T11:10:53.3311437+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "a",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   }
 }

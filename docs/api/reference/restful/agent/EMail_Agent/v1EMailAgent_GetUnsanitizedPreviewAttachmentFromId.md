@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
-id: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromId
+uid: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromId
 ---
 
 # POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 
 Retrieve an attachment from an e-mail.
 
+
 The returned data is intended to be use for a preview. The returned data is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned data is intended to be use for a preview. The returned data is not 
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailItemId, AttachmentId, AttachmentType, AttachmentFilename
+MailItemId, AttachmentId, AttachmentType, AttachmentFilename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +58,16 @@ MailItemId, AttachmentId, AttachmentType, AttachmentFilename
 | AttachmentType | string |  |
 | AttachmentFilename | string |  |
 
-## Response: object
 
-Information about an attachment
+## Response: 
 
-Carrier object for EMailAttachment.
-Services for the EMailAttachment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,48 +82,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 198,
-  "AttachmentId": "consequuntur",
-  "AttachmentType": "at",
-  "AttachmentFilename": "suscipit"
+  "MailItemId": 276,
+  "AttachmentId": "ut",
+  "AttachmentType": "laudantium",
+  "AttachmentFilename": "accusamus"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative tertiary paradigm",
-  "Filename": "eveniet",
-  "Size": 308,
-  "Type": "odit",
-  "Encoding": "quo",
-  "Id": "autem",
-  "Disposition": "itaque",
+  "Description": "Monitored global functionalities",
+  "Filename": "impedit",
+  "Size": 314,
+  "Type": "hic",
+  "Encoding": "deleniti",
+  "Id": "eius",
+  "Disposition": "quos",
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 134
     }
   }
 }

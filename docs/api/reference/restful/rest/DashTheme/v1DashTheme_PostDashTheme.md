@@ -1,6 +1,6 @@
 ---
 title: POST DashTheme
-id: v1DashTheme_PostDashTheme
+uid: v1DashTheme_PostDashTheme
 ---
 
 # POST DashTheme
@@ -11,7 +11,13 @@ POST /api/v1/DashTheme
 
 Creates a new DashTheme
 
+
 Calls the Dash agent service SaveDashTheme.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dash agent service SaveDashTheme.
 ```http
 POST /api/v1/DashTheme?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/DashTheme?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DashTheme to be saved.
+The DashTheme to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,18 +55,18 @@ The DashTheme to be saved.
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
+| Style | string | Style value - for example 'light' or 'dark' |
 
-## Response: object
 
-Dashboard theme configuration
+## Response: 
 
-DashTheme entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,55 +75,54 @@ Response body: object
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
+| Style | string | Style value - for example 'light' or 'dark' |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/DashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 524,
-  "Name": "Schamberger LLC",
-  "Config": "harum",
-  "Rank": 600,
-  "Client": "sit"
+  "DashboardThemeId": 473,
+  "Name": "Hartmann-Collier",
+  "Config": "atque",
+  "Rank": 865,
+  "Client": "doloribus",
+  "Style": "consequuntur"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 220,
-  "Name": "Gusikowski, Feil and Block",
-  "Config": "fuga",
-  "Rank": 634,
-  "Client": "sit",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardThemeId": 736,
+  "Name": "Champlin-Witting",
+  "Config": "magnam",
+  "Rank": 592,
+  "Client": "et",
+  "Style": "unde",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 500
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -1,6 +1,6 @@
 ---
 title: PUT List/Country
-id: v1CountryList_SetListDefinition
+uid: v1CountryList_SetListDefinition
 ---
 
 # PUT List/Country
@@ -10,6 +10,13 @@ PUT /api/v1/List/Country
 ```
 
 Save the description of Country list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,12 +32,12 @@ Save the description of Country list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
-<br />
+<para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +78,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Country
@@ -83,46 +88,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Fadel Group",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 459,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 757,
+  "Name": "Brekke-Wintheiser",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "Rank": 291,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
-  "InUseByUserDefinedFields": false
+  "ListType": "dolore",
+  "InUseByUserDefinedFields": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "Beatty, Schinner and Tromp",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "Rank": 970,
+  "Id": 641,
+  "Name": "Koelpin LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 98,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   }
 }

@@ -8,14 +8,13 @@ keywords:
   - "archive provider"
   - "Participants"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-<!-- markdownlint-disable-file MD033 -->
 # "Participants"
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.ParticipantsProvider">SuperOffice.CRM.ArchiveLists.ParticipantsProvider</see> inside NetServer's SODatabase assembly.
@@ -26,7 +25,7 @@ This provider, like the <see cref="T:SuperOffice.CRM.ArchiveLists.LinksProvider"
 the data. For existing appointments, the appointment_id is used as search criterion. This will retrieve
 all participants in this appointment, regardless of whether the given appointment is the mother
 or one of the slaves.
-
+<para />
 For appointments under construction, where the data have not yet been saved to the database, the
 caller must specify all data through the use of restrictions - some of which are then used for
 information, and some as keys to fetch actual person or associate/resource records from the database.
@@ -66,17 +65,17 @@ external persons by a list (use the IN operator) of externalPersonRestrictionId,
 internal associates through a list of associateRestrictionId, and resources through resourceRestrictionId.
 All three restrictions can be given simultaneously, with an implied OR operator. In this case no appointment
 records are required or fetched.
-
+<para />
 Conflict detection is provided if the status column is requested. For non-saved data, this also
 requires the presence of startTimeInformation and endTimeInformation restrictions (dates in InvariantCulture format),
 so that the conflicts may be calculated.
-
+<para />
 Finally, the email status (should emails be sent for invitations and changes) is read from the database
 if the appointmentRestrictionId is used; if explicit person or associate restrictions are used, then email
 status information must be passed in through the associateEmailsInformation and personEmailsInformation
 restrictions. The value of each restriction is a list of associate resp. person id's who have
 the email flag set. If all this sounds complex - well, it is.
-
+<para />
 Being the tolerant sort, the provider will accept both associates and resources in each of associateRestrictionId
 and resourceRestrictionId, and internally sort out which is which. Similarly, if any of the person id's you happen to pass
 in through the externalPersonRestrictionId are actually associates, then that too will be sorted out.
@@ -84,15 +83,15 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"associate"|Associate|
 |"resource"|Resource:|
 |"externalPerson"|External users|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |ownerAssociateIdInformation|associate|Owner's Associate ID: Associate ID of the user specified as owner of the follow-up|  |
 |inhibitConflictsInformation|bool|No conflict checking: This restriction is used to turn off conflict checking in the participants list|  |
 |startTimeInformation|datetime|Start time: Information for data fetcher, specifies start time for conflict checker|  |
@@ -146,6 +145,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |position|listAny|Position|  |
 |personNumber|string|Number: Displays the contact's number|  |
 |personCountry|listAny|Country: Country|  |
+|personCountryId|int|Country ID: Country ID|  |
 |personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox|  |
 |rank|int|Rank: Displays a contact's current rank|  |
 |birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -159,14 +159,18 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet|  |
 |kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet|  |
 |personUpdatedBy|associate|Updated by: The user who last updated the data|  |
+|personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data|  |
 |personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.|  |
 |personRegisteredBy|associate|Registered by: The user who registered the data|  |
+|personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data|  |
 |personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.|  |
 |personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
 |ticketPriority|listAny|Service priority: Default service priority for this contact|  |
 |supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more|  |
 |supportAssociate|associate|Our service contact: Default service contact for this contact|  |
+|supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact|  |
 |personAssociateId|associate|Our contact: Displays our contact|  |
+|personAssociateFullName|associate|Our contact - Full name: Displays our contact|  |
 |personCategory|listAny|Category|  |
 |personBusiness|listAny|Business|  |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -193,14 +197,17 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |personContact/category| *None* |Category|  |
 |personContact/business| *None* |Business|  |
 |personContact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
+|personContact/countryId| *None* |Country ID: Country ID|  |
 |personContact/number| *None* |Number|  |
 |personContact/code| *None* |Code|  |
 |personContact/orgnr| *None* |VAT No.|  |
 |personContact/stop| *None* |Stop|  |
 |personContact/contactNoMail| *None* |No mailings (company|  |
 |personContact/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|personContact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |personContact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |personContact/registeredBy| *None* |Registered by: The user who registered the data|  |
+|personContact/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |personContact/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |personContact/contactSource| *None* |Source: Source (Company)|  |
 |personContact/contactDeleted| *None* |Deleted: Deleted|  |
@@ -223,11 +230,14 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=personContact/email/emailAddress,otherGroups,kanaFirstName
+GET /api/v1/archive/Participants?$select=personEmail,personUpdatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

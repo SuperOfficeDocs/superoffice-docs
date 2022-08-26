@@ -15,6 +15,8 @@ Log a change in view state. The granularity of the logging depends on the curren
 
 * **viewState:** Current view state to be logged
 
+
+
 [WSDL file for Services85/Diagnostics](../Services85-Diagnostics.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## LogViewState Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

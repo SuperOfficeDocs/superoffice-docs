@@ -13,9 +13,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.CreateDefaultS
 
 Loading default values into a new ServiceAuth.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+
 
 **Returns:** New ServiceAuth with default values
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultServiceAuth Response
 
 ```xml
@@ -75,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

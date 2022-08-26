@@ -12,13 +12,14 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.ExecuteUserCom
 ## ExecuteUserCommand
 
 Executes the custom command for User
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **commandName:** The name of the command to execute.
 * **actionResult:** Result of an UI operation.
 * **user:** The User to execute commands on.
 
 **Returns:** Result of the executed command
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -157,8 +158,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:CategoryName xsi:type="xsd:string"></User:CategoryName>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:53Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:53Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T09:00:44Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T09:00:44Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:RequestSignature xsi:type="xsd:string"></User:RequestSignature>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
@@ -244,6 +245,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExecuteUserCommand Response
 
 ```xml
@@ -268,3 +270,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.GetMyOwner">
 
 Get the owner of the logged in person.
 
+
 **Returns:** Person
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetMyOwner Response
 
@@ -107,3 +110,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

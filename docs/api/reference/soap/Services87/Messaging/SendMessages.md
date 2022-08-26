@@ -12,12 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMessagingAgent.SendMessa
 ## SendMessages
 
 Send an array of messages
-<br />**Online Restricted:** The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **plugin:** Name of plugin to use.
 * **outgoingMessages:** Array of outgoing messages you want to send.
 
 **Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
+
 
 [WSDL file for Services87/Messaging](../Services87-Messaging.md)
 
@@ -61,6 +62,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SendMessages Response
 
 ```xml
@@ -87,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

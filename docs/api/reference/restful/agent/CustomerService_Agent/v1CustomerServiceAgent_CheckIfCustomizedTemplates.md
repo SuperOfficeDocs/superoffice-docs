@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/CheckIfCustomizedTemplates
-id: v1CustomerServiceAgent_CheckIfCustomizedTemplates
+uid: v1CustomerServiceAgent_CheckIfCustomizedTemplates
 ---
 
 # POST Agents/CustomerService/CheckIfCustomizedTemplates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates
 
 Checks whether the core html templates are customized
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Checks whether the core html templates are customized
 ```http
 POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,14 +52,17 @@ POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates?$select=name,depa
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

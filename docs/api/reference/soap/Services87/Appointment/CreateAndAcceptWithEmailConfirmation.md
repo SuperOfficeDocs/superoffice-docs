@@ -16,6 +16,8 @@ Creating an appointment from an emailItem invitation and accepting it with email
 * **emailItemId:** The emailItemId
 * **updateMode:** Update mode for a recurring appointment.
 
+
+
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateAndAcceptWithEmailConfirmation Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

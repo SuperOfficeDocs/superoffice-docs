@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/SaveSuggestedAppointmentEntity
-id: v1AppointmentAgent_SaveSuggestedAppointmentEntity
+uid: v1AppointmentAgent_SaveSuggestedAppointmentEntity
 ---
 
 # POST Agents/Appointment/SaveSuggestedAppointmentEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 ```
 
 Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppoin
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SuggestedAppointmentEntity to be saved.
+The SuggestedAppointmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,16 +53,16 @@ The SuggestedAppointmentEntity to be saved.
 | SaleTypeStageLink |  | Sale type and stage link info |
 | Type |  | Type of the suggested appointment |
 
-## Response: object
 
-Carrier object for SuggestedAppointmentEntity.
-Services for the SuggestedAppointmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,139 +83,60 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 366,
-  "Name": "Stokes-Ernser",
-  "Tooltip": "ut",
-  "Rank": 33,
+  "SuggestedAppointmentId": 930,
+  "Name": "Daniel-Goldner",
+  "Tooltip": "expedita",
+  "Rank": 195,
   "Deleted": false,
-  "DaysFuture": 636,
-  "Duration": "enim",
+  "DaysFuture": 888,
+  "Duration": "eos",
   "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "ut",
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 261,
-    "ProjTypeId": 934,
-    "ProjTypeName": "Robel Inc and Sons",
-    "ProjTypeTooltip": "illum",
-    "ProjStatusId": 518,
-    "ProjStatusName": "Boehm, Kohler and Kuhn",
-    "ProjStatusTooltip": "facilis"
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 551,
-    "SaleTypeId": 767,
-    "SaleTypeName": "Terry, Parisian and Ryan",
-    "SaleTypeTooltip": "consequatur",
-    "ProbId": 522,
-    "ProbName": "Wunsch, Block and Hahn",
-    "ProbTooltip": "similique",
-    "Probability": 477
-  },
-  "Type": {
-    "Id": 503,
-    "Value": "impedit",
-    "Tooltip": "sunt"
-  }
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "eius",
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null,
+  "Type": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 406,
-  "Name": "Cartwright-Jakubowski",
-  "Tooltip": "culpa",
-  "Rank": 963,
-  "Deleted": true,
-  "DaysFuture": 317,
-  "Duration": "aspernatur",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 724,
+  "Name": "Oberbrunner-Yundt",
+  "Tooltip": "qui",
+  "Rank": 781,
+  "Deleted": false,
+  "DaysFuture": 349,
+  "Duration": "corporis",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "eos",
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 561,
-    "ProjTypeId": 967,
-    "ProjTypeName": "Hermann, Lang and O'Reilly",
-    "ProjTypeTooltip": "voluptas",
-    "ProjStatusId": 527,
-    "ProjStatusName": "Robel, Windler and Veum",
-    "ProjStatusTooltip": "deserunt",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 219
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 815,
-    "SaleTypeId": 959,
-    "SaleTypeName": "Olson, Gaylord and Kautzer",
-    "SaleTypeTooltip": "totam",
-    "ProbId": 913,
-    "ProbName": "Crooks LLC",
-    "ProbTooltip": "consectetur",
-    "Probability": 150,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 833
-      }
-    }
-  },
-  "Type": {
-    "Id": 570,
-    "Value": "eum",
-    "Tooltip": "aut",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 321
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Text": "quam",
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null,
+  "Type": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 571
+      "FieldLength": 779
     }
   }
 }

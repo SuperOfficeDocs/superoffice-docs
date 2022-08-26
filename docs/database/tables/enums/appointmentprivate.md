@@ -5,7 +5,7 @@ description: Lists the enum values for AppointmentPrivate.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,4 +24,4 @@ Obsolete, but still maintained field for appointment privacy; denormalization of
 
 ## Usage
 
-* [appointment](../appointment.md).private - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.
+* [appointment](../appointment.md).private - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 

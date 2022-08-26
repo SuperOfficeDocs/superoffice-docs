@@ -1,6 +1,6 @@
 ---
 title: GET Contact/{id}/Imageinfo
-id: v1ContactEntity_GetImageInfo
+uid: v1ContactEntity_GetImageInfo
 ---
 
 # GET Contact/{id}/Imageinfo
@@ -11,11 +11,18 @@ GET /api/v1/Contact/{contactId}/Imageinfo
 
 Get the Blob that describes the given contact's picture.
 
+
 The actual bitmap is accessible via /api/v1/contact/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,16 +37,16 @@ The actual bitmap is accessible via /api/v1/contact/123/image.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,94 +66,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 16 Apr 2007 18:25:50 G4T
+Last-Modified: Tue, 21 Sep 1999 11:10:52 G9T
 
 {
-  "BlobId": 607,
-  "BlobSize": 543,
-  "Description": "Right-sized intermediate ability",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 415,
+  "BlobSize": 128,
+  "Description": "Virtual background neural-net",
+  "ExtraInfo": "labore",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "dignissimos",
-  "OriginalSize": 624,
-  "CreatedDate": "2020-03-19T18:25:50.1936244+01:00",
-  "UpdatedDate": "2007-04-16T18:25:50.1936244+02:00",
-  "CreatedBy": {
-    "AssociateId": 177,
-    "Name": "West Group",
-    "PersonId": 611,
-    "Rank": 461,
-    "Tooltip": "deserunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 730,
-    "FullName": "Lisa Crist III",
-    "FormalName": "Sanford, Hamill and Considine",
-    "Deleted": true,
-    "EjUserId": 504,
-    "UserName": "Kulas-Adams",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "productize customized niches"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 685
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 261,
-    "Name": "Lind, Bartoletti and Jenkins",
-    "PersonId": 110,
-    "Rank": 594,
-    "Tooltip": "explicabo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 768,
-    "FullName": "Mr. Alexandro Heaney",
-    "FormalName": "Weissnat-Buckridge",
-    "Deleted": true,
-    "EjUserId": 477,
-    "UserName": "Gulgowski-Hamill",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 28
-      }
-    }
-  },
-  "ConceptualType": "animi",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "labore",
+  "OriginalSize": 587,
+  "CreatedDate": "2020-09-01T11:10:52.6091771+02:00",
+  "UpdatedDate": "1999-09-21T11:10:52.6091771+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "labore",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 471
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

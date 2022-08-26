@@ -1,6 +1,6 @@
 ---
 title: PUT List/ReasonSold/Items
-id: v1ReasonSoldList_PutAllReasonSold
+uid: v1ReasonSoldList_PutAllReasonSold
 ---
 
 # PUT List/ReasonSold/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/ReasonSold/Items
 ```
 
 Update the ReasonSold list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the ReasonSold list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ReasonSold.
+All the updated ReasonSold. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated ReasonSold.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ReasonSold/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Osinski LLC",
-    "Tooltip": "officia",
+    "Id": 111,
+    "Name": "Walsh-Homenick",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 234,
-    "Rank": 548
+    "UdListDefinitionId": 349,
+    "Rank": 235
   },
   {
-    "Id": 209,
-    "Name": "Osinski LLC",
-    "Tooltip": "officia",
+    "Id": 111,
+    "Name": "Walsh-Homenick",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 234,
-    "Rank": 548
+    "UdListDefinitionId": 349,
+    "Rank": 235
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Friesen, DuBuque and Turner",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "UdListDefinitionId": 377,
-    "Rank": 368,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 618,
+    "Name": "Sipes-Howe",
+    "Tooltip": "iusto",
+    "Deleted": true,
+    "UdListDefinitionId": 604,
+    "Rank": 135,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 200
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 83
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/CreateDefaultChatTopicAgent
-id: v1ChatAgent_CreateDefaultChatTopicAgent
+uid: v1ChatAgent_CreateDefaultChatTopicAgent
 ---
 
 # POST Agents/Chat/CreateDefaultChatTopicAgent
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
 
 Set default values into a new ChatTopicAgent.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
+## Response: 
 
-Carrier object for ChatTopicAgent.
-Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,49 +53,27 @@ Response body: object
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 919,
-  "User": {
-    "AssociateId": 161,
-    "Name": "Osinski Inc and Sons",
-    "PersonId": 232,
-    "Rank": 916,
-    "Tooltip": "quo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 497,
-    "FullName": "Maida Kuhic",
-    "FormalName": "Boyer LLC",
-    "Deleted": true,
-    "EjUserId": 175,
-    "UserName": "Abernathy-Ritchie",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 482
-      }
-    }
-  },
+  "TopicId": 246,
+  "User": null,
   "CanListen": true,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": true,
-  "CanNotify": true
+  "CanNotify": false
 }
 ```

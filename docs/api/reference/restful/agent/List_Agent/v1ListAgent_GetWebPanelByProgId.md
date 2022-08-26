@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetWebPanelByProgId
-id: v1ListAgent_GetWebPanelByProgId
+uid: v1ListAgent_GetWebPanelByProgId
 ---
 
 # POST Agents/List/GetWebPanelByProgId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetWebPanelByProgId
 
 Get a web panel using the ProgId key that was specified when it was created
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a web panel using the ProgId key that was specified when it was created
 ```http
 POST /api/v1/Agents/List/GetWebPanelByProgId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/List/GetWebPanelByProgId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgId
+ProgId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgId | string |  |
 
-## Response: object
 
-The web panel entity contains information on a web panel
+## Response: 
 
-Carrier object for WebPanelEntity.
-Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,10 +83,11 @@ Response body: object
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetWebPanelByProgId
@@ -91,47 +97,44 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolor"
+  "ProgId": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 353,
-  "Name": "Kutch-Halvorson",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 121,
+  "WebPanelId": 248,
+  "Name": "Mitchell, Kreiger and Windler",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 930,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Koss, Lemke and Bosco",
+  "WindowName": "Effertz-White",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 995,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProgId": "ipsum",
+  "Icon": 376,
+  "AlwaysReloadOnShow": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 705
     }
   }
 }

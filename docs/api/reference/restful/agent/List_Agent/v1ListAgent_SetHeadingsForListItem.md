@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SetHeadingsForListItem
-id: v1ListAgent_SetHeadingsForListItem
+uid: v1ListAgent_SetHeadingsForListItem
 ---
 
 # POST Agents/List/SetHeadingsForListItem
@@ -10,6 +10,12 @@ POST /api/v1/Agents/List/SetHeadingsForListItem
 ```
 
 Set headings which this list item should be listed under
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Set headings which this list item should be listed under
 POST /api/v1/Agents/List/SetHeadingsForListItem?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,11 +35,12 @@ POST /api/v1/Agents/List/SetHeadingsForListItem?$select=name,department,category
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId, HeadingIds, Enable
+UdListDefinitionId, ListItemId, HeadingIds, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,8 +49,43 @@ UdListDefinitionId, ListItemId, HeadingIds, Enable
 | HeadingIds | array |  |
 | Enable | bool |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/List/SetHeadingsForListItem
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: fr,de,ru,zh
+Content-Type: application/json; charset=utf-8
+
+{
+  "UdListDefinitionId": 993,
+  "ListItemId": 307,
+  "HeadingIds": [
+    296,
+    111
+  ],
+  "Enable": false
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

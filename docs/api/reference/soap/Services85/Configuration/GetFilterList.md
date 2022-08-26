@@ -18,6 +18,7 @@ Get the list of filters to be used for processing the configuration data for thi
 
 **Returns:** XML representing the list of filters and any configuration data they may need.
 
+
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFilterList Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

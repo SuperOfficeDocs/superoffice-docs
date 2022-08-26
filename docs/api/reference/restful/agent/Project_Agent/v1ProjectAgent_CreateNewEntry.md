@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/CreateNewEntry
-id: v1ProjectAgent_CreateNewEntry
+uid: v1ProjectAgent_CreateNewEntry
 ---
 
 # POST Agents/Project/CreateNewEntry
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/CreateNewEntry
 
 Creates a new project based on external duplicate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new project based on external duplicate
 ```http
 POST /api/v1/Agents/Project/CreateNewEntry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Project/CreateNewEntry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Duplicate
+Duplicate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Duplicate |  | A duplicate entry <br /> Carrier object for DuplicateEntry. |
+| Duplicate |  | A duplicate entry <para /> Carrier object for DuplicateEntry. |
+
 
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,29 +61,26 @@ Duplicate
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/CreateNewEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Duplicate": {
-    "RuleName": "Veum, Muller and Yost",
-    "SoPrimaryKey": 411,
-    "EntryName": "Hills, Collier and Blanda",
-    "EntryIdentifier": "id",
-    "RuleDisplayName": "Walter Group"
-  }
+  "Duplicate": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-152
+174
 ```

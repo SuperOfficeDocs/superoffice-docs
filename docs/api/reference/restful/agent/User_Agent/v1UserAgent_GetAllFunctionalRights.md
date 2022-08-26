@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetAllFunctionalRights
-id: v1UserAgent_GetAllFunctionalRights
+uid: v1UserAgent_GetAllFunctionalRights
 ---
 
 # POST Agents/User/GetAllFunctionalRights
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetAllFunctionalRights
 
 Get a list of all functional rights for the given type of role.
 
-MDO List name = 'FunctionRights', extra='roleType=0'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'FunctionRights', extra='roleType=0' 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ MDO List name = 'FunctionRights', extra='roleType=0'
 ```http
 POST /api/v1/Agents/User/GetAllFunctionalRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,18 @@ POST /api/v1/Agents/User/GetAllFunctionalRights?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleType
+RoleType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -75,13 +86,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -89,71 +100,64 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Schaefer, O'Reilly and Larson",
-    "ToolTip": "Cumque ipsa ut necessitatibus quia deleniti.",
+    "Id": 11,
+    "Name": "Ziemann Inc and Sons",
+    "ToolTip": "Quae in quibusdam dolore.",
     "Deleted": false,
-    "Rank": 162,
-    "Type": "similique",
-    "ColorBlock": 635,
-    "IconHint": "laudantium",
-    "Selected": false,
-    "LastChanged": "2003-07-21T18:28:50.5704134+02:00",
+    "Rank": 8,
+    "Type": "quo",
+    "ColorBlock": 4,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2001-08-11T11:10:28.3872069+02:00",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Beatty Group",
-        "ToolTip": "Inventore rerum.",
+        "Id": 269,
+        "Name": "Purdy Group",
+        "ToolTip": "Sint quo qui doloribus ducimus distinctio.",
         "Deleted": false,
-        "Rank": 647,
-        "Type": "laudantium",
-        "ColorBlock": 782,
-        "IconHint": "unde",
-        "Selected": true,
-        "LastChanged": "2007-12-07T18:28:50.5704134+01:00",
+        "Rank": 614,
+        "Type": "vel",
+        "ColorBlock": 695,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "1995-12-15T11:10:28.3882068+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Miss Ayana Hane",
-        "TableRight": {},
+        "ExtraInfo": "vel",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Elian Morar",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 595
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "beatae",
+    "ExtraInfo": "sint",
+    "StyleHint": "saepe",
     "Hidden": true,
-    "FullName": "Dr. Myron Stroman",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Creola Larson",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 788
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

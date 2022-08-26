@@ -11,10 +11,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.DeleteExtende
 
 ## DeleteExtended
 
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **connectionInfoExtended:**
-* **messageIds:**
+* **connectionInfoExtended:** 
+* **messageIds:** 
+
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -59,6 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteExtended Response
 
 ```xml
@@ -78,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

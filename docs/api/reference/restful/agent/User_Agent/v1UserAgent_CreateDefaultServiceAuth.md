@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/CreateDefaultServiceAuth
-id: v1UserAgent_CreateDefaultServiceAuth
+uid: v1UserAgent_CreateDefaultServiceAuth
 ---
 
 # POST Agents/User/CreateDefaultServiceAuth
@@ -11,9 +11,17 @@ POST /api/v1/Agents/User/CreateDefaultServiceAuth
 
 Set default values into a new ServiceAuth.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Properties for service authentication
+## Response: 
 
-Carrier object for ServiceAuth.
-Services for the ServiceAuth Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +58,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
@@ -61,29 +67,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 201,
-  "Server": "amet",
-  "Port": 968,
-  "AuthType": "doloremque",
-  "Username": "molestiae",
-  "Password": "aut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ServiceAuthId": 250,
+  "Server": "modi",
+  "Port": 480,
+  "AuthType": "reiciendis",
+  "Username": "omnis",
+  "Password": "et",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldLength": 797
     }
   }
 }

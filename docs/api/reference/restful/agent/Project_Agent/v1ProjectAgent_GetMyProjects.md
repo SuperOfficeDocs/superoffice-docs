@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetMyProjects
-id: v1ProjectAgent_GetMyProjects
+uid: v1ProjectAgent_GetMyProjects
 ---
 
 # POST Agents/Project/GetMyProjects
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Project/GetMyProjects
 
 Returning the projects belonging to an associate.
 
+
 If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If memberProjects is false only the projects where the associate is project resp
 ```http
 POST /api/v1/Agents/Project/GetMyProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Project/GetMyProjects?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeMemberProjects
+IncludeMemberProjects 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeMemberProjects | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -76,7 +86,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetMyProjects
@@ -86,9 +96,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,36 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 649,
-    "Name": "White-Pagac",
-    "Description": "Managed clear-thinking analyzer",
+    "ProjectId": 844,
+    "Name": "Schaefer, Bahringer and O'Kon",
+    "Description": "Proactive zero tolerance system engine",
     "URL": "http://www.example.com/",
-    "Type": "sint",
-    "AssociateId": 978,
-    "AssociateFullName": "Brendan Lehner",
-    "TypeId": 376,
-    "Updated": "2000-07-21T18:28:49.7801399+02:00",
-    "StatusId": 742,
-    "Status": "iste",
-    "TextId": 624,
-    "PublishTo": "2009-04-30T18:28:49.7801399+02:00",
-    "PublishFrom": "2004-06-17T18:28:49.7801399+02:00",
-    "IsPublished": true,
+    "Type": "molestiae",
+    "AssociateId": 47,
+    "AssociateFullName": "Audie Ratke",
+    "TypeId": 868,
+    "Updated": "2022-01-24T11:10:27.6184605+01:00",
+    "StatusId": 514,
+    "Status": "quis",
+    "TextId": 335,
+    "PublishTo": "2012-11-09T11:10:27.6184605+01:00",
+    "PublishFrom": "2013-07-29T11:10:27.6184605+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "602772",
-    "ActiveErpLinks": 190,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "morph granular e-business"
-    },
+    "ProjectNumber": "1337296",
+    "ActiveErpLinks": 505,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 505
+        "FieldLength": 137
       }
     }
   }

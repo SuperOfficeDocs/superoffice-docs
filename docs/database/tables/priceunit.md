@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PriceUnit"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ The list of price units, in the internal product register (meter, ton, bushel, m
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![PriceUnit table relationship diagram](./media/PriceUnit.png)
 
 [!include[details](./includes/priceunit.md)]
@@ -52,6 +53,7 @@ The list of price units, in the internal product register (meter, ton, bushel, m
 |[PriceUnitGroupLink](priceunitgrouplink.md)  |User group link table for PriceUnit, for MDO item hiding |
 |[PriceUnitHeadingLink](priceunitheadinglink.md)  |Heading link table for PriceUnit, for MDO item headings |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,3 +63,4 @@ The list of price units, in the internal product register (meter, ton, bushel, m
 ## Security Flags
 
 * No access control via user's Role.
+

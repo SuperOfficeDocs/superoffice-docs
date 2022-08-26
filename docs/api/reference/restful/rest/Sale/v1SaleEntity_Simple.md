@@ -1,6 +1,6 @@
 ---
 title: GET Sale/{id}/Simple
-id: v1SaleEntity_Simple
+uid: v1SaleEntity_Simple
 ---
 
 # GET Sale/{id}/Simple
@@ -11,11 +11,18 @@ GET /api/v1/Sale/{id}/Simple
 
 A simple Sale object.
 
+
 This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agent service GetSale.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Sale to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Sale.
-Services for the Sale Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+SaleEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SaleEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +79,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale/{id}/Simple
@@ -81,48 +88,44 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Torphy, Marquardt and Cartwright",
-  "SaleDate": "2020-02-24T18:25:51.0579476+01:00",
-  "SaleId": 861,
-  "Probability": 978,
-  "Title": "quis",
-  "Amount": 25087.67,
-  "Currency": "blanditiis",
-  "ProjectName": "Hane Group",
-  "AssociateFullName": "Lola Mayert",
-  "Description": "Integrated 6th generation middleware",
+  "ContactName": "Yost-Kreiger",
+  "SaleDate": "2008-02-27T11:10:53.4731466+01:00",
+  "SaleId": 194,
+  "Probability": 126,
+  "Title": "culpa",
+  "Amount": 1074.962,
+  "Currency": "consequuntur",
+  "ProjectName": "Gibson, Barrows and Harvey",
+  "AssociateFullName": "Miss Raegan Brianne Lubowitz",
+  "Description": "Versatile bifurcated function",
   "Status": "Lost",
-  "WeightedAmount": 20342.793999999998,
-  "ProjectId": 574,
-  "EarningPercent": 17613.079999999998,
-  "Earning": 22433.172,
-  "ContactId": 499,
-  "AssociateId": 569,
-  "PersonId": 39,
-  "SaleTypeId": 111,
-  "SaleTypeName": "Shields LLC",
-  "PersonFullName": "Elliot Reichert",
+  "WeightedAmount": 22947.148,
+  "ProjectId": 100,
+  "EarningPercent": 14419.534,
+  "Earning": 13918.094,
+  "ContactId": 160,
+  "AssociateId": 769,
+  "PersonId": 956,
+  "SaleTypeId": 785,
+  "SaleTypeName": "Smitham, Lakin and Rohan",
+  "PersonFullName": "Marcos Will",
   "Completed": "Completed",
-  "ActiveErpLinks": 160,
-  "NextDueDate": "2003-09-27T18:25:51.0579476+02:00",
-  "Number": "1298438",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ActiveErpLinks": 861,
+  "NextDueDate": "1998-06-17T11:10:53.4731466+02:00",
+  "Number": "1447754",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldLength": 754
     }
   }
 }

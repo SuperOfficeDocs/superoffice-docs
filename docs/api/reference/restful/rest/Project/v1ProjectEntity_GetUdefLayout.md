@@ -1,6 +1,6 @@
 ---
 title: GET Project/UdefLayout
-id: v1ProjectEntity_GetUdefLayout
+uid: v1ProjectEntity_GetUdefLayout
 ---
 
 # GET Project/UdefLayout
@@ -11,7 +11,14 @@ GET /api/v1/Project/UdefLayout
 
 Current ProjectEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ May be different from the published version.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,14 +83,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,52 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 848,
-    "ColumnId": 578,
-    "FieldDefault": "debitis",
-    "FieldHeight": 108,
-    "FieldLabel": "laboriosam",
-    "FieldLeft": 944,
-    "FieldTop": 921,
+    "UDefFieldId": 588,
+    "ColumnId": 773,
+    "FieldDefault": "molestiae",
+    "FieldHeight": 793,
+    "FieldLabel": "asperiores",
+    "FieldLeft": 116,
+    "FieldTop": 991,
     "FieldType": "Checkbox",
-    "FieldWidth": 755,
-    "FormatMask": "consequatur",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 206,
-    "LabelLeft": 858,
-    "LabelTop": 663,
-    "LabelWidth": 736,
-    "LastVersionId": 799,
-    "ListTableId": 698,
-    "IsMandatory": true,
+    "FieldWidth": 745,
+    "FormatMask": "enim",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 699,
+    "LabelLeft": 281,
+    "LabelTop": 176,
+    "LabelWidth": 275,
+    "LastVersionId": 815,
+    "ListTableId": 608,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 316,
-    "ProgId": "officiis",
-    "IsReadOnly": true,
-    "ShortLabel": "incidunt",
-    "TabOrder": 469,
-    "TextLength": 370,
-    "Tooltip": "cum",
-    "UdefIdentity": 16,
-    "UDListDefinitionId": 700,
+    "Page1LineNo": 747,
+    "ProgId": "aut",
+    "IsReadOnly": false,
+    "ShortLabel": "delectus",
+    "TabOrder": 980,
+    "TextLength": 471,
+    "Tooltip": "pariatur",
+    "UdefIdentity": 254,
+    "UDListDefinitionId": 797,
     "Justification": "Center",
-    "Version": 849,
-    "TemplateVariableName": "Kihn-Volkman",
+    "Version": 919,
+    "TemplateVariableName": "Bartell Group",
     "HasBeenPublished": false,
-    "MdoListName": "Nicolas, Rau and Goodwin",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Kertzmann-Simonis",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "incubate best-of-breed e-commerce"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 965
       }
     }
   }

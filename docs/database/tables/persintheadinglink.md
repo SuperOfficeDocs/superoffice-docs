@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PersIntHeadingLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ Heading link table for PersInt, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![PersIntHeadingLink table relationship diagram](./media/PersIntHeadingLink.png)
 
 [!include[details](./includes/persintheadinglink.md)]
@@ -50,6 +51,7 @@ Heading link table for PersInt, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[PersInt](persint.md)  |PersInt list table. List of Person interests. |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Heading link table for PersInt, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
+

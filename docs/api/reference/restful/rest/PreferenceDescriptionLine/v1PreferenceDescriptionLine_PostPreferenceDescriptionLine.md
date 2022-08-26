@@ -1,6 +1,6 @@
 ---
 title: POST PreferenceDescriptionLine
-id: v1PreferenceDescriptionLine_PostPreferenceDescriptionLine
+uid: v1PreferenceDescriptionLine_PostPreferenceDescriptionLine
 ---
 
 # POST PreferenceDescriptionLine
@@ -11,7 +11,13 @@ POST /api/v1/PreferenceDescriptionLine
 
 Creates a new PreferenceDescriptionLine
 
+
 Calls the Preference agent service SavePreferenceDescriptionLine.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Preference agent service SavePreferenceDescriptionLine.
 ```http
 POST /api/v1/PreferenceDescriptionLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/PreferenceDescriptionLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The PreferenceDescriptionLine to be saved.
+The PreferenceDescriptionLine to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,17 +57,16 @@ The PreferenceDescriptionLine to be saved.
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
 
-## Response: object
 
-Preference description line, contains information about a single item in a preference description list.
+## Response: 
 
-PreferenceDescriptionLine entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +80,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/PreferenceDescriptionLine
@@ -84,38 +90,34 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 975,
-  "PrefDescId": 761,
-  "PrefValue": "et",
-  "PrefShowValue": "ipsum",
-  "Description": "Enterprise-wide directional infrastructure",
-  "IsBuiltin": false
+  "PrefDescLineId": 434,
+  "PrefDescId": 883,
+  "PrefValue": "dolor",
+  "PrefShowValue": "possimus",
+  "Description": "Up-sized grid-enabled service-desk",
+  "IsBuiltin": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 518,
-  "PrefDescId": 69,
-  "PrefValue": "soluta",
-  "PrefShowValue": "ad",
-  "Description": "Stand-alone background local area network",
-  "IsBuiltin": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PrefDescLineId": 486,
+  "PrefDescId": 589,
+  "PrefValue": "enim",
+  "PrefShowValue": "rerum",
+  "Description": "Horizontal demand-driven data-warehouse",
+  "IsBuiltin": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 598
     }
   },
   "_Links": {

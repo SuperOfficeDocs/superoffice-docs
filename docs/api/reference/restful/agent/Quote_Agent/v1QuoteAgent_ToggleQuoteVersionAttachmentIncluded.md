@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
-id: v1QuoteAgent_ToggleQuoteVersionAttachmentIncluded
+uid: v1QuoteAgent_ToggleQuoteVersionAttachmentIncluded
 ---
 
 # POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 
 Toggle the 'included' state of a quote version attachment
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Toggle the 'included' state of a quote version attachment
 ```http
 POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionAttachmentId
+QuoteVersionAttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionAttachmentId | int32 |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,19 +61,22 @@ QuoteVersionAttachmentId
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/ToggleQuoteVersionAttachmentIncluded
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionAttachmentId": 95
+  "QuoteVersionAttachmentId": 67
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

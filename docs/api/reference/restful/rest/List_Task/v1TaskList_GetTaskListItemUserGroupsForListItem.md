@@ -1,6 +1,6 @@
 ---
 title: GET List/Task/Items/{id}/UserGroups
-id: v1TaskList_GetTaskListItemUserGroupsForListItem
+uid: v1TaskList_GetTaskListItemUserGroupsForListItem
 ---
 
 # GET List/Task/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Task/Items/{itemId}/UserGroups
 
 Gets user groups visible for the TaskListItem list's item.
 
+
 Calls the Appointment agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the Appointment agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Watsica-Willms",
-    "ToolTip": "Consequatur omnis consequatur.",
+    "Id": 329,
+    "Name": "Mraz-Bosco",
+    "ToolTip": "Eius est.",
     "Deleted": false,
-    "Rank": 561,
-    "Type": "dolor",
-    "ColorBlock": 680,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2014-07-25T18:25:52.2806371+02:00",
+    "Rank": 517,
+    "Type": "quo",
+    "ColorBlock": 422,
+    "IconHint": "sint",
+    "Selected": true,
+    "LastChanged": "2005-10-28T11:10:54.6609343+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Bogisich-Dach",
-        "ToolTip": "Qui quia quia maiores rerum fugit.",
+        "Id": 599,
+        "Name": "Satterfield Group",
+        "ToolTip": "Optio est tempora aut at.",
         "Deleted": true,
-        "Rank": 233,
-        "Type": "omnis",
-        "ColorBlock": 81,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1995-11-01T18:25:52.2806371+01:00",
+        "Rank": 194,
+        "Type": "vel",
+        "ColorBlock": 566,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2007-11-09T11:10:54.6609343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Willa Kessler",
-        "TableRight": {},
+        "ExtraInfo": "quia",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Felipe Hills",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 474
+            "FieldLength": 756
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "temporibus",
-    "Hidden": false,
-    "FullName": "Johnny Moore",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "nam",
+    "StyleHint": "molestias",
+    "Hidden": true,
+    "FullName": "Rickey Wisoky I",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "deploy sticky vortals"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 884
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 754
       }
     }
   }

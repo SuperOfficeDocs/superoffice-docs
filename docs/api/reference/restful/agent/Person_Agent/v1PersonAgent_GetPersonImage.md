@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetPersonImage
-id: v1PersonAgent_GetPersonImage
+uid: v1PersonAgent_GetPersonImage
 ---
 
 # POST Agents/Person/GetPersonImage
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPersonImage
 
 Returns the person image that is displayed in the CRM application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the person image that is displayed in the CRM application.
 ```http
 POST /api/v1/Agents/Person/GetPersonImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,39 +42,45 @@ POST /api/v1/Agents/Person/GetPersonImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetPersonImage
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: *
+Accept: application/json; charset=utf-8
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 523
+  "PersonId": 298
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

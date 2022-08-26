@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "company_domain"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,8 +23,9 @@ This table contains web-domains associated with a certain cust_company entry.
 |------|-------------|------|:----:|
 |id|The primary key (auto-incremented)|PK| |
 |company\_id|The cust_company entry this domain is associated with.|FK [contact](contact.md)| |
-|domain\_name|The domain. E.g. `www.ejournal.no`, `company.com`, `http://some.domain.net`|String(255)| |
+|domain\_name|The domain. E.g. &amp;apos;www.ejournal.no&amp;apos;, &amp;apos;company.com&amp;apos;, &amp;apos;http://some.domain.net&amp;apos;|String(255)| |
 |rank|The rank|Int| |
+
 
 ![company_domain table relationship diagram](./media/company_domain.png)
 
@@ -43,6 +44,7 @@ This table contains web-domains associated with a certain cust_company entry.
 |------|-------------|
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 
+
 ## Replication Flags
 
 * None
@@ -50,3 +52,4 @@ This table contains web-domains associated with a certain cust_company entry.
 ## Security Flags
 
 * No access control via user's Role.
+

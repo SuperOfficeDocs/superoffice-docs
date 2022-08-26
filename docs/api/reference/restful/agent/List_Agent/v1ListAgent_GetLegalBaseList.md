@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLegalBaseList
-id: v1ListAgent_GetLegalBaseList
+uid: v1ListAgent_GetLegalBaseList
 ---
 
 # POST Agents/List/GetLegalBaseList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLegalBaseList
 
 Gets an array of LegalBase objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of LegalBase objects.
 ```http
 POST /api/v1/Agents/List/GetLegalBaseList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetLegalBaseList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: legalBaseIds
+## Request Body: legalBaseIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +69,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,24 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 583,
-    "Name": "Schimmel-Skiles",
-    "Tooltip": "repellendus",
-    "Rank": 347,
-    "Key": "consequatur",
-    "Deleted": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LegalBaseId": 184,
+    "Name": "Schulist Inc and Sons",
+    "Tooltip": "ducimus",
+    "Rank": 672,
+    "Key": "deserunt",
+    "Deleted": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 925
       }
     }
   }

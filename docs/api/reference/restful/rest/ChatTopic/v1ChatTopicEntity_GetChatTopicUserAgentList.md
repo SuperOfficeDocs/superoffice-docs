@@ -1,6 +1,6 @@
 ---
 title: GET ChatTopic/{id}/UserAgent
-id: v1ChatTopicEntity_GetChatTopicUserAgentList
+uid: v1ChatTopicEntity_GetChatTopicUserAgentList
 ---
 
 # GET ChatTopic/{id}/UserAgent
@@ -11,9 +11,16 @@ GET /api/v1/ChatTopic/{chatTopicId}/UserAgent
 
 Get list of users assigned to a chat topic
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get list of users assigned to a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,68 +72,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 780,
-    "User": {
-      "AssociateId": 421,
-      "Name": "Gleason-Runolfsdottir",
-      "PersonId": 325,
-      "Rank": 859,
-      "Tooltip": "aut",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 360,
-      "FullName": "Ms. Grayce Blanda",
-      "FormalName": "Harber LLC",
-      "Deleted": false,
-      "EjUserId": 109,
-      "UserName": "Rolfson Group",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 732
-        }
-      }
-    },
+    "TopicId": 452,
+    "User": null,
     "CanListen": false,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": true
+    "CanRespond": false,
+    "CanManage": true,
+    "CanNotify": false
   },
   {
-    "TopicId": 780,
-    "User": {
-      "AssociateId": 421,
-      "Name": "Gleason-Runolfsdottir",
-      "PersonId": 325,
-      "Rank": 859,
-      "Tooltip": "aut",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 360,
-      "FullName": "Ms. Grayce Blanda",
-      "FormalName": "Harber LLC",
-      "Deleted": false,
-      "EjUserId": 109,
-      "UserName": "Rolfson Group",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 732
-        }
-      }
-    },
+    "TopicId": 452,
+    "User": null,
     "CanListen": false,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": true
+    "CanRespond": false,
+    "CanManage": true,
+    "CanNotify": false
   }
 ]
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/SetChosenEntities
-id: v1ArchiveAgent_SetChosenEntities
+uid: v1ArchiveAgent_SetChosenEntities
 ---
 
 # POST Agents/Archive/SetChosenEntities
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/SetChosenEntities
 
 Set the currently chosen entities for the given gui name/provider name combination.
 
+
 This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ This service corresponds to the SetSelected method of the SelectableMDOList serv
 POST /api/v1/Agents/Archive/SetChosenEntities?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,11 +37,12 @@ POST /api/v1/Agents/Archive/SetChosenEntities?$select=name,department,category/i
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, Entities
+GuiName, ProviderName, Entities 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,8 +50,42 @@ GuiName, ProviderName, Entities
 | ProviderName | string |  |
 | Entities | array |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/Archive/SetChosenEntities
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: sv
+Content-Type: application/json; charset=utf-8
+
+{
+  "GuiName": "Nikolaus-Murray",
+  "ProviderName": "Ebert, Vandervort and Mills",
+  "Entities": [
+    "porro",
+    "quod"
+  ]
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

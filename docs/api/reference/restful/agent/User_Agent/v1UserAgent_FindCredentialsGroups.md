@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/FindCredentialsGroups
-id: v1UserAgent_FindCredentialsGroups
+uid: v1UserAgent_FindCredentialsGroups
 ---
 
 # POST Agents/User/FindCredentialsGroups
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/FindCredentialsGroups
 
 Get user groups holding users filtered by the searchString.
 
+
 This method is only relevant if the CredentialType control is of type link.  There will allways be at least one groups even if the underlying provider does not support groups.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ This method is only relevant if the CredentialType control is of type link.  The
 ```http
 POST /api/v1/Agents/User/FindCredentialsGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,16 +47,19 @@ POST /api/v1/Agents/User/FindCredentialsGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, SearchString
+Type, SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | SearchString | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,20 +74,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "officiis",
-  "SearchString": "tempore"
+  "Type": "ex",
+  "SearchString": "aperiam"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,38 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobson Group",
-    "DisplayName": "Murazik Inc and Sons",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Blick Inc and Sons",
+    "DisplayName": "Mayer-Hirthe",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 985
       }
     }
   },
   {
-    "Name": "Jacobson Group",
-    "DisplayName": "Murazik Inc and Sons",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Blick Inc and Sons",
+    "DisplayName": "Mayer-Hirthe",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 985
       }
     }
   }

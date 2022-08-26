@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveListWithContext
-id: v1ArchiveAgent_GetArchiveListWithContext
+uid: v1ArchiveAgent_GetArchiveListWithContext
 ---
 
 # POST Agents/Archive/GetArchiveListWithContext
@@ -11,17 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext
 
 Get a page of data for an archive, with context parameter.
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
 Archive Restriction Info objects represent search terms.
 
+
 Column names and operator strings are defined elsewhere.
+
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```csharp
-var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+
+
+
+
 ```
+
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -32,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -47,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context
+GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +85,10 @@ GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context
 | PageSize | int32 |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -80,60 +106,62 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Raynor-Turcotte",
-  "ProviderName": "Schuster LLC",
+  "GuiName": "Collier-Quitzon",
+  "ProviderName": "Pacocha-Schumm",
   "SortOrder": [
     {
-      "Name": "Quigley LLC",
+      "Name": "McCullough-Fahey",
       "Direction": "ASC"
     },
     {
-      "Name": "Quigley LLC",
+      "Name": "McCullough-Fahey",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Raynor, Kuphal and Boehm",
-      "Operator": "est",
+      "Name": "Zboncak-Reynolds",
+      "Operator": "hic",
       "Values": [
-        "ea",
-        "dolorum"
-      ],
-      "DisplayValues": [
-        "labore",
+        "ipsum",
         "est"
       ],
-      "ColumnInfo": {},
+      "DisplayValues": [
+        "itaque",
+        "aut"
+      ],
+      "ColumnInfo": null,
       "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 196,
+      "InterParenthesis": 221,
       "InterOperator": "And",
-      "UniqueHash": 868
+      "UniqueHash": 278
     }
   ],
   "Entities": [
-    "earum",
-    "repudiandae"
+    "nesciunt",
+    "perferendis"
   ],
-  "Page": 890,
-  "PageSize": 446,
-  "Context": "temporibus"
+  "Page": 731,
+  "PageSize": 864,
+  "Context": "ea"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -141,29 +169,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Eichmann-Daniel",
-    "PrimaryKey": 629,
+    "EntityName": "Gutkowski Group",
+    "PrimaryKey": 573,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "labore",
-        "TooltipHint": "ea",
-        "LinkHint": "accusamus"
+        "DisplayValue": "modi",
+        "TooltipHint": "voluptatem",
+        "LinkHint": "sunt"
       }
     },
-    "LinkHint": "inventore",
-    "StyleHint": "illo",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LinkHint": "voluptatibus",
+    "StyleHint": "adipisci",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 929
       }
     }
   }

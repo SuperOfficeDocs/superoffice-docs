@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/TestAuthenticate
-id: v1EMailAgent_TestAuthenticate
+uid: v1EMailAgent_TestAuthenticate
 ---
 
 # POST Agents/EMail/TestAuthenticate
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/TestAuthenticate
 
 Test if logged-in user has a working mail account
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Test if logged-in user has a working mail account
 ```http
 POST /api/v1/Agents/EMail/TestAuthenticate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +45,10 @@ POST /api/v1/Agents/EMail/TestAuthenticate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -44,18 +56,21 @@ POST /api/v1/Agents/EMail/TestAuthenticate?$select=name,department,category/id
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/TestAuthenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

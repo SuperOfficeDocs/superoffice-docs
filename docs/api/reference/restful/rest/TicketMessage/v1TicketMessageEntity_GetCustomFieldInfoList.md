@@ -1,6 +1,6 @@
 ---
 title: GET TicketMessage/CustomField
-id: v1TicketMessageEntity_GetCustomFieldInfoList
+uid: v1TicketMessageEntity_GetCustomFieldInfoList
 ---
 
 # GET TicketMessage/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/TicketMessage/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on TicketMessageEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +60,7 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TicketMessage/CustomField
@@ -59,6 +69,8 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Langosh, Ruecker and Thompson",
-    "DisplayName": "Bechtelar LLC",
-    "Description": "Streamlined static architecture",
-    "ShortLabel": "deleniti",
-    "HideLabel": false,
+    "FieldName": "Jakubowski LLC",
+    "DisplayName": "Denesik LLC",
+    "Description": "Open-architected zero defect challenge",
+    "ShortLabel": "cum",
+    "HideLabel": true,
     "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 139,
-    "TemplateVariableName": "Lowe LLC"
+    "Rank": 64,
+    "TemplateVariableName": "Parker Group"
   }
 ]
 ```

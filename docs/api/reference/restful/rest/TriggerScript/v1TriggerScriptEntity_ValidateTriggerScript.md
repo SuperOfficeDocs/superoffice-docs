@@ -1,6 +1,6 @@
 ---
 title: GET TriggerScript/{id}/Validate
-id: v1TriggerScriptEntity_ValidateTriggerScript
+uid: v1TriggerScriptEntity_ValidateTriggerScript
 ---
 
 # GET TriggerScript/{id}/Validate
@@ -11,13 +11,21 @@ GET /api/v1/TriggerScript/{triggerScriptId}/Validate
 
 Validate a Trigger CRMScript.
 
+
 This will check that the syntax is correct, but not execute the script.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | triggerScriptId | int32 | The id of the CRMScript Trigger to validate **Required** |
+
+
 
 ## Request Headers
 
@@ -32,18 +40,16 @@ This will check that the syntax is correct, but not execute the script.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Object for returning information when validating a CRMScript
+## Response: 
 
-Carrier object for CRMScriptResult.
-Services for the CRMScriptResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,14 +58,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TriggerScript/{triggerScriptId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,18 +76,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Valid": false,
   "ErrorMessage": "rerum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   }
 }

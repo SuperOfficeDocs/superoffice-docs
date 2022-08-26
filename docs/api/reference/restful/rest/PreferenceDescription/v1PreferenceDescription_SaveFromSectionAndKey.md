@@ -1,6 +1,6 @@
 ---
 title: PUT PreferenceDescription/{section}/{key}
-id: v1PreferenceDescription_SaveFromSectionAndKey
+uid: v1PreferenceDescription_SaveFromSectionAndKey
 ---
 
 # PUT PreferenceDescription/{section}/{key}
@@ -11,10 +11,17 @@ PUT /api/v1/PreferenceDescription/{section}/{key}
 
 Update a PreferenceDescription based on the section and key
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update a PreferenceDescription based on the section and key
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: preferenceDescription
+## Request Body: preferenceDescription  
 
-The PreferenceDescription to save.
+The PreferenceDescription to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,18 +62,16 @@ The PreferenceDescription to save.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-Carrier object for PreferenceDescription.
-Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +96,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/PreferenceDescription/{section}/{key}
@@ -101,62 +106,58 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 222,
-  "Section": "eos",
-  "Key": "optio",
-  "Name": "Stiedemann, Gerlach and Anderson",
+  "PrefDescId": 294,
+  "Section": "nisi",
+  "Key": "eligendi",
+  "Name": "Mayert, Gibson and Goodwin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly logistical concept",
-  "IsBuiltin": false,
-  "TableName": "Heaney-Thiel",
-  "UserDefinedListId": 853,
-  "Rank": 598,
-  "SubGroup": "eligendi",
-  "MinLevel": 636,
-  "MaxValue": 257,
-  "MinValue": 456,
-  "RequiredLicense": "molestiae"
+  "Description": "Upgradable impactful artificial intelligence",
+  "IsBuiltin": true,
+  "TableName": "Rippin LLC",
+  "UserDefinedListId": 91,
+  "Rank": 313,
+  "SubGroup": "laboriosam",
+  "MinLevel": 745,
+  "MaxValue": 176,
+  "MinValue": 159,
+  "RequiredLicense": "repellat"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 801,
-  "Section": "in",
-  "Key": "sapiente",
-  "Name": "Parisian Inc and Sons",
+  "PrefDescId": 817,
+  "Section": "amet",
+  "Key": "quo",
+  "Name": "Harber, Lockman and Koch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed intangible database",
-  "IsBuiltin": true,
-  "TableName": "Will Inc and Sons",
-  "UserDefinedListId": 794,
-  "Rank": 312,
-  "SubGroup": "sed",
-  "MinLevel": 635,
-  "MaxValue": 574,
-  "MinValue": 556,
-  "RequiredLicense": "ipsam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Robust non-volatile standardization",
+  "IsBuiltin": false,
+  "TableName": "Jacobson, Turcotte and Sanford",
+  "UserDefinedListId": 162,
+  "Rank": 113,
+  "SubGroup": "ipsam",
+  "MinLevel": 636,
+  "MaxValue": 748,
+  "MinValue": 976,
+  "RequiredLicense": "sapiente",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

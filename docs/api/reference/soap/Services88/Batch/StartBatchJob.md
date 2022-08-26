@@ -17,6 +17,7 @@ Start a batch job based on BatchTaskInfo.
 
 **Returns:** Returns the id of the created batch job.
 
+
 [WSDL file for Services88/Batch](../Services88-Batch.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,8 +56,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Batch:Value xsi:type="xsd:string"></Batch:Value>
       </Batch:StringKeyValuePair>
      </Batch:ParameterObject>
-     <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</Batch:LastStarted>
-     <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:23:33Z</Batch:Created>
+     <Batch:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</Batch:LastStarted>
+     <Batch:Created xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</Batch:Created>
      <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
      <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
      <Batch:Context xsi:type="xsd:string"></Batch:Context>
@@ -75,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## StartBatchJob Response
 
@@ -96,3 +98,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

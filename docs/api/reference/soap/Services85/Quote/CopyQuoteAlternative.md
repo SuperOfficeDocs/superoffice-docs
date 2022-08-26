@@ -19,6 +19,7 @@ Copy a quote alternative from the same sale and adds it to a version.
 
 **Returns:** The copied QuoteAlternative.
 
+
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CopyQuoteAlternative Response
 
@@ -97,3 +99,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

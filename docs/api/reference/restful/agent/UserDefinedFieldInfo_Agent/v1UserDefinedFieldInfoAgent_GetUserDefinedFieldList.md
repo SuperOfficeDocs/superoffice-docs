@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
-id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList
+uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldList
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 
 Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
 
+
 Note this may be different than the currently published fields.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Note this may be different than the currently published fields.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType
+OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -92,7 +102,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
@@ -106,58 +116,54 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 842,
-    "ColumnId": 551,
-    "FieldDefault": "sit",
-    "FieldHeight": 963,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 208,
-    "FieldTop": 397,
+    "UDefFieldId": 399,
+    "ColumnId": 844,
+    "FieldDefault": "rerum",
+    "FieldHeight": 164,
+    "FieldLabel": "vitae",
+    "FieldLeft": 471,
+    "FieldTop": 958,
     "FieldType": "Checkbox",
-    "FieldWidth": 940,
-    "FormatMask": "voluptas",
-    "HideLabel": false,
+    "FieldWidth": 4,
+    "FormatMask": "ut",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 798,
-    "LabelLeft": 392,
-    "LabelTop": 947,
-    "LabelWidth": 740,
-    "LastVersionId": 423,
-    "ListTableId": 580,
-    "IsMandatory": true,
+    "LabelHeight": 354,
+    "LabelLeft": 309,
+    "LabelTop": 595,
+    "LabelWidth": 280,
+    "LastVersionId": 110,
+    "ListTableId": 713,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 697,
-    "ProgId": "incidunt",
+    "Page1LineNo": 534,
+    "ProgId": "minus",
     "IsReadOnly": false,
-    "ShortLabel": "labore",
-    "TabOrder": 218,
-    "TextLength": 688,
-    "Tooltip": "recusandae",
-    "UdefIdentity": 116,
-    "UDListDefinitionId": 577,
+    "ShortLabel": "consectetur",
+    "TabOrder": 811,
+    "TextLength": 144,
+    "Tooltip": "sunt",
+    "UdefIdentity": 998,
+    "UDListDefinitionId": 696,
     "Justification": "Center",
-    "Version": 61,
-    "TemplateVariableName": "Cole, Keebler and Sporer",
-    "HasBeenPublished": true,
-    "MdoListName": "Hodkiewicz, Cole and Haley",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 319,
+    "TemplateVariableName": "Smitham-Treutel",
+    "HasBeenPublished": false,
+    "MdoListName": "Doyle-Nolan",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 685
       }
     }
   }

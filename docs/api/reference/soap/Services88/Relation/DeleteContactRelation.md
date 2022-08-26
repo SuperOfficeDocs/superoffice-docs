@@ -15,6 +15,8 @@ Deletes the spesified contact relation.
 
 * **contactRelationEntityId:** Relation to delete
 
+
+
 [WSDL file for Services88/Relation](../Services88-Relation.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteContactRelation Response
 
 ```xml
@@ -64,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

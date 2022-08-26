@@ -1,6 +1,6 @@
 ---
 title: GET Selection/default
-id: v1SelectionEntity_DefaultSelectionEntity
+uid: v1SelectionEntity_DefaultSelectionEntity
 ---
 
 # GET Selection/default
@@ -11,7 +11,14 @@ GET /api/v1/Selection/default
 
 Set default values into a new SelectionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Selection agent service CreateDefaultSelectionEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +51,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -83,242 +90,97 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 14 Mar 2007 18:25:51 G3T
+Last-Modified: Thu, 17 Aug 2017 11:10:53 G8T
 
 {
-  "Description": "Optional well-modulated extranet",
-  "Postit": "atque",
-  "Associate": {
-    "AssociateId": 314,
-    "Name": "Lang-Dietrich",
-    "PersonId": 923,
-    "Rank": 746,
-    "Tooltip": "maxime",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 72,
-    "FullName": "Noemie Davis",
-    "FormalName": "Buckridge-Lakin",
-    "Deleted": true,
-    "EjUserId": 843,
-    "UserName": "Schinner-Muller",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 512
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 462,
-    "Name": "Metz, Littel and Bahringer",
-    "PersonId": 155,
-    "Rank": 214,
-    "Tooltip": "illum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 304,
-    "FullName": "Luis Purdy",
-    "FormalName": "Greenholt-Lind",
-    "Deleted": false,
-    "EjUserId": 737,
-    "UserName": "Mertz-Turcotte",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "transform proactive infrastructures"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 498
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 860,
-    "Name": "Streich-Roob",
-    "PersonId": 687,
-    "Rank": 462,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 15,
-    "FullName": "Niko Lang",
-    "FormalName": "Dibbert-Schroeder",
-    "Deleted": true,
-    "EjUserId": 853,
-    "UserName": "Vandervort LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 295
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 917,
-    "Value": "id",
-    "Tooltip": "et",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 755
-      }
-    }
-  },
-  "GroupIdx": 960,
-  "IncludePerson": 896,
-  "MemberCount": 439,
-  "Name": "Williamson-Frami",
-  "PostitTextId": 887,
-  "CreatedDate": "2020-07-06T18:25:51.0729454+02:00",
-  "SelectionId": 344,
-  "SoundEx": "illum",
-  "Source": 708,
-  "TextId": 85,
-  "UpdatedDate": "2007-03-14T18:25:51.0729454+01:00",
-  "UpdatedCount": 47,
-  "Visibility": 275,
+  "Description": "Ergonomic object-oriented architecture",
+  "Postit": "quasi",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 591,
+  "IncludePerson": 887,
+  "MemberCount": 457,
+  "Name": "Lowe, Morissette and Blanda",
+  "PostitTextId": 992,
+  "CreatedDate": "2015-03-15T11:10:53.4861791+01:00",
+  "SelectionId": 304,
+  "SoundEx": "veniam",
+  "Source": 547,
+  "TextId": 355,
+  "UpdatedDate": "2017-08-17T11:10:53.4861791+02:00",
+  "UpdatedCount": 487,
+  "Visibility": 57,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 987,
-  "TargetTableName": "Ziemann, Ryan and Heidenreich",
-  "Completed": true,
-  "LeftSelectionId": 464,
-  "RightSelectionId": 771,
+  "CompanyUnique": false,
+  "TargetTableNumber": 857,
+  "TargetTableName": "Lehner, Bauch and Altenwerth",
+  "Completed": false,
+  "LeftSelectionId": 138,
+  "RightSelectionId": 834,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Renner Group",
-  "ShadowProviderName": "Torp Inc and Sons",
-  "ChartKey": "ea",
-  "LastLoaded": "2013-11-16T18:25:51.0729454+01:00",
-  "LastLoadedBy": 376,
-  "LastLoadedByAssociate": {
-    "AssociateId": 556,
-    "Name": "Toy, Balistreri and King",
-    "PersonId": 743,
-    "Rank": 81,
-    "Tooltip": "officia",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 24,
-    "FullName": "Davon Krajcik",
-    "FormalName": "Beahan, Nader and Rosenbaum",
-    "Deleted": true,
-    "EjUserId": 547,
-    "UserName": "Conn-Dickens",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 578
-      }
-    }
-  },
-  "LastMembershipChange": "1997-11-03T18:25:51.0729454+01:00",
-  "LastMembershipChangeBy": 936,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 418,
-    "Name": "Cole Group",
-    "PersonId": 901,
-    "Rank": 403,
-    "Tooltip": "explicabo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 544,
-    "FullName": "Mrs. Adell Swift",
-    "FormalName": "Thiel, Heathcote and Kuhn",
-    "Deleted": true,
-    "EjUserId": 299,
-    "UserName": "O'Keefe, Zulauf and Erdman",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 703
-      }
-    }
-  },
+  "MainProviderName": "Schaden Inc and Sons",
+  "ShadowProviderName": "Witting-Steuber",
+  "ChartKey": "est",
+  "LastLoaded": "2012-04-21T11:10:53.4861791+02:00",
+  "LastLoadedBy": 375,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "1997-12-06T11:10:53.4861791+01:00",
+  "LastMembershipChangeBy": 974,
+  "LastMembershipChangeByAssociate": null,
   "MainHeading": "dolor",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Boehm Inc and Sons",
-  "DashboardTileDefinitionId": 507,
+  "MemberTabHeading": "tempora",
+  "MailingsProviderName": "Dare, Bernier and Wolf",
+  "DashboardTileDefinitionId": 317,
   "VisibleFor": [
     {
-      "VisibleId": 892,
+      "VisibleId": 507,
       "Visibility": "All",
-      "DisplayValue": "architecto",
-      "TableRight": {},
+      "DisplayValue": "autem",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 218
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 579
         }
       }
     },
     {
-      "VisibleId": 892,
+      "VisibleId": 507,
       "Visibility": "All",
-      "DisplayValue": "architecto",
-      "TableRight": {},
+      "DisplayValue": "autem",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 218
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 579
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 104
     }
   }
 }

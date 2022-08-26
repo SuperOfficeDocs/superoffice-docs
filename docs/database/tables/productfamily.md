@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductFamily"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ List for the ProductFamily field of the Product table (Quote Management)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ProductFamily table relationship diagram](./media/ProductFamily.png)
 
 [!include[details](./includes/productfamily.md)]
@@ -52,6 +53,7 @@ List for the ProductFamily field of the Product table (Quote Management)
 |[ProductFamilyGroupLink](productfamilygrouplink.md)  |User group link table for ProductFamily, for MDO item hiding |
 |[ProductFamilyHeadingLink](productfamilyheadinglink.md)  |Heading link table for ProductFamily, for MDO item headings |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,3 +63,4 @@ List for the ProductFamily field of the Product table (Quote Management)
 ## Security Flags
 
 * No access control via user's Role.
+

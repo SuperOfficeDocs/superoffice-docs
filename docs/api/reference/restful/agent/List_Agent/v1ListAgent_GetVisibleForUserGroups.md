@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetVisibleForUserGroups
-id: v1ListAgent_GetVisibleForUserGroups
+uid: v1ListAgent_GetVisibleForUserGroups
 ---
 
 # POST Agents/List/GetVisibleForUserGroups
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetVisibleForUserGroups
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/GetVisibleForUserGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/GetVisibleForUserGroups?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId
+UdListDefinitionId, ListItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | ListItemId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 659,
-  "ListItemId": 218
+  "UdListDefinitionId": 58,
+  "ListItemId": 658
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,65 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "King-Smith",
-    "ToolTip": "Et voluptas accusamus totam consequatur maxime possimus.",
+    "Id": 219,
+    "Name": "Balistreri-Fahey",
+    "ToolTip": "Voluptatibus exercitationem rerum.",
     "Deleted": false,
-    "Rank": 506,
-    "Type": "eos",
-    "ColorBlock": 57,
-    "IconHint": "et",
+    "Rank": 104,
+    "Type": "excepturi",
+    "ColorBlock": 378,
+    "IconHint": "vel",
     "Selected": true,
-    "LastChanged": "2008-05-15T18:28:49.3061179+02:00",
+    "LastChanged": "2018-06-11T11:10:27.162453+02:00",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Weimann, Fahey and Herzog",
-        "ToolTip": "Atque error voluptatem incidunt et et nemo.",
+        "Id": 947,
+        "Name": "Cummerata Group",
+        "ToolTip": "Minima velit.",
         "Deleted": false,
-        "Rank": 938,
-        "Type": "dolores",
-        "ColorBlock": 514,
-        "IconHint": "nostrum",
+        "Rank": 194,
+        "Type": "doloremque",
+        "ColorBlock": 279,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "1998-11-01T18:28:49.3061179+01:00",
+        "LastChanged": "2001-09-06T11:10:27.162453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Jerrod Sanford",
-        "TableRight": {},
+        "ExtraInfo": "dolorem",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Henry Reilly",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 613
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "laborum",
+    "ExtraInfo": "architecto",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Florence Haag",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mr. Isidro Jaskolski Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "mesh ubiquitous methodologies"
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldLength": 25
       }
     }
   }

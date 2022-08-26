@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "redletterday"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Red letter days for calendar (holidays, birthday of king etc)
 |rgbColour|Actual RGB colour index|UInt|&#x25CF;|
 |extraFlags|Extra flags, spare field|UInt|&#x25CF;|
 
+
 ![redletterday table relationship diagram](./media/redletterday.png)
 
 [!include[details](./includes/redletterday.md)]
@@ -49,6 +50,7 @@ Red letter days for calendar (holidays, birthday of king etc)
 |------|-------------|
 |[country](country.md)  |Country information |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -58,3 +60,4 @@ Red letter days for calendar (holidays, birthday of king etc)
 ## Security Flags
 
 * No access control via user's Role.
+

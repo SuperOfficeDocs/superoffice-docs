@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "satellite"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Definition of Satellites
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![satellite table relationship diagram](./media/satellite.png)
 
 [!include[details](./includes/satellite.md)]
@@ -51,6 +52,7 @@ Definition of Satellites
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[LicenseSatlLink](licensesatllink.md)  |Link between License and Satellite, for per-database licenses |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Definition of Satellites
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

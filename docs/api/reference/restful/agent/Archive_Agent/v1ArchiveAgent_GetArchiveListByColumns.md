@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumns
-id: v1ArchiveAgent_GetArchiveListByColumns
+uid: v1ArchiveAgent_GetArchiveListByColumns
 ---
 
 # POST Agents/Archive/GetArchiveListByColumns
@@ -11,16 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns
 
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.
 
+
+
 Archive Restriction Info objects represent search terms.
 
+
 Column names and operator strings are defined elsewhere.
+
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```csharp
-var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+
+
+
+
 ```
+
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -31,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -46,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +84,10 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize
 | Page | int32 |  |
 | PageSize | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -78,62 +105,64 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Boyle LLC",
+  "ProviderName": "Greenholt Inc and Sons",
   "Columns": [
-    "odio",
-    "molestiae"
+    "debitis",
+    "amet"
   ],
   "SortOrder": [
     {
-      "Name": "Skiles, Funk and Luettgen",
+      "Name": "Littel Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Skiles, Funk and Luettgen",
+      "Name": "Littel Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Murazik-Lang",
-      "Operator": "aut",
+      "Name": "Paucek, Kuphal and Turner",
+      "Operator": "corrupti",
       "Values": [
-        "libero",
-        "qui"
+        "voluptatem",
+        "nobis"
       ],
       "DisplayValues": [
-        "consequatur",
-        "repellat"
+        "velit",
+        "commodi"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 796,
+      "InterParenthesis": 938,
       "InterOperator": "And",
-      "UniqueHash": 852
+      "UniqueHash": 981
     }
   ],
   "Entities": [
-    "expedita",
-    "et"
+    "voluptas",
+    "atque"
   ],
-  "Page": 292,
-  "PageSize": 316
+  "Page": 144,
+  "PageSize": 422
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -141,29 +170,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Terry Group",
-    "PrimaryKey": 343,
+    "EntityName": "Fadel LLC",
+    "PrimaryKey": 270,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "vero",
-        "TooltipHint": "dolorem",
-        "LinkHint": "quisquam"
+        "DisplayValue": "molestiae",
+        "TooltipHint": "accusamus",
+        "LinkHint": "officiis"
       }
     },
-    "LinkHint": "eos",
-    "StyleHint": "dolorem",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "incubate synergistic applications"
-    },
+    "LinkHint": "est",
+    "StyleHint": "molestiae",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 416
       }
     }
   }

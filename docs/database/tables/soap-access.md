@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "soap_access"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ Table that contains constraints on the access to the soap interface
 |address\_to|IP address range to address|String(255)|&#x25CF;|
 |type|Type: customer, ticket, admin etc|Int|&#x25CF;|
 
+
 ![soap_access table relationship diagram](./media/soap_access.png)
 
 [!include[details](./includes/soap-access.md)]
@@ -43,3 +44,4 @@ Table that contains constraints on the access to the soap interface
 ## Security Flags
 
 * No access control via user's Role.
+

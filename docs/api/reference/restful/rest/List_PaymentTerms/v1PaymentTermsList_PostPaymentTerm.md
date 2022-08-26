@@ -1,6 +1,6 @@
 ---
 title: POST List/PaymentTerm/Items
-id: v1PaymentTermsList_PostPaymentTerm
+uid: v1PaymentTermsList_PostPaymentTerm
 ---
 
 # POST List/PaymentTerm/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/PaymentTerm/Items
 ```
 
 Add a new PaymentTerm to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new PaymentTerm to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The PaymentTerm to be added to the list.
+The PaymentTerm to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The PaymentTerm to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,48 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Jacobi, Grant and Hauck",
-  "Tooltip": "itaque",
+  "Id": 274,
+  "Name": "Huel Inc and Sons",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "UdListDefinitionId": 636,
-  "Rank": 674
+  "UdListDefinitionId": 511,
+  "Rank": 435
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 369,
-  "Name": "Rau-Jones",
-  "Tooltip": "illum",
+  "Id": 957,
+  "Name": "Abshire, Kub and Harber",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "UdListDefinitionId": 811,
-  "Rank": 578,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 263,
+  "Rank": 974,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 626
     }
   }
 }

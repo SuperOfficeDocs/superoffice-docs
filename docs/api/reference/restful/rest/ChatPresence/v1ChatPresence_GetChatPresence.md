@@ -1,6 +1,6 @@
 ---
 title: GET Presence/GetAll
-id: v1ChatPresence_GetChatPresence
+uid: v1ChatPresence_GetChatPresence
 ---
 
 # GET Presence/GetAll
@@ -10,6 +10,13 @@ GET /api/v1/Presence/GetAll
 ```
 
 Get the chat presence status for all chat users
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Get the chat presence status for all chat users
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,7 +52,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Presence/GetAll
@@ -51,32 +61,28 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 518,
-    "DisplayName": "Lebsack Inc and Sons",
-    "OngoingChats": 975,
+    "UserId": 953,
+    "DisplayName": "Strosin LLC",
+    "OngoingChats": 184,
     "Present": true,
     "ChatTopics": [
-      294,
-      662
+      453,
+      1001
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 777
+        "FieldLength": 754
       }
     }
   }

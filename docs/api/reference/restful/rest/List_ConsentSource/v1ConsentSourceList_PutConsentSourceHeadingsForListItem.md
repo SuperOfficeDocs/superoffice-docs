@@ -1,6 +1,6 @@
 ---
 title: PUT List/ConsentSource/Items/{id}/Headings
-id: v1ConsentSourceList_PutConsentSourceHeadingsForListItem
+uid: v1ConsentSourceList_PutConsentSourceHeadingsForListItem
 ---
 
 # PUT List/ConsentSource/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentSource/Items/{itemId}/Headings
 
 Saves headings for the ConsentSource list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Cartwright-Hammes",
-    "ToolTip": "Repudiandae ducimus numquam ad similique ut.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "quibusdam",
-    "ColorBlock": 888,
-    "IconHint": "asperiores",
+    "Id": 522,
+    "Name": "Kiehn-Durgan",
+    "ToolTip": "In consequatur.",
+    "Deleted": false,
+    "Rank": 382,
+    "Type": "molestiae",
+    "ColorBlock": 987,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2009-12-05T18:25:51.7383205+01:00",
+    "LastChanged": "1996-01-08T11:10:54.0041827+01:00",
     "ChildItems": [
       {
-        "Id": 739,
-        "Name": "Bayer LLC",
-        "ToolTip": "Nemo neque.",
-        "Deleted": false,
-        "Rank": 750,
-        "Type": "ut",
-        "ColorBlock": 392,
-        "IconHint": "dignissimos",
+        "Id": 877,
+        "Name": "Volkman-Gleason",
+        "ToolTip": "Cum est.",
+        "Deleted": true,
+        "Rank": 478,
+        "Type": "placeat",
+        "ColorBlock": 865,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2019-07-31T18:25:51.7383205+02:00",
+        "LastChanged": "2018-04-23T11:10:54.0041827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Miss Ivory Abernathy"
+        "ExtraInfo": "iusto",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Karolann Shields"
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "eum",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Earline Legros"
+    "FullName": "Mac Kunze"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Heaney, Baumbach and Pfannerstill",
-    "ToolTip": "Qui sit.",
-    "Deleted": true,
-    "Rank": 619,
-    "Type": "vitae",
-    "ColorBlock": 433,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2007-05-28T18:25:51.740325+02:00",
+    "Id": 329,
+    "Name": "Tillman, Stroman and Schulist",
+    "ToolTip": "Nostrum quas doloremque omnis aperiam.",
+    "Deleted": false,
+    "Rank": 12,
+    "Type": "quo",
+    "ColorBlock": 888,
+    "IconHint": "assumenda",
+    "Selected": true,
+    "LastChanged": "2019-08-20T11:10:54.0051826+02:00",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Bauch Group",
-        "ToolTip": "Nobis omnis incidunt molestiae placeat.",
+        "Id": 964,
+        "Name": "Gislason, Klocko and Kling",
+        "ToolTip": "Exercitationem distinctio fugiat quo.",
         "Deleted": true,
-        "Rank": 529,
-        "Type": "deleniti",
-        "ColorBlock": 431,
-        "IconHint": "cum",
+        "Rank": 297,
+        "Type": "doloribus",
+        "ColorBlock": 443,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2017-01-03T18:25:51.740325+01:00",
+        "LastChanged": "2015-09-02T11:10:54.0051826+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Mrs. Kayli Bruen",
-        "TableRight": {},
+        "ExtraInfo": "in",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Mr. Lane Legros MD",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 29
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "magni",
+    "ExtraInfo": "dolor",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Otto Grimes",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mrs. Destinee Kunde IV",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 354
       }
     }
   }

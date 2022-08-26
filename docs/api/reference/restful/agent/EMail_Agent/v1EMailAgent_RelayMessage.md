@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/RelayMessage
-id: v1EMailAgent_RelayMessage
+uid: v1EMailAgent_RelayMessage
 ---
 
 # POST Agents/EMail/RelayMessage
@@ -9,9 +9,15 @@ id: v1EMailAgent_RelayMessage
 POST /api/v1/Agents/EMail/RelayMessage
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ POST /api/v1/Agents/EMail/RelayMessage
 POST /api/v1/Agents/EMail/RelayMessage?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,11 +37,12 @@ POST /api/v1/Agents/EMail/RelayMessage?$select=name,department,category/id
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfoExtended, Rfc822, From, Recipients
+ConnectionInfoExtended, Rfc822, From, Recipients 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,8 +51,43 @@ ConnectionInfoExtended, Rfc822, From, Recipients
 | From | string |  |
 | Recipients | array |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/EMail/RelayMessage
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "ConnectionInfoExtended": null,
+  "Rfc822": "harum",
+  "From": "omnis",
+  "Recipients": [
+    "dicta",
+    "inventore"
+  ]
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointmentsByTaskHeading
-id: v1AppointmentAgent_GetPersonAppointmentsByTaskHeading
+uid: v1AppointmentAgent_GetPersonAppointmentsByTaskHeading
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTaskHeading
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range.
 
+
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified.  Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskHeadingId
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,10 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskHeadingId
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -112,7 +122,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading
@@ -122,14 +132,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 846,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2005-07-29T18:28:47.6998171+02:00",
-  "EndTime": "2009-11-14T18:28:47.6998171+01:00",
-  "Count": 383,
-  "TaskHeadingId": 229
+  "PersonId": 148,
+  "IncludeProjectAppointments": true,
+  "StartTime": "1996-04-12T11:10:25.4175587+02:00",
+  "EndTime": "2001-03-31T11:10:25.4175587+02:00",
+  "Count": 581,
+  "TaskHeadingId": 903
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -137,67 +149,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 620,
-    "StartDate": "1998-08-02T18:28:47.7018565+02:00",
-    "EndDate": "2001-02-18T18:28:47.7018565+01:00",
+    "AppointmentId": 500,
+    "StartDate": "2000-01-27T11:10:25.4185586+01:00",
+    "EndDate": "2016-10-02T11:10:25.4185586+02:00",
     "Type": "BookingForChecklist",
-    "Task": "mollitia",
-    "AssociateFullName": "Natalie Bergnaum",
-    "ContactName": "Welch-Anderson",
-    "Description": "Synergized secondary flexibility",
-    "PersonFullName": "Jaiden Von MD",
-    "PersonId": 810,
-    "ContactId": 258,
-    "ProjectId": 263,
-    "ProjectName": "Heidenreich-Purdy",
+    "Task": "numquam",
+    "AssociateFullName": "Yessenia Zemlak",
+    "ContactName": "Emard LLC",
+    "Description": "Face to face holistic forecast",
+    "PersonFullName": "Jacky Mitchell",
+    "PersonId": 611,
+    "ContactId": 55,
+    "ProjectId": 630,
+    "ProjectName": "Walsh, Jerde and Howe",
     "IsPublished": false,
-    "AssociateId": 366,
-    "ColorIndex": 41,
+    "AssociateId": 212,
+    "ColorIndex": 623,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 338,
-    "PriorityName": "O'Reilly Group",
+    "PriorityId": 261,
+    "PriorityName": "Torp, Wolff and Hettinger",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1998-05-17T18:28:47.7028446+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2019-09-02T11:10:25.4195586+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-12-06T18:28:47.7028446+01:00",
-    "RecurringEndDate": "2001-07-18T18:28:47.7028446+02:00",
-    "MotherId": 819,
-    "AssignedBy": 238,
-    "AssignedByFullName": "Freddy Ullrich",
-    "RejectReason": "",
-    "Location": "ex",
-    "AlarmLeadTime": "voluptate",
-    "SaleId": 547,
-    "SaleName": "Fay-Macejkovic",
-    "AssociateName": "Goldner, Feil and Kohler",
-    "CreatedDate": "2003-06-10T18:28:47.7028446+02:00",
-    "CreatedBy": "sequi",
-    "CreatedByFullName": "Orin Luettgen",
-    "CreatedByAssociateId": 226,
+    "RecurringStartDate": "2002-06-27T11:10:25.4195586+02:00",
+    "RecurringEndDate": "2016-06-03T11:10:25.4195586+02:00",
+    "MotherId": 890,
+    "AssignedBy": 743,
+    "AssignedByFullName": "Mr. Morris Mike Heathcote I",
+    "RejectReason": "embrace end-to-end metrics",
+    "Location": "eligendi",
+    "AlarmLeadTime": "enim",
+    "SaleId": 337,
+    "SaleName": "McLaughlin LLC",
+    "AssociateName": "Upton Inc and Sons",
+    "CreatedDate": "2001-09-26T11:10:25.4195586+02:00",
+    "CreatedBy": "quo",
+    "CreatedByFullName": "Chauncey Rice",
+    "CreatedByAssociateId": 151,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 669
       }
     }
   }

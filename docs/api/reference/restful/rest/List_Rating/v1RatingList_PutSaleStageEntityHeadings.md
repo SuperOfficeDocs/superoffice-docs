@@ -1,6 +1,6 @@
 ---
 title: PUT List/Rating/Headings
-id: v1RatingList_PutSaleStageEntityHeadings
+uid: v1RatingList_PutSaleStageEntityHeadings
 ---
 
 # PUT List/Rating/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/Rating/Headings
 
 Saves headings for the SaleStageEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,7 +69,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Rating/Headings
@@ -70,23 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 174,
-    "Name": "Heaney-O'Hara",
-    "Tooltip": "error",
+    "HeadingId": 499,
+    "Name": "Koss Group",
+    "Tooltip": "cupiditate",
     "Deleted": true,
-    "Rank": 159,
-    "UdListDefinitionId": 738
+    "Rank": 284,
+    "UdListDefinitionId": 458
   },
   {
-    "HeadingId": 174,
-    "Name": "Heaney-O'Hara",
-    "Tooltip": "error",
+    "HeadingId": 499,
+    "Name": "Koss Group",
+    "Tooltip": "cupiditate",
     "Deleted": true,
-    "Rank": 159,
-    "UdListDefinitionId": 738
+    "Rank": 284,
+    "UdListDefinitionId": 458
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Jacobi Group",
-    "Tooltip": "et",
+    "HeadingId": 778,
+    "Name": "Hyatt LLC",
+    "Tooltip": "id",
     "Deleted": true,
-    "Rank": 164,
-    "UdListDefinitionId": 550,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 721,
+    "UdListDefinitionId": 130,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

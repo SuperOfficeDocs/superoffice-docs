@@ -1,6 +1,6 @@
 ---
 title: PUT List/PaymentType/Items/{id}/Headings
-id: v1PaymentTypeList_PutPaymentTypeHeadingsForListItem
+uid: v1PaymentTypeList_PutPaymentTypeHeadingsForListItem
 ---
 
 # PUT List/PaymentType/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 
 Saves headings for the PaymentType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Trantow LLC",
-    "ToolTip": "Itaque facere officiis placeat sint qui qui.",
+    "Id": 245,
+    "Name": "McGlynn LLC",
+    "ToolTip": "Placeat sapiente voluptatem.",
     "Deleted": false,
-    "Rank": 298,
-    "Type": "vel",
-    "ColorBlock": 945,
-    "IconHint": "aut",
+    "Rank": 283,
+    "Type": "commodi",
+    "ColorBlock": 587,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2011-12-29T18:25:51.9472108+01:00",
+    "LastChanged": "2006-12-02T11:10:54.3618993+01:00",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Swaniawski Inc and Sons",
-        "ToolTip": "Fugit architecto.",
+        "Id": 882,
+        "Name": "Thompson Group",
+        "ToolTip": "Eum officia.",
         "Deleted": true,
-        "Rank": 876,
-        "Type": "possimus",
-        "ColorBlock": 615,
-        "IconHint": "officiis",
+        "Rank": 319,
+        "Type": "dicta",
+        "ColorBlock": 863,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2008-05-10T18:25:51.9472108+02:00",
+        "LastChanged": "2021-03-20T11:10:54.3618993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Elyse Streich"
+        "ExtraInfo": "sit",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Reanna Schuppe"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Alford Nikolaus"
+    "ExtraInfo": "sapiente",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Mckenna Flatley"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Mayert LLC",
-    "ToolTip": "At ut voluptates earum velit.",
+    "Id": 76,
+    "Name": "Stracke Group",
+    "ToolTip": "Adipisci perferendis ut aut quaerat.",
     "Deleted": false,
-    "Rank": 801,
-    "Type": "velit",
-    "ColorBlock": 857,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2011-04-21T18:25:51.9492458+02:00",
+    "Rank": 270,
+    "Type": "nihil",
+    "ColorBlock": 238,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2011-12-06T11:10:54.3628992+01:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "Yost, Cartwright and Hills",
-        "ToolTip": "Neque quis similique sunt magnam.",
-        "Deleted": true,
-        "Rank": 566,
-        "Type": "ea",
-        "ColorBlock": 591,
-        "IconHint": "esse",
-        "Selected": true,
-        "LastChanged": "2002-09-08T18:25:51.9502479+02:00",
+        "Id": 756,
+        "Name": "Lemke, Shields and Rowe",
+        "ToolTip": "Nostrum cumque quia dolor excepturi omnis aliquid.",
+        "Deleted": false,
+        "Rank": 23,
+        "Type": "et",
+        "ColorBlock": 587,
+        "IconHint": "similique",
+        "Selected": false,
+        "LastChanged": "1998-09-24T11:10:54.3638989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Jeanie Nikolaus",
-        "TableRight": {},
+        "ExtraInfo": "dolor",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Mariam Strosin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 526
+            "FieldLength": 719
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "dicta",
+    "ExtraInfo": "maiores",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Cordell Weber",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mr. Marlen Schiller",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 949
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 525
       }
     }
   }

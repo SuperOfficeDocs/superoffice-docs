@@ -1,6 +1,6 @@
 ---
 title: POST ChatSession/{id}/Messages
-id: v1ChatSessionEntity_AddChatMessage
+uid: v1ChatSessionEntity_AddChatMessage
 ---
 
 # POST ChatSession/{id}/Messages
@@ -11,9 +11,16 @@ POST /api/v1/ChatSession/{chatSessionId}/Messages
 
 Add a new message to a chat session
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to add message to **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Add a new message to a chat session
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: message
+## Request Body: message  
 
-Message to add
+Message to add 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Message to add
 | SpecialParam | string | Special parameter for the special_type. |
 | WhenPosted | date-time | When the message was posted (UTC timestamp). |
 
-## Response: object
 
-A message in a chat session
+## Response: 
 
-Carrier object for ChatMessage.
-Services for the ChatMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +75,7 @@ Response body: object
 | SpecialParam | string | Special parameter for the special_type. |
 | WhenPosted | date-time | When the message was posted (UTC timestamp). |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ChatSession/{chatSessionId}/Messages
@@ -80,31 +85,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 508,
-  "ChatSessionId": 543,
+  "ChatMessageId": 726,
+  "ChatSessionId": 495,
   "Type": "Invalid",
-  "Message": "deleniti",
-  "Author": "rem",
-  "ReadByCustomer": 677,
+  "Message": "rem",
+  "Author": "similique",
+  "ReadByCustomer": 846,
   "SpecialType": "Block",
-  "SpecialParam": "aut",
-  "WhenPosted": "2017-08-13T18:25:50.1555956+02:00"
+  "SpecialParam": "dicta",
+  "WhenPosted": "2011-08-30T11:10:52.5641784+02:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 658,
-  "ChatSessionId": 11,
+  "ChatMessageId": 370,
+  "ChatSessionId": 947,
   "Type": "Invalid",
-  "Message": "velit",
-  "Author": "ea",
-  "ReadByCustomer": 294,
+  "Message": "perspiciatis",
+  "Author": "expedita",
+  "ReadByCustomer": 944,
   "SpecialType": "Block",
-  "SpecialParam": "repellendus",
-  "WhenPosted": "2017-11-09T18:25:50.1565945+01:00"
+  "SpecialParam": "ea",
+  "WhenPosted": "2008-08-14T11:10:52.5641784+02:00"
 }
 ```

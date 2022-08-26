@@ -1,6 +1,6 @@
 ---
 title: POST Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-id: v1ContactEntity_ChangeFieldType
+uid: v1ContactEntity_ChangeFieldType
 ---
 
 # POST Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -11,10 +11,16 @@ POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a ContactEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
+
 
 ## Request Headers
 
@@ -39,19 +46,17 @@ POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=T
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+ContactEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +97,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -101,57 +106,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 211,
-  "ColumnId": 445,
-  "FieldDefault": "error",
-  "FieldHeight": 465,
-  "FieldLabel": "fuga",
-  "FieldLeft": 476,
-  "FieldTop": 157,
+  "UDefFieldId": 975,
+  "ColumnId": 240,
+  "FieldDefault": "aut",
+  "FieldHeight": 557,
+  "FieldLabel": "deleniti",
+  "FieldLeft": 726,
+  "FieldTop": 299,
   "FieldType": "Checkbox",
-  "FieldWidth": 431,
-  "FormatMask": "perspiciatis",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 742,
-  "LabelLeft": 666,
-  "LabelTop": 456,
-  "LabelWidth": 498,
-  "LastVersionId": 561,
-  "ListTableId": 949,
-  "IsMandatory": false,
+  "FieldWidth": 178,
+  "FormatMask": "quibusdam",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 294,
+  "LabelLeft": 176,
+  "LabelTop": 123,
+  "LabelWidth": 109,
+  "LastVersionId": 774,
+  "ListTableId": 645,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 766,
-  "ProgId": "officiis",
+  "Page1LineNo": 664,
+  "ProgId": "veritatis",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 361,
-  "TextLength": 778,
-  "Tooltip": "hic",
-  "UdefIdentity": 63,
-  "UDListDefinitionId": 390,
+  "ShortLabel": "quia",
+  "TabOrder": 814,
+  "TextLength": 925,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 992,
+  "UDListDefinitionId": 366,
   "Justification": "Center",
-  "Version": 702,
-  "TemplateVariableName": "Collins Inc and Sons",
+  "Version": 644,
+  "TemplateVariableName": "Hoeger, Bogisich and West",
   "HasBeenPublished": false,
-  "MdoListName": "Heathcote-Swift",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Koelpin, Kohler and Rolfson",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "recontextualize 24/7 technologies"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldLength": 484
     }
   }
 }

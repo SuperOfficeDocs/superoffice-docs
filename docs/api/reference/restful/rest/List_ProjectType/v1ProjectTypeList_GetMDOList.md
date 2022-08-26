@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectType/MDOItems
-id: v1ProjectTypeList_GetMDOList
+uid: v1ProjectTypeList_GetMDOList
 ---
 
 # GET List/ProjectType/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ProjectType/MDOItems
 
 Get the MDO list items for "ProjType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=dolor
+GET /api/v1/List/ProjectType/MDOItems?query=deleniti
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ProjectType/MDOItems?query=dolor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Satterfield Group",
-    "ToolTip": "Repudiandae eum commodi unde.",
+    "Id": 893,
+    "Name": "Hirthe-Abbott",
+    "ToolTip": "Voluptatibus minus numquam reprehenderit consequatur.",
     "Deleted": false,
-    "Rank": 20,
-    "Type": "repudiandae",
+    "Rank": 140,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 548,
-        "Name": "Jerde, Kuphal and Schaden",
-        "ToolTip": "Quo voluptatum quia quasi vel architecto.",
-        "Deleted": true,
-        "Rank": 476,
-        "Type": "non",
+        "Id": 943,
+        "Name": "Hagenes, Parisian and Keeling",
+        "ToolTip": "Laboriosam sint quo quisquam fugit ullam.",
+        "Deleted": false,
+        "Rank": 965,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "natus",
-        "ColorBlock": 443,
-        "ExtraInfo": "vel",
-        "StyleHint": "velit",
-        "FullName": "Stella Kessler",
-        "TableRight": {},
+        "IconHint": "distinctio",
+        "ColorBlock": 200,
+        "ExtraInfo": "nisi",
+        "StyleHint": "molestiae",
+        "FullName": "Mrs. Keon Isom Morissette",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 659
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 925
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 872,
-    "ExtraInfo": "itaque",
-    "StyleHint": "amet",
-    "FullName": "Mark Kohler I",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "tenetur",
+    "ColorBlock": 773,
+    "ExtraInfo": "enim",
+    "StyleHint": "officiis",
+    "FullName": "Dolores Elwyn Macejkovic II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 142
       }
     }
   }

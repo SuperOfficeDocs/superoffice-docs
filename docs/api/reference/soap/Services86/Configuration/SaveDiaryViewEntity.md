@@ -17,6 +17,7 @@ Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id 
 
 **Returns:** New or updated DiaryViewEntity
 
+
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
        <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
        <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-       <Configuration:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:48Z</Configuration:LastChanged>
+       <Configuration:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:54:25Z</Configuration:LastChanged>
        <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
         <Configuration:SelectableMDOListItem xsi:type="Configuration:SelectableMDOListItem">
          <Configuration:Id xsi:type="xsd:int">0</Configuration:Id>
@@ -71,7 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
          <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
          <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-         <Configuration:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:48Z</Configuration:LastChanged>
+         <Configuration:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:54:25Z</Configuration:LastChanged>
          <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
           <Configuration:SelectableMDOListItem xsi:nil="true"></Configuration:SelectableMDOListItem>
          </Configuration:ChildItems>
@@ -95,6 +96,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveDiaryViewEntity Response
 
@@ -128,7 +130,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
       <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
       <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-      <Configuration:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:48Z</Configuration:LastChanged>
+      <Configuration:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:54:25Z</Configuration:LastChanged>
       <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
        <Configuration:SelectableMDOListItem xsi:type="Configuration:SelectableMDOListItem">
         <Configuration:Id xsi:type="xsd:int">0</Configuration:Id>
@@ -140,7 +142,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <Configuration:ColorBlock xsi:type="xsd:int">0</Configuration:ColorBlock>
         <Configuration:IconHint xsi:type="xsd:string"></Configuration:IconHint>
         <Configuration:Selected xsi:type="xsd:boolean">false</Configuration:Selected>
-        <Configuration:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:48Z</Configuration:LastChanged>
+        <Configuration:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:54:25Z</Configuration:LastChanged>
         <Configuration:ChildItems xsi:type="Configuration:ArrayOfSelectableMDOListItem">
          <Configuration:SelectableMDOListItem xsi:type="Configuration:SelectableMDOListItem">
           <Configuration:Id xsi:nil="true"></Configuration:Id>
@@ -179,3 +181,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

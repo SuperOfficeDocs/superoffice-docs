@@ -8,10 +8,11 @@ title: Services88.DashAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfDashService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfDashService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:element name="CreateDefaultDash">
         <xs:complexType>
           <xs:sequence />
@@ -86,6 +87,22 @@ title: Services88.DashAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -137,6 +154,13 @@ title: Services88.DashAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -350,6 +374,7 @@ title: Services88.DashAgent WSDL
               <xs:element minOccurs="0" name="LayoutConfig" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SecondarySelectionId" type="xs:int" />
               <xs:element minOccurs="0" name="MeasureByField" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Usage" type="tns:DashTileUsage" />
               <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
@@ -375,6 +400,7 @@ title: Services88.DashAgent WSDL
           <xs:enumeration value="CombinedColumnLine" />
           <xs:enumeration value="WebPanel" />
           <xs:enumeration value="HTML" />
+          <xs:enumeration value="Gauge" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="DashTileType" nillable="true" type="tns:DashTileType" />
@@ -425,6 +451,22 @@ title: Services88.DashAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="DashTileMeasure" nillable="true" type="tns:DashTileMeasure" />
+      <xs:simpleType name="DashTileUsage">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Dashboard" />
+              <xs:enumeration value="Selection" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="DashTileUsage" nillable="true" type="tns:DashTileUsage" />
       <xs:element name="SaveDashTile">
         <xs:complexType>
           <xs:sequence>
@@ -487,6 +529,61 @@ title: Services88.DashAgent WSDL
       <xs:element name="DeleteDashTileDefinitionResponse">
         <xs:complexType>
           <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultPreviewDash">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultPreviewDashResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewDash" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PreviewDash">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OwnedByFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Tiles" nillable="true" type="tns:ArrayOfPreviewDashTile" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PreviewDash" nillable="true" type="tns:PreviewDash" />
+      <xs:complexType name="ArrayOfPreviewDashTile">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="PreviewDashTile" nillable="true" type="tns:PreviewDashTile" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfPreviewDashTile" nillable="true" type="tns:ArrayOfPreviewDashTile" />
+      <xs:complexType name="PreviewDashTile">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TileType" type="tns:DashTileType" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PreviewDashTile" nillable="true" type="tns:PreviewDashTile" />
+      <xs:element name="CreateDefaultPreviewDashTile">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultPreviewDashTileResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewDashTile" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetDash">
@@ -809,6 +906,20 @@ title: Services88.DashAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetPreviewDash">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DashboardId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreviewDashResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewDash" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1076,6 +1187,40 @@ title: Services88.DashAgent WSDL
     <wsdl:part name="parameters" element="tns:DeleteDashTileDefinitionResponse" />
   </wsdl:message>
   <wsdl:message name="DeleteDashTileDefinitionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultPreviewDash" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultPreviewDashResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashTileRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultPreviewDashTile" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashTileRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashTileResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultPreviewDashTileResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewDashTileResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1438,6 +1583,23 @@ title: Services88.DashAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetPreviewDashRequest">
+    <wsdl:part name="parameters" element="tns:GetPreviewDash" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewDashRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewDashResponse">
+    <wsdl:part name="parameters" element="tns:GetPreviewDashResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewDashResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Dash">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Dash</summary>
@@ -1532,6 +1694,20 @@ title: Services88.DashAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashTileDefinition" name="DeleteDashTileDefinitionRequest" message="tns:DeleteDashTileDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashTileDefinitionResponse" name="DeleteDashTileDefinitionResponse" message="tns:DeleteDashTileDefinitionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultPreviewDash">
+      <wsdl:documentation>
+        <summary>Loading default values into a new PreviewDash.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDash" name="CreateDefaultPreviewDashRequest" message="tns:CreateDefaultPreviewDashRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDashResponse" name="CreateDefaultPreviewDashResponse" message="tns:CreateDefaultPreviewDashResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultPreviewDashTile">
+      <wsdl:documentation>
+        <summary>Loading default values into a new PreviewDashTile.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDashTile" name="CreateDefaultPreviewDashTileRequest" message="tns:CreateDefaultPreviewDashTileRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDashTileResponse" name="CreateDefaultPreviewDashTileResponse" message="tns:CreateDefaultPreviewDashTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDash">
       <wsdl:documentation>
@@ -1679,6 +1855,13 @@ title: Services88.DashAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTileHtmlList" name="SaveDashTileHtmlListRequest" message="tns:SaveDashTileHtmlListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTileHtmlListResponse" name="SaveDashTileHtmlListResponse" message="tns:SaveDashTileHtmlListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewDash">
+      <wsdl:documentation>
+        <summary>Get a dashboard from its id</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPreviewDash" name="GetPreviewDashRequest" message="tns:GetPreviewDashRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPreviewDashResponse" name="GetPreviewDashResponse" message="tns:GetPreviewDashResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Dash" type="tns:Dash">
@@ -1888,6 +2071,38 @@ title: Services88.DashAgent WSDL
         <soap:header message="tns:DeleteDashTileDefinitionResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteDashTileDefinitionResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteDashTileDefinitionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultPreviewDash">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDash" style="document" />
+      <wsdl:input name="CreateDefaultPreviewDashRequest">
+        <soap:header message="tns:CreateDefaultPreviewDashRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultPreviewDashResponse">
+        <soap:header message="tns:CreateDefaultPreviewDashResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultPreviewDashTile">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDashTile" style="document" />
+      <wsdl:input name="CreateDefaultPreviewDashTileRequest">
+        <soap:header message="tns:CreateDefaultPreviewDashTileRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashTileRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashTileRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultPreviewDashTileResponse">
+        <soap:header message="tns:CreateDefaultPreviewDashTileResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashTileResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashTileResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewDashTileResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2227,6 +2442,22 @@ title: Services88.DashAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetPreviewDash">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPreviewDash" style="document" />
+      <wsdl:input name="GetPreviewDashRequest">
+        <soap:header message="tns:GetPreviewDashRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPreviewDashRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPreviewDashRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPreviewDashResponse">
+        <soap:header message="tns:GetPreviewDashResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPreviewDashResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPreviewDashResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPreviewDashResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfDashService">
     <wsdl:port name="BasicHttpBinding_Dash" binding="tns:BasicHttpBinding_Dash">
@@ -2235,3 +2466,4 @@ title: Services88.DashAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -17,6 +17,7 @@ Save an array of CustomerCenterConfig entities to the database
 
 **Returns:** void
 
+
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,9 +48,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
       <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
       <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-      <CustomerService:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CustomerService:Registered>
+      <CustomerService:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Registered>
       <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-      <CustomerService:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CustomerService:Updated>
+      <CustomerService:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Updated>
       <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
      </CustomerService:CustomerCenterConfig>
     </CustomerService:CustConfigs>
@@ -59,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveAllCustomerCenterConfigs Response
 
@@ -79,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

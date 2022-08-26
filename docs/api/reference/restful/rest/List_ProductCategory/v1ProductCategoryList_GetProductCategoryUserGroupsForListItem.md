@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductCategory/Items/{id}/UserGroups
-id: v1ProductCategoryList_GetProductCategoryUserGroupsForListItem
+uid: v1ProductCategoryList_GetProductCategoryUserGroupsForListItem
 ---
 
 # GET List/ProductCategory/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProductCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 534,
-    "Name": "Monahan, Cole and Wilderman",
-    "ToolTip": "Autem quidem.",
+    "Id": 172,
+    "Name": "Considine Group",
+    "ToolTip": "Quia sed quo.",
     "Deleted": false,
-    "Rank": 956,
-    "Type": "qui",
-    "ColorBlock": 469,
-    "IconHint": "eos",
+    "Rank": 693,
+    "Type": "maiores",
+    "ColorBlock": 548,
+    "IconHint": "quam",
     "Selected": true,
-    "LastChanged": "1995-04-05T18:25:51.9972125+02:00",
+    "LastChanged": "2011-08-10T11:10:54.4179026+02:00",
     "ChildItems": [
       {
-        "Id": 846,
-        "Name": "DuBuque LLC",
-        "ToolTip": "Ut libero dolorem.",
+        "Id": 921,
+        "Name": "Farrell, Hahn and Purdy",
+        "ToolTip": "Voluptatibus facilis rem sint autem totam.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "qui",
-        "ColorBlock": 549,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2002-04-19T18:25:51.9972125+02:00",
+        "Rank": 300,
+        "Type": "pariatur",
+        "ColorBlock": 552,
+        "IconHint": "similique",
+        "Selected": false,
+        "LastChanged": "1995-10-16T11:10:54.4179026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "qui",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Aubrey Collins",
-        "TableRight": {},
+        "FullName": "Marilou Sanford",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 927
+            "FieldLength": 562
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Beaulah Franecki",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "non",
+    "StyleHint": "ab",
+    "Hidden": false,
+    "FullName": "Cecilia Helmer Wolff DDS",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 564
       }
     }
   }

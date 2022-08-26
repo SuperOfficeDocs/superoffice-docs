@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/SaveDashTile
-id: v1DashAgent_SaveDashTile
+uid: v1DashAgent_SaveDashTile
 ---
 
 # POST Agents/Dash/SaveDashTile
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Dash/SaveDashTile
 ```
 
 Updates the existing DashTile or creates a new DashTile if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing DashTile or creates a new DashTile if the id parameter is e
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTile to be saved.
+The DashTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The DashTile to be saved.
 | Rank | int32 | Rank order |
 | DashTileDefinition |  | The tile definition entity |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashTile.
-Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,97 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileId": 327,
-  "DashboardId": 178,
-  "Height": 413,
-  "Width": 680,
-  "Rank": 245,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 961,
-    "Name": "Mayert-Schiller",
-    "Description": "Networked 6th generation architecture",
-    "DefaultHeight": 389,
-    "DefaultWidth": 673,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Waelchi, Huel and Bauch",
-    "SelectionId": 702,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "soluta",
-    "Measure": "Average",
-    "MeasureField": "sit",
-    "SortBy": "repudiandae",
-    "LayoutConfig": "corporis",
-    "SecondarySelectionId": 612,
-    "MeasureByField": "sed",
-    "ProviderName": "Witting-Conn"
-  }
+  "DashboardId": 233,
+  "Height": 43,
+  "Width": 236,
+  "Rank": 677,
+  "DashTileDefinition": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 54,
-  "DashboardId": 509,
-  "Height": 450,
-  "Width": 591,
-  "Rank": 114,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 219,
-    "Name": "Pfannerstill LLC",
-    "Description": "Re-contextualized optimal standardization",
-    "DefaultHeight": 530,
-    "DefaultWidth": 552,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Kunde-Fritsch",
-    "SelectionId": 20,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "ea",
-    "Measure": "Average",
-    "MeasureField": "fuga",
-    "SortBy": "veniam",
-    "LayoutConfig": "accusantium",
-    "SecondarySelectionId": 494,
-    "MeasureByField": "aut",
-    "ProviderName": "Moore, Emard and Ritchie",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 2
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 166,
+  "DashboardId": 807,
+  "Height": 541,
+  "Width": 25,
+  "Rank": 294,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 38
     }
   }
 }

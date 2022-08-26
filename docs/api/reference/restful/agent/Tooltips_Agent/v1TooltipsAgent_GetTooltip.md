@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Tooltips/GetTooltip
-id: v1TooltipsAgent_GetTooltip
+uid: v1TooltipsAgent_GetTooltip
 ---
 
 # POST Agents/Tooltips/GetTooltip
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Tooltips/GetTooltip
 
 Parse a tooltip hint and return a tooltip.
 
+
 The returned tooltip string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The tooltip hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical tooltip hint could be {contact_id=123} or {appointment_id=222&amp;amp;mode=simple}
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The returned tooltip string may contain resource string identifiers (in square b
 ```http
 POST /api/v1/Agents/Tooltips/GetTooltip?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Tooltips/GetTooltip?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TooltipHint
+TooltipHint 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TooltipHint | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,8 @@ TooltipHint
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Tooltips/GetTooltip
@@ -63,13 +74,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TooltipHint": "sit"
+  "TooltipHint": "dolorum"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quidem"
+"rerum"
 ```

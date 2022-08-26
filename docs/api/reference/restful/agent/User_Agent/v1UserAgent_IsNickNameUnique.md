@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/IsNickNameUnique
-id: v1UserAgent_IsNickNameUnique
+uid: v1UserAgent_IsNickNameUnique
 ---
 
 # POST Agents/User/IsNickNameUnique
@@ -9,9 +9,15 @@ id: v1UserAgent_IsNickNameUnique
 POST /api/v1/Agents/User/IsNickNameUnique
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/User/IsNickNameUnique
 ```http
 POST /api/v1/Agents/User/IsNickNameUnique?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/User/IsNickNameUnique?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, NickName
+AssociateId, NickName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | NickName | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,20 +64,23 @@ AssociateId, NickName
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 302,
-  "NickName": "Windler LLC"
+  "AssociateId": 381,
+  "NickName": "Williamson-Muller"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

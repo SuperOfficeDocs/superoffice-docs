@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonStalled
-id: v1ReasonStalledList_GetListDefinition
+uid: v1ReasonStalledList_GetListDefinition
 ---
 
 # GET List/ReasonStalled
@@ -10,6 +10,13 @@ GET /api/v1/List/ReasonStalled
 ```
 
 Gets description of ReasonStalled list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of ReasonStalled list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,42 +58,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Spinka LLC",
-  "Tooltip": "sunt",
+  "Id": 564,
+  "Name": "Shields, Boyer and Connelly",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 97,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 417,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   },
   "_Links": {

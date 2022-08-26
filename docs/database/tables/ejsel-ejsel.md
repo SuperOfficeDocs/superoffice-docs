@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_ejsel"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ This table defines sources for complex selections in a many/many relationship
 |child|The id of the child item selection|FK [ejselection](ejselection.md)| |
 |operation|The operation to be performed when this source is added to the selection|Int| |
 |order\_pos|The order in which the operations are performed|Int| |
+
 
 ![ejsel_ejsel table relationship diagram](./media/ejsel_ejsel.png)
 
@@ -47,6 +48,7 @@ This table defines sources for complex selections in a many/many relationship
 |------|-------------|
 |[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
 
+
 ## Replication Flags
 
 * None
@@ -54,3 +56,4 @@ This table defines sources for complex selections in a many/many relationship
 ## Security Flags
 
 * No access control via user's Role.
+

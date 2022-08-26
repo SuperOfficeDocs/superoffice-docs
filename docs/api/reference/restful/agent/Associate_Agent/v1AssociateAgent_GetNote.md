@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Associate/GetNote
-id: v1AssociateAgent_GetNote
+uid: v1AssociateAgent_GetNote
 ---
 
 # POST Agents/Associate/GetNote
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Associate/GetNote
 
 Returns an array of strings(notepad pages).
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of strings(notepad pages).
 ```http
 POST /api/v1/Agents/Associate/GetNote?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Associate/GetNote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,26 +61,29 @@ AssociateId
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Associate/GetNote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 3
+  "AssociateId": 746
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "est",
-  "dicta"
+  "sint",
+  "quas"
 ]
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultListItemEntity
-id: v1ListAgent_CreateDefaultListItemEntity
+uid: v1ListAgent_CreateDefaultListItemEntity
 ---
 
 # POST Agents/List/CreateDefaultListItemEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultListItemEntity
 
 Set default values into a new ListItemEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,38 +55,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Green-O'Reilly",
-  "Tooltip": "deleniti",
+  "Id": 853,
+  "Name": "Rogahn, Maggio and Corwin",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "UdListDefinitionId": 324,
-  "Rank": 246,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 560,
+  "Rank": 686,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 148
     }
   }
 }

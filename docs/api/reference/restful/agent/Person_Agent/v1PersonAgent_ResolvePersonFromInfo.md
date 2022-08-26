@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/ResolvePersonFromInfo
-id: v1PersonAgent_ResolvePersonFromInfo
+uid: v1PersonAgent_ResolvePersonFromInfo
 ---
 
 # POST Agents/Person/ResolvePersonFromInfo
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/ResolvePersonFromInfo
 
 Get a person from the provided information.
 
+
 If the person does not exist, it will be created on demand.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the person does not exist, it will be created on demand.
 ```http
 POST /api/v1/Agents/Person/ResolvePersonFromInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Person/ResolvePersonFromInfo?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, PersonName, PhoneNumbers, Emails
+ContactId, PersonName, PhoneNumbers, Emails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,18 +55,16 @@ ContactId, PersonName, PhoneNumbers, Emails
 | PhoneNumbers | array |  |
 | Emails | array |  |
 
-## Response: object
 
-The Person Service. The service implements all services working with the Person object.
+## Response: 
 
-Carrier object for ResolvedPerson.
-Services for the ResolvedPerson Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,171 +73,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 570,
-  "PersonName": "Labadie Inc and Sons",
+  "ContactId": 475,
+  "PersonName": "Heidenreich-Welch",
   "PhoneNumbers": [
-    "711680",
-    "1240443"
+    "1448619",
+    "1039850"
   ],
   "Emails": [
-    "emmett@turcotte.com",
-    "gina.rohan@rolfson.com"
+    "deontae_gleichner@dietrich.biz",
+    "tatum.bosco@toy.name"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Person": {
-    "PersonId": 230,
-    "Firstname": "Lupe",
-    "MiddleName": "Little-Wisozk",
-    "Lastname": "McKenzie",
-    "Mrmrs": "expedita",
-    "Title": "alias",
-    "UpdatedDate": "2004-06-09T18:28:49.7391402+02:00",
-    "CreatedDate": "2018-10-02T18:28:49.7401396+02:00",
-    "BirthDate": "2018-07-06T18:28:49.7401396+02:00",
-    "CreatedBy": {},
-    "Emails": [
-      {},
-      {}
-    ],
-    "Description": "Persistent radical orchestration",
-    "IsAssociate": true,
-    "PrivatePhones": [
-      {},
-      {}
-    ],
-    "Faxes": [
-      {},
-      {}
-    ],
-    "MobilePhones": [
-      {},
-      {}
-    ],
-    "OfficePhones": [
-      {},
-      {}
-    ],
-    "OtherPhones": [
-      {},
-      {}
-    ],
-    "Position": {},
-    "UpdatedBy": {},
-    "Contact": {},
-    "Country": {},
-    "Interests": [
-      {},
-      {}
-    ],
-    "PersonNumber": "1222953",
-    "FullName": "Cooper Kirlin IV",
-    "NoMailing": false,
-    "UsePersonAddress": true,
-    "Retired": true,
-    "Urls": [
-      {},
-      {}
-    ],
-    "FormalName": "Carter, Gottlieb and Dooley",
-    "Address": {},
-    "Post3": "aliquam",
-    "Post2": "perspiciatis",
-    "Post1": "corrupti",
-    "Kanalname": "velit",
-    "Kanafname": "ut",
-    "CorrespondingAssociate": {},
-    "Category": {},
-    "Business": {},
-    "Associate": {},
-    "Salutation": "quam",
-    "ActiveInterests": 616,
-    "SupportAssociate": {},
-    "TicketPriority": {},
-    "CustomerLanguage": {},
-    "DbiAgentId": 645,
-    "DbiKey": "libero",
-    "DbiLastModified": "2016-09-26T18:28:49.7401396+02:00",
-    "DbiLastSyncronized": "2016-02-21T18:28:49.7401396+01:00",
-    "SentInfo": 11,
-    "ShowContactTickets": 291,
-    "UserInfo": {},
-    "ChatEmails": [
-      {},
-      {}
-    ],
-    "InternetPhones": [
-      {},
-      {}
-    ],
-    "Source": 722,
-    "ActiveErpLinks": 40,
-    "ShipmentTypes": [
-      {},
-      {}
-    ],
-    "Consents": [
-      {},
-      {}
-    ],
-    "BounceEmails": [
-      "vilma.ryan@hessel.name",
-      "rocio.treutel@homenick.ca"
-    ],
-    "ActiveStatusMonitorId": 254,
-    "UserDefinedFields": {
-      "SuperOffice:1": "True",
-      "SuperOffice:2": "1092687044"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "temporibus",
-      "ExtraFields2": "rerum"
-    },
-    "CustomFields": {
-      "CustomFields1": "quam",
-      "CustomFields2": "similique"
-    },
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 848
-      }
-    }
-  },
-  "PersonCreated": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Person": null,
+  "PersonCreated": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldLength": 803
     }
   }
 }

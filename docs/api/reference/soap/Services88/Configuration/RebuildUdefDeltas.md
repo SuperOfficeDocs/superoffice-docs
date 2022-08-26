@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.Rebui
 
 Flush and rebuild userdefined field deltas. Mostly used after publishing udefs or adding/editing Customer Service extrafields
 
+
 **Returns:** No return value
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RebuildUdefDeltas Response
 
 ```xml
@@ -65,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

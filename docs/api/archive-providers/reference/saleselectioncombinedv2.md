@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleSelectionCombinedV2"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,17 +24,17 @@ Implementation of the provider for the combined selection
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"sale"|Sale|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon| *None* |Category: Displays the icon for an activity type| x |
+|icon|string|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -48,8 +48,10 @@ Implementation of the provider for the combined selection
 |userGroup|userGroup|User group : The user group that owns the record| x |
 |who| *None* |Who: Contact and/or company|  |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |currencyId|int|Currency ID: The currency list item ID| x |
 |currency|listAny|Currency: The currency of the sale| x |
@@ -57,7 +59,7 @@ Implementation of the provider for the combined selection
 |lossReason|listAny|Reason (lost: The reason for losing the sale| x |
 |source|listAny|Source: The source (lead) of the sale| x |
 |competitor|listAny|Competitor: The competitor who won the sale| x |
-|heading|stringorPK|Sale: Displays a descriptive text for the item| x |
+|heading|stringorPK|Sale: The name of the sale| x |
 |amount|decimal|Amount: The gross sales total| x |
 |amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
@@ -66,10 +68,12 @@ Implementation of the provider for the combined selection
 |originalStage|listAny|Stage: Displays the stage of the sale| x |
 |stage|listAny|Stage: Displays the stage of the sale| x |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
+|stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |saleType|listAny|Sale type: Sale type, from list| x |
 |nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
 |hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -98,6 +102,7 @@ Implementation of the provider for the combined selection
 |person/personNumber|string|Number: Displays the contact's number| x |
 |person/title|string|Title: Displays the contact's job title| x |
 |person/personCountry|listAny|Country: Country| x |
+|person/personCountryId|int|Country ID: Country ID| x |
 |person/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |person/rank|int|Rank: Displays a contact's current rank| x |
 |person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -111,15 +116,19 @@ Implementation of the provider for the combined selection
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
+|person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
+|person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -187,7 +196,90 @@ Implementation of the provider for the combined selection
 |person/personUdef/SuperOffice:9|string|page1saleonly| x |
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
-|person/isMailingRecipient|bool|isMailingRecipient: isMailingRecipient| x |
+|person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
+|person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
+|person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|person/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
+|person/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
+|person/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|person/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|person/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
+|person/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
+|person/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
+|person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+|person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
+|person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
+|person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
+|person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
+|person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|person/personAssociate/associateDbId|associate|ID| x |
+|person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|person/personAssociate/contactCategory|listAny|Category: Category| x |
+|person/personAssociate/role|listAny|Role : Role| x |
+|person/personAssociate/assocName|associate|User ID : User ID| x |
+|person/personAssociate/assocTooltip|string|Description : Description|  |
+|person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|person/personAssociate/userName|string|User name: User name| x |
+|person/personAssociate/personEmail|string|E-mail| x |
+|person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
+|person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|person/correspondingAssociate/associateDbId|associate|ID| x |
+|person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
+|person/correspondingAssociate/role|listAny|Role : Role| x |
+|person/correspondingAssociate/assocName|associate|User ID : User ID| x |
+|person/correspondingAssociate/assocTooltip|string|Description : Description|  |
+|person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|person/correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|person/correspondingAssociate/userName|string|User name: User name| x |
+|person/correspondingAssociate/personEmail|string|E-mail| x |
+|person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |person/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -207,14 +299,17 @@ Implementation of the provider for the combined selection
 |contact/category|listAny|Category| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|contact/countryId|int|Country ID: Country ID| x |
 |contact/number|string|Number| x |
 |contact/code|string|Code| x |
 |contact/orgnr|string|VAT No.| x |
 |contact/stop|bool|Stop| x |
 |contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
+|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
+|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contact/contactSource|listAny|Source: Source (Company)| x |
 |contact/contactDeleted|bool|Deleted: Deleted| x |
@@ -318,6 +413,22 @@ Implementation of the provider for the combined selection
 |contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
+|contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
+|contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
+|contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+|contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+|contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -339,8 +450,8 @@ Implementation of the provider for the combined selection
 |contact/LastTicket|date|Date of last request|  |
 |contact/LastCompletedTicket|date|Date of last completed request|  |
 |contact/LastDoByTicket|date|Date of last non-completed request|  |
-|contact/SaintStatus1|saintStatus|Neglected customer|  |
-|contact/SaintStatus2|saintStatus|C-company|  |
+|contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |contact/saintSaleStatus|listAny|With status|  |
 |contact/saintAmountClass|listAny|Amount class|  |
 |contact/saintActivityType|listAny|SAINT type|  |
@@ -387,7 +498,7 @@ Implementation of the provider for the combined selection
 |saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointment/icon| *None* |Category: Displays the icon for an activity type| x |
+|appointment/icon|string|Category: Displays the icon for an activity type| x |
 |appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointment/time| *None* |Time: Time|  |
 |appointment/type|listAny|Type: Displays the type of an activity| x |
@@ -401,8 +512,10 @@ Implementation of the provider for the combined selection
 |appointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |appointment/who| *None* |Who: Contact and/or company|  |
 |appointment/updatedBy|associate|Updated by: The user who last updated the data| x |
+|appointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |appointment/registeredBy|associate|Registered by: The user who registered the data| x |
+|appointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -422,7 +535,7 @@ Implementation of the provider for the combined selection
 |appointment/completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |appointment/isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |appointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
-|appointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
+|appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
@@ -470,7 +583,7 @@ Implementation of the provider for the combined selection
 |appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|document/icon| *None* |Category: Displays the icon for an activity type| x |
+|document/icon|string|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |document/time| *None* |Time: Time|  |
 |document/type|listAny|Type: Displays the type of an activity| x |
@@ -484,8 +597,10 @@ Implementation of the provider for the combined selection
 |document/userGroup|userGroup|User group : The user group that owns the record| x |
 |document/who| *None* |Who: Contact and/or company|  |
 |document/updatedBy|associate|Updated by: The user who last updated the data| x |
+|document/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |document/registeredBy|associate|Registered by: The user who registered the data| x |
+|document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |document/documentId|int|Document ID: Database ID of document record| x |
 |document/keywords|string|Keywords | x |
@@ -550,14 +665,17 @@ Implementation of the provider for the combined selection
 |project/number|string|Number: Displays the project's number| x |
 |project/type|listAny|Project type: Displays the project's type| x |
 |project/status|listAny|Status: Displays the project's status| x |
+|project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |project/icon| *None* |Category: Displays the icon for an activity type| x |
 |project/text|string|Text: Displays a descriptive text for the item| x |
 |project/description|string|Description : Description| x |
 |project/updatedBy|associate|Updated by: The user who last updated the data| x |
+|project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |project/registeredBy|associate|Registered by: The user who registered the data| x |
+|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -628,7 +746,7 @@ Implementation of the provider for the combined selection
 |project/LastSale|date|Date of last sale|  |
 |project/LastCompletedSale|date|Date of last completed sale|  |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
-|project/SaintStatus3|saintStatus|Not completed activites with intention sale|  |
+|project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
@@ -657,6 +775,7 @@ Implementation of the provider for the combined selection
 |saleStakeholder/person/personNumber|string|Stakeholder - Number: Displays the contact's number| x |
 |saleStakeholder/person/title|string|Stakeholder - Title: Displays the contact's job title| x |
 |saleStakeholder/person/personCountry|listAny|Stakeholder - Country: Country| x |
+|saleStakeholder/person/personCountryId|int|Stakeholder - Country ID: Country ID| x |
 |saleStakeholder/person/personNoMail|bool|Stakeholder - No Mailings: Displays the contact's No Mailings checkbox| x |
 |saleStakeholder/person/rank|int|Stakeholder - Rank: Displays a contact's current rank| x |
 |saleStakeholder/person/birthdate| *None* |Stakeholder - Birthdate: Displays the contact's date of birth|  |
@@ -670,15 +789,19 @@ Implementation of the provider for the combined selection
 |saleStakeholder/person/kanaFirstName|string|Stakeholder - First name, kana: Contact's first name, in kana alphabet| x |
 |saleStakeholder/person/kanaLastName|string|Stakeholder - Last name, kana: Contact's last name, in kana alphabet| x |
 |saleStakeholder/person/personUpdatedBy|associate|Stakeholder - Updated by: The user who last updated the data| x |
+|saleStakeholder/person/personUpdatedByFullName|associate|Stakeholder - Updated by - Full name: The user who last updated the data| x |
 |saleStakeholder/person/personUpdatedDate|date|Stakeholder - Updated: The date/time the data was last updated in UTC.| x |
 |saleStakeholder/person/personRegisteredBy|associate|Stakeholder - Registered by: The user who registered the data| x |
+|saleStakeholder/person/personRegisteredByFullName|associate|Stakeholder - Registered by - Full name: The user who registered the data| x |
 |saleStakeholder/person/personRegisteredDate|date|Stakeholder - Registered date: The date/time the data was registered in UTC.| x |
 |saleStakeholder/person/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 |saleStakeholder/person/personActiveErpLinks|bool|Stakeholder - ERP connected: Is there an active ERP Sync?| x |
 |saleStakeholder/person/ticketPriority|listAny|Stakeholder - Service priority: Default service priority for this contact| x |
 |saleStakeholder/person/supportLanguage|listAny|Stakeholder - Preferred language: Preferred language used for reply templates and more| x |
 |saleStakeholder/person/supportAssociate|associate|Stakeholder - Our service contact: Default service contact for this contact| x |
+|saleStakeholder/person/supportAssociateFullName|associate|Stakeholder - Our service contact - Full name: Default service contact for this contact| x |
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact| x |
+|saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
@@ -746,7 +869,90 @@ Implementation of the provider for the combined selection
 |saleStakeholder/person/personUdef/SuperOffice:9|string|Stakeholder - page1saleonly| x |
 |saleStakeholder/person/personUdef/SuperOffice:10|string|Stakeholder - page1marketingonly| x |
 |saleStakeholder/person/personUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
-|saleStakeholder/person/isMailingRecipient|bool|Stakeholder - isMailingRecipient: isMailingRecipient| x |
+|saleStakeholder/person/personExtra/x\_person\_integer|int|Stakeholder - Extra Integer: Custom person integer| x |
+|saleStakeholder/person/personExtra/x\_person\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field that is hidden| x |
+|saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
+|saleStakeholder/person/personExtra/x\_person\_longtext|string|Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|saleStakeholder/person/personExtra/x\_person\_date|date|Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|saleStakeholder/person/personExtra/x\_person\_datetime|datetime|Stakeholder - Extra DateTime: Custom person date and time field. No default| x |
+|saleStakeholder/person/personExtra/x\_person\_time| *None* |Stakeholder - Extra time: Custom time field on person. Current time as default| x |
+|saleStakeholder/person/personExtra/x\_person\_boolean|bool|Stakeholder - Extra Boolean: Custom boolean field on person. Default checked| x |
+|saleStakeholder/person/personExtra/x\_person\_timespan|timeSpan|Stakeholder - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|saleStakeholder/person/personExtra/x\_person\_shorttext|string|Stakeholder - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|saleStakeholder/person/personExtra/x\_person\_shorttext\_list|listAny|Stakeholder - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|saleStakeholder/person/personExtra/x\_person\_user\_relation|associate|Stakeholder - Extra user relation: Custom person-user relation field| x |
+|saleStakeholder/person/personExtra/x\_person\_category\_relation|listAny|Stakeholder - Extra category relation: Custom person-category relation| x |
+|saleStakeholder/person/personExtra/x\_person\_priority\_relation|listAny|Stakeholder - Extra priority relation: Custom person-priority relation| x |
+|saleStakeholder/person/personExtra/x\_person\_request\_relation|stringorPK|Stakeholder - Extra request relation: Request relation on contact| x |
+|saleStakeholder/person/personExtra/x\_person\_appointment\_relation|stringorPK|Stakeholder - Extra appointment relation: Appointment relation on person| x |
+|saleStakeholder/person/personExtra/x\_person\_contact\_relation|stringorPK|Stakeholder - Extra company relation: Company relation on contact| x |
+|saleStakeholder/person/personExtra/y\_rental/id|int|Stakeholder - Rental - id: Displays the row's primary key (y\_rental)| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_start|date|Stakeholder - Rental - Start rental| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_end|date|Stakeholder - Rental - End| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_amount|int|Stakeholder - Rental - Amount: Number to rent. Default = 1| x |
+|saleStakeholder/person/personExtra/y\_rental/x\_contact|stringorPK|Stakeholder - Rental - Renter: Company that rents equipment| x |
+|saleStakeholder/person/personExtra/y\_rental/y\_equipment/x\_name|string|Stakeholder - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|saleStakeholder/person/personAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
+|saleStakeholder/person/personAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
+|saleStakeholder/person/personAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
+|saleStakeholder/person/personAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|saleStakeholder/person/personAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
+|saleStakeholder/person/personAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
+|saleStakeholder/person/personAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|saleStakeholder/person/personAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|saleStakeholder/person/personAssociate/associateDbId|associate|Stakeholder - ID| x |
+|saleStakeholder/person/personAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to| x |
+|saleStakeholder/person/personAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
+|saleStakeholder/person/personAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group| x |
+|saleStakeholder/person/personAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
+|saleStakeholder/person/personAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
+|saleStakeholder/person/personAssociate/role|listAny|Stakeholder - Role: Role| x |
+|saleStakeholder/person/personAssociate/assocName|associate|Stakeholder - User ID: User ID| x |
+|saleStakeholder/person/personAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
+|saleStakeholder/person/personAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
+|saleStakeholder/person/personAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
+|saleStakeholder/person/personAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|saleStakeholder/person/personAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+|saleStakeholder/person/personAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|saleStakeholder/person/personAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
+|saleStakeholder/person/personAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|saleStakeholder/person/personAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
+|saleStakeholder/person/personAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
+|saleStakeholder/person/personAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
+|saleStakeholder/person/personAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
+|saleStakeholder/person/personAssociate/userName|string|Stakeholder - User name: User name| x |
+|saleStakeholder/person/personAssociate/personEmail|string|Stakeholder - E-mail| x |
+|saleStakeholder/person/correspondingAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
+|saleStakeholder/person/correspondingAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
+|saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
+|saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|saleStakeholder/person/correspondingAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
+|saleStakeholder/person/correspondingAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
+|saleStakeholder/person/correspondingAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|saleStakeholder/person/correspondingAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|saleStakeholder/person/correspondingAssociate/associateDbId|associate|Stakeholder - ID| x |
+|saleStakeholder/person/correspondingAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to| x |
+|saleStakeholder/person/correspondingAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
+|saleStakeholder/person/correspondingAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group| x |
+|saleStakeholder/person/correspondingAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
+|saleStakeholder/person/correspondingAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
+|saleStakeholder/person/correspondingAssociate/role|listAny|Stakeholder - Role: Role| x |
+|saleStakeholder/person/correspondingAssociate/assocName|associate|Stakeholder - User ID: User ID| x |
+|saleStakeholder/person/correspondingAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
+|saleStakeholder/person/correspondingAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
+|saleStakeholder/person/correspondingAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
+|saleStakeholder/person/correspondingAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+|saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
+|saleStakeholder/person/correspondingAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|saleStakeholder/person/correspondingAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
+|saleStakeholder/person/correspondingAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
+|saleStakeholder/person/correspondingAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
+|saleStakeholder/person/correspondingAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
+|saleStakeholder/person/correspondingAssociate/userName|string|Stakeholder - User name: User name| x |
+|saleStakeholder/person/correspondingAssociate/personEmail|string|Stakeholder - E-mail| x |
+|saleStakeholder/person/isMailingRecipient|bool|Stakeholder - Is mailing recipient: isMailingRecipient| x |
 |saleStakeholder/person/hasStoreConsent|bool|Stakeholder - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |saleStakeholder/person/withdrawnStoreConsent|bool|Stakeholder - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |saleStakeholder/person/hasEmarketingConsent|bool|Stakeholder - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -766,14 +972,17 @@ Implementation of the provider for the combined selection
 |saleStakeholder/contact/category|listAny|Stakeholder - Category| x |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business| x |
 |saleStakeholder/contact/country|listAny|Stakeholder - Country: This criterion corresponds to the Country field on the Company card.| x |
+|saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID| x |
 |saleStakeholder/contact/number|string|Stakeholder - Number| x |
 |saleStakeholder/contact/code|string|Stakeholder - Code| x |
 |saleStakeholder/contact/orgnr|string|Stakeholder - VAT No.| x |
 |saleStakeholder/contact/stop|bool|Stakeholder - Stop| x |
 |saleStakeholder/contact/contactNoMail|bool|Stakeholder - No mailings (company)| x |
 |saleStakeholder/contact/updatedBy|associate|Stakeholder - Updated by: The user who last updated the data| x |
+|saleStakeholder/contact/updatedByFullName|associate|Stakeholder - Updated by - Full name: The user who last updated the data| x |
 |saleStakeholder/contact/updatedDate|date|Stakeholder - Updated: The date/time the data was last updated in UTC.| x |
 |saleStakeholder/contact/registeredBy|associate|Stakeholder - Registered by: The user who registered the data| x |
+|saleStakeholder/contact/registeredByFullName|associate|Stakeholder - Registered by - Full name: The user who registered the data| x |
 |saleStakeholder/contact/registeredDate|date|Stakeholder - Registered date: The date/time the data was registered in UTC.| x |
 |saleStakeholder/contact/contactSource|listAny|Stakeholder - Source: Source (Company)| x |
 |saleStakeholder/contact/contactDeleted|bool|Stakeholder - Deleted: Deleted| x |
@@ -877,6 +1086,22 @@ Implementation of the provider for the combined selection
 |saleStakeholder/contact/contactUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:12|listAny|Stakeholder - Udlist one: Static tooltip for udlist one| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:13|listAny|Stakeholder - Udlist two: Static tooltip for udlist two| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_integer|int|Stakeholder - Extra Integer: Custom integer field| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field - hidden| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_default\_integer|int|Stakeholder - Extra Default Integer: Custom integer field with default value 123.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_float|decimal|Stakeholder - Extra Float: Custom float field with 3 decimals| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_longtext|string|Stakeholder - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_dropdown|listAny|Stakeholder - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_date|date|Stakeholder - Extra date: Custom date field. User current as default.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_datetime|datetime|Stakeholder - Extra DateTime: Custom Date Time field. No default value. External| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_time| *None* |Stakeholder - Extra time: Custom time field.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_boolean|bool|Stakeholder - Extra boolean: Custom boolean field.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_timespan|timeSpan|Stakeholder - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_shorttext|string|Stakeholder - Extra short text: Custom short text field. Keep HTML tags.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Stakeholder - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Stakeholder - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Stakeholder - Extra Request relation: Request relation on company| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_contact|stringorPK|Stakeholder - Extra contact relation: Contact relation on company| x |
 |saleStakeholder/contact/NumberOfActivities|int|Stakeholder - Number of activities|  |
 |saleStakeholder/contact/NumberOfActivitiesInPeriod|int|Stakeholder - Number of activities in last 90 days|  |
 |saleStakeholder/contact/NumberOfNotCompletedActivities|int|Stakeholder - Number of non-completed activities|  |
@@ -898,8 +1123,8 @@ Implementation of the provider for the combined selection
 |saleStakeholder/contact/LastTicket|date|Stakeholder - Date of last request|  |
 |saleStakeholder/contact/LastCompletedTicket|date|Stakeholder - Date of last completed request|  |
 |saleStakeholder/contact/LastDoByTicket|date|Stakeholder - Date of last non-completed request|  |
-|saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer|  |
-|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company|  |
+|saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
 |saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
 |saleStakeholder/contact/saintAmountClass|listAny|Stakeholder - Amount class|  |
 |saleStakeholder/contact/saintActivityType|listAny|Stakeholder - SAINT type|  |
@@ -987,8 +1212,10 @@ Implementation of the provider for the combined selection
 |quote/version/alternative/quoteline/earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |quote/version/alternative/quoteline/earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
 |quote/version/alternative/quoteline/updatedBy|associate|Updated by: The user who last updated the data| x |
+|quote/version/alternative/quoteline/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |quote/version/alternative/quoteline/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |quote/version/alternative/quoteline/registeredBy|associate|Registered by: The user who registered the data| x |
+|quote/version/alternative/quoteline/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |quote/version/alternative/quoteline/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |quote/version/alternative/quoteline/productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 |quote/version/alternative/quoteline/productFamilyKey|listExternal|Product family: The family the product is defined in|  |
@@ -1007,11 +1234,14 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombinedV2?$select=person/email/emailId,contact/hasInfoText,saleStakeholder/person/lastName,saleStakeholder/person/birthMonth,saleStakeholder/contact/email/emailHasBounced
+GET /api/v1/archive/SaleSelectionCombinedV2?$select=person/personPager/formattedNumber,person/personUdef/SuperOffice:1,contact/hasInterests,associate/contactName,associate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

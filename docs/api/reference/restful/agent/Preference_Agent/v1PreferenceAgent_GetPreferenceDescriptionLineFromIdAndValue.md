@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
-id: v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue
+uid: v1PreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue
 ---
 
 # POST Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 
 Get a preference description line from a prefDesc_id and a prefValue
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a preference description line from a prefDesc_id and a prefValue
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PrefDescId, PrefValue
+PrefDescId, PrefValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PrefDescId | int32 |  |
 | PrefValue | string |  |
 
-## Response: object
 
-Preference description line, contains information about a single item in a preference description list.
+## Response: 
 
-Carrier object for PreferenceDescriptionLine.
-Services for the PreferenceDescriptionLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,44 +73,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 521,
-  "PrefValue": "odit"
+  "PrefDescId": 321,
+  "PrefValue": "quo"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 636,
-  "PrefDescId": 159,
-  "PrefValue": "amet",
-  "PrefShowValue": "optio",
-  "Description": "Networked bottom-line core",
+  "PrefDescLineId": 713,
+  "PrefDescId": 160,
+  "PrefValue": "ad",
+  "PrefShowValue": "consequatur",
+  "Description": "Profit-focused maximized process improvement",
   "IsBuiltin": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "target transparent schemas"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 454
     }
   }
 }

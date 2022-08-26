@@ -1,6 +1,6 @@
 ---
 title: PUT List/MrMrs/Items
-id: v1MrMrsList_PutAllMrMrs
+uid: v1MrMrsList_PutAllMrMrs
 ---
 
 # PUT List/MrMrs/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/MrMrs/Items
 ```
 
 Update the MrMrs list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the MrMrs list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated MrMrs.
+All the updated MrMrs. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated MrMrs.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Ondricka Group",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 459,
-    "Rank": 586
+    "Id": 656,
+    "Name": "Rutherford LLC",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 575,
+    "Rank": 852
   },
   {
-    "Id": 146,
-    "Name": "Ondricka Group",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 459,
-    "Rank": 586
+    "Id": 656,
+    "Name": "Rutherford LLC",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 575,
+    "Rank": 852
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Altenwerth LLC",
-    "Tooltip": "omnis",
+    "Id": 625,
+    "Name": "Gulgowski Group",
+    "Tooltip": "ad",
     "Deleted": true,
-    "UdListDefinitionId": 344,
-    "Rank": 492,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 323,
+    "Rank": 965,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 582
       }
     }
   }

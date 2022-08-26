@@ -1,6 +1,6 @@
 ---
 title: GET DashTileDefinition/default
-id: v1DashTileDefinition_DefaultDashTileDefinition
+uid: v1DashTileDefinition_DefaultDashTileDefinition
 ---
 
 # GET DashTileDefinition/default
@@ -11,7 +11,14 @@ GET /api/v1/DashTileDefinition/default
 
 Set default values into a new DashTileDefinition.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDashTileDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-Carrier object for DashTileDefinition.
-Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,11 +63,12 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/DashTileDefinition/default
@@ -71,41 +77,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 146,
-  "Name": "Thiel-Marvin",
-  "Description": "Front-line disintermediate ability",
-  "DefaultHeight": 518,
-  "DefaultWidth": 32,
+  "DashboardTileDefinitionId": 966,
+  "Name": "Schuppe-Metz",
+  "Description": "Exclusive stable moderator",
+  "DefaultHeight": 971,
+  "DefaultWidth": 72,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Buckridge-Koch",
-  "SelectionId": 960,
+  "EntityName": "Effertz, Witting and Dare",
+  "SelectionId": 663,
   "CurrencyMode": "Base",
-  "CurrencyCode": "vero",
+  "CurrencyCode": "consequatur",
   "Measure": "Average",
-  "MeasureField": "laboriosam",
-  "SortBy": "qui",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 973,
-  "MeasureByField": "iste",
-  "ProviderName": "Roberts-Lynch",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MeasureField": "culpa",
+  "SortBy": "sed",
+  "LayoutConfig": "maxime",
+  "SecondarySelectionId": 583,
+  "MeasureByField": "reprehenderit",
+  "Usage": "Dashboard",
+  "ProviderName": "Mante-Prosacco",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 508
     }
   }
 }

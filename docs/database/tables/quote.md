@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Quote"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,7 @@ Quote root level, at most one per Sale, always connected to one Sale
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![Quote table relationship diagram](./media/Quote.png)
 
 [!include[details](./includes/quote.md)]
@@ -60,6 +61,7 @@ Quote root level, at most one per Sale, always connected to one Sale
 |[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -68,3 +70,4 @@ Quote root level, at most one per Sale, always connected to one Sale
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

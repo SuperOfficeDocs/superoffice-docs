@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTicketPriorities
-id: v1ListAgent_GetTicketPriorities
+uid: v1ListAgent_GetTicketPriorities
 ---
 
 # POST Agents/List/GetTicketPriorities
@@ -8,6 +8,14 @@ id: v1ListAgent_GetTicketPriorities
 ```http
 POST /api/v1/Agents/List/GetTicketPriorities
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/List/GetTicketPriorities
 ```http
 POST /api/v1/Agents/List/GetTicketPriorities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -32,7 +41,10 @@ POST /api/v1/Agents/List/GetTicketPriorities?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -48,7 +60,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTicketPriorities
@@ -57,46 +69,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Value": "quibusdam",
-    "Tooltip": "quos",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 221,
+    "Value": "maxime",
+    "Tooltip": "natus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 650
       }
     }
   },
   {
-    "Id": 255,
-    "Value": "quibusdam",
-    "Tooltip": "quos",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 221,
+    "Value": "maxime",
+    "Tooltip": "natus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 650
       }
     }
   }

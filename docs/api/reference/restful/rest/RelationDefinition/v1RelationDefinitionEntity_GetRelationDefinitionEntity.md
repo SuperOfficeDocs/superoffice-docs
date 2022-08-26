@@ -1,6 +1,6 @@
 ---
 title: GET RelationDefinition/{id}
-id: v1RelationDefinitionEntity_GetRelationDefinitionEntity
+uid: v1RelationDefinitionEntity_GetRelationDefinitionEntity
 ---
 
 # GET RelationDefinition/{id}
@@ -11,11 +11,17 @@ GET /api/v1/RelationDefinition/{id}
 
 Gets a RelationDefinitionEntity object.
 
+
 Calls the List agent service GetRelationDefinitionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the RelationDefinitionEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetRelationDefinitionEntity.
 ```http
 GET /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A relation definition entity with source and destination tables
+## Response: 
 
-RelationDefinitionEntity entity with API _Links added.
+RelationDefinitionEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | RelationDefinitionEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +73,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/RelationDefinition/{id}
@@ -76,36 +82,32 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 361,
-  "Name": "Quitzon, O'Reilly and McDermott",
-  "Tooltip": "iste",
-  "PassiveText": "quibusdam",
+  "ReldefId": 687,
+  "Name": "Jacobson-Tromp",
+  "Tooltip": "doloribus",
+  "PassiveText": "est",
   "Deleted": false,
-  "Rank": 892,
+  "Rank": 540,
   "Source": "Both",
   "Destination": "Both",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 187
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

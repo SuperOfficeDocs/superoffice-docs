@@ -1,6 +1,6 @@
 ---
 title: POST Webhook
-id: v1Webhook_PostWebhook
+uid: v1Webhook_PostWebhook
 ---
 
 # POST Webhook
@@ -11,9 +11,16 @@ POST /api/v1/Webhook
 
 Creates a new Webhook
 
+
 Calls the Webhook agent service SaveWebhook.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Calls the Webhook agent service SaveWebhook.
 ```http
 POST /api/v1/Webhook?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Webhook?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The Webhook to be saved.
+The Webhook to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,17 +67,16 @@ The Webhook to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Response: object
 
-Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+## Response: 
 
-Webhook entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,143 +95,71 @@ Response body: object
 | UpdatedAssociate |  | The user that last updated the webhook. |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 236,
-  "Name": "Sawayn LLC",
+  "WebhookId": 237,
+  "Name": "Hintz-Bogan",
   "Events": [
-    "optio",
-    "et"
+    "id",
+    "fugiat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quo",
+  "Secret": "enim",
   "State": "Active",
-  "Type": "aut",
+  "Type": "voluptates",
   "Headers": {
-    "Headers1": "saepe",
-    "Headers2": "numquam"
+    "Headers1": "et",
+    "Headers2": "officia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1999-05-19T18:25:51.5591203+02:00",
-  "RegisteredAssociate": {
-    "AssociateId": 518,
-    "Name": "Gislason-Lemke",
-    "PersonId": 500,
-    "Rank": 237,
-    "Tooltip": "ratione",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 904,
-    "FullName": "Miss Darren Walsh",
-    "FormalName": "O'Connell LLC",
-    "Deleted": false,
-    "EjUserId": 747,
-    "UserName": "Koch, Rosenbaum and Stark"
-  },
-  "Updated": "2002-05-19T18:25:51.5591203+02:00",
-  "UpdatedAssociate": {
-    "AssociateId": 893,
-    "Name": "Wyman Group",
-    "PersonId": 304,
-    "Rank": 490,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 347,
-    "FullName": "Elliot Jenkins",
-    "FormalName": "Runte, Little and Mayert",
-    "Deleted": true,
-    "EjUserId": 271,
-    "UserName": "Roob Group"
-  }
+  "Registered": "2005-01-28T11:10:53.8701838+01:00",
+  "RegisteredAssociate": null,
+  "Updated": "2002-09-26T11:10:53.8701838+02:00",
+  "UpdatedAssociate": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 173,
-  "Name": "Mann Group",
+  "WebhookId": 422,
+  "Name": "Prohaska, Hilpert and Rolfson",
   "Events": [
-    "consectetur",
-    "minus"
+    "dolor",
+    "doloribus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
+  "Secret": "qui",
   "State": "Active",
-  "Type": "nesciunt",
+  "Type": "culpa",
   "Headers": {
-    "Headers1": "voluptate",
-    "Headers2": "hic"
+    "Headers1": "magni",
+    "Headers2": "voluptatum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1995-12-06T18:25:51.5611214+01:00",
-  "RegisteredAssociate": {
-    "AssociateId": 27,
-    "Name": "Kulas, Kuhic and Greenfelder",
-    "PersonId": 879,
-    "Rank": 587,
-    "Tooltip": "neque",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 373,
-    "FullName": "Juanita Rempel",
-    "FormalName": "Yost, VonRueden and Hegmann",
-    "Deleted": false,
-    "EjUserId": 813,
-    "UserName": "Friesen, Rodriguez and Hickle",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 87
-      }
-    }
-  },
-  "Updated": "2018-11-20T18:25:51.5621206+01:00",
-  "UpdatedAssociate": {
-    "AssociateId": 922,
-    "Name": "Feil LLC",
-    "PersonId": 826,
-    "Rank": 668,
-    "Tooltip": "pariatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 912,
-    "FullName": "Emmalee Stoltenberg",
-    "FormalName": "Brown LLC",
-    "Deleted": true,
-    "EjUserId": 379,
-    "UserName": "Lynch Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 141
-      }
-    }
-  },
+  "Registered": "2009-05-24T11:10:53.8711823+02:00",
+  "RegisteredAssociate": null,
+  "Updated": "1997-03-02T11:10:53.872184+01:00",
+  "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

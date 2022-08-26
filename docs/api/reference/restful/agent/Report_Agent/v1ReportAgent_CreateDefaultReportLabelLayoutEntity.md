@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Report/CreateDefaultReportLabelLayoutEntity
-id: v1ReportAgent_CreateDefaultReportLabelLayoutEntity
+uid: v1ReportAgent_CreateDefaultReportLabelLayoutEntity
 ---
 
 # POST Agents/Report/CreateDefaultReportLabelLayoutEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 
 Set default values into a new ReportLabelLayoutEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ReportLabelLayoutEntity.
-Services for the ReportLabelLayoutEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
@@ -63,35 +70,31 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 527,
-  "Name": "Stracke LLC",
-  "Description": "Organized tangible website",
+  "ReportLabelLayoutId": 453,
+  "Name": "Wilderman Inc and Sons",
+  "Description": "Operative optimizing contingency",
   "Orientation": "Landscape",
-  "PaperWidth": 7,
-  "PaperHeight": 398,
-  "LeftMargin": 644,
-  "RightMargin": 28,
-  "TopMargin": 724,
-  "BottomMargin": 784,
-  "CountColumns": 34,
-  "CountRows": 529,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PaperWidth": 928,
+  "PaperHeight": 806,
+  "LeftMargin": 482,
+  "RightMargin": 77,
+  "TopMargin": 910,
+  "BottomMargin": 927,
+  "CountColumns": 958,
+  "CountRows": 510,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 968
     }
   }
 }

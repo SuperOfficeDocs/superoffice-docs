@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
-id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList
+uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 
 Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return information about all the user defined fields on a particular owner type 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType
+OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -90,7 +100,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
@@ -104,58 +114,54 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 65,
-    "ColumnId": 601,
-    "FieldDefault": "molestias",
-    "FieldHeight": 16,
-    "FieldLabel": "autem",
-    "FieldLeft": 266,
-    "FieldTop": 990,
+    "UDefFieldId": 244,
+    "ColumnId": 446,
+    "FieldDefault": "corrupti",
+    "FieldHeight": 241,
+    "FieldLabel": "animi",
+    "FieldLeft": 627,
+    "FieldTop": 651,
     "FieldType": "Checkbox",
-    "FieldWidth": 431,
-    "FormatMask": "nemo",
+    "FieldWidth": 910,
+    "FormatMask": "iste",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 465,
-    "LabelLeft": 696,
-    "LabelTop": 796,
-    "LabelWidth": 854,
-    "LastVersionId": 963,
-    "ListTableId": 295,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 984,
+    "LabelLeft": 591,
+    "LabelTop": 858,
+    "LabelWidth": 352,
+    "LastVersionId": 459,
+    "ListTableId": 867,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 414,
-    "ProgId": "iure",
-    "IsReadOnly": true,
-    "ShortLabel": "qui",
-    "TabOrder": 841,
-    "TextLength": 382,
-    "Tooltip": "error",
-    "UdefIdentity": 993,
-    "UDListDefinitionId": 377,
+    "Page1LineNo": 249,
+    "ProgId": "sit",
+    "IsReadOnly": false,
+    "ShortLabel": "voluptas",
+    "TabOrder": 432,
+    "TextLength": 687,
+    "Tooltip": "minima",
+    "UdefIdentity": 88,
+    "UDListDefinitionId": 88,
     "Justification": "Center",
-    "Version": 335,
-    "TemplateVariableName": "Hansen Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Larkin-Luettgen",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 611,
+    "TemplateVariableName": "Bashirian Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "O'Kon-Fahey",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 850
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

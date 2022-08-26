@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/GetCurrent
-id: v1ViewStateAgent_GetCurrent
+uid: v1ViewStateAgent_GetCurrent
 ---
 
 # POST Agents/ViewState/GetCurrent
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/GetCurrent
 
 Get the current (most recent) value of the history list.
 
+
 This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This is the item with rank = 1. If no item exists a default value is returned. T
 ```http
 POST /api/v1/Agents/ViewState/GetCurrent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/ViewState/GetCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryName
+HistoryName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 
-## Response: object
 
-The usage history of the currently logged in user is represented as History objects.
+## Response: 
 
-Carrier object for History.
-Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +75,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/GetCurrent
@@ -80,34 +85,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "McClure-Hintz"
+  "HistoryName": "Nienow-Boyle"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 772,
-  "Id": 451,
-  "HistoryName": "Boehm-Waters",
-  "HistoryId": 873,
-  "AssociateId": 344,
-  "Name": "Williamson LLC",
-  "ItemInfo": "laborum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 816,
+  "Id": 144,
+  "HistoryName": "Yost-Ryan",
+  "HistoryId": 670,
+  "AssociateId": 121,
+  "Name": "Krajcik Group",
+  "ItemInfo": "velit",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 749
     }
   }
 }

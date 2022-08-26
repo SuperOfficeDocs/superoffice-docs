@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveProduct
-id: v1QuoteAgent_SaveProduct
+uid: v1QuoteAgent_SaveProduct
 ---
 
 # POST Agents/Quote/SaveProduct
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Quote/SaveProduct
 ```
 
 Updates the existing Product or creates a new Product if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing Product or creates a new Product if the id parameter is emp
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Product to be saved.
+The Product to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,7 @@ The Product to be saved.
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -66,18 +73,16 @@ The Product to be saved.
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
 
-## Response: object
 
-Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
+## Response: 
 
-Carrier object for Product.
-Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,7 +102,7 @@ Response body: object
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -118,148 +123,138 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 922,
-  "ERPProductKey": "repellendus",
-  "ERPPriceListKey": "atque",
-  "Name": "Zemlak, Ullrich and Boyle",
-  "Description": "Fundamental encompassing complexity",
-  "Code": "alias",
-  "PriceUnit": "necessitatibus",
-  "QuantityUnit": "sint",
+  "ProductId": 546,
+  "ERPProductKey": "nobis",
+  "ERPPriceListKey": "eaque",
+  "Name": "Crist-O'Keefe",
+  "Description": "Configurable logistical projection",
+  "Code": "sunt",
+  "PriceUnit": "ducimus",
+  "QuantityUnit": "dolores",
   "IsSubscription": false,
-  "SubscriptionUnit": "eligendi",
-  "DefaultSubscriptionQuantity": 21687.28,
-  "ItemNumber": "711569",
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 15149.756,
+  "ItemNumber": "967227",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "at",
-  "ProductTypeKey": "repellat",
-  "VAT": 4603.846,
-  "VATInfo": "at",
-  "UnitCost": 20816.028,
-  "UnitMinimumPrice": 10849.908,
-  "UnitListPrice": 21076.149999999998,
+  "ProductFamilyKey": "reiciendis",
+  "ProductTypeKey": "magni",
+  "VAT": 21301.798,
+  "VATInfo": "consequatur",
+  "UnitCost": 12520.33,
+  "UnitMinimumPrice": 8919.364,
+  "UnitListPrice": 20449.35,
   "InAssortment": false,
-  "Supplier": "tempora",
-  "SupplierCode": "sit",
-  "Rights": "cumque",
-  "Rule": "eos",
+  "Supplier": "dolor",
+  "SupplierCode": "porro",
+  "Rights": "id",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Schaden-Zboncak",
-      "Value": "asperiores",
+      "Name": "Wunsch-Orn",
+      "Value": "provident",
       "Type": "Image"
     },
     {
-      "Name": "Schaden-Zboncak",
-      "Value": "asperiores",
+      "Name": "Wunsch-Orn",
+      "Value": "provident",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "aliquid",
-  "ExtraField1": "alias",
-  "ExtraField2": "repellat",
-  "ExtraField3": "doloribus",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "voluptas",
-  "InStock": 31089.28
+  "RawExtraInfo": "voluptatem",
+  "ExtraField1": "recusandae",
+  "ExtraField2": "quia",
+  "ExtraField3": "mollitia",
+  "ExtraField4": "ad",
+  "ExtraField5": "consequuntur",
+  "InStock": 12109.776
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 69,
-  "ERPProductKey": "ad",
-  "ERPPriceListKey": "eligendi",
-  "Name": "Bernier Inc and Sons",
-  "Description": "Programmable analyzing process improvement",
-  "Code": "nesciunt",
-  "PriceUnit": "aliquid",
-  "QuantityUnit": "itaque",
+  "ProductId": 431,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "in",
+  "Name": "Roob, Grant and Beatty",
+  "Description": "Reactive user-facing policy",
+  "Code": "et",
+  "PriceUnit": "magni",
+  "QuantityUnit": "cupiditate",
   "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 2980.4339999999997,
-  "ItemNumber": "853723",
+  "SubscriptionUnit": "eos",
+  "DefaultSubscriptionQuantity": 17873.202,
+  "ItemNumber": "1323892",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illo",
-  "ProductTypeKey": "aliquid",
-  "VAT": 26215.91,
-  "VATInfo": "dolorem",
-  "UnitCost": 23749.451999999997,
-  "UnitMinimumPrice": 10119.686,
-  "UnitListPrice": 16980.012,
+  "ProductFamilyKey": "ab",
+  "ProductTypeKey": "et",
+  "VAT": 12924.616,
+  "VATInfo": "quaerat",
+  "UnitCost": 12680.163999999999,
+  "UnitMinimumPrice": 29910.896,
+  "UnitListPrice": 2463.324,
   "InAssortment": true,
-  "Supplier": "quis",
-  "SupplierCode": "modi",
-  "Rights": "ut",
-  "Rule": "et",
+  "Supplier": "nisi",
+  "SupplierCode": "aspernatur",
+  "Rights": "qui",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Crist, Connelly and Weber",
-      "Value": "sit",
+      "Name": "Mante, Baumbach and Schulist",
+      "Value": "id",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     },
     {
-      "Name": "Crist, Connelly and Weber",
-      "Value": "sit",
+      "Name": "Mante, Baumbach and Schulist",
+      "Value": "id",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     }
   ],
-  "RawExtraInfo": "odit",
-  "ExtraField1": "et",
-  "ExtraField2": "quos",
-  "ExtraField3": "quibusdam",
-  "ExtraField4": "est",
-  "ExtraField5": "enim",
-  "InStock": 13742.59,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RawExtraInfo": "et",
+  "ExtraField1": "dolorum",
+  "ExtraField2": "molestias",
+  "ExtraField3": "soluta",
+  "ExtraField4": "accusantium",
+  "ExtraField5": "magni",
+  "InStock": 5456.294,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/{applicationName}
-id: v1ForeignAppEntity_GetAppByName
+uid: v1ForeignAppEntity_GetAppByName
 ---
 
 # GET ForeignApp/{applicationName}
@@ -11,9 +11,16 @@ GET /api/v1/ForeignApp/{applicationName}
 
 Gets the ForeignApp with the given name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,16 +35,16 @@ Gets the ForeignApp with the given name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignAppEntity.
-Services for the ForeignAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,111 +58,56 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 29 Mar 2013 18:25:50 G3T
+Last-Modified: Tue, 15 Apr 2014 11:10:52 G4T
 
 {
-  "ForeignAppId": 748,
-  "Name": "Kuhn, Hahn and Wolff",
-  "CreatedDate": "2007-10-15T18:25:50.5675972+02:00",
-  "UpdatedDate": "2013-03-29T18:25:50.5675972+01:00",
-  "CreatedBy": {
-    "AssociateId": 317,
-    "Name": "Roberts Inc and Sons",
-    "PersonId": 365,
-    "Rank": 494,
-    "Tooltip": "ut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 244,
-    "FullName": "Bennie Conroy",
-    "FormalName": "Streich-Kris",
-    "Deleted": false,
-    "EjUserId": 14,
-    "UserName": "Parker LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "whiteboard value-added supply-chains"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 72
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 885,
-    "Name": "Cruickshank Group",
-    "PersonId": 685,
-    "Rank": 40,
-    "Tooltip": "dolores",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 299,
-    "FullName": "Porter Muller",
-    "FormalName": "Beatty-Rosenbaum",
-    "Deleted": false,
-    "EjUserId": 114,
-    "UserName": "Schowalter, Thompson and Harber",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 834
-      }
-    }
-  },
+  "ForeignAppId": 866,
+  "Name": "Price LLC",
+  "CreatedDate": "2016-05-29T11:10:52.8991789+02:00",
+  "UpdatedDate": "2014-04-15T11:10:52.8991789+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 833,
-      "Name": "Strosin, Bernhard and Beahan",
-      "CreatedDate": "1997-12-11T18:25:50.5685967+01:00",
-      "UpdatedDate": "2003-10-16T18:25:50.5685967+02:00",
-      "AssociateFullName": "Jamar Bartell",
-      "CreatedBy": "eaque",
-      "UpdatedBy": "odit",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 83,
-      "TableRight": {},
+      "ForeignDeviceId": 882,
+      "Name": "Cruickshank, Heller and Pouros",
+      "CreatedDate": "2022-06-09T11:10:52.9011815+02:00",
+      "UpdatedDate": "1996-06-22T11:10:52.9011815+02:00",
+      "AssociateFullName": "Miss Anjali Howell",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "adipisci",
+      "DeviceIdentifier": "accusantium",
+      "ForeignAppId": 60,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 902
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

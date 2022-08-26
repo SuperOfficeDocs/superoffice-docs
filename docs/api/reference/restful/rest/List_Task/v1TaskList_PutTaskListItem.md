@@ -1,6 +1,6 @@
 ---
 title: PUT List/Task/Items/{id}
-id: v1TaskList_PutTaskListItem
+uid: v1TaskList_PutTaskListItem
 ---
 
 # PUT List/Task/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/Task/Items/{id}
 
 Updates the existing TaskListItem
 
+
 Calls the Appointment agent service SaveTaskListItem.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TaskListItem to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the Appointment agent service SaveTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of TaskListItem to be saved.
+The details of TaskListItem to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,17 +58,17 @@ The details of TaskListItem to be saved.
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-## Response: object
 
-Carrier object for TaskListItem.
-Services for the TaskListItem Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,62 +88,58 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 456,
-  "Value": "velit",
+  "TaskListItemId": 138,
+  "Value": "id",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "IntentId": 403,
-  "Rank": 692,
-  "IsDefaultAlldayEvent": true,
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "IntentId": 497,
+  "Rank": 447,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 149,
-  "Value": "consequuntur",
+  "TaskListItemId": 285,
+  "Value": "error",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "provident",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "IntentId": 922,
-  "Rank": 92,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IntentId": 73,
+  "Rank": 862,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

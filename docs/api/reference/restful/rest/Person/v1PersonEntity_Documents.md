@@ -1,6 +1,6 @@
 ---
 title: GET Person/{id}/Documents
-id: v1PersonEntity_Documents
+uid: v1PersonEntity_Documents
 ---
 
 # GET Person/{id}/Documents
@@ -11,6 +11,7 @@ GET /api/v1/Person/{id}/Documents
 
 OData list of Documents under a specific PersonEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Person/1234/Documents?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Person/1234/Documents?$top=1000
 * Person/1234/Documents?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "Document" archive provider.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Documents?$select=name,department,category/id
 GET /api/v1/Person/{id}/Documents?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Documents?$orderBy=name asc
-GET /api/v1/Person/{id}/Documents?$entities=ducimus
-GET /api/v1/Person/{id}/Documents?$top=771
-GET /api/v1/Person/{id}/Documents?$skip=437
+GET /api/v1/Person/{id}/Documents?$entities=recusandae
+GET /api/v1/Person/{id}/Documents?$top=888
+GET /api/v1/Person/{id}/Documents?$skip=974
 GET /api/v1/Person/{id}/Documents?$mode=Full
 GET /api/v1/Person/{id}/Documents?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Documents?$context=suscipit
+GET /api/v1/Person/{id}/Documents?$context=quibusdam
 GET /api/v1/Person/{id}/Documents?$format=JSON
 GET /api/v1/Person/{id}/Documents?$jsonSafe=True
 GET /api/v1/Person/{id}/Documents?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,16 +99,17 @@ GET /api/v1/Person/{id}/Documents?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +117,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/{id}/Documents
@@ -114,27 +126,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nam",
+  "odata.nextLink": "sunt",
   "value": [
     {
-      "PrimaryKey": 9293,
-      "EntityName": "sale",
-      "saleId": 9293,
-      "contactId": 8384,
-      "name": "Batz, Konopelski and Jones"
+      "PrimaryKey": 9538,
+      "EntityName": "person",
+      "personId": 9538,
+      "fullName": "Clement Glover"
     },
     {
-      "PrimaryKey": 6385,
-      "EntityName": "sale",
-      "saleId": 6385,
-      "contactId": 8510,
-      "name": "Keeling, Lockman and Nolan"
+      "PrimaryKey": 730,
+      "EntityName": "person",
+      "personId": 730,
+      "fullName": "Gay Howe DDS"
     }
   ]
 }

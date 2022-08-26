@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IRelationAgent.CreateDefa
 Loading default values into a new ContactRelationEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New ContactRelationEntity with default values
+
 
 [WSDL file for Services85/Relation](../Services85-Relation.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultContactRelationEntity Response
 
 ```xml
@@ -68,8 +71,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Relation:Comment xsi:type="xsd:string"></Relation:Comment>
     <Relation:RelationDefinitionId xsi:type="xsd:int">0</Relation:RelationDefinitionId>
     <Relation:Reversed xsi:type="xsd:short">0</Relation:Reversed>
-    <Relation:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:40Z</Relation:UpdatedDate>
-    <Relation:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:40Z</Relation:CreatedDate>
+    <Relation:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:53:39Z</Relation:UpdatedDate>
+    <Relation:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:53:39Z</Relation:CreatedDate>
     <Relation:CreatedBy xsi:type="Relation:Associate">
      <Relation:AssociateId xsi:type="xsd:int">0</Relation:AssociateId>
      <Relation:Name xsi:type="xsd:string"></Relation:Name>
@@ -108,3 +111,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

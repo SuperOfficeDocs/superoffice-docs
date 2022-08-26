@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetCSAuthUrl
-id: v1ConfigurationAgent_GetCSAuthUrl
+uid: v1ConfigurationAgent_GetCSAuthUrl
 ---
 
 # POST Agents/Configuration/GetCSAuthUrl
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetCSAuthUrl
 
 Will generate an url to the emarketing module
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Will generate an url to the emarketing module
 ```http
 POST /api/v1/Agents/Configuration/GetCSAuthUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Configuration/GetCSAuthUrl?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Language, ProgramName, Action, ExtraParameters
+Language, ProgramName, Action, ExtraParameters 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,10 @@ Language, ProgramName, Action, ExtraParameters
 | Action | string |  |
 | ExtraParameters | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,7 +64,8 @@ Language, ProgramName, Action, ExtraParameters
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
@@ -64,12 +75,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "a",
-  "ProgramName": "Turcotte, Goodwin and Gusikowski",
-  "Action": "necessitatibus",
-  "ExtraParameters": "vitae"
+  "Language": "sit",
+  "ProgramName": "Robel-Kirlin",
+  "Action": "sit",
+  "ExtraParameters": "ut"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/ValidateLicenseInfo
-id: v1LicenseAgent_ValidateLicenseInfo
+uid: v1LicenseAgent_ValidateLicenseInfo
 ---
 
 # POST Agents/License/ValidateLicenseInfo
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/ValidateLicenseInfo
 
 Validate that a license is consistant.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Validate that a license is consistant.
 ```http
 POST /api/v1/Agents/License/ValidateLicenseInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/License/ValidateLicenseInfo?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LicenseInfo
+LicenseInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LicenseInfo |  |  |
 
-## Response: object
 
-Carrier object for LicenseResult.
-Services for the LicenseResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ILicenseAgent">License Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +68,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/ValidateLicenseInfo
@@ -71,39 +78,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LicenseInfo": {
-    "Reason": "",
-    "CanBeActivated": true,
-    "New": {},
-    "Current": {},
-    "ExtendedModuleLicenses": [
-      {},
-      {}
-    ],
-    "AccumulatedNextCheckDate": "1997-01-24T18:28:49.2361225+01:00"
-  }
+  "LicenseInfo": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
-  "Reason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Succeeded": true,
+  "Reason": "repurpose clicks-and-mortar paradigms",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 256
     }
   }
 }

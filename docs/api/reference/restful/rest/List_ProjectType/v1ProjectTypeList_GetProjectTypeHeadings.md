@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectType/Headings
-id: v1ProjectTypeList_GetProjectTypeHeadings
+uid: v1ProjectTypeList_GetProjectTypeHeadings
 ---
 
 # GET List/ProjectType/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/ProjectType/Headings
 
 Gets headings for the ProjectType list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,7 +55,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectType/Headings
@@ -54,6 +64,8 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
@@ -61,23 +73,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 825,
-    "Name": "Emmerich LLC",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "Rank": 7,
-    "UdListDefinitionId": 46,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Pouros Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 911,
+    "UdListDefinitionId": 647,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldLength": 647
       }
     }
   }

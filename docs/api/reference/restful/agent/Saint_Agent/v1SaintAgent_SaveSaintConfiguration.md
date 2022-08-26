@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/SaveSaintConfiguration
-id: v1SaintAgent_SaveSaintConfiguration
+uid: v1SaintAgent_SaveSaintConfiguration
 ---
 
 # POST Agents/Saint/SaveSaintConfiguration
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Saint/SaveSaintConfiguration
 ```
 
 Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SaintConfiguration or creates a new SaintConfiguration if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaintConfiguration to be saved.
+The SaintConfiguration to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The SaintConfiguration to be saved.
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
 
-## Response: object
 
-Definition of the three perionds for status monitors and some other settings per saint entity
+## Response: 
 
-Carrier object for SaintConfiguration.
-Services for the SaintConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,52 +71,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 662,
+  "OwnerTable": 715,
   "Enabled": false,
-  "Period1": 624,
-  "Period2": 535,
-  "Period3": 63,
-  "GenerationStart": "2021-05-25T18:28:50.0376998+02:00",
-  "GenerationEnd": "1994-11-10T18:28:50.0376998+01:00",
-  "RowsGenerated": 389
+  "Period1": 602,
+  "Period2": 177,
+  "Period3": 500,
+  "GenerationStart": "2017-09-26T11:10:27.7714921+02:00",
+  "GenerationEnd": "2009-09-20T11:10:27.7714921+02:00",
+  "RowsGenerated": 356
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 203,
+  "OwnerTable": 898,
   "Enabled": true,
-  "Period1": 209,
-  "Period2": 194,
-  "Period3": 39,
-  "GenerationStart": "1997-01-08T18:28:50.0376998+01:00",
-  "GenerationEnd": "2012-08-09T18:28:50.0376998+02:00",
-  "RowsGenerated": 615,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Period1": 614,
+  "Period2": 457,
+  "Period3": 18,
+  "GenerationStart": "1998-05-07T11:10:27.7714921+02:00",
+  "GenerationEnd": "2003-07-23T11:10:27.7714921+02:00",
+  "RowsGenerated": 388,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "recontextualize intuitive infomediaries"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 936
     }
   }
 }

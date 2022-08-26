@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/SaveRestrictionGroups
-id: v1FindAgent_SaveRestrictionGroups
+uid: v1FindAgent_SaveRestrictionGroups
 ---
 
 # POST Agents/Find/SaveRestrictionGroups
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups
 
 Save and rerank an array of restriction groups, returning the possibly modified array.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save and rerank an array of restriction groups, returning the possibly modified 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, RestrictionGroups, Context
+StorageType, ProviderName, StorageKey, RestrictionGroups, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ StorageType, ProviderName, StorageKey, RestrictionGroups, Context
 | RestrictionGroups | array |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/SaveRestrictionGroups
@@ -72,32 +82,34 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "blanditiis",
-  "ProviderName": "Jones-Erdman",
-  "StorageKey": "voluptatem",
+  "StorageType": "vero",
+  "ProviderName": "Murray-Jacobson",
+  "StorageKey": "error",
   "RestrictionGroups": [
     {
-      "Name": "Adams-Willms",
-      "Description": "Fully-configurable discrete ability",
-      "Rank": 31,
+      "Name": "McClure Inc and Sons",
+      "Description": "Extended human-resource process improvement",
+      "Rank": 582,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Adams-Willms",
-      "Description": "Fully-configurable discrete ability",
-      "Rank": 31,
+      "Name": "McClure Inc and Sons",
+      "Description": "Extended human-resource process improvement",
+      "Rank": 582,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "ut"
+  "Context": "sint"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -105,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Johnson, Hahn and Koepp",
-    "Description": "Upgradable methodical Graphical User Interface",
-    "Rank": 444,
+    "Name": "Waters-Gerlach",
+    "Description": "Focused upward-trending encoding",
+    "Rank": 716,
     "Restrictions": [
       {
-        "Name": "Roberts Group",
-        "Operator": "ex",
+        "Name": "Corwin Group",
+        "Operator": "aut",
         "Values": [
-          "nisi",
-          "perferendis"
+          "laborum",
+          "et"
         ],
         "DisplayValues": [
-          "eveniet",
-          "quas"
+          "nulla",
+          "voluptatibus"
         ],
-        "ColumnInfo": {},
-        "IsActive": true,
+        "ColumnInfo": null,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 93,
+        "InterParenthesis": 760,
         "InterOperator": "And",
-        "UniqueHash": 375
+        "UniqueHash": 443
       }
     ]
   },
   {
-    "Name": "Johnson, Hahn and Koepp",
-    "Description": "Upgradable methodical Graphical User Interface",
-    "Rank": 444,
+    "Name": "Waters-Gerlach",
+    "Description": "Focused upward-trending encoding",
+    "Rank": 716,
     "Restrictions": [
       {
-        "Name": "Roberts Group",
-        "Operator": "ex",
+        "Name": "Corwin Group",
+        "Operator": "aut",
         "Values": [
-          "nisi",
-          "perferendis"
+          "laborum",
+          "et"
         ],
         "DisplayValues": [
-          "eveniet",
-          "quas"
+          "nulla",
+          "voluptatibus"
         ],
-        "ColumnInfo": {},
-        "IsActive": true,
+        "ColumnInfo": null,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 93,
+        "InterParenthesis": 760,
         "InterOperator": "And",
-        "UniqueHash": 375
+        "UniqueHash": 443
       }
     ]
   }

@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductType/Headings
-id: v1ProductTypeList_PutProductTypeHeadings
+uid: v1ProductTypeList_PutProductTypeHeadings
 ---
 
 # PUT List/ProductType/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/ProductType/Headings
 
 Saves headings for the ProductType list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 582,
-    "Name": "Connelly-Huels",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 976,
-    "UdListDefinitionId": 541
+    "HeadingId": 22,
+    "Name": "Goldner-Kuhlman",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 720,
+    "UdListDefinitionId": 170
   },
   {
-    "HeadingId": 582,
-    "Name": "Connelly-Huels",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 976,
-    "UdListDefinitionId": 541
+    "HeadingId": 22,
+    "Name": "Goldner-Kuhlman",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 720,
+    "UdListDefinitionId": 170
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 263,
-    "Name": "Howe-Howe",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 458,
-    "UdListDefinitionId": 889,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 418,
+    "Name": "Kirlin Inc and Sons",
+    "Tooltip": "deserunt",
+    "Deleted": true,
+    "Rank": 155,
+    "UdListDefinitionId": 802,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 494
       }
     }
   }

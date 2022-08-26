@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetSelectionForFind
-id: v1SelectionAgent_GetSelectionForFind
+uid: v1SelectionAgent_GetSelectionForFind
 ---
 
 # POST Agents/Selection/GetSelectionForFind
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/GetSelectionForFind
 
 Obtain a selection for the given entity, for the current user, of type WorkingSetForFind.
 
+
 Optionally populate criteria from the TypicalSearches system
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Optionally populate criteria from the TypicalSearches system
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/Selection/GetSelectionForFind?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName, TypicalSearchId
+EntityName, TypicalSearchId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 | TypicalSearchId | int32 |  |
 
-## Response: object
 
-Provider name and selection id for a Find temporary selection
+## Response: 
 
-Carrier object for SelectionForFind.
-Services for the SelectionForFind Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,44 +75,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Williamson, D'Amore and Gulgowski",
-  "TypicalSearchId": 484
+  "EntityName": "Medhurst-Hirthe",
+  "TypicalSearchId": 482
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Moen, Lindgren and Williamson",
-  "SelectionId": 145,
-  "CanSaveAsSelection": true,
-  "MainHeading": "sed",
-  "FilterScreenHeading": "molestias",
-  "SelectionEntityHeading": "ratione",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProviderName": "Bartoletti-McLaughlin",
+  "SelectionId": 142,
+  "CanSaveAsSelection": false,
+  "MainHeading": "est",
+  "FilterScreenHeading": "qui",
+  "SelectionEntityHeading": "dignissimos",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 585
     }
   }
 }

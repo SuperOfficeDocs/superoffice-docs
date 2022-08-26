@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetSaleTypeList
-id: v1ListAgent_GetSaleTypeList
+uid: v1ListAgent_GetSaleTypeList
 ---
 
 # POST Agents/List/GetSaleTypeList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSaleTypeList
 
 Gets an array of SaleType objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of SaleType objects.
 ```http
 POST /api/v1/Agents/List/GetSaleTypeList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetSaleTypeList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleTypeIds
+## Request Body: saleTypeIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetSaleTypeList
@@ -64,46 +75,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Value": "blanditiis",
-    "Tooltip": "ipsa",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 227,
+    "Value": "dicta",
+    "Tooltip": "saepe",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 758
+        "FieldLength": 729
       }
     }
   },
   {
-    "Id": 807,
-    "Value": "blanditiis",
-    "Tooltip": "ipsa",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 227,
+    "Value": "dicta",
+    "Tooltip": "saepe",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 758
+        "FieldLength": 729
       }
     }
   }

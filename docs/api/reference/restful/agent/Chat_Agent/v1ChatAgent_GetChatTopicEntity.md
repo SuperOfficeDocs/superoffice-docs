@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/GetChatTopicEntity
-id: v1ChatAgent_GetChatTopicEntity
+uid: v1ChatAgent_GetChatTopicEntity
 ---
 
 # POST Agents/Chat/GetChatTopicEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity
 
 Gets a ChatTopicEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=351
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=247
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Chat topics define who is assigned, when the channel is open for business, and look of the chat widget.
+## Response: 
 
-Carrier object for ChatTopicEntity.
-Services for the ChatTopicEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,171 +85,64 @@ Response body: object
 | UseQueueOfflineForm | bool | Use offline form capability from chat queue |
 | OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
+| WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
+| WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 475,
-  "Name": "Corwin-Sporer",
-  "Description": "Managed grid-enabled installation",
-  "WelcomeMessage": "earum",
-  "Language": {
-    "Id": 657,
-    "Value": "repudiandae",
-    "Tooltip": "quas",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "facilitate visionary paradigms"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 366
-      }
-    }
-  },
-  "LastAccept": "2004-06-11T18:28:48.3302944+02:00",
-  "SecondsPrAccept": 699,
-  "AlertRecipient": "sit",
-  "AlertTemplate": {
-    "ReplyTemplateId": 966,
-    "Name": "Prohaska Inc and Sons",
-    "Description": "Triple-buffered attitude-oriented website",
-    "FolderId": 850
-  },
-  "CollectConsent": true,
-  "BadgeHeader": "rem",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "corrupti",
-  "WarnNewChatMinutes": 287,
-  "WarnManagerNewChatMinutes": 425,
-  "TicketEnabled": false,
-  "TicketCategory": {
-    "Id": 579,
-    "Value": "sit",
-    "Tooltip": "non",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 658
-      }
-    }
-  },
-  "TicketPriority": {
-    "Id": 532,
-    "Value": "rerum",
-    "Tooltip": "quo",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 459
-      }
-    }
-  },
-  "OpeningHoursEnabled": true,
-  "OpeningHours": {
-    "TzLocation": {},
-    "MonEnabled": false,
-    "MonStart": "aperiam",
-    "MonStop": "est",
-    "TueEnabled": true,
-    "TueStart": "voluptates",
-    "TueStop": "sunt",
-    "WedEnabled": true,
-    "WedStart": "omnis",
-    "WedStop": "soluta",
-    "ThuEnabled": true,
-    "ThuStart": "at",
-    "ThuStop": "eaque",
-    "FriEnabled": true,
-    "FriStart": "aliquam",
-    "FriStop": "in",
-    "SatEnabled": false,
-    "SatStart": "error",
-    "SatStop": "occaecati",
-    "SunEnabled": false,
-    "SunStart": "doloremque",
-    "SunStop": "dolorum",
-    "UseLunchHours": true,
-    "LunchStart": "labore",
-    "LunchStop": "dolorem"
-  },
-  "Widget": {
-    "AutoFaqEnabled": true,
-    "AutoFaqCategory": {},
-    "PreFormEnabled": true,
-    "PreFormMessage": "et",
-    "RequiredFields": "Company",
-    "PostFormEnabled": true,
-    "PostFormHeader": "dicta",
-    "PostFormMessage": "omnis",
-    "PostTranscriptEnabled": true,
-    "LanguageIsoCode": "optio",
-    "Size": "Large",
-    "Theme": "Classic",
-    "Color": "aut",
-    "Font": "ut",
-    "LogoEnabled": true,
-    "LogoBlobId": 858,
-    "LogoName": "Corkery Group",
-    "ShowAgentPhoto": true,
-    "WelcomeTitle": "ea",
-    "WelcomeMessage": "itaque",
-    "OfflineHeader": "sint",
-    "OfflineMessage": "corrupti",
-    "OfflineFields": "Company",
-    "UseAgentFirstname": false
-  },
-  "BotEnabled": true,
-  "BotSettings": {
-    "BotName": "Hartmann, Schmeler and Kemmer",
-    "BotRegisterScriptId": 50,
-    "BotSessionCreatedScriptId": 123,
-    "BotSessionChangedScriptId": 331,
-    "BotMessageReceivedScriptId": 986
-  },
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 287,
-  "WarnManagerChatMessageMinutes": 635,
+  "ChatTopicId": 941,
+  "Name": "Bailey LLC",
+  "Description": "Diverse directional productivity",
+  "WelcomeMessage": "corporis",
+  "Language": null,
+  "LastAccept": "2002-03-20T11:10:26.1645255+01:00",
+  "SecondsPrAccept": 640,
+  "AlertRecipient": "quia",
+  "AlertTemplate": null,
+  "CollectConsent": false,
+  "BadgeHeader": "nostrum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 642,
+  "WarnManagerNewChatMinutes": 488,
+  "TicketEnabled": true,
+  "TicketCategory": null,
+  "TicketPriority": null,
+  "OpeningHoursEnabled": false,
+  "OpeningHours": null,
+  "Widget": null,
+  "BotEnabled": false,
+  "BotSettings": null,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 404,
+  "WarnManagerChatMessageMinutes": 237,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 108,
-  "OfflineFormQueueLength": 495,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "OfflineFormTimeLimit": 202,
+  "OfflineFormQueueLength": 390,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "dolorem",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 885
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

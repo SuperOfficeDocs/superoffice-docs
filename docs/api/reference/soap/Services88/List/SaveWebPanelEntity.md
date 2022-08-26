@@ -17,6 +17,7 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 
 **Returns:** New or updated WebPanelEntity
 
+
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -62,6 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:Url xsi:type="xsd:string"></List:Url>
      <List:ProgId xsi:type="xsd:string"></List:ProgId>
      <List:Icon xsi:type="xsd:short">0</List:Icon>
+     <List:AlwaysReloadOnShow xsi:type="xsd:boolean">false</List:AlwaysReloadOnShow>
     </List:WebPanelEntity>
    </List:SaveWebPanelEntity>
 
@@ -69,6 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveWebPanelEntity Response
 
@@ -105,9 +108,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:Url xsi:type="xsd:string"></List:Url>
     <List:ProgId xsi:type="xsd:string"></List:ProgId>
     <List:Icon xsi:type="xsd:short">0</List:Icon>
+    <List:AlwaysReloadOnShow xsi:type="xsd:boolean">false</List:AlwaysReloadOnShow>
    </List:Response>
   </List:SaveWebPanelEntityResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

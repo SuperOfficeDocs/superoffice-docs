@@ -1,6 +1,6 @@
 ---
 title: GET List/UserGroup/Items/{id}
-id: v1UserGroupList_GetUserGroup
+uid: v1UserGroupList_GetUserGroup
 ---
 
 # GET List/UserGroup/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/UserGroup/Items/{id}
 
 Gets a UserGroup list item.
 
+
 Calls the User agent service GetUserGroup.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the UserGroup to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ Calls the User agent service GetUserGroup.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The main user group that this user belongs to
+## Response: 
 
-Carrier object for UserGroup.
-Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +59,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/UserGroup/Items/{id}
@@ -63,28 +68,24 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "eum",
-  "Tooltip": "iusto",
-  "Id": 561,
-  "Rank": 563,
+  "Value": "nihil",
+  "Tooltip": "rerum",
+  "Id": 487,
+  "Rank": 370,
   "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   }
 }

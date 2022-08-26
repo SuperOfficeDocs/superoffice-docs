@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/IsUserNameValid
-id: v1UserAgent_IsUserNameValid
+uid: v1UserAgent_IsUserNameValid
 ---
 
 # POST Agents/User/IsUserNameValid
@@ -9,9 +9,15 @@ id: v1UserAgent_IsUserNameValid
 POST /api/v1/Agents/User/IsUserNameValid
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/User/IsUserNameValid
 ```http
 POST /api/v1/Agents/User/IsUserNameValid?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/User/IsUserNameValid?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type, PersonId, UserName
+AssociateId, Type, PersonId, UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ AssociateId, Type, PersonId, UserName
 | PersonId | int32 |  |
 | UserName | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,7 +66,8 @@ AssociateId, Type, PersonId, UserName
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/IsUserNameValid
@@ -66,16 +77,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 523,
+  "AssociateId": 741,
   "Type": "AnonymousAssociate",
-  "PersonId": 378,
-  "UserName": "Botsford, Block and Mueller"
+  "PersonId": 926,
+  "UserName": "Grimes LLC"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

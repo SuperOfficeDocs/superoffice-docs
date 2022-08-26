@@ -17,6 +17,7 @@ Gets an array of WindowPosSize objects.
 
 **Returns:** Array of WindowPosSize objects
 
+
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetWindowPosSizeList Response
 
@@ -85,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

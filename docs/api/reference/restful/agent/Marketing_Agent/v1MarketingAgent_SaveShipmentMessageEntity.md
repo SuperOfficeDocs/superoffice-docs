@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/SaveShipmentMessageEntity
-id: v1MarketingAgent_SaveShipmentMessageEntity
+uid: v1MarketingAgent_SaveShipmentMessageEntity
 ---
 
 # POST Agents/Marketing/SaveShipmentMessageEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 ```
 
 Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ShipmentMessageEntity to be saved.
+The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,18 +60,16 @@ The ShipmentMessageEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response: object
 
-A shipment message, that contains the actual message being sent out in a mailing
+## Response: 
 
-Carrier object for ShipmentMessageEntity.
-Services for the ShipmentMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +97,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
@@ -102,68 +107,64 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 533,
-  "PlainMessage": "qui",
-  "HtmlMessage": "labore",
-  "SmsMessage": "distinctio",
-  "Description": "Multi-layered didactic support",
-  "Subject": "deleniti",
-  "FolderId": 446,
-  "HeaderField": "similique",
-  "Design": "perspiciatis",
+  "ShipmentMessageId": 642,
+  "PlainMessage": "aut",
+  "HtmlMessage": "et",
+  "SmsMessage": "corrupti",
+  "Description": "Assimilated upward-trending structure",
+  "Subject": "non",
+  "FolderId": 429,
+  "HeaderField": "sint",
+  "Design": "pariatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Monitored modular process improvement",
-  "AccessKey": "dolorem",
-  "DocumentMessage": 79,
-  "Registered": "2014-08-06T18:28:49.4660876+02:00",
-  "RegisteredAssociateId": 510,
-  "Updated": "2018-12-29T18:28:49.4660876+01:00",
-  "UpdatedAssociateId": 531,
-  "UpdatedCount": 630
+  "LongDescription": "Configurable value-added parallelism",
+  "AccessKey": "quis",
+  "DocumentMessage": 944,
+  "Registered": "2005-05-09T11:10:27.2904529+02:00",
+  "RegisteredAssociateId": 611,
+  "Updated": "2004-02-03T11:10:27.2904529+01:00",
+  "UpdatedAssociateId": 422,
+  "UpdatedCount": 559
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 116,
-  "PlainMessage": "ratione",
-  "HtmlMessage": "dolorem",
-  "SmsMessage": "consequatur",
-  "Description": "Visionary intangible open system",
-  "Subject": "in",
-  "FolderId": 834,
-  "HeaderField": "velit",
-  "Design": "est",
+  "ShipmentMessageId": 900,
+  "PlainMessage": "dolor",
+  "HtmlMessage": "labore",
+  "SmsMessage": "recusandae",
+  "Description": "Ameliorated high-level hierarchy",
+  "Subject": "et",
+  "FolderId": 950,
+  "HeaderField": "eum",
+  "Design": "eius",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Integrated 24/7 neural-net",
-  "AccessKey": "vitae",
-  "DocumentMessage": 844,
-  "Registered": "2009-11-01T18:28:49.4670875+01:00",
-  "RegisteredAssociateId": 734,
-  "Updated": "2003-06-17T18:28:49.4670875+02:00",
-  "UpdatedAssociateId": 238,
-  "UpdatedCount": 638,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "LongDescription": "Proactive foreground infrastructure",
+  "AccessKey": "rerum",
+  "DocumentMessage": 105,
+  "Registered": "2018-05-15T11:10:27.2914527+02:00",
+  "RegisteredAssociateId": 613,
+  "Updated": "2007-04-01T11:10:27.2914527+02:00",
+  "UpdatedAssociateId": 669,
+  "UpdatedCount": 307,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 722
     }
   }
 }

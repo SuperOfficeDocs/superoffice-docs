@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailFromId
-id: v1EMailAgent_GetEMailFromId
+uid: v1EMailAgent_GetEMailFromId
 ---
 
 # POST Agents/EMail/GetEMailFromId
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromId
 
 Get en e-mail based on its unique id
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get en e-mail based on its unique id
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,30 +46,28 @@ POST /api/v1/Agents/EMail/GetEMailFromId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments
+ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | MessageServerId | int32 |  |
 | LookupAddresses | bool |  |
 | Flags | string |  |
 | IncludeAttachments | bool |  |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,7 +100,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailFromId
@@ -103,19 +110,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfo": {
-    "ServerName": "Greenholt, Hammes and Kutch",
-    "UserName": "Rau-Dietrich",
-    "Password": "est",
-    "Folder": "commodi",
-    "UseSSL": false
-  },
-  "MessageServerId": 576,
-  "LookupAddresses": true,
+  "ConnectionInfo": null,
+  "MessageServerId": 640,
+  "LookupAddresses": false,
   "Flags": "Answered",
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -124,248 +127,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 549,
-      "ContactName": "Zieme Group",
-      "PersonId": 794,
-      "PersonName": "Jast, Bayer and Russel",
-      "AssociateId": 302,
-      "Address": "fugiat",
-      "EmailId": 724,
+      "ContactId": 474,
+      "ContactName": "Durgan-Ziemann",
+      "PersonId": 391,
+      "PersonName": "Rice, Ziemann and Nolan",
+      "AssociateId": 641,
+      "Address": "quidem",
+      "EmailId": 672,
       "DuplicatePersonIds": [
-        396,
-        921
+        942,
+        663
       ],
-      "Name": "Osinski, Upton and Rohan",
-      "TableRight": {},
+      "Name": "Bogisich Group",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldLength": 969
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 527,
-      "ContactName": "Lang, Buckridge and Koch",
-      "PersonId": 441,
-      "PersonName": "Boyle LLC",
-      "AssociateId": 963,
-      "Address": "quia",
-      "EmailId": 147,
+      "ContactId": 689,
+      "ContactName": "Walter, Jaskolski and Corwin",
+      "PersonId": 980,
+      "PersonName": "Bode-Kunze",
+      "AssociateId": 905,
+      "Address": "et",
+      "EmailId": 574,
       "DuplicatePersonIds": [
-        803,
-        399
+        457,
+        629
       ],
-      "Name": "Harris-Graham",
-      "TableRight": {},
+      "Name": "Skiles, Fritsch and Batz",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldLength": 253
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 196,
-      "ContactName": "Borer-Mills",
-      "PersonId": 362,
-      "PersonName": "Haley LLC",
-      "AssociateId": 516,
-      "Address": "est",
-      "EmailId": 879,
+      "ContactId": 604,
+      "ContactName": "Fahey LLC",
+      "PersonId": 755,
+      "PersonName": "Nader-Ziemann",
+      "AssociateId": 353,
+      "Address": "non",
+      "EmailId": 471,
       "DuplicatePersonIds": [
-        471,
-        107
+        487,
+        34
       ],
-      "Name": "O'Keefe Group",
-      "TableRight": {},
+      "Name": "Schmeler LLC",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
+          "FieldRight": null,
+          "FieldType": "System.String",
           "FieldLength": 159
         }
       }
     }
   ],
-  "Subject": "sit",
-  "HTMLBody": "est",
-  "From": {
-    "ContactId": 906,
-    "ContactName": "Heaney LLC",
-    "PersonId": 885,
-    "PersonName": "Ruecker, Terry and Kuhn",
-    "AssociateId": 597,
-    "Address": "accusantium",
-    "EmailId": 860,
-    "DuplicatePersonIds": [
-      80,
-      906
-    ],
-    "Name": "Bednar, Kihn and Bogan",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 294
-      }
-    }
-  },
-  "Sent": "2014-02-04T18:28:49.1129637+01:00",
-  "Size": 679,
+  "Subject": "dolores",
+  "HTMLBody": "porro",
+  "From": null,
+  "Sent": "1998-01-12T11:10:26.9244247+01:00",
+  "Size": 367,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "laboriosam",
-  "PlainBody": "voluptatem",
-  "IsSent": true,
-  "EMailSOInfo": {
-    "DocumentId": 21,
-    "AppointmentId": 831,
-    "ProjectId": 458,
-    "SaleId": 34,
-    "Archived": false,
-    "ArchivedAt": "2019-07-17T18:28:49.1129637+02:00",
-    "ArchivedBy": 633,
-    "ArchivedDisplayName": "Willms-Abbott",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 631
-      }
-    }
-  },
-  "ServerId": 90,
+  "MessageID": "et",
+  "PlainBody": "enim",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 823,
   "Attachments": [
     {
-      "Description": "Open-source multi-state Graphical User Interface",
-      "Filename": "molestiae",
-      "Size": 247,
-      "Type": "quas",
-      "Encoding": "voluptatibus",
-      "Id": "quod",
-      "Disposition": "veritatis",
+      "Description": "Virtual zero administration migration",
+      "Filename": "optio",
+      "Size": 79,
+      "Type": "voluptatum",
+      "Encoding": "deserunt",
+      "Id": "commodi",
+      "Disposition": "pariatur",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldLength": 716
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Adams, Bartell and Mueller",
+      "Name": "Roberts, Gerhold and Witting",
       "Values": [
-        "vel",
-        "vel"
+        "qui",
+        "alias"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 402
         }
       }
     },
     {
-      "Name": "Adams, Bartell and Mueller",
+      "Name": "Roberts, Gerhold and Witting",
       "Values": [
-        "vel",
-        "vel"
+        "qui",
+        "alias"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 402
         }
       }
     }
   ],
-  "FolderName": "Bauch, Beahan and Friesen",
-  "EmailItemId": 366,
-  "AccountId": 847,
-  "ReceivedAt": "1996-08-17T18:28:49.1139282+02:00",
-  "InReplyTo": {
-    "ServerId": 776,
-    "MessageId": "ut",
-    "Subject": "quia",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "1997-09-23T18:28:49.1139282+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 348,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 467
-      }
-    }
-  },
-  "RepliedAt": "2012-01-09T18:28:49.1139282+01:00",
-  "HasCalendarData": true,
+  "FolderName": "Homenick Group",
+  "EmailItemId": 91,
+  "AccountId": 810,
+  "ReceivedAt": "2019-12-16T11:10:26.9254246+01:00",
+  "InReplyTo": null,
+  "RepliedAt": "2004-02-05T11:10:26.9264254+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 960
     }
   }
 }

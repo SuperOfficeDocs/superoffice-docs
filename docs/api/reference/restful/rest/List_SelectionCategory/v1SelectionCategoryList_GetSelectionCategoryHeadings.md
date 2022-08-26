@@ -1,6 +1,6 @@
 ---
 title: GET List/SelectionCategory/Headings
-id: v1SelectionCategoryList_GetSelectionCategoryHeadings
+uid: v1SelectionCategoryList_GetSelectionCategoryHeadings
 ---
 
 # GET List/SelectionCategory/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/SelectionCategory/Headings
 
 Gets headings for the SelectionCategory list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 282,
-    "Name": "Hermiston Group",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 27,
-    "UdListDefinitionId": 818,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 540,
+    "Name": "Simonis-Luettgen",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 630,
+    "UdListDefinitionId": 309,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 489
       }
     }
   }

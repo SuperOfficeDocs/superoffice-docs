@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AudienceVisibility"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ How projects (or whatever) should be made visible in audience
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![AudienceVisibility table relationship diagram](./media/AudienceVisibility.png)
 
 [!include[details](./includes/audiencevisibility.md)]
@@ -53,6 +54,7 @@ How projects (or whatever) should be made visible in audience
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,3 +64,4 @@ How projects (or whatever) should be made visible in audience
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetDocumentCommands
-id: v1DocumentAgent_GetDocumentCommands
+uid: v1DocumentAgent_GetDocumentCommands
 ---
 
 # POST Agents/Document/GetDocumentCommands
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetDocumentCommands
 
 Get a list of custom commands valid for the specific document at this time.
 
+
 This information should not be cached by clients, as it may change between documents and over time.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This information should not be cached by clients, as it may change between docum
 ```http
 POST /api/v1/Agents/Document/GetDocumentCommands?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Document/GetDocumentCommands?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnTypes
+DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AllowedReturnTypes | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,23 +72,25 @@ Response body: array
 | IconHint | string |  |
 | ReturnType | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 191,
+  "DocumentId": 449,
   "AllowedReturnTypes": [
     "et",
-    "ea"
+    "reiciendis"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zieme, Bergnaum and Ritchie",
-    "DisplayName": "Fahey, Langosh and Williamson",
-    "DisplayTooltip": "vitae",
-    "IconHint": "facilis",
+    "Name": "Conn, Stanton and Torp",
+    "DisplayName": "Konopelski, Dicki and Ferry",
+    "DisplayTooltip": "ipsa",
+    "IconHint": "alias",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Zieme, Bergnaum and Ritchie",
-    "DisplayName": "Fahey, Langosh and Williamson",
-    "DisplayTooltip": "vitae",
-    "IconHint": "facilis",
+    "Name": "Conn, Stanton and Torp",
+    "DisplayName": "Konopelski, Dicki and Ferry",
+    "DisplayTooltip": "ipsa",
+    "IconHint": "alias",
     "ReturnType": "CustomGui"
   }
 ]

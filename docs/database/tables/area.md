@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "area"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ Definition of an Area (database subset for satellite and travel)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![area table relationship diagram](./media/area.png)
 
 [!include[details](./includes/area.md)]
@@ -56,6 +57,7 @@ Definition of an Area (database subset for satellite and travel)
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[satellite](satellite.md)  |Definition of Satellites |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,3 +67,4 @@ Definition of an Area (database subset for satellite and travel)
 ## Security Flags
 
 * No access control via user's Role.
+

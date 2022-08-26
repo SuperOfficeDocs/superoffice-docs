@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/TestConnection
-id: v1QuoteAgent_TestConnection
+uid: v1QuoteAgent_TestConnection
 ---
 
 # POST Agents/Quote/TestConnection
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/TestConnection
 
 Used by the Admin clients.
 
+
 Testing if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection is called without InitializeConnector being called first.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Testing if the connection data is sufficient to get a connection with the ERP sy
 ```http
 POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectorName, ConnectionData
+ConnectorName, ConnectionData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectorName | string |  |
 | ConnectionData | object |  |
 
-## Response: object
 
-PluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.
+## Response: 
 
-Carrier object for PluginResponse.
-Services for the PluginResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,23 +74,25 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Schmeler Group",
+  "ConnectorName": "Barrows, Kihn and Kshlerin",
   "ConnectionData": {
-    "ConnectionData1": "et",
-    "ConnectionData2": "voluptates"
+    "ConnectionData1": "iusto",
+    "ConnectionData2": "vel"
   }
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,46 +100,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "voluptatibus",
-  "TechExplanation": "ab",
-  "ErrorCode": "a",
-  "Changes": {
-    "AddedRecords": [
-      {},
-      {}
-    ],
-    "UpdatedRecords": [
-      {},
-      {}
-    ],
-    "DeletedRecords": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 641
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UserExplanation": "iure",
+  "TechExplanation": "architecto",
+  "ErrorCode": "temporibus",
+  "Changes": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldLength": 576
     }
   }
 }

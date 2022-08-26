@@ -1,6 +1,6 @@
 ---
 title: PUT ProjectMember/{id}
-id: v1ProjectMember_PutProjectMember
+uid: v1ProjectMember_PutProjectMember
 ---
 
 # PUT ProjectMember/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/ProjectMember/{id}
 
 Updates the existing ProjectMember
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectMember id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ProjectMember
 ```http
 PUT /api/v1/ProjectMember/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectMember to be saved.
+The ProjectMember to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,23 +69,22 @@ The ProjectMember to be saved.
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-ProjectMember entity with API _Links added.
+ProjectMember updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ProjectMember updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,7 +105,7 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -107,7 +113,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/ProjectMember/{id}
@@ -117,68 +123,64 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 276,
-  "ContactId": 886,
-  "ProjectId": 694,
-  "ContactName": "Hilpert, Fay and Bode",
+  "ProjectmemberId": 942,
+  "ContactId": 394,
+  "ProjectId": 38,
+  "ContactName": "Wisozk-Baumbach",
   "ContactDepartment": "",
-  "ProjectName": "Rempel, Waters and Wehner",
-  "EmailId": 703,
-  "EmailAddress": "brody@schmeler.ca",
-  "CountryId": 441,
-  "Firstname": "Tina",
-  "MiddleName": "Cronin-Becker",
-  "Lastname": "Senger",
-  "PersonId": 358,
-  "Mrmrs": "consequuntur",
-  "ProjectMemberTypeName": "Raynor, Haley and Mertz",
-  "Phone": "412-180-5663 x2247",
-  "PhoneId": 963,
-  "ProjectMemberTypeId": 93,
-  "EmailAddressName": "genesis_marquardt@watsica.biz",
-  "Comment": "ut",
-  "FullName": "Mrs. Verla Pollich"
+  "ProjectName": "Baumbach, Kuhic and McClure",
+  "EmailId": 474,
+  "EmailAddress": "kailyn@erdman.biz",
+  "CountryId": 799,
+  "Firstname": "Krystel",
+  "MiddleName": "Rempel, D'Amore and Aufderhar",
+  "Lastname": "Blick",
+  "PersonId": 643,
+  "Mrmrs": "et",
+  "ProjectMemberTypeName": "Ledner-Schuster",
+  "Phone": "239.873.2713",
+  "PhoneId": 309,
+  "ProjectMemberTypeId": 990,
+  "EmailAddressName": "adolph.bernhard@okunevabrown.co.uk",
+  "Comment": "minima",
+  "FullName": "Prof. Nigel Botsford"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 842,
-  "ContactId": 888,
-  "ProjectId": 400,
-  "ContactName": "Swift Group",
+  "ProjectmemberId": 792,
+  "ContactId": 294,
+  "ProjectId": 27,
+  "ContactName": "Koepp, Considine and Armstrong",
   "ContactDepartment": "",
-  "ProjectName": "Goodwin-McCullough",
-  "EmailId": 827,
-  "EmailAddress": "dangelo.fay@leannon.name",
-  "CountryId": 124,
-  "Firstname": "Keon",
-  "MiddleName": "Watsica LLC",
-  "Lastname": "Lockman",
-  "PersonId": 400,
-  "Mrmrs": "ipsum",
-  "ProjectMemberTypeName": "Kovacek-Heaney",
-  "Phone": "1-506-836-6585",
-  "PhoneId": 48,
-  "ProjectMemberTypeId": 866,
-  "EmailAddressName": "vallie@russel.name",
-  "Comment": "vero",
-  "FullName": "Mrs. Liza Koepp",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Kreiger Group",
+  "EmailId": 355,
+  "EmailAddress": "jaida_feil@lebsackreichert.co.uk",
+  "CountryId": 953,
+  "Firstname": "Gisselle",
+  "MiddleName": "Lynch Inc and Sons",
+  "Lastname": "Runolfsson",
+  "PersonId": 173,
+  "Mrmrs": "non",
+  "ProjectMemberTypeName": "Welch-Harris",
+  "Phone": "1-194-824-3981",
+  "PhoneId": 688,
+  "ProjectMemberTypeId": 804,
+  "EmailAddressName": "hattie.emmerich@hodkiewicz.uk",
+  "Comment": "eum",
+  "FullName": "Ms. Olga Von",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 675
     }
   },
   "_Links": {

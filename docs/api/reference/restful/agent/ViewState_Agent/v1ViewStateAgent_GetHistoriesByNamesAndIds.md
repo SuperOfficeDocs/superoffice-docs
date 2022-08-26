@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/GetHistoriesByNamesAndIds
-id: v1ViewStateAgent_GetHistoriesByNamesAndIds
+uid: v1ViewStateAgent_GetHistoriesByNamesAndIds
 ---
 
 # POST Agents/ViewState/GetHistoriesByNamesAndIds
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 
 Returns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.
 
+
 &lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Returns history data for the named entities and the given ids - which may not di
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Requests
+Requests 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Requests | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,30 +75,32 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Harber Inc and Sons",
-      "EntityOrParentId": 78,
-      "RequestForNewRecord": true
+      "EntityName": "Feeney Group",
+      "EntityOrParentId": 967,
+      "RequestForNewRecord": false
     },
     {
-      "EntityName": "Harber Inc and Sons",
-      "EntityOrParentId": 78,
-      "RequestForNewRecord": true
+      "EntityName": "Feeney Group",
+      "EntityOrParentId": 967,
+      "RequestForNewRecord": false
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,25 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 498,
-    "Id": 760,
-    "HistoryName": "Luettgen Group",
-    "HistoryId": 341,
-    "AssociateId": 492,
-    "Name": "Weissnat Inc and Sons",
-    "ItemInfo": "eos",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "seize collaborative portals"
-    },
+    "Rank": 605,
+    "Id": 120,
+    "HistoryName": "Kiehn, Gutkowski and Hartmann",
+    "HistoryId": 892,
+    "AssociateId": 932,
+    "Name": "Predovic-Mann",
+    "ItemInfo": "at",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 298
       }
     }
   }

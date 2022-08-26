@@ -1,6 +1,6 @@
 ---
 title: GET List/Position/Items/{id}/UserGroups
-id: v1PositionList_GetPositionUserGroupsForListItem
+uid: v1PositionList_GetPositionUserGroupsForListItem
 ---
 
 # GET List/Position/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Position/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Position list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Mraz-Smith",
-    "ToolTip": "Nihil provident voluptas dolor fugit nesciunt.",
+    "Id": 297,
+    "Name": "King Group",
+    "ToolTip": "Ea adipisci ea est nulla quibusdam odit dolorem.",
     "Deleted": true,
-    "Rank": 727,
-    "Type": "autem",
-    "ColorBlock": 193,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "1999-06-16T18:25:51.959243+02:00",
+    "Rank": 615,
+    "Type": "laudantium",
+    "ColorBlock": 258,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2010-09-18T11:10:54.3729027+02:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Dooley Inc and Sons",
-        "ToolTip": "In enim doloremque libero molestiae dolores nemo.",
-        "Deleted": true,
-        "Rank": 829,
-        "Type": "quaerat",
-        "ColorBlock": 335,
-        "IconHint": "consequuntur",
+        "Id": 337,
+        "Name": "Pfeffer Inc and Sons",
+        "ToolTip": "Fuga ut ex earum est et sit et.",
+        "Deleted": false,
+        "Rank": 810,
+        "Type": "laboriosam",
+        "ColorBlock": 47,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2014-10-13T18:25:51.959243+02:00",
+        "LastChanged": "2019-08-12T11:10:54.3729027+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "ex",
+        "ExtraInfo": "tempore",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Alta Beer",
-        "TableRight": {},
+        "FullName": "Jacques Zaria Osinski II",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 75
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "sed",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Cleve Brown",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Annabelle Nicolas",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

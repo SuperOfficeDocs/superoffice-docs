@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProjectStatus/Items
-id: v1ProjectStatusList_PutAllProjectStatus
+uid: v1ProjectStatusList_PutAllProjectStatus
 ---
 
 # PUT List/ProjectStatus/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/ProjectStatus/Items
 ```
 
 Update the ProjectStatus list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the ProjectStatus list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProjectStatus.
+All the updated ProjectStatus. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated ProjectStatus.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProjectStatus/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Wilkinson-Koss",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 543
+    "Id": 31,
+    "Name": "Stokes-Jast",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "UdListDefinitionId": 370,
+    "Rank": 198
   },
   {
-    "Id": 154,
-    "Name": "Wilkinson-Koss",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 543
+    "Id": 31,
+    "Name": "Stokes-Jast",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "UdListDefinitionId": 370,
+    "Rank": 198
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Murray, Ebert and Ritchie",
-    "Tooltip": "adipisci",
-    "Deleted": true,
-    "UdListDefinitionId": 324,
-    "Rank": 987,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 387,
+    "Name": "Hackett-Lynch",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 960,
+    "Rank": 115,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 767
       }
     }
   }

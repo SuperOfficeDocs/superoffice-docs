@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPersonTasks
-id: v1AppointmentAgent_GetPersonTasks
+uid: v1AppointmentAgent_GetPersonTasks
 ---
 
 # POST Agents/Appointment/GetPersonTasks
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonTasks
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's task list. Th
 ```http
 POST /api/v1/Agents/Appointment/GetPersonTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Appointment/GetPersonTasks?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, Count
+PersonId, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -108,20 +118,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 232,
-  "Count": 767
+  "PersonId": 623,
+  "Count": 555
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -129,67 +141,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 14,
-    "StartDate": "2017-02-01T18:28:47.8948444+01:00",
-    "EndDate": "2000-05-08T18:28:47.8948444+02:00",
+    "AppointmentId": 839,
+    "StartDate": "2020-02-26T11:10:25.941553+01:00",
+    "EndDate": "2003-06-29T11:10:25.941553+02:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Jonatan Jewess",
-    "ContactName": "Lueilwitz-Little",
-    "Description": "Ergonomic solution-oriented support",
-    "PersonFullName": "Hans Bartoletti",
-    "PersonId": 144,
-    "ContactId": 630,
-    "ProjectId": 834,
-    "ProjectName": "Jewess, Brown and Schmitt",
+    "Task": "optio",
+    "AssociateFullName": "Garrett Haley",
+    "ContactName": "Orn-Kertzmann",
+    "Description": "Face to face maximized installation",
+    "PersonFullName": "Barton Ferry",
+    "PersonId": 737,
+    "ContactId": 970,
+    "ProjectId": 387,
+    "ProjectName": "Watsica, Pagac and Ledner",
     "IsPublished": false,
-    "AssociateId": 546,
-    "ColorIndex": 556,
-    "IsFree": true,
-    "HasAlarm": false,
+    "AssociateId": 334,
+    "ColorIndex": 406,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 568,
-    "PriorityName": "Rau Inc and Sons",
+    "PriorityId": 805,
+    "PriorityName": "Torp-Gleichner",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2020-07-27T18:28:47.8958446+02:00",
+    "ActiveDate": "2004-05-15T11:10:25.941553+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-04-04T18:28:47.8958446+02:00",
-    "RecurringEndDate": "2015-07-22T18:28:47.8958446+02:00",
-    "MotherId": 39,
-    "AssignedBy": 64,
-    "AssignedByFullName": "Mrs. Theodora Hoppe",
+    "RecurringStartDate": "2013-06-21T11:10:25.941553+02:00",
+    "RecurringEndDate": "2010-07-24T11:10:25.941553+02:00",
+    "MotherId": 66,
+    "AssignedBy": 493,
+    "AssignedByFullName": "Dr. Paolo Ariel Bins",
     "RejectReason": "",
-    "Location": "omnis",
-    "AlarmLeadTime": "et",
-    "SaleId": 528,
-    "SaleName": "Towne Inc and Sons",
-    "AssociateName": "Langworth-Beer",
-    "CreatedDate": "1995-01-12T18:28:47.8958446+01:00",
-    "CreatedBy": "fugit",
-    "CreatedByFullName": "Elbert Runte",
-    "CreatedByAssociateId": 466,
+    "Location": "tempore",
+    "AlarmLeadTime": "ut",
+    "SaleId": 52,
+    "SaleName": "Leannon Group",
+    "AssociateName": "Lehner, Balistreri and Kuhic",
+    "CreatedDate": "2004-03-19T11:10:25.9425525+01:00",
+    "CreatedBy": "animi",
+    "CreatedByFullName": "Zander Cremin",
+    "CreatedByAssociateId": 534,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 746
       }
     }
   }

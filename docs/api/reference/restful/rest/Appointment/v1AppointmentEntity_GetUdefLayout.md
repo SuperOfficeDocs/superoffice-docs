@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/UdefLayout
-id: v1AppointmentEntity_GetUdefLayout
+uid: v1AppointmentEntity_GetUdefLayout
 ---
 
 # GET Appointment/UdefLayout
@@ -11,7 +11,14 @@ GET /api/v1/Appointment/UdefLayout
 
 Current AppointmentEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ May be different from the published version.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,14 +83,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,52 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 635,
-    "ColumnId": 717,
-    "FieldDefault": "aut",
-    "FieldHeight": 379,
-    "FieldLabel": "qui",
-    "FieldLeft": 835,
-    "FieldTop": 317,
+    "UDefFieldId": 442,
+    "ColumnId": 66,
+    "FieldDefault": "vel",
+    "FieldHeight": 699,
+    "FieldLabel": "eos",
+    "FieldLeft": 977,
+    "FieldTop": 648,
     "FieldType": "Checkbox",
-    "FieldWidth": 973,
-    "FormatMask": "quia",
+    "FieldWidth": 418,
+    "FormatMask": "natus",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 400,
-    "LabelLeft": 931,
-    "LabelTop": 578,
-    "LabelWidth": 595,
-    "LastVersionId": 62,
-    "ListTableId": 158,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 158,
+    "LabelLeft": 125,
+    "LabelTop": 14,
+    "LabelWidth": 637,
+    "LastVersionId": 940,
+    "ListTableId": 27,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 618,
-    "ProgId": "qui",
-    "IsReadOnly": true,
-    "ShortLabel": "voluptate",
-    "TabOrder": 567,
-    "TextLength": 544,
-    "Tooltip": "inventore",
-    "UdefIdentity": 759,
-    "UDListDefinitionId": 443,
+    "Page1LineNo": 996,
+    "ProgId": "magni",
+    "IsReadOnly": false,
+    "ShortLabel": "dolor",
+    "TabOrder": 904,
+    "TextLength": 304,
+    "Tooltip": "esse",
+    "UdefIdentity": 947,
+    "UDListDefinitionId": 164,
     "Justification": "Center",
-    "Version": 570,
-    "TemplateVariableName": "Hilll Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Lakin-Dickens",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 740,
+    "TemplateVariableName": "Huel, Bauch and Jacobson",
+    "HasBeenPublished": false,
+    "MdoListName": "Tremblay, Kling and Terry",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 21
       }
     }
   }

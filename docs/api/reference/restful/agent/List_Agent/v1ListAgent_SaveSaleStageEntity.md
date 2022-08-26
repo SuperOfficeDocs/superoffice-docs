@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveSaleStageEntity
-id: v1ListAgent_SaveSaleStageEntity
+uid: v1ListAgent_SaveSaleStageEntity
 ---
 
 # POST Agents/List/SaveSaleStageEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveSaleStageEntity
 ```
 
 Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleStageEntity to be saved.
+The SaleStageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The SaleStageEntity to be saved.
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
 
-## Response: object
 
-This entity represents a sale stage with a default percentage rating.
+## Response: 
 
-Carrier object for SaleStageEntity.
-Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,48 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 562,
-  "Value": "alias",
-  "Tooltip": "rerum",
-  "Probability": 881,
-  "Deleted": false,
-  "Rank": 852
+  "SaleStageId": 844,
+  "Value": "neque",
+  "Tooltip": "sit",
+  "Probability": 853,
+  "Deleted": true,
+  "Rank": 946
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 271,
-  "Value": "architecto",
-  "Tooltip": "aut",
-  "Probability": 177,
-  "Deleted": false,
+  "SaleStageId": 654,
+  "Value": "consequatur",
+  "Tooltip": "qui",
+  "Probability": 966,
+  "Deleted": true,
   "Rank": 608,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 610
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

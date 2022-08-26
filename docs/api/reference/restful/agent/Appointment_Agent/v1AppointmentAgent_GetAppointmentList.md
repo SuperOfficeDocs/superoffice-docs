@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetAppointmentList
-id: v1AppointmentAgent_GetAppointmentList
+uid: v1AppointmentAgent_GetAppointmentList
 ---
 
 # POST Agents/Appointment/GetAppointmentList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetAppointmentList
 
 Gets an array of Appointment objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Appointment objects.
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Appointment/GetAppointmentList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: appointmentIds
+## Request Body: appointmentIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -101,7 +112,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetAppointmentList
@@ -110,73 +121,69 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 995,
-    "StartDate": "2012-10-27T18:28:47.8808443+02:00",
-    "EndDate": "2018-07-09T18:28:47.8808443+02:00",
+    "AppointmentId": 194,
+    "StartDate": "2006-11-13T11:10:25.7385524+01:00",
+    "EndDate": "2012-12-05T11:10:25.7385524+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nostrum",
-    "AssociateFullName": "Veda Bartoletti DVM",
-    "ContactName": "Herzog Inc and Sons",
-    "Description": "Up-sized scalable alliance",
-    "PersonFullName": "Devon Hettinger",
-    "PersonId": 431,
-    "ContactId": 269,
-    "ProjectId": 885,
-    "ProjectName": "Hand-Welch",
+    "Task": "quos",
+    "AssociateFullName": "Coby Paucek",
+    "ContactName": "Schowalter-Pfannerstill",
+    "Description": "Operative leading edge methodology",
+    "PersonFullName": "Ms. Monique Hilll",
+    "PersonId": 434,
+    "ContactId": 729,
+    "ProjectId": 143,
+    "ProjectName": "Raynor-O'Conner",
     "IsPublished": false,
-    "AssociateId": 584,
-    "ColorIndex": 765,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 647,
+    "ColorIndex": 875,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 807,
-    "PriorityName": "Lynch-Dicki",
+    "PriorityId": 769,
+    "PriorityName": "Jaskolski, Bogisich and Lockman",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2007-08-30T18:28:47.8818482+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2015-05-25T11:10:25.7385524+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-05-21T18:28:47.8818482+02:00",
-    "RecurringEndDate": "2003-10-26T18:28:47.8818482+01:00",
-    "MotherId": 175,
-    "AssignedBy": 912,
-    "AssignedByFullName": "Melany Brakus II",
+    "RecurringStartDate": "1996-06-20T11:10:25.7385524+02:00",
+    "RecurringEndDate": "2021-04-11T11:10:25.7385524+02:00",
+    "MotherId": 548,
+    "AssignedBy": 920,
+    "AssignedByFullName": "Gordon Dare",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "pariatur",
-    "SaleId": 867,
-    "SaleName": "Koelpin, Mitchell and Russel",
-    "AssociateName": "Hartmann-Lubowitz",
-    "CreatedDate": "2008-02-25T18:28:47.8818482+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Terence Hermiston",
-    "CreatedByAssociateId": 147,
+    "Location": "velit",
+    "AlarmLeadTime": "ex",
+    "SaleId": 851,
+    "SaleName": "Dietrich Inc and Sons",
+    "AssociateName": "Smith, Christiansen and Boyle",
+    "CreatedDate": "1999-10-10T11:10:25.7385524+02:00",
+    "CreatedBy": "blanditiis",
+    "CreatedByFullName": "Leonel Hoeger",
+    "CreatedByAssociateId": 874,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 713
       }
     }
   }

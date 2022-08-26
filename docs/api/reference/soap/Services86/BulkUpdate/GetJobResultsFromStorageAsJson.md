@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IBulkUpdateAgent.GetJobRe
 
 Get result of the batchupdate job
 
+
 **Returns:** Result of job as json
+
 
 [WSDL file for Services86/BulkUpdate](../Services86-BulkUpdate.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetJobResultsFromStorageAsJson Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

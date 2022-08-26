@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketCategory/Items/Default
-id: v1TicketCategoryList_CreateDefaultTicketCategoryEntity
+uid: v1TicketCategoryList_CreateDefaultTicketCategoryEntity
 ---
 
 # GET List/TicketCategory/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/TicketCategory/Items/Default
 ```
 
 Gets a default TicketCategoryEntity list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default TicketCategoryEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-This entity describes the meta data for a ticket category, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketCategoryEntity.
-Services for the TicketCategoryEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,93 +64,51 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 200,
-  "ParentId": 582,
-  "Name": "Grady LLC",
-  "Fullname": "dolor",
-  "CategoryMaster": 721,
+  "TicketCategoryId": 274,
+  "ParentId": 218,
+  "Name": "Yundt Group",
+  "Fullname": "rem",
+  "CategoryMaster": 437,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Huel-Collins",
+  "ExternalName": "Ziemann, Kuhic and Kutch",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 387,
-  "ReplyTemplate": 718,
-  "NotificationEmail": "rowena_macejkovic@huels.name",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 587,
-    "Name": "Cruickshank Inc and Sons",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 171
-      }
-    }
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 328,
-    "Name": "Mayer-Metz",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 54
-      }
-    }
-  },
+  "AssignmentLag": 455,
+  "ReplyTemplate": 660,
+  "NotificationEmail": "jayson.windler@torphykonopelski.name",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "non"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "impedit"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 15
     }
   }
 }

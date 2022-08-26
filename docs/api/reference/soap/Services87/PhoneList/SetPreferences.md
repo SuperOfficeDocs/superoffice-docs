@@ -15,6 +15,8 @@ Setting Phone List Preferences to the CRM 5 user preferences
 
 * **preferences:** The preference that is set as user preferences
 
+
+
 [WSDL file for Services87/PhoneList](../Services87-PhoneList.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetPreferences Response
 
 ```xml
@@ -73,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

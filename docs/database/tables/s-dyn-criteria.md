@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_dyn_criteria"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ Contains criterias for a dynamic list.
 |value|The value|String(64)| |
 |log\_op|And/or|log_op|&#x25CF;|
 
+
 ![s_dyn_criteria table relationship diagram](./media/s_dyn_criteria.png)
 
 [!include[details](./includes/s-dyn-criteria.md)]
@@ -46,6 +47,7 @@ Contains criterias for a dynamic list.
 |------|-------------|
 |[s\_list](s-list.md)  |A list, dynamic or static |
 
+
 ## Replication Flags
 
 * None
@@ -53,3 +55,4 @@ Contains criterias for a dynamic list.
 ## Security Flags
 
 * No access control via user's Role.
+

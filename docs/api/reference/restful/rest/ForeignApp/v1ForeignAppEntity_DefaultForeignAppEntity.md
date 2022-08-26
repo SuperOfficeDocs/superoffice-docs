@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/default
-id: v1ForeignAppEntity_DefaultForeignAppEntity
+uid: v1ForeignAppEntity_DefaultForeignAppEntity
 ---
 
 # GET ForeignApp/default
@@ -11,7 +11,14 @@ GET /api/v1/ForeignApp/default
 
 Set default values into a new ForeignAppEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the ForeignSystem agent service CreateDefaultForeignAppEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignAppEntity.
-Services for the ForeignAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,111 +56,56 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Jan 2012 18:25:50 G1T
+Last-Modified: Wed, 09 Apr 1997 11:10:52 G4T
 
 {
-  "ForeignAppId": 453,
-  "Name": "Upton, Breitenberg and Emard",
-  "CreatedDate": "2000-05-25T18:25:50.5515972+02:00",
-  "UpdatedDate": "2012-01-28T18:25:50.5515972+01:00",
-  "CreatedBy": {
-    "AssociateId": 909,
-    "Name": "Wiegand-Auer",
-    "PersonId": 316,
-    "Rank": 878,
-    "Tooltip": "voluptas",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 86,
-    "FullName": "Eugenia Lueilwitz IV",
-    "FormalName": "Wilkinson Group",
-    "Deleted": true,
-    "EjUserId": 673,
-    "UserName": "Maggio-VonRueden",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 880
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 708,
-    "Name": "Carroll-Wehner",
-    "PersonId": 822,
-    "Rank": 350,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 501,
-    "FullName": "Oran Hodkiewicz",
-    "FormalName": "Kiehn, Lowe and Lubowitz",
-    "Deleted": true,
-    "EjUserId": 298,
-    "UserName": "King-Powlowski",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 908
-      }
-    }
-  },
+  "ForeignAppId": 756,
+  "Name": "Waters LLC",
+  "CreatedDate": "1995-05-07T11:10:52.8831799+02:00",
+  "UpdatedDate": "1997-04-09T11:10:52.8831799+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 546,
-      "Name": "Schimmel Group",
-      "CreatedDate": "1996-08-31T18:25:50.5535965+02:00",
-      "UpdatedDate": "2009-03-27T18:25:50.5535965+01:00",
-      "AssociateFullName": "Hoyt Dach Jr.",
-      "CreatedBy": "neque",
-      "UpdatedBy": "accusamus",
-      "DeviceIdentifier": "ea",
-      "ForeignAppId": 950,
-      "TableRight": {},
+      "ForeignDeviceId": 911,
+      "Name": "Glover, Mosciski and Schroeder",
+      "CreatedDate": "2017-11-28T11:10:52.8841739+01:00",
+      "UpdatedDate": "2020-05-04T11:10:52.8841739+02:00",
+      "AssociateFullName": "Monique Harris",
+      "CreatedBy": "adipisci",
+      "UpdatedBy": "pariatur",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 264,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "implement viral infrastructures"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 383
     }
   }
 }

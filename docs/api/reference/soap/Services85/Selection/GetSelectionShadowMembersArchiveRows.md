@@ -18,6 +18,7 @@ Get the list of members in this selection's shadow (i.e. the list of contacts + 
 
 **Returns:** Array of archive rows, where each item represents one row of data (row level data + the requested columns). NULL if selection does not exist.
 
+
 [WSDL file for Services85/Selection](../Services85-Selection.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSelectionShadowMembersArchiveRows Response
 
@@ -88,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "resource"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "resource" MDO List
-
 MDO provider for resources (from the associate table)
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ResourceMDOProvider">ResourceMDOProvider</see> class.
 The name of the MDO list is 'resource'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("resource", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -53,8 +56,10 @@ foreach (var item in listProvider.RootItems) {
 |45|ResourceItem 5: Heading 1|||
 |46|ResourceItem 6: Heading 1|||
 |80|ResourceItem 13: Heading 2 og 3|||
-|50|ResourceItem 10: Heading 3|||
-|51|ResourceItem 11: Heading 3|||
+|47|ResourceItem 7: Heading 2|||
+|48|ResourceItem 8: Heading 2|||
+|49|ResourceItem 9: Heading 2|||
+
 
 ## Related MDO Lists
 

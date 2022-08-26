@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Webhook/CreateDefaultWebhook
-id: v1WebhookAgent_CreateDefaultWebhook
+uid: v1WebhookAgent_CreateDefaultWebhook
 ---
 
 # POST Agents/Webhook/CreateDefaultWebhook
@@ -11,9 +11,17 @@ POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 
 Set default values into a new Webhook.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+## Response: 
 
-Carrier object for Webhook.
-Services for the Webhook Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,88 +63,42 @@ Response body: object
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 709,
-  "Name": "Ankunding, Schaefer and Schmeler",
+  "WebhookId": 469,
+  "Name": "Jerde-Murazik",
   "Events": [
-    "sed",
-    "occaecati"
+    "quibusdam",
+    "adipisci"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "neque",
+  "Secret": "et",
   "State": "Active",
-  "Type": "sint",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "temporibus",
-    "Headers2": "ut"
+    "Headers1": "autem",
+    "Headers2": "soluta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1996-10-11T18:28:50.6064146+02:00",
-  "RegisteredAssociate": {
-    "AssociateId": 133,
-    "Name": "Veum Group",
-    "PersonId": 259,
-    "Rank": 190,
-    "Tooltip": "facilis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 294,
-    "FullName": "Helen Crooks II",
-    "FormalName": "Windler, Jacobs and O'Connell",
-    "Deleted": true,
-    "EjUserId": 691,
-    "UserName": "Russel-Hoppe",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 672
-      }
-    }
-  },
-  "Updated": "2014-11-29T18:28:50.6064146+01:00",
-  "UpdatedAssociate": {
-    "AssociateId": 633,
-    "Name": "Kemmer Group",
-    "PersonId": 668,
-    "Rank": 958,
-    "Tooltip": "ullam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 935,
-    "FullName": "Lawson Johns",
-    "FormalName": "Medhurst Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 611,
-    "UserName": "Schamberger, Davis and Lowe",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "revolutionize cutting-edge portals"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 705
-      }
-    }
-  }
+  "Registered": "2006-02-05T11:10:28.4752086+01:00",
+  "RegisteredAssociate": null,
+  "Updated": "2013-03-10T11:10:28.4752086+01:00",
+  "UpdatedAssociate": null
 }
 ```

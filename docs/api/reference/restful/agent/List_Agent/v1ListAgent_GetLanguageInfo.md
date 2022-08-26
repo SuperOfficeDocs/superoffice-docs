@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLanguageInfo
-id: v1ListAgent_GetLanguageInfo
+uid: v1ListAgent_GetLanguageInfo
 ---
 
 # POST Agents/List/GetLanguageInfo
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLanguageInfo
 
 Gets a LanguageInfo object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a LanguageInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=220
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=292
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for LanguageInfo.
-Services for the LanguageInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,39 +66,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLanguageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 137,
-  "LCID": 680,
-  "EnglishName": "Ratke Group",
-  "NativeName": "Friesen-Carroll",
-  "ThreeLetterISOLanguageName": "Bahringer-Greenfelder",
-  "TwoLetterISOLanguageName": "Kulas, Weissnat and Ondricka",
+  "LanguageInfoId": 199,
+  "LCID": 24,
+  "EnglishName": "Wiegand-Osinski",
+  "NativeName": "Zemlak LLC",
+  "ThreeLetterISOLanguageName": "Prohaska, Gaylord and Abbott",
+  "TwoLetterISOLanguageName": "Fritsch LLC",
   "IsBuiltIn": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldLength": 411
     }
   }
 }

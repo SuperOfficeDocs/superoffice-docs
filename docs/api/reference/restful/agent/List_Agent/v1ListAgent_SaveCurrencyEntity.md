@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveCurrencyEntity
-id: v1ListAgent_SaveCurrencyEntity
+uid: v1ListAgent_SaveCurrencyEntity
 ---
 
 # POST Agents/List/SaveCurrencyEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveCurrencyEntity
 ```
 
 Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CurrencyEntity to be saved.
+The CurrencyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,16 +46,16 @@ The CurrencyEntity to be saved.
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 
-## Response: object
 
-Carrier object for CurrencyEntity.
-Services for the CurrencyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveCurrencyEntity
@@ -72,40 +79,36 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 971,
-  "Name": "Dare Group",
-  "Tooltip": "eligendi",
-  "Rank": 794,
-  "Rate": 7245.808,
-  "Units": 4334.322,
-  "Deleted": true
+  "CurrencyId": 358,
+  "Name": "Emmerich, Robel and Watsica",
+  "Tooltip": "maiores",
+  "Rank": 657,
+  "Rate": 26335.002,
+  "Units": 1015.4159999999999,
+  "Deleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 104,
-  "Name": "Harvey, Abshire and Zemlak",
-  "Tooltip": "impedit",
-  "Rank": 343,
-  "Rate": 5945.1979999999994,
-  "Units": 3228.02,
+  "CurrencyId": 116,
+  "Name": "Dicki, Gislason and Barton",
+  "Tooltip": "nemo",
+  "Rank": 454,
+  "Rate": 3224.886,
+  "Units": 1018.55,
   "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 566
     }
   }
 }

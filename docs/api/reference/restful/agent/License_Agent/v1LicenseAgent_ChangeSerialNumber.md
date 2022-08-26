@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/ChangeSerialNumber
-id: v1LicenseAgent_ChangeSerialNumber
+uid: v1LicenseAgent_ChangeSerialNumber
 ---
 
 # POST Agents/License/ChangeSerialNumber
@@ -11,7 +11,13 @@ POST /api/v1/Agents/License/ChangeSerialNumber
 
 Change the new serial number for the installation.
 
+
 Requests a new license from SuperLicense, checks if change is authorized.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Requests a new license from SuperLicense, checks if change is authorized.
 ```http
 POST /api/v1/Agents/License/ChangeSerialNumber?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,25 +44,25 @@ POST /api/v1/Agents/License/ChangeSerialNumber?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-NewCompanyName, NewSerialNumber
+NewCompanyName, NewSerialNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | NewCompanyName | string |  |
 | NewSerialNumber | string |  |
 
-## Response: object
 
-Carrier object for LicenseResult.
-Services for the LicenseResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ILicenseAgent">License Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,20 +71,22 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Koepp, Kris and Simonis",
-  "NewSerialNumber": "823717"
+  "NewCompanyName": "Lind Group",
+  "NewSerialNumber": "903462"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,18 +95,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Succeeded": true,
   "Reason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldLength": 629
     }
   }
 }

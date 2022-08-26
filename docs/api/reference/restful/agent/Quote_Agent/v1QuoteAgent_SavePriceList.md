@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SavePriceList
-id: v1QuoteAgent_SavePriceList
+uid: v1QuoteAgent_SavePriceList
 ---
 
 # POST Agents/Quote/SavePriceList
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Quote/SavePriceList
 ```
 
 Updates the existing PriceList or creates a new PriceList if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing PriceList or creates a new PriceList if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PriceList to be saved.
+The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-Carrier object for PriceList.
-Services for the PriceList Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,56 +75,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 392,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 153,
-  "Name": "Aufderhar LLC",
-  "Description": "Synchronised full-range flexibility",
-  "Currency": "sed",
-  "CurrencyName": "Shanahan, Grimes and Schoen",
-  "ValidFrom": "1996-10-09T18:28:49.9701379+02:00",
-  "ValidTo": "2012-12-16T18:28:49.9701379+01:00",
-  "IsActive": false
+  "PriceListId": 313,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 816,
+  "Name": "Moen LLC",
+  "Description": "Implemented full-range knowledge base",
+  "Currency": "omnis",
+  "CurrencyName": "West, Botsford and Brown",
+  "ValidFrom": "2016-05-21T11:10:27.6724244+02:00",
+  "ValidTo": "2014-01-08T11:10:27.6724244+01:00",
+  "IsActive": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 846,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 967,
-  "Name": "Harber LLC",
-  "Description": "Progressive disintermediate pricing structure",
-  "Currency": "in",
-  "CurrencyName": "Schaefer LLC",
-  "ValidFrom": "2007-05-10T18:28:49.9711374+02:00",
-  "ValidTo": "2005-01-18T18:28:49.9711374+01:00",
+  "PriceListId": 167,
+  "ERPPriceListKey": "quasi",
+  "QuoteConnectionId": 933,
+  "Name": "Stroman Inc and Sons",
+  "Description": "Public-key zero tolerance productivity",
+  "Currency": "quaerat",
+  "CurrencyName": "Jacobson Inc and Sons",
+  "ValidFrom": "2012-10-26T11:10:27.6734518+02:00",
+  "ValidTo": "2013-05-28T11:10:27.6734518+02:00",
   "IsActive": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

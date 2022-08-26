@@ -1,6 +1,6 @@
 ---
 title: POST ProjectMember
-id: v1ProjectMember_PostProjectMember
+uid: v1ProjectMember_PostProjectMember
 ---
 
 # POST ProjectMember
@@ -11,7 +11,13 @@ POST /api/v1/ProjectMember
 
 Creates a new ProjectMember
 
+
 Calls the Project agent service SaveProjectMember.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Project agent service SaveProjectMember.
 ```http
 POST /api/v1/ProjectMember?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ProjectMember?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ProjectMember to be saved.
+The ProjectMember to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,22 +67,21 @@ The ProjectMember to be saved.
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-ProjectMember entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,7 +102,7 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -104,78 +110,74 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 725,
-  "ContactId": 184,
-  "ProjectId": 704,
-  "ContactName": "Considine Inc and Sons",
-  "ContactDepartment": "",
-  "ProjectName": "D'Amore LLC",
-  "EmailId": 839,
-  "EmailAddress": "waylon@pollichfriesen.com",
-  "CountryId": 307,
-  "Firstname": "Jayson",
-  "MiddleName": "Farrell LLC",
-  "Lastname": "Emard",
-  "PersonId": 162,
-  "Mrmrs": "explicabo",
-  "ProjectMemberTypeName": "Turcotte, Moore and Carroll",
-  "Phone": "340-616-3520",
-  "PhoneId": 94,
-  "ProjectMemberTypeId": 320,
-  "EmailAddressName": "maudie@sipes.name",
-  "Comment": "enim",
-  "FullName": "Reggie Effertz"
+  "ProjectmemberId": 344,
+  "ContactId": 946,
+  "ProjectId": 427,
+  "ContactName": "Hoeger, Bauch and Lind",
+  "ContactDepartment": "transform bleeding-edge e-business",
+  "ProjectName": "Ondricka LLC",
+  "EmailId": 35,
+  "EmailAddress": "maddison_ernser@reinger.com",
+  "CountryId": 537,
+  "Firstname": "Amely",
+  "MiddleName": "Orn, Rutherford and Breitenberg",
+  "Lastname": "Wehner",
+  "PersonId": 797,
+  "Mrmrs": "vero",
+  "ProjectMemberTypeName": "O'Hara-Douglas",
+  "Phone": "1-051-267-1300",
+  "PhoneId": 923,
+  "ProjectMemberTypeId": 216,
+  "EmailAddressName": "brandi@walshwunsch.name",
+  "Comment": "atque",
+  "FullName": "Dr. Marlon Wiegand"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 228,
-  "ContactId": 261,
-  "ProjectId": 491,
-  "ContactName": "Hayes LLC",
+  "ProjectmemberId": 161,
+  "ContactId": 882,
+  "ProjectId": 529,
+  "ContactName": "Rempel-Dibbert",
   "ContactDepartment": "",
-  "ProjectName": "Russel, Funk and Christiansen",
-  "EmailId": 361,
-  "EmailAddress": "genesis@goyettekuhlman.name",
-  "CountryId": 209,
-  "Firstname": "Morton",
-  "MiddleName": "Cronin-Cormier",
-  "Lastname": "Bode",
-  "PersonId": 756,
-  "Mrmrs": "dolore",
-  "ProjectMemberTypeName": "Ankunding, Hintz and Gerlach",
-  "Phone": "(232)807-2400 x270",
-  "PhoneId": 433,
-  "ProjectMemberTypeId": 291,
-  "EmailAddressName": "wanda@fisher.name",
-  "Comment": "et",
-  "FullName": "Ms. Hadley Wiza",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Greenfelder Inc and Sons",
+  "EmailId": 179,
+  "EmailAddress": "maya.nader@bins.name",
+  "CountryId": 261,
+  "Firstname": "Willis",
+  "MiddleName": "Champlin LLC",
+  "Lastname": "Hintz",
+  "PersonId": 378,
+  "Mrmrs": "quae",
+  "ProjectMemberTypeName": "Wunsch Group",
+  "Phone": "1-881-504-6621 x1878",
+  "PhoneId": 829,
+  "ProjectMemberTypeId": 819,
+  "EmailAddressName": "daniela_koepp@funk.ca",
+  "Comment": "temporibus",
+  "FullName": "Sonia Grimes",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   },
   "_Links": {

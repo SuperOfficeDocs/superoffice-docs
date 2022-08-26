@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetConsentSourceList
-id: v1ListAgent_GetConsentSourceList
+uid: v1ListAgent_GetConsentSourceList
 ---
 
 # POST Agents/List/GetConsentSourceList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentSourceList
 
 Gets an array of ConsentSource objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ConsentSource objects.
 ```http
 POST /api/v1/Agents/List/GetConsentSourceList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetConsentSourceList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: consentSourceIds
+## Request Body: consentSourceIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,14 +70,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -74,25 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 23,
-    "Name": "Raynor Inc and Sons",
-    "Tooltip": "officiis",
-    "Rank": 97,
-    "Key": "nesciunt",
-    "MailTemplateId": 552,
-    "Deleted": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ConsentSourceId": 654,
+    "Name": "Tromp, Kozey and Schaefer",
+    "Tooltip": "est",
+    "Rank": 612,
+    "Key": "voluptas",
+    "MailTemplateId": 466,
+    "Deleted": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldLength": 122
       }
     }
   }

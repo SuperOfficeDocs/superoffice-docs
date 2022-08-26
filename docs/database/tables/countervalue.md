@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CounterValue"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,6 +49,7 @@ Visible for rights
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![CounterValue table relationship diagram](./media/CounterValue.png)
 
 [!include[details](./includes/countervalue.md)]
@@ -69,12 +70,13 @@ Visible for rights
 
 | Table|  Description |
 |------|-------------|
-|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.  |
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[Intent](intent.md)  |Intent list for SAINT.  |
+|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[project](project.md)  |Projects |
+
 
 ## Replication Flags
 
@@ -83,3 +85,4 @@ Visible for rights
 ## Security Flags
 
 * No access control via user's Role.
+

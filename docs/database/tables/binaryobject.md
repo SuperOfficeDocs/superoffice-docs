@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "BinaryObject"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,7 @@ Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail 
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![BinaryObject table relationship diagram](./media/BinaryObject.png)
 
 [!include[details](./includes/binaryobject.md)]
@@ -57,6 +58,7 @@ Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail 
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[BinaryObjectLink](binaryobjectlink.md)  |Link table, connects a BinaryObject with one or more owners |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -66,3 +68,4 @@ Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail 
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

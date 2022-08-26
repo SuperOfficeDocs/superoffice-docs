@@ -1,6 +1,6 @@
 ---
 title: GET List/Rating/Items/{id}
-id: v1RatingList_GetSaleStageEntity
+uid: v1RatingList_GetSaleStageEntity
 ---
 
 # GET List/Rating/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/Rating/Items/{id}
 
 Gets a SaleStageEntity list item.
 
+
 Calls the List agent service GetSaleStageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Rating to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ Calls the List agent service GetSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-This entity represents a sale stage with a default percentage rating.
+## Response: 
 
-Carrier object for SaleStageEntity.
-Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,38 +60,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Rating/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 835,
-  "Value": "numquam",
-  "Tooltip": "aliquid",
-  "Probability": 630,
-  "Deleted": true,
-  "Rank": 758,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SaleStageId": 782,
+  "Value": "sapiente",
+  "Tooltip": "inventore",
+  "Probability": 535,
+  "Deleted": false,
+  "Rank": 535,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "brand scalable applications"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 834
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/SaveDashboard
-id: v1DashboardAgent_SaveDashboard
+uid: v1DashboardAgent_SaveDashboard
 ---
 
 # POST Agents/Dashboard/SaveDashboard
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Dashboard/SaveDashboard
 ```
 
 Updates the existing Dashboard or creates a new Dashboard if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing Dashboard or creates a new Dashboard if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dashboard to be saved.
+The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,18 +44,16 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dashboard.
-Services for the Dashboard Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,32 +65,32 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 758,
-  "AssociateId": 453,
-  "Caption": "libero",
+  "DashboardId": 824,
+  "AssociateId": 999,
+  "Caption": "voluptates",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 371,
-      "Caption": "dignissimos",
-      "Description": "Exclusive logistical moderator",
-      "ChartName": "O'Hara LLC",
-      "ChartId": "quia",
+      "DashboardTileId": 873,
+      "Caption": "ipsum",
+      "Description": "Ergonomic zero tolerance open system",
+      "ChartName": "Lindgren, Davis and Ryan",
+      "ChartId": "culpa",
       "IsDefault": true,
-      "AssociateId": 297,
-      "GroupId": 636,
-      "SelectionId": 21,
-      "Config": "odio",
+      "AssociateId": 254,
+      "GroupId": 847,
+      "SelectionId": 59,
+      "Config": "quod",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,27 +106,29 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 135,
-  "AssociateId": 940,
-  "Caption": "ut",
+  "DashboardId": 87,
+  "AssociateId": 256,
+  "Caption": "itaque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 620,
-      "Caption": "debitis",
-      "Description": "Streamlined modular knowledge user",
-      "ChartName": "Kassulke-Hills",
-      "ChartId": "dolore",
+      "DashboardTileId": 459,
+      "Caption": "illum",
+      "Description": "Extended assymetric instruction set",
+      "ChartName": "Kuhic Group",
+      "ChartId": "rerum",
       "IsDefault": true,
-      "AssociateId": 20,
-      "GroupId": 583,
-      "SelectionId": 831,
-      "Config": "provident",
+      "AssociateId": 134,
+      "GroupId": 555,
+      "SelectionId": 134,
+      "Config": "laboriosam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -132,31 +139,22 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 637
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 420
     }
   }
 }

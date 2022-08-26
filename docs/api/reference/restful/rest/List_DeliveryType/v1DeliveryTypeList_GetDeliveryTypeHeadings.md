@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryType/Headings
-id: v1DeliveryTypeList_GetDeliveryTypeHeadings
+uid: v1DeliveryTypeList_GetDeliveryTypeHeadings
 ---
 
 # GET List/DeliveryType/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/DeliveryType/Headings
 
 Gets headings for the DeliveryType list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,7 +55,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryType/Headings
@@ -54,30 +64,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 188,
-    "Name": "Armstrong-Zulauf",
-    "Tooltip": "reiciendis",
+    "HeadingId": 784,
+    "Name": "Kuphal, Smitham and Brown",
+    "Tooltip": "error",
     "Deleted": true,
-    "Rank": 42,
-    "UdListDefinitionId": 665,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 233,
+    "UdListDefinitionId": 775,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldLength": 52
       }
     }
   }

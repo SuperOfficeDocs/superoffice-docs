@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Heading"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Heading items for all MDO lists, lists that are grouped and filtered.
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![Heading table relationship diagram](./media/Heading.png)
 
@@ -79,6 +80,8 @@ Heading items for all MDO lists, lists that are grouped and filtered.
 |[ProductTypeHeadingLink](producttypeheadinglink.md)  |Heading link table for ProductType, for MDO item headings |
 |[ProjStatusHeadingLink](projstatusheadinglink.md)  |Heading link table for ProjStatus, for MDO headers |
 |[ProjTypeHeadingLink](projtypeheadinglink.md)  |Heading link table for ProjType, for MDO headers |
+|[QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md)  |Heading link table for QuoteApprReason, for MDO headers |
+|[QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md)  |Heading link table for QuoteDenyReason, for MDO headers |
 |[ReasonHeadingLink](reasonheadinglink.md)  |Heading link table for Reason, for MDO headers |
 |[ReasonSoldHeadingLink](reasonsoldheadinglink.md)  |Heading link table for ReasonSold, for MDO headers |
 |[ReasonStalledHeadingLink](reasonstalledheadinglink.md)  |Heading link table for ReasonStalled, for MDO headers |
@@ -95,6 +98,7 @@ Heading items for all MDO lists, lists that are grouped and filtered.
 |[TaskHeadingLink](taskheadinglink.md)  |Heading link table for Task, for MDO headers |
 |[UDListHeadingLink](udlistheadinglink.md)  |Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -104,3 +108,4 @@ Heading items for all MDO lists, lists that are grouped and filtered.
 ## Security Flags
 
 * No access control via user's Role.
+

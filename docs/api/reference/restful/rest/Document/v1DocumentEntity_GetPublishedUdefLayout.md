@@ -1,6 +1,6 @@
 ---
 title: GET Document/UdefLayout/Published
-id: v1DocumentEntity_GetPublishedUdefLayout
+uid: v1DocumentEntity_GetPublishedUdefLayout
 ---
 
 # GET Document/UdefLayout/Published
@@ -10,6 +10,13 @@ GET /api/v1/Document/UdefLayout/Published
 ```
 
 Currently published DocumentEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Currently published DocumentEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,14 +81,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,52 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 641,
-    "ColumnId": 530,
-    "FieldDefault": "at",
-    "FieldHeight": 639,
-    "FieldLabel": "nesciunt",
-    "FieldLeft": 647,
-    "FieldTop": 409,
+    "UDefFieldId": 528,
+    "ColumnId": 393,
+    "FieldDefault": "quia",
+    "FieldHeight": 402,
+    "FieldLabel": "tempore",
+    "FieldLeft": 665,
+    "FieldTop": 234,
     "FieldType": "Checkbox",
-    "FieldWidth": 585,
-    "FormatMask": "earum",
+    "FieldWidth": 5,
+    "FormatMask": "consequatur",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 738,
-    "LabelLeft": 370,
-    "LabelTop": 758,
-    "LabelWidth": 810,
-    "LastVersionId": 865,
-    "ListTableId": 553,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 538,
+    "LabelLeft": 169,
+    "LabelTop": 733,
+    "LabelWidth": 11,
+    "LastVersionId": 364,
+    "ListTableId": 47,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 899,
-    "ProgId": "facilis",
-    "IsReadOnly": true,
-    "ShortLabel": "magnam",
-    "TabOrder": 269,
-    "TextLength": 29,
-    "Tooltip": "inventore",
-    "UdefIdentity": 395,
-    "UDListDefinitionId": 985,
+    "Page1LineNo": 682,
+    "ProgId": "voluptatibus",
+    "IsReadOnly": false,
+    "ShortLabel": "voluptas",
+    "TabOrder": 580,
+    "TextLength": 923,
+    "Tooltip": "repellendus",
+    "UdefIdentity": 626,
+    "UDListDefinitionId": 902,
     "Justification": "Center",
-    "Version": 899,
-    "TemplateVariableName": "Kassulke Inc and Sons",
+    "Version": 550,
+    "TemplateVariableName": "Fay, Cummerata and Carter",
     "HasBeenPublished": false,
-    "MdoListName": "Grady LLC",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Boyle-Mayert",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldLength": 426
       }
     }
   }

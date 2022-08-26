@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPublishedDocument
-id: v1DocumentAgent_GetPublishedDocument
+uid: v1DocumentAgent_GetPublishedDocument
 ---
 
 # POST Agents/Document/GetPublishedDocument
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetPublishedDocument
 
 Get the document if it's published
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the document if it's published
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/Document/GetPublishedDocument?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response: object
 
-Carrier object for Document.
-Services for the Document Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,10 +81,12 @@ Response body: object
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPublishedDocument
@@ -87,45 +96,43 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 344
+  "DocumentId": 251
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 932,
-  "Attention": "sed",
-  "Header": "ducimus",
-  "Name": "Tremblay, Larkin and Block",
-  "OurRef": "quisquam",
-  "YourRef": "voluptatem",
-  "Description": "Realigned disintermediate productivity",
-  "DocumentTemplate": "qui",
-  "IsPublished": true,
-  "PersonId": 898,
-  "PersonFullName": "Ida Mraz",
-  "AssociateFullName": "Araceli Leffler",
-  "ContactId": 892,
-  "ContactName": "Kiehn, Abernathy and Dare",
-  "ProjectId": 11,
-  "ProjectName": "Johnson-Hermiston",
-  "AssociateId": 89,
-  "Snum": 797,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DocumentId": 592,
+  "Attention": "dolor",
+  "Header": "autem",
+  "Name": "Sipes, Pfeffer and Labadie",
+  "OurRef": "ipsam",
+  "YourRef": "sunt",
+  "Description": "Multi-channelled multi-state firmware",
+  "DocumentTemplate": "voluptas",
+  "IsPublished": false,
+  "PersonId": 309,
+  "PersonFullName": "Carmine Kiehn",
+  "AssociateFullName": "Juston Pfeffer III",
+  "ContactId": 142,
+  "ContactName": "Becker-Olson",
+  "ProjectId": 838,
+  "ProjectName": "Leffler Group",
+  "AssociateId": 610,
+  "Snum": 759,
+  "SaleId": 826,
+  "SaleName": "Jaskolski Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldLength": 467
     }
   }
 }

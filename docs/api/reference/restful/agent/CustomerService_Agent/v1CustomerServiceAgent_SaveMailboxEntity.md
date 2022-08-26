@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/SaveMailboxEntity
-id: v1CustomerServiceAgent_SaveMailboxEntity
+uid: v1CustomerServiceAgent_SaveMailboxEntity
 ---
 
 # POST Agents/CustomerService/SaveMailboxEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 ```
 
 Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing MailboxEntity or creates a new MailboxEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The MailboxEntity to be saved.
+The MailboxEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,18 +46,16 @@ The MailboxEntity to be saved.
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
 
-## Response: object
 
-This entity represent a mailbox used for importing emails in Service
+## Response: 
 
-Carrier object for MailboxEntity.
-Services for the MailboxEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,50 +69,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 669,
+  "MailInFilterId": 892,
   "ServerType": "Facebook",
-  "Address": "sit",
-  "Username": "natus",
-  "Password": "autem",
-  "Server": "sed",
-  "Port": 85
+  "Address": "suscipit",
+  "Username": "aut",
+  "Password": "voluptatibus",
+  "Server": "voluptatem",
+  "Port": 554
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 702,
+  "MailInFilterId": 13,
   "ServerType": "Facebook",
-  "Address": "aut",
-  "Username": "nemo",
-  "Password": "aperiam",
-  "Server": "nihil",
-  "Port": 788,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Address": "nemo",
+  "Username": "recusandae",
+  "Password": "quam",
+  "Server": "voluptatum",
+  "Port": 851,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 774
     }
   }
 }

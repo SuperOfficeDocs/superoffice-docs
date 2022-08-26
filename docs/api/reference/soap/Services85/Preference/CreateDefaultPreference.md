@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.CreateDe
 Loading default values into a new Preference.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New Preference with default values
+
 
 [WSDL file for Services85/Preference](../Services85-Preference.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultPreference Response
 
@@ -87,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

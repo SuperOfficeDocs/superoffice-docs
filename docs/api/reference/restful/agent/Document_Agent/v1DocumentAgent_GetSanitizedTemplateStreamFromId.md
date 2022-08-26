@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetSanitizedTemplateStreamFromId
-id: v1DocumentAgent_GetSanitizedTemplateStreamFromId
+uid: v1DocumentAgent_GetSanitizedTemplateStreamFromId
 ---
 
 # POST Agents/Document/GetSanitizedTemplateStreamFromId
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
 
 Retrieve a stream to a document template based on its id.
 
+
 Sanitizes the contents if possible.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Sanitizes the contents if possible.
 ```http
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,41 +44,47 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TemplateId, UiCulture
+TemplateId, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemplateId | int32 |  |
 | UiCulture | string |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: sv
+Accept: application/json; charset=utf-8
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 434,
-  "UiCulture": "vel"
+  "TemplateId": 277,
+  "UiCulture": "rerum"
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

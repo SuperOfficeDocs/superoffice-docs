@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/CreateDefaultFormEntity
-id: v1MarketingAgent_CreateDefaultFormEntity
+uid: v1MarketingAgent_CreateDefaultFormEntity
 ---
 
 # POST Agents/Marketing/CreateDefaultFormEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 
 Set default values into a new FormEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Definition and configuration of a Form
+## Response: 
 
-Carrier object for FormEntity.
-Services for the FormEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,54 +71,50 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 36,
-  "FormKey": "adipisci",
-  "Name": "Greenholt Group",
-  "Description": "Secured tangible knowledge base",
-  "Config": "fuga",
-  "FolderId": 127,
-  "ScriptId": 49,
-  "ResponseShipmentId": 478,
+  "FormId": 588,
+  "FormKey": "velit",
+  "Name": "Waters, Turcotte and Sipes",
+  "Description": "Vision-oriented heuristic workforce",
+  "Config": "mollitia",
+  "FolderId": 873,
+  "ScriptId": 616,
+  "ResponseShipmentId": 992,
   "Active": true,
-  "Expires": "2012-09-06T18:28:49.4580873+02:00",
-  "MaxSubmits": 301,
+  "Expires": "2000-03-13T11:10:27.2844527+01:00",
+  "MaxSubmits": 691,
   "Type": "Normal",
-  "Recipe": "molestiae",
-  "GroupId": 319,
+  "Recipe": "quaerat",
+  "GroupId": 495,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2010-09-18T18:28:49.4580873+02:00",
-  "RegisteredAssociateId": 864,
-  "Updated": "2017-05-28T18:28:49.4580873+02:00",
-  "UpdatedAssociateId": 130,
-  "UpdatedCount": 518,
-  "FolderName": "Moen, Abbott and Gaylord",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "incubate dot-com communities"
-  },
+  "Registered": "1999-09-15T11:10:27.2844527+02:00",
+  "RegisteredAssociateId": 202,
+  "Updated": "2010-06-16T11:10:27.2844527+02:00",
+  "UpdatedAssociateId": 401,
+  "UpdatedCount": 933,
+  "FolderName": "Trantow Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

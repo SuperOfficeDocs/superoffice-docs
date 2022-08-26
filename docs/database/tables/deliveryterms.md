@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryTerms"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ The list of Delivery terms, in the internal product register
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![DeliveryTerms table relationship diagram](./media/DeliveryTerms.png)
 
 [!include[details](./includes/deliveryterms.md)]
@@ -52,6 +53,7 @@ The list of Delivery terms, in the internal product register
 |[DeliveryTermsGroupLink](deliverytermsgrouplink.md)  |User group link table for DeliveryTerms, for MDO item hiding |
 |[DeliveryTermsHeadingLink](deliverytermsheadinglink.md)  |Heading link table for DeliveryTerms, for MDO item headings |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,3 +63,4 @@ The list of Delivery terms, in the internal product register
 ## Security Flags
 
 * No access control via user's Role.
+

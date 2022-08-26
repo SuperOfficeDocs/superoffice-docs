@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_attachment"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ A connector between a message and attachments. One message can contain many atta
 |id|Primary key|PK| |
 |attachment\_id|The id of the attachment|FK [attachment](attachment.md)| |
 |message\_id|The id of the message|FK [s_message](s-message.md)| |
+
 
 ![s_attachment table relationship diagram](./media/s_attachment.png)
 
@@ -44,6 +45,7 @@ A connector between a message and attachments. One message can contain many atta
 |[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
 |[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
 
+
 ## Replication Flags
 
 * None
@@ -51,3 +53,4 @@ A connector between a message and attachments. One message can contain many atta
 ## Security Flags
 
 * No access control via user's Role.
+

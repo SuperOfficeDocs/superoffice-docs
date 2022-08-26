@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetConsentSources
-id: v1ListAgent_GetConsentSources
+uid: v1ListAgent_GetConsentSources
 ---
 
 # POST Agents/List/GetConsentSources
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentSources
 
 Returns all defined Sources.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all defined Sources.
 ```http
 POST /api/v1/Agents/List/GetConsentSources?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetConsentSources?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,14 +64,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -69,25 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 479,
-    "Name": "Stracke, Hammes and Little",
-    "Tooltip": "doloremque",
-    "Rank": 740,
-    "Key": "sed",
-    "MailTemplateId": 87,
-    "Deleted": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ConsentSourceId": 560,
+    "Name": "Dooley Group",
+    "Tooltip": "odit",
+    "Rank": 127,
+    "Key": "corrupti",
+    "MailTemplateId": 252,
+    "Deleted": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

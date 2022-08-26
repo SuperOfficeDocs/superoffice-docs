@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateSelectionEntity
-id: v1SelectionAgent_CreateSelectionEntity
+uid: v1SelectionAgent_CreateSelectionEntity
 ---
 
 # POST Agents/Selection/CreateSelectionEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateSelectionEntity
 
 Create (but do not save) a new selection entity, for the current user and the given target table; other fields populated as by CreateDefaultSelectionEntity()
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create (but do not save) a new selection entity, for the current user and the gi
 ```http
 POST /api/v1/Agents/Selection/CreateSelectionEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/Selection/CreateSelectionEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TargetTableName
+TargetTableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetTableName | string |  |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +68,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -100,246 +107,101 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Hilpert, Schiller and Rodriguez"
+  "TargetTableName": "Gulgowski, Gusikowski and Boyer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reverse-engineered client-server functionalities",
-  "Postit": "aperiam",
-  "Associate": {
-    "AssociateId": 488,
-    "Name": "Flatley-Gorczany",
-    "PersonId": 68,
-    "Rank": 36,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 499,
-    "FullName": "Carlo Kutch",
-    "FormalName": "Koss Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 245,
-    "UserName": "Larson-Bartell",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 648
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 301,
-    "Name": "Kuphal Inc and Sons",
-    "PersonId": 273,
-    "Rank": 179,
-    "Tooltip": "mollitia",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 628,
-    "FullName": "Mrs. Maximus Beer",
-    "FormalName": "Leffler-Marvin",
-    "Deleted": true,
-    "EjUserId": 465,
-    "UserName": "Legros-Bergstrom",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 643
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 941,
-    "Name": "Reynolds, Abshire and Bernhard",
-    "PersonId": 948,
-    "Rank": 463,
-    "Tooltip": "assumenda",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 883,
-    "FullName": "Carrie Hamill",
-    "FormalName": "Lynch-Hessel",
-    "Deleted": true,
-    "EjUserId": 463,
-    "UserName": "Jewess, Dibbert and Dickens",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 196
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 249,
-    "Value": "incidunt",
-    "Tooltip": "ut",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 259
-      }
-    }
-  },
-  "GroupIdx": 866,
-  "IncludePerson": 138,
-  "MemberCount": 559,
-  "Name": "Schultz Inc and Sons",
-  "PostitTextId": 292,
-  "CreatedDate": "2003-11-18T18:28:50.2344133+01:00",
-  "SelectionId": 647,
-  "SoundEx": "vitae",
-  "Source": 145,
-  "TextId": 987,
-  "UpdatedDate": "1995-04-29T18:28:50.2344133+02:00",
-  "UpdatedCount": 708,
-  "Visibility": 753,
+  "Description": "Stand-alone systematic moderator",
+  "Postit": "aspernatur",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 151,
+  "IncludePerson": 995,
+  "MemberCount": 160,
+  "Name": "Okuneva, Feil and Littel",
+  "PostitTextId": 31,
+  "CreatedDate": "1999-10-16T11:10:27.8989795+02:00",
+  "SelectionId": 547,
+  "SoundEx": "vel",
+  "Source": 893,
+  "TextId": 865,
+  "UpdatedDate": "1995-08-16T11:10:27.8989795+02:00",
+  "UpdatedCount": 662,
+  "Visibility": 246,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 225,
-  "TargetTableName": "Marvin, Ritchie and Lockman",
+  "CompanyUnique": false,
+  "TargetTableNumber": 7,
+  "TargetTableName": "Stiedemann Group",
   "Completed": false,
-  "LeftSelectionId": 754,
-  "RightSelectionId": 215,
+  "LeftSelectionId": 452,
+  "RightSelectionId": 915,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Roberts-Heaney",
-  "ShadowProviderName": "Legros-Boehm",
-  "ChartKey": "optio",
-  "LastLoaded": "2015-10-02T18:28:50.2344133+02:00",
-  "LastLoadedBy": 912,
-  "LastLoadedByAssociate": {
-    "AssociateId": 400,
-    "Name": "Hegmann, Tremblay and Legros",
-    "PersonId": 348,
-    "Rank": 192,
-    "Tooltip": "ab",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 147,
-    "FullName": "Edd Bashirian",
-    "FormalName": "Jakubowski-Kshlerin",
-    "Deleted": false,
-    "EjUserId": 126,
-    "UserName": "Olson-Hagenes",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 916
-      }
-    }
-  },
-  "LastMembershipChange": "2013-08-14T18:28:50.235413+02:00",
-  "LastMembershipChangeBy": 864,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 553,
-    "Name": "Powlowski Inc and Sons",
-    "PersonId": 483,
-    "Rank": 842,
-    "Tooltip": "aliquid",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 859,
-    "FullName": "Mrs. Floyd Schoen",
-    "FormalName": "Wilderman, Hills and Altenwerth",
-    "Deleted": true,
-    "EjUserId": 308,
-    "UserName": "Cassin, Metz and Mohr",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 90
-      }
-    }
-  },
-  "MainHeading": "autem",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Hansen LLC",
-  "DashboardTileDefinitionId": 991,
+  "MainProviderName": "Stehr Inc and Sons",
+  "ShadowProviderName": "Gleichner-Hodkiewicz",
+  "ChartKey": "quidem",
+  "LastLoaded": "2019-12-13T11:10:27.8999794+01:00",
+  "LastLoadedBy": 176,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2015-03-11T11:10:27.9019801+01:00",
+  "LastMembershipChangeBy": 933,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "provident",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Reinger-Kub",
+  "DashboardTileDefinitionId": 757,
   "VisibleFor": [
     {
-      "VisibleId": 569,
+      "VisibleId": 533,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
-      "TableRight": {},
+      "DisplayValue": "provident",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldLength": 686
         }
       }
     },
     {
-      "VisibleId": 569,
+      "VisibleId": 533,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
-      "TableRight": {},
+      "DisplayValue": "provident",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldLength": 686
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

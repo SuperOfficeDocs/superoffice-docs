@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetPreferenceByNameAndId
-id: v1PreferenceAgent_GetPreferenceByNameAndId
+uid: v1PreferenceAgent_GetPreferenceByNameAndId
 ---
 
 # POST Agents/Preference/GetPreferenceByNameAndId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 
 Get a preference by name and owner id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a preference by name and owner id.
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Preference/GetPreferenceByNameAndId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PrefSection, PrefKey, PrefLevel, OwnerId
+PrefSection, PrefKey, PrefLevel, OwnerId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,18 +53,16 @@ PrefSection, PrefKey, PrefLevel, OwnerId
 | PrefLevel | string |  |
 | OwnerId | int32 |  |
 
-## Response: object
 
-One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.
+## Response: 
 
-Carrier object for Preference.
-Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,22 +80,24 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "facilis",
-  "PrefKey": "est",
+  "PrefSection": "sint",
+  "PrefKey": "voluptas",
   "PrefLevel": "Database",
-  "OwnerId": 158
+  "OwnerId": 241
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -98,58 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "tempore",
-  "Specification": {
-    "Section": "quam",
-    "Key": "ab",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 603
-      }
-    }
-  },
-  "DisplayValue": "doloribus",
-  "DisplayTooltip": "dolorem",
+  "RawValue": "facilis",
+  "Specification": null,
+  "DisplayValue": "at",
+  "DisplayTooltip": "praesentium",
   "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 372,
-    "TabName": "Cummings LLC",
-    "Order": "incidunt",
-    "AssociateId": 893,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 681
-      }
-    }
-  },
-  "TargetId": 412,
-  "PrefDescId": 402,
-  "TableName": "Carroll, McKenzie and Bailey",
-  "UserPreferenceId": 316,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TabOrder": null,
+  "TargetId": 263,
+  "PrefDescId": 738,
+  "TableName": "Goodwin-Emard",
+  "UserPreferenceId": 240,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 425
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

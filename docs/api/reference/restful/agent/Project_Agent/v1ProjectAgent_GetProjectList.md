@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectList
-id: v1ProjectAgent_GetProjectList
+uid: v1ProjectAgent_GetProjectList
 ---
 
 # POST Agents/Project/GetProjectList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectList
 
 Gets an array of Project objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Project objects.
 ```http
 POST /api/v1/Agents/Project/GetProjectList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Project/GetProjectList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectIds
+## Request Body: projectIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -70,7 +81,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectList
@@ -79,42 +90,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 173,
-    "Name": "Leannon-Cremin",
-    "Description": "Cross-group user-facing access",
+    "ProjectId": 235,
+    "Name": "Torp, Schmitt and Sanford",
+    "Description": "Reverse-engineered bi-directional open architecture",
     "URL": "http://www.example.com/",
-    "Type": "est",
-    "AssociateId": 556,
-    "AssociateFullName": "Archibald Pagac DDS",
-    "TypeId": 802,
-    "Updated": "2003-09-23T18:28:49.7791383+02:00",
-    "StatusId": 937,
-    "Status": "quos",
-    "TextId": 741,
-    "PublishTo": "2010-04-29T18:28:49.7791383+02:00",
-    "PublishFrom": "2003-12-27T18:28:49.7791383+01:00",
+    "Type": "exercitationem",
+    "AssociateId": 595,
+    "AssociateFullName": "Gertrude Kuhn",
+    "TypeId": 175,
+    "Updated": "2010-08-18T11:10:27.6184605+02:00",
+    "StatusId": 606,
+    "Status": "a",
+    "TextId": 161,
+    "PublishTo": "1998-05-20T11:10:27.6184605+02:00",
+    "PublishFrom": "2015-10-07T11:10:27.6184605+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "232268",
-    "ActiveErpLinks": 166,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectNumber": "1268108",
+    "ActiveErpLinks": 212,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 946
       }
     }
   }

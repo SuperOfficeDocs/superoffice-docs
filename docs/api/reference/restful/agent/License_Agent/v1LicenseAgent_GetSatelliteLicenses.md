@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetSatelliteLicenses
-id: v1LicenseAgent_GetSatelliteLicenses
+uid: v1LicenseAgent_GetSatelliteLicenses
 ---
 
 # POST Agents/License/GetSatelliteLicenses
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetSatelliteLicenses
 
 Obtain information about satellite module licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Obtain information about satellite module licenses
 ```http
 POST /api/v1/Agents/License/GetSatelliteLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/License/GetSatelliteLicenses?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SatelliteId
+SatelliteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SatelliteId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,19 +70,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 539
+  "SatelliteId": 890
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,33 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rodriguez Group",
-    "Description": "Stand-alone user-facing middleware",
+    "Name": "Wolff-Kulas",
+    "Description": "Streamlined mobile help-desk",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 835,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 251,
-        "InUse": 25,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 665,
-        "Name": "Quitzon-Hettinger",
-        "Description": "Synergistic global algorithm",
-        "PrerequisiteModuleName": "Ankunding Inc and Sons",
-        "SortOrder": 45,
-        "ExtraFlags": 486,
-        "TableRight": {},
+        "Unrestricted": false,
+        "Total": 741,
+        "Tooltip": "sunt",
+        "CanAssign": false,
+        "Free": 679,
+        "InUse": 262,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 413,
+        "Name": "Romaguera Inc and Sons",
+        "Description": "Extended zero administration product",
+        "PrerequisiteModuleName": "Bailey Group",
+        "SortOrder": 417,
+        "ExtraFlags": 674,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 691
           }
         }
       }
@@ -114,75 +123,63 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 40,
-        "Tooltip": "voluptatem",
-        "CanAssign": false,
-        "Free": 341,
-        "InUse": 364,
-        "IsHidden": true,
+        "Total": 826,
+        "Tooltip": "quisquam",
+        "CanAssign": true,
+        "Free": 522,
+        "InUse": 990,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 952,
-        "Name": "Grady-Rohan",
-        "Description": "Versatile asynchronous knowledge base",
-        "PrerequisiteModuleName": "Funk, Schneider and O'Connell",
-        "SortOrder": 516,
-        "ExtraFlags": 993,
-        "TableRight": {},
+        "ModuleLicenseId": 271,
+        "Name": "Sauer, Ratke and Wolff",
+        "Description": "Pre-emptive 4th generation moratorium",
+        "PrerequisiteModuleName": "Lakin Group",
+        "SortOrder": 990,
+        "ExtraFlags": 665,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 95
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "cultivate scalable platforms"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 226
       }
     }
   },
   {
-    "Name": "Rodriguez Group",
-    "Description": "Stand-alone user-facing middleware",
+    "Name": "Wolff-Kulas",
+    "Description": "Streamlined mobile help-desk",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 835,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 251,
-        "InUse": 25,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 665,
-        "Name": "Quitzon-Hettinger",
-        "Description": "Synergistic global algorithm",
-        "PrerequisiteModuleName": "Ankunding Inc and Sons",
-        "SortOrder": 45,
-        "ExtraFlags": 486,
-        "TableRight": {},
+        "Unrestricted": false,
+        "Total": 741,
+        "Tooltip": "sunt",
+        "CanAssign": false,
+        "Free": 679,
+        "InUse": 262,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 413,
+        "Name": "Romaguera Inc and Sons",
+        "Description": "Extended zero administration product",
+        "PrerequisiteModuleName": "Bailey Group",
+        "SortOrder": 417,
+        "ExtraFlags": 674,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 691
           }
         }
       }
@@ -190,44 +187,35 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 40,
-        "Tooltip": "voluptatem",
-        "CanAssign": false,
-        "Free": 341,
-        "InUse": 364,
-        "IsHidden": true,
+        "Total": 826,
+        "Tooltip": "quisquam",
+        "CanAssign": true,
+        "Free": 522,
+        "InUse": 990,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 952,
-        "Name": "Grady-Rohan",
-        "Description": "Versatile asynchronous knowledge base",
-        "PrerequisiteModuleName": "Funk, Schneider and O'Connell",
-        "SortOrder": 516,
-        "ExtraFlags": 993,
-        "TableRight": {},
+        "ModuleLicenseId": 271,
+        "Name": "Sauer, Ratke and Wolff",
+        "Description": "Pre-emptive 4th generation moratorium",
+        "PrerequisiteModuleName": "Lakin Group",
+        "SortOrder": 990,
+        "ExtraFlags": 665,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 95
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "cultivate scalable platforms"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 226
       }
     }
   }

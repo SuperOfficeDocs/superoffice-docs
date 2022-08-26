@@ -1,6 +1,6 @@
 ---
 title: PUT List/Source/Items
-id: v1SourceList_PutAllSource
+uid: v1SourceList_PutAllSource
 ---
 
 # PUT List/Source/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Source/Items
 ```
 
 Update the Source list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Source list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Source.
+All the updated Source. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Source.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Source/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Legros LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 701,
-    "Rank": 322
+    "Id": 686,
+    "Name": "O'Kon-Douglas",
+    "Tooltip": "tempora",
+    "Deleted": false,
+    "UdListDefinitionId": 334,
+    "Rank": 812
   },
   {
-    "Id": 979,
-    "Name": "Legros LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 701,
-    "Rank": 322
+    "Id": 686,
+    "Name": "O'Kon-Douglas",
+    "Tooltip": "tempora",
+    "Deleted": false,
+    "UdListDefinitionId": 334,
+    "Rank": 812
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Osinski, Kiehn and Gusikowski",
-    "Tooltip": "inventore",
+    "Id": 904,
+    "Name": "Klein-Heathcote",
+    "Tooltip": "similique",
     "Deleted": false,
-    "UdListDefinitionId": 92,
-    "Rank": 526,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 802,
+    "Rank": 227,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 829
       }
     }
   }

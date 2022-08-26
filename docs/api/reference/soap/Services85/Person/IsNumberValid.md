@@ -13,8 +13,10 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.IsNumberVali
 
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 
-* **contactId:**
-* **number:**
+* **contactId:** 
+* **number:** 
+
+
 
 [WSDL file for Services85/Person](../Services85-Person.md)
 
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IsNumberValid Response
 
 ```xml
@@ -69,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

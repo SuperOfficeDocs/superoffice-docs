@@ -1,6 +1,6 @@
 ---
 title: GET Script/{uniqueIdentifier}
-id: v1Script_GetCRMScriptByUniqueIdentifier
+uid: v1Script_GetCRMScriptByUniqueIdentifier
 ---
 
 # GET Script/{uniqueIdentifier}
@@ -11,11 +11,20 @@ GET /api/v1/Script/{uniqueIdentifier}
 
 Get information about a script from a unique identifier
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | uniqueIdentifier | string | Global unique reference to script (independent of installation) **Required** |
+
+
 
 ## Request Headers
 
@@ -30,18 +39,16 @@ Get information about a script from a unique identifier
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
+## Response: 
 
-Carrier object for Script.
-Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,42 +65,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui",
-  "Name": "Wiza, Satterfield and Doyle",
-  "Description": "Multi-tiered dynamic standardization",
-  "IncludeId": "nisi",
-  "Source": "facilis",
-  "Registered": "2005-09-01T18:25:51.4421182+02:00",
-  "RegisteredBy": "quibusdam",
-  "Updated": "2005-01-01T18:25:51.4421182+01:00",
-  "UpdatedBy": "voluptas",
-  "Path": "et",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "implement frictionless synergies"
-  },
+  "UniqueIdentifier": "suscipit",
+  "Name": "Cole Inc and Sons",
+  "Description": "Pre-emptive bottom-line firmware",
+  "IncludeId": "eius",
+  "Source": "quia",
+  "Registered": "1997-03-23T11:10:53.7882124+01:00",
+  "RegisteredBy": "sed",
+  "Updated": "2007-03-07T11:10:53.7882124+01:00",
+  "UpdatedBy": "omnis",
+  "Path": "eaque",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   }
 }

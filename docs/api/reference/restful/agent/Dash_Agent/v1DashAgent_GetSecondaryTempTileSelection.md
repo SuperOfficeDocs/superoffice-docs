@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetSecondaryTempTileSelection
-id: v1DashAgent_GetSecondaryTempTileSelection
+uid: v1DashAgent_GetSecondaryTempTileSelection
 ---
 
 # POST Agents/Dash/GetSecondaryTempTileSelection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection
 
 Copy selection to secondary temporary personal tile selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Copy selection to secondary temporary personal tile selection
 ```http
 POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,23 +61,26 @@ SelectionId
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 19
+  "SelectionId": 667
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-880
+101
 ```

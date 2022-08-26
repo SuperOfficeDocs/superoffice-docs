@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Replication/GetSatellite
-id: v1ReplicationAgent_GetSatellite
+uid: v1ReplicationAgent_GetSatellite
 ---
 
 # POST Agents/Replication/GetSatellite
@@ -11,7 +11,15 @@ POST /api/v1/Agents/Replication/GetSatellite
 
 Gets a Satellite object.
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=533
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=488
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,16 +47,16 @@ POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Satellite.
-Services for the Satellite Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,131 +71,33 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 973,
-  "Created": "2016-10-30T18:28:50.0266978+01:00",
-  "CreatedBy": {
-    "AssociateId": 768,
-    "Name": "Brakus-Reynolds",
-    "PersonId": 633,
-    "Rank": 646,
-    "Tooltip": "id",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 54,
-    "FullName": "Felipe Heathcote",
-    "FormalName": "Morissette-Smith",
-    "Deleted": true,
-    "EjUserId": 363,
-    "UserName": "Harber-Haag",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 25
-      }
-    }
-  },
-  "Updated": "2013-06-23T18:28:50.0266978+02:00",
-  "UpdatedBy": {
-    "AssociateId": 615,
-    "Name": "Walsh, O'Keefe and Volkman",
-    "PersonId": 554,
-    "Rank": 984,
-    "Tooltip": "porro",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 894,
-    "FullName": "Mercedes Ziemann",
-    "FormalName": "Oberbrunner-Smith",
-    "Deleted": true,
-    "EjUserId": 85,
-    "UserName": "Hirthe Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 872
-      }
-    }
-  },
-  "Contact": {
-    "ContactId": 770,
-    "Name": "Thiel-Lockman",
-    "OrgNr": "1059998",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "doloremque",
-    "DirectPhone": "621-738-6485",
-    "AssociateId": 653,
-    "CountryId": 638,
-    "EmailAddress": "magnolia.pfeffer@vonwaters.biz",
-    "Kananame": "quis",
-    "EmailAddressName": "alta@hayes.ca",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Anjali Howe",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "praesentium",
-    "FullName": "Laurine Erdman",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 739,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "enable cross-platform relationships"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 133
-      }
-    }
-  },
-  "Area": {
-    "AreaId": 787,
-    "Name": "Dach Group",
-    "MaxDataAge": 153,
-    "NumberOfUsers": 794,
-    "NumberOfLogins": 395,
-    "FreetextEnabeled": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 97
-      }
-    }
-  },
+  "SatelliteId": 391,
+  "Created": "2019-07-01T11:10:27.7604954+02:00",
+  "CreatedBy": null,
+  "Updated": "2004-11-18T11:10:27.7614946+01:00",
+  "UpdatedBy": null,
+  "Contact": null,
+  "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Barrows LLC",
-      "Description": "Optional tertiary model",
+      "Name": "Pagac, Sipes and O'Conner",
+      "Description": "Advanced well-modulated workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -195,21 +106,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 397
+          "FieldLength": 934
         }
       }
     },
     {
-      "Name": "Barrows LLC",
-      "Description": "Optional tertiary model",
+      "Name": "Pagac, Sipes and O'Conner",
+      "Description": "Advanced well-modulated workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -218,31 +126,22 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 397
+          "FieldLength": 934
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 209
     }
   }
 }

@@ -17,6 +17,7 @@ Save the chat presence for specified users
 
 **Returns:** void
 
+
 [WSDL file for Services86/Chat](../Services86-Chat.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveChatPresence Response
 
 ```xml
@@ -78,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

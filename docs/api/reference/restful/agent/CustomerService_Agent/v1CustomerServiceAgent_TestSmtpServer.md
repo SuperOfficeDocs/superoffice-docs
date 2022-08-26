@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/TestSmtpServer
-id: v1CustomerServiceAgent_TestSmtpServer
+uid: v1CustomerServiceAgent_TestSmtpServer
 ---
 
 # POST Agents/CustomerService/TestSmtpServer
@@ -9,9 +9,15 @@ id: v1CustomerServiceAgent_TestSmtpServer
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 ```
 
-This method will do a test of a SMTP account, by sending an email to a special @SuperOffice.
+This method will do a test of a SMTP account, by sending an email to a special @superoffice.
+
 
 com account
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ com account
 ```http
 POST /api/v1/Agents/CustomerService/TestSmtpServer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/CustomerService/TestSmtpServer?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SmtpUri, From, UseStoredPassword
+SmtpUri, From, UseStoredPassword 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,18 +54,16 @@ SmtpUri, From, UseStoredPassword
 | From | string |  |
 | UseStoredPassword | bool |  |
 
-## Response: object
 
-Carrier containing information about the result of a SMTP test
+## Response: 
 
-Carrier object for SmtpTestResult.
-Services for the SmtpTestResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,21 +72,23 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "consectetur",
-  "From": "culpa",
-  "UseStoredPassword": true
+  "SmtpUri": "beatae",
+  "From": "sunt",
+  "UseStoredPassword": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -89,19 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "ErrorMessage": "doloremque",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ErrorMessage": "aliquam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "innovate clicks-and-mortar e-commerce"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 341
     }
   }
 }

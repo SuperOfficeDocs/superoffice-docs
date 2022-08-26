@@ -17,6 +17,7 @@ Create a new empty import row with x count of values
 
 **Returns:** A new ImportLine
 
+
 [WSDL file for Services87/Import](../Services87-Import.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultImportLine Response
 
 ```xml
@@ -77,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

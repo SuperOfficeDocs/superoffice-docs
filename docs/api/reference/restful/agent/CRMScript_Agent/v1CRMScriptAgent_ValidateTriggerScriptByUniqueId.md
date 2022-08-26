@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
-id: v1CRMScriptAgent_ValidateTriggerScriptByUniqueId
+uid: v1CRMScriptAgent_ValidateTriggerScriptByUniqueId
 ---
 
 # POST Agents/CRMScript/ValidateTriggerScriptByUniqueId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 
 Validate a Trigger CRMScript.
 
+
 This will check that the syntax is correct, but not execute the script.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ This will check that the syntax is correct, but not execute the script.
 ```http
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,26 +47,24 @@ POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TriggerScriptUniqueId
+TriggerScriptUniqueId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TriggerScriptUniqueId | string |  |
 
-## Response: object
 
-Object for returning information when validating a CRMScript
+## Response: 
 
-Carrier object for CRMScriptResult.
-Services for the CRMScriptResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +73,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
@@ -77,29 +83,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "reiciendis"
+  "TriggerScriptUniqueId": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "accusamus",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "target integrated vortals"
-  },
+  "Valid": true,
+  "ErrorMessage": "necessitatibus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldLength": 628
     }
   }
 }

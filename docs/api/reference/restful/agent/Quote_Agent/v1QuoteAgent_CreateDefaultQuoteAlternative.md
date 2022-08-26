@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateDefaultQuoteAlternative
-id: v1QuoteAgent_CreateDefaultQuoteAlternative
+uid: v1QuoteAgent_CreateDefaultQuoteAlternative
 ---
 
 # POST Agents/Quote/CreateDefaultQuoteAlternative
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 
 Set default values into a new QuoteAlternative.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteAlternative.
-Services for the QuoteAlternative Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,55 +72,51 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 372,
-  "ERPQuoteAlternativeKey": "et",
-  "QuoteVersionId": 237,
-  "Name": "Sporer LLC",
-  "Description": "Innovative disintermediate support",
+  "QuoteAlternativeId": 477,
+  "ERPQuoteAlternativeKey": "dolor",
+  "QuoteVersionId": 601,
+  "Name": "Mills, Mosciski and Gulgowski",
+  "Description": "Open-architected dynamic help-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21840.845999999998,
-  "ERPDiscountAmount": 30716.334,
-  "DiscountPercent": 10809.166,
-  "DiscountAmount": 29550.486,
+  "ERPDiscountPercent": 927.664,
+  "ERPDiscountAmount": 8117.0599999999995,
+  "DiscountPercent": 12623.752,
+  "DiscountAmount": 28403.442,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sunt",
-  "VAT": 9339.32,
-  "EarningPercent": 28575.811999999998,
-  "EarningAmount": 10235.644,
-  "SubTotal": 9533.6279999999988,
-  "TotalPrice": 29105.458,
-  "ExtraField1": "vel",
-  "ExtraField2": "optio",
-  "ExtraField3": "autem",
-  "ExtraField4": "vel",
-  "ExtraField5": "quia",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "VATInfo": "odit",
+  "VAT": 23570.814,
+  "EarningPercent": 6863.46,
+  "EarningAmount": 14676.521999999999,
+  "SubTotal": 29519.146,
+  "TotalPrice": 25667.46,
+  "ExtraField1": "quibusdam",
+  "ExtraField2": "culpa",
+  "ExtraField3": "hic",
+  "ExtraField4": "ipsam",
+  "ExtraField5": "in",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 524
     }
   }
 }

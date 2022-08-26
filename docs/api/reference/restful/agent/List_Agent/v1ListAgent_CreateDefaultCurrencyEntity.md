@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultCurrencyEntity
-id: v1ListAgent_CreateDefaultCurrencyEntity
+uid: v1ListAgent_CreateDefaultCurrencyEntity
 ---
 
 # POST Agents/List/CreateDefaultCurrencyEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 
 Set default values into a new CurrencyEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for CurrencyEntity.
-Services for the CurrencyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,39 +56,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 563,
-  "Name": "Marquardt Group",
-  "Tooltip": "quo",
-  "Rank": 973,
-  "Rate": 30954.518,
-  "Units": 23360.836,
+  "CurrencyId": 678,
+  "Name": "McCullough-Kirlin",
+  "Tooltip": "reprehenderit",
+  "Rank": 995,
+  "Rate": 6058.022,
+  "Units": 24576.827999999998,
   "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 964
     }
   }
 }

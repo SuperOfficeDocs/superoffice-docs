@@ -1,6 +1,6 @@
 ---
 title: GET DashTheme/default
-id: v1DashTheme_DefaultDashTheme
+uid: v1DashTheme_DefaultDashTheme
 ---
 
 # GET DashTheme/default
@@ -11,7 +11,14 @@ GET /api/v1/DashTheme/default
 
 Set default values into a new DashTheme.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDashTheme.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard theme configuration
+## Response: 
 
-Carrier object for DashTheme.
-Services for the DashTheme Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,40 +51,38 @@ Response body: object
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
+| Style | string | Style value - for example 'light' or 'dark' |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 20,
-  "Name": "Reynolds-Reinger",
-  "Config": "reprehenderit",
-  "Rank": 672,
-  "Client": "optio",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardThemeId": 418,
+  "Name": "Durgan Group",
+  "Config": "exercitationem",
+  "Rank": 971,
+  "Client": "assumenda",
+  "Style": "fugiat",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   }
 }

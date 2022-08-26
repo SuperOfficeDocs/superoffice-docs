@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
-id: v1ForeignAppEntity_GetKeyOnDeviceIdentifier
+uid: v1ForeignAppEntity_GetKeyOnDeviceIdentifier
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}
@@ -11,7 +11,12 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 
 Returning a foreign key by its key name and device identifier, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
@@ -19,8 +24,10 @@ A table name and record ID can also be specified.
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. **Required** |
 | keyName | string | The name of the foreign key. **Required** |
-| tableName | string | Table name, transformed to and from numeric table id by the service layer.<br />Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+| tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
 | recordId | int32 | Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table. **Required** |
+
+
 
 ## Request Headers
 
@@ -35,16 +42,16 @@ A table name and record ID can also be specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,39 +66,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 Jul 2020 18:25:50 G7T
+Last-Modified: Mon, 18 Mar 2013 11:10:52 G3T
 
 {
-  "Key": "ab",
-  "Value": "molestiae",
-  "RecordId": 663,
-  "CreatedDate": "2018-10-02T18:25:50.5745975+02:00",
-  "UpdatedDate": "2020-07-02T18:25:50.5745975+02:00",
-  "UpdatedBy": "tempora",
-  "CreatedBy": "dolor",
-  "TableName": "Beatty Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "enable back-end niches"
-  },
+  "Key": "quas",
+  "Value": "alias",
+  "RecordId": 940,
+  "CreatedDate": "1997-04-17T11:10:52.9081766+02:00",
+  "UpdatedDate": "2013-03-18T11:10:52.9081766+01:00",
+  "UpdatedBy": "reiciendis",
+  "CreatedBy": "excepturi",
+  "TableName": "Fadel-Terry",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
       "FieldLength": 185
     }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetContactAppointments
-id: v1AppointmentAgent_GetContactAppointments
+uid: v1AppointmentAgent_GetContactAppointments
 ---
 
 # POST Agents/Appointment/GetContactAppointments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the contact specified. If the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. If the logged on user is not a
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count
+ContactId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ ContactId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -110,22 +120,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 970,
-  "StartTime": "2009-11-08T18:28:47.902844+01:00",
-  "EndTime": "2005-04-21T18:28:47.902844+02:00",
-  "Count": 280
+  "ContactId": 100,
+  "StartTime": "1996-09-03T11:10:25.9515232+02:00",
+  "EndTime": "2013-02-08T11:10:25.9515232+01:00",
+  "Count": 586
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -133,67 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 494,
-    "StartDate": "2019-12-25T18:28:47.9038448+01:00",
-    "EndDate": "2017-04-20T18:28:47.9038448+02:00",
+    "AppointmentId": 473,
+    "StartDate": "2020-02-03T11:10:25.9525227+01:00",
+    "EndDate": "2010-11-15T11:10:25.9525227+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Dr. Cordie Becker",
-    "ContactName": "Labadie-Tremblay",
-    "Description": "Synergized 24 hour strategy",
-    "PersonFullName": "Sigrid Kutch",
-    "PersonId": 728,
-    "ContactId": 263,
-    "ProjectId": 49,
-    "ProjectName": "Russel, Goldner and Rodriguez",
+    "Task": "enim",
+    "AssociateFullName": "Prof. Tyson Schowalter IV",
+    "ContactName": "Kilback LLC",
+    "Description": "Front-line tangible service-desk",
+    "PersonFullName": "Malika Stiedemann",
+    "PersonId": 922,
+    "ContactId": 18,
+    "ProjectId": 367,
+    "ProjectName": "Weissnat, Lehner and Kiehn",
     "IsPublished": false,
-    "AssociateId": 156,
-    "ColorIndex": 136,
-    "IsFree": true,
+    "AssociateId": 551,
+    "ColorIndex": 566,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 392,
-    "PriorityName": "Cremin, Nikolaus and Satterfield",
+    "PriorityId": 754,
+    "PriorityName": "Heller-Effertz",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-06-27T18:28:47.9048442+02:00",
+    "ActiveDate": "1999-07-09T11:10:25.9525227+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-11-01T18:28:47.9048442+01:00",
-    "RecurringEndDate": "1998-03-22T18:28:47.9048442+01:00",
-    "MotherId": 619,
-    "AssignedBy": 819,
-    "AssignedByFullName": "Danial Cassin",
+    "RecurringStartDate": "2017-08-09T11:10:25.9525227+02:00",
+    "RecurringEndDate": "2021-05-18T11:10:25.9525227+02:00",
+    "MotherId": 498,
+    "AssignedBy": 403,
+    "AssignedByFullName": "Jammie Trevion Doyle V",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "tenetur",
-    "SaleId": 698,
-    "SaleName": "Rempel, Cartwright and Stracke",
-    "AssociateName": "Doyle LLC",
-    "CreatedDate": "2021-01-18T18:28:47.9048442+01:00",
-    "CreatedBy": "tempora",
-    "CreatedByFullName": "Andres Turcotte",
-    "CreatedByAssociateId": 814,
+    "Location": "molestiae",
+    "AlarmLeadTime": "suscipit",
+    "SaleId": 639,
+    "SaleName": "DuBuque, Jewess and Farrell",
+    "AssociateName": "Waters-Klein",
+    "CreatedDate": "1998-05-10T11:10:25.9535222+02:00",
+    "CreatedBy": "numquam",
+    "CreatedByFullName": "Alessia Kozey",
+    "CreatedByAssociateId": 774,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

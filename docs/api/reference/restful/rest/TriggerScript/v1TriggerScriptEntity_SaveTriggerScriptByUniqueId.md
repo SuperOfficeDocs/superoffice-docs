@@ -1,6 +1,6 @@
 ---
 title: PUT TriggerScript/{id}
-id: v1TriggerScriptEntity_SaveTriggerScriptByUniqueId
+uid: v1TriggerScriptEntity_SaveTriggerScriptByUniqueId
 ---
 
 # PUT TriggerScript/{id}
@@ -11,13 +11,21 @@ PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 
 Validate a CRMScript.
 
+
 This will check that the syntax is correct
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | triggerScriptUniqueId | string | The unique id of the CRMScript to validate **Required** |
+
+
 
 ## Request Headers
 
@@ -33,9 +41,9 @@ This will check that the syntax is correct
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-Trigger script details and source code
+Trigger script details and source code 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,24 +52,22 @@ Trigger script details and source code
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-Carrier object for TriggerScriptEntity.
-Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +76,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -78,56 +84,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 702,
-  "Name": "Nienow LLC",
+  "ScreenChooserId": 488,
+  "Name": "Pagac-Sauer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "repellat",
-  "Source": "quis",
-  "Registered": "1998-10-12T18:25:51.3221056+02:00",
-  "RegisteredAssociateId": 195,
-  "Updated": "2001-06-27T18:25:51.3221056+02:00",
-  "UpdatedAssociateId": 822
+  "Enabled": false,
+  "UniqueIdentifier": "unde",
+  "Source": "numquam",
+  "Registered": "2021-06-30T11:10:53.6702128+02:00",
+  "RegisteredAssociateId": 218,
+  "Updated": "2022-03-25T11:10:53.6702128+01:00",
+  "UpdatedAssociateId": 88
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 24,
-  "Name": "Kuhlman LLC",
+  "ScreenChooserId": 368,
+  "Name": "Schinner, Feeney and McClure",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "veniam",
-  "Source": "error",
-  "Registered": "2000-05-16T18:25:51.3231056+02:00",
-  "RegisteredAssociateId": 282,
-  "Updated": "2003-12-28T18:25:51.3231056+01:00",
-  "UpdatedAssociateId": 587,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Enabled": true,
+  "UniqueIdentifier": "ut",
+  "Source": "officiis",
+  "Registered": "2011-11-04T11:10:53.6712133+01:00",
+  "RegisteredAssociateId": 344,
+  "Updated": "2002-08-26T11:10:53.6712133+02:00",
+  "UpdatedAssociateId": 74,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

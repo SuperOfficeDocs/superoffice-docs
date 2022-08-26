@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/SetDynamicSelectionCriteria2
-id: v1SelectionAgent_SetDynamicSelectionCriteria2
+uid: v1SelectionAgent_SetDynamicSelectionCriteria2
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria2
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 
 Update the criteria for this dynamic selection using string.
 
+
 Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Criteria are parsed from the OData filter form: ''name startswith 'foo' and cate
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Filter
+SelectionId, Filter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Filter | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,20 +77,22 @@ Response body: array
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 601,
-  "Filter": "et"
+  "SelectionId": 958,
+  "Filter": "voluptatibus"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,58 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Champlin LLC",
-    "Operator": "sint",
+    "Name": "Jast LLC",
+    "Operator": "magnam",
     "Values": [
-      "debitis",
-      "dolores"
+      "laudantium",
+      "ea"
     ],
     "DisplayValues": [
-      "excepturi",
-      "enim"
+      "ut",
+      "sequi"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Bogan-Rowe",
-      "DisplayTooltip": "distinctio",
-      "DisplayType": "voluptas",
-      "CanOrderBy": false,
-      "Name": "Walsh Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "nisi",
-      "RestrictionListName": "Roberts Group",
-      "IsVisible": false,
-      "ExtraInfo": "quo",
-      "Width": "sunt",
-      "IconHint": "ex",
-      "HeadingIconHint": "necessitatibus"
-    },
-    "IsActive": true,
+    "ColumnInfo": null,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Leuschke Inc and Sons",
-        "Operator": "aut",
+        "Name": "Green, Zemlak and Kling",
+        "Operator": "ipsum",
         "Values": [
-          "et",
-          "quo"
+          "quos",
+          "incidunt"
         ],
         "DisplayValues": [
-          "voluptas",
-          "in"
+          "et",
+          "eius"
         ],
-        "ColumnInfo": {},
+        "ColumnInfo": null,
         "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 295,
+        "InterParenthesis": 421,
         "InterOperator": "And",
-        "UniqueHash": 204
+        "UniqueHash": 334
       }
     ],
-    "InterParenthesis": 597,
+    "InterParenthesis": 17,
     "InterOperator": "And",
-    "UniqueHash": 824
+    "UniqueHash": 546
   }
 ]
 ```

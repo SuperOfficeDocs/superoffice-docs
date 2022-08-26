@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/CreateRestrictionGroup
-id: v1FindAgent_CreateRestrictionGroup
+uid: v1FindAgent_CreateRestrictionGroup
 ---
 
 # POST Agents/Find/CreateRestrictionGroup
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup
 
 Create a restriction group, initialized with next rank etc.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a restriction group, initialized with next rank etc.
 ```http
 POST /api/v1/Agents/Find/CreateRestrictionGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Context
+StorageType, ProviderName, StorageKey, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,13 +53,16 @@ StorageType, ProviderName, StorageKey, Context
 | StorageKey | string |  |
 | Context | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,52 +71,54 @@ Response body: object
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nobis",
-  "ProviderName": "Reichel, Littel and Toy",
-  "StorageKey": "error",
-  "Context": "ipsam"
+  "StorageType": "alias",
+  "ProviderName": "Fritsch Group",
+  "StorageKey": "a",
+  "Context": "facilis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Quitzon-Mohr",
-  "Description": "Multi-layered explicit matrix",
-  "Rank": 545,
+  "Name": "Beahan Group",
+  "Description": "Phased disintermediate pricing structure",
+  "Rank": 123,
   "Restrictions": [
     {
-      "Name": "Gottlieb-Klocko",
-      "Operator": "et",
+      "Name": "Emmerich Inc and Sons",
+      "Operator": "fugiat",
       "Values": [
-        "a",
-        "fugit"
+        "enim",
+        "saepe"
       ],
       "DisplayValues": [
-        "ipsam",
-        "praesentium"
+        "qui",
+        "soluta"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 77,
+      "InterParenthesis": 193,
       "InterOperator": "And",
-      "UniqueHash": 138
+      "UniqueHash": 253
     }
   ]
 }

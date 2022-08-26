@@ -1,6 +1,6 @@
 ---
 title: PUT Person/{id}/Consent/{purpose}
-id: v1PersonEntity_SetConsent
+uid: v1PersonEntity_SetConsent
 ---
 
 # PUT Person/{id}/Consent/{purpose}
@@ -11,10 +11,16 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}
 
 Set a specified type of consent on the person.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id **Required** |
 | purpose | string | The Key of the purpose this affects. e.g. 'STORE' or 'EMARKETING'. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,10 +31,11 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=est
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=maxime
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=excepturi
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=et
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=et
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=officia
 ```
+
 
 ## Request Headers
 
@@ -36,10 +43,35 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=excepturi
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+PUT /api/v1/Person/{personId}/Consent/{purpose}
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

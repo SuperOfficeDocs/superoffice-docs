@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
-id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
+uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 
 Return an given array user defined field identified by the owner and the prog-ids.
 
+
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The prog-id is used as the key in the entity carriers. Note this may be differen
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgIds, OwnerType
+ProgIds, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgIds | array |  |
 | OwnerType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -93,7 +103,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
@@ -104,12 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "impedit",
-    "maiores"
+    "dolores",
+    "aut"
   ],
   "OwnerType": "Appointment"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -117,52 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 15,
-    "ColumnId": 826,
-    "FieldDefault": "numquam",
-    "FieldHeight": 554,
-    "FieldLabel": "deleniti",
-    "FieldLeft": 341,
-    "FieldTop": 517,
+    "UDefFieldId": 612,
+    "ColumnId": 180,
+    "FieldDefault": "fugit",
+    "FieldHeight": 885,
+    "FieldLabel": "et",
+    "FieldLeft": 862,
+    "FieldTop": 717,
     "FieldType": "Checkbox",
-    "FieldWidth": 689,
-    "FormatMask": "vel",
-    "HideLabel": true,
+    "FieldWidth": 220,
+    "FormatMask": "incidunt",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 718,
-    "LabelLeft": 190,
-    "LabelTop": 22,
-    "LabelWidth": 562,
-    "LastVersionId": 602,
-    "ListTableId": 932,
-    "IsMandatory": true,
+    "LabelHeight": 696,
+    "LabelLeft": 18,
+    "LabelTop": 680,
+    "LabelWidth": 43,
+    "LastVersionId": 579,
+    "ListTableId": 699,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 912,
-    "ProgId": "libero",
-    "IsReadOnly": false,
-    "ShortLabel": "hic",
-    "TabOrder": 901,
-    "TextLength": 451,
-    "Tooltip": "dolores",
-    "UdefIdentity": 386,
-    "UDListDefinitionId": 358,
+    "Page1LineNo": 426,
+    "ProgId": "pariatur",
+    "IsReadOnly": true,
+    "ShortLabel": "aut",
+    "TabOrder": 656,
+    "TextLength": 22,
+    "Tooltip": "sed",
+    "UdefIdentity": 79,
+    "UDListDefinitionId": 621,
     "Justification": "Center",
-    "Version": 96,
-    "TemplateVariableName": "Waters, Schultz and Collier",
+    "Version": 729,
+    "TemplateVariableName": "Hahn, Mann and Funk",
     "HasBeenPublished": true,
-    "MdoListName": "Anderson-Heathcote",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Windler LLC",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldLength": 721
       }
     }
   }

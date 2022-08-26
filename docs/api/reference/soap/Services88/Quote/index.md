@@ -17,6 +17,7 @@ Download [WSDL file for Services88/Quote](../Services88-Quote.md) if you need to
 
 * [AddSaleTypeQuoteAttachment](AddSaleTypeQuoteAttachment.md)
 * [ApproveQuoteVersion](ApproveQuoteVersion.md)
+* [CancelApprovalRequest](CancelApprovalRequest.md)
 * [CanConnectorProvideCapability](CanConnectorProvideCapability.md)
 * [CopyQuoteAlternative](CopyQuoteAlternative.md)
 * [CopySuperOfficePriceList](CopySuperOfficePriceList.md)
@@ -91,6 +92,7 @@ Download [WSDL file for Services88/Quote](../Services88-Quote.md) if you need to
 * [RecalculateQuoteLine](RecalculateQuoteLine.md)
 * [RejectQuoteVersion](RejectQuoteVersion.md)
 * [RemoveProduct](RemoveProduct.md)
+* [RequestApproval](RequestApproval.md)
 * [RestoreConnection](RestoreConnection.md)
 * [SaveConnection](SaveConnection.md)
 * [SaveConnectionConfigFields](SaveConnectionConfigFields.md)
@@ -113,3 +115,4 @@ Download [WSDL file for Services88/Quote](../Services88-Quote.md) if you need to
 * [ToggleSaleTypeQuoteAttachmentDefaultIncluded](ToggleSaleTypeQuoteAttachmentDefaultIncluded.md)
 * [UpdateQuoteVersionPrices](UpdateQuoteVersionPrices.md)
 * [ValidateQuoteVersion](ValidateQuoteVersion.md)
+

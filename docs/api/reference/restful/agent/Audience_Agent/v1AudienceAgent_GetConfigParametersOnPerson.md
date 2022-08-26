@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetConfigParametersOnPerson
-id: v1AudienceAgent_GetConfigParametersOnPerson
+uid: v1AudienceAgent_GetConfigParametersOnPerson
 ---
 
 # POST Agents/Audience/GetConfigParametersOnPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 
 Gets the Audience configuration parameters belonging to the person specified
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience configuration parameters belonging to the person specified
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Audience/GetConfigParametersOnPerson?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,19 +73,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 7
+  "PersonId": 80
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,25 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 40,
-    "Name": "Erdman Inc and Sons",
-    "Value": "asperiores",
-    "CreatedDate": "2000-07-17T18:28:48.1325445+02:00",
-    "UpdatedDate": "2014-11-20T18:28:48.1325445+01:00",
-    "CreatedBy": "et",
-    "UpdatedBy": "voluptatem",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AudienceLayoutId": 151,
+    "Name": "Reichert, Schiller and Hegmann",
+    "Value": "magni",
+    "CreatedDate": "2003-07-19T11:10:26.0075535+02:00",
+    "UpdatedDate": "2003-01-11T11:10:26.0075535+01:00",
+    "CreatedBy": "sapiente",
+    "UpdatedBy": "magni",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 699
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetCurrentAccount
-id: v1EMailAgent_GetCurrentAccount
+uid: v1EMailAgent_GetCurrentAccount
 ---
 
 # POST Agents/EMail/GetCurrentAccount
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetCurrentAccount
 
 Get current account (last logged into should normally be current) for logged in associate
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get current account (last logged into should normally be current) for logged in 
 ```http
 POST /api/v1/Agents/EMail/GetCurrentAccount?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +45,16 @@ POST /api/v1/Agents/EMail/GetCurrentAccount?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Properties for an email account
+## Response: 
 
-Carrier object for EMailAccount.
-Services for the EMailAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,10 +66,12 @@ Response body: object
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
+| InboxFolder | string | Inbox folder name if available in the db |
+| SentFolder | string | Sent email folder name if available in the db |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetCurrentAccount
@@ -71,67 +80,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 672,
-  "EMailAddress": "beatae",
-  "AssociateId": 705,
-  "IncomingCredentials": {
-    "ServiceAuthId": 430,
-    "Server": "asperiores",
-    "Port": 924,
-    "AuthType": "quidem",
-    "Username": "rerum",
-    "Password": "eligendi",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 189
-      }
-    }
-  },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 196,
-    "Server": "modi",
-    "Port": 884,
-    "AuthType": "aliquid",
-    "Username": "consequatur",
-    "Password": "quaerat",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 492
-      }
-    }
-  },
-  "AccountStatus": 358,
-  "ErrorCount": 755,
+  "EMailAccountId": 395,
+  "EMailAddress": "ratione",
+  "AssociateId": 982,
+  "IncomingCredentials": null,
+  "OutgoingCredentials": null,
+  "AccountStatus": 338,
+  "ErrorCount": 188,
   "ErrorReason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "InboxFolder": "aut",
+  "SentFolder": "incidunt",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   }
 }

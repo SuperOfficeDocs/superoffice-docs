@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
-id: v1ForeignAppEntity_GetDeviceByIdentifier
+uid: v1ForeignAppEntity_GetDeviceByIdentifier
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -11,11 +11,18 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Optional unique id of device (Palm pilot device ID, version number, etc) **Required** |
+
+
 
 ## Request Headers
 
@@ -30,18 +37,16 @@ Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Saves a foreign device belonging to the ForeignDevice and application name specified.
+## Response: 
 
-Carrier object for ForeignDevice.
-Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +62,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -66,33 +71,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 24 Apr 2000 18:25:50 G4T
+Last-Modified: Fri, 24 May 1996 11:10:52 G5T
 
 {
-  "ForeignDeviceId": 415,
-  "Name": "Lindgren Group",
-  "CreatedDate": "2000-08-16T18:25:50.5705973+02:00",
-  "UpdatedDate": "2000-04-24T18:25:50.5705973+02:00",
-  "AssociateFullName": "Tevin Kuvalis DVM",
-  "CreatedBy": "laborum",
-  "UpdatedBy": "enim",
-  "DeviceIdentifier": "dolores",
-  "ForeignAppId": 497,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ForeignDeviceId": 855,
+  "Name": "Reinger-Gulgowski",
+  "CreatedDate": "2021-11-19T11:10:52.9031791+01:00",
+  "UpdatedDate": "1996-05-24T11:10:52.9031791+02:00",
+  "AssociateFullName": "Chet McLaughlin",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "sit",
+  "DeviceIdentifier": "maxime",
+  "ForeignAppId": 659,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 672
     }
   }
 }

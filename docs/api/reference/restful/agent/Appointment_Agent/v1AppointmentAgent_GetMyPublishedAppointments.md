@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetMyPublishedAppointments
-id: v1AppointmentAgent_GetMyPublishedAppointments
+uid: v1AppointmentAgent_GetMyPublishedAppointments
 ---
 
 # POST Agents/Appointment/GetMyPublishedAppointments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 
 Get published appointments from the logged in user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointments from the logged in user.
 ```http
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Appointment/GetMyPublishedAppointments?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -96,14 +106,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -111,67 +123,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 149,
-    "StartDate": "1998-12-02T18:28:47.7298451+01:00",
-    "EndDate": "1997-05-07T18:28:47.7298451+02:00",
+    "AppointmentId": 68,
+    "StartDate": "2009-06-07T11:10:25.4515258+02:00",
+    "EndDate": "2018-09-03T11:10:25.4515258+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Dr. Ena Kovacek",
-    "ContactName": "Reynolds, Beatty and Stehr",
-    "Description": "Organic fresh-thinking orchestration",
-    "PersonFullName": "Lavina Breitenberg",
-    "PersonId": 818,
-    "ContactId": 94,
-    "ProjectId": 95,
-    "ProjectName": "Steuber LLC",
+    "Task": "eos",
+    "AssociateFullName": "Miss Romaine Schulist",
+    "ContactName": "Schulist-Bauch",
+    "Description": "Streamlined modular concept",
+    "PersonFullName": "Prof. Marcelino Fadel I",
+    "PersonId": 827,
+    "ContactId": 203,
+    "ProjectId": 301,
+    "ProjectName": "Koch Group",
     "IsPublished": false,
-    "AssociateId": 826,
-    "ColorIndex": 321,
-    "IsFree": true,
+    "AssociateId": 414,
+    "ColorIndex": 361,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 88,
-    "PriorityName": "Purdy-Hilpert",
+    "PriorityId": 281,
+    "PriorityName": "Tillman Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-11-02T18:28:47.7298451+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2012-05-20T11:10:25.4525253+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-06-27T18:28:47.7298451+02:00",
-    "RecurringEndDate": "2011-05-15T18:28:47.7298451+02:00",
-    "MotherId": 518,
-    "AssignedBy": 281,
-    "AssignedByFullName": "Elnora Smith IV",
+    "RecurringStartDate": "2017-12-07T11:10:25.4525253+01:00",
+    "RecurringEndDate": "2001-07-04T11:10:25.4525253+02:00",
+    "MotherId": 37,
+    "AssignedBy": 591,
+    "AssignedByFullName": "Leonard Terry",
     "RejectReason": "",
-    "Location": "cum",
-    "AlarmLeadTime": "quasi",
-    "SaleId": 478,
-    "SaleName": "Lindgren Group",
-    "AssociateName": "Homenick Inc and Sons",
-    "CreatedDate": "1995-07-08T18:28:47.7298451+02:00",
-    "CreatedBy": "at",
-    "CreatedByFullName": "Mr. Mallie Fahey",
-    "CreatedByAssociateId": 257,
+    "Location": "hic",
+    "AlarmLeadTime": "nobis",
+    "SaleId": 92,
+    "SaleName": "Schmidt, Hilpert and Lubowitz",
+    "AssociateName": "Carroll-Gusikowski",
+    "CreatedDate": "1997-02-11T11:10:25.4525253+01:00",
+    "CreatedBy": "quo",
+    "CreatedByFullName": "Abdiel Rogahn",
+    "CreatedByAssociateId": 211,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 657
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 402
       }
     }
   }

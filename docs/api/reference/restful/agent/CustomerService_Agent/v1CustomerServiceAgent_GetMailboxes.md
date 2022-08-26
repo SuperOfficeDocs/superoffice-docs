@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/GetMailboxes
-id: v1CustomerServiceAgent_GetMailboxes
+uid: v1CustomerServiceAgent_GetMailboxes
 ---
 
 # POST Agents/CustomerService/GetMailboxes
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetMailboxes
 
 This method will get all registered mailboxes in Service
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will get all registered mailboxes in Service
 ```http
 POST /api/v1/Agents/CustomerService/GetMailboxes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/CustomerService/GetMailboxes?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,14 +61,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/GetMailboxes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,42 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 240,
-    "Address": "nihil",
+    "MailInFilterId": 230,
+    "Address": "eligendi",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Pfannerstill-Stanton",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "transition collaborative architectures"
-    },
+    "PriorityName": "West, Gusikowski and Runolfsdottir",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   },
   {
-    "MailInFilterId": 240,
-    "Address": "nihil",
+    "MailInFilterId": 230,
+    "Address": "eligendi",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Pfannerstill-Stanton",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "transition collaborative architectures"
-    },
+    "PriorityName": "West, Gusikowski and Runolfsdottir",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   }

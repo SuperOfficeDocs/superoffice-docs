@@ -1,6 +1,6 @@
 ---
 title: PUT DashTile/{id}
-id: v1DashTile_PutDashTile
+uid: v1DashTile_PutDashTile
 ---
 
 # PUT DashTile/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/DashTile/{id}
 
 Updates the existing DashTile
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTile id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing DashTile
 ```http
 PUT /api/v1/DashTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/DashTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTile to be saved.
+The DashTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,18 +59,17 @@ The DashTile to be saved.
 | Rank | int32 | Rank order |
 | DashTileDefinition |  | The tile definition entity |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-DashTile entity with API _Links added.
+DashTile updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DashTile updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,97 +83,44 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 927,
-  "DashboardId": 93,
-  "Height": 144,
-  "Width": 417,
-  "Rank": 850,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 61,
-    "Name": "Lang, Donnelly and Blanda",
-    "Description": "Enterprise-wide discrete groupware",
-    "DefaultHeight": 977,
-    "DefaultWidth": 906,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Smith-Wilderman",
-    "SelectionId": 641,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "omnis",
-    "Measure": "Average",
-    "MeasureField": "consequatur",
-    "SortBy": "facere",
-    "LayoutConfig": "earum",
-    "SecondarySelectionId": 364,
-    "MeasureByField": "illum",
-    "ProviderName": "Batz, Lockman and Hamill"
-  }
+  "DashboardTileId": 247,
+  "DashboardId": 291,
+  "Height": 564,
+  "Width": 719,
+  "Rank": 689,
+  "DashTileDefinition": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 171,
-  "DashboardId": 530,
-  "Height": 813,
-  "Width": 449,
-  "Rank": 771,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 570,
-    "Name": "Ortiz LLC",
-    "Description": "Visionary scalable support",
-    "DefaultHeight": 474,
-    "DefaultWidth": 240,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Dietrich, Rosenbaum and Kertzmann",
-    "SelectionId": 934,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "est",
-    "Measure": "Average",
-    "MeasureField": "beatae",
-    "SortBy": "facilis",
-    "LayoutConfig": "eligendi",
-    "SecondarySelectionId": 849,
-    "MeasureByField": "itaque",
-    "ProviderName": "Nikolaus-Weissnat",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 656
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 740,
+  "DashboardId": 441,
+  "Height": 500,
+  "Width": 248,
+  "Rank": 979,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 609
     }
   },
   "_Links": {

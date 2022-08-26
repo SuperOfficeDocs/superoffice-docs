@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashTiles
-id: v1DashAgent_GetDashTiles
+uid: v1DashAgent_GetDashTiles
 ---
 
 # POST Agents/Dash/GetDashTiles
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashTiles
 
 Gets the ordered list of tiles for a dashboard
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the ordered list of tiles for a dashboard
 ```http
 POST /api/v1/Agents/Dash/GetDashTiles?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Dash/GetDashTiles?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId
+DashboardId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,19 +72,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 286
+  "DashboardId": 590
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,54 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 500,
-    "DashboardId": 977,
-    "Height": 47,
-    "Width": 513,
-    "Rank": 991,
-    "DashTileDefinition": {
-      "DashboardTileDefinitionId": 783,
-      "Name": "Torphy-Marvin",
-      "Description": "Polarised neutral solution",
-      "DefaultHeight": 462,
-      "DefaultWidth": 758,
-      "TileType": "Area",
-      "EntityType": "Appointment",
-      "EntityName": "Swift-Rosenbaum",
-      "SelectionId": 981,
-      "CurrencyMode": "Base",
-      "CurrencyCode": "repellendus",
-      "Measure": "Average",
-      "MeasureField": "unde",
-      "SortBy": "et",
-      "LayoutConfig": "quia",
-      "SecondarySelectionId": 176,
-      "MeasureByField": "eum",
-      "ProviderName": "Thiel LLC",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "redefine compelling technologies"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 565
-        }
-      }
-    },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DashboardTileId": 338,
+    "DashboardId": 198,
+    "Height": 396,
+    "Width": 790,
+    "Rank": 448,
+    "DashTileDefinition": null,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldLength": 284
       }
     }
   }

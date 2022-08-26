@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetListDefinitions
-id: v1ListAgent_GetListDefinitions
+uid: v1ListAgent_GetListDefinitions
 ---
 
 # POST Agents/List/GetListDefinitions
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListDefinitions
 
 Get a list of the lists - built-in and user-defined.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of the lists - built-in and user-defined.
 ```http
 POST /api/v1/Agents/List/GetListDefinitions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetListDefinitions?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -66,13 +76,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -80,34 +90,30 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Hudson, McKenzie and Okuneva",
-    "Tooltip": "quia",
+    "Id": 151,
+    "Name": "Hammes Group",
+    "Tooltip": "necessitatibus",
     "Deleted": false,
-    "Rank": 298,
+    "Rank": 18,
     "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "dolores",
-    "InUseByUserDefinedFields": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UseGroupsAndHeadings": false,
+    "ListType": "voluptatibus",
+    "InUseByUserDefinedFields": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 348
       }
     }
   }

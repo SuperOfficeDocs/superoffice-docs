@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "serviceassociate"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,23 @@ so.envir:
 ---
 
 # "serviceassociate" MDO List
-
 MDO provider for associates that are allowed to approve a quote.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ServiceAssociateMDOProvider">ServiceAssociateMDOProvider</see> class.
 The name of the MDO list is 'serviceassociate'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Flag to include/exclude defaul values (currentUser, autoAssign = int.maxValue, unAssigned = 0)| ShouldIncludeDefaultItems|False|
+|Flag to include/exclude history items| IncludeHistory|False|
+
+
+
+
 
 ## Sample Request
 
@@ -32,7 +44,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("serviceassociate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -45,13 +56,24 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
+|106|Adm6|||
 |17|Sal0|||
+|29|Ser0|||
+|30|Ser1|||
+|31|Ser2|||
+|32|Ser3|||
+|33|Ser4|||
+|34|Ser5|||
+|64|SerNS03 NetServer|||
 |23|Tje0|||
 |24|Tje1|||
 |25|Tje2|||
 |26|Tje3|||
 |27|Tje4|||
 |28|Tje5|||
+|99|Tjeneste Sjef|||
+|65|TjeNS04 NetServer|||
+
 
 ## Related MDO Lists
 

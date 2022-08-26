@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetLogoImage
-id: v1AudienceAgent_GetLogoImage
+uid: v1AudienceAgent_GetLogoImage
 ---
 
 # POST Agents/Audience/GetLogoImage
@@ -8,6 +8,14 @@ id: v1AudienceAgent_GetLogoImage
 ```http
 POST /api/v1/Agents/Audience/GetLogoImage
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Audience/GetLogoImage
 ```http
 POST /api/v1/Agents/Audience/GetLogoImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,39 +42,45 @@ POST /api/v1/Agents/Audience/GetLogoImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName
+LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetLogoImage
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: sv
+Accept: application/json; charset=utf-8
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "O'Reilly-Swift"
+  "LayoutName": "Bailey-Luettgen"
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

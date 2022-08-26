@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/SavePreferenceEntity
-id: v1PreferenceAgent_SavePreferenceEntity
+uid: v1PreferenceAgent_SavePreferenceEntity
 ---
 
 # POST Agents/Preference/SavePreferenceEntity
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Preference/SavePreferenceEntity
 
 Saves a complete preference object, on any level and any target.
 
+
 Preference administrator rights are required to use this
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Preference administrator rights are required to use this
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/Preference/SavePreferenceEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Preference, RemoveLowerLevels
+Preference, RemoveLowerLevels 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Preference |  | One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found. <br /> Carrier object for Preference. Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| Preference |  | One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found. <para /> Carrier object for Preference. Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 | RemoveLowerLevels | bool |  |
 
-## Response: object
 
-One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.
+## Response: 
 
-Carrier object for Preference.
-Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +80,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/SavePreferenceEntity
@@ -85,22 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Preference": {
-    "Level": "Database",
-    "RawValue": "vitae",
-    "Specification": {},
-    "DisplayValue": "eligendi",
-    "DisplayTooltip": "quibusdam",
-    "DisplayType": "Bool",
-    "TabOrder": {},
-    "TargetId": 252,
-    "PrefDescId": 682,
-    "TableName": "Raynor, Bernier and Powlowski",
-    "UserPreferenceId": 972
-  },
-  "RemoveLowerLevels": true
+  "Preference": null,
+  "RemoveLowerLevels": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -108,58 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
-  "Specification": {
-    "Section": "eos",
-    "Key": "voluptas",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 295
-      }
-    }
-  },
-  "DisplayValue": "omnis",
-  "DisplayTooltip": "vel",
+  "RawValue": "impedit",
+  "Specification": null,
+  "DisplayValue": "commodi",
+  "DisplayTooltip": "facere",
   "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 766,
-    "TabName": "Hammes Inc and Sons",
-    "Order": "exercitationem",
-    "AssociateId": 715,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 697
-      }
-    }
-  },
-  "TargetId": 760,
-  "PrefDescId": 380,
-  "TableName": "Erdman-Turcotte",
-  "UserPreferenceId": 582,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TabOrder": null,
+  "TargetId": 402,
+  "PrefDescId": 782,
+  "TableName": "Grimes, Stoltenberg and Nader",
+  "UserPreferenceId": 448,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

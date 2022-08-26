@@ -1,6 +1,6 @@
 ---
 title: GET List/Country/Items/{id}
-id: v1CountryList_GetCountry
+uid: v1CountryList_GetCountry
 ---
 
 # GET List/Country/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/Country/Items/{id}
 
 Gets a Country list item.
 
+
 Calls the List agent service GetCountry.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Country to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ Calls the List agent service GetCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Country.
-Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,50 +72,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 974,
-  "Name": "Lakin-Corkery",
-  "CurrencyId": 396,
-  "EnglishName": "Dietrich, Gutmann and Herman",
+  "CountryId": 219,
+  "Name": "Spinka-Jaskolski",
+  "CurrencyId": 26,
+  "EnglishName": "Cronin, Buckridge and Kunze",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Stand-alone clear-thinking circuit",
-  "OrgNrText": "616752",
-  "InterAreaPrefix": "dolore",
-  "DialInPrefix": "vitae",
-  "ZipPrefix": "sed",
-  "DomainName": "Roob-Homenick",
-  "AddressLayoutId": 380,
-  "DomesticAddressLayoutId": 633,
-  "ForeignAddressLayoutId": 82,
-  "Rank": 505,
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ImageDescription": "Front-line zero administration projection",
+  "OrgNrText": "1531232",
+  "InterAreaPrefix": "repudiandae",
+  "DialInPrefix": "quasi",
+  "ZipPrefix": "vero",
+  "DomainName": "Koch, Lueilwitz and Champlin",
+  "AddressLayoutId": 938,
+  "DomesticAddressLayoutId": 464,
+  "ForeignAddressLayoutId": 314,
+  "Rank": 742,
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 991
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: GET Sale/CustomField
-id: v1SaleEntity_GetCustomFieldInfoList
+uid: v1SaleEntity_GetCustomFieldInfoList
 ---
 
 # GET Sale/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/Sale/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on SaleEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Von-Bogan",
-    "DisplayName": "Mohr Group",
-    "Description": "Persistent local service-desk",
-    "ShortLabel": "eius",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Kuhn, Bogisich and Cole",
+    "DisplayName": "Larson Inc and Sons",
+    "Description": "Extended multi-state forecast",
+    "ShortLabel": "esse",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 573,
-    "TemplateVariableName": "Kshlerin-Fisher"
+    "Rank": 788,
+    "TemplateVariableName": "Padberg, Eichmann and Reinger"
   }
 ]
 ```

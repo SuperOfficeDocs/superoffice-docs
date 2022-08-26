@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteLineConfigurations
-id: v1QuoteAgent_SaveQuoteLineConfigurations
+uid: v1QuoteAgent_SaveQuoteLineConfigurations
 ---
 
 # POST Agents/Quote/SaveQuoteLineConfigurations
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 
 Save a collection of QuoteLineConfigurations.
 
+
 It is not possible to add a new configurations.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It is not possible to add a new configurations.
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineConfigurations
+QuoteLineConfigurations 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineConfigurations | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,31 +77,33 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 725,
-      "FieldName": "Bruen-Considine",
-      "Label": "dolores",
-      "Tooltip": "at",
+      "QuoteLineConfigurationId": 137,
+      "FieldName": "Considine LLC",
+      "Label": "incidunt",
+      "Tooltip": "autem",
       "Editable": true,
-      "InUse": true,
+      "InUse": false,
       "Mandatory": false,
-      "Rank": 467,
-      "RestrictEdit": false
+      "Rank": 658,
+      "RestrictEdit": true
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,27 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 994,
-    "FieldName": "Boyer Group",
-    "Label": "ut",
-    "Tooltip": "et",
-    "Editable": true,
+    "QuoteLineConfigurationId": 831,
+    "FieldName": "Goyette Inc and Sons",
+    "Label": "recusandae",
+    "Tooltip": "totam",
+    "Editable": false,
     "InUse": true,
     "Mandatory": false,
-    "Rank": 133,
-    "RestrictEdit": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 771,
+    "RestrictEdit": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 535
       }
     }
   }

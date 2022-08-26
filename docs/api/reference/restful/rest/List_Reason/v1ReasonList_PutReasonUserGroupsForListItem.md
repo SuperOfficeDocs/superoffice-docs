@@ -1,6 +1,6 @@
 ---
 title: PUT List/Reason/Items/{id}/UserGroups
-id: v1ReasonList_PutReasonUserGroupsForListItem
+uid: v1ReasonList_PutReasonUserGroupsForListItem
 ---
 
 # PUT List/Reason/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Reason list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Robel, Shields and Graham",
-    "ToolTip": "Est pariatur et est eos quasi voluptatem.",
+    "Id": 198,
+    "Name": "Stiedemann, Stiedemann and Stokes",
+    "ToolTip": "Id ullam enim ut.",
     "Deleted": true,
-    "Rank": 845,
-    "Type": "dolor",
-    "ColorBlock": 249,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2018-04-18T18:25:52.134019+02:00",
+    "Rank": 952,
+    "Type": "asperiores",
+    "ColorBlock": 349,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2010-05-11T11:10:54.5509324+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Russel Group",
-        "ToolTip": "Dolor deleniti accusantium ut voluptatum atque rem.",
-        "Deleted": true,
-        "Rank": 428,
-        "Type": "laboriosam",
-        "ColorBlock": 544,
-        "IconHint": "ipsum",
+        "Id": 125,
+        "Name": "Grady Group",
+        "ToolTip": "Quisquam cumque.",
+        "Deleted": false,
+        "Rank": 720,
+        "Type": "quasi",
+        "ColorBlock": 939,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2009-11-24T18:25:52.134019+01:00",
+        "LastChanged": "2016-11-20T11:10:54.5509324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Jada Tillman"
+        "FullName": "Zita Wiza"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Kendra Beer"
+    "ExtraInfo": "tempore",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Miss Eli Tito Gutmann"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Lang, Crooks and Runte",
-    "ToolTip": "Libero suscipit distinctio.",
+    "Id": 318,
+    "Name": "Jones-Little",
+    "ToolTip": "Possimus architecto cum.",
     "Deleted": false,
-    "Rank": 101,
+    "Rank": 490,
     "Type": "dolorum",
-    "ColorBlock": 417,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2021-05-31T18:25:52.1350215+02:00",
+    "ColorBlock": 451,
+    "IconHint": "accusantium",
+    "Selected": true,
+    "LastChanged": "1996-12-11T11:10:54.5529312+01:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Wiza, Hickle and Bauch",
-        "ToolTip": "Aut inventore aliquam.",
-        "Deleted": true,
-        "Rank": 323,
-        "Type": "officiis",
-        "ColorBlock": 580,
-        "IconHint": "voluptatum",
+        "Id": 273,
+        "Name": "Stark Group",
+        "ToolTip": "Qui ut in dolorum est.",
+        "Deleted": false,
+        "Rank": 227,
+        "Type": "facilis",
+        "ColorBlock": 584,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2003-03-20T18:25:52.1350215+01:00",
+        "LastChanged": "1997-05-17T11:10:54.5529312+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Trevor Schuster",
-        "TableRight": {},
+        "ExtraInfo": "laudantium",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Gardner Kuvalis",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 413
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "et",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Miss Laron Nitzsche",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Joaquin Bartoletti",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 792
       }
     }
   }

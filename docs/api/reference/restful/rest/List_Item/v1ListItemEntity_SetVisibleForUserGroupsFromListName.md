@@ -1,6 +1,6 @@
 ---
 title: PUT List/{udListDefinitionName}/Items/{id}/UserGroups
-id: v1ListItemEntity_SetVisibleForUserGroupsFromListName
+uid: v1ListItemEntity_SetVisibleForUserGroupsFromListName
 ---
 
 # PUT List/{udListDefinitionName}/Items/{id}/UserGroups
@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to update the items from. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update User groups that this list item is visible for
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userGroups
+## Request Body: userGroups  
 
-The selectable user groups.
+The selectable user groups. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,10 @@ The selectable user groups.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -80,56 +90,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "O'Reilly, Lubowitz and Kerluke",
-    "ToolTip": "Mollitia quo consequatur libero harum non.",
+    "Id": 897,
+    "Name": "Witting-Blanda",
+    "ToolTip": "Libero sint.",
     "Deleted": true,
-    "Rank": 837,
-    "Type": "adipisci",
-    "ColorBlock": 828,
-    "IconHint": "quasi",
-    "Selected": true,
-    "LastChanged": "2001-05-26T18:25:51.5832948+02:00",
+    "Rank": 255,
+    "Type": "rerum",
+    "ColorBlock": 56,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2010-01-20T11:10:53.8922135+01:00",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Hermann Inc and Sons",
-        "ToolTip": "Totam nulla velit suscipit nam exercitationem odio.",
+        "Id": 665,
+        "Name": "Toy Group",
+        "ToolTip": "Nulla aut ullam dolore rerum sit quis.",
         "Deleted": false,
-        "Rank": 898,
-        "Type": "odio",
-        "ColorBlock": 516,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2006-11-02T18:25:51.5832948+01:00",
+        "Rank": 758,
+        "Type": "inventore",
+        "ColorBlock": 861,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2011-01-31T11:10:53.8922135+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "libero",
         "Hidden": true,
-        "FullName": "Anderson Ward"
+        "FullName": "Ms. Sammie Gabriella McDermott"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Jacinthe Hackett"
+    "FullName": "Buddy Toy"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -137,65 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Wiegand, Hagenes and VonRueden",
-    "ToolTip": "Provident deleniti excepturi consectetur nemo.",
+    "Id": 456,
+    "Name": "Reichel Inc and Sons",
+    "ToolTip": "Dolorum ad consectetur qui rem eveniet.",
     "Deleted": false,
-    "Rank": 558,
-    "Type": "aut",
-    "ColorBlock": 373,
-    "IconHint": "cum",
+    "Rank": 873,
+    "Type": "culpa",
+    "ColorBlock": 147,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2008-01-13T18:25:51.5842949+01:00",
+    "LastChanged": "2012-12-04T11:10:53.894216+01:00",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Rau-Kautzer",
-        "ToolTip": "Aliquam quidem et praesentium.",
-        "Deleted": true,
-        "Rank": 697,
-        "Type": "aperiam",
-        "ColorBlock": 69,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "2010-09-27T18:25:51.5842949+02:00",
+        "Id": 181,
+        "Name": "Tromp-Thiel",
+        "ToolTip": "Dolorem molestiae minima qui iusto non doloremque.",
+        "Deleted": false,
+        "Rank": 392,
+        "Type": "doloribus",
+        "ColorBlock": 661,
+        "IconHint": "quod",
+        "Selected": false,
+        "LastChanged": "2003-12-09T11:10:53.894216+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Johnnie Gottlieb",
-        "TableRight": {},
+        "ExtraInfo": "neque",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Milan Goodwin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 647
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "iste",
-    "Hidden": true,
-    "FullName": "D'angelo Larson",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "sunt",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Myles Schuster",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 698
       }
     }
   }

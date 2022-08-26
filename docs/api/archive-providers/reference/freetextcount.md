@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextCount"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,7 +25,7 @@ The purpose if this provider is to provide simple counts of matches, grouped by 
 this corresponds to the tabs in the freetext search result dialog, and the numbers on those tabs. To
 get actual matches for a particular entity, use the corresponding FreetextSearchProvider, for instance,
 the <see cref="T:SuperOffice.CRM.ArchiveLists.FreetextContactResultProvider" />.
-
+<para />
 The 'OwnerEntityName' column accepts a restriction in the form of an array of strings or table names. If
 provided, this restriction will limit the entities searched. The <see cref="T:SuperOffice.CRM.Lists.FreetextSearchEntityProvider" />
 is an MDO provider for supported entities.
@@ -33,13 +33,13 @@ is an MDO provider for supported entities.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"freetextcount"|Number of matches|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |ownerEntityName|listAny|Owner: Owner (type) of freetext match| x |
 |count| *None* |Count: Number of matches for a certain owner entity| x |
 |entityLocalizedName| *None* |Owner: Owner of freetext match| x |
@@ -55,4 +55,7 @@ Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

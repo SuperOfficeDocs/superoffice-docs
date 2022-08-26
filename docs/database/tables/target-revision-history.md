@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_revision_history"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_revision\_history Table (497)
+# target\_revision\_history Table (498)
 
 Revision history info in case the original target group or assignment info was deleted
 
@@ -34,6 +34,7 @@ Revision history info in case the original target group or assignment info was d
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |target\_assignment\_info\_id|TargetAssignmentInfo associated with the logged info|FK [target_assignment_info](target-assignment-info.md)|&#x25CF;|
+
 
 ![target_revision_history table relationship diagram](./media/target_revision_history.png)
 
@@ -58,6 +59,7 @@ Revision history info in case the original target group or assignment info was d
 |[target\_revision](target-revision.md)  |One batch of changes made to targets |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * None
@@ -65,3 +67,4 @@ Revision history info in case the original target group or assignment info was d
 ## Security Flags
 
 * No access control via user's Role.
+

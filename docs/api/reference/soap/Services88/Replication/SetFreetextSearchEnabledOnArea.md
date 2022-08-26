@@ -12,12 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.SetFree
 ## SetFreetextSearchEnabledOnArea
 
 Enable freetext search on this area
-<br />**Online Restricted:** The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 * **areaId:** The id of the area
 * **freetextEnabled:** True if freetextSearch on this area shall be enabled
 
 **Returns:** No return value
+
 
 [WSDL file for Services88/Replication](../Services88-Replication.md)
 
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetFreetextSearchEnabledOnArea Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetMyAudienceLayout
-id: v1AudienceAgent_GetMyAudienceLayout
+uid: v1AudienceAgent_GetMyAudienceLayout
 ---
 
 # POST Agents/Audience/GetMyAudienceLayout
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetMyAudienceLayout
 
 Gets the Audience layout belonging to the currently logged on user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience layout belonging to the currently logged on user.
 ```http
 POST /api/v1/Agents/Audience/GetMyAudienceLayout?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/Audience/GetMyAudienceLayout?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Audience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it's instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout
+## Response: 
 
-Carrier object for AudienceLayoutEntity.
-Services for the AudienceLayoutEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,87 +64,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 182,
-  "InstanceLayout": "ut",
-  "InstanceName": "Carter-Torp",
-  "CreatedDate": "2002-03-05T18:28:48.1365426+01:00",
-  "UpdatedDate": "1995-01-05T18:28:48.1365426+01:00",
-  "CreatedBy": {
-    "AssociateId": 875,
-    "Name": "Towne-Ferry",
-    "PersonId": 275,
-    "Rank": 657,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 229,
-    "FullName": "Bruce Skiles Jr.",
-    "FormalName": "Corkery, Zemlak and Quigley",
-    "Deleted": true,
-    "EjUserId": 628,
-    "UserName": "Schimmel, Rogahn and Johnston",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 970
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 848,
-    "Name": "Schoen, Littel and Mitchell",
-    "PersonId": 893,
-    "Rank": 607,
-    "Tooltip": "illo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 563,
-    "FullName": "Ettie Rolfson",
-    "FormalName": "Zieme, Bailey and Schinner",
-    "Deleted": false,
-    "EjUserId": 164,
-    "UserName": "Shanahan-Kessler",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 151
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AudienceLayoutId": 230,
+  "InstanceLayout": "pariatur",
+  "InstanceName": "Kessler Inc and Sons",
+  "CreatedDate": "2016-07-26T11:10:26.0125569+02:00",
+  "UpdatedDate": "1997-06-04T11:10:26.0125569+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 234
     }
   }
 }

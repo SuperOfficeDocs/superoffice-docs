@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetBaseCurrency
-id: v1ListAgent_GetBaseCurrency
+uid: v1ListAgent_GetBaseCurrency
 ---
 
 # POST Agents/List/GetBaseCurrency
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetBaseCurrency
 
 Get the base currency, used for calculating exchange rates
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the base currency, used for calculating exchange rates
 ```http
 POST /api/v1/Agents/List/GetBaseCurrency?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,16 +41,16 @@ POST /api/v1/Agents/List/GetBaseCurrency?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for CurrencyEntity.
-Services for the CurrencyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,39 +64,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 61,
-  "Name": "Cronin LLC",
-  "Tooltip": "aut",
-  "Rank": 927,
-  "Rate": 22263.935999999998,
-  "Units": 12586.144,
-  "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "CurrencyId": 949,
+  "Name": "Koelpin-Klocko",
+  "Tooltip": "est",
+  "Rank": 887,
+  "Rate": 9289.176,
+  "Units": 20427.412,
+  "Deleted": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 624
     }
   }
 }

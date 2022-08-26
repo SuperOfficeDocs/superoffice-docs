@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OLEFieldText"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Control data table for the OLE DB Provider
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![OLEFieldText table relationship diagram](./media/OLEFieldText.png)
 
 [!include[details](./includes/olefieldtext.md)]
@@ -53,6 +54,7 @@ Control data table for the OLE DB Provider
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[OLESubject](olesubject.md)  |Control data table for the OLE DB Provider |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,3 +64,4 @@ Control data table for the OLE DB Provider
 ## Security Flags
 
 * No access control via user's Role.
+

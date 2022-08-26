@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetSelectableSimpleList
-id: v1MDOAgent_GetSelectableSimpleList
+uid: v1MDOAgent_GetSelectableSimpleList
 ---
 
 # POST Agents/MDO/GetSelectableSimpleList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSelectableSimpleList
 
 Method returns a flat Selectable MDO List.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method returns a flat Selectable MDO List.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableSimpleList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/MDO/GetSelectableSimpleList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,19 +81,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Russel-Ullrich"
+  "Name": "Pollich, Schmitt and Miller"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -91,65 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Gleason LLC",
-    "ToolTip": "Porro animi.",
+    "Id": 890,
+    "Name": "Wilderman-Abshire",
+    "ToolTip": "Officiis blanditiis.",
     "Deleted": true,
-    "Rank": 627,
-    "Type": "quaerat",
-    "ColorBlock": 95,
-    "IconHint": "quas",
-    "Selected": true,
-    "LastChanged": "2016-10-22T18:28:49.4820906+02:00",
+    "Rank": 113,
+    "Type": "ab",
+    "ColorBlock": 80,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2004-01-02T11:10:27.3084529+01:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Jast-Keeling",
-        "ToolTip": "Qui placeat aliquam aperiam.",
-        "Deleted": true,
-        "Rank": 315,
-        "Type": "sequi",
-        "ColorBlock": 972,
-        "IconHint": "adipisci",
+        "Id": 291,
+        "Name": "Zulauf Group",
+        "ToolTip": "Sint sequi est.",
+        "Deleted": false,
+        "Rank": 13,
+        "Type": "labore",
+        "ColorBlock": 19,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2012-01-22T18:28:49.4820906+01:00",
+        "LastChanged": "2000-07-08T11:10:27.3094538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "natus",
+        "ExtraInfo": "et",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Dr. Destany Yundt",
-        "TableRight": {},
+        "FullName": "Mrs. Haylee O'Kon II",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "sit",
+    "ExtraInfo": "facilis",
+    "StyleHint": "ratione",
     "Hidden": true,
-    "FullName": "Eleonore Boyer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Benjamin Zboncak MD",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 716
       }
     }
   }

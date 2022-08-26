@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketPriority/Items
-id: v1TicketPriorityList_GetAllTicketPriorityEntity
+uid: v1TicketPriorityList_GetAllTicketPriorityEntity
 ---
 
 # GET List/TicketPriority/Items
@@ -11,7 +11,13 @@ GET /api/v1/List/TicketPriority/Items
 
 Gets a list of all TicketPriorityEntity list items.
 
+
 Calls the List agent service GetAllTicketPriorityEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,12 +82,12 @@ Response body: array
 | SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketPriority/Items
@@ -86,85 +96,78 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 541,
-    "Name": "Donnelly Group",
+    "TicketPriorityId": 943,
+    "Name": "Feil, Schuppe and Hudson",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 963,
+    "SortOrder": 558,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 794,
-    "MonStart": "2015-05-11T18:25:52.3066381+02:00",
-    "MonStop": "2020-11-20T18:25:52.3066381+01:00",
-    "TueStart": "2007-03-04T18:25:52.3066381+01:00",
-    "TueStop": "2005-02-23T18:25:52.3066381+01:00",
-    "WedStart": "1997-05-09T18:25:52.3066381+02:00",
-    "WedStop": "1997-03-27T18:25:52.3066381+01:00",
-    "ThuStart": "1997-10-23T18:25:52.3066381+02:00",
-    "ThuStop": "2006-05-03T18:25:52.3066381+02:00",
-    "FriStart": "2011-04-17T18:25:52.3066381+02:00",
-    "FriStop": "2002-11-23T18:25:52.3066381+01:00",
-    "SatStart": "2011-05-17T18:25:52.3066381+02:00",
-    "SatStop": "1999-03-28T18:25:52.3066381+02:00",
-    "SunStart": "2013-01-21T18:25:52.3066381+01:00",
-    "SunStop": "2017-09-21T18:25:52.3066381+02:00",
+    "Deadline": 6,
+    "MonStart": "2014-09-14T11:10:54.6829307+02:00",
+    "MonStop": "1997-04-21T11:10:54.6829307+02:00",
+    "TueStart": "2004-04-16T11:10:54.6829307+02:00",
+    "TueStop": "2012-06-02T11:10:54.6829307+02:00",
+    "WedStart": "2016-01-18T11:10:54.6829307+01:00",
+    "WedStop": "2001-06-19T11:10:54.6829307+02:00",
+    "ThuStart": "2014-02-26T11:10:54.6829307+01:00",
+    "ThuStop": "1995-08-14T11:10:54.6829307+02:00",
+    "FriStart": "2015-05-04T11:10:54.6829307+02:00",
+    "FriStop": "2018-01-22T11:10:54.6829307+01:00",
+    "SatStart": "2020-01-30T11:10:54.6829307+01:00",
+    "SatStop": "2010-08-11T11:10:54.6829307+02:00",
+    "SunStart": "2020-11-29T11:10:54.6829307+01:00",
+    "SunStop": "1996-12-09T11:10:54.6829307+01:00",
     "NonDates": [
-      "asperiores",
-      "fugiat"
+      "quasi",
+      "mollitia"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 39,
-        "AlertLevel": 17,
-        "AlertTimeout": 211,
-        "Action": 907,
-        "DelegateTo": 654,
-        "ScriptId": 849,
-        "EmailTo": "coralie_hauck@metz.co.uk",
-        "SmsTo": "provident",
-        "ReplyTemplateIdCustomer": 125,
-        "ReplyTemplateIdUser": 211,
-        "ReplyTemplateIdCatmast": 309,
-        "ReplyTemplateIdEmail": 765,
-        "RtiCustomerSms": 584,
-        "ReplyTemplateIdUserSms": 471,
-        "ReplyTemplateIdCatmastSms": 972,
-        "ReplyTemplateIdSms": 882,
-        "TableRight": {},
+        "TicketAlertId": 688,
+        "AlertLevel": 732,
+        "AlertTimeout": 960,
+        "Action": 280,
+        "DelegateTo": 739,
+        "ScriptId": 608,
+        "EmailTo": "bret@shields.com",
+        "SmsTo": "delectus",
+        "ReplyTemplateIdCustomer": 720,
+        "ReplyTemplateIdUser": 506,
+        "ReplyTemplateIdCatmast": 219,
+        "ReplyTemplateIdEmail": 957,
+        "RtiCustomerSms": 896,
+        "ReplyTemplateIdUserSms": 815,
+        "ReplyTemplateIdCatmastSms": 565,
+        "ReplyTemplateIdSms": 188,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 919
+            "FieldLength": 717
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 190
       }
     }
   }

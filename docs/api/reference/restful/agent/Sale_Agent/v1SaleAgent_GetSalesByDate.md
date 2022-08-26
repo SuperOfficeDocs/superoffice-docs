@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSalesByDate
-id: v1SaleAgent_GetSalesByDate
+uid: v1SaleAgent_GetSalesByDate
 ---
 
 # POST Agents/Sale/GetSalesByDate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetSalesByDate
 
 Returns all sales within a time period.
 
+
 The sales array can be limited by amount and status.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The sales array can be limited by amount and status.
 ```http
 POST /api/v1/Agents/Sale/GetSalesByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Sale/GetSalesByDate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromDate, ToDate, AmountLimit, Status
+FromDate, ToDate, AmountLimit, Status 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ FromDate, ToDate, AmountLimit, Status
 | AmountLimit | int32 |  |
 | Status | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -86,7 +96,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSalesByDate
@@ -96,12 +106,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2000-08-19T18:28:50.1784416+02:00",
-  "ToDate": "2007-11-28T18:28:50.1784416+01:00",
-  "AmountLimit": 689,
+  "FromDate": "2002-10-12T11:10:27.8540076+02:00",
+  "ToDate": "2009-07-30T11:10:27.8540076+02:00",
+  "AmountLimit": 750,
   "Status": "Lost"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -109,43 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lesch, VonRueden and Cole",
-    "SaleDate": "2001-05-11T18:28:50.1784416+02:00",
-    "SaleId": 894,
-    "Probability": 977,
-    "Title": "iste",
-    "Amount": 11009.742,
-    "Currency": "aut",
-    "ProjectName": "Kovacek Group",
-    "AssociateFullName": "Mrs. Mac Kemmer",
-    "Description": "Networked zero administration conglomeration",
+    "ContactName": "Jacobson Inc and Sons",
+    "SaleDate": "1996-06-02T11:10:27.8540076+02:00",
+    "SaleId": 197,
+    "Probability": 778,
+    "Title": "neque",
+    "Amount": 10232.51,
+    "Currency": "qui",
+    "ProjectName": "Bechtelar Group",
+    "AssociateFullName": "Prof. Andy Leannon",
+    "Description": "Assimilated full-range knowledge base",
     "Status": "Lost",
-    "WeightedAmount": 5274.522,
-    "ProjectId": 553,
-    "EarningPercent": 16378.284,
-    "Earning": 11570.728,
-    "ContactId": 775,
-    "AssociateId": 509,
-    "PersonId": 937,
-    "SaleTypeId": 448,
-    "SaleTypeName": "D'Amore-Deckow",
-    "PersonFullName": "Junius Brown",
+    "WeightedAmount": 9239.032,
+    "ProjectId": 290,
+    "EarningPercent": 20712.606,
+    "Earning": 23953.162,
+    "ContactId": 573,
+    "AssociateId": 832,
+    "PersonId": 12,
+    "SaleTypeId": 496,
+    "SaleTypeName": "Feest-Cormier",
+    "PersonFullName": "Mr. Riley Lubowitz",
     "Completed": "Completed",
-    "ActiveErpLinks": 150,
-    "NextDueDate": "1996-05-04T18:28:50.1794449+02:00",
-    "Number": "1345276",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 318,
+    "NextDueDate": "2022-03-12T11:10:27.8550078+01:00",
+    "Number": "679676",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 222
       }
     }
   }

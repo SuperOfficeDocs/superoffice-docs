@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "static_list_ref"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ This table stores id references for selections id lists
 |id|Primary key|PK| |
 |ref\_id|The id of the element which this item points to|Int| |
 |list\_id|The id of the list we link to|Int| |
+
 
 ![static_list_ref table relationship diagram](./media/static_list_ref.png)
 
@@ -44,3 +45,4 @@ This table stores id references for selections id lists
 ## Security Flags
 
 * No access control via user's Role.
+

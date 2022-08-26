@@ -1,6 +1,6 @@
 ---
 title: PUT List/Task/Items/{id}/Headings
-id: v1TaskList_PutTaskListItemHeadingsForListItem
+uid: v1TaskList_PutTaskListItemHeadingsForListItem
 ---
 
 # PUT List/Task/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Task/Items/{itemId}/Headings
 
 Saves headings for the TaskListItem list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Denesik, White and Nitzsche",
-    "ToolTip": "Ipsa nisi labore harum et.",
-    "Deleted": true,
-    "Rank": 638,
-    "Type": "rerum",
-    "ColorBlock": 615,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2019-01-03T18:25:52.286681+01:00",
+    "Id": 991,
+    "Name": "Bergnaum-Hoppe",
+    "ToolTip": "Ut iste ut aperiam.",
+    "Deleted": false,
+    "Rank": 425,
+    "Type": "quo",
+    "ColorBlock": 942,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "2000-07-28T11:10:54.66593+02:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Brekke Inc and Sons",
-        "ToolTip": "Quidem molestias quia eum voluptatem quaerat.",
+        "Id": 545,
+        "Name": "Donnelly Group",
+        "ToolTip": "In at et.",
         "Deleted": true,
-        "Rank": 757,
-        "Type": "asperiores",
-        "ColorBlock": 716,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "1995-07-02T18:25:52.286681+02:00",
+        "Rank": 960,
+        "Type": "qui",
+        "ColorBlock": 886,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2003-09-25T11:10:54.66593+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "eum",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Wilfredo Kling"
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Ms. Imelda Wehner II"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Emilio Hartmann"
+    "FullName": "Mr. Hobart Koepp Sr."
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Hegmann Inc and Sons",
-    "ToolTip": "Et quo.",
-    "Deleted": true,
-    "Rank": 457,
-    "Type": "officia",
-    "ColorBlock": 621,
-    "IconHint": "placeat",
+    "Id": 991,
+    "Name": "O'Connell, Nitzsche and Hoppe",
+    "ToolTip": "Libero sed.",
+    "Deleted": false,
+    "Rank": 986,
+    "Type": "quisquam",
+    "ColorBlock": 985,
+    "IconHint": "fuga",
     "Selected": true,
-    "LastChanged": "2010-03-03T18:25:52.2886728+01:00",
+    "LastChanged": "2020-05-29T11:10:54.6669321+02:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Kuhic, Schultz and Ratke",
-        "ToolTip": "Aut eveniet et qui praesentium mollitia.",
-        "Deleted": true,
-        "Rank": 963,
-        "Type": "sit",
-        "ColorBlock": 762,
-        "IconHint": "corrupti",
+        "Id": 701,
+        "Name": "Pagac, Considine and Klocko",
+        "ToolTip": "Totam cumque ea maxime unde dignissimos.",
+        "Deleted": false,
+        "Rank": 310,
+        "Type": "laudantium",
+        "ColorBlock": 300,
+        "IconHint": "odio",
         "Selected": true,
-        "LastChanged": "2016-11-27T18:25:52.2886728+01:00",
+        "LastChanged": "2011-09-23T11:10:54.6669321+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Matilde Kemmer",
-        "TableRight": {},
+        "ExtraInfo": "libero",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Lucious McCullough",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldLength": 817
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "corrupti",
-    "Hidden": false,
-    "FullName": "Hipolito Dooley",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "omnis",
+    "StyleHint": "pariatur",
+    "Hidden": true,
+    "FullName": "Mrs. Emilio Kayli White",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

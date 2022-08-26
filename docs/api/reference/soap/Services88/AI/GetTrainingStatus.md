@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.GetTrainingStatu
 
 Calling the HugoAI endpoint to fetch the current training status.
 
+
 **Returns:** Carrier to describe the current status of HugoAI categorization
+
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTrainingStatus Response
 
 ```xml
@@ -62,12 +65,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <AI:ContextIdentifier xsi:type="xsd:string"></AI:ContextIdentifier>
     <AI:Status xsi:type="xsd:string"></AI:Status>
     <AI:CurrentModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2021-11-30T13:23:30Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2022-08-26T08:58:14Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:CurrentModel>
     <AI:PreviousModel xsi:type="AI:CategorizationModelDetails">
-     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2021-11-30T13:23:30Z</AI:ModelBuiltDateTime>
+     <AI:ModelBuiltDateTime xsi:type="xsd:dateTime">2022-08-26T08:58:14Z</AI:ModelBuiltDateTime>
      <AI:Accuracy xsi:type="xsd:double">0.0</AI:Accuracy>
      <AI:TicketCountForTraining xsi:type="xsd:int">0</AI:TicketCountForTraining>
     </AI:PreviousModel>
@@ -77,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

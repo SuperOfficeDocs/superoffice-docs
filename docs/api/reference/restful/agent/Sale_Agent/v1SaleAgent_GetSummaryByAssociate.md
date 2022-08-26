@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSummaryByAssociate
-id: v1SaleAgent_GetSummaryByAssociate
+uid: v1SaleAgent_GetSummaryByAssociate
 ---
 
 # POST Agents/Sale/GetSummaryByAssociate
@@ -8,6 +8,14 @@ id: v1SaleAgent_GetSummaryByAssociate
 ```http
 POST /api/v1/Agents/Sale/GetSummaryByAssociate
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/GetSummaryByAssociate
 ```http
 POST /api/v1/Agents/Sale/GetSummaryByAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Sale/GetSummaryByAssociate?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, FromDate, ToDate
+AssociateId, FromDate, ToDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,16 +52,16 @@ AssociateId, FromDate, ToDate
 | FromDate | date-time |  |
 | ToDate | date-time |  |
 
-## Response: object
 
-Carrier object for SaleSummary.
-Services for the SaleSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,67 +96,63 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSummaryByAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 706,
-  "FromDate": "2001-05-11T18:28:50.05867+02:00",
-  "ToDate": "2021-10-28T18:28:50.05867+02:00"
+  "AssociateId": 476,
+  "FromDate": "1995-12-03T11:10:27.8739785+01:00",
+  "ToDate": "2021-12-09T11:10:27.8739785+01:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BaseCurrency": "et",
-  "OwnCurrency": "dolores",
-  "SoldTotalBaseCurrency": 23661.7,
-  "Sold": 394,
-  "SoldTotalOwnCurrency": 18634.764,
-  "Lost": 623,
-  "LostTotalBaseCurrency": 9693.462,
-  "LostTotalOwnCurrency": 24254.025999999998,
-  "Open": 655,
-  "OpenTotalBaseCurrency": 25560.904,
-  "OpenTotalOwnCurrency": 7057.768,
-  "OpenWeightedBaseCurrency": 30039.39,
-  "OpenWeightedOwnCurrency": 3723.192,
-  "PreviousOverdue": 246,
-  "PreviousOverdueTotalBaseCurrency": 16224.717999999999,
-  "PreviousOverdueTotalOwnCurrency": 27325.345999999998,
-  "PreviousOverdueWeightedBaseCurrency": 29121.128,
-  "PreviousOverdueWeightedOwnCurrency": 18891.752,
-  "CurrentOverdue": 624,
-  "CurrentOverdueTotalBaseCurrency": 29845.082,
-  "CurrentOverdueTotalOwnCurrency": 27460.108,
-  "CurrentOverdueWeightedBaseCurrency": 26519.908,
-  "CurrentOverdueWeightedOwnCurrency": 10461.292,
-  "FutureOpen": 739,
-  "FutureOpenTotalBaseCurrency": 21094.953999999998,
-  "FutureOpenTotalOwnCurrency": 1905.472,
-  "FutureOpenWeightedBaseCurrency": 4127.478,
-  "FutureOpenWeightedOwnCurrency": 4541.166,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "BaseCurrency": "assumenda",
+  "OwnCurrency": "quibusdam",
+  "SoldTotalBaseCurrency": 28967.561999999998,
+  "Sold": 848,
+  "SoldTotalOwnCurrency": 29688.381999999998,
+  "Lost": 518,
+  "LostTotalBaseCurrency": 15287.652,
+  "LostTotalOwnCurrency": 19020.246,
+  "Open": 567,
+  "OpenTotalBaseCurrency": 9502.288,
+  "OpenTotalOwnCurrency": 30857.363999999998,
+  "OpenWeightedBaseCurrency": 833.644,
+  "OpenWeightedOwnCurrency": 28083.773999999998,
+  "PreviousOverdue": 524,
+  "PreviousOverdueTotalBaseCurrency": 6872.862,
+  "PreviousOverdueTotalOwnCurrency": 6872.862,
+  "PreviousOverdueWeightedBaseCurrency": 20446.216,
+  "PreviousOverdueWeightedOwnCurrency": 17540.998,
+  "CurrentOverdue": 545,
+  "CurrentOverdueTotalBaseCurrency": 3923.768,
+  "CurrentOverdueTotalOwnCurrency": 25134.68,
+  "CurrentOverdueWeightedBaseCurrency": 18349.57,
+  "CurrentOverdueWeightedOwnCurrency": 13626.632,
+  "FutureOpen": 100,
+  "FutureOpenTotalBaseCurrency": 5227.512,
+  "FutureOpenTotalOwnCurrency": 23426.649999999998,
+  "FutureOpenWeightedBaseCurrency": 23050.57,
+  "FutureOpenWeightedOwnCurrency": 20161.022,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 378
     }
   }
 }

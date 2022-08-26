@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectStatus/Items
-id: v1ProjectStatusList_GetAll
+uid: v1ProjectStatusList_GetAll
 ---
 
 # GET List/ProjectStatus/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/ProjectStatus/Items
 
 Gets all the ProjectStatus items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Gets all the ProjectStatus items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
+GET /api/v1/List/ProjectStatus/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Bartoletti Inc and Sons",
-    "Tooltip": "est",
+    "Id": 553,
+    "Name": "Bartoletti Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 226,
-    "Rank": 94,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 660,
+    "Rank": 28,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 932
       }
     }
   }

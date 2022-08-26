@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteLineConfiguration
-id: v1QuoteAgent_GetQuoteLineConfiguration
+uid: v1QuoteAgent_GetQuoteLineConfiguration
 ---
 
 # POST Agents/Quote/GetQuoteLineConfiguration
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 
 Returns the configuration field with the given id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the configuration field with the given id
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineConfigurationId
+QuoteLineConfigurationId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineConfigurationId | int32 |  |
 
-## Response: object
 
-QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.
+## Response: 
 
-Carrier object for QuoteLineConfiguration.
-Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,46 +75,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 59
+  "QuoteLineConfigurationId": 595
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 68,
-  "FieldName": "Blanda Group",
-  "Label": "aut",
-  "Tooltip": "earum",
-  "Editable": true,
-  "InUse": true,
-  "Mandatory": true,
-  "Rank": 71,
+  "QuoteLineConfigurationId": 537,
+  "FieldName": "Hessel Group",
+  "Label": "qui",
+  "Tooltip": "et",
+  "Editable": false,
+  "InUse": false,
+  "Mandatory": false,
+  "Rank": 191,
   "RestrictEdit": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

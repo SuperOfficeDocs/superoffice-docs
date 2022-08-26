@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.CreateDefaul
 Loading default values into a new ReportEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New ReportEntity with default values
+
 
 [WSDL file for Services88/Report](../Services88-Report.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultReportEntity Response
 
 ```xml
@@ -76,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

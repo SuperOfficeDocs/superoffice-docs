@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/SaveCustomerCenterConfig
-id: v1CustomerServiceAgent_SaveCustomerCenterConfig
+uid: v1CustomerServiceAgent_SaveCustomerCenterConfig
 ---
 
 # POST Agents/CustomerService/SaveCustomerCenterConfig
@@ -10,6 +10,13 @@ POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 ```
 
 Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CustomerCenterConfig to be saved.
+The CustomerCenterConfig to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The CustomerCenterConfig to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response: object
 
-Contains configuration when displaying the Customer Center
+## Response: 
 
-Carrier object for CustomerCenterConfig.
-Services for the CustomerCenterConfig Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,52 +71,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 329,
+  "CustConfigId": 571,
   "Type": "Options",
-  "Config": "est",
-  "CustLangId": 877,
-  "Registered": "2018-04-04T18:28:48.6459274+02:00",
-  "RegisteredAssociateId": 80,
-  "Updated": "2011-01-17T18:28:48.6459274+01:00",
-  "UpdatedAssociateId": 847
+  "Config": "nihil",
+  "CustLangId": 790,
+  "Registered": "2017-03-10T11:10:26.3934239+01:00",
+  "RegisteredAssociateId": 923,
+  "Updated": "1995-05-31T11:10:26.3934239+02:00",
+  "UpdatedAssociateId": 224
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 132,
+  "CustConfigId": 43,
   "Type": "Options",
-  "Config": "voluptatem",
-  "CustLangId": 837,
-  "Registered": "1997-07-18T18:28:48.6459274+02:00",
-  "RegisteredAssociateId": 314,
-  "Updated": "2005-04-27T18:28:48.6459274+02:00",
-  "UpdatedAssociateId": 814,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Config": "cum",
+  "CustLangId": 664,
+  "Registered": "2001-02-18T11:10:26.3934239+01:00",
+  "RegisteredAssociateId": 31,
+  "Updated": "2017-07-03T11:10:26.3934239+02:00",
+  "UpdatedAssociateId": 112,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "mesh ubiquitous content"
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

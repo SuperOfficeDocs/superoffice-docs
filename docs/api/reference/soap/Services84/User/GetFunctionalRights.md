@@ -17,6 +17,7 @@ Get all functional rights for the given role. Functional rights not set on the r
 
 **Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
 
+
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFunctionalRights Response
 
 ```xml
@@ -74,7 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
      <User:IconHint xsi:type="xsd:string"></User:IconHint>
      <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-     <User:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:LastChanged>
+     <User:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:LastChanged>
      <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
       <User:SelectableMDOListItem xsi:type="User:SelectableMDOListItem">
        <User:Id xsi:type="xsd:int">0</User:Id>
@@ -86,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
        <User:IconHint xsi:type="xsd:string"></User:IconHint>
        <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-       <User:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:LastChanged>
+       <User:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:LastChanged>
        <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
         <User:SelectableMDOListItem xsi:type="User:SelectableMDOListItem">
          <User:Id xsi:type="xsd:int">0</User:Id>
@@ -98,7 +100,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <User:ColorBlock xsi:type="xsd:int">0</User:ColorBlock>
          <User:IconHint xsi:type="xsd:string"></User:IconHint>
          <User:Selected xsi:type="xsd:boolean">false</User:Selected>
-         <User:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:LastChanged>
+         <User:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:LastChanged>
          <User:ChildItems xsi:type="User:ArrayOfSelectableMDOListItem">
           <User:SelectableMDOListItem xsi:nil="true"></User:SelectableMDOListItem>
          </User:ChildItems>
@@ -125,3 +127,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

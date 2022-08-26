@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "BinaryObjectLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ Link table, connects a BinaryObject with one or more owners
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![BinaryObjectLink table relationship diagram](./media/BinaryObjectLink.png)
 
 [!include[details](./includes/binaryobjectlink.md)]
@@ -52,6 +53,7 @@ Link table, connects a BinaryObject with one or more owners
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[BinaryObject](binaryobject.md)  |Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,3 +63,4 @@ Link table, connects a BinaryObject with one or more owners
 ## Security Flags
 
 * No access control via user's Role.
+

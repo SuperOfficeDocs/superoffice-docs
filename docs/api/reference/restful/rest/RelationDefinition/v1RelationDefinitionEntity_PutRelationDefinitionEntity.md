@@ -1,6 +1,6 @@
 ---
 title: PUT RelationDefinition/{id}
-id: v1RelationDefinitionEntity_PutRelationDefinitionEntity
+uid: v1RelationDefinitionEntity_PutRelationDefinitionEntity
 ---
 
 # PUT RelationDefinition/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/RelationDefinition/{id}
 
 Updates the existing RelationDefinitionEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The RelationDefinitionEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing RelationDefinitionEntity
 ```http
 PUT /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RelationDefinitionEntity to be saved.
+The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,18 +61,17 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-## Response: object
 
-A relation definition entity with source and destination tables
+## Response: 
 
-RelationDefinitionEntity entity with API _Links added.
+RelationDefinitionEntity updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | RelationDefinitionEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,57 +87,53 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 509,
-  "Name": "Bartell LLC",
-  "Tooltip": "totam",
-  "PassiveText": "aperiam",
+  "ReldefId": 428,
+  "Name": "Okuneva, Fay and O'Keefe",
+  "Tooltip": "omnis",
+  "PassiveText": "sed",
   "Deleted": false,
-  "Rank": 767,
+  "Rank": 307,
   "Source": "Both",
   "Destination": "Both"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 854,
-  "Name": "Parisian-Cremin",
-  "Tooltip": "est",
-  "PassiveText": "eum",
-  "Deleted": true,
-  "Rank": 873,
+  "ReldefId": 116,
+  "Name": "Miller-Altenwerth",
+  "Tooltip": "dolores",
+  "PassiveText": "sed",
+  "Deleted": false,
+  "Rank": 681,
   "Source": "Both",
   "Destination": "Both",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "implement best-of-breed communities"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

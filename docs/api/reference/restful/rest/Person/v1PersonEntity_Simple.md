@@ -1,6 +1,6 @@
 ---
 title: GET Person/{id}/Simple
-id: v1PersonEntity_Simple
+uid: v1PersonEntity_Simple
 ---
 
 # GET Person/{id}/Simple
@@ -11,11 +11,18 @@ GET /api/v1/Person/{id}/Simple
 
 A simple Person object.
 
+
 This is a simpler, smaller variation of the full PersonEntity. Calls the Person agent service GetPerson.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Person to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ This is a simpler, smaller variation of the full PersonEntity. Calls the Person 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Person.
-Services for the Person Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+## Response: 
+
+PersonEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PersonEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,72 +94,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dicta",
-  "PersonId": 368,
-  "Mrmrs": "quidem",
-  "Firstname": "Cale",
-  "Lastname": "Ortiz",
-  "MiddleName": "Veum-Jacobson",
-  "Title": "dolorem",
-  "Description": "Assimilated logistical knowledge base",
-  "Email": "horacio_deckow@macejkovic.us",
-  "FullName": "Alfonzo Becker",
-  "DirectPhone": "027.068.8162 x305",
-  "FormalName": "Kreiger-Steuber",
-  "CountryId": 226,
-  "ContactId": 754,
-  "ContactName": "Langworth-Sanford",
-  "Retired": 468,
-  "Rank": 9,
-  "ActiveInterests": 147,
+  "Position": "maxime",
+  "PersonId": 628,
+  "Mrmrs": "assumenda",
+  "Firstname": "Corine",
+  "Lastname": "Ward",
+  "MiddleName": "Keeling-Deckow",
+  "Title": "quae",
+  "Description": "Reduced neutral infrastructure",
+  "Email": "bulah.nikolaus@gibson.uk",
+  "FullName": "Gabe Schoen",
+  "DirectPhone": "(095)982-9142",
+  "FormalName": "Stanton, O'Keefe and Reynolds",
+  "CountryId": 594,
+  "ContactId": 23,
+  "ContactName": "Hane-O'Keefe",
+  "Retired": 11,
+  "Rank": 722,
+  "ActiveInterests": 915,
   "ContactDepartment": "",
-  "ContactCountryId": 675,
-  "ContactOrgNr": "408691",
-  "FaxPhone": "075-003-6500 x15301",
-  "MobilePhone": "111.530.5447",
-  "ContactPhone": "257.056.3537 x840",
-  "AssociateName": "Gerlach, Buckridge and Pfeffer",
-  "AssociateId": 411,
+  "ContactCountryId": 704,
+  "ContactOrgNr": "1279572",
+  "FaxPhone": "1-974-242-9344 x4424",
+  "MobilePhone": "(716)812-4377",
+  "ContactPhone": "1-637-553-5862",
+  "AssociateName": "Tillman Group",
+  "AssociateId": 748,
   "UsePersonAddress": false,
-  "ContactFax": "et",
-  "Kanafname": "aut",
-  "Kanalname": "excepturi",
-  "Post1": "deserunt",
-  "Post2": "eaque",
-  "Post3": "explicabo",
-  "EmailName": "dianna_keebler@greenholt.info",
-  "ContactFullName": "Glen Schamberger",
-  "ActiveErpLinks": 369,
-  "TicketPriorityId": 223,
-  "SupportLanguageId": 640,
-  "SupportAssociateId": 125,
+  "ContactFax": "mollitia",
+  "Kanafname": "et",
+  "Kanalname": "odio",
+  "Post1": "quia",
+  "Post2": "consectetur",
+  "Post3": "dolore",
+  "EmailName": "imogene.brown@mcglynnbarton.uk",
+  "ContactFullName": "Alford Waelchi",
+  "ActiveErpLinks": 815,
+  "TicketPriorityId": 274,
+  "SupportLanguageId": 892,
+  "SupportAssociateId": 104,
   "CategoryName": "VIP Customer",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "matrix visionary partnerships"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

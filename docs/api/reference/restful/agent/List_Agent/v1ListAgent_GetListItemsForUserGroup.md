@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetListItemsForUserGroup
-id: v1ListAgent_GetListItemsForUserGroup
+uid: v1ListAgent_GetListItemsForUserGroup
 ---
 
 # POST Agents/List/GetListItemsForUserGroup
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListItemsForUserGroup
 
 List of list items that is visible in the usergroup
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of list items that is visible in the usergroup
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/GetListItemsForUserGroup?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, GroupId
+UdListDefinitionId, GroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | GroupId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 641,
-  "GroupId": 992
+  "UdListDefinitionId": 55,
+  "GroupId": 190
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,65 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 845,
-    "Name": "Kerluke, Johnston and Dickinson",
-    "ToolTip": "Deserunt consectetur.",
+    "Id": 309,
+    "Name": "Kohler LLC",
+    "ToolTip": "Eius corrupti consequatur at sed inventore.",
     "Deleted": false,
-    "Rank": 155,
-    "Type": "rerum",
-    "ColorBlock": 479,
-    "IconHint": "aspernatur",
+    "Rank": 219,
+    "Type": "consectetur",
+    "ColorBlock": 163,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2006-08-31T18:28:49.3151272+02:00",
+    "LastChanged": "2004-09-20T11:10:27.1704478+02:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Harris, Roob and Crona",
-        "ToolTip": "Sequi eius dignissimos dolores delectus enim sunt.",
+        "Id": 292,
+        "Name": "Marquardt, Kuphal and Beier",
+        "ToolTip": "Nisi aliquam a fugiat et rerum et animi.",
         "Deleted": true,
-        "Rank": 811,
-        "Type": "culpa",
-        "ColorBlock": 705,
-        "IconHint": "ratione",
-        "Selected": true,
-        "LastChanged": "2019-07-30T18:28:49.3151272+02:00",
+        "Rank": 772,
+        "Type": "omnis",
+        "ColorBlock": 265,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2021-08-18T11:10:27.171423+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Tad Grant I",
-        "TableRight": {},
+        "FullName": "Elody Ollie Daugherty V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "est",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Colton Rohan",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mr. Eleanora Dietrich Jr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 141
       }
     }
   }

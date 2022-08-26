@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/UpdateChatTopicUserAgent
-id: v1ChatAgent_UpdateChatTopicUserAgent
+uid: v1ChatAgent_UpdateChatTopicUserAgent
 ---
 
 # POST Agents/Chat/UpdateChatTopicUserAgent
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 
 Update a user's role in a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update a user's role in a chat topic
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,28 +42,26 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId, Username, Useragent
+ChatTopicId, Username, Useragent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Username | string |  |
-| Useragent |  | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <br /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
+| Useragent |  | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <para /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-## Response: object
 
-User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
+## Response: 
 
-Carrier object for ChatTopicAgent.
-Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,63 +72,34 @@ Response body: object
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 255,
-  "Username": "distinctio",
-  "Useragent": {
-    "TopicId": 53,
-    "User": {},
-    "CanListen": false,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": false
-  }
+  "ChatTopicId": 112,
+  "Username": "molestias",
+  "Useragent": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 802,
-  "User": {
-    "AssociateId": 479,
-    "Name": "Kub, Robel and Hahn",
-    "PersonId": 308,
-    "Rank": 511,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 487,
-    "FullName": "Mrs. Maymie Cummerata",
-    "FormalName": "Mertz, Vandervort and Dicki",
-    "Deleted": false,
-    "EjUserId": 528,
-    "UserName": "Wyman, Orn and Schamberger",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 91
-      }
-    }
-  },
-  "CanListen": true,
+  "TopicId": 26,
+  "User": null,
+  "CanListen": false,
   "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": true
+  "CanManage": false,
+  "CanNotify": false
 }
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetDuplicates
-id: v1ContactAgent_GetDuplicates
+uid: v1ContactAgent_GetDuplicates
 ---
 
 # POST Agents/Contact/GetDuplicates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetDuplicates
 
 Get duplicates (exact or similar in the database) based on the name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get duplicates (exact or similar in the database) based on the name
 ```http
 POST /api/v1/Agents/Contact/GetDuplicates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Contact/GetDuplicates?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,19 +71,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gibson Group"
+  "Name": "Mohr Group"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -81,23 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Nader LLC",
-    "SoPrimaryKey": 474,
-    "EntryName": "Senger, Hackett and Kirlin",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Kilback-Kuhn",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "RuleName": "Zulauf Inc and Sons",
+    "SoPrimaryKey": 968,
+    "EntryName": "Haag Inc and Sons",
+    "EntryIdentifier": "ad",
+    "RuleDisplayName": "Dietrich Group",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph visionary e-services"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 404
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

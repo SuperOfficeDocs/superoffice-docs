@@ -1,6 +1,6 @@
 ---
 title: GET List/SaleType/Items/Default
-id: v1SaleTypeList_CreateDefaultSaleTypeEntity
+uid: v1SaleTypeList_CreateDefaultSaleTypeEntity
 ---
 
 # GET List/SaleType/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/SaleType/Items/Default
 ```
 
 Gets a default SaleTypeEntity list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,16 +31,16 @@ Gets a default SaleTypeEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleTypeEntity.
-Services for the SaleTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,90 +65,83 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 226,
-  "Name": "Abernathy, Jakubowski and Balistreri",
-  "Tooltip": "incidunt",
-  "Rank": 664,
+  "SaleTypeId": 533,
+  "Name": "Leffler-Stamm",
+  "Tooltip": "laboriosam",
+  "Rank": 688,
   "DurationUnit": "Century",
-  "SaleDuration": 275,
-  "SaleTypeCatId": 537,
-  "Deleted": true,
+  "SaleDuration": 914,
+  "SaleTypeCatId": 345,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 90,
-  "QuoteLinesTemplate": 106,
-  "ConfirmationLinesTemplate": 123,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 154,
+  "QuoteLinesTemplate": 248,
+  "ConfirmationLinesTemplate": 40,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 404,
-  "MinEarningPercent": 230,
-  "GroupQuoteLinesBy": 833,
-  "SortGroupLinesBy": 463,
+  "MaxDiscountPercent": 838,
+  "MinEarningPercent": 162,
+  "GroupQuoteLinesBy": 857,
+  "SortGroupLinesBy": 670,
   "Stages": [
     {
-      "Id": 17,
-      "Name": "Krajcik LLC",
-      "ToolTip": "Qui quod qui voluptas eum accusamus.",
-      "Deleted": false,
-      "Rank": 308,
-      "Type": "vitae",
-      "ColorBlock": 186,
-      "IconHint": "fuga",
-      "Selected": true,
-      "LastChanged": "2006-04-15T18:25:52.1820193+02:00",
+      "Id": 9,
+      "Name": "Jenkins, Bauch and Swaniawski",
+      "ToolTip": "Expedita voluptatem iure nihil vel vero rerum non.",
+      "Deleted": true,
+      "Rank": 288,
+      "Type": "qui",
+      "ColorBlock": 286,
+      "IconHint": "velit",
+      "Selected": false,
+      "LastChanged": "2008-10-04T11:10:54.5989349+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maiores",
-      "StyleHint": "architecto",
+      "ExtraInfo": "eos",
+      "StyleHint": "ut",
       "Hidden": true,
-      "FullName": "Kylie Schuppe",
-      "TableRight": {},
+      "FullName": "Allie Macejkovic",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 726
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 941
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 201
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

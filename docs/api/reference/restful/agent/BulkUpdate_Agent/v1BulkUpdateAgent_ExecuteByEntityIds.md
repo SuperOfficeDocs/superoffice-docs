@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BulkUpdate/ExecuteByEntityIds
-id: v1BulkUpdateAgent_ExecuteByEntityIds
+uid: v1BulkUpdateAgent_ExecuteByEntityIds
 ---
 
 # POST Agents/BulkUpdate/ExecuteByEntityIds
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 
 Do the batchupdate on selected
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Do the batchupdate on selected
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldValueInfos, TableName, Context, Ids
+FieldValueInfos, TableName, Context, Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,10 @@ FieldValueInfos, TableName, Context, Ids
 | Context | string |  |
 | Ids | string |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,42 +64,43 @@ FieldValueInfos, TableName, Context, Ids
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "dolores",
-      "ValueType": "aliquid",
+      "Key": "omnis",
+      "ValueType": "et",
       "Mandatory": false,
-      "EncodedDisplayName": "Waelchi-Considine",
-      "EncodedDisplayDescription": "Implemented radical firmware",
-      "IconHint": "doloremque",
+      "EncodedDisplayName": "Schaden Inc and Sons",
+      "EncodedDisplayDescription": "Self-enabling high-level methodology",
+      "IconHint": "nihil",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "accusamus",
-      "EncodedDataCaptionDescription": "Vision-oriented zero administration productivity",
-      "CurrentOperationType": "id",
+      "EncodedDataCaption": "harum",
+      "EncodedDataCaptionDescription": "Open-architected hybrid workforce",
+      "CurrentOperationType": "voluptatem",
       "Values": [
-        "sit",
-        "labore"
+        "tempora",
+        "et"
       ],
       "DisplayValues": [
-        "debitis",
-        "est"
+        "temporibus",
+        "et"
       ],
       "OperationInfos": [
         {},
@@ -97,15 +108,17 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Rath-Lind",
-  "Context": "ut",
-  "Ids": "incidunt"
+  "TableName": "Abshire, Price and Daniel",
+  "Context": "sequi",
+  "Ids": "dolor"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-737
+710
 ```

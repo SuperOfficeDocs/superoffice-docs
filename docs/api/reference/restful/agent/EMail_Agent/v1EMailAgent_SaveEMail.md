@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/SaveEMail
-id: v1EMailAgent_SaveEMail
+uid: v1EMailAgent_SaveEMail
 ---
 
 # POST Agents/EMail/SaveEMail
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/SaveEMail
 
 Save the passed e-mail back to the server
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save the passed e-mail back to the server
 ```http
 POST /api/v1/Agents/EMail/SaveEMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/EMail/SaveEMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, Email
+ConnectionInfo, Email 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
-| Email |  | All information about an e-mail <br /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,68 +97,22 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfo": {
-    "ServerName": "Boyle LLC",
-    "UserName": "Wiza-Price",
-    "Password": "illum",
-    "Folder": "quaerat",
-    "UseSSL": true
-  },
-  "Email": {
-    "To": [
-      {},
-      {}
-    ],
-    "Cc": [
-      {},
-      {}
-    ],
-    "Bcc": [
-      {},
-      {}
-    ],
-    "Subject": "accusantium",
-    "HTMLBody": "aut",
-    "From": {},
-    "Sent": "2018-09-07T18:28:49.1179644+02:00",
-    "Size": 19,
-    "Priority": "High",
-    "Flags": "Answered",
-    "MessageID": "necessitatibus",
-    "PlainBody": "omnis",
-    "IsSent": false,
-    "EMailSOInfo": {},
-    "ServerId": 521,
-    "Attachments": [
-      {},
-      {}
-    ],
-    "CustomHeaderList": [
-      {},
-      {}
-    ],
-    "FolderName": "Legros, Kreiger and Heaney",
-    "EmailItemId": 688,
-    "AccountId": 313,
-    "ReceivedAt": "2019-04-10T18:28:49.1179644+02:00",
-    "InReplyTo": {},
-    "RepliedAt": "2012-06-06T18:28:49.1179644+02:00",
-    "HasCalendarData": true,
-    "CalMethod": "Add",
-    "CalReplyStatus": "Accepted"
-  }
+  "ConnectionInfo": null,
+  "Email": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -160,248 +121,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 572,
-      "ContactName": "Konopelski Inc and Sons",
-      "PersonId": 584,
-      "PersonName": "Koch Group",
-      "AssociateId": 882,
-      "Address": "deserunt",
-      "EmailId": 385,
+      "ContactId": 436,
+      "ContactName": "Conroy, Stiedemann and Boyer",
+      "PersonId": 965,
+      "PersonName": "Kozey, Kessler and Upton",
+      "AssociateId": 481,
+      "Address": "labore",
+      "EmailId": 597,
       "DuplicatePersonIds": [
-        67,
-        568
+        414,
+        113
       ],
-      "Name": "Eichmann-Hettinger",
-      "TableRight": {},
+      "Name": "Cruickshank, Hermiston and Ondricka",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 922,
-      "ContactName": "Kuhlman-McKenzie",
-      "PersonId": 855,
-      "PersonName": "Trantow, Boyer and Conroy",
-      "AssociateId": 835,
-      "Address": "dolor",
-      "EmailId": 663,
+      "ContactId": 834,
+      "ContactName": "Mitchell, Wintheiser and Fadel",
+      "PersonId": 735,
+      "PersonName": "Murazik LLC",
+      "AssociateId": 933,
+      "Address": "consequatur",
+      "EmailId": 536,
       "DuplicatePersonIds": [
-        285,
-        121
+        689,
+        218
       ],
-      "Name": "Mills Group",
-      "TableRight": {},
+      "Name": "Casper-Stroman",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 776
+          "FieldLength": 975
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 528,
-      "ContactName": "Schneider-Simonis",
-      "PersonId": 340,
-      "PersonName": "Volkman-Zboncak",
-      "AssociateId": 930,
-      "Address": "et",
-      "EmailId": 105,
+      "ContactId": 234,
+      "ContactName": "Weber-Gleichner",
+      "PersonId": 1001,
+      "PersonName": "Wiza LLC",
+      "AssociateId": 919,
+      "Address": "tempora",
+      "EmailId": 749,
       "DuplicatePersonIds": [
-        652,
-        683
+        985,
+        234
       ],
-      "Name": "Mohr, Rempel and Lehner",
-      "TableRight": {},
+      "Name": "Lemke LLC",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldLength": 518
         }
       }
     }
   ],
-  "Subject": "id",
-  "HTMLBody": "veniam",
-  "From": {
-    "ContactId": 296,
-    "ContactName": "Rowe LLC",
-    "PersonId": 60,
-    "PersonName": "Brakus Inc and Sons",
-    "AssociateId": 888,
-    "Address": "repellendus",
-    "EmailId": 26,
-    "DuplicatePersonIds": [
-      431,
-      487
-    ],
-    "Name": "Corwin Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 635
-      }
-    }
-  },
-  "Sent": "2009-11-26T18:28:49.1199556+01:00",
-  "Size": 223,
+  "Subject": "sunt",
+  "HTMLBody": "minima",
+  "From": null,
+  "Sent": "2015-10-18T11:10:26.9334247+02:00",
+  "Size": 979,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dicta",
-  "PlainBody": "aperiam",
-  "IsSent": true,
-  "EMailSOInfo": {
-    "DocumentId": 729,
-    "AppointmentId": 203,
-    "ProjectId": 427,
-    "SaleId": 57,
-    "Archived": true,
-    "ArchivedAt": "1997-04-02T18:28:49.1199556+02:00",
-    "ArchivedBy": 231,
-    "ArchivedDisplayName": "Veum-Donnelly",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 952
-      }
-    }
-  },
-  "ServerId": 825,
+  "MessageID": "ut",
+  "PlainBody": "voluptatibus",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 599,
   "Attachments": [
     {
-      "Description": "Reactive attitude-oriented architecture",
-      "Filename": "officia",
-      "Size": 152,
-      "Type": "quia",
-      "Encoding": "est",
-      "Id": "autem",
-      "Disposition": "nemo",
+      "Description": "Extended maximized leverage",
+      "Filename": "et",
+      "Size": 312,
+      "Type": "perferendis",
+      "Encoding": "et",
+      "Id": "deleniti",
+      "Disposition": "aut",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 678
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gusikowski-McCullough",
+      "Name": "Shanahan Inc and Sons",
       "Values": [
-        "autem",
-        "minima"
+        "eos",
+        "sint"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 395
         }
       }
     },
     {
-      "Name": "Gusikowski-McCullough",
+      "Name": "Shanahan Inc and Sons",
       "Values": [
-        "autem",
-        "minima"
+        "eos",
+        "sint"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 395
         }
       }
     }
   ],
-  "FolderName": "Christiansen-Nitzsche",
-  "EmailItemId": 273,
-  "AccountId": 173,
-  "ReceivedAt": "2009-04-26T18:28:49.1209566+02:00",
-  "InReplyTo": {
-    "ServerId": 484,
-    "MessageId": "dolores",
-    "Subject": "voluptatem",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "1997-09-21T18:28:49.1209566+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 407,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "brand intuitive content"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 667
-      }
-    }
-  },
-  "RepliedAt": "2011-02-04T18:28:49.1209566+01:00",
+  "FolderName": "Kuphal-Greenfelder",
+  "EmailItemId": 991,
+  "AccountId": 372,
+  "ReceivedAt": "2020-08-02T11:10:26.9334247+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "2010-10-04T11:10:26.9334247+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldLength": 916
     }
   }
 }

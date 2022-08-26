@@ -17,6 +17,7 @@ If there is a problem with a quoteline, the error description shall be placed in
 
 **Returns:** The order state. If a new quoteversion is created, the QuoteVersionId will be found in Changes.AddedRecords.
 
+
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetOrderState Response
 
@@ -95,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

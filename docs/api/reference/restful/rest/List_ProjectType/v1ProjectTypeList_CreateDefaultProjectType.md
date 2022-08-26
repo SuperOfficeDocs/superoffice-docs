@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectType/Items/Default
-id: v1ProjectTypeList_CreateDefaultProjectType
+uid: v1ProjectTypeList_CreateDefaultProjectType
 ---
 
 # GET List/ProjectType/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/ProjectType/Items/Default
 ```
 
 Gets a default ProjectType list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default ProjectType list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,38 +53,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Streich-Krajcik",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "UdListDefinitionId": 67,
-  "Rank": 128,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "orchestrate out-of-the-box relationships"
-  },
+  "Id": 901,
+  "Name": "Mueller Inc and Sons",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "UdListDefinitionId": 558,
+  "Rank": 722,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 566
     }
   }
 }

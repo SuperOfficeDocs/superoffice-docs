@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_sent_message"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ Emarketeer message control
 |when\_sent|When the email was sent.|DateTime|&#x25CF;|
 |when\_read|When the email was read or link was clicked.|DateTime|&#x25CF;|
 
+
 ![s_sent_message table relationship diagram](./media/s_sent_message.png)
 
 [!include[details](./includes/s-sent-message.md)]
@@ -50,6 +51,7 @@ Emarketeer message control
 |[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ Emarketeer message control
 ## Security Flags
 
 * No access control via user's Role.
+

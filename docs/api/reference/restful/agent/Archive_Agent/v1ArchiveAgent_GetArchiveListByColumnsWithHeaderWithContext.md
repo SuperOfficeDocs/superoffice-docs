@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
-id: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext
+uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
@@ -11,17 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 
 Get a page of results for an archive list, with context parameter, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.
 
-The return value includes a header that has various extra information, in addition to the actual rows.
+
+The return value includes a header that has various extra information, in addition to the actual rows. 
 Archive Restriction Info objects represent search terms.
 
+
 Column names and operator strings are defined elsewhere.
+
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```csharp
-var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+
+
+
+
 ```
+
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -32,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -47,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options, Context
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,18 +86,16 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
 | Options | string |  |
 | Context | string |  |
 
-## Response: object
 
-Header/Detail variant of archive result, with a Row Count plus the actual rows. Future extensions may include other header data on the same level as the RowCount
+## Response: 
 
-Carrier object for ArchiveListResult.
-Services for the ArchiveListResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,109 +104,102 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Waters-Donnelly",
+  "ProviderName": "Cruickshank, Walter and Powlowski",
   "Columns": [
-    "qui",
-    "error"
+    "ut",
+    "nisi"
   ],
   "SortOrder": [
     {
-      "Name": "Jones-Abernathy",
+      "Name": "Dibbert-Kirlin",
       "Direction": "ASC"
     },
     {
-      "Name": "Jones-Abernathy",
+      "Name": "Dibbert-Kirlin",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rice, Kovacek and Ruecker",
-      "Operator": "voluptate",
+      "Name": "Stiedemann, Stamm and Lynch",
+      "Operator": "voluptatem",
       "Values": [
-        "distinctio",
-        "accusantium"
+        "quaerat",
+        "quae"
       ],
       "DisplayValues": [
-        "repellendus",
-        "illum"
+        "officia",
+        "molestiae"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 172,
+      "InterParenthesis": 230,
       "InterOperator": "And",
-      "UniqueHash": 704
+      "UniqueHash": 56
     }
   ],
   "Entities": [
-    "numquam",
-    "rerum"
+    "vitae",
+    "et"
   ],
-  "Page": 869,
-  "PageSize": 261,
-  "Options": "recusandae",
-  "Context": "illo"
+  "Page": 552,
+  "PageSize": 155,
+  "Options": "quia",
+  "Context": "totam"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 216,
+  "RowCount": 723,
   "Rows": [
     {
-      "EntityName": "Kuvalis-Corwin",
-      "PrimaryKey": 941,
+      "EntityName": "Bergnaum Inc and Sons",
+      "PrimaryKey": 517,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eaque",
-          "TooltipHint": "nemo",
-          "LinkHint": "quia"
+          "DisplayValue": "iusto",
+          "TooltipHint": "aperiam",
+          "LinkHint": "temporibus"
         }
       },
-      "LinkHint": "in",
-      "StyleHint": "numquam",
-      "TableRight": {},
+      "LinkHint": "et",
+      "StyleHint": "ad",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldLength": 564
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "seize sticky ROI"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldLength": 482
     }
   }
 }

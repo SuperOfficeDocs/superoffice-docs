@@ -17,6 +17,7 @@ CanCreateAppointmentInAssociateDiaries will check if the current associate can c
 
 **Returns:** Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
 
+
 [WSDL file for Services86/Sentry](../Services86-Sentry.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CanCreateAppointmentInAssociateDiaries Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

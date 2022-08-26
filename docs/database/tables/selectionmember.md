@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "selectionmember"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ Selection detail table  Each row in a selection is represented by one record in 
 |person\_id|Person ID of selection member, if person|FK [person](person.md)|&#x25CF;|
 |targetTableNumber|Table number of the target that this selection member points to|TableNumber|&#x25CF;|
 |targetRecordId|Record id of the target that this selection member points to|RecordId|&#x25CF;|
+
 
 ![selectionmember table relationship diagram](./media/selectionmember.png)
 
@@ -51,6 +52,7 @@ Selection detail table  Each row in a selection is represented by one record in 
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[selection](selection.md)  |Selections |
 
+
 ## Replication Flags
 
 * None
@@ -58,3 +60,4 @@ Selection detail table  Each row in a selection is represented by one record in 
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

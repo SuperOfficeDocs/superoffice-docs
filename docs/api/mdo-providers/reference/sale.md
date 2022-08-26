@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "sale"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,13 @@ so.envir:
 ---
 
 # "sale" MDO List
-
 List of sales.
 Skips completed sales SkipCompletedSales userpref is set.
 Skips sales without quotes if AdditionalInfo contains "hasQuoteOnline=1".
 Skips sales without stakeholders if AdditionalInfo contains "stakeholderOnly=1".
 Filter sales according to currency if AdditionalInfo contains "hasCurrency=(currency-id)"
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleListProviderOrg">SaleListProviderOrg</see> class.
 The name of the MDO list is 'sale'.
@@ -35,6 +36,10 @@ The name of the MDO list is 'sale'.
 
 Separator: ;
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -46,7 +51,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("sale", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -66,20 +70,21 @@ foreach (var item in listProvider.RootItems) {
 |6|SalgØAAØ (Yngve'S Fisk & Vilt)||SalgØAAØ|
 |7|Salg1AA1 (0-Feil Software AS)||Salg1AA1|
 |8|Salg6AA6 (0-Feil Software AS)||Salg6AA6|
-|9|Salg%AA% (0-Feil Software AS)||Salg%AA%|
 |10|Salg*AA* (0-Feil Software AS)||Salg*AA*|
 |11|SalgBBBB (Arne'S Kebab)||SalgBBBB|
 |12|SalgGBBG (Arne'S Kebab)||SalgGBBG|
+|13|SalgMBBM (Arne'S Kebab)||SalgMBBM|
+|14|SalgRBBR (Yngve'S Fisk & Vilt)||SalgRBBR|
 |15|SalgXBBX (Yngve'S Fisk & Vilt)||SalgXBBX|
 |16|SalgÅBBÅ (Yngve'S Fisk & Vilt)||SalgÅBBÅ|
+|18|Salg7BB7 (0-Feil Software AS)||Salg7BB7|
 |19|Salg&BB& (0-Feil Software AS)||Salg&BB&|
 |20|Salg<BB< (0-Feil Software AS)||Salg<BB<|
 |21|SalgCDDC (Arne'S Kebab)||SalgCDDC|
 |23|SalgNDDN (Arne'S Kebab)||SalgNDDN|
 |24|SalgSDDS (Yngve'S Fisk & Vilt)||SalgSDDS|
 |25|SalgYDDY (Yngve'S Fisk & Vilt)||SalgYDDY|
-|26|SalgÖDDÖ (Yngve'S Fisk & Vilt)||SalgÖDDÖ|
-|28|Salg8DD8 (0-Feil Software AS)||Salg8DD8|
+
 
 ## Related MDO Lists
 

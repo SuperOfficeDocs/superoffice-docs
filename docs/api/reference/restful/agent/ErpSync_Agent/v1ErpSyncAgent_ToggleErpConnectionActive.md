@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/ToggleErpConnectionActive
-id: v1ErpSyncAgent_ToggleErpConnectionActive
+uid: v1ErpSyncAgent_ToggleErpConnectionActive
 ---
 
 # POST Agents/ErpSync/ToggleErpConnectionActive
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
 
 Toggles the Active state of the connection
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Toggles the Active state of the connection
 ```http
 POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId
+ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,26 +65,29 @@ ErpConnectionId
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 140
+  "ErpConnectionId": 901
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "maxime",
-  "consequatur"
+  "nihil",
+  "et"
 ]
 ```

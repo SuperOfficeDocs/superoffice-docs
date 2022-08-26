@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.CacheFolderLi
 
 Fetch list of folders from email server for the current account, and cache in DB
 
+
 **Returns:** List of folders from mail server
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CacheFolderList Response
 
 ```xml
@@ -76,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

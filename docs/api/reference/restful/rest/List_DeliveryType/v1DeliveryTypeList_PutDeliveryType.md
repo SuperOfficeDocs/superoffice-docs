@@ -1,6 +1,6 @@
 ---
 title: PUT List/DeliveryType/Items/{id}
-id: v1DeliveryTypeList_PutDeliveryType
+uid: v1DeliveryTypeList_PutDeliveryType
 ---
 
 # PUT List/DeliveryType/Items/{id}
@@ -11,9 +11,16 @@ PUT /api/v1/List/DeliveryType/Items/{id}
 
 Updates an existing DeliveryType list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of DeliveryType to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing DeliveryType list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of DeliveryType list item to be saved.
+The details of DeliveryType list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,19 +49,17 @@ The details of DeliveryType list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,48 +72,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 483,
-  "Name": "Keeling-Wiegand",
-  "Tooltip": "autem",
+  "Id": 143,
+  "Name": "Aufderhar-Hudson",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "UdListDefinitionId": 982,
-  "Rank": 610
+  "UdListDefinitionId": 679,
+  "Rank": 760
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 378,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 690,
+  "Name": "Schaefer-Gorczany",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 311,
-  "Rank": 827,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 835,
+  "Rank": 697,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 272
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

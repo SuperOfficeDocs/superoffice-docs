@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/CreateActorLink
-id: v1ErpSyncAgent_CreateActorLink
+uid: v1ErpSyncAgent_CreateActorLink
 ---
 
 # POST Agents/ErpSync/CreateActorLink
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/CreateActorLink
 
 Link a crm entity to an erp entity
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Link a crm entity to an erp entity
 ```http
 POST /api/v1/Agents/ErpSync/CreateActorLink?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/ErpSync/CreateActorLink?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType
+ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +58,10 @@ ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType
 | ErpKey | string |  |
 | ErpActorType | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,23 +69,26 @@ ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/CreateActorLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 489,
-  "CrmRecordId": 787,
+  "ErpConnectionId": 444,
+  "CrmRecordId": 285,
   "CrmActorType": "Contact",
-  "ErpKey": "minus",
+  "ErpKey": "exercitationem",
   "ErpActorType": "Customer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

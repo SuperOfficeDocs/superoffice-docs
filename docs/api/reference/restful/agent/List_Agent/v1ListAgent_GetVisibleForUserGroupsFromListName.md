@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetVisibleForUserGroupsFromListName
-id: v1ListAgent_GetVisibleForUserGroupsFromListName
+uid: v1ListAgent_GetVisibleForUserGroupsFromListName
 ---
 
 # POST Agents/List/GetVisibleForUserGroupsFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId
+UdListDefinitionName, ListItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | ListItemId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Smith Inc and Sons",
-  "ListItemId": 324
+  "UdListDefinitionName": "Ledner, Grady and Sawayn",
+  "ListItemId": 776
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,65 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Heaney Inc and Sons",
-    "ToolTip": "Dolore aut fuga.",
-    "Deleted": false,
-    "Rank": 166,
-    "Type": "ut",
-    "ColorBlock": 149,
-    "IconHint": "reprehenderit",
+    "Id": 236,
+    "Name": "Hettinger, Kilback and Schaefer",
+    "ToolTip": "Porro porro minus laudantium dolorem.",
+    "Deleted": true,
+    "Rank": 691,
+    "Type": "sed",
+    "ColorBlock": 878,
+    "IconHint": "error",
     "Selected": true,
-    "LastChanged": "2009-06-05T18:28:49.3081177+02:00",
+    "LastChanged": "2009-08-10T11:10:27.1644239+02:00",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Connelly-Sipes",
-        "ToolTip": "Consectetur voluptate modi saepe.",
+        "Id": 847,
+        "Name": "Abbott-Heathcote",
+        "ToolTip": "Reprehenderit quam impedit non.",
         "Deleted": true,
-        "Rank": 261,
-        "Type": "et",
-        "ColorBlock": 570,
-        "IconHint": "labore",
+        "Rank": 838,
+        "Type": "commodi",
+        "ColorBlock": 510,
+        "IconHint": "amet",
         "Selected": true,
-        "LastChanged": "2015-10-25T18:28:49.3081177+01:00",
+        "LastChanged": "2010-06-27T11:10:27.1644239+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Dr. Destany Yost",
-        "TableRight": {},
+        "ExtraInfo": "non",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Keira Jerrod Stiedemann III",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 840
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 151
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "quae",
+    "ExtraInfo": "illo",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Kim Grady",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Prof. Josianne Hobart Metz III",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 853
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

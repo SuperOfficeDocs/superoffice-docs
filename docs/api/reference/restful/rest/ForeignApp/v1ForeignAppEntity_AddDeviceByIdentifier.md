@@ -1,6 +1,6 @@
 ---
 title: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
-id: v1ForeignAppEntity_AddDeviceByIdentifier
+uid: v1ForeignAppEntity_AddDeviceByIdentifier
 ---
 
 # POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -11,11 +11,18 @@ POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Unique id of device (Palm pilot device ID, version number, etc) **Required** |
+
+
 
 ## Request Headers
 
@@ -30,18 +37,16 @@ Adds a new ForeignDevice with deviceName that belongs to the application with ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Saves a foreign device belonging to the ForeignDevice and application name specified.
+## Response: 
 
-Carrier object for ForeignDevice.
-Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,41 +62,37 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 468,
-  "Name": "Kuhlman, O'Reilly and Jenkins",
-  "CreatedDate": "2009-11-16T18:25:50.5715971+01:00",
-  "UpdatedDate": "1999-05-13T18:25:50.5715971+02:00",
-  "AssociateFullName": "Nora Herman DDS",
-  "CreatedBy": "tenetur",
-  "UpdatedBy": "a",
-  "DeviceIdentifier": "repellendus",
-  "ForeignAppId": 315,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ForeignDeviceId": 762,
+  "Name": "Schaden, Stanton and Barton",
+  "CreatedDate": "2007-10-13T11:10:52.9051799+02:00",
+  "UpdatedDate": "2015-08-26T11:10:52.9051799+02:00",
+  "AssociateFullName": "Garland Flatley",
+  "CreatedBy": "nesciunt",
+  "UpdatedBy": "quasi",
+  "DeviceIdentifier": "est",
+  "ForeignAppId": 527,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

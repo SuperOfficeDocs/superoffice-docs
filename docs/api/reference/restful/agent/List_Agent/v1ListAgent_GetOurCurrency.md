@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetOurCurrency
-id: v1ListAgent_GetOurCurrency
+uid: v1ListAgent_GetOurCurrency
 ---
 
 # POST Agents/List/GetOurCurrency
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetOurCurrency
 
 Gets the Our currency object if currency is enabled
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Our currency object if currency is enabled
 ```http
 POST /api/v1/Agents/List/GetOurCurrency?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,16 +41,16 @@ POST /api/v1/Agents/List/GetOurCurrency?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Currency.
-Services for the Currency Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,35 +60,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetOurCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Value": "minus",
-  "Tooltip": "harum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 11,
+  "Value": "suscipit",
+  "Tooltip": "ducimus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   }
 }

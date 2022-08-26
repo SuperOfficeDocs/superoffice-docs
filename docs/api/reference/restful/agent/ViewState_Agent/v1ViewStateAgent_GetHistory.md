@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/GetHistory
-id: v1ViewStateAgent_GetHistory
+uid: v1ViewStateAgent_GetHistory
 ---
 
 # POST Agents/ViewState/GetHistory
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ViewState/GetHistory
 
 Gets a History object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a History object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ViewState/GetHistory?historyId=508
+POST /api/v1/Agents/ViewState/GetHistory?historyId=776
 POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The usage history of the currently logged in user is represented as History objects.
+## Response: 
 
-Carrier object for History.
-Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +66,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/GetHistory
@@ -70,30 +75,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 209,
-  "Id": 929,
-  "HistoryName": "Lang, Steuber and Spinka",
-  "HistoryId": 562,
-  "AssociateId": 797,
-  "Name": "Goodwin Group",
-  "ItemInfo": "id",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 8,
+  "Id": 930,
+  "HistoryName": "Konopelski-Bergnaum",
+  "HistoryId": 689,
+  "AssociateId": 547,
+  "Name": "Wehner LLC",
+  "ItemInfo": "omnis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 882
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetRecipientStatisticsFromProjectMembers
-id: v1SelectionAgent_GetRecipientStatisticsFromProjectMembers
+uid: v1SelectionAgent_GetRecipientStatisticsFromProjectMembers
 ---
 
 # POST Agents/Selection/GetRecipientStatisticsFromProjectMembers
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,24 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response: object
 
-Class representing a RecipientStatistics carrier used for counting attributes on selection members.
+## Response: 
 
-Carrier object for RecipientStatistics.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,43 +72,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 635
+  "ProjectId": 62
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 89,
-  "ValidPostalAddresses": 91,
-  "ValidEmailAddresses": 754,
-  "ValidFaxNumbers": 437,
-  "NoAddresses": 536,
-  "NoFaxOrEmails": 378,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Total": 797,
+  "ValidPostalAddresses": 441,
+  "ValidEmailAddresses": 927,
+  "ValidFaxNumbers": 476,
+  "NoAddresses": 410,
+  "NoFaxOrEmails": 387,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldLength": 745
     }
   }
 }

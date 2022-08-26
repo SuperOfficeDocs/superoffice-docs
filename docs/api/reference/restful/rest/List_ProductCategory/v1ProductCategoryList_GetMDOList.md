@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductCategory/MDOItems
-id: v1ProductCategoryList_GetMDOList
+uid: v1ProductCategoryList_GetMDOList
 ---
 
 # GET List/ProductCategory/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ProductCategory/MDOItems
 
 Get the MDO list items for "ProductCategory" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=eligendi
+GET /api/v1/List/ProductCategory/MDOItems?query=ea
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ProductCategory/MDOItems?query=eligendi
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductCategory/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Zemlak, Kirlin and Willms",
-    "ToolTip": "Dolore eveniet aut quod.",
-    "Deleted": true,
-    "Rank": 718,
-    "Type": "sequi",
+    "Id": 948,
+    "Name": "Kohler-Runolfsdottir",
+    "ToolTip": "Quidem assumenda nostrum accusantium ducimus qui autem.",
+    "Deleted": false,
+    "Rank": 392,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 680,
-        "Name": "Considine LLC",
-        "ToolTip": "Et cum quo adipisci.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "voluptas",
+        "Id": 480,
+        "Name": "Hansen Group",
+        "ToolTip": "Voluptatum et ducimus accusantium facere.",
+        "Deleted": true,
+        "Rank": 656,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 130,
-        "ExtraInfo": "est",
-        "StyleHint": "repellendus",
-        "FullName": "Lilian Schroeder",
-        "TableRight": {},
+        "IconHint": "voluptatem",
+        "ColorBlock": 869,
+        "ExtraInfo": "tempore",
+        "StyleHint": "voluptatum",
+        "FullName": "Jaeden Trantow",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 753
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 805
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 280,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "repellendus",
-    "FullName": "Quinn Cartwright III",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "praesentium",
+    "ColorBlock": 332,
+    "ExtraInfo": "corporis",
+    "StyleHint": "enim",
+    "FullName": "Filiberto Kovacek",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 46
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 515
       }
     }
   }

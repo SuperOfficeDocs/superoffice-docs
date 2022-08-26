@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetPublishedProjectsOnPersonId
-id: v1ProjectAgent_GetPublishedProjectsOnPersonId
+uid: v1ProjectAgent_GetPublishedProjectsOnPersonId
 ---
 
 # POST Agents/Project/GetPublishedProjectsOnPersonId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 
 Get published projects where person  is a member
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published projects where person  is a member
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,19 +84,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 573
+  "PersonId": 82
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,36 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 331,
-    "Name": "Runolfsson-Greenholt",
-    "Description": "Customer-focused holistic approach",
+    "ProjectId": 242,
+    "Name": "Labadie, Effertz and Mante",
+    "Description": "Profound 3rd generation workforce",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 420,
-    "AssociateFullName": "Mrs. Royal Walker",
-    "TypeId": 98,
-    "Updated": "2020-01-12T18:28:49.7861426+01:00",
-    "StatusId": 870,
-    "Status": "autem",
-    "TextId": 649,
-    "PublishTo": "2002-04-22T18:28:49.7861426+02:00",
-    "PublishFrom": "2015-04-03T18:28:49.7861426+02:00",
+    "Type": "qui",
+    "AssociateId": 140,
+    "AssociateFullName": "Dr. Peggie Spinka",
+    "TypeId": 992,
+    "Updated": "1998-08-15T11:10:27.6254524+02:00",
+    "StatusId": 364,
+    "Status": "aliquid",
+    "TextId": 619,
+    "PublishTo": "2013-06-06T11:10:27.6254524+02:00",
+    "PublishFrom": "2002-05-04T11:10:27.6254524+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1228192",
-    "ActiveErpLinks": 866,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectNumber": "796097",
+    "ActiveErpLinks": 121,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 113
       }
     }
   }

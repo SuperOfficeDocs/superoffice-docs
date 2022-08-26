@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/UndoCheckoutDocument
-id: v1DocumentAgent_UndoCheckoutDocument
+uid: v1DocumentAgent_UndoCheckoutDocument
 ---
 
 # POST Agents/Document/UndoCheckoutDocument
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/UndoCheckoutDocument
 
 Undo (abandon) a checkout
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Undo (abandon) a checkout
 ```http
 POST /api/v1/Agents/Document/UndoCheckoutDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,22 +42,25 @@ POST /api/v1/Agents/Document/UndoCheckoutDocument?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnTypes
+DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AllowedReturnTypes | array |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +71,7 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/UndoCheckoutDocument
@@ -71,24 +81,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 644,
+  "DocumentId": 539,
   "AllowedReturnTypes": [
-    "sit",
-    "cumque"
+    "ut",
+    "et"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "occaecati",
-  "VersionId": "pariatur",
-  "Success": true,
+  "ExternalReference": "minus",
+  "VersionId": "nobis",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "vero",
-  "AdditionalInfo": "perspiciatis"
+  "Value": "et",
+  "AdditionalInfo": "impedit"
 }
 ```

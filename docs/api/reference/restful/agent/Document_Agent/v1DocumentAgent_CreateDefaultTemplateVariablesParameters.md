@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/CreateDefaultTemplateVariablesParameters
-id: v1DocumentAgent_CreateDefaultTemplateVariablesParameters
+uid: v1DocumentAgent_CreateDefaultTemplateVariablesParameters
 ---
 
 # POST Agents/Document/CreateDefaultTemplateVariablesParameters
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 
 Set default values into a new TemplateVariablesParameters.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Parameters specifying source and properties for template variable substitution.
+## Response: 
 
-Carrier object for TemplateVariablesParameters.
-Services for the TemplateVariablesParameters Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +64,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
@@ -68,24 +73,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "voluptatum",
+  "SourceInput": "veritatis",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 723,
-  "PersonId": 716,
-  "ProjectId": 503,
-  "SelectionId": 161,
-  "AppointmentId": 633,
-  "DocumentId": 135,
-  "SaleId": 431,
-  "QuoteLineId": 550,
-  "QuoteAlternativeId": 980,
-  "ProductKey": "nisi",
+  "ContactId": 454,
+  "PersonId": 774,
+  "ProjectId": 93,
+  "SelectionId": 671,
+  "AppointmentId": 901,
+  "DocumentId": 402,
+  "SaleId": 286,
+  "QuoteLineId": 118,
+  "QuoteAlternativeId": 534,
+  "ProductKey": "occaecati",
   "CustomTags": [
     [
       {}
@@ -94,80 +101,13 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "DocumentEntity": {
-    "DocumentId": 977,
-    "UpdatedBy": {},
-    "CreatedBy": {},
-    "Attention": "quaerat",
-    "Header": "repudiandae",
-    "Name": "Howell, Romaguera and Lindgren",
-    "OurRef": "autem",
-    "YourRef": "laborum",
-    "CreatedDate": "2018-10-22T18:28:48.851928+02:00",
-    "UpdatedDate": "2018-10-15T18:28:48.851928+02:00",
-    "Description": "Streamlined coherent implementation",
-    "DocumentTemplate": {},
-    "Person": {},
-    "Associate": {},
-    "Contact": {},
-    "Project": {},
-    "Date": "2013-11-27T18:28:48.851928+01:00",
-    "ExternalRef": "ut",
-    "Completed": "Completed",
-    "ActiveLinks": 518,
-    "Type": "BookingForChecklist",
-    "Links": [
-      {},
-      {}
-    ],
-    "LockSemantics": "Locking",
-    "Sale": {},
-    "SuggestedDocumentId": 898,
-    "Snum": 506,
-    "UserDefinedFields": {
-      "SuperOffice:1": "316096575",
-      "SuperOffice:2": "519641431"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "aut",
-      "ExtraFields2": "fugiat"
-    },
-    "CustomFields": {
-      "CustomFields1": "ipsa",
-      "CustomFields2": "qui"
-    },
-    "PublishEventDate": "2004-04-18T18:28:48.851928+02:00",
-    "PublishTo": "1995-03-01T18:28:48.851928+01:00",
-    "PublishFrom": "2002-01-27T18:28:48.851928+01:00",
-    "IsPublished": true,
-    "VisibleFor": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 889
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DocumentEntity": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 237
     }
   }
 }

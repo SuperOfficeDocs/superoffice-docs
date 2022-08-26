@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CopySuperOfficePriceList
-id: v1QuoteAgent_CopySuperOfficePriceList
+uid: v1QuoteAgent_CopySuperOfficePriceList
 ---
 
 # POST Agents/Quote/CopySuperOfficePriceList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 
 Create a copy of a PriceList in the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a copy of a PriceList in the SuperOffice database
 ```http
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/CopySuperOfficePriceList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OriginalPriceListId, NewName, ValidFrom, ValidTo, NewCurrencyId, ConvertCurrency
+OriginalPriceListId, NewName, ValidFrom, ValidTo, NewCurrencyId, ConvertCurrency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,18 +55,16 @@ OriginalPriceListId, NewName, ValidFrom, ValidTo, NewCurrencyId, ConvertCurrency
 | NewCurrencyId | int32 |  |
 | ConvertCurrency | bool |  |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-Carrier object for PriceList.
-Services for the PriceList Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,52 +81,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 975,
-  "NewName": "Beatty Inc and Sons",
-  "ValidFrom": "2005-10-04T18:28:49.9811329+02:00",
-  "ValidTo": "2003-10-10T18:28:49.9811329+02:00",
-  "NewCurrencyId": 997,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 101,
+  "NewName": "VonRueden, Lehner and Jewess",
+  "ValidFrom": "1996-08-11T11:10:27.6805191+02:00",
+  "ValidTo": "2006-11-19T11:10:27.6805191+01:00",
+  "NewCurrencyId": 479,
+  "ConvertCurrency": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 13,
-  "ERPPriceListKey": "magni",
-  "QuoteConnectionId": 675,
-  "Name": "Wuckert, Senger and Lakin",
-  "Description": "Self-enabling dynamic toolset",
-  "Currency": "laboriosam",
-  "CurrencyName": "Osinski Inc and Sons",
-  "ValidFrom": "1997-09-24T18:28:49.9811329+02:00",
-  "ValidTo": "2019-08-18T18:28:49.9811329+02:00",
-  "IsActive": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PriceListId": 693,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 957,
+  "Name": "Schoen-Armstrong",
+  "Description": "Cloned needs-based access",
+  "Currency": "libero",
+  "CurrencyName": "Hoeger LLC",
+  "ValidFrom": "2000-05-25T11:10:27.6815219+02:00",
+  "ValidTo": "2022-02-11T11:10:27.6815219+01:00",
+  "IsActive": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 803
     }
   }
 }

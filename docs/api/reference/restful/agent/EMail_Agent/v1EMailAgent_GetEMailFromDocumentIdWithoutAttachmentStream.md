@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
-id: v1EMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream
+uid: v1EMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream
 ---
 
 # POST Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 
 Get an e-mail based on an archived document
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on an archived document
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,19 +96,21 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 791
+  "DocumentId": 139
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -110,248 +119,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 831,
-      "ContactName": "Labadie, Kovacek and O'Conner",
-      "PersonId": 6,
-      "PersonName": "Sawayn-Rolfson",
-      "AssociateId": 73,
-      "Address": "perferendis",
-      "EmailId": 18,
+      "ContactId": 662,
+      "ContactName": "Grimes-Kihn",
+      "PersonId": 432,
+      "PersonName": "Romaguera, Jaskolski and Ryan",
+      "AssociateId": 946,
+      "Address": "nihil",
+      "EmailId": 676,
       "DuplicatePersonIds": [
-        571,
-        604
+        477,
+        618
       ],
-      "Name": "Lockman Group",
-      "TableRight": {},
+      "Name": "Graham, Balistreri and Mitchell",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 389
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 897,
-      "ContactName": "Rosenbaum-Kuvalis",
-      "PersonId": 922,
-      "PersonName": "Kutch, Harris and Koepp",
-      "AssociateId": 181,
-      "Address": "natus",
-      "EmailId": 780,
+      "ContactId": 279,
+      "ContactName": "Weber, Turner and Kozey",
+      "PersonId": 371,
+      "PersonName": "Prosacco LLC",
+      "AssociateId": 47,
+      "Address": "eum",
+      "EmailId": 407,
       "DuplicatePersonIds": [
-        293,
-        131
+        253,
+        987
       ],
-      "Name": "Purdy Inc and Sons",
-      "TableRight": {},
+      "Name": "Hirthe, Mante and Pfeffer",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 342,
-      "ContactName": "Beer-Considine",
-      "PersonId": 783,
-      "PersonName": "Muller, Harris and Bergnaum",
-      "AssociateId": 328,
-      "Address": "magnam",
-      "EmailId": 963,
+      "ContactId": 266,
+      "ContactName": "Roberts-Kertzmann",
+      "PersonId": 947,
+      "PersonName": "Romaguera-Von",
+      "AssociateId": 523,
+      "Address": "magni",
+      "EmailId": 198,
       "DuplicatePersonIds": [
-        896,
-        716
+        369,
+        578
       ],
-      "Name": "Boehm Group",
-      "TableRight": {},
+      "Name": "Littel-Stroman",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 874
         }
       }
     }
   ],
-  "Subject": "blanditiis",
-  "HTMLBody": "enim",
-  "From": {
-    "ContactId": 146,
-    "ContactName": "Bogan-Herman",
-    "PersonId": 278,
-    "PersonName": "Morissette Inc and Sons",
-    "AssociateId": 274,
-    "Address": "ducimus",
-    "EmailId": 778,
-    "DuplicatePersonIds": [
-      97,
-      529
-    ],
-    "Name": "Collier, Buckridge and Bruen",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 237
-      }
-    }
-  },
-  "Sent": "2008-05-03T18:28:48.9979582+02:00",
-  "Size": 562,
+  "Subject": "dolores",
+  "HTMLBody": "et",
+  "From": null,
+  "Sent": "1999-04-07T11:10:26.8694246+02:00",
+  "Size": 96,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "ipsa",
+  "MessageID": "dolores",
+  "PlainBody": "expedita",
   "IsSent": false,
-  "EMailSOInfo": {
-    "DocumentId": 605,
-    "AppointmentId": 354,
-    "ProjectId": 472,
-    "SaleId": 833,
-    "Archived": true,
-    "ArchivedAt": "2015-02-25T18:28:48.9989585+01:00",
-    "ArchivedBy": 714,
-    "ArchivedDisplayName": "Murazik LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 701
-      }
-    }
-  },
-  "ServerId": 309,
+  "EMailSOInfo": null,
+  "ServerId": 536,
   "Attachments": [
     {
-      "Description": "Programmable optimizing paradigm",
-      "Filename": "sit",
-      "Size": 461,
-      "Type": "voluptatem",
-      "Encoding": "voluptates",
-      "Id": "cupiditate",
-      "Disposition": "ullam",
+      "Description": "Persistent coherent local area network",
+      "Filename": "qui",
+      "Size": 477,
+      "Type": "nemo",
+      "Encoding": "quidem",
+      "Id": "quidem",
+      "Disposition": "provident",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 231
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 262
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Spinka LLC",
+      "Name": "Kub, Block and Bauch",
       "Values": [
-        "optio",
-        "necessitatibus"
+        "aliquid",
+        "voluptas"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 319
         }
       }
     },
     {
-      "Name": "Spinka LLC",
+      "Name": "Kub, Block and Bauch",
       "Values": [
-        "optio",
-        "necessitatibus"
+        "aliquid",
+        "voluptas"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 319
         }
       }
     }
   ],
-  "FolderName": "Moore-Wisozk",
-  "EmailItemId": 863,
-  "AccountId": 899,
-  "ReceivedAt": "2013-05-15T18:28:48.9989585+02:00",
-  "InReplyTo": {
-    "ServerId": 252,
-    "MessageId": "impedit",
-    "Subject": "ut",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "1999-09-29T18:28:48.9989585+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 924,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 751
-      }
-    }
-  },
-  "RepliedAt": "2012-02-18T18:28:48.9989585+01:00",
+  "FolderName": "Yost-Keebler",
+  "EmailItemId": 965,
+  "AccountId": 602,
+  "ReceivedAt": "2001-04-11T11:10:26.8704248+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "2009-05-27T11:10:26.8704248+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 140
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCriterion"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -40,6 +40,7 @@ Criteria storage for Selection and other Find mechanisms
 |uniqueKey|Unique key (hash) from ArchiveRestrictionInfo|Id|&#x25CF;|
 |parenthesis|Parenthesis value, positive is number of opening parentheses to prepend to this criterion, negative is the number of closing parentheses to append|Short|&#x25CF;|
 
+
 ![SearchCriterion table relationship diagram](./media/SearchCriterion.png)
 
 [!include[details](./includes/searchcriterion.md)]
@@ -58,6 +59,7 @@ Criteria storage for Selection and other Find mechanisms
 |[SearchCriteriaGroup](searchcriteriagroup.md)  |Criteria storage for Selection and other Find mechanisms |
 |[SearchCriterionValue](searchcriterionvalue.md)  |Criteria storage for Selection and other Find mechanisms |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -67,3 +69,4 @@ Criteria storage for Selection and other Find mechanisms
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.CreateDefa
 Loading default values into a new SuggestedDocumentEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New SuggestedDocumentEntity with default values
+
 
 [WSDL file for Services86/Document](../Services86-Document.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultSuggestedDocumentEntity Response
 
@@ -108,3 +111,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

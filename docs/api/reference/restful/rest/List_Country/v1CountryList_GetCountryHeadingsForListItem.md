@@ -1,6 +1,6 @@
 ---
 title: GET List/Country/Items/{id}/Headings
-id: v1CountryList_GetCountryHeadingsForListItem
+uid: v1CountryList_GetCountryHeadingsForListItem
 ---
 
 # GET List/Country/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Country/Items/{itemId}/Headings
 
 Gets headings for the Country list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Country/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Casper Group",
-    "ToolTip": "Voluptatem et nostrum.",
+    "Id": 703,
+    "Name": "Nienow, Kiehn and Beer",
+    "ToolTip": "Rem unde corrupti qui.",
     "Deleted": false,
-    "Rank": 161,
-    "Type": "blanditiis",
-    "ColorBlock": 978,
-    "IconHint": "voluptatem",
+    "Rank": 90,
+    "Type": "sed",
+    "ColorBlock": 827,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2003-07-29T18:25:51.7543202+02:00",
+    "LastChanged": "2007-08-29T11:10:54.0211852+02:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Simonis-Nitzsche",
-        "ToolTip": "Consequatur amet ipsam.",
-        "Deleted": false,
-        "Rank": 288,
-        "Type": "optio",
-        "ColorBlock": 415,
-        "IconHint": "dolor",
+        "Id": 321,
+        "Name": "Thompson-Dickinson",
+        "ToolTip": "Beatae dolor qui dolores qui id culpa minima.",
+        "Deleted": true,
+        "Rank": 947,
+        "Type": "autem",
+        "ColorBlock": 62,
+        "IconHint": "amet",
         "Selected": true,
-        "LastChanged": "2001-07-27T18:25:51.7553263+02:00",
+        "LastChanged": "2003-12-20T11:10:54.0211852+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Keenan Mosciski",
-        "TableRight": {},
+        "ExtraInfo": "at",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Ms. Emilio Witting Jr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 667
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 286
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Eliezer Friesen",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "sit",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Nadia Alena Wiegand DVM",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

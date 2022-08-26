@@ -1,6 +1,6 @@
 ---
 title: GET Product/{id}
-id: v1Product_GetProductFromDbId
+uid: v1Product_GetProductFromDbId
 ---
 
 # GET Product/{id}
@@ -11,9 +11,16 @@ GET /api/v1/Product/{productId}
 
 Get a product with the given database id
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | The database id of the product **Required** |
+
+
 
 ## Request Headers
 
@@ -28,18 +35,16 @@ Get a product with the given database id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
+## Response: 
 
-Carrier object for Product.
-Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +64,7 @@ Response body: object
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -80,99 +85,89 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 67,
-  "ERPProductKey": "blanditiis",
-  "ERPPriceListKey": "voluptate",
-  "Name": "Mayer, Lueilwitz and Pouros",
-  "Description": "Pre-emptive content-based website",
-  "Code": "quia",
-  "PriceUnit": "velit",
-  "QuantityUnit": "ducimus",
+  "ProductId": 200,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "molestiae",
+  "Name": "Witting, Luettgen and Blick",
+  "Description": "Front-line object-oriented implementation",
+  "Code": "consectetur",
+  "PriceUnit": "praesentium",
+  "QuantityUnit": "iure",
   "IsSubscription": false,
-  "SubscriptionUnit": "perferendis",
-  "DefaultSubscriptionQuantity": 9527.36,
-  "ItemNumber": "584785",
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 27384.892,
+  "ItemNumber": "1134387",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "maiores",
-  "ProductTypeKey": "est",
-  "VAT": 5236.914,
-  "VATInfo": "aspernatur",
-  "UnitCost": 27660.683999999997,
-  "UnitMinimumPrice": 15917.586,
-  "UnitListPrice": 5951.4659999999994,
-  "InAssortment": false,
-  "Supplier": "fuga",
-  "SupplierCode": "et",
-  "Rights": "animi",
-  "Rule": "deserunt",
+  "ProductFamilyKey": "laboriosam",
+  "ProductTypeKey": "dolor",
+  "VAT": 26338.136,
+  "VATInfo": "sequi",
+  "UnitCost": 15.67,
+  "UnitMinimumPrice": 25247.504,
+  "UnitListPrice": 22279.606,
+  "InAssortment": true,
+  "Supplier": "rerum",
+  "SupplierCode": "expedita",
+  "Rights": "voluptatem",
+  "Rule": "eveniet",
   "ExtraInfo": [
     {
-      "Name": "Medhurst-Skiles",
-      "Value": "iure",
+      "Name": "Kuhic LLC",
+      "Value": "ad",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 10
         }
       }
     },
     {
-      "Name": "Medhurst-Skiles",
-      "Value": "iure",
+      "Name": "Kuhic LLC",
+      "Value": "ad",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 10
         }
       }
     }
   ],
-  "RawExtraInfo": "illum",
-  "ExtraField1": "magnam",
-  "ExtraField2": "velit",
-  "ExtraField3": "nostrum",
-  "ExtraField4": "iure",
-  "ExtraField5": "cupiditate",
-  "InStock": 11285.534,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RawExtraInfo": "harum",
+  "ExtraField1": "culpa",
+  "ExtraField2": "dolores",
+  "ExtraField3": "inventore",
+  "ExtraField4": "sed",
+  "ExtraField5": "aut",
+  "InStock": 28704.306,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

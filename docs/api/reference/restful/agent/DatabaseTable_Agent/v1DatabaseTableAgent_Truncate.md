@@ -1,6 +1,6 @@
 ---
 title: POST Agents/DatabaseTable/Truncate
-id: v1DatabaseTableAgent_Truncate
+uid: v1DatabaseTableAgent_Truncate
 ---
 
 # POST Agents/DatabaseTable/Truncate
@@ -11,9 +11,13 @@ POST /api/v1/Agents/DatabaseTable/Truncate
 
 Drop all rows in a table.
 
+
 This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
 
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +28,7 @@ This clearance is not individually logged in TravelTransactionlog or Webhook/scr
 ```http
 POST /api/v1/Agents/DatabaseTable/Truncate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,26 +44,24 @@ POST /api/v1/Agents/DatabaseTable/Truncate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName
+TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 
-## Response: object
 
-Information about the results of a mass-update operation
+## Response: 
 
-Carrier object for MassOperationResult.
-Services for the MassOperationResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,19 +74,21 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dietrich, Breitenberg and Carter"
+  "TableName": "Rempel, Upton and Heller"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -91,62 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "est",
-  "Inserts": 814,
-  "Updates": 706,
-  "Deletes": 948,
+  "Message": "mollitia",
+  "Inserts": 425,
+  "Updates": 721,
+  "Deletes": 916,
   "RowStatus": [
     {
-      "PrimaryKey": 700,
+      "PrimaryKey": 859,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nemo",
-        "molestiae"
+        "corrupti",
+        "consequatur"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 693
         }
       }
     },
     {
-      "PrimaryKey": 700,
+      "PrimaryKey": 859,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nemo",
-        "molestiae"
+        "corrupti",
+        "consequatur"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 693
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 540
+      "FieldLength": 352
     }
   }
 }

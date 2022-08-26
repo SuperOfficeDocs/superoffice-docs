@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/CreateDefaultStatusMonitorPeriods
-id: v1SaintAgent_CreateDefaultStatusMonitorPeriods
+uid: v1SaintAgent_CreateDefaultStatusMonitorPeriods
 ---
 
 # POST Agents/Saint/CreateDefaultStatusMonitorPeriods
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 
 Set default values into a new StatusMonitorPeriods.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Obsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors
+## Response: 
 
-Carrier object for StatusMonitorPeriods.
-Services for the StatusMonitorPeriods Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +52,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
@@ -56,26 +61,22 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 731,
-  "Period2": 378,
-  "Period3": 338,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Period1": 33,
+  "Period2": 983,
+  "Period3": 415,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 61
     }
   }
 }

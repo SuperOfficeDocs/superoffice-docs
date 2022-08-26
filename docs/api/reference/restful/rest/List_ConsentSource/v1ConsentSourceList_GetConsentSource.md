@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentSource/Items/{id}
-id: v1ConsentSourceList_GetConsentSource
+uid: v1ConsentSourceList_GetConsentSource
 ---
 
 # GET List/ConsentSource/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/ConsentSource/Items/{id}
 
 Gets a ConsentSource list item.
 
+
 Calls the List agent service GetConsentSource.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ConsentSource to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ Calls the List agent service GetConsentSource.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ConsentSource.
-Services for the ConsentSource Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,39 +61,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 782,
-  "Name": "Krajcik Inc and Sons",
-  "Tooltip": "modi",
-  "Rank": 462,
-  "Key": "cumque",
-  "MailTemplateId": 733,
-  "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "unleash strategic platforms"
-  },
+  "ConsentSourceId": 86,
+  "Name": "Skiles LLC",
+  "Tooltip": "quo",
+  "Rank": 700,
+  "Key": "tempore",
+  "MailTemplateId": 52,
+  "Deleted": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldLength": 343
     }
   }
 }

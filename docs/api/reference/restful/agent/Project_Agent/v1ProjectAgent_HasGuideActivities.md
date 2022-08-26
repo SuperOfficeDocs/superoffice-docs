@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/HasGuideActivities
-id: v1ProjectAgent_HasGuideActivities
+uid: v1ProjectAgent_HasGuideActivities
 ---
 
 # POST Agents/Project/HasGuideActivities
@@ -8,6 +8,14 @@ id: v1ProjectAgent_HasGuideActivities
 ```http
 POST /api/v1/Agents/Project/HasGuideActivities
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Project/HasGuideActivities
 ```http
 POST /api/v1/Agents/Project/HasGuideActivities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Project/HasGuideActivities?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,23 +61,26 @@ ProjectId
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/HasGuideActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 895
+  "ProjectId": 559
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

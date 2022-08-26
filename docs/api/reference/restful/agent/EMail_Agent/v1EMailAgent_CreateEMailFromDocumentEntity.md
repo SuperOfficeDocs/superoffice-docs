@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateEMailFromDocumentEntity
-id: v1EMailAgent_CreateEMailFromDocumentEntity
+uid: v1EMailAgent_CreateEMailFromDocumentEntity
 ---
 
 # POST Agents/EMail/CreateEMailFromDocumentEntity
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 
 Get an e-mail based on the provided DocumentEntity
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on the provided DocumentEntity
 ```http
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentEntity
+DocumentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +96,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
@@ -99,59 +106,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentEntity": {
-    "DocumentId": 58,
-    "UpdatedBy": {},
-    "CreatedBy": {},
-    "Attention": "iusto",
-    "Header": "tenetur",
-    "Name": "Wilderman-Koelpin",
-    "OurRef": "enim",
-    "YourRef": "perferendis",
-    "CreatedDate": "2003-02-03T18:28:49.0429637+01:00",
-    "UpdatedDate": "2019-09-28T18:28:49.0429637+02:00",
-    "Description": "Horizontal zero defect complexity",
-    "DocumentTemplate": {},
-    "Person": {},
-    "Associate": {},
-    "Contact": {},
-    "Project": {},
-    "Date": "1997-04-07T18:28:49.0429637+02:00",
-    "ExternalRef": "quos",
-    "Completed": "Completed",
-    "ActiveLinks": 484,
-    "Type": "BookingForChecklist",
-    "Links": [
-      {},
-      {}
-    ],
-    "LockSemantics": "Locking",
-    "Sale": {},
-    "SuggestedDocumentId": 615,
-    "Snum": 942,
-    "UserDefinedFields": {
-      "SuperOffice:1": "Hortense Goodwin",
-      "SuperOffice:2": "True"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "ipsa",
-      "ExtraFields2": "est"
-    },
-    "CustomFields": {
-      "CustomFields1": "architecto",
-      "CustomFields2": "ipsam"
-    },
-    "PublishEventDate": "2004-02-28T18:28:49.0429637+01:00",
-    "PublishTo": "2014-11-09T18:28:49.0429637+01:00",
-    "PublishFrom": "2014-04-18T18:28:49.0429637+02:00",
-    "IsPublished": false,
-    "VisibleFor": [
-      {},
-      {}
-    ]
-  }
+  "DocumentEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -160,248 +119,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 989,
-      "ContactName": "Connelly Group",
-      "PersonId": 834,
-      "PersonName": "Willms LLC",
-      "AssociateId": 215,
-      "Address": "perspiciatis",
-      "EmailId": 901,
+      "ContactId": 297,
+      "ContactName": "Gottlieb-Luettgen",
+      "PersonId": 392,
+      "PersonName": "Weissnat, Jacobs and Hayes",
+      "AssociateId": 669,
+      "Address": "qui",
+      "EmailId": 775,
       "DuplicatePersonIds": [
-        922,
-        981
+        328,
+        811
       ],
-      "Name": "Smith, Casper and Bosco",
-      "TableRight": {},
+      "Name": "Kling-Cummings",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 756,
-      "ContactName": "Jones, Crooks and Collins",
-      "PersonId": 256,
-      "PersonName": "Wehner Group",
-      "AssociateId": 258,
-      "Address": "quia",
-      "EmailId": 999,
+      "ContactId": 180,
+      "ContactName": "Daugherty-Homenick",
+      "PersonId": 380,
+      "PersonName": "Satterfield, Kling and Prosacco",
+      "AssociateId": 853,
+      "Address": "et",
+      "EmailId": 134,
       "DuplicatePersonIds": [
-        149,
-        29
+        468,
+        135
       ],
-      "Name": "Marvin Group",
-      "TableRight": {},
+      "Name": "Murray, Hilpert and Nolan",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 833
+          "FieldLength": 907
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 599,
-      "ContactName": "Kuhn LLC",
-      "PersonId": 235,
-      "PersonName": "Schinner-Padberg",
-      "AssociateId": 738,
+      "ContactId": 635,
+      "ContactName": "VonRueden, Nienow and Torp",
+      "PersonId": 34,
+      "PersonName": "Fay Group",
+      "AssociateId": 684,
       "Address": "est",
-      "EmailId": 168,
+      "EmailId": 996,
       "DuplicatePersonIds": [
-        510,
-        247
+        17,
+        381
       ],
-      "Name": "Osinski Inc and Sons",
-      "TableRight": {},
+      "Name": "Carroll Inc and Sons",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 394
         }
       }
     }
   ],
-  "Subject": "delectus",
-  "HTMLBody": "voluptatibus",
-  "From": {
-    "ContactId": 760,
-    "ContactName": "Shanahan, Langworth and Wunsch",
-    "PersonId": 405,
-    "PersonName": "Dickinson, Walker and Grimes",
-    "AssociateId": 322,
-    "Address": "quidem",
-    "EmailId": 23,
-    "DuplicatePersonIds": [
-      427,
-      143
-    ],
-    "Name": "Larson Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 784
-      }
-    }
-  },
-  "Sent": "2021-05-23T18:28:49.0459623+02:00",
-  "Size": 905,
+  "Subject": "ut",
+  "HTMLBody": "necessitatibus",
+  "From": null,
+  "Sent": "2007-06-12T11:10:26.9654529+02:00",
+  "Size": 17,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aliquid",
-  "PlainBody": "enim",
-  "IsSent": true,
-  "EMailSOInfo": {
-    "DocumentId": 695,
-    "AppointmentId": 518,
-    "ProjectId": 476,
-    "SaleId": 792,
-    "Archived": false,
-    "ArchivedAt": "2017-06-25T18:28:49.0459623+02:00",
-    "ArchivedBy": 757,
-    "ArchivedDisplayName": "Upton, Wiza and McDermott",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 419
-      }
-    }
-  },
-  "ServerId": 687,
+  "MessageID": "tempora",
+  "PlainBody": "est",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 162,
   "Attachments": [
     {
-      "Description": "Decentralized bi-directional workforce",
-      "Filename": "voluptatem",
-      "Size": 324,
-      "Type": "sed",
-      "Encoding": "consequatur",
-      "Id": "dolorem",
-      "Disposition": "iste",
+      "Description": "Exclusive empowering workforce",
+      "Filename": "accusamus",
+      "Size": 745,
+      "Type": "cumque",
+      "Encoding": "deleniti",
+      "Id": "temporibus",
+      "Disposition": "molestiae",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 549
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cartwright, Little and Nader",
+      "Name": "Hessel-Bartell",
       "Values": [
-        "sapiente",
-        "aut"
+        "corporis",
+        "tempora"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 336
         }
       }
     },
     {
-      "Name": "Cartwright, Little and Nader",
+      "Name": "Hessel-Bartell",
       "Values": [
-        "sapiente",
-        "aut"
+        "corporis",
+        "tempora"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 336
         }
       }
     }
   ],
-  "FolderName": "Tromp LLC",
-  "EmailItemId": 639,
-  "AccountId": 25,
-  "ReceivedAt": "2015-12-18T18:28:49.0459623+01:00",
-  "InReplyTo": {
-    "ServerId": 723,
-    "MessageId": "maiores",
-    "Subject": "consequatur",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "2012-03-08T18:28:49.0459623+01:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 550,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 134
-      }
-    }
-  },
-  "RepliedAt": "2011-07-22T18:28:49.0459623+02:00",
+  "FolderName": "Hane LLC",
+  "EmailItemId": 172,
+  "AccountId": 448,
+  "ReceivedAt": "1999-08-25T11:10:26.9654529+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "2016-05-18T11:10:26.9654529+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "synthesize compelling web-readiness"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 697
     }
   }
 }

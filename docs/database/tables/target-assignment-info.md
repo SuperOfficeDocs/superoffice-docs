@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_assignment_info"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_assignment\_info Table (495)
+# target\_assignment\_info Table (496)
 
 Linking associate, company or user group target and other information with target values
 
@@ -32,6 +32,8 @@ Linking associate, company or user group target and other information with targe
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|target\_dimension\_item\_id|Dimension item this target assignment is in|Int|&#x25CF;|
+
 
 ![target_assignment_info table relationship diagram](./media/target_assignment_info.png)
 
@@ -58,6 +60,7 @@ Linking associate, company or user group target and other information with targe
 |[target\_revision\_history](target-revision-history.md)  |Revision history info in case the original target group or assignment info was deleted |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * None
@@ -65,3 +68,4 @@ Linking associate, company or user group target and other information with targe
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

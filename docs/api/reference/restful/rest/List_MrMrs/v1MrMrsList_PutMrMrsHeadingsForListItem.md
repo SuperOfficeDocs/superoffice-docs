@@ -1,6 +1,6 @@
 ---
 title: PUT List/MrMrs/Items/{id}/Headings
-id: v1MrMrsList_PutMrMrsHeadingsForListItem
+uid: v1MrMrsList_PutMrMrsHeadingsForListItem
 ---
 
 # PUT List/MrMrs/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 
 Saves headings for the MrMrs list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "McLaughlin Group",
-    "ToolTip": "Aut quo.",
-    "Deleted": false,
-    "Rank": 963,
-    "Type": "dolores",
-    "ColorBlock": 401,
-    "IconHint": "earum",
+    "Id": 887,
+    "Name": "Hartmann, Predovic and Abbott",
+    "ToolTip": "Totam nemo est et ea est dolor qui.",
+    "Deleted": true,
+    "Rank": 365,
+    "Type": "blanditiis",
+    "ColorBlock": 856,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2008-02-12T18:25:51.915245+01:00",
+    "LastChanged": "1996-07-17T11:10:54.3310933+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Raynor, Watsica and Kreiger",
-        "ToolTip": "Nulla doloremque.",
-        "Deleted": true,
-        "Rank": 667,
-        "Type": "accusantium",
-        "ColorBlock": 397,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2006-02-08T18:25:51.915245+01:00",
+        "Id": 808,
+        "Name": "Corwin-Bergstrom",
+        "ToolTip": "Non qui velit.",
+        "Deleted": false,
+        "Rank": 309,
+        "Type": "eveniet",
+        "ColorBlock": 287,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2008-04-16T11:10:54.3310933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "nulla",
+        "ExtraInfo": "facilis",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Luisa Gibson"
+        "FullName": "Gina Lubowitz III"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "eaque",
+    "ExtraInfo": "architecto",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Rosemary Cummings"
+    "FullName": "Burdette Bode"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Mann-Hyatt",
-    "ToolTip": "Nihil a voluptas.",
+    "Id": 127,
+    "Name": "Kerluke, Romaguera and Jacobson",
+    "ToolTip": "Aut distinctio sit.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "qui",
-    "ColorBlock": 419,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2014-10-21T18:25:51.916247+02:00",
+    "Rank": 23,
+    "Type": "corporis",
+    "ColorBlock": 518,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2004-04-09T11:10:54.3328692+02:00",
     "ChildItems": [
       {
-        "Id": 701,
-        "Name": "Ernser, Wilderman and Schumm",
-        "ToolTip": "Vel atque.",
-        "Deleted": true,
-        "Rank": 102,
-        "Type": "ut",
-        "ColorBlock": 71,
-        "IconHint": "tempore",
+        "Id": 339,
+        "Name": "Armstrong, Marks and Renner",
+        "ToolTip": "Ullam aut pariatur reiciendis aut nesciunt minus.",
+        "Deleted": false,
+        "Rank": 417,
+        "Type": "eos",
+        "ColorBlock": 684,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "1995-12-03T18:25:51.916247+01:00",
+        "LastChanged": "2006-08-22T11:10:54.3328692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "minus",
+        "StyleHint": "nobis",
         "Hidden": true,
-        "FullName": "Jeramie Kerluke",
-        "TableRight": {},
+        "FullName": "Dorris Schmitt",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "incentivize value-added convergence"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 932
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "iure",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dandre Huels",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Genevieve Fisher",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

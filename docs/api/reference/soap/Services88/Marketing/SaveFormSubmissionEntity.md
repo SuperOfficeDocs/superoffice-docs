@@ -17,6 +17,7 @@ Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity 
 
 **Returns:** New or updated FormSubmissionEntity
 
+
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -43,7 +44,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:FormSubmissionEntity xsi:type="Marketing:FormSubmissionEntity">
      <Marketing:FormSubmissionId xsi:type="xsd:int">0</Marketing:FormSubmissionId>
      <Marketing:FormId xsi:type="xsd:int">0</Marketing:FormId>
-     <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:WhenSubmitted>
+     <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:WhenSubmitted>
      <Marketing:ContactId xsi:type="xsd:int">0</Marketing:ContactId>
      <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
      <Marketing:EmailAddress xsi:type="xsd:string"></Marketing:EmailAddress>
@@ -58,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveFormSubmissionEntity Response
 
@@ -75,7 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Marketing:Response xsi:type="Marketing:FormSubmissionEntity">
     <Marketing:FormSubmissionId xsi:type="xsd:int">0</Marketing:FormSubmissionId>
     <Marketing:FormId xsi:type="xsd:int">0</Marketing:FormId>
-    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:WhenSubmitted>
+    <Marketing:WhenSubmitted xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:WhenSubmitted>
     <Marketing:ContactId xsi:type="xsd:int">0</Marketing:ContactId>
     <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
     <Marketing:EmailAddress xsi:type="xsd:string"></Marketing:EmailAddress>
@@ -89,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

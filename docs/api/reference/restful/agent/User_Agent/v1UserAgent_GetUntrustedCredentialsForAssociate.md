@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetUntrustedCredentialsForAssociate
-id: v1UserAgent_GetUntrustedCredentialsForAssociate
+uid: v1UserAgent_GetUntrustedCredentialsForAssociate
 ---
 
 # POST Agents/User/GetUntrustedCredentialsForAssociate
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 
 Get a set of credentials of a specified type for a specified user.
 
+
 SecretValue is only populated for authenticated user, and system users.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ SecretValue is only populated for authenticated user, and system users.
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,16 +47,19 @@ POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type
+AssociateId, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | Type | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,20 +78,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 502,
-  "Type": "similique"
+  "AssociateId": 637,
+  "Type": "esse"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,24 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1996-06-23T18:28:50.453412+02:00",
-    "ValidTo": "1995-07-10T18:28:50.453412+02:00",
-    "Comment": "iusto",
-    "SecretValue": "facilis",
-    "PublicValue": "dolorum",
+    "ValidFrom": "2009-06-10T11:10:28.4172069+02:00",
+    "ValidTo": "2009-03-02T11:10:28.4172069+01:00",
+    "Comment": "nisi",
+    "SecretValue": "doloribus",
+    "PublicValue": "sed",
     "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

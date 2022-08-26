@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetAttachmentFromId
-id: v1EMailAgent_GetAttachmentFromId
+uid: v1EMailAgent_GetAttachmentFromId
 ---
 
 # POST Agents/EMail/GetAttachmentFromId
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetAttachmentFromId
 
 Retrieve an attachment from an e-mail
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieve an attachment from an e-mail
 ```http
 POST /api/v1/Agents/EMail/GetAttachmentFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/EMail/GetAttachmentFromId?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailItemId, AttachmentId
+MailItemId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailItemId | int32 |  |
 | AttachmentId | string |  |
 
-## Response: object
 
-Information about an attachment
+## Response: 
 
-Carrier object for EMailAttachment.
-Services for the EMailAttachment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,46 +79,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 918,
-  "AttachmentId": "minima"
+  "MailItemId": 915,
+  "AttachmentId": "quae"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised responsive contingency",
-  "Filename": "veniam",
-  "Size": 942,
-  "Type": "voluptatem",
-  "Encoding": "commodi",
-  "Id": "soluta",
-  "Disposition": "est",
+  "Description": "Self-enabling bandwidth-monitored application",
+  "Filename": "quis",
+  "Size": 320,
+  "Type": "dolore",
+  "Encoding": "minus",
+  "Id": "perferendis",
+  "Disposition": "tempore",
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 858
     }
   }
 }

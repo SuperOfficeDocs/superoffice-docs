@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetSuggestedDocumentEntity
-id: v1DocumentAgent_GetSuggestedDocumentEntity
+uid: v1DocumentAgent_GetSuggestedDocumentEntity
 ---
 
 # POST Agents/Document/GetSuggestedDocumentEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
 
 Gets a SuggestedDocumentEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=468
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=482
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SuggestedDocumentEntity.
-Services for the SuggestedDocumentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,105 +70,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 494,
-  "Name": "Kuphal Group",
-  "Tooltip": "molestias",
-  "Rank": 435,
-  "DoctmplId": 649,
-  "Header": "omnis",
-  "OurRef": "quia",
-  "Deleted": false,
-  "DocTmpl": {
-    "DocumentTemplateId": 303,
-    "Name": "Grimes, Hickle and Gislason",
-    "Tooltip": "vel",
-    "SaveInDb": 516,
-    "Filename": "harum",
-    "DefaultOref": "dicta",
-    "RecordType": "Appointment",
-    "Deleted": 139,
-    "Direction": "Incoming",
-    "AutoeventId": 959,
-    "QuoteDocType": "ConfirmationLines",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 642
-      }
-    }
-  },
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 729,
-    "ProjTypeId": 709,
-    "ProjTypeName": "Eichmann-Cassin",
-    "ProjTypeTooltip": "sed",
-    "ProjStatusId": 783,
-    "ProjStatusName": "Huels Group",
-    "ProjStatusTooltip": "provident",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 195
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 115,
-    "SaleTypeId": 457,
-    "SaleTypeName": "Kovacek-VonRueden",
-    "SaleTypeTooltip": "commodi",
-    "ProbId": 888,
-    "ProbName": "Hilll, Parker and Pfeffer",
-    "ProbTooltip": "cum",
-    "Probability": 192,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 214
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "enable sticky applications"
-  },
+  "SuggestedDocumentId": 394,
+  "Name": "Stokes Inc and Sons",
+  "Tooltip": "nisi",
+  "Rank": 617,
+  "DoctmplId": 665,
+  "Header": "unde",
+  "OurRef": "veniam",
+  "Deleted": true,
+  "DocTmpl": null,
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 526
     }
   }
 }

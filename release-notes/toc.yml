@@ -12,6 +12,8 @@ items:
 - name: Database changes
   href: database/index.md
   items:
+  - name: Whats new in 10.1.5
+    href: database/changes-10.1.5.md
   - name: Whats new in 10.1.2
     href: database/changes-10.1.2.md
   - name: Whats new in 9.2

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetUpcomingSales
-id: v1SaleAgent_GetUpcomingSales
+uid: v1SaleAgent_GetUpcomingSales
 ---
 
 # POST Agents/Sale/GetUpcomingSales
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetUpcomingSales
 
 Returns all open sales, sorted descending with the latest first.
 
+
 If the weigthed amount is -1, the amount restriction is omitted.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the weigthed amount is -1, the amount restriction is omitted.
 ```http
 POST /api/v1/Agents/Sale/GetUpcomingSales?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Sale/GetUpcomingSales?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WeightedAmountLimit, Count
+WeightedAmountLimit, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WeightedAmountLimit | int32 |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -84,20 +94,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 183,
-  "Count": 150
+  "WeightedAmountLimit": 92,
+  "Count": 357
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -105,43 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Crooks LLC",
-    "SaleDate": "1999-05-18T18:28:50.1774438+02:00",
-    "SaleId": 77,
-    "Probability": 192,
-    "Title": "maxime",
-    "Amount": 26275.456,
-    "Currency": "eos",
-    "ProjectName": "Bode-Kautzer",
-    "AssociateFullName": "Aron Reinger",
-    "Description": "Persevering scalable standardization",
+    "ContactName": "Johns Group",
+    "SaleDate": "2005-02-05T11:10:27.8530074+01:00",
+    "SaleId": 977,
+    "Probability": 486,
+    "Title": "eum",
+    "Amount": 17221.329999999998,
+    "Currency": "et",
+    "ProjectName": "Littel, Kling and Murazik",
+    "AssociateFullName": "Benedict Kunde",
+    "Description": "Multi-layered logistical data-warehouse",
     "Status": "Lost",
-    "WeightedAmount": 24254.025999999998,
-    "ProjectId": 508,
-    "EarningPercent": 3917.5,
-    "Earning": 20104.61,
-    "ContactId": 703,
-    "AssociateId": 732,
-    "PersonId": 52,
-    "SaleTypeId": 711,
-    "SaleTypeName": "Little, McGlynn and Farrell",
-    "PersonFullName": "Vanessa Zulauf",
+    "WeightedAmount": 24642.642,
+    "ProjectId": 383,
+    "EarningPercent": 21574.456,
+    "Earning": 26435.29,
+    "ContactId": 908,
+    "AssociateId": 993,
+    "PersonId": 751,
+    "SaleTypeId": 944,
+    "SaleTypeName": "Kutch-Runolfsson",
+    "PersonFullName": "Mr. Dorothy Maritza Baumbach DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 872,
-    "NextDueDate": "2016-05-09T18:28:50.1784416+02:00",
-    "Number": "1229088",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "synergize leading-edge bandwidth"
-    },
+    "ActiveErpLinks": 863,
+    "NextDueDate": "2006-10-04T11:10:27.8540076+02:00",
+    "Number": "915194",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 513
       }
     }
   }

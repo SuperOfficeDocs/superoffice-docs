@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/UdefLayout/Published
-id: v1AppointmentEntity_GetPublishedUdefLayout
+uid: v1AppointmentEntity_GetPublishedUdefLayout
 ---
 
 # GET Appointment/UdefLayout/Published
@@ -10,6 +10,13 @@ GET /api/v1/Appointment/UdefLayout/Published
 ```
 
 Currently published AppointmentEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Currently published AppointmentEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,14 +81,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,52 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 137,
-    "ColumnId": 925,
-    "FieldDefault": "et",
-    "FieldHeight": 218,
-    "FieldLabel": "deleniti",
-    "FieldLeft": 703,
-    "FieldTop": 776,
+    "UDefFieldId": 719,
+    "ColumnId": 608,
+    "FieldDefault": "reiciendis",
+    "FieldHeight": 185,
+    "FieldLabel": "magni",
+    "FieldLeft": 681,
+    "FieldTop": 821,
     "FieldType": "Checkbox",
-    "FieldWidth": 93,
-    "FormatMask": "ea",
-    "HideLabel": true,
+    "FieldWidth": 845,
+    "FormatMask": "culpa",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 887,
-    "LabelLeft": 952,
-    "LabelTop": 90,
-    "LabelWidth": 735,
-    "LastVersionId": 858,
-    "ListTableId": 903,
-    "IsMandatory": false,
+    "LabelHeight": 721,
+    "LabelLeft": 222,
+    "LabelTop": 420,
+    "LabelWidth": 273,
+    "LastVersionId": 771,
+    "ListTableId": 991,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 982,
-    "ProgId": "ullam",
-    "IsReadOnly": true,
-    "ShortLabel": "in",
-    "TabOrder": 98,
-    "TextLength": 767,
-    "Tooltip": "sed",
-    "UdefIdentity": 282,
-    "UDListDefinitionId": 270,
+    "Page1LineNo": 711,
+    "ProgId": "voluptas",
+    "IsReadOnly": false,
+    "ShortLabel": "id",
+    "TabOrder": 388,
+    "TextLength": 323,
+    "Tooltip": "autem",
+    "UdefIdentity": 87,
+    "UDListDefinitionId": 675,
     "Justification": "Center",
-    "Version": 55,
-    "TemplateVariableName": "Hamill, Monahan and Hauck",
+    "Version": 20,
+    "TemplateVariableName": "Beahan Group",
     "HasBeenPublished": true,
-    "MdoListName": "Runolfsdottir-Rosenbaum",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Trantow, Pfeffer and Corwin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 508
       }
     }
   }

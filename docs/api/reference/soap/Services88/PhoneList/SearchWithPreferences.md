@@ -18,6 +18,7 @@ Searching the phone list. Search is based on the supplied preferences.
 
 **Returns:** The resulting phone list.
 
+
 [WSDL file for Services88/PhoneList](../Services88-PhoneList.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SearchWithPreferences Response
 
 ```xml
@@ -91,3 +93,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

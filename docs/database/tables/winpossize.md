@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "WinPosSize"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,7 @@ Stores the position and size of each window, so they can be shown in the same pl
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![WinPosSize table relationship diagram](./media/WinPosSize.png)
 
 [!include[details](./includes/winpossize.md)]
@@ -54,6 +55,7 @@ Stores the position and size of each window, so they can be shown in the same pl
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -63,3 +65,4 @@ Stores the position and size of each window, so they can be shown in the same pl
 ## Security Flags
 
 * No access control via user's Role.
+

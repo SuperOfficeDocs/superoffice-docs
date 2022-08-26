@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/RecalculateQuoteLine
-id: v1QuoteAgent_RecalculateQuoteLine
+uid: v1QuoteAgent_RecalculateQuoteLine
 ---
 
 # POST Agents/Quote/RecalculateQuoteLine
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/RecalculateQuoteLine
 
 When the user changes one or more values in a quoteline, the connector gets to change the QuoteLine, for instance calculate VAT.
 
+
 Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Shall be called when the user changes any of the following fields: Quantity, Dis
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/Quote/RecalculateQuoteLine?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLine, ChangedFields
+QuoteLine, ChangedFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLine |  | Information about a connection to the ERP system. <br /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 | ChangedFields | array |  |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteLine.
-Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,7 +118,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
@@ -123,166 +128,103 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLine": {
-    "QuoteLineId": 754,
-    "ERPQuoteLineKey": "tempora",
-    "QuoteAlternativeId": 290,
-    "ERPProductKey": "accusantium",
-    "Status": "Error",
-    "Reason": "",
-    "Quantity": 28309.422,
-    "DeliveredQuantity": 25448.079999999998,
-    "Rank": 644,
-    "Name": "Stiedemann, Moore and Emmerich",
-    "Description": "Compatible clear-thinking superstructure",
-    "Code": "soluta",
-    "QuantityUnit": "quidem",
-    "PriceUnit": "doloribus",
-    "ItemNumber": "1833208",
-    "Url": "http://www.example.com/",
-    "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "velit",
-    "ProductTypeKey": "consequuntur",
-    "Supplier": "nobis",
-    "SupplierCode": "voluptas",
-    "Thumbnail": "consectetur",
-    "VATInfo": "illum",
-    "VAT": 376.08,
-    "UnitCost": 1557.598,
-    "UnitMinimumPrice": 8292.564,
-    "UnitListPrice": 25062.597999999998,
-    "ExtraInfo": [
-      {},
-      {}
-    ],
-    "RawExtraInfo": "dicta",
-    "IsSubscription": false,
-    "SubscriptionUnit": "impedit",
-    "SubscriptionQuantity": 26811.37,
-    "SubscriptionStart": "2019-08-08T18:28:49.9061394+02:00",
-    "ERPDiscountPercent": 106.556,
-    "ERPDiscountAmount": 3942.5719999999997,
-    "DiscountPercent": 1137.642,
-    "DiscountAmount": 1215.992,
-    "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 1056.158,
-    "EarningAmount": 3579.028,
-    "SubTotal": 14118.67,
-    "TotalPrice": 7418.178,
-    "Rights": "eligendi",
-    "Rule": "aut",
-    "ExtraField1": "omnis",
-    "ExtraField2": "a",
-    "ExtraField3": "perferendis",
-    "ExtraField4": "accusantium",
-    "ExtraField5": "ut"
-  },
+  "QuoteLine": null,
   "ChangedFields": [
-    "veritatis",
-    "dolorum"
+    "in",
+    "et"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 556,
-  "ERPQuoteLineKey": "omnis",
-  "QuoteAlternativeId": 447,
-  "ERPProductKey": "et",
+  "QuoteLineId": 817,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 867,
+  "ERPProductKey": "nesciunt",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29465.868,
-  "DeliveredQuantity": 25156.618,
-  "Rank": 560,
-  "Name": "O'Connell-Wiegand",
-  "Description": "Self-enabling system-worthy archive",
-  "Code": "quo",
-  "QuantityUnit": "blanditiis",
-  "PriceUnit": "impedit",
-  "ItemNumber": "367827",
+  "Quantity": 28892.345999999998,
+  "DeliveredQuantity": 8790.869999999999,
+  "Rank": 754,
+  "Name": "Bahringer LLC",
+  "Description": "Upgradable mobile project",
+  "Code": "illo",
+  "QuantityUnit": "est",
+  "PriceUnit": "reprehenderit",
+  "ItemNumber": "913359",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "neque",
-  "ProductTypeKey": "quos",
-  "Supplier": "ut",
-  "SupplierCode": "voluptas",
-  "Thumbnail": "sequi",
-  "VATInfo": "dicta",
-  "VAT": 23473.66,
-  "UnitCost": 25817.892,
-  "UnitMinimumPrice": 2851.94,
-  "UnitListPrice": 23505.0,
+  "ProductFamilyKey": "quam",
+  "ProductTypeKey": "repudiandae",
+  "Supplier": "recusandae",
+  "SupplierCode": "eos",
+  "Thumbnail": "sed",
+  "VATInfo": "alias",
+  "VAT": 8521.346,
+  "UnitCost": 18979.504,
+  "UnitMinimumPrice": 14808.15,
+  "UnitListPrice": 16506.778,
   "ExtraInfo": [
     {
-      "Name": "Emmerich, Carter and King",
-      "Value": "et",
+      "Name": "Medhurst-Ernser",
+      "Value": "corrupti",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 198
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     },
     {
-      "Name": "Emmerich, Carter and King",
-      "Value": "et",
+      "Name": "Medhurst-Ernser",
+      "Value": "corrupti",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 198
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
+  "RawExtraInfo": "animi",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 15250.044,
-  "SubscriptionStart": "2012-04-14T18:28:49.9081391+02:00",
-  "ERPDiscountPercent": 554.718,
-  "ERPDiscountAmount": 28296.886,
-  "DiscountPercent": 1792.648,
-  "DiscountAmount": 5048.874,
+  "SubscriptionUnit": "doloribus",
+  "SubscriptionQuantity": 11254.194,
+  "SubscriptionStart": "2013-08-07T11:10:27.641449+02:00",
+  "ERPDiscountPercent": 21210.912,
+  "ERPDiscountAmount": 8900.56,
+  "DiscountPercent": 28723.11,
+  "DiscountAmount": 4356.26,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 26071.746,
-  "EarningAmount": 7740.98,
-  "SubTotal": 21577.59,
-  "TotalPrice": 955.87,
-  "Rights": "consectetur",
-  "Rule": "laboriosam",
-  "ExtraField1": "dolorum",
-  "ExtraField2": "quidem",
-  "ExtraField3": "officia",
-  "ExtraField4": "ut",
-  "ExtraField5": "sit",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EarningPercent": 18321.363999999998,
+  "EarningAmount": 13021.77,
+  "SubTotal": 13918.094,
+  "TotalPrice": 14472.812,
+  "Rights": "nisi",
+  "Rule": "eum",
+  "ExtraField1": "alias",
+  "ExtraField2": "sint",
+  "ExtraField3": "ut",
+  "ExtraField4": "et",
+  "ExtraField5": "aliquam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

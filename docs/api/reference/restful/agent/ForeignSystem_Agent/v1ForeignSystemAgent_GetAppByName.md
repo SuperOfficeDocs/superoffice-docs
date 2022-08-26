@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetAppByName
-id: v1ForeignSystemAgent_GetAppByName
+uid: v1ForeignSystemAgent_GetAppByName
 ---
 
 # POST Agents/ForeignSystem/GetAppByName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetAppByName
 
 Gets the ForeignApp with the given name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the ForeignApp with the given name.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetAppByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/ForeignSystem/GetAppByName?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName
+ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 
-## Response: object
 
-Carrier object for ForeignAppEntity.
-Services for the ForeignAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,115 +73,60 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Skiles Inc and Sons"
+  "ApplicationName": "Wyman-Corkery"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 32,
-  "Name": "Doyle-Fisher",
-  "CreatedDate": "2005-06-17T18:28:49.2031229+02:00",
-  "UpdatedDate": "1997-03-04T18:28:49.2031229+01:00",
-  "CreatedBy": {
-    "AssociateId": 590,
-    "Name": "Sawayn, Ratke and Wintheiser",
-    "PersonId": 374,
-    "Rank": 882,
-    "Tooltip": "blanditiis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 6,
-    "FullName": "Adele Anderson",
-    "FormalName": "Lehner-Buckridge",
-    "Deleted": false,
-    "EjUserId": 500,
-    "UserName": "Leannon Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 611
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 422,
-    "Name": "Dietrich, Kerluke and Kulas",
-    "PersonId": 990,
-    "Rank": 534,
-    "Tooltip": "libero",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 700,
-    "FullName": "Roslyn Frami",
-    "FormalName": "Wolff, Blick and Rempel",
-    "Deleted": false,
-    "EjUserId": 165,
-    "UserName": "Raynor-Krajcik",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 745
-      }
-    }
-  },
+  "ForeignAppId": 148,
+  "Name": "Reilly-Lockman",
+  "CreatedDate": "2018-06-27T11:10:27.0744533+02:00",
+  "UpdatedDate": "2015-08-04T11:10:27.0744533+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 478,
-      "Name": "Ritchie-Prosacco",
-      "CreatedDate": "1999-10-10T18:28:49.204123+02:00",
-      "UpdatedDate": "2016-05-10T18:28:49.204123+02:00",
-      "AssociateFullName": "Vaughn Barrows",
-      "CreatedBy": "sit",
-      "UpdatedBy": "perferendis",
-      "DeviceIdentifier": "unde",
-      "ForeignAppId": 343,
-      "TableRight": {},
+      "ForeignDeviceId": 546,
+      "Name": "Schaefer, Marquardt and Bode",
+      "CreatedDate": "2007-04-20T11:10:27.0754524+02:00",
+      "UpdatedDate": "2001-03-23T11:10:27.0754524+01:00",
+      "AssociateFullName": "Dillon Beatty",
+      "CreatedBy": "aut",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "dolor",
+      "ForeignAppId": 435,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 58
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 65
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "deliver integrated e-services"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 148
     }
   }
 }

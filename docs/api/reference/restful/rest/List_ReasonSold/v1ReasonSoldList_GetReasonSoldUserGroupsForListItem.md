@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonSold/Items/{id}/UserGroups
-id: v1ReasonSoldList_GetReasonSoldUserGroupsForListItem
+uid: v1ReasonSoldList_GetReasonSoldUserGroupsForListItem
 ---
 
 # GET List/ReasonSold/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ReasonSold list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Fahey-Nikolaus",
-    "ToolTip": "Totam repellendus cupiditate.",
+    "Id": 17,
+    "Name": "Conn, Boyle and Heller",
+    "ToolTip": "Excepturi dolores possimus.",
     "Deleted": false,
-    "Rank": 878,
-    "Type": "nesciunt",
-    "ColorBlock": 25,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2011-01-08T18:25:52.1500186+01:00",
+    "Rank": 737,
+    "Type": "voluptatem",
+    "ColorBlock": 126,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "1996-10-17T11:10:54.5669374+02:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Mertz-Parisian",
-        "ToolTip": "Consequatur est sit repellendus id quod.",
+        "Id": 595,
+        "Name": "Strosin LLC",
+        "ToolTip": "Facilis ea sed minima.",
         "Deleted": true,
-        "Rank": 587,
-        "Type": "eum",
-        "ColorBlock": 337,
-        "IconHint": "molestiae",
+        "Rank": 426,
+        "Type": "illum",
+        "ColorBlock": 653,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "2002-08-20T18:25:52.1500186+02:00",
+        "LastChanged": "2012-06-01T11:10:54.5669374+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "non",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Rico Schuster",
-        "TableRight": {},
+        "FullName": "Elwin Kassulke",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Sadye Borer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "hic",
+    "StyleHint": "repudiandae",
+    "Hidden": true,
+    "FullName": "Tad Jakubowski",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 314
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 169
       }
     }
   }

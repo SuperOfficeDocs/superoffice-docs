@@ -1,6 +1,6 @@
 ---
 title: PUT List/MrMrs/Items/{id}
-id: v1MrMrsList_PutMrMrs
+uid: v1MrMrsList_PutMrMrs
 ---
 
 # PUT List/MrMrs/Items/{id}
@@ -11,9 +11,16 @@ PUT /api/v1/List/MrMrs/Items/{id}
 
 Updates an existing MrMrs list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of MrMrs to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing MrMrs list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of MrMrs list item to be saved.
+The details of MrMrs list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,19 +49,17 @@ The details of MrMrs list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,48 +72,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Hodkiewicz, Marvin and Block",
-  "Tooltip": "alias",
+  "Id": 869,
+  "Name": "Hagenes-Schroeder",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "UdListDefinitionId": 815,
-  "Rank": 598
+  "UdListDefinitionId": 230,
+  "Rank": 795
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 9,
-  "Name": "Schaefer-Goyette",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 598,
-  "Rank": 701,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 343,
+  "Name": "Harris LLC",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "UdListDefinitionId": 663,
+  "Rank": 789,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 729
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 942
     }
   }
 }

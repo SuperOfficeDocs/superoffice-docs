@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentPurpose/Items
-id: v1ConsentPurposeList_GetAllConsentPurpose
+uid: v1ConsentPurposeList_GetAllConsentPurpose
 ---
 
 # GET List/ConsentPurpose/Items
@@ -11,7 +11,14 @@ GET /api/v1/List/ConsentPurpose/Items
 
 Gets a list of all ConsentPurpose list items.
 
+
 Calls the List agent service GetAllConsentPurpose.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetAllConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,14 +62,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -67,55 +79,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 833,
-    "Name": "Ebert Group",
-    "ConsentText": "et",
-    "FormText": "architecto",
-    "Key": "eum",
-    "Tooltip": "et",
-    "Active": 899,
-    "UpdatedDate": "2012-12-22T18:25:51.6612947+01:00",
-    "UpdatedBy": {
-      "AssociateId": 9,
-      "Name": "Kassulke Inc and Sons",
-      "PersonId": 285,
-      "Rank": 202,
-      "Tooltip": "assumenda",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 839,
-      "FullName": "Uriel Dare MD",
-      "FormalName": "Harber Inc and Sons",
-      "Deleted": true,
-      "EjUserId": 105,
-      "UserName": "Runolfsdottir-Auer",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 250
-        }
-      }
-    },
+    "ConsentPurposeId": 611,
+    "Name": "Treutel-Jewess",
+    "ConsentText": "sunt",
+    "FormText": "minus",
+    "Key": "dolores",
+    "Tooltip": "est",
+    "Active": 811,
+    "UpdatedDate": "2013-10-11T11:10:53.974183+02:00",
+    "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 303,
-    "PrivacyStatementDesc": "at",
+    "Rank": 70,
+    "PrivacyStatementDesc": "harum",
     "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

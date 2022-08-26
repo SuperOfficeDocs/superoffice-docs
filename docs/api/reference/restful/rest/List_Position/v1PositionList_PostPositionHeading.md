@@ -1,6 +1,6 @@
 ---
 title: POST List/Position/Headings
-id: v1PositionList_PostPositionHeading
+uid: v1PositionList_PostPositionHeading
 ---
 
 # POST List/Position/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/Position/Headings
 
 Saves a new heading for the Position list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 552,
-  "Name": "Hickle-Morar",
-  "Tooltip": "ducimus",
+  "HeadingId": 529,
+  "Name": "Harvey, Kovacek and Schaefer",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "Rank": 884,
-  "UdListDefinitionId": 252
+  "Rank": 520,
+  "UdListDefinitionId": 796
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 701,
-  "Name": "Kunde, Christiansen and Emard",
-  "Tooltip": "perferendis",
-  "Deleted": true,
-  "Rank": 809,
-  "UdListDefinitionId": 433,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 237,
+  "Name": "Klocko-Kulas",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "Rank": 971,
+  "UdListDefinitionId": 884,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldLength": 446
     }
   }
 }

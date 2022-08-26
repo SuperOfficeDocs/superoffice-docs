@@ -1,6 +1,6 @@
 ---
 title: GET List/Currency/MDOItems
-id: v1CurrencyList_GetMDOList
+uid: v1CurrencyList_GetMDOList
 ---
 
 # GET List/Currency/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Currency/MDOItems
 
 Get the MDO list items for "Currency" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=quidem
+GET /api/v1/List/Currency/MDOItems?query=qui
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Currency/MDOItems?query=quidem
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Brown LLC",
-    "ToolTip": "Voluptas facere.",
-    "Deleted": false,
-    "Rank": 870,
-    "Type": "officia",
+    "Id": 103,
+    "Name": "Emmerich-Dibbert",
+    "ToolTip": "Explicabo nam consequatur sint aliquid.",
+    "Deleted": true,
+    "Rank": 294,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 330,
-        "Name": "Botsford Inc and Sons",
-        "ToolTip": "Dolores saepe.",
+        "Id": 96,
+        "Name": "Bogan, Weimann and Quitzon",
+        "ToolTip": "Rerum cum tenetur quis harum.",
         "Deleted": false,
-        "Rank": 189,
-        "Type": "accusantium",
+        "Rank": 264,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 840,
-        "ExtraInfo": "dolor",
-        "StyleHint": "deleniti",
-        "FullName": "Carmelo Gusikowski",
-        "TableRight": {},
+        "IconHint": "quibusdam",
+        "ColorBlock": 397,
+        "ExtraInfo": "nam",
+        "StyleHint": "ut",
+        "FullName": "Macey Terry",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "e-enable collaborative e-tailers"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 452
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 575,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "est",
-    "FullName": "Lauryn Grimes",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "consequatur",
+    "ColorBlock": 105,
+    "ExtraInfo": "explicabo",
+    "StyleHint": "eveniet",
+    "FullName": "Everett Stroman",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

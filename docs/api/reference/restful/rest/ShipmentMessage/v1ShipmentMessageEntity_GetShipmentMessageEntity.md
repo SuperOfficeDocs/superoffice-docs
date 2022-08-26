@@ -1,6 +1,6 @@
 ---
 title: GET ShipmentMessage/{id}
-id: v1ShipmentMessageEntity_GetShipmentMessageEntity
+uid: v1ShipmentMessageEntity_GetShipmentMessageEntity
 ---
 
 # GET ShipmentMessage/{id}
@@ -11,11 +11,17 @@ GET /api/v1/ShipmentMessage/{id}
 
 Gets a ShipmentMessageEntity object.
 
+
 Calls the Marketing agent service GetShipmentMessageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ShipmentMessageEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Marketing agent service GetShipmentMessageEntity.
 ```http
 GET /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A shipment message, that contains the actual message being sent out in a mailing
+## Response: 
 
-ShipmentMessageEntity entity with API _Links added.
+ShipmentMessageEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ShipmentMessageEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,58 +86,54 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 691,
-  "PlainMessage": "placeat",
-  "HtmlMessage": "nihil",
-  "SmsMessage": "consequatur",
-  "Description": "Grass-roots assymetric system engine",
-  "Subject": "tenetur",
-  "FolderId": 513,
-  "HeaderField": "ut",
-  "Design": "et",
+  "ShipmentMessageId": 158,
+  "PlainMessage": "omnis",
+  "HtmlMessage": "esse",
+  "SmsMessage": "accusantium",
+  "Description": "Virtual fresh-thinking process improvement",
+  "Subject": "officia",
+  "FolderId": 929,
+  "HeaderField": "quidem",
+  "Design": "cum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Grass-roots multi-state ability",
-  "AccessKey": "distinctio",
-  "DocumentMessage": 87,
-  "Registered": "2019-04-06T18:25:51.1129096+02:00",
-  "RegisteredAssociateId": 743,
-  "Updated": "2000-06-06T18:25:51.1129096+02:00",
-  "UpdatedAssociateId": 59,
-  "UpdatedCount": 707,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "InlineImages": false,
+  "LongDescription": "Extended contextually-based function",
+  "AccessKey": "sapiente",
+  "DocumentMessage": 988,
+  "Registered": "2013-05-28T11:10:53.5241794+02:00",
+  "RegisteredAssociateId": 213,
+  "Updated": "2018-11-18T11:10:53.5241794+01:00",
+  "UpdatedAssociateId": 430,
+  "UpdatedCount": 872,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldLength": 278
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

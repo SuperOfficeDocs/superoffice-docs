@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.CreateD
 
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
+
 **Returns:** RecurrenceInfo object with default values.
+
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultRecurrence Response
 
 ```xml
@@ -62,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:CreateDefaultRecurrenceResponse>
    <Appointment:Response xsi:type="Appointment:RecurrenceInfo">
     <Appointment:RecurrenceId xsi:type="xsd:int">0</Appointment:RecurrenceId>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:EndDate>
     <Appointment:RecurrenceEndType xsi:type="Appointment:RecurrenceEndType">Unknown</Appointment:RecurrenceEndType>
     <Appointment:Pattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:Pattern>
     <Appointment:DayPattern xsi:type="Appointment:RecurrenceDayPattern">
@@ -90,7 +93,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Appointment:YearPattern>
     <Appointment:Dates xsi:type="Appointment:ArrayOfRecurrenceDate">
      <Appointment:RecurrenceDate xsi:type="Appointment:RecurrenceDate">
-      <Appointment:Date xsi:type="xsd:dateTime">2021-11-30T13:22:45Z</Appointment:Date>
+      <Appointment:Date xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:Date>
       <Appointment:IsConflict xsi:type="xsd:boolean">false</Appointment:IsConflict>
       <Appointment:Description xsi:type="xsd:string"></Appointment:Description>
       <Appointment:DescriptionStyleHint xsi:type="xsd:string"></Appointment:DescriptionStyleHint>
@@ -105,3 +108,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

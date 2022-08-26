@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveHeadingsFromName
-id: v1ListAgent_SaveHeadingsFromName
+uid: v1ListAgent_SaveHeadingsFromName
 ---
 
 # POST Agents/List/SaveHeadingsFromName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingsFromName
 
 Save headings for list resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save headings for list resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveHeadingsFromName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/SaveHeadingsFromName?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, Entities
+Name, Entities 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | Entities | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,7 +73,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveHeadingsFromName
@@ -73,27 +83,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Spencer, Brekke and Herzog",
+  "Name": "Boyer-Rutherford",
   "Entities": [
     {
-      "HeadingId": 487,
-      "Name": "Gibson Group",
-      "Tooltip": "culpa",
+      "HeadingId": 381,
+      "Name": "Berge, Bahringer and Sipes",
+      "Tooltip": "repellat",
       "Deleted": false,
-      "Rank": 109,
-      "UdListDefinitionId": 279
+      "Rank": 381,
+      "UdListDefinitionId": 698
     },
     {
-      "HeadingId": 487,
-      "Name": "Gibson Group",
-      "Tooltip": "culpa",
+      "HeadingId": 381,
+      "Name": "Berge, Bahringer and Sipes",
+      "Tooltip": "repellat",
       "Deleted": false,
-      "Rank": 109,
-      "UdListDefinitionId": 279
+      "Rank": 381,
+      "UdListDefinitionId": 698
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -101,24 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 605,
-    "Name": "Heathcote-Cummings",
-    "Tooltip": "doloremque",
+    "HeadingId": 209,
+    "Name": "Lockman Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 201,
-    "UdListDefinitionId": 269,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 672,
+    "UdListDefinitionId": 317,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldLength": 441
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_message"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -43,6 +43,7 @@ A message used in a shipment. Can be html and/or plain text
 |design|Will contain the design part of a message. The format will vary based on the type of designer used to create the message|Clob|&#x25CF;|
 |designtype|Enum containing the type of the design|Enum [DesignType](enums/designtype.md)| |
 
+
 ![s_message table relationship diagram](./media/s_message.png)
 
 [!include[details](./includes/s-message.md)]
@@ -64,6 +65,7 @@ A message used in a shipment. Can be html and/or plain text
 |[s\_sent\_message](s-sent-message.md)  |Emarketeer message control |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
+
 ## Replication Flags
 
 * None
@@ -71,3 +73,4 @@ A message used in a shipment. Can be html and/or plain text
 ## Security Flags
 
 * No access control via user's Role.
+

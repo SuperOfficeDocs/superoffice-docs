@@ -1,6 +1,6 @@
 ---
 title: GET TriggerScript/default
-id: v1TriggerScriptEntity_DefaultTriggerScriptEntity
+uid: v1TriggerScriptEntity_DefaultTriggerScriptEntity
 ---
 
 # GET TriggerScript/default
@@ -11,9 +11,17 @@ GET /api/v1/TriggerScript/default
 
 Set default values into a new TriggerScriptEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultTriggerScriptEntity
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultTriggerScriptEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-Carrier object for TriggerScriptEntity.
-Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +54,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -56,42 +62,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 447,
-  "Name": "Robel-Wolf",
+  "ScreenChooserId": 806,
+  "Name": "McLaughlin-Cassin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "tenetur",
-  "Source": "eligendi",
-  "Registered": "2002-12-15T18:25:51.3130987+01:00",
-  "RegisteredAssociateId": 851,
-  "Updated": "1999-05-20T18:25:51.3130987+02:00",
-  "UpdatedAssociateId": 126,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "drive plug-and-play markets"
-  },
+  "UniqueIdentifier": "magni",
+  "Source": "quo",
+  "Registered": "2001-09-12T11:10:53.6621858+02:00",
+  "RegisteredAssociateId": 834,
+  "Updated": "2020-11-19T11:10:53.6621858+01:00",
+  "UpdatedAssociateId": 981,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

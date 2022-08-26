@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetSelectionCategoryList
-id: v1ListAgent_GetSelectionCategoryList
+uid: v1ListAgent_GetSelectionCategoryList
 ---
 
 # POST Agents/List/GetSelectionCategoryList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSelectionCategoryList
 
 Gets an array of SelectionCategory objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of SelectionCategory objects.
 ```http
 POST /api/v1/Agents/List/GetSelectionCategoryList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetSelectionCategoryList?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: selectionCategoryIds
+## Request Body: selectionCategoryIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetSelectionCategoryList
@@ -64,46 +75,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Value": "a",
-    "Tooltip": "corporis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 95,
+    "Value": "nam",
+    "Tooltip": "illo",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 332
       }
     }
   },
   {
-    "Id": 665,
-    "Value": "a",
-    "Tooltip": "corporis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 95,
+    "Value": "nam",
+    "Tooltip": "illo",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 332
       }
     }
   }

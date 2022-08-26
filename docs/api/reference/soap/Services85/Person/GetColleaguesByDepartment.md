@@ -17,6 +17,7 @@ Gets the persons working in a specific department in the same company as the log
 
 **Returns:** PersonList with colleagues.
 
+
 [WSDL file for Services85/Person](../Services85-Person.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetColleaguesByDepartment Response
 
@@ -111,3 +113,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPhoneListAgent.GetFavori
 
 Returns an array of phone list items with the Contacts in the users favorites dropdown list.
 
+
 **Returns:** The favorite contact phone list
+
 
 [WSDL file for Services84/PhoneList](../Services84-PhoneList.md)
 
@@ -44,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetFavoritesPhones Response
 
@@ -77,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

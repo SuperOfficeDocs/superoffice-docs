@@ -1,6 +1,6 @@
 ---
 title: POST Sale/UdefLayout
-id: v1SaleEntity_AddUdefField
+uid: v1SaleEntity_AddUdefField
 ---
 
 # POST Sale/UdefLayout
@@ -11,6 +11,12 @@ POST /api/v1/Sale/UdefLayout
 
 Add a new field to the current SaleEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current SaleEntity user-defined field layout.
 ```http
 POST /api/v1/Sale/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Sale/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,66 +91,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 604,
-  "ColumnId": 18,
-  "FieldDefault": "eveniet",
-  "FieldHeight": 26,
-  "FieldLabel": "dolorum",
-  "FieldLeft": 922,
-  "FieldTop": 713,
+  "UDefFieldId": 296,
+  "ColumnId": 362,
+  "FieldDefault": "libero",
+  "FieldHeight": 65,
+  "FieldLabel": "nihil",
+  "FieldLeft": 161,
+  "FieldTop": 294,
   "FieldType": "Checkbox",
-  "FieldWidth": 291,
-  "FormatMask": "minima",
-  "HideLabel": true,
+  "FieldWidth": 267,
+  "FormatMask": "officiis",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 96,
-  "LabelLeft": 551,
-  "LabelTop": 990,
-  "LabelWidth": 505,
-  "LastVersionId": 741,
-  "ListTableId": 338,
+  "LabelHeight": 398,
+  "LabelLeft": 760,
+  "LabelTop": 544,
+  "LabelWidth": 870,
+  "LastVersionId": 494,
+  "ListTableId": 218,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 707,
-  "ProgId": "non",
+  "Page1LineNo": 794,
+  "ProgId": "quod",
   "IsReadOnly": false,
-  "ShortLabel": "vel",
-  "TabOrder": 63,
-  "TextLength": 362,
-  "Tooltip": "quidem",
-  "UdefIdentity": 725,
-  "UDListDefinitionId": 554,
+  "ShortLabel": "aperiam",
+  "TabOrder": 628,
+  "TextLength": 706,
+  "Tooltip": "vitae",
+  "UdefIdentity": 523,
+  "UDListDefinitionId": 692,
   "Justification": "Center",
-  "Version": 263,
-  "TemplateVariableName": "Kohler, Harvey and Dickinson",
-  "HasBeenPublished": true,
-  "MdoListName": "Wiegand, Hirthe and Mueller",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 382,
+  "TemplateVariableName": "Stiedemann-Murphy",
+  "HasBeenPublished": false,
+  "MdoListName": "Kassulke LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldLength": 554
     }
   }
 }

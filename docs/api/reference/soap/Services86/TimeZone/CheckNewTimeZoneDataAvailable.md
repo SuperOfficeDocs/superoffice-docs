@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ITimeZoneAgent.CheckNewTi
 
 Check to see if new timezone data is available
 
+
 **Returns:** Returns true if new timezone info is found available, false otherwise
+
 
 [WSDL file for Services86/TimeZone](../Services86-TimeZone.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CheckNewTimeZoneDataAvailable Response
 
 ```xml
@@ -64,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

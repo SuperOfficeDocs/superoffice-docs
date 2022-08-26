@@ -14,9 +14,10 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.ChangeUserType
 Get a user from the user name.
 
 * **user:** User name of the user to get.
-* **userType:**
+* **userType:** 
 
 **Returns:** User retrieved by name
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -148,8 +149,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
      <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -185,6 +186,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## ChangeUserType Response
 
@@ -306,8 +308,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
     <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -341,3 +343,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

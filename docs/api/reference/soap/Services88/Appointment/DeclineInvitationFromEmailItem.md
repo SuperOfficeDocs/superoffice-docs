@@ -16,6 +16,8 @@ Declining an appointment invitation where no tentative appointments have been cr
 * **emailItemId:** The emailItemId.
 * **rejectReason:** The reason the invitation was rejected.
 
+
+
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeclineInvitationFromEmailItem Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: GET Document/UdefLayout/{progidOrLabel}
-id: v1DocumentEntity_GetUdefFieldInfo
+uid: v1DocumentEntity_GetUdefFieldInfo
 ---
 
 # GET Document/UdefLayout/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Document/UdefLayout/{progidOrLabel}
 
 Get a DocumentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a DocumentEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+DocumentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 666,
-  "ColumnId": 415,
-  "FieldDefault": "porro",
-  "FieldHeight": 822,
-  "FieldLabel": "impedit",
-  "FieldLeft": 727,
-  "FieldTop": 869,
+  "UDefFieldId": 680,
+  "ColumnId": 566,
+  "FieldDefault": "delectus",
+  "FieldHeight": 407,
+  "FieldLabel": "a",
+  "FieldLeft": 516,
+  "FieldTop": 133,
   "FieldType": "Checkbox",
-  "FieldWidth": 858,
-  "FormatMask": "similique",
-  "HideLabel": false,
+  "FieldWidth": 519,
+  "FormatMask": "ullam",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 438,
-  "LabelLeft": 662,
-  "LabelTop": 327,
-  "LabelWidth": 867,
-  "LastVersionId": 694,
-  "ListTableId": 500,
+  "LabelHeight": 435,
+  "LabelLeft": 267,
+  "LabelTop": 513,
+  "LabelWidth": 213,
+  "LastVersionId": 380,
+  "ListTableId": 332,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 962,
-  "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "ex",
-  "TabOrder": 399,
-  "TextLength": 699,
-  "Tooltip": "delectus",
-  "UdefIdentity": 238,
-  "UDListDefinitionId": 794,
+  "Page1LineNo": 953,
+  "ProgId": "corrupti",
+  "IsReadOnly": false,
+  "ShortLabel": "amet",
+  "TabOrder": 616,
+  "TextLength": 740,
+  "Tooltip": "rerum",
+  "UdefIdentity": 939,
+  "UDListDefinitionId": 85,
   "Justification": "Center",
-  "Version": 43,
-  "TemplateVariableName": "Jacobson-Brown",
+  "Version": 978,
+  "TemplateVariableName": "Hand, Trantow and Hills",
   "HasBeenPublished": false,
-  "MdoListName": "Paucek-Hauck",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Kshlerin, Heidenreich and Daugherty",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/FindWithExtraRestrictions2
-id: v1FindAgent_FindWithExtraRestrictions2
+uid: v1FindAgent_FindWithExtraRestrictions2
 ---
 
 # POST Agents/Find/FindWithExtraRestrictions2
@@ -11,77 +11,99 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 
 Execute a Find operation and return a page of results.
 
-The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
+
+The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
 
+
 For example:
 
-```http
+```
+
 "name begins 'Super'"
 "category = 3"
 "category in (2,3,4)"
 "xstop set"
 "registered after '2014.3.4'"
 "registered dateBetween ('2014.11.29', '2014.12.25')"
+
 ```
 
 Unary operators:
 
-```http
+```
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
-```http
+```
 "business = 2  AND name contains 'super'"
 ```
 
 Brackets can be used for grouping.
 
-```http
+```
 "(business = 2 or category = 3) and name contains 'super'"
 ```
+
 
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
 
+
 Example: group last names together, and inject a header row for each group.
 
-```http
-GroupBy(lastName):Header
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+GroupBy(lastName):Header
+
+```
+
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
-```http
+```
+
 Count(middleName):HideDetail:Footer
+
 ```
 
 Example: the aggregator functions can nest, so you can say
 
-```http
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 ```
 
+GroupBy(DatePart(personUpdatedDate):YearMonth):Header
+
+```
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
 
-```http
+
+```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -92,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -107,9 +130,9 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions2?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber
+StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -122,18 +145,16 @@ StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumn
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response: object
 
-Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
+## Response: 
 
-Carrier object for FindResults.
-Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -143,7 +164,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
@@ -153,16 +174,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Lockman-Brekke",
-  "StorageKey": "qui",
-  "ExtraRestrictions": "blanditiis",
-  "OrderBy": "debitis",
-  "DesiredColumns": "aspernatur",
-  "PageSize": 924,
-  "PageNumber": 655
+  "StorageType": "dignissimos",
+  "ProviderName": "Luettgen Group",
+  "StorageKey": "explicabo",
+  "ExtraRestrictions": "aut",
+  "OrderBy": "autem",
+  "DesiredColumns": "et",
+  "PageSize": 25,
+  "PageNumber": 200
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -171,60 +194,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Casper, Ledner and Kub",
-      "DisplayTooltip": "dolorum",
-      "DisplayType": "doloremque",
-      "CanOrderBy": true,
-      "Name": "Swift, Leffler and Ebert",
+      "DisplayName": "Goyette LLC",
+      "DisplayTooltip": "illum",
+      "DisplayType": "sequi",
+      "CanOrderBy": false,
+      "Name": "Gerlach LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Kuhlman Group",
+      "RestrictionType": "sapiente",
+      "RestrictionListName": "Fritsch, Walker and Paucek",
       "IsVisible": false,
-      "ExtraInfo": "nemo",
-      "Width": "expedita",
-      "IconHint": "et",
-      "HeadingIconHint": "earum"
+      "ExtraInfo": "omnis",
+      "Width": "ut",
+      "IconHint": "esse",
+      "HeadingIconHint": "ad"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Moore LLC",
-      "PrimaryKey": 427,
+      "EntityName": "Pfeffer LLC",
+      "PrimaryKey": 415,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "rerum",
-          "LinkHint": "maiores"
+          "DisplayValue": "est",
+          "TooltipHint": "ut",
+          "LinkHint": "iste"
         }
       },
-      "LinkHint": "excepturi",
-      "StyleHint": "eveniet",
-      "TableRight": {},
+      "LinkHint": "voluptatibus",
+      "StyleHint": "quam",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 328
         }
       }
     }
   ],
-  "RowCount": 779,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RowCount": 532,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

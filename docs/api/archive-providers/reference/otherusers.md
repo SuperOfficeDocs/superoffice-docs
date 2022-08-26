@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "OtherUsers"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,20 +25,20 @@ the actual functionality of the provider.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"all"|All|
 |"superoffice_system-user-cal"|[System user]|
 |"expired"|Expired|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|superoffice_system-user-cal| *None* |System user: Allows log in to NetServer|  |
+|superoffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
 |associateDbId|associate|ID| x |
 |role|listAny|Role : Role| x |
 |assocName|associate|User ID : User ID| x |
@@ -56,11 +56,14 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/OtherUsers?$select=isActiveText,role,assocType
+GET /api/v1/archive/OtherUsers?$select=role,assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

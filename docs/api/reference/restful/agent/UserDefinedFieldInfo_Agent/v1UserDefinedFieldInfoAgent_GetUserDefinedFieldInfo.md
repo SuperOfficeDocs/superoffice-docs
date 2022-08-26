@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
-id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
+uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 
 Gets a UserDefinedFieldInfo object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=190
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=695
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +93,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
@@ -97,57 +102,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 256,
-  "ColumnId": 8,
-  "FieldDefault": "dolorum",
-  "FieldHeight": 49,
-  "FieldLabel": "quam",
-  "FieldLeft": 483,
-  "FieldTop": 583,
+  "UDefFieldId": 70,
+  "ColumnId": 200,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 809,
+  "FieldLabel": "sed",
+  "FieldLeft": 694,
+  "FieldTop": 70,
   "FieldType": "Checkbox",
-  "FieldWidth": 430,
-  "FormatMask": "delectus",
+  "FieldWidth": 511,
+  "FormatMask": "incidunt",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 655,
-  "LabelLeft": 519,
-  "LabelTop": 303,
-  "LabelWidth": 279,
-  "LastVersionId": 537,
-  "ListTableId": 784,
+  "LabelHeight": 149,
+  "LabelLeft": 645,
+  "LabelTop": 351,
+  "LabelWidth": 437,
+  "LastVersionId": 71,
+  "ListTableId": 929,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 554,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptas",
-  "TabOrder": 543,
-  "TextLength": 162,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 301,
-  "UDListDefinitionId": 603,
+  "Page1LineNo": 853,
+  "ProgId": "magnam",
+  "IsReadOnly": false,
+  "ShortLabel": "iure",
+  "TabOrder": 877,
+  "TextLength": 993,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 284,
+  "UDListDefinitionId": 973,
   "Justification": "Center",
-  "Version": 399,
-  "TemplateVariableName": "VonRueden Group",
+  "Version": 315,
+  "TemplateVariableName": "Krajcik LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Bernhard Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "West Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 663
     }
   }
 }

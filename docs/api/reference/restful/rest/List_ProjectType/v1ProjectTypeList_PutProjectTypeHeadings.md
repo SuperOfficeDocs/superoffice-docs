@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProjectType/Headings
-id: v1ProjectTypeList_PutProjectTypeHeadings
+uid: v1ProjectTypeList_PutProjectTypeHeadings
 ---
 
 # PUT List/ProjectType/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/ProjectType/Headings
 
 Saves headings for the ProjectType list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 932,
-    "Name": "Haley Group",
-    "Tooltip": "illum",
+    "HeadingId": 853,
+    "Name": "White-Lemke",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 450,
-    "UdListDefinitionId": 763
+    "Rank": 296,
+    "UdListDefinitionId": 29
   },
   {
-    "HeadingId": 932,
-    "Name": "Haley Group",
-    "Tooltip": "illum",
+    "HeadingId": 853,
+    "Name": "White-Lemke",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 450,
-    "UdListDefinitionId": 763
+    "Rank": 296,
+    "UdListDefinitionId": 29
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 764,
-    "Name": "Kuhn, Braun and Bednar",
-    "Tooltip": "dolor",
+    "HeadingId": 876,
+    "Name": "Paucek-Schuster",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 117,
-    "UdListDefinitionId": 148,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 452,
+    "UdListDefinitionId": 615,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 328
       }
     }
   }

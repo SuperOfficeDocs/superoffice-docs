@@ -1,6 +1,6 @@
 ---
 title: GET ChatSession
-id: v1ChatSessionEntity_GetAll
+uid: v1ChatSessionEntity_GetAll
 ---
 
 # GET ChatSession
@@ -11,6 +11,7 @@ GET /api/v1/ChatSession
 
 OData list of all ChatSessionEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * ChatSession?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * ChatSession?$top=1000
 * ChatSession?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "ChatSession" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=voluptatibus
-GET /api/v1/ChatSession?$top=956
-GET /api/v1/ChatSession?$skip=105
+GET /api/v1/ChatSession?$entities=voluptatum
+GET /api/v1/ChatSession?$top=925
+GET /api/v1/ChatSession?$skip=447
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=vel
+GET /api/v1/ChatSession?$context=ut
 GET /api/v1/ChatSession?$format=JSON
-GET /api/v1/ChatSession?$jsonSafe=False
+GET /api/v1/ChatSession?$jsonSafe=True
 GET /api/v1/ChatSession?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/ChatSession?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,14 +112,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -115,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "assumenda",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 2680,
-      "EntityName": "sale",
-      "saleId": 2680,
-      "contactId": 9429,
-      "name": "Konopelski-Murazik"
+      "PrimaryKey": 9469,
+      "EntityName": "person",
+      "personId": 9469,
+      "fullName": "Shayna Lakin"
     },
     {
-      "PrimaryKey": 9199,
-      "EntityName": "sale",
-      "saleId": 9199,
-      "contactId": 8403,
-      "name": "Goyette-Metz"
+      "PrimaryKey": 5291,
+      "EntityName": "person",
+      "personId": 5291,
+      "fullName": "Emilia Ruecker MD"
     }
   ]
 }

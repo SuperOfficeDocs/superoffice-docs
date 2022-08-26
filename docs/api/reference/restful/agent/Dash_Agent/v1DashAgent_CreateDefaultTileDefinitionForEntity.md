@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/CreateDefaultTileDefinitionForEntity
-id: v1DashAgent_CreateDefaultTileDefinitionForEntity
+uid: v1DashAgent_CreateDefaultTileDefinitionForEntity
 ---
 
 # POST Agents/Dash/CreateDefaultTileDefinitionForEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 
 Set Measure to CountAll and MeasureField to primary key field
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set Measure to CountAll and MeasureField to primary key field
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName
+EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-Carrier object for DashTileDefinition.
-Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,59 +80,57 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Jones LLC"
+  "EntityName": "Willms-Kuhic"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 998,
-  "Name": "Buckridge-Rohan",
-  "Description": "Right-sized holistic forecast",
-  "DefaultHeight": 904,
-  "DefaultWidth": 377,
+  "DashboardTileDefinitionId": 403,
+  "Name": "Littel-Corwin",
+  "Description": "Configurable intangible capability",
+  "DefaultHeight": 835,
+  "DefaultWidth": 871,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Emmerich LLC",
-  "SelectionId": 345,
+  "EntityName": "Hartmann-Murazik",
+  "SelectionId": 375,
   "CurrencyMode": "Base",
-  "CurrencyCode": "totam",
+  "CurrencyCode": "eum",
   "Measure": "Average",
-  "MeasureField": "molestiae",
-  "SortBy": "nihil",
-  "LayoutConfig": "exercitationem",
-  "SecondarySelectionId": 540,
-  "MeasureByField": "quisquam",
-  "ProviderName": "Bernhard Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MeasureField": "qui",
+  "SortBy": "cum",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 467,
+  "MeasureByField": "quasi",
+  "Usage": "Dashboard",
+  "ProviderName": "Abbott, O'Reilly and Goyette",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 468
     }
   }
 }

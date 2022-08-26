@@ -1,6 +1,6 @@
 ---
 title: GET List/Category/Items/Default
-id: v1CategoryList_CreateDefaultCategory
+uid: v1CategoryList_CreateDefaultCategory
 ---
 
 # GET List/Category/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/Category/Items/Default
 ```
 
 Gets a default Category list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default Category list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +53,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Category/Items/Default
@@ -57,29 +62,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 813,
-  "Name": "Hammes Inc and Sons",
-  "Tooltip": "cumque",
+  "Id": 633,
+  "Name": "Hagenes LLC",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "UdListDefinitionId": 229,
-  "Rank": 982,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 372,
+  "Rank": 60,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "synergize scalable content"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldLength": 979
     }
   }
 }

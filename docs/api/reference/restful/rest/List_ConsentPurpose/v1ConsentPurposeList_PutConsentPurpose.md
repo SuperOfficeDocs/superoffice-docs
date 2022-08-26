@@ -1,6 +1,6 @@
 ---
 title: PUT List/ConsentPurpose/Items/{id}
-id: v1ConsentPurposeList_PutConsentPurpose
+uid: v1ConsentPurposeList_PutConsentPurpose
 ---
 
 # PUT List/ConsentPurpose/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentPurpose/Items/{id}
 
 Updates the existing ConsentPurpose
 
+
 Calls the List agent service SaveConsentPurpose.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ConsentPurpose to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of ConsentPurpose to be saved.
+The details of ConsentPurpose to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,17 +58,17 @@ The details of ConsentPurpose to be saved.
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
 
-## Response: object
 
-Carrier object for ConsentPurpose.
-Services for the ConsentPurpose Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,99 +88,58 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 747,
-  "Name": "Lebsack-Macejkovic",
-  "ConsentText": "assumenda",
-  "FormText": "quaerat",
-  "Key": "repellendus",
-  "Tooltip": "quia",
-  "Active": 572,
-  "UpdatedDate": "2021-08-22T18:25:51.6652945+02:00",
-  "UpdatedBy": {
-    "AssociateId": 142,
-    "Name": "Stehr LLC",
-    "PersonId": 104,
-    "Rank": 57,
-    "Tooltip": "enim",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 73,
-    "FullName": "Tyson Kuhn",
-    "FormalName": "Johns, McClure and Rutherford",
-    "Deleted": false,
-    "EjUserId": 718,
-    "UserName": "Zboncak Inc and Sons"
-  },
+  "ConsentPurposeId": 684,
+  "Name": "Gorczany, Jenkins and Mertz",
+  "ConsentText": "voluptatem",
+  "FormText": "vel",
+  "Key": "consequatur",
+  "Tooltip": "dolor",
+  "Active": 952,
+  "UpdatedDate": "2008-05-25T11:10:53.9771826+02:00",
+  "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 255,
-  "PrivacyStatementDesc": "voluptas",
+  "Rank": 689,
+  "PrivacyStatementDesc": "corporis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 535,
-  "Name": "Kub, Steuber and Pacocha",
-  "ConsentText": "maiores",
-  "FormText": "ut",
-  "Key": "asperiores",
-  "Tooltip": "eos",
-  "Active": 559,
-  "UpdatedDate": "2010-06-28T18:25:51.6662945+02:00",
-  "UpdatedBy": {
-    "AssociateId": 45,
-    "Name": "Jaskolski, Kuhic and Greenholt",
-    "PersonId": 432,
-    "Rank": 877,
-    "Tooltip": "quibusdam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 724,
-    "FullName": "Patience Pacocha",
-    "FormalName": "Swift LLC",
-    "Deleted": true,
-    "EjUserId": 61,
-    "UserName": "Hand Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 78
-      }
-    }
-  },
+  "ConsentPurposeId": 518,
+  "Name": "Rowe-Gulgowski",
+  "ConsentText": "molestiae",
+  "FormText": "rerum",
+  "Key": "eum",
+  "Tooltip": "dolorum",
+  "Active": 14,
+  "UpdatedDate": "1998-04-17T11:10:53.9781825+02:00",
+  "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 305,
-  "PrivacyStatementDesc": "atque",
+  "Rank": 759,
+  "PrivacyStatementDesc": "minus",
   "PrivacyStatementUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   }
 }

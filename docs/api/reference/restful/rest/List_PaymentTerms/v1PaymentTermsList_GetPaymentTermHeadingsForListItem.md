@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentTerm/Items/{id}/Headings
-id: v1PaymentTermsList_GetPaymentTermHeadingsForListItem
+uid: v1PaymentTermsList_GetPaymentTermHeadingsForListItem
 ---
 
 # GET List/PaymentTerm/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 
 Gets headings for the PaymentTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Ondricka-Ondricka",
-    "ToolTip": "Consequuntur numquam aspernatur quisquam ut sed officiis.",
+    "Id": 51,
+    "Name": "Volkman LLC",
+    "ToolTip": "Quidem voluptas laborum odit qui.",
     "Deleted": false,
-    "Rank": 909,
-    "Type": "vel",
-    "ColorBlock": 586,
-    "IconHint": "eos",
+    "Rank": 18,
+    "Type": "cum",
+    "ColorBlock": 429,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2016-11-07T18:25:51.9292421+01:00",
+    "LastChanged": "2011-04-09T11:10:54.3449022+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Parisian Group",
-        "ToolTip": "Exercitationem ratione sed.",
-        "Deleted": true,
-        "Rank": 217,
-        "Type": "dolores",
-        "ColorBlock": 162,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2002-10-03T18:25:51.9292421+02:00",
+        "Id": 27,
+        "Name": "Block LLC",
+        "ToolTip": "Accusantium voluptatem atque aut saepe facere mollitia.",
+        "Deleted": false,
+        "Rank": 610,
+        "Type": "fugit",
+        "ColorBlock": 717,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2011-08-18T11:10:54.3459022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "mollitia",
         "Hidden": true,
-        "FullName": "Dr. Derick Swift",
-        "TableRight": {},
+        "FullName": "Loren Sauer",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldLength": 84
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Wilma Weimann",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "officiis",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Dora Hodkiewicz",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 326
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 377
       }
     }
   }

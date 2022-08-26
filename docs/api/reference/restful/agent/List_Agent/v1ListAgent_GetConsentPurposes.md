@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetConsentPurposes
-id: v1ListAgent_GetConsentPurposes
+uid: v1ListAgent_GetConsentPurposes
 ---
 
 # POST Agents/List/GetConsentPurposes
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentPurposes
 
 Returns all defined purposes.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all defined purposes.
 ```http
 POST /api/v1/Agents/List/GetConsentPurposes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetConsentPurposes?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,14 +70,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -75,55 +87,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 342,
-    "Name": "Swift-Nienow",
-    "ConsentText": "cum",
-    "FormText": "esse",
-    "Key": "autem",
-    "Tooltip": "eum",
-    "Active": 120,
-    "UpdatedDate": "2000-12-23T18:28:49.4240903+01:00",
-    "UpdatedBy": {
-      "AssociateId": 115,
-      "Name": "Jast-Roob",
-      "PersonId": 909,
-      "Rank": 5,
-      "Tooltip": "qui",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 542,
-      "FullName": "Raymundo Brakus",
-      "FormalName": "Pouros-Leuschke",
-      "Deleted": true,
-      "EjUserId": 139,
-      "UserName": "Gottlieb Group",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 283
-        }
-      }
-    },
-    "Deleted": true,
-    "Rank": 204,
-    "PrivacyStatementDesc": "fugiat",
+    "ConsentPurposeId": 79,
+    "Name": "Rice-Boehm",
+    "ConsentText": "eaque",
+    "FormText": "ut",
+    "Key": "et",
+    "Tooltip": "et",
+    "Active": 231,
+    "UpdatedDate": "1997-02-17T11:10:27.2784593+01:00",
+    "UpdatedBy": null,
+    "Deleted": false,
+    "Rank": 879,
+    "PrivacyStatementDesc": "id",
     "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 15
       }
     }
   }

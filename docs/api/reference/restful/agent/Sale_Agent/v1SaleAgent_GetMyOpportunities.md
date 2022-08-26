@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetMyOpportunities
-id: v1SaleAgent_GetMyOpportunities
+uid: v1SaleAgent_GetMyOpportunities
 ---
 
 # POST Agents/Sale/GetMyOpportunities
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetMyOpportunities
 
 Returning the opportunities (open sales) belonging to the user currently logged on
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returning the opportunities (open sales) belonging to the user currently logged 
 ```http
 POST /api/v1/Agents/Sale/GetMyOpportunities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Sale/GetMyOpportunities?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Count
+Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,19 +91,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 546
+  "Count": 436
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -101,43 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "West LLC",
-    "SaleDate": "2018-04-26T18:28:50.1744426+02:00",
-    "SaleId": 67,
-    "Probability": 348,
-    "Title": "omnis",
-    "Amount": 23122.652,
-    "Currency": "et",
-    "ProjectName": "Cummerata Group",
-    "AssociateFullName": "Jasper Thompson",
-    "Description": "User-centric bandwidth-monitored functionalities",
+    "ContactName": "Schinner, Terry and Trantow",
+    "SaleDate": "1995-04-19T11:10:27.8510073+02:00",
+    "SaleId": 498,
+    "Probability": 6,
+    "Title": "quisquam",
+    "Amount": 868.11799999999994,
+    "Currency": "exercitationem",
+    "ProjectName": "Jast Group",
+    "AssociateFullName": "Mr. Alysha Nyasia Schoen",
+    "Description": "Self-enabling background focus group",
     "Status": "Lost",
-    "WeightedAmount": 8261.224,
-    "ProjectId": 60,
-    "EarningPercent": 30851.095999999998,
-    "Earning": 26488.568,
-    "ContactId": 326,
-    "AssociateId": 303,
-    "PersonId": 300,
-    "SaleTypeId": 722,
-    "SaleTypeName": "Collier, Monahan and Mann",
-    "PersonFullName": "Dortha Walter",
+    "WeightedAmount": 14237.761999999999,
+    "ProjectId": 466,
+    "EarningPercent": 19280.368,
+    "Earning": 10755.887999999999,
+    "ContactId": 619,
+    "AssociateId": 112,
+    "PersonId": 583,
+    "SaleTypeId": 872,
+    "SaleTypeName": "Gottlieb-Farrell",
+    "PersonFullName": "Salvador Wintheiser",
     "Completed": "Completed",
-    "ActiveErpLinks": 514,
-    "NextDueDate": "2007-07-04T18:28:50.1744426+02:00",
-    "Number": "846737",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 662,
+    "NextDueDate": "2003-04-05T11:10:27.8510073+02:00",
+    "Number": "235322",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldLength": 905
       }
     }
   }

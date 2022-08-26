@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailAddress
-id: v1EMailAgent_CreateDefaultEMailAddress
+uid: v1EMailAgent_CreateDefaultEMailAddress
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAddress
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 
 Set default values into a new EMailAddress.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,16 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for EMailAddress.
-Services for the EMailAddress Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,44 +61,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 620,
-  "ContactName": "Braun Inc and Sons",
-  "PersonId": 74,
-  "PersonName": "Torphy-Emmerich",
-  "AssociateId": 912,
-  "Address": "iste",
-  "EmailId": 64,
+  "ContactId": 208,
+  "ContactName": "Jast-Murazik",
+  "PersonId": 544,
+  "PersonName": "Rosenbaum LLC",
+  "AssociateId": 217,
+  "Address": "ullam",
+  "EmailId": 343,
   "DuplicatePersonIds": [
-    933,
-    485
+    599,
+    690
   ],
-  "Name": "Brakus-Windler",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "brand turn-key e-commerce"
-  },
+  "Name": "Lind, Hirthe and Bergstrom",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 823
     }
   }
 }

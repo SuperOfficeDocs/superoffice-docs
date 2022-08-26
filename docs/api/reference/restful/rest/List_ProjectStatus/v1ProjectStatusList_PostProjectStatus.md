@@ -1,6 +1,6 @@
 ---
 title: POST List/ProjectStatus/Items
-id: v1ProjectStatusList_PostProjectStatus
+uid: v1ProjectStatusList_PostProjectStatus
 ---
 
 # POST List/ProjectStatus/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/ProjectStatus/Items
 ```
 
 Add a new ProjectStatus to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new ProjectStatus to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The ProjectStatus to be added to the list.
+The ProjectStatus to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The ProjectStatus to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/ProjectStatus/Items
@@ -72,38 +77,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 298,
-  "Name": "Shanahan-Schuster",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "UdListDefinitionId": 663,
-  "Rank": 730
+  "Id": 858,
+  "Name": "Lebsack-Mann",
+  "Tooltip": "excepturi",
+  "Deleted": false,
+  "UdListDefinitionId": 20,
+  "Rank": 584
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Ullrich, Durgan and Renner",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 832,
-  "Rank": 566,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 14,
+  "Name": "Effertz-Nitzsche",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 163,
+  "Rank": 600,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

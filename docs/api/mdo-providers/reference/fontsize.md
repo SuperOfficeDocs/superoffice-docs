@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "fontsize"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "fontsize" MDO List
-
 List of font types
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FontSizeProvider">FontSizeProvider</see> class.
 The name of the MDO list is 'fontsize'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("fontsize", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,6 +63,7 @@ foreach (var item in listProvider.RootItems) {
 |11|60px|||
 |12|72px|||
 |13|96px|||
+
 
 ## Related MDO Lists
 

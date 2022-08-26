@@ -1,12 +1,12 @@
 ---
 uid: table-PrefDesc
 title: PrefDesc table
-description: Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
+description: Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http;//techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
 so.generated: true
 keywords:
   - "database"
   - "PrefDesc"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # PrefDesc Table (184)
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.
+Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http;//techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
 
 ## Fields
 
@@ -43,6 +43,7 @@ Preference description, drives the Preference GUI. Maintenance client - controls
 |subGroup|Keys that share a value (including NULL) in this field are shown together; a visual spacer is shown between groups|String(128)|&#x25CF;|
 |minLevel|The minimum (furthest away from User) level this preference can be set for|Int|&#x25CF;|
 
+
 ![PrefDesc table relationship diagram](./media/PrefDesc.png)
 
 [!include[details](./includes/prefdesc.md)]
@@ -62,6 +63,7 @@ Preference description, drives the Preference GUI. Maintenance client - controls
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[PrefDescLine](prefdescline.md)  |Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -71,3 +73,4 @@ Preference description, drives the Preference GUI. Maintenance client - controls
 ## Security Flags
 
 * No access control via user's Role.
+

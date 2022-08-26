@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateQuoteLineFromProduct
-id: v1QuoteAgent_CreateQuoteLineFromProduct
+uid: v1QuoteAgent_CreateQuoteLineFromProduct
 ---
 
 # POST Agents/Quote/CreateQuoteLineFromProduct
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 
 Create a quoteline based on a product.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a quoteline based on a product.
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId, Product
+QuoteAlternativeId, Product 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
-| Product |  | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <br /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| Product |  | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <para /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteLine.
-Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,158 +116,110 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 339,
-  "Product": {
-    "ProductId": 20,
-    "ERPProductKey": "veniam",
-    "ERPPriceListKey": "adipisci",
-    "Name": "Mitchell-Howell",
-    "Description": "Open-architected attitude-oriented forecast",
-    "Code": "omnis",
-    "PriceUnit": "architecto",
-    "QuantityUnit": "accusantium",
-    "IsSubscription": true,
-    "SubscriptionUnit": "est",
-    "DefaultSubscriptionQuantity": 23768.255999999998,
-    "ItemNumber": "1533930",
-    "Url": "http://www.example.com/",
-    "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "doloribus",
-    "ProductTypeKey": "officia",
-    "VAT": 22013.216,
-    "VATInfo": "libero",
-    "UnitCost": 23887.347999999998,
-    "UnitMinimumPrice": 4964.2559999999994,
-    "UnitListPrice": 1441.6399999999999,
-    "InAssortment": true,
-    "Supplier": "quia",
-    "SupplierCode": "et",
-    "Rights": "asperiores",
-    "Rule": "voluptatum",
-    "ExtraInfo": [
-      {},
-      {}
-    ],
-    "RawExtraInfo": "reiciendis",
-    "ExtraField1": "ad",
-    "ExtraField2": "sunt",
-    "ExtraField3": "minus",
-    "ExtraField4": "eius",
-    "ExtraField5": "quidem",
-    "InStock": 18148.994
-  }
+  "QuoteAlternativeId": 33,
+  "Product": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 590,
-  "ERPQuoteLineKey": "non",
-  "QuoteAlternativeId": 118,
-  "ERPProductKey": "sequi",
+  "QuoteLineId": 427,
+  "ERPQuoteLineKey": "culpa",
+  "QuoteAlternativeId": 861,
+  "ERPProductKey": "atque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 930.798,
-  "DeliveredQuantity": 4876.504,
-  "Rank": 692,
-  "Name": "Johns, Luettgen and Conroy",
-  "Description": "Devolved 5th generation concept",
-  "Code": "velit",
-  "QuantityUnit": "eveniet",
-  "PriceUnit": "pariatur",
-  "ItemNumber": "1076515",
+  "Quantity": 18706.845999999998,
+  "DeliveredQuantity": 8317.636,
+  "Rank": 280,
+  "Name": "Wisoky Group",
+  "Description": "Decentralized responsive superstructure",
+  "Code": "distinctio",
+  "QuantityUnit": "omnis",
+  "PriceUnit": "nihil",
+  "ItemNumber": "791752",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptates",
-  "ProductTypeKey": "qui",
-  "Supplier": "vel",
-  "SupplierCode": "voluptatem",
-  "Thumbnail": "voluptates",
-  "VATInfo": "animi",
-  "VAT": 28839.068,
-  "UnitCost": 24874.558,
-  "UnitMinimumPrice": 8088.8539999999994,
-  "UnitListPrice": 14284.771999999999,
+  "ProductFamilyKey": "magnam",
+  "ProductTypeKey": "est",
+  "Supplier": "magnam",
+  "SupplierCode": "officia",
+  "Thumbnail": "aliquid",
+  "VATInfo": "reiciendis",
+  "VAT": 14363.122,
+  "UnitCost": 7480.858,
+  "UnitMinimumPrice": 27372.356,
+  "UnitListPrice": 30171.018,
   "ExtraInfo": [
     {
-      "Name": "Nitzsche, Robel and Klein",
-      "Value": "dignissimos",
+      "Name": "Fahey-Barrows",
+      "Value": "sapiente",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 437
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     },
     {
-      "Name": "Nitzsche, Robel and Klein",
-      "Value": "dignissimos",
+      "Name": "Fahey-Barrows",
+      "Value": "sapiente",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 437
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
   ],
-  "RawExtraInfo": "recusandae",
+  "RawExtraInfo": "ut",
   "IsSubscription": false,
-  "SubscriptionUnit": "soluta",
-  "SubscriptionQuantity": 10683.806,
-  "SubscriptionStart": "2007-11-08T18:28:49.9601397+01:00",
-  "ERPDiscountPercent": 4309.25,
-  "ERPDiscountAmount": 7509.0639999999994,
-  "DiscountPercent": 2200.0679999999998,
-  "DiscountAmount": 14012.114,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 3575.894,
+  "SubscriptionStart": "1999-04-23T11:10:27.7284948+02:00",
+  "ERPDiscountPercent": 19531.088,
+  "ERPDiscountAmount": 6697.358,
+  "DiscountPercent": 16494.242,
+  "DiscountAmount": 9665.256,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 27510.252,
-  "EarningAmount": 23802.73,
-  "SubTotal": 12473.32,
-  "TotalPrice": 31086.146,
-  "Rights": "voluptates",
-  "Rule": "nostrum",
-  "ExtraField1": "sequi",
+  "EarningPercent": 21245.386,
+  "EarningAmount": 25097.072,
+  "SubTotal": 11956.21,
+  "TotalPrice": 3933.17,
+  "Rights": "nobis",
+  "Rule": "ut",
+  "ExtraField1": "doloremque",
   "ExtraField2": "consequatur",
-  "ExtraField3": "odit",
-  "ExtraField4": "dolor",
-  "ExtraField5": "consequuntur",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ExtraField3": "aut",
+  "ExtraField4": "esse",
+  "ExtraField5": "quasi",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

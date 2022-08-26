@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/SanitizeMailContent
-id: v1TicketAgent_SanitizeMailContent
+uid: v1TicketAgent_SanitizeMailContent
 ---
 
 # POST Agents/Ticket/SanitizeMailContent
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/SanitizeMailContent
 
 Remove harmful HTML tags and attributes from an email
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Remove harmful HTML tags and attributes from an email
 ```http
 POST /api/v1/Agents/Ticket/SanitizeMailContent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Ticket/SanitizeMailContent?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Content
+Content 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Content | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ Content
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/SanitizeMailContent
@@ -61,13 +72,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "sed"
+  "Content": "quo"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"tenetur"
+"necessitatibus"
 ```

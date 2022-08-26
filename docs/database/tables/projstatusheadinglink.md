@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjStatusHeadingLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ Heading link table for ProjStatus, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ProjStatusHeadingLink table relationship diagram](./media/ProjStatusHeadingLink.png)
 
 [!include[details](./includes/projstatusheadinglink.md)]
@@ -50,6 +51,7 @@ Heading link table for ProjStatus, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[ProjStatus](projstatus.md)  |ProjStatus list table. Project status |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Heading link table for ProjStatus, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
-id: v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity
+uid: v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity
 ---
 
 # POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 
 Set default values into a new SuggestedAppointmentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SuggestedAppointmentEntity.
-Services for the SuggestedAppointmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,100 +63,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 576,
-  "Name": "Heidenreich, Kemmer and Schinner",
-  "Tooltip": "occaecati",
-  "Rank": 619,
+  "SuggestedAppointmentId": 756,
+  "Name": "Murazik Group",
+  "Tooltip": "dolor",
+  "Rank": 582,
   "Deleted": false,
-  "DaysFuture": 343,
-  "Duration": "eaque",
-  "AutoSuggest": true,
-  "IsMilestone": true,
+  "DaysFuture": 892,
+  "Duration": "natus",
+  "AutoSuggest": false,
+  "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "nihil",
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 833,
-    "ProjTypeId": 543,
-    "ProjTypeName": "Russel-Murazik",
-    "ProjTypeTooltip": "excepturi",
-    "ProjStatusId": 119,
-    "ProjStatusName": "Treutel LLC",
-    "ProjStatusTooltip": "corrupti",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 980
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 682,
-    "SaleTypeId": 978,
-    "SaleTypeName": "Doyle-Pagac",
-    "SaleTypeTooltip": "laudantium",
-    "ProbId": 976,
-    "ProbName": "Grady, Flatley and Goldner",
-    "ProbTooltip": "quae",
-    "Probability": 287,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 677
-      }
-    }
-  },
-  "Type": {
-    "Id": 16,
-    "Value": "rerum",
-    "Tooltip": "quo",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 974
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Text": "adipisci",
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null,
+  "Type": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 129
     }
   }
 }

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetSc
 
 This method will return a json with all deltas for screen
 
+
 **Returns:** A string with all recipe deltas in json for logged in associate
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetScreenConfigurationDeltas Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

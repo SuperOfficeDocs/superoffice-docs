@@ -1,6 +1,6 @@
 ---
 title: PUT List/Position/Items
-id: v1PositionList_PutAllPosition
+uid: v1PositionList_PutAllPosition
 ---
 
 # PUT List/Position/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Position/Items
 ```
 
 Update the Position list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Position list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Position.
+All the updated Position. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Position.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Parker-Kohler",
-    "Tooltip": "dolores",
+    "Id": 698,
+    "Name": "Marvin Group",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 211,
-    "Rank": 399
+    "UdListDefinitionId": 481,
+    "Rank": 691
   },
   {
-    "Id": 689,
-    "Name": "Parker-Kohler",
-    "Tooltip": "dolores",
+    "Id": 698,
+    "Name": "Marvin Group",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 211,
-    "Rank": 399
+    "UdListDefinitionId": 481,
+    "Rank": 691
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Nolan, Tillman and Wolf",
-    "Tooltip": "ex",
+    "Id": 528,
+    "Name": "Goldner, Parker and O'Connell",
+    "Tooltip": "praesentium",
     "Deleted": true,
-    "UdListDefinitionId": 867,
-    "Rank": 292,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 689,
+    "Rank": 776,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 15
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET Preference/{section}/{key}
-id: v1Preference_GetPrefValue
+uid: v1Preference_GetPrefValue
 ---
 
 # GET Preference/{section}/{key}
@@ -11,12 +11,19 @@ GET /api/v1/Preference/{section}/{key}
 
 Gets the preference value for specific section + key.
 
+
 Returns the value defined closest to the user. Calls the Preference agent service GetPreferenceByName.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
 | key | string | The name of the preference key. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,18 +38,16 @@ Returns the value defined closest to the user. Calls the Preference agent servic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.
+## Response: 
 
-Carrier object for Preference.
-Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,14 +65,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -75,58 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "placeat",
-  "Specification": {
-    "Section": "corrupti",
-    "Key": "ut",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 603
-      }
-    }
-  },
-  "DisplayValue": "error",
-  "DisplayTooltip": "eos",
+  "RawValue": "nobis",
+  "Specification": null,
+  "DisplayValue": "et",
+  "DisplayTooltip": "consequatur",
   "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 609,
-    "TabName": "Hilpert LLC",
-    "Order": "omnis",
-    "AssociateId": 485,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 794
-      }
-    }
-  },
-  "TargetId": 799,
-  "PrefDescId": 270,
-  "TableName": "Upton-Monahan",
-  "UserPreferenceId": 941,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TabOrder": null,
+  "TargetId": 823,
+  "PrefDescId": 346,
+  "TableName": "Kirlin Group",
+  "UserPreferenceId": 775,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "benchmark next-generation initiatives"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 470
     }
   }
 }

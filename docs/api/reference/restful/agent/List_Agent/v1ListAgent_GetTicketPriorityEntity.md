@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTicketPriorityEntity
-id: v1ListAgent_GetTicketPriorityEntity
+uid: v1ListAgent_GetTicketPriorityEntity
 ---
 
 # POST Agents/List/GetTicketPriorityEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketPriorityEntity
 
 Gets a TicketPriorityEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=981
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=943
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketPriorityEntity.
-Services for the TicketPriorityEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,98 +82,91 @@ Response body: object
 | SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 857,
-  "Name": "Douglas Inc and Sons",
+  "TicketPriorityId": 498,
+  "Name": "Leffler Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 908,
+  "SortOrder": 404,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 32,
-  "MonStart": "1999-09-18T18:28:49.275118+02:00",
-  "MonStop": "2005-12-28T18:28:49.275118+01:00",
-  "TueStart": "2008-11-16T18:28:49.275118+01:00",
-  "TueStop": "2017-03-14T18:28:49.275118+01:00",
-  "WedStart": "2000-01-22T18:28:49.275118+01:00",
-  "WedStop": "2018-03-17T18:28:49.275118+01:00",
-  "ThuStart": "1997-10-27T18:28:49.275118+01:00",
-  "ThuStop": "2012-05-04T18:28:49.275118+02:00",
-  "FriStart": "1999-12-18T18:28:49.275118+01:00",
-  "FriStop": "2014-05-05T18:28:49.275118+02:00",
-  "SatStart": "2008-05-14T18:28:49.275118+02:00",
-  "SatStop": "2013-07-23T18:28:49.275118+02:00",
-  "SunStart": "2016-03-07T18:28:49.275118+01:00",
-  "SunStop": "2001-12-28T18:28:49.275118+01:00",
+  "Deadline": 93,
+  "MonStart": "2021-09-14T11:10:27.1244565+02:00",
+  "MonStop": "2021-02-10T11:10:27.1244565+01:00",
+  "TueStart": "2022-01-17T11:10:27.1244565+01:00",
+  "TueStop": "2002-02-19T11:10:27.1244565+01:00",
+  "WedStart": "2002-04-27T11:10:27.1244565+02:00",
+  "WedStop": "2016-06-16T11:10:27.1244565+02:00",
+  "ThuStart": "2004-09-24T11:10:27.1244565+02:00",
+  "ThuStop": "1995-09-10T11:10:27.1244565+02:00",
+  "FriStart": "2004-05-02T11:10:27.1244565+02:00",
+  "FriStop": "2010-09-01T11:10:27.1244565+02:00",
+  "SatStart": "2006-07-09T11:10:27.1244565+02:00",
+  "SatStop": "2010-12-06T11:10:27.1244565+01:00",
+  "SunStart": "2009-04-16T11:10:27.1244565+02:00",
+  "SunStop": "2010-06-20T11:10:27.1244565+02:00",
   "NonDates": [
-    "quaerat",
-    "voluptas"
+    "error",
+    "quia"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 267,
-      "AlertLevel": 419,
-      "AlertTimeout": 288,
-      "Action": 96,
-      "DelegateTo": 182,
-      "ScriptId": 795,
-      "EmailTo": "audra.zboncak@frami.info",
-      "SmsTo": "eum",
-      "ReplyTemplateIdCustomer": 65,
-      "ReplyTemplateIdUser": 511,
-      "ReplyTemplateIdCatmast": 359,
-      "ReplyTemplateIdEmail": 674,
-      "RtiCustomerSms": 712,
-      "ReplyTemplateIdUserSms": 619,
-      "ReplyTemplateIdCatmastSms": 911,
-      "ReplyTemplateIdSms": 508,
-      "TableRight": {},
+      "TicketAlertId": 446,
+      "AlertLevel": 14,
+      "AlertTimeout": 758,
+      "Action": 491,
+      "DelegateTo": 911,
+      "ScriptId": 639,
+      "EmailTo": "brandy@weber.co.uk",
+      "SmsTo": "aut",
+      "ReplyTemplateIdCustomer": 200,
+      "ReplyTemplateIdUser": 538,
+      "ReplyTemplateIdCatmast": 870,
+      "ReplyTemplateIdEmail": 753,
+      "RtiCustomerSms": 390,
+      "ReplyTemplateIdUserSms": 233,
+      "ReplyTemplateIdCatmastSms": 432,
+      "ReplyTemplateIdSms": 564,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 870
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "iterate frictionless channels"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 535
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/SaveDashTheme
-id: v1DashAgent_SaveDashTheme
+uid: v1DashAgent_SaveDashTheme
 ---
 
 # POST Agents/Dash/SaveDashTheme
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Dash/SaveDashTheme
 ```
 
 Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing DashTheme or creates a new DashTheme if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTheme to be saved.
+The DashTheme to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -36,19 +43,18 @@ The DashTheme to be saved.
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
+| Style | string | Style value - for example 'light' or 'dark' |
 
-## Response: object
 
-Dashboard theme configuration
+## Response: 
 
-Carrier object for DashTheme.
-Services for the DashTheme Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,49 +63,48 @@ Response body: object
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
+| Style | string | Style value - for example 'light' or 'dark' |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 573,
-  "Name": "Shanahan, Kemmer and Cormier",
-  "Config": "aut",
-  "Rank": 131,
-  "Client": "sed"
+  "DashboardThemeId": 440,
+  "Name": "Rowe Group",
+  "Config": "fugit",
+  "Rank": 211,
+  "Client": "magni",
+  "Style": "maxime"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 417,
-  "Name": "Bayer-Schumm",
-  "Config": "itaque",
-  "Rank": 127,
-  "Client": "debitis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardThemeId": 380,
+  "Name": "Prosacco-Watsica",
+  "Config": "dolores",
+  "Rank": 215,
+  "Client": "ut",
+  "Style": "officiis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldLength": 309
     }
   }
 }

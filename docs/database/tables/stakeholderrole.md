@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StakeholderRole"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Role a stakeholder has in a sale
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![StakeholderRole table relationship diagram](./media/StakeholderRole.png)
 
 [!include[details](./includes/stakeholderrole.md)]
@@ -53,6 +54,7 @@ Role a stakeholder has in a sale
 |[StakeholderRoleGroupLink](stakeholderrolegrouplink.md)  |User group link table for StakeholderRole, for MDO item hiding |
 |[StakeholderRoleHeadingLink](stakeholderroleheadinglink.md)  |Heading link table for StakeholderRole, for MDO headers |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,3 +64,4 @@ Role a stakeholder has in a sale
 ## Security Flags
 
 * No access control via user's Role.
+

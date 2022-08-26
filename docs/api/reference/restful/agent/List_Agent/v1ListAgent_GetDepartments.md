@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDepartments
-id: v1ListAgent_GetDepartments
+uid: v1ListAgent_GetDepartments
 ---
 
 # POST Agents/List/GetDepartments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDepartments
 
 Getting all departments/user groups for the internal phone list with the user's colleagues.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Getting all departments/user groups for the internal phone list with the user's 
 ```http
 POST /api/v1/Agents/List/GetDepartments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetDepartments?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +60,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDepartments
@@ -59,46 +69,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Value": "voluptatem",
-    "Tooltip": "est",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 952,
+    "Value": "dolor",
+    "Tooltip": "voluptatem",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "iterate extensible relationships"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 827
       }
     }
   },
   {
-    "Id": 275,
-    "Value": "voluptatem",
-    "Tooltip": "est",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 952,
+    "Value": "dolor",
+    "Tooltip": "voluptatem",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "iterate extensible relationships"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 827
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST User/Validate
-id: v1User_ValidateUser
+uid: v1User_ValidateUser
 ---
 
 # POST User/Validate
@@ -11,7 +11,16 @@ POST /api/v1/User/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: user
+## Request Body: user  
 
-Entity to be checked for errors.
+Entity to be checked for errors. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,9 +48,9 @@ Entity to be checked for errors.
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -52,14 +61,17 @@ Entity to be checked for errors.
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,24 +79,25 @@ Entity to be checked for errors.
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 174,
-  "Name": "Hodkiewicz, Wolf and Swaniawski",
-  "Rank": 169,
-  "Tooltip": "non",
+  "AssociateId": 128,
+  "Name": "Bahringer, Hessel and Friesen",
+  "Rank": 235,
+  "Tooltip": "quo",
   "LicenseOwners": [
     {
-      "Name": "Yost, Becker and Welch",
-      "Description": "Progressive background archive",
+      "Name": "Glover Inc and Sons",
+      "Description": "Enhanced dynamic frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +108,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Yost, Becker and Welch",
-      "Description": "Progressive background archive",
+      "Name": "Glover Inc and Sons",
+      "Description": "Enhanced dynamic frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -107,153 +120,104 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "Role": {
-    "Id": 571,
-    "Value": "enim",
-    "Tooltip": "nemo"
-  },
-  "UserGroup": {
-    "Value": "ipsa",
-    "Tooltip": "aspernatur",
-    "Id": 261,
-    "Rank": 245,
-    "Deleted": true
-  },
+  "Role": null,
+  "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quo",
-      "Tooltip": "odit",
-      "Id": 333,
-      "Rank": 786,
-      "Deleted": false
+      "Value": "vitae",
+      "Tooltip": "nam",
+      "Id": 339,
+      "Rank": 154,
+      "Deleted": true
     },
     {
-      "Value": "quo",
-      "Tooltip": "odit",
-      "Id": 333,
-      "Rank": 786,
-      "Deleted": false
+      "Value": "vitae",
+      "Tooltip": "nam",
+      "Id": 339,
+      "Rank": 154,
+      "Deleted": true
     }
   ],
-  "Person": {
-    "Position": "et",
-    "PersonId": 482,
-    "Mrmrs": "dolores",
-    "Firstname": "Robb",
-    "Lastname": "Schultz",
-    "MiddleName": "Langworth-Hirthe",
-    "Title": "saepe",
-    "Description": "Future-proofed uniform solution",
-    "Email": "dashawn@howell.com",
-    "FullName": "Dylan Rau",
-    "DirectPhone": "630-676-1682 x0115",
-    "FormalName": "Boyle-Lebsack",
-    "CountryId": 840,
-    "ContactId": 990,
-    "ContactName": "Tremblay-Kuhn",
-    "Retired": 755,
-    "Rank": 733,
-    "ActiveInterests": 902,
-    "ContactDepartment": "",
-    "ContactCountryId": 944,
-    "ContactOrgNr": "1027552",
-    "FaxPhone": "212-403-3743",
-    "MobilePhone": "1-585-005-6185 x6236",
-    "ContactPhone": "(537)470-7808",
-    "AssociateName": "Murphy, Marquardt and Berge",
-    "AssociateId": 759,
-    "UsePersonAddress": false,
-    "ContactFax": "animi",
-    "Kanafname": "minima",
-    "Kanalname": "consectetur",
-    "Post1": "vel",
-    "Post2": "velit",
-    "Post3": "sit",
-    "EmailName": "josephine@trantow.info",
-    "ContactFullName": "Alf West",
-    "ActiveErpLinks": 608,
-    "TicketPriorityId": 669,
-    "SupportLanguageId": 821,
-    "SupportAssociateId": 953,
-    "CategoryName": "VIP Customer"
-  },
+  "Person": null,
   "Deleted": false,
-  "Lastlogin": "2018-06-21T18:25:51.5431212+02:00",
-  "Lastlogout": "2016-12-23T18:25:51.5431212+01:00",
-  "EjUserId": 14,
-  "RequestSignature": "eos",
+  "Lastlogin": "1998-11-19T11:10:53.8541856+01:00",
+  "Lastlogout": "2018-04-08T11:10:53.8541856+02:00",
+  "EjUserId": 137,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
-      "Type": {},
-      "Value": "quisquam",
-      "DisplayValue": "nihil"
+      "Type": null,
+      "Value": "aperiam",
+      "DisplayValue": "ipsam"
     },
     {
-      "Type": {},
-      "Value": "quisquam",
-      "DisplayValue": "nihil"
+      "Type": null,
+      "Value": "aperiam",
+      "DisplayValue": "ipsam"
     }
   ],
-  "UserName": "Nolan-Wolf",
+  "UserName": "Russel, Abernathy and Leannon",
   "TicketCategories": [
     {
-      "Id": 865,
-      "Name": "D'Amore-Sanford",
-      "ToolTip": "Non voluptatibus aut vero omnis.",
-      "Deleted": true,
-      "Rank": 779,
-      "Type": "qui",
+      "Id": 443,
+      "Name": "Senger, Shanahan and Parker",
+      "ToolTip": "Magni omnis dignissimos.",
+      "Deleted": false,
+      "Rank": 638,
+      "Type": "excepturi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sapiente",
-      "ColorBlock": 460,
-      "ExtraInfo": "cum",
-      "StyleHint": "quidem",
-      "FullName": "Alexa Roob"
+      "IconHint": "est",
+      "ColorBlock": 654,
+      "ExtraInfo": "omnis",
+      "StyleHint": "consequuntur",
+      "FullName": "Prof. Lucio Smith"
     }
   ],
-  "NickName": "Kub, Collins and Emmerich",
+  "NickName": "Bailey, Schinner and Veum",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "est",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "dolores"
+    "CustomFields1": "sed",
+    "CustomFields2": "omnis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hettinger Group",
-      "DisplayName": "Cummings Inc and Sons",
-      "Description": "Intuitive systemic function",
-      "ToolTip": "Maiores eligendi omnis.",
+      "Name": "VonRueden-Ernser",
+      "DisplayName": "Wunsch-Sauer",
+      "Description": "Proactive full-range groupware",
+      "ToolTip": "Assumenda dolores repellendus impedit autem ad autem maxime.",
       "Actions": "Implicit",
-      "ActionData": "voluptas"
+      "ActionData": "ipsam"
     },
     {
-      "Name": "Hettinger Group",
-      "DisplayName": "Cummings Inc and Sons",
-      "Description": "Intuitive systemic function",
-      "ToolTip": "Maiores eligendi omnis.",
+      "Name": "VonRueden-Ernser",
+      "DisplayName": "Wunsch-Sauer",
+      "Description": "Proactive full-range groupware",
+      "ToolTip": "Assumenda dolores repellendus impedit autem ad autem maxime.",
       "Actions": "Implicit",
-      "ActionData": "voluptas"
+      "ActionData": "ipsam"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "repudiandae",
-  "2": "reprehenderit"
+  "1": "architecto",
+  "2": "totam"
 }
 ```

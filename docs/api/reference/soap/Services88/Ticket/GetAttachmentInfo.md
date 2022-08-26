@@ -13,9 +13,10 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetAttachmen
 
 Get a list with meta data for all attached attachments
 
-* **ticketMessageEntityId:** The id of the ticket message to get attachment infos
+* **ticketMessageEntityId:** The id of the ticket message to get attachment infos for
 
 **Returns:** An array with AttachmentEntity objects, describing each attachment
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAttachmentInfo Response
 
 ```xml
@@ -78,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

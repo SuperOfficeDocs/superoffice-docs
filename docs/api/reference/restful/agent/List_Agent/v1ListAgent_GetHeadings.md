@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetHeadings
-id: v1ListAgent_GetHeadings
+uid: v1ListAgent_GetHeadings
 ---
 
 # POST Agents/List/GetHeadings
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHeadings
 
 Gets a selectable MDO list of the headings for this list item
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a selectable MDO list of the headings for this list item
 ```http
 POST /api/v1/Agents/List/GetHeadings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/GetHeadings?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId, ShowDeleted
+UdListDefinitionId, ListItemId, ShowDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ UdListDefinitionId, ListItemId, ShowDeleted
 | ListItemId | int32 |  |
 | ShowDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,7 +83,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetHeadings
@@ -83,11 +93,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 404,
-  "ListItemId": 101,
+  "UdListDefinitionId": 902,
+  "ListItemId": 935,
   "ShowDeleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -95,65 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Oberbrunner Group",
-    "ToolTip": "Aut hic error eaque atque velit qui.",
+    "Id": 590,
+    "Name": "Veum LLC",
+    "ToolTip": "Eum ut sint ipsa voluptatem.",
     "Deleted": true,
-    "Rank": 223,
-    "Type": "nihil",
-    "ColorBlock": 803,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2002-05-25T18:28:49.3190894+02:00",
+    "Rank": 706,
+    "Type": "accusamus",
+    "ColorBlock": 931,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2004-01-28T11:10:27.1754531+01:00",
     "ChildItems": [
       {
-        "Id": 157,
-        "Name": "Lockman LLC",
-        "ToolTip": "Nulla vitae.",
-        "Deleted": true,
-        "Rank": 263,
-        "Type": "voluptas",
-        "ColorBlock": 981,
-        "IconHint": "cumque",
+        "Id": 609,
+        "Name": "Cronin, Gutmann and Bartell",
+        "ToolTip": "Vero dolore asperiores est explicabo.",
+        "Deleted": false,
+        "Rank": 959,
+        "Type": "nihil",
+        "ColorBlock": 698,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2011-10-17T18:28:49.3190894+02:00",
+        "LastChanged": "2008-08-15T11:10:27.1754531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "alias",
+        "ExtraInfo": "et",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Buddy Koss",
-        "TableRight": {},
+        "FullName": "Mabel Durgan",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 404
+            "FieldLength": 700
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "et",
+    "ExtraInfo": "magni",
+    "StyleHint": "dignissimos",
     "Hidden": true,
-    "FullName": "Maxwell Simonis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Marlen Ondricka",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldLength": 489
       }
     }
   }

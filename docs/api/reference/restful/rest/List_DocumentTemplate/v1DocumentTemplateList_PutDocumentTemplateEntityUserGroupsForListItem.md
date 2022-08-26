@@ -1,6 +1,6 @@
 ---
 title: PUT List/DocumentTemplate/Items/{id}/UserGroups
-id: v1DocumentTemplateList_PutDocumentTemplateEntityUserGroupsForListItem
+uid: v1DocumentTemplateList_PutDocumentTemplateEntityUserGroupsForListItem
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 
 Saves user groups visible for the DocumentTemplateEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Abbott, Ebert and Romaguera",
-    "ToolTip": "Sed nulla.",
-    "Deleted": true,
-    "Rank": 444,
-    "Type": "molestiae",
-    "ColorBlock": 183,
-    "IconHint": "natus",
+    "Id": 379,
+    "Name": "Dietrich LLC",
+    "ToolTip": "Iste cumque.",
+    "Deleted": false,
+    "Rank": 943,
+    "Type": "ut",
+    "ColorBlock": 741,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2008-04-18T18:25:51.8358999+02:00",
+    "LastChanged": "2007-04-19T11:10:54.2878984+02:00",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Bechtelar Inc and Sons",
-        "ToolTip": "Eos rerum hic maxime.",
-        "Deleted": false,
-        "Rank": 759,
-        "Type": "aspernatur",
-        "ColorBlock": 89,
-        "IconHint": "odio",
-        "Selected": true,
-        "LastChanged": "2013-08-11T18:25:51.8358999+02:00",
+        "Id": 796,
+        "Name": "Schumm, Trantow and Kuhn",
+        "ToolTip": "Consequatur aliquam quia odio laudantium.",
+        "Deleted": true,
+        "Rank": 120,
+        "Type": "eligendi",
+        "ColorBlock": 442,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "2009-09-06T11:10:54.2878984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
+        "ExtraInfo": "autem",
         "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Tom Toy"
+        "FullName": "Alexa Jast"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Wellington Dach"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Madisyn Johnson"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Yost Inc and Sons",
-    "ToolTip": "Maiores est ut rem excepturi.",
+    "Id": 852,
+    "Name": "Mraz Inc and Sons",
+    "ToolTip": "Commodi et illo ea quia odit quos possimus.",
     "Deleted": false,
-    "Rank": 647,
-    "Type": "necessitatibus",
-    "ColorBlock": 891,
-    "IconHint": "necessitatibus",
+    "Rank": 934,
+    "Type": "aut",
+    "ColorBlock": 712,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "1996-06-25T18:25:51.8385263+02:00",
+    "LastChanged": "2008-01-14T11:10:54.290897+01:00",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Anderson, Dicki and Schuster",
-        "ToolTip": "Aspernatur enim inventore.",
-        "Deleted": true,
-        "Rank": 929,
-        "Type": "aut",
-        "ColorBlock": 761,
-        "IconHint": "adipisci",
-        "Selected": true,
-        "LastChanged": "1994-11-02T18:25:51.8385263+01:00",
+        "Id": 37,
+        "Name": "Wolff Inc and Sons",
+        "ToolTip": "Voluptatem doloribus corporis consequatur.",
+        "Deleted": false,
+        "Rank": 140,
+        "Type": "expedita",
+        "ColorBlock": 136,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2021-09-26T11:10:54.290897+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Margarette Fahey",
-        "TableRight": {},
+        "ExtraInfo": "magnam",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Lacey Bo Swift DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 613
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Miss Toby Cummerata",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quos",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Ms. Roberta Koelpin MD",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldLength": 653
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST List/Country/Headings
-id: v1CountryList_PostCountryHeading
+uid: v1CountryList_PostCountryHeading
 ---
 
 # POST List/Country/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/Country/Headings
 
 Saves a new heading for the Country list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 750,
-  "Name": "Little Group",
-  "Tooltip": "cumque",
+  "HeadingId": 766,
+  "Name": "Schuppe-Lueilwitz",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 869,
-  "UdListDefinitionId": 333
+  "Rank": 210,
+  "UdListDefinitionId": 752
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 390,
-  "Name": "Beatty-Stroman",
-  "Tooltip": "rerum",
+  "HeadingId": 857,
+  "Name": "Krajcik, Ortiz and Cruickshank",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 699,
-  "UdListDefinitionId": 296,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 237,
+  "UdListDefinitionId": 969,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "engage frictionless channels"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

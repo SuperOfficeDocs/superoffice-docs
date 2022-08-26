@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetFilterList
-id: v1ConfigurationAgent_GetFilterList
+uid: v1ConfigurationAgent_GetFilterList
 ---
 
 # POST Agents/Configuration/GetFilterList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetFilterList
 
 Get the list of filters to be used for processing the configuration data for this application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the list of filters to be used for processing the configuration data for thi
 ```http
 POST /api/v1/Agents/Configuration/GetFilterList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Configuration/GetFilterList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Application, Instance
+Application, Instance 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Application | string |  |
 | Instance | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,24 +62,27 @@ Application, Instance
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetFilterList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "aut",
-  "Instance": "voluptatibus"
+  "Application": "magnam",
+  "Instance": "odit"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"velit"
+"sit"
 ```

@@ -1,6 +1,6 @@
 ---
 title: GET List/SaleType/Headings
-id: v1SaleTypeList_GetSaleTypeEntityHeadings
+uid: v1SaleTypeList_GetSaleTypeEntityHeadings
 ---
 
 # GET List/SaleType/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/SaleType/Headings
 
 Gets headings for the SaleTypeEntity list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,7 +55,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SaleType/Headings
@@ -54,30 +64,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 568,
-    "Name": "Brown, Kling and Kunze",
-    "Tooltip": "quis",
+    "HeadingId": 28,
+    "Name": "Greenfelder LLC",
+    "Tooltip": "minima",
     "Deleted": false,
-    "Rank": 284,
-    "UdListDefinitionId": 357,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 454,
+    "UdListDefinitionId": 739,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 881
       }
     }
   }

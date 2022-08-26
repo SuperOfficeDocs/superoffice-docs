@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/GetRestrictionGroups
-id: v1FindAgent_GetRestrictionGroups
+uid: v1FindAgent_GetRestrictionGroups
 ---
 
 # POST Agents/Find/GetRestrictionGroups
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/GetRestrictionGroups
 
 Return all the restriction groups.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return all the restriction groups.
 ```http
 POST /api/v1/Agents/Find/GetRestrictionGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Find/GetRestrictionGroups?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Context
+StorageType, ProviderName, StorageKey, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,10 @@ StorageType, ProviderName, StorageKey, Context
 | StorageKey | string |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,22 +71,24 @@ Response body: array
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Murray, Leannon and Botsford",
-  "StorageKey": "repudiandae",
-  "Context": "inventore"
+  "StorageType": "et",
+  "ProviderName": "Ernser, Torp and Becker",
+  "StorageKey": "impedit",
+  "Context": "fugit"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schowalter-Mitchell",
-    "Description": "Profound composite collaboration",
-    "Rank": 161,
+    "Name": "Ferry Group",
+    "Description": "Persistent directional groupware",
+    "Rank": 996,
     "Restrictions": [
       {
-        "Name": "Macejkovic, Schaefer and Bashirian",
-        "Operator": "ut",
+        "Name": "Wiegand Group",
+        "Operator": "possimus",
         "Values": [
-          "reiciendis",
-          "ad"
+          "consectetur",
+          "quo"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "ex"
+          "alias",
+          "nam"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 987,
+        "InterParenthesis": 208,
         "InterOperator": "And",
-        "UniqueHash": 52
+        "UniqueHash": 480
       }
     ]
   },
   {
-    "Name": "Schowalter-Mitchell",
-    "Description": "Profound composite collaboration",
-    "Rank": 161,
+    "Name": "Ferry Group",
+    "Description": "Persistent directional groupware",
+    "Rank": 996,
     "Restrictions": [
       {
-        "Name": "Macejkovic, Schaefer and Bashirian",
-        "Operator": "ut",
+        "Name": "Wiegand Group",
+        "Operator": "possimus",
         "Values": [
-          "reiciendis",
-          "ad"
+          "consectetur",
+          "quo"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "ex"
+          "alias",
+          "nam"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 987,
+        "InterParenthesis": 208,
         "InterOperator": "And",
-        "UniqueHash": 52
+        "UniqueHash": 480
       }
     ]
   }

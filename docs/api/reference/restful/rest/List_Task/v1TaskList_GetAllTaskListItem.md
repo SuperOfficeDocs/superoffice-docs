@@ -1,6 +1,6 @@
 ---
 title: GET List/Task/Items
-id: v1TaskList_GetAllTaskListItem
+uid: v1TaskList_GetAllTaskListItem
 ---
 
 # GET List/Task/Items
@@ -11,7 +11,13 @@ GET /api/v1/List/Task/Items
 
 Gets a list of all TaskListItem list items.
 
+
 Calls the Appointment agent service GetAllTaskListItem.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 ```http
 GET /api/v1/List/Task/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Task/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Task/Items
@@ -71,37 +81,33 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 287,
-    "Value": "et",
+    "TaskListItemId": 211,
+    "Value": "facere",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "IntentId": 86,
-    "Rank": 898,
-    "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "Tooltip": "eius",
+    "Deleted": false,
+    "IntentId": 336,
+    "Rank": 328,
+    "IsDefaultAlldayEvent": false,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldLength": 678
       }
     }
   }

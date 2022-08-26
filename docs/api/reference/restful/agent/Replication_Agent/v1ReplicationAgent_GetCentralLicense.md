@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Replication/GetCentralLicense
-id: v1ReplicationAgent_GetCentralLicense
+uid: v1ReplicationAgent_GetCentralLicense
 ---
 
 # POST Agents/Replication/GetCentralLicense
@@ -9,9 +9,15 @@ id: v1ReplicationAgent_GetCentralLicense
 POST /api/v1/Agents/Replication/GetCentralLicense
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/Replication/GetCentralLicense
 ```http
 POST /api/v1/Agents/Replication/GetCentralLicense?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ POST /api/v1/Agents/Replication/GetCentralLicense?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,33 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wintheiser Group",
-    "Description": "Robust 4th generation solution",
+    "Name": "Jast, Gutkowski and Daniel",
+    "Description": "Open-architected optimizing knowledge user",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 238,
-        "Tooltip": "eaque",
+        "Total": 842,
+        "Tooltip": "odit",
         "CanAssign": true,
-        "Free": 574,
-        "InUse": 689,
+        "Free": 551,
+        "InUse": 817,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 663,
-        "Name": "Kiehn-Wiza",
-        "Description": "Streamlined bifurcated hub",
-        "PrerequisiteModuleName": "Torp, Fritsch and Spencer",
-        "SortOrder": 403,
-        "ExtraFlags": 241,
-        "TableRight": {},
+        "ModuleLicenseId": 806,
+        "Name": "Bartoletti-Wisoky",
+        "Description": "User-friendly intermediate info-mediaries",
+        "PrerequisiteModuleName": "Schoen, Johnston and Gutkowski",
+        "SortOrder": 701,
+        "ExtraFlags": 966,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 558
           }
         }
       }
@@ -102,75 +111,63 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 633,
-        "Tooltip": "aperiam",
+        "Total": 336,
+        "Tooltip": "quia",
         "CanAssign": false,
-        "Free": 344,
-        "InUse": 910,
+        "Free": 327,
+        "InUse": 182,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 234,
-        "Name": "Wiegand-Nicolas",
-        "Description": "Virtual directional collaboration",
-        "PrerequisiteModuleName": "Kutch, Howell and Dach",
-        "SortOrder": 548,
-        "ExtraFlags": 393,
-        "TableRight": {},
+        "ModuleLicenseId": 584,
+        "Name": "Wolff-Hyatt",
+        "Description": "Multi-lateral bifurcated open architecture",
+        "PrerequisiteModuleName": "Swaniawski Inc and Sons",
+        "SortOrder": 794,
+        "ExtraFlags": 882,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 794
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 963
       }
     }
   },
   {
-    "Name": "Wintheiser Group",
-    "Description": "Robust 4th generation solution",
+    "Name": "Jast, Gutkowski and Daniel",
+    "Description": "Open-architected optimizing knowledge user",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 238,
-        "Tooltip": "eaque",
+        "Total": 842,
+        "Tooltip": "odit",
         "CanAssign": true,
-        "Free": 574,
-        "InUse": 689,
+        "Free": 551,
+        "InUse": 817,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 663,
-        "Name": "Kiehn-Wiza",
-        "Description": "Streamlined bifurcated hub",
-        "PrerequisiteModuleName": "Torp, Fritsch and Spencer",
-        "SortOrder": 403,
-        "ExtraFlags": 241,
-        "TableRight": {},
+        "ModuleLicenseId": 806,
+        "Name": "Bartoletti-Wisoky",
+        "Description": "User-friendly intermediate info-mediaries",
+        "PrerequisiteModuleName": "Schoen, Johnston and Gutkowski",
+        "SortOrder": 701,
+        "ExtraFlags": 966,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 558
           }
         }
       }
@@ -178,44 +175,35 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 633,
-        "Tooltip": "aperiam",
+        "Total": 336,
+        "Tooltip": "quia",
         "CanAssign": false,
-        "Free": 344,
-        "InUse": 910,
+        "Free": 327,
+        "InUse": 182,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 234,
-        "Name": "Wiegand-Nicolas",
-        "Description": "Virtual directional collaboration",
-        "PrerequisiteModuleName": "Kutch, Howell and Dach",
-        "SortOrder": 548,
-        "ExtraFlags": 393,
-        "TableRight": {},
+        "ModuleLicenseId": 584,
+        "Name": "Wolff-Hyatt",
+        "Description": "Multi-lateral bifurcated open architecture",
+        "PrerequisiteModuleName": "Swaniawski Inc and Sons",
+        "SortOrder": 794,
+        "ExtraFlags": 882,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 794
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 963
       }
     }
   }

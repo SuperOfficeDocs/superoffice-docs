@@ -1,6 +1,6 @@
 ---
 title: POST List/{name}/Headings
-id: v1ListItemEntity_SaveHeadingFromName
+uid: v1ListItemEntity_SaveHeadingFromName
 ---
 
 # POST List/{name}/Headings
@@ -11,9 +11,16 @@ POST /api/v1/List/{name}/Headings
 
 Save new heading for list resolved by the provided name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save new heading for list resolved by the provided name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The new heading to save
+The new heading to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ The new heading to save
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,48 +71,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 352,
-  "Name": "Bergstrom, Cummings and Schowalter",
-  "Tooltip": "velit",
+  "HeadingId": 548,
+  "Name": "Brown, Ratke and Schuster",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 546,
-  "UdListDefinitionId": 880
+  "Rank": 323,
+  "UdListDefinitionId": 910
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 81,
-  "Name": "McCullough Group",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "Rank": 277,
-  "UdListDefinitionId": 344,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 244,
+  "Name": "Osinski Inc and Sons",
+  "Tooltip": "accusantium",
+  "Deleted": true,
+  "Rank": 115,
+  "UdListDefinitionId": 132,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "e-enable scalable infomediaries"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 427
     }
   }
 }

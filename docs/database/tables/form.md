@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "form"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# form Table (478)
+# form Table (479)
 
 A form which can be published on a webpage and submitted by visitors
 
@@ -42,6 +42,7 @@ A form which can be published on a webpage and submitted by visitors
 |form\_key|A short string used as unique id to access this form|String(32)|&#x25CF;|
 |new\_ticket|True if this form creates a new ticket|Bool|&#x25CF;|
 
+
 ![form table relationship diagram](./media/form.png)
 
 [!include[details](./includes/form.md)]
@@ -66,6 +67,7 @@ A form which can be published on a webpage and submitted by visitors
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * None
@@ -73,3 +75,4 @@ A form which can be published on a webpage and submitted by visitors
 ## Security Flags
 
 * No access control via user's Role.
+

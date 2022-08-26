@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLegalBase
-id: v1ListAgent_GetLegalBase
+uid: v1ListAgent_GetLegalBase
 ---
 
 # POST Agents/List/GetLegalBase
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLegalBase
 
 Gets a LegalBase object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a LegalBase object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLegalBase?legalBaseId=353
+POST /api/v1/Agents/List/GetLegalBase?legalBaseId=521
 POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for LegalBase.
-Services for the LegalBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,38 +65,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 321,
-  "Name": "Dare, Kozey and Ernser",
-  "Tooltip": "pariatur",
-  "Rank": 596,
-  "Key": "est",
-  "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "LegalBaseId": 534,
+  "Name": "Wolff, Koepp and Kiehn",
+  "Tooltip": "aut",
+  "Rank": 40,
+  "Key": "molestiae",
+  "Deleted": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldLength": 193
     }
   }
 }

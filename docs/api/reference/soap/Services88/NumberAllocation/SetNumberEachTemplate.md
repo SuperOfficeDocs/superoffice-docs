@@ -17,6 +17,7 @@ Saves true or false if Automatically create new counters for new document templa
 
 **Returns:** void
 
+
 [WSDL file for Services88/NumberAllocation](../Services88-NumberAllocation.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetNumberEachTemplate Response
 
 ```xml
@@ -66,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

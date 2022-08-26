@@ -1,6 +1,6 @@
 ---
 title: GET Project/UdefLayout/Published/{progidOrLabel}
-id: v1ProjectEntity_GetPublishedUdefFieldInfo
+uid: v1ProjectEntity_GetPublishedUdefFieldInfo
 ---
 
 # GET Project/UdefLayout/Published/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 
 Get a published ProjectEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a published ProjectEntity user-defined field's details based on the prog-id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+ProjectEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 418,
-  "ColumnId": 35,
-  "FieldDefault": "deserunt",
-  "FieldHeight": 478,
-  "FieldLabel": "asperiores",
-  "FieldLeft": 283,
-  "FieldTop": 194,
+  "UDefFieldId": 997,
+  "ColumnId": 578,
+  "FieldDefault": "architecto",
+  "FieldHeight": 62,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 110,
+  "FieldTop": 37,
   "FieldType": "Checkbox",
-  "FieldWidth": 734,
-  "FormatMask": "distinctio",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 803,
-  "LabelLeft": 46,
-  "LabelTop": 280,
-  "LabelWidth": 415,
-  "LastVersionId": 399,
-  "ListTableId": 972,
+  "FieldWidth": 763,
+  "FormatMask": "incidunt",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 987,
+  "LabelLeft": 253,
+  "LabelTop": 542,
+  "LabelWidth": 125,
+  "LastVersionId": 721,
+  "ListTableId": 364,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 137,
-  "ProgId": "aut",
+  "Page1LineNo": 977,
+  "ProgId": "quo",
   "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 780,
-  "TextLength": 47,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 114,
-  "UDListDefinitionId": 956,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 832,
+  "TextLength": 122,
+  "Tooltip": "est",
+  "UdefIdentity": 910,
+  "UDListDefinitionId": 830,
   "Justification": "Center",
-  "Version": 624,
-  "TemplateVariableName": "Kshlerin, Muller and Pfeffer",
+  "Version": 12,
+  "TemplateVariableName": "Collier, Huel and Reichert",
   "HasBeenPublished": true,
-  "MdoListName": "Mosciski-Johns",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Pollich Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

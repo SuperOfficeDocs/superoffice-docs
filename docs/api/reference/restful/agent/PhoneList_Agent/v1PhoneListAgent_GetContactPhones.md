@@ -1,6 +1,6 @@
 ---
 title: POST Agents/PhoneList/GetContactPhones
-id: v1PhoneListAgent_GetContactPhones
+uid: v1PhoneListAgent_GetContactPhones
 ---
 
 # POST Agents/PhoneList/GetContactPhones
@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/GetContactPhones
 
 Returns an array of phone list items for all the persons belonging to a contact (company).
 
+
 The in-parameter must be a valid contact-id.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The in-parameter must be a valid contact-id.
 ```http
 POST /api/v1/Agents/PhoneList/GetContactPhones?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/PhoneList/GetContactPhones?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,19 +78,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 791
+  "ContactId": 754
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,28 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "453.125.8651",
-    "PersonCellPhone": "154-582-4387 x0460",
-    "PersonPrivatePhone": "(607)720-1481 x6164",
-    "PersonFaxNumber": "1265838",
-    "PersonPagerNumber": "1229318",
-    "PersonEmail": "jazmin@wehnererdman.biz",
-    "Id": 446,
-    "Name": "Kulas, Hane and Grady",
-    "Tooltip": "sed",
-    "UniqueId": "aspernatur",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonDirectPhone": "(214)776-8656 x2883",
+    "PersonCellPhone": "(261)916-4810 x4701",
+    "PersonPrivatePhone": "692-903-5226 x5262",
+    "PersonFaxNumber": "349126",
+    "PersonPagerNumber": "1018798",
+    "PersonEmail": "edwin_schimmel@wunsch.info",
+    "Id": 365,
+    "Name": "Cruickshank-McLaughlin",
+    "Tooltip": "cum",
+    "UniqueId": "aut",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 850
+        "FieldLength": 774
       }
     }
   }

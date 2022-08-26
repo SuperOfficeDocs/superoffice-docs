@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/PlaceOrder
-id: v1QuoteAgent_PlaceOrder
+uid: v1QuoteAgent_PlaceOrder
 ---
 
 # POST Agents/Quote/PlaceOrder
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/PlaceOrder
 
 Place an order in the ERP system.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Place an order in the ERP system.
 ```http
 POST /api/v1/Agents/Quote/PlaceOrder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/PlaceOrder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId, MarkSaleAsSold, PoNumber, OrderComment, Culture
+QuoteAlternativeId, MarkSaleAsSold, PoNumber, OrderComment, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,18 +54,16 @@ QuoteAlternativeId, MarkSaleAsSold, PoNumber, OrderComment, Culture
 | OrderComment | string |  |
 | Culture | string |  |
 
-## Response: object
 
-PluginUrlResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button. In addition, an URL can be returned, which the GUI should navigate to/display if it is non-blank. The URL can be an SoProtocol or http(s)
+## Response: 
 
-Carrier object for PluginUrlResponse.
-Services for the PluginUrlResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +76,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/PlaceOrder
@@ -81,13 +86,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 680,
-  "MarkSaleAsSold": true,
-  "PoNumber": "844814",
-  "OrderComment": "dolorum",
-  "Culture": "asperiores"
+  "QuoteAlternativeId": 412,
+  "MarkSaleAsSold": false,
+  "PoNumber": "1056937",
+  "OrderComment": "enim",
+  "Culture": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -95,47 +102,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "iste",
-  "TechExplanation": "vero",
-  "ErrorCode": "corporis",
-  "Changes": {
-    "AddedRecords": [
-      {},
-      {}
-    ],
-    "UpdatedRecords": [
-      {},
-      {}
-    ],
-    "DeletedRecords": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 597
-      }
-    }
-  },
+  "UserExplanation": "qui",
+  "TechExplanation": "odio",
+  "ErrorCode": "placeat",
+  "Changes": null,
   "Url": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldLength": 324
     }
   }
 }

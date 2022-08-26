@@ -17,6 +17,8 @@ Set the currently chosen columns for the given gui name/provider name combinatio
 * **providerName:** Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
 * **chosenColumns:** Array of column names, where array order indicates left to right order in the archive.
 
+
+
 [WSDL file for Services85/Archive](../Services85-Archive.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetChosenColumns Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

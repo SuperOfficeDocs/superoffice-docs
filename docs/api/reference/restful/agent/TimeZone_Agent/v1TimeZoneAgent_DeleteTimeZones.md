@@ -1,6 +1,6 @@
 ---
 title: POST Agents/TimeZone/DeleteTimeZones
-id: v1TimeZoneAgent_DeleteTimeZones
+uid: v1TimeZoneAgent_DeleteTimeZones
 ---
 
 # POST Agents/TimeZone/DeleteTimeZones
@@ -10,6 +10,12 @@ POST /api/v1/Agents/TimeZone/DeleteTimeZones
 ```
 
 Deletes all time zone data (locations and rules) from the database
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,16 +27,42 @@ Deletes all time zone data (locations and rules) from the database
 POST /api/v1/Agents/TimeZone/DeleteTimeZones?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/TimeZone/DeleteTimeZones
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: *
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

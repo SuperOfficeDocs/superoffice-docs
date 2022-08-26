@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/SubstituteTemplateVariables
-id: v1DocumentAgent_SubstituteTemplateVariables
+uid: v1DocumentAgent_SubstituteTemplateVariables
 ---
 
 # POST Agents/Document/SubstituteTemplateVariables
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariables
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Parse the source string, and replace any template variable tags with their value
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariables?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariables?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName
+Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,10 @@ Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleI
 | ProjectId | int32 |  |
 | CultureName | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,7 +70,8 @@ Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleI
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
@@ -70,22 +81,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "soluta",
+  "Source": "velit",
   "GeneratorEncoding": "Html",
-  "ContactId": 641,
-  "PersonId": 749,
-  "AppointmentId": 217,
-  "DocumentId": 494,
-  "SaleId": 964,
-  "SelectionId": 604,
-  "ProjectId": 353,
+  "ContactId": 173,
+  "PersonId": 570,
+  "AppointmentId": 915,
+  "DocumentId": 915,
+  "SaleId": 370,
+  "SelectionId": 837,
+  "ProjectId": 891,
   "CultureName": "sv"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"voluptate"
 ```

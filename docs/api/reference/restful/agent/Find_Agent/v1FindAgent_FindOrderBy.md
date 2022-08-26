@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/FindOrderBy
-id: v1FindAgent_FindOrderBy
+uid: v1FindAgent_FindOrderBy
 ---
 
 # POST Agents/Find/FindOrderBy
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindOrderBy
 
 Execute a Find operation and return a page of results.
 
+
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby parameter is used for sorting the results.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/FindOrderBy?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindOrderBy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy
+StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +57,16 @@ StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy
 | PageNumber | int32 |  |
 | OrderBy | array |  |
 
-## Response: object
 
-Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
+## Response: 
 
-Carrier object for FindResults.
-Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,33 +76,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/FindOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Douglas, Hammes and Sipes",
-  "StorageKey": "nisi",
-  "PageSize": 524,
-  "PageNumber": 660,
+  "StorageType": "animi",
+  "ProviderName": "Bins Inc and Sons",
+  "StorageKey": "officiis",
+  "PageSize": 328,
+  "PageNumber": 303,
   "OrderBy": [
     {
-      "Name": "Swift-Hackett",
+      "Name": "Dach-Shields",
       "Direction": "ASC"
     },
     {
-      "Name": "Swift-Hackett",
+      "Name": "Dach-Shields",
       "Direction": "ASC"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -106,60 +113,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Daugherty Group",
-      "DisplayTooltip": "delectus",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": true,
-      "Name": "Schamberger Inc and Sons",
+      "DisplayName": "Schulist, Sawayn and Swift",
+      "DisplayTooltip": "voluptates",
+      "DisplayType": "aliquam",
+      "CanOrderBy": false,
+      "Name": "Maggio-Marquardt",
       "CanRestrictBy": true,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Prohaska-Williamson",
+      "RestrictionType": "fuga",
+      "RestrictionListName": "Friesen-Stracke",
       "IsVisible": false,
-      "ExtraInfo": "dolores",
-      "Width": "et",
-      "IconHint": "et",
-      "HeadingIconHint": "enim"
+      "ExtraInfo": "in",
+      "Width": "suscipit",
+      "IconHint": "labore",
+      "HeadingIconHint": "eos"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Abernathy-Feil",
-      "PrimaryKey": 57,
+      "EntityName": "Heidenreich Group",
+      "PrimaryKey": 333,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odio",
-          "TooltipHint": "deserunt",
-          "LinkHint": "est"
+          "DisplayValue": "eius",
+          "TooltipHint": "aut",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "illum",
-      "TableRight": {},
+      "LinkHint": "dicta",
+      "StyleHint": "illo",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 549
         }
       }
     }
   ],
-  "RowCount": 375,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RowCount": 941,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 562
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetAll
-id: v1PreferenceAgent_GetAll
+uid: v1PreferenceAgent_GetAll
 ---
 
 # POST Agents/Preference/GetAll
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetAll
 
 Gets a list of all PreferenceDescriptions in the system.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a list of all PreferenceDescriptions in the system.
 ```http
 POST /api/v1/Agents/Preference/GetAll?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Preference/GetAll?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,14 +75,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,36 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 897,
-    "Section": "earum",
-    "Key": "beatae",
-    "Name": "Jenkins-O'Connell",
+    "PrefDescId": 953,
+    "Section": "amet",
+    "Key": "enim",
+    "Name": "Kuhn LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profit-focused systemic archive",
+    "Description": "Mandatory well-modulated customer loyalty",
     "IsBuiltin": true,
-    "TableName": "Borer-Kris",
-    "UserDefinedListId": 670,
-    "Rank": 738,
-    "SubGroup": "perspiciatis",
-    "MinLevel": 237,
-    "MaxValue": 525,
-    "MinValue": 51,
-    "RequiredLicense": "itaque",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableName": "Mayert Inc and Sons",
+    "UserDefinedListId": 729,
+    "Rank": 603,
+    "SubGroup": "itaque",
+    "MinLevel": 819,
+    "MaxValue": 164,
+    "MinValue": 496,
+    "RequiredLicense": "omnis",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldLength": 950
       }
     }
   }

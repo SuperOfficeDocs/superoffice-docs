@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/SaveConnection
-id: v1ErpSyncAgent_SaveConnection
+uid: v1ErpSyncAgent_SaveConnection
 ---
 
 # POST Agents/ErpSync/SaveConnection
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/SaveConnection
 
 Saves a connection to the database.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Saves a connection to the database.
 ```http
 POST /api/v1/Agents/ErpSync/SaveConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/SaveConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Connection
+Connection 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Connection |  | Information about a connection to the ERP system. <br /> Carrier object for ErpConnection. Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| Connection |  | Information about a connection to the ERP system. <para /> Carrier object for ErpConnection. Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for ErpConnection.
-Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,80 +82,54 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Connection": {
-    "ErpConnectionId": 816,
-    "ErpConnectorId": 411,
-    "DisplayName": "Emard Group",
-    "DisplayDescription": "Fundamental eco-centric application",
-    "Active": true,
-    "ConnectionId": "a",
-    "MostRecentTimestamp": "rerum",
-    "ConfigFields": {
-      "ConfigFields1": "est",
-      "ConfigFields2": "ducimus"
-    },
-    "Deleted": true,
-    "AllAccess": false,
-    "UserGroupAccessIds": [
-      350,
-      185
-    ],
-    "AssociateAccessIds": [
-      920,
-      463
-    ]
-  }
+  "Connection": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 925,
-  "ErpConnectorId": 403,
-  "DisplayName": "Tremblay-White",
-  "DisplayDescription": "Team-oriented encompassing contingency",
+  "ErpConnectionId": 141,
+  "ErpConnectorId": 506,
+  "DisplayName": "Waters-Reichert",
+  "DisplayDescription": "Synergized regional model",
   "Active": false,
-  "ConnectionId": "expedita",
-  "MostRecentTimestamp": "id",
+  "ConnectionId": "consequuntur",
+  "MostRecentTimestamp": "corporis",
   "ConfigFields": {
-    "ConfigFields1": "harum",
-    "ConfigFields2": "animi"
+    "ConfigFields1": "et",
+    "ConfigFields2": "consequatur"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    728,
-    304
+    748,
+    962
   ],
   "AssociateAccessIds": [
-    355,
-    949
+    372,
+    662
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 836
     }
   }
 }

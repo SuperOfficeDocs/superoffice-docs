@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_attachment"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ This table connects FAQ entries to attachments.
 |id|The primary key (auto-incremented)|PK| |
 |entry\_id|The id of the corresponding kb_entry.|FK [kb_entry](kb-entry.md)| |
 |attachment\_id|The id of the corresponding kb_category.|FK [attachment](attachment.md)| |
+
 
 ![kb_attachment table relationship diagram](./media/kb_attachment.png)
 
@@ -44,6 +45,7 @@ This table connects FAQ entries to attachments.
 |[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
 |[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
 
+
 ## Replication Flags
 
 * None
@@ -51,3 +53,4 @@ This table connects FAQ entries to attachments.
 ## Security Flags
 
 * No access control via user's Role.
+

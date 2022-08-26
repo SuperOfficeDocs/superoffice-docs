@@ -1,0 +1,13 @@
+digraph QuoteApprReasonHeadingLink  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+QuoteApprReasonHeadingLink[fillcolor = "cadetblue1"]
+QuoteApprReason[fillcolor = "azure1"]
+Heading[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+QuoteApprReasonHeadingLink -> QuoteApprReason [headlabel = "quoteapprreason_id"]
+QuoteApprReasonHeadingLink -> Heading [headlabel = "heading_id"]
+QuoteApprReasonHeadingLink -> associate [headlabel = "registered_associate_id"]
+QuoteApprReasonHeadingLink -> associate [label = "updated_associate_id"]
+}

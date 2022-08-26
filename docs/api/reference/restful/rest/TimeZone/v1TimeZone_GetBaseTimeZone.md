@@ -1,6 +1,6 @@
 ---
 title: GET TimeZone/base
-id: v1TimeZone_GetBaseTimeZone
+uid: v1TimeZone_GetBaseTimeZone
 ---
 
 # GET TimeZone/base
@@ -11,7 +11,14 @@ GET /api/v1/TimeZone/base
 
 Base Time Zone info.
 
+
 This is the time zone used internally for storing data.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,13 +33,16 @@ This is the time zone used internally for storing data.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,45 +54,47 @@ Response body: object
 | TimeZoneSTDRules | object |  |
 | TimeZoneDSTRules | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 384,
-  "Name": "Torp, Thompson and Koss",
-  "TZLocationCode": "dicta",
-  "TZLocationCities": "et",
-  "IsoNumber": 642,
+  "TZLocationID": 933,
+  "Name": "Ritchie Inc and Sons",
+  "TZLocationCode": "voluptates",
+  "TZLocationCities": "nulla",
+  "IsoNumber": 917,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 77,
-      "StartMonth": 503,
-      "EndDay": 363,
-      "EndMonth": 176,
-      "TZOffset": 784,
-      "StartRulePattern": "voluptates",
-      "EndRulePattern": "pariatur"
+      "StartDay": 913,
+      "StartMonth": 570,
+      "EndDay": 140,
+      "EndMonth": 997,
+      "TZOffset": 592,
+      "StartRulePattern": "ea",
+      "EndRulePattern": "omnis"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 176,
-      "StartMonth": 120,
-      "EndDay": 527,
-      "EndMonth": 633,
-      "TZOffset": 622,
-      "StartRulePattern": "maiores",
-      "EndRulePattern": "aliquam"
+      "StartDay": 866,
+      "StartMonth": 646,
+      "EndDay": 968,
+      "EndMonth": 708,
+      "TZOffset": 179,
+      "StartRulePattern": "incidunt",
+      "EndRulePattern": "vel"
     }
   }
 }

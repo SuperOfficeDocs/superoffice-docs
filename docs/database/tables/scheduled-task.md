@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "scheduled_task"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ A scheduled entry executing a script at certain times
 |script\_id|The id of the script to execute.|FK [ejscript](ejscript.md)|&#x25CF;|
 |schedule\_id|Update schedule|FK [schedule](schedule.md)|&#x25CF;|
 |description|Optional description of what this task is used for.|String(2047)|&#x25CF;|
+
 
 ![scheduled_task table relationship diagram](./media/scheduled_task.png)
 
@@ -45,6 +46,7 @@ A scheduled entry executing a script at certain times
 |[ejscript](ejscript.md)  |ejscript |
 |[schedule](schedule.md)  |Generic scheduled tasked handling time scheduling, locking and error messages |
 
+
 ## Replication Flags
 
 * None
@@ -52,3 +54,4 @@ A scheduled entry executing a script at certain times
 ## Security Flags
 
 * No access control via user's Role.
+

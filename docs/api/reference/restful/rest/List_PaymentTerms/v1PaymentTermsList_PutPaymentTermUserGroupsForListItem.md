@@ -1,6 +1,6 @@
 ---
 title: PUT List/PaymentTerm/Items/{id}/UserGroups
-id: v1PaymentTermsList_PutPaymentTermUserGroupsForListItem
+uid: v1PaymentTermsList_PutPaymentTermUserGroupsForListItem
 ---
 
 # PUT List/PaymentTerm/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 
 Saves user groups visible for the PaymentTerm list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Shanahan, Upton and Ondricka",
-    "ToolTip": "Illum sit.",
-    "Deleted": true,
-    "Rank": 125,
-    "Type": "omnis",
-    "ColorBlock": 256,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "2008-08-07T18:25:51.9262107+02:00",
+    "Id": 875,
+    "Name": "Kuhn, Walsh and Altenwerth",
+    "ToolTip": "Voluptas sapiente qui.",
+    "Deleted": false,
+    "Rank": 243,
+    "Type": "doloribus",
+    "ColorBlock": 505,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2019-11-23T11:10:54.3419026+01:00",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Larkin Group",
-        "ToolTip": "Optio quia et quia.",
-        "Deleted": true,
-        "Rank": 632,
-        "Type": "laboriosam",
-        "ColorBlock": 750,
-        "IconHint": "pariatur",
-        "Selected": false,
-        "LastChanged": "2016-07-16T18:25:51.9262107+02:00",
+        "Id": 178,
+        "Name": "Pfannerstill-Becker",
+        "ToolTip": "Et tenetur sunt occaecati dolorem atque dolor voluptatibus.",
+        "Deleted": false,
+        "Rank": 55,
+        "Type": "velit",
+        "ColorBlock": 4,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "2013-07-15T11:10:54.3429022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "enim",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Mrs. Emmy Jacobi"
+        "FullName": "Dr. Zita Hintz"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "est",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Antonia Turner"
+    "FullName": "Furman Toy"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Schaefer-Legros",
-    "ToolTip": "Atque ut vel dignissimos asperiores reiciendis deserunt.",
-    "Deleted": true,
-    "Rank": 606,
-    "Type": "autem",
-    "ColorBlock": 273,
-    "IconHint": "quam",
-    "Selected": true,
-    "LastChanged": "1996-01-20T18:25:51.9282104+01:00",
+    "Id": 391,
+    "Name": "Lind LLC",
+    "ToolTip": "Dolor non enim et sed.",
+    "Deleted": false,
+    "Rank": 580,
+    "Type": "est",
+    "ColorBlock": 699,
+    "IconHint": "vitae",
+    "Selected": false,
+    "LastChanged": "1997-09-29T11:10:54.3439021+02:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Walsh, Gusikowski and Brakus",
-        "ToolTip": "Qui tempora.",
-        "Deleted": true,
-        "Rank": 976,
-        "Type": "quia",
-        "ColorBlock": 354,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2008-05-14T18:25:51.9282104+02:00",
+        "Id": 93,
+        "Name": "Kuvalis-Jones",
+        "ToolTip": "Voluptatem eos.",
+        "Deleted": false,
+        "Rank": 405,
+        "Type": "quasi",
+        "ColorBlock": 965,
+        "IconHint": "excepturi",
+        "Selected": false,
+        "LastChanged": "2011-04-05T11:10:54.3439021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Fred Wilderman",
-        "TableRight": {},
+        "ExtraInfo": "veniam",
+        "StyleHint": "molestias",
+        "Hidden": true,
+        "FullName": "Delaney Klocko",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 164
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "inventore",
+    "ExtraInfo": "eaque",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Kali Stracke I",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Terrell Lucile Muller Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "enable value-added technologies"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 982
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "uddocsmall"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -133,6 +133,7 @@ User-defined fields
 |double09|double value 9, not indexed|Double|&#x25CF;|
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
+
 ![uddocsmall table relationship diagram](./media/uddocsmall.png)
 
 [!include[details](./includes/uddocsmall.md)]
@@ -161,6 +162,7 @@ User-defined fields
 |------|-------------|
 |[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -170,3 +172,4 @@ User-defined fields
 ## Security Flags
 
 * No access control via user's Role.
+

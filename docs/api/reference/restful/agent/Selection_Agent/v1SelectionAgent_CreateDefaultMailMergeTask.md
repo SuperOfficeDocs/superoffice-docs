@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateDefaultMailMergeTask
-id: v1SelectionAgent_CreateDefaultMailMergeTask
+uid: v1SelectionAgent_CreateDefaultMailMergeTask
 ---
 
 # POST Agents/Selection/CreateDefaultMailMergeTask
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 
 Set default values into a new MailMergeTask.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Properties describing a task to create on recipients of a mail merge
+## Response: 
 
-Carrier object for MailMergeTask.
-Services for the MailMergeTask Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,58 +60,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 841,
-  "TypeId": 235,
-  "StartDate": "2004-01-15T18:28:50.2124467+01:00",
-  "Duration": 218,
-  "Description": "Vision-oriented dedicated matrices",
-  "PriorityId": 642,
-  "VisibleFor": {
-    "VisibleId": 380,
-    "Visibility": "All",
-    "DisplayValue": "quo",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 35
-      }
-    }
-  },
+  "ProjectId": 178,
+  "TypeId": 744,
+  "StartDate": "2010-10-20T11:10:27.8769783+02:00",
+  "Duration": 244,
+  "Description": "Business-focused high-level hardware",
+  "PriorityId": 449,
+  "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 934,
+  "OwnerAssociateId": 420,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 365,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SaleId": 571,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 931
     }
   }
 }

@@ -17,6 +17,7 @@ Updates the existing ReportEntity or creates a new ReportEntity if the id parame
 
 **Returns:** New or updated ReportEntity
 
+
 [WSDL file for Services85/Report](../Services85-Report.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveReportEntity Response
 
 ```xml
@@ -87,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

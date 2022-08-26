@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDocumentTemplatesTasks
-id: v1ListAgent_GetDocumentTemplatesTasks
+uid: v1ListAgent_GetDocumentTemplatesTasks
 ---
 
 # POST Agents/List/GetDocumentTemplatesTasks
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplatesTasks
 
 The appointment's task is a Document template item when the appointment is a document.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ The appointment's task is a Document template item when the appointment is a doc
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetDocumentTemplatesTasks?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +60,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks
@@ -59,46 +69,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Value": "sit",
-    "Tooltip": "natus",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 242,
+    "Value": "aliquid",
+    "Tooltip": "necessitatibus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldLength": 113
       }
     }
   },
   {
-    "Id": 711,
-    "Value": "sit",
-    "Tooltip": "natus",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 242,
+    "Value": "aliquid",
+    "Tooltip": "necessitatibus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldLength": 113
       }
     }
   }

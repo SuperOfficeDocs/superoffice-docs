@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/FindOrderBy2
-id: v1FindAgent_FindOrderBy2
+uid: v1FindAgent_FindOrderBy2
 ---
 
 # POST Agents/Find/FindOrderBy2
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindOrderBy2
 
 Execute a Find operation and return a page of results.
 
+
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby parameter is used for sorting the results.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/FindOrderBy2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindOrderBy2?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy
+StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +57,16 @@ StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy
 | PageNumber | int32 |  |
 | OrderBy | string |  |
 
-## Response: object
 
-Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
+## Response: 
 
-Carrier object for FindResults.
-Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,24 +76,26 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vel",
-  "ProviderName": "Weber LLC",
-  "StorageKey": "tempora",
-  "PageSize": 386,
-  "PageNumber": 2,
-  "OrderBy": "magni"
+  "StorageType": "sint",
+  "ProviderName": "Bailey Inc and Sons",
+  "StorageKey": "quos",
+  "PageSize": 273,
+  "PageNumber": 685,
+  "OrderBy": "reprehenderit"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,60 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Raynor, Torp and Hermann",
-      "DisplayTooltip": "itaque",
-      "DisplayType": "ducimus",
-      "CanOrderBy": true,
-      "Name": "Schimmel LLC",
+      "DisplayName": "Crist-Hyatt",
+      "DisplayTooltip": "ut",
+      "DisplayType": "sapiente",
+      "CanOrderBy": false,
+      "Name": "Rodriguez, Von and Lowe",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Daniel-Grady",
+      "RestrictionType": "quia",
+      "RestrictionListName": "Gibson Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "sit",
-      "Width": "dolorem",
-      "IconHint": "atque",
-      "HeadingIconHint": "placeat"
+      "ExtraInfo": "veniam",
+      "Width": "consectetur",
+      "IconHint": "vitae",
+      "HeadingIconHint": "unde"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Reichert, Gulgowski and Waters",
-      "PrimaryKey": 698,
+      "EntityName": "Schinner Inc and Sons",
+      "PrimaryKey": 276,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "minima",
-          "LinkHint": "deleniti"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "quia",
+          "LinkHint": "porro"
         }
       },
-      "LinkHint": "soluta",
-      "StyleHint": "nemo",
-      "TableRight": {},
+      "LinkHint": "veritatis",
+      "StyleHint": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 599
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     }
   ],
-  "RowCount": 507,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RowCount": 255,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 58
     }
   }
 }

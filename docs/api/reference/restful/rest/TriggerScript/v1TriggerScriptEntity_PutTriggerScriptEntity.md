@@ -1,6 +1,6 @@
 ---
 title: PUT TriggerScript/{id}
-id: v1TriggerScriptEntity_PutTriggerScriptEntity
+uid: v1TriggerScriptEntity_PutTriggerScriptEntity
 ---
 
 # PUT TriggerScript/{id}
@@ -11,11 +11,19 @@ PUT /api/v1/TriggerScript/{id}
 
 Updates the existing TriggerScriptEntity
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TriggerScriptEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing TriggerScriptEntity
 ```http
 PUT /api/v1/TriggerScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TriggerScriptEntity to be saved.
+The TriggerScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,24 +61,23 @@ The TriggerScriptEntity to be saved.
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-TriggerScriptEntity entity with API _Links added.
+TriggerScriptEntity updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | TriggerScriptEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -87,7 +95,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/TriggerScript/{id}
@@ -97,51 +105,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 325,
-  "Name": "Jewess-Hand",
+  "ScreenChooserId": 677,
+  "Name": "Schowalter-O'Kon",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "magnam",
-  "Source": "velit",
-  "Registered": "2009-09-03T18:25:51.3181057+02:00",
-  "RegisteredAssociateId": 436,
-  "Updated": "2010-02-14T18:25:51.3181057+01:00",
-  "UpdatedAssociateId": 235
+  "UniqueIdentifier": "quibusdam",
+  "Source": "rerum",
+  "Registered": "2020-02-06T11:10:53.6652124+01:00",
+  "RegisteredAssociateId": 131,
+  "Updated": "2005-12-16T11:10:53.6652124+01:00",
+  "UpdatedAssociateId": 988
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 155,
-  "Name": "Dare, Gulgowski and Rosenbaum",
+  "ScreenChooserId": 191,
+  "Name": "Bechtelar-Connelly",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "unde",
-  "Source": "officiis",
-  "Registered": "2004-02-25T18:25:51.3191055+01:00",
-  "RegisteredAssociateId": 717,
-  "Updated": "2004-10-22T18:25:51.3191055+02:00",
-  "UpdatedAssociateId": 517,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Enabled": false,
+  "UniqueIdentifier": "fuga",
+  "Source": "voluptatem",
+  "Registered": "2011-04-21T11:10:53.6672129+02:00",
+  "RegisteredAssociateId": 666,
+  "Updated": "1996-10-08T11:10:53.6672129+02:00",
+  "UpdatedAssociateId": 156,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "aggregate one-to-one technologies"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 388
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

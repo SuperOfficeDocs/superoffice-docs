@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
-id: v1UserDefinedFieldInfoAgent_GetCustomFieldInfo
+uid: v1UserDefinedFieldInfoAgent_GetCustomFieldInfo
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 
 Return information about a particular custom field (user-defined + extra) on a particular table
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return information about a particular custom field (user-defined + extra) on a p
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, FieldName
+TableName, FieldName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | FieldName | string |  |
 
-## Response: object
 
-Abstract basic information about database fields. May be custom or user-defined fields. The information can be used to build a user interface.
+## Response: 
 
-Carrier object for FieldInfoBase.
-Services for the FieldInfoBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +78,7 @@ Response body: object
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
@@ -83,10 +88,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Reilly-Ondricka",
-  "FieldName": "Auer, Kunde and Wintheiser"
+  "TableName": "Hayes-Grant",
+  "FieldName": "Fahey Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Waelchi-Reynolds",
-  "DisplayName": "Rippin Group",
-  "Description": "Enterprise-wide multi-state matrices",
-  "ShortLabel": "eum",
+  "FieldName": "Volkman-Gusikowski",
+  "DisplayName": "Stroman LLC",
+  "Description": "Proactive bandwidth-monitored challenge",
+  "ShortLabel": "rerum",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": true,
+  "HideField": false,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 691,
-  "TemplateVariableName": "Crist-Keeling"
+  "IsExternal": false,
+  "Rank": 92,
+  "TemplateVariableName": "Little, Effertz and Kilback"
 }
 ```

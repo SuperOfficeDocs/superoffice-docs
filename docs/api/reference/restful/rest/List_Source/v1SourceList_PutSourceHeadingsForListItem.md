@@ -1,6 +1,6 @@
 ---
 title: PUT List/Source/Items/{id}/Headings
-id: v1SourceList_PutSourceHeadingsForListItem
+uid: v1SourceList_PutSourceHeadingsForListItem
 ---
 
 # PUT List/Source/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Source/Items/{itemId}/Headings
 
 Saves headings for the Source list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Upton, Bayer and Rodriguez",
-    "ToolTip": "Quo nulla id perspiciatis labore iste animi.",
+    "Id": 991,
+    "Name": "Larkin Group",
+    "ToolTip": "Aliquam eius.",
     "Deleted": true,
-    "Rank": 527,
-    "Type": "quo",
-    "ColorBlock": 304,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2005-01-05T18:25:52.2696376+01:00",
+    "Rank": 640,
+    "Type": "facere",
+    "ColorBlock": 983,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2001-05-03T11:10:54.6479291+02:00",
     "ChildItems": [
       {
-        "Id": 651,
-        "Name": "Rolfson-Lebsack",
-        "ToolTip": "Omnis sed fuga.",
-        "Deleted": true,
-        "Rank": 116,
-        "Type": "nam",
-        "ColorBlock": 962,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2008-04-29T18:25:52.2696376+02:00",
+        "Id": 753,
+        "Name": "Lakin, Boyle and Windler",
+        "ToolTip": "Dolorem debitis dignissimos officiis laborum aut voluptatem perferendis.",
+        "Deleted": false,
+        "Rank": 874,
+        "Type": "autem",
+        "ColorBlock": 942,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "1996-07-28T11:10:54.6479291+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Mrs. Savanah Rath"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "laudantium",
+        "Hidden": false,
+        "FullName": "Prof. Dillan Kreiger DVM"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "tempora",
+    "ExtraInfo": "qui",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Itzel Friesen"
+    "FullName": "Buster Lemke"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Stamm, Reilly and Ondricka",
-    "ToolTip": "Ratione animi provident voluptas eum sed.",
-    "Deleted": true,
-    "Rank": 662,
-    "Type": "nulla",
-    "ColorBlock": 720,
-    "IconHint": "ipsa",
-    "Selected": true,
-    "LastChanged": "2006-10-11T18:25:52.270637+02:00",
+    "Id": 275,
+    "Name": "Cronin, Leffler and Oberbrunner",
+    "ToolTip": "Fugiat corrupti voluptas in.",
+    "Deleted": false,
+    "Rank": 470,
+    "Type": "quia",
+    "ColorBlock": 226,
+    "IconHint": "magnam",
+    "Selected": false,
+    "LastChanged": "2012-12-31T11:10:54.6499297+01:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Dicki-Wintheiser",
-        "ToolTip": "Et et corrupti nihil voluptas sint.",
+        "Id": 826,
+        "Name": "Schamberger, Swaniawski and Dickinson",
+        "ToolTip": "Nihil corrupti et saepe ut.",
         "Deleted": false,
-        "Rank": 401,
-        "Type": "modi",
-        "ColorBlock": 680,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "1999-08-11T18:25:52.2716367+02:00",
+        "Rank": 770,
+        "Type": "sed",
+        "ColorBlock": 136,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2014-07-08T11:10:54.6499297+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "asperiores",
-        "Hidden": true,
-        "FullName": "Santina Pfannerstill",
-        "TableRight": {},
+        "ExtraInfo": "harum",
+        "StyleHint": "vero",
+        "Hidden": false,
+        "FullName": "Elvie Koepp",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 472
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "numquam",
+    "ExtraInfo": "iure",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Sandy Walker",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "revolutionize clicks-and-mortar e-tailers"
-    },
+    "FullName": "Rozella Walsh",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 598
       }
     }
   }

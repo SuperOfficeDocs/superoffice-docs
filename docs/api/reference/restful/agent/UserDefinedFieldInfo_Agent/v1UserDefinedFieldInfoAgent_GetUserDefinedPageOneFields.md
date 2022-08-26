@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
-id: v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields
+uid: v1UserDefinedFieldInfoAgent_GetUserDefinedPageOneFields
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 
 Get a list of page one fields for given Udef type and current user group
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of page one fields for given Udef type and current user group
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, UserGroupId
+OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | UserGroupId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -91,7 +101,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
@@ -102,9 +112,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 551
+  "UserGroupId": 339
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -112,52 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 467,
-    "ColumnId": 529,
-    "FieldDefault": "earum",
-    "FieldHeight": 517,
-    "FieldLabel": "neque",
-    "FieldLeft": 858,
-    "FieldTop": 721,
+    "UDefFieldId": 527,
+    "ColumnId": 930,
+    "FieldDefault": "reiciendis",
+    "FieldHeight": 519,
+    "FieldLabel": "omnis",
+    "FieldLeft": 77,
+    "FieldTop": 746,
     "FieldType": "Checkbox",
-    "FieldWidth": 749,
-    "FormatMask": "repellendus",
+    "FieldWidth": 329,
+    "FormatMask": "aut",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 641,
-    "LabelLeft": 809,
-    "LabelTop": 426,
-    "LabelWidth": 602,
-    "LastVersionId": 115,
-    "ListTableId": 714,
-    "IsMandatory": true,
+    "LabelHeight": 143,
+    "LabelLeft": 252,
+    "LabelTop": 213,
+    "LabelWidth": 105,
+    "LastVersionId": 573,
+    "ListTableId": 709,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 54,
-    "ProgId": "fuga",
+    "Page1LineNo": 886,
+    "ProgId": "unde",
     "IsReadOnly": false,
-    "ShortLabel": "non",
-    "TabOrder": 25,
-    "TextLength": 860,
-    "Tooltip": "et",
-    "UdefIdentity": 169,
-    "UDListDefinitionId": 375,
+    "ShortLabel": "distinctio",
+    "TabOrder": 188,
+    "TextLength": 625,
+    "Tooltip": "qui",
+    "UdefIdentity": 257,
+    "UDListDefinitionId": 826,
     "Justification": "Center",
-    "Version": 626,
-    "TemplateVariableName": "Howell, Jakubowski and Gorczany",
-    "HasBeenPublished": false,
-    "MdoListName": "Von, Prosacco and Tremblay",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 120,
+    "TemplateVariableName": "Grady-Grady",
+    "HasBeenPublished": true,
+    "MdoListName": "Rolfson-Kulas",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 492
       }
     }
   }

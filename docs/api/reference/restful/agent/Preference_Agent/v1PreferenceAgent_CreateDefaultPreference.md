@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/CreateDefaultPreference
-id: v1PreferenceAgent_CreateDefaultPreference
+uid: v1PreferenceAgent_CreateDefaultPreference
 ---
 
 # POST Agents/Preference/CreateDefaultPreference
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Preference/CreateDefaultPreference
 
 Set default values into a new Preference.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.
+## Response: 
 
-Carrier object for Preference.
-Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,14 +60,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,58 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quis",
-  "Specification": {
-    "Section": "quia",
-    "Key": "voluptatibus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 329
-      }
-    }
-  },
-  "DisplayValue": "ea",
-  "DisplayTooltip": "porro",
+  "RawValue": "molestiae",
+  "Specification": null,
+  "DisplayValue": "expedita",
+  "DisplayTooltip": "qui",
   "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 375,
-    "TabName": "Schinner Group",
-    "Order": "sapiente",
-    "AssociateId": 241,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 859
-      }
-    }
-  },
-  "TargetId": 924,
-  "PrefDescId": 321,
-  "TableName": "Altenwerth, Olson and Stracke",
-  "UserPreferenceId": 556,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TabOrder": null,
+  "TargetId": 158,
+  "PrefDescId": 632,
+  "TableName": "Friesen-Lynch",
+  "UserPreferenceId": 828,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 675
     }
   }
 }

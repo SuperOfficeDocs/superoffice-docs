@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketPriority/Items/Default
-id: v1TicketPriorityList_CreateDefaultTicketPriorityEntity
+uid: v1TicketPriorityList_CreateDefaultTicketPriorityEntity
 ---
 
 # GET List/TicketPriority/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/TicketPriority/Items/Default
 ```
 
 Gets a default TicketPriorityEntity list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default TicketPriorityEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketPriorityEntity.
-Services for the TicketPriorityEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,98 +70,91 @@ Response body: object
 | SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 592,
-  "Name": "Kerluke, Tremblay and Wehner",
+  "TicketPriorityId": 535,
+  "Name": "Sipes Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 329,
+  "SortOrder": 325,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 849,
-  "MonStart": "2012-07-26T18:25:52.309673+02:00",
-  "MonStop": "2019-04-14T18:25:52.309673+02:00",
-  "TueStart": "2005-07-25T18:25:52.309673+02:00",
-  "TueStop": "2012-10-13T18:25:52.309673+02:00",
-  "WedStart": "1997-10-21T18:25:52.309673+02:00",
-  "WedStop": "2008-02-27T18:25:52.309673+01:00",
-  "ThuStart": "2021-01-09T18:25:52.309673+01:00",
-  "ThuStop": "1997-12-24T18:25:52.309673+01:00",
-  "FriStart": "2004-07-25T18:25:52.309673+02:00",
-  "FriStop": "2007-09-21T18:25:52.309673+02:00",
-  "SatStart": "2005-07-04T18:25:52.309673+02:00",
-  "SatStop": "1999-06-07T18:25:52.309673+02:00",
-  "SunStart": "1997-01-03T18:25:52.309673+01:00",
-  "SunStop": "2007-06-14T18:25:52.309673+02:00",
+  "Deadline": 329,
+  "MonStart": "2006-08-27T11:10:54.6849293+02:00",
+  "MonStop": "2012-05-17T11:10:54.6849293+02:00",
+  "TueStart": "1997-09-25T11:10:54.6849293+02:00",
+  "TueStop": "2006-11-16T11:10:54.6849293+01:00",
+  "WedStart": "2001-11-02T11:10:54.6849293+01:00",
+  "WedStop": "2019-10-28T11:10:54.6849293+01:00",
+  "ThuStart": "2019-01-22T11:10:54.6849293+01:00",
+  "ThuStop": "2013-03-22T11:10:54.6849293+01:00",
+  "FriStart": "2015-05-20T11:10:54.6849293+02:00",
+  "FriStop": "1999-12-02T11:10:54.6849293+01:00",
+  "SatStart": "2010-05-20T11:10:54.6849293+02:00",
+  "SatStop": "2022-02-17T11:10:54.6849293+01:00",
+  "SunStart": "2012-04-22T11:10:54.6849293+02:00",
+  "SunStop": "1998-06-19T11:10:54.6849293+02:00",
   "NonDates": [
-    "sed",
-    "optio"
+    "omnis",
+    "aut"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 517,
-      "AlertLevel": 923,
-      "AlertTimeout": 558,
-      "Action": 573,
-      "DelegateTo": 764,
-      "ScriptId": 870,
-      "EmailTo": "delaney.wilkinson@bartellkoch.ca",
-      "SmsTo": "iste",
-      "ReplyTemplateIdCustomer": 325,
-      "ReplyTemplateIdUser": 107,
-      "ReplyTemplateIdCatmast": 586,
-      "ReplyTemplateIdEmail": 48,
-      "RtiCustomerSms": 142,
-      "ReplyTemplateIdUserSms": 976,
-      "ReplyTemplateIdCatmastSms": 561,
-      "ReplyTemplateIdSms": 949,
-      "TableRight": {},
+      "TicketAlertId": 72,
+      "AlertLevel": 884,
+      "AlertTimeout": 721,
+      "Action": 733,
+      "DelegateTo": 475,
+      "ScriptId": 522,
+      "EmailTo": "anahi_bayer@daniel.uk",
+      "SmsTo": "doloremque",
+      "ReplyTemplateIdCustomer": 330,
+      "ReplyTemplateIdUser": 773,
+      "ReplyTemplateIdCatmast": 814,
+      "ReplyTemplateIdEmail": 669,
+      "RtiCustomerSms": 627,
+      "ReplyTemplateIdUserSms": 736,
+      "ReplyTemplateIdCatmastSms": 673,
+      "ReplyTemplateIdSms": 709,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 617
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 68
     }
   }
 }

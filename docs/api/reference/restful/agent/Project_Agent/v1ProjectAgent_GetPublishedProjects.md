@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetPublishedProjects
-id: v1ProjectAgent_GetPublishedProjects
+uid: v1ProjectAgent_GetPublishedProjects
 ---
 
 # POST Agents/Project/GetPublishedProjects
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetPublishedProjects
 
 Get published projects by project ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published projects by project ids.
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Project/GetPublishedProjects?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectIds
+ProjectIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,22 +84,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    724,
-    942
+    166,
+    255
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,36 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 930,
-    "Name": "O'Kon Group",
-    "Description": "Monitored directional model",
+    "ProjectId": 809,
+    "Name": "Kerluke, Ortiz and Hessel",
+    "Description": "Horizontal incremental hardware",
     "URL": "http://www.example.com/",
-    "Type": "aut",
-    "AssociateId": 859,
-    "AssociateFullName": "Ms. Eden Ledner",
-    "TypeId": 68,
-    "Updated": "1996-09-05T18:28:49.7841424+02:00",
-    "StatusId": 52,
-    "Status": "molestias",
-    "TextId": 215,
-    "PublishTo": "2016-06-26T18:28:49.7841424+02:00",
-    "PublishFrom": "2003-04-24T18:28:49.7841424+02:00",
+    "Type": "labore",
+    "AssociateId": 294,
+    "AssociateFullName": "Lessie Thiel",
+    "TypeId": 40,
+    "Updated": "2015-03-18T11:10:27.6234528+01:00",
+    "StatusId": 587,
+    "Status": "fugiat",
+    "TextId": 64,
+    "PublishTo": "2019-10-28T11:10:27.6234528+01:00",
+    "PublishFrom": "2008-03-22T11:10:27.6234528+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1231737",
-    "ActiveErpLinks": 989,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectNumber": "1906152",
+    "ActiveErpLinks": 769,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 104
       }
     }
   }

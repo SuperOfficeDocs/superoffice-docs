@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "project"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -46,6 +46,7 @@ Projects
 |nextMilestoneDate|Calculated date, reflects date of closest non-complete future milestone activity|DateTime|&#x25CF;|
 |nmdAppointment\_id|ID of appointment that &quot;caused&quot; the nextMilestoneDate, can be 0|FK [appointment](appointment.md)|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
+
 
 ![project table relationship diagram](./media/project.png)
 
@@ -87,6 +88,7 @@ Projects
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -97,3 +99,4 @@ Projects
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

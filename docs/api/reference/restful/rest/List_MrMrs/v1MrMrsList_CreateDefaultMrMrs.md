@@ -1,6 +1,6 @@
 ---
 title: GET List/MrMrs/Items/Default
-id: v1MrMrsList_CreateDefaultMrMrs
+uid: v1MrMrsList_CreateDefaultMrMrs
 ---
 
 # GET List/MrMrs/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/MrMrs/Items/Default
 ```
 
 Gets a default MrMrs list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default MrMrs list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,38 +53,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 655,
-  "Name": "Mante-Mosciski",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "UdListDefinitionId": 481,
-  "Rank": 140,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 175,
+  "Name": "Champlin Group",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "UdListDefinitionId": 398,
+  "Rank": 326,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 609
+      "FieldLength": 247
     }
   }
 }

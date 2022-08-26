@@ -13,9 +13,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.CreateDefau
 
 Loading default values into a new ErpSyncConnectorEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
 
 **Returns:** New ErpSyncConnectorEntity with default values
+
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultErpSyncConnectorEntity Response
 
 ```xml
@@ -73,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

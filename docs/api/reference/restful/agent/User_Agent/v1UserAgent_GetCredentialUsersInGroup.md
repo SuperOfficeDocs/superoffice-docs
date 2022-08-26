@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetCredentialUsersInGroup
-id: v1UserAgent_GetCredentialUsersInGroup
+uid: v1UserAgent_GetCredentialUsersInGroup
 ---
 
 # POST Agents/User/GetCredentialUsersInGroup
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup
 
 Get credential users within a user group
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get credential users within a user group
 ```http
 POST /api/v1/Agents/User/GetCredentialUsersInGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, GroupName
+Type, GroupName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | GroupName | string |  |
 
-## Response: object
 
-This is the users within a user group.
+## Response: 
 
-Carrier object for CredentialsGroupUsers.
-Services for the CredentialsGroupUsers Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,20 +73,22 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quo",
-  "GroupName": "Hand LLC"
+  "Type": "saepe",
+  "GroupName": "Keebler, Wintheiser and Upton"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,63 +96,51 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "aliquid",
-    "quasi"
+    "enim",
+    "et"
   ],
   "Users": [
     {
-      "Value": "adipisci",
-      "DisplayValue": "tempora",
+      "Value": "dolorem",
+      "DisplayValue": "provident",
       "Columns": [
-        "et",
-        "rerum"
+        "beatae",
+        "necessitatibus"
       ],
-      "CanCreatePerson": false,
-      "TableRight": {},
+      "CanCreatePerson": true,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 150
         }
       }
     },
     {
-      "Value": "adipisci",
-      "DisplayValue": "tempora",
+      "Value": "dolorem",
+      "DisplayValue": "provident",
       "Columns": [
-        "et",
-        "rerum"
+        "beatae",
+        "necessitatibus"
       ],
-      "CanCreatePerson": false,
-      "TableRight": {},
+      "CanCreatePerson": true,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 150
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

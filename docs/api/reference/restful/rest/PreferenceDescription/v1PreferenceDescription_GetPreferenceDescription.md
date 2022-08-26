@@ -1,6 +1,6 @@
 ---
 title: GET PreferenceDescription/{id}
-id: v1PreferenceDescription_GetPreferenceDescription
+uid: v1PreferenceDescription_GetPreferenceDescription
 ---
 
 # GET PreferenceDescription/{id}
@@ -11,11 +11,17 @@ GET /api/v1/PreferenceDescription/{id}
 
 Gets a PreferenceDescription object.
 
+
 Calls the Preference agent service GetPreferenceDescription.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PreferenceDescription to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Preference agent service GetPreferenceDescription.
 ```http
 GET /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-PreferenceDescription entity with API _Links added.
+PreferenceDescription found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PreferenceDescription found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,55 +83,51 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 45,
-  "Section": "ullam",
-  "Key": "aspernatur",
-  "Name": "Fisher, O'Conner and Rogahn",
+  "PrefDescId": 332,
+  "Section": "hic",
+  "Key": "exercitationem",
+  "Name": "Baumbach, Price and Crooks",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible secondary instruction set",
+  "Description": "Horizontal background adapter",
   "IsBuiltin": false,
-  "TableName": "Koss, Klein and Breitenberg",
-  "UserDefinedListId": 955,
-  "Rank": 787,
-  "SubGroup": "consequatur",
-  "MinLevel": 431,
-  "MaxValue": 93,
-  "MinValue": 283,
-  "RequiredLicense": "ut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableName": "Feest-Hahn",
+  "UserDefinedListId": 334,
+  "Rank": 750,
+  "SubGroup": "necessitatibus",
+  "MinLevel": 539,
+  "MaxValue": 20,
+  "MinValue": 896,
+  "RequiredLicense": "et",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 891
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

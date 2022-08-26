@@ -12,12 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetConnecti
 ## GetConnectionsAndDisplayFields
 
 Get all connection statuses and fields for a given entity
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **crmActorType:** The type of the CRM entity
 * **entityId:** The id of the entity
 
 **Returns:** An array of ErpConnectionData carriers
+
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnectionsAndDisplayFields Response
 
@@ -97,3 +99,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetLicenseFromFile
-id: v1LicenseAgent_GetLicenseFromFile
+uid: v1LicenseAgent_GetLicenseFromFile
 ---
 
 # POST Agents/License/GetLicenseFromFile
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetLicenseFromFile
 
 Load a new license from file
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Load a new license from file
 ```http
 POST /api/v1/Agents/License/GetLicenseFromFile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,21 +42,24 @@ POST /api/v1/Agents/License/GetLicenseFromFile?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FileContent
+FileContent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FileContent | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,19 +70,21 @@ Response body: object
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "cumque"
+  "FileContent": "illum"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,67 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
-  "New": {
-    "CompanyName": "Jerde Group",
-    "SerialNr": "1010000006",
-    "OwnerName": "Rolfson, Rutherford and Lindgren",
-    "OwnerDescription": "Synchronised non-volatile firmware",
-    "NextCheckDate": "2001-04-07T18:28:49.2421182+02:00",
-    "MaintenanceDate": "2013-10-30T18:28:49.2421182+01:00",
-    "AdminWarningDate": "2016-08-18T18:28:49.2421182+02:00",
-    "ExpiryDate": "2007-02-25T18:28:49.2421182+01:00",
-    "GraceDate": "2020-04-15T18:28:49.2421182+02:00",
-    "ExtraFlags": 488,
-    "ExtraInfo": "minus",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "itaque",
-    "DeploymentType": 621,
-    "ProductType": "tenetur",
-    "ProductDescription": "Expanded national service-desk",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "error"
-  },
-  "Current": {
-    "CompanyName": "Shields LLC",
-    "SerialNr": "1010000006",
-    "OwnerName": "Lakin, Littel and Weimann",
-    "OwnerDescription": "Upgradable 4th generation instruction set",
-    "NextCheckDate": "2002-11-27T18:28:49.2421182+01:00",
-    "MaintenanceDate": "2008-06-01T18:28:49.2421182+02:00",
-    "AdminWarningDate": "2004-02-07T18:28:49.2421182+01:00",
-    "ExpiryDate": "2018-12-29T18:28:49.2421182+01:00",
-    "GraceDate": "2016-05-10T18:28:49.2421182+02:00",
-    "ExtraFlags": 447,
-    "ExtraInfo": "rerum",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "dignissimos",
-    "DeploymentType": 756,
-    "ProductType": "excepturi",
-    "ProductDescription": "Monitored fault-tolerant hierarchy",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "et"
-  },
+  "CanBeActivated": true,
+  "New": null,
+  "Current": null,
   "ExtendedModuleLicenses": [
     {
-      "New": {},
-      "Current": {},
-      "NumberOfLicensesInUse": 461,
-      "NumberOfLicensesFree": 624,
-      "NumberOfLicensesAdded": 242,
-      "NumberOfLicensesNewTotal": 923,
-      "NumberOfLicensesNewFree": 151,
-      "NumberOfLicensesTotal": 982
+      "New": null,
+      "Current": null,
+      "NumberOfLicensesInUse": 531,
+      "NumberOfLicensesFree": 154,
+      "NumberOfLicensesAdded": 273,
+      "NumberOfLicensesNewTotal": 803,
+      "NumberOfLicensesNewFree": 936,
+      "NumberOfLicensesTotal": 100
     }
   ],
-  "AccumulatedNextCheckDate": "2006-10-11T18:28:49.2431188+02:00"
+  "AccumulatedNextCheckDate": "2003-02-24T11:10:27.1104558+01:00"
 }
 ```

@@ -1,6 +1,6 @@
 ---
 title: PATCH Project/{id}
-id: v1ProjectEntity_PatchProjectEntity
+uid: v1ProjectEntity_PatchProjectEntity
 ---
 
 # PATCH Project/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Project/{id}
 ```
 
 Update a ProjectEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectEntity.
 ```http
 PATCH /api/v1/Project/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Project/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-The Project Service. The service implements all services working with the Project object
+## Response: 
 
-ProjectEntity entity with API _Links added.
+ProjectEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ ProjectEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ProjectEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,9 +108,9 @@ Response body: object
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
+| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -122,7 +132,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Project/{id}
@@ -134,296 +144,150 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "neque",
-    "value": {
-      "value1": {
-        "PrimaryKey": 6470,
-        "EntityName": "sale",
-        "saleId": 6470,
-        "contactId": 6016,
-        "name": "Jerde, Cummings and Denesik"
-      },
-      "value2": {
-        "PrimaryKey": 6664,
-        "EntityName": "person",
-        "personId": 6664,
-        "fullName": "Jayce Thompson"
-      }
-    }
+    "path": "est",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "neque",
-    "value": {
-      "value1": {
-        "PrimaryKey": 6470,
-        "EntityName": "sale",
-        "saleId": 6470,
-        "contactId": 6016,
-        "name": "Jerde, Cummings and Denesik"
-      },
-      "value2": {
-        "PrimaryKey": 6664,
-        "EntityName": "person",
-        "personId": 6664,
-        "fullName": "Jayce Thompson"
-      }
-    }
+    "path": "est",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ProjectEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 756,
-  "Name": "Eichmann, Doyle and Tremblay",
-  "ProjectNumber": "871177",
+  "ProjectId": 247,
+  "Name": "Pacocha LLC",
+  "ProjectNumber": "511522",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 740,
-      "ContactId": 54,
-      "ProjectId": 234,
-      "ContactName": "Kohler, O'Connell and Kshlerin",
-      "ContactDepartment": "integrate sticky platforms",
-      "ProjectName": "Toy, Kshlerin and Dickinson",
-      "EmailId": 569,
-      "EmailAddress": "philip.willms@bechtelar.biz",
-      "CountryId": 20,
-      "Firstname": "Floyd",
-      "MiddleName": "Smitham-Ratke",
-      "Lastname": "Mertz",
-      "PersonId": 601,
-      "Mrmrs": "veritatis",
-      "ProjectMemberTypeName": "Hayes-Cassin",
-      "Phone": "1-650-106-2182",
-      "PhoneId": 562,
-      "ProjectMemberTypeId": 177,
-      "EmailAddressName": "gussie_berge@pfannerstill.us",
-      "Comment": "quis",
-      "FullName": "Mrs. Erna Morar",
-      "TableRight": {},
+      "ProjectmemberId": 805,
+      "ContactId": 902,
+      "ProjectId": 382,
+      "ContactName": "Okuneva Inc and Sons",
+      "ContactDepartment": "",
+      "ProjectName": "Hand-Lebsack",
+      "EmailId": 12,
+      "EmailAddress": "kayla_abshire@murphy.co.uk",
+      "CountryId": 140,
+      "Firstname": "Jarred",
+      "MiddleName": "Hamill-Emmerich",
+      "Lastname": "Friesen",
+      "PersonId": 243,
+      "Mrmrs": "consequatur",
+      "ProjectMemberTypeName": "Harber, Corkery and D'Amore",
+      "Phone": "(112)234-5712 x607",
+      "PhoneId": 351,
+      "ProjectMemberTypeId": 604,
+      "EmailAddressName": "jorge.bogan@tromp.com",
+      "Comment": "tempore",
+      "FullName": "Prof. Shemar Gracie Hettinger III",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 525
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "dignissimos",
-      "StrippedValue": "aut",
-      "Description": "Profound value-added pricing structure",
-      "TableRight": {},
+      "Value": "omnis",
+      "StrippedValue": "quaerat",
+      "Description": "Profit-focused hybrid moderator",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 614
         }
       }
     },
     {
-      "Value": "dignissimos",
-      "StrippedValue": "aut",
-      "Description": "Profound value-added pricing structure",
-      "TableRight": {},
+      "Value": "omnis",
+      "StrippedValue": "quaerat",
+      "Description": "Profit-focused hybrid moderator",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 614
         }
       }
     }
   ],
-  "CreatedDate": "2020-01-26T18:25:50.8278852+01:00",
-  "UpdatedDate": "2020-04-28T18:25:50.8278852+02:00",
-  "Description": "Total multi-state capability",
-  "Postit": "aut",
-  "CreatedBy": {
-    "AssociateId": 718,
-    "Name": "Schimmel Group",
-    "PersonId": 608,
-    "Rank": 838,
-    "Tooltip": "quia",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 801,
-    "FullName": "Amiya Runolfsson",
-    "FormalName": "Casper Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 734,
-    "UserName": "Gutkowski Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 303
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 115,
-    "Name": "Homenick, Fay and Cole",
-    "PersonId": 656,
-    "Rank": 176,
-    "Tooltip": "similique",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 745,
-    "FullName": "Russell Smith MD",
-    "FormalName": "Hartmann, Windler and Wilkinson",
-    "Deleted": true,
-    "EjUserId": 988,
-    "UserName": "Gleason-Welch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 135
-      }
-    }
-  },
-  "Associate": {
-    "AssociateId": 888,
-    "Name": "Mills Group",
-    "PersonId": 66,
-    "Rank": 697,
-    "Tooltip": "ab",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 93,
-    "FullName": "Burnice McKenzie",
-    "FormalName": "Dooley-Yost",
-    "Deleted": true,
-    "EjUserId": 91,
-    "UserName": "Tremblay, Haley and Kiehn",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph back-end e-tailers"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 522
-      }
-    }
-  },
-  "ProjectStatus": {
-    "Id": 440,
-    "Value": "earum",
-    "Tooltip": "ipsa",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 883
-      }
-    }
-  },
-  "ProjectType": {
-    "Id": 146,
-    "Value": "nisi",
-    "Tooltip": "repellat",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "engineer seamless action-items"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 283
-      }
-    }
-  },
-  "HasImage": false,
-  "ImageDescription": "Programmable encompassing algorithm",
-  "ActiveStatusMonitorId": 820,
+  "CreatedDate": "1998-07-08T11:10:53.304174+02:00",
+  "UpdatedDate": "2018-10-17T11:10:53.304174+02:00",
+  "Description": "Profound discrete attitude",
+  "Postit": "molestiae",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
+  "HasImage": true,
+  "ImageDescription": "Virtual context-sensitive product",
+  "ActiveStatusMonitorId": 292,
   "Links": [
     {
-      "EntityName": "Hilpert-Kirlin",
-      "Id": 595,
-      "Description": "Open-source exuding access",
-      "ExtraInfo": "nihil",
-      "LinkId": 620,
-      "TableRight": {},
+      "EntityName": "McDermott LLC",
+      "Id": 839,
+      "Description": "Implemented asynchronous artificial intelligence",
+      "ExtraInfo": "aut",
+      "LinkId": 392,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldLength": 76
         }
       }
     }
   ],
-  "ActiveLinks": 636,
+  "ActiveLinks": 106,
   "Completed": true,
-  "NextMilestoneDate": "2008-04-19T18:25:50.8298849+02:00",
-  "NmdAppointmentId": 947,
-  "EndDate": "2003-01-15T18:25:50.8298849+01:00",
-  "ActiveErpLinks": 555,
+  "NextMilestoneDate": "2013-02-14T11:10:53.3051739+01:00",
+  "NmdAppointmentId": 675,
+  "EndDate": "2010-03-21T11:10:53.3051739+01:00",
+  "ActiveErpLinks": 524,
   "UserDefinedFields": {
-    "SuperOffice:1": "958869474",
-    "SuperOffice:2": "81392770"
+    "SuperOffice:1": "1839688733",
+    "SuperOffice:2": "Amani Bins"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "est",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "animi"
+    "CustomFields1": "a",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2002-12-10T18:25:50.8298849+01:00",
-  "PublishTo": "2015-10-26T18:25:50.8298849+01:00",
-  "PublishFrom": "2019-03-27T18:25:50.8298849+01:00",
-  "IsPublished": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PublishEventDate": "2002-06-03T11:10:53.3051739+02:00",
+  "PublishTo": "1995-06-08T11:10:53.3051739+02:00",
+  "PublishFrom": "2001-11-01T11:10:53.3051739+01:00",
+  "IsPublished": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 22
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

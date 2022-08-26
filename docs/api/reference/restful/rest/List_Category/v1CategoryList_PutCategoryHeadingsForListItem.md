@@ -1,6 +1,6 @@
 ---
 title: PUT List/Category/Items/{id}/Headings
-id: v1CategoryList_PutCategoryHeadingsForListItem
+uid: v1CategoryList_PutCategoryHeadingsForListItem
 ---
 
 # PUT List/Category/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Category/Items/{itemId}/Headings
 
 Saves headings for the Category list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Streich Inc and Sons",
-    "ToolTip": "Possimus reprehenderit velit.",
+    "Id": 511,
+    "Name": "Schowalter-Emmerich",
+    "ToolTip": "Quis ut exercitationem qui odio quaerat voluptas.",
     "Deleted": true,
-    "Rank": 41,
-    "Type": "et",
-    "ColorBlock": 22,
-    "IconHint": "veniam",
-    "Selected": false,
-    "LastChanged": "2002-03-28T18:25:51.6412945+01:00",
+    "Rank": 518,
+    "Type": "voluptatem",
+    "ColorBlock": 375,
+    "IconHint": "vitae",
+    "Selected": true,
+    "LastChanged": "2003-02-12T11:10:53.9501857+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Wehner LLC",
-        "ToolTip": "Praesentium atque dolorem culpa.",
+        "Id": 367,
+        "Name": "Reilly, Effertz and Fahey",
+        "ToolTip": "Id qui ea necessitatibus qui eveniet.",
         "Deleted": false,
-        "Rank": 994,
-        "Type": "veritatis",
-        "ColorBlock": 801,
-        "IconHint": "aliquid",
+        "Rank": 385,
+        "Type": "eaque",
+        "ColorBlock": 385,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2011-03-29T18:25:51.6412945+02:00",
+        "LastChanged": "2006-06-19T11:10:53.9511859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "iure",
-        "Hidden": false,
-        "FullName": "Loraine Corwin PhD"
+        "ExtraInfo": "quos",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Broderick VonRueden"
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "alias",
+    "ExtraInfo": "vitae",
+    "StyleHint": "sequi",
     "Hidden": true,
-    "FullName": "Selena Heathcote"
+    "FullName": "Mrs. Kasey Kristopher King DVM"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Name": "Jacobi, Smitham and Doyle",
-    "ToolTip": "Eum laborum.",
+    "Id": 127,
+    "Name": "O'Connell-Bosco",
+    "ToolTip": "Omnis dolor.",
     "Deleted": true,
-    "Rank": 155,
-    "Type": "et",
-    "ColorBlock": 456,
-    "IconHint": "perferendis",
+    "Rank": 919,
+    "Type": "eius",
+    "ColorBlock": 542,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2008-08-20T18:25:51.6422945+02:00",
+    "LastChanged": "2018-08-02T11:10:53.9521853+02:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Rempel, Ortiz and Cruickshank",
-        "ToolTip": "Nihil nulla voluptas saepe assumenda et mollitia.",
+        "Id": 372,
+        "Name": "Jenkins LLC",
+        "ToolTip": "Sint deserunt.",
         "Deleted": false,
-        "Rank": 280,
-        "Type": "optio",
-        "ColorBlock": 219,
-        "IconHint": "rerum",
+        "Rank": 677,
+        "Type": "ut",
+        "ColorBlock": 50,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2018-10-29T18:25:51.6422945+01:00",
+        "LastChanged": "2002-06-17T11:10:53.9521853+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "aut",
+        "ExtraInfo": "ullam",
+        "StyleHint": "eaque",
         "Hidden": true,
-        "FullName": "Vita Bechtelar",
-        "TableRight": {},
+        "FullName": "Prof. Raymond Hal Kuvalis",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "engage extensible technologies"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 159
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 877
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "optio",
+    "ExtraInfo": "commodi",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Blaise Beier",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Raven Buckridge",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 758
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST DashTile
-id: v1DashTile_PostDashTile
+uid: v1DashTile_PostDashTile
 ---
 
 # POST DashTile
@@ -11,7 +11,13 @@ POST /api/v1/DashTile
 
 Creates a new DashTile
 
+
 Calls the Dash agent service SaveDashTile.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dash agent service SaveDashTile.
 ```http
 POST /api/v1/DashTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/DashTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DashTile to be saved.
+The DashTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,17 +57,16 @@ The DashTile to be saved.
 | Rank | int32 | Rank order |
 | DashTileDefinition |  | The tile definition entity |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-DashTile entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,97 +80,44 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/DashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 71,
-  "DashboardId": 995,
-  "Height": 368,
-  "Width": 423,
-  "Rank": 779,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 281,
-    "Name": "Klein-Stehr",
-    "Description": "Total 24/7 Graphical User Interface",
-    "DefaultHeight": 373,
-    "DefaultWidth": 421,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Harvey-Mueller",
-    "SelectionId": 183,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "voluptate",
-    "Measure": "Average",
-    "MeasureField": "quo",
-    "SortBy": "voluptatibus",
-    "LayoutConfig": "cupiditate",
-    "SecondarySelectionId": 870,
-    "MeasureByField": "ipsa",
-    "ProviderName": "Crist, Braun and Wuckert"
-  }
+  "DashboardTileId": 559,
+  "DashboardId": 219,
+  "Height": 554,
+  "Width": 127,
+  "Rank": 295,
+  "DashTileDefinition": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 328,
-  "DashboardId": 987,
-  "Height": 840,
-  "Width": 1001,
-  "Rank": 522,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 970,
-    "Name": "Boehm-Ankunding",
-    "Description": "Intuitive multi-tasking encryption",
-    "DefaultHeight": 786,
-    "DefaultWidth": 365,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Kirlin Inc and Sons",
-    "SelectionId": 399,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "accusamus",
-    "Measure": "Average",
-    "MeasureField": "maiores",
-    "SortBy": "aliquid",
-    "LayoutConfig": "recusandae",
-    "SecondarySelectionId": 563,
-    "MeasureByField": "dolores",
-    "ProviderName": "Reinger-Huels",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 289
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 94,
+  "DashboardId": 363,
+  "Height": 285,
+  "Width": 355,
+  "Rank": 608,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   },
   "_Links": {

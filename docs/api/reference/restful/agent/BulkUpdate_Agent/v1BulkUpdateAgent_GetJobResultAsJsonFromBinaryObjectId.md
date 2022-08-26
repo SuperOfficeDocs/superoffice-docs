@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
-id: v1BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
+uid: v1BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
 ---
 
 # POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 
 Get result of the batchupdate job
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get result of the batchupdate job
 ```http
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, BinaryObjectId
+TableName, BinaryObjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | BinaryObjectId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,24 +62,27 @@ TableName, BinaryObjectId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hamill Inc and Sons",
-  "BinaryObjectId": 178
+  "TableName": "Kulas, Tromp and Sipes",
+  "BinaryObjectId": 82
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sint"
+"enim"
 ```

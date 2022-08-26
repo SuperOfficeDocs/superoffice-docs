@@ -17,6 +17,8 @@ Merge two projects into one, removing the source project in the process
 * **destinationProjectId:** Id of destination project to merge to. This project is updated with info from the source.
 * **replaceEmptyFieldsOnDestination:** Fill in empty fields on destination from source?
 
+
+
 [WSDL file for Services87/Project](../Services87-Project.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Merge Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

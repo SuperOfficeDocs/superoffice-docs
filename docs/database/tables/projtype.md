@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjType"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,7 @@ ProjType list table. List of valid Project types.
 |hasGuide|Does this project type have a guide attached|Bool|&#x25CF;|
 |isAutoAdvance|Does the project status advance automatically, when the last guided activity in a status is completed?|Bool|&#x25CF;|
 
+
 ![ProjType table relationship diagram](./media/ProjType.png)
 
 [!include[details](./includes/projtype.md)]
@@ -58,6 +59,7 @@ ProjType list table. List of valid Project types.
 |[ProjTypeGroupLink](projtypegrouplink.md)  |User group link table for ProjType, for MDO item hiding |
 |[ProjTypeHeadingLink](projtypeheadinglink.md)  |Heading link table for ProjType, for MDO headers |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -67,3 +69,4 @@ ProjType list table. List of valid Project types.
 ## Security Flags
 
 * No access control via user's Role.
+

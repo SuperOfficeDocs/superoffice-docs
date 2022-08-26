@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Report/CreateFavorite
-id: v1ReportAgent_CreateFavorite
+uid: v1ReportAgent_CreateFavorite
 ---
 
 # POST Agents/Report/CreateFavorite
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Report/CreateFavorite
 
 Creates the report as favorite.
 
+
 The sourceId is the key to the report that the favorite is based on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The sourceId is the key to the report that the favorite is based on.
 ```http
 POST /api/v1/Agents/Report/CreateFavorite?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Report/CreateFavorite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceId, Name, Description
+SourceId, Name, Description 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,16 +54,16 @@ SourceId, Name, Description
 | Name | string |  |
 | Description | string |  |
 
-## Response: object
 
-Carrier object for ReportEntity.
-Services for the ReportEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,47 +78,43 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 641,
-  "Name": "Shanahan-Becker",
-  "Description": "Triple-buffered zero defect protocol"
+  "SourceId": 207,
+  "Name": "Kessler-Champlin",
+  "Description": "Reverse-engineered stable policy"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 123,
+  "ReportId": 362,
   "ReportCategory": "All",
-  "Description": "Cross-platform composite flexibility",
+  "Description": "Re-engineered scalable moratorium",
   "ReportLayout": "CalendarMonth",
-  "Name": "Dicki-Gleason",
-  "AssociateId": 937,
-  "TemplateId": 540,
+  "Name": "Eichmann LLC",
+  "AssociateId": 107,
+  "TemplateId": 565,
   "Published": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 472
     }
   }
 }

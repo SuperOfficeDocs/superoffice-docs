@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholder
-id: v1SaleAgent_GetSaleStakeholder
+uid: v1SaleAgent_GetSaleStakeholder
 ---
 
 # POST Agents/Sale/GetSaleStakeholder
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSaleStakeholder
 
 Gets a SaleStakeholder object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=461
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=827
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleStakeholder.
-Services for the SaleStakeholder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +78,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSaleStakeholder
@@ -80,42 +87,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jacobs LLC",
-  "Comment": "eos",
-  "StakeholderRoleId": 212,
-  "CountryId": 47,
-  "PersonId": 661,
-  "EmailDescription": "marcella@bins.co.uk",
-  "EmailId": 620,
-  "EmailAddress": "ashly@orngleichner.com",
-  "PhoneId": 580,
-  "ContactName": "Stanton Group",
-  "ContactId": 901,
-  "SaleId": 688,
-  "Mrmrs": "et",
-  "Firstname": "Agustin",
-  "MiddleName": "Ziemann-Willms",
-  "Lastname": "Lang",
-  "SaleStakeholderId": 596,
-  "Rank": 561,
-  "Phone": "484-077-8616 x55443",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "utilize transparent convergence"
-  },
+  "StakeholderRoleName": "Schimmel LLC",
+  "Comment": "facilis",
+  "StakeholderRoleId": 934,
+  "CountryId": 334,
+  "PersonId": 511,
+  "EmailDescription": "dorothea.simonis@hermann.us",
+  "EmailId": 658,
+  "EmailAddress": "chloe.bashirian@heller.uk",
+  "PhoneId": 417,
+  "ContactName": "Heaney Group",
+  "ContactId": 980,
+  "SaleId": 120,
+  "Mrmrs": "consequatur",
+  "Firstname": "Viviane",
+  "MiddleName": "Upton-Nolan",
+  "Lastname": "Runte",
+  "SaleStakeholderId": 505,
+  "Rank": 421,
+  "Phone": "(397)604-5794 x729",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "envisioneer viral content"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldLength": 485
     }
   }
 }

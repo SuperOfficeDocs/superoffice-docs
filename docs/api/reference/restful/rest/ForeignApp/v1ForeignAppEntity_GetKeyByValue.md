@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
-id: v1ForeignAppEntity_GetKeyByValue
+uid: v1ForeignAppEntity_GetKeyByValue
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
@@ -11,12 +11,18 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 
 Get a foreignkey based on its name and value, that belongs to the specified device and application.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | keyName | string | The name of the foreign key. **Required** |
-| tableName | string | Table name, transformed to and from numeric table id by the service layer.<br />Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+| tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,8 +31,9 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=necessitatibus
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=adipisci
 ```
+
 
 ## Request Headers
 
@@ -41,16 +48,16 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,41 +72,37 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 20 Nov 2014 18:25:50 G11T
+Last-Modified: Sun, 09 Apr 2017 11:10:52 G4T
 
 {
-  "Key": "ut",
-  "Value": "fuga",
-  "RecordId": 531,
-  "CreatedDate": "1999-05-31T18:25:50.5765972+02:00",
-  "UpdatedDate": "2014-11-20T18:25:50.5765972+01:00",
-  "UpdatedBy": "harum",
-  "CreatedBy": "dignissimos",
-  "TableName": "Greenfelder-Kautzer",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "quibusdam",
+  "Value": "aliquam",
+  "RecordId": 506,
+  "CreatedDate": "2021-02-23T11:10:52.910174+01:00",
+  "UpdatedDate": "2017-04-09T11:10:52.910174+02:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "rerum",
+  "TableName": "Gislason LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

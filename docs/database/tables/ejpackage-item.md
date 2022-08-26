@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejpackage_item"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ This table stores info on installed packages in the system
 |ref\_name|Used to reference the item in installscript|String(255)|&#x25CF;|
 |parent\_id|The parent for this package item link. -1 if this is a toplevel item link.|FK [ejpackage_item](ejpackage-item.md)| |
 
+
 ![ejpackage_item table relationship diagram](./media/ejpackage_item.png)
 
 [!include[details](./includes/ejpackage-item.md)]
@@ -50,6 +51,7 @@ This table stores info on installed packages in the system
 |[ejpackage](ejpackage.md)  |This table stores packages on the system. |
 |[ejpackage\_item](ejpackage-item.md)  |This table stores info on installed packages in the system |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ This table stores info on installed packages in the system
 ## Security Flags
 
 * No access control via user's Role.
+

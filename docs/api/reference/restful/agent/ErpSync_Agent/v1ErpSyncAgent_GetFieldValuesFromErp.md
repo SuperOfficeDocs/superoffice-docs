@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetFieldValuesFromErp
-id: v1ErpSyncAgent_GetFieldValuesFromErp
+uid: v1ErpSyncAgent_GetFieldValuesFromErp
 ---
 
 # POST Agents/ErpSync/GetFieldValuesFromErp
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 
 Get Erp Field values
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get Erp Field values
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ActorTypeErp, ErpKey
+ErpConnectionId, ActorTypeErp, ErpKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,10 @@ ErpConnectionId, ActorTypeErp, ErpKey
 | ActorTypeErp | string |  |
 | ErpKey | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -66,21 +78,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 36,
+  "ErpConnectionId": 798,
   "ActorTypeErp": "Customer",
-  "ErpKey": "neque"
+  "ErpKey": "nesciunt"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,24 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Cronin, Mohr and Erdman",
-    "CrmFieldKey": "id",
-    "Value": "et",
-    "DisplayValue": "placeat",
-    "SyncToCrm": true,
+    "DisplayName": "Bradtke-Cormier",
+    "CrmFieldKey": "delectus",
+    "Value": "tempora",
+    "DisplayValue": "accusantium",
+    "SyncToCrm": false,
     "SyncToErp": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   }

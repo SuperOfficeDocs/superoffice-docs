@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejuser"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -68,6 +68,7 @@ This table contains entries for the users of the system.
 |time\_format\_string|Chosen time format as a string for this user|String(64)|&#x25CF;|
 |date\_format\_long\_string|Chosen date format for lists as a string for this user|String(64)|&#x25CF;|
 |chat\_status|Various chat statuses for an agent|Enum [ChatStatus](enums/chatstatus.md)|&#x25CF;|
+
 
 ![ejuser table relationship diagram](./media/ejuser.png)
 
@@ -134,6 +135,7 @@ This table contains entries for the users of the system.
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 |[user\_attribute](user-attribute.md)  |This table is used for storing various attributes for users. |
 
+
 ## Replication Flags
 
 * None
@@ -141,3 +143,4 @@ This table contains entries for the users of the system.
 ## Security Flags
 
 * No access control via user's Role.
+

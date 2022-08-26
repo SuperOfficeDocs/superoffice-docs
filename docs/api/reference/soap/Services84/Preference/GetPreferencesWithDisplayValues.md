@@ -22,6 +22,7 @@ You can also have askerisk as the section name. In that case the specification a
 **Returns:** Array of preference values for your given specification(s). More strictly:
 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere.<br />The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
 
+
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPreferencesWithDisplayValues Response
 
@@ -101,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
-id: v1BatchAgent_GetBatchTaskInfosByAssociatesAndState
+uid: v1BatchAgent_GetBatchTaskInfosByAssociatesAndState
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByAssociatesAndState
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 
 Get an array of BatchTaskInfo for the provided associate id's and batch task state.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of BatchTaskInfo for the provided associate id's and batch task sta
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds, State
+AssociateIds, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
 | State | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -78,23 +88,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    732,
-    11
+    29,
+    781
   ],
   "State": "All"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,42 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Becker Group",
-    "AssociateId": 761,
-    "DetailsTable": 834,
-    "DetailsRecord": 614,
+    "Id": 28,
+    "Name": "Ortiz-Dickens",
+    "AssociateId": 499,
+    "DetailsTable": 80,
+    "DetailsRecord": 100,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "dolores"
+      "ParameterObject1": "velit",
+      "ParameterObject2": "ratione"
     },
-    "LastStarted": "1998-04-17T18:28:48.147545+02:00",
-    "Created": "2006-08-23T18:28:48.147545+02:00",
-    "StartCount": 292,
-    "DatabaseSerialNumber": "809263",
-    "Context": "sit",
-    "Result": "enim",
+    "LastStarted": "2001-05-01T11:10:26.0225604+02:00",
+    "Created": "2007-12-13T11:10:26.0225604+01:00",
+    "StartCount": 285,
+    "DatabaseSerialNumber": "1776353",
+    "Context": "molestiae",
+    "Result": "distinctio",
     "State": "All",
-    "Description": "Reduced demand-driven projection",
-    "Response": "quia",
-    "Request": "enim",
-    "ProgressDescription": "Exclusive client-server circuit",
-    "ProgressPercent": 310,
-    "FileName": "Yost-Gislason",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Public-key national utilisation",
+    "Response": "alias",
+    "Request": "ipsum",
+    "ProgressDescription": "Balanced value-added groupware",
+    "ProgressPercent": 171,
+    "FileName": "Mante, Stoltenberg and Sipes",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 204
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 933
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetActivityFilter
-id: v1ArchiveAgent_GetActivityFilter
+uid: v1ArchiveAgent_GetActivityFilter
 ---
 
 # POST Agents/Archive/GetActivityFilter
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Archive/GetActivityFilter
 
 Get activity filter for the specified list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get activity filter for the specified list.
 ```http
 POST /api/v1/Agents/Archive/GetActivityFilter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/Archive/GetActivityFilter?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Activity list filter information.
+## Response: 
 
-Carrier object for ActivityFilter.
-Services for the ActivityFilter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +62,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetActivityFilter
@@ -66,121 +71,108 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2009-08-02T18:28:48.0898508+02:00",
-  "ToDate": "1998-05-28T18:28:48.0898508+02:00",
+  "FromDate": "2001-11-09T11:10:25.9585225+01:00",
+  "ToDate": "2022-01-10T11:10:25.9585225+01:00",
   "AssociateList": [
     {
-      "Id": 936,
-      "Name": "Swift-Borer",
-      "ToolTip": "Debitis impedit.",
-      "Deleted": true,
-      "Rank": 289,
-      "Type": "sed",
-      "ColorBlock": 802,
-      "IconHint": "fugit",
+      "Id": 476,
+      "Name": "Gibson Inc and Sons",
+      "ToolTip": "Temporibus quia perferendis sint repellat et dolorum.",
+      "Deleted": false,
+      "Rank": 232,
+      "Type": "ut",
+      "ColorBlock": 935,
+      "IconHint": "voluptas",
       "Selected": false,
-      "LastChanged": "2003-08-14T18:28:48.0898508+02:00",
+      "LastChanged": "2008-03-06T11:10:25.9585225+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellendus",
-      "StyleHint": "ab",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "rem",
       "Hidden": false,
-      "FullName": "Ms. Dylan Kshlerin",
-      "TableRight": {},
+      "FullName": "Marietta Gislason",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 153
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 640
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 826,
-      "Name": "Ziemann LLC",
-      "ToolTip": "Ex perferendis nesciunt.",
-      "Deleted": true,
-      "Rank": 581,
-      "Type": "quae",
-      "ColorBlock": 758,
-      "IconHint": "ex",
+      "Id": 207,
+      "Name": "Wisoky-Kutch",
+      "ToolTip": "Et voluptatem minima ratione nihil quas sunt.",
+      "Deleted": false,
+      "Rank": 845,
+      "Type": "non",
+      "ColorBlock": 907,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "1998-04-21T18:28:48.0898508+02:00",
+      "LastChanged": "2003-05-15T11:10:25.9585225+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perferendis",
-      "StyleHint": "enim",
+      "ExtraInfo": "odit",
+      "StyleHint": "odio",
       "Hidden": false,
-      "FullName": "Delia Jacobi",
-      "TableRight": {},
+      "FullName": "Archibald Abernathy IV",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldLength": 418
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 607,
-      "Name": "Hand Group",
-      "ToolTip": "Laudantium minus quia.",
+      "Id": 13,
+      "Name": "Schaefer LLC",
+      "ToolTip": "Adipisci architecto nobis maxime modi quae.",
       "Deleted": true,
-      "Rank": 498,
-      "Type": "eos",
+      "Rank": 629,
+      "Type": "illum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "animi",
-      "ColorBlock": 207,
-      "ExtraInfo": "alias",
-      "StyleHint": "in",
-      "FullName": "Monique Mraz DDS",
-      "TableRight": {},
+      "IconHint": "vel",
+      "ColorBlock": 380,
+      "ExtraInfo": "eveniet",
+      "StyleHint": "totam",
+      "FullName": "Jeramie Gerlach",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 111
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 655
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldLength": 888
     }
   }
 }

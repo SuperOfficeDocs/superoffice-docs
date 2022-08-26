@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteEntityFromSaleId
-id: v1QuoteAgent_GetQuoteEntityFromSaleId
+uid: v1QuoteAgent_GetQuoteEntityFromSaleId
 ---
 
 # POST Agents/Quote/GetQuoteEntityFromSaleId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 
 Get a Quote for a sale
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a Quote for a sale
 ```http
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
-## Response: object
 
-Quote methods
+## Response: 
 
-Carrier object for QuoteEntity.
-Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +79,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
@@ -84,94 +89,89 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 164
+  "SaleId": 652
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 261,
-  "SaleId": 335,
-  "QuoteConnectionId": 565,
-  "ERPQuoteKey": "numquam",
-  "ERPOrderKey": "nihil",
-  "ActiveQuoteVersionId": 258,
-  "AcceptedQuoteAlternativeId": 332,
-  "UseValuesFromQuote": 944,
-  "DocumentId": 749,
-  "PoNumber": "719795",
-  "OrderComment": "sint",
-  "PreferredEmailCulture": "violette@fritsch.co.uk",
+  "QuoteId": 136,
+  "SaleId": 553,
+  "QuoteConnectionId": 400,
+  "ERPQuoteKey": "aliquid",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 450,
+  "AcceptedQuoteAlternativeId": 303,
+  "UseValuesFromQuote": 150,
+  "DocumentId": 583,
+  "PoNumber": "871225",
+  "OrderComment": "similique",
+  "PreferredEmailCulture": "irma_wisoky@boyer.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 485,
-      "ERPQuoteVersionKey": "et",
-      "QuoteId": 702,
-      "Description": "Optional intermediate policy",
-      "Number": "665504",
+      "QuoteVersionId": 957,
+      "ERPQuoteVersionKey": "excepturi",
+      "QuoteId": 1002,
+      "Description": "Reactive user-facing function",
+      "Number": "1084397",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 919,
-      "SentDate": "2001-08-12T18:28:49.951107+02:00",
-      "FollowupId": 254,
-      "ExpirationDate": "2006-01-16T18:28:49.951107+01:00",
-      "DeliveryCountryId": 390,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 165,
+      "LikelyQuoteAlternativeId": 576,
+      "SentDate": "2011-05-29T11:10:27.7184953+02:00",
+      "FollowupId": 781,
+      "ExpirationDate": "2020-11-28T11:10:27.7184953+01:00",
+      "DeliveryCountryId": 662,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 212,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "voluptatum",
-      "ERPPaymentTypeKey": "numquam",
-      "ERPDeliveryTermsKey": "dolores",
-      "ERPDeliveryTypeKey": "eveniet",
-      "Rank": 333,
-      "ApprovedBy": 429,
-      "ApprovedText": "veniam",
-      "ApprovedRegisteredBy": 723,
-      "ApprovedRegisteredDate": "2000-08-21T18:28:49.951107+02:00",
-      "ExtraField1": "quia",
-      "ExtraField2": "expedita",
-      "ExtraField3": "est",
-      "ExtraField4": "itaque",
-      "ExtraField5": "dolores",
-      "LastRecalculated": "2008-01-19T18:28:49.951107+01:00",
-      "Updated": "2010-12-06T18:28:49.951107+01:00",
-      "UpdatedAssociateId": 807,
-      "Registered": "2000-09-04T18:28:49.951107+02:00",
-      "RegisteredAssociateId": 914,
+      "ERPPaymentTermsKey": "est",
+      "ERPPaymentTypeKey": "praesentium",
+      "ERPDeliveryTermsKey": "et",
+      "ERPDeliveryTypeKey": "quis",
+      "Rank": 405,
+      "ApprovedBy": 397,
+      "ApprovedText": "veritatis",
+      "ApprovedRegisteredBy": 372,
+      "ApprovedRegisteredDate": "2018-11-12T11:10:27.7194947+01:00",
+      "ExtraField1": "sed",
+      "ExtraField2": "est",
+      "ExtraField3": "laboriosam",
+      "ExtraField4": "alias",
+      "ExtraField5": "et",
+      "LastRecalculated": "2015-02-08T11:10:27.7194947+01:00",
+      "Updated": "2000-01-21T11:10:27.7194947+01:00",
+      "UpdatedAssociateId": 589,
+      "Registered": "2001-04-19T11:10:27.7194947+02:00",
+      "RegisteredAssociateId": 942,
+      "RequestAssociateId": 445,
+      "RequestComment": "maxime",
       "QuoteAlternatives": [
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "target transparent technologies"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 979
     }
   }
 }

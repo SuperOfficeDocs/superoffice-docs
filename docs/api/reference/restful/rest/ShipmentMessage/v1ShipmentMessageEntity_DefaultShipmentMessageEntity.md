@@ -1,6 +1,6 @@
 ---
 title: GET ShipmentMessage/default
-id: v1ShipmentMessageEntity_DefaultShipmentMessageEntity
+uid: v1ShipmentMessageEntity_DefaultShipmentMessageEntity
 ---
 
 # GET ShipmentMessage/default
@@ -11,7 +11,14 @@ GET /api/v1/ShipmentMessage/default
 
 Set default values into a new ShipmentMessageEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Marketing agent service CreateDefaultShipmentMessageEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A shipment message, that contains the actual message being sent out in a mailing
+## Response: 
 
-Carrier object for ShipmentMessageEntity.
-Services for the ShipmentMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,53 +70,49 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 617,
-  "PlainMessage": "quia",
-  "HtmlMessage": "eligendi",
-  "SmsMessage": "voluptatem",
-  "Description": "Customizable even-keeled core",
-  "Subject": "est",
-  "FolderId": 157,
-  "HeaderField": "animi",
-  "Design": "iure",
+  "ShipmentMessageId": 420,
+  "PlainMessage": "expedita",
+  "HtmlMessage": "corporis",
+  "SmsMessage": "aut",
+  "Description": "Progressive stable projection",
+  "Subject": "blanditiis",
+  "FolderId": 556,
+  "HeaderField": "possimus",
+  "Design": "perferendis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Operative global framework",
-  "AccessKey": "vel",
-  "DocumentMessage": 576,
-  "Registered": "2019-03-27T18:25:51.1109444+01:00",
-  "RegisteredAssociateId": 66,
-  "Updated": "2019-07-01T18:25:51.1109444+02:00",
-  "UpdatedAssociateId": 643,
-  "UpdatedCount": 770,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Seamless disintermediate knowledge base",
+  "AccessKey": "aliquid",
+  "DocumentMessage": 635,
+  "Registered": "2014-04-01T11:10:53.5231801+02:00",
+  "RegisteredAssociateId": 531,
+  "Updated": "2016-04-26T11:10:53.5231801+02:00",
+  "UpdatedAssociateId": 249,
+  "UpdatedCount": 379,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   }
 }

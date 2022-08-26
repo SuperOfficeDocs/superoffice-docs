@@ -1,6 +1,6 @@
 ---
 title: GET Role/{id}/FunctionRight
-id: v1RoleEntity_GetFunctionalRights
+uid: v1RoleEntity_GetFunctionalRights
 ---
 
 # GET Role/{id}/FunctionRight
@@ -11,13 +11,21 @@ GET /api/v1/Role/{roleId}/FunctionRight
 
 Get all functional rights for the given role.
 
+
 Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleId | int32 | The role id to get the functional rights for. **Required** |
+
+
 
 ## Request Headers
 
@@ -32,7 +40,10 @@ Functional rights not set on the role are not included. MDO List name = 'Functio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -75,65 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Lind-Corkery",
-    "ToolTip": "Architecto facilis sed mollitia consequatur aut consequatur.",
+    "Id": 124,
+    "Name": "Wilderman LLC",
+    "ToolTip": "Voluptatem consequatur cum nihil asperiores.",
     "Deleted": false,
-    "Rank": 980,
-    "Type": "cupiditate",
-    "ColorBlock": 364,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2015-04-26T18:25:50.8778837+02:00",
+    "Rank": 802,
+    "Type": "accusamus",
+    "ColorBlock": 642,
+    "IconHint": "ducimus",
+    "Selected": false,
+    "LastChanged": "1999-10-07T11:10:53.3631692+02:00",
     "ChildItems": [
       {
-        "Id": 440,
-        "Name": "Abshire Inc and Sons",
-        "ToolTip": "Expedita blanditiis officia ut dicta voluptatem.",
-        "Deleted": false,
-        "Rank": 785,
-        "Type": "aliquid",
-        "ColorBlock": 584,
-        "IconHint": "qui",
+        "Id": 342,
+        "Name": "Smitham Inc and Sons",
+        "ToolTip": "Et quos id.",
+        "Deleted": true,
+        "Rank": 971,
+        "Type": "voluptatum",
+        "ColorBlock": 539,
+        "IconHint": "eum",
         "Selected": true,
-        "LastChanged": "2007-10-28T18:25:50.8778837+01:00",
+        "LastChanged": "1996-10-14T11:10:53.3631692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Ebba Conroy",
-        "TableRight": {},
+        "ExtraInfo": "aliquam",
+        "StyleHint": "cum",
+        "Hidden": true,
+        "FullName": "Shanie Schmeler",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "sit",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dexter Jewess I",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Ms. Tiffany Reichert PhD",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 250
       }
     }
   }

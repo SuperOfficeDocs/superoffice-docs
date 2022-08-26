@@ -17,6 +17,7 @@ Gets the next due date for a sale. The next due date is the next future appointm
 
 **Returns:** Next due date for the given sale.
 
+
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNextDueDate Response
 
 ```xml
@@ -63,9 +65,10 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Sale="http://www.superoffice.net/ws/crm/NetServer/Services87">
  <SOAP-ENV:Body>
   <Sale:GetNextDueDateResponse>
-   <Sale:Response xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Sale:Response>
+   <Sale:Response xsi:type="xsd:dateTime">2022-08-26T08:57:51Z</Sale:Response>
   </Sale:GetNextDueDateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

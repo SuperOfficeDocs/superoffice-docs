@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectEvent
-id: v1ProjectAgent_GetProjectEvent
+uid: v1ProjectAgent_GetProjectEvent
 ---
 
 # POST Agents/Project/GetProjectEvent
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEvent
 
 Gets a ProjectEvent object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=968
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=898
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A project that is also an event. Used by Audience
+## Response: 
 
-Carrier object for ProjectEvent.
-Services for the ProjectEvent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,54 +81,50 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Audreanne Bernier",
-  "Description": "Implemented eco-centric product",
-  "ProjectId": 145,
-  "EventName": "Anderson-Homenick",
-  "AssociateId": 35,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "debitis",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "cumque",
-  "SignOnText": "dolor",
-  "EventDate": "2013-12-14T18:28:49.9011327+01:00",
-  "Enabled": true,
+  "AssociateFullName": "Melvina Towne",
+  "Description": "Future-proofed hybrid policy",
+  "ProjectId": 945,
+  "EventName": "Hansen, Wintheiser and Leuschke",
+  "AssociateId": 417,
+  "IsSignedOn": true,
+  "SignOffConfirmationText": "et",
+  "SignOffText": "voluptatum",
+  "SignOnConfirmationText": "tempora",
+  "SignOnText": "et",
+  "EventDate": "1999-03-02T11:10:27.6064546+01:00",
+  "Enabled": false,
   "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOnTaskEnable": true,
-  "SignOn": false,
-  "SignOffTaskId": 291,
-  "SignOnTaskId": 418,
+  "SignOffTaskEnable": false,
+  "SignOnTaskEnable": false,
+  "SignOn": true,
+  "SignOffTaskId": 364,
+  "SignOnTaskId": 592,
   "SignOffTriggersAssign": false,
   "SignOnTriggersAssign": true,
-  "SignOnPersonId": 92,
-  "SignOffPersonId": 430,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SignOnPersonId": 767,
+  "SignOffPersonId": 781,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 378
     }
   }
 }

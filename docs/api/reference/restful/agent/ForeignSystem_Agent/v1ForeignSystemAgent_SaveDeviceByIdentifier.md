@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/SaveDeviceByIdentifier
-id: v1ForeignSystemAgent_SaveDeviceByIdentifier
+uid: v1ForeignSystemAgent_SaveDeviceByIdentifier
 ---
 
 # POST Agents/ForeignSystem/SaveDeviceByIdentifier
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 
 Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Updates a ForeignDevice with deviceName that belongs to the application with app
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,29 +42,27 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice
+ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
-| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <br /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 
-## Response: object
 
-Saves a foreign device belonging to the ForeignDevice and application name specified.
+## Response: 
 
-Carrier object for ForeignDevice.
-Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,59 +78,45 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Toy-Rutherford",
-  "DeviceName": "Haag Inc and Sons",
-  "DeviceIdentifier": "ab",
-  "ForeignDevice": {
-    "ForeignDeviceId": 327,
-    "Name": "Gutkowski-Boehm",
-    "CreatedDate": "2000-07-20T18:28:49.210088+02:00",
-    "UpdatedDate": "2004-11-09T18:28:49.210088+01:00",
-    "AssociateFullName": "Elton Hettinger",
-    "CreatedBy": "non",
-    "UpdatedBy": "consequatur",
-    "DeviceIdentifier": "et",
-    "ForeignAppId": 220
-  }
+  "ApplicationName": "Casper-Dickens",
+  "DeviceName": "Ondricka, Dibbert and Ritchie",
+  "DeviceIdentifier": "molestiae",
+  "ForeignDevice": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 757,
-  "Name": "Hessel, Brakus and White",
-  "CreatedDate": "2012-03-31T18:28:49.2110989+02:00",
-  "UpdatedDate": "2007-09-05T18:28:49.2110989+02:00",
-  "AssociateFullName": "Audreanne Gislason",
-  "CreatedBy": "atque",
-  "UpdatedBy": "ullam",
-  "DeviceIdentifier": "itaque",
-  "ForeignAppId": 602,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ForeignDeviceId": 485,
+  "Name": "Pacocha, Dietrich and Dare",
+  "CreatedDate": "2000-01-06T11:10:27.0804546+01:00",
+  "UpdatedDate": "1997-02-26T11:10:27.0804546+01:00",
+  "AssociateFullName": "Mrs. Chaya Ray Schumm",
+  "CreatedBy": "et",
+  "UpdatedBy": "asperiores",
+  "DeviceIdentifier": "dignissimos",
+  "ForeignAppId": 650,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 665
     }
   }
 }

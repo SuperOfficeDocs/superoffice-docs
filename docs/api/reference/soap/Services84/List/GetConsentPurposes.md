@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetConsentPurp
 
 Returns all defined purposes.
 
+
 **Returns:** An array of all defined purposes
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConsentPurposes Response
 
 ```xml
@@ -69,7 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:Key xsi:type="xsd:string"></List:Key>
      <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
      <List:Active xsi:type="xsd:short">0</List:Active>
-     <List:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:13Z</List:UpdatedDate>
+     <List:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:UpdatedDate>
      <List:UpdatedBy xsi:type="List:Associate">
       <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
       <List:Name xsi:type="xsd:string"></List:Name>
@@ -94,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

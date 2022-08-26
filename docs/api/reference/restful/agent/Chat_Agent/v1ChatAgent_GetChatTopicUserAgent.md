@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/GetChatTopicUserAgent
-id: v1ChatAgent_GetChatTopicUserAgent
+uid: v1ChatAgent_GetChatTopicUserAgent
 ---
 
 # POST Agents/Chat/GetChatTopicUserAgent
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgent
 
 Get a user assigned to a topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a user assigned to a topic
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgent?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId, Username
+ChatTopicId, Username 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Username | string |  |
 
-## Response: object
 
-User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
+## Response: 
 
-Carrier object for ChatTopicAgent.
-Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,55 +71,33 @@ Response body: object
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 995,
-  "Username": "et"
+  "ChatTopicId": 470,
+  "Username": "nihil"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 829,
-  "User": {
-    "AssociateId": 846,
-    "Name": "Batz, Swift and Kessler",
-    "PersonId": 994,
-    "Rank": 345,
-    "Tooltip": "dicta",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 672,
-    "FullName": "Kenyatta Dickinson",
-    "FormalName": "Romaguera-Romaguera",
-    "Deleted": true,
-    "EjUserId": 725,
-    "UserName": "Schiller-Runolfsdottir",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 224
-      }
-    }
-  },
+  "TopicId": 631,
+  "User": null,
   "CanListen": false,
   "CanRespond": true,
-  "CanManage": true,
-  "CanNotify": true
+  "CanManage": false,
+  "CanNotify": false
 }
 ```

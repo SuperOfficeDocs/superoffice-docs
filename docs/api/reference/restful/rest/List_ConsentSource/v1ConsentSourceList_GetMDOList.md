@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentSource/MDOItems
-id: v1ConsentSourceList_GetMDOList
+uid: v1ConsentSourceList_GetMDOList
 ---
 
 # GET List/ConsentSource/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ConsentSource/MDOItems
 
 Get the MDO list items for "ConsentSource" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=tenetur
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=rem
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ConsentSource/MDOItems?query=tenetur
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Johnson-White",
-    "ToolTip": "Repellendus est ducimus quas totam magnam.",
-    "Deleted": true,
-    "Rank": 76,
-    "Type": "nihil",
+    "Id": 135,
+    "Name": "Bode, Koch and Konopelski",
+    "ToolTip": "Debitis sunt sed inventore sequi eum.",
+    "Deleted": false,
+    "Rank": 891,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Ratke-Rau",
-        "ToolTip": "Et quo labore.",
-        "Deleted": false,
-        "Rank": 287,
-        "Type": "dolores",
+        "Id": 641,
+        "Name": "Beier Inc and Sons",
+        "ToolTip": "Quia eum id asperiores et at officia.",
+        "Deleted": true,
+        "Rank": 384,
+        "Type": "mollitia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 261,
-        "ExtraInfo": "et",
-        "StyleHint": "doloremque",
-        "FullName": "Antoinette Barrows",
-        "TableRight": {},
+        "IconHint": "soluta",
+        "ColorBlock": 269,
+        "ExtraInfo": "ullam",
+        "StyleHint": "ut",
+        "FullName": "Polly Torphy",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 619
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 91
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 402,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "et",
-    "FullName": "Jose Bins",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "deploy bricks-and-clicks portals"
-    },
+    "IconHint": "quibusdam",
+    "ColorBlock": 609,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "qui",
+    "FullName": "Prof. Caden Parker",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 989
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 310
       }
     }
   }

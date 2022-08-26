@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/CreateUserGroup
-id: v1UserAgent_CreateUserGroup
+uid: v1UserAgent_CreateUserGroup
 ---
 
 # POST Agents/User/CreateUserGroup
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/CreateUserGroup
 
 Create UserGroup (Rank is assigned to the highest rank)
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create UserGroup (Rank is assigned to the highest rank)
 ```http
 POST /api/v1/Agents/User/CreateUserGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +45,16 @@ POST /api/v1/Agents/User/CreateUserGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The main user group that this user belongs to
+## Response: 
 
-Carrier object for UserGroup.
-Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,37 +66,33 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/CreateUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "sapiente",
-  "Tooltip": "quas",
-  "Id": 534,
-  "Rank": 415,
-  "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Value": "dignissimos",
+  "Tooltip": "beatae",
+  "Id": 182,
+  "Rank": 103,
+  "Deleted": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   }
 }

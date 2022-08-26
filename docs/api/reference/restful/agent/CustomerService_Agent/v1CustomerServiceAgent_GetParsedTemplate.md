@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/GetParsedTemplate
-id: v1CustomerServiceAgent_GetParsedTemplate
+uid: v1CustomerServiceAgent_GetParsedTemplate
 ---
 
 # POST Agents/CustomerService/GetParsedTemplate
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetParsedTemplate
 
 Get a specific langauge version of the reply template, and run this trough the parser
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a specific langauge version of the reply template, and run this trough the p
 ```http
 POST /api/v1/Agents/CustomerService/GetParsedTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/CustomerService/GetParsedTemplate?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ReplyTemplateId, LanguageId, PersonId, TicketId
+ReplyTemplateId, LanguageId, PersonId, TicketId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,18 +53,16 @@ ReplyTemplateId, LanguageId, PersonId, TicketId
 | PersonId | int32 |  |
 | TicketId | int32 |  |
 
-## Response: object
 
-Reply template with parsed text. Represent one language version of reply template
+## Response: 
 
-Carrier object for ReplyTemplateParsed.
-Services for the ReplyTemplateParsed Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,65 +74,58 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 252,
-  "LanguageId": 340,
-  "PersonId": 603,
-  "TicketId": 267
+  "ReplyTemplateId": 704,
+  "LanguageId": 416,
+  "PersonId": 755,
+  "TicketId": 434
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 342,
-  "PlainParsed": "nisi",
-  "HtmlParsed": "qui",
+  "ReplyTemplateId": 564,
+  "PlainParsed": "fugit",
+  "HtmlParsed": "quo",
   "Attachments": [
     {
-      "AttachmentId": 618,
-      "Name": "Dickinson LLC",
-      "ContentType": "incidunt",
-      "AttSize": 455,
-      "InlineImage": false,
-      "ContentId": "est",
-      "TableRight": {},
+      "AttachmentId": 790,
+      "Name": "Abshire LLC",
+      "ContentType": "et",
+      "AttSize": 770,
+      "InlineImage": true,
+      "ContentId": "incidunt",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 226
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Subject": "unde",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 554
     }
   }
 }

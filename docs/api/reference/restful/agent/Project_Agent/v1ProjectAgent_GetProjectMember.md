@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectMember
-id: v1ProjectAgent_GetProjectMember
+uid: v1ProjectAgent_GetProjectMember
 ---
 
 # POST Agents/Project/GetProjectMember
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectMember
 
 Gets a ProjectMember object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=463
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=508
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-Carrier object for ProjectMember.
-Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,60 +73,56 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 681,
-  "ContactId": 873,
-  "ProjectId": 133,
-  "ContactName": "Nienow, Grady and Gleichner",
+  "ProjectmemberId": 239,
+  "ContactId": 707,
+  "ProjectId": 259,
+  "ContactName": "Huels Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Kozey-Gaylord",
-  "EmailId": 185,
-  "EmailAddress": "rozella.gutmann@corkerymitchell.co.uk",
-  "CountryId": 328,
-  "Firstname": "Eli",
-  "MiddleName": "McKenzie-Kemmer",
-  "Lastname": "Durgan",
-  "PersonId": 822,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Crona LLC",
-  "Phone": "145.763.0661 x880",
-  "PhoneId": 192,
-  "ProjectMemberTypeId": 782,
-  "EmailAddressName": "paolo@bahringer.us",
-  "Comment": "non",
-  "FullName": "Jaden Keebler",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "mesh B2C e-tailers"
-  },
+  "ProjectName": "Gulgowski, Rogahn and Rath",
+  "EmailId": 980,
+  "EmailAddress": "rashad@waelchirosenbaum.name",
+  "CountryId": 179,
+  "Firstname": "Laurence",
+  "MiddleName": "Parisian-Bashirian",
+  "Lastname": "Dietrich",
+  "PersonId": 208,
+  "Mrmrs": "ut",
+  "ProjectMemberTypeName": "Boyer, Heidenreich and Von",
+  "Phone": "257-905-8232 x236",
+  "PhoneId": 510,
+  "ProjectMemberTypeId": 867,
+  "EmailAddressName": "fermin@skilesyundt.uk",
+  "Comment": "dolore",
+  "FullName": "Kristy Kemmer",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldLength": 188
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "hierarchy"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,7 @@ This table contains folders used to group the extra tables in the system.
 |updated|Last updated when|UtcDateTime|&#x25CF;|
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
+
 
 ![hierarchy table relationship diagram](./media/hierarchy.png)
 
@@ -59,6 +60,7 @@ This table contains folders used to group the extra tables in the system.
 |[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
 |[screen\_definition](screen-definition.md)  |A configurable screen |
 
+
 ## Replication Flags
 
 * None
@@ -66,3 +68,4 @@ This table contains folders used to group the extra tables in the system.
 ## Security Flags
 
 * No access control via user's Role.
+

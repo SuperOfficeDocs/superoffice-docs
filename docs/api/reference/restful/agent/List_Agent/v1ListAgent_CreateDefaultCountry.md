@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultCountry
-id: v1ListAgent_CreateDefaultCountry
+uid: v1ListAgent_CreateDefaultCountry
 ---
 
 # POST Agents/List/CreateDefaultCountry
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/CreateDefaultCountry
 
 Gets a new country
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a new country
 ```http
 POST /api/v1/Agents/List/CreateDefaultCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,16 +41,16 @@ POST /api/v1/Agents/List/CreateDefaultCountry?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Country.
-Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,50 +75,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 59,
-  "Name": "Jenkins-Balistreri",
-  "CurrencyId": 651,
-  "EnglishName": "Murray Inc and Sons",
+  "CountryId": 830,
+  "Name": "Turner, Murphy and Bosco",
+  "CurrencyId": 958,
+  "EnglishName": "Beer-Ziemann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Enterprise-wide assymetric extranet",
-  "OrgNrText": "439954",
-  "InterAreaPrefix": "fugiat",
-  "DialInPrefix": "vel",
-  "ZipPrefix": "voluptate",
-  "DomainName": "Kautzer, Kerluke and Nader",
-  "AddressLayoutId": 396,
-  "DomesticAddressLayoutId": 913,
-  "ForeignAddressLayoutId": 24,
-  "Rank": 305,
-  "Tooltip": "impedit",
+  "ImageDescription": "Horizontal methodical migration",
+  "OrgNrText": "906068",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "voluptate",
+  "ZipPrefix": "et",
+  "DomainName": "Rippin, Nitzsche and Powlowski",
+  "AddressLayoutId": 637,
+  "DomesticAddressLayoutId": 236,
+  "ForeignAddressLayoutId": 869,
+  "Rank": 917,
+  "Tooltip": "pariatur",
   "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldLength": 652
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/FindProduct
-id: v1QuoteAgent_FindProduct
+uid: v1QuoteAgent_FindProduct
 ---
 
 # POST Agents/Quote/FindProduct
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/FindProduct
 
 Gets a product, from the ProductProvider
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a product, from the ProductProvider
 ```http
 POST /api/v1/Agents/Quote/FindProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/FindProduct?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId, UserInput, PriceListKey
+QuoteAlternativeId, UserInput, PriceListKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ QuoteAlternativeId, UserInput, PriceListKey
 | UserInput | string |  |
 | PriceListKey | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,7 +81,7 @@ Response body: array
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -92,21 +102,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 546,
-  "UserInput": "ut",
-  "PriceListKey": "dolorem"
+  "QuoteAlternativeId": 509,
+  "UserInput": "enim",
+  "PriceListKey": "minus"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -114,85 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 630,
-    "ERPProductKey": "impedit",
-    "ERPPriceListKey": "voluptas",
-    "Name": "D'Amore LLC",
-    "Description": "Persevering fault-tolerant system engine",
-    "Code": "illum",
-    "PriceUnit": "eum",
-    "QuantityUnit": "accusantium",
+    "ProductId": 878,
+    "ERPProductKey": "harum",
+    "ERPPriceListKey": "qui",
+    "Name": "Cummings-DuBuque",
+    "Description": "Networked 24/7 archive",
+    "Code": "possimus",
+    "PriceUnit": "minus",
+    "QuantityUnit": "vel",
     "IsSubscription": false,
-    "SubscriptionUnit": "similique",
-    "DefaultSubscriptionQuantity": 4268.508,
-    "ItemNumber": "1504561",
+    "SubscriptionUnit": "aut",
+    "DefaultSubscriptionQuantity": 3547.688,
+    "ItemNumber": "996138",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ut",
-    "ProductTypeKey": "consequatur",
-    "VAT": 18192.87,
-    "VATInfo": "facilis",
-    "UnitCost": 13661.106,
-    "UnitMinimumPrice": 29948.504,
-    "UnitListPrice": 30741.406,
-    "InAssortment": false,
-    "Supplier": "aperiam",
-    "SupplierCode": "ea",
-    "Rights": "qui",
-    "Rule": "molestiae",
+    "ProductFamilyKey": "voluptatum",
+    "ProductTypeKey": "deleniti",
+    "VAT": 6108.166,
+    "VATInfo": "fuga",
+    "UnitCost": 11830.85,
+    "UnitMinimumPrice": 6393.36,
+    "UnitListPrice": 15438.083999999999,
+    "InAssortment": true,
+    "Supplier": "voluptatem",
+    "SupplierCode": "ipsum",
+    "Rights": "similique",
+    "Rule": "odio",
     "ExtraInfo": [
       {
-        "Name": "Bradtke, Cronin and Pouros",
-        "Value": "consequatur",
+        "Name": "Brown-Kuphal",
+        "Value": "nisi",
         "Type": "Image",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 179
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 506
           }
         }
       },
       {
-        "Name": "Bradtke, Cronin and Pouros",
-        "Value": "consequatur",
+        "Name": "Brown-Kuphal",
+        "Value": "nisi",
         "Type": "Image",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 179
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 506
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "ExtraField1": "non",
-    "ExtraField2": "sapiente",
-    "ExtraField3": "eius",
-    "ExtraField4": "eaque",
-    "ExtraField5": "a",
-    "InStock": 30481.284,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "RawExtraInfo": "distinctio",
+    "ExtraField1": "aspernatur",
+    "ExtraField2": "aut",
+    "ExtraField3": "debitis",
+    "ExtraField4": "qui",
+    "ExtraField5": "et",
+    "InStock": 28325.092,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldLength": 373
       }
     }
   }

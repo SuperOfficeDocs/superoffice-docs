@@ -1,6 +1,6 @@
 ---
 title: GET Sale/{id}/NextDueDate
-id: v1SaleEntity_GetNextDueDate
+uid: v1SaleEntity_GetNextDueDate
 ---
 
 # GET Sale/{id}/NextDueDate
@@ -11,11 +11,18 @@ GET /api/v1/Sale/{saleId}/NextDueDate
 
 Gets the next due date for a sale.
 
+
 The next due date is the next future appointment that is not completed.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | saleId | int32 | Sale id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ The next due date is the next future appointment that is not completed.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: date-time
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -38,18 +48,21 @@ The next due date is the next future appointment that is not completed.
 
 Response body: date-time
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Sale/{saleId}/NextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2000-10-14T18:25:51.049945+02:00"
+"2004-01-05T11:10:53.4621792+01:00"
 ```

@@ -1,6 +1,6 @@
 ---
 title: GET Project/{id}/HasGuide
-id: v1ProjectEntity_HasGuide
+uid: v1ProjectEntity_HasGuide
 ---
 
 # GET Project/{id}/HasGuide
@@ -11,9 +11,16 @@ GET /api/v1/Project/{projectId}/HasGuide
 
 Does this project have a guide associated with its project type?
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | projectId | int32 | Project id **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Does this project have a guide associated with its project type?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -36,7 +46,8 @@ Does this project have a guide associated with its project type?
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Project/{projectId}/HasGuide
@@ -44,6 +55,8 @@ Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

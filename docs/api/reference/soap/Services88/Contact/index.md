@@ -46,3 +46,4 @@ Download [WSDL file for Services88/Contact](../Services88-Contact.md) if you nee
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [Undelete](Undelete.md)
 * [ValidateContactEntity](ValidateContactEntity.md)
+

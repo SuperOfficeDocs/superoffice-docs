@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByTasks
-id: v1AppointmentAgent_GetContactAppointmentsByTasks
+uid: v1AppointmentAgent_GetContactAppointmentsByTasks
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTasks
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 
 Method that returns a specified number of appointments belonging to an array of appointment task types within a time range.
 
+
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, TaskIds
+ContactId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ContactId, StartTime, EndTime, Count, TaskIds
 | Count | int32 |  |
 | TaskIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,7 +121,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
@@ -121,16 +131,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 770,
-  "StartTime": "2008-12-31T18:28:47.7188144+01:00",
-  "EndTime": "2016-04-14T18:28:47.7188144+02:00",
-  "Count": 929,
+  "ContactId": 336,
+  "StartTime": "2014-02-23T11:10:25.4385224+01:00",
+  "EndTime": "2000-08-23T11:10:25.4385224+02:00",
+  "Count": 658,
   "TaskIds": [
-    852,
-    564
+    780,
+    169
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,67 +150,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 651,
-    "StartDate": "2020-08-21T18:28:47.7198142+02:00",
-    "EndDate": "2015-05-21T18:28:47.7198142+02:00",
+    "AppointmentId": 473,
+    "StartDate": "2015-02-01T11:10:25.4395264+01:00",
+    "EndDate": "1999-02-25T11:10:25.4395264+01:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Mrs. Nichole Hilpert",
-    "ContactName": "Zieme-Marvin",
-    "Description": "User-centric context-sensitive encryption",
-    "PersonFullName": "Russel Gibson",
-    "PersonId": 640,
-    "ContactId": 662,
-    "ProjectId": 411,
-    "ProjectName": "Morar Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 422,
-    "ColorIndex": 931,
+    "Task": "dolorum",
+    "AssociateFullName": "Eloisa D'Amore",
+    "ContactName": "Price, Reichert and Crist",
+    "Description": "Open-source heuristic firmware",
+    "PersonFullName": "Ms. Tyree Vickie Luettgen PhD",
+    "PersonId": 882,
+    "ContactId": 66,
+    "ProjectId": 106,
+    "ProjectName": "Douglas-O'Conner",
+    "IsPublished": false,
+    "AssociateId": 744,
+    "ColorIndex": 19,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 319,
-    "PriorityName": "Friesen Inc and Sons",
+    "PriorityId": 284,
+    "PriorityName": "Flatley, Funk and Grimes",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2013-07-26T18:28:47.7208141+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-12-12T11:10:25.4405254+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-05-27T18:28:47.7208141+02:00",
-    "RecurringEndDate": "2016-04-05T18:28:47.7208141+02:00",
-    "MotherId": 461,
-    "AssignedBy": 320,
-    "AssignedByFullName": "Jazmyne Luettgen",
+    "RecurringStartDate": "2008-03-25T11:10:25.4405254+01:00",
+    "RecurringEndDate": "1999-08-23T11:10:25.4405254+02:00",
+    "MotherId": 365,
+    "AssignedBy": 838,
+    "AssignedByFullName": "Oceane Aufderhar",
     "RejectReason": "",
-    "Location": "labore",
-    "AlarmLeadTime": "fuga",
-    "SaleId": 956,
-    "SaleName": "Hermann, Cole and Zulauf",
-    "AssociateName": "Crist, Daniel and Pagac",
-    "CreatedDate": "2014-09-29T18:28:47.7208141+02:00",
-    "CreatedBy": "sequi",
-    "CreatedByFullName": "Dr. Eduardo Beer",
-    "CreatedByAssociateId": 336,
+    "Location": "vel",
+    "AlarmLeadTime": "qui",
+    "SaleId": 593,
+    "SaleName": "Williamson, Blick and Gibson",
+    "AssociateName": "Reilly Inc and Sons",
+    "CreatedDate": "2013-01-30T11:10:25.4405254+01:00",
+    "CreatedBy": "placeat",
+    "CreatedByFullName": "Brigitte Elise Jaskolski II",
+    "CreatedByAssociateId": 452,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldLength": 102
       }
     }
   }

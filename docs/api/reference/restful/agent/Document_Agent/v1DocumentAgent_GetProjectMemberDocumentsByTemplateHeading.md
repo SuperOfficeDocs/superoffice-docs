@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetProjectMemberDocumentsByTemplateHeading
-id: v1DocumentAgent_GetProjectMemberDocumentsByTemplateHeading
+uid: v1DocumentAgent_GetProjectMemberDocumentsByTemplateHeading
 ---
 
 # POST Agents/Document/GetProjectMemberDocumentsByTemplateHeading
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading
 
 Method that returns a specified number of document appointments within a time range, filtered by document template heading.
 
+
 The document appointments belong to the project member specified. The heading represents a grouping or filtering of document templates.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project member specified. The heading re
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, TemplateHeadingId
+PersonId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, StartTime, EndTime, Count, TemplateHeadingId
 | Count | int32 |  |
 | TemplateHeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 861,
-  "StartTime": "2013-09-05T18:28:48.7149596+02:00",
-  "EndTime": "2005-03-02T18:28:48.7149596+01:00",
-  "Count": 902,
-  "TemplateHeadingId": 565
+  "PersonId": 340,
+  "StartTime": "1998-07-11T11:10:26.4714527+02:00",
+  "EndTime": "2011-11-26T11:10:26.4714527+01:00",
+  "Count": 689,
+  "TemplateHeadingId": 714
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 786,
-    "Attention": "et",
-    "Header": "perferendis",
-    "Name": "Stanton Group",
-    "OurRef": "et",
-    "YourRef": "saepe",
-    "Description": "Synchronised dedicated algorithm",
-    "DocumentTemplate": "delectus",
+    "DocumentId": 165,
+    "Attention": "sunt",
+    "Header": "tenetur",
+    "Name": "Brekke-Howell",
+    "OurRef": "iure",
+    "YourRef": "ipsa",
+    "Description": "Multi-lateral tangible open system",
+    "DocumentTemplate": "veniam",
     "IsPublished": true,
-    "PersonId": 980,
-    "PersonFullName": "Trevion Sawayn",
-    "AssociateFullName": "August Gibson",
-    "ContactId": 918,
-    "ContactName": "Stoltenberg Group",
-    "ProjectId": 906,
-    "ProjectName": "Gislason, Hegmann and Hickle",
-    "AssociateId": 153,
-    "Snum": 365,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 267,
+    "PersonFullName": "Miss Assunta Emelie Wolff DVM",
+    "AssociateFullName": "Jessie Feeney",
+    "ContactId": 314,
+    "ContactName": "Lockman-Daniel",
+    "ProjectId": 311,
+    "ProjectName": "Mosciski, Effertz and Spinka",
+    "AssociateId": 786,
+    "Snum": 210,
+    "SaleId": 279,
+    "SaleName": "Tillman, Towne and Christiansen",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 180
       }
     }
   }

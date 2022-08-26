@@ -1,6 +1,6 @@
 ---
 title: GET Role
-id: v1RoleEntity_GetAll
+uid: v1RoleEntity_GetAll
 ---
 
 # GET Role
@@ -11,6 +11,7 @@ GET /api/v1/Role
 
 OData list of all RoleEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Role?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Role?$top=1000
 * Role?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "Role" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=id
-GET /api/v1/Role?$top=668
-GET /api/v1/Role?$skip=721
+GET /api/v1/Role?$entities=tempora
+GET /api/v1/Role?$top=166
+GET /api/v1/Role?$skip=46
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=quis
+GET /api/v1/Role?$context=autem
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/Role?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +112,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role
@@ -109,27 +121,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dicta",
+  "odata.nextLink": "iusto",
   "value": [
     {
-      "PrimaryKey": 5317,
-      "EntityName": "sale",
-      "saleId": 5317,
-      "contactId": 3001,
-      "name": "White, Hamill and Durgan"
+      "PrimaryKey": 4054,
+      "EntityName": "person",
+      "personId": 4054,
+      "fullName": "Mrs. Keeley Boyle"
     },
     {
-      "PrimaryKey": 8714,
-      "EntityName": "sale",
-      "saleId": 8714,
-      "contactId": 7350,
-      "name": "Dooley Group"
+      "PrimaryKey": 2253,
+      "EntityName": "person",
+      "personId": 2253,
+      "fullName": "Lorenzo Kunde IV"
     }
   ]
 }

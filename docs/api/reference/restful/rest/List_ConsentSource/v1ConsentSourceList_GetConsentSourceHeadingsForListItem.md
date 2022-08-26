@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentSource/Items/{id}/Headings
-id: v1ConsentSourceList_GetConsentSourceHeadingsForListItem
+uid: v1ConsentSourceList_GetConsentSourceHeadingsForListItem
 ---
 
 # GET List/ConsentSource/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 
 Gets headings for the ConsentSource list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Pouros Inc and Sons",
-    "ToolTip": "Consectetur modi fuga omnis adipisci repellendus sunt.",
-    "Deleted": false,
-    "Rank": 604,
-    "Type": "dolorum",
-    "ColorBlock": 766,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2021-11-16T18:25:51.736321+01:00",
+    "Id": 936,
+    "Name": "Roob Group",
+    "ToolTip": "Laudantium perspiciatis esse maxime necessitatibus pariatur ut.",
+    "Deleted": true,
+    "Rank": 580,
+    "Type": "laboriosam",
+    "ColorBlock": 983,
+    "IconHint": "doloribus",
+    "Selected": false,
+    "LastChanged": "2020-09-15T11:10:54.0021826+02:00",
     "ChildItems": [
       {
-        "Id": 541,
-        "Name": "Corkery LLC",
-        "ToolTip": "Expedita rerum dolore dolorum.",
-        "Deleted": true,
-        "Rank": 979,
-        "Type": "distinctio",
-        "ColorBlock": 282,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "2015-12-26T18:25:51.7373221+01:00",
+        "Id": 127,
+        "Name": "Donnelly, Emard and Bailey",
+        "ToolTip": "Aperiam sed non natus sit.",
+        "Deleted": false,
+        "Rank": 333,
+        "Type": "animi",
+        "ColorBlock": 732,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2010-11-02T11:10:54.0021826+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "tempora",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Larry Lockman",
-        "TableRight": {},
+        "FullName": "Mrs. Susan Wiegand Sr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 186
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "labore",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Katarina Schaefer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Clement Clementine Mosciski Jr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 431
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET Hierarchy/{domain}/{path}
-id: v1HierarchyEntity_GetHierarchyFromPath
+uid: v1HierarchyEntity_GetHierarchyFromPath
 ---
 
 # GET Hierarchy/{domain}/{path}
@@ -11,10 +11,16 @@ GET /api/v1/Hierarchy/{domain}/{path}
 
 Get a hierarchy item from a path
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
 | path | string | Hierarchy path to item **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=True
+GET /api/v1/Hierarchy/{domain}/{path}?children=False
 ```
+
 
 ## Request Headers
 
@@ -39,18 +46,16 @@ GET /api/v1/Hierarchy/{domain}/{path}?children=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-Carrier object for HierarchyEntity.
-Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,69 +72,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 466,
+  "HierarchyId": 628,
   "Domain": "Dashboards",
-  "Name": "Johnson, Simonis and Leannon",
-  "Fullname": "incidunt",
-  "ParentId": 459,
+  "Name": "Pagac Group",
+  "Fullname": "debitis",
+  "ParentId": 547,
   "Children": [
     {
-      "HierarchyId": 738,
+      "HierarchyId": 39,
       "Domain": "Dashboards",
-      "Name": "Mraz, Krajcik and Swift",
-      "Fullname": "optio",
-      "ParentId": 322,
+      "Name": "Medhurst-Bogan",
+      "Fullname": "et",
+      "ParentId": 429,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-01-10T18:25:50.5845944+01:00",
-      "RegisteredAssociateId": 706,
-      "Updated": "2015-02-01T18:25:50.5845944+01:00",
-      "UpdatedAssociateId": 484,
-      "TableRight": {},
+      "Registered": "2010-07-09T11:10:52.9181833+02:00",
+      "RegisteredAssociateId": 411,
+      "Updated": "2019-01-09T11:10:52.9181833+01:00",
+      "UpdatedAssociateId": 841,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 223
         }
       }
     }
   ],
-  "Registered": "2007-10-16T18:25:50.5845944+02:00",
-  "RegisteredAssociateId": 631,
-  "Updated": "2007-02-25T18:25:50.5845944+01:00",
-  "UpdatedAssociateId": 276,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "2012-02-06T11:10:52.9181833+01:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "2005-09-29T11:10:52.9181833+02:00",
+  "UpdatedAssociateId": 661,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 734
     }
   }
 }

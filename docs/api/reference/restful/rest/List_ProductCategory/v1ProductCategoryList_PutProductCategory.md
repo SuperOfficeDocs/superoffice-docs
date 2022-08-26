@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductCategory/Items/{id}
-id: v1ProductCategoryList_PutProductCategory
+uid: v1ProductCategoryList_PutProductCategory
 ---
 
 # PUT List/ProductCategory/Items/{id}
@@ -11,9 +11,16 @@ PUT /api/v1/List/ProductCategory/Items/{id}
 
 Updates an existing ProductCategory list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ProductCategory to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing ProductCategory list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of ProductCategory list item to be saved.
+The details of ProductCategory list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,19 +49,17 @@ The details of ProductCategory list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductCategory/Items/{id}
@@ -77,38 +82,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 704,
-  "Name": "Thompson, Fay and DuBuque",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "UdListDefinitionId": 313,
-  "Rank": 277
+  "Id": 111,
+  "Name": "Lesch, Windler and Green",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "UdListDefinitionId": 552,
+  "Rank": 700
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Legros Inc and Sons",
-  "Tooltip": "amet",
+  "Id": 299,
+  "Name": "Mertz-Turner",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "UdListDefinitionId": 427,
-  "Rank": 200,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 969,
+  "Rank": 296,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "generate plug-and-play niches"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 114
     }
   }
 }

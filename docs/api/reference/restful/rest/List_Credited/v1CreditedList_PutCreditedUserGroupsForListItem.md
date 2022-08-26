@@ -1,6 +1,6 @@
 ---
 title: PUT List/Credited/Items/{id}/UserGroups
-id: v1CreditedList_PutCreditedUserGroupsForListItem
+uid: v1CreditedList_PutCreditedUserGroupsForListItem
 ---
 
 # PUT List/Credited/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Credited list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Schowalter LLC",
-    "ToolTip": "Nulla repudiandae.",
+    "Id": 620,
+    "Name": "Kemmer, Ledner and Leffler",
+    "ToolTip": "Cum recusandae voluptatem.",
     "Deleted": false,
-    "Rank": 374,
-    "Type": "tempora",
-    "ColorBlock": 915,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2009-12-21T18:25:51.7673263+01:00",
+    "Rank": 137,
+    "Type": "laboriosam",
+    "ColorBlock": 3,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "2022-08-23T11:10:54.0352128+02:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Goldner, Roob and Rippin",
-        "ToolTip": "Quas velit et asperiores optio facilis.",
-        "Deleted": true,
-        "Rank": 61,
-        "Type": "maiores",
-        "ColorBlock": 601,
-        "IconHint": "deserunt",
-        "Selected": false,
-        "LastChanged": "2021-07-23T18:25:51.7673263+02:00",
+        "Id": 201,
+        "Name": "Wiza-Friesen",
+        "ToolTip": "Atque atque omnis et voluptatem id sed.",
+        "Deleted": false,
+        "Rank": 924,
+        "Type": "repellendus",
+        "ColorBlock": 314,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2020-03-13T11:10:54.0362128+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Makenzie Raynor"
+        "ExtraInfo": "odit",
+        "StyleHint": "voluptatum",
+        "Hidden": true,
+        "FullName": "Ms. Freddy Maegan Raynor MD"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Samanta Tremblay"
+    "ExtraInfo": "quos",
+    "StyleHint": "laboriosam",
+    "Hidden": true,
+    "FullName": "Leonel Wunsch"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Roberts Inc and Sons",
-    "ToolTip": "Voluptatem cupiditate.",
+    "Id": 281,
+    "Name": "Rogahn Group",
+    "ToolTip": "Aliquid accusantium modi unde.",
     "Deleted": false,
-    "Rank": 624,
-    "Type": "consequatur",
-    "ColorBlock": 946,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2008-04-09T18:25:51.7683267+02:00",
+    "Rank": 506,
+    "Type": "eveniet",
+    "ColorBlock": 943,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2001-08-29T11:10:54.0372181+02:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Emard LLC",
-        "ToolTip": "Itaque laudantium non necessitatibus.",
-        "Deleted": true,
-        "Rank": 718,
-        "Type": "ipsam",
-        "ColorBlock": 735,
-        "IconHint": "voluptates",
-        "Selected": true,
-        "LastChanged": "2012-05-05T18:25:51.7683267+02:00",
+        "Id": 181,
+        "Name": "Waters, Sipes and Mills",
+        "ToolTip": "Sint illum omnis.",
+        "Deleted": false,
+        "Rank": 807,
+        "Type": "est",
+        "ColorBlock": 845,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2000-07-21T11:10:54.0372181+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "neque",
+        "ExtraInfo": "quos",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Ruby Schumm",
-        "TableRight": {},
+        "FullName": "Annabel Reinger",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "scale B2B e-commerce"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 574
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 801
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "corrupti",
-    "Hidden": true,
-    "FullName": "Donny Mitchell",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "nulla",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Prof. Garret Khalid Mitchell",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 729
       }
     }
   }

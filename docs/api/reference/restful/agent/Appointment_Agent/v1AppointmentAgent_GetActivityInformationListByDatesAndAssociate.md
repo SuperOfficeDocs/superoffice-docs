@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetActivityInformationListByDatesAndAssociate
-id: v1AppointmentAgent_GetActivityInformationListByDatesAndAssociate
+uid: v1AppointmentAgent_GetActivityInformationListByDatesAndAssociate
 ---
 
 # POST Agents/Appointment/GetActivityInformationListByDatesAndAssociate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 
 Get activity information for one or more days according to the given date interval.
 
+
 The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The time portion of the dates is ignored. Private appointments are counted, but 
 ```http
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate?$s
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate, EndDate, AssociateId
+StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ StartDate, EndDate, AssociateId
 | EndDate | date-time |  |
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,21 +72,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2021-03-02T18:28:47.7518443+01:00",
-  "EndDate": "1998-02-14T18:28:47.7518443+01:00",
-  "AssociateId": 166
+  "StartDate": "2021-10-10T11:10:25.4785224+02:00",
+  "EndDate": "2002-05-02T11:10:25.4785224+02:00",
+  "AssociateId": 604
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,68 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2016-11-02T18:28:47.7518443+01:00",
-    "ActivityInformation": {
-      "NumBusyActivities": 863,
-      "NumFreeActivities": 424,
-      "PercentageBusy": 841,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 142
-        }
-      }
-    },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Date": "2010-04-11T11:10:25.4785224+02:00",
+    "ActivityInformation": null,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 450
       }
     }
   },
   {
-    "Date": "2016-11-02T18:28:47.7518443+01:00",
-    "ActivityInformation": {
-      "NumBusyActivities": 863,
-      "NumFreeActivities": 424,
-      "PercentageBusy": 841,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 142
-        }
-      }
-    },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Date": "2010-04-11T11:10:25.4785224+02:00",
+    "ActivityInformation": null,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 450
       }
     }
   }

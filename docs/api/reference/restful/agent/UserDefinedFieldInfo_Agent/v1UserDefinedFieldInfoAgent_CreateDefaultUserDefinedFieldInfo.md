@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
-id: v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
+uid: v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
 ---
 
 # POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
@@ -11,7 +11,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 
 Set default values into a new UserDefinedFieldInfo.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +83,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
@@ -87,57 +92,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 267,
-  "ColumnId": 298,
-  "FieldDefault": "quia",
-  "FieldHeight": 202,
-  "FieldLabel": "dolorum",
-  "FieldLeft": 112,
-  "FieldTop": 33,
+  "UDefFieldId": 436,
+  "ColumnId": 315,
+  "FieldDefault": "quo",
+  "FieldHeight": 292,
+  "FieldLabel": "exercitationem",
+  "FieldLeft": 597,
+  "FieldTop": 121,
   "FieldType": "Checkbox",
-  "FieldWidth": 907,
-  "FormatMask": "dolorem",
-  "HideLabel": true,
+  "FieldWidth": 766,
+  "FormatMask": "eius",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 722,
-  "LabelLeft": 603,
-  "LabelTop": 647,
-  "LabelWidth": 591,
-  "LastVersionId": 904,
-  "ListTableId": 789,
-  "IsMandatory": true,
+  "LabelHeight": 882,
+  "LabelLeft": 796,
+  "LabelTop": 554,
+  "LabelWidth": 778,
+  "LastVersionId": 415,
+  "ListTableId": 184,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 467,
-  "ProgId": "animi",
+  "Page1LineNo": 224,
+  "ProgId": "pariatur",
   "IsReadOnly": true,
-  "ShortLabel": "natus",
-  "TabOrder": 858,
-  "TextLength": 610,
-  "Tooltip": "harum",
-  "UdefIdentity": 543,
-  "UDListDefinitionId": 42,
+  "ShortLabel": "consequatur",
+  "TabOrder": 214,
+  "TextLength": 841,
+  "Tooltip": "nesciunt",
+  "UdefIdentity": 86,
+  "UDListDefinitionId": 901,
   "Justification": "Center",
-  "Version": 660,
-  "TemplateVariableName": "Predovic LLC",
+  "Version": 488,
+  "TemplateVariableName": "Lindgren-Senger",
   "HasBeenPublished": false,
-  "MdoListName": "Grady, Lynch and Stanton",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Steuber, Kris and McDermott",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldLength": 396
     }
   }
 }

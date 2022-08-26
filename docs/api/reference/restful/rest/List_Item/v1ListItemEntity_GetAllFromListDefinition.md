@@ -1,6 +1,6 @@
 ---
 title: GET List/{id}/Items
-id: v1ListItemEntity_GetAllFromListDefinition
+uid: v1ListItemEntity_GetAllFromListDefinition
 ---
 
 # GET List/{id}/Items
@@ -11,9 +11,15 @@ GET /api/v1/List/{udListDefinitionId}/Items
 
 Get all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,14 +67,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -72,24 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Swaniawski-Schowalter",
-    "Tooltip": "aut",
+    "Id": 123,
+    "Name": "Fisher LLC",
+    "Tooltip": "repellat",
     "Deleted": true,
-    "UdListDefinitionId": 343,
-    "Rank": 781,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "generate wireless niches"
-    },
+    "UdListDefinitionId": 105,
+    "Rank": 90,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 60
       }
     }
   }

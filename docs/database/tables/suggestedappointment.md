@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuggestedAppointment"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -41,6 +41,7 @@ Defines a suggested appointment for use in a Sale Guide or Project Guide
 |isMilestone|Is this kind of appointment a milestone in a project|Bool|&#x25CF;|
 |assignToMember|Should generated appointment be assigned to a project member?|Bool|&#x25CF;|
 
+
 ![SuggestedAppointment table relationship diagram](./media/SuggestedAppointment.png)
 
 [!include[details](./includes/suggestedappointment.md)]
@@ -64,6 +65,7 @@ Defines a suggested appointment for use in a Sale Guide or Project Guide
 |[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -73,3 +75,4 @@ Defines a suggested appointment for use in a Sale Guide or Project Guide
 ## Security Flags
 
 * No access control via user's Role.
+

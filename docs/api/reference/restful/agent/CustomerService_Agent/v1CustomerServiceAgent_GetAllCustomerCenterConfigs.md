@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/GetAllCustomerCenterConfigs
-id: v1CustomerServiceAgent_GetAllCustomerCenterConfigs
+uid: v1CustomerServiceAgent_GetAllCustomerCenterConfigs
 ---
 
 # POST Agents/CustomerService/GetAllCustomerCenterConfigs
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 
 Get all rows from cust_config as an array of CustomerCenterConfig entities
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all rows from cust_config as an array of CustomerCenterConfig entities
 ```http
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +65,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
@@ -64,32 +74,28 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 171,
+    "CustConfigId": 880,
     "Type": "Options",
     "Config": "qui",
-    "CustLangId": 726,
-    "Registered": "2007-07-04T18:28:48.6509261+02:00",
-    "RegisteredAssociateId": 904,
-    "Updated": "2017-03-04T18:28:48.6509261+01:00",
-    "UpdatedAssociateId": 388,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "CustLangId": 542,
+    "Registered": "2007-03-29T11:10:26.3974482+02:00",
+    "RegisteredAssociateId": 553,
+    "Updated": "1998-03-26T11:10:26.3974482+01:00",
+    "UpdatedAssociateId": 520,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "incubate one-to-one functionalities"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 141
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 871
       }
     }
   }

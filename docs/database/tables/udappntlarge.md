@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udappntlarge"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ User-defined fields
 |string48|string value 48, not indexed|String(199)|&#x25CF;|
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
+
 ![udappntlarge table relationship diagram](./media/udappntlarge.png)
 
 [!include[details](./includes/udappntlarge.md)]
@@ -52,6 +53,7 @@ User-defined fields
 |------|-------------|
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -61,3 +63,4 @@ User-defined fields
 ## Security Flags
 
 * No access control via user's Role.
+

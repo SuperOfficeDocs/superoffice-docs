@@ -17,6 +17,7 @@ Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntit
 
 **Returns:** New or updated ShipmentMessageEntity
 
+
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,15 +52,15 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Marketing:HeaderField xsi:type="xsd:string"></Marketing:HeaderField>
      <Marketing:Design xsi:type="xsd:string"></Marketing:Design>
      <Marketing:Designtype xsi:type="Marketing:DesignType">Unknown</Marketing:Designtype>
-     <Marketing:Flags xsi:type="Marketing:ShipmentMessageType">Html</Marketing:Flags>
+     <Marketing:Flags xsi:type="Marketing:ShipmentMessageType">Plain</Marketing:Flags>
      <Marketing:RegisterViews xsi:type="xsd:boolean">false</Marketing:RegisterViews>
      <Marketing:InlineImages xsi:type="xsd:boolean">false</Marketing:InlineImages>
      <Marketing:LongDescription xsi:type="xsd:string"></Marketing:LongDescription>
      <Marketing:AccessKey xsi:type="xsd:string"></Marketing:AccessKey>
      <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-     <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Registered>
+     <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Registered>
      <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-     <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Updated>
+     <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Updated>
      <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
      <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     </Marketing:ShipmentMessageEntity>
@@ -69,6 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveShipmentMessageEntity Response
 
@@ -94,15 +96,15 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:HeaderField xsi:type="xsd:string"></Marketing:HeaderField>
     <Marketing:Design xsi:type="xsd:string"></Marketing:Design>
     <Marketing:Designtype xsi:type="Marketing:DesignType">Unknown</Marketing:Designtype>
-    <Marketing:Flags xsi:type="Marketing:ShipmentMessageType">Html</Marketing:Flags>
+    <Marketing:Flags xsi:type="Marketing:ShipmentMessageType">Plain</Marketing:Flags>
     <Marketing:RegisterViews xsi:type="xsd:boolean">false</Marketing:RegisterViews>
     <Marketing:InlineImages xsi:type="xsd:boolean">false</Marketing:InlineImages>
     <Marketing:LongDescription xsi:type="xsd:string"></Marketing:LongDescription>
     <Marketing:AccessKey xsi:type="xsd:string"></Marketing:AccessKey>
     <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-    <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>
@@ -111,3 +113,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

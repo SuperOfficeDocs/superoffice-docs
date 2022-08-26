@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "preference"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ Not quite obsolete preference table; historical info mostly. From 6.1 this table
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![preference table relationship diagram](./media/preference.png)
 
 [!include[details](./includes/preference.md)]
@@ -47,6 +48,7 @@ Not quite obsolete preference table; historical info mostly. From 6.1 this table
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -56,3 +58,4 @@ Not quite obsolete preference table; historical info mostly. From 6.1 this table
 ## Security Flags
 
 * No access control via user's Role.
+

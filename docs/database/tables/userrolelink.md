@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UserRoleLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Link between user role and user
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![UserRoleLink table relationship diagram](./media/UserRoleLink.png)
 
 [!include[details](./includes/userrolelink.md)]
@@ -47,7 +48,8 @@ Link between user role and user
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+
 
 ## Replication Flags
 
@@ -58,3 +60,4 @@ Link between user role and user
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

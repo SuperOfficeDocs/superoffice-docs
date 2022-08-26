@@ -1,6 +1,6 @@
 ---
 title: GET Dashboard/{id}
-id: v1Dashboard_GetDashboard
+uid: v1Dashboard_GetDashboard
 ---
 
 # GET Dashboard/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Dashboard/{id}
 
 Gets a Dashboard object.
 
+
 Calls the Dashboard agent service GetDashboard.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Dashboard to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dashboard agent service GetDashboard.
 ```http
 GET /api/v1/Dashboard/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Dashboard entity with API _Links added.
+Dashboard found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | Dashboard found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +70,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Dashboard/{id}
@@ -73,27 +79,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 756,
-  "AssociateId": 597,
-  "Caption": "est",
+  "DashboardId": 91,
+  "AssociateId": 727,
+  "Caption": "maxime",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 886,
-      "Caption": "inventore",
-      "Description": "Synergistic motivating core",
-      "ChartName": "Crooks, Ryan and Rath",
-      "ChartId": "sed",
+      "DashboardTileId": 61,
+      "Caption": "et",
+      "Description": "Synergistic modular focus group",
+      "ChartName": "Kuvalis, Kassulke and Cremin",
+      "ChartId": "excepturi",
       "IsDefault": true,
-      "AssociateId": 105,
-      "GroupId": 452,
-      "SelectionId": 338,
-      "Config": "dolores",
+      "AssociateId": 468,
+      "GroupId": 944,
+      "SelectionId": 117,
+      "Config": "neque",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -104,36 +112,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 769
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldLength": 80
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

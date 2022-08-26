@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetSelectableListWithHistory
-id: v1MDOAgent_GetSelectableListWithHistory
+uid: v1MDOAgent_GetSelectableListWithHistory
 ---
 
 # POST Agents/MDO/GetSelectableListWithHistory
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 
 Method to get a Selectable MDO list with own history list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a Selectable MDO list with own history list.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetSelectableListWithHistory?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
 | HistoryItems | array |  |
 | OnlyHistory | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -75,7 +85,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
@@ -85,16 +95,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ledner Group",
-  "ForceFlatList": true,
-  "AdditionalInfo": "et",
+  "Name": "Kihn-Grimes",
+  "ForceFlatList": false,
+  "AdditionalInfo": "porro",
   "HistoryItems": [
-    303,
-    323
+    883,
+    800
   ],
   "OnlyHistory": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,65 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Toy, Grady and Toy",
-    "ToolTip": "Alias aliquam quis qui accusantium libero eum.",
+    "Id": 485,
+    "Name": "Corwin, Wehner and Powlowski",
+    "ToolTip": "Repellendus nostrum nemo laborum repudiandae facere cupiditate.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "amet",
-    "ColorBlock": 905,
-    "IconHint": "et",
+    "Rank": 461,
+    "Type": "nihil",
+    "ColorBlock": 454,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "1997-04-08T18:28:49.48509+02:00",
+    "LastChanged": "2014-12-26T11:10:27.3134525+01:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Botsford-Buckridge",
-        "ToolTip": "Autem aliquam at repellat eum nam.",
-        "Deleted": true,
-        "Rank": 647,
-        "Type": "alias",
-        "ColorBlock": 426,
-        "IconHint": "doloribus",
-        "Selected": false,
-        "LastChanged": "1996-08-08T18:28:49.48509+02:00",
+        "Id": 800,
+        "Name": "Boehm, Adams and Mertz",
+        "ToolTip": "Nam dolores sunt est rerum est facilis corrupti.",
+        "Deleted": false,
+        "Rank": 10,
+        "Type": "ea",
+        "ColorBlock": 746,
+        "IconHint": "repellat",
+        "Selected": true,
+        "LastChanged": "2018-11-27T11:10:27.3134525+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Alvena Quigley",
-        "TableRight": {},
+        "FullName": "Zena Swaniawski",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 249
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "perspiciatis",
-    "Hidden": true,
-    "FullName": "Cydney Durgan",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "maxime",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Gerson Kunde MD",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 73
       }
     }
   }

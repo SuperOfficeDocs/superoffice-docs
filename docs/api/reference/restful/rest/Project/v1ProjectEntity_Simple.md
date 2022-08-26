@@ -1,6 +1,6 @@
 ---
 title: GET Project/{id}/Simple
-id: v1ProjectEntity_Simple
+uid: v1ProjectEntity_Simple
 ---
 
 # GET Project/{id}/Simple
@@ -11,11 +11,18 @@ GET /api/v1/Project/{id}/Simple
 
 A simple Project object.
 
+
 This is a simpler, smaller variation of the full ProjectEntity. Calls the Project agent service GetProject.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Project to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ This is a simpler, smaller variation of the full ProjectEntity. Calls the Projec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Project.
-Services for the Project Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+## Response: 
+
+ProjectEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ProjectEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,50 +72,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 917,
-  "Name": "Macejkovic Group",
-  "Description": "Vision-oriented 24 hour archive",
+  "ProjectId": 785,
+  "Name": "Greenfelder, Quigley and Beatty",
+  "Description": "Open-architected solution-oriented alliance",
   "URL": "http://www.example.com/",
-  "Type": "hic",
-  "AssociateId": 575,
-  "AssociateFullName": "Athena Morar",
-  "TypeId": 690,
-  "Updated": "2005-10-18T18:25:50.8428851+02:00",
-  "StatusId": 575,
-  "Status": "tenetur",
-  "TextId": 989,
-  "PublishTo": "2017-09-11T18:25:50.8428851+02:00",
-  "PublishFrom": "2002-02-07T18:25:50.8428851+01:00",
+  "Type": "reprehenderit",
+  "AssociateId": 284,
+  "AssociateFullName": "Frances Skiles",
+  "TypeId": 891,
+  "Updated": "2010-08-27T11:10:53.3191741+02:00",
+  "StatusId": 99,
+  "Status": "beatae",
+  "TextId": 293,
+  "PublishTo": "2001-11-29T11:10:53.3191741+01:00",
+  "PublishFrom": "2013-09-03T11:10:53.3191741+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "583282",
-  "ActiveErpLinks": 617,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectNumber": "1368093",
+  "ActiveErpLinks": 375,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

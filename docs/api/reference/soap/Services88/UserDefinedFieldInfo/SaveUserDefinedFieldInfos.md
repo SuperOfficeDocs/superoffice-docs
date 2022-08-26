@@ -15,6 +15,8 @@ Save an array of user defined fields. This will update the unpublished layout.
 
 * **infos:** An array of user defined fields
 
+
+
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -84,6 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveUserDefinedFieldInfos Response
 
 ```xml
@@ -103,3 +106,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

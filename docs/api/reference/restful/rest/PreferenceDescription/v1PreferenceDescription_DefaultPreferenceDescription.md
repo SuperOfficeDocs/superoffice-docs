@@ -1,6 +1,6 @@
 ---
 title: GET PreferenceDescription/default
-id: v1PreferenceDescription_DefaultPreferenceDescription
+uid: v1PreferenceDescription_DefaultPreferenceDescription
 ---
 
 # GET PreferenceDescription/default
@@ -11,7 +11,14 @@ GET /api/v1/PreferenceDescription/default
 
 Set default values into a new PreferenceDescription.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Preference agent service CreateDefaultPreferenceDescription.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-Carrier object for PreferenceDescription.
-Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/PreferenceDescription/default
@@ -71,41 +76,37 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 715,
-  "Section": "et",
-  "Key": "est",
-  "Name": "Gleichner-White",
+  "PrefDescId": 359,
+  "Section": "enim",
+  "Key": "amet",
+  "Name": "Leannon-Corwin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile tangible adapter",
-  "IsBuiltin": false,
-  "TableName": "Dare-O'Hara",
-  "UserDefinedListId": 318,
-  "Rank": 233,
-  "SubGroup": "nobis",
-  "MinLevel": 669,
-  "MaxValue": 966,
-  "MinValue": 883,
+  "Description": "Organized cohesive hub",
+  "IsBuiltin": true,
+  "TableName": "Cremin-Murray",
+  "UserDefinedListId": 895,
+  "Rank": 147,
+  "SubGroup": "iure",
+  "MinLevel": 909,
+  "MaxValue": 310,
+  "MinValue": 766,
   "RequiredLicense": "et",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

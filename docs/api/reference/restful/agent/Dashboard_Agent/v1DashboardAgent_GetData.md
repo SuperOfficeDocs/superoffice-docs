@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/GetData
-id: v1DashboardAgent_GetData
+uid: v1DashboardAgent_GetData
 ---
 
 # POST Agents/Dashboard/GetData
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetData
 
 Get data for this tile
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get data for this tile
 ```http
 POST /api/v1/Agents/Dashboard/GetData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Dashboard/GetData?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileId, Restrictions
+DashboardTileId, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileId | int32 |  |
 | Restrictions | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,20 +67,22 @@ Response body: array
 | Columns | array | Column information |
 | Result |  | The result set |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 479,
-  "Restrictions": "nihil"
+  "DashboardTileId": 96,
+  "Restrictions": "minima"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,76 +92,42 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gleichner LLC",
-        "DisplayTooltip": "aut",
-        "DisplayType": "sint",
-        "CanOrderBy": true,
-        "Name": "Nicolas Group",
+        "DisplayName": "Vandervort-Berge",
+        "DisplayTooltip": "necessitatibus",
+        "DisplayType": "ab",
+        "CanOrderBy": false,
+        "Name": "Jewess Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "ipsam",
-        "RestrictionListName": "Smitham LLC",
-        "IsVisible": true,
-        "ExtraInfo": "dolorum",
-        "Width": "quis",
-        "IconHint": "harum",
-        "HeadingIconHint": "deleniti"
+        "RestrictionType": "esse",
+        "RestrictionListName": "Hirthe Inc and Sons",
+        "IsVisible": false,
+        "ExtraInfo": "itaque",
+        "Width": "libero",
+        "IconHint": "provident",
+        "HeadingIconHint": "laborum"
       }
     ],
-    "Result": {
-      "RowCount": 309,
-      "Rows": [
-        {},
-        {}
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 931
-        }
-      }
-    }
+    "Result": null
   },
   {
     "Columns": [
       {
-        "DisplayName": "Gleichner LLC",
-        "DisplayTooltip": "aut",
-        "DisplayType": "sint",
-        "CanOrderBy": true,
-        "Name": "Nicolas Group",
+        "DisplayName": "Vandervort-Berge",
+        "DisplayTooltip": "necessitatibus",
+        "DisplayType": "ab",
+        "CanOrderBy": false,
+        "Name": "Jewess Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "ipsam",
-        "RestrictionListName": "Smitham LLC",
-        "IsVisible": true,
-        "ExtraInfo": "dolorum",
-        "Width": "quis",
-        "IconHint": "harum",
-        "HeadingIconHint": "deleniti"
+        "RestrictionType": "esse",
+        "RestrictionListName": "Hirthe Inc and Sons",
+        "IsVisible": false,
+        "ExtraInfo": "itaque",
+        "Width": "libero",
+        "IconHint": "provident",
+        "HeadingIconHint": "laborum"
       }
     ],
-    "Result": {
-      "RowCount": 309,
-      "Rows": [
-        {},
-        {}
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 931
-        }
-      }
-    }
+    "Result": null
   }
 ]
 ```

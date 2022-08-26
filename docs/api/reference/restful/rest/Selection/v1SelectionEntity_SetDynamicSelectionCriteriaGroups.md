@@ -1,6 +1,6 @@
 ---
 title: PUT Selection/{id}/CriteriaGroups
-id: v1SelectionEntity_SetDynamicSelectionCriteriaGroups
+uid: v1SelectionEntity_SetDynamicSelectionCriteriaGroups
 ---
 
 # PUT Selection/{id}/CriteriaGroups
@@ -11,11 +11,18 @@ PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 
 Update the criteria for this dynamic selection.
 
+
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Replaces existing criteria with the new values. This call supports multiple crit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria
+## Request Body: criteria  
 
-Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set
+Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,10 @@ Criteria groups defining the selection result. Empty array is legal, simply mean
 | Rank | int32 |  |
 | Restrictions | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
@@ -68,63 +78,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walker, Ferry and Feil",
-    "Description": "Profit-focused empowering knowledge user",
-    "Rank": 236,
+    "Name": "Kassulke, Oberbrunner and Spinka",
+    "Description": "Diverse background success",
+    "Rank": 765,
     "Restrictions": [
       {
-        "Name": "Thompson Group",
-        "Operator": "qui",
+        "Name": "Blanda LLC",
+        "Operator": "provident",
         "Values": [
-          "ipsa",
-          "et"
+          "laboriosam",
+          "iusto"
         ],
         "DisplayValues": [
-          "esse",
-          "praesentium"
+          "nam",
+          "quasi"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 292,
+        "InterParenthesis": 629,
         "InterOperator": "And",
-        "UniqueHash": 478
+        "UniqueHash": 695
       }
     ]
   },
   {
-    "Name": "Walker, Ferry and Feil",
-    "Description": "Profit-focused empowering knowledge user",
-    "Rank": 236,
+    "Name": "Kassulke, Oberbrunner and Spinka",
+    "Description": "Diverse background success",
+    "Rank": 765,
     "Restrictions": [
       {
-        "Name": "Thompson Group",
-        "Operator": "qui",
+        "Name": "Blanda LLC",
+        "Operator": "provident",
         "Values": [
-          "ipsa",
-          "et"
+          "laboriosam",
+          "iusto"
         ],
         "DisplayValues": [
-          "esse",
-          "praesentium"
+          "nam",
+          "quasi"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 292,
+        "InterParenthesis": 629,
         "InterOperator": "And",
-        "UniqueHash": 478
+        "UniqueHash": 695
       }
     ]
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -132,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Torphy, Hammes and Watsica",
-    "Description": "Re-contextualized 24 hour migration",
-    "Rank": 276,
+    "Name": "Lockman, Sawayn and Ratke",
+    "Description": "Mandatory optimizing system engine",
+    "Rank": 240,
     "Restrictions": [
       {
-        "Name": "Renner, Fay and Watsica",
-        "Operator": "sunt",
+        "Name": "Gutmann Group",
+        "Operator": "assumenda",
         "Values": [
-          "dicta",
-          "expedita"
+          "vitae",
+          "voluptates"
         ],
         "DisplayValues": [
-          "et",
-          "aut"
+          "quae",
+          "quidem"
         ],
-        "ColumnInfo": {},
+        "ColumnInfo": null,
         "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 359,
+        "InterParenthesis": 699,
         "InterOperator": "And",
-        "UniqueHash": 83
+        "UniqueHash": 78
       }
     ]
   },
   {
-    "Name": "Torphy, Hammes and Watsica",
-    "Description": "Re-contextualized 24 hour migration",
-    "Rank": 276,
+    "Name": "Lockman, Sawayn and Ratke",
+    "Description": "Mandatory optimizing system engine",
+    "Rank": 240,
     "Restrictions": [
       {
-        "Name": "Renner, Fay and Watsica",
-        "Operator": "sunt",
+        "Name": "Gutmann Group",
+        "Operator": "assumenda",
         "Values": [
-          "dicta",
-          "expedita"
+          "vitae",
+          "voluptates"
         ],
         "DisplayValues": [
-          "et",
-          "aut"
+          "quae",
+          "quidem"
         ],
-        "ColumnInfo": {},
+        "ColumnInfo": null,
         "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 359,
+        "InterParenthesis": 699,
         "InterOperator": "And",
-        "UniqueHash": 83
+        "UniqueHash": 78
       }
     ]
   }

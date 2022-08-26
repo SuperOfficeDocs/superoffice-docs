@@ -17,6 +17,7 @@ Updates the existing ResourceEntity or creates a new ResourceEntity if the id pa
 
 **Returns:** New or updated ResourceEntity
 
+
 [WSDL file for Services84/List](../Services84-List.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveResourceEntity Response
 
 ```xml
@@ -85,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

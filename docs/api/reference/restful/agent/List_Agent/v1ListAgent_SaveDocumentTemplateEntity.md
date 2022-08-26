@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveDocumentTemplateEntity
-id: v1ListAgent_SaveDocumentTemplateEntity
+uid: v1ListAgent_SaveDocumentTemplateEntity
 ---
 
 # POST Agents/List/SaveDocumentTemplateEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 ```
 
 Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEnt
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DocumentTemplateEntity to be saved.
+The DocumentTemplateEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,18 +64,16 @@ The DocumentTemplateEntity to be saved.
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-## Response: object
 
-The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+## Response: 
 
-Carrier object for DocumentTemplateEntity.
-Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,86 +105,82 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 857,
-  "Name": "Fadel, Beahan and D'Amore",
-  "Tooltip": "recusandae",
-  "SaveInDb": 42,
-  "Filename": "minima",
-  "DefaultOref": "quisquam",
+  "DocumentTemplateId": 548,
+  "Name": "Homenick Group",
+  "Tooltip": "nihil",
+  "SaveInDb": 327,
+  "Filename": "voluptatem",
+  "DefaultOref": "temporibus",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 722,
-  "IntentId": 945,
+  "AutoeventId": 51,
+  "IntentId": 125,
   "IsDefaultPublished": false,
-  "Rank": 838,
-  "LoadTemplateFromPlugin": 696,
-  "MimeType": "ipsam",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 137,
+  "Rank": 555,
+  "LoadTemplateFromPlugin": 306,
+  "MimeType": "molestiae",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 555,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "aimee_jast@kuhlman.co.uk",
+  "EmailSubject": "jane_oconner@osinski.uk",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brett_lebsack@stoltenberg.us",
+  "SenderEmailAddress": "woodrow@hansen.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 590,
-  "Name": "Daugherty-Crist",
-  "Tooltip": "aut",
-  "SaveInDb": 483,
-  "Filename": "illo",
-  "DefaultOref": "voluptate",
+  "DocumentTemplateId": 410,
+  "Name": "Abshire LLC",
+  "Tooltip": "ipsum",
+  "SaveInDb": 88,
+  "Filename": "libero",
+  "DefaultOref": "aliquid",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 355,
-  "IntentId": 120,
+  "AutoeventId": 500,
+  "IntentId": 957,
   "IsDefaultPublished": false,
-  "Rank": 568,
-  "LoadTemplateFromPlugin": 409,
-  "MimeType": "nihil",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 187,
+  "Rank": 749,
+  "LoadTemplateFromPlugin": 401,
+  "MimeType": "voluptatem",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 562,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "yesenia.roberts@schmitt.com",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "fletcher.parisian@ryan.ca",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "immanuel@kuvalis.name",
+  "SenderEmailAddress": "carolyn.buckridge@legros.ca",
   "InvitationDocType": "Cancelled",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "harness killer technologies"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldLength": 946
     }
   }
 }

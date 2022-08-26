@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/CalculateDays
-id: v1AppointmentAgent_CalculateDays
+uid: v1AppointmentAgent_CalculateDays
 ---
 
 # POST Agents/Appointment/CalculateDays
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/CalculateDays
 
 Calculates the set of dates that represents a recurrence pattern.
 
+
 Adds conflict information to each date.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Adds conflict information to each date.
 ```http
 POST /api/v1/Agents/Appointment/CalculateDays?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,21 +44,24 @@ POST /api/v1/Agents/Appointment/CalculateDays?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentEntity
+AppointmentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,141 +78,51 @@ Response body: object
 | Dates | array |  |
 | IsRecurrence | bool |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentEntity": {
-    "Associate": {},
-    "Contact": {},
-    "CreatedBy": {},
-    "UpdatedBy": {},
-    "CreatedDate": "2006-07-10T18:28:48.0558517+02:00",
-    "AppointmentId": 640,
-    "Description": "Inverse tangible instruction set",
-    "StartDate": "2004-03-05T18:28:48.0558517+01:00",
-    "EndDate": "1998-08-20T18:28:48.0558517+02:00",
-    "InvitedPerson": {},
-    "Person": {},
-    "MotherId": 994,
-    "Priority": {},
-    "Private": "PrivateGroup",
-    "Project": {},
-    "Type": "BookingForChecklist",
-    "UpdatedDate": "2012-05-24T18:28:48.0558517+02:00",
-    "Completed": "Completed",
-    "ActiveLinks": 919,
-    "Links": [
-      {},
-      {}
-    ],
-    "AlarmLeadTime": "reprehenderit",
-    "HasAlarm": true,
-    "ColorIndex": 133,
-    "IsFree": false,
-    "IsAlldayEvent": true,
-    "LagTime": "id",
-    "LeadTime": "vel",
-    "Location": "est",
-    "RejectCounter": 485,
-    "RejectReason": "",
-    "Recurrence": {},
-    "Participants": [
-      {},
-      {}
-    ],
-    "AssignmentStatus": "Assigning",
-    "InvitationStatus": "Accepted",
-    "BookingType": "None",
-    "ActiveDate": "2001-06-19T18:28:48.0558517+02:00",
-    "HasConflict": true,
-    "AssignedBy": {},
-    "MotherAssociate": {},
-    "Task": {},
-    "PreferredTZLocation": 235,
-    "Sale": {},
-    "SuggestedAppointmentId": 744,
-    "IsMileStone": true,
-    "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-    "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "omnis",
-    "UserDefinedFields": {
-      "SuperOffice:1": "1422881114",
-      "SuperOffice:2": "1716013544"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "ut",
-      "ExtraFields2": "ut"
-    },
-    "CustomFields": {
-      "CustomFields1": "voluptatem",
-      "CustomFields2": "enim"
-    },
-    "PublishEventDate": "2020-04-07T18:28:48.0568502+02:00",
-    "PublishTo": "2010-03-04T18:28:48.0568502+01:00",
-    "PublishFrom": "2006-03-22T18:28:48.0568502+01:00",
-    "IsPublished": true,
-    "VisibleFor": [
-      {},
-      {}
-    ]
-  }
+  "AppointmentEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 320,
-  "StartDate": "1996-07-29T18:28:48.0568502+02:00",
-  "EndDate": "2015-10-27T18:28:48.0568502+01:00",
-  "RecurrenceCounter": 365,
+  "RecurrenceId": 551,
+  "StartDate": "2009-03-09T11:10:25.5975225+01:00",
+  "EndDate": "2016-05-22T11:10:25.5975225+02:00",
+  "RecurrenceCounter": 227,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
-  "DayPattern": {
-    "Pattern": "EveryCyclicDay",
-    "Cycle": 504
-  },
-  "WeekPattern": {
-    "Weekdays": "Friday",
-    "Cycle": 630
-  },
-  "MonthPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 255,
-    "Day": 207,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
-  "YearPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 897,
-    "Day": 36,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
+  "DayPattern": null,
+  "WeekPattern": null,
+  "MonthPattern": null,
+  "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-07-11T18:28:48.0568502+02:00",
-      "IsConflict": true,
-      "Description": "Visionary multi-tasking local area network",
-      "DescriptionStyleHint": "Quality-focused intermediate help-desk",
-      "Tooltip": "dolorum"
+      "Date": "2006-10-27T11:10:25.5975225+02:00",
+      "IsConflict": false,
+      "Description": "Reverse-engineered bi-directional process improvement",
+      "DescriptionStyleHint": "Progressive solution-oriented data-warehouse",
+      "Tooltip": "expedita"
     },
     {
-      "Date": "2002-07-11T18:28:48.0568502+02:00",
-      "IsConflict": true,
-      "Description": "Visionary multi-tasking local area network",
-      "DescriptionStyleHint": "Quality-focused intermediate help-desk",
-      "Tooltip": "dolorum"
+      "Date": "2006-10-27T11:10:25.5975225+02:00",
+      "IsConflict": false,
+      "Description": "Reverse-engineered bi-directional process improvement",
+      "DescriptionStyleHint": "Progressive solution-oriented data-warehouse",
+      "Tooltip": "expedita"
     }
   ],
   "IsRecurrence": false

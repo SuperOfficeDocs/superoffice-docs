@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sentry/GetNewTableRight
-id: v1SentryAgent_GetNewTableRight
+uid: v1SentryAgent_GetNewTableRight
 ---
 
 # POST Agents/Sentry/GetNewTableRight
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sentry/GetNewTableRight
 
 Returns a TableRight for a new row based on tableName parameter.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a TableRight for a new row based on tableName parameter.
 ```http
 POST /api/v1/Agents/Sentry/GetNewTableRight?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,40 +42,45 @@ POST /api/v1/Agents/Sentry/GetNewTableRight?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName
+TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Mask | string |  |
 | Reason | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sentry/GetNewTableRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Streich Group"
+  "TableName": "Simonis, Schuster and Balistreri"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

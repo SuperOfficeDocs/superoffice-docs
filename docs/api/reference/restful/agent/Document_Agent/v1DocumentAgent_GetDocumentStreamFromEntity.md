@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetDocumentStreamFromEntity
-id: v1DocumentAgent_GetDocumentStreamFromEntity
+uid: v1DocumentAgent_GetDocumentStreamFromEntity
 ---
 
 # POST Agents/Document/GetDocumentStreamFromEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
 
 Get the document as a stream
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the document as a stream
 ```http
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,89 +42,45 @@ POST /api/v1/Agents/Document/GetDocumentStreamFromEntity?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentEntity
+DocumentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
+Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentEntity": {
-    "DocumentId": 529,
-    "UpdatedBy": {},
-    "CreatedBy": {},
-    "Attention": "soluta",
-    "Header": "et",
-    "Name": "Heathcote Group",
-    "OurRef": "beatae",
-    "YourRef": "et",
-    "CreatedDate": "2010-06-29T18:28:48.8649617+02:00",
-    "UpdatedDate": "2005-07-01T18:28:48.8649617+02:00",
-    "Description": "Focused dedicated neural-net",
-    "DocumentTemplate": {},
-    "Person": {},
-    "Associate": {},
-    "Contact": {},
-    "Project": {},
-    "Date": "2002-01-11T18:28:48.8649617+01:00",
-    "ExternalRef": "et",
-    "Completed": "Completed",
-    "ActiveLinks": 787,
-    "Type": "BookingForChecklist",
-    "Links": [
-      {},
-      {}
-    ],
-    "LockSemantics": "Locking",
-    "Sale": {},
-    "SuggestedDocumentId": 433,
-    "Snum": 265,
-    "UserDefinedFields": {
-      "SuperOffice:1": "445021927",
-      "SuperOffice:2": "Casimir Feeney"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "atque",
-      "ExtraFields2": "rerum"
-    },
-    "CustomFields": {
-      "CustomFields1": "quisquam",
-      "CustomFields2": "perferendis"
-    },
-    "PublishEventDate": "2016-05-09T18:28:48.8649617+02:00",
-    "PublishTo": "2017-05-18T18:28:48.8649617+02:00",
-    "PublishFrom": "2020-03-04T18:28:48.8649617+01:00",
-    "IsPublished": true,
-    "VisibleFor": [
-      {},
-      {}
-    ]
-  }
+  "DocumentEntity": null
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

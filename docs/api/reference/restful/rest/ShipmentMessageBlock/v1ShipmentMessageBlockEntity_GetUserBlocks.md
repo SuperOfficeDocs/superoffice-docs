@@ -1,6 +1,6 @@
 ---
 title: GET ShipmentMessageBlock/Associate/{id}
-id: v1ShipmentMessageBlockEntity_GetUserBlocks
+uid: v1ShipmentMessageBlockEntity_GetUserBlocks
 ---
 
 # GET ShipmentMessageBlock/Associate/{id}
@@ -11,9 +11,16 @@ GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 
 Get the saved user blocks to be used in a shipment/mailing message
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | The associate id to get the user blocks. 0 will get all saved blocks **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get the saved user blocks to be used in a shipment/mailing message
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,14 +59,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -64,26 +76,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 605,
-    "AssociateId": 248,
-    "Block": "eligendi",
-    "Registered": "2013-09-26T18:25:51.1099465+02:00",
-    "RegisteredAssociateId": 544,
-    "Updated": "2013-06-22T18:25:51.1099465+02:00",
-    "UpdatedAssociateId": 194,
-    "UpdatedCount": 316,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ShipmentMessageBlockId": 607,
+    "AssociateId": 812,
+    "Block": "quisquam",
+    "Registered": "2010-02-23T11:10:53.522175+01:00",
+    "RegisteredAssociateId": 917,
+    "Updated": "2018-01-07T11:10:53.522175+01:00",
+    "UpdatedAssociateId": 60,
+    "UpdatedCount": 841,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 333
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/GetDashboardTiles
-id: v1DashboardAgent_GetDashboardTiles
+uid: v1DashboardAgent_GetDashboardTiles
 ---
 
 # POST Agents/Dashboard/GetDashboardTiles
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDashboardTiles
 
 Gets an array of dashboard tiles for the provided ids
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of dashboard tiles for the provided ids
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboardTiles?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Dashboard/GetDashboardTiles?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileIds
+DashboardTileIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -70,22 +80,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    293,
-    788
+    646,
+    509
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,89 +105,74 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 519,
-    "Caption": "non",
-    "Description": "Total clear-thinking Graphical User Interface",
-    "ChartName": "Beahan, Bednar and Johnson",
-    "ChartId": "sed",
-    "IsDefault": true,
-    "AssociateId": 419,
-    "GroupId": 822,
-    "SelectionId": 830,
-    "Config": "ut",
+    "DashboardTileId": 844,
+    "Caption": "ea",
+    "Description": "Self-enabling multimedia frame",
+    "ChartName": "Kessler, Weber and Fisher",
+    "ChartId": "consequuntur",
+    "IsDefault": false,
+    "AssociateId": 331,
+    "GroupId": 394,
+    "SelectionId": 976,
+    "Config": "voluptatem",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Schimmel, Howell and Cartwright",
-        "Description": "Multi-tiered content-based focus group",
+        "Name": "Morar LLC",
+        "Description": "Multi-tiered homogeneous groupware",
         "Type": "Boolean",
-        "ListName": "Weissnat-Effertz",
+        "ListName": "Kiehn, Crist and Stiedemann",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "minima",
+        "Value": "esse",
         "DefaultDataOption": false,
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 815
+            "FieldLength": 301
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 398,
+        "VisibleId": 806,
         "Visibility": "All",
-        "DisplayValue": "accusamus",
-        "TableRight": {},
+        "DisplayValue": "ipsum",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 789
+            "FieldLength": 741
           }
         }
       },
       {
-        "VisibleId": 398,
+        "VisibleId": 806,
         "Visibility": "All",
-        "DisplayValue": "accusamus",
-        "TableRight": {},
+        "DisplayValue": "ipsum",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 789
+            "FieldLength": 741
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 938
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

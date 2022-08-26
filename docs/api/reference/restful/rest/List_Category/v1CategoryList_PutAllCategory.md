@@ -1,6 +1,6 @@
 ---
 title: PUT List/Category/Items
-id: v1CategoryList_PutAllCategory
+uid: v1CategoryList_PutAllCategory
 ---
 
 # PUT List/Category/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Category/Items
 ```
 
 Update the Category list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Category list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Category.
+All the updated Category. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Category.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Category/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Purdy LLC",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "UdListDefinitionId": 111,
-    "Rank": 697
+    "Id": 864,
+    "Name": "Schmeler-Lueilwitz",
+    "Tooltip": "a",
+    "Deleted": true,
+    "UdListDefinitionId": 910,
+    "Rank": 799
   },
   {
-    "Id": 967,
-    "Name": "Purdy LLC",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "UdListDefinitionId": 111,
-    "Rank": 697
+    "Id": 864,
+    "Name": "Schmeler-Lueilwitz",
+    "Tooltip": "a",
+    "Deleted": true,
+    "UdListDefinitionId": 910,
+    "Rank": 799
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "McLaughlin, Balistreri and Dach",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 384,
-    "Rank": 871,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 912,
+    "Name": "Fahey-Morissette",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "UdListDefinitionId": 375,
+    "Rank": 905,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldLength": 768
       }
     }
   }

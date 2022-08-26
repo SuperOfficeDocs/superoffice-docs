@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetMyAppointments
-id: v1AppointmentAgent_GetMyAppointments
+uid: v1AppointmentAgent_GetMyAppointments
 ---
 
 # POST Agents/Appointment/GetMyAppointments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMyAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the currently logged on user.
 ```http
 POST /api/v1/Agents/Appointment/GetMyAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetMyAppointments?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartTime, EndTime, Count
+StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -109,21 +119,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "1996-08-23T18:28:47.8818482+02:00",
-  "EndTime": "2005-09-26T18:28:47.8818482+02:00",
-  "Count": 441
+  "StartTime": "2004-08-07T11:10:25.7395536+02:00",
+  "EndTime": "2014-01-31T11:10:25.7395536+01:00",
+  "Count": 820
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -131,67 +143,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 54,
-    "StartDate": "1997-10-24T18:28:47.8838473+02:00",
-    "EndDate": "2007-10-09T18:28:47.8838473+02:00",
+    "AppointmentId": 632,
+    "StartDate": "2010-10-18T11:10:25.7405549+02:00",
+    "EndDate": "2012-04-25T11:10:25.7405549+02:00",
     "Type": "BookingForChecklist",
-    "Task": "neque",
-    "AssociateFullName": "Dashawn Romaguera",
-    "ContactName": "Muller-Bode",
-    "Description": "Business-focused incremental framework",
-    "PersonFullName": "Shanny Beahan",
-    "PersonId": 916,
-    "ContactId": 671,
-    "ProjectId": 347,
-    "ProjectName": "Walker-Schimmel",
-    "IsPublished": true,
-    "AssociateId": 573,
-    "ColorIndex": 245,
+    "Task": "itaque",
+    "AssociateFullName": "Arvilla Rath",
+    "ContactName": "Bednar Group",
+    "Description": "Function-based mobile moratorium",
+    "PersonFullName": "Dr. Lavinia Bernier",
+    "PersonId": 816,
+    "ContactId": 555,
+    "ProjectId": 215,
+    "ProjectName": "Smith-Leannon",
+    "IsPublished": false,
+    "AssociateId": 971,
+    "ColorIndex": 667,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 558,
-    "PriorityName": "Reilly-Heathcote",
+    "PriorityId": 785,
+    "PriorityName": "Balistreri-Hudson",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2006-07-28T18:28:47.8838473+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2010-08-27T11:10:25.7405549+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-07-25T18:28:47.8838473+02:00",
-    "RecurringEndDate": "2011-11-03T18:28:47.8838473+01:00",
-    "MotherId": 867,
-    "AssignedBy": 946,
-    "AssignedByFullName": "Joesph Wunsch III",
+    "RecurringStartDate": "2017-02-13T11:10:25.7405549+01:00",
+    "RecurringEndDate": "2020-08-29T11:10:25.7405549+02:00",
+    "MotherId": 621,
+    "AssignedBy": 353,
+    "AssignedByFullName": "Claire Shields",
     "RejectReason": "",
-    "Location": "praesentium",
-    "AlarmLeadTime": "quisquam",
-    "SaleId": 590,
-    "SaleName": "VonRueden Inc and Sons",
-    "AssociateName": "Franecki Inc and Sons",
-    "CreatedDate": "2020-01-12T18:28:47.8848454+01:00",
-    "CreatedBy": "laboriosam",
-    "CreatedByFullName": "Gloria Kirlin Jr.",
-    "CreatedByAssociateId": 536,
+    "Location": "cumque",
+    "AlarmLeadTime": "officiis",
+    "SaleId": 881,
+    "SaleName": "Abshire, Pfannerstill and Hauck",
+    "AssociateName": "Kerluke, O'Conner and Cremin",
+    "CreatedDate": "2018-02-04T11:10:25.7415532+01:00",
+    "CreatedBy": "expedita",
+    "CreatedByFullName": "Miss Toni Thompson IV",
+    "CreatedByAssociateId": 186,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 996
       }
     }
   }

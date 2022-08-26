@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetProjectDocumentsByTemplateHeading
-id: v1DocumentAgent_GetProjectDocumentsByTemplateHeading
+uid: v1DocumentAgent_GetProjectDocumentsByTemplateHeading
 ---
 
 # POST Agents/Document/GetProjectDocumentsByTemplateHeading
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 
 Method that returns a specified number of document appointments within a time range, filtered by document template heading.
 
+
 The document appointments belong to the project specified. The heading represents a grouping or filtering of document templates.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified. The heading represent
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, TemplateHeadingId
+ProjectId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ProjectId, StartTime, EndTime, Count, TemplateHeadingId
 | Count | int32 |  |
 | TemplateHeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 423,
-  "StartTime": "2000-05-26T18:28:48.7209564+02:00",
-  "EndTime": "2001-07-27T18:28:48.7209564+02:00",
-  "Count": 561,
-  "TemplateHeadingId": 932
+  "ProjectId": 150,
+  "StartTime": "2006-10-08T11:10:26.4774554+02:00",
+  "EndTime": "2021-04-07T11:10:26.4774554+02:00",
+  "Count": 335,
+  "TemplateHeadingId": 251
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 240,
-    "Attention": "ex",
-    "Header": "quo",
-    "Name": "Kihn-Bartoletti",
-    "OurRef": "est",
-    "YourRef": "impedit",
-    "Description": "Fundamental multi-state system engine",
-    "DocumentTemplate": "nesciunt",
-    "IsPublished": true,
-    "PersonId": 416,
-    "PersonFullName": "Jamar Considine",
-    "AssociateFullName": "Mr. Ceasar Prosacco",
-    "ContactId": 930,
-    "ContactName": "Luettgen, Leffler and Yost",
-    "ProjectId": 172,
-    "ProjectName": "Walsh-Christiansen",
-    "AssociateId": 158,
-    "Snum": 301,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 811,
+    "Attention": "molestiae",
+    "Header": "qui",
+    "Name": "Botsford, Crist and VonRueden",
+    "OurRef": "qui",
+    "YourRef": "aspernatur",
+    "Description": "Polarised client-driven analyzer",
+    "DocumentTemplate": "praesentium",
+    "IsPublished": false,
+    "PersonId": 897,
+    "PersonFullName": "Caitlyn Feeney",
+    "AssociateFullName": "Bridgette Jewess",
+    "ContactId": 383,
+    "ContactName": "Bailey-Rolfson",
+    "ProjectId": 859,
+    "ProjectName": "Will, Goyette and O'Reilly",
+    "AssociateId": 420,
+    "Snum": 661,
+    "SaleId": 843,
+    "SaleName": "Gutmann Group",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldLength": 321
       }
     }
   }

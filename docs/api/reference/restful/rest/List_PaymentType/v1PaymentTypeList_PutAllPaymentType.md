@@ -1,6 +1,6 @@
 ---
 title: PUT List/PaymentType/Items
-id: v1PaymentTypeList_PutAllPaymentType
+uid: v1PaymentTypeList_PutAllPaymentType
 ---
 
 # PUT List/PaymentType/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/PaymentType/Items
 ```
 
 Update the PaymentType list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the PaymentType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated PaymentType.
+All the updated PaymentType. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated PaymentType.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/PaymentType/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Name": "Powlowski, Cummings and O'Hara",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "UdListDefinitionId": 263,
-    "Rank": 933
+    "Id": 359,
+    "Name": "Padberg-Cruickshank",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 91,
+    "Rank": 519
   },
   {
-    "Id": 471,
-    "Name": "Powlowski, Cummings and O'Hara",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "UdListDefinitionId": 263,
-    "Rank": 933
+    "Id": 359,
+    "Name": "Padberg-Cruickshank",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 91,
+    "Rank": 519
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 982,
-    "Name": "Reilly Inc and Sons",
-    "Tooltip": "quam",
-    "Deleted": true,
-    "UdListDefinitionId": 733,
-    "Rank": 202,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 666,
+    "Name": "Kiehn, Lubowitz and Swift",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "UdListDefinitionId": 967,
+    "Rank": 370,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 474
       }
     }
   }

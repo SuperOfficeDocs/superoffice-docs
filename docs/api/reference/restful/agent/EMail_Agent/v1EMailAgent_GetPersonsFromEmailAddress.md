@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetPersonsFromEmailAddress
-id: v1EMailAgent_GetPersonsFromEmailAddress
+uid: v1EMailAgent_GetPersonsFromEmailAddress
 ---
 
 # POST Agents/EMail/GetPersonsFromEmailAddress
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 
 Get all persons and contacts with the given email address
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get all persons and contacts with the given email address
 ```http
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailAddress
+EmailAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailAddress | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -98,19 +110,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "lina@keebler.uk"
+  "EmailAddress": "lewis@daniel.uk"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -118,58 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 532,
-    "Mrmrs": "aut",
-    "Firstname": "Gaetano",
-    "Lastname": "Reichel",
-    "MiddleName": "Herman-Larson",
-    "Title": "voluptas",
-    "Description": "Extended bi-directional contingency",
-    "Email": "jo.miller@rodriguezlittel.com",
-    "FullName": "Gaylord Schuster MD",
-    "DirectPhone": "802-288-5324",
-    "FormalName": "Weimann Group",
-    "CountryId": 508,
-    "ContactId": 1000,
-    "ContactName": "Smith-Schultz",
-    "Retired": 60,
-    "Rank": 709,
-    "ActiveInterests": 444,
+    "Position": "quas",
+    "PersonId": 149,
+    "Mrmrs": "excepturi",
+    "Firstname": "Marquise",
+    "Lastname": "Legros",
+    "MiddleName": "Olson-Huels",
+    "Title": "placeat",
+    "Description": "Streamlined exuding encryption",
+    "Email": "zetta_effertz@swiftwelch.us",
+    "FullName": "Davin Labadie",
+    "DirectPhone": "(941)557-9745 x55402",
+    "FormalName": "White, Schneider and Runolfsson",
+    "CountryId": 896,
+    "ContactId": 330,
+    "ContactName": "Becker Group",
+    "Retired": 656,
+    "Rank": 960,
+    "ActiveInterests": 349,
     "ContactDepartment": "",
-    "ContactCountryId": 876,
-    "ContactOrgNr": "1702325",
-    "FaxPhone": "1-441-231-6652 x14725",
-    "MobilePhone": "(201)542-4435 x68541",
-    "ContactPhone": "1-404-028-1121",
-    "AssociateName": "Pollich, Keebler and Hessel",
-    "AssociateId": 954,
-    "UsePersonAddress": false,
-    "ContactFax": "in",
-    "Kanafname": "pariatur",
-    "Kanalname": "quasi",
-    "Post1": "ut",
-    "Post2": "fuga",
-    "Post3": "omnis",
-    "EmailName": "martine@connelly.name",
-    "ContactFullName": "Paolo Stanton",
-    "ActiveErpLinks": 525,
-    "TicketPriorityId": 635,
-    "SupportLanguageId": 319,
-    "SupportAssociateId": 888,
+    "ContactCountryId": 615,
+    "ContactOrgNr": "888094",
+    "FaxPhone": "546.951.5513",
+    "MobilePhone": "1-444-140-4138",
+    "ContactPhone": "814-930-4291 x18499",
+    "AssociateName": "Langworth, Swift and Gulgowski",
+    "AssociateId": 346,
+    "UsePersonAddress": true,
+    "ContactFax": "quis",
+    "Kanafname": "similique",
+    "Kanalname": "dolorem",
+    "Post1": "optio",
+    "Post2": "ut",
+    "Post3": "repudiandae",
+    "EmailName": "kieran.goldner@wisozk.uk",
+    "ContactFullName": "Mrs. Laurine Tyshawn Mosciski II",
+    "ActiveErpLinks": 864,
+    "TicketPriorityId": 353,
+    "SupportLanguageId": 205,
+    "SupportAssociateId": 345,
     "CategoryName": "VIP Customer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

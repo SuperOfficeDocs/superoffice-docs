@@ -1,6 +1,6 @@
 ---
 title: GET CRMScript
-id: v1CRMScriptEntity_GetAll
+uid: v1CRMScriptEntity_GetAll
 ---
 
 # GET CRMScript
@@ -11,6 +11,7 @@ GET /api/v1/CRMScript
 
 OData list of all CRMScriptEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * CRMScript?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * CRMScript?$top=1000
 * CRMScript?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "Ejscripts" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=pariatur
-GET /api/v1/CRMScript?$top=971
-GET /api/v1/CRMScript?$skip=978
+GET /api/v1/CRMScript?$entities=amet
+GET /api/v1/CRMScript?$top=67
+GET /api/v1/CRMScript?$skip=374
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=culpa
+GET /api/v1/CRMScript?$context=voluptatem
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=True
+GET /api/v1/CRMScript?$jsonSafe=False
 GET /api/v1/CRMScript?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/CRMScript?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +112,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/CRMScript
@@ -109,27 +121,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "impedit",
   "value": [
     {
-      "PrimaryKey": 4666,
-      "EntityName": "sale",
-      "saleId": 4666,
-      "contactId": 9208,
-      "name": "Frami-Thiel"
+      "PrimaryKey": 5891,
+      "EntityName": "person",
+      "personId": 5891,
+      "fullName": "Antonette Feest"
     },
     {
-      "PrimaryKey": 3209,
-      "EntityName": "sale",
-      "saleId": 3209,
-      "contactId": 8395,
-      "name": "Reichel-Turner"
+      "PrimaryKey": 8986,
+      "EntityName": "person",
+      "personId": 8986,
+      "fullName": "Elton Nicolas"
     }
   ]
 }

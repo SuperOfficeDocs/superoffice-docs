@@ -15,6 +15,8 @@ Deletes the ProjectEventEntity
 
 * **projectEventEntityId:** The identity of the ProjectEventEntity
 
+
+
 [WSDL file for Services87/Project](../Services87-Project.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteProjectEventEntity Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

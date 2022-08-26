@@ -1,6 +1,6 @@
 ---
 title: GET List/MrMrs/Items
-id: v1MrMrsList_GetAll
+uid: v1MrMrsList_GetAll
 ---
 
 # GET List/MrMrs/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/MrMrs/Items
 
 Gets all the MrMrs items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the MrMrs items
 ```http
 GET /api/v1/List/MrMrs/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/MrMrs/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Stanton, Pollich and Howe",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 552,
-    "Rank": 171,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 502,
+    "Name": "Gutkowski-Hessel",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "UdListDefinitionId": 960,
+    "Rank": 528,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 200
       }
     }
   }

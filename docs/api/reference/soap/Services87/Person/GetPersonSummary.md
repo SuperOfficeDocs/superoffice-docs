@@ -18,6 +18,7 @@ Get summary of person and recent activity.
 
 **Returns:** Summary of person, with recent requests, sales, follow-ups, chats.
 
+
 [WSDL file for Services87/Person](../Services87-Person.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPersonSummary Response
 
@@ -113,33 +115,33 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:TicketId xsi:type="xsd:int">0</Person:TicketId>
       <Person:TicketStatus xsi:type="xsd:int">0</Person:TicketStatus>
       <Person:Title xsi:type="xsd:string"></Person:Title>
-      <Person:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Registered>
+      <Person:Registered xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Registered>
      </Person:TicketSummaryItem>
     </Person:Tickets>
     <Person:Followups xsi:type="Person:ArrayOfActivitySummaryItem">
      <Person:ActivitySummaryItem xsi:type="Person:ActivitySummaryItem">
       <Person:AppointmentId xsi:type="xsd:int">0</Person:AppointmentId>
       <Person:DocumentId xsi:type="xsd:int">0</Person:DocumentId>
-      <Person:Date xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Date>
+      <Person:Date xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Date>
       <Person:Description xsi:type="xsd:string"></Person:Description>
       <Person:Completed xsi:type="Person:ActivityStatus">Unknown</Person:Completed>
-      <Person:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Registered>
+      <Person:Registered xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Registered>
      </Person:ActivitySummaryItem>
     </Person:Followups>
     <Person:Documents xsi:type="Person:ArrayOfActivitySummaryItem">
      <Person:ActivitySummaryItem xsi:type="Person:ActivitySummaryItem">
       <Person:AppointmentId xsi:type="xsd:int">0</Person:AppointmentId>
       <Person:DocumentId xsi:type="xsd:int">0</Person:DocumentId>
-      <Person:Date xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Date>
+      <Person:Date xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Date>
       <Person:Description xsi:type="xsd:string"></Person:Description>
       <Person:Completed xsi:type="Person:ActivityStatus">Unknown</Person:Completed>
-      <Person:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Registered>
+      <Person:Registered xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Registered>
      </Person:ActivitySummaryItem>
     </Person:Documents>
     <Person:Sales xsi:type="Person:ArrayOfSaleSummaryItem">
      <Person:SaleSummaryItem xsi:type="Person:SaleSummaryItem">
       <Person:SaleId xsi:type="xsd:int">0</Person:SaleId>
-      <Person:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:SaleDate>
+      <Person:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:SaleDate>
       <Person:Probability xsi:type="xsd:short">0</Person:Probability>
       <Person:Heading xsi:type="xsd:string"></Person:Heading>
       <Person:Amount xsi:type="xsd:double">0.0</Person:Amount>
@@ -147,7 +149,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:AmountInBaseCurrency xsi:type="xsd:double">0.0</Person:AmountInBaseCurrency>
       <Person:Status xsi:type="Person:SaleStatus">Unknown</Person:Status>
       <Person:Completed xsi:type="Person:ActivityStatus">Unknown</Person:Completed>
-      <Person:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:Registered>
+      <Person:Registered xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:Registered>
      </Person:SaleSummaryItem>
     </Person:Sales>
     <Person:Chats xsi:type="Person:ArrayOfChatSummaryItem">
@@ -157,8 +159,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:CompanyName xsi:type="xsd:string"></Person:CompanyName>
       <Person:FirstMessage xsi:type="xsd:string"></Person:FirstMessage>
       <Person:LastMessage xsi:type="xsd:string"></Person:LastMessage>
-      <Person:WhenRequested xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:WhenRequested>
-      <Person:WhenEnded xsi:type="xsd:dateTime">2021-11-30T13:23:22Z</Person:WhenEnded>
+      <Person:WhenRequested xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:WhenRequested>
+      <Person:WhenEnded xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:WhenEnded>
      </Person:ChatSummaryItem>
     </Person:Chats>
    </Person:Response>
@@ -167,3 +169,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

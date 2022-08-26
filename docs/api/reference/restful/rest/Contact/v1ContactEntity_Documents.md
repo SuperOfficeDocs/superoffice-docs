@@ -1,6 +1,6 @@
 ---
 title: GET Contact/{id}/Documents
-id: v1ContactEntity_Documents
+uid: v1ContactEntity_Documents
 ---
 
 # GET Contact/{id}/Documents
@@ -11,6 +11,7 @@ GET /api/v1/Contact/{id}/Documents
 
 OData list of Documents under a specific ContactEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Contact/1234/Documents?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Contact/1234/Documents?$top=1000
 * Contact/1234/Documents?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "Document" archive provider.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Documents?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Documents?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Documents?$orderBy=name asc
-GET /api/v1/Contact/{id}/Documents?$entities=aliquam
-GET /api/v1/Contact/{id}/Documents?$top=164
-GET /api/v1/Contact/{id}/Documents?$skip=797
+GET /api/v1/Contact/{id}/Documents?$entities=ad
+GET /api/v1/Contact/{id}/Documents?$top=616
+GET /api/v1/Contact/{id}/Documents?$skip=615
 GET /api/v1/Contact/{id}/Documents?$mode=Full
 GET /api/v1/Contact/{id}/Documents?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Documents?$context=explicabo
+GET /api/v1/Contact/{id}/Documents?$context=excepturi
 GET /api/v1/Contact/{id}/Documents?$format=JSON
-GET /api/v1/Contact/{id}/Documents?$jsonSafe=False
+GET /api/v1/Contact/{id}/Documents?$jsonSafe=True
 GET /api/v1/Contact/{id}/Documents?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,16 +99,17 @@ GET /api/v1/Contact/{id}/Documents?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +117,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/{id}/Documents
@@ -114,27 +126,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "illum",
+  "odata.nextLink": "officia",
   "value": [
     {
-      "PrimaryKey": 8536,
-      "EntityName": "sale",
-      "saleId": 8536,
-      "contactId": 6231,
-      "name": "Jacobs LLC"
+      "PrimaryKey": 4109,
+      "EntityName": "person",
+      "personId": 4109,
+      "fullName": "Rosalyn Kilback"
     },
     {
-      "PrimaryKey": 2335,
-      "EntityName": "sale",
-      "saleId": 2335,
-      "contactId": 2854,
-      "name": "Dare, Volkman and Gleichner"
+      "PrimaryKey": 1207,
+      "EntityName": "person",
+      "personId": 1207,
+      "fullName": "Prof. Jaunita Federico Muller"
     }
   ]
 }

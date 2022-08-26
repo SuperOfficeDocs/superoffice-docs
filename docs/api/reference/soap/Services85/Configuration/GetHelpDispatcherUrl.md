@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.GetHe
 
 Will get the GetHelpDispatcherUrl used by the help system
 
+
 **Returns:** URL to be used by the help system
+
 
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHelpDispatcherUrl Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

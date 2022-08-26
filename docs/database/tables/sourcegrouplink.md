@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SourceGroupLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ User group link table for Source, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SourceGroupLink table relationship diagram](./media/SourceGroupLink.png)
 
 [!include[details](./includes/sourcegrouplink.md)]
@@ -50,6 +51,7 @@ User group link table for Source, for MDO item hiding
 |[Source](source.md)  |Source list table. Source for sale (list) |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ User group link table for Source, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
+

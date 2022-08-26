@@ -5,7 +5,7 @@ description: Lists the enum values for PrefDescAccessFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,4 +26,4 @@ so.envir:
 
 ## Usage
 
-* [PrefDesc](../prefdesc.md).accessFlags - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.
+* [PrefDesc](../prefdesc.md).accessFlags - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 

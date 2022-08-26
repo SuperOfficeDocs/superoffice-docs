@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetAccessGatewayInfo
-id: v1UserAgent_GetAccessGatewayInfo
+uid: v1UserAgent_GetAccessGatewayInfo
 ---
 
 # POST Agents/User/GetAccessGatewayInfo
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetAccessGatewayInfo
 
 Returns accessgateway registration info
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns accessgateway registration info
 ```http
 POST /api/v1/Agents/User/GetAccessGatewayInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +45,16 @@ POST /api/v1/Agents/User/GetAccessGatewayInfo?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Access gateway related data and operations
+## Response: 
 
-Carrier object for AccessGatewayInfo.
-Services for the AccessGatewayInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,34 +63,30 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetAccessGatewayInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "aut",
-  "RedirectUri": "id",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ClientId": "deleniti",
+  "RedirectUri": "est",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 97
     }
   }
 }

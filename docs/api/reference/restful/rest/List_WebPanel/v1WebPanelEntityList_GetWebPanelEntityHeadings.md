@@ -1,6 +1,6 @@
 ---
 title: GET List/WebPanel/Headings
-id: v1WebPanelEntityList_GetWebPanelEntityHeadings
+uid: v1WebPanelEntityList_GetWebPanelEntityHeadings
 ---
 
 # GET List/WebPanel/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/WebPanel/Headings
 
 Gets headings for the WebPanelEntity list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 228,
-    "Name": "Fisher LLC",
-    "Tooltip": "voluptas",
+    "HeadingId": 177,
+    "Name": "Quigley, Macejkovic and Bogan",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 473,
-    "UdListDefinitionId": 317,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 422,
+    "UdListDefinitionId": 273,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 332
       }
     }
   }

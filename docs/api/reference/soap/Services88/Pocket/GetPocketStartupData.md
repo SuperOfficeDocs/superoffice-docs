@@ -11,10 +11,13 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPocketAgent.GetPocketSta
 
 ## GetPocketStartupData
 
+
+
 * **tables:** Tables to check for license
 * **currentClientTime:** Current time on the client, used for overdue sale lookup having correct timezone relative to client
 
 **Returns:** Startup data for pocket
+
 
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
@@ -43,13 +46,14 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Pocket:Tables xsi:type="NetServerServices882:ArrayOfstring">
      <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
     </Pocket:Tables>
-    <Pocket:CurrentClientTime xsi:type="xsd:dateTime">2021-11-30T13:23:47Z</Pocket:CurrentClientTime>
+    <Pocket:CurrentClientTime xsi:type="xsd:dateTime">2022-08-26T09:00:02Z</Pocket:CurrentClientTime>
    </Pocket:GetPocketStartupData>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPocketStartupData Response
 
@@ -163,6 +167,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Pocket:Url xsi:type="xsd:string"></Pocket:Url>
       <Pocket:ProgId xsi:type="xsd:string"></Pocket:ProgId>
       <Pocket:Icon xsi:type="xsd:short">0</Pocket:Icon>
+      <Pocket:AlwaysReloadOnShow xsi:type="xsd:boolean">false</Pocket:AlwaysReloadOnShow>
      </Pocket:WebPanelEntity>
     </Pocket:SystemWebPanels>
     <Pocket:PocketPreferences xsi:type="Pocket:ArrayOfPreference">
@@ -196,3 +201,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

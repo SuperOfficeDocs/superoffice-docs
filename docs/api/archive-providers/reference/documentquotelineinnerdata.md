@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "DocumentQuoteLineInnerData"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,13 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"quoteLine"||
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |quoteLineId|int|Quote line ID: Database identity of the quote line| x |
@@ -61,8 +61,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 |productFamilyKey|listExternal|Product family: The family the product is defined in|  |
@@ -123,7 +125,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connectionId|int|DB-ID: Database ID| x |
 |alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |alternative/version/quote/sale/completed|bool|Sale - Completed: Displays a checkbox showing if an appointment is completed| x |
-|alternative/version/quote/sale/icon| *None* |Sale - Category: Displays the icon for an activity type| x |
+|alternative/version/quote/sale/icon|string|Sale - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
 |alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
 |alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
@@ -137,8 +139,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/userGroup|userGroup|Sale - User group: The user group that owns the record| x |
 |alternative/version/quote/sale/who| *None* |Sale - Who: Contact and/or company|  |
 |alternative/version/quote/sale/updatedBy|associate|Sale - Updated by: The user who last updated the data| x |
+|alternative/version/quote/sale/updatedByFullName|associate|Sale - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/updatedDate|date|Sale - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/registeredBy|associate|Sale - Registered by: The user who registered the data| x |
+|alternative/version/quote/sale/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/registeredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/currencyId|int|Sale - Currency ID: The currency list item ID| x |
 |alternative/version/quote/sale/currency|listAny|Sale - Currency: The currency of the sale| x |
@@ -146,7 +150,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/lossReason|listAny|Sale - Reason (lost): The reason for losing the sale| x |
 |alternative/version/quote/sale/source|listAny|Sale - Source: The source (lead) of the sale| x |
 |alternative/version/quote/sale/competitor|listAny|Sale - Competitor: The competitor who won the sale| x |
-|alternative/version/quote/sale/heading|stringorPK|Sale - Sale: Displays a descriptive text for the item| x |
+|alternative/version/quote/sale/heading|stringorPK|Sale - Sale: The name of the sale| x |
 |alternative/version/quote/sale/amount|decimal|Sale - Amount: The gross sales total| x |
 |alternative/version/quote/sale/amountWeighted|decimal|Sale - Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/earning|decimal|Sale - Profit: Gross profit (gross sales total - cost) for the sale| x |
@@ -155,10 +159,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/originalStage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
+|alternative/version/quote/sale/stageRank| *None* |Sale - Stage rank: Rank of the sale stage in the stage list| x |
 |alternative/version/quote/sale/saleType|listAny|Sale - Sale type: Sale type, from list| x |
 |alternative/version/quote/sale/nextDueDate|date|Sale - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |alternative/version/quote/sale/reopenDate|date|Sale - Reopen date: Displays the reopen date for the sale| x |
 |alternative/version/quote/sale/stalledComment|listAny|Sale - Reason (stalled): The reason the sale has been stalled| x |
+|alternative/version/quote/sale/saleTypeCategory|listAny|Sale - Sale type category: Sale type category| x |
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
 |alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -242,11 +248,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/name,alternative/version/number,alternative/version/quote/sale/saleId
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/number,alternative/version/quote/sale/userGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -1,6 +1,6 @@
 ---
 title: PUT List/DeliveryTerm/Items/{id}/Headings
-id: v1DeliveryTermsList_PutDeliveryTermHeadingsForListItem
+uid: v1DeliveryTermsList_PutDeliveryTermHeadingsForListItem
 ---
 
 # PUT List/DeliveryTerm/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 
 Saves headings for the DeliveryTerm list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 655,
-    "Name": "Lowe LLC",
-    "ToolTip": "Quaerat optio est.",
+    "Id": 343,
+    "Name": "Lakin-Toy",
+    "ToolTip": "Et qui beatae quis aspernatur adipisci unde consequatur.",
     "Deleted": false,
-    "Rank": 462,
-    "Type": "ut",
-    "ColorBlock": 189,
-    "IconHint": "porro",
+    "Rank": 413,
+    "Type": "nulla",
+    "ColorBlock": 853,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2020-08-22T18:25:51.8043219+02:00",
+    "LastChanged": "2001-12-26T11:10:54.253868+01:00",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Waelchi-Purdy",
-        "ToolTip": "Vero voluptatem voluptatum quia maxime quaerat.",
-        "Deleted": false,
-        "Rank": 658,
-        "Type": "totam",
-        "ColorBlock": 207,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "1995-07-31T18:25:51.8043219+02:00",
+        "Id": 797,
+        "Name": "Haley, Huels and Howell",
+        "ToolTip": "Cupiditate modi.",
+        "Deleted": true,
+        "Rank": 468,
+        "Type": "modi",
+        "ColorBlock": 353,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2012-10-15T11:10:54.253868+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Therese Kuphal"
+        "ExtraInfo": "nisi",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Miss Jay Reichert"
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "unde",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ebba Crist"
+    "FullName": "Aimee Botsford"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Dibbert, Considine and Sauer",
-    "ToolTip": "Non qui veritatis et amet et adipisci.",
+    "Id": 521,
+    "Name": "Watsica Inc and Sons",
+    "ToolTip": "Fugit odit placeat ea sed aut placeat.",
     "Deleted": false,
-    "Rank": 903,
-    "Type": "tempore",
-    "ColorBlock": 409,
-    "IconHint": "sint",
+    "Rank": 175,
+    "Type": "qui",
+    "ColorBlock": 518,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "1997-12-25T18:25:51.8063305+01:00",
+    "LastChanged": "1998-11-20T11:10:54.2548989+01:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Herman, Rodriguez and Larkin",
-        "ToolTip": "Et ut enim velit qui odit.",
+        "Id": 975,
+        "Name": "Kemmer, Haag and Hoppe",
+        "ToolTip": "Officiis magni.",
         "Deleted": false,
-        "Rank": 517,
-        "Type": "sed",
-        "ColorBlock": 629,
-        "IconHint": "a",
-        "Selected": false,
-        "LastChanged": "2000-09-05T18:25:51.8063305+02:00",
+        "Rank": 770,
+        "Type": "quos",
+        "ColorBlock": 212,
+        "IconHint": "corrupti",
+        "Selected": true,
+        "LastChanged": "1997-06-20T11:10:54.2558975+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Benny Roberts",
-        "TableRight": {},
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Eda Carey Durgan DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 198
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 864
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Gay Nolan",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "aliquid",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Miss Katrina Emerson Wunsch",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 540
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UserPreference"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ Preference system. If deflevel is set to 5; the user may change the preferences
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![UserPreference table relationship diagram](./media/UserPreference.png)
 
 [!include[details](./includes/userpreference.md)]
@@ -56,6 +57,7 @@ Preference system. If deflevel is set to 5; the user may change the preferences
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[text](text.md)  |Long text fields from all over the system |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -65,3 +67,4 @@ Preference system. If deflevel is set to 5; the user may change the preferences
 ## Security Flags
 
 * No access control via user's Role.
+

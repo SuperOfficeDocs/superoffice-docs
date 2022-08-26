@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.SaveErpSync
 ## SaveErpSyncConnectorEntity
 
 Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is 0.
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpSyncConnectorEntity:** The ErpSyncConnectorEntity that is saved.
 
 **Returns:** New or updated ErpSyncConnectorEntity
+
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveErpSyncConnectorEntity Response
 
 ```xml
@@ -80,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

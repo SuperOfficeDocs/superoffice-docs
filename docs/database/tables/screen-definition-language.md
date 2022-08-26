@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_language"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ Custom language variables used for screens
 |variable\_name|Variable name|String(255)|&#x25CF;|
 |variable\_value|Variable value|Clob|&#x25CF;|
 
+
 ![screen_definition_language table relationship diagram](./media/screen_definition_language.png)
 
 [!include[details](./includes/screen-definition-language.md)]
@@ -44,6 +45,7 @@ Custom language variables used for screens
 |------|-------------|
 |[screen\_definition](screen-definition.md)  |A configurable screen |
 
+
 ## Replication Flags
 
 * None
@@ -51,3 +53,4 @@ Custom language variables used for screens
 ## Security Flags
 
 * No access control via user's Role.
+

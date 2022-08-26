@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteVersionWorkflowState
-id: v1QuoteAgent_GetQuoteVersionWorkflowState
+uid: v1QuoteAgent_GetQuoteVersionWorkflowState
 ---
 
 # POST Agents/Quote/GetQuoteVersionWorkflowState
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
 
 Get all button states for the Quote version dialog.
 
+
 Packages ImageState, Button states and status info into one call. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Packages ImageState, Button states and status info into one call. Collects most 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, QuoteAlternativeId
+QuoteVersionId, QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 | QuoteAlternativeId | int32 |  |
 
-## Response: object
 
-Information about possible button actions for the quote version dialog.
+## Response: 
 
-Carrier object for QuoteVersionWorkflowState.
-Services for the QuoteVersionWorkflowState Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +73,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
@@ -78,10 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 84,
-  "QuoteAlternativeId": 318
+  "QuoteVersionId": 166,
+  "QuoteAlternativeId": 161
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -91,88 +98,29 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "aut",
-      "DisplayText": "assumenda",
-      "TooltipText": "iure",
+      "ImageHint": "omnis",
+      "DisplayText": "quaerat",
+      "TooltipText": "et",
       "Enabled": true,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 997
         }
       }
     }
   ],
-  "StateImage": {
-    "Action": "Approve",
-    "ImageHint": "omnis",
-    "DisplayText": "sed",
-    "TooltipText": "rerum",
-    "Enabled": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 263
-      }
-    }
-  },
-  "UpdatePricesButton": {
-    "Action": "Approve",
-    "ImageHint": "dolore",
-    "DisplayText": "optio",
-    "TooltipText": "aut",
-    "Enabled": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "transform mission-critical experiences"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 439
-      }
-    }
-  },
-  "Status": {
-    "Status": "Error",
-    "IconHint": "rem",
-    "DisplayMessage": "tempore",
-    "DisplayTooltip": "consectetur",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 796
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "StateImage": null,
+  "UpdatePricesButton": null,
+  "Status": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 381
     }
   }
 }

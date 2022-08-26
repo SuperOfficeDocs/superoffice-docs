@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductType/Items
-id: v1ProductTypeList_GetAll
+uid: v1ProductTypeList_GetAll
 ---
 
 # GET List/ProductType/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/ProductType/Items
 
 Gets all the ProductType items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Gets all the ProductType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductType/Items?includeDeleted=False
+GET /api/v1/List/ProductType/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/ProductType/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductType/Items
@@ -62,30 +72,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Runolfsson Inc and Sons",
-    "Tooltip": "sapiente",
-    "Deleted": true,
-    "UdListDefinitionId": 347,
-    "Rank": 12,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 567,
+    "Name": "Littel, Hahn and Bogisich",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 449,
+    "Rank": 25,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 727
       }
     }
   }

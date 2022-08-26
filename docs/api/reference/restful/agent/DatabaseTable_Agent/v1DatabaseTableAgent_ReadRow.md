@@ -1,6 +1,6 @@
 ---
 title: POST Agents/DatabaseTable/ReadRow
-id: v1DatabaseTableAgent_ReadRow
+uid: v1DatabaseTableAgent_ReadRow
 ---
 
 # POST Agents/DatabaseTable/ReadRow
@@ -11,7 +11,11 @@ POST /api/v1/Agents/DatabaseTable/ReadRow
 
 Read a row from a table
 
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +26,7 @@ Read a row from a table
 ```http
 POST /api/v1/Agents/DatabaseTable/ReadRow?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +42,25 @@ POST /api/v1/Agents/DatabaseTable/ReadRow?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, Id
+TableName, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | Id | int32 |  |
 
-## Response: object
 
-The extra table entity contains meta data for an extra table (not implemented yet)
+## Response: 
 
-Carrier object for TableRecord.
-Services for the TableRecord Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +68,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/DatabaseTable/ReadRow
@@ -75,10 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lehner-Block",
-  "Id": 10
+  "TableName": "Morissette Inc and Sons",
+  "Id": 472
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,21 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "pariatur",
-    "Values2": "ipsa"
+    "Values1": "sunt",
+    "Values2": "asperiores"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "productize out-of-the-box action-items"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 487
     }
   }
 }

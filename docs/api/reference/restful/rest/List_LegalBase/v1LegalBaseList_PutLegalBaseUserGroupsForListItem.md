@@ -1,6 +1,6 @@
 ---
 title: PUT List/LegalBase/Items/{id}/UserGroups
-id: v1LegalBaseList_PutLegalBaseUserGroupsForListItem
+uid: v1LegalBaseList_PutLegalBaseUserGroupsForListItem
 ---
 
 # PUT List/LegalBase/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 
 Saves user groups visible for the LegalBase list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Goodwin Inc and Sons",
-    "ToolTip": "Corporis sed eos modi.",
-    "Deleted": false,
-    "Rank": 478,
-    "Type": "officiis",
-    "ColorBlock": 30,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2003-07-12T18:25:51.8544858+02:00",
+    "Id": 368,
+    "Name": "Halvorson Inc and Sons",
+    "ToolTip": "Perferendis blanditiis.",
+    "Deleted": true,
+    "Rank": 845,
+    "Type": "eligendi",
+    "ColorBlock": 304,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2015-04-08T11:10:54.3078693+02:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Romaguera Inc and Sons",
-        "ToolTip": "Magni doloribus.",
-        "Deleted": false,
-        "Rank": 968,
-        "Type": "excepturi",
-        "ColorBlock": 267,
-        "IconHint": "dolorem",
+        "Id": 875,
+        "Name": "DuBuque, Leuschke and Rodriguez",
+        "ToolTip": "Alias et.",
+        "Deleted": true,
+        "Rank": 382,
+        "Type": "et",
+        "ColorBlock": 488,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2011-01-08T18:25:51.8544858+01:00",
+        "LastChanged": "2001-11-21T11:10:54.3078693+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
+        "ExtraInfo": "nam",
         "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Stuart Stroman"
+        "Hidden": true,
+        "FullName": "Silas Vince Weissnat PhD"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Nayeli Goldner"
+    "ExtraInfo": "placeat",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Jonathan Reynolds"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Heidenreich-Von",
-    "ToolTip": "Optio iure maiores id et enim.",
-    "Deleted": false,
-    "Rank": 945,
-    "Type": "minus",
-    "ColorBlock": 223,
-    "IconHint": "dolorem",
+    "Id": 517,
+    "Name": "Abbott Group",
+    "ToolTip": "Nisi ut quo inventore qui quas.",
+    "Deleted": true,
+    "Rank": 425,
+    "Type": "aut",
+    "ColorBlock": 217,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2004-03-29T18:25:51.8554861+02:00",
+    "LastChanged": "2011-02-02T11:10:54.3098692+01:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Wilderman Group",
-        "ToolTip": "Magnam delectus velit alias molestiae hic.",
-        "Deleted": false,
-        "Rank": 416,
-        "Type": "incidunt",
-        "ColorBlock": 71,
-        "IconHint": "debitis",
+        "Id": 906,
+        "Name": "Wolf Group",
+        "ToolTip": "Nisi reprehenderit.",
+        "Deleted": true,
+        "Rank": 489,
+        "Type": "veritatis",
+        "ColorBlock": 598,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2003-07-14T18:25:51.8564858+02:00",
+        "LastChanged": "2012-09-07T11:10:54.3098692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "assumenda",
         "Hidden": true,
-        "FullName": "Jada Tillman",
-        "TableRight": {},
+        "FullName": "Judge Tromp",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 13
+            "FieldLength": 394
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Brennon Keebler",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "et",
+    "StyleHint": "amet",
+    "Hidden": false,
+    "FullName": "Kip Schiller",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 319
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 401
       }
     }
   }

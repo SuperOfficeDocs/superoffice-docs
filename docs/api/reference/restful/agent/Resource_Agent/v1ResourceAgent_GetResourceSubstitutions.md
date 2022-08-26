@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Resource/GetResourceSubstitutions
-id: v1ResourceAgent_GetResourceSubstitutions
+uid: v1ResourceAgent_GetResourceSubstitutions
 ---
 
 # POST Agents/Resource/GetResourceSubstitutions
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Resource/GetResourceSubstitutions
 
 Get substitutions for some or all resources for one culture
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get substitutions for some or all resources for one culture
 ```http
 POST /api/v1/Agents/Resource/GetResourceSubstitutions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Resource/GetResourceSubstitutions?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ResourceNames, Culture, ActiveOnly
+ResourceNames, Culture, ActiveOnly 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ ResourceNames, Culture, ActiveOnly
 | Culture | string |  |
 | ActiveOnly | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,24 +72,26 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Zulauf, Moore and Bechtelar",
-    "Hermiston Group"
+    "Cormier-Mueller",
+    "Erdman, Walker and Nader"
   ],
-  "Culture": "qui",
+  "Culture": "error",
   "ActiveOnly": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,42 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Davis LLC",
-    "ResourceValue": "et",
-    "Culture": "et",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ResourceName": "Macejkovic LLC",
+    "ResourceValue": "id",
+    "Culture": "quia",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "expedite rich content"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 274
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 746
       }
     }
   },
   {
-    "ResourceName": "Davis LLC",
-    "ResourceValue": "et",
-    "Culture": "et",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ResourceName": "Macejkovic LLC",
+    "ResourceValue": "id",
+    "Culture": "quia",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "expedite rich content"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 274
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 746
       }
     }
   }

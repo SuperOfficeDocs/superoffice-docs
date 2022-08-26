@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPublishedAppointment
-id: v1AppointmentAgent_GetPublishedAppointment
+uid: v1AppointmentAgent_GetPublishedAppointment
 ---
 
 # POST Agents/Appointment/GetPublishedAppointment
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointment
 
 Get published appointment by appointment id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointment by appointment id.
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointment?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId
+AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 
-## Response: object
 
-Simple read-only appointment data.
+## Response: 
 
-Carrier object for Appointment.
-Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,86 +115,82 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 682
+  "AppointmentId": 549
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 591,
-  "StartDate": "2007-06-09T18:28:47.7248447+02:00",
-  "EndDate": "2003-08-04T18:28:47.7248447+02:00",
+  "AppointmentId": 737,
+  "StartDate": "2010-10-25T11:10:25.4445258+02:00",
+  "EndDate": "2022-03-04T11:10:25.4445258+01:00",
   "Type": "BookingForChecklist",
   "Task": "et",
-  "AssociateFullName": "Kelsi Douglas Sr.",
-  "ContactName": "Weissnat, Ebert and Anderson",
-  "Description": "Inverse multimedia adapter",
-  "PersonFullName": "Briana Parisian I",
-  "PersonId": 476,
-  "ContactId": 467,
-  "ProjectId": 512,
-  "ProjectName": "Koelpin LLC",
+  "AssociateFullName": "Alan Krajcik",
+  "ContactName": "Koss LLC",
+  "Description": "Networked reciprocal focus group",
+  "PersonFullName": "Ms. Uriah Welch",
+  "PersonId": 990,
+  "ContactId": 554,
+  "ProjectId": 750,
+  "ProjectName": "DuBuque LLC",
   "IsPublished": false,
-  "AssociateId": 462,
-  "ColorIndex": 194,
+  "AssociateId": 278,
+  "ColorIndex": 646,
   "IsFree": true,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 618,
-  "PriorityName": "Ankunding-Hayes",
+  "PriorityId": 989,
+  "PriorityName": "Beier, Fay and Bogan",
   "TaskType": "Appointment",
   "IsBookingMain": true,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2014-12-14T18:28:47.7258476+01:00",
+  "ActiveDate": "2000-09-06T11:10:25.4455251+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2005-03-20T18:28:47.7258476+01:00",
-  "RecurringEndDate": "2007-10-01T18:28:47.7258476+02:00",
-  "MotherId": 619,
-  "AssignedBy": 593,
-  "AssignedByFullName": "Bertha Gleichner",
-  "RejectReason": "streamline strategic ROI",
-  "Location": "consequatur",
-  "AlarmLeadTime": "aut",
-  "SaleId": 10,
-  "SaleName": "Gorczany, Casper and Spencer",
-  "AssociateName": "Senger-Nicolas",
-  "CreatedDate": "2003-04-10T18:28:47.7258476+02:00",
-  "CreatedBy": "quo",
-  "CreatedByFullName": "Joesph Erdman",
-  "CreatedByAssociateId": 22,
+  "RecurringStartDate": "2010-04-06T11:10:25.4455251+02:00",
+  "RecurringEndDate": "1997-02-20T11:10:25.4455251+01:00",
+  "MotherId": 214,
+  "AssignedBy": 275,
+  "AssignedByFullName": "Jennings Quigley",
+  "RejectReason": "",
+  "Location": "cumque",
+  "AlarmLeadTime": "eum",
+  "SaleId": 998,
+  "SaleName": "Bahringer, Baumbach and Frami",
+  "AssociateName": "Bayer-Rosenbaum",
+  "CreatedDate": "2008-03-16T11:10:25.4455251+01:00",
+  "CreatedBy": "voluptate",
+  "CreatedByFullName": "Enrique Mann II",
+  "CreatedByAssociateId": 389,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 682
     }
   }
 }

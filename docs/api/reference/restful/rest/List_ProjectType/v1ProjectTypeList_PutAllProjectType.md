@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProjectType/Items
-id: v1ProjectTypeList_PutAllProjectType
+uid: v1ProjectTypeList_PutAllProjectType
 ---
 
 # PUT List/ProjectType/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/ProjectType/Items
 ```
 
 Update the ProjectType list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the ProjectType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProjectType.
+All the updated ProjectType. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated ProjectType.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProjectType/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Bergnaum Inc and Sons",
-    "Tooltip": "impedit",
-    "Deleted": false,
-    "UdListDefinitionId": 648,
-    "Rank": 374
+    "Id": 926,
+    "Name": "Kuvalis-Runolfsson",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 678,
+    "Rank": 384
   },
   {
-    "Id": 40,
-    "Name": "Bergnaum Inc and Sons",
-    "Tooltip": "impedit",
-    "Deleted": false,
-    "UdListDefinitionId": 648,
-    "Rank": 374
+    "Id": 926,
+    "Name": "Kuvalis-Runolfsson",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 678,
+    "Rank": 384
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Mitchell Inc and Sons",
-    "Tooltip": "est",
+    "Id": 61,
+    "Name": "Blick, Prohaska and Emmerich",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "UdListDefinitionId": 284,
-    "Rank": 825,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 587,
+    "Rank": 320,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "utilize bricks-and-clicks bandwidth"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldLength": 573
       }
     }
   }

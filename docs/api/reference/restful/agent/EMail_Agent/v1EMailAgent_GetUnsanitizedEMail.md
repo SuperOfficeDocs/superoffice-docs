@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetUnsanitizedEMail
-id: v1EMailAgent_GetUnsanitizedEMail
+uid: v1EMailAgent_GetUnsanitizedEMail
 ---
 
 # POST Agents/EMail/GetUnsanitizedEMail
@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 
 Get en e-mail based on its primary key in the DB.
 
+
 The returned value is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,27 +47,25 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMail?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, IncludeAttachments
+Id, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | IncludeAttachments | bool |  |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +98,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
@@ -102,10 +108,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "IncludeAttachments": false
+  "Id": 509,
+  "IncludeAttachments": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -114,248 +122,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 764,
-      "ContactName": "Kris Inc and Sons",
-      "PersonId": 588,
-      "PersonName": "Schimmel-Nienow",
-      "AssociateId": 397,
-      "Address": "atque",
-      "EmailId": 169,
+      "ContactId": 543,
+      "ContactName": "Gislason Inc and Sons",
+      "PersonId": 134,
+      "PersonName": "Dare, Mayer and Fahey",
+      "AssociateId": 922,
+      "Address": "maiores",
+      "EmailId": 386,
       "DuplicatePersonIds": [
-        215,
-        199
+        183,
+        652
       ],
-      "Name": "Heller, Johns and Wehner",
-      "TableRight": {},
+      "Name": "Nader LLC",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 471
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 77,
-      "ContactName": "Frami-Beatty",
-      "PersonId": 285,
-      "PersonName": "Hayes Inc and Sons",
-      "AssociateId": 499,
-      "Address": "qui",
-      "EmailId": 933,
+      "ContactId": 308,
+      "ContactName": "Murazik, Russel and Reynolds",
+      "PersonId": 296,
+      "PersonName": "Mayert LLC",
+      "AssociateId": 401,
+      "Address": "nostrum",
+      "EmailId": 633,
       "DuplicatePersonIds": [
-        134,
-        661
+        553,
+        329
       ],
-      "Name": "Hermiston LLC",
-      "TableRight": {},
+      "Name": "Sipes, Raynor and Corwin",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldLength": 696
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 746,
-      "ContactName": "Kessler, Jewess and Cremin",
-      "PersonId": 976,
-      "PersonName": "Bernier, Conroy and Zemlak",
-      "AssociateId": 530,
-      "Address": "eaque",
-      "EmailId": 92,
+      "ContactId": 151,
+      "ContactName": "Schinner, Haley and Lemke",
+      "PersonId": 71,
+      "PersonName": "Hammes Group",
+      "AssociateId": 413,
+      "Address": "laboriosam",
+      "EmailId": 513,
       "DuplicatePersonIds": [
-        45,
-        935
+        320,
+        728
       ],
-      "Name": "Fadel-Mertz",
-      "TableRight": {},
+      "Name": "Gerhold, Goodwin and Wintheiser",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldLength": 86
         }
       }
     }
   ],
-  "Subject": "veniam",
-  "HTMLBody": "magnam",
-  "From": {
-    "ContactId": 193,
-    "ContactName": "Lehner Group",
-    "PersonId": 42,
-    "PersonName": "Rohan-Harber",
-    "AssociateId": 672,
-    "Address": "harum",
-    "EmailId": 133,
-    "DuplicatePersonIds": [
-      225,
-      576
-    ],
-    "Name": "Hermann Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "evolve front-end infrastructures"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 867
-      }
-    }
-  },
-  "Sent": "2005-02-05T18:28:49.0639699+01:00",
-  "Size": 54,
+  "Subject": "rerum",
+  "HTMLBody": "dolores",
+  "From": null,
+  "Sent": "1999-01-11T11:10:26.9814527+01:00",
+  "Size": 576,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iste",
-  "PlainBody": "dolores",
-  "IsSent": true,
-  "EMailSOInfo": {
-    "DocumentId": 724,
-    "AppointmentId": 575,
-    "ProjectId": 11,
-    "SaleId": 609,
-    "Archived": true,
-    "ArchivedAt": "2008-07-17T18:28:49.0639699+02:00",
-    "ArchivedBy": 383,
-    "ArchivedDisplayName": "Rosenbaum LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 374
-      }
-    }
-  },
-  "ServerId": 725,
+  "MessageID": "repellat",
+  "PlainBody": "dolorum",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 372,
   "Attachments": [
     {
-      "Description": "Balanced high-level task-force",
-      "Filename": "ipsum",
-      "Size": 971,
-      "Type": "architecto",
-      "Encoding": "libero",
-      "Id": "doloribus",
-      "Disposition": "sapiente",
+      "Description": "Ameliorated interactive help-desk",
+      "Filename": "dolores",
+      "Size": 806,
+      "Type": "nam",
+      "Encoding": "cumque",
+      "Id": "eaque",
+      "Disposition": "necessitatibus",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "engineer dot-com web-readiness"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 973
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rogahn Group",
+      "Name": "Sawayn-Altenwerth",
       "Values": [
-        "qui",
-        "consequatur"
+        "repudiandae",
+        "dolor"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     },
     {
-      "Name": "Rogahn Group",
+      "Name": "Sawayn-Altenwerth",
       "Values": [
-        "qui",
-        "consequatur"
+        "repudiandae",
+        "dolor"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     }
   ],
-  "FolderName": "Macejkovic, Rice and Kohler",
-  "EmailItemId": 618,
-  "AccountId": 771,
-  "ReceivedAt": "1995-06-26T18:28:49.0639699+02:00",
-  "InReplyTo": {
-    "ServerId": 119,
-    "MessageId": "et",
-    "Subject": "itaque",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "2016-09-16T18:28:49.0639699+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 325,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 413
-      }
-    }
-  },
-  "RepliedAt": "2020-07-20T18:28:49.0639699+02:00",
+  "FolderName": "Lubowitz-Christiansen",
+  "EmailItemId": 738,
+  "AccountId": 978,
+  "ReceivedAt": "1996-05-05T11:10:26.9824548+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "1999-03-23T11:10:26.9824548+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 642
     }
   }
 }

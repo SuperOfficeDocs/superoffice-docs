@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductCategory/Headings
-id: v1ProductCategoryList_GetProductCategoryHeadings
+uid: v1ProductCategoryList_GetProductCategoryHeadings
 ---
 
 # GET List/ProductCategory/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/ProductCategory/Headings
 
 Gets headings for the ProductCategory list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 223,
-    "Name": "Wisoky-Wiegand",
-    "Tooltip": "vitae",
+    "HeadingId": 871,
+    "Name": "Carroll-Boehm",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 865,
-    "UdListDefinitionId": 818,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 994,
+    "UdListDefinitionId": 948,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

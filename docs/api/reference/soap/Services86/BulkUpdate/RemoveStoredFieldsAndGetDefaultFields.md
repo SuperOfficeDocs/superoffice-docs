@@ -18,6 +18,7 @@ Remove the stored settings of the bulk update for this table from this context, 
 
 **Returns:** Returns array of the available fields for the given tablename
 
+
 [WSDL file for Services86/BulkUpdate](../Services86-BulkUpdate.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## RemoveStoredFieldsAndGetDefaultFields Response
 
@@ -113,3 +115,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/AddChatMessage
-id: v1ChatAgent_AddChatMessage
+uid: v1ChatAgent_AddChatMessage
 ---
 
 # POST Agents/Chat/AddChatMessage
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/AddChatMessage
 
 Add a new message to a chat session
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new message to a chat session
 ```http
 POST /api/v1/Agents/Chat/AddChatMessage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Chat/AddChatMessage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId, Message
+ChatSessionId, Message 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
-| Message |  | A message in a chat session <br /> Carrier object for ChatMessage. Services for the ChatMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
+| Message |  | A message in a chat session <para /> Carrier object for ChatMessage. Services for the ChatMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-## Response: object
 
-A message in a chat session
+## Response: 
 
-Carrier object for ChatMessage.
-Services for the ChatMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,44 +74,36 @@ Response body: object
 | SpecialParam | string | Special parameter for the special_type. |
 | WhenPosted | date-time | When the message was posted (UTC timestamp). |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/AddChatMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 194,
-  "Message": {
-    "ChatMessageId": 526,
-    "ChatSessionId": 542,
-    "Type": "Invalid",
-    "Message": "et",
-    "Author": "minima",
-    "ReadByCustomer": 35,
-    "SpecialType": "Block",
-    "SpecialParam": "voluptatem",
-    "WhenPosted": "1996-06-05T18:28:48.3282865+02:00"
-  }
+  "ChatSessionId": 9,
+  "Message": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 848,
-  "ChatSessionId": 534,
+  "ChatMessageId": 137,
+  "ChatSessionId": 907,
   "Type": "Invalid",
-  "Message": "suscipit",
-  "Author": "exercitationem",
-  "ReadByCustomer": 732,
+  "Message": "rerum",
+  "Author": "quasi",
+  "ReadByCustomer": 595,
   "SpecialType": "Block",
-  "SpecialParam": "repudiandae",
-  "WhenPosted": "2018-11-01T18:28:48.3282865+01:00"
+  "SpecialParam": "cumque",
+  "WhenPosted": "2006-05-19T11:10:26.1625251+02:00"
 }
 ```

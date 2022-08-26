@@ -1,6 +1,6 @@
 ---
 title: POST List/Reason/Items
-id: v1ReasonList_PostReason
+uid: v1ReasonList_PostReason
 ---
 
 # POST List/Reason/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/Reason/Items
 ```
 
 Add a new Reason to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new Reason to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Reason to be added to the list.
+The Reason to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The Reason to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,48 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 422,
-  "Name": "Herzog, Krajcik and Gibson",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 98,
-  "Rank": 197
+  "Id": 224,
+  "Name": "Hand, Lockman and Dickens",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "UdListDefinitionId": 315,
+  "Rank": 446
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Dickens-Grady",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "UdListDefinitionId": 151,
-  "Rank": 67,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 910,
+  "Name": "Jewess, Mueller and Dibbert",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "UdListDefinitionId": 19,
+  "Rank": 661,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 980
     }
   }
 }

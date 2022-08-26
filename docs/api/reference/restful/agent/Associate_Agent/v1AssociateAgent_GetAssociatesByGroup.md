@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Associate/GetAssociatesByGroup
-id: v1AssociateAgent_GetAssociatesByGroup
+uid: v1AssociateAgent_GetAssociatesByGroup
 ---
 
 # POST Agents/Associate/GetAssociatesByGroup
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Associate/GetAssociatesByGroup
 
 Method that returns a array of associate , based on DiaryGroupType and groupId.
 
+
 The differernt types are, Userdefined, Usergroup and ResourceHeadings
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The differernt types are, Userdefined, Usergroup and ResourceHeadings
 ```http
 POST /api/v1/Agents/Associate/GetAssociatesByGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Associate/GetAssociatesByGroup?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GroupId, Type
+GroupId, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GroupId | int32 |  |
 | Type | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,7 +68,7 @@ Response body: array
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <br />Use MDO List name "person" to get list items. |
+| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -71,20 +81,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 655,
-  "Type": 862
+  "GroupId": 133,
+  "Type": 484
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,30 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 139,
-    "Name": "Gottlieb Group",
-    "PersonId": 987,
-    "Rank": 293,
-    "Tooltip": "consequatur",
+    "AssociateId": 816,
+    "Name": "Ruecker, Hilll and Heathcote",
+    "PersonId": 908,
+    "Rank": 88,
+    "Tooltip": "velit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 804,
-    "FullName": "Jack Heathcote",
-    "FormalName": "McCullough Inc and Sons",
+    "GroupIdx": 480,
+    "FullName": "Briana Stracke",
+    "FormalName": "Torp Group",
     "Deleted": false,
-    "EjUserId": 835,
-    "UserName": "Mraz, Turner and Emard",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "EjUserId": 882,
+    "UserName": "Lang Group",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldLength": 430
       }
     }
   }

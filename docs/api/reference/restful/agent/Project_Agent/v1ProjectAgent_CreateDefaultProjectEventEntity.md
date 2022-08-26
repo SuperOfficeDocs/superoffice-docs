@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/CreateDefaultProjectEventEntity
-id: v1ProjectAgent_CreateDefaultProjectEventEntity
+uid: v1ProjectAgent_CreateDefaultProjectEventEntity
 ---
 
 # POST Agents/Project/CreateDefaultProjectEventEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 
 Set default values into a new ProjectEventEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The ProjectEvent Service. The service implements all services working with the ProjectEvent object
+## Response: 
 
-Carrier object for ProjectEventEntity.
-Services for the ProjectEventEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,168 +79,110 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "non",
-  "SignOffText": "autem",
-  "SignOnConfirmationText": "sit",
-  "SignOnText": "odio",
-  "EventDate": "2015-03-23T18:28:49.873117+01:00",
+  "SignOffConfirmationText": "facere",
+  "SignOffText": "quidem",
+  "SignOnConfirmationText": "reprehenderit",
+  "SignOnText": "id",
+  "EventDate": "2012-06-09T11:10:27.576453+02:00",
   "Enabled": true,
-  "CreatedDate": "2013-10-23T18:28:49.873117+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 641,
-  "SignOffTriggersAssign": false,
+  "CreatedDate": "2021-07-18T11:10:27.576453+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 856,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 975,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2009-10-31T18:28:49.873117+01:00",
-  "CreatedBy": {
-    "AssociateId": 785,
-    "Name": "O'Hara, Jenkins and Schulist",
-    "PersonId": 522,
-    "Rank": 787,
-    "Tooltip": "dolor",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 959,
-    "FullName": "Dr. Ashleigh Goldner",
-    "FormalName": "Abshire-Christiansen",
-    "Deleted": true,
-    "EjUserId": 250,
-    "UserName": "Vandervort, Fadel and Schuppe",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 378
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 397,
-    "Name": "Reynolds Inc and Sons",
-    "PersonId": 18,
-    "Rank": 161,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 494,
-    "FullName": "Alyson Jacobi",
-    "FormalName": "Okuneva Group",
-    "Deleted": true,
-    "EjUserId": 200,
-    "UserName": "Cassin LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 599
-      }
-    }
-  },
-  "ProjectId": 780,
-  "Id": 457,
-  "PublishFrom": "1997-12-20T18:28:49.8741431+01:00",
+  "SignOnTaskId": 405,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2018-02-05T11:10:27.576453+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ProjectId": 243,
+  "Id": 284,
+  "PublishFrom": "2011-06-12T11:10:27.576453+02:00",
   "PublishType": "External",
-  "PublishTo": "1999-02-11T18:28:49.8741431+01:00",
+  "PublishTo": "2002-02-24T11:10:27.576453+01:00",
   "VisibleForCategories": [
     {
-      "Id": 563,
-      "Name": "Johns, Jaskolski and Johnston",
-      "ToolTip": "Maxime impedit vitae qui a.",
+      "Id": 1000,
+      "Name": "Hane Inc and Sons",
+      "ToolTip": "Est et et sed ut praesentium deleniti.",
       "Deleted": false,
-      "Rank": 597,
-      "Type": "similique",
+      "Rank": 471,
+      "Type": "in",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "pariatur",
-      "ColorBlock": 909,
-      "ExtraInfo": "blanditiis",
-      "StyleHint": "et",
-      "FullName": "Wellington Anderson",
-      "TableRight": {},
+      "IconHint": "eveniet",
+      "ColorBlock": 795,
+      "ExtraInfo": "necessitatibus",
+      "StyleHint": "officia",
+      "FullName": "Paolo Bednar",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 813
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 239,
-      "Name": "Funk, Rippin and Baumbach",
-      "ToolTip": "Quo et doloribus expedita aspernatur accusantium ut.",
-      "Deleted": true,
-      "Rank": 349,
-      "Type": "cupiditate",
+      "Id": 561,
+      "Name": "Sporer-Gislason",
+      "ToolTip": "Dolorem nam dicta rerum.",
+      "Deleted": false,
+      "Rank": 720,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloremque",
-      "ColorBlock": 983,
-      "ExtraInfo": "non",
-      "StyleHint": "fuga",
-      "FullName": "Annetta Upton Jr.",
-      "TableRight": {},
+      "IconHint": "nam",
+      "ColorBlock": 128,
+      "ExtraInfo": "ut",
+      "StyleHint": "voluptatem",
+      "FullName": "Myriam Little",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 676
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 705,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectEventId": 972,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 173
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveConfiguration
-id: v1ArchiveAgent_GetArchiveConfiguration
+uid: v1ArchiveAgent_GetArchiveConfiguration
 ---
 
 # POST Agents/Archive/GetArchiveConfiguration
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/GetArchiveConfiguration
 
 Get the configuration for one archive.
 
+
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The configuration is keyed by a combination of archive provider name and gui nam
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/Archive/GetArchiveConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName
+GuiName, ProviderName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GuiName | string |  |
 | ProviderName | string |  |
 
-## Response: object
 
-This service is used to store and fetch the configuration of an archive. The configuration consists of entities and columns; entities correspond to archive provider entities and the checkboxes you see in the bottom of standard archives. Column configuration includes both what columns should be visible, what order they are in (left to right), and whether the archive rows should be sorted by one or more columns.&lt;para/&gt;Note that desired columns can be set through the selectable mdo list called archiveColumns:&amp;lt;perovider name&amp;gt;, and entities can be set through the selectable mdo list archiveEntities:&amp;lt;provider name&amp;gt;. You can also use the SetChosenEntities and SetChosenColumns method of this service. The selectable mdo list implementation is suitable for data binding using mdo list controls.
+## Response: 
 
-Carrier object for ArchiveConfiguration.
-Services for the ArchiveConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,20 +73,22 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Nienow-Rath",
-  "ProviderName": "Beer Group"
+  "GuiName": "Ryan, Frami and Ledner",
+  "ProviderName": "Pacocha Group"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,77 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Gibson, Leffler and Ebert",
-      "DisplayTooltip": "dolore",
-      "DisplayType": "vel",
-      "CanOrderBy": false,
-      "Name": "Keebler Inc and Sons",
+      "DisplayName": "Bechtelar, Reichert and Schultz",
+      "DisplayTooltip": "inventore",
+      "DisplayType": "ipsum",
+      "CanOrderBy": true,
+      "Name": "Schaden LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "reprehenderit",
-      "RestrictionListName": "Grant, Reichel and Gulgowski",
-      "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "aliquam",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "harum"
+      "RestrictionType": "amet",
+      "RestrictionListName": "Mertz-Veum",
+      "IsVisible": true,
+      "ExtraInfo": "consequuntur",
+      "Width": "aut",
+      "IconHint": "quo",
+      "HeadingIconHint": "nulla"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 167,
-      "Name": "Mertz Group",
-      "ToolTip": "Neque quia sit placeat repellendus.",
+      "Id": 313,
+      "Name": "Kunze-Gulgowski",
+      "ToolTip": "Nostrum incidunt molestias voluptas eos.",
       "Deleted": false,
-      "Rank": 574,
-      "Type": "quidem",
-      "ColorBlock": 49,
-      "IconHint": "modi",
+      "Rank": 671,
+      "Type": "eum",
+      "ColorBlock": 889,
+      "IconHint": "ipsa",
       "Selected": false,
-      "LastChanged": "2000-08-28T18:28:48.0928523+02:00",
+      "LastChanged": "2012-08-15T11:10:25.9615223+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "quia",
+      "ExtraInfo": "accusantium",
+      "StyleHint": "temporibus",
       "Hidden": true,
-      "FullName": "Joan Kiehn",
-      "TableRight": {},
+      "FullName": "Marshall Lakin",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "morph magnetic e-markets"
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 717
+          "FieldLength": 282
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Keebler Group",
+      "Name": "Maggio Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Keebler Group",
+      "Name": "Maggio Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "veniam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "OwnerKeys": "atque",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 173
     }
   }
 }

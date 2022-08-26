@@ -1,6 +1,6 @@
 ---
 title: POST List/ProductFamily/Items
-id: v1ProductFamilyList_PostProductFamily
+uid: v1ProductFamilyList_PostProductFamily
 ---
 
 # POST List/ProductFamily/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/ProductFamily/Items
 ```
 
 Add a new ProductFamily to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new ProductFamily to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The ProductFamily to be added to the list.
+The ProductFamily to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The ProductFamily to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/ProductFamily/Items
@@ -72,38 +77,34 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Franecki, Casper and Hyatt",
-  "Tooltip": "libero",
-  "Deleted": true,
-  "UdListDefinitionId": 725,
-  "Rank": 92
+  "Id": 333,
+  "Name": "Hirthe-Luettgen",
+  "Tooltip": "reiciendis",
+  "Deleted": false,
+  "UdListDefinitionId": 972,
+  "Rank": 670
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Wisozk LLC",
-  "Tooltip": "ad",
+  "Id": 753,
+  "Name": "Heathcote LLC",
+  "Tooltip": "natus",
   "Deleted": false,
-  "UdListDefinitionId": 397,
-  "Rank": 688,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 518,
+  "Rank": 648,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

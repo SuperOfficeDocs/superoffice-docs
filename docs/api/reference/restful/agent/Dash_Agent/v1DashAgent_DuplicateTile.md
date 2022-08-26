@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/DuplicateTile
-id: v1DashAgent_DuplicateTile
+uid: v1DashAgent_DuplicateTile
 ---
 
 # POST Agents/Dash/DuplicateTile
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/DuplicateTile
 
 Duplicate for the tile and all the sub elements
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Duplicate for the tile and all the sub elements
 ```http
 POST /api/v1/Agents/Dash/DuplicateTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Dash/DuplicateTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashTileId, Name
+DashTileId, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashTileId | int32 |  |
 | Name | string |  |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashTile.
-Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,74 +73,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 176,
-  "Name": "Stehr-Zboncak"
+  "DashTileId": 135,
+  "Name": "Goodwin-Kuvalis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 635,
-  "DashboardId": 996,
-  "Height": 290,
-  "Width": 413,
-  "Rank": 823,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 386,
-    "Name": "Schimmel-Kohler",
-    "Description": "Realigned contextually-based service-desk",
-    "DefaultHeight": 816,
-    "DefaultWidth": 697,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Windler, Durgan and Mueller",
-    "SelectionId": 389,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "laboriosam",
-    "Measure": "Average",
-    "MeasureField": "eos",
-    "SortBy": "corrupti",
-    "LayoutConfig": "sit",
-    "SecondarySelectionId": 358,
-    "MeasureByField": "nihil",
-    "ProviderName": "Hayes-Orn",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 923
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 438,
+  "DashboardId": 536,
+  "Height": 234,
+  "Width": 415,
+  "Rank": 878,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 296
     }
   }
 }

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDiagnosticsAgent.Collect
 
 Collect and transmit usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
 
+
 **Returns:** This method has no return value
+
 
 [WSDL file for Services86/Diagnostics](../Services86-Diagnostics.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CollectDataAdditions Response
 
 ```xml
@@ -65,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

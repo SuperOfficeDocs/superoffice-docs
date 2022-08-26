@@ -14,9 +14,10 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.GetColleague
 Gets the persons working in the same company as the logged on user. The list of person could be retrieved from the history list, the diary view list, or from all sources.
 
 * **sourceType:** The “source” the colleagues should be retrieved from. &lt;see cref="AssociateSourceType"/&gt; for more information.
-* **count:**
+* **count:** 
 
 **Returns:** Colleagues.
+
 
 [WSDL file for Services88/Person](../Services88-Person.md)
 
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetColleaguesBySource Response
 
@@ -114,3 +116,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -15,6 +15,8 @@ Deletes the sale type quote attachment with the given id
 
 * **saleTypeQuoteAttachmentId:** The ID of the sale type quote attachment row to delete
 
+
+
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteSaleTypeQuoteAttachment Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

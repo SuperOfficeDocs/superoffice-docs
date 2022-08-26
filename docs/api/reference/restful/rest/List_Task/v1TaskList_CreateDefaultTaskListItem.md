@@ -1,6 +1,6 @@
 ---
 title: GET List/Task/Items/Default
-id: v1TaskList_CreateDefaultTaskListItem
+uid: v1TaskList_CreateDefaultTaskListItem
 ---
 
 # GET List/Task/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/Task/Items/Default
 ```
 
 Gets a default TaskListItem list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,16 +31,16 @@ Gets a default TaskListItem list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for TaskListItem.
-Services for the TaskListItem Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Task/Items/Default
@@ -62,36 +69,32 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 141,
-  "Value": "illo",
+  "TaskListItemId": 128,
+  "Value": "nesciunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "repudiandae",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "IntentId": 440,
-  "Rank": 905,
-  "IsDefaultAlldayEvent": true,
+  "IntentId": 747,
+  "Rank": 952,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

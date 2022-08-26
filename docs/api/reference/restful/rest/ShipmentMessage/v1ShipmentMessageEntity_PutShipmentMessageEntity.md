@@ -1,6 +1,6 @@
 ---
 title: PUT ShipmentMessage/{id}
-id: v1ShipmentMessageEntity_PutShipmentMessageEntity
+uid: v1ShipmentMessageEntity_PutShipmentMessageEntity
 ---
 
 # PUT ShipmentMessage/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/ShipmentMessage/{id}
 
 Updates the existing ShipmentMessageEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ShipmentMessageEntity
 ```http
 PUT /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ShipmentMessageEntity to be saved.
+The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,18 +74,17 @@ The ShipmentMessageEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response: object
 
-A shipment message, that contains the actual message being sent out in a mailing
+## Response: 
 
-ShipmentMessageEntity entity with API _Links added.
+ShipmentMessageEntity updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ShipmentMessageEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,83 +113,79 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 256,
-  "PlainMessage": "est",
-  "HtmlMessage": "excepturi",
-  "SmsMessage": "et",
-  "Description": "Focused client-server product",
-  "Subject": "nihil",
-  "FolderId": 926,
-  "HeaderField": "et",
-  "Design": "consequuntur",
+  "ShipmentMessageId": 164,
+  "PlainMessage": "mollitia",
+  "HtmlMessage": "alias",
+  "SmsMessage": "accusamus",
+  "Description": "Expanded disintermediate infrastructure",
+  "Subject": "qui",
+  "FolderId": 224,
+  "HeaderField": "est",
+  "Design": "ab",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Expanded mission-critical encryption",
-  "AccessKey": "rerum",
-  "DocumentMessage": 562,
-  "Registered": "2018-05-31T18:25:51.1129096+02:00",
-  "RegisteredAssociateId": 748,
-  "Updated": "1996-04-15T18:25:51.1129096+02:00",
-  "UpdatedAssociateId": 756,
-  "UpdatedCount": 519
+  "InlineImages": false,
+  "LongDescription": "Compatible zero administration knowledge base",
+  "AccessKey": "alias",
+  "DocumentMessage": 463,
+  "Registered": "2007-08-21T11:10:53.5251771+02:00",
+  "RegisteredAssociateId": 195,
+  "Updated": "1998-06-22T11:10:53.5251771+02:00",
+  "UpdatedAssociateId": 1002,
+  "UpdatedCount": 559
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 489,
-  "PlainMessage": "odio",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "sint",
-  "Description": "Synchronised attitude-oriented moderator",
-  "Subject": "et",
-  "FolderId": 708,
-  "HeaderField": "eos",
-  "Design": "aliquid",
+  "ShipmentMessageId": 381,
+  "PlainMessage": "animi",
+  "HtmlMessage": "nobis",
+  "SmsMessage": "consequatur",
+  "Description": "Organic multimedia project",
+  "Subject": "repellat",
+  "FolderId": 945,
+  "HeaderField": "incidunt",
+  "Design": "fugit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Face to face zero administration customer loyalty",
-  "AccessKey": "a",
-  "DocumentMessage": 711,
-  "Registered": "1999-01-15T18:25:51.1149499+01:00",
-  "RegisteredAssociateId": 374,
-  "Updated": "1998-07-13T18:25:51.1149499+02:00",
-  "UpdatedAssociateId": 149,
+  "LongDescription": "Mandatory 4th generation moderator",
+  "AccessKey": "voluptas",
+  "DocumentMessage": 993,
+  "Registered": "2001-09-27T11:10:53.5271833+02:00",
+  "RegisteredAssociateId": 805,
+  "Updated": "2009-06-14T11:10:53.5271833+02:00",
+  "UpdatedAssociateId": 748,
   "UpdatedCount": 587,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 421
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

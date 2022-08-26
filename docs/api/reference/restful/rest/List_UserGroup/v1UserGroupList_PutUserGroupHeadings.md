@@ -1,6 +1,6 @@
 ---
 title: PUT List/UserGroup/Headings
-id: v1UserGroupList_PutUserGroupHeadings
+uid: v1UserGroupList_PutUserGroupHeadings
 ---
 
 # PUT List/UserGroup/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/UserGroup/Headings
 
 Saves headings for the UserGroup list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,7 +69,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/UserGroup/Headings
@@ -70,23 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 816,
-    "Name": "Padberg LLC",
-    "Tooltip": "odio",
-    "Deleted": true,
-    "Rank": 159,
-    "UdListDefinitionId": 166
+    "HeadingId": 640,
+    "Name": "Ritchie-Klocko",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "Rank": 668,
+    "UdListDefinitionId": 469
   },
   {
-    "HeadingId": 816,
-    "Name": "Padberg LLC",
-    "Tooltip": "odio",
-    "Deleted": true,
-    "Rank": 159,
-    "UdListDefinitionId": 166
+    "HeadingId": 640,
+    "Name": "Ritchie-Klocko",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "Rank": 668,
+    "UdListDefinitionId": 469
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 125,
-    "Name": "Witting, Jenkins and Hirthe",
-    "Tooltip": "occaecati",
+    "HeadingId": 924,
+    "Name": "Kling Group",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 580,
-    "UdListDefinitionId": 619,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "orchestrate compelling e-markets"
-    },
+    "Rank": 464,
+    "UdListDefinitionId": 171,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 454
       }
     }
   }

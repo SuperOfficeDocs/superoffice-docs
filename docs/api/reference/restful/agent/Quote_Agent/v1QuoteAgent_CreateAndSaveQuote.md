@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateAndSaveQuote
-id: v1QuoteAgent_CreateAndSaveQuote
+uid: v1QuoteAgent_CreateAndSaveQuote
 ---
 
 # POST Agents/Quote/CreateAndSaveQuote
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuote
 
 Creates a new quote on a sale.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new quote on a sale.
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuote?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId, ConnectionId, FirstAlternativeName
+SaleId, ConnectionId, FirstAlternativeName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ SaleId, ConnectionId, FirstAlternativeName
 | ConnectionId | int32 |  |
 | FirstAlternativeName | string |  |
 
-## Response: object
 
-Quote methods
+## Response: 
 
-Carrier object for QuoteEntity.
-Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,106 +81,101 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 863,
-  "ConnectionId": 906,
-  "FirstAlternativeName": "Douglas Inc and Sons"
+  "SaleId": 60,
+  "ConnectionId": 749,
+  "FirstAlternativeName": "Gislason LLC"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 544,
-  "SaleId": 478,
-  "QuoteConnectionId": 638,
-  "ERPQuoteKey": "exercitationem",
-  "ERPOrderKey": "quasi",
-  "ActiveQuoteVersionId": 921,
-  "AcceptedQuoteAlternativeId": 370,
-  "UseValuesFromQuote": 581,
-  "DocumentId": 201,
-  "PoNumber": "1063961",
-  "OrderComment": "est",
-  "PreferredEmailCulture": "reagan_lang@pfeffertoy.us",
+  "QuoteId": 824,
+  "SaleId": 958,
+  "QuoteConnectionId": 201,
+  "ERPQuoteKey": "vero",
+  "ERPOrderKey": "libero",
+  "ActiveQuoteVersionId": 211,
+  "AcceptedQuoteAlternativeId": 981,
+  "UseValuesFromQuote": 496,
+  "DocumentId": 834,
+  "PoNumber": "1924329",
+  "OrderComment": "ut",
+  "PreferredEmailCulture": "cortez.mosciski@bartell.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 443,
-      "ERPQuoteVersionKey": "debitis",
-      "QuoteId": 218,
-      "Description": "Ameliorated actuating matrices",
-      "Number": "783630",
+      "QuoteVersionId": 420,
+      "ERPQuoteVersionKey": "animi",
+      "QuoteId": 687,
+      "Description": "Seamless interactive adapter",
+      "Number": "928312",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 977,
-      "SentDate": "1995-07-12T18:28:49.9481091+02:00",
-      "FollowupId": 305,
-      "ExpirationDate": "1998-10-03T18:28:49.9491072+02:00",
-      "DeliveryCountryId": 420,
+      "LikelyQuoteAlternativeId": 131,
+      "SentDate": "2006-03-09T11:10:27.7164957+01:00",
+      "FollowupId": 470,
+      "ExpirationDate": "2003-04-19T11:10:27.7164957+02:00",
+      "DeliveryCountryId": 446,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 772,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "quaerat",
-      "ERPPaymentTypeKey": "dolorum",
-      "ERPDeliveryTermsKey": "perspiciatis",
-      "ERPDeliveryTypeKey": "nulla",
-      "Rank": 902,
-      "ApprovedBy": 718,
-      "ApprovedText": "et",
-      "ApprovedRegisteredBy": 207,
-      "ApprovedRegisteredDate": "2016-07-23T18:28:49.9491072+02:00",
-      "ExtraField1": "quam",
-      "ExtraField2": "ipsa",
-      "ExtraField3": "est",
-      "ExtraField4": "quisquam",
-      "ExtraField5": "dolorem",
-      "LastRecalculated": "2009-12-29T18:28:49.9491072+01:00",
-      "Updated": "1997-05-24T18:28:49.9491072+02:00",
-      "UpdatedAssociateId": 725,
-      "Registered": "1998-07-13T18:28:49.9491072+02:00",
-      "RegisteredAssociateId": 577,
+      "InvoiceCountryId": 708,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "quo",
+      "ERPPaymentTypeKey": "sunt",
+      "ERPDeliveryTermsKey": "debitis",
+      "ERPDeliveryTypeKey": "ea",
+      "Rank": 78,
+      "ApprovedBy": 271,
+      "ApprovedText": "dolores",
+      "ApprovedRegisteredBy": 90,
+      "ApprovedRegisteredDate": "2006-11-09T11:10:27.7164957+01:00",
+      "ExtraField1": "et",
+      "ExtraField2": "voluptas",
+      "ExtraField3": "aut",
+      "ExtraField4": "harum",
+      "ExtraField5": "fugiat",
+      "LastRecalculated": "2013-01-19T11:10:27.7164957+01:00",
+      "Updated": "2004-01-28T11:10:27.7164957+01:00",
+      "UpdatedAssociateId": 234,
+      "Registered": "2014-08-14T11:10:27.7164957+02:00",
+      "RegisteredAssociateId": 379,
+      "RequestAssociateId": 941,
+      "RequestComment": "iusto",
       "QuoteAlternatives": [
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 363
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

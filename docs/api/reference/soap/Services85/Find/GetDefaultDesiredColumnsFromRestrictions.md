@@ -18,6 +18,7 @@ Calculate the default desired columns, i.e., the result columns for a given sear
 
 **Returns:** Column information for the default desired columns, fully populated. Percentage-specified column widths sum to exactly 100.
 
+
 [WSDL file for Services85/Find](../Services85-Find.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -124,6 +125,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDefaultDesiredColumnsFromRestrictions Response
 
 ```xml
@@ -159,3 +161,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

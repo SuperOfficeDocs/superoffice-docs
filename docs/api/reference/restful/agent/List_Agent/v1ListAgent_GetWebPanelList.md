@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetWebPanelList
-id: v1ListAgent_GetWebPanelList
+uid: v1ListAgent_GetWebPanelList
 ---
 
 # POST Agents/List/GetWebPanelList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetWebPanelList
 
 Return a list of all web panels.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return a list of all web panels.
 ```http
 POST /api/v1/Agents/List/GetWebPanelList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetWebPanelList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,17 +74,20 @@ Response body: array
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,38 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 435,
-    "Name": "Boyle, VonRueden and Gutmann",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "Rank": 263,
+    "WebPanelId": 629,
+    "Name": "Schroeder, Kihn and Fay",
+    "Tooltip": "alias",
+    "Deleted": true,
+    "Rank": 619,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Watsica Inc and Sons",
+    "WindowName": "Haley-Fay",
     "Url": "http://www.example.com/",
-    "ProgId": "dolorem",
-    "Icon": 206,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProgId": "repellat",
+    "Icon": 17,
+    "AlwaysReloadOnShow": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 6
       }
     }
   }

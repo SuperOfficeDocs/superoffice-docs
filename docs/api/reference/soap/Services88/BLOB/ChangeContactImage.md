@@ -16,6 +16,8 @@ Changes the contact image link. If the Binary object id is 0, any image link is 
 * **contactId:** The Contact the image is linked to
 * **blobId:** The Binary object id. If the Binary object id is 0, any image link is removed from the Contact.
 
+
+
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeContactImage Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

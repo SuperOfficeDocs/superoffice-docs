@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetConsentPerson
-id: v1PersonAgent_GetConsentPerson
+uid: v1PersonAgent_GetConsentPerson
 ---
 
 # POST Agents/Person/GetConsentPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetConsentPerson
 
 Gets a ConsentPerson object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ConsentPerson object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=541
+POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=254
 POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ConsentPerson.
-Services for the ConsentPerson Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,100 +65,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 89,
-  "ConsentSource": {
-    "ConsentSourceId": 33,
-    "Name": "Eichmann, Mosciski and Denesik",
-    "Tooltip": "facere",
-    "Rank": 742,
-    "Key": "vero",
-    "MailTemplateId": 876,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 367
-      }
-    }
-  },
-  "LegalBase": {
-    "LegalBaseId": 662,
-    "Name": "Lemke Inc and Sons",
-    "Tooltip": "nemo",
-    "Rank": 262,
-    "Key": "tempora",
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 754
-      }
-    }
-  },
-  "PersonId": 262,
-  "ConsentPurpose": {
-    "ConsentPurposeId": 401,
-    "Name": "Powlowski-Aufderhar",
-    "ConsentText": "quam",
-    "FormText": "cumque",
-    "Key": "nihil",
-    "Tooltip": "aliquam",
-    "Active": 473,
-    "UpdatedDate": "1995-05-11T18:28:49.5730878+02:00",
-    "UpdatedBy": {},
-    "Deleted": false,
-    "Rank": 771,
-    "PrivacyStatementDesc": "impedit",
-    "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 958
-      }
-    }
-  },
-  "Comment": "dolorum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ConsentPersonId": 746,
+  "ConsentSource": null,
+  "LegalBase": null,
+  "PersonId": 409,
+  "ConsentPurpose": null,
+  "Comment": "non",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 23
     }
   }
 }

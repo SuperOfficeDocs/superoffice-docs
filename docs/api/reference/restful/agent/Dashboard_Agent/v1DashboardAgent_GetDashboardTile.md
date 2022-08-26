@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/GetDashboardTile
-id: v1DashboardAgent_GetDashboardTile
+uid: v1DashboardAgent_GetDashboardTile
 ---
 
 # POST Agents/Dashboard/GetDashboardTile
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDashboardTile
 
 Gets a DashboardTile object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=148
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=393
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashboardTile.
-Services for the DashboardTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +73,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/GetDashboardTile
@@ -77,94 +82,81 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 979,
-  "Caption": "in",
-  "Description": "Business-focused exuding pricing structure",
-  "ChartName": "Friesen-Carter",
-  "ChartId": "ut",
+  "DashboardTileId": 478,
+  "Caption": "hic",
+  "Description": "Optional client-driven challenge",
+  "ChartName": "Marquardt, Lakin and Bergstrom",
+  "ChartId": "facere",
   "IsDefault": true,
-  "AssociateId": 628,
-  "GroupId": 3,
-  "SelectionId": 439,
-  "Config": "cum",
+  "AssociateId": 839,
+  "GroupId": 567,
+  "SelectionId": 58,
+  "Config": "eos",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Orn Group",
-      "Description": "Expanded uniform open architecture",
+      "Name": "Boyer-Ward",
+      "Description": "Public-key tangible contingency",
       "Type": "Boolean",
-      "ListName": "Abernathy-Ferry",
+      "ListName": "Paucek, Beier and Mayert",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nisi",
+      "Value": "amet",
       "DefaultDataOption": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 598
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 897,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
-      "TableRight": {},
+      "DisplayValue": "dolores",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 792
         }
       }
     },
     {
-      "VisibleId": 897,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
-      "TableRight": {},
+      "DisplayValue": "dolores",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 792
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 332
     }
   }
 }

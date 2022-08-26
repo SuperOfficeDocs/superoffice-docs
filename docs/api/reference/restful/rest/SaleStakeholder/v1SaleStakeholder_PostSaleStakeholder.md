@@ -1,6 +1,6 @@
 ---
 title: POST SaleStakeholder
-id: v1SaleStakeholder_PostSaleStakeholder
+uid: v1SaleStakeholder_PostSaleStakeholder
 ---
 
 # POST SaleStakeholder
@@ -11,7 +11,13 @@ POST /api/v1/SaleStakeholder
 
 Creates a new SaleStakeholder
 
+
 Calls the Sale agent service SaveSaleStakeholder.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Sale agent service SaveSaleStakeholder.
 ```http
 POST /api/v1/SaleStakeholder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/SaleStakeholder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SaleStakeholder to be saved.
+The SaleStakeholder to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,15 +70,16 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-## Response: object
 
-SaleStakeholder entity with API _Links added.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,74 +106,70 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dooley-Kovacek",
-  "Comment": "ut",
-  "StakeholderRoleId": 120,
-  "CountryId": 211,
-  "PersonId": 618,
-  "EmailDescription": "marguerite_oconner@schamberger.uk",
-  "EmailId": 331,
-  "EmailAddress": "thaddeus_kuhic@yostherman.ca",
-  "PhoneId": 931,
-  "ContactName": "Davis, Dibbert and Gorczany",
-  "ContactId": 470,
-  "SaleId": 522,
-  "Mrmrs": "atque",
-  "Firstname": "Prince",
-  "MiddleName": "Legros-Lockman",
-  "Lastname": "Bayer",
-  "SaleStakeholderId": 599,
-  "Rank": 324,
-  "Phone": "1-636-752-4665 x7717"
+  "StakeholderRoleName": "Von Inc and Sons",
+  "Comment": "dolores",
+  "StakeholderRoleId": 434,
+  "CountryId": 23,
+  "PersonId": 177,
+  "EmailDescription": "josefina@abshiregreenholt.us",
+  "EmailId": 234,
+  "EmailAddress": "dana@friesen.name",
+  "PhoneId": 812,
+  "ContactName": "Nikolaus, Kihn and Conroy",
+  "ContactId": 970,
+  "SaleId": 440,
+  "Mrmrs": "ut",
+  "Firstname": "Margarita",
+  "MiddleName": "Maggio-Stehr",
+  "Lastname": "Kuhn",
+  "SaleStakeholderId": 271,
+  "Rank": 599,
+  "Phone": "830.226.7836"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Morar Inc and Sons",
-  "Comment": "porro",
-  "StakeholderRoleId": 236,
-  "CountryId": 487,
-  "PersonId": 858,
-  "EmailDescription": "lyric@weber.com",
-  "EmailId": 942,
-  "EmailAddress": "kasandra_doyle@wymanschmidt.com",
-  "PhoneId": 381,
-  "ContactName": "Abernathy Group",
-  "ContactId": 158,
-  "SaleId": 562,
+  "StakeholderRoleName": "Ortiz-Haag",
+  "Comment": "officia",
+  "StakeholderRoleId": 919,
+  "CountryId": 147,
+  "PersonId": 287,
+  "EmailDescription": "kasandra_beer@heaney.uk",
+  "EmailId": 99,
+  "EmailAddress": "leanne.wolff@feest.com",
+  "PhoneId": 180,
+  "ContactName": "Walsh Group",
+  "ContactId": 873,
+  "SaleId": 899,
   "Mrmrs": "occaecati",
-  "Firstname": "Brenna",
-  "MiddleName": "Hansen, Abernathy and Corwin",
-  "Lastname": "McLaughlin",
-  "SaleStakeholderId": 277,
-  "Rank": 277,
-  "Phone": "(047)117-7777",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Firstname": "Toni",
+  "MiddleName": "Ankunding Group",
+  "Lastname": "Kozey",
+  "SaleStakeholderId": 306,
+  "Rank": 106,
+  "Phone": "1-758-995-2947",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   },
   "_Links": {

@@ -1,6 +1,6 @@
 ---
 title: POST CRMScript/{id}/ExecuteAsEvent
-id: v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId
+uid: v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId
 ---
 
 # POST CRMScript/{id}/ExecuteAsEvent
@@ -11,13 +11,21 @@ POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 
 Execute a CRMScript with event data as input.
 
+
 Returns event data with output variable values.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | cRMScriptUniqueId | string | The unique id of the CRMScript to execute **Required** |
+
+
 
 ## Request Headers
 
@@ -33,9 +41,9 @@ Returns event data with output variable values.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: eventData
+## Request Body: eventData  
 
-The EventData instance sent to the CRMScript with input values
+The EventData instance sent to the crmscript with input values 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,18 +56,16 @@ The EventData instance sent to the CRMScript with input values
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 
-## Response: object
 
-EventData containing data related to event handlers
+## Response: 
 
-Carrier object for EventData.
-Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,35 +80,37 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quas",
-    "InputValues2": "vel"
+    "InputValues1": "facilis",
+    "InputValues2": "dolorum"
   },
   "BlockExecution": false,
-  "NavigateTo": "rerum",
-  "Message": "esse",
+  "NavigateTo": "aut",
+  "Message": "qui",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "modi"
+    "OutputValues1": "id",
+    "OutputValues2": "cum"
   },
   "StateValues": {
-    "StateValues1": "optio",
-    "StateValues2": "est"
+    "StateValues1": "sed",
+    "StateValues2": "dolor"
   },
-  "Exception": "quibusdam"
+  "Exception": "dolorem"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -111,33 +119,27 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "totam",
-    "InputValues2": "iusto"
+    "InputValues1": "omnis",
+    "InputValues2": "magni"
   },
   "BlockExecution": false,
-  "NavigateTo": "quisquam",
-  "Message": "atque",
+  "NavigateTo": "molestiae",
+  "Message": "voluptate",
   "OutputValues": {
-    "OutputValues1": "sed",
-    "OutputValues2": "veritatis"
+    "OutputValues1": "excepturi",
+    "OutputValues2": "explicabo"
   },
   "StateValues": {
-    "StateValues1": "iure",
-    "StateValues2": "consectetur"
+    "StateValues1": "excepturi",
+    "StateValues2": "expedita"
   },
-  "Exception": "officia",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Exception": "repellat",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   }
 }

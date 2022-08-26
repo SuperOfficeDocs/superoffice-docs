@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetDiaryByGroup
-id: v1AppointmentAgent_GetDiaryByGroup
+uid: v1AppointmentAgent_GetDiaryByGroup
 ---
 
 # POST Agents/Appointment/GetDiaryByGroup
@@ -8,6 +8,14 @@ id: v1AppointmentAgent_GetDiaryByGroup
 ```http
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```http
 POST /api/v1/Agents/Appointment/GetDiaryByGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetDiaryByGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GroupId, GroupType, StartTime, EndTime, Count
+GroupId, GroupType, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +54,10 @@ GroupId, GroupType, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -107,7 +119,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
@@ -117,13 +129,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 659,
-  "GroupType": 916,
-  "StartTime": "2010-01-26T18:28:47.7368448+01:00",
-  "EndTime": "2002-01-26T18:28:47.7368448+01:00",
-  "Count": 416
+  "GroupId": 860,
+  "GroupType": 917,
+  "StartTime": "2017-10-30T11:10:25.4625222+01:00",
+  "EndTime": "2020-07-19T11:10:25.4625222+02:00",
+  "Count": 996
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -131,67 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 309,
-    "StartDate": "2001-12-20T18:28:47.7378445+01:00",
-    "EndDate": "2018-12-30T18:28:47.7388457+01:00",
+    "AppointmentId": 122,
+    "StartDate": "2010-06-30T11:10:25.4635226+02:00",
+    "EndDate": "2016-11-29T11:10:25.4635226+01:00",
     "Type": "BookingForChecklist",
-    "Task": "repellat",
-    "AssociateFullName": "Laurine Connelly",
-    "ContactName": "Labadie-Keeling",
-    "Description": "Triple-buffered background collaboration",
-    "PersonFullName": "Everardo Miller",
-    "PersonId": 704,
-    "ContactId": 760,
-    "ProjectId": 494,
-    "ProjectName": "Champlin, Schaefer and Blanda",
+    "Task": "aliquid",
+    "AssociateFullName": "Sherman Spencer",
+    "ContactName": "McGlynn Group",
+    "Description": "Advanced even-keeled frame",
+    "PersonFullName": "Cleora Harber",
+    "PersonId": 344,
+    "ContactId": 932,
+    "ProjectId": 480,
+    "ProjectName": "Schinner, McKenzie and Torp",
     "IsPublished": true,
-    "AssociateId": 840,
-    "ColorIndex": 347,
+    "AssociateId": 274,
+    "ColorIndex": 708,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 309,
-    "PriorityName": "Raynor LLC",
+    "PriorityId": 926,
+    "PriorityName": "Dibbert Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2020-11-16T18:28:47.7388457+01:00",
+    "IsBooking": false,
+    "ActiveDate": "1996-01-02T11:10:25.4645225+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-01-03T18:28:47.7388457+01:00",
-    "RecurringEndDate": "2012-01-07T18:28:47.7388457+01:00",
-    "MotherId": 201,
-    "AssignedBy": 55,
-    "AssignedByFullName": "Lavinia Carroll II",
-    "RejectReason": "benchmark seamless e-services",
-    "Location": "ut",
-    "AlarmLeadTime": "voluptate",
-    "SaleId": 684,
-    "SaleName": "Toy LLC",
-    "AssociateName": "Stokes LLC",
-    "CreatedDate": "1999-11-30T18:28:47.7398442+01:00",
-    "CreatedBy": "quibusdam",
-    "CreatedByFullName": "Jazmin Reichel",
-    "CreatedByAssociateId": 350,
+    "RecurringStartDate": "2018-05-14T11:10:25.4645225+02:00",
+    "RecurringEndDate": "2014-10-30T11:10:25.4645225+01:00",
+    "MotherId": 833,
+    "AssignedBy": 605,
+    "AssignedByFullName": "Florine Balistreri",
+    "RejectReason": "",
+    "Location": "in",
+    "AlarmLeadTime": "asperiores",
+    "SaleId": 480,
+    "SaleName": "Hoppe-Kilback",
+    "AssociateName": "Purdy, Bergstrom and Beatty",
+    "CreatedDate": "2019-08-22T11:10:25.4645225+02:00",
+    "CreatedBy": "incidunt",
+    "CreatedByFullName": "Orlo Gislason",
+    "CreatedByAssociateId": 593,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldLength": 301
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
-id: v1ForeignSystemAgent_GetKeyOnDeviceIdentifier
+uid: v1ForeignSystemAgent_GetKeyOnDeviceIdentifier
 ---
 
 # POST Agents/ForeignSystem/GetKeyOnDeviceIdentifier
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 
 Returning a foreign key by its key name and device identifier, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ A table name and record ID can also be specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,16 +57,16 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +81,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
@@ -84,40 +91,36 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Streich-Maggio",
-  "DeviceName": "Bednar-Bode",
-  "DeviceIdentifier": "odit",
-  "KeyName": "Barrows Inc and Sons",
-  "TableName": "Schultz, Sporer and Wilderman",
-  "RecordId": 954
+  "ApplicationName": "Beahan Inc and Sons",
+  "DeviceName": "Prosacco-Howell",
+  "DeviceIdentifier": "voluptatem",
+  "KeyName": "Keeling, Bahringer and Parisian",
+  "TableName": "White, Spencer and Aufderhar",
+  "RecordId": 444
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "blanditiis",
-  "Value": "et",
-  "RecordId": 49,
-  "CreatedDate": "2008-12-06T18:28:49.213087+01:00",
-  "UpdatedDate": "2001-02-12T18:28:49.213087+01:00",
-  "UpdatedBy": "reiciendis",
-  "CreatedBy": "minus",
-  "TableName": "Spinka-Barrows",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "molestiae",
+  "Value": "ut",
+  "RecordId": 590,
+  "CreatedDate": "2021-09-25T11:10:27.0824522+02:00",
+  "UpdatedDate": "2021-06-03T11:10:27.0824522+02:00",
+  "UpdatedBy": "iste",
+  "CreatedBy": "sed",
+  "TableName": "Bailey-Bins",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 469
     }
   }
 }

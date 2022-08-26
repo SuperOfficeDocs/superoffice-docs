@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetDefaultAssociateUserName
-id: v1UserAgent_GetDefaultAssociateUserName
+uid: v1UserAgent_GetDefaultAssociateUserName
 ---
 
 # POST Agents/User/GetDefaultAssociateUserName
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetDefaultAssociateUserName
 
 Get the default username for a person
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get the default username for a person
 ```http
 POST /api/v1/Agents/User/GetDefaultAssociateUserName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/User/GetDefaultAssociateUserName?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-User
+User 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | SuperOffice User, with login credentials and an associated person. <br /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+
 
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +65,8 @@ User
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetDefaultAssociateUserName
@@ -63,60 +76,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "User": {
-    "AssociateId": 300,
-    "Name": "Flatley-Ritchie",
-    "Rank": 921,
-    "Tooltip": "alias",
-    "LicenseOwners": [
-      {},
-      {}
-    ],
-    "Role": {},
-    "UserGroup": {},
-    "OtherGroups": [
-      {},
-      {}
-    ],
-    "Person": {},
-    "Deleted": true,
-    "Lastlogin": "2004-06-07T18:28:50.423412+02:00",
-    "Lastlogout": "2021-03-16T18:28:50.423412+01:00",
-    "EjUserId": 199,
-    "RequestSignature": "sint",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": false,
-    "Credentials": [
-      {},
-      {}
-    ],
-    "UserName": "Johnson LLC",
-    "TicketCategories": [
-      {},
-      {}
-    ],
-    "NickName": "Nicolas-Crooks",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "sit",
-      "ExtraFields2": "eius"
-    },
-    "CustomFields": {
-      "CustomFields1": "et",
-      "CustomFields2": "magnam"
-    },
-    "PostSaveCommands": [
-      {},
-      {}
-    ]
-  }
+  "User": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Hoppe LLC"
+"Rau, Kilback and Murazik"
 ```

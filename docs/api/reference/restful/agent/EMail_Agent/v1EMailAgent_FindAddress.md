@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/FindAddress
-id: v1EMailAgent_FindAddress
+uid: v1EMailAgent_FindAddress
 ---
 
 # POST Agents/EMail/FindAddress
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/FindAddress
 
 Search for contacts and persons with the specified e-mail address (exact match on the email address string required)
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Search for contacts and persons with the specified e-mail address (exact match o
 ```http
 POST /api/v1/Agents/EMail/FindAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/FindAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Address
+Address 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Address | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,7 +79,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/FindAddress
@@ -77,9 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "molestiae"
+  "Address": "quod"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,30 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 729,
-    "ContactName": "Graham Inc and Sons",
-    "PersonId": 68,
-    "PersonName": "Grady-Kuvalis",
-    "AssociateId": 281,
-    "Address": "adipisci",
-    "EmailId": 266,
+    "ContactId": 233,
+    "ContactName": "O'Keefe, Kuhn and Heathcote",
+    "PersonId": 54,
+    "PersonName": "Littel-Kulas",
+    "AssociateId": 985,
+    "Address": "consectetur",
+    "EmailId": 237,
     "DuplicatePersonIds": [
-      310,
-      641
+      832,
+      943
     ],
-    "Name": "Christiansen Inc and Sons",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Fritsch, Glover and Rippin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 510
+        "FieldLength": 624
       }
     }
   }

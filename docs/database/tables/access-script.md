@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "access_script"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ Scripts to implement row-based access rules (sentry light)
 |access\_table\_name|The name of the table that the access_script is connected to|String(255)| |
 |body|The ejscript that limits the access to the according table|Clob|&#x25CF;|
 
+
 ![access_script table relationship diagram](./media/access_script.png)
 
 [!include[details](./includes/access-script.md)]
@@ -42,3 +43,4 @@ Scripts to implement row-based access rules (sentry light)
 ## Security Flags
 
 * No access control via user's Role.
+

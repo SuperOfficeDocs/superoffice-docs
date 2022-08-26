@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTasks
-id: v1ListAgent_GetTasks
+uid: v1ListAgent_GetTasks
 ---
 
 # POST Agents/List/GetTasks
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTasks
 
 Returns all appointment tasks
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all appointment tasks
 ```http
 POST /api/v1/Agents/List/GetTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetTasks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -65,40 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Value": "saepe",
-    "Tooltip": "provident",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 804,
+    "Value": "at",
+    "Tooltip": "dolores",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   },
   {
-    "Id": 238,
-    "Value": "saepe",
-    "Tooltip": "provident",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 804,
+    "Value": "at",
+    "Tooltip": "dolores",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   }

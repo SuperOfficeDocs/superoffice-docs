@@ -1,6 +1,6 @@
 ---
 title: GET List/MrMrs/MDOItems
-id: v1MrMrsList_GetMDOList
+uid: v1MrMrsList_GetMDOList
 ---
 
 # GET List/MrMrs/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/MrMrs/MDOItems
 
 Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=est
+GET /api/v1/List/MrMrs/MDOItems?query=qui
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/MrMrs/MDOItems?query=est
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Schinner LLC",
-    "ToolTip": "Accusamus omnis.",
+    "Id": 517,
+    "Name": "Swaniawski LLC",
+    "ToolTip": "Velit quos.",
     "Deleted": false,
-    "Rank": 540,
-    "Type": "animi",
+    "Rank": 481,
+    "Type": "molestias",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Medhurst, Abshire and Mayer",
-        "ToolTip": "Laudantium et tenetur deleniti.",
+        "Id": 9,
+        "Name": "Block Inc and Sons",
+        "ToolTip": "Excepturi quas soluta et repudiandae ut voluptates.",
         "Deleted": false,
-        "Rank": 138,
-        "Type": "qui",
+        "Rank": 701,
+        "Type": "dolorem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 304,
-        "ExtraInfo": "dicta",
-        "StyleHint": "ut",
-        "FullName": "Angelita Parisian",
-        "TableRight": {},
+        "IconHint": "in",
+        "ColorBlock": 755,
+        "ExtraInfo": "temporibus",
+        "StyleHint": "accusantium",
+        "FullName": "Mrs. Tyshawn Upton III",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "empower collaborative functionalities"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 890
+            "FieldLength": 19
           }
         }
       }
     ],
-    "IconHint": "ipsam",
-    "ColorBlock": 888,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "sint",
-    "FullName": "Joany Smith",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "delectus",
+    "ColorBlock": 781,
+    "ExtraInfo": "omnis",
+    "StyleHint": "et",
+    "FullName": "Nedra Cortney Gorczany Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 428
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/Currency/Items/{id}
-id: v1CurrencyList_GetCurrencyEntity
+uid: v1CurrencyList_GetCurrencyEntity
 ---
 
 # GET List/Currency/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/Currency/Items/{id}
 
 Gets a CurrencyEntity list item.
 
+
 Calls the List agent service GetCurrencyEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Currency to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ Calls the List agent service GetCurrencyEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for CurrencyEntity.
-Services for the CurrencyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,39 +61,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 916,
-  "Name": "Casper Group",
-  "Tooltip": "odit",
-  "Rank": 441,
-  "Rate": 30164.75,
-  "Units": 4663.392,
+  "CurrencyId": 152,
+  "Name": "Kirlin-Lemke",
+  "Tooltip": "est",
+  "Rank": 892,
+  "Rate": 10238.778,
+  "Units": 15021.261999999999,
   "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 837
     }
   }
 }

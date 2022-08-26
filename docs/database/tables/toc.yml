@@ -93,6 +93,8 @@ items:
   href: comptrheadinglink.md
 - name: config
   href: config.md
+- name: ConfigurableScreenAppliesTo
+  href: configurablescreenappliesto.md
 - name: ConfigurableScreenDelta
   href: configurablescreendelta.md
 - name: ConnectionConfigField
@@ -585,10 +587,22 @@ items:
   href: quote.md
 - name: QuoteAlternative
   href: quotealternative.md
+- name: QuoteApprReason
+  href: quoteapprreason.md
+- name: QuoteApprReasonGroupLink
+  href: quoteapprreasongrouplink.md
+- name: QuoteApprReasonHeadingLink
+  href: quoteapprreasonheadinglink.md
 - name: QuoteConnection
   href: quoteconnection.md
 - name: QuoteConnectionAccess
   href: quoteconnectionaccess.md
+- name: QuoteDenyReason
+  href: quotedenyreason.md
+- name: QuoteDenyReasonGroupLink
+  href: quotedenyreasongrouplink.md
+- name: QuoteDenyReasonHeadingLink
+  href: quotedenyreasonheadinglink.md
 - name: QuoteLine
   href: quoteline.md
 - name: QuoteLineConfiguration
@@ -857,6 +871,8 @@ items:
   href: target-assignment-value.md
 - name: target_change
   href: target-change.md
+- name: target_dimension
+  href: target-dimension.md
 - name: target_group
   href: target-group.md
 - name: target_period
@@ -1151,6 +1167,8 @@ items:
     href: enums/refcountflags.md
   - name: RelationToOwner
     href: enums/relationtoowner.md
+  - name: ReplyTemplateBodyFlags
+    href: enums/replytemplatebodyflags.md
   - name: RoleType
     href: enums/roletype.md
   - name: SaleDone
@@ -1185,8 +1203,12 @@ items:
     href: enums/showstate.md
   - name: ShowWindowState
     href: enums/showwindowstate.md
+  - name: TargetAssignementLevel
+    href: enums/targetassignementlevel.md
   - name: TargetEntityType
     href: enums/targetentitytype.md
+  - name: TargetMeasurementUnit
+    href: enums/targetmeasurementunit.md
   - name: TargetPeriodType
     href: enums/targetperiodtype.md
   - name: TaskDirection

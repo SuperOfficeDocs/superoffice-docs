@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "session_object"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,6 +28,7 @@ Generic session object, accessible from ejscript etc, typically xml or name=valu
 |value|The object value|Clob|&#x25CF;|
 |created\_at|When the object was posted.|DateTime|&#x25CF;|
 
+
 ![session_object table relationship diagram](./media/session_object.png)
 
 [!include[details](./includes/session-object.md)]
@@ -46,6 +47,7 @@ Generic session object, accessible from ejscript etc, typically xml or name=valu
 |------|-------------|
 |[login](login.md)  |This table contains entries for the user sessions.  |
 
+
 ## Replication Flags
 
 * None
@@ -53,3 +55,4 @@ Generic session object, accessible from ejscript etc, typically xml or name=valu
 ## Security Flags
 
 * No access control via user's Role.
+

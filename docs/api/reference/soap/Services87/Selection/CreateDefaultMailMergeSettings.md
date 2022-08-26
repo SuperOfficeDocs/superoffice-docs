@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.CreateDef
 Loading default values into a new MailMergeSettings.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New MailMergeSettings with default values
+
 
 [WSDL file for Services87/Selection](../Services87-Selection.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultMailMergeSettings Response
 
 ```xml
@@ -72,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:TaskEntity xsi:type="Selection:MailMergeTask">
      <Selection:ProjectId xsi:type="xsd:int">0</Selection:ProjectId>
      <Selection:TypeId xsi:type="xsd:int">0</Selection:TypeId>
-     <Selection:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:27Z</Selection:StartDate>
+     <Selection:StartDate xsi:type="xsd:dateTime">2022-08-26T08:57:57Z</Selection:StartDate>
      <Selection:Duration xsi:type="xsd:int">0</Selection:Duration>
      <Selection:Description xsi:type="xsd:string"></Selection:Description>
      <Selection:PriorityId xsi:type="xsd:int">0</Selection:PriorityId>
@@ -105,3 +108,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

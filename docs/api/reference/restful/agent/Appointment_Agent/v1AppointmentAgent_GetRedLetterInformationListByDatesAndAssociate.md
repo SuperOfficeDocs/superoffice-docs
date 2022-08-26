@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
-id: v1AppointmentAgent_GetRedLetterInformationListByDatesAndAssociate
+uid: v1AppointmentAgent_GetRedLetterInformationListByDatesAndAssociate
 ---
 
 # POST Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 
 Get detailed red letter day information (redletter summary + individual day texts) for one or more days according to the given date interval.
 
+
 The time portion of the dates is ignored.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The time portion of the dates is ignored.
 ```http
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate?$
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate, EndDate, AssociateId
+StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ StartDate, EndDate, AssociateId
 | EndDate | date-time |  |
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,21 +73,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2011-02-18T18:28:47.7528443+01:00",
-  "EndDate": "1999-05-22T18:28:47.7528443+02:00",
-  "AssociateId": 600
+  "StartDate": "2009-11-14T11:10:25.4785224+01:00",
+  "EndDate": "2017-06-07T11:10:25.4785224+02:00",
+  "AssociateId": 249
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,108 +97,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "1999-12-31T18:28:47.7528443+01:00",
-    "RedLetterInformation": {
-      "IsOwnCountryHoliday": true,
-      "IsOtherCountryHoliday": true,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "syndicate end-to-end supply-chains"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 959
-        }
-      }
-    },
-    "RedLetterDetails": {
-      "OwnCountryDayTexts": [
-        "Sokovia",
-        "Sokovia"
-      ],
-      "OtherCountryDayTexts": [
-        "Sokovia",
-        "Sokovia"
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 215
-        }
-      }
-    },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Date": "2016-12-05T11:10:25.4785224+01:00",
+    "RedLetterInformation": null,
+    "RedLetterDetails": null,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   },
   {
-    "Date": "1999-12-31T18:28:47.7528443+01:00",
-    "RedLetterInformation": {
-      "IsOwnCountryHoliday": true,
-      "IsOtherCountryHoliday": true,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "syndicate end-to-end supply-chains"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 959
-        }
-      }
-    },
-    "RedLetterDetails": {
-      "OwnCountryDayTexts": [
-        "Sokovia",
-        "Sokovia"
-      ],
-      "OtherCountryDayTexts": [
-        "Sokovia",
-        "Sokovia"
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 215
-        }
-      }
-    },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Date": "2016-12-05T11:10:25.4785224+01:00",
+    "RedLetterInformation": null,
+    "RedLetterDetails": null,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   }

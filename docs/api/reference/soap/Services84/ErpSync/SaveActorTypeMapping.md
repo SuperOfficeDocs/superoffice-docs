@@ -17,6 +17,7 @@ Save mappings for a connection/actor
 
 **Returns:** The current mapping from the database
 
+
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -74,6 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveActorTypeMapping Response
 
 ```xml
@@ -119,3 +121,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

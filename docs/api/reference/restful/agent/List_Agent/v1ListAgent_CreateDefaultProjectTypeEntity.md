@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultProjectTypeEntity
-id: v1ListAgent_CreateDefaultProjectTypeEntity
+uid: v1ListAgent_CreateDefaultProjectTypeEntity
 ---
 
 # POST Agents/List/CreateDefaultProjectTypeEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 
 Set default values into a new ProjectTypeEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ProjectTypeEntity.
-Services for the ProjectTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,74 +59,67 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 251,
-  "Name": "O'Reilly-Ullrich",
-  "Tooltip": "eius",
-  "Rank": 417,
+  "ProjTypeId": 640,
+  "Name": "O'Reilly, Welch and Buckridge",
+  "Tooltip": "voluptatem",
+  "Rank": 574,
   "DurationUnit": "Century",
-  "ProjectDuration": 962,
+  "ProjectDuration": 525,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 682,
-      "Name": "Hickle-Collier",
-      "ToolTip": "Nostrum occaecati et veritatis est molestias consequatur.",
+      "Id": 509,
+      "Name": "Rutherford, Skiles and Schowalter",
+      "ToolTip": "Omnis cum.",
       "Deleted": false,
-      "Rank": 116,
-      "Type": "labore",
-      "ColorBlock": 840,
-      "IconHint": "atque",
-      "Selected": true,
-      "LastChanged": "2019-12-03T18:28:49.4440902+01:00",
+      "Rank": 86,
+      "Type": "omnis",
+      "ColorBlock": 713,
+      "IconHint": "sint",
+      "Selected": false,
+      "LastChanged": "1998-04-24T11:10:27.251448+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Emmy Bode",
-      "TableRight": {},
+      "ExtraInfo": "quae",
+      "StyleHint": "tenetur",
+      "Hidden": true,
+      "FullName": "Miss Jarrell Noble Collins PhD",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 49
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "visualize revolutionary initiatives"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldLength": 964
     }
   }
 }

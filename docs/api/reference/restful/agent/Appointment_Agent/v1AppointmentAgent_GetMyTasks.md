@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetMyTasks
-id: v1AppointmentAgent_GetMyTasks
+uid: v1AppointmentAgent_GetMyTasks
 ---
 
 # POST Agents/Appointment/GetMyTasks
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMyTasks
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's task list. Th
 ```http
 POST /api/v1/Agents/Appointment/GetMyTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Appointment/GetMyTasks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Count
+Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -107,19 +117,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 257
+  "Count": 269
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -127,67 +139,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 629,
-    "StartDate": "2014-09-25T18:28:47.8908482+02:00",
-    "EndDate": "2016-04-01T18:28:47.8908482+02:00",
+    "AppointmentId": 956,
+    "StartDate": "2008-04-28T11:10:25.9365224+02:00",
+    "EndDate": "1995-08-09T11:10:25.9365224+02:00",
     "Type": "BookingForChecklist",
-    "Task": "delectus",
-    "AssociateFullName": "Madaline Bahringer",
-    "ContactName": "Hammes Group",
-    "Description": "Universal actuating concept",
-    "PersonFullName": "Miss Raphael Stracke",
-    "PersonId": 933,
-    "ContactId": 711,
-    "ProjectId": 397,
-    "ProjectName": "Nitzsche-Kovacek",
+    "Task": "ea",
+    "AssociateFullName": "Tia Lowe MD",
+    "ContactName": "Kovacek Inc and Sons",
+    "Description": "Balanced 6th generation core",
+    "PersonFullName": "Clara Cummerata",
+    "PersonId": 304,
+    "ContactId": 211,
+    "ProjectId": 571,
+    "ProjectName": "Marquardt-Corkery",
     "IsPublished": true,
-    "AssociateId": 364,
-    "ColorIndex": 116,
-    "IsFree": true,
+    "AssociateId": 891,
+    "ColorIndex": 422,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 994,
-    "PriorityName": "Williamson, Howell and Waelchi",
+    "PriorityId": 69,
+    "PriorityName": "Predovic, Conn and Effertz",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-05-19T18:28:47.8908482+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2011-05-19T11:10:25.9365224+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-09-30T18:28:47.8908482+02:00",
-    "RecurringEndDate": "1996-05-05T18:28:47.8908482+02:00",
-    "MotherId": 543,
-    "AssignedBy": 809,
-    "AssignedByFullName": "Madyson Effertz",
+    "RecurringStartDate": "2015-06-27T11:10:25.9365224+02:00",
+    "RecurringEndDate": "2007-04-09T11:10:25.9365224+02:00",
+    "MotherId": 731,
+    "AssignedBy": 729,
+    "AssignedByFullName": "Andreanne Stracke",
     "RejectReason": "",
-    "Location": "debitis",
-    "AlarmLeadTime": "libero",
-    "SaleId": 707,
-    "SaleName": "Langworth-Dickinson",
-    "AssociateName": "Toy-Hettinger",
-    "CreatedDate": "1996-01-21T18:28:47.8908482+01:00",
+    "Location": "atque",
+    "AlarmLeadTime": "consequatur",
+    "SaleId": 432,
+    "SaleName": "Schamberger-Koepp",
+    "AssociateName": "Cole Group",
+    "CreatedDate": "2022-02-02T11:10:25.9375534+01:00",
     "CreatedBy": "aut",
-    "CreatedByFullName": "Brittany Abernathy",
-    "CreatedByAssociateId": 919,
+    "CreatedByFullName": "Krystel Cronin",
+    "CreatedByAssociateId": 383,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 184
       }
     }
   }

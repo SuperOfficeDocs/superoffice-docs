@@ -17,6 +17,7 @@ Saves the PreferenceDescriptionLine array in the SuperOffice database
 
 **Returns:** The updated PrefDesc lines (If the PreferenceDescriptionLine array was new, it returns with id's set.
 
+
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferenceDescriptionLines Response
 
 ```xml
@@ -87,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

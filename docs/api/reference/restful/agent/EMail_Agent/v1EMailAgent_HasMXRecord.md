@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/HasMXRecord
-id: v1EMailAgent_HasMXRecord
+uid: v1EMailAgent_HasMXRecord
 ---
 
 # POST Agents/EMail/HasMXRecord
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/HasMXRecord
 
 Return true if there is one or more MX records in DNS for the given mail domain
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Return true if there is one or more MX records in DNS for the given mail domain
 ```http
 POST /api/v1/Agents/EMail/HasMXRecord?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/HasMXRecord?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailDomain
+MailDomain 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailDomain | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,23 +65,26 @@ MailDomain
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/HasMXRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailDomain": "est"
+  "MailDomain": "praesentium"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

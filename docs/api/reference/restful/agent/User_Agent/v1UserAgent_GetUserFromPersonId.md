@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetUserFromPersonId
-id: v1UserAgent_GetUserFromPersonId
+uid: v1UserAgent_GetUserFromPersonId
 ---
 
 # POST Agents/User/GetUserFromPersonId
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserFromPersonId
 
 Returns the user associated with the supplied person id
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the user associated with the supplied person id
 ```http
 POST /api/v1/Agents/User/GetUserFromPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/User/GetUserFromPersonId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,9 +73,9 @@ Response body: array
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -74,7 +86,7 @@ Response body: array
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -83,19 +95,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetUserFromPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 958
+  "PersonId": 64
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -103,14 +117,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 414,
-    "Name": "Feeney, Paucek and Dietrich",
-    "Rank": 150,
-    "Tooltip": "veritatis",
+    "AssociateId": 449,
+    "Name": "Sporer, Mraz and Rodriguez",
+    "Rank": 974,
+    "Tooltip": "dolores",
     "LicenseOwners": [
       {
-        "Name": "Predovic Inc and Sons",
-        "Description": "Programmable maximized encryption",
+        "Name": "Homenick-Lehner",
+        "Description": "Advanced homogeneous methodology",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -119,21 +133,18 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 875
+            "FieldLength": 364
           }
         }
       },
       {
-        "Name": "Predovic Inc and Sons",
-        "Description": "Programmable maximized encryption",
+        "Name": "Homenick-Lehner",
+        "Description": "Advanced homogeneous methodology",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -142,242 +153,134 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 875
+            "FieldLength": 364
           }
         }
       }
     ],
-    "Role": {
-      "Id": 361,
-      "Value": "omnis",
-      "Tooltip": "illum",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 581
-        }
-      }
-    },
-    "UserGroup": {
-      "Value": "qui",
-      "Tooltip": "rerum",
-      "Id": 767,
-      "Rank": 792,
-      "Deleted": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "scale granular synergies"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 602
-        }
-      }
-    },
+    "Role": null,
+    "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "autem",
-        "Tooltip": "dolor",
-        "Id": 826,
-        "Rank": 115,
+        "Value": "placeat",
+        "Tooltip": "mollitia",
+        "Id": 314,
+        "Rank": 218,
         "Deleted": false,
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldLength": 809
           }
         }
       }
     ],
-    "Person": {
-      "Position": "voluptas",
-      "PersonId": 357,
-      "Mrmrs": "ut",
-      "Firstname": "Mckayla",
-      "Lastname": "Dickens",
-      "MiddleName": "Marks Group",
-      "Title": "corporis",
-      "Description": "Sharable foreground structure",
-      "Email": "lucius_gleason@swaniawski.ca",
-      "FullName": "Kirsten Heller",
-      "DirectPhone": "(758)825-3438 x1016",
-      "FormalName": "Tromp-Lockman",
-      "CountryId": 489,
-      "ContactId": 430,
-      "ContactName": "Wiegand, Hagenes and Harber",
-      "Retired": 282,
-      "Rank": 190,
-      "ActiveInterests": 761,
-      "ContactDepartment": "",
-      "ContactCountryId": 115,
-      "ContactOrgNr": "1507399",
-      "FaxPhone": "(334)487-5018 x33662",
-      "MobilePhone": "155.031.5642 x574",
-      "ContactPhone": "1-266-866-5250",
-      "AssociateName": "Koelpin, Gorczany and Schulist",
-      "AssociateId": 540,
-      "UsePersonAddress": false,
-      "ContactFax": "ut",
-      "Kanafname": "sit",
-      "Kanalname": "praesentium",
-      "Post1": "cum",
-      "Post2": "et",
-      "Post3": "quibusdam",
-      "EmailName": "martin.schoen@spinkaoconner.biz",
-      "ContactFullName": "Neil Wiza",
-      "ActiveErpLinks": 560,
-      "TicketPriorityId": 979,
-      "SupportLanguageId": 903,
-      "SupportAssociateId": 52,
-      "CategoryName": "VIP Customer",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "iterate user-centric deliverables"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 557
-        }
-      }
-    },
-    "Deleted": false,
-    "Lastlogin": "2019-05-25T18:28:50.4614118+02:00",
-    "Lastlogout": "1998-06-18T18:28:50.4614118+02:00",
-    "EjUserId": 337,
-    "RequestSignature": "vero",
+    "Person": null,
+    "Deleted": true,
+    "Lastlogin": "2011-05-24T11:10:28.4252071+02:00",
+    "Lastlogout": "2000-07-31T11:10:28.4252071+02:00",
+    "EjUserId": 797,
+    "RequestSignature": "deleniti",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {
-        "Type": {},
-        "Value": "eveniet",
-        "DisplayValue": "ut",
-        "TableRight": {},
+        "Type": null,
+        "Value": "sint",
+        "DisplayValue": "similique",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 957
+            "FieldLength": 57
           }
         }
       },
       {
-        "Type": {},
-        "Value": "eveniet",
-        "DisplayValue": "ut",
-        "TableRight": {},
+        "Type": null,
+        "Value": "sint",
+        "DisplayValue": "similique",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 957
+            "FieldLength": 57
           }
         }
       }
     ],
-    "UserName": "Cruickshank-Senger",
+    "UserName": "Jakubowski LLC",
     "TicketCategories": [
       {
-        "Id": 254,
-        "Name": "Mann, Huel and DuBuque",
-        "ToolTip": "Voluptate omnis unde.",
+        "Id": 817,
+        "Name": "Goldner Inc and Sons",
+        "ToolTip": "Natus et atque id ipsa culpa at odio.",
         "Deleted": false,
-        "Rank": 373,
-        "Type": "et",
+        "Rank": 405,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 67,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "autem",
-        "FullName": "Miss Douglas King",
-        "TableRight": {},
+        "IconHint": "corporis",
+        "ColorBlock": 648,
+        "ExtraInfo": "ut",
+        "StyleHint": "pariatur",
+        "FullName": "Angelo Schaden DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 136
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 180
           }
         }
       }
     ],
-    "NickName": "Abbott-Wilkinson",
-    "WaitingForApproval": true,
+    "NickName": "Pfannerstill LLC",
+    "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "ea",
-      "ExtraFields2": "at"
+      "ExtraFields1": "id",
+      "ExtraFields2": "dolore"
     },
     "CustomFields": {
-      "CustomFields1": "laudantium",
-      "CustomFields2": "et"
+      "CustomFields1": "commodi",
+      "CustomFields2": "officiis"
     },
     "PostSaveCommands": [
       {
-        "Name": "Bauch-Klocko",
-        "DisplayName": "Cremin, Terry and Denesik",
-        "Description": "Streamlined uniform success",
-        "ToolTip": "Repellendus optio quis.",
+        "Name": "O'Hara, McCullough and Bahringer",
+        "DisplayName": "D'Amore-Watsica",
+        "Description": "Compatible heuristic flexibility",
+        "ToolTip": "Aspernatur aut neque inventore impedit.",
         "Actions": "Implicit",
-        "ActionData": "natus",
-        "TableRight": {},
+        "ActionData": "quod",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldLength": 947
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 427
+        "FieldLength": 451
       }
     }
   }

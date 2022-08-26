@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/HasChatNotify
-id: v1CustomerServiceAgent_HasChatNotify
+uid: v1CustomerServiceAgent_HasChatNotify
 ---
 
 # POST Agents/CustomerService/HasChatNotify
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/HasChatNotify
 
 Check if user has any chat notification
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check if user has any chat notification
 ```http
 POST /api/v1/Agents/CustomerService/HasChatNotify?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/CustomerService/HasChatNotify?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,7 +52,8 @@ POST /api/v1/Agents/CustomerService/HasChatNotify?$select=name,department,catego
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/HasChatNotify
@@ -50,6 +61,8 @@ Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

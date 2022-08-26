@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
-id: v1SelectionAgent_CreateTemporaryContactSelectionFromProjectMembers
+uid: v1SelectionAgent_CreateTemporaryContactSelectionFromProjectMembers
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 
 Creates a temporary selection with members from an existing project.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from an existing project.
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +68,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -100,246 +107,101 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 753
+  "ProjectId": 488
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group object-oriented alliance",
-  "Postit": "est",
-  "Associate": {
-    "AssociateId": 180,
-    "Name": "Kilback, Spencer and Balistreri",
-    "PersonId": 798,
-    "Rank": 573,
-    "Tooltip": "ipsa",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 682,
-    "FullName": "Stephan Connelly",
-    "FormalName": "Kilback-McLaughlin",
-    "Deleted": false,
-    "EjUserId": 4,
-    "UserName": "Bogan-Schultz",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 129
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 293,
-    "Name": "Bosco-Marks",
-    "PersonId": 864,
-    "Rank": 642,
-    "Tooltip": "sint",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 212,
-    "FullName": "Jeffery Johns",
-    "FormalName": "Morissette-Casper",
-    "Deleted": false,
-    "EjUserId": 957,
-    "UserName": "Barton, Cole and DuBuque",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "synthesize scalable web-readiness"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 603
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 365,
-    "Name": "Carter, Armstrong and Tromp",
-    "PersonId": 506,
-    "Rank": 103,
-    "Tooltip": "rem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 42,
-    "FullName": "Gerhard Runolfsson",
-    "FormalName": "Bode Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 448,
-    "UserName": "Windler, Haag and Bergstrom",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 87
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 294,
-    "Value": "ab",
-    "Tooltip": "animi",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 452
-      }
-    }
-  },
-  "GroupIdx": 248,
-  "IncludePerson": 474,
-  "MemberCount": 521,
-  "Name": "Langworth Inc and Sons",
-  "PostitTextId": 36,
-  "CreatedDate": "1997-11-03T18:28:50.2504443+01:00",
-  "SelectionId": 823,
-  "SoundEx": "maxime",
-  "Source": 441,
-  "TextId": 940,
-  "UpdatedDate": "2020-10-09T18:28:50.2504443+02:00",
-  "UpdatedCount": 421,
-  "Visibility": 893,
+  "Description": "Decentralized 5th generation knowledge base",
+  "Postit": "omnis",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 293,
+  "IncludePerson": 168,
+  "MemberCount": 257,
+  "Name": "Bashirian LLC",
+  "PostitTextId": 461,
+  "CreatedDate": "2007-06-25T11:10:27.9169765+02:00",
+  "SelectionId": 849,
+  "SoundEx": "laboriosam",
+  "Source": 343,
+  "TextId": 873,
+  "UpdatedDate": "1996-11-08T11:10:27.9169765+01:00",
+  "UpdatedCount": 178,
+  "Visibility": 34,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 639,
-  "TargetTableName": "Powlowski LLC",
-  "Completed": true,
-  "LeftSelectionId": 904,
-  "RightSelectionId": 421,
+  "TargetTableNumber": 555,
+  "TargetTableName": "Swift Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 353,
+  "RightSelectionId": 514,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnston, Hahn and Kertzmann",
-  "ShadowProviderName": "Koss-Rosenbaum",
-  "ChartKey": "fugiat",
-  "LastLoaded": "2004-08-19T18:28:50.2504443+02:00",
-  "LastLoadedBy": 689,
-  "LastLoadedByAssociate": {
-    "AssociateId": 398,
-    "Name": "O'Conner-Goldner",
-    "PersonId": 188,
-    "Rank": 649,
-    "Tooltip": "magnam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 356,
-    "FullName": "Logan Swaniawski",
-    "FormalName": "Thompson Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 758,
-    "UserName": "Franecki-Morissette",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 612
-      }
-    }
-  },
-  "LastMembershipChange": "2006-05-31T18:28:50.2504443+02:00",
-  "LastMembershipChangeBy": 382,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 705,
-    "Name": "Parker Inc and Sons",
-    "PersonId": 208,
-    "Rank": 790,
-    "Tooltip": "velit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 989,
-    "FullName": "Joelle Abernathy",
-    "FormalName": "O'Hara-Rutherford",
-    "Deleted": true,
-    "EjUserId": 916,
-    "UserName": "Kertzmann, Keeling and Langosh",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 239
-      }
-    }
-  },
-  "MainHeading": "quasi",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Olson LLC",
-  "DashboardTileDefinitionId": 268,
+  "MainProviderName": "Paucek, Mraz and Keebler",
+  "ShadowProviderName": "Murphy, Tremblay and Kub",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2003-08-30T11:10:27.9169765+02:00",
+  "LastLoadedBy": 940,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2006-07-06T11:10:27.9189774+02:00",
+  "LastMembershipChangeBy": 106,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "nam",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Torp-Breitenberg",
+  "DashboardTileDefinitionId": 693,
   "VisibleFor": [
     {
-      "VisibleId": 990,
+      "VisibleId": 886,
       "Visibility": "All",
-      "DisplayValue": "quia",
-      "TableRight": {},
+      "DisplayValue": "consequatur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     },
     {
-      "VisibleId": 990,
+      "VisibleId": 886,
       "Visibility": "All",
-      "DisplayValue": "quia",
-      "TableRight": {},
+      "DisplayValue": "consequatur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 715
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

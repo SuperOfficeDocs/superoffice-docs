@@ -1,6 +1,6 @@
 ---
 title: POST Agents/PhoneList/AddToFavorites
-id: v1PhoneListAgent_AddToFavorites
+uid: v1PhoneListAgent_AddToFavorites
 ---
 
 # POST Agents/PhoneList/AddToFavorites
@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/AddToFavorites
 
 Adds a new contact to the history/favorites.
 
+
 Returns the rank of the new history item. If the contact already existed in the history, it isn't added but the rank is updated.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Returns the rank of the new history item. If the contact already existed in the 
 ```http
 POST /api/v1/Agents/PhoneList/AddToFavorites?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/PhoneList/AddToFavorites?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,23 +63,26 @@ ContactId
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/PhoneList/AddToFavorites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 572
+  "ContactId": 324
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-125
+350
 ```

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "message_id"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ This table links an email message id to an eJournal item
 |message\_id|The message id|String(255)| |
 |domain|The domain to which this message id links|Int| |
 |item\_id|The id of the element this item links to|Int| |
+
 
 ![message_id table relationship diagram](./media/message_id.png)
 
@@ -46,3 +47,4 @@ This table links an email message id to an eJournal item
 ## Security Flags
 
 * No access control via user's Role.
+

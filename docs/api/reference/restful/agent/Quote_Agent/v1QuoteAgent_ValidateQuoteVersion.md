@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/ValidateQuoteVersion
-id: v1QuoteAgent_ValidateQuoteVersion
+uid: v1QuoteAgent_ValidateQuoteVersion
 ---
 
 # POST Agents/Quote/ValidateQuoteVersion
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/ValidateQuoteVersion
 
 When the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT.
 
+
 ValidateQuoteVersion shall be called when the user presses the validate button, presses the send button or closes the quote dialog. RecalculateQuoteAlternative should typically validate all alternatives, set values in extrafields, and set the state in the version.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ ValidateQuoteVersion shall be called when the user presses the validate button, 
 ```http
 POST /api/v1/Agents/Quote/ValidateQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/Quote/ValidateQuoteVersion?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, Action
+QuoteVersionId, Action 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 | Action | string |  |
 
-## Response: object
 
-The QuoteVersionValidated is returned after a call to ValidateQuoteAlternative. It contains flags indicating changes to quote, quoteversion/quotealternative and quotelines.
+## Response: 
 
-Carrier object for QuoteVersionValidated.
-Services for the QuoteVersionValidated Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,194 +77,69 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 980,
+  "QuoteVersionId": 308,
   "Action": "Approve"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "illo",
-  "TechExplanation": "voluptatem",
-  "ErrorCode": "consequuntur",
-  "ChangedSale": {
-    "ContactName": "Ryan-Gorczany",
-    "SaleDate": "1999-03-03T18:28:49.9141372+01:00",
-    "SaleId": 878,
-    "Probability": 935,
-    "Title": "tempore",
-    "Amount": 4403.2699999999995,
-    "Currency": "et",
-    "ProjectName": "Lesch-Dare",
-    "AssociateFullName": "Camila Koepp",
-    "Description": "Switchable secondary orchestration",
-    "Status": "Lost",
-    "WeightedAmount": 4409.538,
-    "ProjectId": 326,
-    "EarningPercent": 12557.938,
-    "Earning": 2287.8199999999997,
-    "ContactId": 766,
-    "AssociateId": 654,
-    "PersonId": 425,
-    "SaleTypeId": 9,
-    "SaleTypeName": "King, Considine and Prohaska",
-    "PersonFullName": "Andy Grady",
-    "Completed": "Completed",
-    "ActiveErpLinks": 967,
-    "NextDueDate": "2008-05-12T18:28:49.9151085+02:00",
-    "Number": "719505",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 123
-      }
-    }
-  },
-  "ChangedQuote": {
-    "QuoteId": 456,
-    "SaleId": 634,
-    "QuoteConnectionId": 224,
-    "ERPQuoteKey": "totam",
-    "ERPOrderKey": "ullam",
-    "ActiveQuoteVersionId": 206,
-    "AcceptedQuoteAlternativeId": 868,
-    "UseValuesFromQuote": 579,
-    "DocumentId": 386,
-    "PoNumber": "1326519",
-    "OrderComment": "fugit",
-    "PreferredEmailCulture": "ada@jacobsjohnston.info",
-    "ActiveQuoteVersion": {},
-    "FavoriteQuoteAlternative": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 535
-      }
-    }
-  },
-  "ChangedQuoteVersion": {
-    "QuoteVersionId": 679,
-    "ERPQuoteVersionKey": "ex",
-    "QuoteId": 377,
-    "Description": "Managed exuding toolset",
-    "Number": "929495",
-    "State": "Archived",
-    "ArchivedState": "Archived",
-    "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 542,
-    "SentDate": "2017-10-31T18:28:49.9161089+01:00",
-    "FollowupId": 153,
-    "ExpirationDate": "1996-02-29T18:28:49.9161089+01:00",
-    "DeliveryCountryId": 836,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 677,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "quia",
-    "ERPPaymentTypeKey": "neque",
-    "ERPDeliveryTermsKey": "quas",
-    "ERPDeliveryTypeKey": "magnam",
-    "Rank": 363,
-    "ApprovedBy": 728,
-    "ApprovedText": "odit",
-    "ApprovedRegisteredBy": 829,
-    "ApprovedRegisteredDate": "2000-04-04T18:28:49.9161089+02:00",
-    "ExtraField1": "earum",
-    "ExtraField2": "odio",
-    "ExtraField3": "quam",
-    "ExtraField4": "mollitia",
-    "ExtraField5": "voluptatibus",
-    "LastRecalculated": "1998-08-01T18:28:49.9161089+02:00",
-    "Updated": "1996-02-02T18:28:49.9161089+01:00",
-    "UpdatedAssociateId": 127,
-    "Registered": "2014-12-18T18:28:49.9161089+01:00",
-    "RegisteredAssociateId": 273,
-    "QuoteAlternatives": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 443
-      }
-    }
-  },
+  "IsOk": false,
+  "UserExplanation": "ad",
+  "TechExplanation": "aperiam",
+  "ErrorCode": "fuga",
+  "ChangedSale": null,
+  "ChangedQuote": null,
+  "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": false,
-      "ChangedQuoteAlternative": {},
-      "Changes": {},
-      "TableRight": {},
+      "QuoteLinesHasChanged": true,
+      "ChangedQuoteAlternative": null,
+      "Changes": null,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 238
         }
       }
     },
     {
-      "QuoteLinesHasChanged": false,
-      "ChangedQuoteAlternative": {},
-      "Changes": {},
-      "TableRight": {},
+      "QuoteLinesHasChanged": true,
+      "ChangedQuoteAlternative": null,
+      "Changes": null,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 238
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 445
     }
   }
 }

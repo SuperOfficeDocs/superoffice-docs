@@ -1,6 +1,6 @@
 ---
 title: GET PreferenceDescription
-id: v1PreferenceDescription_GetAll
+uid: v1PreferenceDescription_GetAll
 ---
 
 # GET PreferenceDescription
@@ -10,6 +10,13 @@ GET /api/v1/PreferenceDescription
 ```
 
 Gets a list of all PreferenceDescriptions in the system.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Gets a list of all PreferenceDescriptions in the system.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +65,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,36 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 746,
-    "Section": "sit",
-    "Key": "reprehenderit",
-    "Name": "Stoltenberg Inc and Sons",
+    "PrefDescId": 432,
+    "Section": "labore",
+    "Key": "qui",
+    "Name": "Fadel, Bruen and Ward",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Open-source eco-centric hardware",
+    "Description": "Stand-alone 4th generation parallelism",
     "IsBuiltin": false,
-    "TableName": "Bartell-Gerhold",
-    "UserDefinedListId": 552,
-    "Rank": 936,
-    "SubGroup": "totam",
-    "MinLevel": 166,
-    "MaxValue": 672,
-    "MinValue": 699,
-    "RequiredLicense": "est",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableName": "Toy Group",
+    "UserDefinedListId": 70,
+    "Rank": 23,
+    "SubGroup": "neque",
+    "MinLevel": 610,
+    "MaxValue": 319,
+    "MinValue": 804,
+    "RequiredLicense": "ipsa",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 233
       }
     }
   }

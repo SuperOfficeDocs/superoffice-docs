@@ -17,6 +17,7 @@ Regenerate the Saint counters - this can take several minutes
 
 **Returns:** Information about the batch task, if batch execution was requested. Otherwise null
 
+
 [WSDL file for Services87/Saint](../Services87-Saint.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegenerateCounters Response
 
 ```xml
@@ -77,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Saint:Value xsi:type="xsd:string"></Saint:Value>
      </Saint:StringKeyValuePair>
     </Saint:ParameterObject>
-    <Saint:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Saint:LastStarted>
-    <Saint:Created xsi:type="xsd:dateTime">2021-11-30T13:23:26Z</Saint:Created>
+    <Saint:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:57:51Z</Saint:LastStarted>
+    <Saint:Created xsi:type="xsd:dateTime">2022-08-26T08:57:51Z</Saint:Created>
     <Saint:StartCount xsi:type="xsd:int">0</Saint:StartCount>
     <Saint:DatabaseSerialNumber xsi:type="xsd:string"></Saint:DatabaseSerialNumber>
     <Saint:Context xsi:type="xsd:string"></Saint:Context>
@@ -95,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

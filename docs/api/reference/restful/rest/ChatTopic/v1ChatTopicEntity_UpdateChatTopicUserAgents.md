@@ -1,6 +1,6 @@
 ---
 title: PUT ChatTopic/{id}/UserAgent
-id: v1ChatTopicEntity_UpdateChatTopicUserAgents
+uid: v1ChatTopicEntity_UpdateChatTopicUserAgents
 ---
 
 # PUT ChatTopic/{id}/UserAgent
@@ -11,9 +11,16 @@ PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent
 
 Update users roles in a chat topic
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Update users roles in a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragents
+## Request Body: useragents  
 
-Users new/updated roles within the chat topic. Replaces existing roles
+Users new/updated roles within the chat topic. Replaces existing roles 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,10 @@ Users new/updated roles within the chat topic. Replaces existing roles
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,54 +69,28 @@ Response body: array
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 151,
-    "User": {
-      "AssociateId": 629,
-      "Name": "Witting, Klocko and Larkin",
-      "PersonId": 580,
-      "Rank": 951,
-      "Tooltip": "molestiae",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 271,
-      "FullName": "Domingo Kerluke",
-      "FormalName": "Collins, Nicolas and Parker",
-      "Deleted": false,
-      "EjUserId": 500,
-      "UserName": "Lowe LLC"
-    },
-    "CanListen": true,
+    "TopicId": 852,
+    "User": null,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 151,
-    "User": {
-      "AssociateId": 629,
-      "Name": "Witting, Klocko and Larkin",
-      "PersonId": 580,
-      "Rank": 951,
-      "Tooltip": "molestiae",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 271,
-      "FullName": "Domingo Kerluke",
-      "FormalName": "Collins, Nicolas and Parker",
-      "Deleted": false,
-      "EjUserId": 500,
-      "UserName": "Lowe LLC"
-    },
-    "CanListen": true,
+    "TopicId": 852,
+    "User": null,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
@@ -114,74 +98,28 @@ Content-Type: application/json; charset=utf-8
 ]
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 969,
-    "User": {
-      "AssociateId": 869,
-      "Name": "Rolfson, Gerhold and Fadel",
-      "PersonId": 211,
-      "Rank": 198,
-      "Tooltip": "ab",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 710,
-      "FullName": "Dr. Vickie Torp",
-      "FormalName": "Swaniawski, Schmeler and Lindgren",
-      "Deleted": false,
-      "EjUserId": 808,
-      "UserName": "Ward-Zulauf",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 683
-        }
-      }
-    },
+    "TopicId": 605,
+    "User": null,
     "CanListen": true,
-    "CanRespond": true,
-    "CanManage": true,
-    "CanNotify": true
+    "CanRespond": false,
+    "CanManage": false,
+    "CanNotify": false
   },
   {
-    "TopicId": 969,
-    "User": {
-      "AssociateId": 869,
-      "Name": "Rolfson, Gerhold and Fadel",
-      "PersonId": 211,
-      "Rank": 198,
-      "Tooltip": "ab",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 710,
-      "FullName": "Dr. Vickie Torp",
-      "FormalName": "Swaniawski, Schmeler and Lindgren",
-      "Deleted": false,
-      "EjUserId": 808,
-      "UserName": "Ward-Zulauf",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 683
-        }
-      }
-    },
+    "TopicId": 605,
+    "User": null,
     "CanListen": true,
-    "CanRespond": true,
-    "CanManage": true,
-    "CanNotify": true
+    "CanRespond": false,
+    "CanManage": false,
+    "CanNotify": false
   }
 ]
 ```

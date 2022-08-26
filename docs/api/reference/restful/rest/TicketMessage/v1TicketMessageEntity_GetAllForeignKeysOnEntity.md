@@ -1,6 +1,6 @@
 ---
 title: GET TicketMessage/{id}/ForeignKey
-id: v1TicketMessageEntity_GetAllForeignKeysOnEntity
+uid: v1TicketMessageEntity_GetAllForeignKeysOnEntity
 ---
 
 # GET TicketMessage/{id}/ForeignKey
@@ -11,9 +11,16 @@ GET /api/v1/TicketMessage/{id}/ForeignKey
 
 Foreign keys on the TicketMessageEntity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | TicketMessageEntity id/primary key. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Foreign keys on the TicketMessageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -37,21 +47,24 @@ Foreign keys on the TicketMessageEntity.
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/TicketMessage/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nulla",
+  "1": "itaque",
   "2": "odit"
 }
 ```

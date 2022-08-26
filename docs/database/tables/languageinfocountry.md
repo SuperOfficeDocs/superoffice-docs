@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LanguageInfoCountry"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ Many-many link between countries and languages, to give intelligent choices for 
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltIn|Has this row been inserted by SuperOffice priming data|UShort| |
 
+
 ![LanguageInfoCountry table relationship diagram](./media/LanguageInfoCountry.png)
 
 [!include[details](./includes/languageinfocountry.md)]
@@ -53,6 +54,7 @@ Many-many link between countries and languages, to give intelligent choices for 
 |[country](country.md)  |Country information |
 |[LanguageInfo](languageinfo.md)  |Information about languages, from ISO standards and related information |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,3 +64,4 @@ Many-many link between countries and languages, to give intelligent choices for 
 ## Security Flags
 
 * No access control via user's Role.
+

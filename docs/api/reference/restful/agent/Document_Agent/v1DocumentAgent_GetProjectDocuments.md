@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetProjectDocuments
-id: v1DocumentAgent_GetProjectDocuments
+uid: v1DocumentAgent_GetProjectDocuments
 ---
 
 # POST Agents/Document/GetProjectDocuments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocuments
 
 Method that returns a specified number of document appointments within a time range.
 
+
 The document appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count
+ProjectId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ ProjectId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -76,25 +86,29 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 619,
-  "StartTime": "2009-04-28T18:28:48.7229565+02:00",
-  "EndTime": "2017-10-01T18:28:48.7229565+02:00",
-  "Count": 442
+  "ProjectId": 654,
+  "StartTime": "2010-02-02T11:10:26.4794602+01:00",
+  "EndTime": "2011-02-15T11:10:26.4794602+01:00",
+  "Count": 391
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,36 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 669,
-    "Attention": "perferendis",
-    "Header": "veritatis",
-    "Name": "Hudson LLC",
-    "OurRef": "sit",
-    "YourRef": "aperiam",
-    "Description": "Team-oriented motivating challenge",
-    "DocumentTemplate": "tenetur",
-    "IsPublished": false,
-    "PersonId": 261,
-    "PersonFullName": "Nicholas Aufderhar",
-    "AssociateFullName": "Nya Swaniawski",
-    "ContactId": 980,
-    "ContactName": "Johnston, Schroeder and Lesch",
-    "ProjectId": 504,
-    "ProjectName": "Schaefer, Kunde and Breitenberg",
-    "AssociateId": 217,
-    "Snum": 353,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 874,
+    "Attention": "dolores",
+    "Header": "molestiae",
+    "Name": "Emmerich Inc and Sons",
+    "OurRef": "aliquid",
+    "YourRef": "quis",
+    "Description": "Optimized demand-driven info-mediaries",
+    "DocumentTemplate": "sed",
+    "IsPublished": true,
+    "PersonId": 745,
+    "PersonFullName": "Gunner Nyasia Glover Sr.",
+    "AssociateFullName": "Earnestine Hilpert IV",
+    "ContactId": 293,
+    "ContactName": "Bechtelar, Hilpert and Boehm",
+    "ProjectId": 653,
+    "ProjectName": "Zieme, Jaskolski and Kertzmann",
+    "AssociateId": 669,
+    "Snum": 201,
+    "SaleId": 526,
+    "SaleName": "Abernathy, Hills and Sporer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 124
       }
     }
   }

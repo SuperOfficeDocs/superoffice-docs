@@ -1,6 +1,6 @@
 ---
 title: PUT List/{id}/Items
-id: v1ListItemEntity_SaveAllFromListDefinition
+uid: v1ListItemEntity_SaveAllFromListDefinition
 ---
 
 # PUT List/{id}/Items
@@ -11,9 +11,16 @@ PUT /api/v1/List/{udListDefinitionId}/Items
 
 Save all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to save the items to. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save all list items for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: items
+## Request Body: items  
 
-The list items
+The list items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,10 @@ The list items
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,34 +71,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Steuber-Veum",
-    "Tooltip": "ipsum",
+    "Id": 648,
+    "Name": "Wilkinson, Lesch and Lowe",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 230,
-    "Rank": 162
+    "UdListDefinitionId": 806,
+    "Rank": 84
   },
   {
-    "Id": 370,
-    "Name": "Steuber-Veum",
-    "Tooltip": "ipsum",
+    "Id": 648,
+    "Name": "Wilkinson, Lesch and Lowe",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 230,
-    "Rank": 162
+    "UdListDefinitionId": 806,
+    "Rank": 84
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,24 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Dickinson-Yundt",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 982,
-    "Rank": 392,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 862,
+    "Name": "Rohan-Nienow",
+    "Tooltip": "natus",
+    "Deleted": true,
+    "UdListDefinitionId": 105,
+    "Rank": 787,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "incentivize cross-media architectures"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 54
       }
     }
   }

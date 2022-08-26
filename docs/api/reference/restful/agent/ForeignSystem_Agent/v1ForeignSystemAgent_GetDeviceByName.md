@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceByName
-id: v1ForeignSystemAgent_GetDeviceByName
+uid: v1ForeignSystemAgent_GetDeviceByName
 ---
 
 # POST Agents/ForeignSystem/GetDeviceByName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 
 Gets a ForeignDevice with deviceName that belongs to the application with applicationName.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a ForeignDevice with deviceName that belongs to the application with applic
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByName?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName
+ApplicationName, DeviceName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 | DeviceName | string |  |
 
-## Response: object
 
-Saves a foreign device belonging to the ForeignDevice and application name specified.
+## Response: 
 
-Carrier object for ForeignDevice.
-Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +76,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
@@ -81,37 +86,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wilderman Group",
-  "DeviceName": "Spinka-Koch"
+  "ApplicationName": "Wunsch, Metz and McGlynn",
+  "DeviceName": "Kemmer, Braun and Cronin"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 730,
-  "Name": "Lemke, Bradtke and Torp",
-  "CreatedDate": "2014-12-18T18:28:49.2051234+01:00",
-  "UpdatedDate": "2001-02-05T18:28:49.2051234+01:00",
-  "AssociateFullName": "Gloria Frami",
-  "CreatedBy": "cum",
-  "UpdatedBy": "ea",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 483,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ForeignDeviceId": 810,
+  "Name": "Schuppe-Kuhlman",
+  "CreatedDate": "2016-11-23T11:10:27.0764525+01:00",
+  "UpdatedDate": "2001-12-11T11:10:27.0764525+01:00",
+  "AssociateFullName": "Suzanne Stehr",
+  "CreatedBy": "nemo",
+  "UpdatedBy": "doloremque",
+  "DeviceIdentifier": "natus",
+  "ForeignAppId": 865,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

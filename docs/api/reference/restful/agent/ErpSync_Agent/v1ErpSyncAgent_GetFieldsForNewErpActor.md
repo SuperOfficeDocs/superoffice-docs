@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetFieldsForNewErpActor
-id: v1ErpSyncAgent_GetFieldsForNewErpActor
+uid: v1ErpSyncAgent_GetFieldsForNewErpActor
 ---
 
 # POST Agents/ErpSync/GetFieldsForNewErpActor
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 
 Get the fields that must be filled out when creating a new ERP actor
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get the fields that must be filled out when creating a new ERP actor
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,19 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ErpActorType
+ErpConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ErpActorType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,20 +81,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 335,
+  "ErpConnectionId": 418,
   "ErpActorType": "Customer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,28 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "esse",
-    "Rank": 199,
-    "DisplayName": "Kautzer-Robel",
-    "DisplayDescription": "Enterprise-wide demand-driven analyzer",
+    "FieldKey": "quas",
+    "Rank": 822,
+    "DisplayName": "Murazik-Mosciski",
+    "DisplayDescription": "Team-oriented encompassing help-desk",
     "FieldType": "Checkbox",
-    "ListName": "Bechtelar LLC",
-    "DefaultValue": "et",
-    "MaxLength": 234,
+    "ListName": "Auer Inc and Sons",
+    "DefaultValue": "adipisci",
+    "MaxLength": 178,
     "Access": "Mandatory",
     "ShowInSearch": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

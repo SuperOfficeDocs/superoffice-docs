@@ -1,6 +1,6 @@
 ---
 title: POST List/Country/Items
-id: v1CountryList_PostCountry
+uid: v1CountryList_PostCountry
 ---
 
 # POST List/Country/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/Country/Items
 
 Create a new Country list item
 
+
 Calls the List agent service SaveCountry.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The Country to be created.
+The Country to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,16 +59,16 @@ The Country to be created.
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
 
-## Response: object
 
-Carrier object for Country.
-Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,72 +93,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 334,
-  "Name": "Gerlach Group",
-  "CurrencyId": 743,
-  "EnglishName": "Johnson, Marks and Beer",
+  "CountryId": 659,
+  "Name": "Wunsch-Keebler",
+  "CurrencyId": 516,
+  "EnglishName": "Stark LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Re-contextualized 6th generation capacity",
-  "OrgNrText": "1003530",
-  "InterAreaPrefix": "quia",
-  "DialInPrefix": "provident",
-  "ZipPrefix": "a",
-  "DomainName": "Volkman-Grady",
-  "AddressLayoutId": 612,
-  "DomesticAddressLayoutId": 369,
-  "ForeignAddressLayoutId": 318,
-  "Rank": 593,
-  "Tooltip": "consequuntur",
-  "Deleted": true
+  "ImageDescription": "Profit-focused content-based capability",
+  "OrgNrText": "1812975",
+  "InterAreaPrefix": "nostrum",
+  "DialInPrefix": "iure",
+  "ZipPrefix": "facere",
+  "DomainName": "Kulas Inc and Sons",
+  "AddressLayoutId": 10,
+  "DomesticAddressLayoutId": 905,
+  "ForeignAddressLayoutId": 963,
+  "Rank": 109,
+  "Tooltip": "ut",
+  "Deleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 976,
-  "Name": "Denesik-Weimann",
-  "CurrencyId": 236,
-  "EnglishName": "Williamson-Brekke",
+  "CountryId": 47,
+  "Name": "Jakubowski, Greenholt and Schmitt",
+  "CurrencyId": 130,
+  "EnglishName": "Howell-D'Amore",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Configurable mobile secured line",
-  "OrgNrText": "1296372",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "deserunt",
-  "ZipPrefix": "aperiam",
-  "DomainName": "Towne-Parker",
-  "AddressLayoutId": 328,
-  "DomesticAddressLayoutId": 774,
-  "ForeignAddressLayoutId": 295,
-  "Rank": 273,
-  "Tooltip": "qui",
-  "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ImageDescription": "Visionary hybrid flexibility",
+  "OrgNrText": "518938",
+  "InterAreaPrefix": "iusto",
+  "DialInPrefix": "libero",
+  "ZipPrefix": "ad",
+  "DomainName": "Watsica-Denesik",
+  "AddressLayoutId": 68,
+  "DomesticAddressLayoutId": 941,
+  "ForeignAddressLayoutId": 133,
+  "Rank": 997,
+  "Tooltip": "cupiditate",
+  "Deleted": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 419
     }
   }
 }

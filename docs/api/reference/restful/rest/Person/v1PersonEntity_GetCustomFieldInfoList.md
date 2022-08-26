@@ -1,6 +1,6 @@
 ---
 title: GET Person/CustomField
-id: v1PersonEntity_GetCustomFieldInfoList
+uid: v1PersonEntity_GetCustomFieldInfoList
 ---
 
 # GET Person/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/Person/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on PersonEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Franecki, Boyle and Jast",
-    "DisplayName": "Torphy, Swift and Muller",
-    "Description": "Advanced content-based knowledge base",
-    "ShortLabel": "necessitatibus",
+    "FieldName": "Stiedemann LLC",
+    "DisplayName": "Yundt Group",
+    "Description": "Advanced regional matrix",
+    "ShortLabel": "nihil",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 383,
-    "TemplateVariableName": "Hintz, Shanahan and Carter"
+    "IsExternal": true,
+    "Rank": 957,
+    "TemplateVariableName": "Stoltenberg, Goyette and Lang"
   }
 ]
 ```

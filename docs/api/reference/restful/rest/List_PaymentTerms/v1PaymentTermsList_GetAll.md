@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentTerm/Items
-id: v1PaymentTermsList_GetAll
+uid: v1PaymentTermsList_GetAll
 ---
 
 # GET List/PaymentTerm/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/PaymentTerm/Items
 
 Gets all the PaymentTerm items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the PaymentTerm items
 ```http
 GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Kilback-Lowe",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 532,
-    "Rank": 820,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 92,
+    "Name": "Langosh-Nitzsche",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "UdListDefinitionId": 143,
+    "Rank": 971,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldLength": 749
       }
     }
   }

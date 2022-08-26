@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/FindTicketsByTitleOrId
-id: v1CustomerServiceAgent_FindTicketsByTitleOrId
+uid: v1CustomerServiceAgent_FindTicketsByTitleOrId
 ---
 
 # POST Agents/CustomerService/FindTicketsByTitleOrId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 
 This method wil search for tickets matching title or id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method wil search for tickets matching title or id
 ```http
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TitleOrId, MaxRows
+TitleOrId, MaxRows 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TitleOrId | string |  |
 | MaxRows | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,7 +75,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
@@ -75,10 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "mollitia",
-  "MaxRows": 820
+  "TitleOrId": "possimus",
+  "MaxRows": 884
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,26 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 236,
-    "Title": "et",
-    "OwnerName": "Lindgren-Muller",
+    "TicketId": 614,
+    "Title": "odit",
+    "OwnerName": "Thompson, Jacobs and Crona",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Blanda, Hettinger and Okuneva",
+    "PriorityName": "Kuhlman-Zboncak",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Olson Inc and Sons",
-    "ContactName": "Hudson-Parker",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonName": "Wiegand, Corwin and Mohr",
+    "ContactName": "Dach-Leuschke",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_tile_definition"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard\_tile\_definition Table (475)
+# dashboard\_tile\_definition Table (476)
 
 Describes the contents of a tile
 
@@ -45,6 +45,7 @@ Describes the contents of a tile
 |currency\_code|Currency code|String(3)|&#x25CF;|
 |usage|Where this tile can be used|Enum [DashTileUsage](enums/dashtileusage.md)|&#x25CF;|
 
+
 ![dashboard_tile_definition table relationship diagram](./media/dashboard_tile_definition.png)
 
 [!include[details](./includes/dashboard-tile-definition.md)]
@@ -65,6 +66,7 @@ Describes the contents of a tile
 |[dashboard\_tile\_field](dashboard-tile-field.md)  |Describes the contents of a tile field |
 |[selection](selection.md)  |Selections |
 
+
 ## Replication Flags
 
 * None
@@ -72,3 +74,4 @@ Describes the contents of a tile
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

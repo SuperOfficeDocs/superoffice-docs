@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
-id: v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier
+uid: v1CRMScriptAgent_GetCRMScriptByUniqueIdentifier
 ---
 
 # POST Agents/CRMScript/GetCRMScriptByUniqueIdentifier
@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 
 Get information about a script from a unique identifier
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get information about a script from a unique identifier
 ```http
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UniqueIdentifier
+UniqueIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
 
-## Response: object
 
-The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.
+## Response: 
 
-Carrier object for Script.
-Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,47 +80,43 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "soluta"
+  "UniqueIdentifier": "saepe"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "vel",
-  "Name": "McClure-Murphy",
-  "Description": "Future-proofed 24/7 concept",
-  "IncludeId": "ea",
-  "Source": "corporis",
-  "Registered": "2017-02-07T18:28:48.6319279+01:00",
-  "RegisteredBy": "autem",
-  "Updated": "2013-09-04T18:28:48.6319279+02:00",
-  "UpdatedBy": "accusamus",
-  "Path": "enim",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UniqueIdentifier": "officiis",
+  "Name": "Lang, Beer and Daniel",
+  "Description": "Decentralized grid-enabled alliance",
+  "IncludeId": "numquam",
+  "Source": "ab",
+  "Registered": "2014-03-06T11:10:26.3804579+01:00",
+  "RegisteredBy": "voluptatem",
+  "Updated": "1999-11-08T11:10:26.3804579+01:00",
+  "UpdatedBy": "modi",
+  "Path": "dolore",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   }
 }

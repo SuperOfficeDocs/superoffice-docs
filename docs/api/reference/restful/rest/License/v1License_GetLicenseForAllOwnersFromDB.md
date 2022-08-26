@@ -1,6 +1,6 @@
 ---
 title: GET License
-id: v1License_GetLicenseForAllOwnersFromDB
+uid: v1License_GetLicenseForAllOwnersFromDB
 ---
 
 # GET License
@@ -10,6 +10,13 @@ GET /api/v1/License
 ```
 
 Get all licenses, with usage, from all module owners as they are stored in the database
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Get all licenses, with usage, from all module owners as they are stored in the d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -41,14 +51,16 @@ Response body: array
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -57,133 +69,41 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Reason": "",
-    "CanBeActivated": true,
-    "New": {
-      "CompanyName": "Trantow, Bruen and Hahn",
-      "SerialNr": "1010000006",
-      "OwnerName": "VonRueden Inc and Sons",
-      "OwnerDescription": "Total content-based policy",
-      "NextCheckDate": "2021-01-15T18:25:51.366118+01:00",
-      "MaintenanceDate": "2013-01-11T18:25:51.366118+01:00",
-      "AdminWarningDate": "1996-01-09T18:25:51.366118+01:00",
-      "ExpiryDate": "2011-08-20T18:25:51.366118+02:00",
-      "GraceDate": "2001-05-04T18:25:51.366118+02:00",
-      "ExtraFlags": 237,
-      "ExtraInfo": "fugit",
-      "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "et",
-      "DeploymentType": 119,
-      "ProductType": "odio",
-      "ProductDescription": "Grass-roots responsive task-force",
-      "ModuleLicenses": [
-        {},
-        {}
-      ],
-      "PublicKey": {},
-      "Signature": "distinctio"
-    },
-    "Current": {
-      "CompanyName": "Boehm, Rempel and Kessler",
-      "SerialNr": "1010000006",
-      "OwnerName": "Ebert, Lueilwitz and O'Conner",
-      "OwnerDescription": "Fundamental national software",
-      "NextCheckDate": "2020-03-12T18:25:51.366118+01:00",
-      "MaintenanceDate": "2001-07-09T18:25:51.366118+02:00",
-      "AdminWarningDate": "2020-08-02T18:25:51.366118+02:00",
-      "ExpiryDate": "2013-01-30T18:25:51.366118+01:00",
-      "GraceDate": "2018-04-26T18:25:51.366118+02:00",
-      "ExtraFlags": 984,
-      "ExtraInfo": "dicta",
-      "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "error",
-      "DeploymentType": 322,
-      "ProductType": "corporis",
-      "ProductDescription": "Focused homogeneous array",
-      "ModuleLicenses": [
-        {},
-        {}
-      ],
-      "PublicKey": {},
-      "Signature": "blanditiis"
-    },
+    "CanBeActivated": false,
+    "New": null,
+    "Current": null,
     "ExtendedModuleLicenses": [
       {
-        "New": {},
-        "Current": {},
-        "NumberOfLicensesInUse": 761,
-        "NumberOfLicensesFree": 513,
-        "NumberOfLicensesAdded": 257,
-        "NumberOfLicensesNewTotal": 103,
-        "NumberOfLicensesNewFree": 563,
-        "NumberOfLicensesTotal": 969
+        "New": null,
+        "Current": null,
+        "NumberOfLicensesInUse": 412,
+        "NumberOfLicensesFree": 502,
+        "NumberOfLicensesAdded": 114,
+        "NumberOfLicensesNewTotal": 189,
+        "NumberOfLicensesNewFree": 262,
+        "NumberOfLicensesTotal": 191
       }
     ],
-    "AccumulatedNextCheckDate": "2017-08-25T18:25:51.366118+02:00"
+    "AccumulatedNextCheckDate": "2002-01-26T11:10:53.714186+01:00"
   },
   {
     "Reason": "",
-    "CanBeActivated": true,
-    "New": {
-      "CompanyName": "Trantow, Bruen and Hahn",
-      "SerialNr": "1010000006",
-      "OwnerName": "VonRueden Inc and Sons",
-      "OwnerDescription": "Total content-based policy",
-      "NextCheckDate": "2021-01-15T18:25:51.366118+01:00",
-      "MaintenanceDate": "2013-01-11T18:25:51.366118+01:00",
-      "AdminWarningDate": "1996-01-09T18:25:51.366118+01:00",
-      "ExpiryDate": "2011-08-20T18:25:51.366118+02:00",
-      "GraceDate": "2001-05-04T18:25:51.366118+02:00",
-      "ExtraFlags": 237,
-      "ExtraInfo": "fugit",
-      "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "et",
-      "DeploymentType": 119,
-      "ProductType": "odio",
-      "ProductDescription": "Grass-roots responsive task-force",
-      "ModuleLicenses": [
-        {},
-        {}
-      ],
-      "PublicKey": {},
-      "Signature": "distinctio"
-    },
-    "Current": {
-      "CompanyName": "Boehm, Rempel and Kessler",
-      "SerialNr": "1010000006",
-      "OwnerName": "Ebert, Lueilwitz and O'Conner",
-      "OwnerDescription": "Fundamental national software",
-      "NextCheckDate": "2020-03-12T18:25:51.366118+01:00",
-      "MaintenanceDate": "2001-07-09T18:25:51.366118+02:00",
-      "AdminWarningDate": "2020-08-02T18:25:51.366118+02:00",
-      "ExpiryDate": "2013-01-30T18:25:51.366118+01:00",
-      "GraceDate": "2018-04-26T18:25:51.366118+02:00",
-      "ExtraFlags": 984,
-      "ExtraInfo": "dicta",
-      "LicenseUrl": "http://www.example.com/",
-      "LicenseVersion": "error",
-      "DeploymentType": 322,
-      "ProductType": "corporis",
-      "ProductDescription": "Focused homogeneous array",
-      "ModuleLicenses": [
-        {},
-        {}
-      ],
-      "PublicKey": {},
-      "Signature": "blanditiis"
-    },
+    "CanBeActivated": false,
+    "New": null,
+    "Current": null,
     "ExtendedModuleLicenses": [
       {
-        "New": {},
-        "Current": {},
-        "NumberOfLicensesInUse": 761,
-        "NumberOfLicensesFree": 513,
-        "NumberOfLicensesAdded": 257,
-        "NumberOfLicensesNewTotal": 103,
-        "NumberOfLicensesNewFree": 563,
-        "NumberOfLicensesTotal": 969
+        "New": null,
+        "Current": null,
+        "NumberOfLicensesInUse": 412,
+        "NumberOfLicensesFree": 502,
+        "NumberOfLicensesAdded": 114,
+        "NumberOfLicensesNewTotal": 189,
+        "NumberOfLicensesNewFree": 262,
+        "NumberOfLicensesTotal": 191
       }
     ],
-    "AccumulatedNextCheckDate": "2017-08-25T18:25:51.366118+02:00"
+    "AccumulatedNextCheckDate": "2002-01-26T11:10:53.714186+01:00"
   }
 ]
 ```

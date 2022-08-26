@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketPriority/Items/{id}
-id: v1TicketPriorityList_GetTicketPriorityEntity
+uid: v1TicketPriorityList_GetTicketPriorityEntity
 ---
 
 # GET List/TicketPriority/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/TicketPriority/Items/{id}
 
 Gets a TicketPriorityEntity list item.
 
+
 Calls the List agent service GetTicketPriorityEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketPriority to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ Calls the List agent service GetTicketPriorityEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketPriorityEntity.
-Services for the TicketPriorityEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,98 +77,91 @@ Response body: object
 | SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 360,
-  "Name": "Beier-Borer",
+  "TicketPriorityId": 997,
+  "Name": "Crist, Turcotte and Jaskolski",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 95,
+  "SortOrder": 724,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 67,
-  "MonStart": "2016-11-30T18:25:52.3106728+01:00",
-  "MonStop": "2017-04-06T18:25:52.3106728+02:00",
-  "TueStart": "2000-07-04T18:25:52.3106728+02:00",
-  "TueStop": "1994-12-30T18:25:52.3106728+01:00",
-  "WedStart": "2002-07-03T18:25:52.3106728+02:00",
-  "WedStop": "2002-01-26T18:25:52.3106728+01:00",
-  "ThuStart": "2015-06-15T18:25:52.3106728+02:00",
-  "ThuStop": "2008-06-20T18:25:52.3106728+02:00",
-  "FriStart": "2004-10-20T18:25:52.3106728+02:00",
-  "FriStop": "2021-06-17T18:25:52.3106728+02:00",
-  "SatStart": "2005-12-19T18:25:52.3106728+01:00",
-  "SatStop": "2006-10-21T18:25:52.3106728+02:00",
-  "SunStart": "1999-04-28T18:25:52.3106728+02:00",
-  "SunStop": "2003-11-19T18:25:52.3106728+01:00",
+  "Deadline": 930,
+  "MonStart": "2001-07-14T11:10:54.6859295+02:00",
+  "MonStop": "2006-05-24T11:10:54.6859295+02:00",
+  "TueStart": "2007-11-24T11:10:54.6859295+01:00",
+  "TueStop": "1996-03-16T11:10:54.6859295+01:00",
+  "WedStart": "2013-04-18T11:10:54.6859295+02:00",
+  "WedStop": "2005-09-12T11:10:54.6859295+02:00",
+  "ThuStart": "2010-12-01T11:10:54.6859295+01:00",
+  "ThuStop": "1998-04-30T11:10:54.6859295+02:00",
+  "FriStart": "2017-01-14T11:10:54.6859295+01:00",
+  "FriStop": "2018-07-18T11:10:54.6859295+02:00",
+  "SatStart": "2013-10-14T11:10:54.6859295+02:00",
+  "SatStop": "1999-02-13T11:10:54.6859295+01:00",
+  "SunStart": "2000-08-06T11:10:54.6859295+02:00",
+  "SunStop": "2018-05-26T11:10:54.6859295+02:00",
   "NonDates": [
-    "quia",
-    "quia"
+    "molestiae",
+    "cupiditate"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 911,
-      "AlertLevel": 624,
-      "AlertTimeout": 963,
-      "Action": 702,
-      "DelegateTo": 623,
-      "ScriptId": 466,
-      "EmailTo": "kayley_auer@barrows.biz",
-      "SmsTo": "aut",
-      "ReplyTemplateIdCustomer": 18,
-      "ReplyTemplateIdUser": 588,
-      "ReplyTemplateIdCatmast": 518,
-      "ReplyTemplateIdEmail": 565,
-      "RtiCustomerSms": 652,
-      "ReplyTemplateIdUserSms": 970,
-      "ReplyTemplateIdCatmastSms": 344,
-      "ReplyTemplateIdSms": 870,
-      "TableRight": {},
+      "TicketAlertId": 371,
+      "AlertLevel": 157,
+      "AlertTimeout": 483,
+      "Action": 110,
+      "DelegateTo": 860,
+      "ScriptId": 236,
+      "EmailTo": "braulio@davisbednar.com",
+      "SmsTo": "laudantium",
+      "ReplyTemplateIdCustomer": 109,
+      "ReplyTemplateIdUser": 344,
+      "ReplyTemplateIdCatmast": 544,
+      "ReplyTemplateIdEmail": 174,
+      "RtiCustomerSms": 797,
+      "ReplyTemplateIdUserSms": 814,
+      "ReplyTemplateIdCatmastSms": 62,
+      "ReplyTemplateIdSms": 20,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 101
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 74
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 137
     }
   }
 }

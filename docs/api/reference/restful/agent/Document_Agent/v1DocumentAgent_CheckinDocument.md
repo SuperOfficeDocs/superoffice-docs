@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/CheckinDocument
-id: v1DocumentAgent_CheckinDocument
+uid: v1DocumentAgent_CheckinDocument
 ---
 
 # POST Agents/Document/CheckinDocument
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/CheckinDocument
 
 Check in a currently checked-out document
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check in a currently checked-out document
 ```http
 POST /api/v1/Agents/Document/CheckinDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/CheckinDocument?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnTypes, VersionDescription, VersionExtraFields
+DocumentId, AllowedReturnTypes, VersionDescription, VersionExtraFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,13 +53,16 @@ DocumentId, AllowedReturnTypes, VersionDescription, VersionExtraFields
 | VersionDescription | string |  |
 | VersionExtraFields | array |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,39 +73,41 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 732,
+  "DocumentId": 192,
   "AllowedReturnTypes": [
-    "quae",
-    "quo"
+    "inventore",
+    "voluptatibus"
   ],
-  "VersionDescription": "Upgradable web-enabled implementation",
+  "VersionDescription": "Progressive client-server budgetary management",
   "VersionExtraFields": [
-    "fugit",
-    "dicta"
+    "aperiam",
+    "deleniti"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "rerum",
-  "VersionId": "dolor",
+  "ExternalReference": "voluptas",
+  "VersionId": "rerum",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "accusamus",
-  "AdditionalInfo": "eligendi"
+  "Value": "porro",
+  "AdditionalInfo": "eius"
 }
 ```

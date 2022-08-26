@@ -23,3 +23,4 @@ Download [WSDL file for Services87/Favourite](../Services87-Favourite.md) if you
 * [RemoveFavourite](RemoveFavourite.md)
 * [RemoveFavouritesById](RemoveFavouritesById.md)
 * [ToggleFavourite](ToggleFavourite.md)
+

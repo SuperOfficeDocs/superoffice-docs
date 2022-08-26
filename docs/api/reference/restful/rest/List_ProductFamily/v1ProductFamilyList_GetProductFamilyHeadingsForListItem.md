@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductFamily/Items/{id}/Headings
-id: v1ProductFamilyList_GetProductFamilyHeadingsForListItem
+uid: v1ProductFamilyList_GetProductFamilyHeadingsForListItem
 ---
 
 # GET List/ProductFamily/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 
 Gets headings for the ProductFamily list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "King-Funk",
-    "ToolTip": "Suscipit omnis voluptas ad animi.",
+    "Id": 59,
+    "Name": "Swaniawski-Beer",
+    "ToolTip": "Nobis qui.",
     "Deleted": false,
-    "Rank": 319,
-    "Type": "id",
-    "ColorBlock": 396,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "1997-08-20T18:25:52.0172124+02:00",
+    "Rank": 313,
+    "Type": "quis",
+    "ColorBlock": 42,
+    "IconHint": "occaecati",
+    "Selected": true,
+    "LastChanged": "1995-12-01T11:10:54.4399004+01:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Corkery, Yundt and Bechtelar",
-        "ToolTip": "Error rerum labore iure quia aspernatur id.",
-        "Deleted": true,
-        "Rank": 207,
-        "Type": "dolor",
-        "ColorBlock": 4,
-        "IconHint": "voluptas",
+        "Id": 307,
+        "Name": "Boehm-Zemlak",
+        "ToolTip": "Suscipit omnis quia dolorem doloribus.",
+        "Deleted": false,
+        "Rank": 6,
+        "Type": "nihil",
+        "ColorBlock": 321,
+        "IconHint": "tempora",
         "Selected": true,
-        "LastChanged": "1999-01-09T18:25:52.0172124+01:00",
+        "LastChanged": "2010-11-05T11:10:54.4399004+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Wilford Stracke",
-        "TableRight": {},
+        "ExtraInfo": "molestiae",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Shakira Conn",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "innovate front-end models"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 498
+            "FieldLength": 148
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "sapiente",
-    "Hidden": true,
-    "FullName": "Jabari Brakus",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "dolorem",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Franz Hauck I",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 944
       }
     }
   }

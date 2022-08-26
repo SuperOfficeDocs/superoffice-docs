@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDocumentTemplateList
-id: v1ListAgent_GetDocumentTemplateList
+uid: v1ListAgent_GetDocumentTemplateList
 ---
 
 # POST Agents/List/GetDocumentTemplateList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplateList
 
 Gets an array of DocumentTemplate objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of DocumentTemplate objects.
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetDocumentTemplateList?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: documentTemplateIds
+## Request Body: documentTemplateIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,7 +74,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDocumentTemplateList
@@ -72,35 +83,31 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 641,
-    "Name": "Schmidt Inc and Sons",
-    "Tooltip": "dolorem",
-    "SaveInDb": 827,
-    "Filename": "officia",
-    "DefaultOref": "possimus",
+    "DocumentTemplateId": 426,
+    "Name": "Koss LLC",
+    "Tooltip": "ea",
+    "SaveInDb": 788,
+    "Filename": "animi",
+    "DefaultOref": "voluptatem",
     "RecordType": "Appointment",
-    "Deleted": 12,
+    "Deleted": 761,
     "Direction": "Incoming",
-    "AutoeventId": 667,
+    "AutoeventId": 47,
     "QuoteDocType": "ConfirmationLines",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

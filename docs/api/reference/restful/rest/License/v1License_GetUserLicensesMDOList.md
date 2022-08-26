@@ -1,6 +1,6 @@
 ---
 title: GET License/User/MdoList
-id: v1License_GetUserLicensesMDOList
+uid: v1License_GetUserLicensesMDOList
 ---
 
 # GET License/User/MdoList
@@ -10,6 +10,13 @@ GET /api/v1/License/User/MdoList
 ```
 
 Get all licenses in a MDOListItem structure.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Get all licenses in a MDOListItem structure.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,14 +62,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -67,65 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Schneider Group",
-    "ToolTip": "Quo ea.",
-    "Deleted": false,
-    "Rank": 696,
-    "Type": "et",
-    "ColorBlock": 193,
-    "IconHint": "cumque",
-    "Selected": false,
-    "LastChanged": "2013-06-14T18:25:51.3721179+02:00",
+    "Id": 417,
+    "Name": "Lakin-Fadel",
+    "ToolTip": "Ut autem recusandae fuga.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "a",
+    "ColorBlock": 721,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "1995-04-29T11:10:53.7191853+02:00",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "Rutherford Inc and Sons",
-        "ToolTip": "Praesentium quis.",
-        "Deleted": false,
-        "Rank": 499,
-        "Type": "iusto",
-        "ColorBlock": 634,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "1998-06-15T18:25:51.3721179+02:00",
+        "Id": 780,
+        "Name": "Fay, Gerhold and Balistreri",
+        "ToolTip": "Qui et ipsam neque.",
+        "Deleted": true,
+        "Rank": 335,
+        "Type": "et",
+        "ColorBlock": 299,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2019-11-10T11:10:53.7191853+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "ut",
+        "ExtraInfo": "et",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Tatum Rutherford",
-        "TableRight": {},
+        "FullName": "Brenda Berge Sr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 694
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 814
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ea",
+    "ExtraInfo": "magni",
+    "StyleHint": "rem",
     "Hidden": true,
-    "FullName": "Lexi Swift",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Joe Gleichner",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldLength": 783
       }
     }
   }

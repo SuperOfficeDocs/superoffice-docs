@@ -1,6 +1,6 @@
 ---
 title: POST Agents/DatabaseTable/Upsert
-id: v1DatabaseTableAgent_Upsert
+uid: v1DatabaseTableAgent_Upsert
 ---
 
 # POST Agents/DatabaseTable/Upsert
@@ -11,9 +11,13 @@ POST /api/v1/Agents/DatabaseTable/Upsert
 
 Insert or update rows, optionally deleting/zeroing 'leftover' rows.
 
+
 Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
 
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +28,7 @@ Special support for UDEF, as well as optional extensive information return. Trav
 ```http
 POST /api/v1/Agents/DatabaseTable/Upsert?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +44,9 @@ POST /api/v1/Agents/DatabaseTable/Upsert?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, Columns, Keys, Data, NomatchAction, ReturnRowStatus
+TableName, Columns, Keys, Data, NomatchAction, ReturnRowStatus 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,18 +57,16 @@ TableName, Columns, Keys, Data, NomatchAction, ReturnRowStatus
 | NomatchAction | string |  |
 | ReturnRowStatus | bool |  |
 
-## Response: object
 
-Information about the results of a mass-update operation
+## Response: 
 
-Carrier object for MassOperationResult.
-Services for the MassOperationResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,24 +79,24 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dare, Boehm and Considine",
+  "TableName": "Mayert-Quitzon",
   "Columns": [
     "ut",
-    "incidunt"
+    "consectetur"
   ],
   "Keys": [
-    "dolores",
-    "blanditiis"
+    "quas",
+    "atque"
   ],
   "Data": [
     [
@@ -108,68 +111,58 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "in",
-  "Inserts": 431,
-  "Updates": 590,
-  "Deletes": 35,
+  "Success": true,
+  "Message": "est",
+  "Inserts": 465,
+  "Updates": 390,
+  "Deletes": 758,
   "RowStatus": [
     {
-      "PrimaryKey": 15,
+      "PrimaryKey": 836,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vel",
-        "molestiae"
+        "aut",
+        "non"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 579
         }
       }
     },
     {
-      "PrimaryKey": 15,
+      "PrimaryKey": 836,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vel",
-        "molestiae"
+        "aut",
+        "non"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 579
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

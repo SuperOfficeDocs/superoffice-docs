@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "stopword"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "stopword" MDO List
-
 List of stop words. i.e. words which will not be included in the free-text index.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.StopWordProvider">StopWordProvider</see> class.
 The name of the MDO list is 'stopword'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("stopword", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -45,27 +48,28 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|441|SMTP|||
-|442|46|||
-|443|AND|||
-|444|HTTP|||
-|445|HTTPS|||
-|446|UNIVERSITY|||
-|447|ENGINEER|||
-|448|CA|||
-|449|TX|||
-|450|CORP|||
-|451|CEDEX|||
-|452|OF|||
-|453|IN|||
-|454|47|||
-|455|INC|||
-|456|COLLEGE|||
-|457|FL|||
-|458|33|||
-|459|PARK|||
-|460|HILL|||
-|461|ASSISTANT|||
+|1|1999|||
+|2|2000|||
+|3|2001|||
+|4|AKKURAT|||
+|5|ALDRI|||
+|6|ALENE|||
+|7|ALL|||
+|8|ALLE|||
+|9|ALLEREDE|||
+|10|ALLTID|||
+|11|ALT|||
+|12|ALTSÅ|||
+|13|ANDRE|||
+|14|ANNEN|||
+|15|ANNET|||
+|16|ANSIKT|||
+|17|APRIL|||
+|18|ARBEID|||
+|19|ARBEIDET|||
+|20|AUGUST|||
+|21|BAK|||
+
 
 ## Related MDO Lists
 

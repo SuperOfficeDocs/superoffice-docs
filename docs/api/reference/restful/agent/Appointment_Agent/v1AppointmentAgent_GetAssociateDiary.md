@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetAssociateDiary
-id: v1AppointmentAgent_GetAssociateDiary
+uid: v1AppointmentAgent_GetAssociateDiary
 ---
 
 # POST Agents/Appointment/GetAssociateDiary
@@ -8,6 +8,14 @@ id: v1AppointmentAgent_GetAssociateDiary
 ```http
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetAssociateDiary
 ```http
 POST /api/v1/Agents/Appointment/GetAssociateDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetAssociateDiary?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, StartTime, EndTime, Count
+AssociateId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +53,10 @@ AssociateId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -106,22 +118,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 761,
-  "StartTime": "1996-05-10T18:28:47.7348442+02:00",
-  "EndTime": "2016-06-11T18:28:47.7348442+02:00",
-  "Count": 307
+  "AssociateId": 953,
+  "StartTime": "2022-05-23T11:10:25.4605222+02:00",
+  "EndTime": "1995-11-25T11:10:25.4605222+01:00",
+  "Count": 982
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -129,67 +143,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 162,
-    "StartDate": "2007-04-23T18:28:47.7358474+02:00",
-    "EndDate": "2007-10-30T18:28:47.7358474+01:00",
+    "AppointmentId": 616,
+    "StartDate": "2021-01-15T11:10:25.4615225+01:00",
+    "EndDate": "2007-10-21T11:10:25.4615225+02:00",
     "Type": "BookingForChecklist",
-    "Task": "delectus",
-    "AssociateFullName": "Ralph Pfannerstill",
-    "ContactName": "Predovic, Johnson and Deckow",
-    "Description": "Upgradable leading edge approach",
-    "PersonFullName": "Nicola Deckow",
-    "PersonId": 39,
-    "ContactId": 87,
-    "ProjectId": 533,
-    "ProjectName": "Kling Group",
+    "Task": "esse",
+    "AssociateFullName": "Harold Torphy",
+    "ContactName": "Oberbrunner, Becker and Bergstrom",
+    "Description": "Down-sized upward-trending moratorium",
+    "PersonFullName": "Nathen Corkery",
+    "PersonId": 408,
+    "ContactId": 696,
+    "ProjectId": 76,
+    "ProjectName": "Daugherty, Davis and Hane",
     "IsPublished": true,
-    "AssociateId": 745,
-    "ColorIndex": 872,
-    "IsFree": true,
+    "AssociateId": 747,
+    "ColorIndex": 914,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 532,
-    "PriorityName": "Rau Group",
+    "PriorityId": 134,
+    "PriorityName": "Jenkins Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2016-04-19T18:28:47.7368448+02:00",
+    "ActiveDate": "2009-08-31T11:10:25.4615225+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-02-09T18:28:47.7368448+01:00",
-    "RecurringEndDate": "1999-03-23T18:28:47.7368448+01:00",
-    "MotherId": 440,
-    "AssignedBy": 480,
-    "AssignedByFullName": "Ms. Chanelle Kreiger",
+    "RecurringStartDate": "2012-01-21T11:10:25.4615225+01:00",
+    "RecurringEndDate": "2004-07-20T11:10:25.4615225+02:00",
+    "MotherId": 22,
+    "AssignedBy": 448,
+    "AssignedByFullName": "Prof. Cody Hessel III",
     "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "quas",
-    "SaleId": 307,
-    "SaleName": "Walker LLC",
-    "AssociateName": "Nicolas Group",
-    "CreatedDate": "1997-07-13T18:28:47.7368448+02:00",
-    "CreatedBy": "modi",
-    "CreatedByFullName": "Allan Gutkowski",
-    "CreatedByAssociateId": 618,
+    "Location": "beatae",
+    "AlarmLeadTime": "sint",
+    "SaleId": 105,
+    "SaleName": "Homenick-Boyer",
+    "AssociateName": "Turner, Johnston and Durgan",
+    "CreatedDate": "2017-10-06T11:10:25.4625222+02:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Cullen Pagac",
+    "CreatedByAssociateId": 215,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 204
       }
     }
   }

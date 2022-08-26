@@ -1,6 +1,6 @@
 ---
 title: GET Document/Plugin
-id: v1DocumentEntity_GetPluginList
+uid: v1DocumentEntity_GetPluginList
 ---
 
 # GET Document/Plugin
@@ -10,6 +10,13 @@ GET /api/v1/Document/Plugin
 ```
 
 Get a list of installed document plugins
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Get a list of installed document plugins
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -32,7 +42,8 @@ Get a list of installed document plugins
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Document/Plugin
@@ -41,12 +52,14 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "autem",
-  "2": "eum"
+  "1": "et",
+  "2": "velit"
 }
 ```

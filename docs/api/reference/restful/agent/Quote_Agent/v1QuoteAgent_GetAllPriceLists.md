@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetAllPriceLists
-id: v1QuoteAgent_GetAllPriceLists
+uid: v1QuoteAgent_GetAllPriceLists
 ---
 
 # POST Agents/Quote/GetAllPriceLists
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllPriceLists
 
 Gets the all PriceLists in all currencies, including those inactive.
 
+
 Will return empty array if there is no PriceList available.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Will return empty array if there is no PriceList available.
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceLists?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Quote/GetAllPriceLists?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, Currency
+QuoteConnectionId, Currency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | Currency | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,20 +79,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 195,
-  "Currency": "voluptatum"
+  "QuoteConnectionId": 718,
+  "Currency": "qui"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,28 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 65,
-    "ERPPriceListKey": "molestiae",
-    "QuoteConnectionId": 144,
-    "Name": "Sipes, Murazik and Crooks",
-    "Description": "Phased logistical frame",
-    "Currency": "et",
-    "CurrencyName": "Crist-Paucek",
-    "ValidFrom": "2003-05-27T18:28:49.9441395+02:00",
-    "ValidTo": "2003-01-20T18:28:49.9441395+01:00",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PriceListId": 897,
+    "ERPPriceListKey": "aperiam",
+    "QuoteConnectionId": 64,
+    "Name": "Lemke-Cruickshank",
+    "Description": "Expanded uniform Graphic Interface",
+    "Currency": "quo",
+    "CurrencyName": "Collier Inc and Sons",
+    "ValidFrom": "2014-07-08T11:10:27.7114917+02:00",
+    "ValidTo": "2003-09-20T11:10:27.7114917+02:00",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

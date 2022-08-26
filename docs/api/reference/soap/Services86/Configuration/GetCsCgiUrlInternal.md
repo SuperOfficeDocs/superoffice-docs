@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetCs
 
 This method will get the host name for CS
 
+
 **Returns:** Will get the host name for where CS is installed
+
 
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCsCgiUrlInternal Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

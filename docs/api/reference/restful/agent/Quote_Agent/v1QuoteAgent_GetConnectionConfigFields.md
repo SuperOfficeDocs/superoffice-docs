@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetConnectionConfigFields
-id: v1QuoteAgent_GetConnectionConfigFields
+uid: v1QuoteAgent_GetConnectionConfigFields
 ---
 
 # POST Agents/Quote/GetConnectionConfigFields
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetConnectionConfigFields
 
 Returns the config fields for the connection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the config fields for the connection.
 ```http
 POST /api/v1/Agents/Quote/GetConnectionConfigFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Quote/GetConnectionConfigFields?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId
+QuoteConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ QuoteConnectionId
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetConnectionConfigFields
@@ -61,16 +72,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 74
+  "QuoteConnectionId": 117
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "explicabo",
-  "2": "voluptas"
+  "1": "repudiandae",
+  "2": "molestiae"
 }
 ```

@@ -1,6 +1,6 @@
 ---
 title: PUT List/SaleType/Items/{id}
-id: v1SaleTypeList_PutSaleTypeEntity
+uid: v1SaleTypeList_PutSaleTypeEntity
 ---
 
 # PUT List/SaleType/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/SaleType/Items/{id}
 
 Updates the existing SaleTypeEntity
 
+
 Calls the List agent service SaveSaleTypeEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of SaleTypeEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of SaleTypeEntity to be saved.
+The details of SaleTypeEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,19 +65,19 @@ The details of SaleTypeEntity to be saved.
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-## Response: object
 
-Carrier object for SaleTypeEntity.
-Services for the SaleTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,137 +102,130 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 757,
-  "Name": "Herman Inc and Sons",
-  "Tooltip": "cumque",
-  "Rank": 483,
+  "SaleTypeId": 728,
+  "Name": "Kirlin Inc and Sons",
+  "Tooltip": "quos",
+  "Rank": 130,
   "DurationUnit": "Century",
-  "SaleDuration": 167,
-  "SaleTypeCatId": 256,
+  "SaleDuration": 379,
+  "SaleTypeCatId": 882,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 515,
-  "QuoteLinesTemplate": 183,
-  "ConfirmationLinesTemplate": 547,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 554,
+  "QuoteLinesTemplate": 313,
+  "ConfirmationLinesTemplate": 155,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 795,
-  "MinEarningPercent": 406,
-  "GroupQuoteLinesBy": 737,
-  "SortGroupLinesBy": 949,
+  "MaxDiscountPercent": 160,
+  "MinEarningPercent": 201,
+  "GroupQuoteLinesBy": 291,
+  "SortGroupLinesBy": 618,
   "Stages": [
     {
-      "Id": 814,
-      "Name": "Auer Group",
-      "ToolTip": "Nulla qui et distinctio.",
+      "Id": 257,
+      "Name": "Hand LLC",
+      "ToolTip": "Sed unde est ut nihil maxime similique.",
       "Deleted": false,
-      "Rank": 315,
-      "Type": "assumenda",
-      "ColorBlock": 567,
-      "IconHint": "eos",
+      "Rank": 859,
+      "Type": "quidem",
+      "ColorBlock": 950,
+      "IconHint": "voluptate",
       "Selected": false,
-      "LastChanged": "1996-08-02T18:25:52.1840192+02:00",
+      "LastChanged": "2021-08-31T11:10:54.6009349+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "animi",
-      "Hidden": false,
-      "FullName": "Deanna Rodriguez"
+      "ExtraInfo": "sunt",
+      "StyleHint": "quis",
+      "Hidden": true,
+      "FullName": "Axel Katelynn Becker V"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 154,
-  "Name": "Stroman Inc and Sons",
-  "Tooltip": "architecto",
-  "Rank": 870,
+  "SaleTypeId": 41,
+  "Name": "Beer, Nolan and Ledner",
+  "Tooltip": "aperiam",
+  "Rank": 917,
   "DurationUnit": "Century",
-  "SaleDuration": 568,
-  "SaleTypeCatId": 921,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 28,
-  "QuoteLinesTemplate": 291,
-  "ConfirmationLinesTemplate": 274,
-  "MaxDiscountPercentSet": false,
+  "SaleDuration": 775,
+  "SaleTypeCatId": 124,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 245,
+  "QuoteLinesTemplate": 50,
+  "ConfirmationLinesTemplate": 721,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 225,
-  "MinEarningPercent": 628,
-  "GroupQuoteLinesBy": 518,
-  "SortGroupLinesBy": 585,
+  "MaxDiscountPercent": 982,
+  "MinEarningPercent": 555,
+  "GroupQuoteLinesBy": 105,
+  "SortGroupLinesBy": 251,
   "Stages": [
     {
-      "Id": 306,
-      "Name": "Mitchell Group",
-      "ToolTip": "Dolore aperiam dolor deleniti.",
+      "Id": 575,
+      "Name": "Rolfson, Mohr and Goodwin",
+      "ToolTip": "Perferendis possimus commodi qui nisi.",
       "Deleted": true,
-      "Rank": 211,
-      "Type": "incidunt",
-      "ColorBlock": 275,
-      "IconHint": "quia",
-      "Selected": true,
-      "LastChanged": "2013-04-07T18:25:52.1850218+02:00",
+      "Rank": 346,
+      "Type": "quam",
+      "ColorBlock": 996,
+      "IconHint": "consequatur",
+      "Selected": false,
+      "LastChanged": "1999-08-25T11:10:54.6019349+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "pariatur",
-      "Hidden": false,
-      "FullName": "Georgianna Rowe",
-      "TableRight": {},
+      "ExtraInfo": "in",
+      "StyleHint": "consectetur",
+      "Hidden": true,
+      "FullName": "Lourdes O'Kon",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 313
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldLength": 928
     }
   }
 }

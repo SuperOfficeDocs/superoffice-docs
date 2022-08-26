@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetAllReasonSt
 
 Gets an array of all ReasonStalled objects.
 
+
 **Returns:** Array of all ReasonStalled objects
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllReasonStalled Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

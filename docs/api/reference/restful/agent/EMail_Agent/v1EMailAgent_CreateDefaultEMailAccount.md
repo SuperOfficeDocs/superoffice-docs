@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailAccount
-id: v1EMailAgent_CreateDefaultEMailAccount
+uid: v1EMailAgent_CreateDefaultEMailAccount
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAccount
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 
 Set default values into a new EMailAccount.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Properties for an email account
+## Response: 
 
-Carrier object for EMailAccount.
-Services for the EMailAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,79 +57,43 @@ Response body: object
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
+| InboxFolder | string | Inbox folder name if available in the db |
+| SentFolder | string | Sent email folder name if available in the db |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 692,
-  "EMailAddress": "vel",
-  "AssociateId": 38,
-  "IncomingCredentials": {
-    "ServiceAuthId": 728,
-    "Server": "officia",
-    "Port": 259,
-    "AuthType": "soluta",
-    "Username": "eveniet",
-    "Password": "et",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 957
-      }
-    }
-  },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 883,
-    "Server": "animi",
-    "Port": 861,
-    "AuthType": "qui",
-    "Username": "sit",
-    "Password": "placeat",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 912
-      }
-    }
-  },
-  "AccountStatus": 315,
-  "ErrorCount": 415,
+  "EMailAccountId": 760,
+  "EMailAddress": "quibusdam",
+  "AssociateId": 989,
+  "IncomingCredentials": null,
+  "OutgoingCredentials": null,
+  "AccountStatus": 467,
+  "ErrorCount": 324,
   "ErrorReason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "InboxFolder": "voluptas",
+  "SentFolder": "iste",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

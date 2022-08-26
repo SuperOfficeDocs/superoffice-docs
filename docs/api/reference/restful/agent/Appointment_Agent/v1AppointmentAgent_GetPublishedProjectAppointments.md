@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPublishedProjectAppointments
-id: v1AppointmentAgent_GetPublishedProjectAppointments
+uid: v1AppointmentAgent_GetPublishedProjectAppointments
 ---
 
 # POST Agents/Appointment/GetPublishedProjectAppointments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 
 Get published appointments by project id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointments by project id.
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -105,7 +115,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
@@ -115,9 +125,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 441
+  "ProjectId": 282
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -125,67 +137,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 37,
-    "StartDate": "2005-06-10T18:28:47.7318445+02:00",
-    "EndDate": "2018-06-07T18:28:47.7318445+02:00",
+    "AppointmentId": 140,
+    "StartDate": "2005-06-15T11:10:25.4535254+02:00",
+    "EndDate": "2016-04-27T11:10:25.4535254+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptate",
-    "AssociateFullName": "Katrina Durgan",
-    "ContactName": "McLaughlin Group",
-    "Description": "Multi-lateral client-driven knowledge base",
-    "PersonFullName": "Dereck Rogahn",
-    "PersonId": 419,
-    "ContactId": 531,
-    "ProjectId": 865,
-    "ProjectName": "Littel Group",
-    "IsPublished": true,
-    "AssociateId": 272,
-    "ColorIndex": 207,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "quia",
+    "AssociateFullName": "Asa Beer",
+    "ContactName": "Deckow LLC",
+    "Description": "Triple-buffered assymetric database",
+    "PersonFullName": "Mr. Herminio Larissa Douglas I",
+    "PersonId": 732,
+    "ContactId": 524,
+    "ProjectId": 29,
+    "ProjectName": "Willms Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 490,
+    "ColorIndex": 160,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 237,
-    "PriorityName": "Hoeger-Conroy",
+    "PriorityId": 570,
+    "PriorityName": "Bahringer-Lakin",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2011-06-04T18:28:47.7318445+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2000-06-05T11:10:25.4545251+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-07-14T18:28:47.7318445+02:00",
-    "RecurringEndDate": "2017-04-18T18:28:47.7318445+02:00",
-    "MotherId": 957,
-    "AssignedBy": 303,
-    "AssignedByFullName": "Jerrold Emmerich",
-    "RejectReason": "drive e-business web services",
-    "Location": "magnam",
-    "AlarmLeadTime": "deserunt",
-    "SaleId": 206,
-    "SaleName": "Koepp, Veum and Upton",
-    "AssociateName": "Erdman-Borer",
-    "CreatedDate": "2021-02-15T18:28:47.7318445+01:00",
-    "CreatedBy": "distinctio",
-    "CreatedByFullName": "Naomie Barton",
-    "CreatedByAssociateId": 525,
+    "RecurringStartDate": "2012-10-09T11:10:25.4545251+02:00",
+    "RecurringEndDate": "2021-01-23T11:10:25.4545251+01:00",
+    "MotherId": 440,
+    "AssignedBy": 958,
+    "AssignedByFullName": "Serenity Hackett",
+    "RejectReason": "",
+    "Location": "eligendi",
+    "AlarmLeadTime": "in",
+    "SaleId": 214,
+    "SaleName": "Schuppe, Daniel and Stark",
+    "AssociateName": "Champlin LLC",
+    "CreatedDate": "2011-08-05T11:10:25.4545251+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Ellis Sauer",
+    "CreatedByAssociateId": 461,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 337
       }
     }
   }

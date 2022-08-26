@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyByValue
-id: v1ForeignSystemAgent_GetKeyByValue
+uid: v1ForeignSystemAgent_GetKeyByValue
 ---
 
 # POST Agents/ForeignSystem/GetKeyByValue
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 
 Get a foreignkey based on its name and value, that belongs to the specified device and application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, KeyName, KeyValue, TableName
+ApplicationName, DeviceName, KeyName, KeyValue, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,16 +54,16 @@ ApplicationName, DeviceName, KeyName, KeyValue, TableName
 | KeyValue | string |  |
 | TableName | string |  |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,49 +78,45 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reilly-Stroman",
-  "DeviceName": "Wiza-Predovic",
-  "KeyName": "Bosco-Bogisich",
-  "KeyValue": "ex",
-  "TableName": "Rolfson LLC"
+  "ApplicationName": "Anderson, Kuphal and Terry",
+  "DeviceName": "Bruen-Gleason",
+  "KeyName": "Osinski, Shanahan and Ernser",
+  "KeyValue": "esse",
+  "TableName": "Goyette-Beahan"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "asperiores",
-  "Value": "aut",
-  "RecordId": 215,
-  "CreatedDate": "2007-09-23T18:28:49.2161182+02:00",
-  "UpdatedDate": "2013-06-18T18:28:49.2161182+02:00",
-  "UpdatedBy": "vel",
-  "CreatedBy": "ea",
-  "TableName": "Miller, Gusikowski and Wuckert",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "incidunt",
+  "Value": "adipisci",
+  "RecordId": 905,
+  "CreatedDate": "2011-09-01T11:10:27.0864522+02:00",
+  "UpdatedDate": "2012-07-12T11:10:27.0864522+02:00",
+  "UpdatedBy": "sint",
+  "CreatedBy": "sed",
+  "TableName": "Bins, Sipes and Haag",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 7
     }
   }
 }

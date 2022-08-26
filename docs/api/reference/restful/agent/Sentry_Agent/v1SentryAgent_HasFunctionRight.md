@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sentry/HasFunctionRight
-id: v1SentryAgent_HasFunctionRight
+uid: v1SentryAgent_HasFunctionRight
 ---
 
 # POST Agents/Sentry/HasFunctionRight
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sentry/HasFunctionRight
 
 Get a boolean value indicating if the current user has the functional right.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a boolean value indicating if the current user has the functional right.
 ```http
 POST /api/v1/Agents/Sentry/HasFunctionRight?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Sentry/HasFunctionRight?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FunctionRight
+FunctionRight 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FunctionRight | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,19 +61,22 @@ FunctionRight
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sentry/HasFunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionRight": "suscipit"
+  "FunctionRight": "enim"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

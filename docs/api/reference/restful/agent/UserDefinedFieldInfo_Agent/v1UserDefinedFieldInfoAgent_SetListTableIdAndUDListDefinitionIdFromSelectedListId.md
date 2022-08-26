@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
-id: v1UserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId
+uid: v1UserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId
 ---
 
 # POST Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 
 Make stuff similar to what happens in the win client
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Make stuff similar to what happens in the win client
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Info, SelectedListId
+Info, SelectedListId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <br /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
+| Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
 | SelectedListId | int32 |  |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,107 +101,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Info": {
-    "UDefFieldId": 882,
-    "ColumnId": 227,
-    "FieldDefault": "maiores",
-    "FieldHeight": 377,
-    "FieldLabel": "et",
-    "FieldLeft": 813,
-    "FieldTop": 717,
-    "FieldType": "Checkbox",
-    "FieldWidth": 832,
-    "FormatMask": "assumenda",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 473,
-    "LabelLeft": 98,
-    "LabelTop": 412,
-    "LabelWidth": 430,
-    "LastVersionId": 515,
-    "ListTableId": 702,
-    "IsMandatory": true,
-    "Type": "Appointment",
-    "Page1LineNo": 904,
-    "ProgId": "aspernatur",
-    "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 69,
-    "TextLength": 269,
-    "Tooltip": "asperiores",
-    "UdefIdentity": 818,
-    "UDListDefinitionId": 957,
-    "Justification": "Center",
-    "Version": 414,
-    "TemplateVariableName": "Crooks-Rolfson",
-    "HasBeenPublished": true,
-    "MdoListName": "Bergnaum Inc and Sons"
-  },
-  "SelectedListId": 784
+  "Info": null,
+  "SelectedListId": 286
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 323,
-  "ColumnId": 419,
-  "FieldDefault": "quasi",
-  "FieldHeight": 836,
-  "FieldLabel": "rerum",
-  "FieldLeft": 401,
-  "FieldTop": 389,
+  "UDefFieldId": 409,
+  "ColumnId": 46,
+  "FieldDefault": "corporis",
+  "FieldHeight": 503,
+  "FieldLabel": "possimus",
+  "FieldLeft": 841,
+  "FieldTop": 109,
   "FieldType": "Checkbox",
-  "FieldWidth": 697,
-  "FormatMask": "qui",
+  "FieldWidth": 415,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 37,
-  "LabelLeft": 228,
-  "LabelTop": 56,
-  "LabelWidth": 638,
-  "LastVersionId": 732,
-  "ListTableId": 654,
-  "IsMandatory": true,
+  "LabelHeight": 591,
+  "LabelLeft": 147,
+  "LabelTop": 467,
+  "LabelWidth": 292,
+  "LastVersionId": 708,
+  "ListTableId": 568,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 295,
-  "ProgId": "sit",
+  "Page1LineNo": 55,
+  "ProgId": "adipisci",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 994,
-  "TextLength": 814,
-  "Tooltip": "consequuntur",
-  "UdefIdentity": 8,
-  "UDListDefinitionId": 169,
+  "ShortLabel": "quo",
+  "TabOrder": 855,
+  "TextLength": 368,
+  "Tooltip": "assumenda",
+  "UdefIdentity": 132,
+  "UDListDefinitionId": 772,
   "Justification": "Center",
-  "Version": 785,
-  "TemplateVariableName": "Wilkinson Inc and Sons",
+  "Version": 48,
+  "TemplateVariableName": "Effertz Group",
   "HasBeenPublished": false,
-  "MdoListName": "Bogan LLC",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Miller LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 747
     }
   }
 }

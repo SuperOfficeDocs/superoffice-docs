@@ -1,6 +1,6 @@
 ---
 title: POST SystemEvent
-id: v1SystemEventEntity_PostSystemEventEntity
+uid: v1SystemEventEntity_PostSystemEventEntity
 ---
 
 # POST SystemEvent
@@ -11,7 +11,13 @@ POST /api/v1/SystemEvent
 
 Creates a new SystemEventEntity
 
+
 Calls the Configuration agent service SaveSystemEventEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Configuration agent service SaveSystemEventEntity.
 ```http
 POST /api/v1/SystemEvent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/SystemEvent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SystemEventEntity to be saved.
+The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,17 +61,16 @@ The SystemEventEntity to be saved.
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy |  | The associate that first created the SystemEvent. |
 
-## Response: object
 
-Entity for system events
+## Response: 
 
-SystemEventEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,98 +88,57 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 546,
+  "SystemEventId": 872,
   "Scope": "Database",
-  "Eta": "2012-11-11T18:25:51.1189368+01:00",
-  "Eventkey": "pariatur",
-  "Eventmess": "laboriosam",
-  "ExtraInfo": 7,
-  "Owner": 621,
-  "UpdatedCount": 108,
-  "Registered": "2010-05-08T18:25:51.1189368+02:00",
-  "ActivatedBy": {
-    "AssociateId": 674,
-    "Name": "Fahey-Torp",
-    "PersonId": 294,
-    "Rank": 978,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 24,
-    "FullName": "Alda Von",
-    "FormalName": "Gottlieb-Herzog",
-    "Deleted": true,
-    "EjUserId": 757,
-    "UserName": "Schumm, Abbott and Hermann"
-  }
+  "Eta": "2010-06-08T11:10:53.5301738+02:00",
+  "Eventkey": "laborum",
+  "Eventmess": "mollitia",
+  "ExtraInfo": 245,
+  "Owner": 249,
+  "UpdatedCount": 453,
+  "Registered": "2003-09-29T11:10:53.5301738+02:00",
+  "ActivatedBy": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 536,
+  "SystemEventId": 603,
   "Scope": "Database",
-  "Eta": "2015-09-08T18:25:51.1199357+02:00",
-  "Eventkey": "iure",
-  "Eventmess": "aliquam",
-  "ExtraInfo": 46,
-  "Owner": 994,
-  "UpdatedCount": 355,
-  "Registered": "2000-11-30T18:25:51.1199357+01:00",
-  "ActivatedBy": {
-    "AssociateId": 262,
-    "Name": "Schaefer LLC",
-    "PersonId": 492,
-    "Rank": 74,
-    "Tooltip": "sed",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 69,
-    "FullName": "Edison Schuster MD",
-    "FormalName": "Schamberger, Dach and Lubowitz",
-    "Deleted": true,
-    "EjUserId": 986,
-    "UserName": "Pagac, Feil and Macejkovic",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "reintermediate cross-media experiences"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 832
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Eta": "1996-04-12T11:10:53.5301738+02:00",
+  "Eventkey": "beatae",
+  "Eventmess": "deleniti",
+  "ExtraInfo": 864,
+  "Owner": 710,
+  "UpdatedCount": 159,
+  "Registered": "2016-03-06T11:10:53.5311741+01:00",
+  "ActivatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

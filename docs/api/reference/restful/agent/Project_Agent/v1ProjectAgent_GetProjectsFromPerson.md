@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectsFromPerson
-id: v1ProjectAgent_GetProjectsFromPerson
+uid: v1ProjectAgent_GetProjectsFromPerson
 ---
 
 # POST Agents/Project/GetProjectsFromPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectsFromPerson
 
 Return all projects where the person is project member.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return all projects where the person is project member.
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Project/GetProjectsFromPerson?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,19 +84,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 581
+  "PersonId": 698
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,36 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 404,
-    "Name": "Watsica-Bins",
-    "Description": "Synchronised global collaboration",
+    "ProjectId": 555,
+    "Name": "Reinger Inc and Sons",
+    "Description": "Multi-lateral local installation",
     "URL": "http://www.example.com/",
-    "Type": "autem",
-    "AssociateId": 602,
-    "AssociateFullName": "Ms. Elizabeth Will",
-    "TypeId": 163,
-    "Updated": "2011-10-14T18:28:49.7821424+02:00",
-    "StatusId": 796,
-    "Status": "architecto",
-    "TextId": 88,
-    "PublishTo": "2011-02-04T18:28:49.7821424+01:00",
-    "PublishFrom": "2018-11-06T18:28:49.7821424+01:00",
+    "Type": "repudiandae",
+    "AssociateId": 955,
+    "AssociateFullName": "Aniyah Rutherford",
+    "TypeId": 95,
+    "Updated": "1999-02-04T11:10:27.6214527+01:00",
+    "StatusId": 417,
+    "Status": "nisi",
+    "TextId": 169,
+    "PublishTo": "2001-03-09T11:10:27.6214527+01:00",
+    "PublishFrom": "2011-10-18T11:10:27.6214527+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "833193",
-    "ActiveErpLinks": 448,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectNumber": "1272242",
+    "ActiveErpLinks": 663,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

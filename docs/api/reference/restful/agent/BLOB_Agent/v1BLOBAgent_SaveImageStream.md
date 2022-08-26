@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/SaveImageStream
-id: v1BLOBAgent_SaveImageStream
+uid: v1BLOBAgent_SaveImageStream
 ---
 
 # POST Agents/BLOB/SaveImageStream
@@ -11,7 +11,13 @@ POST /api/v1/Agents/BLOB/SaveImageStream
 
 Stores an image in the database without linking it to a project or a person.
 
+
 It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
 ```http
 POST /api/v1/Agents/BLOB/SaveImageStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/BLOB/SaveImageStream?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, Image, Description
+Type, Image, Description 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ Type, Image, Description
 | Image | byte |  |
 | Description | string |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,25 +65,28 @@ Type, Image, Description
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/SaveImageStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "AccessToken",
   "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Proactive 24/7 open architecture"
+  "Description": "Grass-roots 24 hour database"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-370
+380
 ```

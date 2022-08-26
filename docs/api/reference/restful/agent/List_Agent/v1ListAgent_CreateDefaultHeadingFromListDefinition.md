@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultHeadingFromListDefinition
-id: v1ListAgent_CreateDefaultHeadingFromListDefinition
+uid: v1ListAgent_CreateDefaultHeadingFromListDefinition
 ---
 
 # POST Agents/List/CreateDefaultHeadingFromListDefinition
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 
 Get a heading for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a heading for the specified list defintion
 ```http
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId
+UdListDefinitionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,43 +72,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 785
+  "UdListDefinitionId": 973
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 860,
-  "Name": "Walsh, Jenkins and Glover",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "Rank": 597,
-  "UdListDefinitionId": 930,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 373,
+  "Name": "Rodriguez, Predovic and Dach",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 489,
+  "UdListDefinitionId": 487,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 51
     }
   }
 }

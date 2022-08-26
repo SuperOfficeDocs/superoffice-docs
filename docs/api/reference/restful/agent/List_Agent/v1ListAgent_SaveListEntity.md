@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveListEntity
-id: v1ListAgent_SaveListEntity
+uid: v1ListAgent_SaveListEntity
 ---
 
 # POST Agents/List/SaveListEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveListEntity
 ```
 
 Updates the existing ListEntity or creates a new ListEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ListEntity or creates a new ListEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ListEntity to be saved.
+The ListEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ The ListEntity to be saved.
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +75,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveListEntity
@@ -80,44 +85,40 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 84,
-  "Name": "Spencer-Hettinger",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "Rank": 194,
+  "Id": 370,
+  "Name": "Sanford Group",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 575,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "enim",
   "InUseByUserDefinedFields": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Kreiger, Satterfield and Hansen",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 350,
+  "Id": 733,
+  "Name": "O'Hara, Muller and Kling",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 198,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
       "FieldLength": 619
     }

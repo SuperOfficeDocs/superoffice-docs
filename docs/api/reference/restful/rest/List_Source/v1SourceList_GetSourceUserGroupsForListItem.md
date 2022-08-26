@@ -1,6 +1,6 @@
 ---
 title: GET List/Source/Items/{id}/UserGroups
-id: v1SourceList_GetSourceUserGroupsForListItem
+uid: v1SourceList_GetSourceUserGroupsForListItem
 ---
 
 # GET List/Source/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Source/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Source list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Bergnaum LLC",
-    "ToolTip": "Rerum repellat dignissimos consequuntur consectetur quidem dicta.",
+    "Id": 176,
+    "Name": "Towne-Hermann",
+    "ToolTip": "Assumenda aperiam.",
     "Deleted": false,
-    "Rank": 475,
-    "Type": "voluptas",
-    "ColorBlock": 372,
-    "IconHint": "animi",
+    "Rank": 802,
+    "Type": "rerum",
+    "ColorBlock": 674,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2007-06-24T18:25:52.2179865+02:00",
+    "LastChanged": "2005-02-16T11:10:54.6409307+01:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Labadie-Feeney",
-        "ToolTip": "In quae cum debitis.",
+        "Id": 460,
+        "Name": "Reilly, Bergstrom and Turcotte",
+        "ToolTip": "Qui voluptas est nihil autem eum.",
         "Deleted": true,
-        "Rank": 550,
-        "Type": "consectetur",
-        "ColorBlock": 884,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2014-01-11T18:25:52.2179865+01:00",
+        "Rank": 74,
+        "Type": "vero",
+        "ColorBlock": 337,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2006-02-02T11:10:54.6409307+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Eloisa Wiegand",
-        "TableRight": {},
+        "ExtraInfo": "dolores",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Christy Yundt",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 454
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "ducimus",
-    "Hidden": true,
-    "FullName": "Kaylin Johnston",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quod",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Glenna Homenick",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 439
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelection
-id: v1SelectionAgent_CreateTemporaryContactSelection
+uid: v1SelectionAgent_CreateTemporaryContactSelection
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 
 Creates a temporary selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection.
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,16 +41,16 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelection?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -91,241 +98,96 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Universal hybrid flexibility",
-  "Postit": "maxime",
-  "Associate": {
-    "AssociateId": 491,
-    "Name": "Reichel-Ruecker",
-    "PersonId": 147,
-    "Rank": 654,
-    "Tooltip": "sint",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 797,
-    "FullName": "Miss Aletha Thiel",
-    "FormalName": "Klein Group",
-    "Deleted": true,
-    "EjUserId": 660,
-    "UserName": "Hammes Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 216
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 689,
-    "Name": "McLaughlin Group",
-    "PersonId": 596,
-    "Rank": 172,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 150,
-    "FullName": "Paige Hessel",
-    "FormalName": "Bechtelar Group",
-    "Deleted": false,
-    "EjUserId": 94,
-    "UserName": "Kilback Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 64
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 285,
-    "Name": "Reichel, Johnston and Hermiston",
-    "PersonId": 513,
-    "Rank": 309,
-    "Tooltip": "non",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 704,
-    "FullName": "Herbert Douglas",
-    "FormalName": "West, Thiel and Ward",
-    "Deleted": false,
-    "EjUserId": 995,
-    "UserName": "Stanton LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 845
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 108,
-    "Value": "rerum",
-    "Tooltip": "quidem",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 497
-      }
-    }
-  },
-  "GroupIdx": 59,
-  "IncludePerson": 729,
-  "MemberCount": 593,
-  "Name": "Cremin-Trantow",
-  "PostitTextId": 433,
-  "CreatedDate": "2020-08-11T18:28:50.2564418+02:00",
-  "SelectionId": 350,
-  "SoundEx": "dolores",
-  "Source": 894,
-  "TextId": 377,
-  "UpdatedDate": "2008-02-09T18:28:50.2564418+01:00",
-  "UpdatedCount": 389,
-  "Visibility": 638,
+  "Description": "Persevering systemic paradigm",
+  "Postit": "deserunt",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 220,
+  "IncludePerson": 522,
+  "MemberCount": 333,
+  "Name": "Leuschke, Monahan and Braun",
+  "PostitTextId": 801,
+  "CreatedDate": "2006-11-01T11:10:27.92398+01:00",
+  "SelectionId": 302,
+  "SoundEx": "quae",
+  "Source": 365,
+  "TextId": 984,
+  "UpdatedDate": "2006-03-16T11:10:27.92398+01:00",
+  "UpdatedCount": 115,
+  "Visibility": 856,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 998,
-  "TargetTableName": "Barrows-Pfannerstill",
+  "TargetTableNumber": 122,
+  "TargetTableName": "Raynor LLC",
   "Completed": false,
-  "LeftSelectionId": 148,
-  "RightSelectionId": 670,
+  "LeftSelectionId": 797,
+  "RightSelectionId": 557,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wyman-Sporer",
-  "ShadowProviderName": "D'Amore LLC",
-  "ChartKey": "iusto",
-  "LastLoaded": "1997-08-03T18:28:50.2564418+02:00",
-  "LastLoadedBy": 154,
-  "LastLoadedByAssociate": {
-    "AssociateId": 340,
-    "Name": "Spencer Inc and Sons",
-    "PersonId": 419,
-    "Rank": 600,
-    "Tooltip": "magnam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 953,
-    "FullName": "Terrance Luettgen",
-    "FormalName": "Stracke-Quigley",
-    "Deleted": false,
-    "EjUserId": 878,
-    "UserName": "Hilpert-Walter",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 423
-      }
-    }
-  },
-  "LastMembershipChange": "2009-08-21T18:28:50.2584414+02:00",
-  "LastMembershipChangeBy": 203,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 282,
-    "Name": "Skiles Inc and Sons",
-    "PersonId": 942,
-    "Rank": 617,
-    "Tooltip": "ullam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 607,
-    "FullName": "Agustina Keebler",
-    "FormalName": "Lockman, Keebler and Rau",
-    "Deleted": true,
-    "EjUserId": 556,
-    "UserName": "Hessel-Doyle",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 971
-      }
-    }
-  },
-  "MainHeading": "tempora",
-  "MemberTabHeading": "veniam",
-  "MailingsProviderName": "Rolfson, Wisozk and Hyatt",
-  "DashboardTileDefinitionId": 407,
+  "MainProviderName": "Zieme-Kulas",
+  "ShadowProviderName": "Reinger, Heathcote and Wehner",
+  "ChartKey": "maiores",
+  "LastLoaded": "2007-08-21T11:10:27.9259798+02:00",
+  "LastLoadedBy": 492,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "1998-06-24T11:10:27.9259798+02:00",
+  "LastMembershipChangeBy": 794,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "velit",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Oberbrunner-Schultz",
+  "DashboardTileDefinitionId": 747,
   "VisibleFor": [
     {
-      "VisibleId": 50,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
-      "TableRight": {},
+      "DisplayValue": "quia",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 313
         }
       }
     },
     {
-      "VisibleId": 50,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
-      "TableRight": {},
+      "DisplayValue": "quia",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 313
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 159
     }
   }
 }

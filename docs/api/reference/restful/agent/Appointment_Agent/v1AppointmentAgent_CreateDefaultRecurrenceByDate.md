@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/CreateDefaultRecurrenceByDate
-id: v1AppointmentAgent_CreateDefaultRecurrenceByDate
+uid: v1AppointmentAgent_CreateDefaultRecurrenceByDate
 ---
 
 # POST Agents/Appointment/CreateDefaultRecurrenceByDate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
+
 Using startDate as start date for the recurreing pattern.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Using startDate as start date for the recurreing pattern.
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,21 +44,24 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate
+StartDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartDate | date-time |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,67 +78,51 @@ Response body: object
 | Dates | array |  |
 | IsRecurrence | bool |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1996-06-25T18:28:47.7868444+02:00"
+  "StartDate": "2022-08-23T11:10:25.643553+02:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 212,
-  "StartDate": "2015-12-13T18:28:47.7868444+01:00",
-  "EndDate": "1994-09-22T18:28:47.7868444+02:00",
-  "RecurrenceCounter": 994,
+  "RecurrenceId": 312,
+  "StartDate": "1998-01-19T11:10:25.643553+01:00",
+  "EndDate": "1999-04-15T11:10:25.643553+02:00",
+  "RecurrenceCounter": 464,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
-  "DayPattern": {
-    "Pattern": "EveryCyclicDay",
-    "Cycle": 110
-  },
-  "WeekPattern": {
-    "Weekdays": "Friday",
-    "Cycle": 243
-  },
-  "MonthPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 999,
-    "Day": 750,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
-  "YearPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 533,
-    "Day": 73,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
+  "DayPattern": null,
+  "WeekPattern": null,
+  "MonthPattern": null,
+  "YearPattern": null,
   "Dates": [
     {
-      "Date": "2015-11-19T18:28:47.7868444+01:00",
-      "IsConflict": false,
-      "Description": "Public-key needs-based collaboration",
-      "DescriptionStyleHint": "Public-key bottom-line collaboration",
-      "Tooltip": "ullam"
+      "Date": "2011-02-23T11:10:25.6445529+01:00",
+      "IsConflict": true,
+      "Description": "Synergistic zero tolerance forecast",
+      "DescriptionStyleHint": "Intuitive real-time monitoring",
+      "Tooltip": "ipsam"
     },
     {
-      "Date": "2015-11-19T18:28:47.7868444+01:00",
-      "IsConflict": false,
-      "Description": "Public-key needs-based collaboration",
-      "DescriptionStyleHint": "Public-key bottom-line collaboration",
-      "Tooltip": "ullam"
+      "Date": "2011-02-23T11:10:25.6445529+01:00",
+      "IsConflict": true,
+      "Description": "Synergistic zero tolerance forecast",
+      "DescriptionStyleHint": "Intuitive real-time monitoring",
+      "Tooltip": "ipsam"
     }
   ],
   "IsRecurrence": true

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_shipment_addr"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,7 @@ Addresses that are ready to be sent in a shipment.
 |bounce\_reasontag|If this recipient bounced and we have a bounce reason, this field will contain the reason|String(4000)|&#x25CF;|
 |cleaned|Used for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list|Bool|&#x25CF;|
 
+
 ![s_shipment_addr table relationship diagram](./media/s_shipment_addr.png)
 
 [!include[details](./includes/s-shipment-addr.md)]
@@ -65,6 +66,7 @@ Addresses that are ready to be sent in a shipment.
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
+
 ## Replication Flags
 
 * None
@@ -72,3 +74,4 @@ Addresses that are ready to be sent in a shipment.
 ## Security Flags
 
 * No access control via user's Role.
+

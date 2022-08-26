@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/GetDashboards
-id: v1DashboardAgent_GetDashboards
+uid: v1DashboardAgent_GetDashboards
 ---
 
 # POST Agents/Dashboard/GetDashboards
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDashboards
 
 Gets all dashboards for an associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all dashboards for an associate
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboards?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Dashboard/GetDashboards?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,19 +71,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 723
+  "AssociateId": 705
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -81,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 871,
-    "AssociateId": 193,
-    "Caption": "aperiam",
+    "DashboardId": 793,
+    "AssociateId": 347,
+    "Caption": "repellendus",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 204,
-        "Caption": "nesciunt",
-        "Description": "Proactive stable middleware",
-        "ChartName": "Gaylord Group",
-        "ChartId": "dolorem",
+        "DashboardTileId": 801,
+        "Caption": "voluptatem",
+        "Description": "Managed well-modulated process improvement",
+        "ChartName": "Kuphal, Abbott and Morar",
+        "ChartId": "eius",
         "IsDefault": false,
-        "AssociateId": 439,
-        "GroupId": 146,
-        "SelectionId": 933,
-        "Config": "reiciendis",
+        "AssociateId": 397,
+        "GroupId": 842,
+        "SelectionId": 367,
+        "Config": "doloribus",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -107,31 +119,22 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldLength": 453
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 109
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/GetDataWithSelection
-id: v1DashboardAgent_GetDataWithSelection
+uid: v1DashboardAgent_GetDataWithSelection
 ---
 
 # POST Agents/Dashboard/GetDataWithSelection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDataWithSelection
 
 Get data for this tile
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get data for this tile
 ```http
 POST /api/v1/Agents/Dashboard/GetDataWithSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Dashboard/GetDataWithSelection?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileId, SelectionId, Restrictions
+DashboardTileId, SelectionId, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ DashboardTileId, SelectionId, Restrictions
 | SelectionId | int32 |  |
 | Restrictions | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,21 +68,23 @@ Response body: array
 | Columns | array | Column information |
 | Result |  | The result set |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 108,
-  "SelectionId": 953,
-  "Restrictions": "et"
+  "DashboardTileId": 336,
+  "SelectionId": 595,
+  "Restrictions": "laudantium"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,76 +94,42 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Hartmann-Jacobi",
-        "DisplayTooltip": "quia",
-        "DisplayType": "omnis",
-        "CanOrderBy": false,
-        "Name": "O'Keefe, Labadie and Effertz",
-        "CanRestrictBy": false,
-        "RestrictionType": "ex",
-        "RestrictionListName": "Hoeger, Ernser and Lubowitz",
+        "DisplayName": "Smith-Labadie",
+        "DisplayTooltip": "sit",
+        "DisplayType": "sed",
+        "CanOrderBy": true,
+        "Name": "Goodwin Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "similique",
+        "RestrictionListName": "Spencer LLC",
         "IsVisible": false,
-        "ExtraInfo": "quo",
-        "Width": "soluta",
-        "IconHint": "ea",
-        "HeadingIconHint": "corrupti"
+        "ExtraInfo": "inventore",
+        "Width": "nobis",
+        "IconHint": "eligendi",
+        "HeadingIconHint": "eum"
       }
     ],
-    "Result": {
-      "RowCount": 191,
-      "Rows": [
-        {},
-        {}
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 913
-        }
-      }
-    }
+    "Result": null
   },
   {
     "Columns": [
       {
-        "DisplayName": "Hartmann-Jacobi",
-        "DisplayTooltip": "quia",
-        "DisplayType": "omnis",
-        "CanOrderBy": false,
-        "Name": "O'Keefe, Labadie and Effertz",
-        "CanRestrictBy": false,
-        "RestrictionType": "ex",
-        "RestrictionListName": "Hoeger, Ernser and Lubowitz",
+        "DisplayName": "Smith-Labadie",
+        "DisplayTooltip": "sit",
+        "DisplayType": "sed",
+        "CanOrderBy": true,
+        "Name": "Goodwin Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "similique",
+        "RestrictionListName": "Spencer LLC",
         "IsVisible": false,
-        "ExtraInfo": "quo",
-        "Width": "soluta",
-        "IconHint": "ea",
-        "HeadingIconHint": "corrupti"
+        "ExtraInfo": "inventore",
+        "Width": "nobis",
+        "IconHint": "eligendi",
+        "HeadingIconHint": "eum"
       }
     ],
-    "Result": {
-      "RowCount": 191,
-      "Rows": [
-        {},
-        {}
-      ],
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 913
-        }
-      }
-    }
+    "Result": null
   }
 ]
 ```

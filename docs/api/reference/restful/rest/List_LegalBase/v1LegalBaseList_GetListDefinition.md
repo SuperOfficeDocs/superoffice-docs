@@ -1,6 +1,6 @@
 ---
 title: GET List/LegalBase
-id: v1LegalBaseList_GetListDefinition
+uid: v1LegalBaseList_GetListDefinition
 ---
 
 # GET List/LegalBase
@@ -10,6 +10,13 @@ GET /api/v1/List/LegalBase
 ```
 
 Gets description of LegalBase list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of LegalBase list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +58,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/LegalBase
@@ -61,33 +67,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 728,
-  "Name": "Grimes Inc and Sons",
-  "Tooltip": "facilis",
+  "Id": 72,
+  "Name": "Leannon, Collins and Thiel",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 430,
+  "Rank": 887,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 115
     }
   },
   "_Links": {

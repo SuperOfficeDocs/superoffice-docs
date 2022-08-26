@@ -17,6 +17,7 @@ Returns the default person (sales rep) image that is displayed in Audience when 
 
 **Returns:** The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
 
+
 [WSDL file for Services86/Audience](../Services86-Audience.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDefaultPersonImage Response
 
 ```xml
@@ -67,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

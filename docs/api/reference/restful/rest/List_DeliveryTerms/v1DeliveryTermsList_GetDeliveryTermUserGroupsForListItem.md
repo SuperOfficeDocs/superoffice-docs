@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryTerm/Items/{id}/UserGroups
-id: v1DeliveryTermsList_GetDeliveryTermUserGroupsForListItem
+uid: v1DeliveryTermsList_GetDeliveryTermUserGroupsForListItem
 ---
 
 # GET List/DeliveryTerm/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 
 Gets user groups visible for the DeliveryTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,7 +68,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
@@ -67,71 +77,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "D'Amore Group",
-    "ToolTip": "Optio iste.",
+    "Id": 625,
+    "Name": "Bechtelar-Hansen",
+    "ToolTip": "Provident enim molestiae commodi libero quis qui.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "magnam",
-    "ColorBlock": 175,
-    "IconHint": "hic",
+    "Rank": 86,
+    "Type": "temporibus",
+    "ColorBlock": 698,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2017-03-22T18:25:51.7993291+01:00",
+    "LastChanged": "2017-11-25T11:10:54.2488922+01:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Langosh-Bailey",
-        "ToolTip": "Consequuntur sed quia beatae sint ut eius.",
-        "Deleted": false,
-        "Rank": 919,
-        "Type": "rerum",
-        "ColorBlock": 668,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2007-12-14T18:25:51.7993291+01:00",
+        "Id": 789,
+        "Name": "Lemke-Weimann",
+        "ToolTip": "Itaque eligendi voluptatum est.",
+        "Deleted": true,
+        "Rank": 212,
+        "Type": "asperiores",
+        "ColorBlock": 856,
+        "IconHint": "exercitationem",
+        "Selected": false,
+        "LastChanged": "2021-11-28T11:10:54.2488922+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "qui",
+        "ExtraInfo": "maxime",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Marcella Hamill",
-        "TableRight": {},
+        "FullName": "Maiya Corwin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 33
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 179
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "tempore",
+    "ExtraInfo": "sequi",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Luna Zieme",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Zula Friesen",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 352
       }
     }
   }

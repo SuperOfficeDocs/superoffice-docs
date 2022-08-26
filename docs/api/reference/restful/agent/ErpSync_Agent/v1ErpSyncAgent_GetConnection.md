@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetConnection
-id: v1ErpSyncAgent_GetConnection
+uid: v1ErpSyncAgent_GetConnection
 ---
 
 # POST Agents/ErpSync/GetConnection
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetConnection
 
 Returns the specified connection.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the specified connection.
 ```http
 POST /api/v1/Agents/ErpSync/GetConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/GetConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId
+ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for ErpConnection.
-Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,58 +82,54 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 330
+  "ErpConnectionId": 825
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 576,
-  "ErpConnectorId": 30,
-  "DisplayName": "Harvey-Russel",
-  "DisplayDescription": "Organized impactful collaboration",
+  "ErpConnectionId": 631,
+  "ErpConnectorId": 578,
+  "DisplayName": "Bergnaum, Johnson and Pacocha",
+  "DisplayDescription": "Team-oriented fault-tolerant matrix",
   "Active": false,
-  "ConnectionId": "voluptas",
-  "MostRecentTimestamp": "illo",
+  "ConnectionId": "accusamus",
+  "MostRecentTimestamp": "maiores",
   "ConfigFields": {
-    "ConfigFields1": "itaque",
-    "ConfigFields2": "quod"
+    "ConfigFields1": "molestiae",
+    "ConfigFields2": "voluptatibus"
   },
-  "Deleted": false,
-  "AllAccess": true,
+  "Deleted": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    948,
-    507
+    842,
+    416
   ],
   "AssociateAccessIds": [
-    262,
-    152
+    575,
+    3
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "leverage killer infomediaries"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 883
     }
   }
 }

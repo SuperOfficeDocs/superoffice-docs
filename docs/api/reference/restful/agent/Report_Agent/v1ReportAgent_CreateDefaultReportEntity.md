@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Report/CreateDefaultReportEntity
-id: v1ReportAgent_CreateDefaultReportEntity
+uid: v1ReportAgent_CreateDefaultReportEntity
 ---
 
 # POST Agents/Report/CreateDefaultReportEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Report/CreateDefaultReportEntity
 
 Set default values into a new ReportEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ReportEntity.
-Services for the ReportEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
@@ -59,31 +66,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 447,
+  "ReportId": 104,
   "ReportCategory": "All",
-  "Description": "Organized coherent core",
+  "Description": "Configurable real-time definition",
   "ReportLayout": "CalendarMonth",
-  "Name": "Donnelly Group",
-  "AssociateId": 855,
-  "TemplateId": 448,
-  "Published": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Name": "Baumbach-Eichmann",
+  "AssociateId": 639,
+  "TemplateId": 4,
+  "Published": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   }
 }

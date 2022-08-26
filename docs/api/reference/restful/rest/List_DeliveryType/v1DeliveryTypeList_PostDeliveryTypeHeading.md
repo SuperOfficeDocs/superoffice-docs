@@ -1,6 +1,6 @@
 ---
 title: POST List/DeliveryType/Headings
-id: v1DeliveryTypeList_PostDeliveryTypeHeading
+uid: v1DeliveryTypeList_PostDeliveryTypeHeading
 ---
 
 # POST List/DeliveryType/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/DeliveryType/Headings
 
 Saves a new heading for the DeliveryType list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/DeliveryType/Headings
@@ -74,38 +79,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 490,
-  "Name": "Weissnat, Larkin and Koelpin",
-  "Tooltip": "placeat",
-  "Deleted": true,
-  "Rank": 185,
-  "UdListDefinitionId": 837
+  "HeadingId": 130,
+  "Name": "Blanda-Dicki",
+  "Tooltip": "accusantium",
+  "Deleted": false,
+  "Rank": 791,
+  "UdListDefinitionId": 28
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 746,
-  "Name": "Farrell, Daniel and Adams",
-  "Tooltip": "voluptatem",
+  "HeadingId": 69,
+  "Name": "Cronin Inc and Sons",
+  "Tooltip": "labore",
   "Deleted": true,
-  "Rank": 145,
-  "UdListDefinitionId": 323,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 892,
+  "UdListDefinitionId": 859,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 348
     }
   }
 }

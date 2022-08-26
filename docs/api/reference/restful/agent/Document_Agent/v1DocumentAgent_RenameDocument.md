@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/RenameDocument
-id: v1DocumentAgent_RenameDocument
+uid: v1DocumentAgent_RenameDocument
 ---
 
 # POST Agents/Document/RenameDocument
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/RenameDocument
 
 Rename the physical document, i.
 
+
 e., change the file name or equivalent concept in the document archive.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ e., change the file name or equivalent concept in the document archive.
 ```http
 POST /api/v1/Agents/Document/RenameDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Document/RenameDocument?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, NewFilename
+DocumentId, NewFilename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | NewFilename | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,24 +64,27 @@ DocumentId, NewFilename
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/RenameDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 58,
-  "NewFilename": "consequuntur"
+  "DocumentId": 238,
+  "NewFilename": "omnis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laudantium"
+"quod"
 ```

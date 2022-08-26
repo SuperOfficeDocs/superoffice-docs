@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithContext2
-id: v1ArchiveAgent_GetArchiveListByColumnsWithContext2
+uid: v1ArchiveAgent_GetArchiveListByColumnsWithContext2
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithContext2
@@ -11,75 +11,99 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 
 Get a page of results for an archive list with context parameter, explicitly specifying the restrictions as a string, orderby and chosen columns.
 
+
+
+
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
 
+
 For example:
 
-```http
+```
+
 "name begins 'Super'"
 "category = 3"
 "category in (2,3,4)"
 "xstop set"
 "registered after '2014.3.4'"
 "registered dateBetween ('2014.11.29', '2014.12.25')"
+
 ```
 
 Unary operators:
 
-```http
+```
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
-```http
+```
 "business = 2  AND name contains 'super'"
 ```
 
 Brackets can be used for grouping.
 
-```http
+```
 "(business = 2 or category = 3) and name contains 'super'"
 ```
+
 
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
 
+
 Example: group last names together, and inject a header row for each group.
 
-```http
-GroupBy(lastName):Header
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+GroupBy(lastName):Header
+
+```
+
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
-```http
+```
+
 Count(middleName):HideDetail:Footer
+
 ```
 
 Example: the aggregator functions can nest, so you can say
 
-```http
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 ```
 
+GroupBy(DatePart(personUpdatedDate):YearMonth):Header
+
+```
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
 
-```http
+
+```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -90,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -105,9 +130,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,7 +145,10 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
 | PageSize | int32 |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -138,26 +166,28 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler LLC",
-  "Columns": "repellendus",
-  "SortOrder": "voluptatem",
-  "Restriction": "nobis",
-  "Entities": "provident",
-  "Page": 91,
-  "PageSize": 768,
-  "Context": "aspernatur"
+  "ProviderName": "Eichmann, Heaney and O'Kon",
+  "Columns": "porro",
+  "SortOrder": "enim",
+  "Restriction": "blanditiis",
+  "Entities": "in",
+  "Page": 897,
+  "PageSize": 42,
+  "Context": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -165,29 +195,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Waelchi, Hintz and Abernathy",
-    "PrimaryKey": 481,
+    "EntityName": "Buckridge, Brakus and Goodwin",
+    "PrimaryKey": 968,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatem",
-        "TooltipHint": "quisquam",
-        "LinkHint": "natus"
+        "DisplayValue": "molestiae",
+        "TooltipHint": "facilis",
+        "LinkHint": "vero"
       }
     },
-    "LinkHint": "atque",
-    "StyleHint": "nulla",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LinkHint": "aliquam",
+    "StyleHint": "voluptas",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldLength": 660
       }
     }
   }

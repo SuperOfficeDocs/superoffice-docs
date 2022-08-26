@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetMailFromInReplyTo
-id: v1EMailAgent_GetMailFromInReplyTo
+uid: v1EMailAgent_GetMailFromInReplyTo
 ---
 
 # POST Agents/EMail/GetMailFromInReplyTo
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 
 Get email from db based on In-Reply-To Message Id
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get email from db based on In-Reply-To Message Id
 ```http
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/EMail/GetMailFromInReplyTo?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MessageId
+MessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MessageId | string |  |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,19 +96,21 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "officiis"
+  "MessageId": "exercitationem"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -110,248 +119,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 164,
-      "ContactName": "Gottlieb-Klocko",
-      "PersonId": 213,
-      "PersonName": "Rippin-Bechtelar",
-      "AssociateId": 905,
-      "Address": "est",
-      "EmailId": 29,
+      "ContactId": 298,
+      "ContactName": "Carter, Skiles and Dibbert",
+      "PersonId": 267,
+      "PersonName": "Corwin Group",
+      "AssociateId": 287,
+      "Address": "eos",
+      "EmailId": 120,
       "DuplicatePersonIds": [
-        222,
-        205
+        620,
+        195
       ],
-      "Name": "Will Group",
-      "TableRight": {},
+      "Name": "Waters, Streich and Oberbrunner",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldLength": 737
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 943,
-      "ContactName": "Weissnat-Kautzer",
-      "PersonId": 70,
-      "PersonName": "Stehr-Cummerata",
-      "AssociateId": 904,
-      "Address": "necessitatibus",
+      "ContactId": 269,
+      "ContactName": "Halvorson-Bednar",
+      "PersonId": 714,
+      "PersonName": "Kuhn, Effertz and Mosciski",
+      "AssociateId": 463,
+      "Address": "pariatur",
       "EmailId": 70,
       "DuplicatePersonIds": [
         993,
-        227
+        206
       ],
-      "Name": "Bins-Kuhic",
-      "TableRight": {},
+      "Name": "Swift-VonRueden",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "enable clicks-and-mortar content"
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 296
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 175,
-      "ContactName": "Stanton Inc and Sons",
-      "PersonId": 383,
-      "PersonName": "Hoppe Group",
-      "AssociateId": 134,
-      "Address": "eius",
-      "EmailId": 760,
+      "ContactId": 479,
+      "ContactName": "Howe Inc and Sons",
+      "PersonId": 448,
+      "PersonName": "Turcotte-Donnelly",
+      "AssociateId": 337,
+      "Address": "sapiente",
+      "EmailId": 141,
       "DuplicatePersonIds": [
-        338,
-        32
+        532,
+        607
       ],
-      "Name": "Bogan Group",
-      "TableRight": {},
+      "Name": "Grant-Beahan",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 724
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 452
         }
       }
     }
   ],
-  "Subject": "tempora",
-  "HTMLBody": "id",
-  "From": {
-    "ContactId": 887,
-    "ContactName": "Jacobs Inc and Sons",
-    "PersonId": 142,
-    "PersonName": "Kuphal Inc and Sons",
-    "AssociateId": 704,
-    "Address": "rerum",
-    "EmailId": 604,
-    "DuplicatePersonIds": [
-      830,
-      786
-    ],
-    "Name": "Hand-Wolff",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 731
-      }
-    }
-  },
-  "Sent": "2001-10-02T18:28:48.9899549+02:00",
-  "Size": 458,
+  "Subject": "quia",
+  "HTMLBody": "occaecati",
+  "From": null,
+  "Sent": "2008-07-25T11:10:26.8604221+02:00",
+  "Size": 189,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "id",
+  "MessageID": "rerum",
+  "PlainBody": "similique",
   "IsSent": false,
-  "EMailSOInfo": {
-    "DocumentId": 215,
-    "AppointmentId": 957,
-    "ProjectId": 873,
-    "SaleId": 421,
-    "Archived": true,
-    "ArchivedAt": "2021-10-17T18:28:48.9899549+02:00",
-    "ArchivedBy": 985,
-    "ArchivedDisplayName": "Zemlak, Tillman and Raynor",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 259
-      }
-    }
-  },
-  "ServerId": 484,
+  "EMailSOInfo": null,
+  "ServerId": 385,
   "Attachments": [
     {
-      "Description": "Balanced attitude-oriented function",
-      "Filename": "maxime",
-      "Size": 25,
-      "Type": "aut",
-      "Encoding": "voluptatem",
-      "Id": "dolor",
-      "Disposition": "aut",
+      "Description": "Enterprise-wide background flexibility",
+      "Filename": "et",
+      "Size": 719,
+      "Type": "debitis",
+      "Encoding": "distinctio",
+      "Id": "facilis",
+      "Disposition": "quo",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldLength": 510
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ward Group",
+      "Name": "Jones LLC",
       "Values": [
-        "quis",
-        "laboriosam"
+        "quia",
+        "omnis"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 414
         }
       }
     },
     {
-      "Name": "Ward Group",
+      "Name": "Jones LLC",
       "Values": [
-        "quis",
-        "laboriosam"
+        "quia",
+        "omnis"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 414
         }
       }
     }
   ],
-  "FolderName": "Brakus Group",
-  "EmailItemId": 365,
-  "AccountId": 531,
-  "ReceivedAt": "2016-05-09T18:28:48.9899549+02:00",
-  "InReplyTo": {
-    "ServerId": 24,
-    "MessageId": "autem",
-    "Subject": "consectetur",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "2000-02-04T18:28:48.9899549+01:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 348,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 111
-      }
-    }
-  },
-  "RepliedAt": "1995-07-02T18:28:48.9899549+02:00",
+  "FolderName": "Greenfelder, Sipes and Harvey",
+  "EmailItemId": 755,
+  "AccountId": 706,
+  "ReceivedAt": "2012-06-17T11:10:26.8614223+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "2018-12-10T11:10:26.8614223+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 320
     }
   }
 }

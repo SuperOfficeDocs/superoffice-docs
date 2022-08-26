@@ -1,6 +1,6 @@
 ---
 title: GET Table/{tableName}/{id}
-id: v1TableRecord_ReadRow
+uid: v1TableRecord_ReadRow
 ---
 
 # GET Table/{tableName}/{id}
@@ -11,12 +11,17 @@ GET /api/v1/Table/{tableName}/{id}
 
 Read a row from a table
 
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable **Required** |
 | id | int32 | The id of the row to fetch **Required** |
+
+
 
 ## Request Headers
 
@@ -31,19 +36,17 @@ Read a row from a table
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The extra table entity contains meta data for an extra table (not implemented yet)
+## Response: 
 
-Carrier object for TableRecord.
-Services for the TableRecord Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +54,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Table/{tableName}/{id}
@@ -60,27 +63,23 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "et",
-    "Values2": "tempora"
+    "Values1": "molestiae",
+    "Values2": "ab"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   }
 }

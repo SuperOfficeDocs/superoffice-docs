@@ -1,6 +1,6 @@
 ---
 title: POST Agents/AI/GuessCategory
-id: v1AIAgent_GuessCategory
+uid: v1AIAgent_GuessCategory
 ---
 
 # POST Agents/AI/GuessCategory
@@ -11,7 +11,13 @@ POST /api/v1/Agents/AI/GuessCategory
 
 Given a ticket's id, guess the ticket category it should be placed in.
 
+
 Currently this is based on the first message in the ticket
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Currently this is based on the first message in the ticket
 ```http
 POST /api/v1/Agents/AI/GuessCategory?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/AI/GuessCategory?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketId
+TicketId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketId | int32 |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,23 +63,26 @@ TicketId
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/AI/GuessCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 396
+  "TicketId": 754
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-997
+264
 ```

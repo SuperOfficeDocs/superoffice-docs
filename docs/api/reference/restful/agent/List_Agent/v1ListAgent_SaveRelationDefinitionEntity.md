@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveRelationDefinitionEntity
-id: v1ListAgent_SaveRelationDefinitionEntity
+uid: v1ListAgent_SaveRelationDefinitionEntity
 ---
 
 # POST Agents/List/SaveRelationDefinitionEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 ```
 
 Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing RelationDefinitionEntity or creates a new RelationDefinitio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RelationDefinitionEntity to be saved.
+The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-## Response: object
 
-A relation definition entity with source and destination tables
+## Response: 
 
-Carrier object for RelationDefinitionEntity.
-Services for the RelationDefinitionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,52 +71,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 816,
-  "Name": "Johnston, Wiza and Schaefer",
-  "Tooltip": "eaque",
-  "PassiveText": "est",
-  "Deleted": true,
-  "Rank": 73,
+  "ReldefId": 101,
+  "Name": "Bernier-Jakubowski",
+  "Tooltip": "qui",
+  "PassiveText": "magni",
+  "Deleted": false,
+  "Rank": 828,
   "Source": "Both",
   "Destination": "Both"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 615,
-  "Name": "Gulgowski, Raynor and Kunde",
-  "Tooltip": "debitis",
-  "PassiveText": "modi",
+  "ReldefId": 630,
+  "Name": "Quitzon, Abshire and Schowalter",
+  "Tooltip": "facere",
+  "PassiveText": "praesentium",
   "Deleted": false,
-  "Rank": 959,
+  "Rank": 505,
   "Source": "Both",
   "Destination": "Both",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLocalizedTexts
-id: v1ListAgent_GetLocalizedTexts
+uid: v1ListAgent_GetLocalizedTexts
 ---
 
 # POST Agents/List/GetLocalizedTexts
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLocalizedTexts
 
 Gets all localized texts in the CRM database.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all localized texts in the CRM database.
 ```http
 POST /api/v1/Agents/List/GetLocalizedTexts?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetLocalizedTexts?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 749,
-    "ResourceId": 786,
-    "Text": "quis",
+    "LanguageId": 39,
+    "ResourceId": 532,
+    "Text": "cum",
     "Type": "Column",
-    "LocalizedTextId": 480,
+    "LocalizedTextId": 117,
     "IsBuiltIn": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 149
       }
     }
   }

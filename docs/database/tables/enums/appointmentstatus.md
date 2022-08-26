@@ -5,7 +5,7 @@ description: Lists the enum values for AppointmentStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,4 +35,4 @@ status=done,started, not started, hidden
 
 ## Usage
 
-* [appointment](../appointment.md).status - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.
+* [appointment](../appointment.md).status - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 

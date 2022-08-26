@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejscript_debug"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table contains information when debugging an ejscript
 |code\_run\_until|The line to run to in debug mode.|Int|&#x25CF;|
 |variable\_view|A dump of all variables|Clob|&#x25CF;|
 
+
 ![ejscript_debug table relationship diagram](./media/ejscript_debug.png)
 
 [!include[details](./includes/ejscript-debug.md)]
@@ -49,3 +50,4 @@ This table contains information when debugging an ejscript
 ## Security Flags
 
 * No access control via user's Role.
+

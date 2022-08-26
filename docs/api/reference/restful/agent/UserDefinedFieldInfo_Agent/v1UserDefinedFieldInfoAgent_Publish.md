@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/Publish
-id: v1UserDefinedFieldInfoAgent_Publish
+uid: v1UserDefinedFieldInfoAgent_Publish
 ---
 
 # POST Agents/UserDefinedFieldInfo/Publish
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/Publish
 
 Publish changed Udef fields for the given owner type
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Publish changed Udef fields for the given owner type
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/Publish?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/Publish?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType
+OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,13 +61,14 @@ OwnerType
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -65,9 +76,11 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-286
+442
 ```

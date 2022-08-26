@@ -7,7 +7,7 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,49 +20,51 @@ so.envir:
 
 |Provider Name|Implemented by Class|
 | ---------- | ----------- |
-| [AmountClass](AmountClass.md) |MDO List stored in the database. Table id 225|
-| [associate](associate.md) |MDO List stored in the database. Table id 2|
-| [Business](Business.md) |MDO List stored in the database. Table id 61|
-| [Category](Category.md) |MDO List stored in the database. Table id 64|
-| [Comptr](Comptr.md) |MDO List stored in the database. Table id 109|
-| [ContInt](ContInt.md) |MDO List stored in the database. Table id 70|
-| [country](country.md) |MDO List stored in the database. Table id 19|
-| [Credited](Credited.md) |MDO List stored in the database. Table id 97|
-| [Currency](Currency.md) |MDO List stored in the database. Table id 112|
-| [DeliveryTerms](DeliveryTerms.md) |MDO List stored in the database. Table id 433|
-| [DeliveryType](DeliveryType.md) |MDO List stored in the database. Table id 436|
-| [DocTmpl](DocTmpl.md) |MDO List stored in the database. Table id 130|
-| [ExtApp](ExtApp.md) |MDO List stored in the database. Table id 133|
-| [Intent](Intent.md) |MDO List stored in the database. Table id 216|
-| [MrMrs](MrMrs.md) |MDO List stored in the database. Table id 94|
-| [PaymentTerms](PaymentTerms.md) |MDO List stored in the database. Table id 427|
-| [PaymentType](PaymentType.md) |MDO List stored in the database. Table id 430|
-| [PersInt](PersInt.md) |MDO List stored in the database. Table id 73|
-| [PersPos](PersPos.md) |MDO List stored in the database. Table id 76|
-| [PMembType](PMembType.md) |MDO List stored in the database. Table id 91|
-| [PriceUnit](PriceUnit.md) |MDO List stored in the database. Table id 439|
-| [Priority](Priority.md) |MDO List stored in the database. Table id 79|
-| [Prob](Prob.md) |MDO List stored in the database. Table id 82|
-| [ProductCategory](ProductCategory.md) |MDO List stored in the database. Table id 408|
-| [ProductFamily](ProductFamily.md) |MDO List stored in the database. Table id 411|
-| [ProductType](ProductType.md) |MDO List stored in the database. Table id 414|
-| [ProjStatus](ProjStatus.md) |MDO List stored in the database. Table id 88|
-| [ProjType](ProjType.md) |MDO List stored in the database. Table id 85|
-| [Reason](Reason.md) |MDO List stored in the database. Table id 103|
-| [ReasonSold](ReasonSold.md) |MDO List stored in the database. Table id 115|
-| [ReasonStalled](ReasonStalled.md) |MDO List stored in the database. Table id 154|
-| [RejectReason](RejectReason.md) |MDO List stored in the database. Table id 222|
-| [relationdefinition](relationdefinition.md) |MDO List stored in the database. Table id 48|
-| [SaleType](SaleType.md) |MDO List stored in the database. Table id 149|
-| [SaleTypeCat](SaleTypeCat.md) |MDO List stored in the database. Table id 118|
-| [Salutation](Salutation.md) |MDO List stored in the database. Table id 219|
-| [SearchCat](SearchCat.md) |MDO List stored in the database. Table id 106|
-| [Source](Source.md) |MDO List stored in the database. Table id 100|
-| [StakeholderRole](StakeholderRole.md) |MDO List stored in the database. Table id 122|
-| [SubscriptionUnit](SubscriptionUnit.md) |MDO List stored in the database. Table id 442|
-| [Tags](Tags.md) |MDO List stored in the database. Table id 459|
-| [Task](Task.md) |MDO List stored in the database. Table id 67|
-| [UDList](UDList.md) |MDO List stored in the database. Table id 136|
+| [AmountClass](AmountClass.md) |MDO List for database table ID: Table id 225. amountclass (98).tooltip|
+| [Associate](associate.md) |MDO List for database table ID: Table id 2. associate (2).tooltip|
+| [Business](Business.md) |MDO List for database table ID: Table id 61. business (11).tooltip|
+| [Category](Category.md) |MDO List for database table ID: Table id 64. category (14).tooltip|
+| [Comptr](Comptr.md) |MDO List for database table ID: Table id 109. comptr (59).tooltip|
+| [ContInt](ContInt.md) |MDO List for database table ID: Table id 70. contint (20).tooltip|
+| [Country](country.md) |MDO List for database table ID: Table id 19. country (5).tooltip|
+| [Credited](Credited.md) |MDO List for database table ID: Table id 97. credited (47).tooltip|
+| [Currency](Currency.md) |MDO List for database table ID: Table id 112. currency (62).tooltip|
+| [DeliveryTerms](DeliveryTerms.md) |MDO List for database table ID: Table id 433. deliveryterms (116).tooltip|
+| [DeliveryType](DeliveryType.md) |MDO List for database table ID: Table id 436. deliverytype (119).tooltip|
+| [DocTmpl](DocTmpl.md) |MDO List for database table ID: Table id 130. doctmpl (74).tooltip|
+| [ExtApp](ExtApp.md) |MDO List for database table ID: Table id 133. extapp (77).tooltip|
+| [Intent](Intent.md) |MDO List for database table ID: Table id 216. intent (89).tooltip|
+| [MrMrs](MrMrs.md) |MDO List for database table ID: Table id 94. mrmrs (44).tooltip|
+| [PaymentTerms](PaymentTerms.md) |MDO List for database table ID: Table id 427. paymentterms (110).tooltip|
+| [PaymentType](PaymentType.md) |MDO List for database table ID: Table id 430. paymenttype (113).tooltip|
+| [PersInt](PersInt.md) |MDO List for database table ID: Table id 73. persint (23).tooltip|
+| [PersPos](PersPos.md) |MDO List for database table ID: Table id 76. perspos (26).tooltip|
+| [PMembType](PMembType.md) |MDO List for database table ID: Table id 91. pmembtype (41).tooltip|
+| [PriceUnit](PriceUnit.md) |MDO List for database table ID: Table id 439. priceunit (122).tooltip|
+| [Priority](Priority.md) |MDO List for database table ID: Table id 79. priority (29).tooltip|
+| [Prob](Prob.md) |MDO List for database table ID: Table id 82. prob (32).tooltip|
+| [ProductCategory](ProductCategory.md) |MDO List for database table ID: Table id 408. productcategory (101).tooltip|
+| [ProductFamily](ProductFamily.md) |MDO List for database table ID: Table id 411. productfamily (104).tooltip|
+| [ProductType](ProductType.md) |MDO List for database table ID: Table id 414. producttype (107).tooltip|
+| [ProjStatus](ProjStatus.md) |MDO List for database table ID: Table id 88. projstatus (38).tooltip|
+| [ProjType](ProjType.md) |MDO List for database table ID: Table id 85. projtype (35).tooltip|
+| [QuoteApprReason](QuoteApprReason.md) |MDO List for database table ID: Table id 504. quoteapprreason (131).tooltip|
+| [QuoteDenyReason](QuoteDenyReason.md) |MDO List for database table ID: Table id 507. quotedenyreason (134).tooltip|
+| [Reason](Reason.md) |MDO List for database table ID: Table id 103. reason (53).tooltip|
+| [ReasonSold](ReasonSold.md) |MDO List for database table ID: Table id 115. reasonsold (65).tooltip|
+| [ReasonStalled](ReasonStalled.md) |MDO List for database table ID: Table id 154. reasonstalled (86).tooltip|
+| [RejectReason](RejectReason.md) |MDO List for database table ID: Table id 222. rejectreason (95).tooltip|
+| [Relationdefinition](relationdefinition.md) |MDO List for database table ID: Table id 48. relationdefinition (8).tooltip|
+| [SaleType](SaleType.md) |MDO List for database table ID: Table id 149. saletype (83).tooltip|
+| [SaleTypeCat](SaleTypeCat.md) |MDO List for database table ID: Table id 118. saletypecat (68).tooltip|
+| [Salutation](Salutation.md) |MDO List for database table ID: Table id 219. salutation (92).tooltip|
+| [SearchCat](SearchCat.md) |MDO List for database table ID: Table id 106. searchcat (56).tooltip|
+| [Source](Source.md) |MDO List for database table ID: Table id 100. source (50).tooltip|
+| [StakeholderRole](StakeholderRole.md) |MDO List for database table ID: Table id 122. stakeholderrole (71).tooltip|
+| [SubscriptionUnit](SubscriptionUnit.md) |MDO List for database table ID: Table id 442. subscriptionunit (125).tooltip|
+| [Tags](Tags.md) |MDO List for database table ID: Table id 488. tags (128).tooltip|
+| [Task](Task.md) |MDO List for database table ID: Table id 67. task (17).tooltip|
+| [UDList](UDList.md) |MDO List for database table ID: Table id 136. udlist (80).tooltip|
 
 ## List of other valid MDO providers
 
@@ -81,6 +83,7 @@ so.envir:
 | [appointmenttask](appointmenttask.md) |MDO list provider for the task list of the AppointmentDialog. This list extends the basic <see cref="T:SuperOffice.CRM.Rows.TaskRow" /> wit|
 | [appointmenttextid](appointmenttextid.md) |Special case of appointment list where we get the id value from the Text table. For use when we wan|
 | [appointmenttype](appointmenttype.md) |List of AppointmentType values: inDiary, inChecklist, Note, Document, SavedReport, BookingForDiary, BookingForChecklist|
+| [archiveprovider](archiveprovider.md) |MDO provider for available archive providera|
 | [area](area.md) |List of all defined areas.|
 | [associaterestrictions](associaterestrictions.md) |Public MDO provider based on the AssociateRestrictionsMDOProviderBase.|
 | [associatewithmail](associatewithmail.md) ||
@@ -88,9 +91,11 @@ so.envir:
 | [availablereports](availablereports.md) |AvailableReportsProvider creates an MDO list containing the available reports|
 | [business](business.md) |GenericMDOProvider reads MDO lists with default settings|
 | [category](category.md) |GenericMDOProvider reads MDO lists with default settings|
+| [chartselection](chartselection.md) ||
 | [chatbot](chatbot.md) |List of all script folders that contain a script named like "%bot%register%"|
 | [chatchannel](chatchannel.md) ||
 | [chatservice](chatservice.md) ||
+| [chatsessionstatus](chatsessionstatus.md) |Chat session status values|
 | [chatuser](chatuser.md) ||
 | [colorindex](colorindex.md) |List of named colors from the "ColorIndex" enum|
 | [combinedcontactpersonsearch](combinedcontactpersonsearch.md) |Provider for selecting a Person or a Contact, including search on contacts that match as well as persons. this provider wil|
@@ -110,14 +115,20 @@ so.envir:
 | [createdocumenttemplateplugin](createdocumenttemplateplugin.md) |List of document plugins that can create document templates.|
 | [credentialgroup](credentialgroup.md) |List of user groups supported by a named creditial plugin, sorted by group name.|
 | [credited](credited.md) |GenericMDOProvider reads MDO lists with default settings|
-| [CRMScript](crmscript.md) |Archive of CRMScripts. Returns script id + name of script as hierarchy.|
+| [crmfields](crmfields.md) ||
+| [crmscript](crmscript.md) |Archive of CRMScripts. Returns script id + name of script as hierarchy.|
 | [culture](culture.md) ||
 | [culturesolanguage](culturesolanguage.md) |List of SuperOffice cultures with old-style SO Culture name in ExtraInfo|
 | [currency](currency.md) |GenericMDOProvider reads MDO lists with default settings|
 | [currentudeffields](currentudeffields.md) |Get a list of udef fields for a given type. Pass the type as AdditionalInfo|
 | [customerlanguage](customerlanguage.md) |Customer Languages list. From the CustLang table.|
+| [dashboard](dashboard.md) |MDO list provider for Dashboard, can be used by Navigator.|
+| [dashboardcurrency](dashboardcurrency.md) ||
+| [dashboardentity](dashboardentity.md) ||
+| [dashboardtheme](dashboardtheme.md) ||
 | [dashboardtile](dashboardtile.md) |MDO list provider for Dashboard tile|
 | [dashboardtileentitytype](dashboardtileentitytype.md) |List of dashboard tile types: Company, Project, Sale, Product, Activity, Web Panel|
+| [dashtilemeasure](dashtilemeasure.md) ||
 | [dayofmonth](dayofmonth.md) |MDO provider for the hard-coded list of day alternatives in the recurrence dialog.|
 | [deliveryterms](deliveryterms.md) |GenericMDOProvider reads MDO lists with default settings|
 | [deliverytype](deliverytype.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -134,15 +145,18 @@ so.envir:
 | [documenttemplatelanguage](documenttemplatelanguage.md) ||
 | [documenttemplatesfiltered](documenttemplatesfiltered.md) |MDO Provider for Document Templates, excluding Document details and quote mail templates, which are for system use rather than end-user choosing.|
 | [documenttypes](documenttypes.md) |List of document types for the given plugin|
+| [efd_13](efd_13.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
 | [ejcategory](ejcategory.md) |EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY|
 | [ejuser](ejuser.md) ||
 | [emailaddress](emailaddress.md) |List of e-mail addresses matching the search valu|
 | [emailfolder](emailfolder.md) |EmailFolderProvider gives you the folder hierarchy of a given mail account|
 | [emailrecipient](emailrecipient.md) |List of most recent e-mail recipients cached for the current user.|
+| [erpactortype](erpactortype.md) ||
 | [erpconnections](erpconnections.md) |Retrieve the list of all defined Erp Connections (not Connectors, that's another list)|
 | [erpconnectors](erpconnectors.md) |Retrieve the list of all defined Erp Connectors (not Connections, that's another list)|
 | [erpdeliveryterms](erpdeliveryterms.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
 | [erpdeliverytype](erpdeliverytype.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
+| [erpfields](erpfields.md) ||
 | [erppaymentterms](erppaymentterms.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
 | [erppaymenttype](erppaymenttype.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
 | [erpproductcategory](erpproductcategory.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
@@ -151,7 +165,7 @@ so.envir:
 | [eventhandlertype](eventhandlertype.md) |Screen trigger event types: members of <see cref="T:SuperOffice.Data.EventHandlerType" /> enum.|
 | [everymonth](everymonth.md) |MDO provider for the hard-coded list of day month in the recurrence dialog.|
 | [executeonevent](executeonevent.md) |List of windows client events to execute tasks on: Logon, Logoff, LocalUpdate|
-| [exporttemplate](exporttemplate.md) ||
+| [exporttemplate](exporttemplate.md) |MDO provider for the list of template files for the 'export to file' functio|
 | [extapp](extapp.md) |GenericMDOProvider reads MDO lists with default settings|
 | [faqcategory](faqcategory.md) ||
 | [faqreplytemplate](faqreplytemplate.md) ||
@@ -201,6 +215,8 @@ so.envir:
 | [mailhtmltemplate](mailhtmltemplate.md) |List provider for the Mailtemplates.|
 | [mailing](mailing.md) |All mailings - history ids|
 | [mailingfavourite](mailingfavourite.md) |MDO list provider for Favourites|
+| [mailingstatus](mailingstatus.md) ||
+| [mailingsubscriptiontype](mailingsubscriptiontype.md) |Mailing subscription types; Invitations, news, etc|
 | [mailingtemplate](mailingtemplate.md) |General mailing templates|
 | [mailingtype](mailingtype.md) |Mailing types: Html mail, SMS, Word Document|
 | [mailtemplate](mailtemplate.md) |List provider for the Mailtemplates.|
@@ -233,7 +249,6 @@ so.envir:
 | [prefdescline](prefdescline.md) |PrefDesc creates a MDO list of prefdesclines for a given prefdesc id.|
 | [preferencekey](preferencekey.md) |MDO Provider that retrieves a list of preference keys corresponding to a given section|
 | [preferencelineitem](preferencelineitem.md) ||
-| [preferencesearch](preferencesearch.md) |MDO Provider that retrieves a list of preference keys corresponding to a given keyword.|
 | [preferencesection](preferencesection.md) |MDO Provider that retrieves a list of preference sections|
 | [pricelist](pricelist.md) |List of pricelists from the PriceList table|
 | [priceunit](priceunit.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -259,8 +274,10 @@ so.envir:
 | [quotealternatives](quotealternatives.md) |Quote alternative selector for one Quote Version. Send QuoteVersionId=&lt;id&gt; in ExtraInfo to specify quote version id|
 | [quoteapprovalassociate](quoteapprovalassociate.md) |MDO provider for associates that are allowed to approve a quote.|
 | [quoteapprovers](quoteapprovers.md) |Retrieve the list of all users that can approve quotes|
+| [quoteapprreason](quoteapprreason.md) |GenericMDOProvider reads MDO lists with default settings|
 | [quoteconnections](quoteconnections.md) |Retrieve the list of all defined Quote Connections - i.e. not the connectors (DLLs)|
 | [quoteconnectors](quoteconnectors.md) |Retrieve the list of all installed (i.e., loaded assemblies) Quote Connectors|
+| [quotedenyreason](quotedenyreason.md) |GenericMDOProvider reads MDO lists with default settings|
 | [quotedocumentgroupfields](quotedocumentgroupfields.md) |Possible choices for fields that you can GROUP BY in quote detail documents.|
 | [quotedocumentorderbyfields](quotedocumentorderbyfields.md) |Possible choices for fields you can ORDER BY, within a group (or without grouping)|
 | [quotedocuments](quotedocuments.md) ||
@@ -311,6 +328,7 @@ so.envir:
 | [relationssearchlistprovidersalepassive](relationssearchlistprovidersalepassive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [relationssearchlistprovidersalesaleactive](relationssearchlistprovidersalesaleactive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [relationssearchlistprovidersalesalepassive](relationssearchlistprovidersalesalepassive.md) |Serve the active and passive texts of relations, with a given table as source (active|
+| [replytemplate](replytemplate.md) ||
 | [reportcategory](reportcategory.md) |ReportCategoryProvider creates an MDO list that consists of the values in <see cref="T:SuperOffice.Data.ReportCategory" />|
 | [reportlayout](reportlayout.md) |ReportCategoryProvider creates an MDO list that consists of the values in <see cref="T:SuperOffice.Data.ReportCategory" />|
 | [resource](resource.md) |MDO provider for resources (from the associate table)|
@@ -341,7 +359,8 @@ so.envir:
 | [satellites](satellites.md) |SatelliteProvider creates a MDO list of satellites.|
 | [searchcat](searchcat.md) |GenericMDOProvider reads MDO lists with default settings|
 | [selection](selection.md) |Provider for selecting a selection|
-| [selectionfavourite](selectionfavourite.md) |MDO list provider for Favourites|
+| [selectioncriteriamembertype](selectioncriteriamembertype.md) ||
+| [selectionfavourite](selectionfavourite.md) |MDO list provider for selection favourites|
 | [selectionmembertype](selectionmembertype.md) |MDO provider for the selection archive providers types|
 | [selectionmembertypeclean](selectionmembertypeclean.md) ||
 | [selectionmembertypev2](selectionmembertypev2.md) |MDO provider for the selection archive providers types|
@@ -351,7 +370,9 @@ so.envir:
 | [selection_freetextsearch](selection_freetextsearch.md) |Provider for selecting a Selection|
 | [sentiment](sentiment.md) ||
 | [serviceassociate](serviceassociate.md) |MDO provider for associates that are allowed to approve a quote.|
+| [shipmentaddrstatusprovider](shipmentaddrstatusprovider.md) ||
 | [shipmenttype](shipmenttype.md) |MDO list provider for ConsentPurpose|
+| [simplemailingstatus](simplemailingstatus.md) ||
 | [smsmailing](smsmailing.md) |SMS Shipment names|
 | [smsmailingtemplate](smsmailingtemplate.md) |SMS Mailing templates|
 | [source](source.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -366,14 +387,21 @@ so.envir:
 | [suggestedstopword](suggestedstopword.md) |Analyze free text records and suggest stop words based on word frequency|
 | [systemeventtype](systemeventtype.md) |System event types: NoLogin, NoFreeText, NoTravel, Message-of-the-day|
 | [tags](tags.md) |GenericMDOProvider reads MDO lists with default settings|
+| [targettypes](targettypes.md) ||
+| [targetyear](targetyear.md) |Year MDO list. Includes the two coming years, this year, and previous 5 years|
 | [task](task.md) |Task table MDO list. Optional include "None" as first value.|
-| [ticket](ticket.md) ||
-| [ticketfavourite](ticketfavourite.md) |MDO list provider for Favourites|
+| [ticket](ticket.md) |Provider for selecting a ticket|
+| [ticketalert](ticketalert.md) ||
+| [ticketfavourite](ticketfavourite.md) ||
 | [ticketorigin](ticketorigin.md) |Ticket Origin|
 | [ticketpriority](ticketpriority.md) |MDO list provider for ticket priorities.|
+| [ticketpriorityescalateevent](ticketpriorityescalateevent.md) |MDO list provider for ticket Priority EscalateEvents enum.|
 | [ticketread](ticketread.md) ||
+| [ticketselectionwithstaticmenu](ticketselectionwithstaticmenu.md) |Provider for selecting ticket selections|
 | [ticketslevel](ticketslevel.md) |Ticket Security Level|
 | [ticketstatus](ticketstatus.md) |Ticket status values: Open, Closed, Inactive, Deleted, Connected|
+| [ticketstatustimecounter](ticketstatustimecounter.md) |Ticket status timer count values: None, Internall, Externally, Queue|
+| [ticketstatuswithpostpone](ticketstatuswithpostpone.md) ||
 | [ticketticketstatus](ticketticketstatus.md) |TicketTicketStatusProvider creates a flat list based on the table: TICKET_STATUS|
 | [time](time.md) |MDO provider for the hard-coded list of time alternatives in the appointment dialog and in edit/preference|
 | [timezone](timezone.md) |Provides the timezone list|
@@ -385,12 +413,13 @@ so.envir:
 | [udeffieldtype](udeffieldtype.md) ||
 | [udlist](udlist.md) |MDO Provider for 'user-defined' lists, i.e., those that reside in the UDList table. Mandatory additionalInfo is th|
 | [udlist28](udlist28.md) |Dynamic MDO provider that will create a list with the name udlist&lt;id&gt; for each user-defined list in the UDListDefinition table|
-| [udlist29](udlist29.md) |Dynamic MDO provider that will create a list with the name udlist&lt;id&gt; for each user-defined list in the UDListDefinition table|
 | [udlist30002](udlist30002.md) |MDO provider for the ChatService|
 | [usergroup](usergroup.md) |List provider for the UserGroup table. While this table looks like an MDO table|
 | [usergroupwithhistoryall](usergroupwithhistoryall.md) |List provider for the UserGroup table. While this table looks like an MDO table|
+| [userplan](userplan.md) |List provider for the UserPlan in the module license table|
 | [usertype](usertype.md) |Simple, hard-coded provider for the associate type: Employee, ExternalPerson, Resource, Anonymous, System, Invalid User Type|
 | [visiblefor](visiblefor.md) |List provider for the VisibleFor dropdown control. Items are of type associate, usergroup or all, wit|
+| [visibleforassociate](visibleforassociate.md) |List provider that returns a list suitable for VisibleFor and PinTo (with groups and possibly some other special items like All).|
 | [visiblein](visiblein.md) |Visible in list for web panels.|
 | [visibleinmenu](visibleinmenu.md) |Visible in menu list: Toolbox menu, View menu|
 | [visibleintask](visibleintask.md) |Visible in list for tasks: places where task button can appear.|
@@ -398,3 +427,5 @@ so.envir:
 | [webpanelgroup](webpanelgroup.md) |List of WebPanels with visible for groups as commaseperated ids in extrainfo field|
 | [weekday](weekday.md) |MDO provider for the hard-coded list of week days.|
 | [weeknumber](weeknumber.md) |MDO provider for the hard-coded list of numbered weeks in the recurrence dialog.|
+| [y_equipment](y_equipment.md) |Extra tables lists. List names are 'y_xyz' - based on the custom table name|
+

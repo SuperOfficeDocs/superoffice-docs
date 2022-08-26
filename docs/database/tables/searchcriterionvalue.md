@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCriterionValue"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,7 @@ Criteria storage for Selection and other Find mechanisms
 |updatedCount|Number of updates made to this record|UShort| |
 |valueType|The RestrictionType that describes this value; might vary between values connected to the same criterion|String(128)|&#x25CF;|
 
+
 ![SearchCriterionValue table relationship diagram](./media/SearchCriterionValue.png)
 
 [!include[details](./includes/searchcriterionvalue.md)]
@@ -53,6 +54,7 @@ Criteria storage for Selection and other Find mechanisms
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[SearchCriterion](searchcriterion.md)  |Criteria storage for Selection and other Find mechanisms |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -62,3 +64,4 @@ Criteria storage for Selection and other Find mechanisms
 ## Security Flags
 
 * No access control via user's Role.
+

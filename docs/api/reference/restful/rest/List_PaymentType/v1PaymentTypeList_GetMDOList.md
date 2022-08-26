@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentType/MDOItems
-id: v1PaymentTypeList_GetMDOList
+uid: v1PaymentTypeList_GetMDOList
 ---
 
 # GET List/PaymentType/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/PaymentType/MDOItems
 
 Get the MDO list items for "PaymentType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=nulla
+GET /api/v1/List/PaymentType/MDOItems?query=rerum
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/PaymentType/MDOItems?query=nulla
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentType/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Mraz, Nitzsche and Hagenes",
-    "ToolTip": "Minus recusandae.",
-    "Deleted": true,
-    "Rank": 837,
-    "Type": "voluptatibus",
+    "Id": 572,
+    "Name": "Schiller-Wunsch",
+    "ToolTip": "Id provident ab nesciunt.",
+    "Deleted": false,
+    "Rank": 328,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Bogan, Fisher and Conn",
-        "ToolTip": "Fugiat beatae.",
-        "Deleted": true,
-        "Rank": 483,
-        "Type": "atque",
+        "Id": 785,
+        "Name": "Roberts LLC",
+        "ToolTip": "Illum qui.",
+        "Deleted": false,
+        "Rank": 106,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 140,
-        "ExtraInfo": "animi",
-        "StyleHint": "consequatur",
-        "FullName": "Flavio Quitzon",
-        "TableRight": {},
+        "IconHint": "magni",
+        "ColorBlock": 375,
+        "ExtraInfo": "et",
+        "StyleHint": "fugiat",
+        "FullName": "Prof. Jaylin Alicia Grimes",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 150
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 829
           }
         }
       }
     ],
-    "IconHint": "cum",
-    "ColorBlock": 197,
-    "ExtraInfo": "animi",
-    "StyleHint": "assumenda",
-    "FullName": "Natasha Bahringer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "nostrum",
+    "ColorBlock": 877,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "aut",
+    "FullName": "Dino Kovacek PhD",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 519
       }
     }
   }

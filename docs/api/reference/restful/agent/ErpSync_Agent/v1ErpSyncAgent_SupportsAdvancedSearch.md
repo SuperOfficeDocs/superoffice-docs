@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/SupportsAdvancedSearch
-id: v1ErpSyncAgent_SupportsAdvancedSearch
+uid: v1ErpSyncAgent_SupportsAdvancedSearch
 ---
 
 # POST Agents/ErpSync/SupportsAdvancedSearch
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
 
 Indicates if the connection supports advanced search for the given erp actor
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Indicates if the connection supports advanced search for the given erp actor
 ```http
 POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,19 @@ POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ErpActorType
+ErpConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ErpActorType | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,24 +66,27 @@ ErpConnectionId, ErpActorType
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 561,
+  "ErpConnectionId": 948,
   "ErpActorType": "Customer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

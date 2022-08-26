@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketStatus/Items/{id}
-id: v1TicketStatusList_GetTicketStatusEntity
+uid: v1TicketStatusList_GetTicketStatusEntity
 ---
 
 # GET List/TicketStatus/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/TicketStatus/Items/{id}
 
 Gets a TicketStatusEntity list item.
 
+
 Calls the List agent service GetTicketStatusEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketStatusEntity to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ Calls the List agent service GetTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketStatusEntity.
-Services for the TicketStatusEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +61,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketStatus/Items/{id}
@@ -65,30 +70,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 291,
-  "Name": "Wolf-Hodkiewicz",
+  "TicketStatusId": 153,
+  "Name": "Weber-Mayert",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
   "IsDefault": true,
   "UsedInQueue": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "leverage visionary systems"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   }
 }

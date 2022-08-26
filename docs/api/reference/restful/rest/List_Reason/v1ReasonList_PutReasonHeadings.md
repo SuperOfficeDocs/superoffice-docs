@@ -1,6 +1,6 @@
 ---
 title: PUT List/Reason/Headings
-id: v1ReasonList_PutReasonHeadings
+uid: v1ReasonList_PutReasonHeadings
 ---
 
 # PUT List/Reason/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/Reason/Headings
 
 Saves headings for the Reason list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 304,
-    "Name": "Cassin-Kemmer",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 337,
-    "UdListDefinitionId": 781
+    "HeadingId": 533,
+    "Name": "Jones-Hauck",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 652,
+    "UdListDefinitionId": 180
   },
   {
-    "HeadingId": 304,
-    "Name": "Cassin-Kemmer",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 337,
-    "UdListDefinitionId": 781
+    "HeadingId": 533,
+    "Name": "Jones-Hauck",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 652,
+    "UdListDefinitionId": 180
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 387,
-    "Name": "Stiedemann-Funk",
-    "Tooltip": "id",
+    "HeadingId": 599,
+    "Name": "Smith-Cummings",
+    "Tooltip": "provident",
     "Deleted": true,
-    "Rank": 173,
-    "UdListDefinitionId": 528,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 285,
+    "UdListDefinitionId": 49,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 362
       }
     }
   }

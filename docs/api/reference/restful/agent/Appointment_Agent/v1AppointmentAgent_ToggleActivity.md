@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/ToggleActivity
-id: v1AppointmentAgent_ToggleActivity
+uid: v1AppointmentAgent_ToggleActivity
 ---
 
 # POST Agents/Appointment/ToggleActivity
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/ToggleActivity
 
 Toggle the completed status for an activity.
 
+
 Activity may be sale, document or appointment. The changes are saved immediately.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Activity may be sale, document or appointment. The changes are saved immediately
 ```http
 POST /api/v1/Agents/Appointment/ToggleActivity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Appointment/ToggleActivity?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ActivityIdentifier
+ActivityIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ActivityIdentifier | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,8 @@ ActivityIdentifier
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/ToggleActivity
@@ -63,9 +74,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityIdentifier": "voluptates"
+  "ActivityIdentifier": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

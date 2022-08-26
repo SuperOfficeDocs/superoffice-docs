@@ -18,6 +18,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 
 **Returns:** Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
 
+
 [WSDL file for Services87/UserDefinedFieldInfo](../Services87-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetCustomFieldInfoList Response
 
@@ -87,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

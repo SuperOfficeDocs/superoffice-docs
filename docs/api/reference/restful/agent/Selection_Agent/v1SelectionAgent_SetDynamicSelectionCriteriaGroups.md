@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/SetDynamicSelectionCriteriaGroups
-id: v1SelectionAgent_SetDynamicSelectionCriteriaGroups
+uid: v1SelectionAgent_SetDynamicSelectionCriteriaGroups
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteriaGroups
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 
 Update the criteria for this dynamic selection.
 
+
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Replaces existing criteria with the new values. This call supports multiple crit
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Criteria
+SelectionId, Criteria 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Criteria | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,31 +71,31 @@ Response body: array
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 887,
+  "SelectionId": 298,
   "Criteria": [
     {
-      "Name": "Maggio, Bernhard and Sanford",
-      "Description": "Re-engineered empowering infrastructure",
-      "Rank": 17,
+      "Name": "Walsh LLC",
+      "Description": "Expanded coherent process improvement",
+      "Rank": 321,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Maggio, Bernhard and Sanford",
-      "Description": "Re-engineered empowering infrastructure",
-      "Rank": 17,
+      "Name": "Walsh LLC",
+      "Description": "Expanded coherent process improvement",
+      "Rank": 321,
       "Restrictions": [
         {},
         {}
@@ -95,64 +105,66 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lubowitz, Runte and Corwin",
-    "Description": "Networked background methodology",
-    "Rank": 550,
+    "Name": "Yost Group",
+    "Description": "Persevering interactive hierarchy",
+    "Rank": 396,
     "Restrictions": [
       {
-        "Name": "Thompson, Kshlerin and Ritchie",
-        "Operator": "quod",
+        "Name": "Marquardt, Boyle and Kertzmann",
+        "Operator": "debitis",
         "Values": [
-          "est",
-          "ratione"
+          "inventore",
+          "numquam"
         ],
         "DisplayValues": [
-          "commodi",
-          "aut"
+          "id",
+          "perferendis"
         ],
-        "ColumnInfo": {},
-        "IsActive": true,
+        "ColumnInfo": null,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 739,
+        "InterParenthesis": 123,
         "InterOperator": "And",
-        "UniqueHash": 719
+        "UniqueHash": 280
       }
     ]
   },
   {
-    "Name": "Lubowitz, Runte and Corwin",
-    "Description": "Networked background methodology",
-    "Rank": 550,
+    "Name": "Yost Group",
+    "Description": "Persevering interactive hierarchy",
+    "Rank": 396,
     "Restrictions": [
       {
-        "Name": "Thompson, Kshlerin and Ritchie",
-        "Operator": "quod",
+        "Name": "Marquardt, Boyle and Kertzmann",
+        "Operator": "debitis",
         "Values": [
-          "est",
-          "ratione"
+          "inventore",
+          "numquam"
         ],
         "DisplayValues": [
-          "commodi",
-          "aut"
+          "id",
+          "perferendis"
         ],
-        "ColumnInfo": {},
-        "IsActive": true,
+        "ColumnInfo": null,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 739,
+        "InterParenthesis": 123,
         "InterOperator": "And",
-        "UniqueHash": 719
+        "UniqueHash": 280
       }
     ]
   }

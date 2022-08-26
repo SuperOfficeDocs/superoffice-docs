@@ -1,6 +1,6 @@
 ---
 title: GET List/SaleType/Items/{id}/UserGroups
-id: v1SaleTypeList_GetSaleTypeEntityUserGroupsForListItem
+uid: v1SaleTypeList_GetSaleTypeEntityUserGroupsForListItem
 ---
 
 # GET List/SaleType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the SaleTypeEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Fahey, Heidenreich and Sporer",
-    "ToolTip": "Exercitationem alias.",
-    "Deleted": true,
-    "Rank": 319,
-    "Type": "dicta",
-    "ColorBlock": 578,
-    "IconHint": "et",
+    "Id": 197,
+    "Name": "Hand-O'Hara",
+    "ToolTip": "Quis dolorum exercitationem sed ut.",
+    "Deleted": false,
+    "Rank": 896,
+    "Type": "doloribus",
+    "ColorBlock": 579,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2015-05-25T18:25:52.1880186+02:00",
+    "LastChanged": "1998-03-27T11:10:54.6049393+01:00",
     "ChildItems": [
       {
-        "Id": 536,
-        "Name": "Altenwerth-Douglas",
-        "ToolTip": "Enim a rerum rerum nemo explicabo.",
-        "Deleted": false,
-        "Rank": 236,
-        "Type": "asperiores",
-        "ColorBlock": 203,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2019-04-10T18:25:52.1880186+02:00",
+        "Id": 200,
+        "Name": "Nicolas-Zemlak",
+        "ToolTip": "Aut maxime a doloribus.",
+        "Deleted": true,
+        "Rank": 833,
+        "Type": "porro",
+        "ColorBlock": 533,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2019-12-09T11:10:54.6049393+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "et",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Ms. Teagan McCullough",
-        "TableRight": {},
+        "FullName": "Thurman O'Hara",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 665
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "porro",
-    "Hidden": true,
-    "FullName": "Germaine Glover",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "qui",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Dr. Benny Corkery",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   }

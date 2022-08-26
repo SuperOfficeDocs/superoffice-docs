@@ -17,6 +17,7 @@ Get a list of all selection ids where the given selection is used to create a co
 
 **Returns:** Array of selectionIds.
 
+
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetParentCombinedSelections Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

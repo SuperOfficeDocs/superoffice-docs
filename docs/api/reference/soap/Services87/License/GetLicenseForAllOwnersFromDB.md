@@ -13,6 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ILicenseAgent.GetLicenseF
 
 Get all licenses, with usage, from all module owners as they are stored in the database
 
+
+
+
 [WSDL file for Services87/License](../Services87-License.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLicenseForAllOwnersFromDB Response
 
 ```xml
@@ -69,11 +73,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       <License:SerialNr xsi:type="xsd:string"></License:SerialNr>
       <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
       <License:OwnerDescription xsi:type="xsd:string"></License:OwnerDescription>
-      <License:NextCheckDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:NextCheckDate>
-      <License:MaintenanceDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:MaintenanceDate>
-      <License:AdminWarningDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:AdminWarningDate>
-      <License:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:ExpiryDate>
-      <License:GraceDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:GraceDate>
+      <License:NextCheckDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:NextCheckDate>
+      <License:MaintenanceDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:MaintenanceDate>
+      <License:AdminWarningDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:AdminWarningDate>
+      <License:ExpiryDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:ExpiryDate>
+      <License:GraceDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:GraceDate>
       <License:ExtraFlags xsi:type="xsd:int">0</License:ExtraFlags>
       <License:LicenseUrl xsi:type="xsd:string"></License:LicenseUrl>
       <License:LicenseVersion xsi:type="xsd:string"></License:LicenseVersion>
@@ -101,8 +105,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       </License:ModuleLicenses>
       <License:PublicKey xsi:type="License:SignedPublicKey">
        <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
-       <License:SignDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:SignDate>
-       <License:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:ExpiryDate>
+       <License:SignDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:SignDate>
+       <License:ExpiryDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:ExpiryDate>
        <License:Key xsi:type="NetServerServices872:DSAParameters">
         <NetServerServices872:Counter xsi:type="xsd:int">0</NetServerServices872:Counter>
         <NetServerServices872:G xsi:type="xsd:base64Binary"></NetServerServices872:G>
@@ -121,11 +125,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       <License:SerialNr xsi:type="xsd:string"></License:SerialNr>
       <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
       <License:OwnerDescription xsi:type="xsd:string"></License:OwnerDescription>
-      <License:NextCheckDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:NextCheckDate>
-      <License:MaintenanceDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:MaintenanceDate>
-      <License:AdminWarningDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:AdminWarningDate>
-      <License:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:ExpiryDate>
-      <License:GraceDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:GraceDate>
+      <License:NextCheckDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:NextCheckDate>
+      <License:MaintenanceDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:MaintenanceDate>
+      <License:AdminWarningDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:AdminWarningDate>
+      <License:ExpiryDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:ExpiryDate>
+      <License:GraceDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:GraceDate>
       <License:ExtraFlags xsi:type="xsd:int">0</License:ExtraFlags>
       <License:LicenseUrl xsi:type="xsd:string"></License:LicenseUrl>
       <License:LicenseVersion xsi:type="xsd:string"></License:LicenseVersion>
@@ -153,8 +157,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       </License:ModuleLicenses>
       <License:PublicKey xsi:type="License:SignedPublicKey">
        <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
-       <License:SignDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:SignDate>
-       <License:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:ExpiryDate>
+       <License:SignDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:SignDate>
+       <License:ExpiryDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:ExpiryDate>
        <License:Key xsi:type="NetServerServices872:DSAParameters">
         <NetServerServices872:Counter xsi:type="xsd:int">0</NetServerServices872:Counter>
         <NetServerServices872:G xsi:type="xsd:base64Binary"></NetServerServices872:G>
@@ -212,7 +216,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:NumberOfLicensesTotal xsi:type="xsd:int">0</License:NumberOfLicensesTotal>
       </License:ExtendedModuleLicense>
      </License:ExtendedModuleLicenses>
-     <License:AccumulatedNextCheckDate xsi:type="xsd:dateTime">2021-11-30T13:23:17Z</License:AccumulatedNextCheckDate>
+     <License:AccumulatedNextCheckDate xsi:type="xsd:dateTime">2022-08-26T08:57:15Z</License:AccumulatedNextCheckDate>
     </License:ExtendedLicenseInfo>
    </License:Response>
   </License:GetLicenseForAllOwnersFromDBResponse>
@@ -220,3 +224,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

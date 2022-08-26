@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/UnassignThirdPartyLicenses
-id: v1LicenseAgent_UnassignThirdPartyLicenses
+uid: v1LicenseAgent_UnassignThirdPartyLicenses
 ---
 
 # POST Agents/License/UnassignThirdPartyLicenses
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 
 Unassign (remove) third party licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Unassign (remove) third party licenses
 ```http
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/License/UnassignThirdPartyLicenses?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ModuleOwner, ModuleLicenseNames
+AssociateId, ModuleOwner, ModuleLicenseNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ AssociateId, ModuleOwner, ModuleLicenseNames
 | ModuleOwner | string |  |
 | ModuleLicenseNames | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,24 +82,26 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 487,
-  "ModuleOwner": "ut",
+  "AssociateId": 785,
+  "ModuleOwner": "repellat",
   "ModuleLicenseNames": [
-    "Johnston-Grady",
-    "Kautzer-Glover"
+    "Collins, Frami and Bechtelar",
+    "Kris-Grimes"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -98,31 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 343,
-    "Tooltip": "aut",
-    "CanAssign": false,
-    "Free": 52,
-    "InUse": 352,
+    "Total": 454,
+    "Tooltip": "placeat",
+    "CanAssign": true,
+    "Free": 924,
+    "InUse": 217,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 477,
-    "Name": "Bechtelar-Borer",
-    "Description": "Seamless fault-tolerant migration",
-    "PrerequisiteModuleName": "Lakin LLC",
-    "SortOrder": 419,
-    "ExtraFlags": 397,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ModuleLicenseId": 766,
+    "Name": "Witting Inc and Sons",
+    "Description": "Polarised actuating project",
+    "PrerequisiteModuleName": "Ziemann, Johns and Homenick",
+    "SortOrder": 139,
+    "ExtraFlags": 801,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 602
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

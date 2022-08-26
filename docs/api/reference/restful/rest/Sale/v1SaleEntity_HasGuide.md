@@ -1,6 +1,6 @@
 ---
 title: GET Sale/{id}/HasGuide
-id: v1SaleEntity_HasGuide
+uid: v1SaleEntity_HasGuide
 ---
 
 # GET Sale/{id}/HasGuide
@@ -11,9 +11,16 @@ GET /api/v1/Sale/{saleId}/HasGuide
 
 Does this sale have a sale guide associated with its sale type?
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | saleId | int32 | Sale id **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Does this sale have a sale guide associated with its sale type?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -36,7 +46,8 @@ Does this sale have a sale guide associated with its sale type?
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Sale/{saleId}/HasGuide
@@ -44,6 +55,8 @@ Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

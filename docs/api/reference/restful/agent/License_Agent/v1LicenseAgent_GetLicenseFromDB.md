@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetLicenseFromDB
-id: v1LicenseAgent_GetLicenseFromDB
+uid: v1LicenseAgent_GetLicenseFromDB
 ---
 
 # POST Agents/License/GetLicenseFromDB
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetLicenseFromDB
 
 Get license, with usage, as it is stored in the database for one particular module owner.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get license, with usage, as it is stored in the database for one particular modu
 ```http
 POST /api/v1/Agents/License/GetLicenseFromDB?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,21 +42,24 @@ POST /api/v1/Agents/License/GetLicenseFromDB?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerName
+OwnerName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +70,7 @@ Response body: object
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetLicenseFromDB
@@ -70,9 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Treutel, Rodriguez and Thiel"
+  "OwnerName": "Homenick Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,67 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
-  "New": {
-    "CompanyName": "Gaylord LLC",
-    "SerialNr": "1010000006",
-    "OwnerName": "Franecki LLC",
-    "OwnerDescription": "Mandatory system-worthy architecture",
-    "NextCheckDate": "2020-10-08T18:28:49.2371222+02:00",
-    "MaintenanceDate": "2021-05-18T18:28:49.2371222+02:00",
-    "AdminWarningDate": "2020-11-08T18:28:49.2371222+01:00",
-    "ExpiryDate": "1995-01-30T18:28:49.2371222+01:00",
-    "GraceDate": "2004-03-06T18:28:49.2371222+01:00",
-    "ExtraFlags": 483,
-    "ExtraInfo": "laudantium",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "aperiam",
-    "DeploymentType": 760,
-    "ProductType": "in",
-    "ProductDescription": "Exclusive incremental moratorium",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "sequi"
-  },
-  "Current": {
-    "CompanyName": "Jaskolski-Mills",
-    "SerialNr": "1010000006",
-    "OwnerName": "Lubowitz Group",
-    "OwnerDescription": "Front-line national hierarchy",
-    "NextCheckDate": "2018-05-09T18:28:49.2371222+02:00",
-    "MaintenanceDate": "2009-01-31T18:28:49.2371222+01:00",
-    "AdminWarningDate": "2011-10-10T18:28:49.2371222+02:00",
-    "ExpiryDate": "2011-10-03T18:28:49.2371222+02:00",
-    "GraceDate": "2011-11-08T18:28:49.2371222+01:00",
-    "ExtraFlags": 368,
-    "ExtraInfo": "quia",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "aspernatur",
-    "DeploymentType": 814,
-    "ProductType": "rem",
-    "ProductDescription": "Phased homogeneous infrastructure",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "veniam"
-  },
+  "CanBeActivated": false,
+  "New": null,
+  "Current": null,
   "ExtendedModuleLicenses": [
     {
-      "New": {},
-      "Current": {},
-      "NumberOfLicensesInUse": 347,
-      "NumberOfLicensesFree": 450,
-      "NumberOfLicensesAdded": 999,
-      "NumberOfLicensesNewTotal": 953,
-      "NumberOfLicensesNewFree": 481,
-      "NumberOfLicensesTotal": 386
+      "New": null,
+      "Current": null,
+      "NumberOfLicensesInUse": 17,
+      "NumberOfLicensesFree": 979,
+      "NumberOfLicensesAdded": 87,
+      "NumberOfLicensesNewTotal": 658,
+      "NumberOfLicensesNewFree": 431,
+      "NumberOfLicensesTotal": 679
     }
   ],
-  "AccumulatedNextCheckDate": "2016-12-10T18:28:49.2371222+01:00"
+  "AccumulatedNextCheckDate": "2020-06-27T11:10:27.1064523+02:00"
 }
 ```

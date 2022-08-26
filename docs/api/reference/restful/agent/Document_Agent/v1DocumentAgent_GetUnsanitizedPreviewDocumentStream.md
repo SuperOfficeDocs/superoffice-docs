@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetUnsanitizedPreviewDocumentStream
-id: v1DocumentAgent_GetUnsanitizedPreviewDocumentStream
+uid: v1DocumentAgent_GetUnsanitizedPreviewDocumentStream
 ---
 
 # POST Agents/Document/GetUnsanitizedPreviewDocumentStream
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 
 Get the preview version of the document content as a stream.
 
+
 Retrieves an unsanitized version. This has less CPU impact but the caller must sanitize the content before presenting it to the user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Retrieves an unsanitized version. This has less CPU impact but the caller must s
 ```http
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response: object
 
-Document data intended for preview purposes
+## Response: 
 
-Carrier object for DocumentPreview.
-Services for the DocumentPreview Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
@@ -77,31 +82,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 318
+  "DocumentId": 133
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhlman, Emard and Schumm",
-  "Type": "nesciunt",
-  "Size": 244,
+  "Name": "Flatley Inc and Sons",
+  "Type": "est",
+  "Size": 586,
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 251
     }
   }
 }

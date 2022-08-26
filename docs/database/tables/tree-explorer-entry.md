@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "tree_explorer_entry"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,7 @@ This table stores the entries in a tree-explorer
 |internal\_id|The internal id for the tree|String(255)|&#x25CF;|
 |internal\_parent|The internal parent id for the tree|String(255)|&#x25CF;|
 
+
 ![tree_explorer_entry table relationship diagram](./media/tree_explorer_entry.png)
 
 [!include[details](./includes/tree-explorer-entry.md)]
@@ -58,6 +59,7 @@ This table stores the entries in a tree-explorer
 |[tree\_explorer\_entry](tree-explorer-entry.md)  |This table stores the entries in a tree-explorer |
 |[tree\_explorer\_link](tree-explorer-link.md)  |This table stores the link of entries in a tree-explorer |
 
+
 ## Replication Flags
 
 * None
@@ -65,3 +67,4 @@ This table stores the entries in a tree-explorer
 ## Security Flags
 
 * No access control via user's Role.
+

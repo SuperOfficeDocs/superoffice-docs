@@ -17,6 +17,7 @@ Gets a DashTileDefinition object.
 
 **Returns:** DashTileDefinition
 
+
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashTileDefinition Response
 
@@ -81,6 +83,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Dash:LayoutConfig xsi:type="xsd:string"></Dash:LayoutConfig>
     <Dash:SecondarySelectionId xsi:type="xsd:int">0</Dash:SecondarySelectionId>
     <Dash:MeasureByField xsi:type="xsd:string"></Dash:MeasureByField>
+    <Dash:Usage xsi:type="Dash:DashTileUsage">Dashboard</Dash:Usage>
     <Dash:ProviderName xsi:type="xsd:string"></Dash:ProviderName>
    </Dash:Response>
   </Dash:GetDashTileDefinitionResponse>
@@ -88,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

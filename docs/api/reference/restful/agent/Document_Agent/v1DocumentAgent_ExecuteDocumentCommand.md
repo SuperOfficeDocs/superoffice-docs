@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/ExecuteDocumentCommand
-id: v1DocumentAgent_ExecuteDocumentCommand
+uid: v1DocumentAgent_ExecuteDocumentCommand
 ---
 
 # POST Agents/Document/ExecuteDocumentCommand
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand
 
 Execute a custom command on a particular document, optionally a particular version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Execute a custom command on a particular document, optionally a particular versi
 ```http
 POST /api/v1/Agents/Document/ExecuteDocumentCommand?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData
+DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,13 +54,16 @@ DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData
 | Command | string |  |
 | AdditionalData | array |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,40 +74,42 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/ExecuteDocumentCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 865,
-  "VersionId": "omnis",
+  "DocumentId": 696,
+  "VersionId": "aliquid",
   "AllowedReturnTypes": [
-    "voluptas",
-    "ut"
-  ],
-  "Command": "placeat",
-  "AdditionalData": [
-    "laboriosam",
+    "in",
     "aut"
+  ],
+  "Command": "temporibus",
+  "AdditionalData": [
+    "illum",
+    "rerum"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "iure",
-  "VersionId": "quibusdam",
-  "Success": true,
+  "ExternalReference": "in",
+  "VersionId": "nam",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "est",
-  "AdditionalInfo": "id"
+  "Value": "itaque",
+  "AdditionalInfo": "quas"
 }
 ```

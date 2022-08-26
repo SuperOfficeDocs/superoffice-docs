@@ -17,6 +17,7 @@ This method will return a configurablescreen delta matching the properties recei
 
 **Returns:** An array of deltas matching the values of the incomming parameter-delta
 
+
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,8 +50,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Configuration:DeltaType xsi:type="Configuration:DeltaType">Unknown</Configuration:DeltaType>
      <Configuration:DeltaState xsi:type="Configuration:DeltaState">Unknown</Configuration:DeltaState>
      <Configuration:RecipeId xsi:type="xsd:string"></Configuration:RecipeId>
-     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Configuration:UpdatedDate>
-     <Configuration:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Configuration:CreatedDate>
+     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:UpdatedDate>
+     <Configuration:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:CreatedDate>
      <Configuration:UpdatedBy xsi:type="Configuration:Associate">
       <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
       <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -79,9 +80,10 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Configuration:EjUserId xsi:type="xsd:int">0</Configuration:EjUserId>
       <Configuration:UserName xsi:type="xsd:string"></Configuration:UserName>
      </Configuration:CreatedBy>
-     <Configuration:UserGroupIds xsi:type="NetServerServices882:ArrayOfint">
+     <Configuration:AppliesToIds xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
-     </Configuration:UserGroupIds>
+     </Configuration:AppliesToIds>
+     <Configuration:AppliesToKey xsi:type="xsd:string"></Configuration:AppliesToKey>
     </Configuration:ConfigurableScreenDelta>
    </Configuration:GetConfigurableScreenDeltasByDelta>
 
@@ -89,6 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConfigurableScreenDeltasByDelta Response
 
@@ -113,8 +116,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Configuration:DeltaType xsi:type="Configuration:DeltaType">Unknown</Configuration:DeltaType>
      <Configuration:DeltaState xsi:type="Configuration:DeltaState">Unknown</Configuration:DeltaState>
      <Configuration:RecipeId xsi:type="xsd:string"></Configuration:RecipeId>
-     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Configuration:UpdatedDate>
-     <Configuration:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Configuration:CreatedDate>
+     <Configuration:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:UpdatedDate>
+     <Configuration:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:CreatedDate>
      <Configuration:UpdatedBy xsi:type="Configuration:Associate">
       <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
       <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -143,9 +146,10 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Configuration:EjUserId xsi:type="xsd:int">0</Configuration:EjUserId>
       <Configuration:UserName xsi:type="xsd:string"></Configuration:UserName>
      </Configuration:CreatedBy>
-     <Configuration:UserGroupIds xsi:type="NetServerServices882:ArrayOfint">
+     <Configuration:AppliesToIds xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
-     </Configuration:UserGroupIds>
+     </Configuration:AppliesToIds>
+     <Configuration:AppliesToKey xsi:type="xsd:string"></Configuration:AppliesToKey>
     </Configuration:ConfigurableScreenDelta>
    </Configuration:Response>
   </Configuration:GetConfigurableScreenDeltasByDeltaResponse>
@@ -153,3 +157,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

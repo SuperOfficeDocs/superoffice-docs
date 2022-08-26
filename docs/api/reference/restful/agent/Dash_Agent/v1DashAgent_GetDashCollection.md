@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashCollection
-id: v1DashAgent_GetDashCollection
+uid: v1DashAgent_GetDashCollection
 ---
 
 # POST Agents/Dash/GetDashCollection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashCollection
 
 Gets a collection of dashboards for the current associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a collection of dashboards for the current associate
 ```http
 POST /api/v1/Agents/Dash/GetDashCollection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/Dash/GetDashCollection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Collection of dashboards for an associate
+## Response: 
 
-Carrier object for DashCollection.
-Services for the DashCollection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,14 +60,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -71,136 +78,121 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 535,
-      "UniqueId": "nihil",
-      "Name": "Satterfield, Jones and Flatley",
-      "Description": "Streamlined multi-tasking firmware",
-      "AssociateId": 235,
-      "Columns": 746,
-      "Theme": {},
-      "VisibleForAll": 57,
+      "DashboardId": 839,
+      "UniqueId": "et",
+      "Name": "Rowe-Cummings",
+      "Description": "Function-based zero tolerance methodology",
+      "AssociateId": 991,
+      "Columns": 295,
+      "Theme": null,
+      "VisibleForAll": 739,
       "VisibleForAssociates": [
-        768,
-        359
+        105,
+        335
       ],
       "VisibleForGroups": [
-        545,
-        54
+        227,
+        523
       ],
-      "PinForAll": 348,
+      "PinForAll": 777,
       "PinForAssociates": [
-        102,
-        897
+        544,
+        295
       ],
       "PinForGroups": [
-        647,
-        541
+        965,
+        172
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 707
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 397
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 25,
-      "UniqueId": "accusamus",
-      "Name": "Kub Group",
-      "Description": "Advanced optimal interface",
-      "AssociateId": 596,
-      "Columns": 927,
-      "Theme": {},
-      "VisibleForAll": 216,
+      "DashboardId": 34,
+      "UniqueId": "incidunt",
+      "Name": "Rogahn-Kerluke",
+      "Description": "Re-contextualized needs-based toolset",
+      "AssociateId": 913,
+      "Columns": 496,
+      "Theme": null,
+      "VisibleForAll": 247,
       "VisibleForAssociates": [
-        516,
-        190
+        896,
+        18
       ],
       "VisibleForGroups": [
-        914,
-        672
+        473,
+        48
       ],
-      "PinForAll": 871,
+      "PinForAll": 179,
       "PinForAssociates": [
-        694,
-        79
+        757,
+        905
       ],
       "PinForGroups": [
-        603,
-        870
+        929,
+        707
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 491
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 804,
-      "UniqueId": "consectetur",
-      "Name": "Ziemann Group",
-      "Description": "Team-oriented upward-trending approach",
-      "AssociateId": 403,
-      "Columns": 515,
-      "Theme": {},
-      "VisibleForAll": 964,
+      "DashboardId": 544,
+      "UniqueId": "mollitia",
+      "Name": "Stehr-Collins",
+      "Description": "Cross-group attitude-oriented paradigm",
+      "AssociateId": 182,
+      "Columns": 704,
+      "Theme": null,
+      "VisibleForAll": 126,
       "VisibleForAssociates": [
-        497,
-        832
+        323,
+        707
       ],
       "VisibleForGroups": [
-        472,
-        732
+        606,
+        309
       ],
-      "PinForAll": 324,
+      "PinForAll": 286,
       "PinForAssociates": [
-        246,
-        764
+        566,
+        990
       ],
       "PinForGroups": [
-        620,
-        840
+        610,
+        649
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldLength": 52
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 621
     }
   }
 }

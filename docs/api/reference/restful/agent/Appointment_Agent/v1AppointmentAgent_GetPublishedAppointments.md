@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPublishedAppointments
-id: v1AppointmentAgent_GetPublishedAppointments
+uid: v1AppointmentAgent_GetPublishedAppointments
 ---
 
 # POST Agents/Appointment/GetPublishedAppointments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments
 
 Get published appointments by appointment ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointments by appointment ids.
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentIds
+AppointmentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -105,22 +115,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    789,
-    96
+    400,
+    241
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -128,67 +140,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 166,
-    "StartDate": "2019-03-31T18:28:47.7268467+02:00",
-    "EndDate": "2000-02-15T18:28:47.7268467+01:00",
+    "AppointmentId": 564,
+    "StartDate": "1996-05-23T11:10:25.4465256+02:00",
+    "EndDate": "1999-11-17T11:10:25.4465256+01:00",
     "Type": "BookingForChecklist",
-    "Task": "iusto",
-    "AssociateFullName": "Eden Schulist",
-    "ContactName": "Toy LLC",
-    "Description": "Implemented client-driven forecast",
-    "PersonFullName": "Macey Buckridge DVM",
-    "PersonId": 839,
-    "ContactId": 377,
-    "ProjectId": 776,
-    "ProjectName": "Hackett, Heaney and Kirlin",
+    "Task": "fugiat",
+    "AssociateFullName": "Mr. Theodore Ford Bahringer",
+    "ContactName": "Ward-Stehr",
+    "Description": "Devolved object-oriented framework",
+    "PersonFullName": "Mr. Gertrude Ryan V",
+    "PersonId": 743,
+    "ContactId": 104,
+    "ProjectId": 204,
+    "ProjectName": "Runolfsson-Yost",
     "IsPublished": false,
-    "AssociateId": 427,
-    "ColorIndex": 692,
+    "AssociateId": 185,
+    "ColorIndex": 911,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 541,
-    "PriorityName": "Jacobs Inc and Sons",
+    "PriorityId": 865,
+    "PriorityName": "Pfeffer, Mayert and Fisher",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2011-08-11T18:28:47.7278443+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2011-12-19T11:10:25.4475254+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1994-09-08T18:28:47.7278443+02:00",
-    "RecurringEndDate": "2006-07-09T18:28:47.7278443+02:00",
-    "MotherId": 754,
-    "AssignedBy": 48,
-    "AssignedByFullName": "Letha Trantow",
+    "RecurringStartDate": "1996-06-10T11:10:25.4475254+02:00",
+    "RecurringEndDate": "2013-11-11T11:10:25.4475254+01:00",
+    "MotherId": 101,
+    "AssignedBy": 572,
+    "AssignedByFullName": "Ellen Koepp",
     "RejectReason": "",
-    "Location": "eos",
-    "AlarmLeadTime": "qui",
-    "SaleId": 287,
-    "SaleName": "Wolff-Medhurst",
-    "AssociateName": "Satterfield Group",
-    "CreatedDate": "1995-05-04T18:28:47.7278443+02:00",
-    "CreatedBy": "earum",
-    "CreatedByFullName": "Calista Cartwright",
-    "CreatedByAssociateId": 603,
+    "Location": "ut",
+    "AlarmLeadTime": "consequatur",
+    "SaleId": 64,
+    "SaleName": "Dach Group",
+    "AssociateName": "Schmeler-Rau",
+    "CreatedDate": "2003-06-20T11:10:25.4475254+02:00",
+    "CreatedBy": "cupiditate",
+    "CreatedByFullName": "Izaiah Saul Beahan III",
+    "CreatedByAssociateId": 212,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "transition 24/7 networks"
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldLength": 967
       }
     }
   }

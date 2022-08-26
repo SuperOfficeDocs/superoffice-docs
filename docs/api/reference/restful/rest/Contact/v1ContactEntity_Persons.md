@@ -1,6 +1,6 @@
 ---
 title: GET Contact/{id}/Persons
-id: v1ContactEntity_Persons
+uid: v1ContactEntity_Persons
 ---
 
 # GET Contact/{id}/Persons
@@ -11,6 +11,7 @@ GET /api/v1/Contact/{id}/Persons
 
 OData list of Persons under a specific ContactEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Contact/1234/Persons?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Contact/1234/Persons?$top=1000
 * Contact/1234/Persons?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "Person" archive provider.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Persons?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Persons?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Persons?$orderBy=name asc
-GET /api/v1/Contact/{id}/Persons?$entities=dignissimos
-GET /api/v1/Contact/{id}/Persons?$top=460
-GET /api/v1/Contact/{id}/Persons?$skip=286
+GET /api/v1/Contact/{id}/Persons?$entities=nisi
+GET /api/v1/Contact/{id}/Persons?$top=662
+GET /api/v1/Contact/{id}/Persons?$skip=783
 GET /api/v1/Contact/{id}/Persons?$mode=Full
 GET /api/v1/Contact/{id}/Persons?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Persons?$context=molestias
+GET /api/v1/Contact/{id}/Persons?$context=cum
 GET /api/v1/Contact/{id}/Persons?$format=JSON
-GET /api/v1/Contact/{id}/Persons?$jsonSafe=True
+GET /api/v1/Contact/{id}/Persons?$jsonSafe=False
 GET /api/v1/Contact/{id}/Persons?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,16 +99,17 @@ GET /api/v1/Contact/{id}/Persons?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,7 +117,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/{id}/Persons
@@ -114,27 +126,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sunt",
+  "odata.nextLink": "facilis",
   "value": [
     {
-      "PrimaryKey": 1642,
-      "EntityName": "sale",
-      "saleId": 1642,
-      "contactId": 2634,
-      "name": "Thompson-Muller"
+      "PrimaryKey": 7082,
+      "EntityName": "person",
+      "personId": 7082,
+      "fullName": "Anahi Kessler"
     },
     {
-      "PrimaryKey": 408,
-      "EntityName": "sale",
-      "saleId": 408,
-      "contactId": 1073,
-      "name": "Casper, Ruecker and Hartmann"
+      "PrimaryKey": 5316,
+      "EntityName": "person",
+      "personId": 5316,
+      "fullName": "Mr. Susan Predovic DVM"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 title: POST List/MrMrs/Headings
-id: v1MrMrsList_PostMrMrsHeading
+uid: v1MrMrsList_PostMrMrsHeading
 ---
 
 # POST List/MrMrs/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/MrMrs/Headings
 
 Saves a new heading for the MrMrs list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 852,
-  "Name": "Rosenbaum-Jacobi",
-  "Tooltip": "qui",
+  "HeadingId": 696,
+  "Name": "Schmitt, Bashirian and Moore",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 66,
-  "UdListDefinitionId": 272
+  "Rank": 994,
+  "UdListDefinitionId": 899
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 731,
-  "Name": "Gutkowski, Lockman and Jacobs",
-  "Tooltip": "nobis",
-  "Deleted": true,
-  "Rank": 885,
-  "UdListDefinitionId": 130,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 238,
+  "Name": "Schultz, Wilderman and Abernathy",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "Rank": 63,
+  "UdListDefinitionId": 392,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldLength": 72
     }
   }
 }

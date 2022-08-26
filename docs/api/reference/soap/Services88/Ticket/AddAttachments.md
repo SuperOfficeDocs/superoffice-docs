@@ -16,6 +16,8 @@ Connect existing attachments with this TicketMessage. Can connect multiple attac
 * **ticketMessageEntityId:** The id of the ticket message to connect the attachments to
 * **attachmentIds:** An array of attachments to connect to this TicketMessage
 
+
+
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddAttachments Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

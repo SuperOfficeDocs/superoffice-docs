@@ -1,6 +1,6 @@
 ---
 title: GET Document/CustomField/{fieldName}
-id: v1DocumentEntity_GetCustomFieldInfo
+uid: v1DocumentEntity_GetCustomFieldInfo
 ---
 
 # GET Document/CustomField/{fieldName}
@@ -11,11 +11,18 @@ GET /api/v1/Document/CustomField/{fieldName}
 
 Custom field meta-data (published user defined + extra fields) on DocumentEntity.
 
+
 Excludes standard fields.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | fieldName | string | The name of the custom field to return: 'x_foo' or 'SuperOffice:3' **Required** |
+
+
 
 ## Request Headers
 
@@ -30,18 +37,16 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Abstract basic information about database fields. May be custom or user-defined fields. The information can be used to build a user interface.
+## Response: 
 
-Carrier object for FieldInfoBase.
-Services for the FieldInfoBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,14 +64,16 @@ Response body: object
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -74,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Zulauf LLC",
-  "DisplayName": "Ferry-Eichmann",
-  "Description": "Ergonomic client-driven benchmark",
-  "ShortLabel": "ullam",
+  "FieldName": "Kuhic, Bauch and Herzog",
+  "DisplayName": "Mosciski Group",
+  "Description": "Function-based methodical implementation",
+  "ShortLabel": "animi",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
+  "HideField": true,
+  "IsIndexed": false,
   "IsMandatory": true,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 504,
-  "TemplateVariableName": "Stoltenberg, Hamill and Maggio"
+  "IsExternal": true,
+  "Rank": 98,
+  "TemplateVariableName": "Hermiston Inc and Sons"
 }
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteVersionNumber
-id: v1QuoteAgent_SaveQuoteVersionNumber
+uid: v1QuoteAgent_SaveQuoteVersionNumber
 ---
 
 # POST Agents/Quote/SaveQuoteVersionNumber
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
 
 Save the quote version number if it is valid
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save the quote version number if it is valid
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteVersionNumber?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Quote/SaveQuoteVersionNumber?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, Number
+QuoteVersionId, Number 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 | Number | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,7 +62,8 @@ QuoteVersionId, Number
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
@@ -62,14 +73,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 21,
-  "Number": "1368551"
+  "QuoteVersionId": 186,
+  "Number": "1123129"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

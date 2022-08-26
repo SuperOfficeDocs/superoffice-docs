@@ -1,6 +1,6 @@
 ---
 title: GET DashboardTile/{id}
-id: v1DashboardTile_GetDashboardTile
+uid: v1DashboardTile_GetDashboardTile
 ---
 
 # GET DashboardTile/{id}
@@ -11,11 +11,17 @@ GET /api/v1/DashboardTile/{id}
 
 Gets a DashboardTile object.
 
+
 Calls the Dashboard agent service GetDashboardTile.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashboardTile to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dashboard agent service GetDashboardTile.
 ```http
 GET /api/v1/DashboardTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-DashboardTile entity with API _Links added.
+DashboardTile found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DashboardTile found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,108 +79,95 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 460,
-  "Caption": "est",
-  "Description": "Total analyzing methodology",
-  "ChartName": "Lesch-Larson",
-  "ChartId": "ipsam",
-  "IsDefault": true,
-  "AssociateId": 268,
-  "GroupId": 623,
-  "SelectionId": 355,
-  "Config": "aut",
+  "DashboardTileId": 945,
+  "Caption": "molestias",
+  "Description": "Balanced national alliance",
+  "ChartName": "Stark, Dicki and Luettgen",
+  "ChartId": "perspiciatis",
+  "IsDefault": false,
+  "AssociateId": 805,
+  "GroupId": 398,
+  "SelectionId": 706,
+  "Config": "corporis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Braun Inc and Sons",
-      "Description": "Networked optimizing challenge",
+      "Name": "Miller Inc and Sons",
+      "Description": "Programmable intangible instruction set",
       "Type": "Boolean",
-      "ListName": "Donnelly LLC",
+      "ListName": "Kiehn, Cronin and Bins",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sequi",
-      "DefaultDataOption": true,
-      "TableRight": {},
+      "Value": "voluptatibus",
+      "DefaultDataOption": false,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 35,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "placeat",
-      "TableRight": {},
+      "DisplayValue": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 398
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 191
         }
       }
     },
     {
-      "VisibleId": 35,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "placeat",
-      "TableRight": {},
+      "DisplayValue": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 398
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 191
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 87
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

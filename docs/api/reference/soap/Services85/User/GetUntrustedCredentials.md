@@ -17,6 +17,7 @@ Get a set of credentials of a specified type for authenticated user.
 
 **Returns:** Array of credentials of the specified type.
 
+
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUntrustedCredentials Response
 
 ```xml
@@ -65,8 +67,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <User:GetUntrustedCredentialsResponse>
    <User:Response xsi:type="User:ArrayOfUntrustedCredentials">
     <User:UntrustedCredentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:44Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -78,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
