@@ -15,6 +15,7 @@ items:
   - CRMScript.Native.XMLNode.getParameter(String)
   - CRMScript.Native.XMLNode.getText()
   - CRMScript.Native.XMLNode.getValueFromPath(String)
+  - CRMScript.Native.XMLNode.getNodeFromPath(String)
   - CRMScript.Native.XMLNode.setChildren(XMLNode[])
   - CRMScript.Native.XMLNode.setName(String)
   - CRMScript.Native.XMLNode.setParameter(String, String)
@@ -338,6 +339,31 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The value for the given path."
+- uid: CRMScript.Native.XMLNode.getNodeFromPath(String)
+  commentId: M:CRMScript.Native.XMLNode.getNodeFromPath(String)
+  id: getNodeFromPath(String)
+  so.intellisense: XMLNode.getNodeFromPath
+  so.version: 8.2
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: getNodeFromPath(String)
+  nameWithType: XMLNode.getNodeFromPath(String)
+  fullName: CRMScript.Native.XMLNode.getNodeFromPath(String)
+  type: Method
+  summary: "\nThis function will return the XMLNode for the given path. The path should be a dot-separated string containing either names of nodes or indices.\n"
+  remarks: "\nIf your path does not lead to a node, you will get an empty XMLnode back.\n"
+  example:
+  - "\nGiven the following structure, you can get the node containing &quot;Peter&quot; by asking for &quot;persons.1.name&quot;.<pre><code>{ persons: [{name: &quot;John&quot;},{name: &quot;Peter&quot;}]}</code></pre>\n"
+  syntax:
+    content: XMLNode getNodeFromPath(String path)
+    parameters:
+    - id: path
+      type: CRMScript.Global.String
+      description: "A dot-separated string containing either names of nodes or indexes."
+    return:
+      type: CRMScript.Global.XMLNode
+      description: "The Node for the given path."
 references:
 - uid: CRMScript.Native.XMLNode
   commentId: T:CRMScript.Native.XMLNode
