@@ -80,11 +80,11 @@ items:
   summary: "\nLoads a public key. This method must be called in prior to creating a signature.\n"
   remarks:
   syntax: 
-    content: Bool loadPublicKey(String privateKey)
+    content: Bool loadPublicKey(String publicKey)
     parameters:
-    - id: privateKey
+    - id: publicKey
       type: CRMScript.Global.String
-      description: "Private key"
+      description: "Public key"
     return:
       type: CRMScript.Global.Bool
       description: "True if the key was loaded successfully; otherwise, false."
