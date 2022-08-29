@@ -3,12 +3,25 @@ items:
   expanded: true
   items:
   - name: Cloud document integrations
-    href: cloud/overview.md
+    href: cloud/index.yml
     items:
-    - name: Configure cloud document handling
-      href: cloud/configure.md
-    - name: Set up cloud document integration
-      href: cloud/set-up.md
+    - name: Overview
+      href: cloud/overview.md
+    - name: SharePoint Documents
+      href: cloud/sharepoint-documents/index.md
+      items:
+      - name: Requirements
+        href: cloud/sharepoint-documents/requirements.md
+      - name: About permissions
+        href: cloud/sharepoint-documents/permissions-in-sharepoint.md
+      - name: Set up
+        href: cloud/sharepoint-documents/set-up.md
+      - name: How to configure templates
+        href: cloud/sharepoint-documents/configure-templates.md
+      - name: How to configure permissions
+        href: cloud/sharepoint-documents/configure-permissions-with-aad-groups.md
+      - name: Troubleshooting
+        href: cloud/sharepoint-documents/troubleshooting.md
     - name: Google Workspace document integration
       href: cloud/g-suite/index.md
       items:
@@ -20,19 +33,21 @@ items:
         href: cloud/g-suite/getting-started.md
       - name: Set up
         href: cloud/g-suite/set-up.md
-    - name: Microsoft 365 document integration
-      href: cloud/office-365/index.md
+      - name: Configure
+        href: cloud/g-suite/configure.md
+    - name: Microsoft 365 document integration (legacy)
+      href: cloud/legacy/office-365/index.md
       items:
       - name: Requirements
-        href: cloud/office-365/requirements.md
+        href: cloud/legacy/office-365/requirements.md
       - name: Security
-        href: cloud/office-365/security.md
+        href: cloud/legacy/office-365/security.md
       - name: Prepare SharePoint for set up
-        href: cloud/office-365/prepare-sharepoint.md
+        href: cloud/legacy/office-365/prepare-sharepoint.md
       - name: Set up
-        href: cloud/office-365/set-up.md
+        href: cloud/legacy/office-365/set-up.md
       - name: Troubleshooting
-        href: cloud/office-365/troubleshooting.md
+        href: cloud/legacy/office-365/troubleshooting.md
   - name: Ribbons
     href: ribbons/index.md
     items:
@@ -44,7 +59,7 @@ items:
     href: templates/index.md
     items:
     - name: Document types
-      href: templates/document-types.md    
+      href: templates/document-types.md
     - name: Variables
       items:
       - name: For appointments

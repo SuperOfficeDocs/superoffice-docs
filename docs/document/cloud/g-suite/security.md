@@ -21,12 +21,12 @@ This default behavior can be changed to "inheritance to folder" by contacting Su
 Users of SuperOffice Online opening documents hosted in Google Drive will see these documents in their Google drive recent document list.
 The owner name will be the one used for the Service Account when the service-account was created:
 
-![x -screenshot][img1]
+![Owner of folders -screenshot][img1]
 
 This is how Google Drive collaboration works.
 The actual SOARC document-tree will not be visible nor accessible in the end-users drive directory tree:
 
-![x -screenshot][img2]
+![Google drive example -screenshot][img2]
 
 This is not a bug. This is by design.
 
@@ -63,15 +63,15 @@ If your company and business structure use/cross multiple Google Workspace domai
 
 4. Add your other domain-users to this [group][6] by selecting the group (clicking check), and click **Add users to group**. For more info, see [Google Help: Add members to the group][1].
 
-    ![x -screenshot][img3]
+    ![Add users to group -screenshot][img3]
 
 5. Sign in as SO Google service-account.
 
 6. Edit Share settings for the folder in [Drive][2] to include this group (from step 3).
 
-![x -screenshot][img4]
+![Edit share settings -screenshot][img4]
 
-![x -screenshot][img5]
+![Confirmation dialog -screenshot][img5]
 
 The users belonging to other domains than the domain the service-account belongs to should now have access.
 
