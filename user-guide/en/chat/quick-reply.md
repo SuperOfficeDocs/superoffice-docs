@@ -26,5 +26,5 @@ To create a quick reply:
 [1]: send-faq-or-reply-template.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/chat-btn-faq.png
-[img2]: ../../../media/icons/chat-btn-edit.png
+[img1]: ../../media/icons/chat-btn-faq.png
+[img2]: ../../media/icons/chat-btn-edit.png

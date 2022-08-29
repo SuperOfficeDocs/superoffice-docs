@@ -1,6 +1,8 @@
 items:
   - name: Welcome
     href: index.md
+  - name: Chat
+    href: chat/toc.yml
   - name: User
     href: user/toc.yml
   - name: Admin

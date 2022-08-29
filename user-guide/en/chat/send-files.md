@@ -4,7 +4,7 @@ title: chat send files
 description: chat send files
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  CRM/Service
+keywords: chat
 so.topic: help
 language: en
 ---
@@ -26,4 +26,4 @@ The file/document is immediately sent to the customer.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/chat-btn-attachment.png
+[img1]: ../../media/icons/chat-btn-attachment.png

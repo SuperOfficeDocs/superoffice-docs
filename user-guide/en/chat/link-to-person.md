@@ -4,7 +4,7 @@ title: chat link to person
 description: chat link to person
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  CRM/Service
+keywords: chat
 so.topic: help
 language: en
 ---
@@ -34,6 +34,6 @@ If you have selected the wrong contact, you can click **Change contact** at the 
 * [Add customer to SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: add-chat-user-to-SuperOffice.md
+[1]: add-chat-user-to-superoffice.md
 
 <!-- Referenced images -->

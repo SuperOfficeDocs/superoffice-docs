@@ -47,7 +47,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [10]: listCustLangs.md
 [11]: listCustCenter.config.md
 [12]: listCustCenter.edit.md
-[13]: ../../Chat/admin/index.md
+[13]: ../../../chat/admin/index.md
 [14]: soapConf.md
 [15]: ../blogic/index.md
 [16]: listInvoiceTypes.md

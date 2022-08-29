@@ -4,7 +4,7 @@ title: chat statistics
 description: chat statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  CRM/Service
+keywords: chat
 so.topic: help
 language: en
 ---

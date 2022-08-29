@@ -78,7 +78,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [9]: deleting-activities.md
 [10]: marking-activities-as-completed-not-completed.md
 [11]: dialling-contacts.md
-[12]: ../chat/index.md
+[12]: ../../chat/index.md
 [13]: ../company/activities-contact.md
 [14]: ../person/contact-secttab-activities.md
 [15]: ../project/activities-project.md

@@ -44,7 +44,7 @@ When you click one of these buttons, you get access to various options, such as 
 [5]: ../knowledge-base/index.md
 [6]: navigator-options.md
 [7]: ../request/mainMenu.md
-[8]: ../../chat/index.md
+[8]: ../../../chat/index.md
 [9]: buttons.topbar.md
 [10]: buttons.md
 

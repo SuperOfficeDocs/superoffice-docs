@@ -4,7 +4,7 @@ title: chat create request
 description: chat create request
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  CRM/Service
+keywords: chat
 so.topic: help
 language: en
 ---
@@ -24,4 +24,4 @@ To create a request in an active chat:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../media/icons/btn-menu.png

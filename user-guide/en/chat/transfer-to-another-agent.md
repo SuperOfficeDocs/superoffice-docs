@@ -4,7 +4,7 @@ title: chat transfer to another agent
 description: chat transfer to another agent
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  CRM/Service
+keywords: chat
 so.topic: help
 language: en
 ---
@@ -41,4 +41,4 @@ To accept a transferred chat:
 [1]: create-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../media/icons/btn-menu.png

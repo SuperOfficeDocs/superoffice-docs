@@ -4,7 +4,7 @@ title: chat function from the customers perspective
 description: chat function from the customers perspective
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  CRM/Service
+keywords: chat
 so.topic: help
 language: en
 ---
@@ -41,4 +41,4 @@ If request submission has been activated for this chat channel, the customers ca
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../media/icons/btn-menu.png

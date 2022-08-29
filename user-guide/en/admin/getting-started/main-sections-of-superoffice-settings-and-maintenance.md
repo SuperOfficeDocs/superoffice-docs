@@ -42,7 +42,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md
-[2]: ../../user/chat/index.md
+[2]: ../../ chat/index.md
 [3]: ../customer-center.md
 [4]: ../system-design.md
 [5]: ../licenses/index.md

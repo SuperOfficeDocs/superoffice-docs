@@ -23,16 +23,13 @@ You can create chat channels for specific purposes, such as technical support, p
 > [!NOTE]
 > Fields with red frames are mandatory. Tabs with the icon ![icon][img4] contain empty mandatory fields.
 
-<!-- Fix reuse ID=a2 -->
-
-Yes, but make sure that the chat channel is not being used on a website. Otherwise the chat window will be visible, but non-functional.
-
 ## Properties
 
 The following fields are available in the **Properties** tab:
 
 * **Language**: Select the language of the chat window.
-* **Badge header**: Enter a short text to display on the chat icon on your website. <!-- Fix reuse ID=a1 -->![icon][img3]
+* **Badge header**: Enter a short text to display on the chat icon on your website.
+    ![Chat badge -screenshot][img3]
 * **Description**: Enter a description of the purpose of this chat channel. This text will only be displayed internally.
 * **Warning on new chat**: If no agents respond to a new chat within the specified amount of time, a notification is sent to agents with status **Present**. Agents must also have the permission **Notifications** in the **Agents** tab.
 * **Manager warning on new chat**: If no agents respond to a new chat within the specified amount of time, a notification is sent to the manager(s). This warning is only sent if there are agents with status **Present**.
@@ -134,10 +131,16 @@ The following fields are available in the **Post-chat form** tab:
 
 The preview on the right displays the chat window with the current settings.
 
+## FAQ
+
+### Can I delete a chat channel?
+
+Yes, but make sure that the chat channel is not being used on a website. Otherwise the chat window will be visible, but non-functional.
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../../media/icons/chat-btn-small.png
-[img3]: ../../../media/chat-badge-example.png
-[img4]: ../../../../media/icons/chat-mandatorytab.png
+[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/chat-btn-small.png
+[img3]: ../../media/chat-badge-example.png
+[img4]: ../../../media/icons/chat-mandatorytab.png

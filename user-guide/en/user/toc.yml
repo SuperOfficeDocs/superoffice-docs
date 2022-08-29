@@ -1,8 +1,6 @@
 items:
 - name: Key functions in SuperOffice CRM
   href: getting-started/toc.yml
-- name: Chat
-  href: chat/toc.yml
 - name: Company
   href: company/toc.yml
 - name: Contact

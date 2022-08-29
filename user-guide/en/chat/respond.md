@@ -4,7 +4,7 @@ title: chat respond
 description: chat respond
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  CRM/Service
+keywords: chat
 so.topic: help
 language: en
 ---
@@ -71,13 +71,13 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 [1]: link-to-person.md
 [2]: transfer-to-another-agent.md
 [3]: create-request.md
-[4]: Send-FAQ-or-reply-template.md
+[4]: send-faq-or-reply-template.md
 [5]: send-files.md
 [6]: function-from-customers-perspective.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: media/chat-tab-dashbiard.png
+[img1]: ../../media/icons/btn-menu.png
+[img2]: media/chat-tab-dashboard.png
 [img3]: media/chat-status-present.png
 [img4]: media/chat-status-away.png
-[img5]: ../../../media/icons/chat-btn-emoji.png
+[img5]: ../../media/icons/chat-btn-emoji.png
