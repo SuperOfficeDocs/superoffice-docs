@@ -16,7 +16,7 @@ You move between the main sections of SuperOffice CRM using the Navigator, which
 > [!TIP]
 > Clicking the word next to the button gives you access to various options, such as favorites list, history list and search. If you hold the mouse pointer over a record in any the lists, a tooltip is displayed containing additional data about the record.
 
-![Example -screenshot][img2]
+![Example - screenshot][img2]
 
 [!include[Tip](../../includes/tip-show-hide-nav.md)]
 

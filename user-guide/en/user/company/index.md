@@ -16,7 +16,7 @@ language: en
 The **Company** screen contains all your company customers. For each company, you can view the associated contacts in the **Contacts** section tab.
 
 > [!NOTE]
-> Contacts that are not associated with a company, can be found in the **Contact** screen. See [Contact]1[].
+> Contacts that are not associated with a company, can be found in the **Contact** screen. See [Contact][1].
 
 In the **Company** screen, every record in the database is displayed like an index card. A record in a database contains all the information that has been entered for a company.
 

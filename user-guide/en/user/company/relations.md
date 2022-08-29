@@ -31,7 +31,7 @@ Double-click on a relation row and the **Relation** dialog opens, showing all th
 
 <!-- Referenced links -->
 [1]: Adding-relations.md
-[]2: Deleting-relations.md
+[2]: Deleting-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/binders.bmp
