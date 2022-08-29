@@ -145,7 +145,7 @@ so.envir:
 | [documenttemplatelanguage](documenttemplatelanguage.md) ||
 | [documenttemplatesfiltered](documenttemplatesfiltered.md) |MDO Provider for Document Templates, excluding Document details and quote mail templates, which are for system use rather than end-user choosing.|
 | [documenttypes](documenttypes.md) |List of document types for the given plugin|
-| [efd_13](efd_13.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
+| [efd_6](efd_6.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
 | [ejcategory](ejcategory.md) |EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY|
 | [ejuser](ejuser.md) ||
 | [emailaddress](emailaddress.md) |List of e-mail addresses matching the search valu|
