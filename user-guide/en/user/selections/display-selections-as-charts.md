@@ -29,7 +29,7 @@ This means that your selection does not contain relevant data for this chart. Ch
 > Go to **Dashboard** in the navigator to view charts of ALL SuperOffice data. See [Dashboard][1].
 
 <!-- Referenced links -->
-[1]: ../dashboard/index.md
+[1]: ../../dashboard/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/selection-preview.png

@@ -44,7 +44,7 @@ The navigator contains the following buttons:
 * [The History list][14] ![icon][img16]
 
 <!-- Referenced links -->
-[1]: ../dashboard/index.md
+[1]: ../../dashboard/index.md
 [2]: ../company/index.md
 [3]: ../person/index.md
 [4]: ../diary/index.md

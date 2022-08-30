@@ -4,7 +4,7 @@ title: Dashboard duplicate
 description: Dashboard duplicate
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: dashboard
 so.topic: help
 language: en
 ---

@@ -11,7 +11,7 @@
 [3]: ../selections/selection-tab-criteria.md
 [4]: ../selections/selection-tab-details.md
 [5]: ../selections/display-selections-as-charts.md
-[6]: ../dashboard/dashboard-create.md
+[6]: ../../dashboard/dashboard-create.md
 [7]: ../selections/mailings-section-tab.md
 
 <!-- Referenced images -->

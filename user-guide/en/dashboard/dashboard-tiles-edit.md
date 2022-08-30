@@ -4,7 +4,7 @@ title: Dashboard Tiles Edit
 description: Dashboard Tiles Edit
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: dashboard
 so.topic: help
 language: en
 ---
@@ -22,9 +22,9 @@ To edit an existing tile:
 7. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ../getting-started/using-search-criteria.md
-[2]: ../translate-fields.md
+[1]: ../user/getting-started/using-search-criteria.md
+[2]: ../user/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
-[img2]: ../../../media/icons/dashboard/dashboard-tile-edit.png
+[img1]: ../../media/icons/translate.png
+[img2]: ../../media/icons/dashboard/dashboard-tile-edit.png

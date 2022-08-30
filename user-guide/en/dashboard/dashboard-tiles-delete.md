@@ -4,7 +4,7 @@ title: Dashboard Tiles Delete
 description: Dashboard Tiles Delete
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: dashboard
 so.topic: help
 language: en
 ---
@@ -27,4 +27,4 @@ To delete a tile:
 [1]: dashboard-add-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/dashboard/dashboard-tile-delete.png
+[img1]: ../../media/icons/dashboard/dashboard-tile-delete.png

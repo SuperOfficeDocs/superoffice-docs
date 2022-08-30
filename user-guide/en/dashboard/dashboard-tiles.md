@@ -4,7 +4,7 @@ title: Dashboard Tiles
 description: Dashboard Tiles
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: dashboard
 so.topic: help
 language: en
 ---
@@ -43,4 +43,4 @@ Click ![icon][img1] in the header of a tile to access the following options:
 [3]: dashboard-tiles-delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/dashboard/dashboard-tile-options.png
+[img1]: ../../media/icons/dashboard/dashboard-tile-options.png

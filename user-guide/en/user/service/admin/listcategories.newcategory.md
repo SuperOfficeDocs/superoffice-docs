@@ -68,7 +68,7 @@ To create a new category:
 * [Search for requests in categories][6]
 
 <!-- Referenced links -->
-[1]: ../request/mainmenu.md#hyperlinks-to-categories
+[1]: ../../../dashboard/service/index.md#hyperlinks-to-categories
 [2]: editUser.helpSettings.md
 [3]: listUsers.listUsergroups.md
 [4]: ../reply-templates/index.md

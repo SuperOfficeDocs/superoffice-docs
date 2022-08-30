@@ -4,7 +4,7 @@ title: Dashboard View and filter
 description: Dashboard View and filter
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: dashboard
 so.topic: help
 language: en
 ---
@@ -13,7 +13,7 @@ language: en
 
 You can click on data in a tile (for instance a sector in a pie chart) to display the underlying data, open individual records, and copy them to a selection.
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../includes/to-do-this.md)]
 
 1. Open the **Dashboard** screen.
 2. Select the relevant dashboard.
@@ -25,6 +25,6 @@ You can click on data in a tile (for instance a sector in a pie chart) to displa
 5. Click **Close** when you are done.
 
 <!-- Referenced links -->
-[1]: ../selections/adding-members-to-static-selections.md
+[1]: ../user/selections/adding-members-to-static-selections.md
 
 <!-- Referenced images -->

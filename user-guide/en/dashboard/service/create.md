@@ -1,10 +1,10 @@
 ---
-uid: help-en-ticket-mainmenu-dashboard-create
+uid: help-en-dashboard-create-service
 title: ticket mainMenu dashboard create
 description: ticket mainMenu dashboard create
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: dashboard
 so.topic: help
 language: en
 ---

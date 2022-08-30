@@ -3,6 +3,8 @@ items:
     href: index.md
   - name: Chat
     href: chat/toc.yml
+  - name: Dashboard
+    href: dashboard/toc.yml
   - name: User
     href: user/toc.yml
   - name: Admin

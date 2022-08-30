@@ -4,7 +4,7 @@ title: Dashboard tiles sales targets
 description: Dashboard tiles sales targets
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: dashboard
 so.topic: help
 language: en
 ---
@@ -72,14 +72,14 @@ To add a tile with sales targets to a dashboard:
 
 <!-- Referenced links -->
 [1]: dashboard-tiles-edit.md
-[2]: ../getting-started/using-search-criteria.md
-[3]: ../translate-fields.md
-[4]: ../sale/sales-targets.md
+[2]: ../user/getting-started/using-search-criteria.md
+[3]: ../user/translate-fields.md
+[4]: ../user/sale/sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
-[img2]: ../../../media/icons/dashboard/dashboard-tiletype-bignumbers.png
-[img3]: ../../../media/icons/dashboard/dashboard-tiletype-bar.png
-[img4]: ../../../media/icons/dashboard/dashboard-tiletype-column.png
-[img5]: ../../../media/icons/dashboard/dashboard-tiletype-gauge.png
-[img6]: ../../../media/icons/dashboard/dashboard-tile-edit.png
+[img1]: ../../media/icons/translate.png
+[img2]: ../../media/icons/dashboard/dashboard-tiletype-bignumbers.png
+[img3]: ../../media/icons/dashboard/dashboard-tiletype-bar.png
+[img4]: ../../media/icons/dashboard/dashboard-tiletype-column.png
+[img5]: ../../media/icons/dashboard/dashboard-tiletype-gauge.png
+[img6]: ../../media/icons/dashboard/dashboard-tile-edit.png

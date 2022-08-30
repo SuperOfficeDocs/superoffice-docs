@@ -400,14 +400,6 @@ items:
     href: request/listtickets.showlisttickets.md
   - name: Ticket listTickets useLists
     href: request/listtickets.uselists.md
-  - name: Ticket mainMenu
-    href: request/mainmenu.md
-  - name: Ticket mainMenu dashboard create
-    href: request/mainmenu.dashboard-create.md
-  - name: Ticket mainMenu dashboard delete
-    href: request/mainmenu.dashboard-delete.md
-  - name: Ticket mainMenu dashboard edit
-    href: request/mainmenu.dashboard-edit.md
   - name: Ticket newQuickTicket
     href: request/newquickticket.md
   - name: Ticket newTicket

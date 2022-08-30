@@ -1,0 +1,33 @@
+items:
+- name: Overview
+  href: index.md
+- name: Create a new dashboard
+  href: dashboard-create.md
+- name: Add tiles and edit layout
+  href: dashboard-add-tiles.md
+- name: Edit a dashboard
+  href: dashboard-edit.md
+- name: Duplicate a dashboard
+  href: dashboard-duplicate.md
+- name: Delete a dashboard
+  href: dashboard-delete.md
+- name: Working with tiles
+  href: dashboard-tiles.md
+  items:
+  - name: Edit a tile
+    href: dashboard-tiles-edit.md
+  - name: View tile data
+    href: dashboard-view-and-filter.md
+  - name: Sales targets
+    href: dashboard-tiles-sales-targets.md
+  - name: Remove a tile
+    href: dashboard-tiles-delete.md
+- name: Dashboards in Service
+  href: service/index.md
+  items:
+  - name: Create a dashboard
+    href: service/create.md
+  - name: Edit a dashboard
+    href: service/edit.md
+  - name: Delete a dashboard
+    href: service/delete.md

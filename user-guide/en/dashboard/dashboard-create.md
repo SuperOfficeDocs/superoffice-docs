@@ -4,7 +4,7 @@ title: Dashboard Create
 description: Dashboard Create
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: dashboard
 so.topic: help
 language: en
 ---
@@ -36,7 +36,7 @@ To create a new dashboard tab:
 
 9. Click **Save** to create the dashboard. The new dashboard opens, containing no tiles.
 
-On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start adding tiles to the dashboard, as described in [Add tiles / Edit layout][2].
+On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start [adding tiles to the dashboard][2].
 
 ## Related topics
 
@@ -46,11 +46,11 @@ On the right side of the new dashboard, the **Add tile / Edit layout** section i
 * [Delete a dashboard][5]
 
 <!-- Referenced links -->
-[1]: ../translate-fields.md
+[1]: ../user/translate-fields.md
 [2]: dashboard-add-tiles.md
 [3]: dashboard-edit.md
 [4]: dashboard-duplicate.md
 [5]: dashboard-delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
+[img1]: ../../media/icons/translate.png
