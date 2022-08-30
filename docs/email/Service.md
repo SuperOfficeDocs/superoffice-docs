@@ -128,7 +128,7 @@ You do not have to delete and create a new mailbox just to change authentication
 4. Click OK. The mailbox is updated.
 
 > [!NOTE]
-> Up to version 10.1.4, If we dont recognize the UPN, or lost the ID of existing mailbox, it will redirect back to Mailbox properties and does not behave correctly. Make sure your MX Record is pointing to the Microsoft® Exchange Online server.
+> Up to version 10.1.4: If we don't recognize the UPN you will be redirected to mailbox properties. Click Cancel -> redirect back to mailboxes tab. Fix and verify the UPN. Make sure your MX Record is pointing to the Microsoft® Exchange Online server. Try again.
 
 #### What is UPN (User Principal Name)?
 
