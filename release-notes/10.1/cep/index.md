@@ -12,6 +12,8 @@ so.topic: reference
 # New and improved Customer engagement platform
 
 * [Chat – Configuration options for styling chat widget (10.1.3)][3]
+* [Chat – Allow file upload in chat for the customer (10.1.5)][5]
 
 <!-- Referenced links-->
 [3]: 10.1.3-update.md
+[5]: 10.1.5-update.md

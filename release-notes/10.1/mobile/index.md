@@ -11,8 +11,11 @@ so.topic: reference
 
 # New and improved mobile
 
-* [CallerID – Identify your calls with Mobile CRM (10.1.9)][9]
-* [Notifications – Request notifications (10.1.9)][9]
+* [CallerID – Identify your calls with Mobile CRM (10.1.9)][19]
+* [Notifications – Request notifications (10.1.9)][19]
+* [Notifications – Notifications for Sale Quote approval (10.2.2)][22]
+* [Search – Search for anything (10.2.2)][22]
 
 <!-- Referenced links-->
-[9]: 10.1.9-update.md
+[19]: 10.1.9-update.md
+[22]: 10.2.2-update.md
