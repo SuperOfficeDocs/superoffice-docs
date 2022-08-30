@@ -1,0 +1,33 @@
+items:
+- name: Overview
+  href: index.md
+- name: Create new company
+  href: create.md
+- name: Edit a company
+  href: edit.md
+- name: Copy a company
+  href: copy.md
+- name: Merge companies
+  href: merge-companies.md
+- name: Delete a company
+  href: delete.md
+- name: Print company info
+  href: print.md
+- name: Add a relation
+  href: add-relation.md
+- name: Delete a relation
+  href: delete-relation.md
+- name: Change the rank of contacts
+  href: change-rank-of-contacts.md
+- name: Working with activities in company
+  items:
+  - name: View activities
+    href: view-activities.md
+  - name: Deleting activities
+    href: delete-activities-contact.md
+  - name: Replying to email from the Activities section tab
+    href: replying-to-email-from-activities-section-tab.md
+  - name: Forwarding email from the Activities section tab
+    href: forwarding-email-from-activities-section-tab.md
+- name: Address formats for different countries
+  href: address-formats-for-different-countries.md

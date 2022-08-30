@@ -13,7 +13,7 @@ language: en
 
 It may happen that you want to create a series of appointments to occur at regular intervals, e.g. a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function. Do as follows:
 
-1. Open the **Appointment**, **Task** or **Phone Call** dialog and enter the required information. [!include[See Appointment dialog](../includes/see-apt-dialog.md)]
+1. Open the **Appointment**, **Task** or **Phone Call** dialog and enter the required information. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 
 2. Select the **Details** tab.
 

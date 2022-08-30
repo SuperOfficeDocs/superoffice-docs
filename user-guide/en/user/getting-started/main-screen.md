@@ -40,10 +40,10 @@ The main screen in SuperOffice CRM consists of five main elements:
 [5]: adjusting-column-widths.md
 [6]: changing-column-view.md
 [7]: use-filters-in-section-tabs.md
-[8]: ../company/index.md
-[9]: ../company/section-tabs-in-company-screen.md
-[10]: ../person/index.md
-[11]: ../person/section-tabs-in-contact-screen.md
+[8]: ../../company/index.md
+[9]: ../../clients/sales/section-tabs-in-company-screen.md
+[10]: ../../person/index.md
+[11]: ../../clients/sales/section-tabs-in-contact-screen.md
 [12]: ../diary/diary.md
 [13]: ../diary/activities-list.md
 [14]: ../project/index.md

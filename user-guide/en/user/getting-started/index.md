@@ -44,8 +44,8 @@ Access to other useful functions is also just a click away thanks to the **New**
 [5]: main-screen.md
 [6]: search-options-in-crm.md
 [7]: ../../dashboard/index.md
-[8]: ../company/index.md
-[9]: ../person/index.md
+[8]: ../../company/index.md
+[9]: ../../person/index.md
 [10]: ../diary/index.md
 [11]: ../sale/index.md
 [12]: ../quote/quote-main.md

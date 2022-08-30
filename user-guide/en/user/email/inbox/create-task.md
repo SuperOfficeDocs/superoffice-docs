@@ -18,7 +18,7 @@ In order to do so:
 1. Go to the inbox.
 2. Select the required message in the inbox.
 3. Click **Archive** ![icon][img1].
-4. Click **Create task**. The **Task** dialog opens. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
+4. Click **Create task**. The **Task** dialog opens. [!include[See Appointment dialog](../../../includes/see-apt-dialog.md)]
 
 <!-- Fix reuse ID=a1 -->
 

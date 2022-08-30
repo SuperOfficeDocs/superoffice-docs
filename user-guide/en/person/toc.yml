@@ -1,0 +1,38 @@
+items:
+- name: Overview
+  href: index.md
+- name: Create new contact
+  href: create.md
+- name: Edit a contact
+  href: edit.md
+- name: Move a contact
+  href: move.md
+- name: Merge contacts
+  href: merge-contacts.md
+- name: Delete a contact
+  href: delete.md
+- name: Print
+  href: print.md
+- name: Send email to a contact
+  href: send-email.md
+- name: Add relation
+  href: add-relation.md
+- name: Delete relation
+  href: delete-relation.md
+- name: Privacy settings
+  href: gdpr/index.md
+  items:
+  - name: Edit privacy settings for a contact
+    href: gdpr/edit-legalbase.md
+  - name: Send privacy confirmation email
+    href: gdpr/send-privacy-confirmation-email.md
+  - name: Generate personal data report
+    href: gdpr/generate-personal-data-report.md
+  - name: For administrators
+    items:
+    - name: Add consent purpose
+      href: gdpr/add-consent-purpose.md
+    - name: Add legal base
+      href: gdpr/privacy-legal-base-add.md
+    - name: Add privacy source
+      href: gdpr/privacy-source-add.md

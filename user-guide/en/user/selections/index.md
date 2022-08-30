@@ -110,7 +110,7 @@ To move backwards and forwards between selections:
 
 ## Add record as a favourite
 
-[!include[ALT](../includes/howto-add-favorite.md)]
+[!include[ALT](../../includes/howto-add-favorite.md)]
 
 ## Tasks
 

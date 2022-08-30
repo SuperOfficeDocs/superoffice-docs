@@ -10,8 +10,6 @@ items:
   href: users/toc.yml
 - name: Role
   href: role/toc.yml
-- name: Privacy
-  href: privacy/toc.yml
 - name: Status monitor (SAINT)
   href: saint/toc.yml
 - name: ai

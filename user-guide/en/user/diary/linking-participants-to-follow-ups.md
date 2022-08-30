@@ -15,7 +15,7 @@ When you create a follow-up that concerns other people, you can add them as part
 
 To book participants and resources:
 
-1. Open the **Appointment**, **Task** or **Phone Call** dialog and enter the required information. [!include[See Appointment dialog](../includes/see-apt-dialog.md)]
+1. Open the **Appointment**, **Task** or **Phone Call** dialog and enter the required information. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 
 2. Open the **Participants** tab and click **Add** at the bottom left of the window. The **Invitation** dialog opens.
 

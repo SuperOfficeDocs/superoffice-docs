@@ -29,7 +29,7 @@ This function supports summer time.
 
 ## How do you select time zones?
 
-Time zones are displayed in a list box in the Diary (see [Diary][1]) and in the dialog for follow-ups.[!include[See Appointment dialog](../includes/see-apt-dialog.md)] The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
+Time zones are displayed in a list box in the Diary (see [Diary][1]) and in the dialog for follow-ups.[!include[See Appointment dialog](../../includes/see-apt-dialog.md)] The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
 
 The time zone list is sorted by country. At the top of the list is the name of the selected country and its flag. You can get to the time zone list in several different ways:
 

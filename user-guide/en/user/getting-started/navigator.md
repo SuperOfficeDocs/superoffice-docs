@@ -45,8 +45,8 @@ The navigator contains the following buttons:
 
 <!-- Referenced links -->
 [1]: ../../dashboard/index.md
-[2]: ../company/index.md
-[3]: ../person/index.md
+[2]: ../../company/index.md
+[3]: ../../person/index.md
 [4]: ../diary/index.md
 [5]: ../sale/index.md
 [6]: ../project/index.md

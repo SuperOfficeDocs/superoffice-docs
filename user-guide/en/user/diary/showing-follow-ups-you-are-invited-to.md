@@ -11,7 +11,7 @@ language: en
 
 # Show follow-ups you are invited to
 
-When you view a follow-up you are not the owner of, the usual **Appointment**, **Task** or **Phone Call** dialog is displayed. [!include[See Appointment dialog](../includes/see-apt-dialog.md)] However, you cannot make changes to other people's invitations, nor add participants, so the **Add** button in the **Participants** tab is disabled.
+When you view a follow-up you are not the owner of, the usual **Appointment**, **Task** or **Phone Call** dialog is displayed. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)] However, you cannot make changes to other people's invitations, nor add participants, so the **Add** button in the **Participants** tab is disabled.
 
 Note:
 

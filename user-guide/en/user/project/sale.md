@@ -34,7 +34,7 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 <!-- Referenced links -->
 [1]: ../sale/status-of-sale-sold-and-lost.md
 [2]: ../sale/index.md
-[3]: ../company/using-filter-function-contact.md
+[3]: ../diary/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/salg-solgt-detaljkort.bmp

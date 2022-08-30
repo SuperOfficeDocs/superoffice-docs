@@ -30,7 +30,7 @@ The procedure depends on how documents are managed in your SuperOffice installat
 
 ## Add record as a favorite
 
-[!include[ALT](../includes/howto-add-favorite.md)]
+[!include[ALT](../../includes/howto-add-favorite.md)]
 
 <!-- Referenced links -->
 [1]: doc-checkoutin.md

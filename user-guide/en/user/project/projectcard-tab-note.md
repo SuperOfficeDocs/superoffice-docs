@@ -11,4 +11,4 @@ language: en
 
 # The Note tab (Project screen)
 
-[!include[About the Note tab](../includes/about-note-tab.md)]
+[!include[About the Note tab](../../includes/about-note-tab.md)]
