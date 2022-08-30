@@ -14,6 +14,7 @@ so.topic: reference
 
 | Variable | Description |
 |----------|-------------|
+| quid | Quote ID |
 | qabi | Version approved by (ID) |
 | qaby | Version approved by (Full name) |
 | qadt | Version approval reg date |
