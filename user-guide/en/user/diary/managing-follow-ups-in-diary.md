@@ -15,7 +15,7 @@ Follow-ups are a key concept in SuperOffice CRM and are described under [Work wi
 
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
-When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. [!include[See Appointment dialog](../includes/see-apt-dialog.md)]
+When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 
 ## What would you like to do now?
 

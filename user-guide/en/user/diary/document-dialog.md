@@ -122,7 +122,7 @@ Below these options are shortcuts to other relevant tasks that can be performed 
 [6]: ../getting-started/using-fastsearcher.md
 [7]: marking-activities-as-completed-not-completed.md
 [8]: doc-checkoutin.md
-[9]: ../company/creating-shortcuts-to-entries-in-crm.md
+[9]: ../../orphans/creating-shortcuts-to-entries-in-crm.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/dialogboksknapper-pil-ned.bmp

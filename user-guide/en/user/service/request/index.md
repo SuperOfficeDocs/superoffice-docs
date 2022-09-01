@@ -24,7 +24,7 @@ language: en
 * [Efficient handling of requests using AI][8]
 
 <!-- Referenced links -->
-[1]: mainMenu.md
+[1]: ../../../dashboard/service/index.md
 [2]: ticketStepByStep.md
 [3]: receiveTickets.md
 [4]: newTicket.md

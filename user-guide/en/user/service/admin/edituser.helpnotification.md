@@ -43,5 +43,5 @@ You can receive notifications of the following events in SuperOffice Service.
 [2]: listPriorities.editAlert.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../../media/icons/globalmenu-settings-small.png
 [img2]: ../../../../media/icons/globalmenu-notice-new.png

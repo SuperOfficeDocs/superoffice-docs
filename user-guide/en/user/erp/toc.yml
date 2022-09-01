@@ -7,8 +7,6 @@ items:
   href: erp-main.md
 - name: ERP sync disconnect
   href: erp-sync-disconnect.md
-- name: ERP tab (company)
-  href: erp-tab-company.md
 - name: ERP tab (contact)
   href: erp-tab-contact.md
 - name: ERP tab (project)

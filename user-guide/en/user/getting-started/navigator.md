@@ -44,15 +44,15 @@ The navigator contains the following buttons:
 * [The History list][14] ![icon][img16]
 
 <!-- Referenced links -->
-[1]: ../dashboard/index.md
-[2]: ../company/index.md
-[3]: ../person/index.md
+[1]: ../../dashboard/index.md
+[2]: ../../company/index.md
+[3]: ../../person/index.md
 [4]: ../diary/index.md
 [5]: ../sale/index.md
 [6]: ../project/index.md
 [7]: ../selections/index.md
-[8]: ../email/inbox/index.md
-[9]: ../chat/index.md
+[8]: ../../email/inbox/index.md
+[9]: ../../chat/index.md
 [10]: ../reports/index.md
 [11]: ../marketing/mailing-workflow.md
 [12]: ../service/index.md

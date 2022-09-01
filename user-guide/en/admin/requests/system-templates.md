@@ -78,6 +78,6 @@ In the **Weekly stats** tab, you have the following options:
 [!include[How to change template](../../includes/select-other-template.md)]
 
 <!-- Referenced links -->
-[1]: email/index.md
+[1]: ../../email/index.md
 
 <!-- Referenced images -->

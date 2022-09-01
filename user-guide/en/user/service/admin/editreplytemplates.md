@@ -75,7 +75,7 @@ In the **Weekly stats** tab, you have the following options:
 
 <!-- Referenced links -->
 [1]: ../reply-templates/index.md
-[2]: listfilters.listfilters.md
+[2]: ../../../email/service/mailboxes/index.md
 [3]: editInfo.settings.md
 
 <!-- Referenced images -->

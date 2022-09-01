@@ -31,7 +31,7 @@ Open the **Reports** screen by clicking the **Reports** button ![icon][img1] in 
 * [Manage saved reports][7]
 
 <!-- Referenced links -->
-[1]: ../dashboard/index.md
+[1]: ../../dashboard/index.md
 [2]: showing-report-properties.md
 [3]: creating-reports.md
 [4]: viewing-reports.md

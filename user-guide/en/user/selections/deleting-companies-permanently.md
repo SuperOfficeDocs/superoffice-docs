@@ -25,7 +25,7 @@ If you want to delete multiple records (contacts, companies, sales, projects etc
 5. When you are asked whether you want to delete the records, click **Yes**.
 6. When you are asked whether you really want to delete the records from the database, click **Yes**.
 
-[!include[Note about restore](../includes/note-restore.md)]
+[!include[Note about restore](../../includes/note-restore.md)]
 
 <!-- Referenced links -->
 [1]: ../getting-started/find-dialog.md

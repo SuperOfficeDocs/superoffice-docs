@@ -90,7 +90,7 @@ To create projects:
 * [Work with project guides][10]
 
 <!-- Referenced links -->
-[1]: ../company/browser-in-superoffice-crm.md
+[1]: ../getting-started/browser-in-superoffice-crm.md
 [2]: projectguide.md
 [3]: more-tab-project.md
 [4]: event-tab.md

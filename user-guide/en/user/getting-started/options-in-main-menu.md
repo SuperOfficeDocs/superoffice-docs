@@ -30,7 +30,7 @@ Click the **Main menu** button in the Top bar to access the following options:
 [2]: duplicates.md
 [3]: notepad.md
 [4]: use-filters-in-section-tabs.md
-[5]: ../company/creating-shortcuts-to-entries-in-crm.md
+[5]: ../../orphans/creating-shortcuts-to-entries-in-crm.md
 [6]: ../diary/linking-participants-to-follow-ups.md
 [7]: ../sale/sales-targets.md
 

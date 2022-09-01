@@ -16,7 +16,7 @@ The **Diary** screen contains the following section tabs:
 * [Activities][1]: The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list.
 * [Sales][2]: The **Sales** section tab shows essential information about sales.
 
-[!include[Add more section tabs](../includes/more-tab.md)]
+[!include[Add more section tabs](../../includes/more-tab.md)]
 
 <!-- Referenced links -->
 [1]: activities-list.md

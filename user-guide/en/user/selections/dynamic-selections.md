@@ -57,6 +57,6 @@ You can create a selection containing all open request that have not been update
 <!-- Referenced links -->
 [1]: static-selections.md
 [2]: create-selections.md
-[3]: ../company/using-status-monitors-in-dynamic-selections.md
+[3]: ../../saint/using-status-monitors-in-dynamic-selections.md
 
 <!-- Referenced images -->

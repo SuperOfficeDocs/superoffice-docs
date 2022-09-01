@@ -11,7 +11,7 @@ language: en
 
 # User-defined fields
 
-Several sections of SuperOffice CRM, for example, the **Company** screen, contain a separate tab called **More**. Here you can enter your own fields to customise the program to your organisation's requirements. These fields are defined in SuperOffice Settings and maintenance.
+Several sections of SuperOffice CRM, for example, the **Company** screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. These fields are defined in SuperOffice Settings and maintenance.
 
 ## Related topics
 
@@ -22,8 +22,8 @@ Several sections of SuperOffice CRM, for example, the **Company** screen, contai
 * [The More tab (Document)][5]
 
 <!-- Referenced links -->
-[1]: ../company/create-company-more-tab.md
-[2]: ../person/contactcard-tab-more.md
+[1]: ../../company/create.md#more-tab
+[2]: ../../person/create.md#more-tab
 [3]: ../project/more-tab-project.md
 [4]: ../diary/more-tab-follow-ups.md
 [5]: ../diary/more-tab-document.md

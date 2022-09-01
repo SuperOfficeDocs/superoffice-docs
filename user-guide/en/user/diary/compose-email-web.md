@@ -17,7 +17,7 @@ No matter where you are in SuperOffice CRM, you can compose a new email message 
 
 A simple way to create an email message:
 
-[!include[How to compose an email](../includes/howto-compose-email.md)]
+[!include[How to compose an email](../../includes/howto-compose-email.md)]
 
 When you have finished the message, and want to send it, you have the following options:
 
@@ -31,7 +31,7 @@ When you have finished the message, and want to send it, you have the following 
 
 <!-- Referenced links -->
 [1]: creating-new-documents.md
-[2]: ../email/inbox/archive-buttons.md
+[2]: ../../email/inbox/archive.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png

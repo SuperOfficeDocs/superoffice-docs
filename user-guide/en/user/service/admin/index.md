@@ -41,13 +41,13 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [4]: listCategories.md
 [5]: listPriorities.md
 [6]: listTicketStatuses.md
-[7]: listFilters.md
+[7]: ../../../email/service/index.md
 [8]: editReplyTemplates.md
 [9]: editInfo.md
 [10]: listCustLangs.md
 [11]: listCustCenter.config.md
 [12]: listCustCenter.edit.md
-[13]: ../../Chat/admin/index.md
+[13]: ../../../chat/admin/index.md
 [14]: soapConf.md
 [15]: ../blogic/index.md
 [16]: listInvoiceTypes.md

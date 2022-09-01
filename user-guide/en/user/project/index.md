@@ -19,7 +19,7 @@ To move backwards and forwards between projects, click the previous/next buttons
 
 ## Add record as a favourite
 
-[!include[ALT](../includes//howto-add-favorite.md)]
+[!include[ALT](../../includes/howto-add-favorite.md)]
 
 You can also:
 

@@ -1,0 +1,33 @@
+items:
+- name: Company screen
+  items:
+  - name: Section tabs in the Company screen
+    href: section-tabs-in-company-screen.md
+    items:
+    - name: Contacts
+      href: company-contacts.md
+    - name: Relations
+      href: company-relations.md
+    - name: Activities
+      href: company-activities.md
+    - name: Projects
+      href: company-projects.md
+    - name: Sales
+      href: company-sales.md
+    - name: Requests
+      href: company-requests.md
+- name: Contact screen
+  items:
+  - name: Section tabs in the Contact screen
+    href: section-tabs-in-contact-screen.md
+    items:
+    - name: Activities
+      href: contact-activities.md
+    - name: Sales
+      href: contact-sales.md
+    - name: Requests
+      href: contact-requests.md
+    - name: Projects
+      href: contact-projects.md
+    - name: Relations
+      href: contact-relations.md

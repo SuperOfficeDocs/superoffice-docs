@@ -1,18 +1,8 @@
 items:
 - name: Key functions in SuperOffice CRM
   href: getting-started/toc.yml
-- name: Chat
-  href: chat/toc.yml
-- name: Company
-  href: company/toc.yml
-- name: Contact
-  href: person/toc.yml
-- name: Dashboard
-  href: dashboard/toc.yml
 - name: Diary
   href: diary/toc.yml
-- name: Email
-  href: email/toc.yml
 - name: Mailing
   href: marketing/toc.yml
 - name: Project

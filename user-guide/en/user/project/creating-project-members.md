@@ -49,7 +49,7 @@ To link the project to a company, you must specify at least one project member, 
 
 <!-- Referenced links -->
 [1]: adding-project-members.md
-[2]: ../person/contact-create-contacts.md
+[2]: ../../person/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/binders.bmp

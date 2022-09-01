@@ -33,7 +33,7 @@ To move backwards and forwards between sales click the previous/next buttons ( !
 
 ## Add record as a favourite
 
-[!include[ALT](../includes/howto-add-favorite.md)]
+[!include[ALT](../../includes/howto-add-favorite.md)]
 
 ## What would you like to do now?
 
